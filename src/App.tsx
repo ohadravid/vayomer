@@ -4,11 +4,8 @@ import { parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import type { BookOptionSet, GuessResult, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
-import dailyDataFallback from "../data/daily.json";
-import optionsDataFallback from "../data/options.json";
-
-const DATA_URL = "data/daily.json";
-const OPTIONS_URL = "data/options.json";
+import dailyData from "../data/daily.json";
+import optionsData from "../data/options.json";
 const EPOCH_DATE = new Date(2026, 1, 6);
 const DAILY_ORDER_SEED = 20260805;
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
@@ -116,20 +113,6 @@ function parsePuzzleItems(data: unknown): PuzzleItem[] {
   return Array.isArray(payload) ? (payload as PuzzleItem[]) : [];
 }
 
-async function fetchJson<T>(url: string): Promise<T> {
-  const response = await fetch(url);
-  if (!response.ok) {
-    throw new Error(`Request failed: ${response.status}`);
-  }
-
-  const raw = await response.text();
-  if (raw.trimStart().startsWith("<")) {
-    throw new Error("Unexpected HTML response");
-  }
-
-  return JSON.parse(raw) as T;
-}
-
 export function App() {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -153,24 +136,16 @@ export function App() {
   }, []);
 
   useEffect(() => {
-    const load = async () => {
-      const [dailyData, optionsData] = await Promise.all([
-        fetchJson<unknown>(DATA_URL).catch(() => dailyDataFallback as unknown),
-        fetchJson<unknown>(OPTIONS_URL).catch(() => optionsDataFallback as unknown),
-      ]);
+    const list = parsePuzzleItems(dailyData as unknown);
+    if (list.length === 0) {
+      setItems([]);
+      setOptionSets([]);
+      return;
+    }
 
-      const list = parsePuzzleItems(dailyData);
-      if (list.length === 0) {
-        setItems([]);
-        setOptionSets([]);
-        return;
-      }
-
-      setItems(list);
-      setIndex(pickDailyItemIndex(list.length));
-      setOptionSets(parseOptionsDataset(optionsData));
-    };
-    void load();
+    setItems(list);
+    setIndex(pickDailyItemIndex(list.length));
+    setOptionSets(parseOptionsDataset(optionsData as unknown));
   }, []);
 
   const puzzle = useMemo(() => items[index], [items, index]);
@@ -197,7 +172,7 @@ export function App() {
     document.documentElement.lang = lang;
     document.documentElement.dir = direction;
     document.body.classList.toggle("rtl", direction === "rtl");
-    document.title = page === "about" ? t("about.title") : t("app.title");
+    document.title = page === "about" ? t("about.title") : t("app.pageTitle");
   }, [lang, page, t]);
 
   useEffect(() => {

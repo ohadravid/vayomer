@@ -12,7 +12,7 @@ tasks:
     cmds:
       - test -d node_modules || bun install
       - bun run build
-      - bun --serve dist/index.html --port=${PORT:-4173}
+      - sh -c 'cd dist && python3 -m http.server ${PORT:-4173}'
 
   web:test:
     desc: Run frontend unit tests

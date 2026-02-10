@@ -8,6 +8,7 @@ export const resources = {
       app: {
         kicker: "Daily Quote Puzzle",
         title: "Vayomer",
+        pageTitle: "Vayomer | Daily Quote Puzzle",
         subtitle: "Guess the speaker, the listener, and the missing word.",
         switchLanguage: "Switch language to {{language}}",
         easyModeOn: "Easy mode: on",
@@ -56,7 +57,8 @@ export const resources = {
       app: {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
         title: "וַיֹּאמֶר",
-        subtitle: "נַחֲשׁוּ אֶת הַדּוֹבֵר, אֶת הַנִּמְעָן, וְאֶת מִלַּת הגְּמוּל הנוֹסָף.",
+        pageTitle: "וַיֹּאמֶר | חידון ציטוט יומי",
+        subtitle: "נַחֲשׁוּ אֶת הַדּוֹבֵר, אֶת הַמַּאֲזִין, וְאֶת מִלַּת הגְּמוּל הנוֹסָף.",
         switchLanguage: "החלפת שפה ל-{{language}}",
         easyModeOn: "מצב קל: פעיל",
         easyModeOff: "מצב קל: כבוי",
@@ -70,7 +72,7 @@ export const resources = {
         link: "אודות ומקורות",
         backToGame: "חזרה לחידה",
         gameDescription:
-          "ויאמר הוא חידון ציטוט יומי שנבנה מטקסטים מקבילים של התנ\"ך בעברית ובאנגלית. בכל יום מזהים את הדובר, הנמען וההקשר.",
+          "ויאמר הוא חידון ציטוט יומי שנבנה מטקסטים מקבילים של התנ\"ך בעברית ובאנגלית. בכל יום מזהים את הדובר, המאזין וההקשר.",
         sourceHeading: "מקורות",
         hebrewLabel: "טקסט עברי:",
         hebrewSourceName: "מהדורת Unicode/XML של קודקס לנינגרד (UXLC), דרך tanach.us",
@@ -88,7 +90,7 @@ export const resources = {
       },
       guessForm: {
         speaker: "דובר",
-        listener: "נמען",
+        listener: "מאזין",
         portion: "פרשה",
         bonus: "מילה חסרה (קשה)",
         selectOption: "בחרו אפשרות",
