@@ -119,6 +119,14 @@ function detectHeOrEnglish(language: string | readonly string[] | null | undefin
 }
 
 const languageDetector = new LanguageDetector();
+languageDetector.addDetector({
+  name: "navigatorHeFirst",
+  lookup() {
+    if (typeof navigator === "undefined") return undefined;
+    const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
+    return detectHeOrEnglish(candidates);
+  },
+});
 
 void i18n.use(languageDetector).use(initReactI18next).init({
   resources,
@@ -126,7 +134,7 @@ void i18n.use(languageDetector).use(initReactI18next).init({
   supportedLngs: ["en", "he"],
   load: "languageOnly",
   detection: {
-    order: ["localStorage", "navigator"],
+    order: ["localStorage", "navigatorHeFirst"],
     lookupLocalStorage: LANGUAGE_STORAGE_KEY,
     caches: [],
     convertDetectedLanguage: detectHeOrEnglish,
