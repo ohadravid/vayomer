@@ -1,0 +1,34 @@
+data/full_run.log
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Node / frontend dependencies
+node_modules/
+
+# Frontend build outputs
+dist/
+build/
+data/checked_quotes/
+
+# Frontend test artifacts
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Tooling caches and metadata
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Frontend/debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sources
+English_Collection.4921q.0.xml
+Hebrew_Collection.4943d.0.xml
+Tanach.xml.zip

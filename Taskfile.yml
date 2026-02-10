@@ -1,0 +1,50 @@
+version: '3'
+
+tasks:
+  web:build:
+    desc: Build web bundle (Bun)
+    cmds:
+      - test -d node_modules || bun install
+      - bun run build
+
+  web:serve:dist:
+    desc: Build and serve dist (PORT defaults to 4173)
+    cmds:
+      - test -d node_modules || bun install
+      - bun run build
+      - bun --serve dist/index.html --port=${PORT:-4173}
+
+  web:test:
+    desc: Run frontend unit tests
+    cmds:
+      - test -d node_modules || bun install
+      - bun run test:web
+
+  web:check:
+    desc: Typecheck + test + build site
+    cmds:
+      - test -d node_modules || bun install
+      - bun run check:web
+
+  web:dev:
+    desc: Dev server with watch + autoreload (Bun)
+    cmds:
+      - test -d node_modules || bun install
+      - bun run dev
+
+  web:debug:
+    desc: Debug page with component scenarios (Bun)
+    cmds:
+      - test -d node_modules || bun install
+      - bun run dev:debug
+
+  web:dev:both:
+    desc: Run web app and debug page together (Bun)
+    cmds:
+      - test -d node_modules || bun install
+      - bun run dev:both
+
+  web:setup:
+    desc: Install web dependencies
+    cmds:
+      - bun install
