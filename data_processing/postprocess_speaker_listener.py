@@ -85,7 +85,8 @@ AUDIT_PROMPT = [
     "2) status=needs_fix only when you can confidently resolve names.",
     "3) status=unresolved when uncertain.",
     "4) quote_verse_start/end must stay in the same chapter.",
-    "5) keep existing values unchanged when status=ok.",
+    "5) quote_verse_end - quote_verse_start + 1 MUST be <= 3.",
+    "6) keep existing values unchanged when status=ok.",
 ]
 
 
@@ -101,6 +102,8 @@ class Stats:
     needs_fix: int = 0
     unresolved: int = 0
     fixed_items: int = 0
+    dropped_items: int = 0
+    kept_items: int = 0
     heuristic_ok: int = 0
     skipped_existing: int = 0
     errors: int = 0
@@ -332,6 +335,54 @@ def _build_input(item: Dict, idx: int, start: int, end: int) -> Dict:
     }
 
 
+def _riddle_is_substring(quote: object, riddle: object, lang: str) -> bool:
+    if not isinstance(quote, str) or not isinstance(riddle, str):
+        return False
+    return riddle in quote
+
+
+def _enforce_riddle_substring(item: Dict) -> None:
+    for lang in ("en", "he"):
+        section = item.get(lang)
+        if not isinstance(section, dict):
+            continue
+        quote = section.get("quote")
+        riddle = section.get("riddle")
+        if not isinstance(quote, str) or not isinstance(riddle, str):
+            continue
+        section["quote"] = cleanup_quote_with_riddle(quote, riddle, lang)
+
+
+def _item_constraints_ok(item: Dict) -> bool:
+    book, chapter, start, end = _get_book_chapter(item)
+    if not book or chapter is None or start is None or end is None:
+        return False
+    if end - start + 1 > 3:
+        return False
+
+    en = item.get("en", {})
+    he = item.get("he", {})
+    if not isinstance(en, dict) or not isinstance(he, dict):
+        return False
+
+    speaker_en = str(en.get("speaker", "") or "")
+    listener_en = str(en.get("listener", "") or "")
+    speaker_he = str(he.get("speaker", "") or "")
+    listener_he = str(he.get("listener", "") or "")
+
+    if _is_suspicious_en(speaker_en) or _is_suspicious_en(listener_en):
+        return False
+    if _is_suspicious_he(speaker_he) or _is_suspicious_he(listener_he):
+        return False
+
+    if not _riddle_is_substring(en.get("quote"), en.get("riddle"), "en"):
+        return False
+    if not _riddle_is_substring(he.get("quote"), he.get("riddle"), "he"):
+        return False
+
+    return True
+
+
 def _apply_fix(
     item: Dict,
     book: str,
@@ -346,6 +397,8 @@ def _apply_fix(
         return False
     if start > end:
         start, end = end, start
+    if end - start + 1 > 3:
+        return False
 
     code = bible_sources.BOOK_NAME_TO_CODE.get(book)
     if not code:
@@ -369,6 +422,10 @@ def _apply_fix(
     riddle_he = he.get("riddle", "")
     en["quote"] = cleanup_quote_with_riddle(new_en, riddle_en, "en")
     he["quote"] = cleanup_quote_with_riddle(new_he, riddle_he, "he")
+    if not _riddle_is_substring(en.get("quote"), riddle_en, "en"):
+        return False
+    if not _riddle_is_substring(he.get("quote"), riddle_he, "he"):
+        return False
 
     speaker_en = _sanitize_name(suggested.get("speaker_en"))
     listener_en = _sanitize_name(suggested.get("listener_en"))
@@ -521,6 +578,7 @@ def _process_file(
 
     issue_lines: List[str] = []
     audit_results: List[Dict] = []
+    fixed_items: List[Dict] = []
 
     for idx, item in enumerate(items):
         result = results_by_idx[idx]
@@ -534,7 +592,33 @@ def _process_file(
         else:
             stats.unresolved += 1
 
-        book, chapter, cur_start, cur_end = _get_book_chapter(item)
+        book, chapter, _, _ = _get_book_chapter(item)
+        applied_fix = False
+        if mode == "fix" and book and chapter is not None:
+            if status == STATUS_NEEDS_FIX:
+                if _apply_fix(
+                    item=item,
+                    book=book,
+                    chapter=chapter,
+                    suggested=result,
+                    english_map=english_map,
+                    hebrew_map=hebrew_map,
+                ):
+                    stats.fixed_items += 1
+                    applied_fix = True
+            elif not _item_constraints_ok(item):
+                if _apply_fix(
+                    item=item,
+                    book=book,
+                    chapter=chapter,
+                    suggested=result,
+                    english_map=english_map,
+                    hebrew_map=hebrew_map,
+                ):
+                    stats.fixed_items += 1
+                    applied_fix = True
+
+        _, _, cur_start, cur_end = _get_book_chapter(item)
         audit_item = {
             "idx": idx,
             "id": item.get("id"),
@@ -558,9 +642,32 @@ def _process_file(
                 "quote_verse_end": result.get("quote_verse_end"),
             },
         }
+        if applied_fix:
+            audit_item["action"] = "fixed"
+
+        drop_reason = ""
+        if mode == "fix":
+            _enforce_riddle_substring(item)
+            if status == STATUS_UNRESOLVED:
+                drop_reason = "llm_unresolved"
+            elif status == STATUS_NEEDS_FIX and not applied_fix:
+                drop_reason = "llm_needs_fix_but_not_fixed"
+            elif not _item_constraints_ok(item):
+                drop_reason = "failed_constraints"
+
+            if drop_reason:
+                stats.dropped_items += 1
+                audit_item["action"] = "drop"
+                audit_item["drop_reason"] = drop_reason
+            else:
+                stats.kept_items += 1
+                if "action" not in audit_item:
+                    audit_item["action"] = "keep"
+                fixed_items.append(item)
+
         audit_results.append(audit_item)
 
-        if status != STATUS_OK:
+        if status != STATUS_OK or (mode == "fix" and drop_reason):
             issue_lines.append(
                 json.dumps(
                     {
@@ -571,21 +678,12 @@ def _process_file(
                         "reason": result.get("reason", ""),
                         "current": audit_item["current"],
                         "suggested": audit_item["suggested"],
+                        "action": audit_item.get("action"),
+                        "drop_reason": audit_item.get("drop_reason", ""),
                     },
                     ensure_ascii=False,
                 )
             )
-
-        if mode == "fix" and status == STATUS_NEEDS_FIX and book and chapter is not None:
-            if _apply_fix(
-                item=item,
-                book=book,
-                chapter=chapter,
-                suggested=result,
-                english_map=english_map,
-                hebrew_map=hebrew_map,
-            ):
-                stats.fixed_items += 1
 
     if issue_lines:
         issue_log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -601,12 +699,15 @@ def _process_file(
         "needs_fix": stats.needs_fix,
         "unresolved": stats.unresolved,
         "fixed_items": stats.fixed_items,
+        "kept_items": stats.kept_items,
+        "dropped_items": stats.dropped_items,
         "results": audit_results,
     }
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     audit_path.write_text(json.dumps(audit_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if mode == "fix":
+        data["items"] = fixed_items
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
 
@@ -618,7 +719,7 @@ def main() -> int:
     parser.add_argument("path", nargs="?", default="data/quotes", help="quote JSON file or directory")
     parser.add_argument("--mode", choices=["report", "fix"], default="report")
     parser.add_argument("--model", default="gemma3:27b")
-    parser.add_argument("--out-dir", default="data/quotes_expanded", help="only used in fix mode")
+    parser.add_argument("--out-dir", default="data/quotes", help="only used in fix mode")
     parser.add_argument("--audit-dir", default="data/speaker_listener_audit")
     parser.add_argument("--issues-log", default="data/speaker_listener_issues.jsonl")
     parser.add_argument("--english-xml", default=bible_sources.DEFAULT_ENGLISH_COLLECTION)
@@ -649,7 +750,12 @@ def main() -> int:
     for path in paths:
         audit_path = audit_dir / path.name
         out_path = out_dir / path.name
-        exists = audit_path.exists() and (args.mode == "report" or out_path.exists())
+        if args.mode == "report":
+            exists = audit_path.exists()
+        elif out_path.resolve() == path.resolve():
+            exists = audit_path.exists()
+        else:
+            exists = audit_path.exists() and out_path.exists()
         if exists and not args.force:
             skipped_existing += 1
             continue
@@ -697,11 +803,14 @@ def main() -> int:
         total.needs_fix += stats.needs_fix
         total.unresolved += stats.unresolved
         total.fixed_items += stats.fixed_items
+        total.kept_items += stats.kept_items
+        total.dropped_items += stats.dropped_items
         total.heuristic_ok += stats.heuristic_ok
 
     tqdm.write(
         "Done: files={files}, items={items}, ok={ok}, needs_fix={needs_fix}, unresolved={unresolved}, "
-        "fixed_items={fixed_items}, heuristic_ok={heuristic_ok}, llm_calls={llm_calls}, prompt_tokens={prompt_tokens}, "
+        "fixed_items={fixed_items}, kept_items={kept_items}, dropped_items={dropped_items}, "
+        "heuristic_ok={heuristic_ok}, llm_calls={llm_calls}, prompt_tokens={prompt_tokens}, "
         "response_tokens={response_tokens}, estimated_calls={estimated_calls}, "
         "skipped_existing={skipped_existing}, errors={errors}, audit_dir={audit_dir}, issues_log={issues_log}".format(
             files=total.files,
@@ -710,6 +819,8 @@ def main() -> int:
             needs_fix=total.needs_fix,
             unresolved=total.unresolved,
             fixed_items=total.fixed_items,
+            kept_items=total.kept_items,
+            dropped_items=total.dropped_items,
             heuristic_ok=total.heuristic_ok,
             llm_calls=total.llm_calls,
             prompt_tokens=total.prompt_tokens,

@@ -49,10 +49,15 @@ uv run python3 data_processing/postprocess_speaker_listener.py data/quotes --mod
 
 This checks whether speaker/listener values are concrete entities (not pronouns like `them`) and logs findings.
 
-Fix mode (applies LLM-suggested quote-span expansion for resolvable pronoun cases):
+Fix mode writes back into `data/quotes` by default and enforces:
+
+- speaker/listener must be concrete (not pronouns/reporting clauses),
+- quote span must be at most 3 verses,
+- `riddle` must be a direct substring of `quote` in both English and Hebrew,
+- unresolved/unfixable items are dropped.
 
 ```bash
-uv run python3 data_processing/postprocess_speaker_listener.py data/quotes --mode fix --out-dir data/quotes_expanded --model gemma3:27b
+uv run python3 data_processing/postprocess_speaker_listener.py data/quotes --mode fix --model gemma3:27b
 ```
 
 Useful flags:

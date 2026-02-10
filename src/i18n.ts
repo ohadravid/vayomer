@@ -1,6 +1,12 @@
 import i18n from "i18next";
+import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
-import { DEFAULT_LANGUAGE, LANGUAGE_STORAGE_KEY, isSupportedLanguage, normalizeLanguageTag } from "./lib/language";
+import {
+  DEFAULT_LANGUAGE,
+  LANGUAGE_PREFERENCE_SET_KEY,
+  LANGUAGE_STORAGE_KEY,
+  normalizeLanguageTag,
+} from "./lib/language";
 
 export const resources = {
   en: {
@@ -58,7 +64,7 @@ export const resources = {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
         title: "וַיֹּאמֶר",
         pageTitle: "וַיֹּאמֶר | חידון ציטוט יומי",
-        subtitle: "נַחֲשׁוּ אֶת הַדּוֹבֵר, אֶת הַמַּאֲזִין, וְאֶת מִלַּת הגְּמוּל הנוֹסָף.",
+        subtitle: "נַחֲשׁוּ אֶת הַדּוֹבֵר, אֶת הַמַּאֲזִין, וְאֶת הַמִּלָּה הַחֲסֵרָה.",
         switchLanguage: "החלפת שפה ל-{{language}}",
         easyModeOn: "מצב קל: פעיל",
         easyModeOff: "מצב קל: כבוי",
@@ -92,7 +98,7 @@ export const resources = {
         speaker: "דובר",
         listener: "מאזין",
         portion: "פרשה",
-        bonus: "מילה חסרה (קשה)",
+        bonus: "מילה חסרה",
         selectOption: "בחרו אפשרות",
         check: "בדיקה",
         guesses: "ניחושים: {{count}}",
@@ -102,31 +108,43 @@ export const resources = {
   },
 } as const;
 
-function detectInitialLanguage(): string {
-  if (typeof window === "undefined") return DEFAULT_LANGUAGE;
-  try {
-    const saved = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
-    if (isSupportedLanguage(saved)) return saved;
-  } catch {
-    // Ignore storage access errors.
+function detectHeOrEnglish(language: string | readonly string[] | null | undefined): "he" | "en" {
+  const candidates = Array.isArray(language) ? language : [language];
+  for (const candidate of candidates) {
+    if (!candidate) continue;
+    const base = candidate.toLowerCase().split("-")[0];
+    if (base === "he" || base === "iw") return "he";
   }
-  return normalizeLanguageTag(window.navigator?.language);
+  return "en";
 }
 
-void i18n.use(initReactI18next).init({
+const languageDetector = new LanguageDetector();
+
+void i18n.use(languageDetector).use(initReactI18next).init({
   resources,
-  lng: detectInitialLanguage(),
   fallbackLng: DEFAULT_LANGUAGE,
   supportedLngs: ["en", "he"],
   load: "languageOnly",
+  detection: {
+    order: ["localStorage", "navigator"],
+    lookupLocalStorage: LANGUAGE_STORAGE_KEY,
+    caches: [],
+    convertDetectedLanguage: detectHeOrEnglish,
+  },
   interpolation: { escapeValue: false },
 });
 
+let initializedLanguage = false;
 i18n.on("languageChanged", (next) => {
   if (typeof window === "undefined") return;
   const normalized = normalizeLanguageTag(next);
+  if (!initializedLanguage) {
+    initializedLanguage = true;
+    return;
+  }
   try {
     window.localStorage.setItem(LANGUAGE_STORAGE_KEY, normalized);
+    window.localStorage.setItem(LANGUAGE_PREFERENCE_SET_KEY, "1");
   } catch {
     // Ignore storage access errors.
   }

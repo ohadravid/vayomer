@@ -2,6 +2,7 @@ import type { i18n as I18nInstance } from "i18next";
 import type { Lang } from "../types";
 
 export const LANGUAGE_STORAGE_KEY = "qs:lang";
+export const LANGUAGE_PREFERENCE_SET_KEY = "qs:lang:manual";
 export const DEFAULT_LANGUAGE: Lang = "en";
 export const SUPPORTED_LANGUAGES: readonly Lang[] = ["en", "he"] as const;
 
