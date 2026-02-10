@@ -46,6 +46,10 @@ body.rtl {
   gap: 12px;
 }
 
+.header > :first-child {
+  min-width: 0;
+}
+
 .kicker {
   font-size: 12px;
   text-transform: uppercase;
@@ -62,6 +66,16 @@ h1 {
 .subtitle {
   margin: 0;
   color: var(--muted);
+}
+
+.kicker,
+h1,
+.subtitle,
+.about-note,
+.about-list a,
+.full-quote,
+.status-line span {
+  overflow-wrap: anywhere;
 }
 
 .about-card {
@@ -114,6 +128,7 @@ h1 {
 .controls {
   display: flex;
   gap: 8px;
+  flex-shrink: 0;
 }
 
 .card {
@@ -144,6 +159,7 @@ h1 {
   display: flex;
   gap: 8px;
   align-items: center;
+  flex-shrink: 0;
 }
 
 .meta-item {
@@ -331,6 +347,20 @@ input:focus,
 }
 
 @media (max-width: 720px) {
+  .header {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .controls {
+    margin-inline-start: auto;
+  }
+
+  .meta {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+
   .form-row.primary,
   .form-row.secondary {
     grid-template-columns: 1fr;
@@ -393,6 +423,7 @@ button.small {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 12px;
 }
 

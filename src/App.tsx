@@ -9,7 +9,13 @@ import optionsData from "../data/options.json";
 const EPOCH_DATE = new Date(2026, 1, 6);
 const DAILY_ORDER_SEED = 20260805;
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
+const EASY_MODE_QUERY_KEY = "easy";
 const ABOUT_HASH = "#about";
+
+enum EasyModeValue {
+  Off = "0",
+  On = "1",
+}
 
 type PersistedState = {
   speaker: string;
@@ -94,13 +100,34 @@ function parsePersistedState(raw: string | null): PersistedState | null {
   }
 }
 
-function pickEasyMode(): boolean {
+function parseEasyModeValue(raw: string | null): boolean | null {
+  if (raw === EasyModeValue.On) return true;
+  if (raw === EasyModeValue.Off) return false;
+  return null;
+}
+
+function toEasyModeValue(enabled: boolean): EasyModeValue {
+  return enabled ? EasyModeValue.On : EasyModeValue.Off;
+}
+
+function pickEasyModeFromStorage(): boolean {
   if (typeof window === "undefined") return false;
   try {
-    return window.localStorage.getItem(EASY_MODE_STORAGE_KEY) === "1";
+    return parseEasyModeValue(window.localStorage.getItem(EASY_MODE_STORAGE_KEY)) ?? false;
   } catch {
     return false;
   }
+}
+
+function parseEasyModeFromSearch(search: string): boolean | null {
+  return parseEasyModeValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
+}
+
+function pickEasyMode(): boolean {
+  if (typeof window === "undefined") return false;
+  const fromUrl = parseEasyModeFromSearch(window.location.search);
+  if (fromUrl !== null) return fromUrl;
+  return pickEasyModeFromStorage();
 }
 
 function pickPageFromHash(hash: string): AppPage {
@@ -133,6 +160,13 @@ export function App() {
     const onHashChange = () => setPage(pickPageFromHash(window.location.hash));
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const syncEasyModeFromLocation = () => setEasyMode(pickEasyMode());
+    window.addEventListener("popstate", syncEasyModeFromLocation);
+    return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
   }, []);
 
   useEffect(() => {
@@ -176,8 +210,16 @@ export function App() {
   }, [lang, page, t]);
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      const url = new URL(window.location.href);
+      const next = toEasyModeValue(easyMode);
+      if (url.searchParams.get(EASY_MODE_QUERY_KEY) !== next) {
+        url.searchParams.set(EASY_MODE_QUERY_KEY, next);
+        window.history.replaceState(window.history.state, "", `${url.pathname}${url.search}${url.hash}`);
+      }
+    }
     try {
-      localStorage.setItem(EASY_MODE_STORAGE_KEY, easyMode ? "1" : "0");
+      localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeValue(easyMode));
     } catch {
       // Ignore storage access errors.
     }
