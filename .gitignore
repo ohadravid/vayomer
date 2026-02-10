@@ -1,8 +1,15 @@
 data/full_run.log
+data/quote_candidates/
+data/checked_quotes/
+data/quote_diffs_v3.jsonl
+data/speaker_listener_audit/
+data/speaker_listener_issues.jsonl
+data/quotes_expanded/
 
 # Python artifacts
 __pycache__/
 *.py[cod]
+.venv/
 
 # Node / frontend dependencies
 node_modules/
@@ -10,7 +17,6 @@ node_modules/
 # Frontend build outputs
 dist/
 build/
-data/checked_quotes/
 
 # Frontend test artifacts
 coverage/

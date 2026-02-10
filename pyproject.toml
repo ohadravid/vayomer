@@ -1,0 +1,11 @@
+[project]
+name = "vayomer-data-processing"
+version = "0.1.0"
+description = "Bible quote data processing scripts"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "lxml>=5.3.0",
+    "ollama>=0.6.1",
+    "tqdm>=4.66.0",
+]
