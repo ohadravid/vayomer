@@ -65,3 +65,19 @@ Useful flags:
 - `--force` reprocess files even if audit/fix outputs already exist
 - `--limit-files 50` process only first N files
 - `--llm-all` run LLM audit for every item (slower, more exhaustive)
+
+## 4) Finalize quotes (source-locked + speaker/listener + riddle substring)
+
+Writes final outputs to `data/final_quotes` and audit records to `data/final_quote_audit`.
+
+```bash
+uv run python3 data_processing/finalize_quotes.py data/quotes --model gemma3:27b --limit 10
+```
+
+Run repeatedly with `--limit 10` to process the next pending files (resume-safe by default).
+
+Useful flags:
+
+- `--force` reprocess files already written to `data/final_quotes`
+- `--out-dir data/final_quotes` set a different final output folder
+- `--audit-dir data/final_quote_audit` set a different audit output folder
