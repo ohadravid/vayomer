@@ -134,7 +134,7 @@ void i18n.use(languageDetector).use(initReactI18next).init({
   supportedLngs: ["en", "he"],
   load: "languageOnly",
   detection: {
-    order: ["localStorage", "navigatorHeFirst"],
+    order: ["querystring", "localStorage", "navigatorHeFirst"],
     lookupLocalStorage: LANGUAGE_STORAGE_KEY,
     caches: [],
     convertDetectedLanguage: detectHeOrEnglish,
