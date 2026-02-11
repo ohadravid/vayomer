@@ -25,8 +25,8 @@ export function deriveGameState(args: DeriveGameStateArgs): GameState {
 
   if (isFullySolved(result, bonusRequired)) return GameState.Solved;
   if (revealed) return GameState.Revealed;
-  if (isCoreSolved(result)) return GameState.ExtraGuess;
   if (guesses >= maxGuesses) return GameState.Failed;
+  if (isCoreSolved(result)) return GameState.ExtraGuess;
   return GameState.CoreGuess;
 }
 

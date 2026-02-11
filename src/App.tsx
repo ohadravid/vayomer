@@ -22,8 +22,7 @@ type PersistedState = {
   listener: string;
   portion: string;
   bonus: string;
-  result: GuessResult | null;
-  guesses: number;
+  attempts: GuessResult[];
   revealed: boolean;
 };
 
@@ -35,8 +34,7 @@ const EMPTY_PERSIST_INPUT: PersistInput = {
   listener: "",
   portion: "",
   bonus: "",
-  result: null,
-  guesses: 0,
+  attempts: [],
 };
 
 function toPersistInput(state: PersistedState): PersistInput {
@@ -45,9 +43,33 @@ function toPersistInput(state: PersistedState): PersistInput {
     listener: state.listener,
     portion: state.portion,
     bonus: state.bonus,
-    result: state.result,
-    guesses: state.guesses,
+    attempts: state.attempts,
   };
+}
+
+function isGuessResult(raw: unknown): raw is GuessResult {
+  if (!raw || typeof raw !== "object") return false;
+  const candidate = raw as Record<string, unknown>;
+  return (
+    typeof candidate.speakerOk === "boolean" &&
+    typeof candidate.listenerOk === "boolean" &&
+    typeof candidate.portionOk === "boolean" &&
+    typeof candidate.bonusOk === "boolean"
+  );
+}
+
+function parseAttempts(parsed: Partial<PersistedState> & { result?: unknown; guesses?: unknown }): GuessResult[] {
+  if (Array.isArray(parsed.attempts)) {
+    return parsed.attempts.filter((attempt): attempt is GuessResult => isGuessResult(attempt));
+  }
+
+  if (!isGuessResult(parsed.result)) return [];
+  const tries =
+    typeof parsed.guesses === "number" && Number.isFinite(parsed.guesses) && parsed.guesses > 0
+      ? Math.floor(parsed.guesses)
+      : 1;
+  const legacyResult: GuessResult = parsed.result;
+  return Array.from({ length: tries }, () => ({ ...legacyResult }));
 }
 
 function dayIndex(total: number): number {
@@ -85,14 +107,13 @@ function pickDailyItemIndex(total: number): number {
 function parsePersistedState(raw: string | null): PersistedState | null {
   if (!raw) return null;
   try {
-    const parsed = JSON.parse(raw) as Partial<PersistedState>;
+    const parsed = JSON.parse(raw) as Partial<PersistedState> & { result?: unknown; guesses?: unknown };
     return {
       speaker: parsed.speaker ?? "",
       listener: parsed.listener ?? "",
       portion: parsed.portion ?? "",
       bonus: parsed.bonus ?? "",
-      result: parsed.result ?? null,
-      guesses: parsed.guesses ?? 0,
+      attempts: parseAttempts(parsed),
       revealed: !!parsed.revealed,
     };
   } catch {

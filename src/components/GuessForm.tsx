@@ -9,13 +9,17 @@ type Props = {
   editedSinceCheck: GuessEditState;
   onChange: (field: GuessField, value: string) => void;
   onSubmit: () => void;
+  onShare: () => void;
   coreSolved: boolean;
   showBonusRow: boolean;
   extraChecked: boolean;
   bonusDisabled: boolean;
+  canShare: boolean;
   disabled: boolean;
   feedback?: string;
-  wrongGuesses: number;
+  shareNotice?: string;
+  triesUsed: number;
+  maxTries: number;
   statusMarks: string;
 };
 
@@ -27,13 +31,17 @@ export function GuessForm({
   editedSinceCheck,
   onChange,
   onSubmit,
+  onShare,
   coreSolved,
   showBonusRow,
   extraChecked,
   bonusDisabled,
+  canShare,
   disabled,
   feedback,
-  wrongGuesses,
+  shareNotice,
+  triesUsed,
+  maxTries,
   statusMarks,
 }: Props) {
   const { t } = useTranslation();
@@ -160,9 +168,13 @@ export function GuessForm({
         {feedback}
       </div>
       <div className="status-line">
-        <span>{t("guessForm.guesses", { count: wrongGuesses })}</span>
+        <span>{t("guessForm.tries", { used: triesUsed, total: maxTries })}</span>
         <span>{t("guessForm.status", { marks: statusMarks })}</span>
+        <button className="ghost small share-btn" type="button" disabled={!canShare} onClick={onShare}>
+          {t("guessForm.share")}
+        </button>
       </div>
+      <div className="share-note">{shareNotice}</div>
     </section>
   );
 }

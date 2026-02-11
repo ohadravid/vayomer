@@ -4,11 +4,11 @@ import { buildMultipleChoiceOptions } from "../lib/easyMode";
 import { deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
 import { normalize, formatDate } from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
+import { MAX_TOTAL_TRIES } from "../lib/gameRules";
+import { buildShareText } from "../lib/share";
 import { PuzzleCard } from "./PuzzleCard";
 import { GuessForm } from "./GuessForm";
 import { GameState, type EasyChoicePools, type GuessEditState, type GuessField, type GuessResult, type GuessValues, type PuzzleItem } from "../types";
-
-const MAX_GUESSES = 3;
 
 type Props = {
   puzzle: PuzzleItem;
@@ -22,16 +22,14 @@ type Props = {
     listener: string;
     portion: string;
     bonus: string;
-    result: GuessResult | null;
-    guesses: number;
+    attempts: GuessResult[];
   }) => void;
   initial?: {
     speaker: string;
     listener: string;
     portion: string;
     bonus: string;
-    result: GuessResult | null;
-    guesses: number;
+    attempts: GuessResult[];
   };
   syncDocumentDirection?: boolean;
 };
@@ -61,6 +59,13 @@ function initialValues(initial?: Props["initial"]): GuessValues {
   };
 }
 
+function buildShareUrl(): string | undefined {
+  if (typeof window === "undefined") return undefined;
+  if (window.location.protocol !== "http:" && window.location.protocol !== "https:") return undefined;
+  const { origin, pathname, search, hash } = window.location;
+  return `${origin}${pathname}${search}${hash}`;
+}
+
 export function PuzzleView({
   puzzle,
   easyMode,
@@ -78,27 +83,36 @@ export function PuzzleView({
   const [listener, setListener] = useState(initial?.listener ?? EMPTY_GUESS_VALUES.listener);
   const [portion, setPortion] = useState(initial?.portion ?? EMPTY_GUESS_VALUES.portion);
   const [bonus, setBonus] = useState(initial?.bonus ?? EMPTY_GUESS_VALUES.bonus);
-  const [result, setResult] = useState<GuessResult | null>(initial?.result ?? null);
-  const [guesses, setGuesses] = useState(initial?.guesses ?? 0);
-  const [extraChecked, setExtraChecked] = useState(false);
+  const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
-  const [feedback, setFeedback] = useState("");
+  const [shareNotice, setShareNotice] = useState("");
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
   const bonusRequired = !!bonusAnswer;
+  const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;
+  const triesUsed = attempts.length;
   const coreSolved = isCoreSolved(result);
   const gameState = deriveGameState({
     revealed,
     result,
-    guesses,
-    maxGuesses: MAX_GUESSES,
+    guesses: triesUsed,
+    maxGuesses: MAX_TOTAL_TRIES,
     bonusRequired,
   });
-  const stageTwoOpen = isStageTwoOpen(gameState);
+  const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const quoteRevealed = stageTwoOpen;
   const fullySolved = gameState === GameState.Solved;
+  const canShare =
+    attempts.length > 0 && (gameState === GameState.Solved || gameState === GameState.Failed || gameState === GameState.Revealed);
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
+  const feedback = useMemo(() => {
+    if (!result) return "";
+    if (isFullySolved(result, bonusRequired)) return t("puzzleView.solved");
+    if (gameState === GameState.Failed) return t("puzzleView.outOfTries");
+    if (isCoreSolved(result)) return t("puzzleView.keepGoing");
+    return t("puzzleView.retry");
+  }, [result, bonusRequired, gameState, t]);
   const multipleChoiceOptions = useMemo(() => {
     if (!easyMode) return null;
     return {
@@ -119,43 +133,27 @@ export function PuzzleView({
 
   useEffect(() => {
     const nextValues = initialValues(initial);
-    const nextResult = initial?.result ?? null;
-    const nextGuesses = initial?.guesses ?? 0;
+    const nextAttempts = initial?.attempts ?? [];
     setSpeaker(nextValues.speaker);
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
     setBonus(nextValues.bonus);
-    setResult(nextResult);
-    setGuesses(nextGuesses);
+    setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
-    const attemptedExtras = !!nextValues.bonus.trim() || !!nextResult?.bonusOk;
-    const nextCoreSolved = isCoreSolved(nextResult);
-    setExtraChecked(nextCoreSolved && attemptedExtras);
-    if (isFullySolved(nextResult, bonusRequired)) {
-      setFeedback(t("puzzleView.solved"));
-    } else if (nextCoreSolved) {
-      setFeedback(t("puzzleView.keepGoing"));
-    } else if (nextGuesses > 0) {
-      setFeedback(t("puzzleView.retry"));
-    } else {
-      setFeedback("");
-    }
+    setShareNotice("");
   }, [
     initial?.speaker,
     initial?.listener,
     initial?.portion,
     initial?.bonus,
-    initial?.result,
-    initial?.guesses,
+    initial?.attempts,
     puzzle,
-    bonusRequired,
-    t,
   ]);
 
   useEffect(() => {
     if (!onPersist) return;
-    onPersist({ speaker, listener, portion, bonus, result, guesses });
-  }, [speaker, listener, portion, bonus, result, guesses, onPersist]);
+    onPersist({ speaker, listener, portion, bonus, attempts });
+  }, [speaker, listener, portion, bonus, attempts, onPersist]);
 
   useEffect(() => {
     if (!syncDocumentDirection) return;
@@ -163,7 +161,6 @@ export function PuzzleView({
     document.body.classList.toggle("rtl", direction === "rtl");
   }, [lang, syncDocumentDirection]);
 
-  const wrongGuesses = coreSolved ? Math.max(0, guesses - 1) : guesses;
   const statusMarks = (() => {
     if (fullySolved) return "✅✅✳️";
     if (revealed && coreSolved) return "✅✅✴️";
@@ -174,9 +171,22 @@ export function PuzzleView({
     return `${speakerMark}${listenerMark}⬜`;
   })();
 
+  const shareUrl = buildShareUrl();
+  const shareText = useMemo(() => {
+    return buildShareText({
+      attempts,
+      solved: fullySolved,
+      bonusRequired,
+      maxTries: MAX_TOTAL_TRIES,
+      date: new Date(),
+      gameUrl: shareUrl,
+    });
+  }, [attempts, fullySolved, bonusRequired, shareUrl]);
+
   const checkGuess = () => {
     if (submitDisabled) return;
     setEditedSinceCheck(emptyEditedState());
+    setShareNotice("");
     const speakerAnswer = puzzle[lang].speaker;
     const listenerAnswer = puzzle[lang].listener;
 
@@ -185,23 +195,11 @@ export function PuzzleView({
     const bonusOk = bonusRequired ? normalize(bonus, lang) === normalize(bonusAnswer, lang) : true;
 
     const next = { speakerOk, listenerOk, portionOk: true, bonusOk };
-    setResult(next);
-    const nextCoreSolved = isCoreSolved(next);
-    setExtraChecked(nextCoreSolved);
-    if (gameState === GameState.CoreGuess) {
-      setGuesses((prev) => prev + 1);
-    }
+    setAttempts((prev) => [...prev, next]);
 
     if (isFullySolved(next, bonusRequired)) {
-      setFeedback(t("puzzleView.solved"));
       onReveal();
-      return;
     }
-    if (nextCoreSolved) {
-      setFeedback(t("puzzleView.keepGoing"));
-      return;
-    }
-    setFeedback(t("puzzleView.retry"));
   };
 
   const clearLocal = () => {
@@ -209,12 +207,53 @@ export function PuzzleView({
     setListener(EMPTY_GUESS_VALUES.listener);
     setPortion(EMPTY_GUESS_VALUES.portion);
     setBonus(EMPTY_GUESS_VALUES.bonus);
-    setResult(null);
-    setGuesses(0);
-    setExtraChecked(false);
+    setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
-    setFeedback("");
+    setShareNotice("");
     onClear();
+  };
+
+  const shareResult = async () => {
+    if (!canShare) return;
+
+    const sharePayload: ShareData = {
+      title: t("app.title"),
+      text: shareText,
+    };
+    if (shareUrl) sharePayload.url = shareUrl;
+
+    if (typeof navigator !== "undefined" && typeof navigator.share === "function") {
+      try {
+        let payloadToShare: ShareData = sharePayload;
+        if (typeof navigator.canShare === "function") {
+          const candidates: ShareData[] = [sharePayload];
+          if (shareUrl) candidates.push({ title: t("app.title"), text: shareText });
+          candidates.push({ text: shareText });
+          const supported = candidates.find((candidate) => navigator.canShare(candidate));
+          if (!supported) {
+            throw new Error("Share payload is not supported on this platform.");
+          }
+          payloadToShare = supported;
+        }
+        await navigator.share(payloadToShare);
+        setShareNotice(t("puzzleView.shareShared"));
+        return;
+      } catch (error) {
+        if (error instanceof DOMException && error.name === "AbortError") return;
+      }
+    }
+
+    if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+      try {
+        await navigator.clipboard.writeText(shareText);
+        setShareNotice(t("puzzleView.shareCopied"));
+        return;
+      } catch {
+        // Fall through to generic failure message.
+      }
+    }
+
+    setShareNotice(t("puzzleView.shareFailed"));
   };
 
   const handleChange = (field: GuessField, value: string) => {
@@ -242,13 +281,17 @@ export function PuzzleView({
         editedSinceCheck={editedSinceCheck}
         coreSolved={stageTwoOpen}
         showBonusRow={stageTwoOpen}
-        extraChecked={extraChecked}
+        extraChecked={coreSolved}
         bonusDisabled={revealed || !bonusRequired}
         onChange={handleChange}
         onSubmit={checkGuess}
+        onShare={shareResult}
+        canShare={canShare}
         disabled={submitDisabled}
         feedback={feedback}
-        wrongGuesses={wrongGuesses}
+        shareNotice={shareNotice}
+        triesUsed={triesUsed}
+        maxTries={MAX_TOTAL_TRIES}
         statusMarks={statusMarks}
       />
     </>

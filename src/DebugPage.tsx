@@ -5,8 +5,10 @@ import { GuessForm } from "./components/GuessForm";
 import { PuzzleCard } from "./components/PuzzleCard";
 import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
+import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
 import type { EasyChoicePools, GuessEditState, GuessResult, GuessValues, Lang, PuzzleItem } from "./types";
+import dailyData from "../data/daily.json";
 
 const samplePuzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -48,20 +50,99 @@ const EMPTY_EDITED: GuessEditState = {
 };
 
 type PuzzleInitial = ComponentProps<typeof PuzzleView>["initial"];
+const DAY_IN_MS = 24 * 60 * 60 * 1000;
+const DEBUG_EPOCH_DATE = new Date(2026, 1, 6);
+const DEBUG_DAILY_ORDER_SEED = 20260805;
+
+function parsePuzzleItems(data: unknown): PuzzleItem[] {
+  const payload = (data as { items?: unknown }).items ?? data;
+  return Array.isArray(payload) ? (payload as PuzzleItem[]) : [];
+}
+
+const debugQuoteItems = parsePuzzleItems(dailyData as unknown);
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
 }
 
+function seededRandom(seed: number): () => number {
+  let state = seed >>> 0;
+  return () => {
+    state = (state + 0x6d2b79f5) >>> 0;
+    let mixed = Math.imul(state ^ (state >>> 15), state | 1);
+    mixed ^= mixed + Math.imul(mixed ^ (mixed >>> 7), mixed | 61);
+    return ((mixed ^ (mixed >>> 14)) >>> 0) / 4294967296;
+  };
+}
+
+function buildDailyOrder(total: number): number[] {
+  const order = Array.from({ length: total }, (_, idx) => idx);
+  const rand = seededRandom(DEBUG_DAILY_ORDER_SEED);
+
+  for (let idx = order.length - 1; idx > 0; idx -= 1) {
+    const swapIdx = Math.floor(rand() * (idx + 1));
+    [order[idx], order[swapIdx]] = [order[swapIdx], order[idx]];
+  }
+
+  return order;
+}
+
+function utcDayNumber(date: Date): number {
+  return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / DAY_IN_MS);
+}
+
+function dayOffsetFromEpoch(date: Date): number {
+  return utcDayNumber(date) - utcDayNumber(DEBUG_EPOCH_DATE);
+}
+
+function dateForDayOffset(dayOffset: number): Date {
+  const date = new Date(DEBUG_EPOCH_DATE);
+  date.setDate(date.getDate() + dayOffset);
+  return date;
+}
+
+function clamp(value: number, min: number, max: number): number {
+  return Math.min(Math.max(value, min), max);
+}
+
+function toDateInputValue(date: Date): string {
+  const year = String(date.getFullYear()).padStart(4, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+function parseDateInputValue(value: string): Date | null {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+  if (!match) return null;
+  const year = Number(match[1]);
+  const month = Number(match[2]);
+  const day = Number(match[3]);
+  const parsed = new Date(year, month - 1, day);
+
+  if (
+    Number.isNaN(parsed.getTime()) ||
+    parsed.getFullYear() !== year ||
+    parsed.getMonth() !== month - 1 ||
+    parsed.getDate() !== day
+  ) {
+    return null;
+  }
+  return parsed;
+}
+
 function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "stage-two-revealed" | "solved" | "failed"): PuzzleInitial {
+  const coreSolvedAttempt: GuessResult = { speakerOk: true, listenerOk: true, portionOk: false, bonusOk: false };
+  const solvedAttempt: GuessResult = { speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true };
+  const failedAttempt: GuessResult = { speakerOk: false, listenerOk: false, portionOk: false, bonusOk: false };
+
   if (state === "core-solved") {
     return {
       speaker: localize(lang, "the LORD", "אֲדֹנָי"),
       listener: localize(lang, "Abram", "אַבְרָם"),
       portion: "",
       bonus: "",
-      result: { speakerOk: true, listenerOk: true, portionOk: false, bonusOk: false },
-      guesses: 1,
+      attempts: [coreSolvedAttempt],
     };
   }
 
@@ -71,8 +152,7 @@ function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "
       listener: localize(lang, "Abram", "אַבְרָם"),
       portion: "",
       bonus: localize(lang, "field", "שָׂדֶה"),
-      result: { speakerOk: true, listenerOk: true, portionOk: false, bonusOk: false },
-      guesses: 2,
+      attempts: [coreSolvedAttempt, coreSolvedAttempt],
     };
   }
 
@@ -82,8 +162,7 @@ function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "
       listener: localize(lang, "Abram", "אַבְרָם"),
       portion: "",
       bonus: "",
-      result: { speakerOk: true, listenerOk: true, portionOk: false, bonusOk: false },
-      guesses: 2,
+      attempts: [coreSolvedAttempt, coreSolvedAttempt],
     };
   }
 
@@ -93,8 +172,7 @@ function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "
       listener: localize(lang, "Abram", "אַבְרָם"),
       portion: localize(lang, "Lech-Lecha", "לך-לך"),
       bonus: localize(lang, "land", "הָאָרֶץ"),
-      result: { speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true },
-      guesses: 2,
+      attempts: [failedAttempt, coreSolvedAttempt, solvedAttempt],
     };
   }
 
@@ -103,8 +181,7 @@ function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "
     listener: localize(lang, "Pharaoh", "פרעה"),
     portion: localize(lang, "Tzav", "צַו"),
     bonus: localize(lang, "house", "בֵּית אָבִיךָ"),
-    result: { speakerOk: false, listenerOk: false, portionOk: false, bonusOk: false },
-    guesses: 3,
+    attempts: [failedAttempt, failedAttempt, failedAttempt, failedAttempt, failedAttempt],
   };
 }
 
@@ -153,6 +230,99 @@ function makeDebugI18n(lang: Lang) {
   return i18n;
 }
 
+function QuoteBrowser({ lang }: { lang: Lang }) {
+  const total = debugQuoteItems.length;
+  const order = useMemo(() => buildDailyOrder(total), [total]);
+  const maxDayOffset = Math.max(0, total - 1);
+  const [dayOffset, setDayOffset] = useState(() => {
+    if (total === 0) return 0;
+    return clamp(dayOffsetFromEpoch(new Date()), 0, maxDayOffset);
+  });
+
+  useEffect(() => {
+    setDayOffset((prev) => clamp(prev, 0, maxDayOffset));
+  }, [maxDayOffset]);
+
+  if (total === 0) {
+    return <section className="card">{localize(lang, "No quotes available.", "אין ציטוטים זמינים.")}</section>;
+  }
+
+  const selectedDate = dateForDayOffset(dayOffset);
+  const selectedItem = debugQuoteItems[order[dayOffset] ?? 0] ?? debugQuoteItems[0];
+  const dateInputValue = toDateInputValue(selectedDate);
+  const minDate = toDateInputValue(DEBUG_EPOCH_DATE);
+  const maxDate = toDateInputValue(dateForDayOffset(maxDayOffset));
+  const sourceStart = selectedItem.source?.ref_start ?? "";
+  const sourceEnd = selectedItem.source?.ref_end ?? "";
+  const sourceLabel = sourceStart && sourceEnd && sourceStart !== sourceEnd ? `${sourceStart} - ${sourceEnd}` : sourceStart || sourceEnd;
+  const selectedText = selectedItem[lang];
+  const portion = selectedItem.portion?.[lang] ?? "";
+  const bonus = selectedText.bonus ?? "";
+
+  return (
+    <section className="debug-quote-browser">
+      <div className="debug-quote-browser-controls">
+        <button className="debug-quote-nav-btn" type="button" onClick={() => setDayOffset((prev) => clamp(prev - 1, 0, maxDayOffset))} disabled={dayOffset === 0}>
+          {localize(lang, "< Prev", "< הקודם")}
+        </button>
+        <input
+          className="debug-quote-date-input"
+          type="date"
+          aria-label={localize(lang, "Pick quote date", "בחרו תאריך ציטוט")}
+          value={dateInputValue}
+          min={minDate}
+          max={maxDate}
+          onChange={(event) => {
+            const parsed = parseDateInputValue(event.target.value);
+            if (!parsed) return;
+            setDayOffset(clamp(dayOffsetFromEpoch(parsed), 0, maxDayOffset));
+          }}
+        />
+        <button className="debug-quote-nav-btn" type="button" onClick={() => setDayOffset((prev) => clamp(prev + 1, 0, maxDayOffset))} disabled={dayOffset === maxDayOffset}>
+          {localize(lang, "Next >", "הבא >")}
+        </button>
+      </div>
+
+      <div className="debug-quote-browser-status">
+        {localize(lang, `Quote ${dayOffset + 1} of ${total}`, `ציטוט ${dayOffset + 1} מתוך ${total}`)} | {selectedItem.id}
+      </div>
+      {sourceLabel ? <div className="debug-quote-browser-source">{sourceLabel}</div> : null}
+      <div className="debug-quote-browser-card">
+        <PuzzleCard
+          puzzle={selectedItem}
+          revealed
+          quoteRevealed
+          dateLabel={formatDate(selectedDate, lang)}
+          onClear={() => undefined}
+        />
+      </div>
+      <section className="debug-quote-browser-answers card">
+        <h3>{localize(lang, "Answers", "תשובות")}</h3>
+        <div className="debug-answer-row">
+          <span className="debug-answer-label">{localize(lang, "Speaker", "דובר")}</span>
+          <span className="debug-answer-value">{selectedText.speaker}</span>
+        </div>
+        <div className="debug-answer-row">
+          <span className="debug-answer-label">{localize(lang, "Listener", "מאזין")}</span>
+          <span className="debug-answer-value">{selectedText.listener}</span>
+        </div>
+        {portion ? (
+          <div className="debug-answer-row">
+            <span className="debug-answer-label">{localize(lang, "Portion", "פרשה")}</span>
+            <span className="debug-answer-value">{portion}</span>
+          </div>
+        ) : null}
+        {bonus ? (
+          <div className="debug-answer-row">
+            <span className="debug-answer-label">{localize(lang, "Bonus", "בונוס")}</span>
+            <span className="debug-answer-value">{bonus}</span>
+          </div>
+        ) : null}
+      </section>
+    </section>
+  );
+}
+
 function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; anchorId?: string }) {
   const direction = getLanguageDirection(lang);
   const [guessValues, setGuessValues] = useState<GuessValues>(() => buildGuessValues(lang));
@@ -181,6 +351,13 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
         <h2 className="debug-suite-title" id={anchorId}>
           {anchorId ? <a href={`#${anchorId}`}>{title}</a> : title}
         </h2>
+
+        <section className="debug-grid">
+          <article className="debug-panel">
+            <h2>{localize(lang, "All Quotes Browser", "דפדפן כל הציטוטים")}</h2>
+            <QuoteBrowser lang={lang} />
+          </article>
+        </section>
 
         <section className="debug-grid">
           <article className="debug-panel">
@@ -313,13 +490,17 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 editedSinceCheck={EMPTY_EDITED}
                 onChange={(field, value) => setGuessValues((prev) => ({ ...prev, [field]: value }))}
                 onSubmit={() => undefined}
+                onShare={() => undefined}
                 coreSolved={false}
                 showBonusRow
                 extraChecked
                 bonusDisabled={false}
+                canShare
                 disabled={false}
                 feedback={localize(lang, "Try another speaker.", "נסו דובר אחר.")}
-                wrongGuesses={1}
+                shareNotice={localize(lang, "Copied results.", "התוצאות הועתקו.")}
+                triesUsed={2}
+                maxTries={5}
                 statusMarks="❌✅⬜"
               />
             </section>
