@@ -26,6 +26,47 @@ HEBREW_CANTILLATION_RE = re.compile(r"[\u0591-\u05AF]")
 HEBREW_ALL_MARKS_RE = re.compile(r"[\u0591-\u05C7]")
 SPACE_RE = re.compile(r"\s+")
 TOKEN_RE = re.compile(r"[a-z0-9\u05D0-\u05EA]+")
+HEBREW_PREFIX_CHARS = set("ולבכמשה")
+HEBREW_PREFIX_WORDS = {"אל", "ואל"}
+
+GOD_NAME_CANDIDATES_EN: List[List[str]] = [
+    ["the", "lord", "god"],
+    ["lord", "god"],
+    ["the", "lord"],
+    ["lord"],
+    ["god"],
+]
+
+GOD_NAME_CANDIDATES_HE: List[List[str]] = [
+    ["אדני", "יהוה"],
+    ["יהוה", "אלהים"],
+    ["יהוה"],
+    ["אדני"],
+    ["אלהים"],
+]
+
+EN_REPORTING_STARTS = {
+    "and",
+    "then",
+    "he",
+    "she",
+    "they",
+    "said",
+    "saith",
+    "saying",
+}
+
+HE_REPORTING_STARTS = {
+    "ויאמר",
+    "ויאמרו",
+    "ותאמר",
+    "ותאמרו",
+    "לאמר",
+    "נאם",
+}
+
+EN_QUESTION_STARTS = {"what", "why", "how", "where", "who", "whence", "when", "whither"}
+HE_QUESTION_STARTS = {"מה", "למה", "מדוע", "מי", "מתי", "איך", "האם"}
 
 EN_PRONOUNS = {
     "he",
@@ -83,8 +124,12 @@ FINAL_PROMPT = [
     "2) Use concrete normalized names/entities for speaker/listener (not pronouns, not 'a man', not reporting clauses).",
     "3) The speaker name must appear explicitly in the selected quote text in both languages.",
     "3b) Speaker is the entity saying the quoted words; listener is the addressed entity.",
+    "3c) If God is speaker/listener, output the fullest in-quote name form (e.g., 'the LORD God', 'אֲדֹנָי יְהוִה', 'יְהוָה אֱלֹהִים').",
     "4) Prefer preserving current range when already valid.",
     "5) Return a short riddle substring for each language that is an exact direct substring of the selected quote text.",
+    "5b) Riddle must exclude speaker/listener names, including Hebrew prefixed forms (e.g., לX, בX, אל-X).",
+    "5bb) Target roughly 6-14 tokens for the riddle unless the verse cannot support it cleanly.",
+    "5c) Prefer one coherent sentence/clause and avoid chaining long multi-clause riddles when a concise clause works.",
     "6) status=ok when current data is already valid; status=fix when changing names/range/riddle; status=drop only when not confidently fixable after trying up to 3-verse expansion.",
     "7) Most items should be fixable. Use drop sparingly.",
     "Return strict JSON only in this shape:",
@@ -209,14 +254,14 @@ def _cleanup_hebrew_quote(text: str) -> str:
 
 def _normalized_char(ch: str, lang: str) -> str:
     if lang == "he":
+        if ch in {"-", "־"}:
+            return " "
         if HEBREW_ALL_MARKS_RE.match(ch):
             return ""
         if ch == "\u034F":
             return ""
         if "\u05D0" <= ch <= "\u05EA":
             return ch
-        if ch in {"-", "־"}:
-            return " "
         if ch.isalnum():
             return ch.lower()
         return " "
@@ -288,6 +333,118 @@ def _find_subsequence(haystack: List[str], needle: List[str]) -> Optional[int]:
     return None
 
 
+def _token_match_with_prefix(token: str, entity_token: str, lang: str, allow_prefix: bool) -> bool:
+    if token == entity_token:
+        return True
+    if lang != "he" or not allow_prefix:
+        return False
+    if not token.endswith(entity_token):
+        return False
+    prefix = token[: len(token) - len(entity_token)]
+    if not prefix:
+        return True
+    if prefix in HEBREW_PREFIX_WORDS:
+        return True
+    return all(ch in HEBREW_PREFIX_CHARS for ch in prefix)
+
+
+def _find_entity_subsequence(haystack: List[str], needle: List[str], lang: str) -> Optional[int]:
+    if not haystack or not needle or len(needle) > len(haystack):
+        return None
+    limit = len(haystack) - len(needle) + 1
+    for idx in range(limit):
+        ok = True
+        for j, entity_token in enumerate(needle):
+            token = haystack[idx + j]
+            allow_prefix = lang == "he" and j == 0
+            if not _token_match_with_prefix(token, entity_token, lang=lang, allow_prefix=allow_prefix):
+                ok = False
+                break
+        if ok:
+            return idx
+    return None
+
+
+def _extract_token_sequence_from_quote(quote: str, seq_tokens: List[str], lang: str) -> Optional[str]:
+    if not quote or not seq_tokens:
+        return None
+    spans = _tokenize_with_spans(quote, lang)
+    if not spans:
+        return None
+    quote_tokens = [tok for tok, _, _ in spans]
+    idx = _find_subsequence(quote_tokens, seq_tokens)
+    if idx is None:
+        return None
+    start = spans[idx][1]
+    end = spans[idx + len(seq_tokens) - 1][2]
+    if lang == "he":
+        while start > 0 and HEBREW_ALL_MARKS_RE.match(quote[start - 1]):
+            start -= 1
+        while end < len(quote) and HEBREW_ALL_MARKS_RE.match(quote[end]):
+            end += 1
+    return _clean_text(quote[start:end])
+
+
+def _is_god_like_entity(entity: str, lang: str) -> bool:
+    tokens = _tokenize_for_match(entity, lang)
+    if not tokens:
+        return False
+    if lang == "en":
+        return any(tok in {"lord", "god"} for tok in tokens)
+    return any(tok in {"יהוה", "אלהים", "אדני"} for tok in tokens)
+
+
+def _best_god_name_in_quote(quote: str, lang: str) -> Optional[str]:
+    candidates = GOD_NAME_CANDIDATES_EN if lang == "en" else GOD_NAME_CANDIDATES_HE
+    for seq in candidates:
+        match = _extract_token_sequence_from_quote(quote, seq, lang)
+        if match:
+            return match
+    return None
+
+
+def _riddle_mentions_entities(riddle: str, speaker: str, listener: str, lang: str) -> bool:
+    riddle_tokens = _tokenize_for_match(riddle, lang)
+    if not riddle_tokens:
+        return False
+    speaker_tokens = _tokenize_for_match(speaker, lang)
+    listener_tokens = _tokenize_for_match(listener, lang)
+    if speaker_tokens and _find_entity_subsequence(riddle_tokens, speaker_tokens, lang) is not None:
+        return True
+    if listener_tokens and _find_entity_subsequence(riddle_tokens, listener_tokens, lang) is not None:
+        return True
+    speaker_god = _is_god_like_entity(speaker, lang)
+    listener_god = _is_god_like_entity(listener, lang)
+    if speaker_god or listener_god:
+        if lang == "en":
+            if any(tok in {"lord", "god"} for tok in riddle_tokens):
+                return True
+        else:
+            if any(tok in {"יהוה", "אלהים", "אדני"} for tok in riddle_tokens):
+                return True
+    return False
+
+
+def _riddle_needs_refine(riddle: str, lang: str) -> bool:
+    tokens = _tokenize_for_match(riddle, lang)
+    if not tokens:
+        return False
+    if len(tokens) > 14:
+        return True
+    first = tokens[0]
+    if lang == "en":
+        if first in EN_REPORTING_STARTS:
+            return True
+        if tokens.count("why") >= 2:
+            return True
+    else:
+        if first in HE_REPORTING_STARTS:
+            return True
+        if tokens.count("למה") >= 2:
+            return True
+    return False
+
+
 def _extract_substring_from_quote(quote: str, text: str, lang: str) -> Optional[str]:
     if not quote or not text:
         return None
@@ -333,7 +490,7 @@ def _fallback_riddle_from_quote(
     listener: str,
     lang: str,
     min_tokens: int = 4,
-    max_tokens: int = 16,
+    max_tokens: int = 12,
 ) -> Optional[str]:
     spans = _tokenize_with_spans(quote, lang)
     if not spans:
@@ -345,25 +502,42 @@ def _fallback_riddle_from_quote(
 
     speaker_tokens = _tokenize_for_match(speaker, lang)
     listener_tokens = _tokenize_for_match(listener, lang)
+    speaker_god = _is_god_like_entity(speaker, lang)
+    listener_god = _is_god_like_entity(listener, lang)
 
     def _window_has_entities(window_tokens: List[str]) -> bool:
-        if speaker_tokens and _find_subsequence(window_tokens, speaker_tokens) is not None:
+        if speaker_tokens and _find_entity_subsequence(window_tokens, speaker_tokens, lang) is not None:
             return True
-        if listener_tokens and _find_subsequence(window_tokens, listener_tokens) is not None:
+        if listener_tokens and _find_entity_subsequence(window_tokens, listener_tokens, lang) is not None:
             return True
+        if speaker_god or listener_god:
+            if lang == "en":
+                if any(tok in {"lord", "god"} for tok in window_tokens):
+                    return True
+            else:
+                if any(tok in {"יהוה", "אלהים", "אדני"} for tok in window_tokens):
+                    return True
         return False
 
     n = len(spans)
     lo = min(min_tokens, n)
     hi = min(max_tokens, n)
-    center = n / 2.0
 
     for size in range(hi, lo - 1, -1):
         starts = list(range(0, n - size + 1))
-        starts.sort(key=lambda s: abs((s + size / 2.0) - center))
+        if lang == "en":
+            starts.sort(key=lambda s: (0 if tokens[s] in EN_QUESTION_STARTS else 1, s))
+        else:
+            starts.sort(key=lambda s: (0 if tokens[s] in HE_QUESTION_STARTS else 1, s))
+
         for start in starts:
             end = start + size
             window_tokens = tokens[start:end]
+            first = window_tokens[0]
+            if lang == "en" and first in EN_REPORTING_STARTS:
+                continue
+            if lang == "he" and first in HE_REPORTING_STARTS:
+                continue
             if _window_has_entities(window_tokens):
                 continue
             orig_start = spans[start][1]
@@ -387,7 +561,7 @@ def _entity_in_quote(entity: str, quote: str, lang: str) -> bool:
     entity_tokens = _tokenize_for_match(entity, lang)
     if not quote_tokens or not entity_tokens:
         return False
-    return _find_subsequence(quote_tokens, entity_tokens) is not None
+    return _find_entity_subsequence(quote_tokens, entity_tokens, lang) is not None
 
 
 def _get_ref_range(item: Dict) -> Tuple[Optional[str], Optional[int], Optional[int], Optional[int]]:
@@ -572,6 +746,23 @@ def _apply_candidate(
     if listener_he_aligned:
         listener_he = listener_he_aligned
 
+    if _is_god_like_entity(speaker_en, "en"):
+        best = _best_god_name_in_quote(quote_en, "en")
+        if best:
+            speaker_en = best
+    if _is_god_like_entity(listener_en, "en"):
+        best = _best_god_name_in_quote(quote_en, "en")
+        if best:
+            listener_en = best
+    if _is_god_like_entity(speaker_he, "he"):
+        best = _best_god_name_in_quote(quote_he, "he")
+        if best:
+            speaker_he = best
+    if _is_god_like_entity(listener_he, "he"):
+        best = _best_god_name_in_quote(quote_he, "he")
+        if best:
+            listener_he = best
+
     speaker_in_en = _entity_in_quote(speaker_en, quote_en, "en")
     speaker_in_he = _entity_in_quote(speaker_he, quote_he, "he")
     if not speaker_in_en or not speaker_in_he:
@@ -580,6 +771,22 @@ def _apply_candidate(
         if listener_in_en and listener_in_he:
             speaker_en, listener_en = listener_en, speaker_en
             speaker_he, listener_he = listener_he, speaker_he
+            if _is_god_like_entity(speaker_en, "en"):
+                best = _best_god_name_in_quote(quote_en, "en")
+                if best:
+                    speaker_en = best
+            if _is_god_like_entity(listener_en, "en"):
+                best = _best_god_name_in_quote(quote_en, "en")
+                if best:
+                    listener_en = best
+            if _is_god_like_entity(speaker_he, "he"):
+                best = _best_god_name_in_quote(quote_he, "he")
+                if best:
+                    speaker_he = best
+            if _is_god_like_entity(listener_he, "he"):
+                best = _best_god_name_in_quote(quote_he, "he")
+                if best:
+                    listener_he = best
             speaker_in_en = _entity_in_quote(speaker_en, quote_en, "en")
             speaker_in_he = _entity_in_quote(speaker_he, quote_he, "he")
 
@@ -597,14 +804,22 @@ def _apply_candidate(
     riddle_he_input = _sanitize_name(suggestion.get("riddle_he")) or _sanitize_name(he.get("riddle"))
     riddle_en = _extract_substring_from_quote(quote_en, riddle_en_input, "en")
     riddle_he = _extract_substring_from_quote(quote_he, riddle_he_input, "he")
-    if not riddle_en:
+    if (
+        not riddle_en
+        or _riddle_mentions_entities(riddle_en, speaker_en, listener_en, "en")
+        or _riddle_needs_refine(riddle_en, "en")
+    ):
         riddle_en = _fallback_riddle_from_quote(
             quote=quote_en,
             speaker=speaker_en,
             listener=listener_en,
             lang="en",
         )
-    if not riddle_he:
+    if (
+        not riddle_he
+        or _riddle_mentions_entities(riddle_he, speaker_he, listener_he, "he")
+        or _riddle_needs_refine(riddle_he, "he")
+    ):
         riddle_he = _fallback_riddle_from_quote(
             quote=quote_he,
             speaker=speaker_he,
@@ -615,6 +830,10 @@ def _apply_candidate(
         return False, item, "riddle_en_not_substring"
     if not riddle_he:
         return False, item, "riddle_he_not_substring"
+    if _riddle_mentions_entities(riddle_en, speaker_en, listener_en, "en"):
+        return False, item, "riddle_en_mentions_entities"
+    if _riddle_mentions_entities(riddle_he, speaker_he, listener_he, "he"):
+        return False, item, "riddle_he_mentions_entities"
 
     en["quote"] = quote_en
     en["riddle"] = riddle_en
