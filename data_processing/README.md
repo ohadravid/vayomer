@@ -81,3 +81,30 @@ Useful flags:
 - `--force` reprocess files already written to `data/final_quotes`
 - `--out-dir data/final_quotes` set a different final output folder
 - `--audit-dir data/final_quote_audit` set a different audit output folder
+
+## 5) Rebuild Quotes End-to-End (chapter -> final riddles)
+
+This path reprocesses the Bible chapter-by-chapter (without reading existing `data/quotes`),
+keeps raw source verses in each output item, and asks the LLM for final quote+riddle metadata.
+
+Default mode is `end2end` (single LLM pass per chapter). A `candidates` mode is also available.
+
+```bash
+uv run python3 data_processing/rebuild_quotes_end2end.py --model gemma3:27b --book GEN --chapters 1-5 --mode end2end
+```
+
+Outputs:
+
+- `data/rebuilt_quotes/*.json` chapter outputs with final items and `raw_quote_source`
+- `data/rebuilt_quotes_audit/*.json` per-chapter keep/drop audit
+- `data/rebuilt_quotes_issues.jsonl` dropped-item details
+
+Useful flags:
+
+- `--max-window 5` max quote verse window (hard-capped to 5)
+- `--max-quotes-per-chapter 4` cap output items per chapter
+- `--repair-tries 2` LLM repair attempts after validation failures
+- `--min-quote-tokens 12` / `--max-riddle-tokens 14` quality thresholds
+- `--min-context-tokens 6` require enough non-riddle context in the full quote
+- `--limit 10` process only the first N pending chapters (alias for `--limit-chapters`)
+- `--force` reprocess existing chapter outputs
