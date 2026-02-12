@@ -29,6 +29,10 @@ GOD_NAME_CANDIDATES_HE: List[List[str]] = [
 
 EN_GOD_TOKENS = {"lord", "god"}
 HE_GOD_TOKENS = {"יהוה", "אלהים", "אדני", "אל"}
+EN_REPORTING_STARTS = {"and", "then", "he", "she", "they", "said", "saith", "saying"}
+HE_REPORTING_STARTS = {"ויאמר", "ויאמרו", "ותאמר", "ותאמרו", "לאמר", "נאם"}
+EN_QUESTION_STARTS = {"what", "why", "how", "where", "who", "whence", "when", "whither"}
+HE_QUESTION_STARTS = {"מה", "למה", "מדוע", "מי", "מתי", "איך", "האם"}
 
 
 def clean_text(text: str) -> str:
@@ -267,9 +271,42 @@ def align_entity_to_quote(entity: str, quote: str, lang: str) -> str:
         if fullest:
             return fullest
 
-    extracted = extract_substring_from_quote(quote, entity, lang)
-    if extracted:
-        return extracted
+    candidates = [entity]
+    if lang == "en":
+        dep = re.sub(r"[’']s\\b", "", entity, flags=re.I).strip()
+        if dep and dep not in candidates:
+            candidates.append(dep)
+        match = re.match(r"(.+?)[’']s\\s+(.+)$", entity, flags=re.I)
+        if match:
+            owner = clean_text(match.group(1))
+            owned = clean_text(match.group(2))
+            if owner and owned:
+                variants = [f"{owned} of {owner}", f"the {owned} of {owner}"]
+                for variant in variants:
+                    if variant not in candidates:
+                        candidates.append(variant)
+    elif lang == "he":
+        tokens = tokenize_for_match(entity, "he")
+        quote_tokens = tokenize_for_match(quote, "he")
+        if tokens:
+            alt_tokens: List[str] = []
+            if tokens[0] in HEBREW_PREFIX_WORDS and len(tokens) > 1:
+                alt_tokens = tokens[1:]
+            else:
+                first = tokens[0]
+                if len(first) > 2 and first[0] in HEBREW_PREFIX_CHARS:
+                    stripped = first[1:]
+                    if stripped in quote_tokens:
+                        alt_tokens = [stripped] + tokens[1:]
+            if alt_tokens:
+                alt_entity = _extract_token_sequence_from_quote(quote, alt_tokens, "he")
+                if alt_entity and alt_entity not in candidates:
+                    candidates.append(alt_entity)
+
+    for candidate in candidates:
+        extracted = extract_substring_from_quote(quote, candidate, lang)
+        if extracted:
+            return extracted
     return entity
 
 
@@ -299,3 +336,67 @@ def riddle_mentions_entities(riddle: str, speaker: str, listener: str, lang: str
         return any(token in HE_GOD_TOKENS for token in riddle_tokens)
 
     return False
+
+
+def suggest_riddle_from_quote(
+    quote: str,
+    speaker: str,
+    listener: str,
+    lang: str,
+    min_tokens: int = 4,
+    max_tokens: int = 16,
+) -> str:
+    quote = clean_text(quote)
+    if not quote or min_tokens <= 0 or max_tokens < min_tokens:
+        return ""
+
+    spans = tokenize_with_spans(quote, lang)
+    if not spans:
+        return ""
+
+    target = (min_tokens + max_tokens) / 2.0
+    best_phrase = ""
+    best_score = float("-inf")
+
+    for i in range(len(spans)):
+        max_j = min(len(spans) - 1, i + max_tokens - 1)
+        min_j = i + min_tokens - 1
+        if min_j > max_j:
+            continue
+        for j in range(min_j, max_j + 1):
+            window_tokens = [spans[k][0] for k in range(i, j + 1)]
+            phrase = clean_text(quote[spans[i][1] : spans[j][2]])
+            if not phrase:
+                continue
+
+            if riddle_mentions_entities(phrase, speaker, listener, lang):
+                continue
+
+            if lang == "he" and window_tokens[-1] in {"את", "אל", "ל", "ו"}:
+                continue
+
+            score = 100.0
+            score -= abs(len(window_tokens) - target) * 6.0
+
+            first = window_tokens[0] if window_tokens else ""
+            if lang == "en":
+                if first in EN_QUESTION_STARTS:
+                    score += 8.0
+                if first in EN_REPORTING_STARTS:
+                    score -= 12.0
+            else:
+                if first in HE_QUESTION_STARTS:
+                    score += 8.0
+                if first in HE_REPORTING_STARTS:
+                    score -= 12.0
+
+            if i > 0:
+                score += 2.0
+            if phrase and phrase[-1] in {",", ";", ":"}:
+                score -= 3.0
+
+            if score > best_score:
+                best_score = score
+                best_phrase = phrase
+
+    return clean_text(best_phrase)

@@ -19,16 +19,18 @@ except ModuleNotFoundError:
     import text_cleanup  # type: ignore[no-redef]
 
 ROOT = Path(__file__).resolve().parents[1]
+HE_SPEECH_MARKERS = ("ויאמר", "ותאמר", "ויאמרו", "לאמר", "נאם")
+EN_SPEECH_MARKERS = (" said", " saying", " saith", " spake", " answered")
 
 
 @dataclass
 class ValidationConfig:
     max_window: int = 5
-    min_quote_tokens: int = 12
+    min_quote_tokens: int = 10
     min_riddle_tokens: int = 4
-    max_riddle_tokens: int = 14
-    min_context_tokens: int = 6
-    require_single_verse_riddle: bool = True
+    max_riddle_tokens: int = 16
+    min_context_tokens: int = 4
+    require_single_verse_riddle: bool = False
 
 
 @dataclass
@@ -114,9 +116,67 @@ def _parse_chapter_filter(expr: str) -> Set[int]:
 
 def _chapter_context(tandem: bible_tandem.TandemBible, book_code: str, chapter: int) -> List[Dict]:
     return [
-        {"v": verse.verse, "en": verse.en_raw, "he": verse.he_raw}
+        {
+            "v": verse.verse,
+            "en": verse.en_raw,
+            "he": verse.he_clean,
+            "en_raw": verse.en_raw,
+            "he_raw": verse.he_raw,
+        }
         for verse in tandem.iter_verses(book_code, chapter)
     ]
+
+
+def _looks_like_speech(entry: Dict) -> bool:
+    en = _sanitize_str(entry.get("en")).casefold()
+    he = _sanitize_str(entry.get("he"))
+    if any(marker in he for marker in HE_SPEECH_MARKERS):
+        return True
+    if any(marker in f" {en}" for marker in EN_SPEECH_MARKERS):
+        return True
+    return False
+
+
+def _mechanical_candidates(context: List[Dict], max_window: int, max_candidates: int) -> List[Dict]:
+    verse_numbers = sorted(
+        {
+            _sanitize_int(entry.get("v"), 0)
+            for entry in context
+            if _sanitize_int(entry.get("v"), 0) > 0
+        }
+    )
+    verse_set = set(verse_numbers)
+    candidates: List[Dict] = []
+    seen: Set[str] = set()
+
+    for entry in context:
+        verse = _sanitize_int(entry.get("v"), 0)
+        if verse <= 0:
+            continue
+        if not _looks_like_speech(entry):
+            continue
+
+        for window in range(1, min(max_window, 3) + 1):
+            end = verse + window - 1
+            if end not in verse_set:
+                break
+            if any(v not in verse_set for v in range(verse, end + 1)):
+                continue
+
+            key = f"{verse}-{end}"
+            if key in seen:
+                continue
+            seen.add(key)
+            candidates.append(
+                {
+                    "quote_verse_start": verse,
+                    "quote_verse_end": end,
+                    "reason": "mechanical_speech_marker",
+                }
+            )
+            if len(candidates) >= max_candidates:
+                return candidates
+    return candidates
 
 
 def _verses_side_by_side(context: List[Dict]) -> Dict[str, Dict[str, str]]:
@@ -126,8 +186,8 @@ def _verses_side_by_side(context: List[Dict]) -> Dict[str, Dict[str, str]]:
         if verse_no <= 0:
             continue
         verses[str(verse_no)] = {
-            "en": _sanitize_str(entry.get("en")),
-            "he": _sanitize_str(entry.get("he")),
+            "en": _sanitize_str(entry.get("en_raw") or entry.get("en")),
+            "he": _sanitize_str(entry.get("he_raw") or entry.get("he")),
         }
     return verses
 
@@ -188,7 +248,7 @@ def _coerce_item_from_suggestion(
     if start > end:
         start, end = end, start
     if end - start + 1 > cfg.max_window:
-        return None, "range_too_wide"
+        end = start + cfg.max_window - 1
 
     range_quote = tandem.collect_range(book_code=book_code, chapter=chapter, start=start, end=end)
     if range_quote.missing:
@@ -214,6 +274,38 @@ def _coerce_item_from_suggestion(
         riddle_en = extracted_en
     if extracted_he:
         riddle_he = extracted_he
+
+    if (
+        not riddle_en
+        or not text_cleanup.extract_substring_from_quote(range_quote.en_quote, riddle_en, "en")
+        or text_cleanup.riddle_mentions_entities(riddle_en, speaker_en, listener_en, "en")
+    ):
+        fallback_en = text_cleanup.suggest_riddle_from_quote(
+            quote=range_quote.en_quote,
+            speaker=speaker_en,
+            listener=listener_en,
+            lang="en",
+            min_tokens=cfg.min_riddle_tokens,
+            max_tokens=cfg.max_riddle_tokens,
+        )
+        if fallback_en:
+            riddle_en = fallback_en
+
+    if (
+        not riddle_he
+        or not text_cleanup.extract_substring_from_quote(range_quote.he_quote, riddle_he, "he")
+        or text_cleanup.riddle_mentions_entities(riddle_he, speaker_he, listener_he, "he")
+    ):
+        fallback_he = text_cleanup.suggest_riddle_from_quote(
+            quote=range_quote.he_quote,
+            speaker=speaker_he,
+            listener=listener_he,
+            lang="he",
+            min_tokens=cfg.min_riddle_tokens,
+            max_tokens=cfg.max_riddle_tokens,
+        )
+        if fallback_he:
+            riddle_he = fallback_he
 
     item = {
         "id": _build_item_id(book_code=book_code, chapter=chapter, start=start, end=end),
@@ -444,6 +536,40 @@ def _process_chapter(
         )
         _add_llm_stats(stats, llm_stats)
         suggestions = raw_suggestions
+        target_pool = max(max_quotes_per_chapter * 2, max_quotes_per_chapter + 1)
+        if len(suggestions) < target_pool:
+            mechanical_candidates = _mechanical_candidates(
+                context=context,
+                max_window=cfg.max_window,
+                max_candidates=target_pool * 2,
+            )
+            for candidate in mechanical_candidates:
+                finalized, fin_stats = create_quotes.finalize_candidate(
+                    model=model,
+                    context=context,
+                    candidate=candidate,
+                    max_window=cfg.max_window,
+                )
+                _add_llm_stats(stats, fin_stats)
+                suggestions.append(finalized)
+
+        if len(suggestions) < target_pool:
+            candidates, cand_stats = create_quotes.candidate_suggestions(
+                model=model,
+                context=context,
+                max_window=cfg.max_window,
+                max_quotes=target_pool * 2,
+            )
+            _add_llm_stats(stats, cand_stats)
+            for candidate in candidates:
+                finalized, fin_stats = create_quotes.finalize_candidate(
+                    model=model,
+                    context=context,
+                    candidate=candidate,
+                    max_window=cfg.max_window,
+                )
+                _add_llm_stats(stats, fin_stats)
+                suggestions.append(finalized)
     else:
         candidates, llm_stats = create_quotes.candidate_suggestions(
             model=model,
@@ -461,6 +587,17 @@ def _process_chapter(
             )
             _add_llm_stats(stats, fin_stats)
             suggestions.append(finalized)
+
+    if mode == "end2end" and suggestions:
+        max_pool = max(max_quotes_per_chapter * 3, max_quotes_per_chapter + 2)
+        suggestions = sorted(
+            suggestions,
+            key=lambda s: (
+                _sanitize_int(s.get("quote_verse_end"), 0) - _sanitize_int(s.get("quote_verse_start"), 0),
+                _sanitize_int(s.get("quote_verse_start"), 9999),
+                _sanitize_int(s.get("quote_verse_end"), 9999),
+            ),
+        )[:max_pool]
 
     stats.suggestions += len(suggestions)
 
@@ -517,62 +654,49 @@ def _process_chapter(
             issues=[],
         )
         _add_llm_stats(stats, decision_stats)
+        initial_semantic_issue = ""
         record["llm_initial"] = {
             "status": decision.get("status"),
             "reason": _sanitize_str(decision.get("reason")),
         }
         if decision["status"] == "drop":
-            stats.dropped_items += 1
-            reason = _sanitize_str(decision.get("reason")) or "llm_dropped"
-            record["action"] = "drop_llm_initial"
-            record["drop_reason"] = reason
-            audit_results.append({"action": "drop", "drop_reason": reason, "item": item})
-            issue_lines.append(
-                json.dumps(
-                    {
-                        "book_code": book_code,
-                        "chapter": chapter,
-                        "id": item.get("id"),
-                        "status": "drop",
-                        "drop_reason": reason,
-                        "item": item,
-                    },
-                    ensure_ascii=False,
-                )
+            reason = _sanitize_str(decision.get("reason")) or "llm_semantic_drop"
+            initial_semantic_issue = f"llm_semantic_drop:{reason}"
+            record["llm_initial_drop"] = reason
+        else:
+            patch = decision.get("item") if isinstance(decision.get("item"), dict) else {}
+            fixed_suggestion = _merge_suggestion(initial_input, patch)
+            rebuilt, fail_reason = _coerce_item_from_suggestion(
+                tandem=tandem,
+                book_code=book_code,
+                chapter=chapter,
+                suggestion=fixed_suggestion,
+                cfg=cfg,
             )
-            continue
-
-        patch = decision.get("item") if isinstance(decision.get("item"), dict) else {}
-        fixed_suggestion = _merge_suggestion(initial_input, patch)
-        rebuilt, fail_reason = _coerce_item_from_suggestion(
-            tandem=tandem,
-            book_code=book_code,
-            chapter=chapter,
-            suggestion=fixed_suggestion,
-            cfg=cfg,
-        )
-        if rebuilt is None:
-            stats.dropped_items += 1
-            record["action"] = "drop_coerce_after_llm"
-            record["drop_reason"] = fail_reason
-            audit_results.append({"action": "drop", "drop_reason": fail_reason, "suggestion": fixed_suggestion})
-            issue_lines.append(
-                json.dumps(
-                    {
-                        "book_code": book_code,
-                        "chapter": chapter,
-                        "status": "drop",
-                        "drop_reason": fail_reason,
-                        "suggestion": fixed_suggestion,
-                    },
-                    ensure_ascii=False,
+            if rebuilt is None:
+                stats.dropped_items += 1
+                record["action"] = "drop_coerce_after_llm"
+                record["drop_reason"] = fail_reason
+                audit_results.append({"action": "drop", "drop_reason": fail_reason, "suggestion": fixed_suggestion})
+                issue_lines.append(
+                    json.dumps(
+                        {
+                            "book_code": book_code,
+                            "chapter": chapter,
+                            "status": "drop",
+                            "drop_reason": fail_reason,
+                            "suggestion": fixed_suggestion,
+                        },
+                        ensure_ascii=False,
+                    )
                 )
-            )
-            continue
-        item = rebuilt
-        record["item"] = item
+                continue
+            item = rebuilt
+            record["item"] = item
 
         issues = _validate_item(item=item, cfg=cfg)
+        if initial_semantic_issue:
+            issues = sorted(set(issues + [initial_semantic_issue]))
         record["validation_issues_initial"] = list(issues)
         repaired = False
         repair_attempts: List[Dict] = []
@@ -691,6 +815,16 @@ def _process_chapter(
             }
         )
 
+    kept_items = sorted(
+        kept_items,
+        key=lambda item: (
+            _sanitize_int(item.get("source", {}).get("quote_verse_start"), 9999),
+            _sanitize_int(item.get("source", {}).get("quote_verse_end"), 9999),
+            _sanitize_str(item.get("id")),
+        ),
+    )
+    candidate_records = sorted(candidate_records, key=lambda record: _sanitize_int(record.get("idx"), 9999))
+
     out_payload = {
         "book_code": book_code,
         "book": bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code),
@@ -746,11 +880,12 @@ def main() -> int:
     parser.add_argument("--limit", type=int, default=0, help="alias for --limit-chapters")
     parser.add_argument("--max-window", type=int, default=5)
     parser.add_argument("--max-quotes-per-chapter", type=int, default=4)
-    parser.add_argument("--min-quote-tokens", type=int, default=12)
+    parser.add_argument("--min-quote-tokens", type=int, default=10)
     parser.add_argument("--min-riddle-tokens", type=int, default=4)
-    parser.add_argument("--max-riddle-tokens", type=int, default=14)
-    parser.add_argument("--min-context-tokens", type=int, default=6)
-    parser.add_argument("--repair-tries", type=int, default=2)
+    parser.add_argument("--max-riddle-tokens", type=int, default=16)
+    parser.add_argument("--min-context-tokens", type=int, default=4)
+    parser.add_argument("--require-single-verse-riddle", action="store_true")
+    parser.add_argument("--repair-tries", type=int, default=3)
     parser.add_argument("--out-dir", default="data/rebuilt_quotes")
     parser.add_argument("--audit-dir", default="data/rebuilt_quotes_audit")
     parser.add_argument("--issues-log", default="data/rebuilt_quotes_issues.jsonl")
@@ -814,6 +949,7 @@ def main() -> int:
         min_riddle_tokens=args.min_riddle_tokens,
         max_riddle_tokens=args.max_riddle_tokens,
         min_context_tokens=args.min_context_tokens,
+        require_single_verse_riddle=bool(args.require_single_verse_riddle),
     )
 
     total = Stats(skipped_existing=skipped_existing)

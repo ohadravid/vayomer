@@ -88,8 +88,8 @@ This flow is now split by responsibility:
 
 - `data_processing/bible_sources.py` + `data_processing/bible_tandem.py`: load Bible sources and iterate EN/HE in tandem.
 - `data_processing/text_cleanup.py`: mechanical text normalization/cleanup (cantillation stripping, tokenization, substring alignment).
-- `data_processing/create_quotes.py`: LLM generation + LLM semantic validation/fixing prompts.
-- `data_processing/rebuild.py`: file iteration, queueing, output/audit writing, and strict code-side validations.
+- `data_processing/create_quotes.py`: LLM generation + LLM semantic validation/fixing prompts (Hebrew-first generation, then English alignment).
+- `data_processing/rebuild.py`: file iteration, queueing, output/audit writing, strict code-side validations, and mechanical speech-marker candidate fallback.
 
 `rebuild.py` reprocesses the Bible chapter-by-chapter (without reading existing `data/quotes`),
 keeps raw source verses in each output item, and asks the LLM for final quote+riddle metadata.
@@ -119,8 +119,9 @@ Useful flags:
 
 - `--max-window 5` max quote verse window (hard-capped to 5)
 - `--max-quotes-per-chapter 4` cap output items per chapter
-- `--repair-tries 2` LLM repair attempts after validation failures
-- `--min-quote-tokens 12` / `--max-riddle-tokens 14` quality thresholds
-- `--min-context-tokens 6` require enough non-riddle context in the full quote
+- `--repair-tries 3` LLM repair attempts after validation failures
+- `--min-quote-tokens 10` / `--max-riddle-tokens 16` quality thresholds
+- `--min-context-tokens 4` require enough non-riddle context in the full quote
+- `--require-single-verse-riddle` enforce that each riddle appears in exactly one source verse
 - `--limit 10` process only the first N pending chapters (alias for `--limit-chapters`)
 - `--force` reprocess existing chapter outputs
