@@ -68,6 +68,36 @@ function buildShareUrl(): string | undefined {
   return `${origin}${pathname}${search}${hash}`;
 }
 
+async function copyToClipboard(text: string): Promise<boolean> {
+  if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Fall through to execCommand fallback.
+    }
+  }
+
+  if (typeof document === "undefined") return false;
+  try {
+    const textarea = document.createElement("textarea");
+    textarea.value = text;
+    textarea.setAttribute("readonly", "true");
+    textarea.style.position = "fixed";
+    textarea.style.top = "-9999px";
+    textarea.style.left = "-9999px";
+    document.body.appendChild(textarea);
+    textarea.focus();
+    textarea.select();
+    textarea.setSelectionRange(0, textarea.value.length);
+    const copied = document.execCommand("copy");
+    document.body.removeChild(textarea);
+    return copied;
+  } catch {
+    return false;
+  }
+}
+
 export function PuzzleView({
   puzzle,
   easyMode,
@@ -107,8 +137,7 @@ export function PuzzleView({
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const quoteRevealed = stageTwoOpen;
   const fullySolved = gameState === GameState.Solved;
-  const canShare =
-    attempts.length > 0 && (gameState === GameState.Solved || gameState === GameState.Failed || gameState === GameState.Revealed);
+  const canShare = attempts.length > 0;
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
   const feedback = useMemo(() => {
     if (!result) return "";
@@ -233,6 +262,12 @@ export function PuzzleView({
   const shareResult = async () => {
     if (!canShare) return;
 
+    const copied = await copyToClipboard(shareText);
+    if (copied) {
+      setShareNotice(t("puzzleView.shareCopied"));
+      return;
+    }
+
     const sharePayload: ShareData = {
       title: t("app.title"),
       text: shareText,
@@ -253,20 +288,10 @@ export function PuzzleView({
           payloadToShare = supported;
         }
         await navigator.share(payloadToShare);
-        setShareNotice(t("puzzleView.shareShared"));
+        setShareNotice("");
         return;
       } catch (error) {
         if (error instanceof DOMException && error.name === "AbortError") return;
-      }
-    }
-
-    if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
-      try {
-        await navigator.clipboard.writeText(shareText);
-        setShareNotice(t("puzzleView.shareCopied"));
-        return;
-      } catch {
-        // Fall through to generic failure message.
       }
     }
 
