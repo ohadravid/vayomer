@@ -292,8 +292,10 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
           puzzle={selectedItem}
           revealed
           quoteRevealed
+          bookHintUsed={false}
           dateLabel={formatDate(selectedDate, lang)}
           onClear={() => undefined}
+          onRevealBookHint={() => undefined}
         />
       </div>
       <section className="debug-quote-browser-answers card">
@@ -463,8 +465,10 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
               puzzle={samplePuzzle}
               revealed={false}
               quoteRevealed={false}
+              bookHintUsed={false}
               dateLabel={dateLabel}
               onClear={() => undefined}
+              onRevealBookHint={() => undefined}
             />
           </article>
 
@@ -474,8 +478,10 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
               puzzle={samplePuzzle}
               revealed
               quoteRevealed
+              bookHintUsed
               dateLabel={dateLabel}
               onClear={() => undefined}
+              onRevealBookHint={() => undefined}
             />
           </article>
 
@@ -501,7 +507,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 shareNotice={localize(lang, "Copied results.", "התוצאות הועתקו.")}
                 triesUsed={2}
                 maxTries={5}
-                statusMarks="❌✅⬜"
+                statusMarks="❌✅⬜⬜"
               />
             </section>
           </article>

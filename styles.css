@@ -164,6 +164,16 @@ h1,
   flex-shrink: 0;
 }
 
+.meta-actions > button {
+  inline-size: 84px;
+  min-inline-size: 84px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  text-align: center;
+}
+
 .meta-item {
   border: 1px solid var(--border);
   padding: 4px 8px;
@@ -482,6 +492,16 @@ button.small {
 .revealed .ref-line {
   opacity: 1;
   visibility: visible;
+}
+
+.book-revealed .ref-line {
+  opacity: 1;
+  visibility: visible;
+}
+
+.book-hint-only .ref-line {
+  color: var(--ink);
+  font-weight: 400;
 }
 
 .debug-page {

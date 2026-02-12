@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { buildMultipleChoiceOptions } from "../lib/easyMode";
 import { deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
@@ -22,6 +22,7 @@ type Props = {
     listener: string;
     portion: string;
     bonus: string;
+    bookHintUsed: boolean;
     attempts: GuessResult[];
   }) => void;
   initial?: {
@@ -29,6 +30,7 @@ type Props = {
     listener: string;
     portion: string;
     bonus: string;
+    bookHintUsed?: boolean;
     attempts: GuessResult[];
   };
   syncDocumentDirection?: boolean;
@@ -83,9 +85,11 @@ export function PuzzleView({
   const [listener, setListener] = useState(initial?.listener ?? EMPTY_GUESS_VALUES.listener);
   const [portion, setPortion] = useState(initial?.portion ?? EMPTY_GUESS_VALUES.portion);
   const [bonus, setBonus] = useState(initial?.bonus ?? EMPTY_GUESS_VALUES.bonus);
+  const [bookHintUsed, setBookHintUsed] = useState(initial?.bookHintUsed ?? false);
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
+  const persistRef = useRef<Props["onPersist"]>(onPersist);
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -138,6 +142,7 @@ export function PuzzleView({
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
     setBonus(nextValues.bonus);
+    setBookHintUsed(initial?.bookHintUsed ?? false);
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
@@ -146,14 +151,19 @@ export function PuzzleView({
     initial?.listener,
     initial?.portion,
     initial?.bonus,
+    initial?.bookHintUsed,
     initial?.attempts,
     puzzle,
   ]);
 
   useEffect(() => {
-    if (!onPersist) return;
-    onPersist({ speaker, listener, portion, bonus, attempts });
-  }, [speaker, listener, portion, bonus, attempts, onPersist]);
+    persistRef.current = onPersist;
+  }, [onPersist]);
+
+  useEffect(() => {
+    if (!persistRef.current) return;
+    persistRef.current({ speaker, listener, portion, bonus, bookHintUsed, attempts });
+  }, [speaker, listener, portion, bonus, bookHintUsed, attempts]);
 
   useEffect(() => {
     if (!syncDocumentDirection) return;
@@ -162,13 +172,15 @@ export function PuzzleView({
   }, [lang, syncDocumentDirection]);
 
   const statusMarks = (() => {
-    if (fullySolved) return "✅✅✳️";
-    if (revealed && coreSolved) return "✅✅✴️";
-    if (coreSolved) return "✅✅✡️";
-    if (!result) return "⬜⬜⬜";
+    const bookMark = bookHintUsed ? "📚" : "⬜";
+
+    if (fullySolved) return `✅✅✳️${bookMark}`;
+    if (revealed && coreSolved) return `✅✅✴️${bookMark}`;
+    if (coreSolved) return `✅✅✡️${bookMark}`;
+    if (!result) return `⬜⬜⬜${bookMark}`;
     const speakerMark = result.speakerOk ? "✅" : "❌";
     const listenerMark = result.listenerOk ? "✅" : "❌";
-    return `${speakerMark}${listenerMark}⬜`;
+    return `${speakerMark}${listenerMark}⬜${bookMark}`;
   })();
 
   const shareUrl = buildShareUrl();
@@ -207,10 +219,15 @@ export function PuzzleView({
     setListener(EMPTY_GUESS_VALUES.listener);
     setPortion(EMPTY_GUESS_VALUES.portion);
     setBonus(EMPTY_GUESS_VALUES.bonus);
+    setBookHintUsed(false);
     setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
     onClear();
+  };
+
+  const revealBookHint = () => {
+    setBookHintUsed(true);
   };
 
   const shareResult = async () => {
@@ -270,8 +287,10 @@ export function PuzzleView({
         puzzle={puzzle}
         revealed={revealed}
         quoteRevealed={quoteRevealed}
+        bookHintUsed={bookHintUsed}
         dateLabel={dateLabel}
         onClear={clearLocal}
+        onRevealBookHint={revealBookHint}
       />
       <GuessForm
         easyMode={easyMode}

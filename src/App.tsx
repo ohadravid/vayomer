@@ -2,7 +2,8 @@ import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
-import type { BookOptionSet, GuessResult, PuzzleItem } from "./types";
+import { buildPuzzleStorageKey } from "./lib/persistence";
+import type { BookOptionSet, GuessResult, Lang, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import dailyData from "../data/daily.json";
 import optionsData from "../data/options.json";
@@ -18,15 +19,17 @@ enum EasyModeValue {
 }
 
 type PersistedState = {
+  lang: Lang;
   speaker: string;
   listener: string;
   portion: string;
   bonus: string;
+  bookHintUsed: boolean;
   attempts: GuessResult[];
   revealed: boolean;
 };
 
-type PersistInput = Omit<PersistedState, "revealed">;
+type PersistInput = Omit<PersistedState, "lang" | "revealed">;
 type AppPage = "game" | "about";
 
 const EMPTY_PERSIST_INPUT: PersistInput = {
@@ -34,6 +37,7 @@ const EMPTY_PERSIST_INPUT: PersistInput = {
   listener: "",
   portion: "",
   bonus: "",
+  bookHintUsed: false,
   attempts: [],
 };
 
@@ -43,6 +47,7 @@ function toPersistInput(state: PersistedState): PersistInput {
     listener: state.listener,
     portion: state.portion,
     bonus: state.bonus,
+    bookHintUsed: state.bookHintUsed,
     attempts: state.attempts,
   };
 }
@@ -104,15 +109,18 @@ function pickDailyItemIndex(total: number): number {
   return order[day] ?? 0;
 }
 
-function parsePersistedState(raw: string | null): PersistedState | null {
+function parsePersistedState(raw: string | null, lang: Lang): PersistedState | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as Partial<PersistedState> & { result?: unknown; guesses?: unknown };
+    if (parsed.lang !== lang) return null;
     return {
+      lang,
       speaker: parsed.speaker ?? "",
       listener: parsed.listener ?? "",
       portion: parsed.portion ?? "",
       bonus: parsed.bonus ?? "",
+      bookHintUsed: !!parsed.bookHintUsed,
       attempts: parseAttempts(parsed),
       revealed: !!parsed.revealed,
     };
@@ -204,6 +212,7 @@ export function App() {
   }, []);
 
   const puzzle = useMemo(() => items[index], [items, index]);
+  const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
   const choicePools = useMemo(() => {
     if (!puzzle) return null;
     return resolveChoicePoolsForPuzzle({
@@ -216,11 +225,10 @@ export function App() {
 
   useEffect(() => {
     if (!puzzle) return;
-    const key = `qs:${puzzle.id}`;
-    const parsed = parsePersistedState(localStorage.getItem(key));
+    const parsed = parsePersistedState(localStorage.getItem(storageKey), lang);
     setRevealed(parsed?.revealed ?? false);
     setInitial(parsed ? toPersistInput(parsed) : { ...EMPTY_PERSIST_INPUT });
-  }, [puzzle]);
+  }, [puzzle, storageKey, lang]);
 
   useEffect(() => {
     const direction = getLanguageDirection(lang);
@@ -248,12 +256,11 @@ export function App() {
 
   if (!puzzle && page === "game") return null;
 
-  const storageKey = puzzle ? `qs:${puzzle.id}` : "";
-
   const persist = (state: PersistInput) => {
     if (!puzzle) return;
-    const existing = parsePersistedState(localStorage.getItem(storageKey));
+    const existing = parsePersistedState(localStorage.getItem(storageKey), lang);
     const payload = {
+      lang,
       ...state,
       revealed: existing?.revealed ?? revealed,
     };
@@ -270,11 +277,11 @@ export function App() {
   const reveal = () => {
     if (!puzzle) return;
     setRevealed(true);
-    const existing = parsePersistedState(localStorage.getItem(storageKey));
+    const existing = parsePersistedState(localStorage.getItem(storageKey), lang);
     localStorage.setItem(
       storageKey,
       JSON.stringify({
-        ...(existing ?? { ...EMPTY_PERSIST_INPUT, revealed: false }),
+        ...(existing ?? { lang, ...EMPTY_PERSIST_INPUT, revealed: false }),
         revealed: true,
       })
     );
