@@ -82,6 +82,10 @@ def _chapter_filename(book_code: str, chapter: int) -> str:
     return f"{slug}-{chapter:03d}.json"
 
 
+def _chapter_draft_path(out_path: Path) -> Path:
+    return out_path.with_name(f"{out_path.stem}-draft.json")
+
+
 def _build_item_id(book_code: str, chapter: int, start: int, end: int) -> str:
     slug = bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code).lower()
     slug = re.sub(r"[^a-z0-9]+", "-", slug).strip("-")
@@ -113,6 +117,19 @@ def _chapter_context(tandem: bible_tandem.TandemBible, book_code: str, chapter: 
         {"v": verse.verse, "en": verse.en_raw, "he": verse.he_raw}
         for verse in tandem.iter_verses(book_code, chapter)
     ]
+
+
+def _verses_side_by_side(context: List[Dict]) -> Dict[str, Dict[str, str]]:
+    verses: Dict[str, Dict[str, str]] = {}
+    for entry in context:
+        verse_no = _sanitize_int(entry.get("v"), 0)
+        if verse_no <= 0:
+            continue
+        verses[str(verse_no)] = {
+            "en": _sanitize_str(entry.get("en")),
+            "he": _sanitize_str(entry.get("he")),
+        }
+    return verses
 
 
 def _riddle_verse_hits(raw_map: Dict[str, str], riddle: str, lang: str) -> List[int]:
@@ -374,6 +391,7 @@ def _process_chapter(
     chapter: int,
     out_path: Path,
     audit_path: Path,
+    draft_path: Path,
     issues_log_path: Path,
     model: str,
     mode: str,
@@ -396,6 +414,24 @@ def _process_chapter(
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         audit_path.parent.mkdir(parents=True, exist_ok=True)
         audit_path.write_text(json.dumps({"results": [], "items_total": 0}, ensure_ascii=False, indent=2), encoding="utf-8")
+        draft_path.parent.mkdir(parents=True, exist_ok=True)
+        draft_path.write_text(
+            json.dumps(
+                {
+                    "book_code": book_code,
+                    "book": bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code),
+                    "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
+                    "chapter": chapter,
+                    "mode": mode,
+                    "items": [],
+                    "verses": {},
+                    "candidates": [],
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
         return stats
 
     suggestions: List[Dict] = []
@@ -430,11 +466,18 @@ def _process_chapter(
 
     kept_items: List[Dict] = []
     audit_results: List[Dict] = []
+    candidate_records: List[Dict] = []
     issue_lines: List[str] = []
     seen_keys: Set[str] = set()
 
-    for suggestion in suggestions:
+    for idx, suggestion in enumerate(suggestions):
+        record: Dict = {"idx": idx, "suggestion": suggestion}
+        candidate_records.append(record)
+
         if not isinstance(suggestion, dict):
+            stats.dropped_items += 1
+            record["action"] = "drop_invalid_suggestion"
+            record["drop_reason"] = "invalid_suggestion_type"
             continue
 
         item, fail_reason = _coerce_item_from_suggestion(
@@ -446,6 +489,8 @@ def _process_chapter(
         )
         if item is None:
             stats.dropped_items += 1
+            record["action"] = "drop_coerce"
+            record["drop_reason"] = fail_reason
             audit_results.append({"action": "drop", "drop_reason": fail_reason, "suggestion": suggestion})
             issue_lines.append(
                 json.dumps(
@@ -460,6 +505,7 @@ def _process_chapter(
                 )
             )
             continue
+        record["item"] = item
 
         # LLM validation/fixing: semantic quality decisions live here.
         initial_input = _item_to_suggestion(item)
@@ -471,9 +517,15 @@ def _process_chapter(
             issues=[],
         )
         _add_llm_stats(stats, decision_stats)
+        record["llm_initial"] = {
+            "status": decision.get("status"),
+            "reason": _sanitize_str(decision.get("reason")),
+        }
         if decision["status"] == "drop":
             stats.dropped_items += 1
             reason = _sanitize_str(decision.get("reason")) or "llm_dropped"
+            record["action"] = "drop_llm_initial"
+            record["drop_reason"] = reason
             audit_results.append({"action": "drop", "drop_reason": reason, "item": item})
             issue_lines.append(
                 json.dumps(
@@ -501,6 +553,8 @@ def _process_chapter(
         )
         if rebuilt is None:
             stats.dropped_items += 1
+            record["action"] = "drop_coerce_after_llm"
+            record["drop_reason"] = fail_reason
             audit_results.append({"action": "drop", "drop_reason": fail_reason, "suggestion": fixed_suggestion})
             issue_lines.append(
                 json.dumps(
@@ -516,9 +570,12 @@ def _process_chapter(
             )
             continue
         item = rebuilt
+        record["item"] = item
 
         issues = _validate_item(item=item, cfg=cfg)
+        record["validation_issues_initial"] = list(issues)
         repaired = False
+        repair_attempts: List[Dict] = []
 
         for _ in range(max(0, repair_tries)):
             if not issues:
@@ -533,8 +590,15 @@ def _process_chapter(
                 issues=issues,
             )
             _add_llm_stats(stats, fix_stats)
+            attempt_record: Dict = {
+                "issues_in": list(issues),
+                "status": decision.get("status"),
+                "reason": _sanitize_str(decision.get("reason")),
+            }
 
             if decision["status"] == "drop":
+                attempt_record["result"] = "drop"
+                repair_attempts.append(attempt_record)
                 break
 
             fixed_patch = decision.get("item") if isinstance(decision.get("item"), dict) else {}
@@ -548,14 +612,26 @@ def _process_chapter(
             )
             if rebuilt is None:
                 issues = [fail_reason]
+                attempt_record["result"] = "coerce_fail"
+                attempt_record["coerce_fail_reason"] = fail_reason
+                repair_attempts.append(attempt_record)
                 break
 
             item = rebuilt
+            record["item"] = item
             issues = _validate_item(item=item, cfg=cfg)
+            attempt_record["result"] = "updated"
+            attempt_record["issues_out"] = list(issues)
+            repair_attempts.append(attempt_record)
             repaired = True
+
+        if repair_attempts:
+            record["repair_attempts"] = repair_attempts
 
         if issues:
             stats.dropped_items += 1
+            record["action"] = "drop_validation"
+            record["issues"] = list(issues)
             audit_results.append(
                 {
                     "id": item.get("id"),
@@ -590,13 +666,23 @@ def _process_chapter(
             sort_keys=True,
         )
         if dedupe_key in seen_keys:
+            record["action"] = "skip_dedupe"
+            record["item_id"] = item.get("id")
             continue
         seen_keys.add(dedupe_key)
+
+        if len(kept_items) >= max_quotes_per_chapter:
+            record["action"] = "skip_quota"
+            record["item_id"] = item.get("id")
+            record["reason"] = f"max_quotes_per_chapter={max_quotes_per_chapter}"
+            continue
 
         if repaired:
             stats.repaired_items += 1
         stats.kept_items += 1
         kept_items.append(item)
+        record["action"] = "keep_repaired" if repaired else "keep"
+        record["item_id"] = item.get("id")
         audit_results.append(
             {
                 "id": item.get("id"),
@@ -604,8 +690,6 @@ def _process_chapter(
                 "issues": [],
             }
         )
-        if len(kept_items) >= max_quotes_per_chapter:
-            break
 
     out_payload = {
         "book_code": book_code,
@@ -629,6 +713,19 @@ def _process_chapter(
     }
     audit_path.parent.mkdir(parents=True, exist_ok=True)
     audit_path.write_text(json.dumps(audit_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    draft_payload = {
+        "book_code": book_code,
+        "book": bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code),
+        "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
+        "chapter": chapter,
+        "mode": mode,
+        "items": kept_items,
+        "verses": _verses_side_by_side(context),
+        "candidates": candidate_records,
+    }
+    draft_path.parent.mkdir(parents=True, exist_ok=True)
+    draft_path.write_text(json.dumps(draft_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if issue_lines:
         issues_log_path.parent.mkdir(parents=True, exist_ok=True)
@@ -689,16 +786,17 @@ def main() -> int:
     if limit_chapters:
         chapters = chapters[:limit_chapters]
 
-    queue: List[Tuple[str, int, Path, Path]] = []
+    queue: List[Tuple[str, int, Path, Path, Path]] = []
     skipped_existing = 0
     for code, chapter in chapters:
         filename = _chapter_filename(book_code=code, chapter=chapter)
         out_path = out_dir / filename
         audit_path = audit_dir / filename
-        if not args.force and out_path.exists() and audit_path.exists():
+        draft_path = _chapter_draft_path(out_path)
+        if not args.force and out_path.exists() and audit_path.exists() and draft_path.exists():
             skipped_existing += 1
             continue
-        queue.append((code, chapter, out_path, audit_path))
+        queue.append((code, chapter, out_path, audit_path, draft_path))
 
     if args.force or not issues_log.exists():
         issues_log.parent.mkdir(parents=True, exist_ok=True)
@@ -719,7 +817,7 @@ def main() -> int:
     )
 
     total = Stats(skipped_existing=skipped_existing)
-    for code, chapter, out_path, audit_path in tqdm(queue, desc=f"rebuild-{args.mode}", unit="chap"):
+    for code, chapter, out_path, audit_path, draft_path in tqdm(queue, desc=f"rebuild-{args.mode}", unit="chap"):
         try:
             stats = _process_chapter(
                 tandem=tandem,
@@ -727,6 +825,7 @@ def main() -> int:
                 chapter=chapter,
                 out_path=out_path,
                 audit_path=audit_path,
+                draft_path=draft_path,
                 issues_log_path=issues_log,
                 model=args.model,
                 mode=args.mode,

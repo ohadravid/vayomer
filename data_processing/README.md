@@ -109,6 +109,9 @@ uv run python3 data_processing/rebuild_quotes_end2end.py --model gemma3:27b --bo
 Outputs:
 
 - `data/rebuilt_quotes/*.json` chapter outputs with final items and `raw_quote_source`
+- `data/rebuilt_quotes/*-draft.json` chapter inspection files with:
+  - `verses` side-by-side EN/HE verse text
+  - `candidates` full candidate decision trace (`keep`/`drop`/`skip_*` + reasons/issues)
 - `data/rebuilt_quotes_audit/*.json` per-chapter keep/drop audit
 - `data/rebuilt_quotes_issues.jsonl` dropped-item details
 
