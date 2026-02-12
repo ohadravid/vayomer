@@ -84,10 +84,23 @@ Useful flags:
 
 ## 5) Rebuild Quotes End-to-End (chapter -> final riddles)
 
-This path reprocesses the Bible chapter-by-chapter (without reading existing `data/quotes`),
+This flow is now split by responsibility:
+
+- `data_processing/bible_sources.py` + `data_processing/bible_tandem.py`: load Bible sources and iterate EN/HE in tandem.
+- `data_processing/text_cleanup.py`: mechanical text normalization/cleanup (cantillation stripping, tokenization, substring alignment).
+- `data_processing/create_quotes.py`: LLM generation + LLM semantic validation/fixing prompts.
+- `data_processing/rebuild.py`: file iteration, queueing, output/audit writing, and strict code-side validations.
+
+`rebuild.py` reprocesses the Bible chapter-by-chapter (without reading existing `data/quotes`),
 keeps raw source verses in each output item, and asks the LLM for final quote+riddle metadata.
 
-Default mode is `end2end` (single LLM pass per chapter). A `candidates` mode is also available.
+Default mode is `end2end` (single LLM pass per chapter + LLM validator). A `candidates` mode is also available.
+
+```bash
+uv run python3 data_processing/rebuild.py --model gemma3:27b --book GEN --chapters 1-5 --mode end2end
+```
+
+Compatibility wrapper (same behavior):
 
 ```bash
 uv run python3 data_processing/rebuild_quotes_end2end.py --model gemma3:27b --book GEN --chapters 1-5 --mode end2end
