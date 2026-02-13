@@ -176,9 +176,16 @@ h1,
 
 .meta-item {
   border: 1px solid var(--border);
-  padding: 4px 8px;
+  padding: 4px 10px;
   border-radius: 6px;
   background: #f7f7f7;
+  display: inline-flex;
+  align-items: center;
+  line-height: 20px;
+}
+
+.meta button {
+  padding: 4px 4px;
 }
 
 .meta-item:empty {
@@ -422,7 +429,6 @@ button.chip.active {
 }
 
 button.small {
-  padding: 6px 10px;
   font-size: 12px;
 }
 
