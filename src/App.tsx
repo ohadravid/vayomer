@@ -5,6 +5,7 @@ import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from 
 import { buildPuzzleStorageKey } from "./lib/persistence";
 import type { BookOptionSet, GuessResult, Lang, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
+import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import dailyData from "../data/daily.json";
 import optionsData from "../data/options.json";
 const EPOCH_DATE = new Date(2026, 1, 6);
@@ -135,7 +136,7 @@ function parseEasyModeValue(raw: string | null): boolean | null {
   return null;
 }
 
-function toEasyModeValue(enabled: boolean): EasyModeValue {
+export function toEasyModeValue(enabled: boolean): EasyModeValue {
   return enabled ? EasyModeValue.On : EasyModeValue.Off;
 }
 
@@ -148,7 +149,7 @@ function pickEasyModeFromStorage(): boolean {
   }
 }
 
-function parseEasyModeFromSearch(search: string): boolean | null {
+export function parseEasyModeFromSearch(search: string): boolean | null {
   return parseEasyModeValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
 }
 
@@ -157,6 +158,18 @@ function pickEasyMode(): boolean {
   const fromUrl = parseEasyModeFromSearch(window.location.search);
   if (fromUrl !== null) return fromUrl;
   return pickEasyModeFromStorage();
+}
+
+export function pickEasyModeForNavigation(search: string): boolean {
+  const fromUrl = parseEasyModeFromSearch(search);
+  return fromUrl ?? false;
+}
+
+export function getSearchWithEasyMode(search: string, easyModeEnabled: boolean): string {
+  const params = new URLSearchParams(search);
+  params.set(EASY_MODE_QUERY_KEY, toEasyModeValue(easyModeEnabled));
+  const serialized = params.toString();
+  return serialized ? `?${serialized}` : "";
 }
 
 function pickPageFromHash(hash: string): AppPage {
@@ -193,7 +206,15 @@ export function App() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const syncEasyModeFromLocation = () => setEasyMode(pickEasyMode());
+    const syncEasyModeFromLocation = () => {
+      const next = pickEasyModeForNavigation(window.location.search);
+      setEasyMode(next);
+      try {
+        localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeValue(next));
+      } catch {
+        // Ignore storage access errors.
+      }
+    };
     window.addEventListener("popstate", syncEasyModeFromLocation);
     return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
   }, []);
@@ -238,21 +259,25 @@ export function App() {
     document.title = page === "about" ? t("about.title") : t("app.pageTitle");
   }, [lang, page, t]);
 
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const url = new URL(window.location.href);
-      const next = toEasyModeValue(easyMode);
-      if (url.searchParams.get(EASY_MODE_QUERY_KEY) !== next) {
-        url.searchParams.set(EASY_MODE_QUERY_KEY, next);
-        window.history.replaceState(window.history.state, "", `${url.pathname}${url.search}${url.hash}`);
+  const toggleEasyMode = () => {
+    setEasyMode((previous) => {
+      const next = !previous;
+      const nextValue = toEasyModeValue(next);
+      if (typeof window !== "undefined") {
+        const url = new URL(window.location.href);
+        const nextSearch = getSearchWithEasyMode(url.search, next);
+        if (nextSearch !== url.search) {
+          window.history.replaceState(window.history.state, "", `${url.pathname}${nextSearch}${url.hash}`);
+        }
       }
-    }
-    try {
-      localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeValue(easyMode));
-    } catch {
-      // Ignore storage access errors.
-    }
-  }, [easyMode]);
+      try {
+        localStorage.setItem(EASY_MODE_STORAGE_KEY, nextValue);
+      } catch {
+        // Ignore storage access errors.
+      }
+      return next;
+    });
+  };
 
   if (!puzzle && page === "game") return null;
 
@@ -289,6 +314,8 @@ export function App() {
 
   return (
     <div className="app" id="app">
+      <LanguageUrlSync i18n={i18n} lang={lang} />
+
       <header className="header">
         <div>
           <div className="kicker">{page === "about" ? t("about.kicker") : t("app.kicker")}</div>
@@ -308,7 +335,7 @@ export function App() {
             <button
               className={`chip ${easyMode ? "active" : ""}`}
               type="button"
-              onClick={() => setEasyMode((prev) => !prev)}
+              onClick={toggleEasyMode}
               aria-pressed={easyMode}
               aria-label={t("app.toggleEasyMode")}
               title={t("app.easyModeTooltip")}

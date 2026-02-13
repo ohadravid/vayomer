@@ -3,7 +3,7 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import { initReactI18next } from "react-i18next";
 import {
   DEFAULT_LANGUAGE,
-  LANGUAGE_PREFERENCE_SET_KEY,
+  LANGUAGE_QUERY_KEY,
   LANGUAGE_STORAGE_KEY,
   normalizeLanguageTag,
 } from "./lib/language";
@@ -120,54 +120,19 @@ export const resources = {
   },
 } as const;
 
-function detectHeOrEnglish(language: string | readonly string[] | null | undefined): "he" | "en" {
-  const candidates = Array.isArray(language) ? language : [language];
-  for (const candidate of candidates) {
-    if (!candidate) continue;
-    const base = candidate.toLowerCase().split("-")[0];
-    if (base === "he" || base === "iw") return "he";
-  }
-  return "en";
-}
-
-const languageDetector = new LanguageDetector();
-languageDetector.addDetector({
-  name: "navigatorHeFirst",
-  lookup() {
-    if (typeof navigator === "undefined") return undefined;
-    const candidates = navigator.languages?.length ? navigator.languages : [navigator.language];
-    return detectHeOrEnglish(candidates);
-  },
-});
-
-void i18n.use(languageDetector).use(initReactI18next).init({
+void i18n.use(LanguageDetector).use(initReactI18next).init({
   resources,
   fallbackLng: DEFAULT_LANGUAGE,
   supportedLngs: ["en", "he"],
   load: "languageOnly",
   detection: {
-    order: ["querystring", "localStorage", "navigatorHeFirst"],
+    order: ["querystring", "localStorage"],
+    lookupQuerystring: LANGUAGE_QUERY_KEY,
     lookupLocalStorage: LANGUAGE_STORAGE_KEY,
     caches: [],
-    convertDetectedLanguage: detectHeOrEnglish,
+    convertDetectedLanguage: normalizeLanguageTag,
   },
   interpolation: { escapeValue: false },
-});
-
-let initializedLanguage = false;
-i18n.on("languageChanged", (next) => {
-  if (typeof window === "undefined") return;
-  const normalized = normalizeLanguageTag(next);
-  if (!initializedLanguage) {
-    initializedLanguage = true;
-    return;
-  }
-  try {
-    window.localStorage.setItem(LANGUAGE_STORAGE_KEY, normalized);
-    window.localStorage.setItem(LANGUAGE_PREFERENCE_SET_KEY, "1");
-  } catch {
-    // Ignore storage access errors.
-  }
 });
 
 export default i18n;
