@@ -24,8 +24,9 @@ const SOLVED: GuessResult = {
 };
 
 describe("buildShareText", () => {
-  it("renders a wordle-style grid with bonus column", () => {
+  it("renders game-style status rows with bonus column", () => {
     const text = buildShareText({
+      title: "Vayomer",
       attempts: [WRONG, CORE_ONLY, SOLVED],
       solved: true,
       bonusRequired: true,
@@ -35,14 +36,15 @@ describe("buildShareText", () => {
     });
 
     expect(text).toContain("Vayomer 2026-02-11 3/5");
-    expect(text).toContain("⬛⬛⬜");
-    expect(text).toContain("🟩🟩⬛");
-    expect(text).toContain("🟩🟩🟩");
+    expect(text).toContain("❌❌⬜");
+    expect(text).toContain("✅✅✡️");
+    expect(text).toContain("✅✅✳️");
     expect(text).toContain("https://example.com");
   });
 
   it("uses X score when not solved", () => {
     const text = buildShareText({
+      title: "Vayomer",
       attempts: [WRONG, WRONG, WRONG],
       solved: false,
       bonusRequired: true,
@@ -51,11 +53,12 @@ describe("buildShareText", () => {
     });
 
     expect(text).toContain("Vayomer 2026-02-11 X/5");
-    expect(text).toContain("⬛⬛⬜");
+    expect(text).toContain("❌❌⬜");
   });
 
   it("omits bonus column when puzzle has no bonus", () => {
     const text = buildShareText({
+      title: "Vayomer",
       attempts: [WRONG, CORE_ONLY],
       solved: true,
       bonusRequired: false,
@@ -63,8 +66,37 @@ describe("buildShareText", () => {
       date: new Date(2026, 1, 11),
     });
 
-    expect(text).toContain("⬛⬛");
-    expect(text).toContain("🟩🟩");
-    expect(text).not.toContain("🟩🟩⬛");
+    expect(text).toContain("❌❌");
+    expect(text).toContain("✅✅");
+    expect(text).not.toContain("✅✅✡️");
+  });
+
+  it("uses the game emoji set instead of wordle squares", () => {
+    const text = buildShareText({
+      title: "Vayomer",
+      attempts: [WRONG, SOLVED],
+      solved: true,
+      bonusRequired: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("❌❌⬜");
+    expect(text).toContain("✅✅✳️");
+    expect(text).not.toContain("🟩");
+    expect(text).not.toContain("⬛");
+  });
+
+  it("uses localized title text in the header", () => {
+    const text = buildShareText({
+      title: "וַיֹּאמֶר",
+      attempts: [SOLVED],
+      solved: true,
+      bonusRequired: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("וַיֹּאמֶר 2026-02-11 1/5");
   });
 });

@@ -1,6 +1,7 @@
 import type { GuessResult } from "../types";
 
 type BuildShareTextArgs = {
+  title: string;
   attempts: GuessResult[];
   solved: boolean;
   bonusRequired: boolean;
@@ -16,26 +17,22 @@ function formatShareDate(date: Date): string {
   return `${year}-${month}-${day}`;
 }
 
-function cellMark(ok: boolean): string {
-  return ok ? "🟩" : "⬛";
-}
-
 function attemptRow(attempt: GuessResult, bonusRequired: boolean): string {
-  const speaker = cellMark(attempt.speakerOk);
-  const listener = cellMark(attempt.listenerOk);
+  const speaker = attempt.speakerOk ? "✅" : "❌";
+  const listener = attempt.listenerOk ? "✅" : "❌";
   if (!bonusRequired) return `${speaker}${listener}`;
   const coreSolved = attempt.speakerOk && attempt.listenerOk;
-  const bonus = coreSolved ? cellMark(attempt.bonusOk) : "⬜";
+  const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✡️") : "⬜";
   return `${speaker}${listener}${bonus}`;
 }
 
 export function buildShareText(args: BuildShareTextArgs): string {
-  const { attempts, solved, bonusRequired, maxTries, date, gameUrl } = args;
+  const { title, attempts, solved, bonusRequired, maxTries, date, gameUrl } = args;
   const score = solved ? `${Math.min(attempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
-  const title = `Vayomer ${formatShareDate(date)} ${score}`;
+  const header = `${title} ${formatShareDate(date)} ${score}`;
   const fallbackRow = bonusRequired ? "⬜⬜⬜" : "⬜⬜";
   const rows = attempts.length > 0 ? attempts.map((attempt) => attemptRow(attempt, bonusRequired)) : [fallbackRow];
-  const lines = [title, "", ...rows];
+  const lines = [header, "", ...rows];
   if (gameUrl) lines.push(gameUrl);
   return lines.join("\n");
 }

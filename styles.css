@@ -236,6 +236,10 @@ h1,
   display: none;
 }
 
+.form-row.secondary.no-portion.locked .form-actions {
+  grid-column: 2 / 3;
+}
+
 .form label {
   min-width: 0;
 }

@@ -215,6 +215,7 @@ export function PuzzleView({
   const shareUrl = buildShareUrl();
   const shareText = useMemo(() => {
     return buildShareText({
+      title: t("app.title"),
       attempts,
       solved: fullySolved,
       bonusRequired,
@@ -222,7 +223,7 @@ export function PuzzleView({
       date: new Date(),
       gameUrl: shareUrl,
     });
-  }, [attempts, fullySolved, bonusRequired, shareUrl]);
+  }, [attempts, fullySolved, bonusRequired, shareUrl, t, lang]);
 
   const checkGuess = () => {
     if (submitDisabled) return;
