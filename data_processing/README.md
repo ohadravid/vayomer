@@ -129,6 +129,9 @@ Useful flags:
 ## 6) Add bonus words to rebuilt quotes (LLM post-pass)
 
 Adds `en.bonus` + `he.bonus` to each item from rebuilt outputs and writes updated files to a new folder.
+It also normalizes item metadata to include:
+- `en.book` + `he.book`
+- `ref: { "chapter": N, "start": S, "end": E }` (derived from `source`)
 
 ```bash
 uv run python3 data_processing/add_bonus_words.py --model gemma3:27b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus

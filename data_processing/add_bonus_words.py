@@ -746,6 +746,45 @@ def _pick_bonus_words(
     }, retry_notes, last_reason or "bonus_selection_failed"
 
 
+def _normalize_item_book_and_ref(item: Dict, payload: Dict) -> bool:
+    changed = False
+
+    source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
+    if not isinstance(item.get("en"), dict):
+        item["en"] = {}
+        changed = True
+    if not isinstance(item.get("he"), dict):
+        item["he"] = {}
+        changed = True
+
+    source_book_en = _sanitize_str(source.get("book"))
+    source_book_he = _sanitize_str(source.get("book_he"))
+    payload_book_en = _sanitize_str(payload.get("book"))
+    payload_book_he = _sanitize_str(payload.get("book_he"))
+
+    book_en = source_book_en or payload_book_en
+    book_he = source_book_he or payload_book_he
+
+    if book_en and _sanitize_str(item["en"].get("book")) != book_en:
+        item["en"]["book"] = book_en
+        changed = True
+    if book_he and _sanitize_str(item["he"].get("book")) != book_he:
+        item["he"]["book"] = book_he
+        changed = True
+
+    chapter = _sanitize_int(source.get("chapter"), _sanitize_int(payload.get("chapter"), 0))
+    start = _sanitize_int(source.get("quote_verse_start"), 0)
+    end = _sanitize_int(source.get("quote_verse_end"), 0)
+    if chapter > 0 and start > 0 and end > 0:
+        expected_ref = {"chapter": chapter, "start": start, "end": end}
+        current_ref = item.get("ref")
+        if not isinstance(current_ref, dict) or any(_sanitize_int(current_ref.get(k), -1) != expected_ref[k] for k in ("chapter", "start", "end")):
+            item["ref"] = expected_ref
+            changed = True
+
+    return changed
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gemma3:27b")
@@ -933,6 +972,9 @@ def main() -> int:
 
         for idx, item in enumerate(filtered_items):
             stats.items_seen += 1
+
+            if _normalize_item_book_and_ref(item=item, payload=payload):
+                changed = True
 
             en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
             he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
