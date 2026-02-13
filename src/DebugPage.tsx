@@ -5,10 +5,12 @@ import { GuessForm } from "./components/GuessForm";
 import { PuzzleCard } from "./components/PuzzleCard";
 import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
-import { formatDate } from "./lib/format";
+import { buildMultipleChoiceOptions, parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode";
+import { formatDate, normalize } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
 import type { EasyChoicePools, GuessEditState, GuessResult, GuessValues, Lang, PuzzleItem } from "./types";
 import dailyData from "../data/daily.json";
+import optionsData from "../data/options.json";
 
 const samplePuzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -60,6 +62,7 @@ function parsePuzzleItems(data: unknown): PuzzleItem[] {
 }
 
 const debugQuoteItems = parsePuzzleItems(dailyData as unknown);
+const debugOptionSets = parseOptionsDataset(optionsData as unknown);
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
@@ -234,6 +237,8 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
   const total = debugQuoteItems.length;
   const order = useMemo(() => buildDailyOrder(total), [total]);
   const maxDayOffset = Math.max(0, total - 1);
+  const [showOptions, setShowOptions] = useState(true);
+  const [showFullQuote, setShowFullQuote] = useState(true);
   const [dayOffset, setDayOffset] = useState(() => {
     if (total === 0) return 0;
     return clamp(dayOffsetFromEpoch(new Date()), 0, maxDayOffset);
@@ -258,6 +263,42 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
   const selectedText = selectedItem[lang];
   const portion = selectedItem.portion?.[lang] ?? "";
   const bonus = selectedText.bonus ?? "";
+  const displayItem = showFullQuote
+    ? selectedItem
+    : lang === "he"
+      ? {
+          ...selectedItem,
+          he: {
+            ...selectedItem.he,
+            quote: selectedItem.he.riddle,
+          },
+        }
+      : {
+          ...selectedItem,
+          en: {
+            ...selectedItem.en,
+            quote: selectedItem.en.riddle,
+          },
+        };
+  const choicePools = resolveChoicePoolsForPuzzle({
+    puzzle: selectedItem,
+    items: debugQuoteItems,
+    optionSets: debugOptionSets,
+    lang,
+  });
+  const speakerOptions = buildMultipleChoiceOptions({
+    answer: selectedText.speaker,
+    pool: choicePools.speaker,
+    lang,
+    seed: `${selectedItem.id}:speaker`,
+  });
+  const listenerOptions = buildMultipleChoiceOptions({
+    answer: selectedText.listener,
+    pool: choicePools.listener,
+    lang,
+    seed: `${selectedItem.id}:listener`,
+  });
+  const isAnswer = (option: string, answer: string) => normalize(option, lang) === normalize(answer, lang);
 
   return (
     <section className="debug-quote-browser">
@@ -282,6 +323,24 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
           {localize(lang, "Next >", "הבא >")}
         </button>
       </div>
+      <div className="debug-quote-browser-toggles">
+        <button className={`chip debug-quote-toggle-btn ${showFullQuote ? "active" : ""}`} type="button" onClick={() => setShowFullQuote(true)}>
+          {localize(lang, "Full", "מלא")}
+        </button>
+        <button className={`chip debug-quote-toggle-btn ${!showFullQuote ? "active" : ""}`} type="button" onClick={() => setShowFullQuote(false)}>
+          {localize(lang, "Riddle only", "חידה בלבד")}
+        </button>
+        <button
+          className={`chip debug-quote-toggle-btn ${showOptions ? "active" : ""}`}
+          type="button"
+          aria-pressed={showOptions}
+          onClick={() => setShowOptions((current) => !current)}
+        >
+          {showOptions
+            ? localize(lang, "Hide options", "הסתר אפשרויות")
+            : localize(lang, "Show options", "הצג אפשרויות")}
+        </button>
+      </div>
 
       <div className="debug-quote-browser-status">
         {localize(lang, `Quote ${dayOffset + 1} of ${total}`, `ציטוט ${dayOffset + 1} מתוך ${total}`)} | {selectedItem.id}
@@ -289,9 +348,9 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
       {sourceLabel ? <div className="debug-quote-browser-source">{sourceLabel}</div> : null}
       <div className="debug-quote-browser-card">
         <PuzzleCard
-          puzzle={selectedItem}
+          puzzle={displayItem}
           revealed
-          quoteRevealed
+          quoteRevealed={showFullQuote}
           bookHintUsed={false}
           dateLabel={formatDate(selectedDate, lang)}
           onClear={() => undefined}
@@ -321,6 +380,31 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
           </div>
         ) : null}
       </section>
+      {showOptions ? (
+        <section className="debug-quote-browser-options card">
+          <h3>{localize(lang, "Options", "אפשרויות")}</h3>
+          <div className="debug-option-group">
+            <div className="debug-answer-label">{localize(lang, "Speaker", "דובר")}</div>
+            <div className="debug-option-list">
+              {speakerOptions.map((option) => (
+                <span key={`${selectedItem.id}:${lang}:speaker:${option}`} className={`debug-option-pill ${isAnswer(option, selectedText.speaker) ? "correct" : ""}`}>
+                  {option}
+                </span>
+              ))}
+            </div>
+          </div>
+          <div className="debug-option-group">
+            <div className="debug-answer-label">{localize(lang, "Listener", "מאזין")}</div>
+            <div className="debug-option-list">
+              {listenerOptions.map((option) => (
+                <span key={`${selectedItem.id}:${lang}:listener:${option}`} className={`debug-option-pill ${isAnswer(option, selectedText.listener) ? "correct" : ""}`}>
+                  {option}
+                </span>
+              ))}
+            </div>
+          </div>
+        </section>
+      ) : null}
     </section>
   );
 }

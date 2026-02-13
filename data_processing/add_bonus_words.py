@@ -53,14 +53,86 @@ BONUS_CONCEPT_CHECK_PROMPT = [
 ITEM_KEEP_PROMPT = [
     "You are validating one generated quote interaction before bonus-word generation.",
     "Return strict JSON only with shape:",
-    '{"status":"keep|drop","reason":"..."}',
+    '{"status":"keep|drop","reason":"...","checks":{"is_direct_speech":true,"speaker_solvable":true,"listener_solvable":true}}',
     "Rules:",
     "1) Keep only if this is a true direct-address interaction with a clear speaker and a clear addressed listener.",
     "2) Drop if the listener is not actually being addressed in the quote (for example narrative setup or world/state commands).",
-    "3) If the quote is like 'And God said, Let the earth ...', drop unless the listener is truly an addressed interlocutor.",
-    "4) If the quote is like 'And Adam said, This is now ...', drop unless there is a clear addressed listener in the quote.",
-    "5) Use semantic judgment from quote/riddle in both EN/HE; do not rely on fixed keyword lists.",
-    "6) Be conservative: if unclear, drop.",
+    "3) Drop if speaker/listener are not solvable entities for the game (for example unresolved pronouns like 'him').",
+    "4) If the quote is like 'And God said, Let the earth ...', drop unless listener is truly an addressed interlocutor.",
+    "5) If the quote is like 'And Adam said, This is now ...', drop unless there is a clear addressed listener in the quote.",
+    "6) Use semantic judgment from quote/riddle in both EN/HE; do not rely on fixed keyword lists.",
+    "7) Be conservative: if unclear, drop.",
+]
+
+DIRECTION_CHECK_PROMPT = [
+    "You are checking directionality for one quote interaction.",
+    "Return strict JSON only with shape:",
+    '{"checks":{"speaker_told_riddle_to_listener":true,"listener_told_riddle_to_speaker":false,"other_entity_told_riddle_to_listener":false},"reason":"..."}',
+    "Answer these independently from quote + riddle context:",
+    "1) Did speaker tell the riddle-content to listener in this interaction?",
+    "2) Did listener tell the riddle-content to speaker (reverse direction)?",
+    "3) Did some other entity (not the labeled speaker) tell this riddle-content to the labeled listener?",
+    "Rules:",
+    "4) Mark true only when clearly supported by the quote.",
+    "5) If uncertain, prefer false.",
+]
+
+INTERACTION_FILTER_EXAMPLES = [
+    {
+        "name": "creation_command_not_dialogue",
+        "expected": "drop",
+        "item_en": {
+            "quote": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
+            "riddle": "bring forth grass, the herb yielding seed",
+            "speaker": "God",
+            "listener": "earth",
+        },
+        "note": "Creation command to world/object is not a solvable speaker->listener dialogue interaction for this game.",
+    },
+    {
+        "name": "adam_statement_not_addressed_listener",
+        "expected": "drop",
+        "item_en": {
+            "quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man. Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+            "riddle": "This is now bone of my bones",
+            "speaker": "Adam",
+            "listener": "Woman",
+        },
+        "note": "Narrative/declarative statement without clear addressed listener should be dropped.",
+    },
+    {
+        "name": "unsolvable_pronoun_listener",
+        "expected": "drop",
+        "item_en": {
+            "quote": "And they that went in, went in male and female of all flesh, as God had commanded him: and the LORD shut him in.",
+            "riddle": "that went in, went in male and female of all",
+            "speaker": "the LORD",
+            "listener": "him",
+        },
+        "note": "Pronoun listener is unsolvable and should be dropped.",
+    },
+    {
+        "name": "non_speech_begat_style",
+        "expected": "drop",
+        "item_en": {
+            "quote": "And Cush begat Nimrod: he began to be a mighty one in the earth. He was a mighty hunter before the LORD: wherefore it is said, Even as Nimrod the mighty hunter before the LORD.",
+            "riddle": "he began to be a mighty one in the earth",
+            "speaker": "Cush",
+            "listener": "Nimrod",
+        },
+        "note": "Genealogical/narrative statement is not a direct addressed speech interaction.",
+    },
+    {
+        "name": "true_dialogue",
+        "expected": "keep",
+        "item_en": {
+            "quote": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
+            "riddle": "Why art thou wroth? and why is thy countenance fallen?",
+            "speaker": "the LORD",
+            "listener": "Cain",
+        },
+        "note": "Clear direct-address dialogue interaction.",
+    },
 ]
 
 EN_STOPWORDS = {
@@ -418,40 +490,110 @@ def _candidate_bonus_words(quote: str, riddle: str, lang: str, max_candidates: i
     return out
 
 
+def _to_bool(value: object) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value != 0
+    if isinstance(value, str):
+        token = value.strip().lower()
+        if token in {"true", "yes", "1"}:
+            return True
+        if token in {"false", "no", "0"}:
+            return False
+    return False
+
+
 def _llm_keep_item(model: str, item: Dict, retries: int) -> Tuple[bool, str, Dict[str, int | bool]]:
     source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
     en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
     he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
 
+    base_item = {
+        "speaker_en": _sanitize_str(en.get("speaker")),
+        "listener_en": _sanitize_str(en.get("listener")),
+        "riddle_en": _sanitize_str(en.get("riddle")),
+        "quote_en": _sanitize_str(en.get("quote")),
+        "speaker_he": _sanitize_str(he.get("speaker")),
+        "listener_he": _sanitize_str(he.get("listener")),
+        "riddle_he": _sanitize_str(he.get("riddle")),
+        "quote_he": _sanitize_str(he.get("quote")),
+    }
+
     payload = {
         "instructions": ITEM_KEEP_PROMPT,
+        "examples": INTERACTION_FILTER_EXAMPLES,
         "context": {
             "book_code": _sanitize_str(source.get("book_code")),
             "chapter": _sanitize_int(source.get("chapter"), 0),
             "item_id": _sanitize_str(item.get("id")),
         },
-        "item": {
-            "speaker_en": _sanitize_str(en.get("speaker")),
-            "listener_en": _sanitize_str(en.get("listener")),
-            "riddle_en": _sanitize_str(en.get("riddle")),
-            "quote_en": _sanitize_str(en.get("quote")),
-            "speaker_he": _sanitize_str(he.get("speaker")),
-            "listener_he": _sanitize_str(he.get("listener")),
-            "riddle_he": _sanitize_str(he.get("riddle")),
-            "quote_he": _sanitize_str(he.get("quote")),
-        },
+        "item": base_item,
     }
 
-    data, llm_stats = _call_llm_json(model=model, payload=payload, max_attempts=max(1, retries))
+    data, llm_stats_1 = _call_llm_json(model=model, payload=payload, max_attempts=max(1, retries))
     status = _sanitize_str(data.get("status")).lower()
     reason = _sanitize_str(data.get("reason"))
+    checks = data.get("checks", {}) if isinstance(data.get("checks"), dict) else {}
+    is_direct_speech = _to_bool(checks.get("is_direct_speech"))
+    speaker_solvable = _to_bool(checks.get("speaker_solvable"))
+    listener_solvable = _to_bool(checks.get("listener_solvable"))
 
     if status not in {"keep", "drop"}:
-        status = "drop"
-        if not reason:
-            reason = "invalid_status"
+        return False, (reason or "invalid_status"), llm_stats_1
 
-    return status == "keep", reason, llm_stats
+    if status != "keep":
+        return False, (reason or "llm_status_drop"), llm_stats_1
+
+    failed_checks: List[str] = []
+    if not is_direct_speech:
+        failed_checks.append("not_direct_speech")
+    if not speaker_solvable:
+        failed_checks.append("speaker_unsolvable")
+    if not listener_solvable:
+        failed_checks.append("listener_unsolvable")
+    if failed_checks:
+        return False, ",".join(failed_checks), llm_stats_1
+
+    direction_payload = {
+        "instructions": DIRECTION_CHECK_PROMPT,
+        "examples": INTERACTION_FILTER_EXAMPLES,
+        "context": {
+            "book_code": _sanitize_str(source.get("book_code")),
+            "chapter": _sanitize_int(source.get("chapter"), 0),
+            "item_id": _sanitize_str(item.get("id")),
+        },
+        "item": base_item,
+    }
+    direction_data, llm_stats_2 = _call_llm_json(
+        model=model,
+        payload=direction_payload,
+        max_attempts=max(1, retries),
+    )
+
+    merged_stats = {
+        "calls": int(llm_stats_1.get("calls", 0)) + int(llm_stats_2.get("calls", 0)),
+        "prompt_tokens": int(llm_stats_1.get("prompt_tokens", 0)) + int(llm_stats_2.get("prompt_tokens", 0)),
+        "response_tokens": int(llm_stats_1.get("response_tokens", 0)) + int(llm_stats_2.get("response_tokens", 0)),
+        "estimated": bool(llm_stats_1.get("estimated", False) or llm_stats_2.get("estimated", False)),
+    }
+
+    direction_checks = (
+        direction_data.get("checks", {}) if isinstance(direction_data.get("checks"), dict) else {}
+    )
+    speaker_to_listener = _to_bool(direction_checks.get("speaker_told_riddle_to_listener"))
+    listener_to_speaker = _to_bool(direction_checks.get("listener_told_riddle_to_speaker"))
+    other_to_listener = _to_bool(direction_checks.get("other_entity_told_riddle_to_listener"))
+    direction_reason = _sanitize_str(direction_data.get("reason"))
+
+    if not speaker_to_listener:
+        return False, (direction_reason or "speaker_to_listener_false"), merged_stats
+    if listener_to_speaker:
+        return False, (direction_reason or "listener_to_speaker_true"), merged_stats
+    if other_to_listener:
+        return False, (direction_reason or "other_to_listener_true"), merged_stats
+
+    return True, (reason or direction_reason), merged_stats
 
 
 def _pick_bonus_words(

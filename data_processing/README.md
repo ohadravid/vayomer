@@ -140,7 +140,10 @@ Validation is code-side after each LLM pick:
 - bonus must not appear in the riddle (EN/HE),
 - retry is automatic on invalid picks.
 - LLM interaction post-filter is applied before bonus generation:
+  - filter decisions are made by the LLM (example-driven), including unsolvable pronouns and not-addressed-listener cases,
   - drop items that are not true direct-address speaker->listener interactions,
+  - drop items where speaker/listener are not solvable entities,
+  - run direction checks (`speaker->listener`, reverse `listener->speaker`, and `other->listener`) and drop inconsistent cases,
   - drop duplicate items that share the same `id`.
 
 Useful flags:

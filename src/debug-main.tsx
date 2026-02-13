@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import { DebugPage } from "./DebugPage";
 import "./i18n";
 import "../styles.css";
+import "./debug.css";
 
 const root = document.getElementById("root");
 if (root) {
