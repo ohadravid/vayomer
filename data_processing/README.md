@@ -125,3 +125,31 @@ Useful flags:
 - `--require-single-verse-riddle` enforce that each riddle appears in exactly one source verse
 - `--limit 10` process only the first N pending chapters (alias for `--limit-chapters`)
 - `--force` reprocess existing chapter outputs
+
+## 6) Add bonus words to rebuilt quotes (LLM post-pass)
+
+Adds `en.bonus` + `he.bonus` to each item from rebuilt outputs and writes updated files to a new folder.
+
+```bash
+uv run python3 data_processing/add_bonus_words.py --model gemma3:27b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus
+```
+
+Validation is code-side after each LLM pick:
+
+- bonus must be an exact substring in the full quote (EN/HE),
+- bonus must not appear in the riddle (EN/HE),
+- retry is automatic on invalid picks.
+- LLM interaction post-filter is applied before bonus generation:
+  - drop items that are not true direct-address speaker->listener interactions,
+  - drop duplicate items that share the same `id`.
+
+Useful flags:
+
+- `--max-retries 6` retries per item when bonus validation fails
+- `--min-bonus-tokens 1 --max-bonus-tokens 2` bonus word length bounds
+- `--item-filter-retries 2` retries for LLM interaction keep/drop filter
+- `--skip-llm-item-filter` disable LLM interaction filtering
+- `--include-draft` process `*-draft.json` files too
+- `--overwrite-existing-bonus` replace existing `bonus` values
+- `--book GEN --chapters 1-5` process only selected chapters
+- `--force` overwrite already-written files in the output folder

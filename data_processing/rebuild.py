@@ -18,6 +18,14 @@ except ModuleNotFoundError:
     import create_quotes  # type: ignore[no-redef]
     import text_cleanup  # type: ignore[no-redef]
 
+# Responsibility split for this pipeline:
+# - Python code should enforce deterministic/mechanical guarantees only:
+#   data shape, verse ranges, substring checks, token thresholds, dedupe, and file IO.
+# - LLM should handle semantic judgments:
+#   whether interaction quality is meaningful, whether speaker/listener are sensible,
+#   and whether a listener is truly being addressed.
+# - Do not hardcode semantic world-knowledge lists in Python (for example specific
+#   listeners like "land"/"earth"); those decisions belong to LLM prompts + validation flow.
 ROOT = Path(__file__).resolve().parents[1]
 HE_SPEECH_MARKERS = ("ויאמר", "ותאמר", "ויאמרו", "לאמר", "נאם")
 EN_SPEECH_MARKERS = (" said", " saying", " saith", " spake", " answered")
