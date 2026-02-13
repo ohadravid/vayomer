@@ -1,5 +1,5 @@
 import { describe, expect, it } from "bun:test";
-import { getSearchWithEasyMode, parseEasyModeFromSearch, pickEasyModeForNavigation } from "./App";
+import { getSearchWithEasyMode, parseEasyModeFromSearch, parsePersistedState, pickEasyModeForNavigation } from "./App";
 
 describe("parseEasyModeFromSearch", () => {
   it("parses explicit easy mode values", () => {
@@ -30,5 +30,37 @@ describe("getSearchWithEasyMode", () => {
   it("creates easy mode query params when missing", () => {
     expect(getSearchWithEasyMode("", true)).toBe("?easy=1");
     expect(getSearchWithEasyMode("", false)).toBe("?easy=0");
+  });
+});
+
+describe("parsePersistedState", () => {
+  it("ignores revealed=true when there is no solved core attempt", () => {
+    const raw = JSON.stringify({
+      lang: "he",
+      speaker: "",
+      listener: "",
+      portion: "",
+      bonus: "",
+      attempts: [],
+      revealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he");
+    expect(parsed?.revealed).toBe(false);
+  });
+
+  it("keeps revealed=true when a solved core attempt exists", () => {
+    const raw = JSON.stringify({
+      lang: "he",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      portion: "",
+      bonus: "הָאָרֶץ",
+      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
+      revealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he");
+    expect(parsed?.revealed).toBe(true);
   });
 });

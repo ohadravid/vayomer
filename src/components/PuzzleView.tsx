@@ -61,6 +61,28 @@ function initialValues(initial?: Props["initial"]): GuessValues {
   };
 }
 
+function signatureFromInitial(initial?: Props["initial"]): string {
+  return JSON.stringify({
+    speaker: initial?.speaker ?? "",
+    listener: initial?.listener ?? "",
+    portion: initial?.portion ?? "",
+    bonus: initial?.bonus ?? "",
+    bookHintUsed: initial?.bookHintUsed ?? false,
+    attempts: initial?.attempts ?? [],
+  });
+}
+
+function signatureFromState(state: {
+  speaker: string;
+  listener: string;
+  portion: string;
+  bonus: string;
+  bookHintUsed: boolean;
+  attempts: GuessResult[];
+}): string {
+  return JSON.stringify(state);
+}
+
 function buildShareUrl(): string | undefined {
   if (typeof window === "undefined") return undefined;
   if (window.location.protocol !== "http:" && window.location.protocol !== "https:") return undefined;
@@ -120,6 +142,8 @@ export function PuzzleView({
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
+  const hasPersistedHydratedStateRef = useRef(false);
+  const initialSignature = signatureFromInitial(initial);
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -190,7 +214,16 @@ export function PuzzleView({
   }, [onPersist]);
 
   useEffect(() => {
+    hasPersistedHydratedStateRef.current = false;
+  }, [initialSignature, puzzle]);
+
+  useEffect(() => {
     if (!persistRef.current) return;
+    const stateSignature = signatureFromState({ speaker, listener, portion, bonus, bookHintUsed, attempts });
+    if (!hasPersistedHydratedStateRef.current && stateSignature === initialSignature) {
+      return;
+    }
+    hasPersistedHydratedStateRef.current = true;
     persistRef.current({ speaker, listener, portion, bonus, bookHintUsed, attempts });
   }, [speaker, listener, portion, bonus, bookHintUsed, attempts]);
 

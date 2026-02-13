@@ -110,11 +110,13 @@ function pickDailyItemIndex(total: number): number {
   return order[day] ?? 0;
 }
 
-function parsePersistedState(raw: string | null, lang: Lang): PersistedState | null {
+export function parsePersistedState(raw: string | null, lang: Lang): PersistedState | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as Partial<PersistedState> & { result?: unknown; guesses?: unknown };
     if (parsed.lang !== lang) return null;
+    const attempts = parseAttempts(parsed);
+    const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
     return {
       lang,
       speaker: parsed.speaker ?? "",
@@ -122,8 +124,10 @@ function parsePersistedState(raw: string | null, lang: Lang): PersistedState | n
       portion: parsed.portion ?? "",
       bonus: parsed.bonus ?? "",
       bookHintUsed: !!parsed.bookHintUsed,
-      attempts: parseAttempts(parsed),
-      revealed: !!parsed.revealed,
+      attempts,
+      // Old/corrupted payloads can end up with `revealed: true` and no solved attempt.
+      // Treat those as not revealed so the form remains playable on load.
+      revealed: !!parsed.revealed && hasCoreSolvedAttempt,
     };
   } catch {
     return null;
