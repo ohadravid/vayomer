@@ -146,44 +146,71 @@ def _looks_like_speech(entry: Dict) -> bool:
 
 
 def _mechanical_candidates(context: List[Dict], max_window: int, max_candidates: int) -> List[Dict]:
-    verse_numbers = sorted(
-        {
-            _sanitize_int(entry.get("v"), 0)
-            for entry in context
-            if _sanitize_int(entry.get("v"), 0) > 0
-        }
-    )
-    verse_set = set(verse_numbers)
+    verse_map = {
+        _sanitize_int(entry.get("v"), 0): entry
+        for entry in context
+        if _sanitize_int(entry.get("v"), 0) > 0
+    }
+    verse_numbers = sorted(verse_map)
+    verse_index = {verse: idx for idx, verse in enumerate(verse_numbers)}
     candidates: List[Dict] = []
     seen: Set[str] = set()
+    scan_window = max(1, max_window)
+    miss_jump = max(1, scan_window - 1)
 
-    for entry in context:
-        verse = _sanitize_int(entry.get("v"), 0)
-        if verse <= 0:
-            continue
-        if not _looks_like_speech(entry):
-            continue
+    idx = 0
+    while idx < len(verse_numbers):
+        start_verse = verse_numbers[idx]
 
-        for window in range(1, min(max_window, 3) + 1):
-            end = verse + window - 1
-            if end not in verse_set:
+        # Build a contiguous scan window up to max_window verses.
+        window: List[int] = [start_verse]
+        next_idx = idx + 1
+        while next_idx < len(verse_numbers) and len(window) < scan_window:
+            prev = window[-1]
+            cur = verse_numbers[next_idx]
+            if cur != prev + 1:
                 break
-            if any(v not in verse_set for v in range(verse, end + 1)):
-                continue
+            window.append(cur)
+            next_idx += 1
 
-            key = f"{verse}-{end}"
-            if key in seen:
+        hit_start = 0
+        hit_end = 0
+        for verse in window:
+            entry = verse_map.get(verse, {})
+            if not _looks_like_speech(entry):
                 continue
+            hit_start = verse
+            hit_end = verse
+            hit_idx = verse_index[verse]
+            while hit_idx + 1 < len(verse_numbers):
+                cur = verse_numbers[hit_idx]
+                nxt = verse_numbers[hit_idx + 1]
+                if nxt != cur + 1:
+                    break
+                if nxt - hit_start + 1 > scan_window:
+                    break
+                hit_idx += 1
+                hit_end = verse_numbers[hit_idx]
+            break
+
+        if hit_start <= 0:
+            idx += miss_jump
+            continue
+
+        key = f"{hit_start}-{hit_end}"
+        if key not in seen:
             seen.add(key)
             candidates.append(
                 {
-                    "quote_verse_start": verse,
-                    "quote_verse_end": end,
+                    "quote_verse_start": hit_start,
+                    "quote_verse_end": hit_end,
                     "reason": "mechanical_speech_marker",
                 }
             )
             if len(candidates) >= max_candidates:
                 return candidates
+
+        idx = verse_index.get(hit_end, idx) + 1
     return candidates
 
 
@@ -536,6 +563,7 @@ def _process_chapter(
 
     suggestions: List[Dict] = []
     if mode == "end2end":
+        target_pool = max(max_quotes_per_chapter * 2, max_quotes_per_chapter + 1)
         raw_suggestions, llm_stats = create_quotes.end2end_suggestions(
             model=model,
             context=context,
@@ -544,7 +572,6 @@ def _process_chapter(
         )
         _add_llm_stats(stats, llm_stats)
         suggestions = raw_suggestions
-        target_pool = max(max_quotes_per_chapter * 2, max_quotes_per_chapter + 1)
         if len(suggestions) < target_pool:
             mechanical_candidates = _mechanical_candidates(
                 context=context,
@@ -560,6 +587,8 @@ def _process_chapter(
                 )
                 _add_llm_stats(stats, fin_stats)
                 suggestions.append(finalized)
+                if len(suggestions) >= target_pool:
+                    break
 
         if len(suggestions) < target_pool:
             candidates, cand_stats = create_quotes.candidate_suggestions(
@@ -578,7 +607,10 @@ def _process_chapter(
                 )
                 _add_llm_stats(stats, fin_stats)
                 suggestions.append(finalized)
+                if len(suggestions) >= target_pool:
+                    break
     else:
+        target_pool = max_quotes_per_chapter * 2
         candidates, llm_stats = create_quotes.candidate_suggestions(
             model=model,
             context=context,
@@ -595,6 +627,8 @@ def _process_chapter(
             )
             _add_llm_stats(stats, fin_stats)
             suggestions.append(finalized)
+            if len(suggestions) >= target_pool:
+                break
 
     if mode == "end2end" and suggestions:
         max_pool = max(max_quotes_per_chapter * 3, max_quotes_per_chapter + 2)
