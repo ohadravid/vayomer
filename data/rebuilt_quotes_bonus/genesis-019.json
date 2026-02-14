@@ -1,0 +1,55 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 19,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-19-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law.",
+        "riddle": "Up, get you out of this place",
+        "speaker": "Lot",
+        "listener": "his sons in law",
+        "book": "Genesis",
+        "bonus": "destroy"
+      },
+      "he": {
+        "quote": "וַיֵּצֵא לוֹט וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו",
+        "riddle": "קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה",
+        "speaker": "לוֹט",
+        "listener": "חֲתָנָיו",
+        "book": "בראשית",
+        "bonus": "מַשְׁחִית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law."
+        },
+        "he": {
+          "14": "וַיֵּצֵא לוֹט וַיְדַבֵּר ׀ אֶל־חֲתָנָיו ׀ לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "Lot offers his daughters to the men of Sodom to protect his guests, creating a disturbing 'trade' scenario. The riddle focuses on this desperate offer as a central element of the verse.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 0
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ]
+}

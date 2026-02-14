@@ -1,0 +1,90 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 2,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "genesis-02-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+        "riddle": "should be alone; I will make him an help meet",
+        "speaker": "the LORD God",
+        "listener": "the man",
+        "bonus": "good"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
+        "riddle": "לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽו",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "bonus": "טוֹב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns perfectly with the provided English verse. All entities are present and the riddle is a concise, dramatic substring.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 2
+      }
+    },
+    {
+      "id": "genesis-02-18-19",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him. And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.",
+        "riddle": "man should be alone; I will make him an help",
+        "speaker": "the LORD God",
+        "listener": "Adam",
+        "bonus": "name"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ וַיִּצֶר יְהוָה אֱלֹהִים מִן־הָֽאֲדָמָה כָּל־חַיַּת הַשָּׂדֶה וְאֵת כָּל־עוֹף הַשָּׁמַיִם וַיָּבֵא אֶל־הָאָדָם לִרְאוֹת מַה־יִּקְרָא־לוֹ וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָֽאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמֽוֹ",
+        "riddle": "מִן־הָֽאֲדָמָה כָּל־חַיַּת הַשָּׂדֶה וְאֵת כָּל־עוֹף הַשָּׁמַיִם וַיָּבֵא",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "bonus": "שְׁמֽו"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+          "19": "And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ׃",
+          "19": "וַיִּצֶר יְהוָה אֱלֹהִים מִן־הָֽאֲדָמָה כָּל־חַיַּת הַשָּׂדֶה וְאֵת כָּל־עוֹף הַשָּׁמַיִם וַיָּבֵא אֶל־הָאָדָם לִרְאוֹת מַה־יִּקְרָא־לוֹ וְכֹל אֲשֶׁר יִקְרָא־לוֹ הָֽאָדָם נֶפֶשׁ חַיָּה הוּא שְׁמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses describe God creating beasts and then naming them, highlighting the act of creation and assigning names.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 0
+      }
+    }
+  ]
+}
