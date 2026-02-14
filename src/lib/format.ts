@@ -1,4 +1,5 @@
 import type { Lang } from "../types";
+import { normalizeDivineAlias } from "./divineAliases";
 
 export const HARD_WORD_PLACEHOLDERS = ["🪧", "🚧", "💬", "🔎"] as const;
 
@@ -7,14 +8,13 @@ const DATE_LOCALE_BY_LANG: Record<Lang, string> = {
   he: "he-IL",
 };
 
-const EN_DIVINE_NAME_VARIANTS = new Set(["lord", "god", "adonai", "hashem", "g d", "gd"]);
-
 function normalizeEnglish(text: string): string {
   let s = text.toLowerCase();
   s = s.replace(/[^\w\u0590-\u05FF]+/g, " ");
   s = s.replace(/\s+/g, " ").trim();
   s = s.replace(/^the\s+/, "");
-  if (EN_DIVINE_NAME_VARIANTS.has(s)) return "lord";
+  const divine = normalizeDivineAlias(s, "en");
+  if (divine) return divine;
   return s;
 }
 
@@ -24,14 +24,9 @@ function normalizeHebrew(text: string): string {
   s = s.replace(/ה['׳]/g, "השם");
   s = s.replace(/[^\w\u0590-\u05FF]+/g, " ");
   s = s.replace(/\s+/g, " ").trim();
-  const tokens = s.split(" ").map((token) => {
-    if (["אדוני", "אדני", "השם"].includes(token)) return "אדני";
-    if (["אלוהים", "אלהים", "אלקים"].includes(token)) return "אלוהים";
-    return token;
-  });
-  const normalized = tokens.join(" ").replace(/\s+/g, " ").trim();
-  if (normalized === "אלוהים") return "אדני";
-  return normalized;
+  const divine = normalizeDivineAlias(s, "he");
+  if (divine) return divine;
+  return s;
 }
 
 const NORMALIZER_BY_LANG: Record<Lang, (text: string) => string> = {

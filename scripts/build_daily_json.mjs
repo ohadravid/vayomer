@@ -3,6 +3,7 @@
 import { readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { canonicalizeDivineName } from "../src/lib/divineAliases.ts";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const QUOTES_DIR = path.join(ROOT, "data", "quotes");
@@ -51,12 +52,13 @@ const OT_BOOKS_EN_ORDER = [
 ];
 const BOOK_ORDER_INDEX = new Map(OT_BOOKS_EN_ORDER.map((book, idx) => [book, idx]));
 
-function pushUnique(list, value) {
+function pushUnique(list, value, lang) {
   if (typeof value !== "string") return;
   const trimmed = value.trim();
   if (!trimmed) return;
-  if (!list.includes(trimmed)) {
-    list.push(trimmed);
+  const normalized = lang ? (canonicalizeDivineName(trimmed, lang) ?? trimmed) : trimmed;
+  if (!list.includes(normalized)) {
+    list.push(normalized);
   }
 }
 
@@ -98,10 +100,10 @@ async function main() {
       }
       const optionSet = byBook.get(bookKey);
 
-      pushUnique(optionSet.speaker.en, item?.en?.speaker);
-      pushUnique(optionSet.speaker.he, item?.he?.speaker);
-      pushUnique(optionSet.listener.en, item?.en?.listener);
-      pushUnique(optionSet.listener.he, item?.he?.listener);
+      pushUnique(optionSet.speaker.en, item?.en?.speaker, "en");
+      pushUnique(optionSet.speaker.he, item?.he?.speaker, "he");
+      pushUnique(optionSet.listener.en, item?.en?.listener, "en");
+      pushUnique(optionSet.listener.he, item?.he?.listener, "he");
       pushUnique(optionSet.portion.en, item?.portion?.en);
       pushUnique(optionSet.portion.he, item?.portion?.he);
     }

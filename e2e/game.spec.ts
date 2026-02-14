@@ -1,6 +1,8 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import { normalize } from "../src/lib/format";
+import type { Lang } from "../src/types";
 
 type PuzzleItem = {
   id: string;
@@ -103,11 +105,31 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   await expect(page.locator("#guessForm")).toBeVisible();
 }
 
-async function pickWrongOption(select: Locator, correctAnswer: string): Promise<string> {
+function findMatchingOption(options: string[], answer: string, lang: Lang): string {
+  const exact = options.find((option) => option === answer);
+  if (exact) return exact;
+
+  const normalizedAnswer = normalize(answer, lang);
+  const equivalent = options.find((option) => !!option && normalize(option, lang) === normalizedAnswer);
+  if (equivalent) return equivalent;
+
+  throw new Error(`Expected a matching option. Answer: ${answer}. Options: ${options.join(", ")}`);
+}
+
+async function selectAnswerOption(select: Locator, answer: string, lang: Lang): Promise<void> {
   const options = await select.locator("option").evaluateAll((nodes) =>
     nodes.map((node) => (node as HTMLOptionElement).value)
   );
-  const wrong = options.find((option) => option && option !== correctAnswer);
+  const match = findMatchingOption(options, answer, lang);
+  await select.selectOption(match);
+}
+
+async function pickWrongOption(select: Locator, correctAnswer: string, lang: Lang): Promise<string> {
+  const options = await select.locator("option").evaluateAll((nodes) =>
+    nodes.map((node) => (node as HTMLOptionElement).value)
+  );
+  const normalizedCorrect = normalize(correctAnswer, lang);
+  const wrong = options.find((option) => option && normalize(option, lang) !== normalizedCorrect);
   if (!wrong) {
     throw new Error(`Expected a wrong option. Correct answer: ${correctAnswer}.`);
   }
@@ -180,8 +202,8 @@ test("full game: lose", async ({ page }) => {
 test("easy mode: clear win", async ({ page }) => {
   await openGame(page, { easyMode: true });
 
-  await page.selectOption("#inputSpeaker", enAnswer.speaker);
-  await page.selectOption("#inputListener", enAnswer.listener);
+  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
 
@@ -196,16 +218,16 @@ test("easy mode: clear win", async ({ page }) => {
 test("easy mode: mistakes and win", async ({ page }) => {
   await openGame(page, { easyMode: true });
 
-  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker);
-  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener);
+  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
 
   await page.selectOption("#inputSpeaker", wrongSpeaker);
   await page.selectOption("#inputListener", wrongListener);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Not quite. Try again.");
 
-  await page.selectOption("#inputSpeaker", enAnswer.speaker);
-  await page.selectOption("#inputListener", enAnswer.listener);
+  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
 
@@ -223,8 +245,8 @@ test("easy mode: mistakes and win", async ({ page }) => {
 test("easy mode: lose", async ({ page }) => {
   await openGame(page, { easyMode: true });
 
-  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker);
-  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener);
+  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
 
   await page.selectOption("#inputSpeaker", wrongSpeaker);
   await page.selectOption("#inputListener", wrongListener);

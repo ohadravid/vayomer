@@ -1,4 +1,5 @@
 import { normalize } from "./format";
+import { canonicalizeDivineName } from "./divineAliases";
 import type { BookOptionSet, EasyChoiceField, EasyChoicePools, Lang, OptionsDataset, PuzzleItem } from "../types";
 
 const DEFAULT_CHOICE_COUNT = 4;
@@ -23,10 +24,7 @@ function stableSeedSort(values: string[], seed: string): string[] {
 function canonicalizeChoiceLabel(value: string, lang: Lang): string {
   const trimmed = value.trim();
   if (!trimmed) return "";
-  const key = normalize(trimmed, lang);
-  if (lang === "he" && key === "אדני") return "אדני";
-  if (lang === "en" && key === "lord") return "the LORD";
-  return trimmed;
+  return canonicalizeDivineName(trimmed, lang) ?? trimmed;
 }
 
 function dedupeByNormalized(values: string[], lang: Lang): string[] {

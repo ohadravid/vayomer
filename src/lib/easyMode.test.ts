@@ -62,7 +62,7 @@ describe("buildMultipleChoiceOptions", () => {
       seed: "puzzle:speaker",
       maxChoices: 3,
     });
-    expect(options).toContain("the LORD");
+    expect(options).toContain("God");
     expect(new Set(options).size).toBe(options.length);
     expect(options).toHaveLength(3);
   });
@@ -75,20 +75,20 @@ describe("buildMultipleChoiceOptions", () => {
       seed: "puzzle:speaker:canonical-en",
       maxChoices: 4,
     });
-    expect(options).toContain("the LORD");
-    expect(options).not.toContain("God");
+    expect(options).toContain("God");
+    expect(options).not.toContain("the LORD");
   });
 
   it("canonicalizes divine name variants in Hebrew options", () => {
     const options = buildMultipleChoiceOptions({
-      answer: "אֱלֹהִים",
+      answer: "אלוהים",
       pool: ["אֲדֹנָי", "השם", "משה", "אהרן"],
       lang: "he",
       seed: "puzzle:speaker:canonical-he",
       maxChoices: 4,
     });
-    expect(options).toContain("אדני");
-    expect(options).not.toContain("אֱלֹהִים");
+    expect(options).not.toContain("אלוהים");
+    expect(options).toContain("אֱלֹהִים");
   });
 });
 
@@ -110,7 +110,7 @@ describe("resolveChoicePoolsForPuzzle", () => {
     });
 
     expect(pools.speaker).toContain("Jacob");
-    expect(pools.speaker).toContain("the LORD");
+    expect(pools.speaker).toContain("God");
     expect(pools.listener).toContain("Joseph");
     expect(pools.listener).toContain("Abram");
   });

@@ -206,7 +206,6 @@ body[dir="rtl"] select {
 select:focus,
 textarea:focus,
 input:not([type="checkbox"]):not([type="radio"]):focus {
-  outline: 2px solid var(--accent);
   outline-offset: -1px;
   border-color: var(--accent);
 }
