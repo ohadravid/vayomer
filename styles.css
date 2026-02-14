@@ -331,8 +331,10 @@ input[type="radio"] {
 }
 
 .meta-actions > button {
-  inline-size: 84px;
-  min-inline-size: 84px;
+  inline-size: 2.25rem;
+  min-inline-size: 2.25rem;
+  block-size: 2.25rem;
+  padding-inline: 0;
 }
 
 .full-quote {
@@ -410,12 +412,8 @@ input[type="radio"] {
 }
 
 .form-row.secondary {
-  grid-template-columns: minmax(0, 1fr) minmax(12rem, 13.5rem);
-}
-
-.form-row.secondary.submit-only {
-  grid-template-columns: minmax(12rem, 13.5rem);
-  justify-content: end;
+  grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  overflow: hidden;
 }
 
 label {
@@ -426,6 +424,20 @@ label {
   color: var(--muted);
   font-weight: 400;
   min-width: 0;
+}
+
+.bonus-cell {
+  min-width: 0;
+  opacity: 0;
+  transform: translateY(-0.35rem);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.form-row.secondary.bonus-visible .bonus-cell {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
 }
 
 .field-label {
@@ -441,6 +453,16 @@ label {
 .submit-cell {
   justify-self: stretch;
   inline-size: 100%;
+  transition: transform 0.2s ease;
+}
+
+#inputBonus,
+#submitGuess {
+  block-size: 2.75rem;
+}
+
+.form-row.secondary.bonus-visible .submit-cell {
+  transform: translateY(0.1rem);
 }
 
 .feedback {
@@ -472,13 +494,13 @@ label {
   color: var(--muted);
 }
 
-.hidden {
-  display: none;
-}
-
 @media (max-width: 34rem) {
-  .form-row.secondary {
-    grid-template-columns: 1fr;
+  .bonus-cell {
+    transform: translateY(-0.2rem);
+  }
+
+  .form-row.secondary.bonus-visible .submit-cell {
+    transform: translateY(0);
   }
 
   .submit-cell {

@@ -47,8 +47,8 @@ export const resources = {
         shareFailed: "Could not share result.",
       },
       puzzleCard: {
-        clear: "Clear",
-        hint: "Hint",
+        clear: "",
+        hint: "",
       },
       guessForm: {
         speaker: "Speaker",
@@ -101,8 +101,8 @@ export const resources = {
         shareFailed: "לא הצלחנו לשתף את התוצאה.",
       },
       puzzleCard: {
-        clear: "נקה",
-        hint: "רמז",
+        clear: "",
+        hint: "",
       },
       guessForm: {
         speaker: "דובר",

@@ -135,8 +135,8 @@ export function GuessForm({
             )}
           </label>
         </div>
-        <div className={`form-row secondary ${showBonusRow ? "" : "submit-only"}`.trim()}>
-          {showBonusRow ? (
+        <div className={`form-row secondary ${showBonusRow ? "bonus-visible" : "bonus-hidden"}`}>
+          <div className="bonus-cell" aria-hidden={!showBonusRow}>
             <label>
               <span id="labelBonus">{t("guessForm.bonus")}</span>
               <input
@@ -145,9 +145,10 @@ export function GuessForm({
                 autoComplete="off"
                 value={values.bonus}
                 onChange={(e) => onChange("bonus", e.target.value)}
-                disabled={bonusDisabled}
+                disabled={bonusDisabled || !showBonusRow}
+                tabIndex={showBonusRow ? 0 : -1}
                 className={
-                  result && extraChecked && values.bonus && !editedSinceCheck.bonus
+                  showBonusRow && result && extraChecked && values.bonus && !editedSinceCheck.bonus
                     ? result.bonusOk
                       ? "correct"
                       : "wrong"
@@ -155,7 +156,7 @@ export function GuessForm({
                 }
               />
             </label>
-          ) : null}
+          </div>
           <button id="submitGuess" className="primary submit-cell" type="submit" disabled={disabled}>
             {t("guessForm.check")}
           </button>
