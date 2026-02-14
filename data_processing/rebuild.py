@@ -57,12 +57,39 @@ class Stats:
     errors: int = 0
 
 
-def _add_llm_stats(total: Stats, llm_stats: Dict[str, int | bool]) -> None:
-    total.llm_calls += int(llm_stats.get("calls", 0))
-    total.prompt_tokens += int(llm_stats.get("prompt_tokens", 0))
-    total.response_tokens += int(llm_stats.get("response_tokens", 0))
-    if bool(llm_stats.get("estimated", False)):
+def _add_llm_stats(
+    total: Stats,
+    llm_stats: Dict[str, int | bool],
+    *,
+    progress: bool = False,
+    label: str = "",
+) -> None:
+    calls = int(llm_stats.get("calls", 0))
+    prompt_tokens = int(llm_stats.get("prompt_tokens", 0))
+    response_tokens = int(llm_stats.get("response_tokens", 0))
+    estimated = bool(llm_stats.get("estimated", False))
+
+    total.llm_calls += calls
+    total.prompt_tokens += prompt_tokens
+    total.response_tokens += response_tokens
+    if estimated:
         total.estimated_calls += 1
+    if progress and calls > 0:
+        scope = f" {label}" if label else ""
+        est_marker = " estimated" if estimated else ""
+        tqdm.write(
+            "[llm{scope}] +calls={calls} +prompt={prompt} +response={response}{est} | "
+            "totals calls={total_calls} prompt={total_prompt} response={total_response}".format(
+                scope=scope,
+                calls=calls,
+                prompt=prompt_tokens,
+                response=response_tokens,
+                est=est_marker,
+                total_calls=total.llm_calls,
+                total_prompt=total.prompt_tokens,
+                total_response=total.response_tokens,
+            )
+        )
 
 
 def _sanitize_int(value: object, fallback: int = 0) -> int:
@@ -122,17 +149,55 @@ def _parse_chapter_filter(expr: str) -> Set[int]:
     return out
 
 
-def _chapter_context(tandem: bible_tandem.TandemBible, book_code: str, chapter: int) -> List[Dict]:
-    return [
+def _chapter_context(
+    tandem: bible_tandem.TandemBible,
+    book_code: str,
+    chapter: int,
+    first_k_verses: int = 0,
+) -> List[Dict]:
+    limit = max(0, first_k_verses)
+    out: List[Dict] = []
+    for verse in tandem.iter_verses(book_code, chapter):
+        if limit and verse.verse > limit:
+            break
+        out.append(
+            {
+                "v": verse.verse,
+                "en": verse.en_raw,
+                "he": verse.he_clean,
+                "en_raw": verse.en_raw,
+                "he_raw": verse.he_raw,
+            }
+        )
+    return out
+
+
+def _focused_context(context: List[Dict], start: int, end: int, pad: int) -> List[Dict]:
+    if start <= 0 or end <= 0 or not context:
+        return context
+    if start > end:
+        start, end = end, start
+
+    verses = sorted(
         {
-            "v": verse.verse,
-            "en": verse.en_raw,
-            "he": verse.he_clean,
-            "en_raw": verse.en_raw,
-            "he_raw": verse.he_raw,
+            _sanitize_int(entry.get("v"), 0)
+            for entry in context
+            if _sanitize_int(entry.get("v"), 0) > 0
         }
-        for verse in tandem.iter_verses(book_code, chapter)
+    )
+    if not verses:
+        return context
+
+    min_verse = verses[0]
+    max_verse = verses[-1]
+    lo = max(min_verse, start - max(0, pad))
+    hi = min(max_verse, end + max(0, pad))
+    focused = [
+        entry
+        for entry in context
+        if lo <= _sanitize_int(entry.get("v"), 0) <= hi
     ]
+    return focused or context
 
 
 def _looks_like_speech(entry: Dict) -> bool:
@@ -525,9 +590,24 @@ def _process_chapter(
     cfg: ValidationConfig,
     max_quotes_per_chapter: int,
     repair_tries: int,
+    first_k_verses: int = 0,
+    llm_progress: bool = False,
 ) -> Stats:
     stats = Stats(files=1, chapters=1)
-    context = _chapter_context(tandem=tandem, book_code=book_code, chapter=chapter)
+    context = _chapter_context(
+        tandem=tandem,
+        book_code=book_code,
+        chapter=chapter,
+        first_k_verses=first_k_verses,
+    )
+
+    def add_llm(llm_stats: Dict[str, int | bool], stage: str) -> None:
+        _add_llm_stats(
+            stats,
+            llm_stats,
+            progress=llm_progress,
+            label=f"{book_code} {chapter} {stage}",
+        )
 
     if not context:
         payload = {
@@ -535,6 +615,7 @@ def _process_chapter(
             "book": bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code),
             "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
             "chapter": chapter,
+            "first_k_verses": first_k_verses,
             "items": [],
         }
         out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -550,6 +631,7 @@ def _process_chapter(
                     "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
                     "chapter": chapter,
                     "mode": mode,
+                    "first_k_verses": first_k_verses,
                     "items": [],
                     "verses": {},
                     "candidates": [],
@@ -564,14 +646,19 @@ def _process_chapter(
     suggestions: List[Dict] = []
     if mode == "end2end":
         target_pool = max(max_quotes_per_chapter * 2, max_quotes_per_chapter + 1)
+        seen_candidate_ranges: Set[str] = set()
         raw_suggestions, llm_stats = create_quotes.end2end_suggestions(
             model=model,
             context=context,
             max_window=cfg.max_window,
             max_quotes=max_quotes_per_chapter,
         )
-        _add_llm_stats(stats, llm_stats)
+        add_llm(llm_stats, "end2end_suggestions")
         suggestions = raw_suggestions
+        for suggestion in suggestions:
+            start, end = _extract_range(suggestion)
+            if start > 0 and end > 0:
+                seen_candidate_ranges.add(f"{start}-{end}")
         if len(suggestions) < target_pool:
             mechanical_candidates = _mechanical_candidates(
                 context=context,
@@ -579,14 +666,29 @@ def _process_chapter(
                 max_candidates=target_pool * 2,
             )
             for candidate in mechanical_candidates:
+                start, end = _extract_range(candidate)
+                if start > 0 and end > 0:
+                    range_key = f"{start}-{end}"
+                    if range_key in seen_candidate_ranges:
+                        continue
+                    seen_candidate_ranges.add(range_key)
+                finalize_context = _focused_context(
+                    context=context,
+                    start=start,
+                    end=end,
+                    pad=cfg.max_window,
+                )
                 finalized, fin_stats = create_quotes.finalize_candidate(
                     model=model,
-                    context=context,
+                    context=finalize_context,
                     candidate=candidate,
                     max_window=cfg.max_window,
                 )
-                _add_llm_stats(stats, fin_stats)
+                add_llm(fin_stats, "finalize_mechanical")
                 suggestions.append(finalized)
+                f_start, f_end = _extract_range(finalized)
+                if f_start > 0 and f_end > 0:
+                    seen_candidate_ranges.add(f"{f_start}-{f_end}")
                 if len(suggestions) >= target_pool:
                     break
 
@@ -597,16 +699,31 @@ def _process_chapter(
                 max_window=cfg.max_window,
                 max_quotes=target_pool * 2,
             )
-            _add_llm_stats(stats, cand_stats)
+            add_llm(cand_stats, "candidate_suggestions")
             for candidate in candidates:
+                start, end = _extract_range(candidate)
+                if start > 0 and end > 0:
+                    range_key = f"{start}-{end}"
+                    if range_key in seen_candidate_ranges:
+                        continue
+                    seen_candidate_ranges.add(range_key)
+                finalize_context = _focused_context(
+                    context=context,
+                    start=start,
+                    end=end,
+                    pad=cfg.max_window,
+                )
                 finalized, fin_stats = create_quotes.finalize_candidate(
                     model=model,
-                    context=context,
+                    context=finalize_context,
                     candidate=candidate,
                     max_window=cfg.max_window,
                 )
-                _add_llm_stats(stats, fin_stats)
+                add_llm(fin_stats, "finalize_candidate")
                 suggestions.append(finalized)
+                f_start, f_end = _extract_range(finalized)
+                if f_start > 0 and f_end > 0:
+                    seen_candidate_ranges.add(f"{f_start}-{f_end}")
                 if len(suggestions) >= target_pool:
                     break
     else:
@@ -617,15 +734,28 @@ def _process_chapter(
             max_window=cfg.max_window,
             max_quotes=max_quotes_per_chapter * 2,
         )
-        _add_llm_stats(stats, llm_stats)
+        add_llm(llm_stats, "candidate_suggestions")
+        seen_candidate_ranges: Set[str] = set()
         for candidate in candidates:
+            start, end = _extract_range(candidate)
+            if start > 0 and end > 0:
+                range_key = f"{start}-{end}"
+                if range_key in seen_candidate_ranges:
+                    continue
+                seen_candidate_ranges.add(range_key)
+            finalize_context = _focused_context(
+                context=context,
+                start=start,
+                end=end,
+                pad=cfg.max_window,
+            )
             finalized, fin_stats = create_quotes.finalize_candidate(
                 model=model,
-                context=context,
+                context=finalize_context,
                 candidate=candidate,
                 max_window=cfg.max_window,
             )
-            _add_llm_stats(stats, fin_stats)
+            add_llm(fin_stats, "finalize_candidate")
             suggestions.append(finalized)
             if len(suggestions) >= target_pool:
                 break
@@ -688,14 +818,21 @@ def _process_chapter(
 
         # LLM validation/fixing: semantic quality decisions live here.
         initial_input = _item_to_suggestion(item)
+        source = item.get("source", {})
+        validate_context = _focused_context(
+            context=context,
+            start=_sanitize_int(source.get("quote_verse_start"), 0),
+            end=_sanitize_int(source.get("quote_verse_end"), 0),
+            pad=cfg.max_window,
+        )
         decision, decision_stats = create_quotes.validate_and_fix_item(
             model=model,
-            context=context,
+            context=validate_context,
             suggestion=initial_input,
             max_window=cfg.max_window,
             issues=[],
         )
-        _add_llm_stats(stats, decision_stats)
+        add_llm(decision_stats, "validate_initial")
         initial_semantic_issue = ""
         record["llm_initial"] = {
             "status": decision.get("status"),
@@ -748,14 +885,21 @@ def _process_chapter(
                 break
 
             fix_input = _item_to_suggestion(item)
+            source = item.get("source", {})
+            validate_context = _focused_context(
+                context=context,
+                start=_sanitize_int(source.get("quote_verse_start"), 0),
+                end=_sanitize_int(source.get("quote_verse_end"), 0),
+                pad=cfg.max_window,
+            )
             decision, fix_stats = create_quotes.validate_and_fix_item(
                 model=model,
-                context=context,
+                context=validate_context,
                 suggestion=fix_input,
                 max_window=cfg.max_window,
                 issues=issues,
             )
-            _add_llm_stats(stats, fix_stats)
+            add_llm(fix_stats, "validate_repair")
             attempt_record: Dict = {
                 "issues_in": list(issues),
                 "status": decision.get("status"),
@@ -873,6 +1017,7 @@ def _process_chapter(
         "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
         "chapter": chapter,
         "mode": mode,
+        "first_k_verses": first_k_verses,
         "items": kept_items,
     }
     out_path.parent.mkdir(parents=True, exist_ok=True)
@@ -882,6 +1027,7 @@ def _process_chapter(
         "book_code": book_code,
         "book": bible_sources.BOOK_CODE_TO_EN.get(book_code, book_code),
         "chapter": chapter,
+        "first_k_verses": first_k_verses,
         "items_total": len(suggestions),
         "kept_items": len(kept_items),
         "dropped_items": len(suggestions) - len(kept_items),
@@ -896,6 +1042,7 @@ def _process_chapter(
         "book_he": bible_sources.BOOK_CODE_TO_HE.get(book_code, ""),
         "chapter": chapter,
         "mode": mode,
+        "first_k_verses": first_k_verses,
         "items": kept_items,
         "verses": _verses_side_by_side(context),
         "candidates": candidate_records,
@@ -926,6 +1073,7 @@ def main() -> int:
     parser.add_argument("--min-riddle-tokens", type=int, default=4)
     parser.add_argument("--max-riddle-tokens", type=int, default=16)
     parser.add_argument("--min-context-tokens", type=int, default=4)
+    parser.add_argument("--first-k-verses", type=int, default=0, help="limit each chapter to verses 1..K (0=all)")
     parser.add_argument("--require-single-verse-riddle", action="store_true")
     parser.add_argument("--repair-tries", type=int, default=3)
     parser.add_argument("--out-dir", default="data/rebuilt_quotes")
@@ -933,6 +1081,11 @@ def main() -> int:
     parser.add_argument("--issues-log", default="data/rebuilt_quotes_issues.jsonl")
     parser.add_argument("--english-xml", default=bible_sources.DEFAULT_ENGLISH_COLLECTION)
     parser.add_argument("--hebrew-zip", default=bible_sources.DEFAULT_HEBREW_ZIP)
+    parser.add_argument(
+        "--llm-progress",
+        action="store_true",
+        help="print per-step LLM calls and prompt/response token deltas",
+    )
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
 
@@ -942,6 +1095,8 @@ def main() -> int:
         raise SystemExit("--max-riddle-tokens must be >= --min-riddle-tokens")
     if args.min_context_tokens < 0:
         raise SystemExit("--min-context-tokens must be >= 0")
+    if args.first_k_verses < 0:
+        raise SystemExit("--first-k-verses must be >= 0")
 
     english_xml = (ROOT / args.english_xml).resolve()
     hebrew_zip = (ROOT / args.hebrew_zip).resolve()
@@ -1010,6 +1165,8 @@ def main() -> int:
                 cfg=cfg,
                 max_quotes_per_chapter=args.max_quotes_per_chapter,
                 repair_tries=max(0, args.repair_tries),
+                first_k_verses=max(0, args.first_k_verses),
+                llm_progress=bool(args.llm_progress),
             )
         except Exception as exc:
             total.errors += 1
