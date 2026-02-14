@@ -12,6 +12,7 @@ const EPOCH_DATE = new Date(2026, 1, 6);
 const DAILY_ORDER_SEED = 20260805;
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
 const EASY_MODE_QUERY_KEY = "easy";
+const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
 
 enum EasyModeValue {
@@ -157,6 +158,23 @@ export function parseEasyModeFromSearch(search: string): boolean | null {
   return parseEasyModeValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
 }
 
+export function parsePuzzleIdFromSearch(search: string): string | null {
+  const raw = new URLSearchParams(search).get(PUZZLE_QUERY_KEY);
+  if (typeof raw !== "string") return null;
+  const trimmed = raw.trim();
+  return trimmed.length > 0 ? trimmed : null;
+}
+
+export function pickPuzzleIndexForSearch(items: PuzzleItem[], search: string): number {
+  if (items.length === 0) return 0;
+  const requestedPuzzleId = parsePuzzleIdFromSearch(search);
+  if (requestedPuzzleId) {
+    const explicitIndex = items.findIndex((item) => item.id === requestedPuzzleId);
+    if (explicitIndex >= 0) return explicitIndex;
+  }
+  return pickDailyItemIndex(items.length);
+}
+
 function pickEasyMode(): boolean {
   if (typeof window === "undefined") return false;
   const fromUrl = parseEasyModeFromSearch(window.location.search);
@@ -232,7 +250,8 @@ export function App() {
     }
 
     setItems(list);
-    setIndex(pickDailyItemIndex(list.length));
+    const search = typeof window === "undefined" ? "" : window.location.search;
+    setIndex(pickPuzzleIndexForSearch(list, search));
     setOptionSets(parseOptionsDataset(optionsData as unknown));
   }, []);
 

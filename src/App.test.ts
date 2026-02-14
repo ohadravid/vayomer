@@ -1,5 +1,13 @@
 import { describe, expect, it } from "bun:test";
-import { getSearchWithEasyMode, parseEasyModeFromSearch, parsePersistedState, pickEasyModeForNavigation } from "./App";
+import {
+  getSearchWithEasyMode,
+  parseEasyModeFromSearch,
+  parsePersistedState,
+  parsePuzzleIdFromSearch,
+  pickEasyModeForNavigation,
+  pickPuzzleIndexForSearch,
+} from "./App";
+import type { PuzzleItem } from "./types";
 
 describe("parseEasyModeFromSearch", () => {
   it("parses explicit easy mode values", () => {
@@ -18,6 +26,45 @@ describe("pickEasyModeForNavigation", () => {
     expect(pickEasyModeForNavigation("?easy=1")).toBe(true);
     expect(pickEasyModeForNavigation("?easy=0")).toBe(false);
     expect(pickEasyModeForNavigation("?lng=en")).toBe(false);
+  });
+});
+
+describe("parsePuzzleIdFromSearch", () => {
+  it("returns the puzzle id from query params", () => {
+    expect(parsePuzzleIdFromSearch("?puzzle=genesis-16-06-06")).toBe("genesis-16-06-06");
+    expect(parsePuzzleIdFromSearch("?lng=en&puzzle=genesis-16-06-06")).toBe("genesis-16-06-06");
+  });
+
+  it("returns null when puzzle is missing or blank", () => {
+    expect(parsePuzzleIdFromSearch("?lng=en")).toBeNull();
+    expect(parsePuzzleIdFromSearch("?puzzle=")).toBeNull();
+    expect(parsePuzzleIdFromSearch("?puzzle=%20")).toBeNull();
+  });
+});
+
+describe("pickPuzzleIndexForSearch", () => {
+  const puzzles: PuzzleItem[] = [
+    {
+      id: "puzzle-a",
+      en: { book: "Genesis", quote: "a", riddle: "a", speaker: "A", listener: "B", bonus: "x" },
+      he: { book: "בראשית", quote: "א", riddle: "א", speaker: "א", listener: "ב", bonus: "איקס" },
+    },
+    {
+      id: "puzzle-b",
+      en: { book: "Genesis", quote: "b", riddle: "b", speaker: "C", listener: "D", bonus: "y" },
+      he: { book: "בראשית", quote: "ב", riddle: "ב", speaker: "ג", listener: "ד", bonus: "ואי" },
+    },
+  ];
+
+  it("picks explicit puzzle id when present", () => {
+    expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=puzzle-b")).toBe(1);
+  });
+
+  it("falls back to daily selection when id is missing or unknown", () => {
+    expect(pickPuzzleIndexForSearch(puzzles, "")).toBeGreaterThanOrEqual(0);
+    expect(pickPuzzleIndexForSearch(puzzles, "")).toBeLessThan(puzzles.length);
+    expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeGreaterThanOrEqual(0);
+    expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeLessThan(puzzles.length);
   });
 });
 
