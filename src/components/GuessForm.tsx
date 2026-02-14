@@ -55,10 +55,12 @@ export function GuessForm({
     disabled: boolean,
     className: string
   ) => {
+    const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
+
     if (!easyMode) {
       return (
         <input
-          id={field === "speaker" ? "inputSpeaker" : field === "listener" ? "inputListener" : "inputPortion"}
+          id={inputId}
           type="text"
           autoComplete="off"
           value={values[field]}
@@ -74,25 +76,20 @@ export function GuessForm({
     const renderedOptions =
       activeValue && !options.includes(activeValue) ? [activeValue, ...options] : options;
     return (
-      <div className={`select-shell ${className} ${disabled ? "disabled" : ""}`}>
-        <select
-          id={field === "speaker" ? "inputSpeaker" : field === "listener" ? "inputListener" : "inputPortion"}
-          value={values[field]}
-          onChange={(e) => onChange(field, e.target.value)}
-          disabled={disabled}
-          className="select-field"
-        >
-          <option value="">{t("guessForm.selectOption")}</option>
-          {renderedOptions.map((option) => (
-            <option key={option} value={option}>
-              {option}
-            </option>
-          ))}
-        </select>
-        <span className="select-icon" aria-hidden="true">
-          ▾
-        </span>
-      </div>
+      <select
+        id={inputId}
+        value={values[field]}
+        onChange={(e) => onChange(field, e.target.value)}
+        disabled={disabled}
+        className={className}
+      >
+        <option value="">{t("guessForm.selectOption")}</option>
+        {renderedOptions.map((option) => (
+          <option key={option} value={option}>
+            {option}
+          </option>
+        ))}
+      </select>
     );
   };
 
@@ -138,30 +135,30 @@ export function GuessForm({
             )}
           </label>
         </div>
-        <div className={`form-row secondary no-portion ${showBonusRow ? "open" : "locked"}`}>
-          <label>
-            <span id="labelBonus">{t("guessForm.bonus")}</span>
-            <input
-              id="inputBonus"
-              type="text"
-              autoComplete="off"
-              value={values.bonus}
-              onChange={(e) => onChange("bonus", e.target.value)}
-              disabled={!showBonusRow || bonusDisabled}
-              className={
-                result && extraChecked && values.bonus && !editedSinceCheck.bonus
-                  ? result.bonusOk
-                    ? "correct"
-                    : "wrong"
-                  : ""
-              }
-            />
-          </label>
-          <div className="form-actions">
-            <button id="submitGuess" className="primary" type="submit" disabled={disabled}>
-              {t("guessForm.check")}
-            </button>
-          </div>
+        <div className={`form-row secondary ${showBonusRow ? "" : "submit-only"}`.trim()}>
+          {showBonusRow ? (
+            <label>
+              <span id="labelBonus">{t("guessForm.bonus")}</span>
+              <input
+                id="inputBonus"
+                type="text"
+                autoComplete="off"
+                value={values.bonus}
+                onChange={(e) => onChange("bonus", e.target.value)}
+                disabled={bonusDisabled}
+                className={
+                  result && extraChecked && values.bonus && !editedSinceCheck.bonus
+                    ? result.bonusOk
+                      ? "correct"
+                      : "wrong"
+                    : ""
+                }
+              />
+            </label>
+          ) : null}
+          <button id="submitGuess" className="primary submit-cell" type="submit" disabled={disabled}>
+            {t("guessForm.check")}
+          </button>
         </div>
       </form>
       <div id="feedback" className="feedback">

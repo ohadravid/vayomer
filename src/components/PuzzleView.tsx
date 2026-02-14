@@ -230,7 +230,8 @@ export function PuzzleView({
   useEffect(() => {
     if (!syncDocumentDirection) return;
     const direction = getLanguageDirection(lang);
-    document.body.classList.toggle("rtl", direction === "rtl");
+    document.documentElement.dir = direction;
+    document.body.dir = direction;
   }, [lang, syncDocumentDirection]);
 
   const statusMarks = (() => {

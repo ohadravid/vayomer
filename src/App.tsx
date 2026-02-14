@@ -278,7 +278,7 @@ export function App() {
     const direction = getLanguageDirection(lang);
     document.documentElement.lang = lang;
     document.documentElement.dir = direction;
-    document.body.classList.toggle("rtl", direction === "rtl");
+    document.body.dir = direction;
     document.title = page === "about" ? t("about.title") : t("app.pageTitle");
   }, [lang, page, t]);
 
