@@ -25,3 +25,28 @@ tasks:
     desc: Typecheck + tests + e2e + build
     cmds:
       - bun run check
+
+  data:rebuild:gen-smoke:
+    desc: Rebuild smoke run (GEN 1-3, gemma3:27b, end2end)
+    cmds:
+      - uv run python3 data_processing/rebuild.py --model gemma3:27b --mode end2end --book GEN --chapters 1-3 --out-dir data/rebuilt_quotes_smoke --audit-dir data/rebuilt_quotes_smoke_audit --force
+
+  data:rebuild:full:
+    desc: Full rebuild to data/rebuilt_quotes + audit (long run)
+    cmds:
+      - uv run python3 data_processing/rebuild.py --model gemma3:27b --mode end2end --out-dir data/rebuilt_quotes --audit-dir data/rebuilt_quotes_audit --force
+
+  data:bonus:exo1-10:
+    desc: Bonus+hint pass on Exodus 1-10 into main bonus folder (faster/stable settings)
+    cmds:
+      - uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus --book EXO --chapters 1-10 --force --max-retries 1 --hint-retries 1 --item-filter-retries 1
+
+  data:bonus:full:
+    desc: Bonus+hint pass on all rebuilt quotes into main bonus folder (long run)
+    cmds:
+      - uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus --force
+
+  data:bonus:full:quality:
+    desc: Bonus+hint full run with stronger bonus/hint models
+    cmds:
+      - uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --bonus-model gemma3:27b --hint-model gemma3:27b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus --force

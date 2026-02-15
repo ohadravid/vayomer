@@ -166,6 +166,16 @@ def _merge_llm_stats(a: Dict[str, int | bool], b: Dict[str, int | bool]) -> Dict
 class BonusHintPicker:
     def __init__(self, entries: List[VerseIndexEntry]) -> None:
         self._entries = entries
+        self._total_verses = len(entries)
+        en_counts: Dict[str, int] = {}
+        he_counts: Dict[str, int] = {}
+        for entry in entries:
+            for token in entry.en_tokens:
+                en_counts[token] = en_counts.get(token, 0) + 1
+            for token in entry.he_tokens:
+                he_counts[token] = he_counts.get(token, 0) + 1
+        self._en_token_verse_count = en_counts
+        self._he_token_verse_count = he_counts
 
     @classmethod
     def load(cls, english_xml: Path, hebrew_zip: Path) -> "BonusHintPicker":
@@ -192,6 +202,28 @@ class BonusHintPicker:
                     )
                 )
         return cls(entries=entries)
+
+    def is_generic_bonus_word(
+        self,
+        *,
+        lang: str,
+        word: str,
+        max_ratio: float = 0.008,
+        min_verse_count: int = 120,
+    ) -> bool:
+        if self._total_verses <= 0:
+            return False
+        tokens = set(text_cleanup.tokenize_for_match(_sanitize_str(word), lang))
+        if not tokens:
+            return False
+        counts = self._en_token_verse_count if lang == "en" else self._he_token_verse_count
+        for token in tokens:
+            token_count = int(counts.get(token, 0))
+            if token_count < max(1, min_verse_count):
+                continue
+            if (token_count / float(self._total_verses)) >= max_ratio:
+                return True
+        return False
 
     def _collect_candidates(
         self,

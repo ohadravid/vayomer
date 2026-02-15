@@ -147,6 +147,7 @@ Validation is code-side after each LLM pick:
 
 - bonus must be an exact substring in the full quote (EN/HE),
 - bonus must not appear in the riddle (EN/HE),
+- bonus is rejected if it is too common across the full Bible corpus (generic-frequency guard),
 - retry is automatic on invalid picks.
 - hint picks are validated to ensure the bonus word appears in the selected hint quote.
 - LLM interaction post-filter is applied before bonus generation:
@@ -160,6 +161,9 @@ Useful flags:
 
 - `--max-retries 6` retries per item when bonus validation fails
 - `--min-bonus-tokens 1 --max-bonus-tokens 2` bonus word length bounds
+- `--bonus-model gemma3:27b` use a stronger model for bonus word quality (falls back to `--model`)
+- `--hint-model gemma3:27b` use a stronger model for hint quote selection (falls back to `--model`)
+- `--item-filter-model gemma3:4b` optionally use a faster model just for interaction filtering
 - `--hint-max-candidates 10` max other-quote candidates per language before LLM hint selection
 - `--hint-retries 3` retries for LLM hint index selection
 - `--item-filter-retries 2` retries for LLM interaction keep/drop filter

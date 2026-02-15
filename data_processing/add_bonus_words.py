@@ -52,6 +52,17 @@ BONUS_CONCEPT_CHECK_PROMPT = [
     "3) If uncertain, return same_concept=false.",
 ]
 
+BONUS_QUALITY_CHECK_PROMPT = [
+    "You are validating bonus-word quality for a Bible quote puzzle.",
+    "Return strict JSON only with shape:",
+    '{"accept":true,"reason":"...","checks":{"specific":true,"interesting":true,"not_function_word":true}}',
+    "Rules:",
+    "1) Accept only if both bonus words are specific/content-bearing in their quote context.",
+    "2) Reject generic function words (for example pronouns, articles, conjunctions, generic auxiliaries).",
+    "3) Prefer interesting / important / funny / dramatic content words.",
+    "4) If uncertain, reject.",
+]
+
 ITEM_KEEP_PROMPT = [
     "You are validating one generated quote interaction before bonus-word generation.",
     "Return strict JSON only with shape:",
@@ -604,6 +615,7 @@ def _pick_bonus_words(
     *,
     model: str,
     item: Dict,
+    hint_picker: Optional["bonus_hint_picker.BonusHintPicker"],
     max_retries: int,
     min_tokens: int,
     max_tokens: int,
@@ -701,6 +713,16 @@ def _pick_bonus_words(
             retry_notes.append(f"attempt_{attempt}:{reason_he}")
             continue
 
+        if hint_picker is not None:
+            if hint_picker.is_generic_bonus_word(lang="en", word=fixed_en):
+                last_reason = "bonus_en_too_common_corpus"
+                retry_notes.append(f"attempt_{attempt}:{last_reason}")
+                continue
+            if hint_picker.is_generic_bonus_word(lang="he", word=fixed_he):
+                last_reason = "bonus_he_too_common_corpus"
+                retry_notes.append(f"attempt_{attempt}:{last_reason}")
+                continue
+
         if text_cleanup.riddle_mentions_entities(fixed_en, speaker_en, listener_en, "en"):
             last_reason = "bonus_en_mentions_entities"
             retry_notes.append(f"attempt_{attempt}:{last_reason}")
@@ -732,6 +754,33 @@ def _pick_bonus_words(
 
         if not bool(concept_data.get("same_concept")):
             last_reason = "bonus_cross_lang_not_same_concept"
+            retry_notes.append(f"attempt_{attempt}:{last_reason}")
+            continue
+
+        quality_payload = {
+            "instructions": BONUS_QUALITY_CHECK_PROMPT,
+            "quote_en": quote_en,
+            "quote_he": quote_he,
+            "riddle_en": riddle_en,
+            "riddle_he": riddle_he,
+            "bonus_en": fixed_en,
+            "bonus_he": fixed_he,
+        }
+        quality_data, quality_stats = _call_llm_json(model=model, payload=quality_payload, max_attempts=2)
+        llm_calls += int(quality_stats.get("calls", 0))
+        llm_prompt_tokens += int(quality_stats.get("prompt_tokens", 0))
+        llm_response_tokens += int(quality_stats.get("response_tokens", 0))
+        if bool(quality_stats.get("estimated", False)):
+            llm_estimated += 1
+
+        quality_accept = _to_bool(quality_data.get("accept"))
+        quality_reason = _sanitize_str(quality_data.get("reason"))
+        quality_checks = quality_data.get("checks", {}) if isinstance(quality_data.get("checks"), dict) else {}
+        quality_specific = _to_bool(quality_checks.get("specific"))
+        quality_interesting = _to_bool(quality_checks.get("interesting"))
+        quality_not_function = _to_bool(quality_checks.get("not_function_word"))
+        if not quality_accept or not quality_specific or not quality_interesting or not quality_not_function:
+            last_reason = quality_reason or "bonus_quality_rejected"
             retry_notes.append(f"attempt_{attempt}:{last_reason}")
             continue
 
@@ -796,7 +845,7 @@ def _set_bonus_hint(item: Dict, lang: str, hint: Optional[Dict]) -> bool:
         item[lang] = {}
     section = item[lang]
     previous = section.get("bonus_hint")
-    if previous != hint:
+    if "bonus_hint" not in section or previous != hint:
         section["bonus_hint"] = hint
         return True
     return False
@@ -805,6 +854,9 @@ def _set_bonus_hint(item: Dict, lang: str, hint: Optional[Dict]) -> bool:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gemma3:27b")
+    parser.add_argument("--item-filter-model", default="", help="override model for interaction keep/drop filter")
+    parser.add_argument("--bonus-model", default="", help="override model for bonus selection and quality checks")
+    parser.add_argument("--hint-model", default="", help="override model for bonus hint selection")
     parser.add_argument("--in-dir", default="data/rebuilt_quotes")
     parser.add_argument("--out-dir", default="data/rebuilt_quotes_bonus")
     parser.add_argument("--issues-log", default="data/rebuilt_quotes_bonus_issues.jsonl")
@@ -853,6 +905,9 @@ def main() -> int:
 
     tqdm.write(f"Loading bonus-hint Bible index: en={english_xml} he={hebrew_zip}")
     hint_picker = bonus_hint_picker.BonusHintPicker.load(english_xml=english_xml, hebrew_zip=hebrew_zip)
+    item_filter_model = _sanitize_str(args.item_filter_model) or _sanitize_str(args.model)
+    bonus_model = _sanitize_str(args.bonus_model) or _sanitize_str(args.model)
+    hint_model = _sanitize_str(args.hint_model) or _sanitize_str(args.model)
 
     chapter_filter = _chapter_filter(args.chapters)
     files = _iter_input_files(in_dir=in_dir, include_draft=bool(args.include_draft))
@@ -868,13 +923,17 @@ def main() -> int:
 
     tqdm.write(
         "Bonus queue: files={files} in_dir={in_dir} out_dir={out_dir} include_draft={include_draft} "
-        "llm_item_filter={llm_item_filter} hint_max_candidates={hint_max_candidates}".format(
+        "llm_item_filter={llm_item_filter} hint_max_candidates={hint_max_candidates} "
+        "item_filter_model={item_filter_model} bonus_model={bonus_model} hint_model={hint_model}".format(
             files=len(files),
             in_dir=in_dir,
             out_dir=out_dir,
             include_draft=bool(args.include_draft),
             llm_item_filter=not bool(args.skip_llm_item_filter),
             hint_max_candidates=args.hint_max_candidates,
+            item_filter_model=item_filter_model,
+            bonus_model=bonus_model,
+            hint_model=hint_model,
         )
     )
 
@@ -980,7 +1039,7 @@ def main() -> int:
 
             if not args.skip_llm_item_filter:
                 keep, reason, filter_stats = _llm_keep_item(
-                    model=args.model,
+                    model=item_filter_model,
                     item=item,
                     retries=args.item_filter_retries,
                 )
@@ -1030,8 +1089,9 @@ def main() -> int:
 
             if not (existing_bonus_en and existing_bonus_he) or args.overwrite_existing_bonus:
                 pair, llm_stats, retries, fail_reason = _pick_bonus_words(
-                    model=args.model,
+                    model=bonus_model,
                     item=item,
+                    hint_picker=hint_picker,
                     max_retries=args.max_retries,
                     min_tokens=args.min_bonus_tokens,
                     max_tokens=args.max_bonus_tokens,
@@ -1077,7 +1137,7 @@ def main() -> int:
 
             source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
             hint_en, hint_en_stats, hint_en_reason = hint_picker.pick_hint(
-                model=args.model,
+                model=hint_model,
                 lang="en",
                 bonus_word=bonus_en,
                 current_quote=_sanitize_str(item["en"].get("quote")),
@@ -1088,7 +1148,7 @@ def main() -> int:
             _add_llm_stats(stats, hint_en_stats)
 
             hint_he, hint_he_stats, hint_he_reason = hint_picker.pick_hint(
-                model=args.model,
+                model=hint_model,
                 lang="he",
                 bonus_word=bonus_he,
                 current_quote=_sanitize_str(item["he"].get("quote")),
