@@ -7,7 +7,7 @@ import { PuzzleView } from "./PuzzleView";
 import { GuessForm } from "./GuessForm";
 import { resources } from "../i18n";
 import { pickHardWordPlaceholderForId } from "../lib/format";
-import type { GuessResult, Lang, PuzzleItem } from "../types";
+import type { EasyChoicePools, GuessResult, Lang, PuzzleItem } from "../types";
 
 const puzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -84,6 +84,8 @@ function renderPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
   puzzle?: PuzzleItem;
   revealed?: boolean;
+  easyMode?: boolean;
+  choicePools?: EasyChoicePools;
   initial?: {
     speaker: string;
     listener: string;
@@ -100,7 +102,8 @@ function renderPuzzleView(props: {
       <StrictMode>
         <PuzzleView
           puzzle={props.puzzle ?? puzzle}
-          easyMode={false}
+          easyMode={props.easyMode ?? false}
+          choicePools={props.choicePools}
           revealed={props.revealed ?? false}
           onReveal={() => {}}
           onClear={() => {}}
@@ -123,6 +126,147 @@ afterEach(() => {
 });
 
 describe("PuzzleView persistence hydration", () => {
+  it("does not persist when parent re-sends an equivalent initial payload", () => {
+    const calls: PersistPayload[] = [];
+    const onPersist = (state: PersistPayload) => {
+      calls.push(state);
+    };
+    const initial = {
+      speaker: "the LORD",
+      listener: "Abram",
+      portion: "",
+      bonus: "land",
+      bookHintUsed: false,
+      hintRevealed: false,
+      attempts: [coreSolvedAttempt],
+    };
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, initial }));
+    });
+
+    expect(calls).toHaveLength(0);
+
+    act(() => {
+      root?.update(
+        renderPuzzleView({
+          onPersist,
+          initial: {
+            ...initial,
+            attempts: [...initial.attempts],
+          },
+        })
+      );
+    });
+
+    expect(calls).toHaveLength(0);
+  });
+
+  it("does not persist on rehydration but resumes persisting after user edits", () => {
+    const calls: PersistPayload[] = [];
+    const onPersist = (state: PersistPayload) => {
+      calls.push(state);
+    };
+    const initialA = {
+      speaker: "the LORD",
+      listener: "Abram",
+      portion: "",
+      bonus: "land",
+      bookHintUsed: false,
+      hintRevealed: false,
+      attempts: [coreSolvedAttempt],
+    };
+    const initialB = {
+      ...initialA,
+      attempts: [coreSolvedAttempt, coreSolvedAttempt],
+    };
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, initial: initialA }));
+    });
+
+    const bonusInputBeforeRehydrate = root?.root.findByProps({ id: "inputBonus" });
+    act(() => {
+      bonusInputBeforeRehydrate?.props.onChange({ target: { value: "earth" } });
+    });
+
+    expect(calls).toHaveLength(1);
+    expect(calls[0]?.bonus).toBe("earth");
+
+    act(() => {
+      root?.update(renderPuzzleView({ onPersist, initial: initialB }));
+    });
+
+    expect(calls).toHaveLength(1);
+
+    const bonusInputAfterRehydrate = root?.root.findByProps({ id: "inputBonus" });
+    act(() => {
+      bonusInputAfterRehydrate?.props.onChange({ target: { value: "sand" } });
+    });
+
+    expect(calls).toHaveLength(2);
+    expect(calls[1]).toMatchObject({
+      bonus: "sand",
+      attempts: initialB.attempts,
+    });
+  });
+
+  it("uses hard_difficulty_options in hard mode when present", () => {
+    const onPersist = () => {};
+    const puzzleWithDifficultyOptions: PuzzleItem = {
+      ...puzzle,
+      en: {
+        ...puzzle.en,
+        options: {
+          speaker: ["Easy Speaker"],
+          listener: ["Easy Listener"],
+        },
+        hard_difficulty_options: {
+          speaker: ["Hard Speaker"],
+          listener: ["Hard Listener"],
+        },
+      },
+    };
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: false }));
+    });
+
+    const form = root?.root.findByType(GuessForm);
+    expect(form?.props.choiceOptions.speaker).toContain("Hard Speaker");
+    expect(form?.props.choiceOptions.listener).toContain("Hard Listener");
+    expect(form?.props.choiceOptions.speaker).not.toContain("Easy Speaker");
+    expect(form?.props.choiceOptions.listener).not.toContain("Easy Listener");
+  });
+
+  it("uses options in easy mode when hard_difficulty_options are present", () => {
+    const onPersist = () => {};
+    const puzzleWithDifficultyOptions: PuzzleItem = {
+      ...puzzle,
+      en: {
+        ...puzzle.en,
+        options: {
+          speaker: ["Easy Speaker"],
+          listener: ["Easy Listener"],
+        },
+        hard_difficulty_options: {
+          speaker: ["Hard Speaker"],
+          listener: ["Hard Listener"],
+        },
+      },
+    };
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: true }));
+    });
+
+    const form = root?.root.findByType(GuessForm);
+    expect(form?.props.choiceOptions.speaker).toContain("Easy Speaker");
+    expect(form?.props.choiceOptions.listener).toContain("Easy Listener");
+    expect(form?.props.choiceOptions.speaker).not.toContain("Hard Speaker");
+    expect(form?.props.choiceOptions.listener).not.toContain("Hard Listener");
+  });
+
   it("does not overwrite loaded missing-word state on fresh hydration", () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {

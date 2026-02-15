@@ -5,12 +5,10 @@ import { GuessForm } from "./components/GuessForm";
 import { PuzzleCard } from "./components/PuzzleCard";
 import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
-import { buildMultipleChoiceOptions, parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode";
-import { formatDate, normalize } from "./lib/format";
+import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
 import type { EasyChoicePools, GuessEditState, GuessResult, GuessValues, Lang, PuzzleItem } from "./types";
 import dailyData from "../data/daily.json";
-import optionsData from "../data/options.json";
 
 const samplePuzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -62,7 +60,6 @@ function parsePuzzleItems(data: unknown): PuzzleItem[] {
 }
 
 const debugQuoteItems = parsePuzzleItems(dailyData as unknown);
-const debugOptionSets = parseOptionsDataset(optionsData as unknown);
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
@@ -209,7 +206,7 @@ function RevealTransitionDemo({ lang, choicePools }: { lang: Lang; choicePools: 
   return (
     <PuzzleView
       puzzle={samplePuzzle}
-      easyMode
+      easyMode={false}
       choicePools={choicePools}
       revealed={revealed}
       onReveal={() => setRevealed(true)}
@@ -237,7 +234,6 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
   const total = debugQuoteItems.length;
   const order = useMemo(() => buildDailyOrder(total), [total]);
   const maxDayOffset = Math.max(0, total - 1);
-  const [showOptions, setShowOptions] = useState(true);
   const [showFullQuote, setShowFullQuote] = useState(true);
   const [dayOffset, setDayOffset] = useState(() => {
     if (total === 0) return 0;
@@ -280,25 +276,6 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
             quote: selectedItem.en.riddle,
           },
         };
-  const choicePools = resolveChoicePoolsForPuzzle({
-    puzzle: selectedItem,
-    items: debugQuoteItems,
-    optionSets: debugOptionSets,
-    lang,
-  });
-  const speakerOptions = buildMultipleChoiceOptions({
-    answer: selectedText.speaker,
-    pool: choicePools.speaker,
-    lang,
-    seed: `${selectedItem.id}:speaker`,
-  });
-  const listenerOptions = buildMultipleChoiceOptions({
-    answer: selectedText.listener,
-    pool: choicePools.listener,
-    lang,
-    seed: `${selectedItem.id}:listener`,
-  });
-  const isAnswer = (option: string, answer: string) => normalize(option, lang) === normalize(answer, lang);
 
   return (
     <section className="debug-quote-browser">
@@ -329,16 +306,6 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
         </button>
         <button className={`chip debug-quote-toggle-btn ${!showFullQuote ? "active" : ""}`} type="button" onClick={() => setShowFullQuote(false)}>
           {localize(lang, "Riddle only", "חידה בלבד")}
-        </button>
-        <button
-          className={`chip debug-quote-toggle-btn ${showOptions ? "active" : ""}`}
-          type="button"
-          aria-pressed={showOptions}
-          onClick={() => setShowOptions((current) => !current)}
-        >
-          {showOptions
-            ? localize(lang, "Hide options", "הסתר אפשרויות")
-            : localize(lang, "Show options", "הצג אפשרויות")}
         </button>
       </div>
 
@@ -379,31 +346,6 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
           </div>
         ) : null}
       </section>
-      {showOptions ? (
-        <section className="debug-quote-browser-options card">
-          <h3>{localize(lang, "Options", "אפשרויות")}</h3>
-          <div className="debug-option-group">
-            <div className="debug-answer-label">{localize(lang, "Speaker", "דובר")}</div>
-            <div className="debug-option-list">
-              {speakerOptions.map((option) => (
-                <span key={`${selectedItem.id}:${lang}:speaker:${option}`} className={`debug-option-pill ${isAnswer(option, selectedText.speaker) ? "correct" : ""}`}>
-                  {option}
-                </span>
-              ))}
-            </div>
-          </div>
-          <div className="debug-option-group">
-            <div className="debug-answer-label">{localize(lang, "Listener", "מאזין")}</div>
-            <div className="debug-option-list">
-              {listenerOptions.map((option) => (
-                <span key={`${selectedItem.id}:${lang}:listener:${option}`} className={`debug-option-pill ${isAnswer(option, selectedText.listener) ? "correct" : ""}`}>
-                  {option}
-                </span>
-              ))}
-            </div>
-          </div>
-        </section>
-      ) : null}
     </section>
   );
 }
@@ -450,18 +392,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
-              revealed={false}
-              onReveal={() => undefined}
-              onClear={() => undefined}
-              syncDocumentDirection={false}
-            />
-          </article>
-
-          <article className="debug-panel">
-            <h2>PuzzleView Easy Mode</h2>
-            <PuzzleView
-              puzzle={samplePuzzle}
-              easyMode
               choicePools={choicePools}
               revealed={false}
               onReveal={() => undefined}
@@ -475,6 +405,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
+              choicePools={choicePools}
               initial={buildInitial(lang, "core-solved")}
               revealed={false}
               onReveal={() => undefined}
@@ -488,6 +419,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
+              choicePools={choicePools}
               initial={buildInitial(lang, "stage-two-missing")}
               revealed={false}
               onReveal={() => undefined}
@@ -501,6 +433,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
+              choicePools={choicePools}
               initial={buildInitial(lang, "stage-two-revealed")}
               revealed
               onReveal={() => undefined}
@@ -514,6 +447,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
+              choicePools={choicePools}
               initial={buildInitial(lang, "solved")}
               revealed
               onReveal={() => undefined}
@@ -527,6 +461,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <PuzzleView
               puzzle={samplePuzzle}
               easyMode={false}
+              choicePools={choicePools}
               initial={buildInitial(lang, "failed")}
               revealed={false}
               onReveal={() => undefined}
@@ -570,7 +505,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>GuessForm Standalone</h2>
             <section className="card">
               <GuessForm
-                easyMode
                 choiceOptions={choicePools}
                 values={guessValues}
                 result={guessResult}

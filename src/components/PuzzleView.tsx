@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { buildMultipleChoiceOptions } from "../lib/easyMode";
+import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
 import {
   countTryAttempts,
   deriveGameState,
@@ -46,6 +46,16 @@ type Props = {
   syncDocumentDirection?: boolean;
 };
 
+type PersistableState = {
+  speaker: string;
+  listener: string;
+  portion: string;
+  bonus: string;
+  bookHintUsed: boolean;
+  hintRevealed: boolean;
+  attempts: GuessResult[];
+};
+
 const EMPTY_GUESS_VALUES: GuessValues = {
   speaker: "",
   listener: "",
@@ -71,8 +81,8 @@ function initialValues(initial?: Props["initial"]): GuessValues {
   };
 }
 
-function signatureFromInitial(initial?: Props["initial"]): string {
-  return JSON.stringify({
+function buildPersistableState(initial?: Props["initial"]): PersistableState {
+  return {
     speaker: initial?.speaker ?? "",
     listener: initial?.listener ?? "",
     portion: initial?.portion ?? "",
@@ -80,18 +90,10 @@ function signatureFromInitial(initial?: Props["initial"]): string {
     bookHintUsed: initial?.bookHintUsed ?? false,
     hintRevealed: initial?.hintRevealed ?? false,
     attempts: initial?.attempts ?? [],
-  });
+  };
 }
 
-function signatureFromState(state: {
-  speaker: string;
-  listener: string;
-  portion: string;
-  bonus: string;
-  bookHintUsed: boolean;
-  hintRevealed: boolean;
-  attempts: GuessResult[];
-}): string {
+function signatureFromState(state: PersistableState): string {
   return JSON.stringify(state);
 }
 
@@ -189,8 +191,7 @@ export function PuzzleView({
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
-  const hasPersistedHydratedStateRef = useRef(false);
-  const initialSignature = signatureFromInitial(initial);
+  const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -233,17 +234,22 @@ export function PuzzleView({
     return t("puzzleView.retry");
   }, [result, bonusRequired, gameState, t]);
   const multipleChoiceOptions = useMemo(() => {
-    if (!easyMode) return null;
+    const pools = resolveChoicePoolsForDifficulty({
+      puzzle,
+      lang,
+      easyMode,
+      fallbackPools: choicePools,
+    });
     return {
       speaker: buildMultipleChoiceOptions({
         answer: puzzle[lang].speaker,
-        pool: choicePools?.speaker ?? [],
+        pool: pools.speaker,
         lang,
         seed: `${puzzle.id}:speaker`,
       }),
       listener: buildMultipleChoiceOptions({
         answer: puzzle[lang].listener,
-        pool: choicePools?.listener ?? [],
+        pool: pools.listener,
         lang,
         seed: `${puzzle.id}:listener`,
       }),
@@ -253,6 +259,7 @@ export function PuzzleView({
   useEffect(() => {
     const nextValues = initialValues(initial);
     const nextAttempts = initial?.attempts ?? [];
+    hydratedStateSignatureRef.current = signatureFromState(buildPersistableState(initial));
     setSpeaker(nextValues.speaker);
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
@@ -278,12 +285,8 @@ export function PuzzleView({
   }, [onPersist]);
 
   useEffect(() => {
-    hasPersistedHydratedStateRef.current = false;
-  }, [initialSignature, puzzle]);
-
-  useEffect(() => {
     if (!persistRef.current) return;
-    const stateSignature = signatureFromState({
+    const nextState: PersistableState = {
       speaker,
       listener,
       portion,
@@ -291,20 +294,9 @@ export function PuzzleView({
       bookHintUsed: bonusHintUsed,
       hintRevealed,
       attempts,
-    });
-    if (!hasPersistedHydratedStateRef.current && stateSignature === initialSignature) {
-      return;
-    }
-    hasPersistedHydratedStateRef.current = true;
-    persistRef.current({
-      speaker,
-      listener,
-      portion,
-      bonus,
-      bookHintUsed: bonusHintUsed,
-      hintRevealed,
-      attempts,
-    });
+    };
+    if (signatureFromState(nextState) === hydratedStateSignatureRef.current) return;
+    persistRef.current(nextState);
   }, [speaker, listener, portion, bonus, bonusHintUsed, hintRevealed, attempts]);
 
   useEffect(() => {
@@ -437,8 +429,7 @@ export function PuzzleView({
         onClear={clearLocal}
       />
       <GuessForm
-        easyMode={easyMode}
-        choiceOptions={multipleChoiceOptions ?? undefined}
+        choiceOptions={multipleChoiceOptions}
         values={{ speaker, listener, portion, bonus }}
         result={result}
         editedSinceCheck={editedSinceCheck}

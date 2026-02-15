@@ -18,6 +18,8 @@ export type EasyChoiceField = "speaker" | "listener";
 
 export type EasyChoicePools = Record<EasyChoiceField, string[]>;
 
+export type DifficultyChoicePools = Partial<Record<EasyChoiceField, string[]>>;
+
 export type HintSourceRef = {
   book?: string;
   chapter?: number | string;
@@ -38,6 +40,8 @@ export type LangText = {
   listener: string;
   bonus?: string | null;
   bonus_hint?: BonusHint | null;
+  options?: DifficultyChoicePools | null;
+  hard_difficulty_options?: DifficultyChoicePools | null;
 };
 
 export type Portion = {

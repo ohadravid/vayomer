@@ -128,47 +128,6 @@
   overflow-wrap: anywhere;
 }
 
-.debug-quote-browser-options {
-  display: grid;
-  gap: 10px;
-}
-
-.debug-quote-browser-options h3 {
-  margin: 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-}
-
-.debug-option-group {
-  display: grid;
-  gap: 6px;
-}
-
-.debug-option-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.debug-option-pill {
-  display: inline-flex;
-  align-items: center;
-  border: 1px solid #d4d4d4;
-  border-radius: 999px;
-  padding: 4px 10px;
-  background: #f8f8f8;
-  font-size: 12px;
-  color: #444;
-}
-
-.debug-option-pill.correct {
-  border-color: #90c0a4;
-  background: #eef7f2;
-  color: #335140;
-}
-
 @media (max-width: 640px) {
   .debug-quote-browser-controls {
     grid-template-columns: 1fr;

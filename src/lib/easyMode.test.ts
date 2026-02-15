@@ -1,5 +1,10 @@
 import { describe, expect, it } from "bun:test";
-import { buildMultipleChoiceOptions, parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./easyMode";
+import {
+  buildMultipleChoiceOptions,
+  parseOptionsDataset,
+  resolveChoicePoolsForDifficulty,
+  resolveChoicePoolsForPuzzle,
+} from "./easyMode";
 import type { BookOptionSet, PuzzleItem } from "../types";
 
 const samplePuzzle: PuzzleItem = {
@@ -62,33 +67,22 @@ describe("buildMultipleChoiceOptions", () => {
       seed: "puzzle:speaker",
       maxChoices: 3,
     });
-    expect(options).toContain("God");
+    expect(options).toContain("the LORD");
     expect(new Set(options).size).toBe(options.length);
     expect(options).toHaveLength(3);
   });
 
-  it("canonicalizes divine name variants in English options", () => {
+  it("keeps divine-name variants as distinct labels", () => {
     const options = buildMultipleChoiceOptions({
-      answer: "God",
-      pool: ["the LORD", "Adonai", "Moses", "Aaron"],
+      answer: "the LORD",
+      pool: ["God", "Moses", "Aaron"],
       lang: "en",
-      seed: "puzzle:speaker:canonical-en",
+      seed: "puzzle:speaker:no-canonical-en",
       maxChoices: 4,
     });
-    expect(options).toContain("God");
-    expect(options).not.toContain("the LORD");
-  });
 
-  it("canonicalizes divine name variants in Hebrew options", () => {
-    const options = buildMultipleChoiceOptions({
-      answer: "אלוהים",
-      pool: ["אֲדֹנָי", "השם", "משה", "אהרן"],
-      lang: "he",
-      seed: "puzzle:speaker:canonical-he",
-      maxChoices: 4,
-    });
-    expect(options).not.toContain("אלוהים");
-    expect(options).toContain("אֱלֹהִים");
+    expect(options).toContain("the LORD");
+    expect(options).toContain("God");
   });
 });
 
@@ -113,6 +107,57 @@ describe("resolveChoicePoolsForPuzzle", () => {
     expect(pools.speaker).toContain("God");
     expect(pools.listener).toContain("Joseph");
     expect(pools.listener).toContain("Abram");
+  });
+});
+
+describe("resolveChoicePoolsForDifficulty", () => {
+  it("uses hard_difficulty_options in hard mode when present", () => {
+    const puzzle: PuzzleItem = {
+      ...samplePuzzle,
+      en: {
+        ...samplePuzzle.en,
+        options: {
+          speaker: ["Easy Speaker"],
+          listener: ["Easy Listener"],
+        },
+        hard_difficulty_options: {
+          speaker: ["Hard Speaker"],
+          listener: ["Hard Listener"],
+        },
+      },
+    };
+
+    const pools = resolveChoicePoolsForDifficulty({
+      puzzle,
+      lang: "en",
+      easyMode: false,
+    });
+
+    expect(pools.speaker).toContain("Hard Speaker");
+    expect(pools.listener).toContain("Hard Listener");
+    expect(pools.speaker).not.toContain("Easy Speaker");
+  });
+
+  it("falls back to options for hard mode when hard_difficulty_options is missing", () => {
+    const puzzle: PuzzleItem = {
+      ...samplePuzzle,
+      en: {
+        ...samplePuzzle.en,
+        options: {
+          speaker: ["Shared Speaker"],
+          listener: ["Shared Listener"],
+        },
+      },
+    };
+
+    const pools = resolveChoicePoolsForDifficulty({
+      puzzle,
+      lang: "en",
+      easyMode: false,
+    });
+
+    expect(pools.speaker).toContain("Shared Speaker");
+    expect(pools.listener).toContain("Shared Listener");
   });
 });
 

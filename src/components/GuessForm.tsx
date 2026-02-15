@@ -2,7 +2,6 @@ import { useTranslation } from "react-i18next";
 import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues } from "../types";
 
 type Props = {
-  easyMode: boolean;
   choiceOptions?: EasyChoicePools;
   values: GuessValues;
   result: GuessResult | null;
@@ -30,7 +29,6 @@ type Props = {
 };
 
 export function GuessForm({
-  easyMode,
   choiceOptions,
   values,
   result,
@@ -57,32 +55,12 @@ export function GuessForm({
   statusMarks,
 }: Props) {
   const { t } = useTranslation();
-  const isEasyCorrect = (field: "speaker" | "listener"): boolean => {
-    if (!easyMode || !result) return false;
-    if (field === "speaker") return !editedSinceCheck.speaker && result.speakerOk;
-    return !editedSinceCheck.listener && result.listenerOk;
-  };
   const renderChoiceControl = (
     field: "speaker" | "listener",
     disabled: boolean,
     className: string
   ) => {
     const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
-
-    if (!easyMode) {
-      return (
-        <input
-          id={inputId}
-          type="text"
-          autoComplete="off"
-          value={values[field]}
-          onChange={(e) => onChange(field, e.target.value)}
-          disabled={disabled}
-          className={className}
-        />
-      );
-    }
-
     const options = choiceOptions?.[field] ?? [];
     const activeValue = values[field].trim();
     const renderedOptions =
@@ -117,10 +95,7 @@ export function GuessForm({
       >
         <div className="form-row primary">
           <label>
-            <span id="labelSpeaker" className="field-label">
-              {t("guessForm.speaker")}
-              {isEasyCorrect("speaker") ? <span className="easy-correct" aria-hidden="true">❇️</span> : null}
-            </span>
+            <span id="labelSpeaker" className="field-label">{t("guessForm.speaker")}</span>
             {renderChoiceControl(
               "speaker",
               coreSolved,
@@ -132,10 +107,7 @@ export function GuessForm({
             )}
           </label>
           <label>
-            <span id="labelListener" className="field-label">
-              {t("guessForm.listener")}
-              {isEasyCorrect("listener") ? <span className="easy-correct" aria-hidden="true">❇️</span> : null}
-            </span>
+            <span id="labelListener" className="field-label">{t("guessForm.listener")}</span>
             {renderChoiceControl(
               "listener",
               coreSolved,

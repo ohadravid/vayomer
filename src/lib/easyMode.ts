@@ -1,6 +1,13 @@
 import { normalize } from "./format";
-import { canonicalizeDivineName } from "./divineAliases";
-import type { BookOptionSet, EasyChoiceField, EasyChoicePools, Lang, OptionsDataset, PuzzleItem } from "../types";
+import type {
+  BookOptionSet,
+  DifficultyChoicePools,
+  EasyChoiceField,
+  EasyChoicePools,
+  Lang,
+  OptionsDataset,
+  PuzzleItem,
+} from "../types";
 
 const DEFAULT_CHOICE_COUNT = 4;
 
@@ -21,10 +28,10 @@ function stableSeedSort(values: string[], seed: string): string[] {
   });
 }
 
-function canonicalizeChoiceLabel(value: string, lang: Lang): string {
+function canonicalizeChoiceLabel(value: string): string {
   const trimmed = value.trim();
   if (!trimmed) return "";
-  return canonicalizeDivineName(trimmed, lang) ?? trimmed;
+  return trimmed;
 }
 
 function dedupeByNormalized(values: string[], lang: Lang): string[] {
@@ -32,7 +39,7 @@ function dedupeByNormalized(values: string[], lang: Lang): string[] {
   const next: string[] = [];
 
   for (const value of values) {
-    const canonical = canonicalizeChoiceLabel(value, lang);
+    const canonical = canonicalizeChoiceLabel(value);
     if (!canonical) continue;
     const key = normalize(canonical, lang);
     if (!key || seen.has(key)) continue;
@@ -96,6 +103,46 @@ export function resolveChoicePoolsForPuzzle(params: {
   return {
     speaker: dedupeByNormalized([...fromStatic.speaker[lang], ...fallback.speaker], lang),
     listener: dedupeByNormalized([...fromStatic.listener[lang], ...fallback.listener], lang),
+  };
+}
+
+function normalizeDifficultyChoicePools(raw: unknown): DifficultyChoicePools {
+  if (!raw || typeof raw !== "object") return {};
+  const candidate = raw as Record<EasyChoiceField, unknown>;
+  const toStringList = (value: unknown): string[] => {
+    if (!Array.isArray(value)) return [];
+    return value.filter((entry): entry is string => typeof entry === "string");
+  };
+  return {
+    speaker: toStringList(candidate.speaker),
+    listener: toStringList(candidate.listener),
+  };
+}
+
+export function resolveChoicePoolsForDifficulty(params: {
+  puzzle: PuzzleItem;
+  lang: Lang;
+  easyMode: boolean;
+  fallbackPools?: EasyChoicePools;
+}): EasyChoicePools {
+  const { puzzle, lang, easyMode, fallbackPools } = params;
+  const easyOverrides = normalizeDifficultyChoicePools(puzzle[lang].options);
+  // TODO(data): hard_difficulty_options will be added to daily.json.
+  // Until then, hard mode falls back to the existing `options` payload.
+  const hardOverrides = normalizeDifficultyChoicePools(
+    puzzle[lang].hard_difficulty_options ?? puzzle[lang].options
+  );
+  const selectedOverrides = easyMode ? easyOverrides : hardOverrides;
+
+  return {
+    speaker: dedupeByNormalized(
+      [...(selectedOverrides.speaker ?? []), ...(fallbackPools?.speaker ?? [])],
+      lang
+    ),
+    listener: dedupeByNormalized(
+      [...(selectedOverrides.listener ?? []), ...(fallbackPools?.listener ?? [])],
+      lang
+    ),
   };
 }
 
