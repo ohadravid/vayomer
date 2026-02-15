@@ -32,18 +32,6 @@ tasks:
       - test -d node_modules || bun install
       - bun run dev
 
-  web:debug:
-    desc: Debug page with component scenarios (Bun)
-    cmds:
-      - test -d node_modules || bun install
-      - bun run dev:debug
-
-  web:dev:both:
-    desc: Run web app and debug page together (Bun)
-    cmds:
-      - test -d node_modules || bun install
-      - bun run dev:both
-
   web:setup:
     desc: Install web dependencies
     cmds:

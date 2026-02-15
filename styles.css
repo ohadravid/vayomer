@@ -229,20 +229,26 @@ input[type="radio"] {
 }
 
 .header {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
   gap: var(--s2);
 }
 
-.header > :first-child {
+.header-copy {
   min-width: 0;
 }
 
 .controls {
   display: flex;
   gap: var(--s0);
+  justify-self: end;
+  align-self: start;
+  flex-shrink: 0;
+}
+
+.header-subtitle {
+  grid-column: 1 / -1;
 }
 
 .about-card {

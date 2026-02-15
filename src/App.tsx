@@ -374,10 +374,9 @@ export function App() {
       <LanguageUrlSync i18n={i18n} lang={lang} />
 
       <header className="header">
-        <div>
+        <div className="header-copy">
           <div className="kicker">{page === "about" ? t("about.kicker") : t("app.kicker")}</div>
           <h1>{page === "about" ? t("about.title") : t("app.title")}</h1>
-          <p className="subtitle">{page === "about" ? t("about.subtitle") : t("app.subtitle")}</p>
         </div>
         <div className="controls">
           <button
@@ -401,6 +400,7 @@ export function App() {
             </button>
           ) : null}
         </div>
+        <p className="subtitle header-subtitle">{page === "about" ? t("about.subtitle") : t("app.subtitle")}</p>
       </header>
 
       {page === "about" ? (
