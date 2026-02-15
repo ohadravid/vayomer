@@ -10,8 +10,8 @@ type Props = {
   onChange: (field: GuessField, value: string) => void;
   onSubmit: () => void;
   onShare: () => void;
-  onRevealBookHint: () => void;
-  showBookHint: boolean;
+  onRevealBonusHint: () => void;
+  showBonusHint: boolean;
   showHintQuote: boolean;
   hintQuoteHtml?: string;
   hintSourceLine?: string;
@@ -19,7 +19,7 @@ type Props = {
   showBonusRow: boolean;
   extraChecked: boolean;
   bonusDisabled: boolean;
-  bookHintUsed: boolean;
+  bonusHintUsed: boolean;
   canShare: boolean;
   disabled: boolean;
   feedback?: string;
@@ -38,8 +38,8 @@ export function GuessForm({
   onChange,
   onSubmit,
   onShare,
-  onRevealBookHint,
-  showBookHint,
+  onRevealBonusHint,
+  showBonusHint,
   showHintQuote,
   hintQuoteHtml,
   hintSourceLine,
@@ -47,7 +47,7 @@ export function GuessForm({
   showBonusRow,
   extraChecked,
   bonusDisabled,
-  bookHintUsed,
+  bonusHintUsed,
   canShare,
   disabled,
   feedback,
@@ -149,7 +149,7 @@ export function GuessForm({
         </div>
         <div
           className={`form-row secondary ${showBonusRow ? "bonus-visible" : "bonus-hidden"} ${
-            showBookHint ? "with-book-hint" : ""
+            showBonusHint ? "with-bonus-hint" : ""
           }`}
         >
           <div className="bonus-cell" aria-hidden={!showBonusRow}>
@@ -173,15 +173,15 @@ export function GuessForm({
               />
             </label>
           </div>
-          {showBookHint ? (
+          {showBonusHint ? (
             <button
-              id="bookHint"
+              id="bonusHint"
               className="ghost small bonus-hint-btn"
               type="button"
-              onClick={onRevealBookHint}
-              disabled={bookHintUsed}
+              onClick={onRevealBonusHint}
+              disabled={bonusHintUsed}
             >
-              📚 {t("puzzleCard.hint")}
+              💡 {t("guessForm.bonusHint")}
             </button>
           ) : null}
           <button id="submitGuess" className="primary submit-cell" type="submit" disabled={disabled}>

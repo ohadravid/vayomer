@@ -6,6 +6,7 @@ type BuildShareTextArgs = {
   attempts: GuessResult[];
   solved: boolean;
   bonusRequired: boolean;
+  hintUsed?: boolean;
   maxTries: number;
   date: Date;
   gameUrl?: string;
@@ -18,22 +19,26 @@ function formatShareDate(date: Date): string {
   return `${year}-${month}-${day}`;
 }
 
-function attemptRow(attempt: GuessResult, bonusRequired: boolean): string {
+function attemptRow(attempt: GuessResult, bonusRequired: boolean, hintUsed: boolean): string {
   const speaker = attempt.speakerOk ? "✅" : "❌";
   const listener = attempt.listenerOk ? "✅" : "❌";
   if (!bonusRequired) return `${speaker}${listener}`;
   const coreSolved = attempt.speakerOk && attempt.listenerOk;
   const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✡️") : "⬜";
-  return `${speaker}${listener}${bonus}`;
+  const hint = hintUsed ? "💡" : "⬜";
+  return `${speaker}${listener}${bonus}${hint}`;
 }
 
 export function buildShareText(args: BuildShareTextArgs): string {
-  const { title, attempts, solved, bonusRequired, maxTries, date, gameUrl } = args;
+  const { title, attempts, solved, bonusRequired, hintUsed = false, maxTries, date, gameUrl } = args;
   const countedAttempts = attempts.filter(doesAttemptCountAsTry);
   const score = solved ? `${Math.min(countedAttempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
   const header = `${title} ${formatShareDate(date)} ${score}`;
-  const fallbackRow = bonusRequired ? "⬜⬜⬜" : "⬜⬜";
-  const rows = countedAttempts.length > 0 ? countedAttempts.map((attempt) => attemptRow(attempt, bonusRequired)) : [fallbackRow];
+  const fallbackRow = bonusRequired ? `⬜⬜⬜${hintUsed ? "💡" : "⬜"}` : "⬜⬜";
+  const rows =
+    countedAttempts.length > 0
+      ? countedAttempts.map((attempt) => attemptRow(attempt, bonusRequired, hintUsed))
+      : [fallbackRow];
   const lines = [header, "", ...rows];
   if (gameUrl) lines.push(gameUrl);
   return lines.join("\n");

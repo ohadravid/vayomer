@@ -402,7 +402,7 @@ input[type="radio"] {
   visibility: visible;
 }
 
-.form-row.secondary.bonus-visible.with-book-hint {
+.form-row.secondary.bonus-visible.with-bonus-hint {
   grid-template-columns: minmax(14rem, 1fr) auto minmax(10rem, 14rem);
 }
 
@@ -413,7 +413,7 @@ input[type="radio"] {
   white-space: nowrap;
 }
 
-.form-row.secondary.bonus-visible.with-book-hint .submit-cell {
+.form-row.secondary.bonus-visible.with-bonus-hint .submit-cell {
   inline-size: auto;
 }
 
@@ -574,11 +574,11 @@ label {
     transform: translateY(0);
   }
 
-  .form-row.secondary.bonus-visible.with-book-hint {
+  .form-row.secondary.bonus-visible.with-bonus-hint {
     grid-template-columns: 1fr;
   }
 
-  .form-row.secondary.bonus-visible.with-book-hint .bonus-hint-btn {
+  .form-row.secondary.bonus-visible.with-bonus-hint .bonus-hint-btn {
     justify-self: stretch;
   }
 

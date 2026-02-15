@@ -48,14 +48,13 @@ export const resources = {
       },
       puzzleCard: {
         clear: "",
-        hint: "Bonus hint",
-        revealHint: "Reveal hint",
       },
       guessForm: {
         speaker: "Speaker",
         listener: "Listener",
         portion: "Portion",
         bonus: "Missing word (hard)",
+        bonusHint: "Bonus hint",
         selectOption: "Choose an option",
         check: "Check",
         guesses: "Guesses: {{count}}",
@@ -106,14 +105,13 @@ export const resources = {
       },
       puzzleCard: {
         clear: "",
-        hint: "רמז למילה",
-        revealHint: "חשיפת רמז",
       },
       guessForm: {
         speaker: "דובר",
         listener: "מאזין",
         portion: "פרשה",
         bonus: "מילה חסרה",
+        bonusHint: "רמז לבונוס",
         selectOption: "בחרו אפשרות",
         check: "בדיקה",
         guesses: "ניחושים: {{count}}",

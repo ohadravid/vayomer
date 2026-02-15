@@ -36,9 +36,9 @@ describe("buildShareText", () => {
     });
 
     expect(text).toContain("Vayomer 2026-02-11 3/5");
-    expect(text).toContain("❌❌⬜");
-    expect(text).toContain("✅✅✡️");
-    expect(text).toContain("✅✅✳️");
+    expect(text).toContain("❌❌⬜⬜");
+    expect(text).toContain("✅✅✡️⬜");
+    expect(text).toContain("✅✅✳️⬜");
     expect(text).toContain("https://example.com");
   });
 
@@ -53,7 +53,7 @@ describe("buildShareText", () => {
     });
 
     expect(text).toContain("Vayomer 2026-02-11 X/5");
-    expect(text).toContain("❌❌⬜");
+    expect(text).toContain("❌❌⬜⬜");
   });
 
   it("omits bonus column when puzzle has no bonus", () => {
@@ -81,10 +81,25 @@ describe("buildShareText", () => {
       date: new Date(2026, 1, 11),
     });
 
-    expect(text).toContain("❌❌⬜");
-    expect(text).toContain("✅✅✳️");
+    expect(text).toContain("❌❌⬜⬜");
+    expect(text).toContain("✅✅✳️⬜");
     expect(text).not.toContain("🟩");
     expect(text).not.toContain("⬛");
+  });
+
+  it("uses lightbulb marker when hint was used", () => {
+    const text = buildShareText({
+      title: "Vayomer",
+      attempts: [CORE_ONLY, SOLVED],
+      solved: true,
+      bonusRequired: true,
+      hintUsed: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("✅✅✡️💡");
+    expect(text).toContain("✅✅✳️💡");
   });
 
   it("uses localized title text in the header", () => {

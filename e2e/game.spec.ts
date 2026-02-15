@@ -233,7 +233,7 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
 
 test("full game: clear win (reload persists state)", async ({ page }) => {
   await openGame(page, { easyMode: false });
-  await expect(page.locator("#bookHint")).toHaveCount(0);
+  await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.locator("#refLine")).toHaveText("");
 
   await page.fill("#inputSpeaker", enAnswer.speaker);
@@ -256,14 +256,14 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
-  await expect(page.locator("#bookHint")).toHaveCount(0);
+  await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.getByText("Tries: 1/5")).toBeVisible();
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 
-test("book hint in stage two reveals a masked hint quote with source", async ({ page }) => {
-  await openGame(page, { easyMode: false, puzzleId: hintPuzzleId, lang: "en" });
-  await expect(page.locator("#bookHint")).toHaveCount(0);
+test("bonus hint in stage two reveals hint, stays visible after solve, and is reflected in share", async ({ page }) => {
+  await openGame(page, { easyMode: false, puzzleId: hintPuzzleId, lang: "en", captureClipboard: true });
+  await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.locator("#refLine")).toHaveText("");
 
   await page.fill("#inputSpeaker", hintEnAnswer.speaker);
@@ -271,11 +271,11 @@ test("book hint in stage two reveals a masked hint quote with source", async ({ 
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-  await expect(page.locator("#bookHint")).toBeVisible();
+  await expect(page.locator("#bonusHint")).toBeVisible();
   await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.locator("#hintQuote")).toHaveCount(0);
 
-  await page.click("#bookHint");
+  await page.click("#bonusHint");
 
   await expect(page.locator("#hintQuote")).toBeVisible();
   const hintQuoteText = await page.locator("#hintQuote").innerText();
@@ -285,6 +285,16 @@ test("book hint in stage two reveals a masked hint quote with source", async ({ 
   } else {
     await expect(page.locator("#hintRefLine")).toBeVisible();
   }
+
+  await page.fill("#inputBonus", hintEnAnswer.bonus);
+  await page.click("#submitGuess");
+  await expect(page.locator("#feedback")).toHaveText("Solved.");
+  await expect(page.locator("#bonusHint")).toBeVisible();
+
+  await page.getByRole("button", { name: "Share result" }).click();
+  await expect(page.locator(".share-note")).toHaveText("Result copied.");
+  const copiedText = await page.evaluate(() => (globalThis as { __copiedText?: string }).__copiedText ?? "");
+  expect(copiedText).toContain("💡");
 });
 
 test("full game: mistakes and win", async ({ page }) => {

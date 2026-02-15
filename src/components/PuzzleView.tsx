@@ -22,6 +22,7 @@ type Props = {
     listener: string;
     portion: string;
     bonus: string;
+    // Kept as-is to stay compatible with existing persisted payloads.
     bookHintUsed: boolean;
     hintRevealed: boolean;
     attempts: GuessResult[];
@@ -175,7 +176,7 @@ export function PuzzleView({
   const [listener, setListener] = useState(initial?.listener ?? EMPTY_GUESS_VALUES.listener);
   const [portion, setPortion] = useState(initial?.portion ?? EMPTY_GUESS_VALUES.portion);
   const [bonus, setBonus] = useState(initial?.bonus ?? EMPTY_GUESS_VALUES.bonus);
-  const [bookHintUsed, setBookHintUsed] = useState(initial?.bookHintUsed ?? false);
+  const [bonusHintUsed, setBonusHintUsed] = useState(initial?.bookHintUsed ?? false);
   const [hintRevealed, setHintRevealed] = useState(initial?.hintRevealed ?? false);
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
@@ -241,7 +242,7 @@ export function PuzzleView({
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
     setBonus(nextValues.bonus);
-    setBookHintUsed(initial?.bookHintUsed ?? false);
+    setBonusHintUsed(initial?.bookHintUsed ?? false);
     setHintRevealed(initial?.hintRevealed ?? false);
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
@@ -267,13 +268,29 @@ export function PuzzleView({
 
   useEffect(() => {
     if (!persistRef.current) return;
-    const stateSignature = signatureFromState({ speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts });
+    const stateSignature = signatureFromState({
+      speaker,
+      listener,
+      portion,
+      bonus,
+      bookHintUsed: bonusHintUsed,
+      hintRevealed,
+      attempts,
+    });
     if (!hasPersistedHydratedStateRef.current && stateSignature === initialSignature) {
       return;
     }
     hasPersistedHydratedStateRef.current = true;
-    persistRef.current({ speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts });
-  }, [speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts]);
+    persistRef.current({
+      speaker,
+      listener,
+      portion,
+      bonus,
+      bookHintUsed: bonusHintUsed,
+      hintRevealed,
+      attempts,
+    });
+  }, [speaker, listener, portion, bonus, bonusHintUsed, hintRevealed, attempts]);
 
   useEffect(() => {
     if (!syncDocumentDirection) return;
@@ -283,15 +300,15 @@ export function PuzzleView({
   }, [lang, syncDocumentDirection]);
 
   const statusMarks = (() => {
-    const bookMark = bookHintUsed ? "📚" : "⬜";
+    const hintMark = bonusHintUsed ? "💡" : "⬜";
 
-    if (fullySolved) return `✅✅✳️${bookMark}`;
-    if (revealed && coreSolved) return `✅✅✴️${bookMark}`;
-    if (coreSolved) return `✅✅✡️${bookMark}`;
-    if (!result) return `⬜⬜⬜${bookMark}`;
+    if (fullySolved) return `✅✅✳️${hintMark}`;
+    if (revealed && coreSolved) return `✅✅✴️${hintMark}`;
+    if (coreSolved) return `✅✅✡️${hintMark}`;
+    if (!result) return `⬜⬜⬜${hintMark}`;
     const speakerMark = result.speakerOk ? "✅" : "❌";
     const listenerMark = result.listenerOk ? "✅" : "❌";
-    return `${speakerMark}${listenerMark}⬜${bookMark}`;
+    return `${speakerMark}${listenerMark}⬜${hintMark}`;
   })();
 
   const shareUrl = buildShareUrl();
@@ -301,11 +318,12 @@ export function PuzzleView({
       attempts,
       solved: fullySolved,
       bonusRequired,
+      hintUsed: bonusHintUsed,
       maxTries: MAX_TOTAL_TRIES,
       date: new Date(),
       gameUrl: shareUrl,
     });
-  }, [attempts, fullySolved, bonusRequired, shareUrl, t, lang]);
+  }, [attempts, fullySolved, bonusRequired, bonusHintUsed, shareUrl, t, lang]);
 
   const checkGuess = () => {
     if (submitDisabled) return;
@@ -332,7 +350,7 @@ export function PuzzleView({
     setListener(EMPTY_GUESS_VALUES.listener);
     setPortion(EMPTY_GUESS_VALUES.portion);
     setBonus(EMPTY_GUESS_VALUES.bonus);
-    setBookHintUsed(false);
+    setBonusHintUsed(false);
     setHintRevealed(false);
     setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
@@ -340,9 +358,9 @@ export function PuzzleView({
     onClear();
   };
 
-  const revealHint = () => {
+  const revealBonusHint = () => {
     if (!hasBonusHint) return;
-    setBookHintUsed(true);
+    setBonusHintUsed(true);
     setHintRevealed(true);
   };
 
@@ -413,15 +431,15 @@ export function PuzzleView({
         showBonusRow={stageTwoOpen}
         extraChecked={coreSolved}
         bonusDisabled={revealed || !bonusRequired}
-        bookHintUsed={bookHintUsed}
-        showBookHint={stageTwoOpen && hasBonusHint && !revealed}
+        bonusHintUsed={bonusHintUsed}
+        showBonusHint={stageTwoOpen && hasBonusHint}
         showHintQuote={hintRevealed && hasBonusHint}
         hintQuoteHtml={hintQuoteHtml}
         hintSourceLine={hintSourceLine}
         onChange={handleChange}
         onSubmit={checkGuess}
         onShare={shareResult}
-        onRevealBookHint={revealHint}
+        onRevealBonusHint={revealBonusHint}
         canShare={canShare}
         disabled={submitDisabled}
         feedback={feedback}

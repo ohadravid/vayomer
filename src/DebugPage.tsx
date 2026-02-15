@@ -582,8 +582,8 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 showBonusRow
                 extraChecked
                 bonusDisabled={false}
-                bookHintUsed={false}
-                showBookHint
+                bonusHintUsed={false}
+                showBonusHint
                 showHintQuote
                 hintQuoteHtml="hint"
                 hintSourceLine={localize(lang, "Genesis 12:1", "בראשית 12:1")}
@@ -594,7 +594,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 triesUsed={2}
                 maxTries={5}
                 statusMarks="❌✅⬜⬜"
-                onRevealBookHint={() => undefined}
+                onRevealBonusHint={() => undefined}
               />
             </section>
           </article>

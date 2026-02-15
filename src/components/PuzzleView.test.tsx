@@ -133,7 +133,7 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
 
     const hydratedInitial = {
       speaker: "the LORD",
@@ -149,7 +149,7 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
     expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toBe("Genesis 12:1");
 
     const bonusInput = root?.root.findByProps({ id: "inputBonus" });
@@ -166,7 +166,7 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("reveals a masked bonus hint quote when book hint is used in stage two", () => {
+  it("reveals a masked bonus hint quote when the bonus hint is used in stage two", () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
       calls.push(state);
@@ -194,7 +194,7 @@ describe("PuzzleView persistence hydration", () => {
     expect(calls).toHaveLength(0);
     expect(root?.root.findAllByProps({ id: "hintQuote" })).toHaveLength(0);
 
-    const revealHint = root?.root.findByProps({ id: "bookHint" });
+    const revealHint = root?.root.findByProps({ id: "bonusHint" });
     act(() => {
       revealHint?.props.onClick();
     });
@@ -211,7 +211,7 @@ describe("PuzzleView persistence hydration", () => {
     expect(calls[0]?.hintRevealed).toBe(true);
   });
 
-  it("hides book hint control until stage two opens", () => {
+  it("hides bonus hint control until stage two opens", () => {
     const onPersist = () => {};
     act(() => {
       root = create(
@@ -232,6 +232,6 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
   });
 });
