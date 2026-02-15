@@ -11,8 +11,8 @@ import type { PuzzleItem } from "./types";
 
 describe("parseEasyModeFromSearch", () => {
   it("parses explicit easy mode values", () => {
-    expect(parseEasyModeFromSearch("?easy=1")).toBe(true);
-    expect(parseEasyModeFromSearch("?easy=0")).toBe(false);
+    expect(parseEasyModeFromSearch("?easy=0")).toBe(true);
+    expect(parseEasyModeFromSearch("?easy=1")).toBe(false);
   });
 
   it("returns null when the query param is missing or invalid", () => {
@@ -23,9 +23,9 @@ describe("parseEasyModeFromSearch", () => {
 
 describe("pickEasyModeForNavigation", () => {
   it("strictly trusts the URL during navigation", () => {
-    expect(pickEasyModeForNavigation("?easy=1")).toBe(true);
-    expect(pickEasyModeForNavigation("?easy=0")).toBe(false);
-    expect(pickEasyModeForNavigation("?lng=en")).toBe(false);
+    expect(pickEasyModeForNavigation("?easy=0")).toBe(true);
+    expect(pickEasyModeForNavigation("?easy=1")).toBe(false);
+    expect(pickEasyModeForNavigation("?lng=en")).toBe(true);
   });
 });
 
@@ -69,14 +69,14 @@ describe("pickPuzzleIndexForSearch", () => {
 });
 
 describe("getSearchWithEasyMode", () => {
-  it("preserves existing language params when toggling easy mode", () => {
-    expect(getSearchWithEasyMode("?lng=en", true)).toBe("?lng=en&easy=1");
-    expect(getSearchWithEasyMode("?lng=en&easy=1", false)).toBe("?lng=en&easy=0");
+  it("keeps URL canonical for default easy mode", () => {
+    expect(getSearchWithEasyMode("?lng=en", true)).toBe("?lng=en");
+    expect(getSearchWithEasyMode("?lng=en&easy=0", true)).toBe("?lng=en");
   });
 
-  it("creates easy mode query params when missing", () => {
-    expect(getSearchWithEasyMode("", true)).toBe("?easy=1");
-    expect(getSearchWithEasyMode("", false)).toBe("?easy=0");
+  it("writes easy=1 for explicit non-default mode", () => {
+    expect(getSearchWithEasyMode("", false)).toBe("?easy=1");
+    expect(getSearchWithEasyMode("?lng=en&easy=0", false)).toBe("?lng=en&easy=1");
   });
 });
 

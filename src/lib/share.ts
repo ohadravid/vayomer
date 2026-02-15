@@ -1,4 +1,5 @@
 import type { GuessResult } from "../types";
+import { doesAttemptCountAsTry } from "./gameState";
 
 type BuildShareTextArgs = {
   title: string;
@@ -28,10 +29,11 @@ function attemptRow(attempt: GuessResult, bonusRequired: boolean): string {
 
 export function buildShareText(args: BuildShareTextArgs): string {
   const { title, attempts, solved, bonusRequired, maxTries, date, gameUrl } = args;
-  const score = solved ? `${Math.min(attempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
+  const countedAttempts = attempts.filter(doesAttemptCountAsTry);
+  const score = solved ? `${Math.min(countedAttempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
   const header = `${title} ${formatShareDate(date)} ${score}`;
   const fallbackRow = bonusRequired ? "⬜⬜⬜" : "⬜⬜";
-  const rows = attempts.length > 0 ? attempts.map((attempt) => attemptRow(attempt, bonusRequired)) : [fallbackRow];
+  const rows = countedAttempts.length > 0 ? countedAttempts.map((attempt) => attemptRow(attempt, bonusRequired)) : [fallbackRow];
   const lines = [header, "", ...rows];
   if (gameUrl) lines.push(gameUrl);
   return lines.join("\n");

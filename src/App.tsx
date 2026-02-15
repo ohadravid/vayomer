@@ -8,14 +8,24 @@ import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import dailyData from "../data/daily.json";
 import optionsData from "../data/options.json";
+import packageMeta from "../package.json";
+
 const EPOCH_DATE = new Date(2026, 1, 6);
 const DAILY_ORDER_SEED = 20260805;
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
 const EASY_MODE_QUERY_KEY = "easy";
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
+const DEFAULT_EASY_MODE = true;
+const REPO_URL = "https://github.com/ohadravid/vayomer";
+const APP_VERSION = packageMeta.version;
 
-enum EasyModeValue {
+enum EasyModeQueryValue {
+  On = "0",
+  Off = "1",
+}
+
+enum EasyModeStorageValue {
   Off = "0",
   On = "1",
 }
@@ -135,27 +145,37 @@ export function parsePersistedState(raw: string | null, lang: Lang): PersistedSt
   }
 }
 
-function parseEasyModeValue(raw: string | null): boolean | null {
-  if (raw === EasyModeValue.On) return true;
-  if (raw === EasyModeValue.Off) return false;
+function parseEasyModeFromQueryValue(raw: string | null): boolean | null {
+  if (raw === EasyModeQueryValue.On) return true;
+  if (raw === EasyModeQueryValue.Off) return false;
   return null;
 }
 
-export function toEasyModeValue(enabled: boolean): EasyModeValue {
-  return enabled ? EasyModeValue.On : EasyModeValue.Off;
+function parseEasyModeFromStorageValue(raw: string | null): boolean | null {
+  if (raw === EasyModeStorageValue.On) return true;
+  if (raw === EasyModeStorageValue.Off) return false;
+  return null;
+}
+
+export function toEasyModeStorageValue(enabled: boolean): EasyModeStorageValue {
+  return enabled ? EasyModeStorageValue.On : EasyModeStorageValue.Off;
+}
+
+function toEasyModeQueryValue(enabled: boolean): EasyModeQueryValue {
+  return enabled ? EasyModeQueryValue.On : EasyModeQueryValue.Off;
 }
 
 function pickEasyModeFromStorage(): boolean {
-  if (typeof window === "undefined") return false;
+  if (typeof window === "undefined") return DEFAULT_EASY_MODE;
   try {
-    return parseEasyModeValue(window.localStorage.getItem(EASY_MODE_STORAGE_KEY)) ?? false;
+    return parseEasyModeFromStorageValue(window.localStorage.getItem(EASY_MODE_STORAGE_KEY)) ?? DEFAULT_EASY_MODE;
   } catch {
-    return false;
+    return DEFAULT_EASY_MODE;
   }
 }
 
 export function parseEasyModeFromSearch(search: string): boolean | null {
-  return parseEasyModeValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
+  return parseEasyModeFromQueryValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
 }
 
 export function parsePuzzleIdFromSearch(search: string): string | null {
@@ -176,7 +196,7 @@ export function pickPuzzleIndexForSearch(items: PuzzleItem[], search: string): n
 }
 
 function pickEasyMode(): boolean {
-  if (typeof window === "undefined") return false;
+  if (typeof window === "undefined") return DEFAULT_EASY_MODE;
   const fromUrl = parseEasyModeFromSearch(window.location.search);
   if (fromUrl !== null) return fromUrl;
   return pickEasyModeFromStorage();
@@ -184,14 +204,39 @@ function pickEasyMode(): boolean {
 
 export function pickEasyModeForNavigation(search: string): boolean {
   const fromUrl = parseEasyModeFromSearch(search);
-  return fromUrl ?? false;
+  return fromUrl ?? DEFAULT_EASY_MODE;
 }
 
 export function getSearchWithEasyMode(search: string, easyModeEnabled: boolean): string {
   const params = new URLSearchParams(search);
-  params.set(EASY_MODE_QUERY_KEY, toEasyModeValue(easyModeEnabled));
+  if (easyModeEnabled === DEFAULT_EASY_MODE) {
+    params.delete(EASY_MODE_QUERY_KEY);
+  } else {
+    params.set(EASY_MODE_QUERY_KEY, toEasyModeQueryValue(easyModeEnabled));
+  }
   const serialized = params.toString();
   return serialized ? `?${serialized}` : "";
+}
+
+type BrowserForEasyModeHistory = {
+  location: Pick<Location, "pathname" | "search" | "hash">;
+  history: Pick<History, "state" | "replaceState">;
+};
+
+export function buildLocationWithEasyMode(pathname: string, search: string, hash: string, easyModeEnabled: boolean): string {
+  return `${pathname}${getSearchWithEasyMode(search, easyModeEnabled)}${hash}`;
+}
+
+export function syncEasyModeInUrl(browser: BrowserForEasyModeHistory, easyModeEnabled: boolean): void {
+  const current = `${browser.location.pathname}${browser.location.search}${browser.location.hash}`;
+  const next = buildLocationWithEasyMode(
+    browser.location.pathname,
+    browser.location.search,
+    browser.location.hash,
+    easyModeEnabled
+  );
+  if (current === next) return;
+  browser.history.replaceState(browser.history.state, "", next);
 }
 
 function pickPageFromHash(hash: string): AppPage {
@@ -231,15 +276,20 @@ export function App() {
     const syncEasyModeFromLocation = () => {
       const next = pickEasyModeForNavigation(window.location.search);
       setEasyMode(next);
-      try {
-        localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeValue(next));
-      } catch {
-        // Ignore storage access errors.
-      }
     };
     window.addEventListener("popstate", syncEasyModeFromLocation);
     return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
   }, []);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    syncEasyModeInUrl(window, easyMode);
+    try {
+      localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeStorageValue(easyMode));
+    } catch {
+      // Ignore storage access errors.
+    }
+  }, [easyMode]);
 
   useEffect(() => {
     const list = parsePuzzleItems(dailyData as unknown);
@@ -283,23 +333,7 @@ export function App() {
   }, [lang, page, t]);
 
   const toggleEasyMode = () => {
-    setEasyMode((previous) => {
-      const next = !previous;
-      const nextValue = toEasyModeValue(next);
-      if (typeof window !== "undefined") {
-        const url = new URL(window.location.href);
-        const nextSearch = getSearchWithEasyMode(url.search, next);
-        if (nextSearch !== url.search) {
-          window.history.replaceState(window.history.state, "", `${url.pathname}${nextSearch}${url.hash}`);
-        }
-      }
-      try {
-        localStorage.setItem(EASY_MODE_STORAGE_KEY, nextValue);
-      } catch {
-        // Ignore storage access errors.
-      }
-      return next;
-    });
+    setEasyMode((previous) => !previous);
   };
 
   if (!puzzle && page === "game") return null;
@@ -412,9 +446,16 @@ export function App() {
       ) : null}
 
       <footer className="footer-note">
-        <a className="footer-link" href={page === "about" ? "#" : ABOUT_HASH}>
-          {page === "about" ? t("about.backToGame") : t("about.link")}
-        </a>
+        <div>
+          <a className="footer-link" href={page === "about" ? "#" : ABOUT_HASH}>
+            {page === "about" ? t("about.backToGame") : t("about.link")}
+          </a>
+        </div>
+        <div>
+          <a className="footer-link footer-version-link" href={REPO_URL} target="_blank" rel="noreferrer">
+            {t("footer.version", { version: APP_VERSION })}
+          </a>
+        </div>
       </footer>
     </div>
   );

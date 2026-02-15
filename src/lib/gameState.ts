@@ -10,6 +10,14 @@ type DeriveGameStateArgs = {
 
 const STAGE_TWO_STATES = new Set<GameState>([GameState.ExtraGuess, GameState.Solved, GameState.Revealed]);
 
+export function doesAttemptCountAsTry(attempt: GuessResult): boolean {
+  return attempt.countsAsTry !== false;
+}
+
+export function countTryAttempts(attempts: GuessResult[]): number {
+  return attempts.reduce((count, attempt) => count + (doesAttemptCountAsTry(attempt) ? 1 : 0), 0);
+}
+
 export function isCoreSolved(result: GuessResult | null): boolean {
   return !!(result?.speakerOk && result?.listenerOk);
 }

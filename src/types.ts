@@ -50,6 +50,7 @@ export type GuessResult = {
   listenerOk: boolean;
   portionOk: boolean;
   bonusOk: boolean;
+  countsAsTry?: boolean;
 };
 
 export type BookOptionSet = {

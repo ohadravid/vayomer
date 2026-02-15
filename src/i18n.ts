@@ -62,6 +62,9 @@ export const resources = {
         status: "Status: {{marks}}",
         share: "Share result",
       },
+      footer: {
+        version: "Version {{version}} (beta)",
+      },
     },
   },
   he: {
@@ -115,6 +118,9 @@ export const resources = {
         tries: "ניסיונות: {{used}}/{{total}}",
         status: "מצב: {{marks}}",
         share: "שיתוף תוצאה",
+      },
+      footer: {
+        version: "גרסת הרצה ({{version}})",
       },
     },
   },

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { buildMultipleChoiceOptions } from "../lib/easyMode";
-import { deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
+import { countTryAttempts, deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
 import { normalize, formatDate } from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
@@ -149,7 +149,7 @@ export function PuzzleView({
   const bonusAnswer = puzzle[lang].bonus ?? "";
   const bonusRequired = !!bonusAnswer;
   const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;
-  const triesUsed = attempts.length;
+  const triesUsed = countTryAttempts(attempts);
   const coreSolved = isCoreSolved(result);
   const gameState = deriveGameState({
     revealed,
@@ -269,8 +269,9 @@ export function PuzzleView({
     const speakerOk = normalize(speaker, lang) === normalize(speakerAnswer, lang);
     const listenerOk = normalize(listener, lang) === normalize(listenerAnswer, lang);
     const bonusOk = bonusRequired ? normalize(bonus, lang) === normalize(bonusAnswer, lang) : true;
+    const transitioningToMissingWord = bonusRequired && !stageTwoOpen && speakerOk && listenerOk && !bonusOk;
 
-    const next = { speakerOk, listenerOk, portionOk: true, bonusOk };
+    const next = { speakerOk, listenerOk, portionOk: true, bonusOk, countsAsTry: !transitioningToMissingWord };
     setAttempts((prev) => [...prev, next]);
 
     if (isFullySolved(next, bonusRequired)) {

@@ -278,6 +278,8 @@ input[type="radio"] {
 
 .footer-note {
   text-align: center;
+  display: grid;
+  gap: var(--s-1);
 }
 
 .footer-link {
@@ -289,6 +291,10 @@ input[type="radio"] {
 .footer-link:hover,
 .footer-link:focus {
   text-decoration: underline;
+}
+
+.footer-version-link {
+  opacity: 0.86;
 }
 
 .reveal {
