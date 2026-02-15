@@ -110,4 +110,37 @@ describe("parsePersistedState", () => {
     const parsed = parsePersistedState(raw, "he");
     expect(parsed?.revealed).toBe(true);
   });
+
+  it("keeps hintRevealed=true only when revealed is valid", () => {
+    const raw = JSON.stringify({
+      lang: "he",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      portion: "",
+      bonus: "הָאָרֶץ",
+      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
+      revealed: true,
+      hintRevealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he");
+    expect(parsed?.hintRevealed).toBe(true);
+  });
+
+  it("drops hintRevealed=true when revealed is invalid", () => {
+    const raw = JSON.stringify({
+      lang: "he",
+      speaker: "",
+      listener: "",
+      portion: "",
+      bonus: "",
+      attempts: [],
+      revealed: true,
+      hintRevealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he");
+    expect(parsed?.revealed).toBe(false);
+    expect(parsed?.hintRevealed).toBe(false);
+  });
 });

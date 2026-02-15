@@ -7,43 +7,100 @@ type Props = {
   puzzle: PuzzleItem;
   revealed: boolean;
   quoteRevealed: boolean;
-  bookHintUsed: boolean;
+  sourceRevealed: boolean;
   dateLabel: string;
   onClear: () => void;
-  onRevealBookHint: () => void;
 };
+
+function toInt(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return Math.floor(value);
+  if (typeof value === "string") {
+    const parsed = Number.parseInt(value, 10);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+  return null;
+}
+
+function trimmedString(value: unknown): string {
+  return typeof value === "string" ? value.trim() : "";
+}
+
+function stripLeadingBook(ref: string): string {
+  return ref.replace(/^[^\d]*/, "").trim();
+}
+
+function formatRefRange(refStart: string, refEnd: string): string {
+  const start = stripLeadingBook(refStart);
+  const end = stripLeadingBook(refEnd);
+  if (start && end) return start === end ? start : `${start}–${end}`;
+  return start || end;
+}
+
+function formatChapterRange(chapterValue: unknown, startValue: unknown, endValue: unknown): string {
+  const chapter = toInt(chapterValue);
+  const start = toInt(startValue);
+  const end = toInt(endValue);
+
+  if (chapter !== null && start !== null) {
+    if (end !== null && end !== start) return `${chapter}:${start}-${end}`;
+    return `${chapter}:${start}`;
+  }
+
+  if (start !== null) {
+    if (end !== null && end !== start) return `${start}-${end}`;
+    return `${start}`;
+  }
+
+  return "";
+}
+
+function getBookLabel(puzzle: PuzzleItem, lang: "en" | "he"): string {
+  const fromLang = trimmedString(puzzle[lang].book);
+  if (fromLang) return fromLang;
+  const source = puzzle.source;
+  if (!source) return "";
+  if (lang === "he") return trimmedString(source.book_he) || trimmedString(source.book);
+  return trimmedString(source.book);
+}
+
+function getMainSourceRange(puzzle: PuzzleItem): string {
+  const source = puzzle.source;
+  if (!source) return "";
+
+  const refStart = trimmedString(source.ref_start);
+  const refEnd = trimmedString(source.ref_end);
+  if (refStart || refEnd) {
+    return formatRefRange(refStart, refEnd);
+  }
+
+  return formatChapterRange(source.chapter, source.quote_verse_start, source.quote_verse_end);
+}
 
 export function PuzzleCard({
   puzzle,
   revealed,
   quoteRevealed,
-  bookHintUsed,
+  sourceRevealed,
   dateLabel,
   onClear,
-  onRevealBookHint,
 }: Props) {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
   const riddleText = puzzle[lang].riddle;
   const quote = puzzle[lang].quote;
-  const book = puzzle[lang].book;
   const bonus = puzzle[lang].bonus ?? "";
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
   const renderedQuote = revealed ? quote : maskHardWord(quote, bonus, placeholder);
-  const bookRevealed = revealed || bookHintUsed;
-  const bookHintOnly = bookHintUsed && !revealed;
 
-  const refStart = puzzle.source?.ref_start || "";
-  const refEnd = puzzle.source?.ref_end || "";
-  const ref = refStart === refEnd ? refStart : `${refStart}–${refEnd}`;
-  const refNumber = ref.replace(/^[^0-9]*/, "");
-  const sourceLine = revealed && refNumber ? `${book} ${refNumber}` : book;
+  const book = getBookLabel(puzzle, lang);
+  const mainSourceRange = getMainSourceRange(puzzle);
+  const sourceLine = [book, mainSourceRange].filter(Boolean).join(" ");
 
   return (
     <section
       className={`card reveal ${quoteRevealed ? "quote-revealed" : ""} ${revealed ? "revealed" : ""} ${
-        bookRevealed ? "book-revealed" : ""
-      } ${bookHintOnly ? "book-hint-only" : ""}`}
+        sourceRevealed ? "source-revealed" : ""
+      }`}
       id="puzzleCard"
     >
       <div className="meta">
@@ -53,16 +110,7 @@ export function PuzzleCard({
           </span>
         </div>
         <div className="meta-actions">
-          <button
-            id="bookHint"
-            className="ghost small"
-            type="button"
-            onClick={onRevealBookHint}
-            disabled={bookHintUsed || revealed}
-          >
-            📚 {t("puzzleCard.hint")}
-          </button>
-          <button className="ghost small" type="button" onClick={onClear}>
+          <button className="ghost small icon-btn" type="button" onClick={onClear}>
             🧹 {t("puzzleCard.clear")}
           </button>
         </div>
@@ -73,7 +121,7 @@ export function PuzzleCard({
         dangerouslySetInnerHTML={{ __html: highlightQuote(renderedQuote, riddleText) }}
       />
       <div id="refLine" className="ref-line">
-        {bookRevealed ? sourceLine : ""}
+        {sourceRevealed ? sourceLine : ""}
       </div>
     </section>
   );

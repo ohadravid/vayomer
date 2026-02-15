@@ -37,6 +37,7 @@ type PersistedState = {
   portion: string;
   bonus: string;
   bookHintUsed: boolean;
+  hintRevealed: boolean;
   attempts: GuessResult[];
   revealed: boolean;
 };
@@ -50,6 +51,7 @@ const EMPTY_PERSIST_INPUT: PersistInput = {
   portion: "",
   bonus: "",
   bookHintUsed: false,
+  hintRevealed: false,
   attempts: [],
 };
 
@@ -60,6 +62,7 @@ function toPersistInput(state: PersistedState): PersistInput {
     portion: state.portion,
     bonus: state.bonus,
     bookHintUsed: state.bookHintUsed,
+    hintRevealed: state.hintRevealed,
     attempts: state.attempts,
   };
 }
@@ -128,6 +131,7 @@ export function parsePersistedState(raw: string | null, lang: Lang): PersistedSt
     if (parsed.lang !== lang) return null;
     const attempts = parseAttempts(parsed);
     const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
+    const revealed = !!parsed.revealed && hasCoreSolvedAttempt;
     return {
       lang,
       speaker: parsed.speaker ?? "",
@@ -135,10 +139,11 @@ export function parsePersistedState(raw: string | null, lang: Lang): PersistedSt
       portion: parsed.portion ?? "",
       bonus: parsed.bonus ?? "",
       bookHintUsed: !!parsed.bookHintUsed,
+      hintRevealed: revealed && !!parsed.hintRevealed,
       attempts,
       // Old/corrupted payloads can end up with `revealed: true` and no solved attempt.
       // Treat those as not revealed so the form remains playable on load.
-      revealed: !!parsed.revealed && hasCoreSolvedAttempt,
+      revealed,
     };
   } catch {
     return null;

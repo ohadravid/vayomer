@@ -10,28 +10,66 @@ type PuzzleItem = {
     speaker: string;
     listener: string;
     bonus?: string | null;
+    bonus_hint?: {
+      quote?: string | null;
+      source?: {
+        book?: string;
+        chapter?: number;
+        start?: number;
+        end?: number;
+      };
+    } | null;
   };
   he: {
     speaker: string;
     listener: string;
     bonus?: string | null;
+    bonus_hint?: {
+      quote?: string | null;
+      source?: {
+        book?: string;
+        chapter?: number;
+        start?: number;
+        end?: number;
+      };
+    } | null;
   };
+};
+
+type HintSource = {
+  book?: string;
+  chapter?: number;
+  start?: number;
+  end?: number;
 };
 
 type GameOpenOptions = {
   easyMode?: boolean;
   captureClipboard?: boolean;
   lang?: "en" | "he";
+  puzzleId?: string;
 };
 
 const WRONG_TEXT = "not-the-answer";
 const dailyJsonPath = fileURLToPath(new URL("../data/daily.json", import.meta.url));
 const parsedDailyJson = JSON.parse(fs.readFileSync(dailyJsonPath, "utf8")) as { items?: PuzzleItem[] } | PuzzleItem[];
 const dailyItems = Array.isArray(parsedDailyJson) ? parsedDailyJson : (parsedDailyJson.items ?? []);
-const testPuzzle = dailyItems.find((item) => !!item.en.bonus?.trim() && !!item.he.bonus?.trim());
+
+function hasEasyModeDistractors(item: PuzzleItem): boolean {
+  const sameBook = dailyItems.filter((candidate) => candidate.en.book === item.en.book && candidate.he.book === item.he.book);
+  const normalizedSpeaker = normalize(item.en.speaker, "en");
+  const normalizedListener = normalize(item.en.listener, "en");
+  const hasSpeakerAlternative = sameBook.some((candidate) => normalize(candidate.en.speaker, "en") !== normalizedSpeaker);
+  const hasListenerAlternative = sameBook.some((candidate) => normalize(candidate.en.listener, "en") !== normalizedListener);
+  return hasSpeakerAlternative && hasListenerAlternative;
+}
+
+const testPuzzle = dailyItems.find(
+  (item) => !!item.en.bonus?.trim() && !!item.he.bonus?.trim() && hasEasyModeDistractors(item)
+);
 
 if (!testPuzzle) {
-  throw new Error("Expected a puzzle with both EN and HE bonus answers in data/daily.json.");
+  throw new Error("Expected a puzzle with EN/HE bonus answers and easy-mode distractors in data/daily.json.");
 }
 
 const puzzleId = testPuzzle.id;
@@ -45,6 +83,37 @@ const heAnswer = {
   listener: testPuzzle.he.listener,
   bonus: testPuzzle.he.bonus!.trim(),
 };
+
+const hintPuzzle = dailyItems.find(
+  (item) =>
+    !!item.en.bonus?.trim() &&
+    !!item.en.bonus_hint?.quote?.trim() &&
+    !!item.he.bonus?.trim() &&
+    !!item.he.bonus_hint?.quote?.trim()
+);
+
+if (!hintPuzzle) {
+  throw new Error("Expected at least one puzzle with EN/HE bonus_hint quotes in data/daily.json.");
+}
+
+const hintPuzzleId = hintPuzzle.id;
+const hintEnAnswer = {
+  speaker: hintPuzzle.en.speaker,
+  listener: hintPuzzle.en.listener,
+  bonus: hintPuzzle.en.bonus!.trim(),
+};
+
+function formatHintSource(source: HintSource | undefined): string {
+  if (!source) return "";
+  const book = source.book?.trim() ?? "";
+  const chapter = Number.isFinite(source.chapter) ? source.chapter : null;
+  const start = Number.isFinite(source.start) ? source.start : null;
+  const end = Number.isFinite(source.end) ? source.end : null;
+  const verse = chapter !== null && start !== null ? `${chapter}:${end !== null && end !== start ? `${start}-${end}` : start}` : "";
+  return [book, verse].filter(Boolean).join(" ");
+}
+
+const hintSourceLabel = formatHintSource(hintPuzzle.en.bonus_hint?.source);
 
 if (!enAnswer.speaker || !enAnswer.listener || !enAnswer.bonus) {
   throw new Error(`Missing EN answers in puzzle ${puzzleId}.`);
@@ -94,7 +163,7 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   }
 
   const params = new URLSearchParams();
-  params.set("puzzle", puzzleId);
+  params.set("puzzle", options.puzzleId ?? puzzleId);
   params.set("lng", options.lang ?? "en");
 
   if (options.easyMode === true) {
@@ -164,12 +233,15 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
 
 test("full game: clear win (reload persists state)", async ({ page }) => {
   await openGame(page, { easyMode: false });
+  await expect(page.locator("#bookHint")).toHaveCount(0);
+  await expect(page.locator("#refLine")).toHaveText("");
 
   await page.fill("#inputSpeaker", enAnswer.speaker);
   await page.fill("#inputListener", enAnswer.listener);
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.getByText("Tries: 0/5")).toBeVisible();
 
   await page.reload();
@@ -177,14 +249,42 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await expect(page.locator("#inputSpeaker")).toHaveValue(enAnswer.speaker);
   await expect(page.locator("#inputListener")).toHaveValue(enAnswer.listener);
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.getByText("Tries: 0/5")).toBeVisible();
 
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
+  await expect(page.locator("#bookHint")).toHaveCount(0);
   await expect(page.getByText("Tries: 1/5")).toBeVisible();
   await expect(page.locator("#submitGuess")).toBeDisabled();
+});
+
+test("book hint in stage two reveals a masked hint quote with source", async ({ page }) => {
+  await openGame(page, { easyMode: false, puzzleId: hintPuzzleId, lang: "en" });
+  await expect(page.locator("#bookHint")).toHaveCount(0);
+  await expect(page.locator("#refLine")).toHaveText("");
+
+  await page.fill("#inputSpeaker", hintEnAnswer.speaker);
+  await page.fill("#inputListener", hintEnAnswer.listener);
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.locator("#bookHint")).toBeVisible();
+  await expect(page.locator("#refLine")).not.toHaveText("");
+  await expect(page.locator("#hintQuote")).toHaveCount(0);
+
+  await page.click("#bookHint");
+
+  await expect(page.locator("#hintQuote")).toBeVisible();
+  const hintQuoteText = await page.locator("#hintQuote").innerText();
+  expect(normalize(hintQuoteText, "en")).not.toContain(normalize(hintEnAnswer.bonus, "en"));
+  if (hintSourceLabel) {
+    await expect(page.locator("#hintRefLine")).toHaveText(hintSourceLabel);
+  } else {
+    await expect(page.locator("#hintRefLine")).toBeVisible();
+  }
 });
 
 test("full game: mistakes and win", async ({ page }) => {

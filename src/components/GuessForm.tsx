@@ -10,10 +10,16 @@ type Props = {
   onChange: (field: GuessField, value: string) => void;
   onSubmit: () => void;
   onShare: () => void;
+  onRevealBookHint: () => void;
+  showBookHint: boolean;
+  showHintQuote: boolean;
+  hintQuoteHtml?: string;
+  hintSourceLine?: string;
   coreSolved: boolean;
   showBonusRow: boolean;
   extraChecked: boolean;
   bonusDisabled: boolean;
+  bookHintUsed: boolean;
   canShare: boolean;
   disabled: boolean;
   feedback?: string;
@@ -32,10 +38,16 @@ export function GuessForm({
   onChange,
   onSubmit,
   onShare,
+  onRevealBookHint,
+  showBookHint,
+  showHintQuote,
+  hintQuoteHtml,
+  hintSourceLine,
   coreSolved,
   showBonusRow,
   extraChecked,
   bonusDisabled,
+  bookHintUsed,
   canShare,
   disabled,
   feedback,
@@ -135,7 +147,11 @@ export function GuessForm({
             )}
           </label>
         </div>
-        <div className={`form-row secondary ${showBonusRow ? "bonus-visible" : "bonus-hidden"}`}>
+        <div
+          className={`form-row secondary ${showBonusRow ? "bonus-visible" : "bonus-hidden"} ${
+            showBookHint ? "with-book-hint" : ""
+          }`}
+        >
           <div className="bonus-cell" aria-hidden={!showBonusRow}>
             <label>
               <span id="labelBonus">{t("guessForm.bonus")}</span>
@@ -157,11 +173,30 @@ export function GuessForm({
               />
             </label>
           </div>
+          {showBookHint ? (
+            <button
+              id="bookHint"
+              className="ghost small bonus-hint-btn"
+              type="button"
+              onClick={onRevealBookHint}
+              disabled={bookHintUsed}
+            >
+              📚 {t("puzzleCard.hint")}
+            </button>
+          ) : null}
           <button id="submitGuess" className="primary submit-cell" type="submit" disabled={disabled}>
             {t("guessForm.check")}
           </button>
         </div>
       </form>
+      {showHintQuote ? (
+        <div id="hintReveal" className={`bonus-hint-reveal ${showHintQuote ? "revealed" : ""}`}>
+          <div id="hintQuote" className="bonus-hint-quote" dangerouslySetInnerHTML={{ __html: hintQuoteHtml ?? "" }} />
+          <div id="hintRefLine" className="bonus-hint-ref-line">
+            {hintSourceLine ?? ""}
+          </div>
+        </div>
+      ) : null}
       <div id="feedback" className="feedback">
         {feedback}
       </div>

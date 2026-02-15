@@ -5,6 +5,7 @@ import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
 import { PuzzleView } from "./PuzzleView";
 import { resources } from "../i18n";
+import { pickHardWordPlaceholderForId } from "../lib/format";
 import type { GuessResult, Lang, PuzzleItem } from "../types";
 
 const puzzle: PuzzleItem = {
@@ -29,6 +30,24 @@ const puzzle: PuzzleItem = {
   source: { ref_start: "Genesis 12:1", ref_end: "Genesis 12:1" },
 };
 
+const puzzleWithHint: PuzzleItem = {
+  ...puzzle,
+  en: {
+    ...puzzle.en,
+    bonus_hint: {
+      quote: "Now the LORD said unto Abram, Get thee out unto the land that I will show thee.",
+      source: { book: "Genesis", chapter: 12, start: 1, end: 1 },
+    },
+  },
+  he: {
+    ...puzzle.he,
+    bonus_hint: {
+      quote: "לֶךְ־לְךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶךָּ",
+      source: { book: "בראשית", chapter: 12, start: 1, end: 1 },
+    },
+  },
+};
+
 const coreSolvedAttempt: GuessResult = {
   speakerOk: true,
   listenerOk: true,
@@ -42,6 +61,7 @@ type PersistPayload = {
   portion: string;
   bonus: string;
   bookHintUsed: boolean;
+  hintRevealed: boolean;
   attempts: GuessResult[];
 };
 
@@ -61,12 +81,15 @@ function createI18n(lang: Lang) {
 
 function renderPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
+  puzzle?: PuzzleItem;
+  revealed?: boolean;
   initial?: {
     speaker: string;
     listener: string;
     portion: string;
     bonus: string;
     bookHintUsed?: boolean;
+    hintRevealed?: boolean;
     attempts: GuessResult[];
   };
 }) {
@@ -75,9 +98,9 @@ function renderPuzzleView(props: {
     <I18nextProvider i18n={i18n}>
       <StrictMode>
         <PuzzleView
-          puzzle={puzzle}
+          puzzle={props.puzzle ?? puzzle}
           easyMode={false}
-          revealed={false}
+          revealed={props.revealed ?? false}
           onReveal={() => {}}
           onClear={() => {}}
           onPersist={props.onPersist}
@@ -110,6 +133,7 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
 
     const hydratedInitial = {
       speaker: "the LORD",
@@ -125,6 +149,8 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
+    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toBe("Genesis 12:1");
 
     const bonusInput = root?.root.findByProps({ id: "inputBonus" });
     act(() => {
@@ -138,5 +164,74 @@ describe("PuzzleView persistence hydration", () => {
       bonus: "earth",
       attempts: [coreSolvedAttempt],
     });
+  });
+
+  it("reveals a masked bonus hint quote when book hint is used in stage two", () => {
+    const calls: PersistPayload[] = [];
+    const onPersist = (state: PersistPayload) => {
+      calls.push(state);
+    };
+
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          puzzle: puzzleWithHint,
+          revealed: false,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: false,
+            hintRevealed: false,
+            attempts: [coreSolvedAttempt],
+          },
+        })
+      );
+    });
+
+    expect(calls).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "hintQuote" })).toHaveLength(0);
+
+    const revealHint = root?.root.findByProps({ id: "bookHint" });
+    act(() => {
+      revealHint?.props.onClick();
+    });
+
+    const hintQuoteNode = root?.root.findByProps({ id: "hintQuote" });
+    const hintQuoteHtml = String(hintQuoteNode?.props?.dangerouslySetInnerHTML?.__html ?? "");
+    const placeholder = pickHardWordPlaceholderForId(puzzleWithHint.id);
+
+    expect(hintQuoteHtml.includes("land")).toBe(false);
+    expect(hintQuoteHtml.includes(placeholder)).toBe(true);
+    expect(root?.root.findByProps({ id: "hintRefLine" }).children.join("")).toBe("Genesis 12:1");
+    expect(calls).toHaveLength(1);
+    expect(calls[0]?.bookHintUsed).toBe(true);
+    expect(calls[0]?.hintRevealed).toBe(true);
+  });
+
+  it("hides book hint control until stage two opens", () => {
+    const onPersist = () => {};
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          puzzle: puzzleWithHint,
+          revealed: false,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: false,
+            hintRevealed: false,
+            attempts: [],
+          },
+        })
+      );
+    });
+
+    expect(root?.root.findAllByProps({ id: "bookHint" })).toHaveLength(0);
   });
 });

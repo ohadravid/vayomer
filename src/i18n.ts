@@ -48,7 +48,8 @@ export const resources = {
       },
       puzzleCard: {
         clear: "",
-        hint: "",
+        hint: "Bonus hint",
+        revealHint: "Reveal hint",
       },
       guessForm: {
         speaker: "Speaker",
@@ -105,7 +106,8 @@ export const resources = {
       },
       puzzleCard: {
         clear: "",
-        hint: "",
+        hint: "רמז למילה",
+        revealHint: "חשיפת רמז",
       },
       guessForm: {
         speaker: "דובר",

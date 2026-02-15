@@ -351,10 +351,9 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
           puzzle={displayItem}
           revealed
           quoteRevealed={showFullQuote}
-          bookHintUsed={false}
+          sourceRevealed
           dateLabel={formatDate(selectedDate, lang)}
           onClear={() => undefined}
-          onRevealBookHint={() => undefined}
         />
       </div>
       <section className="debug-quote-browser-answers card">
@@ -549,10 +548,9 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
               puzzle={samplePuzzle}
               revealed={false}
               quoteRevealed={false}
-              bookHintUsed={false}
+              sourceRevealed={false}
               dateLabel={dateLabel}
               onClear={() => undefined}
-              onRevealBookHint={() => undefined}
             />
           </article>
 
@@ -562,10 +560,9 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
               puzzle={samplePuzzle}
               revealed
               quoteRevealed
-              bookHintUsed
+              sourceRevealed
               dateLabel={dateLabel}
               onClear={() => undefined}
-              onRevealBookHint={() => undefined}
             />
           </article>
 
@@ -585,6 +582,11 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 showBonusRow
                 extraChecked
                 bonusDisabled={false}
+                bookHintUsed={false}
+                showBookHint
+                showHintQuote
+                hintQuoteHtml="hint"
+                hintSourceLine={localize(lang, "Genesis 12:1", "בראשית 12:1")}
                 canShare
                 disabled={false}
                 feedback={localize(lang, "Try another speaker.", "נסו דובר אחר.")}
@@ -592,6 +594,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 triesUsed={2}
                 maxTries={5}
                 statusMarks="❌✅⬜⬜"
+                onRevealBookHint={() => undefined}
               />
             </section>
           </article>

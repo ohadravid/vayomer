@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { buildMultipleChoiceOptions } from "../lib/easyMode";
 import { countTryAttempts, deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
-import { normalize, formatDate } from "../lib/format";
+import { normalize, formatDate, markVerseNumbers, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
 import { buildShareText } from "../lib/share";
@@ -23,6 +23,7 @@ type Props = {
     portion: string;
     bonus: string;
     bookHintUsed: boolean;
+    hintRevealed: boolean;
     attempts: GuessResult[];
   }) => void;
   initial?: {
@@ -31,6 +32,7 @@ type Props = {
     portion: string;
     bonus: string;
     bookHintUsed?: boolean;
+    hintRevealed?: boolean;
     attempts: GuessResult[];
   };
   syncDocumentDirection?: boolean;
@@ -68,6 +70,7 @@ function signatureFromInitial(initial?: Props["initial"]): string {
     portion: initial?.portion ?? "",
     bonus: initial?.bonus ?? "",
     bookHintUsed: initial?.bookHintUsed ?? false,
+    hintRevealed: initial?.hintRevealed ?? false,
     attempts: initial?.attempts ?? [],
   });
 }
@@ -78,9 +81,44 @@ function signatureFromState(state: {
   portion: string;
   bonus: string;
   bookHintUsed: boolean;
+  hintRevealed: boolean;
   attempts: GuessResult[];
 }): string {
   return JSON.stringify(state);
+}
+
+function toInt(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return Math.floor(value);
+  if (typeof value === "string") {
+    const parsed = Number.parseInt(value, 10);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+  return null;
+}
+
+function formatHintSourceLine(
+  source:
+    | {
+        book?: string;
+        chapter?: number | string;
+        start?: number | string;
+        end?: number | string;
+      }
+    | null
+    | undefined
+): string {
+  if (!source) return "";
+  const book = typeof source.book === "string" ? source.book.trim() : "";
+  const chapter = toInt(source.chapter);
+  const start = toInt(source.start);
+  const end = toInt(source.end);
+
+  const range =
+    chapter !== null && start !== null
+      ? `${chapter}:${end !== null && end !== start ? `${start}-${end}` : start}`
+      : "";
+
+  return [book, range].filter(Boolean).join(" ");
 }
 
 function buildShareUrl(): string | undefined {
@@ -138,6 +176,7 @@ export function PuzzleView({
   const [portion, setPortion] = useState(initial?.portion ?? EMPTY_GUESS_VALUES.portion);
   const [bonus, setBonus] = useState(initial?.bonus ?? EMPTY_GUESS_VALUES.bonus);
   const [bookHintUsed, setBookHintUsed] = useState(initial?.bookHintUsed ?? false);
+  const [hintRevealed, setHintRevealed] = useState(initial?.hintRevealed ?? false);
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
@@ -147,6 +186,12 @@ export function PuzzleView({
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
+  const hintQuote = puzzle[lang].bonus_hint?.quote?.trim() ?? "";
+  const hasBonusHint = hintQuote.length > 0;
+  const placeholder = pickHardWordPlaceholderForId(puzzle.id);
+  const maskedHintQuote = hasBonusHint ? maskHardWord(hintQuote, bonusAnswer, placeholder) : "";
+  const hintQuoteHtml = hasBonusHint ? `<span class="veil">${markVerseNumbers(maskedHintQuote)}</span>` : "";
+  const hintSourceLine = formatHintSourceLine(puzzle[lang].bonus_hint?.source);
   const bonusRequired = !!bonusAnswer;
   const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;
   const triesUsed = countTryAttempts(attempts);
@@ -160,6 +205,7 @@ export function PuzzleView({
   });
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const quoteRevealed = stageTwoOpen;
+  const sourceRevealed = stageTwoOpen;
   const fullySolved = gameState === GameState.Solved;
   const canShare = attempts.length > 0;
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
@@ -196,6 +242,7 @@ export function PuzzleView({
     setPortion(nextValues.portion);
     setBonus(nextValues.bonus);
     setBookHintUsed(initial?.bookHintUsed ?? false);
+    setHintRevealed(initial?.hintRevealed ?? false);
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
@@ -205,6 +252,7 @@ export function PuzzleView({
     initial?.portion,
     initial?.bonus,
     initial?.bookHintUsed,
+    initial?.hintRevealed,
     initial?.attempts,
     puzzle,
   ]);
@@ -219,13 +267,13 @@ export function PuzzleView({
 
   useEffect(() => {
     if (!persistRef.current) return;
-    const stateSignature = signatureFromState({ speaker, listener, portion, bonus, bookHintUsed, attempts });
+    const stateSignature = signatureFromState({ speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts });
     if (!hasPersistedHydratedStateRef.current && stateSignature === initialSignature) {
       return;
     }
     hasPersistedHydratedStateRef.current = true;
-    persistRef.current({ speaker, listener, portion, bonus, bookHintUsed, attempts });
-  }, [speaker, listener, portion, bonus, bookHintUsed, attempts]);
+    persistRef.current({ speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts });
+  }, [speaker, listener, portion, bonus, bookHintUsed, hintRevealed, attempts]);
 
   useEffect(() => {
     if (!syncDocumentDirection) return;
@@ -285,14 +333,17 @@ export function PuzzleView({
     setPortion(EMPTY_GUESS_VALUES.portion);
     setBonus(EMPTY_GUESS_VALUES.bonus);
     setBookHintUsed(false);
+    setHintRevealed(false);
     setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
     onClear();
   };
 
-  const revealBookHint = () => {
+  const revealHint = () => {
+    if (!hasBonusHint) return;
     setBookHintUsed(true);
+    setHintRevealed(true);
   };
 
   const shareResult = async () => {
@@ -348,10 +399,9 @@ export function PuzzleView({
         puzzle={puzzle}
         revealed={revealed}
         quoteRevealed={quoteRevealed}
-        bookHintUsed={bookHintUsed}
+        sourceRevealed={sourceRevealed}
         dateLabel={dateLabel}
         onClear={clearLocal}
-        onRevealBookHint={revealBookHint}
       />
       <GuessForm
         easyMode={easyMode}
@@ -363,9 +413,15 @@ export function PuzzleView({
         showBonusRow={stageTwoOpen}
         extraChecked={coreSolved}
         bonusDisabled={revealed || !bonusRequired}
+        bookHintUsed={bookHintUsed}
+        showBookHint={stageTwoOpen && hasBonusHint && !revealed}
+        showHintQuote={hintRevealed && hasBonusHint}
+        hintQuoteHtml={hintQuoteHtml}
+        hintSourceLine={hintSourceLine}
         onChange={handleChange}
         onSubmit={checkGuess}
         onShare={shareResult}
+        onRevealBookHint={revealHint}
         canShare={canShare}
         disabled={submitDisabled}
         feedback={feedback}

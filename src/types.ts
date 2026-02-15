@@ -18,13 +18,26 @@ export type EasyChoiceField = "speaker" | "listener";
 
 export type EasyChoicePools = Record<EasyChoiceField, string[]>;
 
+export type HintSourceRef = {
+  book?: string;
+  chapter?: number | string;
+  start?: number | string;
+  end?: number | string;
+};
+
+export type BonusHint = {
+  quote: string;
+  source?: HintSourceRef;
+};
+
 export type LangText = {
-  book: string;
+  book?: string;
   quote: string;
   riddle: string;
   speaker: string;
   listener: string;
   bonus?: string | null;
+  bonus_hint?: BonusHint | null;
 };
 
 export type Portion = {
@@ -35,6 +48,11 @@ export type Portion = {
 export type SourceRef = {
   ref_start?: string;
   ref_end?: string;
+  book?: string;
+  book_he?: string;
+  chapter?: number | string;
+  quote_verse_start?: number | string;
+  quote_verse_end?: number | string;
 };
 
 export type PuzzleItem = {
