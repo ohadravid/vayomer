@@ -44,8 +44,8 @@ Quotes were selected using Gemma3:27b.
 ### Web dev
 
 ```
-task web:setup
-task web:dev
+task setup
+task dev
 ```
 
 Main app: `http://localhost:5173/`  
@@ -54,13 +54,14 @@ Debug page: `http://localhost:5173/debug`
 ### Web checks
 
 ```
-task web:check
+task check
 ```
 
 ### Frontend tests
 
 ```
-task web:test
+bun run test
+bun run test:e2e
 ```
 
 

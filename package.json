@@ -9,10 +9,11 @@
     "build:data": "bun run scripts/build_daily_json.mjs",
     "build:bundle": "bun build ./index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\\\"production\\\"' --env='BUN_PUBLIC_*'",
     "typecheck": "tsc --noEmit",
-    "test:web": "bun test src",
+    "test": "bun test src",
     "test:e2e": "playwright test",
     "preview": "bun --serve dist/index.html --port=4173",
-    "check:web": "bun run typecheck && bun run test:web && bun run build"
+    "serve:dist": "bun run build && bun run preview",
+    "check": "bun run build && bun run typecheck && bun run test && bun run test:e2e"
   },
   "dependencies": {
     "i18next": "^25.8.4",

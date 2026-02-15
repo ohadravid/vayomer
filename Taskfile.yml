@@ -1,38 +1,27 @@
 version: '3'
 
 tasks:
-  web:build:
-    desc: Build web bundle (Bun)
-    cmds:
-      - test -d node_modules || bun install
-      - bun run build
-
-  web:serve:dist:
-    desc: Build and serve dist (PORT defaults to 4173)
-    cmds:
-      - test -d node_modules || bun install
-      - bun run build
-      - sh -c 'cd dist && python3 -m http.server ${PORT:-4173}'
-
-  web:test:
-    desc: Run frontend unit tests
-    cmds:
-      - test -d node_modules || bun install
-      - bun run test:web
-
-  web:check:
-    desc: Typecheck + test + build site
-    cmds:
-      - test -d node_modules || bun install
-      - bun run check:web
-
-  web:dev:
-    desc: Dev server with watch + autoreload (Bun)
-    cmds:
-      - test -d node_modules || bun install
-      - bun run dev
-
-  web:setup:
-    desc: Install web dependencies
+  setup:
+    desc: Install dependencies
     cmds:
       - bun install
+
+  dev:
+    desc: Start dev server
+    cmds:
+      - bun run dev
+
+  build:
+    desc: Build frontend bundle
+    cmds:
+      - bun run build
+
+  serve:dist:
+    desc: Build and serve dist
+    cmds:
+      - bun run serve:dist
+
+  check:
+    desc: Typecheck + tests + e2e + build
+    cmds:
+      - bun run check
