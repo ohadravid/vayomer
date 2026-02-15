@@ -7,6 +7,7 @@ This folder contains generated artifacts for the Bible quote pipeline.
 - `data/rebuilt_quotes`: rebuilt EN/HE quote+riddle items from `data_processing/rebuild.py`.
 - `data/rebuilt_quotes_audit`: per-chapter rebuild audit output.
 - `data/rebuilt_quotes_bonus`: rebuilt quotes after bonus-word pass.
+- `data/rebuilt_quotes_options`: per-chapter `*-options.json` files with item-level `options` + `hard_difficulty_options`.
 - `data/rebuilt_quotes_bonus_issues.jsonl`: issues from bonus/hint post-processing.
 
 ## End-to-End Flow

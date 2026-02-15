@@ -1,6 +1,71 @@
 {
   "items": [
     {
+      "id": "exodus-21-05-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 21,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:",
+        "riddle": "children; I will not go out free",
+        "speaker": "the servant",
+        "listener": "my master",
+        "book": "Exodus",
+        "bonus": "love",
+        "bonus_hint": {
+          "quote": "And Jacob served seven years for Rachel; and they seemed unto him but a few days, for the love he had to her.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאִם־אָמֹר יֹאמַר הָעֶבֶד אָהַבְתִּי אֶת־אֲדֹנִי אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי",
+        "riddle": "אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי",
+        "speaker": "הָעֶבֶד",
+        "listener": "־אֲדֹנִי",
+        "book": "שמות",
+        "bonus": "אָהַבְתִּי",
+        "bonus_hint": {
+          "quote": "מָֽה־אָהַבְתִּי תוֹרָתֶךָ כָּל־הַיּוֹם הִיא שִׂיחָתִֽי",
+          "source": {
+            "book": "תהילים",
+            "chapter": 119,
+            "start": 97,
+            "end": 97
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:"
+        },
+        "he": {
+          "5": "וְאִם־אָמֹר יֹאמַר הָעֶבֶד אָהַבְתִּי אֶת־אֲדֹנִי אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "The Hebrew riddle directly corresponds to the English phrase 'I love my master' within the provided context. The speaker and listener are clearly identified in both languages.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
       "id": "genesis-02-18-18",
       "source": {
         "book_code": "GEN",
@@ -441,13 +506,15 @@
         "quote": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren. Is not the whole land before thee? separate thyself, I pray thee, from me: if thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left.",
         "riddle": "Let there be no strife, I pray thee, between me",
         "speaker": "Abram",
-        "listener": "Lot"
+        "listener": "Lot",
+        "bonus": "brethren"
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ הֲלֹא כָל־הָאָרֶץ לְפָנֶיךָ הִפָּרֶד נָא מֵעָלָי אִם־הַשְּׂמֹאל וְאֵימִנָה וְאִם־הַיָּמִין וְאַשְׂמְאִֽילָה",
         "riddle": "אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ",
         "speaker": "אַבְרָם",
-        "listener": "לוֹט"
+        "listener": "לוֹט",
+        "bonus": "אַחִים"
       },
       "raw_quote_source": {
         "en": {
