@@ -129,6 +129,12 @@ Useful flags:
 ## 6) Add bonus words to rebuilt quotes (LLM post-pass)
 
 Adds `en.bonus` + `he.bonus` to each item from rebuilt outputs and writes updated files to a new folder.
+Also adds `en.bonus_hint` + `he.bonus_hint`:
+- each hint is a different quote containing the selected bonus word,
+- candidates are searched across the full Bible (up to 10 per language by default),
+- the LLM chooses the most interesting candidate quote,
+- if no other quote is found, `bonus_hint` is set to `null`.
+
 It also normalizes item metadata to include:
 - `en.book` + `he.book`
 - `ref: { "chapter": N, "start": S, "end": E }` (derived from `source`)
@@ -142,6 +148,7 @@ Validation is code-side after each LLM pick:
 - bonus must be an exact substring in the full quote (EN/HE),
 - bonus must not appear in the riddle (EN/HE),
 - retry is automatic on invalid picks.
+- hint picks are validated to ensure the bonus word appears in the selected hint quote.
 - LLM interaction post-filter is applied before bonus generation:
   - filter decisions are made by the LLM (example-driven), including unsolvable pronouns and not-addressed-listener cases,
   - drop items that are not true direct-address speaker->listener interactions,
@@ -153,9 +160,12 @@ Useful flags:
 
 - `--max-retries 6` retries per item when bonus validation fails
 - `--min-bonus-tokens 1 --max-bonus-tokens 2` bonus word length bounds
+- `--hint-max-candidates 10` max other-quote candidates per language before LLM hint selection
+- `--hint-retries 3` retries for LLM hint index selection
 - `--item-filter-retries 2` retries for LLM interaction keep/drop filter
 - `--skip-llm-item-filter` disable LLM interaction filtering
 - `--include-draft` process `*-draft.json` files too
 - `--overwrite-existing-bonus` replace existing `bonus` values
+- `--english-xml English_Collection.4921q.0.xml --hebrew-zip Tanach.xml.zip` override Bible sources used for hint search
 - `--book GEN --chapters 1-5` process only selected chapters
 - `--force` overwrite already-written files in the output folder

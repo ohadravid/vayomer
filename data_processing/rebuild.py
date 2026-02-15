@@ -1125,7 +1125,7 @@ def main() -> int:
         out_path = out_dir / filename
         audit_path = audit_dir / filename
         draft_path = _chapter_draft_path(out_path)
-        if not args.force and out_path.exists() and audit_path.exists() and draft_path.exists():
+        if not args.force and out_path.exists() and draft_path.exists():
             skipped_existing += 1
             continue
         queue.append((code, chapter, out_path, audit_path, draft_path))

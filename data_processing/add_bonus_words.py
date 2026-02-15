@@ -12,8 +12,10 @@ from ollama import chat
 from tqdm import tqdm
 
 try:
-    from data_processing import text_cleanup
+    from data_processing import bible_sources, bonus_hint_picker, text_cleanup
 except ModuleNotFoundError:
+    import bible_sources  # type: ignore[no-redef]
+    import bonus_hint_picker  # type: ignore[no-redef]
     import text_cleanup  # type: ignore[no-redef]
 
 # Responsibility split for this pipeline:
@@ -218,6 +220,8 @@ class Stats:
     items_failed: int = 0
     items_skipped_existing_bonus: int = 0
     items_dropped_postprocess: int = 0
+    bonus_hints_set: int = 0
+    bonus_hints_null: int = 0
     llm_calls: int = 0
     prompt_tokens: int = 0
     response_tokens: int = 0
@@ -785,6 +789,19 @@ def _normalize_item_book_and_ref(item: Dict, payload: Dict) -> bool:
     return changed
 
 
+def _set_bonus_hint(item: Dict, lang: str, hint: Optional[Dict]) -> bool:
+    if lang not in {"en", "he"}:
+        return False
+    if not isinstance(item.get(lang), dict):
+        item[lang] = {}
+    section = item[lang]
+    previous = section.get("bonus_hint")
+    if previous != hint:
+        section["bonus_hint"] = hint
+        return True
+    return False
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gemma3:27b")
@@ -797,10 +814,14 @@ def main() -> int:
     parser.add_argument("--max-retries", type=int, default=6)
     parser.add_argument("--min-bonus-tokens", type=int, default=1)
     parser.add_argument("--max-bonus-tokens", type=int, default=2)
+    parser.add_argument("--hint-max-candidates", type=int, default=10)
+    parser.add_argument("--hint-retries", type=int, default=3)
     parser.add_argument("--item-filter-retries", type=int, default=2)
     parser.add_argument("--skip-llm-item-filter", action="store_true")
     parser.add_argument("--include-draft", action="store_true")
     parser.add_argument("--overwrite-existing-bonus", action="store_true")
+    parser.add_argument("--english-xml", default=bible_sources.DEFAULT_ENGLISH_COLLECTION)
+    parser.add_argument("--hebrew-zip", default=bible_sources.DEFAULT_HEBREW_ZIP)
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()
 
@@ -810,15 +831,28 @@ def main() -> int:
         raise SystemExit("--min-bonus-tokens must be >= 1")
     if args.max_bonus_tokens < args.min_bonus_tokens:
         raise SystemExit("--max-bonus-tokens must be >= --min-bonus-tokens")
+    if args.hint_max_candidates < 1:
+        raise SystemExit("--hint-max-candidates must be >= 1")
+    if args.hint_retries < 1:
+        raise SystemExit("--hint-retries must be >= 1")
     if args.item_filter_retries < 1:
         raise SystemExit("--item-filter-retries must be >= 1")
 
     in_dir = (ROOT / args.in_dir).resolve()
     out_dir = (ROOT / args.out_dir).resolve()
     issues_log = (ROOT / args.issues_log).resolve()
+    english_xml = (ROOT / args.english_xml).resolve()
+    hebrew_zip = (ROOT / args.hebrew_zip).resolve()
 
     if not in_dir.exists() or not in_dir.is_dir():
         raise SystemExit(f"Input directory does not exist: {in_dir}")
+    if not english_xml.exists():
+        raise SystemExit(f"English XML does not exist: {english_xml}")
+    if not hebrew_zip.exists():
+        raise SystemExit(f"Hebrew ZIP does not exist: {hebrew_zip}")
+
+    tqdm.write(f"Loading bonus-hint Bible index: en={english_xml} he={hebrew_zip}")
+    hint_picker = bonus_hint_picker.BonusHintPicker.load(english_xml=english_xml, hebrew_zip=hebrew_zip)
 
     chapter_filter = _chapter_filter(args.chapters)
     files = _iter_input_files(in_dir=in_dir, include_draft=bool(args.include_draft))
@@ -833,12 +867,14 @@ def main() -> int:
         issues_log.write_text("", encoding="utf-8")
 
     tqdm.write(
-        "Bonus queue: files={files} in_dir={in_dir} out_dir={out_dir} include_draft={include_draft} llm_item_filter={llm_item_filter}".format(
+        "Bonus queue: files={files} in_dir={in_dir} out_dir={out_dir} include_draft={include_draft} "
+        "llm_item_filter={llm_item_filter} hint_max_candidates={hint_max_candidates}".format(
             files=len(files),
             in_dir=in_dir,
             out_dir=out_dir,
             include_draft=bool(args.include_draft),
             llm_item_filter=not bool(args.skip_llm_item_filter),
+            hint_max_candidates=args.hint_max_candidates,
         )
     )
 
@@ -972,59 +1008,151 @@ def main() -> int:
 
         for idx, item in enumerate(filtered_items):
             stats.items_seen += 1
+            item_changed = False
 
             if _normalize_item_book_and_ref(item=item, payload=payload):
-                changed = True
-
-            en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
-            he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
-            existing_bonus_en = _sanitize_str(en.get("bonus"))
-            existing_bonus_he = _sanitize_str(he.get("bonus"))
-            if existing_bonus_en and existing_bonus_he and not args.overwrite_existing_bonus:
-                stats.items_skipped_existing_bonus += 1
-                continue
-
-            pair, llm_stats, retries, fail_reason = _pick_bonus_words(
-                model=args.model,
-                item=item,
-                max_retries=args.max_retries,
-                min_tokens=args.min_bonus_tokens,
-                max_tokens=args.max_bonus_tokens,
-            )
-            _add_llm_stats(stats, llm_stats)
-
-            if pair is None:
-                stats.items_failed += 1
-                issue_lines.append(
-                    json.dumps(
-                        {
-                            "file": str(in_path),
-                            "idx": idx,
-                            "id": _sanitize_str(item.get("id")),
-                            "status": "failed_bonus",
-                            "reason": fail_reason,
-                            "retries": retries,
-                        },
-                        ensure_ascii=False,
-                    )
-                )
-                continue
-
-            bonus_en, bonus_he = pair
+                item_changed = True
             if not isinstance(item.get("en"), dict):
                 item["en"] = {}
+                item_changed = True
             if not isinstance(item.get("he"), dict):
                 item["he"] = {}
-            item["en"]["bonus"] = bonus_en
-            item["he"]["bonus"] = bonus_he
+                item_changed = True
+
+            en = item["en"]
+            he = item["he"]
+            existing_bonus_en = _sanitize_str(en.get("bonus"))
+            existing_bonus_he = _sanitize_str(he.get("bonus"))
+
+            bonus_en = existing_bonus_en
+            bonus_he = existing_bonus_he
+            retries: List[str] = []
+
+            if not (existing_bonus_en and existing_bonus_he) or args.overwrite_existing_bonus:
+                pair, llm_stats, retries, fail_reason = _pick_bonus_words(
+                    model=args.model,
+                    item=item,
+                    max_retries=args.max_retries,
+                    min_tokens=args.min_bonus_tokens,
+                    max_tokens=args.max_bonus_tokens,
+                )
+                _add_llm_stats(stats, llm_stats)
+
+                if pair is None:
+                    stats.items_failed += 1
+                    issue_lines.append(
+                        json.dumps(
+                            {
+                                "file": str(in_path),
+                                "idx": idx,
+                                "id": _sanitize_str(item.get("id")),
+                                "status": "failed_bonus",
+                                "reason": fail_reason,
+                                "retries": retries,
+                            },
+                            ensure_ascii=False,
+                        )
+                    )
+                    continue
+
+                bonus_en, bonus_he = pair
+                if _sanitize_str(item["en"].get("bonus")) != bonus_en:
+                    item["en"]["bonus"] = bonus_en
+                    item_changed = True
+                if _sanitize_str(item["he"].get("bonus")) != bonus_he:
+                    item["he"]["bonus"] = bonus_he
+                    item_changed = True
+
+                if "meta" not in item or not isinstance(item.get("meta"), dict):
+                    item["meta"] = {}
+                    item_changed = True
+                if item["meta"].get("bonus_source") != "llm":
+                    item["meta"]["bonus_source"] = "llm"
+                    item_changed = True
+                if _sanitize_int(item["meta"].get("bonus_retries"), -1) != len(retries):
+                    item["meta"]["bonus_retries"] = len(retries)
+                    item_changed = True
+            else:
+                stats.items_skipped_existing_bonus += 1
+
+            source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
+            hint_en, hint_en_stats, hint_en_reason = hint_picker.pick_hint(
+                model=args.model,
+                lang="en",
+                bonus_word=bonus_en,
+                current_quote=_sanitize_str(item["en"].get("quote")),
+                source=source,
+                max_candidates=args.hint_max_candidates,
+                max_retries=args.hint_retries,
+            )
+            _add_llm_stats(stats, hint_en_stats)
+
+            hint_he, hint_he_stats, hint_he_reason = hint_picker.pick_hint(
+                model=args.model,
+                lang="he",
+                bonus_word=bonus_he,
+                current_quote=_sanitize_str(item["he"].get("quote")),
+                source=source,
+                max_candidates=args.hint_max_candidates,
+                max_retries=args.hint_retries,
+            )
+            _add_llm_stats(stats, hint_he_stats)
+
+            if _set_bonus_hint(item=item, lang="en", hint=hint_en):
+                item_changed = True
+            if _set_bonus_hint(item=item, lang="he", hint=hint_he):
+                item_changed = True
+
+            if hint_en is None:
+                stats.bonus_hints_null += 1
+                if hint_en_reason not in {"", "no_candidates", "llm_none"}:
+                    issue_lines.append(
+                        json.dumps(
+                            {
+                                "file": str(in_path),
+                                "idx": idx,
+                                "id": _sanitize_str(item.get("id")),
+                                "status": "bonus_hint_none",
+                                "lang": "en",
+                                "reason": hint_en_reason,
+                                "bonus": bonus_en,
+                            },
+                            ensure_ascii=False,
+                        )
+                    )
+            else:
+                stats.bonus_hints_set += 1
+
+            if hint_he is None:
+                stats.bonus_hints_null += 1
+                if hint_he_reason not in {"", "no_candidates", "llm_none"}:
+                    issue_lines.append(
+                        json.dumps(
+                            {
+                                "file": str(in_path),
+                                "idx": idx,
+                                "id": _sanitize_str(item.get("id")),
+                                "status": "bonus_hint_none",
+                                "lang": "he",
+                                "reason": hint_he_reason,
+                                "bonus": bonus_he,
+                            },
+                            ensure_ascii=False,
+                        )
+                    )
+            else:
+                stats.bonus_hints_set += 1
 
             if "meta" not in item or not isinstance(item.get("meta"), dict):
                 item["meta"] = {}
-            item["meta"]["bonus_source"] = "llm"
-            item["meta"]["bonus_retries"] = len(retries)
+                item_changed = True
+            if item["meta"].get("bonus_hint_source") != "llm":
+                item["meta"]["bonus_hint_source"] = "llm"
+                item_changed = True
 
-            changed = True
-            stats.items_updated += 1
+            if item_changed:
+                changed = True
+                stats.items_updated += 1
 
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -1039,7 +1167,8 @@ def main() -> int:
     tqdm.write(
         "Done: files_seen={files_seen}, files_written={files_written}, files_skipped_existing={files_skipped_existing}, "
         "items_seen={items_seen}, items_updated={items_updated}, items_skipped_existing_bonus={items_skipped_existing_bonus}, "
-        "items_failed={items_failed}, items_dropped_postprocess={items_dropped_postprocess}, llm_calls={llm_calls}, "
+        "items_failed={items_failed}, items_dropped_postprocess={items_dropped_postprocess}, "
+        "bonus_hints_set={bonus_hints_set}, bonus_hints_null={bonus_hints_null}, llm_calls={llm_calls}, "
         "prompt_tokens={prompt_tokens}, response_tokens={response_tokens}, estimated_calls={estimated_calls}, "
         "errors={errors}, out_dir={out_dir}, issues_log={issues_log}".format(
             files_seen=stats.files_seen,
@@ -1050,6 +1179,8 @@ def main() -> int:
             items_skipped_existing_bonus=stats.items_skipped_existing_bonus,
             items_failed=stats.items_failed,
             items_dropped_postprocess=stats.items_dropped_postprocess,
+            bonus_hints_set=stats.bonus_hints_set,
+            bonus_hints_null=stats.bonus_hints_null,
             llm_calls=stats.llm_calls,
             prompt_tokens=stats.prompt_tokens,
             response_tokens=stats.response_tokens,
