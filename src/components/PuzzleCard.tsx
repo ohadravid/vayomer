@@ -109,11 +109,13 @@ export function PuzzleCard({
             {dateLabel}
           </span>
         </div>
-        <div className="meta-actions">
-          <button className="ghost small icon-btn" type="button" onClick={onClear}>
-            🧹 {t("puzzleCard.clear")}
-          </button>
-        </div>
+        {import.meta.hot ? (
+          <div className="meta-actions">
+            <button className="ghost small icon-btn" type="button" onClick={onClear}>
+              🧹 {t("puzzleCard.clear")}
+            </button>
+          </div>
+        ) : null}
       </div>
       <div
         id="fullQuote"
