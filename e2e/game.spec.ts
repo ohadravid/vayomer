@@ -1,6 +1,7 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
 import fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import { pickDailyHardModeSuccessMark } from "../src/lib/daily";
 import { normalize } from "../src/lib/format";
 import type { Lang } from "../src/types";
 
@@ -114,6 +115,8 @@ function formatHintSource(source: HintSource | undefined): string {
 }
 
 const hintSourceLabel = formatHintSource(hintPuzzle.en.bonus_hint?.source);
+const hardSuccessMark = pickDailyHardModeSuccessMark(new Date());
+const difficultyLockStoragePrefix = "qs:difficulty-lock:";
 
 if (!enAnswer.speaker || !enAnswer.listener || !enAnswer.bonus) {
   throw new Error(`Missing EN answers in puzzle ${puzzleId}.`);
@@ -176,6 +179,13 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   await expect(page.locator("#guessForm")).toBeVisible();
 }
 
+async function getDifficultyLockValue(page: Page, id: string): Promise<string | null> {
+  return page.evaluate(
+    ({ puzzleId, prefix }) => localStorage.getItem(`${prefix}${puzzleId}`),
+    { puzzleId: id, prefix: difficultyLockStoragePrefix }
+  );
+}
+
 function findMatchingOption(options: string[], answer: string, lang: Lang): string {
   const exact = options.find((option) => option === answer);
   if (exact) return exact;
@@ -210,10 +220,17 @@ async function pickWrongOption(select: Locator, correctAnswer: string, lang: Lan
 test("easy mode is default and easy=0 is canonicalized away", async ({ page }) => {
   await openGame(page);
   await expect(page.locator("#guessForm")).toBeVisible();
+  const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
 
   const defaultTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
   expect(defaultTagName).toBe("SELECT");
   expect(new URL(page.url()).searchParams.get("easy")).toBeNull();
+  await expect(difficultyToggle).toBeEnabled();
+  expect(await getDifficultyLockValue(page, puzzleId)).toBeNull();
+
+  await page.click("#inputSpeaker");
+  await expect(difficultyToggle).toBeDisabled();
+  expect(await getDifficultyLockValue(page, puzzleId)).toBe("1");
 
   const legacyParams = new URLSearchParams({
     puzzle: puzzleId,
@@ -233,6 +250,37 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
   await openGame(page, { easyMode: false });
   const hardTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
   expect(hardTagName).toBe("SELECT");
+  await expect(difficultyToggle).toBeDisabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "true");
+  expect(new URL(page.url()).searchParams.get("easy")).toBeNull();
+});
+
+test("difficulty lock persists hard mode when first opened in hard", async ({ page }) => {
+  await openGame(page, { easyMode: false });
+  const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
+
+  await expect(difficultyToggle).toBeEnabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
+  expect(await getDifficultyLockValue(page, puzzleId)).toBeNull();
+  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+
+  await page.click("#inputSpeaker");
+  await expect(difficultyToggle).toBeDisabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
+  expect(await getDifficultyLockValue(page, puzzleId)).toBe("0");
+  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+
+  const forceEasyParams = new URLSearchParams({
+    puzzle: puzzleId,
+    lng: "en",
+    easy: "0",
+  });
+  await page.goto(`/?${forceEasyParams.toString()}`);
+  await expect(page.locator("#guessForm")).toBeVisible();
+
+  await expect(difficultyToggle).toBeDisabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
+  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
 });
 
 test("full game: clear win (reload persists state)", async ({ page }) => {
@@ -329,7 +377,7 @@ test("full game: mistakes and win", async ({ page }) => {
   await page.fill("#inputBonus", WRONG_TEXT);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-  await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
+  await expect(page.getByText(`Status: ${hardSuccessMark}${hardSuccessMark}✴️⬜`)).toBeVisible();
 
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");

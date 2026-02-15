@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { pickDailyHardModeSuccessMark } from "../lib/daily";
 import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
 import {
   countTryAttempts,
@@ -21,6 +22,7 @@ type Props = {
   puzzle: PuzzleItem;
   easyMode: boolean;
   choicePools?: EasyChoicePools;
+  onChoiceInteracted?: () => void;
   onReveal: () => void;
   onClear: () => void;
   revealed: boolean;
@@ -172,6 +174,7 @@ export function PuzzleView({
   puzzle,
   easyMode,
   choicePools,
+  onChoiceInteracted,
   revealed,
   onReveal,
   onClear,
@@ -192,6 +195,7 @@ export function PuzzleView({
   const [shareNotice, setShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
+  const hasNotifiedChoiceInteractionRef = useRef(false);
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -214,6 +218,10 @@ export function PuzzleView({
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const quoteRevealed = stageTwoOpen;
   const sourceRevealed = stageTwoOpen;
+  const successMark = useMemo(
+    () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(new Date())),
+    [easyMode]
+  );
   const fullySolved = gameState === GameState.Solved;
   const failedBonusTry = bonusRequired
     ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
@@ -255,6 +263,10 @@ export function PuzzleView({
       }),
     };
   }, [easyMode, puzzle, choicePools, lang]);
+
+  useEffect(() => {
+    hasNotifiedChoiceInteractionRef.current = false;
+  }, [puzzle.id]);
 
   useEffect(() => {
     const nextValues = initialValues(initial);
@@ -309,12 +321,12 @@ export function PuzzleView({
   const statusMarks = (() => {
     const hintMark = bonusHintUsed ? "💡" : "⬜";
 
-    if (fullySolved) return `✅✅✳️${hintMark}`;
-    if (failedBonusTry) return `✅✅✴️${hintMark}`;
-    if (coreSolved) return `✅✅✡️${hintMark}`;
+    if (fullySolved) return `${successMark}${successMark}✳️${hintMark}`;
+    if (failedBonusTry) return `${successMark}${successMark}✴️${hintMark}`;
+    if (coreSolved) return `${successMark}${successMark}✡️${hintMark}`;
     if (!result) return `⬜⬜⬜${hintMark}`;
-    const speakerMark = result.speakerOk ? "✅" : "❌";
-    const listenerMark = result.listenerOk ? "✅" : "❌";
+    const speakerMark = result.speakerOk ? successMark : "❌";
+    const listenerMark = result.listenerOk ? successMark : "❌";
     return `${speakerMark}${listenerMark}⬜${hintMark}`;
   })();
 
@@ -326,11 +338,12 @@ export function PuzzleView({
       solved: fullySolved,
       bonusRequired,
       hintUsed: bonusHintUsed,
+      successMark,
       maxTries: MAX_TOTAL_TRIES,
       date: new Date(),
       gameUrl: shareUrl,
     });
-  }, [attempts, fullySolved, bonusRequired, bonusHintUsed, shareUrl, t, lang]);
+  }, [attempts, fullySolved, bonusRequired, bonusHintUsed, successMark, shareUrl, t, lang]);
 
   const checkGuess = () => {
     if (submitDisabled) return;
@@ -418,6 +431,12 @@ export function PuzzleView({
     setEditedSinceCheck((prev) => ({ ...prev, [field]: true }));
   };
 
+  const handleChoiceInteraction = () => {
+    if (!onChoiceInteracted || hasNotifiedChoiceInteractionRef.current) return;
+    hasNotifiedChoiceInteractionRef.current = true;
+    onChoiceInteracted();
+  };
+
   return (
     <>
       <PuzzleCard
@@ -443,6 +462,7 @@ export function PuzzleView({
         hintQuoteHtml={hintQuoteHtml}
         hintSourceLine={hintSourceLine}
         onChange={handleChange}
+        onChoiceInteracted={handleChoiceInteraction}
         onSubmit={checkGuess}
         onShare={shareResult}
         onRevealBonusHint={revealBonusHint}

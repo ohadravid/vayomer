@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode";
+import { pickDailyItemIndex } from "./lib/daily";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import { buildPuzzleStorageKey } from "./lib/persistence";
 import type { BookOptionSet, GuessResult, Lang, PuzzleItem } from "./types";
@@ -10,13 +11,12 @@ import dailyData from "../data/daily.json";
 import optionsData from "../data/options.json";
 import packageMeta from "../package.json";
 
-const EPOCH_DATE = new Date(2026, 1, 6);
-const DAILY_ORDER_SEED = 20260805;
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
 const EASY_MODE_QUERY_KEY = "easy";
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
 const DEFAULT_EASY_MODE = true;
+const DIFFICULTY_LOCK_STORAGE_PREFIX = "qs:difficulty-lock:";
 const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
 
@@ -92,36 +92,16 @@ function parseAttempts(parsed: Partial<PersistedState> & { result?: unknown; gue
   return Array.from({ length: tries }, () => ({ ...legacyResult }));
 }
 
-function dayIndex(total: number): number {
-  const now = new Date();
-  const today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
-  const base = new Date(EPOCH_DATE.getFullYear(), EPOCH_DATE.getMonth(), EPOCH_DATE.getDate());
-  const diff = Math.floor((today.getTime() - base.getTime()) / (24 * 60 * 60 * 1000));
-  const idx = ((diff % total) + total) % total;
-  return idx;
+export function buildDifficultyLockStorageKey(puzzleId: string): string {
+  return `${DIFFICULTY_LOCK_STORAGE_PREFIX}${puzzleId}`;
 }
 
-function seededRandom(seed: number): () => number {
-  let state = seed >>> 0;
-  return () => {
-    state = (state + 0x6d2b79f5) >>> 0;
-    let t = Math.imul(state ^ (state >>> 15), state | 1);
-    t ^= t + Math.imul(t ^ (t >>> 7), t | 61);
-    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;
-  };
+export function parseDifficultyLockFromStorageValue(raw: string | null): boolean | null {
+  return parseEasyModeFromStorageValue(raw);
 }
 
-function pickDailyItemIndex(total: number): number {
-  const day = dayIndex(total);
-  const order = Array.from({ length: total }, (_, idx) => idx);
-  const rand = seededRandom(DAILY_ORDER_SEED);
-
-  for (let idx = order.length - 1; idx > 0; idx -= 1) {
-    const swapIdx = Math.floor(rand() * (idx + 1));
-    [order[idx], order[swapIdx]] = [order[swapIdx], order[idx]];
-  }
-
-  return order[day] ?? 0;
+export function toDifficultyLockStorageValue(enabled: boolean): EasyModeStorageValue {
+  return toEasyModeStorageValue(enabled);
 }
 
 export function parsePersistedState(raw: string | null, lang: Lang): PersistedState | null {
@@ -264,6 +244,10 @@ export function App() {
   const [optionSets, setOptionSets] = useState<BookOptionSet[]>([]);
   const [index, setIndex] = useState(0);
   const [easyMode, setEasyMode] = useState<boolean>(() => pickEasyMode());
+  const [lockedEasyModeByPuzzle, setLockedEasyModeByPuzzle] = useState<{ puzzleId: string; value: boolean | null }>({
+    puzzleId: "",
+    value: null,
+  });
   const [revealed, setRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistInput | null>(null);
   const [page, setPage] = useState<AppPage>(() => {
@@ -282,11 +266,24 @@ export function App() {
     if (typeof window === "undefined") return;
     const syncEasyModeFromLocation = () => {
       const next = pickEasyModeForNavigation(window.location.search);
-      setEasyMode(next);
+      const currentPuzzleId = items[index]?.id;
+      if (!currentPuzzleId) {
+        setEasyMode(next);
+        return;
+      }
+      let locked: boolean | null = null;
+      try {
+        locked = parseDifficultyLockFromStorageValue(
+          window.localStorage.getItem(buildDifficultyLockStorageKey(currentPuzzleId))
+        );
+      } catch {
+        locked = null;
+      }
+      setEasyMode(locked ?? next);
     };
     window.addEventListener("popstate", syncEasyModeFromLocation);
     return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
-  }, []);
+  }, [items, index]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -313,6 +310,7 @@ export function App() {
   }, []);
 
   const puzzle = useMemo(() => items[index], [items, index]);
+  const lockedEasyMode = puzzle && lockedEasyModeByPuzzle.puzzleId === puzzle.id ? lockedEasyModeByPuzzle.value : null;
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
   const choicePools = useMemo(() => {
     if (!puzzle) return null;
@@ -326,6 +324,18 @@ export function App() {
 
   useEffect(() => {
     if (!puzzle) return;
+    let difficultyLock: boolean | null = null;
+    try {
+      difficultyLock = parseDifficultyLockFromStorageValue(
+        localStorage.getItem(buildDifficultyLockStorageKey(puzzle.id))
+      );
+    } catch {
+      difficultyLock = null;
+    }
+    setLockedEasyModeByPuzzle({ puzzleId: puzzle.id, value: difficultyLock });
+    if (difficultyLock !== null) {
+      setEasyMode(difficultyLock);
+    }
     const parsed = parsePersistedState(localStorage.getItem(storageKey), lang);
     setRevealed(parsed?.revealed ?? false);
     setInitial(parsed ? toPersistInput(parsed) : { ...EMPTY_PERSIST_INPUT });
@@ -340,7 +350,31 @@ export function App() {
   }, [lang, page, t]);
 
   const toggleEasyMode = () => {
+    if (lockedEasyMode !== null) return;
     setEasyMode((previous) => !previous);
+  };
+
+  const lockDifficultyForPuzzle = () => {
+    if (!puzzle || typeof window === "undefined") return;
+    const lockKey = buildDifficultyLockStorageKey(puzzle.id);
+    let existing: boolean | null = null;
+    try {
+      existing = parseDifficultyLockFromStorageValue(window.localStorage.getItem(lockKey));
+    } catch {
+      existing = null;
+    }
+    const nextLock = existing ?? easyMode;
+    if (existing === null) {
+      try {
+        window.localStorage.setItem(lockKey, toDifficultyLockStorageValue(nextLock));
+      } catch {
+        // Ignore storage access errors.
+      }
+    }
+    setLockedEasyModeByPuzzle({ puzzleId: puzzle.id, value: nextLock });
+    if (easyMode !== nextLock) {
+      setEasyMode(nextLock);
+    }
   };
 
   if (!puzzle && page === "game") return null;
@@ -399,9 +433,10 @@ export function App() {
               className={`chip ${easyMode ? "active" : ""}`}
               type="button"
               onClick={toggleEasyMode}
+              disabled={lockedEasyMode !== null}
               aria-pressed={easyMode}
               aria-label={t("app.toggleEasyMode")}
-              title={t("app.easyModeTooltip")}
+              title={lockedEasyMode !== null ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
             >
               🐑
             </button>
@@ -444,6 +479,7 @@ export function App() {
           puzzle={puzzle}
           easyMode={easyMode}
           choicePools={choicePools ?? undefined}
+          onChoiceInteracted={lockDifficultyForPuzzle}
           revealed={revealed}
           onReveal={reveal}
           onClear={clearResult}

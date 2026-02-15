@@ -20,6 +20,7 @@ export const resources = {
         easyModeOn: "Easy mode: on",
         easyModeOff: "Easy mode: off",
         easyModeTooltip: "Easy mode",
+        easyModeLockedTooltip: "Difficulty is locked for this puzzle.",
         toggleEasyMode: "Toggle easy mode",
       },
       about: {
@@ -78,6 +79,7 @@ export const resources = {
         easyModeOn: "מצב קל: פעיל",
         easyModeOff: "מצב קל: כבוי",
         easyModeTooltip: "מצב קל",
+        easyModeLockedTooltip: "רמת הקושי נעולה עבור החידה הזו.",
         toggleEasyMode: "החלפת מצב קל",
       },
       about: {

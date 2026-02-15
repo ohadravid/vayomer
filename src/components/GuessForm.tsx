@@ -7,6 +7,7 @@ type Props = {
   result: GuessResult | null;
   editedSinceCheck: GuessEditState;
   onChange: (field: GuessField, value: string) => void;
+  onChoiceInteracted?: () => void;
   onSubmit: () => void;
   onShare: () => void;
   onRevealBonusHint: () => void;
@@ -34,6 +35,7 @@ export function GuessForm({
   result,
   editedSinceCheck,
   onChange,
+  onChoiceInteracted,
   onSubmit,
   onShare,
   onRevealBonusHint,
@@ -70,6 +72,7 @@ export function GuessForm({
         id={inputId}
         value={values[field]}
         onChange={(e) => onChange(field, e.target.value)}
+        onClick={onChoiceInteracted}
         disabled={disabled}
         className={className}
       >

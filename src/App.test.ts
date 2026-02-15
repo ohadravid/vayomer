@@ -1,11 +1,14 @@
 import { describe, expect, it } from "bun:test";
 import {
+  buildDifficultyLockStorageKey,
   getSearchWithEasyMode,
+  parseDifficultyLockFromStorageValue,
   parseEasyModeFromSearch,
   parsePersistedState,
   parsePuzzleIdFromSearch,
   pickEasyModeForNavigation,
   pickPuzzleIndexForSearch,
+  toDifficultyLockStorageValue,
 } from "./App";
 import type { PuzzleItem } from "./types";
 
@@ -77,6 +80,20 @@ describe("getSearchWithEasyMode", () => {
   it("writes easy=1 for explicit non-default mode", () => {
     expect(getSearchWithEasyMode("", false)).toBe("?easy=1");
     expect(getSearchWithEasyMode("?lng=en&easy=0", false)).toBe("?lng=en&easy=1");
+  });
+});
+
+describe("difficulty lock storage", () => {
+  it("builds puzzle-scoped keys", () => {
+    expect(buildDifficultyLockStorageKey("genesis-12-01-01")).toBe("qs:difficulty-lock:genesis-12-01-01");
+  });
+
+  it("parses and serializes lock values", () => {
+    expect(toDifficultyLockStorageValue(true)).toBe("1");
+    expect(toDifficultyLockStorageValue(false)).toBe("0");
+    expect(parseDifficultyLockFromStorageValue("1")).toBe(true);
+    expect(parseDifficultyLockFromStorageValue("0")).toBe(false);
+    expect(parseDifficultyLockFromStorageValue("x")).toBeNull();
   });
 });
 

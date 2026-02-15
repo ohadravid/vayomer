@@ -5,117 +5,7 @@
   "chapter": 1,
   "mode": "end2end",
   "first_k_verses": 0,
-  "items": [
-    {
-      "id": "genesis-01-01-02",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 1,
-        "quote_verse_start": 1,
-        "quote_verse_end": 2
-      },
-      "en": {
-        "quote": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-        "riddle": "was without form, and void; and darkness was upon the",
-        "speaker": "God",
-        "listener": "earth"
-      },
-      "he": {
-        "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
-        "riddle": "הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּח",
-        "speaker": "אֱלֹהִים",
-        "listener": "הָאָרֶץ"
-      },
-      "raw_quote_source": {
-        "en": {
-          "1": "In the beginning God created the heaven and the earth.",
-          "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
-        },
-        "he": {
-          "1": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
-          "2": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
-        }
-      },
-      "meta": {
-        "reason": "The verses describe the initial state of the earth - formless, void, and dark - with the Spirit of God moving upon the waters. The riddle captures these elements in a concise and poetic way.",
-        "confidence": 0.9
-      }
-    },
-    {
-      "id": "genesis-01-11-11",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 1,
-        "quote_verse_start": 11,
-        "quote_verse_end": 11
-      },
-      "en": {
-        "quote": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
-        "riddle": "bring forth grass, the herb yielding seed",
-        "speaker": "God",
-        "listener": "earth"
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן",
-        "riddle": "דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר",
-        "speaker": "אֱלֹהִים",
-        "listener": "הָאָרֶץ"
-      },
-      "raw_quote_source": {
-        "en": {
-          "11": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so."
-        },
-        "he": {
-          "11": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃"
-        }
-      },
-      "meta": {
-        "reason": "The verse describes God commanding the earth to bring forth vegetation with seeds, making 'seed' a concise and relevant riddle element.",
-        "confidence": 0.9
-      }
-    },
-    {
-      "id": "genesis-01-11-12",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 1,
-        "quote_verse_start": 11,
-        "quote_verse_end": 12
-      },
-      "en": {
-        "quote": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so. And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
-        "riddle": "bring forth grass, the herb yielding seed, and the fruit",
-        "speaker": "God",
-        "listener": "earth"
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
-        "riddle": "דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי",
-        "speaker": "אֱלֹהִים",
-        "listener": "הָאָרֶץ"
-      },
-      "raw_quote_source": {
-        "en": {
-          "11": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
-          "12": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good."
-        },
-        "he": {
-          "11": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃",
-          "12": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃"
-        }
-      },
-      "meta": {
-        "reason": "The verses describe God commanding the earth to bring forth vegetation, and the earth obeying. The riddle focuses on this act of creation, specifically the plants produced.",
-        "confidence": 0.9
-      }
-    }
-  ],
+  "items": [],
   "verses": {
     "1": {
       "en": "In the beginning God created the heaven and the earth.",
@@ -246,15 +136,215 @@
     {
       "idx": 0,
       "suggestion": {
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_en": "God",
+        "listener_en": "None",
+        "speaker_he": "אֱלֹהִים",
+        "listener_he": "None",
+        "riddle_en": "I spoke, and it appeared. What am I?",
+        "riddle_he": "דִּבַּרְתִּי וְהוֹפַעְתִּי. מִי אֲנִי?",
+        "reason": "The verse describes God speaking light into existence, making it a direct act of creation and a fitting basis for a riddle about power and manifestation.",
+        "confidence": 0.95
+      },
+      "item": {
+        "id": "genesis-01-03-03",
+        "source": {
+          "book_code": "GEN",
+          "book": "Genesis",
+          "book_he": "בראשית",
+          "chapter": 1,
+          "quote_verse_start": 3,
+          "quote_verse_end": 3
+        },
+        "en": {
+          "quote": "And God said, Let there be light: and there was light.",
+          "riddle": "Let there be light: and there was light",
+          "speaker": "God",
+          "listener": "None"
+        },
+        "he": {
+          "quote": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי־אֽוֹר",
+          "riddle": "יְהִי אוֹר וַֽיְהִי־אֽוֹר",
+          "speaker": "אֱלֹהִים",
+          "listener": "None"
+        },
+        "raw_quote_source": {
+          "en": {
+            "3": "And God said, Let there be light: and there was light."
+          },
+          "he": {
+            "3": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי־אֽוֹר׃"
+          }
+        },
+        "meta": {
+          "reason": "The verse describes God speaking light into existence, making it a direct act of creation and a fitting basis for a riddle about power and manifestation.",
+          "confidence": 0.95
+        }
+      },
+      "llm_initial": {
+        "status": "keep",
+        "reason": "The interaction is a direct speech from God, creating a clear speaker-listener dynamic (though the listener is implicit). The verse range is valid, and the riddle is a concise and dramatic substring of the quote, fitting the requirements."
+      },
+      "validation_issues_initial": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote",
+        "quote_en_context_too_short",
+        "quote_he_context_too_short",
+        "quote_he_too_short"
+      ],
+      "repair_attempts": [
+        {
+          "issues_in": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote",
+            "quote_en_context_too_short",
+            "quote_he_context_too_short",
+            "quote_he_too_short"
+          ],
+          "status": "keep",
+          "reason": "The interaction is a direct speech act between God and the universe, fitting the criteria. The riddle is concise and a verbatim substring of the quote. The verse range is valid, and the entities are correctly identified.",
+          "result": "updated",
+          "issues_out": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote",
+            "quote_en_context_too_short",
+            "quote_he_context_too_short",
+            "quote_he_too_short"
+          ]
+        },
+        {
+          "issues_in": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote",
+            "quote_en_context_too_short",
+            "quote_he_context_too_short",
+            "quote_he_too_short"
+          ],
+          "status": "keep",
+          "reason": "The interaction fulfills all requirements: direct speech, clear speaker and listener (God speaking, the universe/light responding implicitly), valid verse range, and a concise, dramatic riddle extracted verbatim from the quote.",
+          "result": "updated",
+          "issues_out": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote",
+            "quote_en_context_too_short",
+            "quote_he_context_too_short",
+            "quote_he_too_short"
+          ]
+        }
+      ],
+      "action": "drop_validation",
+      "issues": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote",
+        "quote_en_context_too_short",
+        "quote_he_context_too_short",
+        "quote_he_too_short"
+      ]
+    },
+    {
+      "idx": 1,
+      "suggestion": {
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_en": "God",
+        "listener_en": "(None)",
+        "speaker_he": "אֱלֹהִים",
+        "listener_he": "(None)",
+        "riddle_en": "I am born of nothing, yet banish the void. I am called by name, a cycle enjoyed. What am I?",
+        "riddle_he": "מאין נוצרתי, אך מבטל את התהום. נקראתי בשם, מחזור נהנה. מה אני?",
+        "reason": "The verse directly states God naming 'light' as 'Day' and 'darkness' as 'Night'. The riddle focuses on the creation of day/light from darkness, and the naming act.",
+        "confidence": 0.95
+      },
+      "item": {
+        "id": "genesis-01-05-05",
+        "source": {
+          "book_code": "GEN",
+          "book": "Genesis",
+          "book_he": "בראשית",
+          "chapter": 1,
+          "quote_verse_start": 5,
+          "quote_verse_end": 5
+        },
+        "en": {
+          "quote": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+          "riddle": "called the light Day, and the darkness he called Night",
+          "speaker": "God",
+          "listener": "(None)"
+        },
+        "he": {
+          "quote": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד",
+          "riddle": "לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
+          "speaker": "אֱלֹהִים",
+          "listener": "(None)"
+        },
+        "raw_quote_source": {
+          "en": {
+            "5": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
+          },
+          "he": {
+            "5": "וַיִּקְרָא אֱלֹהִים ׀ לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד׃"
+          }
+        },
+        "meta": {
+          "reason": "The verse directly states God naming 'light' as 'Day' and 'darkness' as 'Night'. The riddle focuses on the creation of day/light from darkness, and the naming act.",
+          "confidence": 0.95
+        }
+      },
+      "llm_initial": {
+        "status": "keep",
+        "reason": "The interaction is a direct speech between God and an unspecified listener, with a clear speaker and listener. The verse range is valid (within the max_window of 5). The riddle is a concise and dramatic substring from the quote, focusing on the naming of light and darkness. The entities are correctly represented, with 'God' as 'אֱלֹהִים'."
+      },
+      "validation_issues_initial": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote"
+      ],
+      "repair_attempts": [
+        {
+          "issues_in": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote"
+          ],
+          "status": "keep",
+          "reason": "The interaction is a direct speech act between God and an implicit audience (creation), fulfilling the criteria. The riddle is a concise and dramatic substring from the quote, and the entities are correctly identified.",
+          "result": "updated",
+          "issues_out": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote"
+          ]
+        },
+        {
+          "issues_in": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote"
+          ],
+          "status": "keep",
+          "reason": "The interaction is a direct speech act between God and an implicit audience (creation). The riddle is a concise and dramatic substring of the quote, accurately reflecting the naming of light and darkness. The verse range is valid, and the entities are correctly identified.",
+          "result": "updated",
+          "issues_out": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote"
+          ]
+        }
+      ],
+      "action": "drop_validation",
+      "issues": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote"
+      ]
+    },
+    {
+      "idx": 2,
+      "suggestion": {
         "quote_verse_start": 6,
         "quote_verse_end": 6,
         "speaker_en": "God",
         "listener_en": "None",
         "speaker_he": "אֱלֹהִים",
         "listener_he": "None",
-        "riddle_en": "I divide waters from waters, a boundary unseen. What am I?",
-        "riddle_he": "מַבְדִּיל בֵּין מַיִם לָמָיִם, גְּבוּל נִסְתָּר. מָה אֲנִי?",
-        "reason": "The verse describes the creation of the firmament, which divides the waters. The riddle focuses on this core function, using concise language.",
+        "riddle_en": "I divide waters from waters, yet have no hands. What am I?",
+        "riddle_he": "מַבְדִּיל בֵּין מַיִם לָמָיִם, וְאֵין לִי יָדַיִם. מָה אֲנִי?",
+        "reason": "Verse 6 describes the creation of the firmament (rakia) which divides the waters above from the waters below. The riddle focuses on this dividing action.",
         "confidence": 0.95
       },
       "item": {
@@ -288,13 +378,13 @@
           }
         },
         "meta": {
-          "reason": "The verse describes the creation of the firmament, which divides the waters. The riddle focuses on this core function, using concise language.",
+          "reason": "Verse 6 describes the creation of the firmament (rakia) which divides the waters above from the waters below. The riddle focuses on this dividing action.",
           "confidence": 0.95
         }
       },
       "llm_initial": {
         "status": "keep",
-        "reason": "The interaction is a direct quote from Genesis 1:6-31, featuring God speaking and creating the world. The riddle, 'Let there be a firmament in the midst of the waters', is a concise and dramatic excerpt from the verse, accurately reflecting the creation of the firmament. The entities are clear, and the verse range is within the allowed window."
+        "reason": "The interaction is a direct speech from God creating the firmament. The riddle is a concise and dramatic substring from the quote, focusing on the division of waters. Entities are correctly identified and formatted. The verse range is valid within the maximum window."
       },
       "validation_issues_initial": [
         "listener_en_not_in_quote",
@@ -307,7 +397,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct quote with a clear speaker (God) and implied listener (creation/universe). The riddle is concise and extracted verbatim from the quote, focusing on the creation of the firmament. The verse range is valid.",
+          "reason": "The interaction is a direct speech between God and an implicit audience (the creation). The riddle is a concise and dramatic substring from the quote, focusing on the creation of the firmament. The verse range is valid, and entities are correctly identified.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
@@ -320,155 +410,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct quote from Genesis 1:6, featuring God speaking and creating the firmament. The riddle accurately captures the essence of the verse in a concise manner, and all entities are correctly identified.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        }
-      ],
-      "action": "drop_validation",
-      "issues": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ]
-    },
-    {
-      "idx": 1,
-      "suggestion": {
-        "quote_verse_start": 11,
-        "quote_verse_end": 11,
-        "speaker_en": "God",
-        "listener_en": "Earth",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "הָאָרֶץ",
-        "riddle_en": "I command life to sprout, seed within, a future count. What am I?",
-        "riddle_he": "אֲנִי מְצַוֶּה לְחַיִּים לִצְמֹחַ, זֶרַע בְּתוֹךְ, סְפִירָה עֲתִידִית. מָה אֲנִי?",
-        "reason": "The verse describes God commanding the earth to bring forth vegetation with seeds, making 'seed' a concise and relevant riddle element.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-11-11",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 11,
-          "quote_verse_end": 11
-        },
-        "en": {
-          "quote": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
-          "riddle": "bring forth grass, the herb yielding seed",
-          "speaker": "God",
-          "listener": "earth"
-        },
-        "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן",
-          "riddle": "דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר",
-          "speaker": "אֱלֹהִים",
-          "listener": "הָאָרֶץ"
-        },
-        "raw_quote_source": {
-          "en": {
-            "11": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so."
-          },
-          "he": {
-            "11": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃"
-          }
-        },
-        "meta": {
-          "reason": "The verse describes God commanding the earth to bring forth vegetation with seeds, making 'seed' a concise and relevant riddle element.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The interaction is a direct speech from God to the earth, fitting the validation rules. The riddle is a concise substring from the quote, and the verse range is within the allowed window."
-      },
-      "validation_issues_initial": [],
-      "action": "keep",
-      "item_id": "genesis-01-11-11"
-    },
-    {
-      "idx": 2,
-      "suggestion": {
-        "quote_verse_start": 20,
-        "quote_verse_end": 20,
-        "speaker_en": "God",
-        "listener_en": "None",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I command the waters to teem with life, and birds to soar in the open sky. What am I?",
-        "riddle_he": "אֲנִי מְצַוֶּה לַמַּיִם לִשְׁרֹץ בְּחַיִּים, וְלַצִּפּוֹרִים לִפְרֹחַ בַּשָּׁמַיִם הַפְּתוּחִים. מִי אֲנִי?",
-        "reason": "The verse describes God commanding life to fill the waters and the air, making it a good basis for a riddle.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-20-20",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 20,
-          "quote_verse_end": 20
-        },
-        "en": {
-          "quote": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.",
-          "riddle": "Let the waters bring forth abundantly the moving creature that",
-          "speaker": "God",
-          "listener": "None"
-        },
-        "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל־פְּנֵי רְקִיעַ הַשָּׁמָֽיִם",
-          "riddle": "יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל",
-          "speaker": "אֱלֹהִים",
-          "listener": "None"
-        },
-        "raw_quote_source": {
-          "en": {
-            "20": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven."
-          },
-          "he": {
-            "20": "וַיֹּאמֶר אֱלֹהִים יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל־פְּנֵי רְקִיעַ הַשָּׁמָֽיִם׃"
-          }
-        },
-        "meta": {
-          "reason": "The verse describes God commanding life to fill the waters and the air, making it a good basis for a riddle.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The quote is a direct speech from God, clearly defining the creation of life in the waters and air. The riddle is concise and extracted verbatim from the quote."
-      },
-      "validation_issues_initial": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ],
-      "repair_attempts": [
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The quote is a direct speech from God, clearly establishing both speaker and listener (implicitly, creation). The riddle is concise and extracted verbatim from the quote, and the verse range is valid.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        },
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "Valid direct speech, clear speaker and listener, verse range within limits, and riddle is a concise substring.",
+          "reason": "The interaction is a direct speech from God creating the firmament. The riddle is a concise and dramatic substring from the quote, focusing on the creation of the firmament within the waters. The entities are clear and in the correct in-quote form.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
@@ -485,410 +427,59 @@
     {
       "idx": 3,
       "suggestion": {
-        "quote_verse_start": 1,
-        "quote_verse_end": 2,
+        "quote_verse_start": 3,
+        "quote_verse_end": 5,
         "speaker_en": "God",
         "listener_en": "None",
         "speaker_he": "אֱלֹהִים",
         "listener_he": "None",
-        "riddle_en": "I was before form, a void of night,\nUpon the deep, a spirit took flight.",
-        "riddle_he": "לִפְנֵי צוּרָה, רֵיק וָחוֹשֶׁךְ,\nעַל הַתְּהוֹם, רוּחַ לָטַף.",
-        "reason": "The verses describe the initial state of the earth - formless, void, and dark - with the Spirit of God moving upon the waters. The riddle captures these elements in a concise and poetic way.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-01-02",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 1,
-          "quote_verse_end": 2
-        },
-        "en": {
-          "quote": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-          "riddle": "was without form, and void; and darkness was upon the",
-          "speaker": "God",
-          "listener": "earth"
-        },
-        "he": {
-          "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
-          "riddle": "הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּח",
-          "speaker": "אֱלֹהִים",
-          "listener": "הָאָרֶץ"
-        },
-        "raw_quote_source": {
-          "en": {
-            "1": "In the beginning God created the heaven and the earth.",
-            "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
-          },
-          "he": {
-            "1": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
-            "2": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
-          }
-        },
-        "meta": {
-          "reason": "The verses describe the initial state of the earth - formless, void, and dark - with the Spirit of God moving upon the waters. The riddle captures these elements in a concise and poetic way.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The interaction presents a clear speaker (God) and a direct statement about creation. The riddle effectively captures the initial state of the world as described in the verses, focusing on the formless earth and the presence of darkness. The verse range is within the allowed window."
-      },
-      "validation_issues_initial": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ],
-      "repair_attempts": [
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The interaction presents a clear speaker (God) and listener (implicit - creation), falls within the verse range, and the riddle effectively captures the essence of the creation narrative. The riddle is concise and dramatic, using verbatim substrings from the provided verses.",
-          "result": "updated",
-          "issues_out": []
-        }
-      ],
-      "action": "keep_repaired",
-      "item_id": "genesis-01-01-02"
-    },
-    {
-      "idx": 4,
-      "suggestion": {
-        "quote_verse_start": 1,
-        "quote_verse_end": 2,
-        "speaker_en": "God",
-        "listener_en": "None",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I was before form, a void of night,\nUpon the deep, a spirit took flight.",
-        "riddle_he": "לִפְנֵי צוּרָה, רֵיק וָחוֹשֶׁךְ,\nעַל הַתְּהוֹם, רוּחַ לָטַף.",
-        "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This is a concise description suitable for a riddle.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-01-02",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 1,
-          "quote_verse_end": 2
-        },
-        "en": {
-          "quote": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-          "riddle": "created the heaven and the earth. And the earth was",
-          "speaker": "God",
-          "listener": "None"
-        },
-        "he": {
-          "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
-          "riddle": "אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
-          "speaker": "אֱלֹהִים",
-          "listener": "None"
-        },
-        "raw_quote_source": {
-          "en": {
-            "1": "In the beginning God created the heaven and the earth.",
-            "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
-          },
-          "he": {
-            "1": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
-            "2": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
-          }
-        },
-        "meta": {
-          "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This is a concise description suitable for a riddle.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The riddle effectively captures the initial state of the earth as described in Genesis 1:1-2, focusing on the formless void and darkness. The verse range is within the allowed window, and the entities are clear."
-      },
-      "validation_issues_initial": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ],
-      "repair_attempts": [
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The riddle is concise and dramatic, extracted verbatim from the quote, and clearly identifies the initial state of the earth as described in Genesis 1:1-2. The speaker and listener are clearly defined.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        },
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The riddle is concise and dramatic, directly extracted from the text, and clearly identifies the initial state of the earth as described in Genesis 1:1-2. The speaker and listener are unambiguous.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        }
-      ],
-      "action": "drop_validation",
-      "issues": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ]
-    },
-    {
-      "idx": 5,
-      "suggestion": {
-        "quote_verse_start": 1,
-        "quote_verse_end": 2,
-        "speaker_en": "God",
-        "listener_en": "None",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I was before form, a void of night,\nUpon the deep, a spirit took flight.",
-        "riddle_he": "לִפְנֵי צוּרָה, רֵיק וָחוֹשֶׁךְ,\nעַל הַתְּהוֹם, רוּחַ לָטַף.",
-        "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This provides a concise and evocative riddle.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-01-02",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 1,
-          "quote_verse_end": 2
-        },
-        "en": {
-          "quote": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-          "riddle": "created the heaven and the earth. And the earth was",
-          "speaker": "God",
-          "listener": "None"
-        },
-        "he": {
-          "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
-          "riddle": "אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה",
-          "speaker": "אֱלֹהִים",
-          "listener": "None"
-        },
-        "raw_quote_source": {
-          "en": {
-            "1": "In the beginning God created the heaven and the earth.",
-            "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
-          },
-          "he": {
-            "1": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
-            "2": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
-          }
-        },
-        "meta": {
-          "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This provides a concise and evocative riddle.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The interaction presents a clear speaker (God) and a direct quote describing the creation of the world. The riddle is concise and dramatic, extracted verbatim from the text, and fits within the token limit. The verse range is valid."
-      },
-      "validation_issues_initial": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ],
-      "repair_attempts": [
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The interaction features direct speech between God and an implied audience (creation), with a clear speaker and listener. The riddle is concise and dramatic, extracted verbatim from the quote, and falls within the token limit. The verse range is valid.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        },
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The interaction features direct speech between God and an implied audience (creation), with a clear speaker and listener. The riddle is concise and dramatic, extracted verbatim from the quote, and falls within the token limit. The verse range is valid.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        }
-      ],
-      "action": "drop_validation",
-      "issues": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ]
-    },
-    {
-      "idx": 6,
-      "suggestion": {
-        "quote_verse_start": 1,
-        "quote_verse_end": 2,
-        "speaker_en": "God",
-        "listener_en": "None",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I was before form, a void of night,\nUpon the deep, a spirit took flight.",
-        "riddle_he": "לִפְנֵי צוּרָה, רֵיק וָחוֹשֶׁךְ,\nעַל הַתְּהוֹם, רוּחַ לָטַף.",
-        "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This is a concise and evocative description suitable for a riddle.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-01-02",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 1,
-          "quote_verse_end": 2
-        },
-        "en": {
-          "quote": "In the beginning God created the heaven and the earth. And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters.",
-          "riddle": "created the heaven and the earth. And the earth was",
-          "speaker": "God",
-          "listener": "None"
-        },
-        "he": {
-          "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
-          "riddle": "אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ",
-          "speaker": "אֱלֹהִים",
-          "listener": "None"
-        },
-        "raw_quote_source": {
-          "en": {
-            "1": "In the beginning God created the heaven and the earth.",
-            "2": "And the earth was without form, and void; and darkness was upon the face of the deep. And the Spirit of God moved upon the face of the waters."
-          },
-          "he": {
-            "1": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ׃",
-            "2": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם׃"
-          }
-        },
-        "meta": {
-          "reason": "The verses describe the initial state of the earth as formless and void, with darkness and the Spirit of God moving upon the waters. This is a concise and evocative description suitable for a riddle.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The riddle effectively captures the initial state of the earth as described in Genesis 1:1-2, focusing on the formless void and darkness. The verse range is within the allowed window, and the entities are clear."
-      },
-      "validation_issues_initial": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ],
-      "repair_attempts": [
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The riddle effectively captures the initial state of the earth as described in Genesis 1:1-2, focusing on the formless void and darkness. The verse range is within the allowed window, and the entities are clear.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        },
-        {
-          "issues_in": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ],
-          "status": "keep",
-          "reason": "The riddle accurately reflects the initial state of the earth as described in Genesis 1:1-2, focusing on the formless void and darkness. The verse range is within the allowed window, and the entities are correctly identified.",
-          "result": "updated",
-          "issues_out": [
-            "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
-          ]
-        }
-      ],
-      "action": "drop_validation",
-      "issues": [
-        "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
-      ]
-    },
-    {
-      "idx": 7,
-      "suggestion": {
-        "quote_verse_start": 6,
-        "quote_verse_end": 7,
-        "speaker_en": "God",
-        "listener_en": "None",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I separate waters, above and below. What am I?",
-        "riddle_he": "מפריד מים, למעלה ולמטה. מה אני?",
-        "reason": "The verses describe the creation of the firmament (heaven) which separates the waters above from the waters below. This is a concise description suitable for a riddle.",
+        "riddle_en": "I speak, and it appears. I name, and it is known. What am I?",
+        "riddle_he": "אני מדבר, והוא מופיע. אני קורא בשם, והוא ידוע. מה אני?",
+        "reason": "The verses detail God speaking and naming things into existence, fitting the riddle's description.",
         "confidence": 0.95
       },
       "item": {
-        "id": "genesis-01-06-07",
+        "id": "genesis-01-03-05",
         "source": {
           "book_code": "GEN",
           "book": "Genesis",
           "book_he": "בראשית",
           "chapter": 1,
-          "quote_verse_start": 6,
-          "quote_verse_end": 7
+          "quote_verse_start": 3,
+          "quote_verse_end": 5
         },
         "en": {
-          "quote": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters. And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so.",
-          "riddle": "Let there be a firmament in the midst of the",
+          "quote": "And God said, Let there be light: and there was light. And God saw the light, that it was good: and God divided the light from the darkness. And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+          "riddle": "called the light Day, and the darkness he called Night",
           "speaker": "God",
           "listener": "None"
         },
         "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָֽיִם וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי־כֵֽן",
-          "riddle": "יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָֽיִם וַיַּעַש",
+          "quote": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי־אֽוֹר וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד",
+          "riddle": "לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה",
           "speaker": "אֱלֹהִים",
           "listener": "None"
         },
         "raw_quote_source": {
           "en": {
-            "6": "And God said, Let there be a firmament in the midst of the waters, and let it divide the waters from the waters.",
-            "7": "And God made the firmament, and divided the waters which were under the firmament from the waters which were above the firmament: and it was so."
+            "3": "And God said, Let there be light: and there was light.",
+            "4": "And God saw the light, that it was good: and God divided the light from the darkness.",
+            "5": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day."
           },
           "he": {
-            "6": "וַיֹּאמֶר אֱלֹהִים יְהִי רָקִיעַ בְּתוֹךְ הַמָּיִם וִיהִי מַבְדִּיל בֵּין מַיִם לָמָֽיִם׃",
-            "7": "וַיַּעַשׂ אֱלֹהִים אֶת־הָרָקִיעַ וַיַּבְדֵּל בֵּין הַמַּיִם אֲשֶׁר מִתַּחַת לָרָקִיעַ וּבֵין הַמַּיִם אֲשֶׁר מֵעַל לָרָקִיעַ וַֽיְהִי־כֵֽן׃"
+            "3": "וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַֽיְהִי־אֽוֹר׃",
+            "4": "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ׃",
+            "5": "וַיִּקְרָא אֱלֹהִים ׀ לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד׃"
           }
         },
         "meta": {
-          "reason": "The verses describe the creation of the firmament (heaven) which separates the waters above from the waters below. This is a concise description suitable for a riddle.",
+          "reason": "The verses detail God speaking and naming things into existence, fitting the riddle's description.",
           "confidence": 0.95
         }
       },
       "llm_initial": {
         "status": "keep",
-        "reason": "The verses describe the creation of the firmament (heaven) which separates the waters above from the waters below. This is a concise description suitable for a riddle."
+        "reason": "The interaction fulfills all requirements: direct speech, clear speaker/listener, valid verse range, and a concise riddle extracted verbatim from the quote."
       },
       "validation_issues_initial": [
         "listener_en_not_in_quote",
@@ -901,7 +492,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The quote describes God's creation of the firmament, a concise and dramatic event suitable for a riddle. The riddle is a verbatim substring from the quote, and the speaker and listener are clearly identified.",
+          "reason": "The interaction fulfills all requirements: direct speech, clear speaker/listener, valid verse range, correct entity forms, and a concise riddle extracted verbatim from the quote. The issue of missing listener information has been addressed by removing it, as the interaction focuses solely on God's speech and actions.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
@@ -914,7 +505,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The quote describes God's creation of the firmament, a concise and dramatic event suitable for a riddle. The riddle is a verbatim substring from the quote, and the speaker and listener are clearly identified.",
+          "reason": "The interaction fulfills all requirements: direct speech, clear speaker/listener, valid verse range, and a concise riddle extracted verbatim from the quote. The issue of missing listener information has been addressed by removing it, as the interaction focuses solely on God's speech and actions.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
@@ -929,49 +520,55 @@
       ]
     },
     {
-      "idx": 8,
+      "idx": 4,
       "suggestion": {
         "quote_verse_start": 9,
-        "quote_verse_end": 10,
+        "quote_verse_end": 13,
         "speaker_en": "God",
         "listener_en": "None",
         "speaker_he": "אֱלֹהִים",
         "listener_he": "None",
-        "riddle_en": "I gather waters, reveal the land. What am I?",
-        "riddle_he": "מְקַבֵּץ מַיִם, חושף אדמה. מה אני?",
+        "riddle_en": "I gather waters, and reveal the dry land. What am I?",
+        "riddle_he": "אֲנִי מְאַגֵּף מַיִם וּמְגַלֶּה אֶת הַיַּבָּשָׁה. מִי אֲנִי?",
         "reason": "mechanical_speech_marker",
         "confidence": 0.95
       },
       "item": {
-        "id": "genesis-01-09-10",
+        "id": "genesis-01-09-13",
         "source": {
           "book_code": "GEN",
           "book": "Genesis",
           "book_he": "בראשית",
           "chapter": 1,
           "quote_verse_start": 9,
-          "quote_verse_end": 10
+          "quote_verse_end": 13
         },
         "en": {
-          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so. And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
+          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so. And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good. And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so. And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good. And the evening and the morning were the third day.",
           "riddle": "Let the waters under the heaven be gathered together unto",
           "speaker": "God",
           "listener": "None"
         },
         "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל־מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי־כֵֽן וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
-          "riddle": "מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי־כֵֽן",
+          "quote": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל־מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי־כֵֽן וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם שְׁלִישִֽׁי",
+          "riddle": "תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי",
           "speaker": "אֱלֹהִים",
           "listener": "None"
         },
         "raw_quote_source": {
           "en": {
             "9": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
-            "10": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good."
+            "10": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
+            "11": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
+            "12": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
+            "13": "And the evening and the morning were the third day."
           },
           "he": {
             "9": "וַיֹּאמֶר אֱלֹהִים יִקָּווּ הַמַּיִם מִתַּחַת הַשָּׁמַיִם אֶל־מָקוֹם אֶחָד וְתֵרָאֶה הַיַּבָּשָׁה וַֽיְהִי־כֵֽן׃",
-            "10": "וַיִּקְרָא אֱלֹהִים ׀ לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃"
+            "10": "וַיִּקְרָא אֱלֹהִים ׀ לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+            "11": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃",
+            "12": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+            "13": "וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם שְׁלִישִֽׁי׃"
           }
         },
         "meta": {
@@ -980,102 +577,47 @@
         }
       },
       "llm_initial": {
-        "status": "keep",
-        "reason": "Valid direct speech, clear speaker/listener, within window, and riddle extracted verbatim."
+        "status": "drop",
+        "reason": "Riddle is not a verbatim substring from the quote."
       },
+      "llm_initial_drop": "Riddle is not a verbatim substring from the quote.",
       "validation_issues_initial": [
         "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
+        "listener_he_not_in_quote",
+        "llm_semantic_drop:Riddle is not a verbatim substring from the quote."
       ],
       "repair_attempts": [
         {
           "issues_in": [
             "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
+            "listener_he_not_in_quote",
+            "llm_semantic_drop:Riddle is not a verbatim substring from the quote."
           ],
           "status": "drop",
-          "reason": "listener_en_not_in_quote",
+          "reason": "Riddle is not a verbatim substring from the quote.",
           "result": "drop"
         }
       ],
       "action": "drop_validation",
       "issues": [
         "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
+        "listener_he_not_in_quote",
+        "llm_semantic_drop:Riddle is not a verbatim substring from the quote."
       ]
     },
     {
-      "idx": 9,
-      "suggestion": {
-        "quote_verse_start": 11,
-        "quote_verse_end": 12,
-        "speaker_en": "God",
-        "listener_en": "Earth",
-        "speaker_he": "אֱלֹהִים",
-        "listener_he": "הָאָרֶץ",
-        "riddle_en": "I bring forth grass, herb, and fruit, each with seed of its own root. What am I?",
-        "riddle_he": "אֲנִי מְצִיץ דֶּשֶׁא, עֵשֶׂב וּפְרִי, כָּל אֶחָד עִם זֶרַע שֶׁל שָׁרָשׁוֹ. מָה אֲנִי?",
-        "reason": "The verses describe God commanding the earth to bring forth vegetation, and the earth obeying. The riddle focuses on this act of creation, specifically the plants produced.",
-        "confidence": 0.9
-      },
-      "item": {
-        "id": "genesis-01-11-12",
-        "source": {
-          "book_code": "GEN",
-          "book": "Genesis",
-          "book_he": "בראשית",
-          "chapter": 1,
-          "quote_verse_start": 11,
-          "quote_verse_end": 12
-        },
-        "en": {
-          "quote": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so. And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good.",
-          "riddle": "bring forth grass, the herb yielding seed, and the fruit",
-          "speaker": "God",
-          "listener": "earth"
-        },
-        "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
-          "riddle": "דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי",
-          "speaker": "אֱלֹהִים",
-          "listener": "הָאָרֶץ"
-        },
-        "raw_quote_source": {
-          "en": {
-            "11": "And God said, Let the earth bring forth grass, the herb yielding seed, and the fruit tree yielding fruit after his kind, whose seed is in itself, upon the earth: and it was so.",
-            "12": "And the earth brought forth grass, and herb yielding seed after his kind, and the tree yielding fruit, whose seed was in itself, after his kind: and God saw that it was good."
-          },
-          "he": {
-            "11": "וַיֹּאמֶר אֱלֹהִים תַּֽדְשֵׁא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע עֵץ פְּרִי עֹשֶׂה פְּרִי לְמִינוֹ אֲשֶׁר זַרְעוֹ־בוֹ עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃",
-            "12": "וַתּוֹצֵא הָאָרֶץ דֶּשֶׁא עֵשֶׂב מַזְרִיעַ זֶרַע לְמִינֵהוּ וְעֵץ עֹֽשֶׂה־פְּרִי אֲשֶׁר זַרְעוֹ־בוֹ לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃"
-          }
-        },
-        "meta": {
-          "reason": "The verses describe God commanding the earth to bring forth vegetation, and the earth obeying. The riddle focuses on this act of creation, specifically the plants produced.",
-          "confidence": 0.9
-        }
-      },
-      "llm_initial": {
-        "status": "keep",
-        "reason": "The interaction clearly shows God commanding the earth to produce vegetation, and the earth obeying. The riddle accurately reflects this creation event, focusing on the plants brought forth. The verse range is within the allowed window, and the entities are correctly identified."
-      },
-      "validation_issues_initial": [],
-      "action": "keep",
-      "item_id": "genesis-01-11-12"
-    },
-    {
-      "idx": 10,
+      "idx": 5,
       "suggestion": {
         "quote_verse_start": 14,
-        "quote_verse_end": 15,
+        "quote_verse_end": 18,
         "speaker_en": "God",
-        "listener_en": "None",
+        "listener_en": null,
         "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I divide day from night, a beacon in the height. What am I?",
-        "riddle_he": "מַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלַּיְלָה, אוֹר בַּגָּבָהּ. מָה אֲנִי?",
-        "reason": "The verses describe the creation of lights in the sky to separate day and night, fitting the riddle's description.",
-        "confidence": 0.95
+        "listener_he": null,
+        "riddle_en": "I divide day from night, and rule over both. What am I?",
+        "riddle_he": "אֲנִי מַבְדִּיל בֵּין יוֹם לַיְלָה וְשׁוֹלֵט עַל שְׁנֵיהֶם. מִי אֲנִי?",
+        "reason": "mechanical_speech_marker",
+        "confidence": 0.9
       },
       "item": {
         "id": "genesis-01-14-15",
@@ -1091,13 +633,13 @@
           "quote": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.",
           "riddle": "Let there be lights in the firmament of the heaven",
           "speaker": "God",
-          "listener": "None"
+          "listener": ""
         },
         "he": {
           "quote": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִֽים וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל־הָאָרֶץ וַֽיְהִי־כֵֽן",
           "riddle": "יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם",
           "speaker": "אֱלֹהִים",
-          "listener": "None"
+          "listener": ""
         },
         "raw_quote_source": {
           "en": {
@@ -1110,106 +652,204 @@
           }
         },
         "meta": {
-          "reason": "The verses describe the creation of lights in the sky to separate day and night, fitting the riddle's description.",
-          "confidence": 0.95
+          "reason": "mechanical_speech_marker",
+          "confidence": 0.9
         }
       },
       "llm_initial": {
         "status": "keep",
-        "reason": "The interaction is a direct quote with a clear speaker (God) and a clear topic (creating lights in the sky). The riddle is a concise substring from the quote, and the verse range is within the allowed window."
+        "reason": "Valid direct speech, clear speaker and listener (implicit), verse range within limits, and riddle is a verbatim substring."
       },
       "validation_issues_initial": [
         "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
+        "listener_he_not_in_quote",
+        "missing_entities"
       ],
       "repair_attempts": [
         {
           "issues_in": [
             "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
+            "listener_he_not_in_quote",
+            "missing_entities"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct quote with a clear speaker (God) and a clear topic (creation of lights). The riddle is a concise substring from the quote and fits the constraints.",
+          "reason": "Valid direct speech with clear speaker and listener, within max_window, and riddle is a verbatim substring.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
+            "listener_he_not_in_quote",
+            "missing_entities"
           ]
         },
         {
           "issues_in": [
             "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
+            "listener_he_not_in_quote",
+            "missing_entities"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct quote with a clear speaker (God) and a clear action (speaking). The riddle is a concise and dramatic substring from the quote, and the verse range is within the allowed window.",
+          "reason": "Valid direct speech with clear speaker and listener, within the verse range, and a concise riddle extracted verbatim from the quote.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
-            "listener_he_not_in_quote"
+            "listener_he_not_in_quote",
+            "missing_entities"
           ]
         }
       ],
       "action": "drop_validation",
       "issues": [
         "listener_en_not_in_quote",
-        "listener_he_not_in_quote"
+        "listener_he_not_in_quote",
+        "missing_entities"
       ]
     },
     {
-      "idx": 11,
+      "idx": 6,
       "suggestion": {
-        "quote_verse_start": 14,
-        "quote_verse_end": 15,
+        "quote_verse_start": 20,
+        "quote_verse_end": 24,
         "speaker_en": "God",
-        "listener_en": "None",
+        "listener_en": "The waters, earth",
         "speaker_he": "אֱלֹהִים",
-        "listener_he": "None",
-        "riddle_en": "I divide day from night, a beacon in the height. What am I?",
-        "riddle_he": "מַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלַּיְלָה, אוֹר בַּגָּבָהּ. מָה אֲנִי?",
-        "reason": "The verses describe the creation of lights in the sky to separate day and night, forming the basis for a riddle about light sources.",
+        "listener_he": "הַמַּיִם, הָאָרֶץ",
+        "riddle_en": "I command life to teem, from the deep to the sky. What am I?",
+        "riddle_he": "אֲנִי מְצַוֶּה לְחַיִּים לִפְרֹחַ, מִמַּיִם עַד שָׁמַיִם. מִי אֲנִי?",
+        "reason": "mechanical_speech_marker",
         "confidence": 0.95
       },
       "item": {
-        "id": "genesis-01-14-15",
+        "id": "genesis-01-20-24",
         "source": {
           "book_code": "GEN",
           "book": "Genesis",
           "book_he": "בראשית",
           "chapter": 1,
-          "quote_verse_start": 14,
-          "quote_verse_end": 15
+          "quote_verse_start": 20,
+          "quote_verse_end": 24
         },
         "en": {
-          "quote": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years: And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so.",
-          "riddle": "Let there be lights in the firmament of the heaven",
+          "quote": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven. And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good. And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth. And the evening and the morning were the fifth day. And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so.",
+          "riddle": "moving creature that hath life, and fowl that may fly",
+          "speaker": "God",
+          "listener": "The waters, earth"
+        },
+        "he": {
+          "quote": "וַיֹּאמֶר אֱלֹהִים יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל־פְּנֵי רְקִיעַ הַשָּׁמָֽיִם וַיִּבְרָא אֱלֹהִים אֶת־הַתַּנִּינִם הַגְּדֹלִים וְאֵת כָּל־נֶפֶשׁ הַֽחַיָּה הָֽרֹמֶשֶׂת אֲשֶׁר שָׁרְצוּ הַמַּיִם לְמִֽינֵהֶם וְאֵת כָּל־עוֹף כָּנָף לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב וַיְבָרֶךְ אֹתָם אֱלֹהִים לֵאמֹר פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הַמַּיִם בַּיַּמִּים וְהָעוֹף יִרֶב בָּאָֽרֶץ וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם חֲמִישִֽׁי וַיֹּאמֶר אֱלֹהִים תּוֹצֵא הָאָרֶץ נֶפֶשׁ חַיָּה לְמִינָהּ בְּהֵמָה וָרֶמֶשׂ וְחַֽיְתוֹ־אֶרֶץ לְמִינָהּ וַֽיְהִי־כֵֽן",
+          "riddle": "אֶת־הַתַּנִּינִם הַגְּדֹלִים וְאֵת כָּל־נֶפֶשׁ הַֽחַיָּה הָֽרֹמֶשֶׂת אֲשֶׁר שָׁרְצו",
+          "speaker": "אֱלֹהִים",
+          "listener": "הַמַּיִם, הָאָרֶץ"
+        },
+        "raw_quote_source": {
+          "en": {
+            "20": "And God said, Let the waters bring forth abundantly the moving creature that hath life, and fowl that may fly above the earth in the open firmament of heaven.",
+            "21": "And God created great whales, and every living creature that moveth, which the waters brought forth abundantly, after their kind, and every winged fowl after his kind: and God saw that it was good.",
+            "22": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+            "23": "And the evening and the morning were the fifth day.",
+            "24": "And God said, Let the earth bring forth the living creature after his kind, cattle, and creeping thing, and beast of the earth after his kind: and it was so."
+          },
+          "he": {
+            "20": "וַיֹּאמֶר אֱלֹהִים יִשְׁרְצוּ הַמַּיִם שֶׁרֶץ נֶפֶשׁ חַיָּה וְעוֹף יְעוֹפֵף עַל־הָאָרֶץ עַל־פְּנֵי רְקִיעַ הַשָּׁמָֽיִם׃",
+            "21": "וַיִּבְרָא אֱלֹהִים אֶת־הַתַּנִּינִם הַגְּדֹלִים וְאֵת כָּל־נֶפֶשׁ הַֽחַיָּה ׀ הָֽרֹמֶשֶׂת אֲשֶׁר שָׁרְצוּ הַמַּיִם לְמִֽינֵהֶם וְאֵת כָּל־עוֹף כָּנָף לְמִינֵהוּ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב׃",
+            "22": "וַיְבָרֶךְ אֹתָם אֱלֹהִים לֵאמֹר פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הַמַּיִם בַּיַּמִּים וְהָעוֹף יִרֶב בָּאָֽרֶץ׃",
+            "23": "וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם חֲמִישִֽׁי׃",
+            "24": "וַיֹּאמֶר אֱלֹהִים תּוֹצֵא הָאָרֶץ נֶפֶשׁ חַיָּה לְמִינָהּ בְּהֵמָה וָרֶמֶשׂ וְחַֽיְתוֹ־אֶרֶץ לְמִינָהּ וַֽיְהִי־כֵֽן׃"
+          }
+        },
+        "meta": {
+          "reason": "mechanical_speech_marker",
+          "confidence": 0.95
+        }
+      },
+      "llm_initial": {
+        "status": "drop",
+        "reason": ""
+      },
+      "llm_initial_drop": "llm_semantic_drop",
+      "validation_issues_initial": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote",
+        "llm_semantic_drop:llm_semantic_drop"
+      ],
+      "repair_attempts": [
+        {
+          "issues_in": [
+            "listener_en_not_in_quote",
+            "listener_he_not_in_quote",
+            "llm_semantic_drop:llm_semantic_drop"
+          ],
+          "status": "drop",
+          "reason": "listener_en_not_in_quote, listener_he_not_in_quote, llm_semantic_drop",
+          "result": "drop"
+        }
+      ],
+      "action": "drop_validation",
+      "issues": [
+        "listener_en_not_in_quote",
+        "listener_he_not_in_quote",
+        "llm_semantic_drop:llm_semantic_drop"
+      ]
+    },
+    {
+      "idx": 7,
+      "suggestion": {
+        "quote_verse_start": 26,
+        "quote_verse_end": 30,
+        "speaker_en": "God",
+        "listener_en": "None",
+        "speaker_he": "אֱלֹהִים",
+        "listener_he": "None",
+        "riddle_en": "I give life to all, from sea to land, a verdant feast at my command. What am I?",
+        "riddle_he": "לכל חי נתתי, מים עד אדמה, משתה ירוק בציווי שלי. מה אני?",
+        "reason": "The verses detail God providing food (green herbs) to all living creatures, making it a suitable basis for a riddle.",
+        "confidence": 0.9
+      },
+      "item": {
+        "id": "genesis-01-26-30",
+        "source": {
+          "book_code": "GEN",
+          "book": "Genesis",
+          "book_he": "בראשית",
+          "chapter": 1,
+          "quote_verse_start": 26,
+          "quote_verse_end": 30
+        },
+        "en": {
+          "quote": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. So God created man in his own image, in the image of God created he him; male and female created he them. And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth. And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat. And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so.",
+          "riddle": "Let us make man in our image, after our likeness",
           "speaker": "God",
           "listener": "None"
         },
         "he": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִֽים וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל־הָאָרֶץ וַֽיְהִי־כֵֽן",
-          "riddle": "יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם",
+          "quote": "וַיֹּאמֶר אֱלֹהִים נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכָל־הָאָרֶץ וּבְכָל־הָרֶמֶשׂ הָֽרֹמֵשׂ עַל־הָאָֽרֶץ וַיִּבְרָא אֱלֹהִים אֶת־הָֽאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָֽם וַיְבָרֶךְ אֹתָם אֱלֹהִים וַיֹּאמֶר לָהֶם אֱלֹהִים פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָרֶץ וְכִבְשֻׁהָ וּרְדוּ בִּדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבְכָל־חַיָּה הָֽרֹמֶשֶׂת עַל־הָאָֽרֶץ וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת־כָּל־עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל־פְּנֵי כָל־הָאָרֶץ וְאֶת־כָּל־הָעֵץ אֲשֶׁר־בּוֹ פְרִי־עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה וּֽלְכָל־חַיַּת הָאָרֶץ וּלְכָל־עוֹף הַשָּׁמַיִם וּלְכֹל רוֹמֵשׂ עַל־הָאָרֶץ אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה אֶת־כָּל־יֶרֶק עֵשֶׂב לְאָכְלָה וַֽיְהִי־כֵֽן",
+          "riddle": "נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ",
           "speaker": "אֱלֹהִים",
           "listener": "None"
         },
         "raw_quote_source": {
           "en": {
-            "14": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:",
-            "15": "And let them be for lights in the firmament of the heaven to give light upon the earth: and it was so."
+            "26": "And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth.",
+            "27": "So God created man in his own image, in the image of God created he him; male and female created he them.",
+            "28": "And God blessed them, and God said unto them, Be fruitful, and multiply, and replenish the earth, and subdue it: and have dominion over the fish of the sea, and over the fowl of the air, and over every living thing that moveth upon the earth.",
+            "29": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.",
+            "30": "And to every beast of the earth, and to every fowl of the air, and to every thing that creepeth upon the earth, wherein there is life, I have given every green herb for meat: and it was so."
           },
           "he": {
-            "14": "וַיֹּאמֶר אֱלֹהִים יְהִי מְאֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהַבְדִּיל בֵּין הַיּוֹם וּבֵין הַלָּיְלָה וְהָיוּ לְאֹתֹת וּלְמוֹעֲדִים וּלְיָמִים וְשָׁנִֽים׃",
-            "15": "וְהָיוּ לִמְאוֹרֹת בִּרְקִיעַ הַשָּׁמַיִם לְהָאִיר עַל־הָאָרֶץ וַֽיְהִי־כֵֽן׃"
+            "26": "וַיֹּאמֶר אֱלֹהִים נַֽעֲשֶׂה אָדָם בְּצַלְמֵנוּ כִּדְמוּתֵנוּ וְיִרְדּוּ בִדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבַבְּהֵמָה וּבְכָל־הָאָרֶץ וּבְכָל־הָרֶמֶשׂ הָֽרֹמֵשׂ עַל־הָאָֽרֶץ׃",
+            "27": "וַיִּבְרָא אֱלֹהִים ׀ אֶת־הָֽאָדָם בְּצַלְמוֹ בְּצֶלֶם אֱלֹהִים בָּרָא אֹתוֹ זָכָר וּנְקֵבָה בָּרָא אֹתָֽם׃",
+            "28": "וַיְבָרֶךְ אֹתָם אֱלֹהִים וַיֹּאמֶר לָהֶם אֱלֹהִים פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָרֶץ וְכִבְשֻׁהָ וּרְדוּ בִּדְגַת הַיָּם וּבְעוֹף הַשָּׁמַיִם וּבְכָל־חַיָּה הָֽרֹמֶשֶׂת עַל־הָאָֽרֶץ׃",
+            "29": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת־כָּל־עֵשֶׂב ׀ זֹרֵעַ זֶרַע אֲשֶׁר עַל־פְּנֵי כָל־הָאָרֶץ וְאֶת־כָּל־הָעֵץ אֲשֶׁר־בּוֹ פְרִי־עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה׃",
+            "30": "וּֽלְכָל־חַיַּת הָאָרֶץ וּלְכָל־עוֹף הַשָּׁמַיִם וּלְכֹל ׀ רוֹמֵשׂ עַל־הָאָרֶץ אֲשֶׁר־בּוֹ נֶפֶשׁ חַיָּה אֶת־כָּל־יֶרֶק עֵשֶׂב לְאָכְלָה וַֽיְהִי־כֵֽן׃"
           }
         },
         "meta": {
-          "reason": "The verses describe the creation of lights in the sky to separate day and night, forming the basis for a riddle about light sources.",
-          "confidence": 0.95
+          "reason": "The verses detail God providing food (green herbs) to all living creatures, making it a suitable basis for a riddle.",
+          "confidence": 0.9
         }
       },
       "llm_initial": {
         "status": "keep",
-        "reason": "The interaction is a direct speech from God, establishing lights in the sky. The riddle is a concise substring from the quote, and the entities are clear."
+        "reason": "The interaction is a direct speech from God, with a clear listener (implicitly, creation/humanity). The verse range is within the allowed window, and the riddle is a concise and dramatic substring from the quote, focusing on God's creation of man."
       },
       "validation_issues_initial": [
         "listener_en_not_in_quote",
@@ -1222,7 +862,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct speech from God, with a clear listener (implied creation). The verse range is within the allowed window, and the riddle is a concise substring from the quote.",
+          "reason": "The interaction is a direct speech between God and an implied audience (creation), fulfilling the criteria. The riddle is a concise and dramatic excerpt from the quote, and the verse range is within the allowed window. Entities are correctly identified and formatted.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",
@@ -1235,7 +875,7 @@
             "listener_he_not_in_quote"
           ],
           "status": "keep",
-          "reason": "The interaction is a direct speech from God, with a clear listener (implied creation). The verse range is within the allowed window, and the riddle is a concise and dramatic substring from the quote.",
+          "reason": "The interaction is a direct speech between God and an implied audience (creation), the verse range is valid, and the riddle is a concise and dramatic substring from the quote. Entities are correctly represented.",
           "result": "updated",
           "issues_out": [
             "listener_en_not_in_quote",

@@ -114,4 +114,20 @@ describe("buildShareText", () => {
 
     expect(text).toContain("וַיֹּאמֶר 2026-02-11 1/5");
   });
+
+  it("uses custom success emoji for hard mode rows", () => {
+    const text = buildShareText({
+      title: "Vayomer",
+      attempts: [CORE_ONLY, SOLVED],
+      solved: true,
+      bonusRequired: true,
+      successMark: "🔥",
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("🔥🔥✴️⬜");
+    expect(text).toContain("🔥🔥✳️⬜");
+    expect(text).not.toContain("✅✅");
+  });
 });

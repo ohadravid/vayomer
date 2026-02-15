@@ -6,6 +6,7 @@ import { I18nextProvider, initReactI18next } from "react-i18next";
 import { PuzzleView } from "./PuzzleView";
 import { GuessForm } from "./GuessForm";
 import { resources } from "../i18n";
+import { pickDailyHardModeSuccessMark, HARD_MODE_SUCCESS_MARKS } from "../lib/daily";
 import { pickHardWordPlaceholderForId } from "../lib/format";
 import type { EasyChoicePools, GuessResult, Lang, PuzzleItem } from "../types";
 
@@ -82,6 +83,7 @@ function createI18n(lang: Lang) {
 
 function renderPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
+  onChoiceInteracted?: () => void;
   puzzle?: PuzzleItem;
   revealed?: boolean;
   easyMode?: boolean;
@@ -107,6 +109,7 @@ function renderPuzzleView(props: {
           revealed={props.revealed ?? false}
           onReveal={() => {}}
           onClear={() => {}}
+          onChoiceInteracted={props.onChoiceInteracted}
           onPersist={props.onPersist}
           initial={props.initial}
           syncDocumentDirection={false}
@@ -126,6 +129,33 @@ afterEach(() => {
 });
 
 describe("PuzzleView persistence hydration", () => {
+  it("does not lock difficulty until a choice select is clicked", () => {
+    const onPersist = () => {};
+    let interactions = 0;
+    const onChoiceInteracted = () => {
+      interactions += 1;
+    };
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, onChoiceInteracted }));
+    });
+
+    expect(interactions).toBe(0);
+
+    const speakerSelect = root?.root.findByProps({ id: "inputSpeaker" });
+    const listenerSelect = root?.root.findByProps({ id: "inputListener" });
+
+    act(() => {
+      speakerSelect?.props.onClick();
+    });
+    expect(interactions).toBe(1);
+
+    act(() => {
+      listenerSelect?.props.onClick();
+    });
+    expect(interactions).toBe(1);
+  });
+
   it("does not persist when parent re-sends an equivalent initial payload", () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
@@ -427,6 +457,8 @@ describe("PuzzleView persistence hydration", () => {
 
   it("shows the failed-bonus marker after a wrong bonus guess", () => {
     const onPersist = () => {};
+    const successMark = pickDailyHardModeSuccessMark(new Date());
+    expect(HARD_MODE_SUCCESS_MARKS).toContain(successMark);
     const stageTwoOpenAttempt: GuessResult = {
       speakerOk: true,
       listenerOk: true,
@@ -454,7 +486,7 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     const formBeforeGuess = root?.root.findByType(GuessForm);
-    expect(formBeforeGuess?.props.statusMarks).toBe("✅✅✡️⬜");
+    expect(formBeforeGuess?.props.statusMarks).toBe(`${successMark}${successMark}✡️⬜`);
 
     act(() => {
       formBeforeGuess?.props.onChange("bonus", "earth");
@@ -462,6 +494,6 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     const formAfterGuess = root?.root.findByType(GuessForm);
-    expect(formAfterGuess?.props.statusMarks).toBe("✅✅✴️⬜");
+    expect(formAfterGuess?.props.statusMarks).toBe(`${successMark}${successMark}✴️⬜`);
   });
 });
