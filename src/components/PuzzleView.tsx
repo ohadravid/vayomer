@@ -1,7 +1,14 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { buildMultipleChoiceOptions } from "../lib/easyMode";
-import { countTryAttempts, deriveGameState, isCoreSolved, isFullySolved, isStageTwoOpen } from "../lib/gameState";
+import {
+  countTryAttempts,
+  deriveGameState,
+  doesAttemptCountAsTry,
+  isCoreSolved,
+  isFullySolved,
+  isStageTwoOpen,
+} from "../lib/gameState";
 import { normalize, formatDate, markVerseNumbers, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
@@ -191,7 +198,6 @@ export function PuzzleView({
   const hasBonusHint = hintQuote.length > 0;
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
   const maskedHintQuote = hasBonusHint ? maskHardWord(hintQuote, bonusAnswer, placeholder) : "";
-  const hintQuoteHtml = hasBonusHint ? `<span class="veil">${markVerseNumbers(maskedHintQuote)}</span>` : "";
   const hintSourceLine = formatHintSourceLine(puzzle[lang].bonus_hint?.source);
   const bonusRequired = !!bonusAnswer;
   const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;
@@ -208,6 +214,15 @@ export function PuzzleView({
   const quoteRevealed = stageTwoOpen;
   const sourceRevealed = stageTwoOpen;
   const fullySolved = gameState === GameState.Solved;
+  const failedBonusTry = bonusRequired
+    ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
+    : false;
+  const hintQuoteHtml = (() => {
+    if (!hasBonusHint) return "";
+    const quoteBody = markVerseNumbers(fullySolved ? hintQuote : maskedHintQuote);
+    return fullySolved ? quoteBody : `<span class="veil">${quoteBody}</span>`;
+  })();
+  const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = attempts.length > 0;
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
   const feedback = useMemo(() => {
@@ -303,7 +318,7 @@ export function PuzzleView({
     const hintMark = bonusHintUsed ? "💡" : "⬜";
 
     if (fullySolved) return `✅✅✳️${hintMark}`;
-    if (revealed && coreSolved) return `✅✅✴️${hintMark}`;
+    if (failedBonusTry) return `✅✅✴️${hintMark}`;
     if (coreSolved) return `✅✅✡️${hintMark}`;
     if (!result) return `⬜⬜⬜${hintMark}`;
     const speakerMark = result.speakerOk ? "✅" : "❌";
@@ -433,7 +448,7 @@ export function PuzzleView({
         bonusDisabled={revealed || !bonusRequired}
         bonusHintUsed={bonusHintUsed}
         showBonusHint={stageTwoOpen && hasBonusHint}
-        showHintQuote={hintRevealed && hasBonusHint}
+        showHintQuote={showHintQuote}
         hintQuoteHtml={hintQuoteHtml}
         hintSourceLine={hintSourceLine}
         onChange={handleChange}

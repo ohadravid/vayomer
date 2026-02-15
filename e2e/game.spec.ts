@@ -285,11 +285,19 @@ test("bonus hint in stage two reveals hint, stays visible after solve, and is re
   } else {
     await expect(page.locator("#hintRefLine")).toBeVisible();
   }
+  await expect(page.locator("#bonusHint")).toBeDisabled();
+
+  await page.reload();
+  await expect(page.locator("#guessForm")).toBeVisible();
+  await expect(page.locator("#hintQuote")).toBeVisible();
+  await expect(page.locator("#bonusHint")).toBeDisabled();
 
   await page.fill("#inputBonus", hintEnAnswer.bonus);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Solved.");
   await expect(page.locator("#bonusHint")).toBeVisible();
+  const solvedHintQuoteText = await page.locator("#hintQuote").innerText();
+  expect(normalize(solvedHintQuoteText, "en")).toContain(normalize(hintEnAnswer.bonus, "en"));
 
   await page.getByRole("button", { name: "Share result" }).click();
   await expect(page.locator(".share-note")).toHaveText("Result copied.");
@@ -313,6 +321,7 @@ test("full game: mistakes and win", async ({ page }) => {
   await page.fill("#inputBonus", WRONG_TEXT);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
 
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");
@@ -370,6 +379,7 @@ test("easy mode: mistakes and win", async ({ page }) => {
   await page.fill("#inputBonus", WRONG_TEXT);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
 
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");

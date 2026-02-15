@@ -111,7 +111,7 @@ describe("parsePersistedState", () => {
     expect(parsed?.revealed).toBe(true);
   });
 
-  it("keeps hintRevealed=true only when revealed is valid", () => {
+  it("keeps hintRevealed=true when explicitly persisted", () => {
     const raw = JSON.stringify({
       lang: "he",
       speaker: "אֲדֹנָי",
@@ -127,20 +127,22 @@ describe("parsePersistedState", () => {
     expect(parsed?.hintRevealed).toBe(true);
   });
 
-  it("drops hintRevealed=true when revealed is invalid", () => {
+  it("restores hintRevealed when bonus hint was used", () => {
     const raw = JSON.stringify({
       lang: "he",
-      speaker: "",
-      listener: "",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
       portion: "",
-      bonus: "",
-      attempts: [],
-      revealed: true,
-      hintRevealed: true,
+      bonus: "הָאָרֶץ",
+      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false, countsAsTry: false }],
+      revealed: false,
+      bookHintUsed: true,
+      hintRevealed: false,
     });
 
     const parsed = parsePersistedState(raw, "he");
     expect(parsed?.revealed).toBe(false);
-    expect(parsed?.hintRevealed).toBe(false);
+    expect(parsed?.bookHintUsed).toBe(true);
+    expect(parsed?.hintRevealed).toBe(true);
   });
 });

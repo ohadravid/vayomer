@@ -111,7 +111,7 @@ export const resources = {
         listener: "מאזין",
         portion: "פרשה",
         bonus: "מילה חסרה",
-        bonusHint: "רמז לבונוס",
+        bonusHint: "רמז",
         selectOption: "בחרו אפשרות",
         check: "בדיקה",
         guesses: "ניחושים: {{count}}",

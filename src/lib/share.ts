@@ -24,7 +24,7 @@ function attemptRow(attempt: GuessResult, bonusRequired: boolean, hintUsed: bool
   const listener = attempt.listenerOk ? "✅" : "❌";
   if (!bonusRequired) return `${speaker}${listener}`;
   const coreSolved = attempt.speakerOk && attempt.listenerOk;
-  const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✡️") : "⬜";
+  const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✴️") : "⬜";
   const hint = hintUsed ? "💡" : "⬜";
   return `${speaker}${listener}${bonus}${hint}`;
 }

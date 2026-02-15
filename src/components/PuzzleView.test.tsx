@@ -4,6 +4,7 @@ import { act, create, type ReactTestRenderer } from "react-test-renderer";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
 import { PuzzleView } from "./PuzzleView";
+import { GuessForm } from "./GuessForm";
 import { resources } from "../i18n";
 import { pickHardWordPlaceholderForId } from "../lib/format";
 import type { GuessResult, Lang, PuzzleItem } from "../types";
@@ -166,7 +167,7 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("reveals a masked bonus hint quote when the bonus hint is used in stage two", () => {
+  it("reveals a masked bonus hint quote in stage two and unmasks it after solve", () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
       calls.push(state);
@@ -209,6 +210,51 @@ describe("PuzzleView persistence hydration", () => {
     expect(calls).toHaveLength(1);
     expect(calls[0]?.bookHintUsed).toBe(true);
     expect(calls[0]?.hintRevealed).toBe(true);
+
+    const formWithHint = root?.root.findByType(GuessForm);
+    act(() => {
+      formWithHint?.props.onChange("bonus", "land");
+    });
+    const formAfterBonusInput = root?.root.findByType(GuessForm);
+    act(() => {
+      formAfterBonusInput?.props.onSubmit();
+    });
+
+    const solvedHintQuoteNode = root?.root.findByProps({ id: "hintQuote" });
+    const solvedHintQuoteHtml = String(solvedHintQuoteNode?.props?.dangerouslySetInnerHTML?.__html ?? "");
+    expect(solvedHintQuoteHtml.includes("land")).toBe(true);
+    expect(solvedHintQuoteHtml.includes(placeholder)).toBe(false);
+  });
+
+  it("restores the bonus hint quote on load when hint was already used", () => {
+    const calls: PersistPayload[] = [];
+    const onPersist = (state: PersistPayload) => {
+      calls.push(state);
+    };
+
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          puzzle: puzzleWithHint,
+          revealed: false,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: true,
+            hintRevealed: false,
+            attempts: [coreSolvedAttempt],
+          },
+        })
+      );
+    });
+
+    expect(calls).toHaveLength(0);
+    expect(root?.root.findAllByProps({ id: "hintQuote" })).toHaveLength(1);
+    expect(root?.root.findByProps({ id: "hintRefLine" }).children.join("")).toBe("Genesis 12:1");
+    expect(root?.root.findByProps({ id: "bonusHint" }).props.disabled).toBe(true);
   });
 
   it("hides bonus hint control until stage two opens", () => {
@@ -233,5 +279,45 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
+  });
+
+  it("shows the failed-bonus marker after a wrong bonus guess", () => {
+    const onPersist = () => {};
+    const stageTwoOpenAttempt: GuessResult = {
+      speakerOk: true,
+      listenerOk: true,
+      portionOk: true,
+      bonusOk: false,
+      countsAsTry: false,
+    };
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          puzzle: puzzleWithHint,
+          revealed: false,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: false,
+            hintRevealed: false,
+            attempts: [stageTwoOpenAttempt],
+          },
+        })
+      );
+    });
+
+    const formBeforeGuess = root?.root.findByType(GuessForm);
+    expect(formBeforeGuess?.props.statusMarks).toBe("✅✅✡️⬜");
+
+    act(() => {
+      formBeforeGuess?.props.onChange("bonus", "earth");
+      formBeforeGuess?.props.onSubmit();
+    });
+
+    const formAfterGuess = root?.root.findByType(GuessForm);
+    expect(formAfterGuess?.props.statusMarks).toBe("✅✅✴️⬜");
   });
 });

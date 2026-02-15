@@ -132,14 +132,16 @@ export function parsePersistedState(raw: string | null, lang: Lang): PersistedSt
     const attempts = parseAttempts(parsed);
     const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
     const revealed = !!parsed.revealed && hasCoreSolvedAttempt;
+    const bookHintUsed = !!parsed.bookHintUsed;
+    const hintRevealed = !!parsed.hintRevealed || bookHintUsed;
     return {
       lang,
       speaker: parsed.speaker ?? "",
       listener: parsed.listener ?? "",
       portion: parsed.portion ?? "",
       bonus: parsed.bonus ?? "",
-      bookHintUsed: !!parsed.bookHintUsed,
-      hintRevealed: revealed && !!parsed.hintRevealed,
+      bookHintUsed,
+      hintRevealed,
       attempts,
       // Old/corrupted payloads can end up with `revealed: true` and no solved attempt.
       // Treat those as not revealed so the form remains playable on load.
