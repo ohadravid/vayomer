@@ -460,7 +460,13 @@ def _validate_cross_lang_alignment(item: Dict, bonus_en: str, bonus_he: str) -> 
     return "bonus_cross_lang_no_shared_verse"
 
 
-def _candidate_bonus_words(quote: str, riddle: str, lang: str, max_candidates: int = 80) -> List[str]:
+def _candidate_bonus_words(
+    quote: str,
+    riddle: str,
+    lang: str,
+    max_candidates: int = 80,
+    include_stopwords: bool = False,
+) -> List[str]:
     quote = _sanitize_str(quote)
     riddle = _sanitize_str(riddle)
     if not quote:
@@ -480,7 +486,7 @@ def _candidate_bonus_words(quote: str, riddle: str, lang: str, max_candidates: i
             continue
         if norm in riddle_tokens:
             continue
-        if norm in stopwords:
+        if not include_stopwords and norm in stopwords:
             continue
         if len(norm) <= 1:
             continue
@@ -503,6 +509,97 @@ def _candidate_bonus_words(quote: str, riddle: str, lang: str, max_candidates: i
             break
 
     return out
+
+
+def _rank_bonus_candidates(
+    candidates: List[str],
+    lang: str,
+    hint_picker: Optional["bonus_hint_picker.BonusHintPicker"],
+) -> List[str]:
+    if not hint_picker:
+        return list(candidates)
+    return sorted(
+        candidates,
+        key=lambda word: (
+            hint_picker.word_verse_count(lang=lang, word=word),
+            -len(_sanitize_str(word)),
+            _sanitize_str(word).casefold(),
+        ),
+    )
+
+
+def _fallback_bonus_pair(
+    *,
+    item: Dict,
+    candidate_bonus_en: List[str],
+    candidate_bonus_he: List[str],
+    min_tokens: int,
+    max_tokens: int,
+    hint_picker: Optional["bonus_hint_picker.BonusHintPicker"],
+) -> Tuple[Optional[Tuple[str, str]], str]:
+    en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
+    he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+    quote_en = _sanitize_str(en.get("quote"))
+    quote_he = _sanitize_str(he.get("quote"))
+    riddle_en = _sanitize_str(en.get("riddle"))
+    riddle_he = _sanitize_str(he.get("riddle"))
+    speaker_en = _sanitize_str(en.get("speaker"))
+    listener_en = _sanitize_str(en.get("listener"))
+    speaker_he = _sanitize_str(he.get("speaker"))
+    listener_he = _sanitize_str(he.get("listener"))
+
+    valid_en: List[str] = []
+    seen_en: Set[str] = set()
+    for candidate in _rank_bonus_candidates(candidate_bonus_en, "en", hint_picker):
+        fixed, _ = _validate_lang_bonus(
+            quote=quote_en,
+            riddle=riddle_en,
+            candidate=candidate,
+            lang="en",
+            min_tokens=min_tokens,
+            max_tokens=max_tokens,
+        )
+        if not fixed or fixed in seen_en:
+            continue
+        if text_cleanup.riddle_mentions_entities(fixed, speaker_en, listener_en, "en"):
+            continue
+        valid_en.append(fixed)
+        seen_en.add(fixed)
+
+    valid_he: List[str] = []
+    seen_he: Set[str] = set()
+    for candidate in _rank_bonus_candidates(candidate_bonus_he, "he", hint_picker):
+        fixed, _ = _validate_lang_bonus(
+            quote=quote_he,
+            riddle=riddle_he,
+            candidate=candidate,
+            lang="he",
+            min_tokens=min_tokens,
+            max_tokens=max_tokens,
+        )
+        if not fixed or fixed in seen_he:
+            continue
+        if text_cleanup.riddle_mentions_entities(fixed, speaker_he, listener_he, "he"):
+            continue
+        valid_he.append(fixed)
+        seen_he.add(fixed)
+
+    if not valid_en:
+        return None, "fallback_no_valid_en_candidate"
+    if not valid_he:
+        return None, "fallback_no_valid_he_candidate"
+
+    for fallback_en in valid_en:
+        for fallback_he in valid_he:
+            cross_lang_reason = _validate_cross_lang_alignment(
+                item=item,
+                bonus_en=fallback_en,
+                bonus_he=fallback_he,
+            )
+            if not cross_lang_reason:
+                return (fallback_en, fallback_he), "fallback_cross_lang_aligned"
+
+    return (valid_en[0], valid_he[0]), "fallback_without_cross_lang_alignment"
 
 
 def _to_bool(value: object) -> bool:
@@ -634,6 +731,20 @@ def _pick_bonus_words(
 
     candidate_bonus_en = _candidate_bonus_words(quote=quote_en, riddle=riddle_en, lang="en")
     candidate_bonus_he = _candidate_bonus_words(quote=quote_he, riddle=riddle_he, lang="he")
+    if not candidate_bonus_en:
+        candidate_bonus_en = _candidate_bonus_words(
+            quote=quote_en,
+            riddle=riddle_en,
+            lang="en",
+            include_stopwords=True,
+        )
+    if not candidate_bonus_he:
+        candidate_bonus_he = _candidate_bonus_words(
+            quote=quote_he,
+            riddle=riddle_he,
+            lang="he",
+            include_stopwords=True,
+        )
 
     if not candidate_bonus_en:
         return None, {"calls": 0, "prompt_tokens": 0, "response_tokens": 0, "estimated": False}, [], "bonus_en_no_candidates"
@@ -713,16 +824,6 @@ def _pick_bonus_words(
             retry_notes.append(f"attempt_{attempt}:{reason_he}")
             continue
 
-        if hint_picker is not None:
-            if hint_picker.is_generic_bonus_word(lang="en", word=fixed_en):
-                last_reason = "bonus_en_too_common_corpus"
-                retry_notes.append(f"attempt_{attempt}:{last_reason}")
-                continue
-            if hint_picker.is_generic_bonus_word(lang="he", word=fixed_he):
-                last_reason = "bonus_he_too_common_corpus"
-                retry_notes.append(f"attempt_{attempt}:{last_reason}")
-                continue
-
         if text_cleanup.riddle_mentions_entities(fixed_en, speaker_en, listener_en, "en"):
             last_reason = "bonus_en_mentions_entities"
             retry_notes.append(f"attempt_{attempt}:{last_reason}")
@@ -791,12 +892,29 @@ def _pick_bonus_words(
             "estimated": bool(llm_estimated > 0),
         }, retry_notes, ""
 
+    fallback_pair, fallback_reason = _fallback_bonus_pair(
+        item=item,
+        candidate_bonus_en=candidate_bonus_en,
+        candidate_bonus_he=candidate_bonus_he,
+        min_tokens=min_tokens,
+        max_tokens=max_tokens,
+        hint_picker=hint_picker,
+    )
+    if fallback_pair is not None:
+        retry_notes.append(f"fallback:{fallback_reason}")
+        return fallback_pair, {
+            "calls": llm_calls,
+            "prompt_tokens": llm_prompt_tokens,
+            "response_tokens": llm_response_tokens,
+            "estimated": bool(llm_estimated > 0),
+        }, retry_notes, ""
+
     return None, {
         "calls": llm_calls,
         "prompt_tokens": llm_prompt_tokens,
         "response_tokens": llm_response_tokens,
         "estimated": bool(llm_estimated > 0),
-    }, retry_notes, last_reason or "bonus_selection_failed"
+    }, retry_notes, (last_reason or fallback_reason or "bonus_selection_failed")
 
 
 def _normalize_item_book_and_ref(item: Dict, payload: Dict) -> bool:

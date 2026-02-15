@@ -225,6 +225,13 @@ class BonusHintPicker:
                 return True
         return False
 
+    def word_verse_count(self, *, lang: str, word: str) -> int:
+        tokens = set(text_cleanup.tokenize_for_match(_sanitize_str(word), lang))
+        if not tokens:
+            return 0
+        counts = self._en_token_verse_count if lang == "en" else self._he_token_verse_count
+        return max(int(counts.get(token, 0)) for token in tokens)
+
     def _collect_candidates(
         self,
         *,
