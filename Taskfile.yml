@@ -50,3 +50,8 @@ tasks:
     desc: Bonus+hint full run with stronger bonus/hint models
     cmds:
       - uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --bonus-model gemma3:27b --hint-model gemma3:27b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus --force
+
+  data:options:hard:
+    desc: Build item-level regular+hard difficulty option pools from rebuilt quotes
+    cmds:
+      - uv run python3 data_processing/postprocess_hard_options.py --model gemma3:4b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_options --force

@@ -173,3 +173,32 @@ Useful flags:
 - `--english-xml English_Collection.4921q.0.xml --hebrew-zip Tanach.xml.zip` override Bible sources used for hint search
 - `--book GEN --chapters 1-5` process only selected chapters
 - `--force` overwrite already-written files in the output folder
+
+## 7) Build item-level regular + hard option pools (LLM post-pass)
+
+Generates per-item multiple-choice distractor pools for both difficulty levels:
+
+- `en.options` / `he.options` (normal difficulty)
+- `en.hard_difficulty_options` / `he.hard_difficulty_options` (hard difficulty)
+
+This script:
+
+- scans non-draft `data/rebuilt_quotes/*.json`,
+- builds global candidate pools for speaker/listener in EN+HE, each candidate paired with its full quote,
+- iteratively samples candidates for each item and asks the LLM to select regular/hard distractors,
+- runs an LLM validation pass to drop weak picks,
+- fills missing slots with deterministic Python fallback ranking,
+- writes per-chapter outputs to `data/rebuilt_quotes_options/*-options.json`, preserving top-level chapter metadata.
+
+```bash
+uv run python3 data_processing/postprocess_hard_options.py --model gemma3:4b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_options
+```
+
+Useful flags:
+
+- `--sample-size 10` candidates per LLM sampling round
+- `--max-rounds 6` max LLM rounds per item/field/lang
+- `--option-count 4` target count per bucket (`options` and `hard_difficulty_options`)
+- `--skip-llm` use deterministic fallback ranking only (fast smoke checks)
+- `--book GEN --chapters 1-5` process only selected chapters
+- `--force` overwrite already-written output files

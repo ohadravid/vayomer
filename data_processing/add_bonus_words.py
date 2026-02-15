@@ -37,8 +37,8 @@ BONUS_PICK_PROMPT = [
     "1) Choose ONE English word and ONE Hebrew word representing the SAME concept in this quote pair.",
     "2) Choose ONLY by index from candidate_bonus_en/candidate_bonus_he arrays.",
     "3) bonus_en must NOT appear in riddle_en; bonus_he must NOT appear in riddle_he.",
-    "4) Prefer words that are interesting, important, funny, or dramatic.",
-    "5) Keep it short: ideally one word in each language.",
+    "4) Prefer words that are interesting, important, funny, or dramatic, but that are likely to also appear in other places in the entire Bible.",
+    "5) Keep it short: ideally one word in each language. No names of people.",
     "6) Never paraphrase or invent words that are not in candidates.",
 ]
 
@@ -58,8 +58,8 @@ BONUS_QUALITY_CHECK_PROMPT = [
     '{"accept":true,"reason":"...","checks":{"specific":true,"interesting":true,"not_function_word":true}}',
     "Rules:",
     "1) Accept only if both bonus words are specific/content-bearing in their quote context.",
-    "2) Reject generic function words (for example pronouns, articles, conjunctions, generic auxiliaries).",
-    "3) Prefer interesting / important / funny / dramatic content words.",
+    "2) Reject generic function words (for example pronouns, articles, conjunctions, generic auxiliaries). Avoid names of people.",
+    "3) Prefer interesting / important / funny / dramatic content words, but that are likely to also appear in other places in the entire Bible.",
     "4) If uncertain, reject.",
 ]
 
