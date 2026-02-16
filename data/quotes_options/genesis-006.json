@@ -1,0 +1,131 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 6,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "genesis-06-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+        "riddle": "the earth is filled with violence through them",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis",
+        "bonus": "flesh",
+        "bonus_hint": {
+          "quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 23,
+            "end": 23
+          }
+        },
+        "options": {
+          "speaker": [
+            "Abram",
+            "Abraham",
+            "Jacob",
+            "Joseph"
+          ],
+          "listener": [
+            "Laban",
+            "Lot",
+            "Jacob",
+            "all the Egyptians"
+          ]
+        },
+        "hard_difficulty_options": {
+          "speaker": [
+            "Abram",
+            "Abraham",
+            "Jacob",
+            "Joseph"
+          ],
+          "listener": [
+            "Laban",
+            "Lot",
+            "Jacob",
+            "all the Egyptians"
+          ]
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ",
+        "riddle": "כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "bonus": "בָּשָׂר",
+        "bonus_hint": {
+          "quote": "וַיַּפֵּל יְהוָה אֱלֹהִים תַּרְדֵּמָה עַל־הָאָדָם וַיִּישָׁן וַיִּקַּח אַחַת מִצַּלְעֹתָיו וַיִּסְגֹּר בָּשָׂר תַּחְתֶּֽנָּה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 21,
+            "end": 21
+          }
+        },
+        "options": {
+          "speaker": [
+            "אַבְרָם",
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "לָבָן",
+            "לוֹט",
+            "יַעֲקֹב",
+            "כָל־מִצְרַיִם"
+          ]
+        },
+        "hard_difficulty_options": {
+          "speaker": [
+            "אַבְרָם",
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "לָבָן",
+            "לוֹט",
+            "יַעֲקֹב",
+            "כָל־מִצְרַיִם"
+          ]
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns directly with a phrase in the English verse, maintaining the same event and meaning. Speaker and listener are clearly identified within the context.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 13,
+        "end": 13
+      }
+    }
+  ]
+}

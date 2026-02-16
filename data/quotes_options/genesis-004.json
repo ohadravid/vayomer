@@ -1,0 +1,133 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 4,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "genesis-04-06-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen? If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "riddle": "Why art thou wroth? and why is thy countenance fallen?",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis",
+        "bonus": "sin",
+        "bonus_hint": {
+          "quote": "And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 16,
+            "start": 1,
+            "end": 1
+          }
+        },
+        "options": {
+          "speaker": [
+            "the king of Sodom",
+            "Isaac",
+            "Laban",
+            "Abram"
+          ],
+          "listener": [
+            "the king of Sodom",
+            "Lot",
+            "Isaac",
+            "Hagar"
+          ]
+        },
+        "hard_difficulty_options": {
+          "speaker": [
+            "Joseph",
+            "Jacob",
+            "Esau",
+            "Abimelech"
+          ],
+          "listener": [
+            "Jacob",
+            "Abraham",
+            "Tamar",
+            "Sarai"
+          ]
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
+        "riddle": "לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "־קָיִן",
+        "book": "בראשית",
+        "bonus": "חַטָּאת",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר אַהֲרֹן אֶל־מֹשֶׁה הֵן הַיּוֹם הִקְרִיבוּ אֶת־חַטָּאתָם וְאֶת־עֹֽלָתָם לִפְנֵי יְהוָה וַתִּקְרֶאנָה אֹתִי כָּאֵלֶּה וְאָכַלְתִּי חַטָּאת הַיּוֹם הַיִּיטַב בְּעֵינֵי יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        },
+        "options": {
+          "speaker": [
+            "מֶֽלֶךְ־סְדֹם",
+            "יִצְחָק",
+            "לָבָן",
+            "אַבְרָם"
+          ],
+          "listener": [
+            "מֶלֶךְ סְדֹם",
+            "לוֹט",
+            "יִצְחָק",
+            "הָגָר"
+          ]
+        },
+        "hard_difficulty_options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "עֵשָׂו",
+            "אֲבִימֶלֶךְ"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "אַבְרָהָם",
+            "תָּמָר",
+            "שָׂרַי"
+          ]
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
+          "7": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ׃",
+          "7": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle is a direct quote from the provided English verses and aligns with the Hebrew riddle in meaning and context. Speaker and listener are clearly identified in both languages.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 7
+      }
+    }
+  ]
+}
