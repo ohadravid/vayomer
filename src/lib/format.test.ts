@@ -10,6 +10,10 @@ describe("normalize", () => {
     expect(normalize(" אַבְרָם!! ", "he")).toBe("אברם");
   });
 
+  it("normalizes maqaf and space variants the same in Hebrew", () => {
+    expect(normalize("מֶלֶךְ־סְדֹם", "he")).toBe(normalize("מֶלֶךְ סְדֹם", "he"));
+  });
+
   it("unifies divine-name aliases", () => {
     expect(normalize("God", "en")).toBe(normalize("the LORD", "en"));
     expect(normalize("אֱלֹהִים", "he")).toBe(normalize("יְהוָה", "he"));

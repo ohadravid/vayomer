@@ -5,6 +5,7 @@ import {
   resolveChoicePoolsForDifficulty,
   resolveChoicePoolsForPuzzle,
 } from "./easyMode";
+import { normalize } from "./format";
 import type { BookOptionSet, PuzzleItem } from "../types";
 
 const samplePuzzle: PuzzleItem = {
@@ -99,6 +100,35 @@ describe("buildMultipleChoiceOptions", () => {
     expect(options).toContain("אֱלֹהִים");
     expect(options).not.toContain("אֲדֹנָי");
     expect(options).not.toContain("יְהוָה");
+  });
+
+  it("canonicalizes compound hebrew divine-name variants to אֱלֹהִים", () => {
+    const options = buildMultipleChoiceOptions({
+      answer: "יְהוָה אֱלֹהִים",
+      pool: ["יהוה אלוהים", "משה", "אהרן"],
+      lang: "he",
+      seed: "puzzle:speaker:compound-canonical-he",
+      maxChoices: 4,
+    });
+
+    expect(options).toContain("אֱלֹהִים");
+    expect(options).not.toContain("יהוה אלוהים");
+    expect(options).not.toContain("יְהוָה אֱלֹהִים");
+  });
+
+  it("deduplicates Hebrew maqaf and space variants as a single option", () => {
+    const options = buildMultipleChoiceOptions({
+      answer: "מֶלֶךְ־סְדֹם",
+      pool: ["מֶלֶךְ סְדֹם", "אַבְרָם", "שָׂרַי"],
+      lang: "he",
+      seed: "puzzle:speaker:maqaf-he",
+      maxChoices: 4,
+    });
+
+    const matchingVariantCount = options.filter(
+      (option) => normalize(option, "he") === normalize("מֶלֶךְ סְדֹם", "he")
+    ).length;
+    expect(matchingVariantCount).toBe(1);
   });
 });
 

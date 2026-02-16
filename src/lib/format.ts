@@ -20,6 +20,8 @@ function normalizeEnglish(text: string): string {
 
 function normalizeHebrew(text: string): string {
   let s = text.toLowerCase();
+  // Treat maqaf as a word separator so `X־Y` and `X Y` normalize identically.
+  s = s.replace(/\u05be/g, " ");
   s = s.replace(/[\u0591-\u05C7]/g, "");
   s = s.replace(/ה['׳]/g, "השם");
   s = s.replace(/[^\w\u0590-\u05FF]+/g, " ");

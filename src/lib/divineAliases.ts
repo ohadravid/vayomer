@@ -41,6 +41,12 @@ const DIVINE_ALIAS_GROUPS: readonly DivineAliasGroup[] = [
           "אֱלֹהִים",
           "אלהים",
           "אלקים",
+          "יהוה אלוהים",
+          "יהוה אֱלֹהִים",
+          "יהוה אלהים",
+          "יְהוָה אלוהים",
+          "יְהוָה אֱלֹהִים",
+          "יְהוָה אלהים",
           "אדני",
           "אדוני",
           "אֲדֹנָי",
@@ -62,6 +68,8 @@ const DIVINE_ALIAS_GROUPS: readonly DivineAliasGroup[] = [
 function normalizeAliasKey(text: string, lang: Lang): string {
   let normalized = text.toLowerCase();
   if (lang === "he") {
+    // Keep maqaf as a separator for stable matching against spaced variants.
+    normalized = normalized.replace(/\u05be/g, " ");
     normalized = normalized.replace(/[\u0591-\u05C7]/g, "");
     normalized = normalized.replace(/ה['׳]/g, "השם");
   }
