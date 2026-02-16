@@ -7,7 +7,17 @@ import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
-import type { EasyChoicePools, GuessEditState, GuessResult, GuessValues, Lang, PuzzleItem } from "./types";
+import type {
+  BonusHint,
+  DifficultyChoicePools,
+  EasyChoiceField,
+  EasyChoicePools,
+  GuessEditState,
+  GuessResult,
+  GuessValues,
+  Lang,
+  PuzzleItem,
+} from "./types";
 import dailyData from "../data/daily.json";
 
 const samplePuzzle: PuzzleItem = {
@@ -53,6 +63,7 @@ type PuzzleInitial = ComponentProps<typeof PuzzleView>["initial"];
 const DAY_IN_MS = 24 * 60 * 60 * 1000;
 const DEBUG_EPOCH_DATE = new Date(2026, 1, 6);
 const DEBUG_DAILY_ORDER_SEED = 20260805;
+const CHOICE_FIELDS: EasyChoiceField[] = ["speaker", "listener"];
 
 function parsePuzzleItems(data: unknown): PuzzleItem[] {
   const payload = (data as { items?: unknown }).items ?? data;
@@ -129,6 +140,67 @@ function parseDateInputValue(value: string): Date | null {
     return null;
   }
   return parsed;
+}
+
+function toInt(value: unknown): number | null {
+  if (typeof value === "number" && Number.isFinite(value)) return Math.floor(value);
+  if (typeof value === "string") {
+    const parsed = Number.parseInt(value, 10);
+    return Number.isFinite(parsed) ? parsed : null;
+  }
+  return null;
+}
+
+function formatBonusHintSourceLine(hint: BonusHint | null | undefined): string {
+  if (!hint?.source) return "";
+  const book = typeof hint.source.book === "string" ? hint.source.book.trim() : "";
+  const chapter = toInt(hint.source.chapter);
+  const start = toInt(hint.source.start);
+  const end = toInt(hint.source.end);
+  const range =
+    chapter !== null && start !== null
+      ? `${chapter}:${end !== null && end !== start ? `${start}-${end}` : start}`
+      : "";
+  return [book, range].filter(Boolean).join(" ");
+}
+
+function normalizeChoicePool(pools: DifficultyChoicePools | null | undefined, field: EasyChoiceField): string[] {
+  const raw = pools?.[field];
+  if (!Array.isArray(raw)) return [];
+  const values: string[] = [];
+  const seen = new Set<string>();
+
+  for (const value of raw) {
+    if (typeof value !== "string") continue;
+    const trimmed = value.trim();
+    if (!trimmed || seen.has(trimmed)) continue;
+    values.push(trimmed);
+    seen.add(trimmed);
+  }
+
+  return values;
+}
+
+function renderChoicePoolValues(lang: Lang, pools: DifficultyChoicePools | null | undefined) {
+  const entries = CHOICE_FIELDS.map((field) => ({
+    field,
+    values: normalizeChoicePool(pools, field),
+  })).filter((entry) => entry.values.length > 0);
+
+  if (entries.length === 0) {
+    return <span className="debug-choice-pool-empty">{localize(lang, "Not set", "לא הוגדר")}</span>;
+  }
+
+  return (
+    <div className="debug-choice-pools">
+      {entries.map((entry) => (
+        <div className="debug-choice-pool-row" key={entry.field}>
+          <span className="debug-choice-pool-field">{entry.field === "speaker" ? localize(lang, "Speaker", "דובר") : localize(lang, "Listener", "מאזין")}</span>
+          <span className="debug-choice-pool-values">{entry.values.join(", ")}</span>
+        </div>
+      ))}
+    </div>
+  );
 }
 
 function buildInitial(lang: Lang, state: "core-solved" | "stage-two-missing" | "stage-two-revealed" | "solved" | "failed"): PuzzleInitial {
@@ -230,8 +302,8 @@ function makeDebugI18n(lang: Lang) {
   return i18n;
 }
 
-function QuoteBrowser({ lang }: { lang: Lang }) {
-  const total = debugQuoteItems.length;
+export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; items?: PuzzleItem[] }) {
+  const total = items.length;
   const order = useMemo(() => buildDailyOrder(total), [total]);
   const maxDayOffset = Math.max(0, total - 1);
   const [showFullQuote, setShowFullQuote] = useState(true);
@@ -249,7 +321,7 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
   }
 
   const selectedDate = dateForDayOffset(dayOffset);
-  const selectedItem = debugQuoteItems[order[dayOffset] ?? 0] ?? debugQuoteItems[0];
+  const selectedItem = items[order[dayOffset] ?? 0] ?? items[0];
   const dateInputValue = toDateInputValue(selectedDate);
   const minDate = toDateInputValue(DEBUG_EPOCH_DATE);
   const maxDate = toDateInputValue(dateForDayOffset(maxDayOffset));
@@ -259,6 +331,8 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
   const selectedText = selectedItem[lang];
   const portion = selectedItem.portion?.[lang] ?? "";
   const bonus = selectedText.bonus ?? "";
+  const bonusHintQuote = selectedText.bonus_hint?.quote?.trim() ?? "";
+  const bonusHintSourceLine = formatBonusHintSourceLine(selectedText.bonus_hint);
   const displayItem = showFullQuote
     ? selectedItem
     : lang === "he"
@@ -345,6 +419,27 @@ function QuoteBrowser({ lang }: { lang: Lang }) {
             <span className="debug-answer-value">{bonus}</span>
           </div>
         ) : null}
+        <div className="debug-answer-row">
+          <span className="debug-answer-label">{localize(lang, "Bonus hint", "רמז בונוס")}</span>
+          <div className="debug-answer-value">
+            {bonusHintQuote || bonusHintSourceLine ? (
+              <div className="debug-bonus-hint">
+                {bonusHintQuote ? <div className="debug-bonus-hint-quote">{bonusHintQuote}</div> : null}
+                {bonusHintSourceLine ? <div className="debug-bonus-hint-source">{bonusHintSourceLine}</div> : null}
+              </div>
+            ) : (
+              <span className="debug-choice-pool-empty">{localize(lang, "Not set", "לא הוגדר")}</span>
+            )}
+          </div>
+        </div>
+        <div className="debug-answer-row">
+          <span className="debug-answer-label">{localize(lang, "Options", "אפשרויות")}</span>
+          <div className="debug-answer-value">{renderChoicePoolValues(lang, selectedText.options)}</div>
+        </div>
+        <div className="debug-answer-row">
+          <span className="debug-answer-label">{localize(lang, "Hard options", "אפשרויות קשות")}</span>
+          <div className="debug-answer-value">{renderChoicePoolValues(lang, selectedText.hard_difficulty_options)}</div>
+        </div>
       </section>
     </section>
   );
