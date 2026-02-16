@@ -8,6 +8,7 @@ import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
+import { dayIndex, pickDailyItemIndex } from "./lib/daily";
 import type {
   BonusHint,
   DifficultyChoicePools,
@@ -60,55 +61,12 @@ const EMPTY_EDITED: GuessEditState = {
 };
 
 type PuzzleInitial = ComponentProps<typeof PuzzleView>["initial"];
-const DAY_IN_MS = 24 * 60 * 60 * 1000;
-const DEBUG_EPOCH_DATE = new Date(2026, 1, 6);
-const DEBUG_DAILY_ORDER_SEED = 20260805;
 const CHOICE_FIELDS: EasyChoiceField[] = ["speaker", "listener"];
 
 const debugQuoteItems = loadPuzzleItems();
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
-}
-
-function seededRandom(seed: number): () => number {
-  let state = seed >>> 0;
-  return () => {
-    state = (state + 0x6d2b79f5) >>> 0;
-    let mixed = Math.imul(state ^ (state >>> 15), state | 1);
-    mixed ^= mixed + Math.imul(mixed ^ (mixed >>> 7), mixed | 61);
-    return ((mixed ^ (mixed >>> 14)) >>> 0) / 4294967296;
-  };
-}
-
-function buildDailyOrder(total: number): number[] {
-  const order = Array.from({ length: total }, (_, idx) => idx);
-  const rand = seededRandom(DEBUG_DAILY_ORDER_SEED);
-
-  for (let idx = order.length - 1; idx > 0; idx -= 1) {
-    const swapIdx = Math.floor(rand() * (idx + 1));
-    [order[idx], order[swapIdx]] = [order[swapIdx], order[idx]];
-  }
-
-  return order;
-}
-
-function utcDayNumber(date: Date): number {
-  return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / DAY_IN_MS);
-}
-
-function dayOffsetFromEpoch(date: Date): number {
-  return utcDayNumber(date) - utcDayNumber(DEBUG_EPOCH_DATE);
-}
-
-function dateForDayOffset(dayOffset: number): Date {
-  const date = new Date(DEBUG_EPOCH_DATE);
-  date.setDate(date.getDate() + dayOffset);
-  return date;
-}
-
-function clamp(value: number, min: number, max: number): number {
-  return Math.min(Math.max(value, min), max);
 }
 
 function toDateInputValue(date: Date): string {
@@ -299,27 +257,18 @@ function makeDebugI18n(lang: Lang) {
 
 export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; items?: PuzzleItem[] }) {
   const total = items.length;
-  const order = useMemo(() => buildDailyOrder(total), [total]);
-  const maxDayOffset = Math.max(0, total - 1);
   const [showFullQuote, setShowFullQuote] = useState(true);
-  const [dayOffset, setDayOffset] = useState(() => {
-    if (total === 0) return 0;
-    return clamp(dayOffsetFromEpoch(new Date()), 0, maxDayOffset);
-  });
-
-  useEffect(() => {
-    setDayOffset((prev) => clamp(prev, 0, maxDayOffset));
-  }, [maxDayOffset]);
+  const [selectedDate, setSelectedDate] = useState(() => new Date());
 
   if (total === 0) {
     return <section className="card">{localize(lang, "No quotes available.", "אין ציטוטים זמינים.")}</section>;
   }
 
-  const selectedDate = dateForDayOffset(dayOffset);
-  const selectedItem = items[order[dayOffset] ?? 0] ?? items[0];
+  const daySlotIndex = dayIndex(total, selectedDate);
+  const selectedItemIndex = pickDailyItemIndex(total, selectedDate);
+  const displayOrderIndex = daySlotIndex + 1;
+  const selectedItem = items[selectedItemIndex] ?? items[0];
   const dateInputValue = toDateInputValue(selectedDate);
-  const minDate = toDateInputValue(DEBUG_EPOCH_DATE);
-  const maxDate = toDateInputValue(dateForDayOffset(maxDayOffset));
   const sourceStart = selectedItem.source?.ref_start ?? "";
   const sourceEnd = selectedItem.source?.ref_end ?? "";
   const sourceLabel = sourceStart && sourceEnd && sourceStart !== sourceEnd ? `${sourceStart} - ${sourceEnd}` : sourceStart || sourceEnd;
@@ -349,7 +298,17 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
   return (
     <section className="debug-quote-browser">
       <div className="debug-quote-browser-controls">
-        <button className="debug-quote-nav-btn" type="button" onClick={() => setDayOffset((prev) => clamp(prev - 1, 0, maxDayOffset))} disabled={dayOffset === 0}>
+        <button
+          className="debug-quote-nav-btn"
+          type="button"
+          onClick={() =>
+            setSelectedDate((prev) => {
+              const next = new Date(prev);
+              next.setDate(next.getDate() - 1);
+              return next;
+            })
+          }
+        >
           {localize(lang, "< Prev", "< הקודם")}
         </button>
         <input
@@ -357,15 +316,23 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
           type="date"
           aria-label={localize(lang, "Pick quote date", "בחרו תאריך ציטוט")}
           value={dateInputValue}
-          min={minDate}
-          max={maxDate}
           onChange={(event) => {
             const parsed = parseDateInputValue(event.target.value);
             if (!parsed) return;
-            setDayOffset(clamp(dayOffsetFromEpoch(parsed), 0, maxDayOffset));
+            setSelectedDate(parsed);
           }}
         />
-        <button className="debug-quote-nav-btn" type="button" onClick={() => setDayOffset((prev) => clamp(prev + 1, 0, maxDayOffset))} disabled={dayOffset === maxDayOffset}>
+        <button
+          className="debug-quote-nav-btn"
+          type="button"
+          onClick={() =>
+            setSelectedDate((prev) => {
+              const next = new Date(prev);
+              next.setDate(next.getDate() + 1);
+              return next;
+            })
+          }
+        >
           {localize(lang, "Next >", "הבא >")}
         </button>
       </div>
@@ -379,7 +346,7 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
       </div>
 
       <div className="debug-quote-browser-status">
-        {localize(lang, `Quote ${dayOffset + 1} of ${total}`, `ציטוט ${dayOffset + 1} מתוך ${total}`)} | {selectedItem.id}
+        {localize(lang, `Quote ${displayOrderIndex} of ${total}`, `ציטוט ${displayOrderIndex} מתוך ${total}`)} | {selectedItem.id}
       </div>
       {sourceLabel ? <div className="debug-quote-browser-source">{sourceLabel}</div> : null}
       <div className="debug-quote-browser-card">

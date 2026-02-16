@@ -1,5 +1,5 @@
-export const DAILY_EPOCH_DATE = new Date(2026, 1, 6);
-export const DAILY_ORDER_SEED = 20260805;
+export const DAILY_EPOCH_DATE = new Date(2026, 2, 16);
+export const DAILY_ORDER_SEED = 20220805;
 export const HARD_MODE_SUCCESS_MARKS = ["🔥", "⚔️", "👑"] as const;
 
 function utcDayNumber(date: Date): number {
@@ -11,6 +11,7 @@ function dayOffsetFromEpoch(date: Date, epochDate: Date): number {
 }
 
 export function dayIndex(total: number, date: Date = new Date(), epochDate: Date = DAILY_EPOCH_DATE): number {
+  if (total <= 0) return 0;
   const offset = dayOffsetFromEpoch(date, epochDate);
   return ((offset % total) + total) % total;
 }
@@ -25,8 +26,7 @@ export function seededRandom(seed: number): () => number {
   };
 }
 
-export function pickDailyItemIndex(total: number): number {
-  const day = dayIndex(total);
+function buildDailyOrder(total: number): number[] {
   const order = Array.from({ length: total }, (_, idx) => idx);
   const rand = seededRandom(DAILY_ORDER_SEED);
 
@@ -35,6 +35,13 @@ export function pickDailyItemIndex(total: number): number {
     [order[idx], order[swapIdx]] = [order[swapIdx], order[idx]];
   }
 
+  return order;
+}
+
+export function pickDailyItemIndex(total: number, date: Date = new Date()): number {
+  if (total <= 0) return 0;
+  const day = dayIndex(total, date);
+  const order = buildDailyOrder(total);
   return order[day] ?? 0;
 }
 
