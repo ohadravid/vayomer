@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import re
@@ -23,6 +24,7 @@ LANGS = ("en", "he")
 
 SAMPLE_PICK_PROMPT = [
     "You are selecting multiple-choice distractor options for a Bible quote puzzle.",
+    "Each candidate index is one aligned EN/HE entity pair from the same source item.",
     "Return strict JSON only with shape:",
     '{"regular_add":[0,1],"hard_add":[2,3],"reason":"..."}',
     "Goal:",
@@ -32,23 +34,27 @@ SAMPLE_PICK_PROMPT = [
     "Entity hygiene (critical):",
     "4) Select only concrete solvable entity labels (people, groups, titles, or stable named entities).",
     "5) Reject clauses/fragments like 'and he said', 'let the...', 'when ...', or any narrative sentence pieces.",
-    "6) Reject pronouns and ultra-generic labels like 'he', 'them', 'the man', 'the woman', 'people'.",
+    "6) Reject pronouns and ultra-generic labels like 'he', 'them', 'the man', 'the woman'.",
+    "6d) Semi-name group labels are acceptable when concrete in context: 'the people', 'children of Israel', 'his brethren', \"Moses' father in law\".",
     "Examples:",
-    "6a) Good: 'Pharaoh', 'the king of Egypt', 'Moses', 'the Hebrew midwives', 'Aaron'.",
+    "6a) Good: 'Pharaoh', 'the king of Egypt', 'Moses', 'the Hebrew midwives', 'Aaron', 'children of Israel'.",
     "6b) Bad: 'and he said', 'let the earth', 'him', 'them', 'a soul', 'the voice of swearing'.",
+    "6c) Also bad: labels beginning with reporting clauses, e.g. 'And the king of Egypt said to ...'.",
     "Guidance:",
     "7) For normal difficulty, keep plausible same-domain entities (kings with kings, family with family, prophet with prophet, etc).",
     "8) For hard difficulty, prefer near-confusable entities or lookalike contexts.",
     "9) Use quote context, not only names.",
     "10) It is acceptable for an option to fit both regular and hard.",
+    "11) Never include more than one divine-name alias in the same bucket.",
     "Rules:",
-    "11) Use only indices from candidates[].",
-    "12) Do not invent labels.",
-    "13) If uncertain, return fewer indices.",
+    "12) Use only indices from candidates[].",
+    "13) Do not invent labels.",
+    "14) If uncertain, return fewer indices.",
 ]
 
 VALIDATE_PROMPT = [
     "You are validating selected distractor options for a Bible quote puzzle.",
+    "Selections are aligned EN/HE entity pairs.",
     "Return strict JSON only with shape:",
     '{"drop_regular":[1],"drop_hard":[0],"reason":"..."}',
     "Task:",
@@ -56,12 +62,30 @@ VALIDATE_PROMPT = [
     "2) hard options should be at least as confusing as regular options.",
     "3) Remove any non-entity labels, clauses, pronouns, or generic placeholders.",
     "4) Keep options inside the same semantic domain when possible.",
+    "4b) Keep concrete semi-name groups when valid for the context (the people, children of Israel, his brethren, etc).",
+    "5) Keep at most one divine-name alias per bucket.",
     "Examples to drop:",
     "4a) 'and he said', 'let the ...', 'him', 'them', 'a soul', bare function words.",
     "Rules:",
-    "5) Use only indices from selected_regular[] and selected_hard[].",
-    "6) If all selected options are good, return empty arrays.",
-    "7) Be conservative; if uncertain, keep.",
+    "6) Use only indices from selected_regular[] and selected_hard[].",
+    "7) If all selected options are good, return empty arrays.",
+    "8) Be conservative; if uncertain, keep.",
+]
+
+SOLUTION_VALIDATE_PROMPT = [
+    "You are validating puzzle answer metadata for a Bible quote interaction.",
+    "Return strict JSON only with shape:",
+    '{"status":"keep|drop","reason":"...","checks":{"en_speaker_correct":true,"en_listener_correct":true,"he_speaker_correct":true,"he_listener_correct":true,"direction_speaker_to_listener":true,"solvable_entities":true}}',
+    "Task:",
+    "1) Check whether labeled speaker/listener are indeed who says and who is addressed.",
+    "2) Use quote + riddle context in both English and Hebrew.",
+    "3) Ensure direction is speaker -> listener for the riddle content.",
+    "4) Treat plain names/titles as valid labels: 'Moses', 'Aaron', 'the LORD', 'פרעה', 'מֹשֶׁה'.",
+    "5) Do NOT reject a plain label because the quote text starts with narrative wrappers like 'And NAME said'.",
+    "6) Focus on semantic correctness of who speaks and who is addressed.",
+    "Rules:",
+    "7) status=keep only when all checks are clearly true.",
+    "8) If uncertain, use status=drop.",
 ]
 
 EN_PRONOUNS = {
@@ -97,8 +121,6 @@ EN_GENERIC = {
     "a woman",
     "the woman",
     "woman",
-    "people",
-    "the people",
     "any",
     "anyone",
     "someone",
@@ -108,7 +130,6 @@ EN_GENERIC = {
     "those men",
     "a soul",
     "their secret",
-    "his sons",
     "his young men",
     "his neighbour",
     "his neighbor",
@@ -157,7 +178,6 @@ HE_GENERIC = {
     "האיש",
     "אשה",
     "האשה",
-    "העם",
     "האנשים",
 }
 
@@ -226,6 +246,84 @@ HE_BAD_SINGLE_TOKENS = {
 }
 
 HE_PREFIX_CHARS = set("ולבכמשה")
+EN_ALLOWED_SEMI_NAME_EXACT = {
+    "the people",
+    "the midwife",
+    "the midwives",
+    "children of israel",
+    "moses father in law",
+    "moses' father in law",
+    "his sons in law",
+    "his sons-in-law",
+    "his brethren",
+}
+EN_ALLOWED_POSSESSIVE_HEADS = {
+    "brethren",
+    "brother",
+    "brothers",
+    "sons",
+    "daughters",
+    "children",
+    "sons-in-law",
+    "law",
+    "father",
+    "mother",
+}
+DIVINE_ALIAS_GROUPS: Tuple[Dict[str, Dict[str, object]], ...] = (
+    {
+        "values": {
+            "en": {
+                "canonical": "God",
+                "aliases": (
+                    "GOD",
+                    "god",
+                    "the LORD",
+                    "LORD",
+                    "the Lord",
+                    "Lord",
+                    "the LORD God",
+                    "LORD God",
+                    "the Lord GOD",
+                    "Lord GOD",
+                    "Adonai",
+                    "Hashem",
+                    "G-d",
+                    "Gd",
+                    "YHWH",
+                    "Jehovah",
+                ),
+            },
+            "he": {
+                "canonical": "אֱלֹהִים",
+                "aliases": (
+                    "אלוהים",
+                    "אֱלֹהִים",
+                    "אלהים",
+                    "אלקים",
+                    "יהוה אלוהים",
+                    "יהוה אֱלֹהִים",
+                    "יהוה אלהים",
+                    "יְהוָה אלוהים",
+                    "יְהוָה אֱלֹהִים",
+                    "יְהוָה אלהים",
+                    "אדני",
+                    "אדוני",
+                    "אֲדֹנָי",
+                    "אֲדֹנָי יְהוָה",
+                    "יְהוָה",
+                    "יְהֹוָה",
+                    "יְהוִה",
+                    "יהוה",
+                    "השם",
+                    "ה׳",
+                    "ה'",
+                    "יי",
+                ),
+            },
+        }
+    },
+)
+DIVINE_ALIAS_LOOKUP: Dict[str, Dict[str, str]] = {lang: {} for lang in LANGS}
 
 
 @dataclass(frozen=True)
@@ -235,6 +333,7 @@ class Candidate:
     quote: str
     riddle: str
     item_id: str
+    book_code: str
     book: str
     chapter: int
     verse_start: int
@@ -243,12 +342,21 @@ class Candidate:
     quote_tokens: Tuple[str, ...]
 
 
+@dataclass(frozen=True)
+class AlignedCandidate:
+    en: Candidate
+    he: Candidate
+
+
 @dataclass
 class Stats:
     files_seen: int = 0
     files_written: int = 0
     files_skipped_existing: int = 0
     items_seen: int = 0
+    items_solution_checked: int = 0
+    items_dropped_solution_python: int = 0
+    items_dropped_solution_check: int = 0
     items_written: int = 0
     fields_built: int = 0
     fields_insufficient_regular: int = 0
@@ -280,6 +388,79 @@ def _sanitize_int(value: object, fallback: int = 0) -> int:
     if isinstance(value, str) and value.strip().isdigit():
         return int(value.strip())
     return fallback
+
+
+def _to_bool(value: object) -> bool:
+    if isinstance(value, bool):
+        return value
+    if isinstance(value, int):
+        return value != 0
+    if isinstance(value, str):
+        token = value.strip().lower()
+        if token in {"true", "yes", "1"}:
+            return True
+        if token in {"false", "no", "0"}:
+            return False
+    return False
+
+
+def _sanitize_keep_drop(value: object) -> str:
+    if not isinstance(value, str):
+        return ""
+    status = value.strip().lower()
+    if status in {"keep", "drop"}:
+        return status
+    return ""
+
+
+def _normalize_alias_key(text: str, lang: str) -> str:
+    normalized = (text or "").lower()
+    if lang == "he":
+        normalized = normalized.replace("\u05be", " ")
+        normalized = re.sub(r"[\u0591-\u05C7]", "", normalized)
+        normalized = re.sub(r"ה['׳]", "השם", normalized)
+    normalized = re.sub(r"[^\w\u0590-\u05FF]+", " ", normalized)
+    normalized = re.sub(r"\s+", " ", normalized).strip()
+    if lang == "en":
+        normalized = re.sub(r"^the\s+", "", normalized)
+    return normalized
+
+
+def _canonicalize_divine_name(value: str, lang: str) -> Optional[str]:
+    key = _normalize_alias_key(value, lang)
+    if not key:
+        return None
+    canonical = DIVINE_ALIAS_LOOKUP.get(lang, {}).get(key, "")
+    return canonical or None
+
+
+def _normalize_divine_alias(value: str, lang: str) -> Optional[str]:
+    canonical = _canonicalize_divine_name(value, lang)
+    if not canonical:
+        return None
+    return _normalize_alias_key(canonical, lang)
+
+
+for _group in DIVINE_ALIAS_GROUPS:
+    values = _group.get("values", {}) if isinstance(_group, dict) else {}
+    if not isinstance(values, dict):
+        continue
+    for _lang in LANGS:
+        entry = values.get(_lang, {})
+        if not isinstance(entry, dict):
+            continue
+        canonical_value = _sanitize_str(entry.get("canonical"))
+        aliases = entry.get("aliases")
+        if not canonical_value or not isinstance(aliases, (list, tuple)):
+            continue
+        key = _normalize_alias_key(canonical_value, _lang)
+        if key:
+            DIVINE_ALIAS_LOOKUP[_lang][key] = canonical_value
+        for alias in aliases:
+            alias_text = _sanitize_str(alias)
+            alias_key = _normalize_alias_key(alias_text, _lang)
+            if alias_key:
+                DIVINE_ALIAS_LOOKUP[_lang][alias_key] = canonical_value
 
 
 def _estimate_tokens(text: str) -> int:
@@ -401,7 +582,7 @@ def _book_match(payload: Dict, book_filter: str) -> bool:
 
 
 def _iter_input_files(in_dir: Path, include_draft: bool) -> Iterable[Path]:
-    files = sorted(path for path in in_dir.glob("*.json") if path.is_file())
+    files = sorted(path for path in in_dir.rglob("*.json") if path.is_file())
     if include_draft:
         yield from files
         return
@@ -415,6 +596,9 @@ def _normalize_label(label: str, lang: str) -> str:
     text = _sanitize_str(label)
     if not text:
         return ""
+    divine = _normalize_divine_alias(text, lang)
+    if divine:
+        return divine
     tokens = text_cleanup.tokenize_for_match(text, lang)
     if lang == "en" and tokens and tokens[0] in {"the", "a", "an"} and len(tokens) > 1:
         tokens = tokens[1:]
@@ -446,6 +630,21 @@ def _is_probably_non_person_label(label: str, lang: str) -> bool:
     return False
 
 
+def _is_allowed_semi_name_en(raw: str, tokens: Sequence[str]) -> bool:
+    lower = re.sub(r"\s+", " ", raw.strip().casefold())
+    if not lower:
+        return False
+    if lower in EN_ALLOWED_SEMI_NAME_EXACT:
+        return True
+    if lower.startswith("children of ") and len(tokens) >= 3:
+        return True
+    if lower.startswith("sons of ") and len(tokens) >= 3:
+        return True
+    if tokens and tokens[0] in {"his", "her", "their"}:
+        return any(token in EN_ALLOWED_POSSESSIVE_HEADS for token in tokens[1:])
+    return False
+
+
 def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
     raw = _sanitize_str(label)
     if not raw:
@@ -469,10 +668,12 @@ def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
         return False
 
     if lang == "en":
+        raw_lower = raw.casefold()
         lower = norm.casefold()
-        if lower in EN_PRONOUNS or lower in EN_GENERIC:
+        allow_semi_name = _is_allowed_semi_name_en(raw, tokens)
+        if (lower in EN_PRONOUNS or lower in EN_GENERIC) and not allow_semi_name:
             return False
-        if any(token in EN_PRONOUNS for token in tokens):
+        if any(token in EN_PRONOUNS for token in tokens) and not allow_semi_name:
             return False
         if any(lower.startswith(prefix) for prefix in EN_BAD_STARTS):
             return False
@@ -482,8 +683,8 @@ def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
             return False
         if strict and len(tokens) == 1 and lower in {"any", "all", "both", "one"}:
             return False
-        if strict and not any(ch.isupper() for ch in raw):
-            if not lower.startswith("the "):
+        if strict and not allow_semi_name and not any(ch.isupper() for ch in raw):
+            if not raw_lower.startswith("the "):
                 return False
             role = tokens[1] if len(tokens) > 1 else ""
             if role not in {
@@ -618,6 +819,7 @@ def _build_candidate(
         return None
 
     source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
+    book_code = _sanitize_str(source.get("book_code")) or _sanitize_str(payload.get("book_code"))
     book = _sanitize_str(source.get("book")) or _sanitize_str(payload.get("book"))
     chapter = _sanitize_int(source.get("chapter"), _sanitize_int(payload.get("chapter"), 0))
     verse_start = _sanitize_int(source.get("quote_verse_start"), 0)
@@ -630,6 +832,7 @@ def _build_candidate(
         quote=quote,
         riddle=riddle,
         item_id=item_id,
+        book_code=book_code,
         book=book,
         chapter=chapter,
         verse_start=verse_start,
@@ -639,12 +842,25 @@ def _build_candidate(
     )
 
 
+def _build_aligned_candidate(
+    *,
+    item: Dict,
+    payload: Dict,
+    field: str,
+) -> Optional[AlignedCandidate]:
+    en_candidate = _build_candidate(item=item, payload=payload, lang="en", field=field)
+    he_candidate = _build_candidate(item=item, payload=payload, lang="he", field=field)
+    if en_candidate is None or he_candidate is None:
+        return None
+    if not en_candidate.item_id or en_candidate.item_id != he_candidate.item_id:
+        return None
+    return AlignedCandidate(en=en_candidate, he=he_candidate)
+
+
 def _collect_candidate_pools(
     payloads: Sequence[Tuple[Path, Dict]],
-) -> Dict[Tuple[str, str], List[Candidate]]:
-    pools: Dict[Tuple[str, str], List[Candidate]] = {
-        (lang, field): [] for lang in LANGS for field in FIELDS
-    }
+) -> Dict[str, List[AlignedCandidate]]:
+    pools: Dict[str, List[AlignedCandidate]] = {field: [] for field in FIELDS}
     for _, payload in payloads:
         items = payload.get("items", [])
         if not isinstance(items, list):
@@ -652,37 +868,90 @@ def _collect_candidate_pools(
         for item in items:
             if not isinstance(item, dict):
                 continue
-            for lang in LANGS:
-                for field in FIELDS:
-                    candidate = _build_candidate(item=item, payload=payload, lang=lang, field=field)
-                    if candidate is None:
-                        continue
-                    pools[(lang, field)].append(candidate)
+            for field in FIELDS:
+                candidate = _build_aligned_candidate(item=item, payload=payload, field=field)
+                if candidate is None:
+                    continue
+                pools[field].append(candidate)
     return pools
+
+
+def _normalized_book_key(value: str) -> str:
+    return _sanitize_str(value).casefold()
+
+
+def _same_book(
+    candidate: AlignedCandidate,
+    *,
+    target_book_code: str,
+    target_book: str,
+) -> bool:
+    if target_book_code:
+        return _normalized_book_key(candidate.en.book_code) == _normalized_book_key(target_book_code)
+    if not target_book:
+        return True
+    return _normalized_book_key(candidate.en.book) == _normalized_book_key(target_book)
+
+
+def _aligned_candidate_key(candidate: AlignedCandidate) -> str:
+    return f"{candidate.en.label_norm}|{candidate.he.label_norm}"
+
+
+def _aligned_candidate_seed_rank(candidate: AlignedCandidate, seed: str) -> int:
+    key = (
+        f"{seed}|{candidate.en.item_id}|{candidate.en.book_code}|{candidate.en.book}|{candidate.en.chapter}|"
+        f"{candidate.en.verse_start}-{candidate.en.verse_end}|{_aligned_candidate_key(candidate)}"
+    )
+    return _stable_hash(key)
 
 
 def _prepare_candidate_queue(
     *,
-    candidates: Sequence[Candidate],
-    lang: str,
-    answer_norm: str,
+    candidates: Sequence[AlignedCandidate],
+    answer_norm_en: str,
+    answer_norm_he: str,
     seed: str,
     option_count: int,
-) -> List[Candidate]:
-    ordered = sorted(candidates, key=lambda c: _candidate_seed_rank(c, seed))
-    strict_out: List[Candidate] = []
-    relaxed_out: List[Candidate] = []
-    seen_norms: Set[str] = set()
+    same_book_only: bool,
+    target_book_code: str,
+    target_book: str,
+) -> List[AlignedCandidate]:
+    ordered = sorted(candidates, key=lambda c: _aligned_candidate_seed_rank(c, seed))
+    strict_out: List[AlignedCandidate] = []
+    relaxed_out: List[AlignedCandidate] = []
+    seen_en_norms: Set[str] = set()
+    seen_he_norms: Set[str] = set()
     for candidate in ordered:
-        if not candidate.label_norm or candidate.label_norm == answer_norm:
+        if same_book_only and not _same_book(
+            candidate,
+            target_book_code=target_book_code,
+            target_book=target_book,
+        ):
             continue
-        if candidate.label_norm in seen_norms:
+        if (
+            candidate.en.label_norm == answer_norm_en
+            or candidate.he.label_norm == answer_norm_he
+            or candidate.en.label_norm == answer_norm_he
+            or candidate.he.label_norm == answer_norm_en
+        ):
             continue
-        seen_norms.add(candidate.label_norm)
-        if _is_viable_entity_label(candidate.label, lang, strict=True):
+        if (
+            not candidate.en.label_norm
+            or not candidate.he.label_norm
+            or candidate.en.label_norm in seen_en_norms
+            or candidate.he.label_norm in seen_he_norms
+        ):
+            continue
+        seen_en_norms.add(candidate.en.label_norm)
+        seen_he_norms.add(candidate.he.label_norm)
+        if _is_viable_entity_label(candidate.en.label, "en", strict=True) and _is_viable_entity_label(
+            candidate.he.label, "he", strict=True
+        ):
             strict_out.append(candidate)
             continue
-        if _is_viable_entity_label(candidate.label, lang, strict=False):
+        if _is_viable_entity_label(candidate.en.label, "en", strict=False) and _is_viable_entity_label(
+            candidate.he.label, "he", strict=False
+        ):
             relaxed_out.append(candidate)
 
     strict_floor = max(option_count * 2, 8)
@@ -691,83 +960,149 @@ def _prepare_candidate_queue(
     return strict_out + relaxed_out
 
 
-def _candidate_to_prompt(candidate: Candidate, idx: int) -> Dict:
+def _clip_text(value: str, max_chars: int = 220) -> str:
+    text = _sanitize_str(value)
+    if len(text) <= max_chars:
+        return text
+    return text[: max_chars - 3] + "..."
+
+
+def _candidate_to_prompt(candidate: AlignedCandidate, idx: int) -> Dict:
     return {
         "idx": idx,
-        "label": candidate.label,
-        "quote": candidate.quote,
-        "riddle": candidate.riddle,
+        "label_en": candidate.en.label,
+        "label_he": candidate.he.label,
+        "quote_en": _clip_text(candidate.en.quote),
+        "quote_he": _clip_text(candidate.he.quote),
+        "riddle_en": _clip_text(candidate.en.riddle, max_chars=96),
+        "riddle_he": _clip_text(candidate.he.riddle, max_chars=96),
         "source": {
-            "item_id": candidate.item_id,
-            "book": candidate.book,
-            "chapter": candidate.chapter,
-            "start": candidate.verse_start,
-            "end": candidate.verse_end,
+            "item_id": candidate.en.item_id,
+            "book_code": candidate.en.book_code,
+            "book": candidate.en.book,
+            "chapter": candidate.en.chapter,
+            "start": candidate.en.verse_start,
+            "end": candidate.en.verse_end,
         },
     }
 
 
-def _selected_to_prompt(selected: Sequence[Candidate]) -> List[Dict]:
+def _selected_to_prompt(selected: Sequence[AlignedCandidate]) -> List[Dict]:
     return [
         {
             "idx": idx,
-            "label": candidate.label,
-            "quote": candidate.quote,
-            "riddle": candidate.riddle,
+            "label_en": candidate.en.label,
+            "label_he": candidate.he.label,
+            "quote_en": _clip_text(candidate.en.quote),
+            "quote_he": _clip_text(candidate.he.quote),
+            "riddle_en": _clip_text(candidate.en.riddle, max_chars=96),
+            "riddle_he": _clip_text(candidate.he.riddle, max_chars=96),
             "source": {
-                "item_id": candidate.item_id,
-                "book": candidate.book,
-                "chapter": candidate.chapter,
-                "start": candidate.verse_start,
-                "end": candidate.verse_end,
+                "item_id": candidate.en.item_id,
+                "book_code": candidate.en.book_code,
+                "book": candidate.en.book,
+                "chapter": candidate.en.chapter,
+                "start": candidate.en.verse_start,
+                "end": candidate.en.verse_end,
             },
         }
         for idx, candidate in enumerate(selected)
     ]
 
 
+def _aligned_candidate_score(
+    *,
+    candidate: AlignedCandidate,
+    answer_tokens_en: Set[str],
+    answer_tokens_he: Set[str],
+    target_quote_tokens_en: Set[str],
+    target_quote_tokens_he: Set[str],
+    target_riddle_tokens_en: Set[str],
+    target_riddle_tokens_he: Set[str],
+) -> Tuple[float, float]:
+    regular_en, hard_en = _candidate_score(
+        candidate=candidate.en,
+        lang="en",
+        answer_tokens=answer_tokens_en,
+        target_quote_tokens=target_quote_tokens_en,
+        target_riddle_tokens=target_riddle_tokens_en,
+    )
+    regular_he, hard_he = _candidate_score(
+        candidate=candidate.he,
+        lang="he",
+        answer_tokens=answer_tokens_he,
+        target_quote_tokens=target_quote_tokens_he,
+        target_riddle_tokens=target_riddle_tokens_he,
+    )
+    quality = 1.0
+    strict_en = _is_viable_entity_label(candidate.en.label, "en", strict=True)
+    strict_he = _is_viable_entity_label(candidate.he.label, "he", strict=True)
+    if not strict_en or not strict_he:
+        quality = 0.72
+        if not _is_viable_entity_label(candidate.en.label, "en", strict=False):
+            return 0.0, 0.0
+        if not _is_viable_entity_label(candidate.he.label, "he", strict=False):
+            return 0.0, 0.0
+    regular = ((regular_en + regular_he) / 2.0) * quality
+    hard = ((hard_en + hard_he) / 2.0) * quality
+    return regular, hard
+
+
 def _append_candidate(
     *,
-    bucket: List[Candidate],
-    bucket_norms: Set[str],
-    candidate: Candidate,
+    bucket: List[AlignedCandidate],
+    bucket_en_norms: Set[str],
+    bucket_he_norms: Set[str],
+    candidate: AlignedCandidate,
     max_count: int,
 ) -> bool:
     if len(bucket) >= max_count:
         return False
-    if not candidate.label_norm or candidate.label_norm in bucket_norms:
+    if (
+        not candidate.en.label_norm
+        or not candidate.he.label_norm
+        or candidate.en.label_norm in bucket_en_norms
+        or candidate.he.label_norm in bucket_he_norms
+    ):
         return False
     bucket.append(candidate)
-    bucket_norms.add(candidate.label_norm)
+    bucket_en_norms.add(candidate.en.label_norm)
+    bucket_he_norms.add(candidate.he.label_norm)
     return True
 
 
 def _fill_bucket_with_fallback(
     *,
-    bucket: List[Candidate],
-    other_bucket: Sequence[Candidate],
-    queue: Sequence[Candidate],
-    lang: str,
+    bucket: List[AlignedCandidate],
+    other_bucket: Sequence[AlignedCandidate],
+    queue: Sequence[AlignedCandidate],
     max_count: int,
     score_kind: str,
-    answer_tokens: Set[str],
-    target_quote_tokens: Set[str],
-    target_riddle_tokens: Set[str],
+    answer_tokens_en: Set[str],
+    answer_tokens_he: Set[str],
+    target_quote_tokens_en: Set[str],
+    target_quote_tokens_he: Set[str],
+    target_riddle_tokens_en: Set[str],
+    target_riddle_tokens_he: Set[str],
 ) -> None:
     if len(bucket) >= max_count:
         return
 
-    bucket_norms = {candidate.label_norm for candidate in bucket}
-    other_norms = {candidate.label_norm for candidate in other_bucket}
-    scored: List[Tuple[float, Candidate]] = []
+    bucket_en_norms = {candidate.en.label_norm for candidate in bucket}
+    bucket_he_norms = {candidate.he.label_norm for candidate in bucket}
+    other_en_norms = {candidate.en.label_norm for candidate in other_bucket}
+    other_he_norms = {candidate.he.label_norm for candidate in other_bucket}
+    scored: List[Tuple[float, AlignedCandidate]] = []
 
     for candidate in queue:
-        regular_score, hard_score = _candidate_score(
+        regular_score, hard_score = _aligned_candidate_score(
             candidate=candidate,
-            lang=lang,
-            answer_tokens=answer_tokens,
-            target_quote_tokens=target_quote_tokens,
-            target_riddle_tokens=target_riddle_tokens,
+            answer_tokens_en=answer_tokens_en,
+            answer_tokens_he=answer_tokens_he,
+            target_quote_tokens_en=target_quote_tokens_en,
+            target_quote_tokens_he=target_quote_tokens_he,
+            target_riddle_tokens_en=target_riddle_tokens_en,
+            target_riddle_tokens_he=target_riddle_tokens_he,
         )
         score = hard_score if score_kind == "hard" else regular_score
         scored.append((score, candidate))
@@ -776,13 +1111,20 @@ def _fill_bucket_with_fallback(
 
     for allow_overlap in (False, True):
         for _, candidate in scored:
-            if candidate.label_norm in bucket_norms:
+            if (
+                candidate.en.label_norm in bucket_en_norms
+                or candidate.he.label_norm in bucket_he_norms
+            ):
                 continue
-            if not allow_overlap and candidate.label_norm in other_norms:
+            if not allow_overlap and (
+                candidate.en.label_norm in other_en_norms
+                or candidate.he.label_norm in other_he_norms
+            ):
                 continue
             if _append_candidate(
                 bucket=bucket,
-                bucket_norms=bucket_norms,
+                bucket_en_norms=bucket_en_norms,
+                bucket_he_norms=bucket_he_norms,
                 candidate=candidate,
                 max_count=max_count,
             ):
@@ -790,22 +1132,153 @@ def _fill_bucket_with_fallback(
                     return
 
 
+def _quote_has_divine_name(quote: str, lang: str) -> bool:
+    return bool(text_cleanup.best_god_name_in_quote(_sanitize_str(quote), lang))
+
+
+def _entity_present_in_quote(entity: str, quote: str, lang: str) -> bool:
+    if text_cleanup.entity_in_quote(entity, quote, lang):
+        return True
+    return bool(_normalize_divine_alias(entity, lang) and _quote_has_divine_name(quote, lang))
+
+
+def _is_solution_entity_label(label: str, lang: str) -> bool:
+    raw = _sanitize_str(label)
+    if not raw:
+        return False
+    norm = _normalize_label(raw, lang)
+    if not norm:
+        return False
+    tokens = text_cleanup.tokenize_for_match(raw, lang)
+    if not tokens:
+        return False
+
+    if lang == "en":
+        lower = raw.strip().lower()
+        if lower in EN_PRONOUNS:
+            return False
+        if lower.startswith(("he ", "she ", "they ", "them ", "him ", "her ", "you ", "thou ", "thee ", "ye ")):
+            return False
+        if any(marker in f" {lower} " for marker in EN_BAD_MARKERS):
+            return False
+        if len(tokens) > 8:
+            return False
+        return True
+
+    if lang == "he":
+        expanded_tokens = _hebrew_unprefixed_tokens(tokens)
+        if norm in HE_PRONOUNS or expanded_tokens.intersection(HE_PRONOUNS):
+            return False
+        if any(marker in norm for marker in HE_BAD_MARKERS):
+            return False
+        if len(tokens) > 8:
+            return False
+        return True
+
+    return False
+
+
+def _python_validate_solution(item: Dict) -> Tuple[bool, str]:
+    en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
+    he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+    for lang, section in (("en", en), ("he", he)):
+        quote = _sanitize_str(section.get("quote"))
+        if not quote:
+            return False, f"{lang}_missing_quote"
+        speaker = _sanitize_str(section.get("speaker"))
+        listener = _sanitize_str(section.get("listener"))
+        if not speaker:
+            return False, f"{lang}_missing_speaker"
+        if not listener:
+            return False, f"{lang}_missing_listener"
+        if not _is_solution_entity_label(speaker, lang):
+            return False, f"{lang}_speaker_not_entity"
+        if not _is_solution_entity_label(listener, lang):
+            return False, f"{lang}_listener_not_entity"
+        if not _entity_present_in_quote(speaker, quote, lang):
+            return False, f"{lang}_speaker_not_in_quote"
+        if not _entity_present_in_quote(listener, quote, lang):
+            return False, f"{lang}_listener_not_in_quote"
+        if _normalize_label(speaker, lang) == _normalize_label(listener, lang):
+            return False, f"{lang}_speaker_listener_same"
+    return True, "python_solution_ok"
+
+
+def _llm_validate_solution(
+    *,
+    model: str,
+    item: Dict,
+    retries: int,
+) -> Tuple[bool, str, Dict[str, int | bool]]:
+    en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
+    he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+    source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
+
+    payload = {
+        "instructions": SOLUTION_VALIDATE_PROMPT,
+        "context": {
+            "item_id": _sanitize_str(item.get("id")),
+            "book_code": _sanitize_str(source.get("book_code")),
+            "book": _sanitize_str(source.get("book")),
+            "chapter": _sanitize_int(source.get("chapter"), 0),
+        },
+        "en": {
+            "quote": _sanitize_str(en.get("quote")),
+            "riddle": _sanitize_str(en.get("riddle")),
+            "speaker": _sanitize_str(en.get("speaker")),
+            "listener": _sanitize_str(en.get("listener")),
+        },
+        "he": {
+            "quote": _sanitize_str(he.get("quote")),
+            "riddle": _sanitize_str(he.get("riddle")),
+            "speaker": _sanitize_str(he.get("speaker")),
+            "listener": _sanitize_str(he.get("listener")),
+        },
+    }
+
+    data, llm_stats = _call_llm_json(
+        model=model,
+        payload=payload,
+        max_attempts=max(1, retries),
+    )
+
+    status = _sanitize_keep_drop(data.get("status"))
+    reason = _sanitize_str(data.get("reason")) or "solution_check_failed"
+    checks = data.get("checks", {}) if isinstance(data.get("checks"), dict) else {}
+    required_checks = (
+        _to_bool(checks.get("en_speaker_correct")),
+        _to_bool(checks.get("en_listener_correct")),
+        _to_bool(checks.get("he_speaker_correct")),
+        _to_bool(checks.get("he_listener_correct")),
+        _to_bool(checks.get("direction_speaker_to_listener")),
+        _to_bool(checks.get("solvable_entities")),
+    )
+
+    is_valid = status == "keep" and all(required_checks)
+    return is_valid, reason, llm_stats
+
+
 def _select_options_for_field(
     *,
     model: str,
     skip_llm: bool,
-    lang: str,
     field: str,
     item_id: str,
-    answer: str,
-    target_quote: str,
-    target_riddle: str,
-    candidates: Sequence[Candidate],
+    answer_en: str,
+    answer_he: str,
+    target_quote_en: str,
+    target_quote_he: str,
+    target_riddle_en: str,
+    target_riddle_he: str,
+    candidates: Sequence[AlignedCandidate],
     option_count: int,
     sample_size: int,
     max_rounds: int,
     llm_retries: int,
-) -> Tuple[List[str], List[str], Dict[str, int | bool], List[str]]:
+    same_book_only: bool,
+    target_book_code: str,
+    target_book: str,
+) -> Tuple[List[AlignedCandidate], List[AlignedCandidate], Dict[str, int | bool], List[str]]:
     llm_totals: Dict[str, int | bool] = {
         "calls": 0,
         "prompt_tokens": 0,
@@ -814,22 +1287,33 @@ def _select_options_for_field(
     }
     notes: List[str] = []
 
-    answer_norm = _normalize_label(answer, lang)
+    answer_norm_en = _normalize_label(answer_en, "en")
+    answer_norm_he = _normalize_label(answer_he, "he")
     queue = _prepare_candidate_queue(
         candidates=candidates,
-        lang=lang,
-        answer_norm=answer_norm,
-        seed=f"{item_id}:{lang}:{field}",
+        answer_norm_en=answer_norm_en,
+        answer_norm_he=answer_norm_he,
+        seed=f"{item_id}:{field}",
         option_count=option_count,
+        same_book_only=same_book_only,
+        target_book_code=target_book_code,
+        target_book=target_book,
     )
-    strict_count = sum(1 for candidate in queue if _is_viable_entity_label(candidate.label, lang, strict=True))
+    strict_count = sum(
+        1
+        for candidate in queue
+        if _is_viable_entity_label(candidate.en.label, "en", strict=True)
+        and _is_viable_entity_label(candidate.he.label, "he", strict=True)
+    )
     if strict_count < option_count * 2:
         notes.append(f"low_strict_candidates:{strict_count}")
 
-    selected_regular: List[Candidate] = []
-    selected_hard: List[Candidate] = []
-    regular_norms: Set[str] = set()
-    hard_norms: Set[str] = set()
+    selected_regular: List[AlignedCandidate] = []
+    selected_hard: List[AlignedCandidate] = []
+    regular_en_norms: Set[str] = set()
+    regular_he_norms: Set[str] = set()
+    hard_en_norms: Set[str] = set()
+    hard_he_norms: Set[str] = set()
 
     rounds = 0
     cursor = 0
@@ -854,11 +1338,13 @@ def _select_options_for_field(
                 },
                 "target": {
                     "item_id": item_id,
-                    "lang": lang,
                     "field": field,
-                    "answer": answer,
-                    "quote": target_quote,
-                    "riddle": target_riddle,
+                    "answer_en": answer_en,
+                    "answer_he": answer_he,
+                    "quote_en": target_quote_en,
+                    "quote_he": target_quote_he,
+                    "riddle_en": target_riddle_en,
+                    "riddle_he": target_riddle_he,
                 },
                 "limits": {
                     "regular_target_count": option_count,
@@ -891,7 +1377,8 @@ def _select_options_for_field(
                 candidate = batch[idx]
                 _append_candidate(
                     bucket=selected_regular,
-                    bucket_norms=regular_norms,
+                    bucket_en_norms=regular_en_norms,
+                    bucket_he_norms=regular_he_norms,
                     candidate=candidate,
                     max_count=option_count,
                 )
@@ -899,7 +1386,8 @@ def _select_options_for_field(
                 candidate = batch[idx]
                 _append_candidate(
                     bucket=selected_hard,
-                    bucket_norms=hard_norms,
+                    bucket_en_norms=hard_en_norms,
+                    bucket_he_norms=hard_he_norms,
                     candidate=candidate,
                     max_count=option_count,
                 )
@@ -909,11 +1397,13 @@ def _select_options_for_field(
                 "instructions": VALIDATE_PROMPT,
                 "target": {
                     "item_id": item_id,
-                    "lang": lang,
                     "field": field,
-                    "answer": answer,
-                    "quote": target_quote,
-                    "riddle": target_riddle,
+                    "answer_en": answer_en,
+                    "answer_he": answer_he,
+                    "quote_en": target_quote_en,
+                    "quote_he": target_quote_he,
+                    "riddle_en": target_riddle_en,
+                    "riddle_he": target_riddle_he,
                 },
                 "selected_regular": _selected_to_prompt(selected_regular),
                 "selected_hard": _selected_to_prompt(selected_hard),
@@ -940,74 +1430,86 @@ def _select_options_for_field(
                     for idx, candidate in enumerate(selected_regular)
                     if idx not in drop_regular
                 ]
-                regular_norms = {candidate.label_norm for candidate in selected_regular}
+                regular_en_norms = {candidate.en.label_norm for candidate in selected_regular}
+                regular_he_norms = {candidate.he.label_norm for candidate in selected_regular}
             if drop_hard:
                 selected_hard = [
                     candidate for idx, candidate in enumerate(selected_hard) if idx not in drop_hard
                 ]
-                hard_norms = {candidate.label_norm for candidate in selected_hard}
+                hard_en_norms = {candidate.en.label_norm for candidate in selected_hard}
+                hard_he_norms = {candidate.he.label_norm for candidate in selected_hard}
 
-    answer_tokens = _token_set(answer, lang)
-    target_quote_tokens = _token_set(target_quote, lang)
-    target_riddle_tokens = _token_set(target_riddle, lang)
+    answer_tokens_en = _token_set(answer_en, "en")
+    answer_tokens_he = _token_set(answer_he, "he")
+    target_quote_tokens_en = _token_set(target_quote_en, "en")
+    target_quote_tokens_he = _token_set(target_quote_he, "he")
+    target_riddle_tokens_en = _token_set(target_riddle_en, "en")
+    target_riddle_tokens_he = _token_set(target_riddle_he, "he")
 
     _fill_bucket_with_fallback(
         bucket=selected_regular,
         other_bucket=selected_hard,
         queue=queue,
-        lang=lang,
         max_count=option_count,
         score_kind="regular",
-        answer_tokens=answer_tokens,
-        target_quote_tokens=target_quote_tokens,
-        target_riddle_tokens=target_riddle_tokens,
+        answer_tokens_en=answer_tokens_en,
+        answer_tokens_he=answer_tokens_he,
+        target_quote_tokens_en=target_quote_tokens_en,
+        target_quote_tokens_he=target_quote_tokens_he,
+        target_riddle_tokens_en=target_riddle_tokens_en,
+        target_riddle_tokens_he=target_riddle_tokens_he,
     )
     _fill_bucket_with_fallback(
         bucket=selected_hard,
         other_bucket=selected_regular,
         queue=queue,
-        lang=lang,
         max_count=option_count,
         score_kind="hard",
-        answer_tokens=answer_tokens,
-        target_quote_tokens=target_quote_tokens,
-        target_riddle_tokens=target_riddle_tokens,
+        answer_tokens_en=answer_tokens_en,
+        answer_tokens_he=answer_tokens_he,
+        target_quote_tokens_en=target_quote_tokens_en,
+        target_quote_tokens_he=target_quote_tokens_he,
+        target_riddle_tokens_en=target_riddle_tokens_en,
+        target_riddle_tokens_he=target_riddle_tokens_he,
     )
 
-    regular_labels = [candidate.label for candidate in selected_regular[:option_count]]
-    hard_labels = [candidate.label for candidate in selected_hard[:option_count]]
+    regular_selected = selected_regular[:option_count]
+    hard_selected = selected_hard[:option_count]
 
-    if len(regular_labels) < option_count:
-        notes.append(f"regular_short:{len(regular_labels)}/{option_count}")
-    if len(hard_labels) < option_count:
-        notes.append(f"hard_short:{len(hard_labels)}/{option_count}")
+    if len(regular_selected) < option_count:
+        notes.append(f"regular_short:{len(regular_selected)}/{option_count}")
+    if len(hard_selected) < option_count:
+        notes.append(f"hard_short:{len(hard_selected)}/{option_count}")
 
-    return regular_labels, hard_labels, llm_totals, notes
+    return regular_selected, hard_selected, llm_totals, notes
 
 
 def _build_output_item(
     *,
     item: Dict,
-    pools: Dict[Tuple[str, str], List[Candidate]],
+    pools: Dict[str, List[AlignedCandidate]],
     model: str,
     skip_llm: bool,
     option_count: int,
     sample_size: int,
     max_rounds: int,
     llm_retries: int,
+    same_book_only: bool,
+    target_book_code: str,
+    target_book: str,
 ) -> Tuple[Dict, Dict[str, int | bool], List[Dict]]:
     item_id = _sanitize_str(item.get("id"))
-    out_item: Dict = {
-        "id": item_id,
-        "en": {
-            "options": {"speaker": [], "listener": []},
-            "hard_difficulty_options": {"speaker": [], "listener": []},
-        },
-        "he": {
-            "options": {"speaker": [], "listener": []},
-            "hard_difficulty_options": {"speaker": [], "listener": []},
-        },
-    }
+    out_item = copy.deepcopy(item)
+    for lang in LANGS:
+        section = out_item.get(lang)
+        if not isinstance(section, dict):
+            section = {}
+            out_item[lang] = section
+        section["speaker"] = _sanitize_str(section.get("speaker"))
+        section["listener"] = _sanitize_str(section.get("listener"))
+        section["options"] = {"speaker": [], "listener": []}
+        section["hard_difficulty_options"] = {"speaker": [], "listener": []}
+
     llm_totals: Dict[str, int | bool] = {
         "calls": 0,
         "prompt_tokens": 0,
@@ -1016,85 +1518,106 @@ def _build_output_item(
     }
     issues: List[Dict] = []
 
-    for lang in LANGS:
-        section = item.get(lang)
-        if not isinstance(section, dict):
+    en_section = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
+    he_section = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+
+    for field in FIELDS:
+        answer_en = _sanitize_str(en_section.get(field))
+        answer_he = _sanitize_str(he_section.get(field))
+        target_quote_en = _sanitize_str(en_section.get("quote"))
+        target_quote_he = _sanitize_str(he_section.get("quote"))
+        target_riddle_en = _sanitize_str(en_section.get("riddle"))
+        target_riddle_he = _sanitize_str(he_section.get("riddle"))
+        if not answer_en or not answer_he or not target_quote_en or not target_quote_he:
+            issues.append(
+                {
+                    "id": item_id,
+                    "field": field,
+                    "status": "skip_missing_target_data",
+                }
+            )
             continue
-        for field in FIELDS:
-            answer = _sanitize_str(section.get(field))
-            target_quote = _sanitize_str(section.get("quote"))
-            target_riddle = _sanitize_str(section.get("riddle"))
-            if not answer or not target_quote:
-                issues.append(
-                    {
-                        "id": item_id,
-                        "lang": lang,
-                        "field": field,
-                        "status": "skip_missing_target_data",
-                    }
-                )
-                continue
 
-            regular, hard, field_stats, notes = _select_options_for_field(
-                model=model,
-                skip_llm=skip_llm,
-                lang=lang,
-                field=field,
-                item_id=item_id,
-                answer=answer,
-                target_quote=target_quote,
-                target_riddle=target_riddle,
-                candidates=pools[(lang, field)],
-                option_count=option_count,
-                sample_size=sample_size,
-                max_rounds=max_rounds,
-                llm_retries=llm_retries,
-            )
-            llm_totals["calls"] = int(llm_totals["calls"]) + int(field_stats.get("calls", 0))
-            llm_totals["prompt_tokens"] = int(llm_totals["prompt_tokens"]) + int(
-                field_stats.get("prompt_tokens", 0)
-            )
-            llm_totals["response_tokens"] = int(llm_totals["response_tokens"]) + int(
-                field_stats.get("response_tokens", 0)
-            )
-            llm_totals["estimated"] = bool(llm_totals["estimated"]) or bool(
-                field_stats.get("estimated", False)
-            )
+        regular, hard, field_stats, notes = _select_options_for_field(
+            model=model,
+            skip_llm=skip_llm,
+            field=field,
+            item_id=item_id,
+            answer_en=answer_en,
+            answer_he=answer_he,
+            target_quote_en=target_quote_en,
+            target_quote_he=target_quote_he,
+            target_riddle_en=target_riddle_en,
+            target_riddle_he=target_riddle_he,
+            candidates=pools[field],
+            option_count=option_count,
+            sample_size=sample_size,
+            max_rounds=max_rounds,
+            llm_retries=llm_retries,
+            same_book_only=same_book_only,
+            target_book_code=target_book_code,
+            target_book=target_book,
+        )
+        llm_totals["calls"] = int(llm_totals["calls"]) + int(field_stats.get("calls", 0))
+        llm_totals["prompt_tokens"] = int(llm_totals["prompt_tokens"]) + int(
+            field_stats.get("prompt_tokens", 0)
+        )
+        llm_totals["response_tokens"] = int(llm_totals["response_tokens"]) + int(
+            field_stats.get("response_tokens", 0)
+        )
+        llm_totals["estimated"] = bool(llm_totals["estimated"]) or bool(field_stats.get("estimated", False))
 
-            out_item[lang]["options"][field] = regular
-            out_item[lang]["hard_difficulty_options"][field] = hard
+        out_item["en"]["options"][field] = [candidate.en.label for candidate in regular]
+        out_item["he"]["options"][field] = [candidate.he.label for candidate in regular]
+        out_item["en"]["hard_difficulty_options"][field] = [candidate.en.label for candidate in hard]
+        out_item["he"]["hard_difficulty_options"][field] = [candidate.he.label for candidate in hard]
 
-            if notes:
-                issues.append(
-                    {
-                        "id": item_id,
-                        "lang": lang,
-                        "field": field,
-                        "status": "notes",
-                        "notes": notes,
-                    }
-                )
+        if notes:
+            issues.append(
+                {
+                    "id": item_id,
+                    "field": field,
+                    "status": "notes",
+                    "notes": notes,
+                }
+            )
 
     return out_item, llm_totals, issues
 
 
-def _out_path_for_input(in_path: Path, out_dir: Path) -> Path:
-    return out_dir / f"{in_path.stem}-options.json"
+def _out_path_for_input(in_path: Path, out_dir: Path, in_dir: Path) -> Path:
+    try:
+        rel = in_path.relative_to(in_dir)
+    except ValueError:
+        rel = Path(in_path.name)
+    return out_dir / rel
 
 
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model", default="gemma3:4b")
-    parser.add_argument("--in-dir", default="data/rebuilt_quotes")
-    parser.add_argument("--out-dir", default="data/rebuilt_quotes_options")
-    parser.add_argument("--issues-log", default="data/rebuilt_quotes_options_issues.jsonl")
+    parser.add_argument("--in-dir", default="data/quotes")
+    parser.add_argument("--out-dir", default="data/quotes_options")
+    parser.add_argument("--issues-log", default="data/quotes_options_issues.jsonl")
     parser.add_argument("--book", default="", help="book filter by code or name, e.g. GEN or Genesis")
     parser.add_argument("--chapters", default="", help="chapter filter, e.g. 1-3,12,15")
+    parser.add_argument(
+        "--same-book-only",
+        action="store_true",
+        help="restrict distractor candidates to the same book as the target item",
+    )
     parser.add_argument("--limit-files", type=int, default=0)
     parser.add_argument("--option-count", type=int, default=4)
     parser.add_argument("--sample-size", type=int, default=10)
     parser.add_argument("--max-rounds", type=int, default=6)
     parser.add_argument("--llm-retries", type=int, default=2)
+    parser.add_argument(
+        "--solution-check-model",
+        default="gemma3:27b",
+        help="model for solution validation (larger model recommended)",
+    )
+    parser.add_argument("--solution-check-retries", type=int, default=2)
+    parser.add_argument("--skip-llm-solution-check", action="store_true")
     parser.add_argument("--include-draft", action="store_true")
     parser.add_argument("--skip-llm", action="store_true")
     parser.add_argument("--force", action="store_true")
@@ -1108,10 +1631,13 @@ def main() -> int:
         raise SystemExit("--max-rounds must be >= 0")
     if args.llm_retries < 1:
         raise SystemExit("--llm-retries must be >= 1")
+    if args.solution_check_retries < 1:
+        raise SystemExit("--solution-check-retries must be >= 1")
 
     in_dir = (ROOT / args.in_dir).resolve()
     out_dir = (ROOT / args.out_dir).resolve()
     issues_log = (ROOT / args.issues_log).resolve()
+    solution_check_model = _sanitize_str(args.solution_check_model) or _sanitize_str(args.model)
     if not in_dir.exists() or not in_dir.is_dir():
         raise SystemExit(f"Input directory does not exist: {in_dir}")
 
@@ -1169,7 +1695,7 @@ def main() -> int:
         chapter = _sanitize_int(payload.get("chapter"), 0)
         if chapter_filter and chapter not in chapter_filter:
             continue
-        out_path = _out_path_for_input(in_path, out_dir)
+        out_path = _out_path_for_input(in_path, out_dir, in_dir)
         if out_path.exists() and not args.force:
             stats.files_skipped_existing += 1
             continue
@@ -1177,7 +1703,8 @@ def main() -> int:
 
     tqdm.write(
         "Hard-option queue: files={files} pending={pending} skipped_existing={skipped} "
-        "in_dir={in_dir} out_dir={out_dir} include_draft={include_draft} skip_llm={skip_llm}".format(
+        "in_dir={in_dir} out_dir={out_dir} include_draft={include_draft} skip_llm={skip_llm} "
+        "solution_check={solution_check} solution_check_model={solution_check_model} same_book_only={same_book_only}".format(
             files=len(payloads),
             pending=len(queue),
             skipped=stats.files_skipped_existing,
@@ -1185,6 +1712,9 @@ def main() -> int:
             out_dir=out_dir,
             include_draft=bool(args.include_draft),
             skip_llm=bool(args.skip_llm),
+            solution_check=not bool(args.skip_llm_solution_check),
+            solution_check_model=solution_check_model,
+            same_book_only=bool(args.same_book_only),
         )
     )
     if not queue:
@@ -1224,6 +1754,41 @@ def main() -> int:
                 continue
 
             stats.items_seen += 1
+            python_solution_ok, python_solution_reason = _python_validate_solution(item)
+            if not python_solution_ok:
+                stats.items_dropped_solution_python += 1
+
+            llm_solution_ok = True
+            llm_solution_reason = "solution_check_skipped"
+            if not args.skip_llm_solution_check:
+                stats.items_solution_checked += 1
+                llm_solution_ok, llm_solution_reason, solution_stats = _llm_validate_solution(
+                    model=solution_check_model,
+                    item=item,
+                    retries=args.solution_check_retries,
+                )
+                _add_llm_stats(stats, solution_stats)
+            if not python_solution_ok or not llm_solution_ok:
+                stats.items_dropped_solution_check += 1
+                reasons: List[str] = []
+                if not python_solution_ok:
+                    reasons.append(f"python:{python_solution_reason}")
+                if not llm_solution_ok:
+                    reasons.append(f"llm:{llm_solution_reason or 'solution_check_failed'}")
+                file_issues.append(
+                    {
+                        "idx": idx,
+                        "id": _sanitize_str(item.get("id")),
+                        "status": "drop_invalid_solution",
+                        "reason": "; ".join(reasons) if reasons else "solution_check_failed",
+                    }
+                )
+                continue
+
+            source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
+            target_book_code = _sanitize_str(source.get("book_code")) or _sanitize_str(payload.get("book_code"))
+            target_book = _sanitize_str(source.get("book")) or _sanitize_str(payload.get("book"))
+
             out_item, field_stats, item_issues = _build_output_item(
                 item=item,
                 pools=pools,
@@ -1233,6 +1798,9 @@ def main() -> int:
                 sample_size=args.sample_size,
                 max_rounds=args.max_rounds,
                 llm_retries=args.llm_retries,
+                same_book_only=bool(args.same_book_only),
+                target_book_code=target_book_code,
+                target_book=target_book,
             )
             _add_llm_stats(stats, field_stats)
 
@@ -1253,10 +1821,10 @@ def main() -> int:
             out_items.append(out_item)
             stats.items_written += 1
 
-        out_payload = {key: value for key, value in payload.items() if key != "items"}
+        out_payload = copy.deepcopy(payload)
         out_payload["items"] = out_items
 
-        out_path = _out_path_for_input(in_path, out_dir)
+        out_path = _out_path_for_input(in_path, out_dir, in_dir)
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(json.dumps(out_payload, ensure_ascii=False, indent=2), encoding="utf-8")
         stats.files_written += 1
@@ -1281,7 +1849,8 @@ def main() -> int:
 
     tqdm.write(
         "Done: files_seen={files_seen}, files_written={files_written}, files_skipped_existing={files_skipped_existing}, "
-        "items_seen={items_seen}, items_written={items_written}, fields_built={fields_built}, "
+        "items_seen={items_seen}, items_solution_checked={items_solution_checked}, items_dropped_solution_python={items_dropped_solution_python}, "
+        "items_dropped_solution_check={items_dropped_solution_check}, items_written={items_written}, fields_built={fields_built}, "
         "fields_insufficient_regular={fields_insufficient_regular}, fields_insufficient_hard={fields_insufficient_hard}, "
         "llm_calls={llm_calls}, prompt_tokens={prompt_tokens}, response_tokens={response_tokens}, estimated_calls={estimated_calls}, "
         "errors={errors}, out_dir={out_dir}, issues_log={issues_log}".format(
@@ -1289,6 +1858,9 @@ def main() -> int:
             files_written=stats.files_written,
             files_skipped_existing=stats.files_skipped_existing,
             items_seen=stats.items_seen,
+            items_solution_checked=stats.items_solution_checked,
+            items_dropped_solution_python=stats.items_dropped_solution_python,
+            items_dropped_solution_check=stats.items_dropped_solution_check,
             items_written=stats.items_written,
             fields_built=stats.fields_built,
             fields_insufficient_regular=stats.fields_insufficient_regular,
