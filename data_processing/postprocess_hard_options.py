@@ -246,29 +246,6 @@ HE_BAD_SINGLE_TOKENS = {
 }
 
 HE_PREFIX_CHARS = set("ולבכמשה")
-EN_ALLOWED_SEMI_NAME_EXACT = {
-    "the people",
-    "the midwife",
-    "the midwives",
-    "children of israel",
-    "moses father in law",
-    "moses' father in law",
-    "his sons in law",
-    "his sons-in-law",
-    "his brethren",
-}
-EN_ALLOWED_POSSESSIVE_HEADS = {
-    "brethren",
-    "brother",
-    "brothers",
-    "sons",
-    "daughters",
-    "children",
-    "sons-in-law",
-    "law",
-    "father",
-    "mother",
-}
 DIVINE_ALIAS_GROUPS: Tuple[Dict[str, Dict[str, object]], ...] = (
     {
         "values": {
@@ -630,21 +607,6 @@ def _is_probably_non_person_label(label: str, lang: str) -> bool:
     return False
 
 
-def _is_allowed_semi_name_en(raw: str, tokens: Sequence[str]) -> bool:
-    lower = re.sub(r"\s+", " ", raw.strip().casefold())
-    if not lower:
-        return False
-    if lower in EN_ALLOWED_SEMI_NAME_EXACT:
-        return True
-    if lower.startswith("children of ") and len(tokens) >= 3:
-        return True
-    if lower.startswith("sons of ") and len(tokens) >= 3:
-        return True
-    if tokens and tokens[0] in {"his", "her", "their"}:
-        return any(token in EN_ALLOWED_POSSESSIVE_HEADS for token in tokens[1:])
-    return False
-
-
 def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
     raw = _sanitize_str(label)
     if not raw:
@@ -670,11 +632,14 @@ def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
     if lang == "en":
         raw_lower = raw.casefold()
         lower = norm.casefold()
-        allow_semi_name = _is_allowed_semi_name_en(raw, tokens)
-        if (lower in EN_PRONOUNS or lower in EN_GENERIC) and not allow_semi_name:
+        if lower in EN_PRONOUNS or lower in EN_GENERIC:
             return False
-        if any(token in EN_PRONOUNS for token in tokens) and not allow_semi_name:
-            return False
+        if any(token in EN_PRONOUNS for token in tokens):
+            non_possessive = [
+                token for token in tokens if token in EN_PRONOUNS and token not in {"his", "her", "their"}
+            ]
+            if non_possessive or len(tokens) == 1:
+                return False
         if any(lower.startswith(prefix) for prefix in EN_BAD_STARTS):
             return False
         if any(marker in f" {lower} " for marker in EN_BAD_MARKERS):
@@ -683,31 +648,32 @@ def _is_viable_entity_label(label: str, lang: str, strict: bool) -> bool:
             return False
         if strict and len(tokens) == 1 and lower in {"any", "all", "both", "one"}:
             return False
-        if strict and not allow_semi_name and not any(ch.isupper() for ch in raw):
-            if not raw_lower.startswith("the "):
-                return False
-            role = tokens[1] if len(tokens) > 1 else ""
-            if role not in {
-                "lord",
-                "god",
-                "king",
-                "priest",
-                "prophet",
-                "pharaoh",
-                "midwife",
-                "midwives",
-                "servant",
-                "servants",
-                "daughter",
-                "daughters",
-                "sons",
-                "children",
-                "people",
-                "congregation",
-                "taskmasters",
-                "elder",
-                "elders",
-            }:
+        if strict and not any(ch.isupper() for ch in raw):
+            if raw_lower.startswith("the "):
+                role = tokens[1] if len(tokens) > 1 else ""
+                if role not in {
+                    "lord",
+                    "god",
+                    "king",
+                    "priest",
+                    "prophet",
+                    "pharaoh",
+                    "midwife",
+                    "midwives",
+                    "servant",
+                    "servants",
+                    "daughter",
+                    "daughters",
+                    "sons",
+                    "children",
+                    "people",
+                    "congregation",
+                    "taskmasters",
+                    "elder",
+                    "elders",
+                }:
+                    return False
+            elif not (tokens and tokens[0] in {"his", "her", "their"} and len(tokens) > 1):
                 return False
         if strict and len(raw) > 42:
             return False
