@@ -7,6 +7,7 @@ import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
+import { loadPuzzleItems } from "./lib/puzzleData";
 import type {
   BonusHint,
   DifficultyChoicePools,
@@ -18,7 +19,6 @@ import type {
   Lang,
   PuzzleItem,
 } from "./types";
-import dailyData from "../data/daily.json";
 
 const samplePuzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -65,12 +65,7 @@ const DEBUG_EPOCH_DATE = new Date(2026, 1, 6);
 const DEBUG_DAILY_ORDER_SEED = 20260805;
 const CHOICE_FIELDS: EasyChoiceField[] = ["speaker", "listener"];
 
-function parsePuzzleItems(data: unknown): PuzzleItem[] {
-  const payload = (data as { items?: unknown }).items ?? data;
-  return Array.isArray(payload) ? (payload as PuzzleItem[]) : [];
-}
-
-const debugQuoteItems = parsePuzzleItems(dailyData as unknown);
+const debugQuoteItems = loadPuzzleItems();
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;

@@ -38,7 +38,7 @@ export function pickDailyItemIndex(total: number): number {
   return order[day] ?? 0;
 }
 
-export function pickDailyHardModeSuccessMark(date: Date = new Date()): string {
+export function pickDailyHardModeSuccessMark(date: Date = new Date()): (typeof HARD_MODE_SUCCESS_MARKS)[number] {
   const day = dayOffsetFromEpoch(date, DAILY_EPOCH_DATE);
   const rand = seededRandom(DAILY_ORDER_SEED + day);
   const idx = Math.floor(rand() * HARD_MODE_SUCCESS_MARKS.length);

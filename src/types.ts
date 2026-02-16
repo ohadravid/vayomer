@@ -74,26 +74,3 @@ export type GuessResult = {
   bonusOk: boolean;
   countsAsTry?: boolean;
 };
-
-export type BookOptionSet = {
-  book: {
-    en: string;
-    he: string;
-  };
-  speaker: {
-    en: string[];
-    he: string[];
-  };
-  listener: {
-    en: string[];
-    he: string[];
-  };
-  portion: {
-    en: string[];
-    he: string[];
-  };
-};
-
-export type OptionsDataset = {
-  books: BookOptionSet[];
-};

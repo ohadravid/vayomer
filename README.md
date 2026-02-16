@@ -21,9 +21,8 @@ A daily "Who said to who" game built on the Hebrew Bible (Old Testament).
 │   ├── lib/                # helpers (format/normalize)
 │   └── components/         # UI components
 ├── data/
-│   ├── quotes/             # promoted quote dataset
-│   ├── daily.json          # merged dataset for the game
-│   └── options.json        # easy-mode multiple-choice pools by book
+│   ├── quotes/             # promoted quote dataset (legacy merged source)
+│   └── quotes_options/     # chapter JSONs with inline options for the UI
 ```
 
 ## Source Materials
@@ -63,6 +62,12 @@ task check
 bun run test
 bun run test:e2e
 ```
+
+### Quotes options loading
+
+`src/lib/puzzleData.ts` uses a Bun Macro (`with { type: "macro" }`) to load
+`data/quotes_options/*.json` via `Glob` at build/transpile time and inline the
+payload into the bundle.
 
 
 ## License

@@ -1,12 +1,10 @@
 import { normalize } from "./format";
 import { canonicalizeDivineName } from "./divineAliases";
 import type {
-  BookOptionSet,
   DifficultyChoicePools,
   EasyChoiceField,
   EasyChoicePools,
   Lang,
-  OptionsDataset,
   PuzzleItem,
 } from "../types";
 
@@ -82,29 +80,13 @@ function buildFallbackPools(items: PuzzleItem[], puzzle: PuzzleItem, lang: Lang)
   };
 }
 
-function findBookOptionSet(puzzle: PuzzleItem, optionSets: BookOptionSet[]): BookOptionSet | null {
-  return (
-    optionSets.find(
-      (set) => set.book.en === puzzle.en.book || set.book.he === puzzle.he.book
-    ) ?? null
-  );
-}
-
 export function resolveChoicePoolsForPuzzle(params: {
   puzzle: PuzzleItem;
   items: PuzzleItem[];
-  optionSets: BookOptionSet[];
   lang: Lang;
 }): EasyChoicePools {
-  const { puzzle, items, optionSets, lang } = params;
-  const fallback = buildFallbackPools(items, puzzle, lang);
-  const fromStatic = findBookOptionSet(puzzle, optionSets);
-  if (!fromStatic) return fallback;
-
-  return {
-    speaker: dedupeByNormalized([...fromStatic.speaker[lang], ...fallback.speaker], lang),
-    listener: dedupeByNormalized([...fromStatic.listener[lang], ...fallback.listener], lang),
-  };
+  const { puzzle, items, lang } = params;
+  return buildFallbackPools(items, puzzle, lang);
 }
 
 function normalizeDifficultyChoicePools(raw: unknown): DifficultyChoicePools {
@@ -128,8 +110,6 @@ export function resolveChoicePoolsForDifficulty(params: {
 }): EasyChoicePools {
   const { puzzle, lang, easyMode, fallbackPools } = params;
   const easyOverrides = normalizeDifficultyChoicePools(puzzle[lang].options);
-  // TODO(data): hard_difficulty_options will be added to daily.json.
-  // Until then, hard mode falls back to the existing `options` payload.
   const hardOverrides = normalizeDifficultyChoicePools(
     puzzle[lang].hard_difficulty_options ?? puzzle[lang].options
   );
@@ -145,18 +125,4 @@ export function resolveChoicePoolsForDifficulty(params: {
       lang
     ),
   };
-}
-
-export function parseOptionsDataset(raw: unknown): BookOptionSet[] {
-  if (!raw || typeof raw !== "object") return [];
-  const books = (raw as OptionsDataset).books;
-  if (!Array.isArray(books)) return [];
-  return books.filter((entry) => {
-    if (!entry || typeof entry !== "object") return false;
-    if (!entry.book || typeof entry.book !== "object") return false;
-    if (!entry.speaker || typeof entry.speaker !== "object") return false;
-    if (!entry.listener || typeof entry.listener !== "object") return false;
-    if (!entry.portion || typeof entry.portion !== "object") return false;
-    return true;
-  });
 }

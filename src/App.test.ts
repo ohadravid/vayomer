@@ -89,8 +89,8 @@ describe("difficulty lock storage", () => {
   });
 
   it("parses and serializes lock values", () => {
-    expect(toDifficultyLockStorageValue(true)).toBe("1");
-    expect(toDifficultyLockStorageValue(false)).toBe("0");
+    expect(String(toDifficultyLockStorageValue(true))).toBe("1");
+    expect(String(toDifficultyLockStorageValue(false))).toBe("0");
     expect(parseDifficultyLockFromStorageValue("1")).toBe(true);
     expect(parseDifficultyLockFromStorageValue("0")).toBe(false);
     expect(parseDifficultyLockFromStorageValue("x")).toBeNull();

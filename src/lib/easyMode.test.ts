@@ -1,12 +1,11 @@
 import { describe, expect, it } from "bun:test";
 import {
   buildMultipleChoiceOptions,
-  parseOptionsDataset,
   resolveChoicePoolsForDifficulty,
   resolveChoicePoolsForPuzzle,
 } from "./easyMode";
 import { normalize } from "./format";
-import type { BookOptionSet, PuzzleItem } from "../types";
+import type { PuzzleItem } from "../types";
 
 const samplePuzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -133,26 +132,17 @@ describe("buildMultipleChoiceOptions", () => {
 });
 
 describe("resolveChoicePoolsForPuzzle", () => {
-  it("merges static and fallback pools for a matching book", () => {
-    const optionSets: BookOptionSet[] = [
-      {
-        book: { en: "Genesis", he: "בראשית" },
-        speaker: { en: ["Jacob"], he: ["יעקב"] },
-        listener: { en: ["Joseph"], he: ["יוסף"] },
-        portion: { en: ["Noach"], he: ["נח"] },
-      },
-    ];
+  it("uses same-book fallback pools", () => {
     const pools = resolveChoicePoolsForPuzzle({
       puzzle: samplePuzzle,
       items: sampleItems,
-      optionSets,
       lang: "en",
     });
 
-    expect(pools.speaker).toContain("Jacob");
     expect(pools.speaker).toContain("God");
-    expect(pools.listener).toContain("Joseph");
+    expect(pools.speaker).toHaveLength(1);
     expect(pools.listener).toContain("Abram");
+    expect(pools.listener).toContain("Abraham");
   });
 });
 
@@ -204,13 +194,5 @@ describe("resolveChoicePoolsForDifficulty", () => {
 
     expect(pools.speaker).toContain("Shared Speaker");
     expect(pools.listener).toContain("Shared Listener");
-  });
-});
-
-describe("parseOptionsDataset", () => {
-  it("returns an empty list for invalid data", () => {
-    expect(parseOptionsDataset(null)).toEqual([]);
-    expect(parseOptionsDataset({})).toEqual([]);
-    expect(parseOptionsDataset({ books: [{}] })).toEqual([]);
   });
 });

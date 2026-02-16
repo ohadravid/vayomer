@@ -1,5 +1,6 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
 import fs from "node:fs";
+import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { pickDailyHardModeSuccessMark } from "../src/lib/daily";
 import { normalize } from "../src/lib/format";
@@ -8,6 +9,7 @@ import type { Lang } from "../src/types";
 type PuzzleItem = {
   id: string;
   en: {
+    book: string;
     speaker: string;
     listener: string;
     bonus?: string | null;
@@ -22,6 +24,7 @@ type PuzzleItem = {
     } | null;
   };
   he: {
+    book: string;
     speaker: string;
     listener: string;
     bonus?: string | null;
@@ -52,9 +55,22 @@ type GameOpenOptions = {
 };
 
 const WRONG_TEXT = "not-the-answer";
-const dailyJsonPath = fileURLToPath(new URL("../data/daily.json", import.meta.url));
-const parsedDailyJson = JSON.parse(fs.readFileSync(dailyJsonPath, "utf8")) as { items?: PuzzleItem[] } | PuzzleItem[];
-const dailyItems = Array.isArray(parsedDailyJson) ? parsedDailyJson : (parsedDailyJson.items ?? []);
+const quotesOptionsDirPath = fileURLToPath(new URL("../data/quotes_options", import.meta.url));
+
+function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
+  const files = fs
+    .readdirSync(dirPath)
+    .filter((name) => name.endsWith(".json"))
+    .sort();
+
+  return files.flatMap((name) => {
+    const raw = fs.readFileSync(path.join(dirPath, name), "utf8");
+    const parsed = JSON.parse(raw) as { items?: PuzzleItem[] } | PuzzleItem[];
+    return Array.isArray(parsed) ? parsed : (parsed.items ?? []);
+  });
+}
+
+const dailyItems = loadPuzzleItemsFromQuotesOptions(quotesOptionsDirPath);
 
 function hasEasyModeDistractors(item: PuzzleItem): boolean {
   const sameBook = dailyItems.filter((candidate) => candidate.en.book === item.en.book && candidate.he.book === item.he.book);
@@ -82,7 +98,7 @@ const testPuzzle = dailyItems.find(
 );
 
 if (!testPuzzle) {
-  throw new Error("Expected a puzzle with EN/HE bonus answers and easy-mode distractors in data/daily.json.");
+  throw new Error("Expected a puzzle with EN/HE bonus answers and easy-mode distractors in data/quotes_options/*.json.");
 }
 
 const puzzleId = testPuzzle.id;
@@ -91,6 +107,7 @@ const enAnswer = {
   listener: testPuzzle.en.listener,
   bonus: testPuzzle.en.bonus!.trim(),
 };
+const testPuzzleHasBonusHint = !!testPuzzle.en.bonus_hint?.quote?.trim();
 const heAnswer = {
   speaker: testPuzzle.he.speaker,
   listener: testPuzzle.he.listener,
@@ -106,7 +123,7 @@ const hintPuzzle = dailyItems.find(
 );
 
 if (!hintPuzzle) {
-  throw new Error("Expected at least one puzzle with EN/HE bonus_hint quotes in data/daily.json.");
+  throw new Error("Expected at least one puzzle with EN/HE bonus_hint quotes in data/quotes_options/*.json.");
 }
 
 const hintPuzzleId = hintPuzzle.id;
@@ -360,7 +377,11 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
-  await expect(page.locator("#bonusHint")).toHaveCount(0);
+  if (testPuzzleHasBonusHint) {
+    await expect(page.locator("#bonusHint")).toBeVisible();
+  } else {
+    await expect(page.locator("#bonusHint")).toHaveCount(0);
+  }
   await expect(page.getByText("Tries: 1/5")).toBeVisible();
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });

@@ -1,14 +1,13 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { parseOptionsDataset, resolveChoicePoolsForPuzzle } from "./lib/easyMode";
+import { resolveChoicePoolsForPuzzle } from "./lib/easyMode";
 import { pickDailyItemIndex } from "./lib/daily";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
+import { loadPuzzleItems } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
-import type { BookOptionSet, GuessResult, Lang, PuzzleItem } from "./types";
+import type { GuessResult, Lang, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
-import dailyData from "../data/daily.json";
-import optionsData from "../data/options.json";
 import packageMeta from "../package.json";
 
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
@@ -231,17 +230,11 @@ function pickPageFromHash(hash: string): AppPage {
   return normalized === "about" ? "about" : "game";
 }
 
-function parsePuzzleItems(data: unknown): PuzzleItem[] {
-  const payload = (data as { items?: unknown }).items ?? data;
-  return Array.isArray(payload) ? (payload as PuzzleItem[]) : [];
-}
-
 export function App() {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
   const nextLanguage = getAlternateLanguage(lang);
   const [items, setItems] = useState<PuzzleItem[]>([]);
-  const [optionSets, setOptionSets] = useState<BookOptionSet[]>([]);
   const [index, setIndex] = useState(0);
   const [easyMode, setEasyMode] = useState<boolean>(() => pickEasyMode());
   const [lockedEasyModeByPuzzle, setLockedEasyModeByPuzzle] = useState<{ puzzleId: string; value: boolean | null }>({
@@ -296,17 +289,15 @@ export function App() {
   }, [easyMode]);
 
   useEffect(() => {
-    const list = parsePuzzleItems(dailyData as unknown);
+    const list = loadPuzzleItems();
     if (list.length === 0) {
       setItems([]);
-      setOptionSets([]);
       return;
     }
 
     setItems(list);
     const search = typeof window === "undefined" ? "" : window.location.search;
     setIndex(pickPuzzleIndexForSearch(list, search));
-    setOptionSets(parseOptionsDataset(optionsData as unknown));
   }, []);
 
   const puzzle = useMemo(() => items[index], [items, index]);
@@ -317,10 +308,9 @@ export function App() {
     return resolveChoicePoolsForPuzzle({
       puzzle,
       items,
-      optionSets,
       lang,
     });
-  }, [puzzle, items, optionSets, lang]);
+  }, [puzzle, items, lang]);
 
   useEffect(() => {
     if (!puzzle) return;
