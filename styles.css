@@ -357,7 +357,6 @@ input[type="radio"] {
 }
 
 .full-quote .veil {
-  display: inline-block;
   filter: blur(6px);
   opacity: 0.2;
   transition: opacity 1s ease, filter 1s ease;
