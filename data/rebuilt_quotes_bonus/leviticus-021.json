@@ -1,0 +1,69 @@
+{
+  "book_code": "LEV",
+  "book": "Leviticus",
+  "book_he": "ויקרא",
+  "chapter": 21,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "leviticus-21-01-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 21,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people: But for his kin, that is near unto him, that is, for his mother, and for his father, and for his son, and for his daughter, and for his brother,",
+        "riddle": "sons of Aaron, and say unto them, There shall none",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Leviticus",
+        "bonus": "kin",
+        "bonus_hint": {
+          "quote": "And Naomi said unto her daughter in law, Blessed be he of the LORD, who hath not left off his kindness to the living and to the dead. And Naomi said unto her, The man is near of kin unto us, one of our next kinsmen.",
+          "source": {
+            "book": "Ruth",
+            "chapter": 2,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־הַכֹּהֲנִים בְּנֵי אַהֲרֹן וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו כִּי אִם־לִשְׁאֵרוֹ הַקָּרֹב אֵלָיו לְאִמּוֹ וּלְאָבִיו וְלִבְנוֹ וּלְבִתּוֹ וּלְאָחִֽיו",
+        "riddle": "לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "ויקרא",
+        "bonus": "וּלְבִתּו",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:",
+          "2": "But for his kin, that is near unto him, that is, for his mother, and for his father, and for his son, and for his daughter, and for his brother,"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־הַכֹּהֲנִים בְּנֵי אַהֲרֹן וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו׃",
+          "2": "כִּי אִם־לִשְׁאֵרוֹ הַקָּרֹב אֵלָיו לְאִמּוֹ וּלְאָבִיו וְלִבְנוֹ וּלְבִתּוֹ וּלְאָחִֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses discuss ritual purity for priests, with specific allowances for immediate family. The riddle focuses on this contrast.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 1,
+        "end": 2
+      }
+    }
+  ]
+}

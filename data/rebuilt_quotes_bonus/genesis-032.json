@@ -1,0 +1,76 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 32,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-32-28-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 32,
+        "quote_verse_start": 28,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed. And Jacob asked him, and said, Tell me, I pray thee, thy name. And he said, Wherefore is it that thou dost ask after my name? And he blessed him there.",
+        "riddle": "for as a prince hast thou power with God and with men, and hast prevailed.",
+        "speaker": "he",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "bonus": "dost",
+        "bonus_hint": {
+          "quote": "And Jezebel his wife said unto him, Dost thou now govern the kingdom of Israel? arise, and eat bread, and let thine heart be merry: I will give thee the vineyard of Naboth the Jezreelite.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 21,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו מַה־שְּׁמֶךָ וַיֹּאמֶר יַעֲקֹֽב וַיֹּאמֶר לֹא יַעֲקֹב יֵאָמֵר עוֹד שִׁמְךָ כִּי אִם־יִשְׂרָאֵל כִּֽי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים וַתּוּכָֽל",
+        "riddle": "כִּֽי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים",
+        "speaker": "וַיֹּאמֶר אֵלָיו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "bonus": "וַתּוּכָֽל",
+        "bonus_hint": {
+          "quote": "הֲיִנְטֹר לְעוֹלָם אִם־יִשְׁמֹר לָנֶצַח הִנֵּה דִבַּרְתְּ וַתַּעֲשִׂי הָרָעוֹת וַתּוּכָֽל",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 3,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed.",
+          "29": "And Jacob asked him, and said, Tell me, I pray thee, thy name. And he said, Wherefore is it that thou dost ask after my name? And he blessed him there."
+        },
+        "he": {
+          "28": "וַיֹּאמֶר אֵלָיו מַה־שְּׁמֶךָ וַיֹּאמֶר יַעֲקֹֽב׃",
+          "29": "וַיֹּאמֶר לֹא יַעֲקֹב יֵאָמֵר עוֹד שִׁמְךָ כִּי אִם־יִשְׂרָאֵל כִּֽי־שָׂרִיתָ עִם־אֱלֹהִים וְעִם־אֲנָשִׁים וַתּוּכָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns with the English clause explaining the name change from Jacob to Israel, referencing power with God and men.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 28,
+        "end": 29
+      }
+    }
+  ]
+}

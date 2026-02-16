@@ -1,0 +1,77 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 49,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "genesis-49-01-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days. Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.",
+        "riddle": "Gather yourselves together, that I may tell you that which",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis",
+        "bonus": "days",
+        "bonus_hint": {
+          "quote": "And God said, Let there be lights in the firmament of the heaven to divide the day from the night; and let them be for signs, and for seasons, and for days, and years:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִֽים הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶֽם",
+        "riddle": "הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם",
+        "speaker": "יַעֲקֹב",
+        "listener": "בָּנָיו",
+        "book": "בראשית",
+        "bonus": "הַיָּמִֽים",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי לְשִׁבְעַת הַיָּמִים וּמֵי הַמַּבּוּל הָיוּ עַל־הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 7,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days.",
+          "2": "Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father."
+        },
+        "he": {
+          "1": "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִֽים׃",
+          "2": "הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses establish the scene of Jacob addressing his sons and foreshadowing their future, forming a natural setup for a riddle about prophecy and fate.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 1,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 1,
+        "end": 2
+      }
+    }
+  ]
+}

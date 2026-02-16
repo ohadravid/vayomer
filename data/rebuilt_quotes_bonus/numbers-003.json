@@ -1,0 +1,69 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 3,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-03-40-41",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 40,
+        "quote_verse_end": 41
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names. And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel.",
+        "riddle": "children of Israel from a month old and upward, and",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "bonus": "firstlings",
+        "bonus_hint": {
+          "quote": "And Abel, he also brought of the firstlings of his flock and of the fat thereof. And the LORD had respect unto Abel and to his offering:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם וְלָקַחְתָּ אֶת־הַלְוִיִּם לִי אֲנִי יְהוָה תַּחַת כָּל־בְּכֹר בִּבְנֵי יִשְׂרָאֵל וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵֽל",
+        "riddle": "פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "bonus": "בְּבֶהֱמַת",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.",
+          "41": "And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel."
+        },
+        "he": {
+          "40": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם׃",
+          "41": "וְלָקַחְתָּ אֶת־הַלְוִיִּם לִי אֲנִי יְהוָה תַּחַת כָּל־בְּכֹר בִּבְנֵי יִשְׂרָאֵל וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses discuss the numbering of firstborns and the substitution of the Levites in their place, forming a clear riddle about this exchange.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 40,
+        "end": 41
+      }
+    }
+  ]
+}

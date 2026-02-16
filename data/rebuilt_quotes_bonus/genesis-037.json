@@ -1,0 +1,133 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 37,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-37-16-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks. And the man said, They are departed hence; for I heard them say, Let us go to Dothan. And Joseph went after his brethren, and found them in Dothan.",
+        "riddle": "I seek my brethren: tell me, I pray thee, where",
+        "speaker": "the man",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "bonus": "Dothan",
+        "bonus_hint": {
+          "quote": "And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 6,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹֽמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָֽן",
+        "riddle": "אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים",
+        "speaker": "הָאִישׁ",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "bonus": "דֹּתָיְנָה",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks.",
+          "17": "And the man said, They are departed hence; for I heard them say, Let us go to Dothan. And Joseph went after his brethren, and found them in Dothan."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים׃",
+          "17": "וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹֽמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct_question_response",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 16,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-37-26-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?",
+        "riddle": "What profit is it if we slay our brother",
+        "speaker": "Judah",
+        "listener": "his brethren",
+        "book": "Genesis",
+        "bonus": "blood",
+        "bonus_hint": {
+          "quote": "And they took Joseph's coat, and killed a kid of the goats, and dipped the coat in the blood;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 37,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ",
+        "riddle": "מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ",
+        "speaker": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו",
+        "listener": "אֶל־אֶחָיו",
+        "book": "בראשית",
+        "bonus": "דָּמֽו",
+        "bonus_hint": {
+          "quote": "שֹׁפֵךְ דַּם הָֽאָדָם בָּֽאָדָם דָּמוֹ יִשָּׁפֵךְ כִּי בְּצֶלֶם אֱלֹהִים עָשָׂה אֶת־הָאָדָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 9,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns perfectly with the provided English verse. Judah is the speaker, his brethren are the listeners, and the riddle is a direct substring of the English quote, capturing the core question about the futility of killing their brother.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 23,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-23-03-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 23,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And Abraham stood up from before his dead, and spake unto the sons of Heth, saying, I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight.",
+        "riddle": "stood up from before his dead, and spake unto the",
+        "speaker": "Abraham",
+        "listener": "sons of Heth",
+        "book": "Genesis",
+        "bonus": "buryingplace",
+        "bonus_hint": {
+          "quote": "But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 47,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקָם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ וַיְדַבֵּר אֶל־בְּנֵי־חֵת לֵאמֹֽר גֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם תְּנוּ לִי אֲחֻזַּת־קֶבֶר עִמָּכֶם וְאֶקְבְּרָה מֵתִי מִלְּפָנָֽי",
+        "riddle": "גֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם תְּנוּ לִי אֲחֻזַּת־קֶבֶר עִמָּכֶם וְאֶקְבְּרָה",
+        "speaker": "אַבְרָהָם",
+        "listener": "בְּנֵי־חֵת",
+        "book": "בראשית",
+        "bonus": "מִלְּפָנָֽי",
+        "bonus_hint": {
+          "quote": "אֱמֹר אֲלֵהֶם לְדֹרֹתֵיכֶם כָּל־אִישׁ אֲשֶׁר־יִקְרַב מִכָּל־זַרְעֲכֶם אֶל־הַקֳּדָשִׁים אֲשֶׁר יַקְדִּישׁוּ בְנֵֽי־יִשְׂרָאֵל לַֽיהוָה וְטֻמְאָתוֹ עָלָיו וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מִלְּפָנַי אֲנִי יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 22,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Abraham stood up from before his dead, and spake unto the sons of Heth, saying,",
+          "4": "I am a stranger and a sojourner with you: give me a possession of a buryingplace with you, that I may bury my dead out of my sight."
+        },
+        "he": {
+          "3": "וַיָּקָם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ וַיְדַבֵּר אֶל־בְּנֵי־חֵת לֵאמֹֽר׃",
+          "4": "גֵּר־וְתוֹשָׁב אָנֹכִי עִמָּכֶם תְּנוּ לִי אֲחֻזַּת־קֶבֶר עִמָּכֶם וְאֶקְבְּרָה מֵתִי מִלְּפָנָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "mechanical_speech_marker",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-23-13-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 23,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there. And Ephron answered Abraham, saying unto him,",
+        "riddle": "But if thou wilt give it, I pray thee, hear me",
+        "speaker": "Abraham",
+        "listener": "Ephron",
+        "book": "Genesis",
+        "bonus": "money",
+        "bonus_hint": {
+          "quote": "Are we not counted of him strangers? for he hath sold us, and hath quite devoured also our money.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֶל־עֶפְרוֹן בְּאָזְנֵי עַם־הָאָרֶץ לֵאמֹר אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי נָתַתִּי כֶּסֶף הַשָּׂדֶה קַח מִמֶּנִּי וְאֶקְבְּרָה אֶת־מֵתִי שָֽׁמָּה וַיַּעַן עֶפְרוֹן אֶת־אַבְרָהָם לֵאמֹר לֽוֹ",
+        "riddle": "אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי",
+        "speaker": "אַבְרָהָם",
+        "listener": "עֶפְרוֹן",
+        "book": "בראשית",
+        "bonus": "כֶּסֶף",
+        "bonus_hint": {
+          "quote": "וַיַּֽעַבְרוּ אֲנָשִׁים מִדְיָנִים סֹֽחֲרִים וַֽיִּמְשְׁכוּ וַיַּֽעֲלוּ אֶת־יוֹסֵף מִן־הַבּוֹר וַיִּמְכְּרוּ אֶת־יוֹסֵף לַיִּשְׁמְעֵאלִים בְּעֶשְׂרִים כָּסֶף וַיָּבִיאוּ אֶת־יוֹסֵף מִצְרָֽיְמָה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 37,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there.",
+          "14": "And Ephron answered Abraham, saying unto him,"
+        },
+        "he": {
+          "13": "וַיְדַבֵּר אֶל־עֶפְרוֹן בְּאָזְנֵי עַם־הָאָרֶץ לֵאמֹר אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי נָתַתִּי כֶּסֶף הַשָּׂדֶה קַח מִמֶּנִּי וְאֶקְבְּרָה אֶת־מֵתִי שָֽׁמָּה׃",
+          "14": "וַיַּעַן עֶפְרוֹן אֶת־אַבְרָהָם לֵאמֹר לֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "This interaction directly involves Abraham offering payment for the burial plot and Ephron responding, creating a clear dialogue. The riddle focuses on the transaction and the desired outcome (a burial place).",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-23-13-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 23,
+        "quote_verse_start": 13,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there. And Ephron answered Abraham, saying unto him, My lord, hearken unto me: the land is worth four hundred shekels of silver; what is that betwixt me and thee? bury therefore thy dead.",
+        "riddle": "what is that betwixt me and thee?",
+        "speaker": "Abraham",
+        "listener": "Ephron",
+        "book": "Genesis",
+        "bonus": "audience",
+        "bonus_hint": {
+          "quote": "And he took the book of the covenant, and read in the audience of the people: and they said, All that the LORD hath said will we do, and be obedient.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 24,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֶל־עֶפְרוֹן בְּאָזְנֵי עַם־הָאָרֶץ לֵאמֹר אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי נָתַתִּי כֶּסֶף הַשָּׂדֶה קַח מִמֶּנִּי וְאֶקְבְּרָה אֶת־מֵתִי שָֽׁמָּה וַיַּעַן עֶפְרוֹן אֶת־אַבְרָהָם לֵאמֹר לֽוֹ אֲדֹנִי שְׁמָעֵנִי אֶרֶץ אַרְבַּע מֵאֹת שֶֽׁקֶל־כֶּסֶף בֵּינִי וּבֵֽינְךָ מַה־הִוא וְאֶת־מֵתְךָ קְבֹֽר",
+        "riddle": "בְּאָזְנֵי עַם־הָאָרֶץ לֵאמֹר אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי נָתַתִּי",
+        "speaker": "אַבְרָהָם",
+        "listener": "עֶפְרוֹן",
+        "book": "בראשית",
+        "bonus": "וְאֶקְבְּרָה",
+        "bonus_hint": {
+          "quote": "וַאֲנִי בְּבֹאִי מִפַּדָּן מֵתָה עָלַי רָחֵל בְּאֶרֶץ כְּנַעַן בַּדֶּרֶךְ בְּעוֹד כִּבְרַת־אֶרֶץ לָבֹא אֶפְרָתָה וָאֶקְבְּרֶהָ שָּׁם בְּדֶרֶךְ אֶפְרָת הִוא בֵּית לָֽחֶם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 48,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he spake unto Ephron in the audience of the people of the land, saying, But if thou wilt give it, I pray thee, hear me: I will give thee money for the field; take it of me, and I will bury my dead there.",
+          "14": "And Ephron answered Abraham, saying unto him,",
+          "15": "My lord, hearken unto me: the land is worth four hundred shekels of silver; what is that betwixt me and thee? bury therefore thy dead."
+        },
+        "he": {
+          "13": "וַיְדַבֵּר אֶל־עֶפְרוֹן בְּאָזְנֵי עַם־הָאָרֶץ לֵאמֹר אַךְ אִם־אַתָּה לוּ שְׁמָעֵנִי נָתַתִּי כֶּסֶף הַשָּׂדֶה קַח מִמֶּנִּי וְאֶקְבְּרָה אֶת־מֵתִי שָֽׁמָּה׃",
+          "14": "וַיַּעַן עֶפְרוֹן אֶת־אַבְרָהָם לֵאמֹר לֽוֹ׃",
+          "15": "אֲדֹנִי שְׁמָעֵנִי אֶרֶץ אַרְבַּע מֵאֹת שֶֽׁקֶל־כֶּסֶף בֵּינִי וּבֵֽינְךָ מַה־הִוא וְאֶת־מֵתְךָ קְבֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses discuss the purchase of a burial plot, specifically a cave. The riddle focuses on the cave as a 'home' for the dead, fitting the context of the verses.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 13,
+        "end": 15
+      }
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 35,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-35-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 35,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Then Jacob said unto his household, and to all that were with him, Put away the strange gods that are among you, and be clean, and change your garments:",
+        "riddle": "Put away the strange",
+        "speaker": "Jacob",
+        "listener": "his household",
+        "book": "Genesis",
+        "bonus": "change",
+        "bonus_hint": {
+          "quote": "If a man die, shall he live again? all the days of my appointed time will I wait, till my change come.",
+          "source": {
+            "book": "Job",
+            "chapter": 14,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־בֵּיתוֹ וְאֶל כָּל־אֲשֶׁר עִמּוֹ הָסִרוּ אֶת־אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּתֹכְכֶם וְהִֽטַּהֲרוּ וְהַחֲלִיפוּ שִׂמְלֹתֵיכֶֽם",
+        "riddle": "הָסִרוּ אֶת־אֱלֹהֵי הַנֵּכָר",
+        "speaker": "יַעֲקֹב",
+        "listener": "בֵּיתוֹ",
+        "book": "בראשית",
+        "bonus": "שִׂמְלֹתֵיכֶֽם",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Then Jacob said unto his household, and to all that were with him, Put away the strange gods that are among you, and be clean, and change your garments:"
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יַעֲקֹב אֶל־בֵּיתוֹ וְאֶל כָּל־אֲשֶׁר עִמּוֹ הָסִרוּ אֶת־אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּתֹכְכֶם וְהִֽטַּהֲרוּ וְהַחֲלִיפוּ שִׂמְלֹתֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Jacob directly addresses his household with instructions to remove foreign gods and purify themselves, forming a clear directive that can be framed as a riddle.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 35,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ]
+}

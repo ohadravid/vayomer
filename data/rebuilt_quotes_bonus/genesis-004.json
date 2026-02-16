@@ -21,14 +21,34 @@
         "riddle": "Why art thou wroth? and why is thy countenance fallen?",
         "speaker": "the LORD",
         "listener": "Cain",
-        "bonus": "sin"
+        "book": "Genesis",
+        "bonus": "sin",
+        "bonus_hint": {
+          "quote": "And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 16,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
         "riddle": "לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ",
         "speaker": "יְהוָה",
         "listener": "־קָיִן",
-        "bonus": "חַטָּאת"
+        "book": "בראשית",
+        "bonus": "חַטָּאת",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר אַהֲרֹן אֶל־מֹשֶׁה הֵן הַיּוֹם הִקְרִיבוּ אֶת־חַטָּאתָם וְאֶת־עֹֽלָתָם לִפְנֵי יְהוָה וַתִּקְרֶאנָה אֹתִי כָּאֵלֶּה וְאָכַלְתִּי חַטָּאת הַיּוֹם הַיִּיטַב בְּעֵינֵי יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -44,7 +64,13 @@
         "reason": "The riddle is a direct quote from the provided English verses and aligns with the Hebrew riddle in meaning and context. Speaker and listener are clearly identified in both languages.",
         "confidence": null,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 7
       }
     }
   ]

@@ -21,14 +21,34 @@
         "riddle": "Unto thy seed will I give this land",
         "speaker": "the LORD",
         "listener": "Abram",
-        "bonus": "altar"
+        "book": "Genesis",
+        "bonus": "altar",
+        "bonus_hint": {
+          "quote": "And they came to the place which God had told him of; and Abraham built an altar there, and laid the wood in order, and bound Isaac his son, and laid him on the altar upon the wood.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 9,
+            "end": 9
+          }
+        }
       },
       "he": {
         "quote": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ לַיהוָה הַנִּרְאֶה אֵלָֽיו וַיַּעְתֵּק מִשָּׁם הָהָרָה מִקֶּדֶם לְבֵֽית־אֵל וַיֵּט אָהֳלֹה בֵּֽית־אֵל מִיָּם וְהָעַי מִקֶּדֶם וַיִּֽבֶן־שָׁם מִזְבֵּחַ לַֽיהוָה וַיִּקְרָא בְּשֵׁם יְהוָֽה",
         "riddle": "לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת",
         "speaker": "יְהוָה",
         "listener": "אַבְרָם",
-        "bonus": "מִזְבֵּח"
+        "book": "בראשית",
+        "bonus": "מִזְבֵּח",
+        "bonus_hint": {
+          "quote": "וַיִּבֶן מֹשֶׁה מִזְבֵּחַ וַיִּקְרָא שְׁמוֹ יְהוָה נִסִּֽי",
+          "source": {
+            "book": "שמות",
+            "chapter": 17,
+            "start": 15,
+            "end": 15
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -44,7 +64,13 @@
         "reason": "The verses detail a promise of land to Abram's descendants, coupled with his journey and building altars. The riddle encapsulates this core exchange.",
         "confidence": 0.9,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 7,
+        "end": 8
       }
     },
     {
@@ -61,13 +87,35 @@
         "quote": "And Pharaoh called Abram, and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife? Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
         "riddle": "Why saidst thou, She is my sister?",
         "speaker": "Pharaoh",
-        "listener": "Abram"
+        "listener": "Abram",
+        "book": "Genesis",
+        "bonus": "didst",
+        "bonus_hint": {
+          "quote": "Thou didst blow with thy wind, the sea covered them: they sank as lead in the mighty waters.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 15,
+            "start": 10,
+            "end": 10
+          }
+        }
       },
       "he": {
         "quote": "וַיִּקְרָא פַרְעֹה לְאַבְרָם וַיֹּאמֶר מַה־זֹּאת עָשִׂיתָ לִּי לָמָּה לֹא־הִגַּדְתָּ לִּי כִּי אִשְׁתְּךָ הִֽוא לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
         "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא",
         "speaker": "פַרְעֹה",
-        "listener": "אַבְרָם"
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "bonus": "הִגַּדְת",
+        "bonus_hint": {
+          "quote": "לָמָּה נַחְבֵּאתָ לִבְרֹחַ וַתִּגְנֹב אֹתִי וְלֹא־הִגַּדְתָּ לִּי וָֽאֲשַׁלֵּחֲךָ בְּשִׂמְחָה וּבְשִׁרִים בְּתֹף וּבְכִנּֽוֹר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 27,
+            "end": 27
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -81,7 +129,15 @@
       },
       "meta": {
         "reason": "The riddle aligns directly with a question posed by Pharaoh in the provided English verses. The speaker and listener are clearly identified in both the Hebrew and English texts.",
-        "confidence": null
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 18,
+        "end": 19
       }
     }
   ]

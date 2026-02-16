@@ -21,7 +21,16 @@
         "speaker": "the LORD",
         "listener": "Abram",
         "book": "Genesis",
-        "bonus": "appeared"
+        "bonus": "Almighty",
+        "bonus_hint": {
+          "quote": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.",
+          "source": {
+            "book": "Ruth",
+            "chapter": 1,
+            "start": 20,
+            "end": 20
+          }
+        }
       },
       "he": {
         "quote": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים",
@@ -29,7 +38,16 @@
         "speaker": "יְהוָה",
         "listener": "אַבְרָם",
         "book": "בראשית",
-        "bonus": "וַיֵּרָא"
+        "bonus": "שַׁדַּי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לוֹ אֱלֹהִים אֲנִי אֵל שַׁדַּי פְּרֵה וּרְבֵה גּוֹי וּקְהַל גּוֹיִם יִהְיֶה מִמֶּךָּ וּמְלָכִים מֵחֲלָצֶיךָ יֵצֵֽאוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 35,
+            "start": 11,
+            "end": 11
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -43,7 +61,8 @@
         "reason": "The riddle aligns directly with the English verse. Speaker and listener are clearly identified.",
         "confidence": null,
         "bonus_source": "llm",
-        "bonus_retries": 3
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 17,
@@ -66,14 +85,34 @@
         "riddle": "walk before me, and be thou perfect",
         "speaker": "the LORD",
         "listener": "Abram",
-        "book": "Genesis"
+        "book": "Genesis",
+        "bonus": "ninety",
+        "bonus_hint": {
+          "quote": "Then Abraham fell upon his face, and laughed, and said in his heart, Shall a child be born unto him that is an hundred years old? and shall Sarah, that is ninety years old, bear?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 17,
+            "end": 17
+          }
+        }
       },
       "he": {
         "quote": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד",
         "riddle": "הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים",
         "speaker": "יְהוָה",
         "listener": "אַבְרָם",
-        "book": "בראשית"
+        "book": "בראשית",
+        "bonus": "תִּשְׁעִים",
+        "bonus_hint": {
+          "quote": "וַיִּפֹּל אַבְרָהָם עַל־פָּנָיו וַיִּצְחָק וַיֹּאמֶר בְּלִבּוֹ הַלְּבֶן מֵאָֽה־שָׁנָה יִוָּלֵד וְאִם־שָׂרָה הֲבַת־תִּשְׁעִים שָׁנָה תֵּלֵֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 17,
+            "start": 17,
+            "end": 17
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -87,7 +126,10 @@
       },
       "meta": {
         "reason": "The verses discuss a covenant with a promise of numerous descendants (a multitude) and the sign of circumcision (a small sign).",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 17,
@@ -111,7 +153,16 @@
         "speaker": "God",
         "listener": "Abraham",
         "book": "Genesis",
-        "bonus": "Sarah"
+        "bonus": "Sarah",
+        "bonus_hint": {
+          "quote": "Therefore Sarah laughed within herself, saying, After I am waxed old shall I have pleasure, my lord being old also?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 12,
+            "end": 12
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם שָׂרַי אִשְׁתְּךָ לֹא־תִקְרָא אֶת־שְׁמָהּ שָׂרָי כִּי שָׂרָה שְׁמָֽהּ",
@@ -119,7 +170,16 @@
         "speaker": "אֱלֹהִים",
         "listener": "אַבְרָהָם",
         "book": "בראשית",
-        "bonus": "שָׂרָה"
+        "bonus": "שָׂרָה",
+        "bonus_hint": {
+          "quote": "וַתִּצְחַק שָׂרָה בְּקִרְבָּהּ לֵאמֹר אַחֲרֵי בְלֹתִי הָֽיְתָה־לִּי עֶדְנָה וַֽאדֹנִי זָקֵֽן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 12,
+            "end": 12
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -133,7 +193,8 @@
         "reason": "The riddle aligns directly with the instruction to use exact text from the English verse. The speaker and listener are clearly identified, and the riddle is concise and dramatic, matching the event in the verse.",
         "confidence": null,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 17,

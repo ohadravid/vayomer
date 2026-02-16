@@ -1,0 +1,136 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 12,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-12-01-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman. And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard it.",
+        "riddle": "because of the Ethiopian woman whom he had married: for",
+        "speaker": "Miriam and Aaron",
+        "listener": "Moses",
+        "book": "Numbers",
+        "bonus": "indeed",
+        "bonus_hint": {
+          "quote": "And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתְּדַבֵּר מִרְיָם וְאַהֲרֹן בְּמֹשֶׁה עַל־אֹדוֹת הָאִשָּׁה הַכֻּשִׁית אֲשֶׁר לָקָח כִּֽי־אִשָּׁה כֻשִׁית לָקָֽח וַיֹּאמְרוּ הֲרַק אַךְ־בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם־בָּנוּ דִבֵּר וַיִּשְׁמַע יְהוָֽה",
+        "riddle": "עַל־אֹדוֹת הָאִשָּׁה הַכֻּשִׁית אֲשֶׁר לָקָח כִּֽי־אִשָּׁה כֻשִׁית לָקָֽח",
+        "speaker": "מִרְיָם וְאַהֲרֹן",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "bonus": "הֲרַק",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Miriam and Aaron spake against Moses because of the Ethiopian woman whom he had married: for he had married an Ethiopian woman.",
+          "2": "And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard it."
+        },
+        "he": {
+          "1": "וַתְּדַבֵּר מִרְיָם וְאַהֲרֹן בְּמֹשֶׁה עַל־אֹדוֹת הָאִשָּׁה הַכֻּשִׁית אֲשֶׁר לָקָח כִּֽי־אִשָּׁה כֻשִׁית לָקָֽח׃",
+          "2": "וַיֹּאמְרוּ הֲרַק אַךְ־בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם־בָּנוּ דִבֵּר וַיִּשְׁמַע יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses discuss the challenge to Moses' unique communication with God, contrasting it with prophetic visions and dreams. The riddle encapsulates this contrast.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-12-06-07",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he said, Hear now my words: If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream. My servant Moses is not so, who is faithful in all mine house.",
+        "riddle": "If there be a prophet among",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "bonus": "faithful",
+        "bonus_hint": {
+          "quote": "Know therefore that the LORD thy God, he is God, the faithful God, which keepeth covenant and mercy with them that love him and keep his commandments to a thousand generations;",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 7,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שִׁמְעוּ־נָא דְבָרָי אִם־יִֽהְיֶה נְבִיאֲכֶם יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ לֹא־כֵן עַבְדִּי מֹשֶׁה בְּכָל־בֵּיתִי נֶאֱמָן הֽוּא",
+        "riddle": "בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ לֹא־כֵן עַבְדִּי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "bonus": "נֶאֱמָן",
+        "bonus_hint": {
+          "quote": "וַיֵּדַע כָּל־יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שָׁבַע כִּי נֶאֱמָן שְׁמוּאֵל לְנָבִיא לַיהוָֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 3,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he said, Hear now my words: If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream.",
+          "7": "My servant Moses is not so, who is faithful in all mine house."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר שִׁמְעוּ־נָא דְבָרָי אִם־יִֽהְיֶה נְבִיאֲכֶם יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ׃",
+          "7": "לֹא־כֵן עַבְדִּי מֹשֶׁה בְּכָל־בֵּיתִי נֶאֱמָן הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses describe a distinction between how God speaks to prophets versus Moses, highlighting Moses' unique direct communication. The riddle focuses on this distinction, asking who receives this special form of communication.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 6,
+        "end": 7
+      }
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "book_code": "LEV",
+  "book": "Leviticus",
+  "book_he": "ויקרא",
+  "chapter": 11,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "leviticus-11-04-04",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 11,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: as the camel, because he cheweth the cud, but divideth not the hoof; he is unclean unto you.",
+        "riddle": "not eat of them that chew the cud, or of",
+        "speaker": "Nevertheless these",
+        "listener": "ye",
+        "book": "Leviticus",
+        "bonus": "camel",
+        "bonus_hint": {
+          "quote": "Now Rachel had taken the images, and put them in the camel's furniture, and sat upon them. And Laban searched all the tent, but found them not.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "אַךְ אֶת־זֶה לֹא תֹֽאכְלוּ מִֽמַּעֲלֵי הַגֵּרָה וּמִמַּפְרִיסֵי הַפַּרְסָה אֶֽת־הַגָּמָל כִּֽי־מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ מַפְרִיס טָמֵא הוּא לָכֶֽם",
+        "riddle": "הַגָּמָל כִּֽי־מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ מַפְרִיס טָמֵא הוּא",
+        "speaker": "אַךְ אֶת־זֶה",
+        "listener": "מִֽמַּעֲלֵי הַגֵּרָה",
+        "book": "ויקרא",
+        "bonus": "וּמִמַּפְרִיסֵי",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Nevertheless these shall ye not eat of them that chew the cud, or of them that divide the hoof: as the camel, because he cheweth the cud, but divideth not the hoof; he is unclean unto you."
+        },
+        "he": {
+          "4": "אַךְ אֶת־זֶה לֹא תֹֽאכְלוּ מִֽמַּעֲלֵי הַגֵּרָה וּמִמַּפְרִיסֵי הַפַּרְסָה אֶֽת־הַגָּמָל כִּֽי־מַעֲלֵה גֵרָה הוּא וּפַרְסָה אֵינֶנּוּ מַפְרִיס טָמֵא הוּא לָכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns directly with the prohibition in the English verse. Speaker and listener are identifiable within the context.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ]
+}

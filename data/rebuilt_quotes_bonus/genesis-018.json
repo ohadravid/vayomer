@@ -20,14 +20,26 @@
         "riddle": "Shall I of a surety bear a child, which am old?",
         "speaker": "the LORD",
         "listener": "Abraham",
-        "book": "Genesis"
+        "book": "Genesis",
+        "bonus": "laugh",
+        "bonus_hint": {
+          "quote": "And Sarah said, God hath made me to laugh, so that all that hear will laugh with me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 21,
+            "start": 6,
+            "end": 6
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַֽנְתִּי הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן",
         "riddle": "הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַֽנְתִּי",
         "speaker": "יְהוָה",
         "listener": "אַבְרָהָם",
-        "book": "בראשית"
+        "book": "בראשית",
+        "bonus": "צָחֲקָה",
+        "bonus_hint": null
       },
       "raw_quote_source": {
         "en": {
@@ -41,7 +53,10 @@
       },
       "meta": {
         "reason": "The riddle aligns with Sarah's question about bearing a child in old age. Speaker and listener are clearly identified in the context.",
-        "confidence": null
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,
@@ -65,7 +80,16 @@
         "speaker": "Abraham",
         "listener": "the Lord",
         "book": "Genesis",
-        "bonus": "ashes"
+        "bonus": "lack",
+        "bonus_hint": {
+          "quote": "My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children.",
+          "source": {
+            "book": "Hosea",
+            "chapter": 4,
+            "start": 6,
+            "end": 6
+          }
+        }
       },
       "he": {
         "quote": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּֽׁה",
@@ -73,7 +97,8 @@
         "speaker": "אַבְרָהָם",
         "listener": "־אֲדֹנָי",
         "book": "בראשית",
-        "bonus": "וָאֵֽפֶר"
+        "bonus": "הֲתַשְׁחִית",
+        "bonus_hint": null
       },
       "raw_quote_source": {
         "en": {
@@ -89,7 +114,8 @@
         "reason": "The riddle aligns directly with a dramatic clause in the English context, featuring the same event and entities.",
         "confidence": null,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,
@@ -112,14 +138,34 @@
         "riddle": "answered and said, Behold now, I have taken upon me",
         "speaker": "Abraham",
         "listener": "the Lord",
-        "book": "Genesis"
+        "book": "Genesis",
+        "bonus": "lack",
+        "bonus_hint": {
+          "quote": "My people are destroyed for lack of knowledge: because thou hast rejected knowledge, I will also reject thee, that thou shalt be no priest to me: seeing thou hast forgotten the law of thy God, I will also forget thy children.",
+          "source": {
+            "book": "Hosea",
+            "chapter": 4,
+            "start": 6,
+            "end": 6
+          }
+        }
       },
       "he": {
         "quote": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּֽׁה וַיֹּסֶף עוֹד לְדַבֵּר אֵלָיו וַיֹּאמַר אוּלַי יִמָּצְאוּן שָׁם אַרְבָּעִים וַיֹּאמֶר לֹא אֶֽעֱשֶׂה בַּעֲבוּר הָאַרְבָּעִֽים וַיֹּאמֶר אַל־נָא יִחַר לַֽאדֹנָי וַאֲדַבֵּרָה אוּלַי יִמָּצְאוּן שָׁם שְׁלֹשִׁים וַיֹּאמֶר לֹא אֶֽעֱשֶׂה אִם־אֶמְצָא שָׁם שְׁלֹשִֽׁים וַיֹּאמֶר הִנֵּֽה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי אוּלַי יִמָּצְאוּן שָׁם עֶשְׂרִים וַיֹּאמֶר לֹא אַשְׁחִית בַּעֲבוּר הָֽעֶשְׂרִֽים",
         "riddle": "וְאָנֹכִי עָפָר וָאֵֽפֶר אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה",
         "speaker": "אַבְרָהָם",
         "listener": "־אֲדֹנָי",
-        "book": "בראשית"
+        "book": "בראשית",
+        "bonus": "אַשְׁחִית",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר הַגֹּאֵל לֹא אוּכַל לִגְאָל־לִי פֶּן־אַשְׁחִית אֶת־נַחֲלָתִי גְּאַל־לְךָ אַתָּה אֶת־גְּאֻלָּתִי כִּי לֹא־אוּכַל לִגְאֹֽל",
+          "source": {
+            "book": "רות",
+            "chapter": 4,
+            "start": 6,
+            "end": 6
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -139,7 +185,10 @@
       },
       "meta": {
         "reason": "Abraham's urgent preparation of food for the guests (verses 5-6) forms the basis for the riddle, focusing on the act of providing hospitality.",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,
@@ -163,7 +212,16 @@
         "speaker": "And he said",
         "listener": "And he spake",
         "book": "Genesis",
-        "bonus": "do"
+        "bonus": "Peradventure",
+        "bonus_hint": {
+          "quote": "And the servant said unto him, Peradventure the woman will not be willing to follow me unto this land: must I needs bring thy son again unto the land from whence thou camest?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 5,
+            "end": 5
+          }
+        }
       },
       "he": {
         "quote": "אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּֽׁה וַיֹּסֶף עוֹד לְדַבֵּר אֵלָיו וַיֹּאמַר אוּלַי יִמָּצְאוּן שָׁם אַרְבָּעִים וַיֹּאמֶר לֹא אֶֽעֱשֶׂה בַּעֲבוּר הָאַרְבָּעִֽים",
@@ -171,7 +229,16 @@
         "speaker": "וַיֹּאמֶר",
         "listener": "וַיֹּסֶף",
         "book": "בראשית",
-        "bonus": "אֶֽעֱשֶׂה"
+        "bonus": "הָאַרְבָּעִֽים",
+        "bonus_hint": {
+          "quote": "וַיַּעַל אַהֲרֹן הַכֹּהֵן אֶל־הֹר הָהָר עַל־פִּי יְהוָה וַיָּמָת שָׁם בִּשְׁנַת הָֽאַרְבָּעִים לְצֵאת בְּנֵֽי־יִשְׂרָאֵל מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הַחֲמִישִׁי בְּאֶחָד לַחֹֽדֶשׁ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 33,
+            "start": 38,
+            "end": 38
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -187,7 +254,8 @@
         "reason": "The verses focus on Abraham's bargaining with God to save Sodom, progressively lowering the number of righteous people needed to spare the city. The riddle encapsulates this bargaining process.",
         "confidence": 0.9,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,

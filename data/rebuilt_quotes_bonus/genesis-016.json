@@ -21,14 +21,34 @@
         "riddle": "Behold now, the LORD hath restrained me from bearing",
         "speaker": "Sarai",
         "listener": "Abram",
-        "bonus": "Egyptian"
+        "book": "Genesis",
+        "bonus": "obtain",
+        "bonus_hint": {
+          "quote": "For whoso findeth me findeth life, and shall obtain favour of the LORD.",
+          "source": {
+            "book": "Proverbs",
+            "chapter": 8,
+            "start": 35,
+            "end": 35
+          }
+        }
       },
       "he": {
         "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי וַתִּקַּח שָׂרַי אֵֽשֶׁת־אַבְרָם אֶת־הָגָר הַמִּצְרִית שִׁפְחָתָהּ מִקֵּץ עֶשֶׂר שָׁנִים לְשֶׁבֶת אַבְרָם בְּאֶרֶץ כְּנָעַן וַתִּתֵּן אֹתָהּ לְאַבְרָם אִישָׁהּ לוֹ לְאִשָּֽׁה",
         "riddle": "הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת",
         "speaker": "שָׂרַי",
         "listener": "אַבְרָם",
-        "bonus": "הַמִּצְרִית"
+        "book": "בראשית",
+        "bonus": "שִׁפְחָתִי",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 5,
+            "end": 5
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -44,7 +64,13 @@
         "reason": "Sarai proposes Hagar to Abram as a means of having a child, a riddle based on her situation and request.",
         "confidence": 0.95,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 2,
+        "end": 3
       }
     },
     {
@@ -62,14 +88,26 @@
         "riddle": "when she saw that she had conceived, I was despised",
         "speaker": "Sarai",
         "listener": "Abram",
-        "bonus": "upon"
+        "book": "Genesis",
+        "bonus": "hardly",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Pharaoh would hardly let us go, that the LORD slew all the firstborn in the land of Egypt, both the firstborn of man, and the firstborn of beast: therefore I sacrifice to the LORD all that openeth the matrix, being males; but all the firstborn of my children I redeem.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 13,
+            "start": 15,
+            "end": 15
+          }
+        }
       },
       "he": {
         "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ",
         "riddle": "וַתֵּרֶא כִּי הָרָתָה וָאֵקַל",
         "speaker": "שָׂרַי",
         "listener": "אַבְרָם",
-        "bonus": "עָלֶיך"
+        "book": "בראשית",
+        "bonus": "וַתְּעַנֶּה",
+        "bonus_hint": null
       },
       "raw_quote_source": {
         "en": {
@@ -85,7 +123,13 @@
         "reason": "direct_speech_interaction",
         "confidence": 0.95,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 5,
+        "end": 6
       }
     },
     {
@@ -103,14 +147,26 @@
         "riddle": "Behold, thy maid is in thy hand; do to her",
         "speaker": "Abram",
         "listener": "Sarai",
-        "bonus": "hardly"
+        "book": "Genesis",
+        "bonus": "fled",
+        "bonus_hint": {
+          "quote": "Now when Pharaoh heard this thing, he sought to slay Moses. But Moses fled from the face of Pharaoh, and dwelt in the land of Midian: and he sat down by a well.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 2,
+            "start": 15,
+            "end": 15
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ",
         "riddle": "בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ",
         "speaker": "אַבְרָם",
         "listener": "שָׂרַי",
-        "bonus": "וַתְּעַנֶּה"
+        "book": "בראשית",
+        "bonus": "וַתִּבְרַח",
+        "bonus_hint": null
       },
       "raw_quote_source": {
         "en": {
@@ -124,7 +180,13 @@
         "reason": "Abram relinquishes control over Hagar to Sarai, creating a power dynamic ripe for a riddle about obedience and agency.",
         "confidence": 0.9,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 3,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 6,
+        "end": 6
       }
     },
     {
@@ -142,14 +204,34 @@
         "riddle": "Behold, thy maid is in thy hand; do to her",
         "speaker": "Abram",
         "listener": "Sarai",
-        "bonus": "LORD"
+        "book": "Genesis",
+        "bonus": "fountain",
+        "bonus_hint": {
+          "quote": "For with thee is the fountain of life: in thy light shall we see light.",
+          "source": {
+            "book": "Psalms",
+            "chapter": 36,
+            "start": 9,
+            "end": 9
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ וַֽיִּמְצָאָהּ מַלְאַךְ יְהוָה עַל־עֵין הַמַּיִם בַּמִּדְבָּר עַל־הָעַיִן בְּדֶרֶךְ שֽׁוּר",
         "riddle": "בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ",
         "speaker": "אַבְרָם",
         "listener": "שָׂרַי",
-        "bonus": "יְהוָה"
+        "book": "בראשית",
+        "bonus": "הַמַּיִם",
+        "bonus_hint": {
+          "quote": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 2,
+            "end": 2
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -165,7 +247,13 @@
         "reason": "Abram relinquishes control of Hagar to Sarai, creating a power dynamic ripe for a riddle about submission and agency.",
         "confidence": 0.9,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 6,
+        "end": 7
       }
     }
   ]

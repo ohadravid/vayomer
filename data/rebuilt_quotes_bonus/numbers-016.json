@@ -1,0 +1,75 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 16,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-16-05-05",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 16,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And he spake unto Korah and unto all his company, saying, Even to morrow the LORD will shew who are his, and who is holy; and will cause him to come near unto him: even him whom he hath chosen will he cause to come near unto him.",
+        "riddle": "who are his, and who is holy",
+        "speaker": "the LORD",
+        "listener": "Korah",
+        "book": "Numbers",
+        "bonus": "company",
+        "bonus_hint": {
+          "quote": "And God said unto him, I am God Almighty: be fruitful and multiply; a nation and a company of nations shall be of thee, and kings shall come out of thy loins;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 35,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֶל־קֹרַח וְאֶֽל־כָּל־עֲדָתוֹ לֵאמֹר בֹּקֶר וְיֹדַע יְהוָה אֶת־אֲשֶׁר־לוֹ וְאֶת־הַקָּדוֹשׁ וְהִקְרִיב אֵלָיו וְאֵת אֲשֶׁר יִבְחַר־בּוֹ יַקְרִיב אֵלָֽיו",
+        "riddle": "אֶת־אֲשֶׁר־לוֹ וְאֶת־הַקָּדוֹשׁ",
+        "speaker": "יְהוָה",
+        "listener": "קֹרַח",
+        "book": "במדבר",
+        "bonus": "עֲדָתו",
+        "bonus_hint": {
+          "quote": "זֹאת עֲשׂוּ קְחוּ־לָכֶם מַחְתּוֹת קֹרַח וְכָל־עֲדָתֽוֹ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 16,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he spake unto Korah and unto all his company, saying, Even to morrow the LORD will shew who are his, and who is holy; and will cause him to come near unto him: even him whom he hath chosen will he cause to come near unto him."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר אֶל־קֹרַח וְאֶֽל־כָּל־עֲדָתוֹ לֵאמֹר בֹּקֶר וְיֹדַע יְהוָה אֶת־אֲשֶׁר־לוֹ וְאֶת־הַקָּדוֹשׁ וְהִקְרִיב אֵלָיו וְאֵת אֲשֶׁר יִבְחַר־בּוֹ יַקְרִיב אֵלָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns with the English verse's statement about revealing who is holy. Speaker and listener are clearly identified in the verse.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ]
+}

@@ -20,13 +20,35 @@
         "quote": "And he blessed him, and said, Blessed be Abram of the most high God, possessor of heaven and earth: And blessed be the most high God, which hath delivered thine enemies into thy hand. And he gave him tithes of all. And the king of Sodom said unto Abram, Give me the persons, and take the goods to thyself.",
         "riddle": "most high God, which hath delivered thine enemies into thy",
         "speaker": "the king of Sodom",
-        "listener": "Abram"
+        "listener": "Abram",
+        "book": "Genesis",
+        "bonus": "possessor",
+        "bonus_hint": {
+          "quote": "And Abram said to the king of Sodom, I have lift up mine hand unto the LORD, the most high God, the possessor of heaven and earth,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 22,
+            "end": 22
+          }
+        }
       },
       "he": {
         "quote": "וַֽיְבָרְכֵהוּ וַיֹּאמַר בָּרוּךְ אַבְרָם לְאֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ וּבָרוּךְ אֵל עֶלְיוֹן אֲשֶׁר־מִגֵּן צָרֶיךָ בְּיָדֶךָ וַיִּתֶּן־לוֹ מַעֲשֵׂר מִכֹּֽל וַיֹּאמֶר מֶֽלֶךְ־סְדֹם אֶל־אַבְרָם תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ",
         "riddle": "תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ",
         "speaker": "מֶֽלֶךְ־סְדֹם",
-        "listener": "אַבְרָם"
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "bonus": "וַֽיְבָרְכֵהו",
+        "bonus_hint": {
+          "quote": "וַתֵּלֶד הָֽאִשָּׁה בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שִׁמְשׁוֹן וַיִּגְדַּל הַנַּעַר וַֽיְבָרְכֵהוּ יְהוָֽה",
+          "source": {
+            "book": "שופטים",
+            "chapter": 13,
+            "start": 24,
+            "end": 24
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -42,7 +64,15 @@
       },
       "meta": {
         "reason": "The king of Sodom offers Abram the people rescued from battle in exchange for the goods, and the riddle reflects this transactional offer while hinting at the king's earthly power.",
-        "confidence": 0.9
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 19,
+        "end": 21
       }
     },
     {
@@ -60,14 +90,34 @@
         "riddle": "I have lift up mine hand unto",
         "speaker": "the king of Sodom",
         "listener": "Abram",
-        "bonus": "persons"
+        "book": "Genesis",
+        "bonus": "persons",
+        "bonus_hint": {
+          "quote": "Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God's: and the cause that is too hard for you, bring it unto me, and I will hear it.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 1,
+            "start": 17,
+            "end": 17
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר מֶֽלֶךְ־סְדֹם אֶל־אַבְרָם תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ וַיֹּאמֶר אַבְרָם אֶל־מֶלֶךְ סְדֹם הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ",
         "riddle": "הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ",
         "speaker": "מֶלֶךְ סְדֹם",
         "listener": "אַבְרָם",
-        "bonus": "הַנֶּפֶש"
+        "book": "בראשית",
+        "bonus": "הַנֶּפֶש",
+        "bonus_hint": {
+          "quote": "וְעָרֵל זָכָר אֲשֶׁר לֹֽא־יִמּוֹל אֶת־בְּשַׂר עָרְלָתוֹ וְנִכְרְתָה הַנֶּפֶשׁ הַהִוא מֵעַמֶּיהָ אֶת־בְּרִיתִי הֵפַֽר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 17,
+            "start": 14,
+            "end": 14
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -83,7 +133,13 @@
         "reason": "Direct speech interaction between key figures, concise riddle based on the exchange.",
         "confidence": 0.95,
         "bonus_source": "llm",
-        "bonus_retries": 2
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 21,
+        "end": 22
       }
     },
     {
@@ -100,13 +156,19 @@
         "quote": "And Abram said to the king of Sodom, I have lift up mine hand unto the LORD, the most high God, the possessor of heaven and earth, That I will not take from a thread even to a shoelatchet, and that I will not take any thing that is thine, lest thou shouldest say, I have made Abram rich:",
         "riddle": "heaven and earth, That I will not take from a",
         "speaker": "Abram",
-        "listener": "the king of Sodom"
+        "listener": "the king of Sodom",
+        "book": "Genesis",
+        "bonus": "shoelatchet",
+        "bonus_hint": null
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־מֶלֶךְ סְדֹם הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ אִם־מִחוּט וְעַד שְׂרֽוֹךְ־נַעַל וְאִם־אֶקַּח מִכָּל־אֲשֶׁר־לָךְ וְלֹא תֹאמַר אֲנִי הֶעֱשַׁרְתִּי אֶת־אַבְרָֽם",
         "riddle": "הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ",
         "speaker": "אַבְרָם",
-        "listener": "מֶלֶךְ סְדֹם"
+        "listener": "מֶלֶךְ סְדֹם",
+        "book": "בראשית",
+        "bonus": "הֶעֱשַׁרְתִּי",
+        "bonus_hint": null
       },
       "raw_quote_source": {
         "en": {
@@ -120,7 +182,15 @@
       },
       "meta": {
         "reason": "Abram's refusal of reward from the king of Sodom is a clear statement of principle and could be framed as a riddle about integrity.",
-        "confidence": 0.9
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 22,
+        "end": 23
       }
     }
   ]
