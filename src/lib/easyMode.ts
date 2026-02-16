@@ -1,4 +1,5 @@
 import { normalize } from "./format";
+import { canonicalizeDivineName } from "./divineAliases";
 import type {
   BookOptionSet,
   DifficultyChoicePools,
@@ -28,10 +29,10 @@ function stableSeedSort(values: string[], seed: string): string[] {
   });
 }
 
-function canonicalizeChoiceLabel(value: string): string {
+function canonicalizeChoiceLabel(value: string, lang: Lang): string {
   const trimmed = value.trim();
   if (!trimmed) return "";
-  return trimmed;
+  return canonicalizeDivineName(trimmed, lang) ?? trimmed;
 }
 
 function dedupeByNormalized(values: string[], lang: Lang): string[] {
@@ -39,7 +40,7 @@ function dedupeByNormalized(values: string[], lang: Lang): string[] {
   const next: string[] = [];
 
   for (const value of values) {
-    const canonical = canonicalizeChoiceLabel(value);
+    const canonical = canonicalizeChoiceLabel(value, lang);
     if (!canonical) continue;
     const key = normalize(canonical, lang);
     if (!key || seen.has(key)) continue;

@@ -84,6 +84,7 @@ function createI18n(lang: Lang) {
 function renderPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
   onChoiceInteracted?: () => void;
+  lang?: Lang;
   puzzle?: PuzzleItem;
   revealed?: boolean;
   easyMode?: boolean;
@@ -98,7 +99,7 @@ function renderPuzzleView(props: {
     attempts: GuessResult[];
   };
 }) {
-  const i18n = createI18n("en");
+  const i18n = createI18n(props.lang ?? "en");
   return (
     <I18nextProvider i18n={i18n}>
       <StrictMode>
@@ -295,6 +296,56 @@ describe("PuzzleView persistence hydration", () => {
     expect(form?.props.choiceOptions.listener).toContain("Easy Listener");
     expect(form?.props.choiceOptions.speaker).not.toContain("Hard Speaker");
     expect(form?.props.choiceOptions.listener).not.toContain("Hard Listener");
+  });
+
+  it("shows God as speaker option for divine aliases and accepts it as correct", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, easyMode: true }));
+    });
+
+    const formBeforeGuess = root?.root.findByType(GuessForm);
+    expect(formBeforeGuess?.props.choiceOptions.speaker).toContain("God");
+    expect(formBeforeGuess?.props.choiceOptions.speaker).not.toContain("the LORD");
+
+    act(() => {
+      formBeforeGuess?.props.onChange("speaker", "God");
+      formBeforeGuess?.props.onChange("listener", "Abram");
+    });
+
+    const formReadyToSubmit = root?.root.findByType(GuessForm);
+    act(() => {
+      formReadyToSubmit?.props.onSubmit();
+    });
+
+    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    expect(feedback).toBe("Nice! Now find the missing word.");
+  });
+
+  it("shows אֱלֹהִים as speaker option for divine aliases in Hebrew and accepts it as correct", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, easyMode: true, lang: "he" }));
+    });
+
+    const formBeforeGuess = root?.root.findByType(GuessForm);
+    expect(formBeforeGuess?.props.choiceOptions.speaker).toContain("אֱלֹהִים");
+    expect(formBeforeGuess?.props.choiceOptions.speaker).not.toContain("אֲדֹנָי");
+
+    act(() => {
+      formBeforeGuess?.props.onChange("speaker", "אֱלֹהִים");
+      formBeforeGuess?.props.onChange("listener", "אַבְרָם");
+    });
+
+    const formReadyToSubmit = root?.root.findByType(GuessForm);
+    act(() => {
+      formReadyToSubmit?.props.onSubmit();
+    });
+
+    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    expect(feedback).toBe("יפה! עכשיו מצאו את המילה החסרה.");
   });
 
   it("does not overwrite loaded missing-word state on fresh hydration", () => {

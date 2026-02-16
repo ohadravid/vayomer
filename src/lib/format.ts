@@ -1,4 +1,5 @@
 import type { Lang } from "../types";
+import { normalizeDivineAlias } from "./divineAliases";
 
 export const HARD_WORD_PLACEHOLDERS = ["🪧", "🚧", "💬", "🔎"] as const;
 
@@ -12,6 +13,8 @@ function normalizeEnglish(text: string): string {
   s = s.replace(/[^\w\u0590-\u05FF]+/g, " ");
   s = s.replace(/\s+/g, " ").trim();
   s = s.replace(/^the\s+/, "");
+  const divine = normalizeDivineAlias(s, "en");
+  if (divine) return divine;
   return s;
 }
 
@@ -21,6 +24,8 @@ function normalizeHebrew(text: string): string {
   s = s.replace(/ה['׳]/g, "השם");
   s = s.replace(/[^\w\u0590-\u05FF]+/g, " ");
   s = s.replace(/\s+/g, " ").trim();
+  const divine = normalizeDivineAlias(s, "he");
+  if (divine) return divine;
   return s;
 }
 

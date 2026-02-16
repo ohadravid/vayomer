@@ -65,6 +65,18 @@ function hasEasyModeDistractors(item: PuzzleItem): boolean {
   return hasSpeakerAlternative && hasListenerAlternative;
 }
 
+function hasRawEnglishDivineAlias(value: string): boolean {
+  const trimmed = value.trim();
+  if (!trimmed) return false;
+  return normalize(trimmed, "en") === normalize("God", "en") && trimmed.toLowerCase() !== "god";
+}
+
+function hasRawHebrewDivineAlias(value: string): boolean {
+  const trimmed = value.trim();
+  if (!trimmed) return false;
+  return normalize(trimmed, "he") === normalize("אֱלֹהִים", "he") && trimmed !== "אֱלֹהִים";
+}
+
 const testPuzzle = dailyItems.find(
   (item) => !!item.en.bonus?.trim() && !!item.he.bonus?.trim() && hasEasyModeDistractors(item)
 );
@@ -102,6 +114,44 @@ const hintEnAnswer = {
   speaker: hintPuzzle.en.speaker,
   listener: hintPuzzle.en.listener,
   bonus: hintPuzzle.en.bonus!.trim(),
+};
+
+const divineAliasPuzzle = dailyItems.find(
+  (item) =>
+    !!item.en.bonus?.trim() &&
+    !!item.he.bonus?.trim() &&
+    hasEasyModeDistractors(item) &&
+    hasRawEnglishDivineAlias(item.en.speaker)
+);
+
+if (!divineAliasPuzzle) {
+  throw new Error("Expected a puzzle with a raw English divine-name alias speaker and easy-mode distractors.");
+}
+
+const divinePuzzleId = divineAliasPuzzle.id;
+const divineEnAnswer = {
+  speaker: divineAliasPuzzle.en.speaker,
+  listener: divineAliasPuzzle.en.listener,
+  bonus: divineAliasPuzzle.en.bonus!.trim(),
+};
+
+const divineAliasPuzzleHe = dailyItems.find(
+  (item) =>
+    !!item.en.bonus?.trim() &&
+    !!item.he.bonus?.trim() &&
+    hasEasyModeDistractors(item) &&
+    hasRawHebrewDivineAlias(item.he.speaker)
+);
+
+if (!divineAliasPuzzleHe) {
+  throw new Error("Expected a puzzle with a raw Hebrew divine-name alias speaker and easy-mode distractors.");
+}
+
+const divineHePuzzleId = divineAliasPuzzleHe.id;
+const divineHeAnswer = {
+  speaker: divineAliasPuzzleHe.he.speaker,
+  listener: divineAliasPuzzleHe.he.listener,
+  bonus: divineAliasPuzzleHe.he.bonus!.trim(),
 };
 
 function formatHintSource(source: HintSource | undefined): string {
@@ -416,6 +466,52 @@ test("easy mode: clear win", async ({ page }) => {
   await expect(page.locator("#feedback")).toHaveText("Solved.");
   await expect(page.getByText("Tries: 1/5")).toBeVisible();
   await expect(page.locator("#submitGuess")).toBeDisabled();
+});
+
+test("easy mode canonicalizes divine speaker options to God and accepts them", async ({ page }) => {
+  await openGame(page, { puzzleId: divinePuzzleId, easyMode: true, lang: "en" });
+
+  const speakerSelect = page.locator("#inputSpeaker");
+  const speakerOptions = await speakerSelect
+    .locator("option")
+    .evaluateAll((nodes) => nodes.map((node) => (node as HTMLOptionElement).value).filter(Boolean));
+
+  expect(speakerOptions).toContain("God");
+  expect(
+    speakerOptions.some((option) => {
+      const trimmed = option.trim();
+      return normalize(trimmed, "en") === normalize("God", "en") && trimmed.toLowerCase() !== "god";
+    })
+  ).toBe(false);
+
+  await selectAnswerOption(speakerSelect, divineEnAnswer.speaker, "en");
+  expect(await speakerSelect.inputValue()).toBe("God");
+  await selectAnswerOption(page.locator("#inputListener"), divineEnAnswer.listener, "en");
+  await page.click("#submitGuess");
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+});
+
+test("hebrew easy mode canonicalizes divine speaker options to אֱלֹהִים and accepts them", async ({ page }) => {
+  await openGame(page, { puzzleId: divineHePuzzleId, easyMode: true, lang: "he" });
+
+  const speakerSelect = page.locator("#inputSpeaker");
+  const speakerOptions = await speakerSelect
+    .locator("option")
+    .evaluateAll((nodes) => nodes.map((node) => (node as HTMLOptionElement).value).filter(Boolean));
+
+  expect(speakerOptions).toContain("אֱלֹהִים");
+  expect(
+    speakerOptions.some((option) => {
+      const trimmed = option.trim();
+      return normalize(trimmed, "he") === normalize("אֱלֹהִים", "he") && trimmed !== "אֱלֹהִים";
+    })
+  ).toBe(false);
+
+  await selectAnswerOption(speakerSelect, divineHeAnswer.speaker, "he");
+  expect(await speakerSelect.inputValue()).toBe("אֱלֹהִים");
+  await selectAnswerOption(page.locator("#inputListener"), divineHeAnswer.listener, "he");
+  await page.click("#submitGuess");
+  await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
 });
 
 test("easy mode: mistakes and win", async ({ page }) => {

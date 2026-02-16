@@ -7,11 +7,11 @@ describe("normalize", () => {
   });
 
   it("normalizes hebrew cantillation and punctuation", () => {
-    expect(normalize(" אֲדֹנָי!! ", "he")).toBe("אדני");
+    expect(normalize(" אַבְרָם!! ", "he")).toBe("אברם");
   });
 
-  it("does not unify divine-name aliases", () => {
-    expect(normalize("God", "en")).not.toBe(normalize("the LORD", "en"));
-    expect(normalize("אלוהים", "he")).not.toBe(normalize("יְהוָה", "he"));
+  it("unifies divine-name aliases", () => {
+    expect(normalize("God", "en")).toBe(normalize("the LORD", "en"));
+    expect(normalize("אֱלֹהִים", "he")).toBe(normalize("יְהוָה", "he"));
   });
 });
