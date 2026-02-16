@@ -20,13 +20,35 @@
         "quote": "And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth. And the fear of you and the dread of you shall be upon every beast of the earth, and upon every fowl of the air, upon all that moveth upon the earth, and upon all the fishes of the sea; into your hand are they delivered.",
         "riddle": "the dread of you shall be upon every beast of",
         "speaker": "God",
-        "listener": "Noah and his sons"
+        "listener": "Noah and his sons",
+        "book": "Genesis",
+        "bonus": "multiply",
+        "bonus_hint": {
+          "quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 16,
+            "end": 16
+          }
+        }
       },
       "he": {
         "quote": "וַיְבָרֶךְ אֱלֹהִים אֶת־נֹחַ וְאֶת־בָּנָיו וַיֹּאמֶר לָהֶם פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָֽרֶץ וּמוֹרַאֲכֶם וְחִתְּכֶם יִֽהְיֶה עַל כָּל־חַיַּת הָאָרֶץ וְעַל כָּל־עוֹף הַשָּׁמָיִם בְּכֹל אֲשֶׁר תִּרְמֹשׂ הָֽאֲדָמָה וּֽבְכָל־דְּגֵי הַיָּם בְּיֶדְכֶם נִתָּֽנוּ",
         "riddle": "לָהֶם פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָֽרֶץ וּמוֹרַאֲכֶם וְחִתְּכֶם יִֽהְיֶה עַל",
         "speaker": "אֱלֹהִים",
-        "listener": "נֹחַ וְאֶת־בָּנָיו"
+        "listener": "נֹחַ וְאֶת־בָּנָיו",
+        "book": "בראשית",
+        "bonus": "וַיְבָרֶך",
+        "bonus_hint": {
+          "quote": "וַיְבָרֶךְ אֱלֹהִים אֶת־יוֹם הַשְּׁבִיעִי וַיְקַדֵּשׁ אֹתוֹ כִּי בוֹ שָׁבַת מִכָּל־מְלַאכְתּוֹ אֲשֶׁר־בָּרָא אֱלֹהִים לַעֲשֽׂוֹת",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 3,
+            "end": 3
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -40,7 +62,15 @@
       },
       "meta": {
         "reason": "The verses establish God's command to repopulate the earth alongside the dominion over creatures, creating a contrast suitable for a riddle.",
-        "confidence": 0.9
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 2
       }
     }
   ]

@@ -1,0 +1,209 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 44,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "genesis-44-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 44,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "And he commanded the steward of his house, saying, Fill the men's sacks with food, as much as they can carry, and put every man's money in his sack's mouth.",
+        "riddle": "s sacks with food, as much as they can carry",
+        "speaker": "the steward of his house",
+        "listener": "men",
+        "book": "Genesis",
+        "bonus": "money",
+        "bonus_hint": {
+          "quote": "That he may give me the cave of Machpelah, which he hath, which is in the end of his field; for as much money as it is worth he shall give it me for a possession of a buryingplace amongst you.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 23,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְצַו אֶת־אֲשֶׁר עַל־בֵּיתוֹ לֵאמֹר מַלֵּא אֶת־אַמְתְּחֹת הָֽאֲנָשִׁים אֹכֶל כַּאֲשֶׁר יוּכְלוּן שְׂאֵת וְשִׂים כֶּֽסֶף־אִישׁ בְּפִי אַמְתַּחְתּֽוֹ",
+        "riddle": "וְשִׂים כֶּֽסֶף־אִישׁ בְּפִי אַמְתַּחְתּֽו",
+        "speaker": "וַיְצַו אֶת־אֲשֶׁר עַל־בֵּיתוֹ",
+        "listener": "הָֽאֲנָשִׁים",
+        "book": "בראשית",
+        "bonus": "מַלֵּא",
+        "bonus_hint": {
+          "quote": "וַיְכַס הֶעָנָן אֶת־אֹהֶל מוֹעֵד וּכְבוֹד יְהוָה מָלֵא אֶת־הַמִּשְׁכָּֽן",
+          "source": {
+            "book": "שמות",
+            "chapter": 40,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And he commanded the steward of his house, saying, Fill the men's sacks with food, as much as they can carry, and put every man's money in his sack's mouth."
+        },
+        "he": {
+          "1": "וַיְצַו אֶת־אֲשֶׁר עַל־בֵּיתוֹ לֵאמֹר מַלֵּא אֶת־אַמְתְּחֹת הָֽאֲנָשִׁים אֹכֶל כַּאֲשֶׁר יוּכְלוּן שְׂאֵת וְשִׂים כֶּֽסֶף־אִישׁ בְּפִי אַמְתַּחְתּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns perfectly with the provided English verse. The speaker and riddle are clearly identifiable within the text.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 44,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-44-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 44,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Joseph said unto them, What deed is this that ye have done? wot ye not that such a man as I can certainly divine?",
+        "riddle": "wot ye not that such a man as I can certainly divine?",
+        "speaker": "Joseph",
+        "listener": "them",
+        "book": "Genesis",
+        "bonus": "deed",
+        "bonus_hint": {
+          "quote": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 12,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יוֹסֵף מָֽה־הַמַּעֲשֶׂה הַזֶּה אֲשֶׁר עֲשִׂיתֶם הֲלוֹא יְדַעְתֶּם כִּֽי־נַחֵשׁ יְנַחֵשׁ אִישׁ אֲשֶׁר כָּמֹֽנִי",
+        "riddle": "הֲלוֹא יְדַעְתֶּם כִּֽי־נַחֵשׁ יְנַחֵשׁ אִישׁ",
+        "speaker": "יוֹסֵף",
+        "listener": "לָהֶם",
+        "book": "בראשית",
+        "bonus": "עֲשִׂיתֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶמְחֶה אֶת־הָאָדָם אֲשֶׁר־בָּרָאתִי מֵעַל פְּנֵי הָֽאֲדָמָה מֵֽאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם כִּי נִחַמְתִּי כִּי עֲשִׂיתִֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Joseph said unto them, What deed is this that ye have done? wot ye not that such a man as I can certainly divine?"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לָהֶם יוֹסֵף מָֽה־הַמַּעֲשֶׂה הַזֶּה אֲשֶׁר עֲשִׂיתֶם הֲלוֹא יְדַעְתֶּם כִּֽי־נַחֵשׁ יְנַחֵשׁ אִישׁ אֲשֶׁר כָּמֹֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns directly with a phrase in the English verse, maintaining the same meaning and dramatic tone. Speaker and listener are clearly identified within the context.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 44,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-44-15-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 44,
+        "quote_verse_start": 15,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And Joseph said unto them, What deed is this that ye have done? wot ye not that such a man as I can certainly divine? And Judah said, What shall we say unto my lord? what shall we speak? or how shall we clear ourselves? God hath found out the iniquity of thy servants: behold, we are my lord's servants, both we, and he also with whom the cup is found. And he said, God forbid that I should do so: but the man in whose hand the cup is found, he shall be my servant; and as for you, get you up in peace unto your father.",
+        "riddle": "What deed is this that ye have done?",
+        "speaker": "Joseph",
+        "listener": "Judah",
+        "book": "Genesis",
+        "bonus": "such",
+        "bonus_hint": {
+          "quote": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 38,
+            "end": 38
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יוֹסֵף מָֽה־הַמַּעֲשֶׂה הַזֶּה אֲשֶׁר עֲשִׂיתֶם הֲלוֹא יְדַעְתֶּם כִּֽי־נַחֵשׁ יְנַחֵשׁ אִישׁ אֲשֶׁר כָּמֹֽנִי וַיֹּאמֶר יְהוּדָה מַה־נֹּאמַר לַֽאדֹנִי מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק הָאֱלֹהִים מָצָא אֶת־עֲוֺן עֲבָדֶיךָ הִנֶּנּוּ עֲבָדִים לַֽאדֹנִי גַּם־אֲנַחְנוּ גַּם אֲשֶׁר־נִמְצָא הַגָּבִיעַ בְּיָדֽוֹ וַיֹּאמֶר חָלִילָה לִּי מֵעֲשׂוֹת זֹאת הָאִישׁ אֲשֶׁר נִמְצָא הַגָּבִיעַ בְּיָדוֹ הוּא יִהְיֶה־לִּי עָבֶד וְאַתֶּם עֲלוּ לְשָׁלוֹם אֶל־אֲבִיכֶֽם",
+        "riddle": "מָֽה־הַמַּעֲשֶׂה הַזֶּה אֲשֶׁר עֲשִׂיתֶם",
+        "speaker": "יוֹסֵף",
+        "listener": "יְהוּדָה",
+        "book": "בראשית",
+        "bonus": "הֲלוֹא",
+        "bonus_hint": {
+          "quote": "וְלָמָה יְהוָה מֵבִיא אֹתָנוּ אֶל־הָאָרֶץ הַזֹּאת לִנְפֹּל בַּחֶרֶב נָשֵׁינוּ וְטַפֵּנוּ יִהְיוּ לָבַז הֲלוֹא טוֹב לָנוּ שׁוּב מִצְרָֽיְמָה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 14,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Joseph said unto them, What deed is this that ye have done? wot ye not that such a man as I can certainly divine?",
+          "16": "And Judah said, What shall we say unto my lord? what shall we speak? or how shall we clear ourselves? God hath found out the iniquity of thy servants: behold, we are my lord's servants, both we, and he also with whom the cup is found.",
+          "17": "And he said, God forbid that I should do so: but the man in whose hand the cup is found, he shall be my servant; and as for you, get you up in peace unto your father."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לָהֶם יוֹסֵף מָֽה־הַמַּעֲשֶׂה הַזֶּה אֲשֶׁר עֲשִׂיתֶם הֲלוֹא יְדַעְתֶּם כִּֽי־נַחֵשׁ יְנַחֵשׁ אִישׁ אֲשֶׁר כָּמֹֽנִי׃",
+          "16": "וַיֹּאמֶר יְהוּדָה מַה־נֹּאמַר לַֽאדֹנִי מַה־נְּדַבֵּר וּמַה־נִּצְטַדָּק הָאֱלֹהִים מָצָא אֶת־עֲוֺן עֲבָדֶיךָ הִנֶּנּוּ עֲבָדִים לַֽאדֹנִי גַּם־אֲנַחְנוּ גַּם אֲשֶׁר־נִמְצָא הַגָּבִיעַ בְּיָדֽוֹ׃",
+          "17": "וַיֹּאמֶר חָלִילָה לִּי מֵעֲשׂוֹת זֹאת הָאִישׁ אֲשֶׁר נִמְצָא הַגָּבִיעַ בְּיָדוֹ הוּא יִהְיֶה־לִּי עָבֶד וְאַתֶּם עֲלוּ לְשָׁלוֹם אֶל־אֲבִיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Joseph's statement about being able to 'divine' and the consequence of the cup being found in someone's sack sets up a riddle-like situation.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 44,
+        "start": 15,
+        "end": 17
+      }
+    }
+  ]
+}

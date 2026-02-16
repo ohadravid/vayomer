@@ -20,13 +20,35 @@
         "quote": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren.",
         "riddle": "Let there be no strife",
         "speaker": "Abram",
-        "listener": "Lot"
+        "listener": "Lot",
+        "book": "Genesis",
+        "bonus": "herdmen",
+        "bonus_hint": {
+          "quote": "And the herdmen of Gerar did strive with Isaac's herdmen, saying, The water is ours: and he called the name of the well Esek; because they strove with him.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 26,
+            "start": 20,
+            "end": 20
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ",
         "riddle": "אַל־נָא תְהִי מְרִיבָה",
         "speaker": "אַבְרָם",
-        "listener": "לוֹט"
+        "listener": "לוֹט",
+        "book": "בראשית",
+        "bonus": "רֹעֶיך",
+        "bonus_hint": {
+          "quote": "כָּל־רֹעַיִךְ תִּרְעֶה־רוּחַ וּֽמְאַהֲבַיִךְ בַּשְּׁבִי יֵלֵכוּ כִּי אָז תֵּבֹשִׁי וְנִכְלַמְתְּ מִכֹּל רָעָתֵֽךְ",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 22,
+            "start": 22,
+            "end": 22
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -38,7 +60,15 @@
       },
       "meta": {
         "reason": "The quote aligns perfectly with the provided English verse. The speaker and listener are clearly identified, and a concise, dramatic riddle can be extracted from the English text that corresponds to the Hebrew riddle's meaning of avoiding strife.",
-        "confidence": null
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 3,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 8,
+        "end": 8
       }
     },
     {
@@ -56,14 +86,34 @@
         "riddle": "Let there be no strife, I pray thee, between me",
         "speaker": "Abram",
         "listener": "Lot",
-        "bonus": "brethren"
+        "book": "Genesis",
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 9,
+            "end": 9
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ הֲלֹא כָל־הָאָרֶץ לְפָנֶיךָ הִפָּרֶד נָא מֵעָלָי אִם־הַשְּׂמֹאל וְאֵימִנָה וְאִם־הַיָּמִין וְאַשְׂמְאִֽילָה",
         "riddle": "אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ",
         "speaker": "אַבְרָם",
         "listener": "לוֹט",
-        "bonus": "אַחִים"
+        "book": "בראשית",
+        "bonus": "הָאָרֶץ",
+        "bonus_hint": {
+          "quote": "בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -77,7 +127,15 @@
       },
       "meta": {
         "reason": "mechanical_speech_marker",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 8,
+        "end": 9
       }
     },
     {
@@ -94,13 +152,35 @@
         "quote": "And the LORD said unto Abram, after that Lot was separated from him, Lift up now thine eyes, and look from the place where thou art northward, and southward, and eastward, and westward:",
         "riddle": "where thou art northward, and southward, and eastward, and westward",
         "speaker": "the LORD",
-        "listener": "Abram"
+        "listener": "Abram",
+        "book": "Genesis",
+        "bonus": "look",
+        "bonus_hint": {
+          "quote": "Moreover he said, I am the God of thy father, the God of Abraham, the God of Isaac, and the God of Jacob. And Moses hid his face; for he was afraid to look upon God.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 6,
+            "end": 6
+          }
+        }
       },
       "he": {
         "quote": "וַֽיהוָה אָמַר אֶל־אַבְרָם אַחֲרֵי הִפָּֽרֶד־לוֹט מֵֽעִמּוֹ שָׂא נָא עֵינֶיךָ וּרְאֵה מִן־הַמָּקוֹם אֲשֶׁר־אַתָּה שָׁם צָפֹנָה וָנֶגְבָּה וָקֵדְמָה וָיָֽמָּה",
         "riddle": "שָׂא נָא עֵינֶיךָ וּרְאֵה מִן־הַמָּקוֹם אֲשֶׁר־אַתָּה שָׁם צָפֹנָה וָנֶגְבָּה וָקֵדְמָה וָיָֽמָּה",
         "speaker": "יְהוָה",
-        "listener": "אַבְרָם"
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "bonus": "לוֹט",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי־רִיב בֵּין רֹעֵי מִקְנֵֽה־אַבְרָם וּבֵין רֹעֵי מִקְנֵה־לוֹט וְהַֽכְּנַעֲנִי וְהַפְּרִזִּי אָז יֹשֵׁב בָּאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 7,
+            "end": 7
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -112,7 +192,15 @@
       },
       "meta": {
         "reason": "The verse contains a divine command to look in all directions, followed by a promise of land. The riddle captures this spatial aspect and hints at the promise.",
-        "confidence": 0.9
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 14,
+        "end": 14
       }
     }
   ]

@@ -232,6 +232,24 @@ class BonusHintPicker:
         counts = self._en_token_verse_count if lang == "en" else self._he_token_verse_count
         return max(int(counts.get(token, 0)) for token in tokens)
 
+    def has_hint_candidates(
+        self,
+        *,
+        lang: str,
+        bonus_word: str,
+        current_quote: str,
+        source: Dict,
+        max_candidates: int = 1,
+    ) -> bool:
+        candidates = self._collect_candidates(
+            lang=lang,
+            bonus_word=bonus_word,
+            current_quote=current_quote,
+            source=source,
+            max_candidates=max(1, max_candidates),
+        )
+        return bool(candidates)
+
     def _collect_candidates(
         self,
         *,

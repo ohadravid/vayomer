@@ -1,0 +1,142 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 5,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "exodus-05-01-01",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.",
+        "riddle": "Let my people go, that they may hold a feast unto me in the wilderness.",
+        "speaker": "Moses and Aaron",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "bonus": "afterward",
+        "bonus_hint": {
+          "quote": "And say ye moreover, Behold, thy servant Jacob is behind us. For he said, I will appease him with the present that goeth before me, and afterward I will see his face; peradventure he will accept of me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 32,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר",
+        "riddle": "שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות",
+        "bonus": "בָּאו",
+        "bonus_hint": {
+          "quote": "הִנֵּה־נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא־יָדְעוּ אִישׁ אוֹצִֽיאָה־נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל־תַּעֲשׂוּ דָבָר כִּֽי־עַל־כֵּן בָּאוּ בְּצֵל קֹרָתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 19,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness."
+        },
+        "he": {
+          "1": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns perfectly with the provided English verse. All entities are present and the riddle is a direct substring with matching meaning.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "exodus-05-01-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness. And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.",
+        "riddle": "Who is the LORD, that I should obey his voice",
+        "speaker": "Moses and Aaron",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "bonus": "hold",
+        "bonus_hint": {
+          "quote": "And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ",
+        "riddle": "מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ",
+        "speaker": "מֹשֶׁה וְאַהֲרֹן",
+        "listener": "פַּרְעֹה",
+        "book": "שמות",
+        "bonus": "שַׁלַּח",
+        "bonus_hint": {
+          "quote": "וְאֶת־בִּנְיָמִין אֲחִי יוֹסֵף לֹא־שָׁלַח יַעֲקֹב אֶת־אֶחָיו כִּי אָמַר פֶּן־יִקְרָאֶנּוּ אָסֽוֹן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.",
+          "2": "And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go."
+        },
+        "he": {
+          "1": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר׃",
+          "2": "וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses establish a direct request for freedom followed by Pharaoh's denial and questioning of God's identity, forming a clear interaction suitable for a riddle.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 2
+      }
+    }
+  ]
+}

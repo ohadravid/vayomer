@@ -1,0 +1,74 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 19,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-19-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law.",
+        "riddle": "Up, get you out of this place",
+        "speaker": "Lot",
+        "listener": "his sons in law",
+        "book": "Genesis",
+        "bonus": "destroy",
+        "bonus_hint": {
+          "quote": "And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּצֵא לוֹט וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו",
+        "riddle": "קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה",
+        "speaker": "לוֹט",
+        "listener": "חֲתָנָיו",
+        "book": "בראשית",
+        "bonus": "מַשְׁחִית",
+        "bonus_hint": {
+          "quote": "הִנֵּה אָֽנֹכִי בָּרָאתִי חָרָשׁ נֹפֵחַ בְּאֵשׁ פֶּחָם וּמוֹצִיא כְלִי לְמַעֲשֵׂהוּ וְאָנֹכִי בָּרָאתִי מַשְׁחִית לְחַבֵּֽל",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 54,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law."
+        },
+        "he": {
+          "14": "וַיֵּצֵא לוֹט וַיְדַבֵּר ׀ אֶל־חֲתָנָיו ׀ לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "Lot offers his daughters to the men of Sodom to protect his guests, creating a disturbing 'trade' scenario. The riddle focuses on this desperate offer as a central element of the verse.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ]
+}

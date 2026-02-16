@@ -20,13 +20,35 @@
         "quote": "And God spake unto Noah, saying, Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.",
         "riddle": "Go forth of the ark, thou, and thy wife, and",
         "speaker": "God",
-        "listener": "Noah"
+        "listener": "Noah",
+        "book": "Genesis",
+        "bonus": "unto",
+        "bonus_hint": {
+          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 9,
+            "end": 9
+          }
+        }
       },
       "he": {
         "quote": "וַיְדַבֵּר אֱלֹהִים אֶל־נֹחַ לֵאמֹֽר צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
         "riddle": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
         "speaker": "אֱלֹהִים",
-        "listener": "נֹחַ"
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיֵּצֵא לוֹט וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו",
+          "source": {
+            "book": "בראשית",
+            "chapter": 19,
+            "start": 14,
+            "end": 14
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -40,7 +62,15 @@
       },
       "meta": {
         "reason": "The verse describes God speaking to Noah, instructing him to leave the ark, which is a wooden home. The riddle focuses on this action and the setting, creating a concise and relevant puzzle.",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 15,
+        "end": 16
       }
     },
     {
@@ -57,13 +87,35 @@
         "quote": "And God spake unto Noah, saying, Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee. Bring forth with thee every living thing that is with thee, of all flesh, both of fowl, and of cattle, and of every creeping thing that creepeth upon the earth; that they may breed abundantly in the earth, and be fruitful, and multiply upon the earth.",
         "riddle": "Go forth of the ark, thou, and thy wife, and",
         "speaker": "God",
-        "listener": "Noah"
+        "listener": "Noah",
+        "book": "Genesis",
+        "bonus": "cattle",
+        "bonus_hint": {
+          "quote": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 14,
+            "end": 14
+          }
+        }
       },
       "he": {
         "quote": "וַיְדַבֵּר אֱלֹהִים אֶל־נֹחַ לֵאמֹֽר צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ כָּל־הַחַיָּה אֲשֶֽׁר־אִתְּךָ מִכָּל־בָּשָׂר בָּעוֹף וּבַבְּהֵמָה וּבְכָל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ הַיְצֵא אִתָּךְ וְשָֽׁרְצוּ בָאָרֶץ וּפָרוּ וְרָבוּ עַל־הָאָֽרֶץ",
         "riddle": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ כָּל",
         "speaker": "אֱלֹהִים",
-        "listener": "נֹחַ"
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "bonus": "בָּשָׂר",
+        "bonus_hint": {
+          "quote": "וַיַּפֵּל יְהוָה אֱלֹהִים תַּרְדֵּמָה עַל־הָאָדָם וַיִּישָׁן וַיִּקַּח אַחַת מִצַּלְעֹתָיו וַיִּסְגֹּר בָּשָׂר תַּחְתֶּֽנָּה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 21,
+            "end": 21
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -79,7 +131,15 @@
       },
       "meta": {
         "reason": "direct speech from God to Noah, focusing on the act of leaving the ark as the central event. The riddle encapsulates this action.",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 15,
+        "end": 17
       }
     }
   ]

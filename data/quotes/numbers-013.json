@@ -1,0 +1,69 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 13,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-13-16-17",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 13,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "These are the names of the men which Moses sent to spy out the land. And Moses called Oshea the son of Nun Jehoshua. And Moses sent them to spy out the land of Canaan, and said unto them, Get you up this way southward, and go up into the mountain:",
+        "riddle": "sent them to spy out the land of Canaan, and",
+        "speaker": "Moses",
+        "listener": "Oshea",
+        "book": "Numbers",
+        "bonus": "Jehoshua",
+        "bonus_hint": null
+      },
+      "he": {
+        "quote": "אֵלֶּה שְׁמוֹת הָֽאֲנָשִׁים אֲשֶׁר־שָׁלַח מֹשֶׁה לָתוּר אֶת־הָאָרֶץ וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן־נוּן יְהוֹשֻֽׁעַ וַיִּשְׁלַח אֹתָם מֹשֶׁה לָתוּר אֶת־אֶרֶץ כְּנָעַן וַיֹּאמֶר אֲלֵהֶם עֲלוּ זֶה בַּנֶּגֶב וַעֲלִיתֶם אֶת־הָהָֽר",
+        "riddle": "לָתוּר אֶת־אֶרֶץ כְּנָעַן וַיֹּאמֶר אֲלֵהֶם עֲלוּ זֶה בַּנֶּגֶב וַעֲלִיתֶם",
+        "speaker": "מֹשֶׁה",
+        "listener": "הוֹשֵׁעַ",
+        "book": "במדבר",
+        "bonus": "יְהוֹשֻֽׁע",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה קַח־לְךָ אֶת־יְהוֹשֻׁעַ בִּן־נוּן אִישׁ אֲשֶׁר־רוּחַ בּוֹ וְסָמַכְתָּ אֶת־יָדְךָ עָלָֽיו",
+          "source": {
+            "book": "במדבר",
+            "chapter": 27,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "These are the names of the men which Moses sent to spy out the land. And Moses called Oshea the son of Nun Jehoshua.",
+          "17": "And Moses sent them to spy out the land of Canaan, and said unto them, Get you up this way southward, and go up into the mountain:"
+        },
+        "he": {
+          "16": "אֵלֶּה שְׁמוֹת הָֽאֲנָשִׁים אֲשֶׁר־שָׁלַח מֹשֶׁה לָתוּר אֶת־הָאָרֶץ וַיִּקְרָא מֹשֶׁה לְהוֹשֵׁעַ בִּן־נוּן יְהוֹשֻֽׁעַ׃",
+          "17": "וַיִּשְׁלַח אֹתָם מֹשֶׁה לָתוּר אֶת־אֶרֶץ כְּנָעַן וַיֹּאמֶר אֲלֵהֶם עֲלוּ זֶה בַּנֶּגֶב וַעֲלִיתֶם אֶת־הָהָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns with the action of sending the men to spy out the land, directly mirroring the Hebrew. Speaker and listener are clearly identified within the context.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 2,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 16,
+        "end": 17
+      }
+    }
+  ]
+}

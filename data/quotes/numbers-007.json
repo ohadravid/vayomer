@@ -1,0 +1,77 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 7,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-07-11-12",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 7,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, They shall offer their offering, each prince on his day, for the dedicating of the altar. And he that offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah:",
+        "riddle": "each prince on his day",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "bonus": "offering",
+        "bonus_hint": {
+          "quote": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נָשִׂיא אֶחָד לַיּוֹם נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ אֶת־קָרְבָּנָם לַחֲנֻכַּת הַמִּזְבֵּֽחַ וַיְהִי הַמַּקְרִיב בַּיּוֹם הָרִאשׁוֹן אֶת־קָרְבָּנוֹ נַחְשׁוֹן בֶּן־עַמִּינָדָב לְמַטֵּה יְהוּדָֽה",
+        "riddle": "נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "bonus": "קָרְבָּנו",
+        "bonus_hint": {
+          "quote": "וְנֶפֶשׁ כִּֽי־תַקְרִיב קָרְבַּן מִנְחָה לַֽיהוָה סֹלֶת יִהְיֶה קָרְבָּנוֹ וְיָצַק עָלֶיהָ שֶׁמֶן וְנָתַן עָלֶיהָ לְבֹנָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 2,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD said unto Moses, They shall offer their offering, each prince on his day, for the dedicating of the altar.",
+          "12": "And he that offered his offering the first day was Nahshon the son of Amminadab, of the tribe of Judah:"
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נָשִׂיא אֶחָד לַיּוֹם נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ אֶת־קָרְבָּנָם לַחֲנֻכַּת הַמִּזְבֵּֽחַ׃",
+          "12": "וַיְהִי הַמַּקְרִיב בַּיּוֹם הָרִאשׁוֹן אֶת־קָרְבָּנוֹ נַחְשׁוֹן בֶּן־עַמִּינָדָב לְמַטֵּה יְהוּדָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "The riddle aligns directly with the first verse's description of offerings. Speaker and listener are clearly identified in the context.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 11,
+        "end": 12
+      }
+    }
+  ]
+}

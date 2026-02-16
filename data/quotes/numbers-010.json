@@ -1,0 +1,211 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 10,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "numbers-10-01-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps.",
+        "riddle": "Make thee two trumpets of silver; of a whole piece",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "bonus": "assembly",
+        "bonus_hint": {
+          "quote": "O my soul, come not thou into their secret; unto their assembly, mine honour, be not thou united: for in their anger they slew a man, and in their selfwill they digged down a wall.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 49,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר עֲשֵׂה לְךָ שְׁתֵּי חֲצֽוֹצְרֹת כֶּסֶף מִקְשָׁה תַּעֲשֶׂה אֹתָם וְהָיוּ לְךָ לְמִקְרָא הָֽעֵדָה וּלְמַסַּע אֶת־הַֽמַּחֲנֽוֹת",
+        "riddle": "עֲשֵׂה לְךָ שְׁתֵּי חֲצֽוֹצְרֹת כֶּסֶף מִקְשָׁה תַּעֲשֶׂה אֹתָם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "bonus": "הָֽעֵדָה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן וּלְאֶלְעָזָר וּלְאִֽיתָמָר בָּנָיו רָֽאשֵׁיכֶם אַל־תִּפְרָעוּ וּבִגְדֵיכֶם לֹֽא־תִפְרֹמוּ וְלֹא תָמֻתוּ וְעַל כָּל־הָעֵדָה יִקְצֹף וַאֲחֵיכֶם כָּל־בֵּית יִשְׂרָאֵל יִבְכּוּ אֶת־הַשְּׂרֵפָה אֲשֶׁר שָׂרַף יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Make thee two trumpets of silver; of a whole piece shalt thou make them: that thou mayest use them for the calling of the assembly, and for the journeying of the camps."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "עֲשֵׂה לְךָ שְׁתֵּי חֲצֽוֹצְרֹת כֶּסֶף מִקְשָׁה תַּעֲשֶׂה אֹתָם וְהָיוּ לְךָ לְמִקְרָא הָֽעֵדָה וּלְמַסַּע אֶת־הַֽמַּחֲנֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses describe the creation of two silver trumpets and their uses for assembly and signaling, forming a concise riddle about their function.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-10-29-30",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "quote_verse_start": 29,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "And Moses said unto Hobab, the son of Raguel the Midianite, Moses' father in law, We are journeying unto the place of which the LORD said, I will give it you: come thou with us, and we will do thee good: for the LORD hath spoken good concerning Israel. And he said unto him, I will not go; but I will depart to mine own land, and to my kindred.",
+        "riddle": "We are journeying unto the place of",
+        "speaker": "Moses",
+        "listener": "Hobab",
+        "book": "Numbers",
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה לְחֹבָב בֶּן־רְעוּאֵל הַמִּדְיָנִי חֹתֵן מֹשֶׁה נֹסְעִים אֲנַחְנוּ אֶל־הַמָּקוֹם אֲשֶׁר אָמַר יְהוָה אֹתוֹ אֶתֵּן לָכֶם לְכָה אִתָּנוּ וְהֵטַבְנוּ לָךְ כִּֽי־יְהוָה דִּבֶּר־טוֹב עַל־יִשְׂרָאֵֽל וַיֹּאמֶר אֵלָיו לֹא אֵלֵךְ כִּי אִם־אֶל־אַרְצִי וְאֶל־מוֹלַדְתִּי אֵלֵֽךְ",
+        "riddle": "נֹסְעִים אֲנַחְנוּ אֶל־הַמָּקוֹם אֲשֶׁר",
+        "speaker": "מֹשֶׁה",
+        "listener": "חֹבָב",
+        "book": "במדבר",
+        "bonus": "מוֹלַדְתִּי",
+        "bonus_hint": {
+          "quote": "כִּי אֵיכָכָה אוּכַל וְֽרָאִיתִי בָּרָעָה אֲשֶׁר־יִמְצָא אֶת־עַמִּי וְאֵֽיכָכָה אוּכַל וְֽרָאִיתִי בְּאָבְדַן מוֹלַדְתִּֽי",
+          "source": {
+            "book": "אסתר",
+            "chapter": 8,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Moses said unto Hobab, the son of Raguel the Midianite, Moses' father in law, We are journeying unto the place of which the LORD said, I will give it you: come thou with us, and we will do thee good: for the LORD hath spoken good concerning Israel.",
+          "30": "And he said unto him, I will not go; but I will depart to mine own land, and to my kindred."
+        },
+        "he": {
+          "29": "וַיֹּאמֶר מֹשֶׁה לְחֹבָב בֶּן־רְעוּאֵל הַמִּדְיָנִי חֹתֵן מֹשֶׁה נֹסְעִים ׀ אֲנַחְנוּ אֶל־הַמָּקוֹם אֲשֶׁר אָמַר יְהוָה אֹתוֹ אֶתֵּן לָכֶם לְכָה אִתָּנוּ וְהֵטַבְנוּ לָךְ כִּֽי־יְהוָה דִּבֶּר־טוֹב עַל־יִשְׂרָאֵֽל׃",
+          "30": "וַיֹּאמֶר אֵלָיו לֹא אֵלֵךְ כִּי אִם־אֶל־אַרְצִי וְאֶל־מוֹלַדְתִּי אֵלֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "dialogue_exchange",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 4,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 29,
+        "end": 30
+      }
+    },
+    {
+      "id": "numbers-10-35-36",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "quote_verse_start": 35,
+        "quote_verse_end": 36
+      },
+      "en": {
+        "quote": "And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee. And when it rested, he said, Return, O LORD, unto the many thousands of Israel.",
+        "riddle": "it came to pass, when the ark set forward, that",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Numbers",
+        "bonus": "Rise",
+        "bonus_hint": {
+          "quote": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh; lo, he cometh forth to the water; and say unto him, Thus saith the LORD, Let my people go, that they may serve me.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 8,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בִּנְסֹעַ הָאָרֹן וַיֹּאמֶר מֹשֶׁה קוּמָה יְהוָה וְיָפֻצוּ אֹֽיְבֶיךָ וְיָנֻסוּ מְשַׂנְאֶיךָ מִפָּנֶֽיךָ וּבְנֻחֹה יֹאמַר שׁוּבָה יְהוָה רִֽבְבוֹת אַלְפֵי יִשְׂרָאֵֽל",
+        "riddle": "וְיָפֻצוּ אֹֽיְבֶיךָ וְיָנֻסוּ מְשַׂנְאֶיךָ מִפָּנֶֽיךָ",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "במדבר",
+        "bonus": "קוּמָה",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁכִּמוּ וַיְהִי כַּעֲלוֹת הַשַּׁחַר וַיִּקְרָא שְׁמוּאֵל אֶל־שָׁאוּל הַגָּגָה לֵאמֹר קוּמָה וַאֲשַׁלְּחֶךָּ וַיָּקָם שָׁאוּל וַיֵּצְאוּ שְׁנֵיהֶם הוּא וּשְׁמוּאֵל הַחֽוּצָה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 9,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.",
+          "36": "And when it rested, he said, Return, O LORD, unto the many thousands of Israel."
+        },
+        "he": {
+          "35": "וַיְהִי בִּנְסֹעַ הָאָרֹן וַיֹּאמֶר מֹשֶׁה קוּמָה ׀ יְהוָה וְיָפֻצוּ אֹֽיְבֶיךָ וְיָנֻסוּ מְשַׂנְאֶיךָ מִפָּנֶֽיךָ׃",
+          "36": "וּבְנֻחֹה יֹאמַר שׁוּבָה יְהוָה רִֽבְבוֹת אַלְפֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "Moses's repeated invocations tied to the Ark's movement and rest form a clear pattern suitable for a riddle.",
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 35,
+        "end": 36
+      }
+    }
+  ]
+}

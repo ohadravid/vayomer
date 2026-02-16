@@ -518,13 +518,42 @@ def _rank_bonus_candidates(
 ) -> List[str]:
     if not hint_picker:
         return list(candidates)
+
+    def key(word: str) -> Tuple[int, int, int, int, str]:
+        cleaned = _sanitize_str(word)
+        verse_count = hint_picker.word_verse_count(lang=lang, word=cleaned)
+        is_generic = hint_picker.is_generic_bonus_word(lang=lang, word=cleaned)
+        # Prefer reusable words first (>1 verse), then non-generic content words.
+        return (
+            0 if verse_count > 1 else 1,
+            0 if not is_generic else 1,
+            -verse_count,
+            -len(cleaned),
+            cleaned.casefold(),
+        )
+
     return sorted(
         candidates,
-        key=lambda word: (
-            hint_picker.word_verse_count(lang=lang, word=word),
-            -len(_sanitize_str(word)),
-            _sanitize_str(word).casefold(),
-        ),
+        key=key,
+    )
+
+
+def _has_hint_candidates(
+    *,
+    hint_picker: Optional["bonus_hint_picker.BonusHintPicker"],
+    lang: str,
+    bonus_word: str,
+    current_quote: str,
+    source: Dict,
+) -> bool:
+    if not hint_picker:
+        return True
+    return hint_picker.has_hint_candidates(
+        lang=lang,
+        bonus_word=bonus_word,
+        current_quote=current_quote,
+        source=source,
+        max_candidates=1,
     )
 
 
@@ -539,6 +568,7 @@ def _fallback_bonus_pair(
 ) -> Tuple[Optional[Tuple[str, str]], str]:
     en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
     he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+    source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
     quote_en = _sanitize_str(en.get("quote"))
     quote_he = _sanitize_str(he.get("quote"))
     riddle_en = _sanitize_str(en.get("riddle"))
@@ -549,6 +579,7 @@ def _fallback_bonus_pair(
     listener_he = _sanitize_str(he.get("listener"))
 
     valid_en: List[str] = []
+    backup_en: List[str] = []
     seen_en: Set[str] = set()
     for candidate in _rank_bonus_candidates(candidate_bonus_en, "en", hint_picker):
         fixed, _ = _validate_lang_bonus(
@@ -563,10 +594,20 @@ def _fallback_bonus_pair(
             continue
         if text_cleanup.riddle_mentions_entities(fixed, speaker_en, listener_en, "en"):
             continue
-        valid_en.append(fixed)
+        if _has_hint_candidates(
+            hint_picker=hint_picker,
+            lang="en",
+            bonus_word=fixed,
+            current_quote=quote_en,
+            source=source,
+        ):
+            valid_en.append(fixed)
+        else:
+            backup_en.append(fixed)
         seen_en.add(fixed)
 
     valid_he: List[str] = []
+    backup_he: List[str] = []
     seen_he: Set[str] = set()
     for candidate in _rank_bonus_candidates(candidate_bonus_he, "he", hint_picker):
         fixed, _ = _validate_lang_bonus(
@@ -581,8 +622,22 @@ def _fallback_bonus_pair(
             continue
         if text_cleanup.riddle_mentions_entities(fixed, speaker_he, listener_he, "he"):
             continue
-        valid_he.append(fixed)
+        if _has_hint_candidates(
+            hint_picker=hint_picker,
+            lang="he",
+            bonus_word=fixed,
+            current_quote=quote_he,
+            source=source,
+        ):
+            valid_he.append(fixed)
+        else:
+            backup_he.append(fixed)
         seen_he.add(fixed)
+
+    if not valid_en:
+        valid_en = backup_en
+    if not valid_he:
+        valid_he = backup_he
 
     if not valid_en:
         return None, "fallback_no_valid_en_candidate"
@@ -719,6 +774,7 @@ def _pick_bonus_words(
 ) -> Tuple[Optional[Tuple[str, str]], Dict[str, int | bool], List[str], str]:
     en = item.get("en", {}) if isinstance(item.get("en"), dict) else {}
     he = item.get("he", {}) if isinstance(item.get("he"), dict) else {}
+    source = item.get("source", {}) if isinstance(item.get("source"), dict) else {}
 
     quote_en = _sanitize_str(en.get("quote"))
     quote_he = _sanitize_str(he.get("quote"))
@@ -830,6 +886,26 @@ def _pick_bonus_words(
             continue
         if text_cleanup.riddle_mentions_entities(fixed_he, speaker_he, listener_he, "he"):
             last_reason = "bonus_he_mentions_entities"
+            retry_notes.append(f"attempt_{attempt}:{last_reason}")
+            continue
+        if not _has_hint_candidates(
+            hint_picker=hint_picker,
+            lang="en",
+            bonus_word=fixed_en,
+            current_quote=quote_en,
+            source=source,
+        ):
+            last_reason = "bonus_en_no_hint_candidates"
+            retry_notes.append(f"attempt_{attempt}:{last_reason}")
+            continue
+        if not _has_hint_candidates(
+            hint_picker=hint_picker,
+            lang="he",
+            bonus_word=fixed_he,
+            current_quote=quote_he,
+            source=source,
+        ):
+            last_reason = "bonus_he_no_hint_candidates"
             retry_notes.append(f"attempt_{attempt}:{last_reason}")
             continue
 

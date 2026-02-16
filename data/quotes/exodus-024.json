@@ -1,0 +1,209 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 24,
+  "mode": "end2end",
+  "first_k_verses": 0,
+  "items": [
+    {
+      "id": "exodus-24-01-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 24,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And he said unto Moses, Come up unto the LORD, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off. And Moses alone shall come near the LORD: but they shall not come nigh; neither shall the people go up with him.",
+        "riddle": "thou, and Aaron, Nadab, and Abihu, and seventy of",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "bonus": "near",
+        "bonus_hint": {
+          "quote": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאֶל־מֹשֶׁה אָמַר עֲלֵה אֶל־יְהוָה אַתָּה וְאַהֲרֹן נָדָב וַאֲבִיהוּא וְשִׁבְעִים מִזִּקְנֵי יִשְׂרָאֵל וְהִשְׁתַּחֲוִיתֶם מֵרָחֹֽק וְנִגַּשׁ מֹשֶׁה לְבַדּוֹ אֶל־יְהוָה וְהֵם לֹא יִגָּשׁוּ וְהָעָם לֹא יַעֲלוּ עִמּֽוֹ",
+        "riddle": "אַתָּה וְאַהֲרֹן נָדָב וַאֲבִיהוּא וְשִׁבְעִים מִזִּקְנֵי יִשְׂרָאֵל וְהִשְׁתַּחֲוִיתֶם מֵרָחֹֽק",
+        "speaker": "־יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "bonus": "וְהָעָם",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה",
+          "source": {
+            "book": "שמות",
+            "chapter": 33,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And he said unto Moses, Come up unto the LORD, thou, and Aaron, Nadab, and Abihu, and seventy of the elders of Israel; and worship ye afar off.",
+          "2": "And Moses alone shall come near the LORD: but they shall not come nigh; neither shall the people go up with him."
+        },
+        "he": {
+          "1": "וְאֶל־מֹשֶׁה אָמַר עֲלֵה אֶל־יְהוָה אַתָּה וְאַהֲרֹן נָדָב וַאֲבִיהוּא וְשִׁבְעִים מִזִּקְנֵי יִשְׂרָאֵל וְהִשְׁתַּחֲוִיתֶם מֵרָחֹֽק׃",
+          "2": "וְנִגַּשׁ מֹשֶׁה לְבַדּוֹ אֶל־יְהוָה וְהֵם לֹא יִגָּשׁוּ וְהָעָם לֹא יַעֲלוּ עִמּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses describe a hierarchical ascent to God, with Moses having unique access. The riddle focuses on this selective access.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-24-03-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 24,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And Moses came and told the people all the words of the LORD, and all the judgments: and all the people answered with one voice, and said, All the words which the LORD hath said will we do. And Moses wrote all the words of the LORD, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel.",
+        "riddle": "answered with one voice, and said, All",
+        "speaker": "Moses",
+        "listener": "the people",
+        "book": "Exodus",
+        "bonus": "judgments",
+        "bonus_hint": {
+          "quote": "But Pharaoh shall not hearken unto you, that I may lay my hand upon Egypt, and bring forth mine armies, and my people the children of Israel, out of the land of Egypt by great judgments.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 7,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא מֹשֶׁה וַיְסַפֵּר לָעָם אֵת כָּל־דִּבְרֵי יְהוָה וְאֵת כָּל־הַמִּשְׁפָּטִים וַיַּעַן כָּל־הָעָם קוֹל אֶחָד וַיֹּאמְרוּ כָּל־הַדְּבָרִים אֲשֶׁר־דִּבֶּר יְהוָה נַעֲשֶֽׂה וַיִּכְתֹּב מֹשֶׁה אֵת כָּל־דִּבְרֵי יְהוָה וַיַּשְׁכֵּם בַּבֹּקֶר וַיִּבֶן מִזְבֵּחַ תַּחַת הָהָר וּשְׁתֵּים עֶשְׂרֵה מַצֵּבָה לִשְׁנֵים עָשָׂר שִׁבְטֵי יִשְׂרָאֵֽל",
+        "riddle": "וַיְסַפֵּר לָעָם אֵת כָּל־דִּבְרֵי יְהוָה וְאֵת כָּל־הַמִּשְׁפָּטִים וַיַּעַן",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות",
+        "bonus": "קוֹל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Moses came and told the people all the words of the LORD, and all the judgments: and all the people answered with one voice, and said, All the words which the LORD hath said will we do.",
+          "4": "And Moses wrote all the words of the LORD, and rose up early in the morning, and builded an altar under the hill, and twelve pillars, according to the twelve tribes of Israel."
+        },
+        "he": {
+          "3": "וַיָּבֹא מֹשֶׁה וַיְסַפֵּר לָעָם אֵת כָּל־דִּבְרֵי יְהוָה וְאֵת כָּל־הַמִּשְׁפָּטִים וַיַּעַן כָּל־הָעָם קוֹל אֶחָד וַיֹּאמְרוּ כָּל־הַדְּבָרִים אֲשֶׁר־דִּבֶּר יְהוָה נַעֲשֶֽׂה׃",
+          "4": "וַיִּכְתֹּב מֹשֶׁה אֵת כָּל־דִּבְרֵי יְהוָה וַיַּשְׁכֵּם בַּבֹּקֶר וַיִּבֶן מִזְבֵּחַ תַּחַת הָהָר וּשְׁתֵּים עֶשְׂרֵה מַצֵּבָה לִשְׁנֵים עָשָׂר שִׁבְטֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "The verses detail Moses relaying God's words to the people, who vow obedience, and then Moses building twelve pillars representing the tribes of Israel. The riddle captures these key elements.",
+        "confidence": 0.9,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-24-12-12",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 24,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Come up to me into the mount, and be there: and I will give thee tables of stone, and a law, and commandments which I have written; that thou mayest teach them.",
+        "riddle": "I will give thee tables of stone",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "bonus": "law",
+        "bonus_hint": {
+          "quote": "And Joseph made it a law over the land of Egypt unto this day, that Pharaoh should have the fifth part; except the land of the priests only, which became not Pharaoh's.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 47,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲלֵה אֵלַי הָהָרָה וֶהְיֵה־שָׁם וְאֶתְּנָה לְךָ אֶת־לֻחֹת הָאֶבֶן וְהַתּוֹרָה וְהַמִּצְוָה אֲשֶׁר כָּתַבְתִּי לְהוֹרֹתָֽם",
+        "riddle": "וְאֶתְּנָה לְךָ אֶת־לֻחֹת הָאֶבֶן",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "bonus": "וְהַתּוֹרָה",
+        "bonus_hint": {
+          "quote": "וְאֶת־הַחֻקִּים וְאֶת־הַמִּשְׁפָּטִים וְהַתּוֹרָה וְהַמִּצְוָה אֲשֶׁר כָּתַב לָכֶם תִּשְׁמְרוּן לַעֲשׂוֹת כָּל־הַיָּמִים וְלֹא תִֽירְאוּ אֱלֹהִים אֲחֵרִֽים",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 17,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the LORD said unto Moses, Come up to me into the mount, and be there: and I will give thee tables of stone, and a law, and commandments which I have written; that thou mayest teach them."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲלֵה אֵלַי הָהָרָה וֶהְיֵה־שָׁם וְאֶתְּנָה לְךָ אֶת־לֻחֹת הָאֶבֶן וְהַתּוֹרָה וְהַמִּצְוָה אֲשֶׁר כָּתַבְתִּי לְהוֹרֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns perfectly with the provided English verse. Speaker and listener are clearly identified, and a concise, dramatic riddle can be extracted.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ]
+}

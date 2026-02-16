@@ -1,0 +1,76 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 38,
+  "mode": "end2end",
+  "items": [
+    {
+      "id": "genesis-38-24-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 38,
+        "quote_verse_start": 24,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And it came to pass about three months after, that it was told Judah, saying, Tamar thy daughter in law hath played the harlot; and also, behold, she is with child by whoredom. And Judah said, Bring her forth, and let her be burnt. When she was brought forth, she sent to her father in law, saying, By the man, whose these are, am I with child: and she said, Discern, I pray thee, whose are these, the signet, and bracelets, and staff.",
+        "riddle": "When she was brought forth, she sent to her father",
+        "speaker": "Judah",
+        "listener": "Tamar",
+        "book": "Genesis",
+        "bonus": "child",
+        "bonus_hint": {
+          "quote": "Then Abraham fell upon his face, and laughed, and said in his heart, Shall a child be born unto him that is an hundred years old? and shall Sarah, that is ninety years old, bear?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כְּמִשְׁלֹשׁ חֳדָשִׁים וַיֻּגַּד לִֽיהוּדָה לֵֽאמֹר זָֽנְתָה תָּמָר כַּלָּתֶךָ וְגַם הִנֵּה הָרָה לִזְנוּנִים וַיֹּאמֶר יְהוּדָה הוֹצִיאוּהָ וְתִשָּׂרֵֽף הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל־חָמִיהָ לֵאמֹר לְאִישׁ אֲשֶׁר־אֵלֶּה לּוֹ אָנֹכִי הָרָה וַתֹּאמֶר הַכֶּר־נָא לְמִי הַחֹתֶמֶת וְהַפְּתִילִים וְהַמַּטֶּה הָאֵֽלֶּה",
+        "riddle": "הוֹצִיאוּהָ וְתִשָּׂרֵֽף הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל־חָמִיהָ לֵאמֹר לְאִיש",
+        "speaker": "יְהוּדָה",
+        "listener": "תָּמָר",
+        "book": "בראשית",
+        "bonus": "וַיֻּגַּד",
+        "bonus_hint": {
+          "quote": "וַיַּרְא חָם אֲבִי כְנַעַן אֵת עֶרְוַת אָבִיו וַיַּגֵּד לִשְׁנֵֽי־אֶחָיו בַּחֽוּץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 9,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And it came to pass about three months after, that it was told Judah, saying, Tamar thy daughter in law hath played the harlot; and also, behold, she is with child by whoredom. And Judah said, Bring her forth, and let her be burnt.",
+          "25": "When she was brought forth, she sent to her father in law, saying, By the man, whose these are, am I with child: and she said, Discern, I pray thee, whose are these, the signet, and bracelets, and staff."
+        },
+        "he": {
+          "24": "וַיְהִי ׀ כְּמִשְׁלֹשׁ חֳדָשִׁים וַיֻּגַּד לִֽיהוּדָה לֵֽאמֹר זָֽנְתָה תָּמָר כַּלָּתֶךָ וְגַם הִנֵּה הָרָה לִזְנוּנִים וַיֹּאמֶר יְהוּדָה הוֹצִיאוּהָ וְתִשָּׂרֵֽף׃",
+          "25": "הִוא מוּצֵאת וְהִיא שָׁלְחָה אֶל־חָמִיהָ לֵאמֹר לְאִישׁ אֲשֶׁר־אֵלֶּה לּוֹ אָנֹכִי הָרָה וַתֹּאמֶר הַכֶּר־נָא לְמִי הַחֹתֶמֶת וְהַפְּתִילִים וְהַמַּטֶּה הָאֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "The quote aligns well with the provided context. We can identify Judah as the speaker and Tamar as the subject of the accusation. The riddle focuses on the evidence presented to determine paternity.",
+        "confidence": null,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 38,
+        "start": 24,
+        "end": 25
+      }
+    }
+  ]
+}

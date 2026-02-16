@@ -21,14 +21,34 @@
         "riddle": "I am thy shield, and thy exceeding great reward",
         "speaker": "the LORD",
         "listener": "Abram",
-        "bonus": "word"
+        "book": "Genesis",
+        "bonus": "vision",
+        "bonus_hint": {
+          "quote": "And the child Samuel ministered unto the LORD before Eli. And the word of the LORD was precious in those days; there was no open vision.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "he": {
         "quote": "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד",
         "riddle": "אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד",
         "speaker": "־יְהוָה",
         "listener": "אַבְרָם",
-        "bonus": "דְבַר"
+        "book": "בראשית",
+        "bonus": "הַדְּבָרִים",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה חָטְאוּ מַשְׁקֵה מֶֽלֶךְ־מִצְרַיִם וְהָאֹפֶה לַאֲדֹנֵיהֶם לְמֶלֶךְ מִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -42,7 +62,13 @@
         "reason": "The quote aligns perfectly with the provided English verse. Speaker and listener are clearly identified, and a concise, dramatic riddle can be extracted.",
         "confidence": null,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 1,
+        "end": 1
       }
     },
     {
@@ -59,13 +85,35 @@
         "quote": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward. And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?",
         "riddle": "what wilt thou give me, seeing I go childless, and",
         "speaker": "Lord GOD",
-        "listener": "Abram"
+        "listener": "Abram",
+        "book": "Genesis",
+        "bonus": "vision",
+        "bonus_hint": {
+          "quote": "And the child Samuel ministered unto the LORD before Eli. And the word of the LORD was precious in those days; there was no open vision.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "he": {
         "quote": "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד וַיֹּאמֶּר אַבְרָם אֲדֹנָי יֱהוִה מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּבֶן־מֶשֶׁק בֵּיתִי הוּא דַּמֶּשֶׂק אֱלִיעֶֽזֶר",
         "riddle": "מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּ",
         "speaker": "אֲדֹנָי יֱהוִה",
-        "listener": "אַבְרָם"
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "bonus": "הַדְּבָרִים",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 1,
+            "end": 1
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -79,7 +127,15 @@
       },
       "meta": {
         "reason": "The interaction between God and Abram establishes a clear question/answer dynamic, suitable for a riddle format. The riddle encapsulates the core of their exchange.",
-        "confidence": 0.95
+        "confidence": 0.95,
+        "bonus_source": "llm",
+        "bonus_retries": 7,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 1,
+        "end": 2
       }
     },
     {
@@ -97,14 +153,34 @@
         "riddle": "what wilt thou give me, seeing I go childless",
         "speaker": "Abram",
         "listener": "Lord GOD",
-        "bonus": "seed"
+        "book": "Genesis",
+        "bonus": "seed",
+        "bonus_hint": {
+          "quote": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 15,
+            "end": 15
+          }
+        }
       },
       "he": {
         "quote": "וַיֹּאמֶּר אַבְרָם אֲדֹנָי יֱהוִה מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּבֶן־מֶשֶׁק בֵּיתִי הוּא דַּמֶּשֶׂק אֱלִיעֶֽזֶר וַיֹּאמֶר אַבְרָם הֵן לִי לֹא נָתַתָּה זָרַע וְהִנֵּה בֶן־בֵּיתִי יוֹרֵשׁ אֹתִֽי",
         "riddle": "מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי",
         "speaker": "אַבְרָם",
         "listener": "אֲדֹנָי יֱהוִה",
-        "bonus": "זָרַע"
+        "book": "בראשית",
+        "bonus": "זָרַע",
+        "bonus_hint": {
+          "quote": "לְכָה נַשְׁקֶה אֶת־אָבִינוּ יַיִן וְנִשְׁכְּבָה עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 19,
+            "start": 32,
+            "end": 32
+          }
+        }
       },
       "raw_quote_source": {
         "en": {
@@ -120,7 +196,13 @@
         "reason": "Abram questions how he will have an heir, given his childlessness and the presence of Eliezer.",
         "confidence": 0.95,
         "bonus_source": "llm",
-        "bonus_retries": 0
+        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 2,
+        "end": 3
       }
     }
   ]
