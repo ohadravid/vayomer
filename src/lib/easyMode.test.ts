@@ -129,6 +129,19 @@ describe("buildMultipleChoiceOptions", () => {
     ).length;
     expect(matchingVariantCount).toBe(1);
   });
+
+  it("returns options sorted alphabetically", () => {
+    const options = buildMultipleChoiceOptions({
+      answer: "Moses",
+      pool: ["Aaron", "Noah", "Abraham", "Zed", "Isaac"],
+      lang: "en",
+      seed: "puzzle:speaker:alphabetical",
+      maxChoices: 4,
+    });
+
+    const sorted = [...options].sort((a, b) => a.localeCompare(b, "en", { sensitivity: "base" }));
+    expect(options).toEqual(sorted);
+  });
 });
 
 describe("resolveChoicePoolsForPuzzle", () => {

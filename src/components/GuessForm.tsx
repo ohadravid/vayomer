@@ -57,6 +57,8 @@ export function GuessForm({
   statusMarks,
 }: Props) {
   const { t } = useTranslation();
+  const collator = new Intl.Collator(undefined, { sensitivity: "base" });
+
   const renderChoiceControl = (
     field: "speaker" | "listener",
     disabled: boolean,
@@ -65,8 +67,9 @@ export function GuessForm({
     const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
     const options = choiceOptions?.[field] ?? [];
     const activeValue = values[field].trim();
-    const renderedOptions =
-      activeValue && !options.includes(activeValue) ? [activeValue, ...options] : options;
+    const renderedOptions = (activeValue && !options.includes(activeValue) ? [activeValue, ...options] : options).sort(
+      (a, b) => collator.compare(a, b)
+    );
     return (
       <select
         id={inputId}

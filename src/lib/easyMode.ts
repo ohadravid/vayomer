@@ -27,6 +27,11 @@ function stableSeedSort(values: string[], seed: string): string[] {
   });
 }
 
+function alphabeticalSort(values: string[], lang: Lang): string[] {
+  const locale = lang === "he" ? "he" : "en";
+  return [...values].sort((a, b) => a.localeCompare(b, locale, { sensitivity: "base" }));
+}
+
 function canonicalizeChoiceLabel(value: string, lang: Lang): string {
   const trimmed = value.trim();
   if (!trimmed) return "";
@@ -69,7 +74,7 @@ export function buildMultipleChoiceOptions(params: {
   const pickedDistractors = orderedDistractors.slice(0, distractorCount);
   const candidates = cleanAnswer ? [cleanAnswer, ...pickedDistractors] : pickedDistractors;
 
-  return stableSeedSort(dedupeByNormalized(candidates, lang), `${seed}:choices`);
+  return alphabeticalSort(dedupeByNormalized(candidates, lang), lang);
 }
 
 function buildFallbackPools(items: PuzzleItem[], puzzle: PuzzleItem, lang: Lang): EasyChoicePools {
