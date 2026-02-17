@@ -197,6 +197,7 @@ export function PuzzleView({
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
   const hasNotifiedChoiceInteractionRef = useRef(false);
+  const previousEasyModeRef = useRef(easyMode);
 
   const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -269,6 +270,17 @@ export function PuzzleView({
   useEffect(() => {
     hasNotifiedChoiceInteractionRef.current = false;
   }, [puzzle.id]);
+
+  useEffect(() => {
+    if (previousEasyModeRef.current === easyMode) return;
+    previousEasyModeRef.current = easyMode;
+    setSpeaker(EMPTY_GUESS_VALUES.speaker);
+    setListener(EMPTY_GUESS_VALUES.listener);
+    setPortion(EMPTY_GUESS_VALUES.portion);
+    setBonus(EMPTY_GUESS_VALUES.bonus);
+    setEditedSinceCheck(emptyEditedState());
+    setShareNotice("");
+  }, [easyMode]);
 
   useEffect(() => {
     const nextValues = initialValues(initial);

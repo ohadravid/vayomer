@@ -354,6 +354,39 @@ describe("PuzzleView persistence hydration", () => {
     ).toBe("✅");
   });
 
+  it("clears typed text when difficulty mode switches", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, easyMode: false }));
+    });
+
+    const speakerInput = root?.root.findByProps({ id: "inputSpeaker" });
+    const listenerInput = root?.root.findByProps({ id: "inputListener" });
+    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
+
+    act(() => {
+      speakerInput?.props.onChange({ target: { value: "LORD" } });
+      listenerInput?.props.onChange({ target: { value: "Abram" } });
+      bonusInput?.props.onChange({ target: { value: "earth" } });
+    });
+
+    const beforeSwitch = root?.root.findByType(GuessForm);
+    expect(beforeSwitch?.props.values.speaker).toBe("LORD");
+    expect(beforeSwitch?.props.values.listener).toBe("Abram");
+    expect(beforeSwitch?.props.values.bonus).toBe("earth");
+
+    act(() => {
+      root?.update(renderPuzzleView({ onPersist, easyMode: true }));
+    });
+
+    const afterSwitch = root?.root.findByType(GuessForm);
+    expect(afterSwitch?.props.values.speaker).toBe("");
+    expect(afterSwitch?.props.values.listener).toBe("");
+    expect(afterSwitch?.props.values.portion).toBe("");
+    expect(afterSwitch?.props.values.bonus).toBe("");
+  });
+
   it("marks bonus field and label as wrong in stage two when bonus is incorrect", () => {
     const onPersist = () => {};
 

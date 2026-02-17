@@ -2,6 +2,7 @@ import { describe, expect, it } from "bun:test";
 import {
   buildDifficultyLockStorageKey,
   getSearchWithEasyMode,
+  isEasyModeToggleBlocked,
   parseDifficultyLockFromStorageValue,
   parseEasyModeFromSearch,
   parsePersistedState,
@@ -123,6 +124,23 @@ describe("difficulty lock storage", () => {
     expect(entries.has("qs:difficulty-lock:genesis-06-13-13")).toBe(false);
     expect(entries.has("qs:difficulty-lock:genesis-12-01-01")).toBe(true);
     expect(entries.has("qs:easy-mode")).toBe(true);
+  });
+});
+
+describe("isEasyModeToggleBlocked", () => {
+  it("allows both directions when no lock exists", () => {
+    expect(isEasyModeToggleBlocked(null, false)).toBe(false);
+    expect(isEasyModeToggleBlocked(null, true)).toBe(false);
+  });
+
+  it("allows hard -> easy even when locked", () => {
+    expect(isEasyModeToggleBlocked(false, false)).toBe(false);
+    expect(isEasyModeToggleBlocked(true, false)).toBe(false);
+  });
+
+  it("blocks easy -> hard when locked", () => {
+    expect(isEasyModeToggleBlocked(false, true)).toBe(true);
+    expect(isEasyModeToggleBlocked(true, true)).toBe(true);
   });
 });
 

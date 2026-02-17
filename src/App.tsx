@@ -104,6 +104,12 @@ export function toDifficultyLockStorageValue(enabled: boolean): EasyModeStorageV
   return toEasyModeStorageValue(enabled);
 }
 
+export function isEasyModeToggleBlocked(lockedEasyMode: boolean | null, easyMode: boolean): boolean {
+  // A locked puzzle can always move from hard -> easy, but never back to hard.
+  const togglingToHard = easyMode;
+  return togglingToHard && lockedEasyMode !== null;
+}
+
 export function parsePersistedState(raw: string | null, lang: Lang, currentVersion: string): PersistedState | null {
   if (!raw) return null;
   try {
@@ -327,6 +333,7 @@ export function App() {
 
   const puzzle = useMemo(() => items[index], [items, index]);
   const lockedEasyMode = puzzle && lockedEasyModeByPuzzle.puzzleId === puzzle.id ? lockedEasyModeByPuzzle.value : null;
+  const easyModeToggleBlocked = isEasyModeToggleBlocked(lockedEasyMode, easyMode);
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
   const choicePools = useMemo(() => {
     if (!puzzle) return null;
@@ -369,7 +376,7 @@ export function App() {
   }, [lang, page, t]);
 
   const toggleEasyMode = () => {
-    if (lockedEasyMode !== null) return;
+    if (easyModeToggleBlocked) return;
     setEasyMode((previous) => !previous);
   };
 
@@ -453,10 +460,10 @@ export function App() {
               className={`chip ${easyMode ? "active" : ""}`}
               type="button"
               onClick={toggleEasyMode}
-              disabled={lockedEasyMode !== null}
+              disabled={easyModeToggleBlocked}
               aria-pressed={easyMode}
               aria-label={t("app.toggleEasyMode")}
-              title={lockedEasyMode !== null ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
+              title={easyModeToggleBlocked ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
             >
               🐑
             </button>
