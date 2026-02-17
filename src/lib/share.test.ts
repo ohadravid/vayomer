@@ -23,6 +23,16 @@ const SOLVED: GuessResult = {
   bonusOk: true,
 };
 
+const SOLVED_HINTED: GuessResult = {
+  ...SOLVED,
+  hintUsed: true,
+};
+
+const CORE_ONLY_NO_HINT: GuessResult = {
+  ...CORE_ONLY,
+  hintUsed: false,
+};
+
 describe("buildShareText", () => {
   it("renders game-style status rows with bonus column", () => {
     const text = buildShareText({
@@ -87,7 +97,22 @@ describe("buildShareText", () => {
     expect(text).not.toContain("⬛");
   });
 
-  it("uses lightbulb marker when hint was used", () => {
+  it("shows lightbulb marker only on tries after hint was used", () => {
+    const text = buildShareText({
+      title: "Vayomer",
+      attempts: [CORE_ONLY_NO_HINT, SOLVED_HINTED],
+      solved: true,
+      bonusRequired: true,
+      hintUsed: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("✅✅✴️⬜");
+    expect(text).toContain("✅✅✳️💡");
+  });
+
+  it("uses global hint marker as fallback for legacy attempts", () => {
     const text = buildShareText({
       title: "Vayomer",
       attempts: [CORE_ONLY, SOLVED],

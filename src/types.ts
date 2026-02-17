@@ -72,5 +72,6 @@ export type GuessResult = {
   listenerOk: boolean;
   portionOk: boolean;
   bonusOk: boolean;
+  hintUsed?: boolean;
   countsAsTry?: boolean;
 };

@@ -6,6 +6,7 @@ import {
   parseEasyModeFromSearch,
   parsePersistedState,
   parsePuzzleIdFromSearch,
+  pruneDifficultyLockKeys,
   pickEasyModeForNavigation,
   pickPuzzleIndexForSearch,
   toDifficultyLockStorageValue,
@@ -94,6 +95,31 @@ describe("difficulty lock storage", () => {
     expect(parseDifficultyLockFromStorageValue("1")).toBe(true);
     expect(parseDifficultyLockFromStorageValue("0")).toBe(false);
     expect(parseDifficultyLockFromStorageValue("x")).toBeNull();
+  });
+
+  it("prunes old puzzle locks and keeps only the selected puzzle lock", () => {
+    const entries = new Map<string, string>([
+      ["qs:difficulty-lock:genesis-06-13-13", "1"],
+      ["qs:difficulty-lock:genesis-12-01-01", "0"],
+      ["qs:easy-mode", "1"],
+    ]);
+    const fakeStorage = {
+      get length() {
+        return entries.size;
+      },
+      key(index: number): string | null {
+        return Array.from(entries.keys())[index] ?? null;
+      },
+      removeItem(key: string): void {
+        entries.delete(key);
+      },
+    };
+
+    pruneDifficultyLockKeys(fakeStorage, "genesis-12-01-01");
+
+    expect(entries.has("qs:difficulty-lock:genesis-06-13-13")).toBe(false);
+    expect(entries.has("qs:difficulty-lock:genesis-12-01-01")).toBe(true);
+    expect(entries.has("qs:easy-mode")).toBe(true);
   });
 });
 

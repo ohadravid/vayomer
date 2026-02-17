@@ -20,13 +20,13 @@ function formatShareDate(date: Date): string {
   return `${year}-${month}-${day}`;
 }
 
-function attemptRow(attempt: GuessResult, bonusRequired: boolean, hintUsed: boolean, successMark: string): string {
+function attemptRow(attempt: GuessResult, bonusRequired: boolean, fallbackHintUsed: boolean, successMark: string): string {
   const speaker = attempt.speakerOk ? successMark : "❌";
   const listener = attempt.listenerOk ? successMark : "❌";
   if (!bonusRequired) return `${speaker}${listener}`;
   const coreSolved = attempt.speakerOk && attempt.listenerOk;
   const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✴️") : "⬜";
-  const hint = hintUsed ? "💡" : "⬜";
+  const hint = (attempt.hintUsed ?? fallbackHintUsed) ? "💡" : "⬜";
   return `${speaker}${listener}${bonus}${hint}`;
 }
 

@@ -2,7 +2,7 @@ import { expect, test, type Locator, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { pickDailyHardModeSuccessMark } from "../src/lib/daily";
+import { pickDailyHardModeSuccessMark, pickDailyItemIndex } from "../src/lib/daily";
 import { normalize } from "../src/lib/format";
 import type { Lang } from "../src/types";
 
@@ -71,6 +71,13 @@ function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
 }
 
 const dailyItems = loadPuzzleItemsFromQuotesOptions(quotesOptionsDirPath);
+const todayPuzzle = dailyItems[pickDailyItemIndex(dailyItems.length)];
+
+if (!todayPuzzle) {
+  throw new Error("Expected at least one puzzle to resolve today's puzzle id.");
+}
+
+const todayPuzzleId = todayPuzzle.id;
 
 function hasEasyModeDistractors(item: PuzzleItem): boolean {
   const sameBook = dailyItems.filter((candidate) => candidate.en.book === item.en.book && candidate.he.book === item.he.book);
@@ -294,7 +301,7 @@ function buildEnglishArticleVariant(answer: string): string {
 }
 
 test("easy mode is default and easy=0 is canonicalized away", async ({ page }) => {
-  await openGame(page);
+  await openGame(page, { puzzleId: todayPuzzleId });
   await expect(page.locator("#guessForm")).toBeVisible();
   const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
 
@@ -302,14 +309,14 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
   expect(defaultTagName).toBe("SELECT");
   expect(new URL(page.url()).searchParams.get("easy")).toBeNull();
   await expect(difficultyToggle).toBeEnabled();
-  expect(await getDifficultyLockValue(page, puzzleId)).toBeNull();
+  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
 
   await page.click("#inputSpeaker");
   await expect(difficultyToggle).toBeDisabled();
-  expect(await getDifficultyLockValue(page, puzzleId)).toBe("1");
+  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("1");
 
   const legacyParams = new URLSearchParams({
-    puzzle: puzzleId,
+    puzzle: todayPuzzleId,
     lng: "en",
     easy: "0",
   });
@@ -321,9 +328,9 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
 
   const legacyTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
   expect(legacyTagName).toBe("SELECT");
-  expect(new URL(page.url()).searchParams.get("puzzle")).toBe(puzzleId);
+  expect(new URL(page.url()).searchParams.get("puzzle")).toBe(todayPuzzleId);
 
-  await openGame(page, { easyMode: false });
+  await openGame(page, { easyMode: false, puzzleId: todayPuzzleId });
   const hardTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
   expect(hardTagName).toBe("SELECT");
   await expect(difficultyToggle).toBeDisabled();
@@ -332,22 +339,22 @@ test("easy mode is default and easy=0 is canonicalized away", async ({ page }) =
 });
 
 test("difficulty lock persists hard mode when first opened in hard", async ({ page }) => {
-  await openGame(page, { easyMode: false });
+  await openGame(page, { easyMode: false, puzzleId: todayPuzzleId });
   const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
 
   await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  expect(await getDifficultyLockValue(page, puzzleId)).toBeNull();
+  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
   await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
 
   await page.click("#inputSpeaker");
   await expect(difficultyToggle).toBeDisabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  expect(await getDifficultyLockValue(page, puzzleId)).toBe("0");
+  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("0");
   await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
 
   const forceEasyParams = new URLSearchParams({
-    puzzle: puzzleId,
+    puzzle: todayPuzzleId,
     lng: "en",
     easy: "0",
   });

@@ -209,6 +209,8 @@ type BrowserForEasyModeHistory = {
   history: Pick<History, "state" | "replaceState">;
 };
 
+type StorageKeyAccess = Pick<Storage, "length" | "key" | "removeItem">;
+
 export function buildLocationWithEasyMode(pathname: string, search: string, hash: string, easyModeEnabled: boolean): string {
   return `${pathname}${getSearchWithEasyMode(search, easyModeEnabled)}${hash}`;
 }
@@ -223,6 +225,15 @@ export function syncEasyModeInUrl(browser: BrowserForEasyModeHistory, easyModeEn
   );
   if (current === next) return;
   browser.history.replaceState(browser.history.state, "", next);
+}
+
+export function pruneDifficultyLockKeys(storage: StorageKeyAccess, keepPuzzleId: string): void {
+  const keepKey = buildDifficultyLockStorageKey(keepPuzzleId);
+  for (let idx = storage.length - 1; idx >= 0; idx -= 1) {
+    const key = storage.key(idx);
+    if (!key || !key.startsWith(DIFFICULTY_LOCK_STORAGE_PREFIX) || key === keepKey) continue;
+    storage.removeItem(key);
+  }
 }
 
 function pickPageFromHash(hash: string): AppPage {
@@ -293,6 +304,17 @@ export function App() {
     if (list.length === 0) {
       setItems([]);
       return;
+    }
+
+    if (typeof window !== "undefined") {
+      const todayPuzzle = list[pickDailyItemIndex(list.length)];
+      if (todayPuzzle) {
+        try {
+          pruneDifficultyLockKeys(window.localStorage, todayPuzzle.id);
+        } catch {
+          // Ignore storage access errors.
+        }
+      }
     }
 
     setItems(list);

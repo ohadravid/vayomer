@@ -359,7 +359,14 @@ export function PuzzleView({
     const bonusOk = bonusRequired ? answersMatch(bonus, bonusAnswer, lang) : true;
     const transitioningToMissingWord = bonusRequired && !stageTwoOpen && speakerOk && listenerOk && !bonusOk;
 
-    const next = { speakerOk, listenerOk, portionOk: true, bonusOk, countsAsTry: !transitioningToMissingWord };
+    const next = {
+      speakerOk,
+      listenerOk,
+      portionOk: true,
+      bonusOk,
+      hintUsed: bonusHintUsed,
+      countsAsTry: !transitioningToMissingWord,
+    };
     setAttempts((prev) => [...prev, next]);
 
     if (isFullySolved(next, bonusRequired)) {
