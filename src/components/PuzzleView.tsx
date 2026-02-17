@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { pickDailyHardModeSuccessMark } from "../lib/daily";
 import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
+import { answersMatch } from "../lib/answerMatcher";
 import {
   countTryAttempts,
   deriveGameState,
@@ -10,7 +11,7 @@ import {
   isFullySolved,
   isStageTwoOpen,
 } from "../lib/gameState";
-import { normalize, formatDate, markVerseNumbers, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
+import { formatDate, markVerseNumbers, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
 import { buildShareText } from "../lib/share";
@@ -242,6 +243,7 @@ export function PuzzleView({
     return t("puzzleView.retry");
   }, [result, bonusRequired, gameState, t]);
   const multipleChoiceOptions = useMemo(() => {
+    if (!easyMode) return undefined;
     const pools = resolveChoicePoolsForDifficulty({
       puzzle,
       lang,
@@ -352,9 +354,9 @@ export function PuzzleView({
     const speakerAnswer = puzzle[lang].speaker;
     const listenerAnswer = puzzle[lang].listener;
 
-    const speakerOk = normalize(speaker, lang) === normalize(speakerAnswer, lang);
-    const listenerOk = normalize(listener, lang) === normalize(listenerAnswer, lang);
-    const bonusOk = bonusRequired ? normalize(bonus, lang) === normalize(bonusAnswer, lang) : true;
+    const speakerOk = answersMatch(speaker, speakerAnswer, lang);
+    const listenerOk = answersMatch(listener, listenerAnswer, lang);
+    const bonusOk = bonusRequired ? answersMatch(bonus, bonusAnswer, lang) : true;
     const transitioningToMissingWord = bonusRequired && !stageTwoOpen && speakerOk && listenerOk && !bonusOk;
 
     const next = { speakerOk, listenerOk, portionOk: true, bonusOk, countsAsTry: !transitioningToMissingWord };
@@ -448,6 +450,7 @@ export function PuzzleView({
         onClear={clearLocal}
       />
       <GuessForm
+        easyMode={easyMode}
         choiceOptions={multipleChoiceOptions}
         values={{ speaker, listener, portion, bonus }}
         result={result}

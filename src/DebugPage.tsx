@@ -562,6 +562,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>GuessForm Standalone</h2>
             <section className="card">
               <GuessForm
+                easyMode
                 choiceOptions={choicePools}
                 values={guessValues}
                 result={guessResult}

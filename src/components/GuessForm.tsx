@@ -2,6 +2,7 @@ import { useTranslation } from "react-i18next";
 import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues } from "../types";
 
 type Props = {
+  easyMode: boolean;
   choiceOptions?: EasyChoicePools;
   values: GuessValues;
   result: GuessResult | null;
@@ -30,6 +31,7 @@ type Props = {
 };
 
 export function GuessForm({
+  easyMode,
   choiceOptions,
   values,
   result,
@@ -58,11 +60,24 @@ export function GuessForm({
 }: Props) {
   const { t } = useTranslation();
   const collator = new Intl.Collator(undefined, { sensitivity: "base" });
+  const coreFieldState = (field: "speaker" | "listener"): "correct" | "wrong" | "" => {
+    if (!result || editedSinceCheck[field]) return "";
+    return result[field === "speaker" ? "speakerOk" : "listenerOk"] ? "correct" : "wrong";
+  };
+  const coreFieldMark = (field: "speaker" | "listener"): string => {
+    const state = coreFieldState(field);
+    if (state === "correct") return "✅";
+    if (state === "wrong") return "❌";
+    return "";
+  };
+  const bonusFeedbackVisible =
+    showBonusRow && !!result && extraChecked && !editedSinceCheck.bonus && result.countsAsTry !== false;
+  const bonusState: "correct" | "wrong" | "" = bonusFeedbackVisible ? (result!.bonusOk ? "correct" : "wrong") : "";
+  const bonusMark = bonusState === "correct" ? "✅" : bonusState === "wrong" ? "❌" : "";
 
-  const renderChoiceControl = (
+  const renderEasyChoiceControl = (
     field: "speaker" | "listener",
-    disabled: boolean,
-    className: string
+    disabled: boolean
   ) => {
     const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
     const options = choiceOptions?.[field] ?? [];
@@ -70,6 +85,7 @@ export function GuessForm({
     const renderedOptions = (activeValue && !options.includes(activeValue) ? [activeValue, ...options] : options).sort(
       (a, b) => collator.compare(a, b)
     );
+    const className = coreFieldState(field);
     return (
       <select
         id={inputId}
@@ -89,6 +105,34 @@ export function GuessForm({
     );
   };
 
+  const renderHardInputControl = (
+    field: "speaker" | "listener",
+    disabled: boolean
+  ) => {
+    const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
+    const className = coreFieldState(field);
+    return (
+      <input
+        id={inputId}
+        type="text"
+        autoComplete="off"
+        value={values[field]}
+        onChange={(e) => onChange(field, e.target.value)}
+        onClick={onChoiceInteracted}
+        disabled={disabled}
+        className={className}
+      />
+    );
+  };
+
+  const renderChoiceControl = (
+    field: "speaker" | "listener",
+    disabled: boolean
+  ) => {
+    if (easyMode) return renderEasyChoiceControl(field, disabled);
+    return renderHardInputControl(field, disabled);
+  };
+
   return (
     <section className="card">
       <form
@@ -101,28 +145,18 @@ export function GuessForm({
       >
         <div className="form-row primary">
           <label>
-            <span id="labelSpeaker" className="field-label">{t("guessForm.speaker")}</span>
-            {renderChoiceControl(
-              "speaker",
-              coreSolved,
-              result && !editedSinceCheck.speaker
-                ? result.speakerOk
-                  ? "correct"
-                  : "wrong"
-                : ""
-            )}
+            <span id="labelSpeaker" className="field-label">
+              {t("guessForm.speaker")}
+              {coreFieldMark("speaker") ? <span aria-hidden="true">{coreFieldMark("speaker")}</span> : null}
+            </span>
+            {renderChoiceControl("speaker", coreSolved)}
           </label>
           <label>
-            <span id="labelListener" className="field-label">{t("guessForm.listener")}</span>
-            {renderChoiceControl(
-              "listener",
-              coreSolved,
-              result && !editedSinceCheck.listener
-                ? result.listenerOk
-                  ? "correct"
-                  : "wrong"
-                : ""
-            )}
+            <span id="labelListener" className="field-label">
+              {t("guessForm.listener")}
+              {coreFieldMark("listener") ? <span aria-hidden="true">{coreFieldMark("listener")}</span> : null}
+            </span>
+            {renderChoiceControl("listener", coreSolved)}
           </label>
         </div>
         <div
@@ -132,7 +166,10 @@ export function GuessForm({
         >
           <div className="bonus-cell" aria-hidden={!showBonusRow}>
             <label>
-              <span id="labelBonus">{t("guessForm.bonus")}</span>
+              <span id="labelBonus" className="field-label">
+                {t("guessForm.bonus")}
+                {bonusMark ? <span aria-hidden="true">{bonusMark}</span> : null}
+              </span>
               <input
                 id="inputBonus"
                 type="text"
@@ -141,13 +178,7 @@ export function GuessForm({
                 onChange={(e) => onChange("bonus", e.target.value)}
                 disabled={bonusDisabled || !showBonusRow}
                 tabIndex={showBonusRow ? 0 : -1}
-                className={
-                  showBonusRow && result && extraChecked && values.bonus && !editedSinceCheck.bonus
-                    ? result.bonusOk
-                      ? "correct"
-                      : "wrong"
-                    : ""
-                }
+                className={bonusState}
               />
             </label>
           </div>

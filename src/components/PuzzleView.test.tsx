@@ -130,7 +130,7 @@ afterEach(() => {
 });
 
 describe("PuzzleView persistence hydration", () => {
-  it("does not lock difficulty until a choice select is clicked", () => {
+  it("does not lock difficulty until a core field is clicked", () => {
     const onPersist = () => {};
     let interactions = 0;
     const onChoiceInteracted = () => {
@@ -143,16 +143,16 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(interactions).toBe(0);
 
-    const speakerSelect = root?.root.findByProps({ id: "inputSpeaker" });
-    const listenerSelect = root?.root.findByProps({ id: "inputListener" });
+    const speakerField = root?.root.findByProps({ id: "inputSpeaker" });
+    const listenerField = root?.root.findByProps({ id: "inputListener" });
 
     act(() => {
-      speakerSelect?.props.onClick();
+      speakerField?.props.onClick();
     });
     expect(interactions).toBe(1);
 
     act(() => {
-      listenerSelect?.props.onClick();
+      listenerField?.props.onClick();
     });
     expect(interactions).toBe(1);
   });
@@ -242,7 +242,7 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("uses hard_difficulty_options in hard mode when present", () => {
+  it("uses free-text inputs in hard mode even when hard_difficulty_options are present", () => {
     const onPersist = () => {};
     const puzzleWithDifficultyOptions: PuzzleItem = {
       ...puzzle,
@@ -264,10 +264,9 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     const form = root?.root.findByType(GuessForm);
-    expect(form?.props.choiceOptions.speaker).toContain("Hard Speaker");
-    expect(form?.props.choiceOptions.listener).toContain("Hard Listener");
-    expect(form?.props.choiceOptions.speaker).not.toContain("Easy Speaker");
-    expect(form?.props.choiceOptions.listener).not.toContain("Easy Listener");
+    expect(form?.props.choiceOptions).toBeUndefined();
+    expect(root?.root.findByProps({ id: "inputSpeaker" }).type).toBe("input");
+    expect(root?.root.findByProps({ id: "inputListener" }).type).toBe("input");
   });
 
   it("uses options in easy mode when hard_difficulty_options are present", () => {
@@ -321,6 +320,97 @@ describe("PuzzleView persistence hydration", () => {
 
     const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
     expect(feedback).toBe("Nice! Now find the missing word.");
+  });
+
+  it("accepts fuzzy free-text answers in hard mode", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      root = create(renderPuzzleView({ onPersist, easyMode: false }));
+    });
+
+    const speakerInput = root?.root.findByProps({ id: "inputSpeaker" });
+    const listenerInput = root?.root.findByProps({ id: "inputListener" });
+    expect(speakerInput?.type).toBe("input");
+    expect(listenerInput?.type).toBe("input");
+
+    act(() => {
+      speakerInput?.props.onChange({ target: { value: "LORD" } });
+      listenerInput?.props.onChange({ target: { value: "Abram!!!" } });
+    });
+
+    const formReadyToSubmit = root?.root.findByType(GuessForm);
+    act(() => {
+      formReadyToSubmit?.props.onSubmit();
+    });
+
+    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    expect(feedback).toBe("Nice! Now find the missing word.");
+    expect(
+      root?.root.findByProps({ id: "labelSpeaker" }).findByProps({ "aria-hidden": "true" }).children.join("")
+    ).toBe("✅");
+    expect(
+      root?.root.findByProps({ id: "labelListener" }).findByProps({ "aria-hidden": "true" }).children.join("")
+    ).toBe("✅");
+  });
+
+  it("marks bonus field and label as wrong in stage two when bonus is incorrect", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: false,
+            hintRevealed: false,
+            attempts: [coreSolvedAttempt],
+          },
+        })
+      );
+    });
+
+    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
+    expect(bonusInput?.props.className).toBe("wrong");
+    expect(
+      root?.root.findByProps({ id: "labelBonus" }).findByProps({ "aria-hidden": "true" }).children.join("")
+    ).toBe("❌");
+  });
+
+  it("keeps bonus feedback hidden before the first bonus try", () => {
+    const onPersist = () => {};
+    const stageTwoOpenAttempt: GuessResult = {
+      speakerOk: true,
+      listenerOk: true,
+      portionOk: true,
+      bonusOk: false,
+      countsAsTry: false,
+    };
+
+    act(() => {
+      root = create(
+        renderPuzzleView({
+          onPersist,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            bookHintUsed: false,
+            hintRevealed: false,
+            attempts: [stageTwoOpenAttempt],
+          },
+        })
+      );
+    });
+
+    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
+    expect(bonusInput?.props.className).toBe("");
+    expect(root?.root.findByProps({ id: "labelBonus" }).findAllByProps({ "aria-hidden": "true" })).toHaveLength(0);
   });
 
   it("shows אֱלֹהִים as speaker option for divine aliases in Hebrew and accepts it as correct", () => {
