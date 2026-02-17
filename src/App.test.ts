@@ -12,6 +12,9 @@ import {
   toDifficultyLockStorageValue,
 } from "./App";
 import type { PuzzleItem } from "./types";
+import packageMeta from "../package.json";
+
+const CURRENT_VERSION = packageMeta.version;
 
 describe("parseEasyModeFromSearch", () => {
   it("parses explicit easy mode values", () => {
@@ -124,22 +127,23 @@ describe("difficulty lock storage", () => {
 });
 
 describe("parsePersistedState", () => {
-  it("ignores revealed=true when there is no solved core attempt", () => {
+  it("drops state when persisted version differs from current app version", () => {
     const raw = JSON.stringify({
+      version: "0.0.1",
       lang: "he",
-      speaker: "",
-      listener: "",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
       portion: "",
-      bonus: "",
-      attempts: [],
+      bonus: "הָאָרֶץ",
+      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
       revealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he");
-    expect(parsed?.revealed).toBe(false);
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    expect(parsed).toBeNull();
   });
 
-  it("keeps revealed=true when a solved core attempt exists", () => {
+  it("drops state when version is missing", () => {
     const raw = JSON.stringify({
       lang: "he",
       speaker: "אֲדֹנָי",
@@ -150,12 +154,45 @@ describe("parsePersistedState", () => {
       revealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he");
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    expect(parsed).toBeNull();
+  });
+
+  it("ignores revealed=true when there is no solved core attempt", () => {
+    const raw = JSON.stringify({
+      version: CURRENT_VERSION,
+      lang: "he",
+      speaker: "",
+      listener: "",
+      portion: "",
+      bonus: "",
+      attempts: [],
+      revealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    expect(parsed?.revealed).toBe(false);
+  });
+
+  it("keeps revealed=true when a solved core attempt exists", () => {
+    const raw = JSON.stringify({
+      version: CURRENT_VERSION,
+      lang: "he",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      portion: "",
+      bonus: "הָאָרֶץ",
+      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
+      revealed: true,
+    });
+
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
     expect(parsed?.revealed).toBe(true);
   });
 
   it("keeps hintRevealed=true when explicitly persisted", () => {
     const raw = JSON.stringify({
+      version: CURRENT_VERSION,
       lang: "he",
       speaker: "אֲדֹנָי",
       listener: "אַבְרָם",
@@ -166,12 +203,13 @@ describe("parsePersistedState", () => {
       hintRevealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he");
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
     expect(parsed?.hintRevealed).toBe(true);
   });
 
   it("restores hintRevealed when bonus hint was used", () => {
     const raw = JSON.stringify({
+      version: CURRENT_VERSION,
       lang: "he",
       speaker: "אֲדֹנָי",
       listener: "אַבְרָם",
@@ -183,7 +221,7 @@ describe("parsePersistedState", () => {
       hintRevealed: false,
     });
 
-    const parsed = parsePersistedState(raw, "he");
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
     expect(parsed?.revealed).toBe(false);
     expect(parsed?.bookHintUsed).toBe(true);
     expect(parsed?.hintRevealed).toBe(true);

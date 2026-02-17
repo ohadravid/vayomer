@@ -20,13 +20,13 @@ function formatShareDate(date: Date): string {
   return `${year}-${month}-${day}`;
 }
 
-function attemptRow(attempt: GuessResult, bonusRequired: boolean, fallbackHintUsed: boolean, successMark: string): string {
+function attemptRow(attempt: GuessResult, bonusRequired: boolean, successMark: string): string {
   const speaker = attempt.speakerOk ? successMark : "❌";
   const listener = attempt.listenerOk ? successMark : "❌";
   if (!bonusRequired) return `${speaker}${listener}`;
   const coreSolved = attempt.speakerOk && attempt.listenerOk;
   const bonus = coreSolved ? (attempt.bonusOk ? "✳️" : "✴️") : "⬜";
-  const hint = (attempt.hintUsed ?? fallbackHintUsed) ? "💡" : "⬜";
+  const hint = attempt.hintUsed ? "💡" : "⬜";
   return `${speaker}${listener}${bonus}${hint}`;
 }
 
@@ -38,7 +38,7 @@ export function buildShareText(args: BuildShareTextArgs): string {
   const fallbackRow = bonusRequired ? `⬜⬜⬜${hintUsed ? "💡" : "⬜"}` : "⬜⬜";
   const rows =
     countedAttempts.length > 0
-      ? countedAttempts.map((attempt) => attemptRow(attempt, bonusRequired, hintUsed, successMark))
+      ? countedAttempts.map((attempt) => attemptRow(attempt, bonusRequired, successMark))
       : [fallbackRow];
   const lines = [header, "", ...rows];
   if (gameUrl) lines.push(gameUrl);

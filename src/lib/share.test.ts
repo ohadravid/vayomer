@@ -103,27 +103,11 @@ describe("buildShareText", () => {
       attempts: [CORE_ONLY_NO_HINT, SOLVED_HINTED],
       solved: true,
       bonusRequired: true,
-      hintUsed: true,
       maxTries: 5,
       date: new Date(2026, 1, 11),
     });
 
     expect(text).toContain("✅✅✴️⬜");
-    expect(text).toContain("✅✅✳️💡");
-  });
-
-  it("uses global hint marker as fallback for legacy attempts", () => {
-    const text = buildShareText({
-      title: "Vayomer",
-      attempts: [CORE_ONLY, SOLVED],
-      solved: true,
-      bonusRequired: true,
-      hintUsed: true,
-      maxTries: 5,
-      date: new Date(2026, 1, 11),
-    });
-
-    expect(text).toContain("✅✅✴️💡");
     expect(text).toContain("✅✅✳️💡");
   });
 

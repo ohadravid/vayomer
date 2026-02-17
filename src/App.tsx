@@ -30,6 +30,7 @@ enum EasyModeStorageValue {
 }
 
 type PersistedState = {
+  version: string;
   lang: Lang;
   speaker: string;
   listener: string;
@@ -41,7 +42,7 @@ type PersistedState = {
   revealed: boolean;
 };
 
-type PersistInput = Omit<PersistedState, "lang" | "revealed">;
+type PersistInput = Omit<PersistedState, "version" | "lang" | "revealed">;
 type AppPage = "game" | "about";
 
 const EMPTY_PERSIST_INPUT: PersistInput = {
@@ -103,10 +104,11 @@ export function toDifficultyLockStorageValue(enabled: boolean): EasyModeStorageV
   return toEasyModeStorageValue(enabled);
 }
 
-export function parsePersistedState(raw: string | null, lang: Lang): PersistedState | null {
+export function parsePersistedState(raw: string | null, lang: Lang, currentVersion: string): PersistedState | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as Partial<PersistedState> & { result?: unknown; guesses?: unknown };
+    if (parsed.version !== currentVersion) return null;
     if (parsed.lang !== lang) return null;
     const attempts = parseAttempts(parsed);
     const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
@@ -114,6 +116,7 @@ export function parsePersistedState(raw: string | null, lang: Lang): PersistedSt
     const bookHintUsed = !!parsed.bookHintUsed;
     const hintRevealed = !!parsed.hintRevealed || bookHintUsed;
     return {
+      version: parsed.version ?? currentVersion,
       lang,
       speaker: parsed.speaker ?? "",
       listener: parsed.listener ?? "",
@@ -348,7 +351,11 @@ export function App() {
     if (difficultyLock !== null) {
       setEasyMode(difficultyLock);
     }
-    const parsed = parsePersistedState(localStorage.getItem(storageKey), lang);
+    const rawPersisted = localStorage.getItem(storageKey);
+    const parsed = parsePersistedState(rawPersisted, lang, APP_VERSION);
+    if (rawPersisted && !parsed) {
+      localStorage.removeItem(storageKey);
+    }
     setRevealed(parsed?.revealed ?? false);
     setInitial(parsed ? toPersistInput(parsed) : { ...EMPTY_PERSIST_INPUT });
   }, [puzzle, storageKey, lang]);
@@ -393,8 +400,9 @@ export function App() {
 
   const persist = (state: PersistInput) => {
     if (!puzzle) return;
-    const existing = parsePersistedState(localStorage.getItem(storageKey), lang);
+    const existing = parsePersistedState(localStorage.getItem(storageKey), lang, APP_VERSION);
     const payload = {
+      version: APP_VERSION,
       lang,
       ...state,
       revealed: existing?.revealed ?? revealed,
@@ -412,11 +420,11 @@ export function App() {
   const reveal = () => {
     if (!puzzle) return;
     setRevealed(true);
-    const existing = parsePersistedState(localStorage.getItem(storageKey), lang);
+    const existing = parsePersistedState(localStorage.getItem(storageKey), lang, APP_VERSION);
     localStorage.setItem(
       storageKey,
       JSON.stringify({
-        ...(existing ?? { lang, ...EMPTY_PERSIST_INPUT, revealed: false }),
+        ...(existing ?? { version: APP_VERSION, lang, ...EMPTY_PERSIST_INPUT, revealed: false }),
         revealed: true,
       })
     );
