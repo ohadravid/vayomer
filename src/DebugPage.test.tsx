@@ -41,10 +41,6 @@ const puzzleWithDifficultyOptions: PuzzleItem = {
       speaker: ["God", "Moses"],
       listener: ["Abram", "Sarah"],
     },
-    hard_difficulty_options: {
-      speaker: ["Angel", "the LORD"],
-      listener: ["Abraham", "Jacob"],
-    },
     bonus_hint: {
       quote: "Get thee out unto the land that I will show thee.",
       source: {
@@ -64,10 +60,6 @@ const puzzleWithDifficultyOptions: PuzzleItem = {
     options: {
       speaker: ["אֱלֹהִים", "משה"],
       listener: ["אַבְרָם", "שָׂרָה"],
-    },
-    hard_difficulty_options: {
-      speaker: ["מַלְאָךְ"],
-      listener: ["אַבְרָהָם", "יַעֲקֹב"],
     },
     bonus_hint: {
       quote: "לֶךְ־לְךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶךָּ",
@@ -91,13 +83,11 @@ const puzzleWithoutDifficultyOptions: PuzzleItem = {
   en: {
     ...puzzleWithDifficultyOptions.en,
     options: null,
-    hard_difficulty_options: null,
     bonus_hint: null,
   },
   he: {
     ...puzzleWithDifficultyOptions.he,
     options: null,
-    hard_difficulty_options: null,
     bonus_hint: null,
   },
 };
@@ -112,7 +102,7 @@ afterEach(() => {
 });
 
 describe("QuoteBrowser difficulty option rows", () => {
-  it("shows options and hard options values in the answers card", () => {
+  it("shows options values in the answers card", () => {
     act(() => {
       root = create(renderQuoteBrowser("en", [puzzleWithDifficultyOptions]));
     });
@@ -122,11 +112,8 @@ describe("QuoteBrowser difficulty option rows", () => {
     expect(rendered).toContain("Get thee out unto the land that I will show thee.");
     expect(rendered).toContain("Genesis 12:1-2");
     expect(rendered).toContain("Options");
-    expect(rendered).toContain("Hard options");
     expect(rendered).toContain("God, Moses");
     expect(rendered).toContain("Abram, Sarah");
-    expect(rendered).toContain("Angel, the LORD");
-    expect(rendered).toContain("Abraham, Jacob");
   });
 
   it("shows Not set when difficulty options are missing", () => {
@@ -137,8 +124,7 @@ describe("QuoteBrowser difficulty option rows", () => {
     const rendered = JSON.stringify(root?.toJSON());
     expect(rendered).toContain("Bonus hint");
     expect(rendered).toContain("Options");
-    expect(rendered).toContain("Hard options");
     expect(rendered).toContain("Not set");
-    expect(rendered.split("Not set").length - 1).toBe(3);
+    expect(rendered.split("Not set").length - 1).toBe(2);
   });
 });

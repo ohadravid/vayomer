@@ -4,7 +4,7 @@ import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
-import type { GuessResult, Lang, PuzzleItem } from "./types";
+import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import packageMeta from "../package.json";
@@ -17,77 +17,75 @@ const DEFAULT_EASY_MODE = true;
 const DIFFICULTY_LOCK_STORAGE_PREFIX = "qs:difficulty-lock:";
 const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
+const ENCODED_TRUE = "1";
+const ENCODED_FALSE = "0";
+const QUERY_TRUE_VALUE = ENCODED_FALSE;
+const STORAGE_TRUE_VALUE = ENCODED_TRUE;
 
-enum EasyModeQueryValue {
-  On = "0",
-  Off = "1",
-}
+type EncodedBoolean = typeof ENCODED_TRUE | typeof ENCODED_FALSE;
 
-enum EasyModeStorageValue {
-  Off = "0",
-  On = "1",
-}
-
-type PersistedState = {
+type PersistedState = PersistedGameFields & {
   version: string;
   lang: Lang;
-  speaker: string;
-  listener: string;
-  portion: string;
-  bonus: string;
-  bookHintUsed: boolean;
-  hintRevealed: boolean;
-  attempts: GuessResult[];
   revealed: boolean;
 };
 
-type PersistInput = Omit<PersistedState, "version" | "lang" | "revealed">;
 type AppPage = "game" | "about";
 
-const EMPTY_PERSIST_INPUT: PersistInput = {
+const EMPTY_PERSISTED_GAME_FIELDS: PersistedGameFields = {
   speaker: "",
   listener: "",
   portion: "",
   bonus: "",
-  bookHintUsed: false,
   hintRevealed: false,
   attempts: [],
 };
 
-function toPersistInput(state: PersistedState): PersistInput {
+function toPersistedGameFields(state: PersistedState): PersistedGameFields {
   return {
     speaker: state.speaker,
     listener: state.listener,
     portion: state.portion,
     bonus: state.bonus,
-    bookHintUsed: state.bookHintUsed,
     hintRevealed: state.hintRevealed,
     attempts: state.attempts,
   };
 }
 
-function isGuessResult(raw: unknown): raw is GuessResult {
-  if (!raw || typeof raw !== "object") return false;
+function toGuessResult(raw: unknown): GuessResult | null {
+  if (!raw || typeof raw !== "object") return null;
   const candidate = raw as Record<string, unknown>;
-  return (
-    typeof candidate.speakerOk === "boolean" &&
-    typeof candidate.listenerOk === "boolean" &&
-    typeof candidate.portionOk === "boolean" &&
-    typeof candidate.bonusOk === "boolean"
-  );
+  if (
+    typeof candidate.speakerOk !== "boolean" ||
+    typeof candidate.listenerOk !== "boolean" ||
+    typeof candidate.portionOk !== "boolean" ||
+    typeof candidate.bonusOk !== "boolean"
+  ) {
+    return null;
+  }
+  return {
+    speakerOk: candidate.speakerOk,
+    listenerOk: candidate.listenerOk,
+    portionOk: candidate.portionOk,
+    bonusOk: candidate.bonusOk,
+    hintUsed: typeof candidate.hintUsed === "boolean" ? candidate.hintUsed : undefined,
+    countsAsTry: typeof candidate.countsAsTry === "boolean" ? candidate.countsAsTry : undefined,
+  };
 }
 
-function parseAttempts(parsed: Partial<PersistedState> & { result?: unknown; guesses?: unknown }): GuessResult[] {
+function parseAttempts(parsed: Record<string, unknown>): GuessResult[] {
   if (Array.isArray(parsed.attempts)) {
-    return parsed.attempts.filter((attempt): attempt is GuessResult => isGuessResult(attempt));
+    return parsed.attempts
+      .map((attempt) => toGuessResult(attempt))
+      .filter((attempt): attempt is GuessResult => attempt !== null);
   }
 
-  if (!isGuessResult(parsed.result)) return [];
+  const legacyResult = toGuessResult(parsed.result);
+  if (!legacyResult) return [];
   const tries =
     typeof parsed.guesses === "number" && Number.isFinite(parsed.guesses) && parsed.guesses > 0
       ? Math.floor(parsed.guesses)
       : 1;
-  const legacyResult: GuessResult = parsed.result;
   return Array.from({ length: tries }, () => ({ ...legacyResult }));
 }
 
@@ -99,7 +97,7 @@ export function parseDifficultyLockFromStorageValue(raw: string | null): boolean
   return parseEasyModeFromStorageValue(raw);
 }
 
-export function toDifficultyLockStorageValue(enabled: boolean): EasyModeStorageValue {
+export function toDifficultyLockStorageValue(enabled: boolean): EncodedBoolean {
   return toEasyModeStorageValue(enabled);
 }
 
@@ -112,22 +110,20 @@ export function isEasyModeToggleBlocked(lockedEasyMode: boolean | null, easyMode
 export function parsePersistedState(raw: string | null, lang: Lang, currentVersion: string): PersistedState | null {
   if (!raw) return null;
   try {
-    const parsed = JSON.parse(raw) as Partial<PersistedState> & { result?: unknown; guesses?: unknown };
+    const parsed = JSON.parse(raw) as Record<string, unknown>;
     if (parsed.version !== currentVersion) return null;
     if (parsed.lang !== lang) return null;
     const attempts = parseAttempts(parsed);
     const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
     const revealed = !!parsed.revealed && hasCoreSolvedAttempt;
-    const bookHintUsed = !!parsed.bookHintUsed;
-    const hintRevealed = !!parsed.hintRevealed || bookHintUsed;
+    const hintRevealed = !!parsed.hintRevealed || !!parsed.bookHintUsed;
     return {
-      version: parsed.version ?? currentVersion,
+      version: currentVersion,
       lang,
-      speaker: parsed.speaker ?? "",
-      listener: parsed.listener ?? "",
-      portion: parsed.portion ?? "",
-      bonus: parsed.bonus ?? "",
-      bookHintUsed,
+      speaker: typeof parsed.speaker === "string" ? parsed.speaker : "",
+      listener: typeof parsed.listener === "string" ? parsed.listener : "",
+      portion: typeof parsed.portion === "string" ? parsed.portion : "",
+      bonus: typeof parsed.bonus === "string" ? parsed.bonus : "",
       hintRevealed,
       attempts,
       // Old/corrupted payloads can end up with `revealed: true` and no solved attempt.
@@ -139,24 +135,30 @@ export function parsePersistedState(raw: string | null, lang: Lang, currentVersi
   }
 }
 
+function parseEncodedBoolean(raw: string | null, trueValue: EncodedBoolean): boolean | null {
+  if (raw !== ENCODED_TRUE && raw !== ENCODED_FALSE) return null;
+  return raw === trueValue;
+}
+
+function toEncodedBoolean(value: boolean, trueValue: EncodedBoolean): EncodedBoolean {
+  if (value) return trueValue;
+  return trueValue === ENCODED_TRUE ? ENCODED_FALSE : ENCODED_TRUE;
+}
+
 function parseEasyModeFromQueryValue(raw: string | null): boolean | null {
-  if (raw === EasyModeQueryValue.On) return true;
-  if (raw === EasyModeQueryValue.Off) return false;
-  return null;
+  return parseEncodedBoolean(raw, QUERY_TRUE_VALUE);
 }
 
 function parseEasyModeFromStorageValue(raw: string | null): boolean | null {
-  if (raw === EasyModeStorageValue.On) return true;
-  if (raw === EasyModeStorageValue.Off) return false;
-  return null;
+  return parseEncodedBoolean(raw, STORAGE_TRUE_VALUE);
 }
 
-export function toEasyModeStorageValue(enabled: boolean): EasyModeStorageValue {
-  return enabled ? EasyModeStorageValue.On : EasyModeStorageValue.Off;
+export function toEasyModeStorageValue(enabled: boolean): EncodedBoolean {
+  return toEncodedBoolean(enabled, STORAGE_TRUE_VALUE);
 }
 
-function toEasyModeQueryValue(enabled: boolean): EasyModeQueryValue {
-  return enabled ? EasyModeQueryValue.On : EasyModeQueryValue.Off;
+function toEasyModeQueryValue(enabled: boolean): EncodedBoolean {
+  return toEncodedBoolean(enabled, QUERY_TRUE_VALUE);
 }
 
 function pickEasyModeFromStorage(): boolean {
@@ -261,7 +263,7 @@ export function App() {
     value: null,
   });
   const [revealed, setRevealed] = useState(false);
-  const [initial, setInitial] = useState<PersistInput | null>(null);
+  const [initial, setInitial] = useState<PersistedGameFields | null>(null);
   const [page, setPage] = useState<AppPage>(() => {
     if (typeof window === "undefined") return "game";
     return pickPageFromHash(window.location.hash);
@@ -355,7 +357,7 @@ export function App() {
       localStorage.removeItem(storageKey);
     }
     setRevealed(parsed?.revealed ?? false);
-    setInitial(parsed ? toPersistInput(parsed) : { ...EMPTY_PERSIST_INPUT });
+    setInitial(parsed ? toPersistedGameFields(parsed) : { ...EMPTY_PERSISTED_GAME_FIELDS });
   }, [puzzle, storageKey, lang]);
 
   useEffect(() => {
@@ -396,7 +398,7 @@ export function App() {
 
   if (!puzzle && page === "game") return null;
 
-  const persist = (state: PersistInput) => {
+  const persist = (state: PersistedGameFields) => {
     if (!puzzle) return;
     const existing = parsePersistedState(localStorage.getItem(storageKey), lang, APP_VERSION);
     const payload = {
@@ -412,7 +414,7 @@ export function App() {
     if (!puzzle) return;
     localStorage.removeItem(storageKey);
     setRevealed(false);
-    setInitial({ ...EMPTY_PERSIST_INPUT });
+    setInitial({ ...EMPTY_PERSISTED_GAME_FIELDS });
   };
 
   const reveal = () => {
@@ -422,7 +424,7 @@ export function App() {
     localStorage.setItem(
       storageKey,
       JSON.stringify({
-        ...(existing ?? { version: APP_VERSION, lang, ...EMPTY_PERSIST_INPUT, revealed: false }),
+        ...(existing ?? { version: APP_VERSION, lang, ...EMPTY_PERSISTED_GAME_FIELDS, revealed: false }),
         revealed: true,
       })
     );

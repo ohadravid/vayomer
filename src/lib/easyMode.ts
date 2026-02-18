@@ -110,15 +110,12 @@ function normalizeDifficultyChoicePools(raw: unknown): DifficultyChoicePools {
 export function resolveChoicePoolsForDifficulty(params: {
   puzzle: PuzzleItem;
   lang: Lang;
-  easyMode: boolean;
 }): EasyChoicePools {
-  const { puzzle, lang, easyMode } = params;
+  const { puzzle, lang } = params;
   const easyOverrides = normalizeDifficultyChoicePools(puzzle[lang].options);
-  const hardOverrides = normalizeDifficultyChoicePools(puzzle[lang].hard_difficulty_options);
-  const selectedOverrides = easyMode ? easyOverrides : hardOverrides;
 
   return {
-    speaker: dedupeByNormalized([...(selectedOverrides.speaker ?? [])], lang),
-    listener: dedupeByNormalized([...(selectedOverrides.listener ?? [])], lang),
+    speaker: dedupeByNormalized([...(easyOverrides.speaker ?? [])], lang),
+    listener: dedupeByNormalized([...(easyOverrides.listener ?? [])], lang),
   };
 }

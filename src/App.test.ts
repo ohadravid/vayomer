@@ -225,7 +225,7 @@ describe("parsePersistedState", () => {
     expect(parsed?.hintRevealed).toBe(true);
   });
 
-  it("restores hintRevealed when bonus hint was used", () => {
+  it("restores hintRevealed when legacy bookHintUsed was persisted", () => {
     const raw = JSON.stringify({
       version: CURRENT_VERSION,
       lang: "he",
@@ -241,7 +241,31 @@ describe("parsePersistedState", () => {
 
     const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
     expect(parsed?.revealed).toBe(false);
-    expect(parsed?.bookHintUsed).toBe(true);
     expect(parsed?.hintRevealed).toBe(true);
+  });
+
+  it("keeps only structurally valid attempts", () => {
+    const raw = JSON.stringify({
+      version: CURRENT_VERSION,
+      lang: "he",
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      portion: "",
+      bonus: "הָאָרֶץ",
+      attempts: [
+        { speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false },
+        { speakerOk: true, listenerOk: true, portionOk: true },
+      ],
+      revealed: false,
+    });
+
+    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    expect(parsed?.attempts).toHaveLength(1);
+    expect(parsed?.attempts[0]).toMatchObject({
+      speakerOk: true,
+      listenerOk: true,
+      portionOk: true,
+      bonusOk: false,
+    });
   });
 });

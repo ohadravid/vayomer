@@ -398,10 +398,6 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
           <span className="debug-answer-label">{localize(lang, "Options", "אפשרויות")}</span>
           <div className="debug-answer-value">{renderChoicePoolValues(lang, selectedText.options)}</div>
         </div>
-        <div className="debug-answer-row">
-          <span className="debug-answer-label">{localize(lang, "Hard options", "אפשרויות קשות")}</span>
-          <div className="debug-answer-value">{renderChoicePoolValues(lang, selectedText.hard_difficulty_options)}</div>
-        </div>
       </section>
     </section>
   );

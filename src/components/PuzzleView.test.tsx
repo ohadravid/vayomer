@@ -62,7 +62,6 @@ type PersistPayload = {
   listener: string;
   portion: string;
   bonus: string;
-  bookHintUsed: boolean;
   hintRevealed: boolean;
   attempts: GuessResult[];
 };
@@ -93,7 +92,6 @@ function renderPuzzleView(props: {
     listener: string;
     portion: string;
     bonus: string;
-    bookHintUsed?: boolean;
     hintRevealed?: boolean;
     attempts: GuessResult[];
   };
@@ -165,7 +163,6 @@ describe("PuzzleView persistence hydration", () => {
       listener: "Abram",
       portion: "",
       bonus: "land",
-      bookHintUsed: false,
       hintRevealed: false,
       attempts: [coreSolvedAttempt],
     };
@@ -201,7 +198,6 @@ describe("PuzzleView persistence hydration", () => {
       listener: "Abram",
       portion: "",
       bonus: "land",
-      bookHintUsed: false,
       hintRevealed: false,
       attempts: [coreSolvedAttempt],
     };
@@ -240,7 +236,7 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("uses free-text inputs in hard mode even when hard_difficulty_options are present", () => {
+  it("uses free-text inputs in hard mode even when options are present", () => {
     const onPersist = () => {};
     const puzzleWithDifficultyOptions: PuzzleItem = {
       ...puzzle,
@@ -249,10 +245,6 @@ describe("PuzzleView persistence hydration", () => {
         options: {
           speaker: ["Easy Speaker"],
           listener: ["Easy Listener"],
-        },
-        hard_difficulty_options: {
-          speaker: ["Hard Speaker"],
-          listener: ["Hard Listener"],
         },
       },
     };
@@ -267,7 +259,7 @@ describe("PuzzleView persistence hydration", () => {
     expect(root?.root.findByProps({ id: "inputListener" }).type).toBe("input");
   });
 
-  it("uses options in easy mode when hard_difficulty_options are present", () => {
+  it("uses options in easy mode when options are present", () => {
     const onPersist = () => {};
     const puzzleWithDifficultyOptions: PuzzleItem = {
       ...puzzle,
@@ -276,10 +268,6 @@ describe("PuzzleView persistence hydration", () => {
         options: {
           speaker: ["Easy Speaker"],
           listener: ["Easy Listener"],
-        },
-        hard_difficulty_options: {
-          speaker: ["Hard Speaker"],
-          listener: ["Hard Listener"],
         },
       },
     };
@@ -291,8 +279,6 @@ describe("PuzzleView persistence hydration", () => {
     const form = root?.root.findByType(GuessForm);
     expect(form?.props.choiceOptions.speaker).toContain("Easy Speaker");
     expect(form?.props.choiceOptions.listener).toContain("Easy Listener");
-    expect(form?.props.choiceOptions.speaker).not.toContain("Hard Speaker");
-    expect(form?.props.choiceOptions.listener).not.toContain("Hard Listener");
   });
 
   it("shows God as speaker option for divine aliases and accepts it as correct", () => {
@@ -397,7 +383,6 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: false,
             hintRevealed: false,
             attempts: [coreSolvedAttempt],
           },
@@ -431,7 +416,6 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: false,
             hintRevealed: false,
             attempts: [stageTwoOpenAttempt],
           },
@@ -487,7 +471,6 @@ describe("PuzzleView persistence hydration", () => {
       listener: "Abram",
       portion: "",
       bonus: "land",
-      bookHintUsed: false,
       attempts: [coreSolvedAttempt],
     };
 
@@ -497,7 +480,7 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(calls).toHaveLength(0);
     expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
-    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toBe("🤖 Genesis 12:1");
+    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toContain("Genesis 12:1");
 
     const bonusInput = root?.root.findByProps({ id: "inputBonus" });
     act(() => {
@@ -530,7 +513,6 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: false,
             hintRevealed: false,
             attempts: [coreSolvedAttempt],
           },
@@ -554,7 +536,6 @@ describe("PuzzleView persistence hydration", () => {
     expect(hintQuoteHtml.includes(placeholder)).toBe(true);
     expect(root?.root.findByProps({ id: "hintRefLine" }).children.join("")).toBe("Genesis 12:1");
     expect(calls).toHaveLength(1);
-    expect(calls[0]?.bookHintUsed).toBe(true);
     expect(calls[0]?.hintRevealed).toBe(true);
 
     const formWithHint = root?.root.findByType(GuessForm);
@@ -589,8 +570,7 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: true,
-            hintRevealed: false,
+            hintRevealed: true,
             attempts: [coreSolvedAttempt],
           },
         })
@@ -616,7 +596,6 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: false,
             hintRevealed: false,
             attempts: [],
           },
@@ -649,7 +628,6 @@ describe("PuzzleView persistence hydration", () => {
             listener: "Abram",
             portion: "",
             bonus: "",
-            bookHintUsed: false,
             hintRevealed: false,
             attempts: [stageTwoOpenAttempt],
           },

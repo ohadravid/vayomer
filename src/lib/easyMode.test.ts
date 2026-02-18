@@ -160,7 +160,7 @@ describe("resolveChoicePoolsForPuzzle", () => {
 });
 
 describe("resolveChoicePoolsForDifficulty", () => {
-  it("uses hard_difficulty_options in hard mode when present", () => {
+  it("uses configured options", () => {
     const puzzle: PuzzleItem = {
       ...samplePuzzle,
       en: {
@@ -169,32 +169,44 @@ describe("resolveChoicePoolsForDifficulty", () => {
           speaker: ["Easy Speaker"],
           listener: ["Easy Listener"],
         },
-        hard_difficulty_options: {
-          speaker: ["Hard Speaker"],
-          listener: ["Hard Listener"],
-        },
       },
     };
 
     const pools = resolveChoicePoolsForDifficulty({
       puzzle,
       lang: "en",
-      easyMode: false,
     });
 
-    expect(pools.speaker).toContain("Hard Speaker");
-    expect(pools.listener).toContain("Hard Listener");
-    expect(pools.speaker).not.toContain("Easy Speaker");
+    expect(pools.speaker).toContain("Easy Speaker");
+    expect(pools.listener).toContain("Easy Listener");
   });
 
-  it("returns empty pools for hard mode when hard_difficulty_options is missing", () => {
+  it("returns empty pools when options are missing", () => {
+    const puzzle: PuzzleItem = {
+      ...samplePuzzle,
+      en: {
+        ...samplePuzzle.en,
+        options: null,
+      },
+    };
+
+    const pools = resolveChoicePoolsForDifficulty({
+      puzzle,
+      lang: "en",
+    });
+
+    expect(pools.speaker).toEqual([]);
+    expect(pools.listener).toEqual([]);
+  });
+
+  it("deduplicates and canonicalizes configured options", () => {
     const puzzle: PuzzleItem = {
       ...samplePuzzle,
       en: {
         ...samplePuzzle.en,
         options: {
-          speaker: ["Shared Speaker"],
-          listener: ["Shared Listener"],
+          speaker: ["the LORD", "God", "God", "Moses"],
+          listener: ["Abram", "Abram", "Sarah"],
         },
       },
     };
@@ -202,10 +214,9 @@ describe("resolveChoicePoolsForDifficulty", () => {
     const pools = resolveChoicePoolsForDifficulty({
       puzzle,
       lang: "en",
-      easyMode: false,
     });
 
-    expect(pools.speaker).toEqual([]);
-    expect(pools.listener).toEqual([]);
+    expect(pools.speaker).toEqual(["God", "Moses"]);
+    expect(pools.listener).toEqual(["Abram", "Sarah"]);
   });
 });

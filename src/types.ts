@@ -41,7 +41,6 @@ export type LangText = {
   bonus?: string | null;
   bonus_hint?: BonusHint | null;
   options?: DifficultyChoicePools | null;
-  hard_difficulty_options?: DifficultyChoicePools | null;
 };
 
 export type Portion = {
@@ -77,4 +76,13 @@ export type GuessResult = {
   bonusOk: boolean;
   hintUsed?: boolean;
   countsAsTry?: boolean;
+};
+
+export type PersistedGameFields = {
+  speaker: string;
+  listener: string;
+  portion: string;
+  bonus: string;
+  hintRevealed: boolean;
+  attempts: GuessResult[];
 };

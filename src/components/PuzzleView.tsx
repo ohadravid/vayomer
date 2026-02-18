@@ -17,7 +17,16 @@ import { MAX_TOTAL_TRIES } from "../lib/gameRules";
 import { buildShareText } from "../lib/share";
 import { PuzzleCard } from "./PuzzleCard";
 import { GuessForm } from "./GuessForm";
-import { GameState, type EasyChoicePools, type GuessEditState, type GuessField, type GuessResult, type GuessValues, type PuzzleItem } from "../types";
+import {
+  GameState,
+  type EasyChoicePools,
+  type GuessEditState,
+  type GuessField,
+  type GuessResult,
+  type GuessValues,
+  type PersistedGameFields,
+  type PuzzleItem,
+} from "../types";
 
 type Props = {
   puzzle: PuzzleItem;
@@ -27,37 +36,12 @@ type Props = {
   onReveal: () => void;
   onClear: () => void;
   revealed: boolean;
-  onPersist?: (state: {
-    speaker: string;
-    listener: string;
-    portion: string;
-    bonus: string;
-    // Kept as-is to stay compatible with existing persisted payloads.
-    bookHintUsed: boolean;
-    hintRevealed: boolean;
-    attempts: GuessResult[];
-  }) => void;
-  initial?: {
-    speaker: string;
-    listener: string;
-    portion: string;
-    bonus: string;
-    bookHintUsed?: boolean;
-    hintRevealed?: boolean;
-    attempts: GuessResult[];
-  };
+  onPersist?: (state: PersistedGameFields) => void;
+  initial?: Omit<PersistedGameFields, "hintRevealed"> & { hintRevealed?: boolean };
   syncDocumentDirection?: boolean;
 };
 
-type PersistableState = {
-  speaker: string;
-  listener: string;
-  portion: string;
-  bonus: string;
-  bookHintUsed: boolean;
-  hintRevealed: boolean;
-  attempts: GuessResult[];
-};
+type PersistableState = PersistedGameFields;
 
 const EMPTY_GUESS_VALUES: GuessValues = {
   speaker: "",
@@ -90,7 +74,6 @@ function buildPersistableState(initial?: Props["initial"]): PersistableState {
     listener: initial?.listener ?? "",
     portion: initial?.portion ?? "",
     bonus: initial?.bonus ?? "",
-    bookHintUsed: initial?.bookHintUsed ?? false,
     hintRevealed: initial?.hintRevealed ?? false,
     attempts: initial?.attempts ?? [],
   };
@@ -189,7 +172,7 @@ export function PuzzleView({
   const [listener, setListener] = useState(initial?.listener ?? EMPTY_GUESS_VALUES.listener);
   const [portion, setPortion] = useState(initial?.portion ?? EMPTY_GUESS_VALUES.portion);
   const [bonus, setBonus] = useState(initial?.bonus ?? EMPTY_GUESS_VALUES.bonus);
-  const [bonusHintUsed, setBonusHintUsed] = useState(initial?.bookHintUsed ?? false);
+  const [bonusHintUsed, setBonusHintUsed] = useState(initial?.hintRevealed ?? false);
   const [hintRevealed, setHintRevealed] = useState(initial?.hintRevealed ?? false);
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
@@ -248,7 +231,6 @@ export function PuzzleView({
     const pools = resolveChoicePoolsForDifficulty({
       puzzle,
       lang,
-      easyMode,
     });
     return {
       speaker: buildMultipleChoiceOptions({
@@ -289,7 +271,7 @@ export function PuzzleView({
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
     setBonus(nextValues.bonus);
-    setBonusHintUsed(initial?.bookHintUsed ?? false);
+    setBonusHintUsed(initial?.hintRevealed ?? false);
     setHintRevealed(initial?.hintRevealed ?? false);
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
@@ -299,7 +281,6 @@ export function PuzzleView({
     initial?.listener,
     initial?.portion,
     initial?.bonus,
-    initial?.bookHintUsed,
     initial?.hintRevealed,
     initial?.attempts,
     puzzle,
@@ -316,7 +297,6 @@ export function PuzzleView({
       listener,
       portion,
       bonus,
-      bookHintUsed: bonusHintUsed,
       hintRevealed,
       attempts,
     };
