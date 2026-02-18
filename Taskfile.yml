@@ -55,3 +55,17 @@ tasks:
     desc: Build item-level regular+hard difficulty option pools from rebuilt quotes
     cmds:
       - uv run python3 data_processing/postprocess_hard_options.py --model gemma3:4b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_options --force
+
+  assets:preview:
+    desc: Capture OG preview screenshot (1200x630) and convert to static/preview.webp
+    cmds:
+      - mkdir -p static
+      - |
+        sh -c '
+        bun --hot index.html debug.html preview.html --port=5173 >/tmp/vayomer-preview-server.log 2>&1 &
+        SERVER_PID=$!
+        trap "kill $SERVER_PID" EXIT INT TERM
+        sleep 2
+        bunx playwright screenshot --viewport-size=1200,630 http://127.0.0.1:5173/preview static/preview.png
+        (cd static && cwebp -q 100 preview.png -o preview.webp)
+        '
