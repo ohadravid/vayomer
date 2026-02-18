@@ -49,7 +49,10 @@ export type Portion = {
   he: string;
 } | null;
 
+export type SourceMethod = "llm" | "manual";
+
 export type SourceRef = {
+  method?: SourceMethod;
   ref_start?: string;
   ref_end?: string;
   book?: string;

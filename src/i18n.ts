@@ -37,7 +37,7 @@ export const resources = {
         englishLabel: "English text:",
         englishSourceName:
           "TextGrid Repository (2025), English Collection, Multilingual Parallel Bible Corpus",
-        modelNote: "Quote candidates were selected with Gemma3:27b.",
+        modelNote: "Quote were selected with Gemma3:27b, or, when marked with 👵, by Grandma Leah.",
       },
       puzzleView: {
         solved: "Solved.",
@@ -95,7 +95,7 @@ export const resources = {
         hebrewSourceName: "מהדורת Unicode/XML של קודקס לנינגרד (UXLC), דרך tanach.us",
         englishLabel: "טקסט אנגלי:",
         englishSourceName: "מאגר TextGrid ‏(2025), English Collection, Multilingual Parallel Bible Corpus",
-        modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma3:27b.",
+        modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma3:27b, או, כאשר מופיע הסימון 👵, על ידי סבתא לאה.",
       },
       puzzleView: {
         solved: "נכון.",

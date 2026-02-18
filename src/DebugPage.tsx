@@ -8,7 +8,7 @@ import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
-import { dayIndex, pickDailyItemIndex } from "./lib/daily";
+import { dayIndex, pickDailyItemIndexWithOverrides } from "./lib/daily";
 import type {
   BonusHint,
   DifficultyChoicePools,
@@ -265,7 +265,7 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
   }
 
   const daySlotIndex = dayIndex(total, selectedDate);
-  const selectedItemIndex = pickDailyItemIndex(total, selectedDate);
+  const selectedItemIndex = pickDailyItemIndexWithOverrides(items, selectedDate);
   const displayOrderIndex = daySlotIndex + 1;
   const selectedItem = items[selectedItemIndex] ?? items[0];
   const dateInputValue = toDateInputValue(selectedDate);

@@ -1,5 +1,12 @@
 import { describe, expect, it } from "bun:test";
-import { HARD_MODE_SUCCESS_MARKS, dayIndex, pickDailyHardModeSuccessMark, pickDailyItemIndex } from "./daily";
+import {
+  HARD_MODE_SUCCESS_MARKS,
+  dateOverrideKey,
+  dayIndex,
+  pickDailyHardModeSuccessMark,
+  pickDailyItemIndex,
+  pickDailyItemIndexWithOverrides,
+} from "./daily";
 
 describe("dayIndex", () => {
   it("is deterministic for a given date", () => {
@@ -23,6 +30,26 @@ describe("pickDailyItemIndex", () => {
     const idx = pickDailyItemIndex(8, new Date(1901, 0, 1));
     expect(idx).toBeGreaterThanOrEqual(0);
     expect(idx).toBeLessThan(8);
+  });
+});
+
+describe("date override selection", () => {
+  it("formats override keys as local YYYY-MM-DD", () => {
+    expect(dateOverrideKey(new Date(2026, 2, 16))).toBe("2026-03-16");
+  });
+
+  it("uses override id when present for that date", () => {
+    const items = [{ id: "a" }, { id: "b" }, { id: "c" }];
+    const date = new Date(2026, 2, 16);
+    const overrides = { "2026-03-16": "b" };
+    expect(pickDailyItemIndexWithOverrides(items, date, overrides)).toBe(1);
+  });
+
+  it("falls back to regular daily selection when override id is missing", () => {
+    const items = [{ id: "a" }, { id: "b" }, { id: "c" }];
+    const date = new Date(2026, 2, 16);
+    const overrides = { "2026-03-16": "missing-id" };
+    expect(pickDailyItemIndexWithOverrides(items, date, overrides)).toBe(pickDailyItemIndex(items.length, date));
   });
 });
 

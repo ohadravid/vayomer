@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { pickDailyItemIndex } from "./lib/daily";
+import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
@@ -179,14 +179,14 @@ export function parsePuzzleIdFromSearch(search: string): string | null {
   return trimmed.length > 0 ? trimmed : null;
 }
 
-export function pickPuzzleIndexForSearch(items: PuzzleItem[], search: string): number {
+export function pickPuzzleIndexForSearch(items: PuzzleItem[], search: string, date: Date = new Date()): number {
   if (items.length === 0) return 0;
   const requestedPuzzleId = parsePuzzleIdFromSearch(search);
   if (requestedPuzzleId) {
     const explicitIndex = items.findIndex((item) => item.id === requestedPuzzleId);
     if (explicitIndex >= 0) return explicitIndex;
   }
-  return pickDailyItemIndex(items.length);
+  return pickDailyItemIndexWithOverrides(items, date);
 }
 
 function pickEasyMode(): boolean {
@@ -315,7 +315,7 @@ export function App() {
     }
 
     if (typeof window !== "undefined") {
-      const todayPuzzle = list[pickDailyItemIndex(list.length)];
+      const todayPuzzle = list[pickDailyItemIndexWithOverrides(list)];
       if (todayPuzzle) {
         try {
           pruneDifficultyLockKeys(window.localStorage, todayPuzzle.id);

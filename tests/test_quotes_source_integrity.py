@@ -119,6 +119,26 @@ def _bible_verse_text(
     return text_cleanup.clean_text(tandem_bible.hebrew_map.get((book_code, chapter, verse), ""))
 
 
+def _assert_bonus_in_quote_and_hint(*, quote_case: QuoteCase, lang: str, quote: str, section: Dict) -> object:
+    bonus = _sanitize_str(section.get("bonus"))
+    assert bonus, f"{quote_case.item_id}:{lang}: bonus is missing"
+    assert _contains_text(quote, bonus, lang), (
+        f"{quote_case.item_id}:{lang}: bonus not contained in quote"
+    )
+
+    hint = section.get("bonus_hint")
+    if hint is None:
+        return None
+
+    assert isinstance(hint, dict), f"{quote_case.item_id}:{lang}: bonus_hint must be an object or null"
+    hint_quote = _sanitize_str(hint.get("quote"))
+    assert hint_quote, f"{quote_case.item_id}:{lang}: bonus_hint.quote is empty"
+    assert _contains_text(hint_quote, bonus, lang), (
+        f"{quote_case.item_id}:{lang}: bonus not contained in bonus_hint.quote"
+    )
+    return hint
+
+
 @pytest.fixture(scope="session")
 def tandem_bible() -> bible_tandem.TandemBible:
     english_xml = ROOT / bible_sources.DEFAULT_ENGLISH_COLLECTION
@@ -244,25 +264,15 @@ def test_quote_item_integrity(
             f"{quote_case.item_id}:{lang}: quote not contained in Bible source range"
         )
 
-        bonus = _sanitize_str(section.get("bonus"))
-        # 3) Bonus word must appear in the full quote.
-        assert bonus, f"{quote_case.item_id}:{lang}: bonus is missing"
-        assert _contains_text(quote, bonus, lang), (
-            f"{quote_case.item_id}:{lang}: bonus not contained in quote"
+        # 3) Bonus must be in the full quote and, if hint exists, in hint quote.
+        hint = _assert_bonus_in_quote_and_hint(
+            quote_case=quote_case,
+            lang=lang,
+            quote=quote,
+            section=section,
         )
-
-        hint = section.get("bonus_hint")
         if hint is None:
             continue
-
-        assert isinstance(hint, dict), f"{quote_case.item_id}:{lang}: bonus_hint must be an object or null"
-        hint_quote = _sanitize_str(hint.get("quote"))
-        assert hint_quote, f"{quote_case.item_id}:{lang}: bonus_hint.quote is empty"
-
-        # 4) Bonus word must appear in hint quote (if hint exists).
-        assert _contains_text(hint_quote, bonus, lang), (
-            f"{quote_case.item_id}:{lang}: bonus not contained in bonus_hint.quote"
-        )
 
         hint_source = hint.get("source", {})
         assert isinstance(hint_source, dict), f"{quote_case.item_id}:{lang}: bonus_hint.source is missing/invalid"
@@ -284,6 +294,7 @@ def test_quote_item_integrity(
             f"{quote_case.item_id}:{lang}: bonus_hint source range missing verses {hint_range.missing}"
         )
 
+        hint_quote = _sanitize_str(hint.get("quote"))
         hint_source_quote = hint_range.en_quote if lang == "en" else hint_range.he_quote
         # 5) Hint quote must exist in the Bible location pointed to by bonus_hint.source.
         assert _contains_text(hint_source_quote, hint_quote, lang), (

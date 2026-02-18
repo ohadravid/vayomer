@@ -202,3 +202,21 @@ Useful flags:
 - `--skip-llm` use deterministic fallback ranking only (fast smoke checks)
 - `--book GEN --chapters 1-5` process only selected chapters
 - `--force` overwrite already-written output files
+
+## 8) Interactive manual bonus/hint editor
+
+For manual files (for example `data/manual_quotes/genesis-003.json`), this script:
+
+- asks you to pick bonus words when missing,
+- if bonus exists, scans Bible sources and suggests up to 5 paired hint options where EN+HE are from the same verse,
+- writes accepted edits back to the same file.
+
+```bash
+uv run python3 data_processing/interactive_bonus_editor.py data/manual_quotes/genesis-003.json
+```
+
+Useful flags:
+
+- `--item-id manual-genesis-03-09-09-d094f0f4` edit a single item only
+- `--max-bonus-candidates 20` candidate count for missing bonus-word selection
+- `--max-hint-candidates 5` max suggested paired hint verses

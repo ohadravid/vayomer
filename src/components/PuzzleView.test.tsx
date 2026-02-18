@@ -497,7 +497,7 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(calls).toHaveLength(0);
     expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
-    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toBe("Genesis 12:1");
+    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toBe("🤖 Genesis 12:1");
 
     const bonusInput = root?.root.findByProps({ id: "inputBonus" });
     act(() => {

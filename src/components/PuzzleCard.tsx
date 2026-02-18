@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { getLanguageFromI18n } from "../lib/language";
-import type { PuzzleItem } from "../types";
+import type { PuzzleItem, SourceMethod } from "../types";
 import { highlightQuote, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
 
 type Props = {
@@ -76,6 +76,14 @@ function getMainSourceRange(puzzle: PuzzleItem): string {
   return formatChapterRange(source.chapter, source.quote_verse_start, source.quote_verse_end);
 }
 
+function sourceMethodFromPuzzle(puzzle: PuzzleItem): SourceMethod {
+  return puzzle.source?.method === "manual" ? "manual" : "llm";
+}
+
+function sourceMethodEmoji(method: SourceMethod): string {
+  return method === "manual" ? "👵" : "";
+}
+
 export function PuzzleCard({
   puzzle,
   revealed,
@@ -95,6 +103,7 @@ export function PuzzleCard({
   const book = getBookLabel(puzzle, lang);
   const mainSourceRange = getMainSourceRange(puzzle);
   const sourceLine = [book, mainSourceRange].filter(Boolean).join(" ");
+  const sourceLineWithMethod = sourceLine ? `${sourceMethodEmoji(sourceMethodFromPuzzle(puzzle))} ${sourceLine}` : "";
 
   return (
     <section
@@ -123,7 +132,7 @@ export function PuzzleCard({
         dangerouslySetInnerHTML={{ __html: highlightQuote(renderedQuote, riddleText) }}
       />
       <div id="refLine" className="ref-line">
-        {sourceRevealed ? sourceLine : ""}
+        {sourceRevealed ? sourceLineWithMethod : ""}
       </div>
     </section>
   );

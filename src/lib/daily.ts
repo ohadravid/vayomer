@@ -1,6 +1,9 @@
 export const DAILY_EPOCH_DATE = new Date(2026, 2, 16);
 export const DAILY_ORDER_SEED = 20220805;
 export const HARD_MODE_SUCCESS_MARKS = ["🔥", "⚔️", "👑"] as const;
+export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
+  "2026-02-19": "manual-genesis-03-09-09-d094f0f4",
+};
 
 function utcDayNumber(date: Date): number {
   return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / (24 * 60 * 60 * 1000));
@@ -43,6 +46,27 @@ export function pickDailyItemIndex(total: number, date: Date = new Date()): numb
   const day = dayIndex(total, date);
   const order = buildDailyOrder(total);
   return order[day] ?? 0;
+}
+
+export function dateOverrideKey(date: Date = new Date()): string {
+  const year = String(date.getFullYear()).padStart(4, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${year}-${month}-${day}`;
+}
+
+export function pickDailyItemIndexWithOverrides(
+  items: readonly { id: string }[],
+  date: Date = new Date(),
+  overrides: Readonly<Record<string, string>> = DAILY_QUOTE_ID_OVERRIDES
+): number {
+  if (items.length <= 0) return 0;
+  const overrideId = overrides[dateOverrideKey(date)]?.trim();
+  if (overrideId) {
+    const overrideIndex = items.findIndex((item) => item.id === overrideId);
+    if (overrideIndex >= 0) return overrideIndex;
+  }
+  return pickDailyItemIndex(items.length, date);
 }
 
 export function pickDailyHardModeSuccessMark(date: Date = new Date()): (typeof HARD_MODE_SUCCESS_MARKS)[number] {
