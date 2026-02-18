@@ -348,10 +348,16 @@ test("difficulty lock persists hard mode when first opened in hard", async ({ pa
   await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
 
   await page.click("#inputSpeaker");
-  await expect(difficultyToggle).toBeDisabled();
+  await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
   expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("0");
   await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+
+  // Locked hard puzzles can still switch to easy.
+  await difficultyToggle.click();
+  await expect(difficultyToggle).toBeDisabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "true");
+  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBeNull();
 
   const forceEasyParams = new URLSearchParams({
     puzzle: todayPuzzleId,
@@ -361,7 +367,8 @@ test("difficulty lock persists hard mode when first opened in hard", async ({ pa
   await page.goto(`/?${forceEasyParams.toString()}`);
   await expect(page.locator("#guessForm")).toBeVisible();
 
-  await expect(difficultyToggle).toBeDisabled();
+  // The hard lock still applies across navigation even if URL asks for easy.
+  await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
   await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
 });
