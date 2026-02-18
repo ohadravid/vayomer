@@ -8,7 +8,7 @@ import { GuessForm } from "./GuessForm";
 import { resources } from "../i18n";
 import { pickDailyHardModeSuccessMark, HARD_MODE_SUCCESS_MARKS } from "../lib/daily";
 import { pickHardWordPlaceholderForId } from "../lib/format";
-import type { EasyChoicePools, GuessResult, Lang, PuzzleItem } from "../types";
+import type { GuessResult, Lang, PuzzleItem } from "../types";
 
 const puzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -88,7 +88,6 @@ function renderPuzzleView(props: {
   puzzle?: PuzzleItem;
   revealed?: boolean;
   easyMode?: boolean;
-  choicePools?: EasyChoicePools;
   initial?: {
     speaker: string;
     listener: string;
@@ -106,7 +105,6 @@ function renderPuzzleView(props: {
         <PuzzleView
           puzzle={props.puzzle ?? puzzle}
           easyMode={props.easyMode ?? false}
-          choicePools={props.choicePools}
           revealed={props.revealed ?? false}
           onReveal={() => {}}
           onClear={() => {}}

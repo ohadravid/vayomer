@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "bun --hot index.html debug.html --port=5173",
+    "dev": "bun --hot index.html debug.html preview.html --port=5173",
     "build": "sh -c 'rm -rf dist && bun run build:bundle && mkdir -p dist/static && cp -f static/preview.webp dist/static/preview.webp'",
     "build:bundle": "bun build ./index.html --outdir=dist --sourcemap --target=browser --minify --define:process.env.NODE_ENV='\\\"production\\\"' --env='BUN_PUBLIC_*'",
     "typecheck": "tsc --noEmit",

@@ -174,7 +174,7 @@ async function copyToClipboard(text: string): Promise<boolean> {
 export function PuzzleView({
   puzzle,
   easyMode,
-  choicePools,
+  choicePools: _choicePools,
   onChoiceInteracted,
   revealed,
   onReveal,
@@ -249,7 +249,6 @@ export function PuzzleView({
       puzzle,
       lang,
       easyMode,
-      fallbackPools: choicePools,
     });
     return {
       speaker: buildMultipleChoiceOptions({
@@ -265,7 +264,7 @@ export function PuzzleView({
         seed: `${puzzle.id}:listener`,
       }),
     };
-  }, [easyMode, puzzle, choicePools, lang]);
+  }, [easyMode, puzzle, lang]);
 
   useEffect(() => {
     hasNotifiedChoiceInteractionRef.current = false;

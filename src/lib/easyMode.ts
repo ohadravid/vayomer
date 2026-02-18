@@ -111,23 +111,14 @@ export function resolveChoicePoolsForDifficulty(params: {
   puzzle: PuzzleItem;
   lang: Lang;
   easyMode: boolean;
-  fallbackPools?: EasyChoicePools;
 }): EasyChoicePools {
-  const { puzzle, lang, easyMode, fallbackPools } = params;
+  const { puzzle, lang, easyMode } = params;
   const easyOverrides = normalizeDifficultyChoicePools(puzzle[lang].options);
-  const hardOverrides = normalizeDifficultyChoicePools(
-    puzzle[lang].hard_difficulty_options ?? puzzle[lang].options
-  );
+  const hardOverrides = normalizeDifficultyChoicePools(puzzle[lang].hard_difficulty_options);
   const selectedOverrides = easyMode ? easyOverrides : hardOverrides;
 
   return {
-    speaker: dedupeByNormalized(
-      [...(selectedOverrides.speaker ?? []), ...(fallbackPools?.speaker ?? [])],
-      lang
-    ),
-    listener: dedupeByNormalized(
-      [...(selectedOverrides.listener ?? []), ...(fallbackPools?.listener ?? [])],
-      lang
-    ),
+    speaker: dedupeByNormalized([...(selectedOverrides.speaker ?? [])], lang),
+    listener: dedupeByNormalized([...(selectedOverrides.listener ?? [])], lang),
   };
 }

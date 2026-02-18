@@ -1,6 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { resolveChoicePoolsForPuzzle } from "./lib/easyMode";
 import { pickDailyItemIndex } from "./lib/daily";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
@@ -335,14 +334,6 @@ export function App() {
   const lockedEasyMode = puzzle && lockedEasyModeByPuzzle.puzzleId === puzzle.id ? lockedEasyModeByPuzzle.value : null;
   const easyModeToggleBlocked = isEasyModeToggleBlocked(lockedEasyMode, easyMode);
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
-  const choicePools = useMemo(() => {
-    if (!puzzle) return null;
-    return resolveChoicePoolsForPuzzle({
-      puzzle,
-      items,
-      lang,
-    });
-  }, [puzzle, items, lang]);
 
   useEffect(() => {
     if (!puzzle) return;
@@ -505,7 +496,6 @@ export function App() {
         <PuzzleView
           puzzle={puzzle}
           easyMode={easyMode}
-          choicePools={choicePools ?? undefined}
           onChoiceInteracted={lockDifficultyForPuzzle}
           revealed={revealed}
           onReveal={reveal}

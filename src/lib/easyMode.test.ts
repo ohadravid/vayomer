@@ -187,7 +187,7 @@ describe("resolveChoicePoolsForDifficulty", () => {
     expect(pools.speaker).not.toContain("Easy Speaker");
   });
 
-  it("falls back to options for hard mode when hard_difficulty_options is missing", () => {
+  it("returns empty pools for hard mode when hard_difficulty_options is missing", () => {
     const puzzle: PuzzleItem = {
       ...samplePuzzle,
       en: {
@@ -205,7 +205,7 @@ describe("resolveChoicePoolsForDifficulty", () => {
       easyMode: false,
     });
 
-    expect(pools.speaker).toContain("Shared Speaker");
-    expect(pools.listener).toContain("Shared Listener");
+    expect(pools.speaker).toEqual([]);
+    expect(pools.listener).toEqual([]);
   });
 });
