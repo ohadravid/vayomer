@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 @font-face {
   font-family: "TaameyFrankCLM";
   src:
@@ -8,21 +10,12 @@
   font-display: swap;
 }
 
-@font-face {
-  font-family: "TaameyFrankCLM";
-  src:
-    url("./fonts/TaameyFrankCLM.woff2") format("woff2"),
-    url("./fonts/TaameyFrankCLM.woff") format("woff");
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-}
-
 :root {
   color-scheme: light;
-  --font-ui: "Georgia", "Times New Roman", serif;
-  --font-ui-rtl: "David", "Times New Roman", serif;
-  --font-hebrew-quote: "TaameyFrankCLM", "David", "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", monospace;
+  --font-ui: "Times New Roman", serif;
+  --font-ui-rtl: "Times New Roman", serif;
+  --font-hebrew-quote: "TaameyFrankCLM", "Times New Roman", serif;
   --font-emoji: "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   --bg: #fbf8f1;
   --fg: #1a1a1a;
@@ -193,8 +186,12 @@ button.chip {
   min-height: 2.25rem;
   background: var(--surface);
   border-color: var(--border);
-  font-family: var(--font-emoji);
+  font-family: var(--font-mono);
   font-weight: 700;
+}
+
+button.difficulty {
+  font-family: var(--font-emoji);
 }
 
 button.chip.active {
@@ -365,7 +362,7 @@ input[type="radio"] {
   gap: var(--s-1);
 }
 
-.meta-actions > button.icon-btn {
+.meta-actions>button.icon-btn {
   inline-size: 2.25rem;
   min-inline-size: 2.25rem;
   block-size: 2.25rem;
@@ -547,6 +544,7 @@ label {
     filter: blur(6px);
     opacity: 0.2;
   }
+
   100% {
     filter: blur(0);
     opacity: 1;
@@ -558,6 +556,7 @@ label {
     opacity: 0;
     transform: translateY(-0.2rem);
   }
+
   100% {
     opacity: 1;
     transform: translateY(0);

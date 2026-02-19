@@ -454,7 +454,7 @@ export function App() {
           </button>
           {page === "game" ? (
             <button
-              className={`chip ${easyMode ? "active" : ""}`}
+              className={`chip difficulty ${easyMode ? "active" : ""}`}
               type="button"
               onClick={toggleEasyMode}
               disabled={easyModeToggleBlocked}
