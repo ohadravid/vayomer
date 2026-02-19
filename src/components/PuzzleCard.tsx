@@ -95,6 +95,7 @@ export function PuzzleCard({
   const bonus = puzzle[lang].bonus ?? "";
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
   const renderedQuote = revealed ? quote : maskHardWord(quote, bonus, placeholder);
+  const quoteContent = highlightQuote(renderedQuote, riddleText, revealed ? "" : placeholder);
 
   const book = getBookLabel(puzzle, lang);
   const mainSourceRange = getMainSourceRange(puzzle);
@@ -122,11 +123,9 @@ export function PuzzleCard({
           </div>
         ) : null}
       </div>
-      <div
-        id="fullQuote"
-        className="full-quote"
-        dangerouslySetInnerHTML={{ __html: highlightQuote(renderedQuote, riddleText) }}
-      />
+      <div id="fullQuote" className="full-quote">
+        {quoteContent}
+      </div>
       <div id="refLine" className="ref-line">
         {sourceRevealed ? sourceLineWithMethod : ""}
       </div>

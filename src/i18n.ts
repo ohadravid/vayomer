@@ -37,6 +37,10 @@ export const resources = {
         englishLabel: "English text:",
         englishSourceName:
           "TextGrid Repository (2025), English Collection, Multilingual Parallel Bible Corpus",
+        fontLabel: "Quote font:",
+        fontSourceName: "Taamey Frank CLM by Yoram Gnat (via Open Siddur)",
+        fontLicenseNote:
+          "Distributed under GNU GPL v2 with a font-embedding exception; see the bundled font license files in the repository.",
         modelNote: "Quote were selected with Gemma3:27b, or, when marked with 👵, by Grandma Leah.",
       },
       puzzleView: {
@@ -95,6 +99,10 @@ export const resources = {
         hebrewSourceName: "מהדורת Unicode/XML של קודקס לנינגרד (UXLC), דרך tanach.us",
         englishLabel: "טקסט אנגלי:",
         englishSourceName: "מאגר TextGrid ‏(2025), English Collection, Multilingual Parallel Bible Corpus",
+        fontLabel: "פונט הציטוט:",
+        fontSourceName: "Taamey Frank CLM מאת Yoram Gnat (דרך Open Siddur)",
+        fontLicenseNote:
+          "מופץ תחת GNU GPL v2 עם חריג להטמעת פונטים במסמכים; ראו את קבצי הרישיון של הפונט המצורפים ב- repository.",
         modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma3:27b, או, כאשר מופיע הסימון 👵, על ידי סבתא לאה.",
       },
       puzzleView: {

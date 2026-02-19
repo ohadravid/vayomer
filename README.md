@@ -63,4 +63,13 @@ MIT license (LICENSE-MIT or https://opensource.org/licenses/MIT)
 
 at your option.
 
+Bundled quote-font assets in `fonts/TaameyFrankCLM.woff2` and `fonts/TaameyFrankCLM.woff` are
+from Taamey Frank CLM by Yoram Gnat (via Open Siddur) and are distributed under GNU GPL v2 with
+a font-embedding exception.
+
+See the bundled license/reference files:
+
+- `fonts/TaameyFrankCLM-LICENSE.txt`
+- `fonts/TaameyFrankCLM-README.txt`
+
 The quotes are derived from the [Source Materials](#source-materials).

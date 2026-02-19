@@ -1,5 +1,29 @@
+@font-face {
+  font-family: "TaameyFrankCLM";
+  src:
+    url("./fonts/TaameyFrankCLM.woff2") format("woff2"),
+    url("./fonts/TaameyFrankCLM.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TaameyFrankCLM";
+  src:
+    url("./fonts/TaameyFrankCLM.woff2") format("woff2"),
+    url("./fonts/TaameyFrankCLM.woff") format("woff");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light;
+  --font-ui: "Georgia", "Times New Roman", serif;
+  --font-ui-rtl: "David", "Times New Roman", serif;
+  --font-hebrew-quote: "TaameyFrankCLM", "David", "Times New Roman", serif;
+  --font-emoji: "Apple Color Emoji", "Noto Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
   --bg: #fbf8f1;
   --fg: #1a1a1a;
   --muted: #6b6b6b;
@@ -39,7 +63,7 @@
 
 body {
   margin: 0;
-  font-family: "Georgia", "Times New Roman", serif;
+  font-family: var(--font-ui);
   font-size: var(--fs-base);
   line-height: 1.5;
   background: var(--bg);
@@ -49,7 +73,7 @@ body {
 
 body[dir="rtl"] {
   direction: rtl;
-  font-family: "David", "Times New Roman", serif;
+  font-family: var(--font-ui-rtl);
 }
 
 .app {
@@ -169,7 +193,7 @@ button.chip {
   min-height: 2.25rem;
   background: var(--surface);
   border-color: var(--border);
-  font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  font-family: var(--font-emoji);
   font-weight: 700;
 }
 
@@ -354,6 +378,15 @@ input[type="radio"] {
   padding-inline-start: var(--s2);
   border-inline-start: 4px solid var(--accent);
   margin: 0;
+}
+
+body[dir="rtl"] .full-quote,
+body[dir="rtl"] .bonus-hint-quote {
+  font-family: var(--font-hebrew-quote);
+}
+
+.quote-emoji {
+  font-family: var(--font-emoji);
 }
 
 .full-quote .veil {

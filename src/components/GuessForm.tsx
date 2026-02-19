@@ -1,4 +1,5 @@
 import { useTranslation } from "react-i18next";
+import type { ReactNode } from "react";
 import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues } from "../types";
 
 type Props = {
@@ -14,7 +15,7 @@ type Props = {
   onRevealBonusHint: () => void;
   showBonusHint: boolean;
   showHintQuote: boolean;
-  hintQuoteHtml?: string;
+  hintQuoteContent?: ReactNode;
   hintSourceLine?: string;
   coreSolved: boolean;
   showBonusRow: boolean;
@@ -43,7 +44,7 @@ export function GuessForm({
   onRevealBonusHint,
   showBonusHint,
   showHintQuote,
-  hintQuoteHtml,
+  hintQuoteContent,
   hintSourceLine,
   coreSolved,
   showBonusRow,
@@ -200,7 +201,9 @@ export function GuessForm({
       </form>
       {showHintQuote ? (
         <div id="hintReveal" className={`bonus-hint-reveal ${showHintQuote ? "revealed" : ""}`}>
-          <div id="hintQuote" className="bonus-hint-quote" dangerouslySetInnerHTML={{ __html: hintQuoteHtml ?? "" }} />
+          <div id="hintQuote" className="bonus-hint-quote">
+            {hintQuoteContent ?? ""}
+          </div>
           <div id="hintRefLine" className="bonus-hint-ref-line">
             {hintSourceLine ?? ""}
           </div>

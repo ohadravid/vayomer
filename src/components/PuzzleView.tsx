@@ -11,7 +11,12 @@ import {
   isFullySolved,
   isStageTwoOpen,
 } from "../lib/gameState";
-import { formatDate, markVerseNumbers, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
+import {
+  formatDate,
+  maskHardWord,
+  pickHardWordPlaceholderForId,
+  renderQuoteText,
+} from "../lib/format";
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
 import { buildShareText } from "../lib/share";
@@ -198,10 +203,10 @@ export function PuzzleView({
   const failedBonusTry = bonusRequired
     ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
     : false;
-  const hintQuoteHtml = (() => {
-    if (!hasBonusHint) return "";
-    const quoteBody = markVerseNumbers(fullySolved ? hintQuote : maskedHintQuote);
-    return fullySolved ? quoteBody : `<span class="veil">${quoteBody}</span>`;
+  const hintQuoteContent = (() => {
+    if (!hasBonusHint) return null;
+    const quoteBody = renderQuoteText(fullySolved ? hintQuote : maskedHintQuote, fullySolved ? "" : placeholder, "hint");
+    return fullySolved ? quoteBody : <span className="quote-hidden veil">{quoteBody}</span>;
   })();
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = attempts.length > 0;
@@ -447,7 +452,7 @@ export function PuzzleView({
         bonusHintUsed={bonusHintUsed}
         showBonusHint={stageTwoOpen && hasBonusHint}
         showHintQuote={showHintQuote}
-        hintQuoteHtml={hintQuoteHtml}
+        hintQuoteContent={hintQuoteContent}
         hintSourceLine={hintSourceLine}
         onChange={handleChange}
         onChoiceInteracted={handleChoiceInteraction}

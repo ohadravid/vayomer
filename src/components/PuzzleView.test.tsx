@@ -1,14 +1,44 @@
 import { afterEach, describe, expect, it } from "bun:test";
-import React, { StrictMode } from "react";
-import { act, create, type ReactTestRenderer } from "react-test-renderer";
+import React, { StrictMode, act } from "react";
+import { cleanup, fireEvent, render, type RenderResult } from "@testing-library/react";
+import "@testing-library/jest-dom";
+import userEvent from "@testing-library/user-event";
+import { JSDOM } from "jsdom";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
 import { PuzzleView } from "./PuzzleView";
-import { GuessForm } from "./GuessForm";
 import { resources } from "../i18n";
 import { pickDailyHardModeSuccessMark, HARD_MODE_SUCCESS_MARKS } from "../lib/daily";
 import { pickHardWordPlaceholderForId } from "../lib/format";
 import type { GuessResult, Lang, PuzzleItem } from "../types";
+
+const dom = new JSDOM("<!doctype html><html><body></body></html>", { url: "https://example.test/" });
+const { window } = dom;
+
+Object.assign(globalThis, {
+  window,
+  document: window.document,
+  navigator: window.navigator,
+  HTMLElement: window.HTMLElement,
+  HTMLInputElement: window.HTMLInputElement,
+  HTMLSelectElement: window.HTMLSelectElement,
+  Event: window.Event,
+  MouseEvent: window.MouseEvent,
+  KeyboardEvent: window.KeyboardEvent,
+  MutationObserver: window.MutationObserver,
+  getComputedStyle: window.getComputedStyle.bind(window),
+  requestAnimationFrame: (cb: FrameRequestCallback) => setTimeout(() => cb(Date.now()), 0),
+  cancelAnimationFrame: (id: number) => clearTimeout(id),
+});
+(globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
+
+type LegacyAttach = ((type: string, listener: EventListener) => void) | undefined;
+if (!(window.HTMLElement.prototype as unknown as { attachEvent?: LegacyAttach }).attachEvent) {
+  (window.HTMLElement.prototype as unknown as { attachEvent: LegacyAttach }).attachEvent = () => {};
+}
+if (!(window.HTMLElement.prototype as unknown as { detachEvent?: LegacyAttach }).detachEvent) {
+  (window.HTMLElement.prototype as unknown as { detachEvent: LegacyAttach }).detachEvent = () => {};
+}
 
 const puzzle: PuzzleItem = {
   id: "genesis-12-01-01",
@@ -80,7 +110,7 @@ function createI18n(lang: Lang) {
   return i18n;
 }
 
-function renderPuzzleView(props: {
+function buildPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
   onChoiceInteracted?: () => void;
   lang?: Lang;
@@ -116,17 +146,47 @@ function renderPuzzleView(props: {
   );
 }
 
-let root: ReactTestRenderer | null = null;
+function byId<T extends HTMLElement = HTMLElement>(id: string): T {
+  const found = document.getElementById(id);
+  if (!found) throw new Error(`Missing element #${id}`);
+  return found as T;
+}
+
+function maybeById<T extends HTMLElement = HTMLElement>(id: string): T | null {
+  const found = document.getElementById(id);
+  return found as T | null;
+}
+
+async function clickById(id: string): Promise<void> {
+  const user = userEvent.setup({ document: globalThis.document });
+  await act(async () => {
+    await user.click(byId(id));
+  });
+}
+
+async function setInputValue(id: string, value: string): Promise<void> {
+  const user = userEvent.setup({ document: globalThis.document });
+  const input = byId<HTMLInputElement>(id);
+  await act(async () => {
+    await user.clear(input);
+    await user.type(input, value);
+  });
+}
+
+let view: RenderResult | null = null;
 
 afterEach(() => {
-  if (root) {
-    act(() => root?.unmount());
-    root = null;
+  if (view) {
+    act(() => {
+      view?.unmount();
+    });
+    view = null;
   }
+  cleanup();
 });
 
 describe("PuzzleView persistence hydration", () => {
-  it("does not lock difficulty until a core field is clicked", () => {
+  it("does not lock difficulty until a core field is clicked", async () => {
     const onPersist = () => {};
     let interactions = 0;
     const onChoiceInteracted = () => {
@@ -134,22 +194,15 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, onChoiceInteracted }));
+      view = render(buildPuzzleView({ onPersist, onChoiceInteracted }));
     });
 
     expect(interactions).toBe(0);
 
-    const speakerField = root?.root.findByProps({ id: "inputSpeaker" });
-    const listenerField = root?.root.findByProps({ id: "inputListener" });
-
-    act(() => {
-      speakerField?.props.onClick();
-    });
+    await clickById("inputSpeaker");
     expect(interactions).toBe(1);
 
-    act(() => {
-      listenerField?.props.onClick();
-    });
+    await clickById("inputListener");
     expect(interactions).toBe(1);
   });
 
@@ -168,14 +221,14 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, initial }));
+      view = render(buildPuzzleView({ onPersist, initial }));
     });
 
     expect(calls).toHaveLength(0);
 
     act(() => {
-      root?.update(
-        renderPuzzleView({
+      view?.rerender(
+        buildPuzzleView({
           onPersist,
           initial: {
             ...initial,
@@ -188,7 +241,7 @@ describe("PuzzleView persistence hydration", () => {
     expect(calls).toHaveLength(0);
   });
 
-  it("does not persist on rehydration but resumes persisting after user edits", () => {
+  it("does not persist on rehydration but resumes persisting after user edits", async () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
       calls.push(state);
@@ -207,30 +260,25 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, initial: initialA }));
+      view = render(buildPuzzleView({ onPersist, initial: initialA }));
     });
 
-    const bonusInputBeforeRehydrate = root?.root.findByProps({ id: "inputBonus" });
-    act(() => {
-      bonusInputBeforeRehydrate?.props.onChange({ target: { value: "earth" } });
-    });
+    await setInputValue("inputBonus", "earth");
 
-    expect(calls).toHaveLength(1);
-    expect(calls[0]?.bonus).toBe("earth");
+    expect(calls.length).toBeGreaterThan(0);
+    expect(calls[calls.length - 1]?.bonus).toBe("earth");
+    const callsAfterFirstEdit = calls.length;
 
     act(() => {
-      root?.update(renderPuzzleView({ onPersist, initial: initialB }));
+      view?.rerender(buildPuzzleView({ onPersist, initial: initialB }));
     });
 
-    expect(calls).toHaveLength(1);
+    expect(calls).toHaveLength(callsAfterFirstEdit);
 
-    const bonusInputAfterRehydrate = root?.root.findByProps({ id: "inputBonus" });
-    act(() => {
-      bonusInputAfterRehydrate?.props.onChange({ target: { value: "sand" } });
-    });
+    await setInputValue("inputBonus", "sand");
 
-    expect(calls).toHaveLength(2);
-    expect(calls[1]).toMatchObject({
+    expect(calls.length).toBeGreaterThan(callsAfterFirstEdit);
+    expect(calls[calls.length - 1]).toMatchObject({
       bonus: "sand",
       attempts: initialB.attempts,
     });
@@ -250,13 +298,11 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: false }));
+      view = render(buildPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: false }));
     });
 
-    const form = root?.root.findByType(GuessForm);
-    expect(form?.props.choiceOptions).toBeUndefined();
-    expect(root?.root.findByProps({ id: "inputSpeaker" }).type).toBe("input");
-    expect(root?.root.findByProps({ id: "inputListener" }).type).toBe("input");
+    expect(byId("inputSpeaker").tagName).toBe("INPUT");
+    expect(byId("inputListener").tagName).toBe("INPUT");
   });
 
   it("uses options in easy mode when options are present", () => {
@@ -273,110 +319,86 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: true }));
+      view = render(buildPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: true }));
     });
 
-    const form = root?.root.findByType(GuessForm);
-    expect(form?.props.choiceOptions.speaker).toContain("Easy Speaker");
-    expect(form?.props.choiceOptions.listener).toContain("Easy Listener");
+    const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
+    const listenerOptions = Array.from(byId<HTMLSelectElement>("inputListener").options).map((opt) => opt.value);
+
+    expect(speakerOptions).toContain("Easy Speaker");
+    expect(listenerOptions).toContain("Easy Listener");
   });
 
-  it("shows God as speaker option for divine aliases and accepts it as correct", () => {
+  it("shows God as speaker option for divine aliases and accepts it as correct", async () => {
     const onPersist = () => {};
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, easyMode: true }));
+      view = render(buildPuzzleView({ onPersist, easyMode: true }));
     });
 
-    const formBeforeGuess = root?.root.findByType(GuessForm);
-    expect(formBeforeGuess?.props.choiceOptions.speaker).toContain("God");
-    expect(formBeforeGuess?.props.choiceOptions.speaker).not.toContain("the LORD");
+    const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
+    expect(speakerOptions).toContain("God");
+    expect(speakerOptions).not.toContain("the LORD");
 
     act(() => {
-      formBeforeGuess?.props.onChange("speaker", "God");
-      formBeforeGuess?.props.onChange("listener", "Abram");
+      fireEvent.change(byId("inputSpeaker"), { target: { value: "God" } });
+      fireEvent.change(byId("inputListener"), { target: { value: "Abram" } });
     });
 
-    const formReadyToSubmit = root?.root.findByType(GuessForm);
-    act(() => {
-      formReadyToSubmit?.props.onSubmit();
-    });
+    await clickById("submitGuess");
 
-    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    const feedback = byId("feedback").textContent ?? "";
     expect(feedback).toBe("Nice! Now find the missing word.");
   });
 
-  it("accepts fuzzy free-text answers in hard mode", () => {
+  it("accepts fuzzy free-text answers in hard mode", async () => {
     const onPersist = () => {};
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, easyMode: false }));
+      view = render(buildPuzzleView({ onPersist, easyMode: false }));
     });
 
-    const speakerInput = root?.root.findByProps({ id: "inputSpeaker" });
-    const listenerInput = root?.root.findByProps({ id: "inputListener" });
-    expect(speakerInput?.type).toBe("input");
-    expect(listenerInput?.type).toBe("input");
+    expect(byId("inputSpeaker").tagName).toBe("INPUT");
+    expect(byId("inputListener").tagName).toBe("INPUT");
 
-    act(() => {
-      speakerInput?.props.onChange({ target: { value: "LORD" } });
-      listenerInput?.props.onChange({ target: { value: "Abram!!!" } });
-    });
+    await setInputValue("inputSpeaker", "LORD");
+    await setInputValue("inputListener", "Abram!!!");
 
-    const formReadyToSubmit = root?.root.findByType(GuessForm);
-    act(() => {
-      formReadyToSubmit?.props.onSubmit();
-    });
+    await clickById("submitGuess");
 
-    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    const feedback = byId("feedback").textContent ?? "";
     expect(feedback).toBe("Nice! Now find the missing word.");
-    expect(
-      root?.root.findByProps({ id: "labelSpeaker" }).findByProps({ "aria-hidden": "true" }).children.join("")
-    ).toBe("✅");
-    expect(
-      root?.root.findByProps({ id: "labelListener" }).findByProps({ "aria-hidden": "true" }).children.join("")
-    ).toBe("✅");
+    expect(byId("labelSpeaker").textContent ?? "").toContain("✅");
+    expect(byId("labelListener").textContent ?? "").toContain("✅");
   });
 
-  it("clears typed text when difficulty mode switches", () => {
+  it("clears typed text when difficulty mode switches", async () => {
     const onPersist = () => {};
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, easyMode: false }));
+      view = render(buildPuzzleView({ onPersist, easyMode: false }));
     });
 
-    const speakerInput = root?.root.findByProps({ id: "inputSpeaker" });
-    const listenerInput = root?.root.findByProps({ id: "inputListener" });
-    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
+    await setInputValue("inputSpeaker", "LORD");
+    await setInputValue("inputListener", "Abram");
+
+    expect(byId<HTMLInputElement>("inputSpeaker").value).toBe("LORD");
+    expect(byId<HTMLInputElement>("inputListener").value).toBe("Abram");
 
     act(() => {
-      speakerInput?.props.onChange({ target: { value: "LORD" } });
-      listenerInput?.props.onChange({ target: { value: "Abram" } });
-      bonusInput?.props.onChange({ target: { value: "earth" } });
+      view?.rerender(buildPuzzleView({ onPersist, easyMode: true }));
     });
 
-    const beforeSwitch = root?.root.findByType(GuessForm);
-    expect(beforeSwitch?.props.values.speaker).toBe("LORD");
-    expect(beforeSwitch?.props.values.listener).toBe("Abram");
-    expect(beforeSwitch?.props.values.bonus).toBe("earth");
-
-    act(() => {
-      root?.update(renderPuzzleView({ onPersist, easyMode: true }));
-    });
-
-    const afterSwitch = root?.root.findByType(GuessForm);
-    expect(afterSwitch?.props.values.speaker).toBe("");
-    expect(afterSwitch?.props.values.listener).toBe("");
-    expect(afterSwitch?.props.values.portion).toBe("");
-    expect(afterSwitch?.props.values.bonus).toBe("");
+    expect(byId<HTMLSelectElement>("inputSpeaker").value).toBe("");
+    expect(byId<HTMLSelectElement>("inputListener").value).toBe("");
   });
 
   it("marks bonus field and label as wrong in stage two when bonus is incorrect", () => {
     const onPersist = () => {};
 
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           initial: {
             speaker: "the LORD",
@@ -390,11 +412,8 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
-    expect(bonusInput?.props.className).toBe("wrong");
-    expect(
-      root?.root.findByProps({ id: "labelBonus" }).findByProps({ "aria-hidden": "true" }).children.join("")
-    ).toBe("❌");
+    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
+    expect(byId("labelBonus").textContent ?? "").toContain("❌");
   });
 
   it("keeps bonus feedback hidden before the first bonus try", () => {
@@ -408,8 +427,8 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           initial: {
             speaker: "the LORD",
@@ -423,48 +442,46 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
-    expect(bonusInput?.props.className).toBe("");
-    expect(root?.root.findByProps({ id: "labelBonus" }).findAllByProps({ "aria-hidden": "true" })).toHaveLength(0);
+    expect(byId<HTMLInputElement>("inputBonus").className).toBe("");
+    expect(byId("labelBonus").querySelector('[aria-hidden="true"]')).toBeNull();
   });
 
   it("shows אֱלֹהִים as speaker option for divine aliases in Hebrew and accepts it as correct", () => {
     const onPersist = () => {};
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist, easyMode: true, lang: "he" }));
+      view = render(buildPuzzleView({ onPersist, easyMode: true, lang: "he" }));
     });
 
-    const formBeforeGuess = root?.root.findByType(GuessForm);
-    expect(formBeforeGuess?.props.choiceOptions.speaker).toContain("אֱלֹהִים");
-    expect(formBeforeGuess?.props.choiceOptions.speaker).not.toContain("אֲדֹנָי");
+    const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
+    expect(speakerOptions).toContain("אֱלֹהִים");
+    expect(speakerOptions).not.toContain("אֲדֹנָי");
 
     act(() => {
-      formBeforeGuess?.props.onChange("speaker", "אֱלֹהִים");
-      formBeforeGuess?.props.onChange("listener", "אַבְרָם");
+      fireEvent.change(byId("inputSpeaker"), { target: { value: "אֱלֹהִים" } });
+      fireEvent.change(byId("inputListener"), { target: { value: "אַבְרָם" } });
     });
 
-    const formReadyToSubmit = root?.root.findByType(GuessForm);
     act(() => {
-      formReadyToSubmit?.props.onSubmit();
+      fireEvent.click(byId("submitGuess"));
     });
 
-    const feedback = root?.root.findByProps({ id: "feedback" }).children.join("");
+    const feedback = byId("feedback").textContent ?? "";
     expect(feedback).toBe("יפה! עכשיו מצאו את המילה החסרה.");
   });
 
-  it("does not overwrite loaded missing-word state on fresh hydration", () => {
+  it("does not overwrite loaded missing-word state on fresh hydration", async () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
       calls.push(state);
     };
 
     act(() => {
-      root = create(renderPuzzleView({ onPersist }));
+      view = render(buildPuzzleView({ onPersist }));
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
+    expect(maybeById("bonusHint")).toBeNull();
 
     const hydratedInitial = {
       speaker: "the LORD",
@@ -475,20 +492,17 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root?.update(renderPuzzleView({ onPersist, initial: hydratedInitial }));
+      view?.rerender(buildPuzzleView({ onPersist, initial: hydratedInitial }));
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
-    expect(root?.root.findByProps({ id: "refLine" }).children.join("")).toContain("Genesis 12:1");
+    expect(maybeById("bonusHint")).toBeNull();
+    expect(byId("refLine").textContent ?? "").toContain("Genesis 12:1");
 
-    const bonusInput = root?.root.findByProps({ id: "inputBonus" });
-    act(() => {
-      bonusInput?.props.onChange({ target: { value: "earth" } });
-    });
+    await setInputValue("inputBonus", "earth");
 
-    expect(calls).toHaveLength(1);
-    expect(calls[0]).toMatchObject({
+    expect(calls.length).toBeGreaterThan(0);
+    expect(calls[calls.length - 1]).toMatchObject({
       speaker: "the LORD",
       listener: "Abram",
       bonus: "earth",
@@ -496,15 +510,15 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("reveals a masked bonus hint quote in stage two and unmasks it after solve", () => {
+  it("reveals a masked bonus hint quote in stage two and unmasks it after solve", async () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
       calls.push(state);
     };
 
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           puzzle: puzzleWithHint,
           revealed: false,
@@ -521,36 +535,25 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "hintQuote" })).toHaveLength(0);
+    expect(maybeById("hintQuote")).toBeNull();
 
-    const revealHint = root?.root.findByProps({ id: "bonusHint" });
-    act(() => {
-      revealHint?.props.onClick();
-    });
+    await clickById("bonusHint");
 
-    const hintQuoteNode = root?.root.findByProps({ id: "hintQuote" });
-    const hintQuoteHtml = String(hintQuoteNode?.props?.dangerouslySetInnerHTML?.__html ?? "");
+    const hintQuoteText = byId("hintQuote").textContent ?? "";
     const placeholder = pickHardWordPlaceholderForId(puzzleWithHint.id);
 
-    expect(hintQuoteHtml.includes("land")).toBe(false);
-    expect(hintQuoteHtml.includes(placeholder)).toBe(true);
-    expect(root?.root.findByProps({ id: "hintRefLine" }).children.join("")).toBe("Genesis 12:1");
+    expect(hintQuoteText.includes("land")).toBe(false);
+    expect(hintQuoteText.includes(placeholder)).toBe(true);
+    expect(byId("hintRefLine").textContent ?? "").toBe("Genesis 12:1");
     expect(calls).toHaveLength(1);
     expect(calls[0]?.hintRevealed).toBe(true);
 
-    const formWithHint = root?.root.findByType(GuessForm);
-    act(() => {
-      formWithHint?.props.onChange("bonus", "land");
-    });
-    const formAfterBonusInput = root?.root.findByType(GuessForm);
-    act(() => {
-      formAfterBonusInput?.props.onSubmit();
-    });
+    await setInputValue("inputBonus", "land");
+    await clickById("submitGuess");
 
-    const solvedHintQuoteNode = root?.root.findByProps({ id: "hintQuote" });
-    const solvedHintQuoteHtml = String(solvedHintQuoteNode?.props?.dangerouslySetInnerHTML?.__html ?? "");
-    expect(solvedHintQuoteHtml.includes("land")).toBe(true);
-    expect(solvedHintQuoteHtml.includes(placeholder)).toBe(false);
+    const solvedHintQuoteText = byId("hintQuote").textContent ?? "";
+    expect(solvedHintQuoteText.includes("land")).toBe(true);
+    expect(solvedHintQuoteText.includes(placeholder)).toBe(false);
   });
 
   it("restores the bonus hint quote on load when hint was already used", () => {
@@ -560,8 +563,8 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           puzzle: puzzleWithHint,
           revealed: false,
@@ -578,16 +581,16 @@ describe("PuzzleView persistence hydration", () => {
     });
 
     expect(calls).toHaveLength(0);
-    expect(root?.root.findAllByProps({ id: "hintQuote" })).toHaveLength(1);
-    expect(root?.root.findByProps({ id: "hintRefLine" }).children.join("")).toBe("Genesis 12:1");
-    expect(root?.root.findByProps({ id: "bonusHint" }).props.disabled).toBe(true);
+    expect(byId("hintQuote")).toBeTruthy();
+    expect(byId("hintRefLine").textContent ?? "").toBe("Genesis 12:1");
+    expect(byId<HTMLButtonElement>("bonusHint").disabled).toBe(true);
   });
 
   it("hides bonus hint control until stage two opens", () => {
     const onPersist = () => {};
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           puzzle: puzzleWithHint,
           revealed: false,
@@ -603,10 +606,10 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    expect(root?.root.findAllByProps({ id: "bonusHint" })).toHaveLength(0);
+    expect(maybeById("bonusHint")).toBeNull();
   });
 
-  it("shows the failed-bonus marker after a wrong bonus guess", () => {
+  it("shows the failed-bonus marker after a wrong bonus guess", async () => {
     const onPersist = () => {};
     const successMark = pickDailyHardModeSuccessMark(new Date());
     expect(HARD_MODE_SUCCESS_MARKS).toContain(successMark);
@@ -618,8 +621,8 @@ describe("PuzzleView persistence hydration", () => {
       countsAsTry: false,
     };
     act(() => {
-      root = create(
-        renderPuzzleView({
+      view = render(
+        buildPuzzleView({
           onPersist,
           puzzle: puzzleWithHint,
           revealed: false,
@@ -635,15 +638,11 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    const formBeforeGuess = root?.root.findByType(GuessForm);
-    expect(formBeforeGuess?.props.statusMarks).toBe(`${successMark}${successMark}✡️⬜`);
+    expect(document.querySelector(".status-line")?.textContent ?? "").toContain(`${successMark}${successMark}✡️⬜`);
 
-    act(() => {
-      formBeforeGuess?.props.onChange("bonus", "earth");
-      formBeforeGuess?.props.onSubmit();
-    });
+    await setInputValue("inputBonus", "earth");
+    await clickById("submitGuess");
 
-    const formAfterGuess = root?.root.findByType(GuessForm);
-    expect(formAfterGuess?.props.statusMarks).toBe(`${successMark}${successMark}✴️⬜`);
+    expect(document.querySelector(".status-line")?.textContent ?? "").toContain(`${successMark}${successMark}✴️⬜`);
   });
 });

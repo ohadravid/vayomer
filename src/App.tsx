@@ -486,6 +486,13 @@ export function App() {
                 {t("about.englishSourceName")}
               </a>
             </li>
+            <li>
+              <strong>{t("about.fontLabel")}</strong>{" "}
+              <a href="https://opensiddur.org/help/fonts/#t'amim-with-niqqud" target="_blank" rel="noreferrer">
+                {t("about.fontSourceName")}
+              </a>
+              <p>({t("about.fontLicenseNote")})</p>
+            </li>
           </ul>
           <p className="about-note">{t("about.modelNote")}</p>
           <p className="about-note">

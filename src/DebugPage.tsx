@@ -569,7 +569,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 bonusHintUsed={false}
                 showBonusHint
                 showHintQuote
-                hintQuoteHtml="hint"
+                hintQuoteContent="hint"
                 hintSourceLine={localize(lang, "Genesis 12:1", "בראשית 12:1")}
                 canShare
                 disabled={false}
