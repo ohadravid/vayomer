@@ -12,12 +12,8 @@ type Props = {
   onClear: () => void;
 };
 
-function toInt(value: unknown): number | null {
+function toInt(value: number | undefined): number | null {
   if (typeof value === "number" && Number.isFinite(value)) return Math.floor(value);
-  if (typeof value === "string") {
-    const parsed = Number.parseInt(value, 10);
-    return Number.isFinite(parsed) ? parsed : null;
-  }
   return null;
 }
 
@@ -36,7 +32,7 @@ function formatRefRange(refStart: string, refEnd: string): string {
   return start || end;
 }
 
-function formatChapterRange(chapterValue: unknown, startValue: unknown, endValue: unknown): string {
+function formatChapterRange(chapterValue: number | undefined, startValue: number | undefined, endValue: number | undefined): string {
   const chapter = toInt(chapterValue);
   const start = toInt(startValue);
   const end = toInt(endValue);

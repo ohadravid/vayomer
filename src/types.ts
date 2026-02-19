@@ -22,9 +22,9 @@ export type DifficultyChoicePools = Partial<Record<EasyChoiceField, string[]>>;
 
 export type HintSourceRef = {
   book?: string;
-  chapter?: number | string;
-  start?: number | string;
-  end?: number | string;
+  chapter?: number;
+  start?: number;
+  end?: number;
 };
 
 export type BonusHint = {
@@ -56,9 +56,9 @@ export type SourceRef = {
   ref_end?: string;
   book?: string;
   book_he?: string;
-  chapter?: number | string;
-  quote_verse_start?: number | string;
-  quote_verse_end?: number | string;
+  chapter?: number;
+  quote_verse_start?: number;
+  quote_verse_end?: number;
 };
 
 export type PuzzleItem = {

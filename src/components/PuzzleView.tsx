@@ -24,6 +24,7 @@ import {
   type GuessField,
   type GuessResult,
   type GuessValues,
+  type HintSourceRef,
   type PersistedGameFields,
   type PuzzleItem,
 } from "../types";
@@ -83,26 +84,12 @@ function signatureFromState(state: PersistableState): string {
   return JSON.stringify(state);
 }
 
-function toInt(value: unknown): number | null {
+function toInt(value: number | undefined): number | null {
   if (typeof value === "number" && Number.isFinite(value)) return Math.floor(value);
-  if (typeof value === "string") {
-    const parsed = Number.parseInt(value, 10);
-    return Number.isFinite(parsed) ? parsed : null;
-  }
   return null;
 }
 
-function formatHintSourceLine(
-  source:
-    | {
-        book?: string;
-        chapter?: number | string;
-        start?: number | string;
-        end?: number | string;
-      }
-    | null
-    | undefined
-): string {
+function formatHintSourceLine(source: HintSourceRef | null | undefined): string {
   if (!source) return "";
   const book = typeof source.book === "string" ? source.book.trim() : "";
   const chapter = toInt(source.chapter);

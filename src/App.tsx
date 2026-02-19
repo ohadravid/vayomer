@@ -10,7 +10,8 @@ import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import packageMeta from "../package.json";
 
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
-const EASY_MODE_QUERY_KEY = "easy";
+const HARD_MODE_QUERY_KEY = "hard";
+const LEGACY_EASY_MODE_QUERY_KEY = "easy";
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
 const DEFAULT_EASY_MODE = true;
@@ -19,7 +20,6 @@ const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
 const ENCODED_TRUE = "1";
 const ENCODED_FALSE = "0";
-const QUERY_TRUE_VALUE = ENCODED_FALSE;
 const STORAGE_TRUE_VALUE = ENCODED_TRUE;
 
 type EncodedBoolean = typeof ENCODED_TRUE | typeof ENCODED_FALSE;
@@ -145,8 +145,8 @@ function toEncodedBoolean(value: boolean, trueValue: EncodedBoolean): EncodedBoo
   return trueValue === ENCODED_TRUE ? ENCODED_FALSE : ENCODED_TRUE;
 }
 
-function parseEasyModeFromQueryValue(raw: string | null): boolean | null {
-  return parseEncodedBoolean(raw, QUERY_TRUE_VALUE);
+function parseHardModeFromQueryValue(raw: string | null): boolean | null {
+  return parseEncodedBoolean(raw, ENCODED_TRUE);
 }
 
 function parseEasyModeFromStorageValue(raw: string | null): boolean | null {
@@ -157,8 +157,8 @@ export function toEasyModeStorageValue(enabled: boolean): EncodedBoolean {
   return toEncodedBoolean(enabled, STORAGE_TRUE_VALUE);
 }
 
-function toEasyModeQueryValue(enabled: boolean): EncodedBoolean {
-  return toEncodedBoolean(enabled, QUERY_TRUE_VALUE);
+function toHardModeQueryValue(enabled: boolean): EncodedBoolean {
+  return toEncodedBoolean(enabled, ENCODED_TRUE);
 }
 
 function pickEasyModeFromStorage(): boolean {
@@ -171,7 +171,9 @@ function pickEasyModeFromStorage(): boolean {
 }
 
 export function parseEasyModeFromSearch(search: string): boolean | null {
-  return parseEasyModeFromQueryValue(new URLSearchParams(search).get(EASY_MODE_QUERY_KEY));
+  const hardMode = parseHardModeFromQueryValue(new URLSearchParams(search).get(HARD_MODE_QUERY_KEY));
+  if (hardMode === null) return null;
+  return !hardMode;
 }
 
 export function parsePuzzleIdFromSearch(search: string): string | null {
@@ -205,10 +207,12 @@ export function pickEasyModeForNavigation(search: string): boolean {
 
 export function getSearchWithEasyMode(search: string, easyModeEnabled: boolean): string {
   const params = new URLSearchParams(search);
+  params.delete(LEGACY_EASY_MODE_QUERY_KEY);
+  const hardModeEnabled = !easyModeEnabled;
   if (easyModeEnabled === DEFAULT_EASY_MODE) {
-    params.delete(EASY_MODE_QUERY_KEY);
+    params.delete(HARD_MODE_QUERY_KEY);
   } else {
-    params.set(EASY_MODE_QUERY_KEY, toEasyModeQueryValue(easyModeEnabled));
+    params.set(HARD_MODE_QUERY_KEY, toHardModeQueryValue(hardModeEnabled));
   }
   const serialized = params.toString();
   return serialized ? `?${serialized}` : "";

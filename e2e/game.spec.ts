@@ -243,10 +243,8 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   params.set("puzzle", options.puzzleId ?? puzzleId);
   params.set("lng", options.lang ?? "en");
 
-  if (options.easyMode === true) {
-    params.set("easy", "0");
-  } else if (options.easyMode === false) {
-    params.set("easy", "1");
+  if (options.easyMode === false) {
+    params.set("hard", "1");
   }
 
   await page.goto(`/?${params.toString()}`);
@@ -300,77 +298,49 @@ function buildEnglishArticleVariant(answer: string): string {
   return `the ${trimmed}`;
 }
 
-test("easy mode is default and easy=0 is canonicalized away", async ({ page }) => {
+test("toggling the sheep to hard mode writes hard=1 in the URL", async ({ page }) => {
   await openGame(page, { puzzleId: todayPuzzleId });
   await expect(page.locator("#guessForm")).toBeVisible();
   const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
 
   const defaultTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
   expect(defaultTagName).toBe("SELECT");
-  expect(new URL(page.url()).searchParams.get("easy")).toBeNull();
+  expect(new URL(page.url()).searchParams.get("hard")).toBeNull();
   await expect(difficultyToggle).toBeEnabled();
   expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
 
-  await page.click("#inputSpeaker");
-  await expect(difficultyToggle).toBeDisabled();
-  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("1");
-
-  const legacyParams = new URLSearchParams({
-    puzzle: todayPuzzleId,
-    lng: "en",
-    easy: "0",
-  });
-  await page.goto(`/?${legacyParams.toString()}`);
-  await expect(page.locator("#guessForm")).toBeVisible();
-  await expect
-    .poll(() => new URL(page.url()).searchParams.get("easy"))
-    .toBeNull();
-
-  const legacyTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
-  expect(legacyTagName).toBe("SELECT");
-  expect(new URL(page.url()).searchParams.get("puzzle")).toBe(todayPuzzleId);
-
-  await openGame(page, { easyMode: false, puzzleId: todayPuzzleId });
-  const hardTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
-  expect(hardTagName).toBe("SELECT");
-  await expect(difficultyToggle).toBeDisabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "true");
-  expect(new URL(page.url()).searchParams.get("easy")).toBeNull();
+  await difficultyToggle.click();
+  await expect(difficultyToggle).toBeEnabled();
+  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
+  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
 });
 
-test("difficulty lock persists hard mode when first opened in hard", async ({ page }) => {
+test("difficulty lock keeps hard mode when revisiting regular URL", async ({ page }) => {
   await openGame(page, { easyMode: false, puzzleId: todayPuzzleId });
   const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
 
   await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
   expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
-  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
 
   await page.click("#inputSpeaker");
   await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
   expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("0");
-  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
 
-  // Locked hard puzzles can still switch to easy.
-  await difficultyToggle.click();
-  await expect(difficultyToggle).toBeDisabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "true");
-  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBeNull();
-
-  const forceEasyParams = new URLSearchParams({
+  const regularParams = new URLSearchParams({
     puzzle: todayPuzzleId,
     lng: "en",
-    easy: "0",
   });
-  await page.goto(`/?${forceEasyParams.toString()}`);
+  await page.goto(`/?${regularParams.toString()}`);
   await expect(page.locator("#guessForm")).toBeVisible();
 
-  // The hard lock still applies across navigation even if URL asks for easy.
+  // The hard lock still applies across navigation even when URL has no explicit mode.
   await expect(difficultyToggle).toBeEnabled();
   await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBe("1");
+  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
 });
 
 test("hard mode accepts fuzzy free-text answers", async ({ page }) => {
