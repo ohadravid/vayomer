@@ -1,0 +1,100 @@
+{
+  "book_code": "ECC",
+  "book": "Ecclesiastes",
+  "book_he": "קהלת",
+  "chapter": 7,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "ecclesiastes-07-23-23",
+      "source": {
+        "book_code": "ECC",
+        "book": "Ecclesiastes",
+        "book_he": "קהלת",
+        "chapter": 7,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "All this have I proved by wisdom: I said, I will be wise; but it was far from me.",
+        "riddle": "I said, I will be wise; but it was far from me.",
+        "speaker": "Teacher",
+        "listener": "Self",
+        "book": "Ecclesiastes"
+      },
+      "he": {
+        "quote": "כָּל־זֹה נִסִּיתִי בַֽחָכְמָה אָמַרְתִּי אֶחְכָּמָה וְהִיא רְחוֹקָה מִמֶּֽנִּי",
+        "riddle": "אָמַרְתִּי אֶחְכָּמָה וְהִיא רְחוֹקָה מִמֶּֽנִּי",
+        "speaker": "מלמד",
+        "listener": "עצמו",
+        "book": "קהלת"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "All this have I proved by wisdom: I said, I will be wise; but it was far from me."
+        },
+        "he": {
+          "23": "כָּל־זֹה נִסִּיתִי בַֽחָכְמָה אָמַרְתִּי אֶחְכָּמָה וְהִיא רְחוֹקָה מִמֶּֽנִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable first-person declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "ecclesiastes-07-27-27",
+      "source": {
+        "book_code": "ECC",
+        "book": "Ecclesiastes",
+        "book_he": "קהלת",
+        "chapter": 7,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Behold, this have I found, saith the preacher, counting one by one, to find out the account:",
+        "riddle": "Behold, this have I found, saith the preacher",
+        "speaker": "preacher",
+        "listener": "implicit",
+        "book": "Ecclesiastes"
+      },
+      "he": {
+        "quote": "רְאֵה זֶה מָצָאתִי אָמְרָה קֹהֶלֶת אַחַת לְאַחַת לִמְצֹא חֶשְׁבּֽוֹן",
+        "riddle": "רְאֵה זֶה מָצָאתִי אָמְרָה קֹהֶלֶת",
+        "speaker": "קֹהֶלֶת",
+        "listener": "implicit",
+        "book": "קהלת"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "Behold, this have I found, saith the preacher, counting one by one, to find out the account:"
+        },
+        "he": {
+          "27": "רְאֵה זֶה מָצָאתִי אָמְרָה קֹהֶלֶת אַחַת לְאַחַת לִמְצֹא חֶשְׁבּֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable declaration of discovery",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 27,
+        "end": 27
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 12,
+    "prefiltered_count": 0,
+    "llm_window_count": 12,
+    "kept_count": 2,
+    "issue_count": 10
+  }
+}

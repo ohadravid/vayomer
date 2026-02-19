@@ -1,0 +1,111 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 88,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-88-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 88,
+        "quote_verse_start": 6,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "Thou hast laid me in the lowest pit, in darkness, in the deeps. Thy wrath lieth hard upon me, and thou hast afflicted me with all thy waves. Selah. Thou hast put away mine acquaintance far from me; thou hast made me an abomination unto them: I am shut up, and I cannot come forth. Mine eye mourneth by reason of affliction: LORD, I have called daily upon thee, I have stretched out my hands unto thee. Wilt thou shew wonders to the dead? shall the dead arise and praise thee? Selah. Shall thy lovingkindness be declared in the grave? or thy faithfulness in destruction? Shall thy wonders be known in the dark? and thy righteousness in the land of forgetfulness?",
+        "riddle": "Shall thy wonders be known in the dark? and thy righteousness in the land of forgetfulness?",
+        "speaker": "Psalmist",
+        "listener": "God",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Job",
+            "Isaiah",
+            "Solomon"
+          ],
+          "listener": [
+            "Isaiah",
+            "Solomon",
+            "Israel"
+          ]
+        },
+        "bonus": "darkness",
+        "bonus_hint": {
+          "quote": "A land of darkness, as darkness itself; and of the shadow of death, without any order, and where the light is as darkness.",
+          "source": {
+            "book": "Job",
+            "chapter": 10,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "בַּמֵּתִים חָפְשִׁי כְּמוֹ חֲלָלִים שֹׁכְבֵי קֶבֶר אֲשֶׁר לֹא זְכַרְתָּם עוֹד וְהֵמָּה מִיָּדְךָ נִגְזָֽרוּ שַׁתַּנִי בְּבוֹר תַּחְתִּיּוֹת בְּמַחֲשַׁכִּים בִּמְצֹלֽוֹת עָלַי סָמְכָה חֲמָתֶךָ וְכָל־מִשְׁבָּרֶיךָ עִנִּיתָ סֶּֽלָה הִרְחַקְתָּ מְיֻדָּעַי מִמֶּנִּי שַׁתַּנִי תוֹעֵבוֹת לָמוֹ כָּלֻא וְלֹא אֵצֵֽא עֵינִי דָאֲבָה מִנִּי עֹנִי קְרָאתִיךָ יְהוָה בְּכָל־יוֹם שִׁטַּחְתִּי אֵלֶיךָ כַפָּֽי הֲלַמֵּתִים תַּעֲשֶׂה־פֶּלֶא אִם־רְפָאִים יָקוּמוּ יוֹדוּךָ סֶּֽלָה הַיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ אֱמֽוּנָתְךָ בָּאֲבַדּֽוֹן",
+        "riddle": "הַיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ אֱמֽוּנָתְךָ בָּאֲבַדּֽוֹן",
+        "speaker": "משורר",
+        "listener": "יְהוָה",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "אִיּוֹב",
+            "יְשַֽׁעְיָהוּ",
+            "שְׁלֵמָה"
+          ],
+          "listener": [
+            "יְשַֽׁעְיָהוּ",
+            "שְׁלֵמָה",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "כְּמוֹ",
+        "bonus_hint": {
+          "quote": "אֶרֶץ עֵיפָתָה כְּמוֹ אֹפֶל צַלְמָוֶת וְלֹא סְדָרִים וַתֹּפַע כְּמוֹ־אֹֽפֶל",
+          "source": {
+            "book": "איוב",
+            "chapter": 10,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Thou hast laid me in the lowest pit, in darkness, in the deeps.",
+          "7": "Thy wrath lieth hard upon me, and thou hast afflicted me with all thy waves. Selah.",
+          "8": "Thou hast put away mine acquaintance far from me; thou hast made me an abomination unto them: I am shut up, and I cannot come forth.",
+          "9": "Mine eye mourneth by reason of affliction: LORD, I have called daily upon thee, I have stretched out my hands unto thee.",
+          "10": "Wilt thou shew wonders to the dead? shall the dead arise and praise thee? Selah.",
+          "11": "Shall thy lovingkindness be declared in the grave? or thy faithfulness in destruction?",
+          "12": "Shall thy wonders be known in the dark? and thy righteousness in the land of forgetfulness?"
+        },
+        "he": {
+          "6": "בַּמֵּתִים חָפְשִׁי כְּמוֹ חֲלָלִים ׀ שֹׁכְבֵי קֶבֶר אֲשֶׁר לֹא זְכַרְתָּם עוֹד וְהֵמָּה מִיָּדְךָ נִגְזָֽרוּ׃",
+          "7": "שַׁתַּנִי בְּבוֹר תַּחְתִּיּוֹת בְּמַחֲשַׁכִּים בִּמְצֹלֽוֹת׃",
+          "8": "עָלַי סָמְכָה חֲמָתֶךָ וְכָל־מִשְׁבָּרֶיךָ עִנִּיתָ סֶּֽלָה׃",
+          "9": "הִרְחַקְתָּ מְיֻדָּעַי מִמֶּנִּי שַׁתַּנִי תוֹעֵבוֹת לָמוֹ כָּלֻא וְלֹא אֵצֵֽא׃",
+          "10": "עֵינִי דָאֲבָה מִנִּי עֹנִי קְרָאתִיךָ יְהוָה בְּכָל־יוֹם שִׁטַּחְתִּי אֵלֶיךָ כַפָּֽי׃",
+          "11": "הֲלַמֵּתִים תַּעֲשֶׂה־פֶּלֶא אִם־רְפָאִים יָקוּמוּ ׀ יוֹדוּךָ סֶּֽלָה׃",
+          "12": "הַיְסֻפַּר בַּקֶּבֶר חַסְדֶּךָ אֱמֽוּנָתְךָ בָּאֲבַדּֽוֹן׃"
+        }
+      },
+      "ref": {
+        "chapter": 88,
+        "start": 6,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

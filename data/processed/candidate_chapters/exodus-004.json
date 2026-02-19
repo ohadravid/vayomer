@@ -1,0 +1,58 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 4,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-04-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto him, What is that in thine hand? And he said, A rod.",
+        "riddle": "What is that in thine hand?",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה",
+        "riddle": "מַה זֶּה בְיָדֶךָ",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto him, What is that in thine hand? And he said, A rod."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 28,
+    "prefiltered_count": 0,
+    "llm_window_count": 28,
+    "kept_count": 1,
+    "issue_count": 27
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "PRO",
+  "book": "Proverbs",
+  "book_he": "משלי",
+  "chapter": 30,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "proverbs-30-15-15",
+      "source": {
+        "book_code": "PRO",
+        "book": "Proverbs",
+        "book_he": "משלי",
+        "chapter": 30,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "The horseleach hath two daughters, crying, Give, give. There are three things that are never satisfied, yea, four things say not, It is enough:",
+        "riddle": "The horseleach hath two daughters, crying, Give, give. There are three",
+        "speaker": "horseleach's daughters",
+        "listener": "unspecified",
+        "book": "Proverbs"
+      },
+      "he": {
+        "quote": "לַֽעֲלוּקָה שְׁתֵּי בָנוֹת הַב הַב שָׁלוֹשׁ הֵנָּה לֹא תִשְׂבַּעְנָה אַרְבַּע לֹא־אָמְרוּ הֽוֹן",
+        "riddle": "לַֽעֲלוּקָה שְׁתֵּי בָנוֹת הַב הַב שָׁלוֹשׁ הֵנָּה לֹא תִשְׂבַּעְנָה אַרְבַּע לֹא",
+        "speaker": "בָנוֹת העלוקה",
+        "listener": "לֹא ידוע",
+        "book": "משלי"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "The horseleach hath two daughters, crying, Give, give. There are three things that are never satisfied, yea, four things say not, It is enough:"
+        },
+        "he": {
+          "15": "לַֽעֲלוּקָה ׀ שְׁתֵּי בָנוֹת הַב ׀ הַב שָׁלוֹשׁ הֵנָּה לֹא תִשְׂבַּעְנָה אַרְבַּע לֹא־אָמְרוּ הֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains vivid, repetitive direct speech",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 11,
+    "prefiltered_count": 0,
+    "llm_window_count": 11,
+    "kept_count": 1,
+    "issue_count": 10
+  }
+}

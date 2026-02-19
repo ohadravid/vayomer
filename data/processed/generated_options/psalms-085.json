@@ -1,0 +1,107 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 85,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-85-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 85,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "LORD, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob. Thou hast forgiven the iniquity of thy people, thou hast covered all their sin. Selah. Thou hast taken away all thy wrath: thou hast turned thyself from the fierceness of thine anger. Turn us, O God of our salvation, and cause thine anger toward us to cease. Wilt thou be angry with us for ever? wilt thou draw out thine anger to all generations?",
+        "riddle": "Wilt thou be angry with us for ever? wilt thou draw out thine anger to all generations?",
+        "speaker": "Psalmist",
+        "listener": "God",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Isaiah",
+            "Solomon",
+            "Nehemiah"
+          ],
+          "listener": [
+            "Isaiah",
+            "Solomon",
+            "Joab"
+          ]
+        },
+        "bonus": "Jacob",
+        "bonus_hint": {
+          "quote": "And after that came his brother out, and his hand took hold on Esau's heel; and his name was called Jacob: and Isaac was threescore years old when she bare them.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "he": {
+        "quote": "לַמְנַצֵּחַ לִבְנֵי־קֹרַח מִזְמֽוֹר רָצִיתָ יְהוָה אַרְצֶךָ שַׁבְתָּ שְׁבִית יַעֲקֹֽב נָשָׂאתָ עֲוֺן עַמֶּךָ כִּסִּיתָ כָל־חַטָּאתָם סֶֽלָה אָסַפְתָּ כָל־עֶבְרָתֶךָ הֱשִׁיבוֹתָ מֵחֲרוֹן אַפֶּֽךָ שׁוּבֵנוּ אֱלֹהֵי יִשְׁעֵנוּ וְהָפֵר כַּֽעַסְךָ עִמָּֽנוּ",
+        "riddle": "שׁוּבֵנוּ אֱלֹהֵי יִשְׁעֵנוּ וְהָפֵר כַּֽעַסְךָ עִמָּֽנוּ",
+        "speaker": "מִזְמֽוֹר רָצִיתָ",
+        "listener": "יְהוָה",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "יְשַֽׁעְיָהוּ",
+            "שְׁלֵמָה",
+            "נחמיה"
+          ],
+          "listener": [
+            "יְשַֽׁעְיָהוּ",
+            "שְׁלֵמָה",
+            "יוֹאָב"
+          ]
+        },
+        "bonus": "יַעֲקֹֽב",
+        "bonus_hint": {
+          "quote": "וְאַֽחֲרֵי־כֵן יָצָא אָחִיו וְיָדוֹ אֹחֶזֶת בַּעֲקֵב עֵשָׂו וַיִּקְרָא שְׁמוֹ יַעֲקֹב וְיִצְחָק בֶּן־שִׁשִּׁים שָׁנָה בְּלֶדֶת אֹתָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "LORD, thou hast been favourable unto thy land: thou hast brought back the captivity of Jacob.",
+          "2": "Thou hast forgiven the iniquity of thy people, thou hast covered all their sin. Selah.",
+          "3": "Thou hast taken away all thy wrath: thou hast turned thyself from the fierceness of thine anger.",
+          "4": "Turn us, O God of our salvation, and cause thine anger toward us to cease.",
+          "5": "Wilt thou be angry with us for ever? wilt thou draw out thine anger to all generations?"
+        },
+        "he": {
+          "1": "לַמְנַצֵּחַ ׀ לִבְנֵי־קֹרַח מִזְמֽוֹר׃",
+          "2": "רָצִיתָ יְהוָה אַרְצֶךָ שַׁבְתָּ שְׁבִית יַעֲקֹֽב׃",
+          "3": "נָשָׂאתָ עֲוֺן עַמֶּךָ כִּסִּיתָ כָל־חַטָּאתָם סֶֽלָה׃",
+          "4": "אָסַפְתָּ כָל־עֶבְרָתֶךָ הֱשִׁיבוֹתָ מֵחֲרוֹן אַפֶּֽךָ׃",
+          "5": "שׁוּבֵנוּ אֱלֹהֵי יִשְׁעֵנוּ וְהָפֵר כַּֽעַסְךָ עִמָּֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 85,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

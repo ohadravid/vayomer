@@ -1,0 +1,85 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 31,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-31-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Moses was wroth with the officers of the host, with the captains over thousands, and captains over hundreds, which came from the battle. And Moses said unto them, Have ye saved all the women alive?",
+        "riddle": "Have ye saved all the women alive?",
+        "speaker": "Moses",
+        "listener": "Captains",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wroth",
+        "bonus_hint": {
+          "quote": "And Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the chief of the bakers.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 40,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְצֹף מֹשֶׁה עַל פְּקוּדֵי הֶחָיִל שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת הַבָּאִים מִצְּבָא הַמִּלְחָמָֽה וַיֹּאמֶר אֲלֵיהֶם מֹשֶׁה הַֽחִיִּיתֶם כָּל־נְקֵבָֽה",
+        "riddle": "הַֽחִיִּיתֶם כָּל־נְקֵבָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּקְצֹף",
+        "bonus_hint": {
+          "quote": "וַיִּקְצֹף פַּרְעֹה עַל שְׁנֵי סָרִיסָיו עַל שַׂר הַמַּשְׁקִים וְעַל שַׂר הָאוֹפִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 40,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Moses was wroth with the officers of the host, with the captains over thousands, and captains over hundreds, which came from the battle.",
+          "15": "And Moses said unto them, Have ye saved all the women alive?"
+        },
+        "he": {
+          "14": "וַיִּקְצֹף מֹשֶׁה עַל פְּקוּדֵי הֶחָיִל שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת הַבָּאִים מִצְּבָא הַמִּלְחָמָֽה׃",
+          "15": "וַיֹּאמֶר אֲלֵיהֶם מֹשֶׁה הַֽחִיִּיתֶם כָּל־נְקֵבָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

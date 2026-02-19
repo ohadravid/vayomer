@@ -1,0 +1,103 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 14,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-14-02-03",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 14,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people. And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child. And Jeroboam's wife did so, and arose, and went to Shiloh, and came to the house of Ahijah. But Ahijah could not see; for his eyes were set by reason of his age.",
+        "riddle": "he shall tell thee what shall become of the child.",
+        "speaker": "Jeroboam",
+        "listener": "Jeroboam's wife",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Solomon",
+            "Micaiah",
+            "Isaiah"
+          ],
+          "listener": [
+            "Solomon",
+            "Micaiah",
+            "Hannah"
+          ]
+        },
+        "bonus": "prophet",
+        "bonus_hint": {
+          "quote": "If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder,",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 13,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר וַתַּעַשׂ כֵּן אֵשֶׁת יָרָבְעָם וַתָּקָם וַתֵּלֶךְ שִׁלֹה וַתָּבֹא בֵּית אֲחִיָּה וַאֲחִיָּהוּ לֹֽא־יָכֹל לִרְאוֹת כִּי קָמוּ עֵינָיו מִשֵּׂיבֽוֹ",
+        "riddle": "מַה־יִּֽהְיֶה לַנָּֽעַר",
+        "speaker": "אֲחִיָּה הַנָּבִיא",
+        "listener": "אֵשֶׁת יָרָבְעָם",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "שְׁלֵמָה",
+            "מִיכָֽיְהוּ",
+            "יְשַֽׁעְיָהוּ"
+          ],
+          "listener": [
+            "שְׁלֵמָה",
+            "מִיכָֽיְהוּ",
+            "חַנָּה"
+          ]
+        },
+        "bonus": "וְלֹא",
+        "bonus_hint": {
+          "quote": "אֵת כָּל־הַדָּבָר אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם אֹתוֹ תִשְׁמְרוּ לַעֲשׂוֹת לֹא־תֹסֵף עָלָיו וְלֹא תִגְרַע מִמֶּֽנּוּ",
+          "source": {
+            "book": "דברים",
+            "chapter": 13,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people.",
+          "3": "And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child.",
+          "4": "And Jeroboam's wife did so, and arose, and went to Shiloh, and came to the house of Ahijah. But Ahijah could not see; for his eyes were set by reason of his age."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה׃",
+          "3": "וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר׃",
+          "4": "וַתַּעַשׂ כֵּן אֵשֶׁת יָרָבְעָם וַתָּקָם וַתֵּלֶךְ שִׁלֹה וַתָּבֹא בֵּית אֲחִיָּה וַאֲחִיָּהוּ לֹֽא־יָכֹל לִרְאוֹת כִּי קָמוּ עֵינָיו מִשֵּׂיבֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 2,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

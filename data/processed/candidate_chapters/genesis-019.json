@@ -1,0 +1,102 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 19,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-19-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And said, I pray you, brethren, do not so wickedly.",
+        "riddle": "do not so wickedly.",
+        "speaker": "Lot",
+        "listener": "men of Sodom",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ",
+        "riddle": "נָא אַחַי תָּרֵֽעוּ",
+        "speaker": "לוט",
+        "listener": "אנשי סדום",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And said, I pray you, brethren, do not so wickedly."
+        },
+        "he": {
+          "7": "וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct command/warning.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-19-22-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 22,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar. The sun was risen upon the earth when Lot entered into Zoar.",
+        "riddle": "Haste thee, escape thither; for I cannot do any thing till",
+        "speaker": "Angel",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה",
+        "riddle": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד",
+        "speaker": "מלאך",
+        "listener": "לוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar.",
+          "23": "The sun was risen upon the earth when Lot entered into Zoar."
+        },
+        "he": {
+          "22": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר׃",
+          "23": "הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct command and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 22,
+        "end": 23
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 26,
+    "prefiltered_count": 0,
+    "llm_window_count": 26,
+    "kept_count": 2,
+    "issue_count": 24
+  }
+}

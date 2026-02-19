@@ -1,0 +1,111 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 50,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-50-19-20",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 14,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And Joseph returned into Egypt, he, and his brethren, and all that went up with him to bury his father, after he had buried his father. And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him. And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying, So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him. And his brethren also went and fell down before his face; and they said, Behold, we be thy servants. And Joseph said unto them, Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+        "riddle": "for am I in the place of God?",
+        "speaker": "Joseph",
+        "listener": "brothers",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Abraham",
+            "Moses"
+          ],
+          "listener": [
+            "Jacob",
+            "Abraham",
+            "Moses"
+          ]
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּשָׁב יוֹסֵף מִצְרַיְמָה הוּא וְאֶחָיו וְכָל־הָעֹלִים אִתּוֹ לִקְבֹּר אֶת־אָבִיו אַחֲרֵי קָבְרוֹ אֶת־אָבִֽיו וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
+        "riddle": "הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ",
+        "speaker": "יוֹסֵף",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "אַבְרָהָם",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "אַבְרָהָם",
+            "מֹשֶׁה"
+          ]
+        },
+        "bonus": "אָבִיו",
+        "bonus_hint": {
+          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Joseph returned into Egypt, he, and his brethren, and all that went up with him to bury his father, after he had buried his father.",
+          "15": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him.",
+          "16": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,",
+          "17": "So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him.",
+          "18": "And his brethren also went and fell down before his face; and they said, Behold, we be thy servants.",
+          "19": "And Joseph said unto them, Fear not: for am I in the place of God?",
+          "20": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+        },
+        "he": {
+          "14": "וַיָּשָׁב יוֹסֵף מִצְרַיְמָה הוּא וְאֶחָיו וְכָל־הָעֹלִים אִתּוֹ לִקְבֹּר אֶת־אָבִיו אַחֲרֵי קָבְרוֹ אֶת־אָבִֽיו׃",
+          "15": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ׃",
+          "16": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר׃",
+          "17": "כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו׃",
+          "18": "וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים׃",
+          "19": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי׃",
+          "20": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב׃"
+        }
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 14,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

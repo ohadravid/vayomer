@@ -1,0 +1,58 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-05-02-02",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 5,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Hearken unto the voice of my cry, my King, and my God: for unto thee will I pray.",
+        "riddle": "Hearken unto the voice of my cry, my King",
+        "speaker": "Speaker",
+        "listener": "King/God",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "אֲמָרַי הַאֲזִינָה יְהוָה בִּינָה הֲגִֽיגִי",
+        "riddle": "אֲמָרַי הַאֲזִינָה יְהוָה בִּינָה הֲגִֽיגִי",
+        "speaker": "דובר",
+        "listener": "מלך אלוהים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Hearken unto the voice of my cry, my King, and my God: for unto thee will I pray."
+        },
+        "he": {
+          "2": "אֲמָרַי הַאֲזִינָה ׀ יְהוָה בִּינָה הֲגִֽיגִי׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable plea and address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 2,
+    "prefiltered_count": 0,
+    "llm_window_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 24,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-24-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 24,
+        "quote_verse_start": 16,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And it came to pass, when David had made an end of speaking these words unto Saul, that Saul said, Is this thy voice, my son David? And Saul lifted up his voice, and wept. And he said to David, Thou art more righteous than I: for thou hast rewarded me good, whereas I have rewarded thee evil. And thou hast shewed this day how that thou hast dealt well with me: forasmuch as when the LORD had delivered me into thine hand, thou killedst me not.",
+        "riddle": "forasmuch as when the LORD had delivered me into thine hand, thou killedst me not.",
+        "speaker": "Saul",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Samuel",
+            "Solomon",
+            "Philistines"
+          ],
+          "listener": [
+            "Joab",
+            "Joshua",
+            "Philistines"
+          ]
+        },
+        "bonus": "voice",
+        "bonus_hint": {
+          "quote": "And it shall come to pass, if they will not believe thee, neither hearken to the voice of the first sign, that they will believe the voice of the latter sign.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהָיָה יְהוָה לְדַיָּן וְשָׁפַט בֵּינִי וּבֵינֶךָ וְיֵרֶא וְיָרֵב אֶת־רִיבִי וְיִשְׁפְּטֵנִי מִיָּדֶֽךָ וַיְהִי כְּכַלּוֹת דָּוִד לְדַבֵּר אֶת־הַדְּבָרִים הָאֵלֶּה אֶל־שָׁאוּל וַיֹּאמֶר שָׁאוּל הֲקֹלְךָ זֶה בְּנִי דָוִד וַיִּשָּׂא שָׁאוּל קֹלוֹ וַיֵּֽבְךְּ וַיֹּאמֶר אֶל־דָּוִד צַדִּיק אַתָּה מִמֶּנִּי כִּי אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָֽה",
+        "riddle": "אַתָּה מִמֶּנִּי כִּי אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָֽה",
+        "speaker": "שָׁאוּל",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שְׁמוּאֵל",
+            "שְׁלֵמָה",
+            "פְּלִשְׁתִּֽים"
+          ],
+          "listener": [
+            "יוֹאָב",
+            "יִהוֹשֻֽׁעַ",
+            "פְּלִשְׁתִּֽים"
+          ]
+        },
+        "bonus": "וְהָיָה",
+        "bonus_hint": {
+          "quote": "וְהָיָה אִם־לֹא יַאֲמִינוּ לָךְ וְלֹא יִשְׁמְעוּ לְקֹל הָאֹת הָרִאשׁוֹן וְהֶֽאֱמִינוּ לְקֹל הָאֹת הָאַחֲרֽוֹן",
+          "source": {
+            "book": "שמות",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And it came to pass, when David had made an end of speaking these words unto Saul, that Saul said, Is this thy voice, my son David? And Saul lifted up his voice, and wept.",
+          "17": "And he said to David, Thou art more righteous than I: for thou hast rewarded me good, whereas I have rewarded thee evil.",
+          "18": "And thou hast shewed this day how that thou hast dealt well with me: forasmuch as when the LORD had delivered me into thine hand, thou killedst me not."
+        },
+        "he": {
+          "16": "וְהָיָה יְהוָה לְדַיָּן וְשָׁפַט בֵּינִי וּבֵינֶךָ וְיֵרֶא וְיָרֵב אֶת־רִיבִי וְיִשְׁפְּטֵנִי מִיָּדֶֽךָ׃",
+          "17": "וַיְהִי ׀ כְּכַלּוֹת דָּוִד לְדַבֵּר אֶת־הַדְּבָרִים הָאֵלֶּה אֶל־שָׁאוּל וַיֹּאמֶר שָׁאוּל הֲקֹלְךָ זֶה בְּנִי דָוִד וַיִּשָּׂא שָׁאוּל קֹלוֹ וַיֵּֽבְךְּ׃",
+          "18": "וַיֹּאמֶר אֶל־דָּוִד צַדִּיק אַתָּה מִמֶּנִּי כִּי אַתָּה גְּמַלְתַּנִי הַטּוֹבָה וַאֲנִי גְּמַלְתִּיךָ הָרָעָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 16,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

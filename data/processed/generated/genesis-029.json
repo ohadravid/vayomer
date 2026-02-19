@@ -1,0 +1,83 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 29,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-29-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
+        "riddle": "what shall thy wages be?",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "brother",
+        "bonus_hint": {
+          "quote": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "riddle": "מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אָחִי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 15,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

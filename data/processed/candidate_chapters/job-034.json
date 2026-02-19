@@ -1,0 +1,58 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 34,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "job-34-05-05",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 34,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "For Job hath said, I am righteous: and God hath taken away my judgment.",
+        "riddle": "I am righteous: and God hath taken away my judgment.",
+        "speaker": "Job",
+        "listener": "God",
+        "book": "Job"
+      },
+      "he": {
+        "quote": "כִּֽי־אָמַר אִיּוֹב צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי",
+        "riddle": "צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי",
+        "speaker": "אִיּוֹב",
+        "listener": "אלוהים",
+        "book": "איוב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "For Job hath said, I am righteous: and God hath taken away my judgment."
+        },
+        "he": {
+          "5": "כִּֽי־אָמַר אִיּוֹב צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech from Job",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 1,
+    "issue_count": 19
+  }
+}

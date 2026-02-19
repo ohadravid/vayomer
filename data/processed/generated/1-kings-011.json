@@ -1,0 +1,85 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 11,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-11-11-12",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant. Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son.",
+        "riddle": "but I will rend it out of the hand of thy son.",
+        "speaker": "LORD",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "covenant",
+        "bonus_hint": {
+          "quote": "But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "riddle": "מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "speaker": "יְהוָה",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּרִיתִי",
+        "bonus_hint": {
+          "quote": "וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתָּךְ וּבָאתָ אֶל־הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
+          "12": "Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ׃",
+          "12": "אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 11,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

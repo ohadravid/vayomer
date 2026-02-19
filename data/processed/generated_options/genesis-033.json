@@ -1,0 +1,107 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 33,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-33-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids. And he put the handmaids and their children foremost, and Leah and her children after, and Rachel and Joseph hindermost. And he passed over before them, and bowed himself to the ground seven times, until he came near to his brother. And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept. And he lifted up his eyes, and saw the women and the children; and said, Who are those with thee? And he said, The children which God hath graciously given thy servant.",
+        "riddle": "Who are those with thee?",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Laban",
+            "Joseph",
+            "Isaac"
+          ],
+          "listener": [
+            "Abraham",
+            "Joseph",
+            "Lot"
+          ]
+        },
+        "bonus": "Leah",
+        "bonus_hint": {
+          "quote": "And Laban had two daughters: the name of the elder was Leah, and the name of the younger was Rachel.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב עֵינָיו וַיַּרְא וְהִנֵּה עֵשָׂו בָּא וְעִמּוֹ אַרְבַּע מֵאוֹת אִישׁ וַיַּחַץ אֶת־הַיְלָדִים עַל־לֵאָה וְעַל־רָחֵל וְעַל שְׁתֵּי הַשְּׁפָחֽוֹת וַיָּשֶׂם אֶת־הַשְּׁפָחוֹת וְאֶת־יַלְדֵיהֶן רִֽאשֹׁנָה וְאֶת־לֵאָה וִֽילָדֶיהָ אַחֲרֹנִים וְאֶת־רָחֵל וְאֶת־יוֹסֵף אַחֲרֹנִֽים וְהוּא עָבַר לִפְנֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה שֶׁבַע פְּעָמִים עַד־גִּשְׁתּוֹ עַד־אָחִֽיו וַיָּרָץ עֵשָׂו לִקְרָאתוֹ וַֽיְחַבְּקֵהוּ וַיִּפֹּל עַל־צַוָּארָו וַׄיִּׄשָּׁׄקֵׄהׄוּׄ וַיִּבְכּֽוּ וַיִּשָּׂא אֶת־עֵינָיו וַיַּרְא אֶת־הַנָּשִׁים וְאֶת־הַיְלָדִים וַיֹּאמֶר מִי־אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר־חָנַן אֱלֹהִים אֶת־עַבְדֶּֽךָ",
+        "riddle": "מִי־אֵלֶּה לָּךְ",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "לָבָן",
+            "יוֹסֵף",
+            "יִצְחָק"
+          ],
+          "listener": [
+            "אַבְרָהָם",
+            "יוֹסֵף",
+            "לוֹט"
+          ]
+        },
+        "bonus": "לֵאָה",
+        "bonus_hint": {
+          "quote": "וּלְלָבָן שְׁתֵּי בָנוֹת שֵׁם הַגְּדֹלָה לֵאָה וְשֵׁם הַקְּטַנָּה רָחֵֽל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 29,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Jacob lifted up his eyes, and looked, and, behold, Esau came, and with him four hundred men. And he divided the children unto Leah, and unto Rachel, and unto the two handmaids.",
+          "2": "And he put the handmaids and their children foremost, and Leah and her children after, and Rachel and Joseph hindermost.",
+          "3": "And he passed over before them, and bowed himself to the ground seven times, until he came near to his brother.",
+          "4": "And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.",
+          "5": "And he lifted up his eyes, and saw the women and the children; and said, Who are those with thee? And he said, The children which God hath graciously given thy servant."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב עֵינָיו וַיַּרְא וְהִנֵּה עֵשָׂו בָּא וְעִמּוֹ אַרְבַּע מֵאוֹת אִישׁ וַיַּחַץ אֶת־הַיְלָדִים עַל־לֵאָה וְעַל־רָחֵל וְעַל שְׁתֵּי הַשְּׁפָחֽוֹת׃",
+          "2": "וַיָּשֶׂם אֶת־הַשְּׁפָחוֹת וְאֶת־יַלְדֵיהֶן רִֽאשֹׁנָה וְאֶת־לֵאָה וִֽילָדֶיהָ אַחֲרֹנִים וְאֶת־רָחֵל וְאֶת־יוֹסֵף אַחֲרֹנִֽים׃",
+          "3": "וְהוּא עָבַר לִפְנֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה שֶׁבַע פְּעָמִים עַד־גִּשְׁתּוֹ עַד־אָחִֽיו׃",
+          "4": "וַיָּרָץ עֵשָׂו לִקְרָאתוֹ וַֽיְחַבְּקֵהוּ וַיִּפֹּל עַל־צַוָּארָו וַׄיִּׄשָּׁׄקֵׄהׄוּׄ וַיִּבְכּֽוּ׃",
+          "5": "וַיִּשָּׂא אֶת־עֵינָיו וַיַּרְא אֶת־הַנָּשִׁים וְאֶת־הַיְלָדִים וַיֹּאמֶר מִי־אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר־חָנַן אֱלֹהִים אֶת־עַבְדֶּֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

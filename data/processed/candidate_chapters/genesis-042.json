@@ -1,0 +1,100 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 42,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-42-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 42,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why do ye look one upon another?",
+        "riddle": "Why do ye look one upon another?",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּרְא יַעֲקֹב כִּי יֶשׁ־שֶׁבֶר בְּמִצְרָיִם וַיֹּאמֶר יַעֲקֹב לְבָנָיו לָמָּה תִּתְרָאֽוּ",
+        "riddle": "לָמָּה תִּתְרָאֽוּ",
+        "speaker": "יַעֲקֹב",
+        "listener": "בָנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why do ye look one upon another?"
+        },
+        "he": {
+          "1": "וַיַּרְא יַעֲקֹב כִּי יֶשׁ־שֶׁבֶר בְּמִצְרָיִם וַיֹּאמֶר יַעֲקֹב לְבָנָיו לָמָּה תִּתְרָאֽוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 42,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-42-31-31",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 42,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And we said unto him, We are true men; we are no spies:",
+        "riddle": "We are true men; we are no spies:",
+        "speaker": "Brothers",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַנֹּאמֶר אֵלָיו כֵּנִים אֲנָחְנוּ לֹא הָיִינוּ מְרַגְּלִֽים",
+        "riddle": "כֵּנִים אֲנָחְנוּ לֹא הָיִינוּ מְרַגְּלִֽים",
+        "speaker": "אחים",
+        "listener": "יוסף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And we said unto him, We are true men; we are no spies:"
+        },
+        "he": {
+          "31": "וַנֹּאמֶר אֵלָיו כֵּנִים אֲנָחְנוּ לֹא הָיִינוּ מְרַגְּלִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct defensive declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 42,
+        "start": 31,
+        "end": 31
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 32,
+    "prefiltered_count": 0,
+    "llm_window_count": 32,
+    "kept_count": 2,
+    "issue_count": 30
+  }
+}

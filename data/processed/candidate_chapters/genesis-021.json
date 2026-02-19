@@ -1,0 +1,100 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 21,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-21-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And Abraham said, I will swear.",
+        "riddle": "I will swear.",
+        "speaker": "Abraham",
+        "listener": "Abimelech",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אָנֹכִי אִשָּׁבֵֽעַ",
+        "riddle": "אָנֹכִי אִשָּׁבֵֽעַ",
+        "speaker": "אַבְרָהָם",
+        "listener": "אבימלך",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Abraham said, I will swear."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר אַבְרָהָם אָנֹכִי אִשָּׁבֵֽעַ׃"
+        }
+      },
+      "meta": {
+        "reason": "Short, direct speech.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-21-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And Abimelech said unto Abraham, What mean these seven ewe lambs which thou hast set by themselves?",
+        "riddle": "What mean these seven ewe lambs which thou hast set by themselves?",
+        "speaker": "Abimelech",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲבִימֶלֶךְ אֶל־אַבְרָהָם מָה הֵנָּה שֶׁבַע כְּבָשֹׂת הָאֵלֶּה אֲשֶׁר הִצַּבְתָּ לְבַדָּֽנָה",
+        "riddle": "מָה הֵנָּה שֶׁבַע כְּבָשֹׂת הָאֵלֶּה אֲשֶׁר הִצַּבְתָּ לְבַדָּֽנָה",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Abimelech said unto Abraham, What mean these seven ewe lambs which thou hast set by themselves?"
+        },
+        "he": {
+          "29": "וַיֹּאמֶר אֲבִימֶלֶךְ אֶל־אַבְרָהָם מָה הֵנָּה שֶׁבַע כְּבָשֹׂת הָאֵלֶּה אֲשֶׁר הִצַּבְתָּ לְבַדָּֽנָה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question with vivid imagery",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 29,
+        "end": 29
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 27,
+    "prefiltered_count": 0,
+    "llm_window_count": 27,
+    "kept_count": 2,
+    "issue_count": 25
+  }
+}

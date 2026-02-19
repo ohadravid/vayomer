@@ -1,0 +1,58 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 17,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-17-20-20",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And when Absalom's servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find them, they returned to Jerusalem.",
+        "riddle": "Where is Ahimaaz and Jonathan?",
+        "speaker": "Absalom's servants",
+        "listener": "the woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ עַבְדֵי אַבְשָׁלוֹם אֶֽל־הָאִשָּׁה הַבַּיְתָה וַיֹּֽאמְרוּ אַיֵּה אֲחִימַעַץ וִיהוֹנָתָן וַתֹּאמֶר לָהֶם הָֽאִשָּׁה עָבְרוּ מִיכַל הַמָּיִם וַיְבַקְשׁוּ וְלֹא מָצָאוּ וַיָּשֻׁבוּ יְרוּשָׁלִָֽם",
+        "riddle": "אַיֵּה אֲחִימַעַץ וִיהוֹנָתָן",
+        "speaker": "עַבְדֵי אַבְשָׁלוֹם",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And when Absalom's servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find them, they returned to Jerusalem."
+        },
+        "he": {
+          "20": "וַיָּבֹאוּ עַבְדֵי אַבְשָׁלוֹם אֶֽל־הָאִשָּׁה הַבַּיְתָה וַיֹּֽאמְרוּ אַיֵּה אֲחִימַעַץ וִיהוֹנָתָן וַתֹּאמֶר לָהֶם הָֽאִשָּׁה עָבְרוּ מִיכַל הַמָּיִם וַיְבַקְשׁוּ וְלֹא מָצָאוּ וַיָּשֻׁבוּ יְרוּשָׁלִָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 20,
+        "end": 20
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 17,
+    "prefiltered_count": 0,
+    "llm_window_count": 17,
+    "kept_count": 1,
+    "issue_count": 16
+  }
+}

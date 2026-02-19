@@ -1,0 +1,103 @@
+{
+  "book_code": "OBA",
+  "book": "Obadiah",
+  "book_he": "עובדיה",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "obadiah-01-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "OBA",
+        "book": "Obadiah",
+        "book_he": "עובדיה",
+        "chapter": 1,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle. Behold, I have made thee small among the heathen: thou art greatly despised. The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?",
+        "riddle": "Who shall bring me down to the ground?",
+        "speaker": "Edom",
+        "listener": "Edom",
+        "book": "Obadiah",
+        "options": {
+          "speaker": [
+            "Rabshakeh",
+            "Israel",
+            "Judah"
+          ],
+          "listener": [
+            "Philistines",
+            "People and animals of Nineveh",
+            "Israel"
+          ]
+        },
+        "bonus": "vision",
+        "bonus_hint": {
+          "quote": "And the child Samuel ministered unto the LORD before Eli. And the word of the LORD was precious in those days; there was no open vision.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "חֲזוֹן עֹֽבַדְיָה כֹּֽה־אָמַר אֲדֹנָי יְהוִה לֶאֱדוֹם שְׁמוּעָה שָׁמַעְנוּ מֵאֵת יְהוָה וְצִיר בַּגּוֹיִם שֻׁלָּח קוּמוּ וְנָקוּמָה עָלֶיהָ לַמִּלְחָמָֽה הִנֵּה קָטֹן נְתַתִּיךָ בַּגּוֹיִם בָּזוּי אַתָּה מְאֹֽד זְדוֹן לִבְּךָ הִשִּׁיאֶךָ שֹׁכְנִי בְחַגְוֵי־סֶלַע מְרוֹם שִׁבְתּוֹ אֹמֵר בְּלִבּוֹ מִי יוֹרִדֵנִי אָֽרֶץ",
+        "riddle": "מִי יוֹרִדֵנִי אָֽרֶץ",
+        "speaker": "אֱדוֹם",
+        "listener": "אֱדוֹם",
+        "book": "עובדיה",
+        "options": {
+          "speaker": [
+            "רַב־שָׁקֵה",
+            "יִשְׂרָאֵל",
+            "יְהוּדָה"
+          ],
+          "listener": [
+            "פְּלִשְׁתִּֽים",
+            "אַנְשֵׁי נִֽינְוֵה",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "חֲזוֹן",
+        "bonus_hint": {
+          "quote": "וְהַנַּעַר שְׁמוּאֵל מְשָׁרֵת אֶת־יְהוָה לִפְנֵי עֵלִי וּדְבַר־יְהוָה הָיָה יָקָר בַּיָּמִים הָהֵם אֵין חָזוֹן נִפְרָֽץ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "The vision of Obadiah. Thus saith the Lord GOD concerning Edom; We have heard a rumour from the LORD, and an ambassador is sent among the heathen, Arise ye, and let us rise up against her in battle.",
+          "2": "Behold, I have made thee small among the heathen: thou art greatly despised.",
+          "3": "The pride of thine heart hath deceived thee, thou that dwellest in the clefts of the rock, whose habitation is high; that saith in his heart, Who shall bring me down to the ground?"
+        },
+        "he": {
+          "1": "חֲזוֹן עֹֽבַדְיָה כֹּֽה־אָמַר אֲדֹנָי יְהוִה לֶאֱדוֹם שְׁמוּעָה שָׁמַעְנוּ מֵאֵת יְהוָה וְצִיר בַּגּוֹיִם שֻׁלָּח קוּמוּ וְנָקוּמָה עָלֶיהָ לַמִּלְחָמָֽה׃",
+          "2": "הִנֵּה קָטֹן נְתַתִּיךָ בַּגּוֹיִם בָּזוּי אַתָּה מְאֹֽד׃",
+          "3": "זְדוֹן לִבְּךָ הִשִּׁיאֶךָ שֹׁכְנִי בְחַגְוֵי־סֶלַע מְרוֹם שִׁבְתּוֹ אֹמֵר בְּלִבּוֹ מִי יוֹרִדֵנִי אָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

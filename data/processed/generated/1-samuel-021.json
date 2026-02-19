@@ -1,0 +1,83 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 21,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-21-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 21,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place.",
+        "riddle": "and what I have commanded thee: and I have appointed my servants to such and such a place.",
+        "speaker": "David",
+        "listener": "Ahimelech",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "Wherefore David arose and went, he and his men, and slew of the Philistines two hundred men; and David brought their foreskins, and they gave them in full tale to the king, that he might be the king's son in law. And Saul gave him Michal his daughter to wife.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא דָוִד נֹבֶה אֶל־אֲחִימֶלֶךְ הַכֹּהֵן וַיֶּחֱרַד אֲחִימֶלֶךְ לִקְרַאת דָּוִד וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ",
+        "riddle": "מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ",
+        "speaker": "אֲחִימֶלֶךְ הַכֹּהֵן",
+        "listener": "דָוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּקָם דָּוִד וַיֵּלֶךְ הוּא וַאֲנָשָׁיו וַיַּךְ בַּפְּלִשְׁתִּים מָאתַיִם אִישׁ וַיָּבֵא דָוִד אֶת־עָרְלֹתֵיהֶם וַיְמַלְאוּם לַמֶּלֶךְ לְהִתְחַתֵּן בַּמֶּלֶךְ וַיִּתֶּן־לוֹ שָׁאוּל אֶת־מִיכַל בִּתּוֹ לְאִשָּֽׁה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place."
+        },
+        "he": {
+          "2": "וַיָּבֹא דָוִד נֹבֶה אֶל־אֲחִימֶלֶךְ הַכֹּהֵן וַיֶּחֱרַד אֲחִימֶלֶךְ לִקְרַאת דָּוִד וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 2,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

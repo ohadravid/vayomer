@@ -1,0 +1,85 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 19,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-19-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 19,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "So he departed thence, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed by him, and cast his mantle upon him. And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?",
+        "riddle": "for what have I done to thee?",
+        "speaker": "Elijah",
+        "listener": "Elisha",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "son",
+        "bonus_hint": {
+          "quote": "And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּלֶךְ מִשָּׁם וַיִּמְצָא אֶת־אֱלִישָׁע בֶּן־שָׁפָט וְהוּא חֹרֵשׁ שְׁנֵים־עָשָׂר צְמָדִים לְפָנָיו וְהוּא בִּשְׁנֵים הֶעָשָׂר וַיַּעֲבֹר אֵלִיָּהוּ אֵלָיו וַיַּשְׁלֵךְ אַדַּרְתּוֹ אֵלָֽיו וַיַּעֲזֹב אֶת־הַבָּקָר וַיָּרָץ אַחֲרֵי אֵֽלִיָּהוּ וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ",
+        "riddle": "מֶה־עָשִׂיתִי לָֽךְ",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בֶּן",
+        "bonus_hint": {
+          "quote": "וַיֵּדַע אָדָם עוֹד אֶת־אִשְׁתּוֹ וַתֵּלֶד בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שֵׁת כִּי שָֽׁת־לִי אֱלֹהִים זֶרַע אַחֵר תַּחַת הֶבֶל כִּי הֲרָגוֹ קָֽיִן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "So he departed thence, and found Elisha the son of Shaphat, who was plowing with twelve yoke of oxen before him, and he with the twelfth: and Elijah passed by him, and cast his mantle upon him.",
+          "20": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?"
+        },
+        "he": {
+          "19": "וַיֵּלֶךְ מִשָּׁם וַיִּמְצָא אֶת־אֱלִישָׁע בֶּן־שָׁפָט וְהוּא חֹרֵשׁ שְׁנֵים־עָשָׂר צְמָדִים לְפָנָיו וְהוּא בִּשְׁנֵים הֶעָשָׂר וַיַּעֲבֹר אֵלִיָּהוּ אֵלָיו וַיַּשְׁלֵךְ אַדַּרְתּוֹ אֵלָֽיו׃",
+          "20": "וַיַּעֲזֹב אֶת־הַבָּקָר וַיָּרָץ אַחֲרֵי אֵֽלִיָּהוּ וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 19,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

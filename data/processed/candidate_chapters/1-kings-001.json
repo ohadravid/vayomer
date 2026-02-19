@@ -1,0 +1,100 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-01-16-16",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Bath-sheba bowed, and did obeisance unto the king. And the king said, What wouldest thou?",
+        "riddle": "What wouldest thou?",
+        "speaker": "the king",
+        "listener": "Bath-sheba",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתִּקֹּד בַּת־שֶׁבַע וַתִּשְׁתַּחוּ לַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ מַה־לָּֽךְ",
+        "riddle": "מַה־לָּֽךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "בַּת־שֶׁבַע",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Bath-sheba bowed, and did obeisance unto the king. And the king said, What wouldest thou?"
+        },
+        "he": {
+          "16": "וַתִּקֹּד בַּת־שֶׁבַע וַתִּשְׁתַּחוּ לַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ מַה־לָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-kings-01-41-41",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 41,
+        "quote_verse_end": 41
+      },
+      "en": {
+        "quote": "And Adonijah and all the guests that were with him heard it as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore is this noise of the city being in an uproar?",
+        "riddle": "Wherefore is this noise of the city being in an uproar?",
+        "speaker": "Joab",
+        "listener": "Implicit",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע אֲדֹנִיָּהוּ וְכָל־הַקְּרֻאִים אֲשֶׁר אִתּוֹ וְהֵם כִּלּוּ לֶאֱכֹל וַיִּשְׁמַע יוֹאָב אֶת־קוֹל הַשּׁוֹפָר וַיֹּאמֶר מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה",
+        "riddle": "מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה",
+        "speaker": "יוֹאָב",
+        "listener": "Implicit",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "41": "And Adonijah and all the guests that were with him heard it as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore is this noise of the city being in an uproar?"
+        },
+        "he": {
+          "41": "וַיִּשְׁמַע אֲדֹנִיָּהוּ וְכָל־הַקְּרֻאִים אֲשֶׁר אִתּוֹ וְהֵם כִּלּוּ לֶאֱכֹל וַיִּשְׁמַע יוֹאָב אֶת־קוֹל הַשּׁוֹפָר וַיֹּאמֶר מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 41,
+        "end": 41
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 43,
+    "prefiltered_count": 0,
+    "llm_window_count": 43,
+    "kept_count": 2,
+    "issue_count": 41
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-10-36-36",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36
+      },
+      "en": {
+        "quote": "And when it rested, he said, Return, O LORD, unto the many thousands of Israel.",
+        "riddle": "Return, O LORD, unto the many thousands of Israel",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וּבְנֻחֹה יֹאמַר שׁוּבָה יְהוָה רִֽבְבוֹת אַלְפֵי יִשְׂרָאֵֽל",
+        "riddle": "שׁוּבָה יְהוָה רִֽבְבוֹת אַלְפֵי יִשְׂרָאֵֽל",
+        "speaker": "משה",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And when it rested, he said, Return, O LORD, unto the many thousands of Israel."
+        },
+        "he": {
+          "36": "וּבְנֻחֹה יֹאמַר שׁוּבָה יְהוָה רִֽבְבוֹת אַלְפֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct command/prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 36,
+        "end": 36
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 8,
+    "prefiltered_count": 0,
+    "llm_window_count": 8,
+    "kept_count": 1,
+    "issue_count": 7
+  }
+}

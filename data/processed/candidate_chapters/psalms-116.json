@@ -1,0 +1,58 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 116,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-116-04-04",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 116,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Then called I upon the name of the LORD; O LORD, I beseech thee, deliver my soul.",
+        "riddle": "O LORD, I beseech thee, deliver my soul.",
+        "speaker": "Speaker",
+        "listener": "LORD",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "וּבְשֵֽׁם־יְהוָה אֶקְרָא אָנָּה יְהוָה מַלְּטָה נַפְשִֽׁי",
+        "riddle": "אָנָּה יְהוָה מַלְּטָה נַפְשִֽׁי",
+        "speaker": "דובר",
+        "listener": "יְהוָה",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then called I upon the name of the LORD; O LORD, I beseech thee, deliver my soul."
+        },
+        "he": {
+          "4": "וּבְשֵֽׁם־יְהוָה אֶקְרָא אָנָּה יְהוָה מַלְּטָה נַפְשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct plea/prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 116,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 5,
+    "prefiltered_count": 0,
+    "llm_window_count": 5,
+    "kept_count": 1,
+    "issue_count": 4
+  }
+}

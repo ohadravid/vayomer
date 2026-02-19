@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-06-22-22",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "Thus did Noah; according to all that God commanded him, so did he.",
+        "riddle": "according to all that God commanded him, so did he.",
+        "speaker": "Narrator",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
+        "riddle": "כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
+        "speaker": "Narrator",
+        "listener": "Noah",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Thus did Noah; according to all that God commanded him, so did he."
+        },
+        "he": {
+          "22": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid declaration of obedience",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 22,
+        "end": 22
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 7,
+    "prefiltered_count": 0,
+    "llm_window_count": 7,
+    "kept_count": 1,
+    "issue_count": 6
+  }
+}

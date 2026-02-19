@@ -1,0 +1,58 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-12-26-26",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 12,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And Jeroboam said in his heart, Now shall the kingdom return to the house of David:",
+        "riddle": "Now shall the kingdom return to the house of David:",
+        "speaker": "Jeroboam",
+        "listener": "himself",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יָרָבְעָם בְּלִבּוֹ עַתָּה תָּשׁוּב הַמַּמְלָכָה לְבֵית דָּוִֽד",
+        "riddle": "עַתָּה תָּשׁוּב הַמַּמְלָכָה לְבֵית דָּוִֽד",
+        "speaker": "יָרָבְעָם",
+        "listener": "עצמו",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And Jeroboam said in his heart, Now shall the kingdom return to the house of David:"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר יָרָבְעָם בְּלִבּוֹ עַתָּה תָּשׁוּב הַמַּמְלָכָה לְבֵית דָּוִֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct internal speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 25,
+    "prefiltered_count": 0,
+    "llm_window_count": 25,
+    "kept_count": 1,
+    "issue_count": 24
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 22,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-22-09-09",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And God came unto Balaam, and said, What men are these with thee?",
+        "riddle": "What men are these with thee?",
+        "speaker": "God",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ",
+        "riddle": "מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ",
+        "speaker": "אֱלֹהִים",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And God came unto Balaam, and said, What men are these with thee?"
+        },
+        "he": {
+          "9": "וַיָּבֹא אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question from God",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 30,
+    "prefiltered_count": 0,
+    "llm_window_count": 30,
+    "kept_count": 1,
+    "issue_count": 29
+  }
+}

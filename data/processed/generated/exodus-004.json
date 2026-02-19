@@ -1,0 +1,85 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 4,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-04-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And the LORD said unto him, What is that in thine hand? And he said, A rod. And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it.",
+        "riddle": "What is that in thine hand?",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "rod",
+        "bonus_hint": {
+          "quote": "For they cast down every man his rod, and they became serpents: but Aaron's rod swallowed up their rods.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 7,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה וַיֹּאמֶר הַשְׁלִיכֵהוּ אַרְצָה וַיַּשְׁלִיכֵהוּ אַרְצָה וַיְהִי לְנָחָשׁ וַיָּנָס מֹשֶׁה מִפָּנָֽיו",
+        "riddle": "מַה זֶּה בְיָדֶךָ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מַטֶּֽה",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁלִיכוּ אִישׁ מַטֵּהוּ וַיִּהְיוּ לְתַנִּינִם וַיִּבְלַע מַטֵּֽה־אַהֲרֹן אֶת־מַטֹּתָֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 7,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto him, What is that in thine hand? And he said, A rod.",
+          "3": "And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה׃",
+          "3": "וַיֹּאמֶר הַשְׁלִיכֵהוּ אַרְצָה וַיַּשְׁלִיכֵהוּ אַרְצָה וַיְהִי לְנָחָשׁ וַיָּנָס מֹשֶׁה מִפָּנָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

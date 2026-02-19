@@ -1,0 +1,102 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 16,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-16-16-17",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 16,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "This is the thing which the LORD hath commanded, Gather of it every man according to his eating, an omer for every man, according to the number of your persons; take ye every man for them which are in his tents. And the children of Israel did so, and gathered, some more, some less.",
+        "riddle": "This is the thing which the LORD hath commanded, Gather of",
+        "speaker": "LORD",
+        "listener": "Israelites",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּֽחוּ וַיַּעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַֽיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִֽיט",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "This is the thing which the LORD hath commanded, Gather of it every man according to his eating, an omer for every man, according to the number of your persons; take ye every man for them which are in his tents.",
+          "17": "And the children of Israel did so, and gathered, some more, some less."
+        },
+        "he": {
+          "16": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּֽחוּ׃",
+          "17": "וַיַּעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַֽיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִֽיט׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct command",
+        "confidence": 0.8
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 16,
+        "end": 17
+      }
+    },
+    {
+      "id": "exodus-16-31-31",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 16,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And the house of Israel called the name thereof Manna: and it was like coriander seed, white; and the taste of it was like wafers made with honey.",
+        "riddle": "and it was like coriander seed, white; and the taste of it was like wafers made with honey.",
+        "speaker": "House of Israel",
+        "listener": "None",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּקְרְאוּ בֵֽית־יִשְׂרָאֵל אֶת־שְׁמוֹ מָן וְהוּא כְּזֶרַע גַּד לָבָן וְטַעְמוֹ כְּצַפִּיחִת בִּדְבָֽשׁ",
+        "riddle": "שְׁמוֹ מָן וְהוּא כְּזֶרַע גַּד לָבָן וְטַעְמוֹ כְּצַפִּיחִת בִּדְבָֽשׁ",
+        "speaker": "בֵֽית־יִשְׂרָאֵל",
+        "listener": "None",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And the house of Israel called the name thereof Manna: and it was like coriander seed, white; and the taste of it was like wafers made with honey."
+        },
+        "he": {
+          "31": "וַיִּקְרְאוּ בֵֽית־יִשְׂרָאֵל אֶת־שְׁמוֹ מָן וְהוּא כְּזֶרַע גַּד לָבָן וְטַעְמוֹ כְּצַפִּיחִת בִּדְבָֽשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid description of manna",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 31,
+        "end": 31
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 27,
+    "prefiltered_count": 0,
+    "llm_window_count": 27,
+    "kept_count": 2,
+    "issue_count": 25
+  }
+}

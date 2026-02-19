@@ -1,0 +1,100 @@
+{
+  "book_code": "2CH",
+  "book": "2 Chronicles",
+  "book_he": "דברי הימים ב",
+  "chapter": 32,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-chronicles-32-04-04",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 32,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "So there was gathered much people together, who stopped all the fountains, and the brook that ran through the midst of the land, saying, Why should the kings of Assyria come, and find much water?",
+        "riddle": "and find much water?",
+        "speaker": "people",
+        "listener": "kings of Assyria",
+        "book": "2 Chronicles"
+      },
+      "he": {
+        "quote": "וַיִּקָּבְצוּ עַם־רָב וַֽיִּסְתְּמוּ אֶת־כָּל־הַמַּעְיָנוֹת וְאֶת־הַנַּחַל הַשּׁוֹטֵף בְּתוֹךְ־הָאָרֶץ לֵאמֹר לָמָּה יָבוֹאוּ מַלְכֵי אַשּׁוּר וּמָצְאוּ מַיִם רַבִּֽים",
+        "riddle": "לָמָּה יָבוֹאוּ מַלְכֵי אַשּׁוּר וּמָצְאוּ מַיִם רַבִּֽים",
+        "speaker": "עַם",
+        "listener": "מַלְכֵי אַשּׁוּר",
+        "book": "דברי הימים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "So there was gathered much people together, who stopped all the fountains, and the brook that ran through the midst of the land, saying, Why should the kings of Assyria come, and find much water?"
+        },
+        "he": {
+          "4": "וַיִּקָּבְצוּ עַם־רָב וַֽיִּסְתְּמוּ אֶת־כָּל־הַמַּעְיָנוֹת וְאֶת־הַנַּחַל הַשּׁוֹטֵף בְּתוֹךְ־הָאָרֶץ לֵאמֹר לָמָּה יָבוֹאוּ מַלְכֵי אַשּׁוּר וּמָצְאוּ מַיִם רַבִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-chronicles-32-13-13",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 32,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Know ye not what I and my fathers have done unto all the people of other lands? were the gods of the nations of those lands any ways able to deliver their lands out of mine hand?",
+        "riddle": "Know ye not what I and my fathers have done unto",
+        "speaker": "Sennacherib",
+        "listener": "People",
+        "book": "2 Chronicles"
+      },
+      "he": {
+        "quote": "הֲלֹא תֵדְעוּ מֶה עָשִׂיתִי אֲנִי וַאֲבוֹתַי לְכֹל עַמֵּי הָאֲרָצוֹת הֲיָכוֹל יָֽכְלוּ אֱלֹהֵי גּוֹיֵ הָאֲרָצוֹת לְהַצִּיל אֶת־אַרְצָם מִיָּדִֽי",
+        "riddle": "הֲלֹא תֵדְעוּ מֶה עָשִׂיתִי אֲנִי וַאֲבוֹתַי לְכֹל עַמֵּי הָאֲרָצוֹת",
+        "speaker": "סנחריב",
+        "listener": "עמים",
+        "book": "דברי הימים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Know ye not what I and my fathers have done unto all the people of other lands? were the gods of the nations of those lands any ways able to deliver their lands out of mine hand?"
+        },
+        "he": {
+          "13": "הֲלֹא תֵדְעוּ מֶה עָשִׂיתִי אֲנִי וַאֲבוֹתַי לְכֹל עַמֵּי הָאֲרָצוֹת הֲיָכוֹל יָֽכְלוּ אֱלֹהֵי גּוֹיֵ הָאֲרָצוֹת לְהַצִּיל אֶת־אַרְצָם מִיָּדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 13,
+        "end": 13
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 21,
+    "prefiltered_count": 0,
+    "llm_window_count": 21,
+    "kept_count": 2,
+    "issue_count": 19
+  }
+}

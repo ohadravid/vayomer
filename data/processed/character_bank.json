@@ -1,0 +1,3040 @@
+{
+  "taxonomy": [
+    "divine",
+    "leader",
+    "king",
+    "foreign_king",
+    "prophet",
+    "priest_levite",
+    "family",
+    "woman",
+    "companion_sidekick",
+    "people_group",
+    "enemy_foreigner",
+    "other"
+  ],
+  "items": [
+    {
+      "id": "char-3bd20d220ac7",
+      "en": "the LORD",
+      "he": "יְהוָה",
+      "normalized_en_aliases": [
+        "ephraim",
+        "god",
+        "jeremiah",
+        "lord",
+        "lord god"
+      ],
+      "normalized_he_aliases": [
+        "אדני יהוה",
+        "אל",
+        "אל יהוה",
+        "אלהים",
+        "אלהינו",
+        "אלוה",
+        "אלוהים",
+        "ה",
+        "יהוה",
+        "יהוה אלהים",
+        "ישראל",
+        "משה"
+      ],
+      "books": [
+        "GEN",
+        "EXO",
+        "LEV",
+        "NUM",
+        "DEU",
+        "JOS",
+        "JDG",
+        "1SA",
+        "1KI",
+        "1CH",
+        "2CH",
+        "EZR",
+        "JOB",
+        "PSA",
+        "ISA",
+        "JER",
+        "EZE",
+        "DAN",
+        "HOS",
+        "JOE",
+        "JON",
+        "MIC",
+        "HAB"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 87,
+      "category": "divine"
+    },
+    {
+      "id": "char-856c8f176743",
+      "en": "Job",
+      "he": "איוב",
+      "normalized_en_aliases": [
+        "job"
+      ],
+      "normalized_he_aliases": [
+        "איוב"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 26,
+      "category": "other"
+    },
+    {
+      "id": "char-7ff71781b35f",
+      "en": "Israel",
+      "he": "יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "israel"
+      ],
+      "normalized_he_aliases": [
+        "ישראל"
+      ],
+      "books": [
+        "GEN",
+        "EXO",
+        "DEU",
+        "JDG",
+        "1SA",
+        "1CH",
+        "PSA",
+        "ISA",
+        "JER",
+        "EZE",
+        "JOE",
+        "MAL"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 16,
+      "category": "people_group"
+    },
+    {
+      "id": "char-271cda98f73f",
+      "en": "Moses",
+      "he": "מֹשֶׁה",
+      "normalized_en_aliases": [
+        "moses"
+      ],
+      "normalized_he_aliases": [
+        "משה"
+      ],
+      "books": [
+        "EXO",
+        "NUM",
+        "DEU"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 15,
+      "category": "leader"
+    },
+    {
+      "id": "char-08965253a961",
+      "en": "Jacob",
+      "he": "יַעֲקֹב",
+      "normalized_en_aliases": [
+        "jacob"
+      ],
+      "normalized_he_aliases": [
+        "יעקב"
+      ],
+      "books": [
+        "GEN",
+        "JER"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 11,
+      "category": "family"
+    },
+    {
+      "id": "char-4662a69b2473",
+      "en": "David",
+      "he": "דָּוִד",
+      "normalized_en_aliases": [
+        "david"
+      ],
+      "normalized_he_aliases": [
+        "דוד"
+      ],
+      "books": [
+        "1SA",
+        "1CH"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 8,
+      "category": "king"
+    },
+    {
+      "id": "char-86206e38c434",
+      "en": "Saul",
+      "he": "שָׁאוּל",
+      "normalized_en_aliases": [
+        "saul"
+      ],
+      "normalized_he_aliases": [
+        "שאול"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 8,
+      "category": "king"
+    },
+    {
+      "id": "char-0bddd1e87379",
+      "en": "Philistines",
+      "he": "פְלִשְׁתִּים",
+      "normalized_en_aliases": [
+        "philistines"
+      ],
+      "normalized_he_aliases": [
+        "פלשתים"
+      ],
+      "books": [
+        "JDG",
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 7,
+      "category": "enemy_foreigner"
+    },
+    {
+      "id": "char-3d6b891e57a2",
+      "en": "Joseph",
+      "he": "יוֹסֵף",
+      "normalized_en_aliases": [
+        "joseph"
+      ],
+      "normalized_he_aliases": [
+        "יוסף"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 7,
+      "category": "leader"
+    },
+    {
+      "id": "char-ea77dec6e016",
+      "en": "Israelites",
+      "he": "בְּנֵי יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "israelites"
+      ],
+      "normalized_he_aliases": [
+        "בני ישראל"
+      ],
+      "books": [
+        "EXO",
+        "LEV",
+        "NUM",
+        "DEU",
+        "JDG",
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 7,
+      "category": "people_group"
+    },
+    {
+      "id": "char-b467fa156a3e",
+      "en": "people",
+      "he": "הָעָם",
+      "normalized_en_aliases": [
+        "people"
+      ],
+      "normalized_he_aliases": [
+        "עם"
+      ],
+      "books": [
+        "EXO",
+        "DEU",
+        "JOS",
+        "1SA",
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 7,
+      "category": "people_group"
+    },
+    {
+      "id": "char-90082a1fe7f1",
+      "en": "Laban",
+      "he": "לָבָן",
+      "normalized_en_aliases": [
+        "laban"
+      ],
+      "normalized_he_aliases": [
+        "לבן"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 6,
+      "category": "family"
+    },
+    {
+      "id": "char-f73ba3f1c09d",
+      "en": "Pharaoh",
+      "he": "פַּרְעֹה",
+      "normalized_en_aliases": [
+        "pharaoh"
+      ],
+      "normalized_he_aliases": [
+        "פרעה"
+      ],
+      "books": [
+        "GEN",
+        "EXO",
+        "EZE"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 6,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-6472bdbc2bcb",
+      "en": "Hezekiah",
+      "he": "חִזְקִיָּהוּ",
+      "normalized_en_aliases": [
+        "hezekiah"
+      ],
+      "normalized_he_aliases": [
+        "חזקיהו"
+      ],
+      "books": [
+        "2KI",
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 6,
+      "category": "king"
+    },
+    {
+      "id": "char-e2d417a906ac",
+      "en": "Psalmist",
+      "he": "דָוִד",
+      "normalized_en_aliases": [
+        "psalmist"
+      ],
+      "normalized_he_aliases": [
+        "דוד"
+      ],
+      "books": [
+        "PSA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 6,
+      "category": "king"
+    },
+    {
+      "id": "char-4c2688666fc7",
+      "en": "Jeremiah",
+      "he": "ירמיהו",
+      "normalized_en_aliases": [
+        "jeremiah"
+      ],
+      "normalized_he_aliases": [
+        "ירמיהו"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 6,
+      "category": "prophet"
+    },
+    {
+      "id": "char-2e2e99e5991e",
+      "en": "LORD of hosts",
+      "he": "יְהוָה צְבָאוֹת",
+      "normalized_en_aliases": [
+        "lord of hosts"
+      ],
+      "normalized_he_aliases": [
+        "יהוה צבאות"
+      ],
+      "books": [
+        "JER",
+        "NAH",
+        "HAG",
+        "ZEC",
+        "MAL"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 5,
+      "category": "divine"
+    },
+    {
+      "id": "char-e3a8bd021059",
+      "en": "messenger",
+      "he": "הַמַּלְאָךְ",
+      "normalized_en_aliases": [
+        "messenger"
+      ],
+      "normalized_he_aliases": [
+        "מלאך"
+      ],
+      "books": [
+        "1KI",
+        "2KI",
+        "2CH",
+        "JOB"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 5,
+      "category": "divine"
+    },
+    {
+      "id": "char-2cb80a5c0fe7",
+      "en": "Solomon",
+      "he": "שְׁלֹמֹה",
+      "normalized_en_aliases": [
+        "solomon"
+      ],
+      "normalized_he_aliases": [
+        "שלמה"
+      ],
+      "books": [
+        "1KI",
+        "2CH",
+        "PSA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 5,
+      "category": "king"
+    },
+    {
+      "id": "char-0e0809b41fd4",
+      "en": "Isaiah",
+      "he": "יְשַֽׁעְיָהוּ",
+      "normalized_en_aliases": [
+        "isaiah"
+      ],
+      "normalized_he_aliases": [
+        "ישעיהו"
+      ],
+      "books": [
+        "2KI",
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 5,
+      "category": "prophet"
+    },
+    {
+      "id": "char-0e57df6edc8c",
+      "en": "Prophet",
+      "he": "הנביא",
+      "normalized_en_aliases": [
+        "prophet"
+      ],
+      "normalized_he_aliases": [
+        "נביא"
+      ],
+      "books": [
+        "1KI",
+        "ISA",
+        "JOE"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 5,
+      "category": "prophet"
+    },
+    {
+      "id": "char-6db8cbbdf510",
+      "en": "Abraham",
+      "he": "אַבְרָהָם",
+      "normalized_en_aliases": [
+        "abraham"
+      ],
+      "normalized_he_aliases": [
+        "אברהם"
+      ],
+      "books": [
+        "GEN",
+        "1CH"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 4,
+      "category": "family"
+    },
+    {
+      "id": "char-b74a5ada1fd1",
+      "en": "Psalmist",
+      "he": "מזמור",
+      "normalized_en_aliases": [
+        "psalmist"
+      ],
+      "normalized_he_aliases": [
+        "מזמור"
+      ],
+      "books": [
+        "1CH",
+        "PSA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 4,
+      "category": "other"
+    },
+    {
+      "id": "char-a0e0328ddb26",
+      "en": "Psalmist",
+      "he": "משורר",
+      "normalized_en_aliases": [
+        "psalmist"
+      ],
+      "normalized_he_aliases": [
+        "משורר"
+      ],
+      "books": [
+        "PSA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 4,
+      "category": "other"
+    },
+    {
+      "id": "char-98c2d9e67cb1",
+      "en": "Micaiah",
+      "he": "מִיכָיְהוּ",
+      "normalized_en_aliases": [
+        "micaiah"
+      ],
+      "normalized_he_aliases": [
+        "מיכיהו"
+      ],
+      "books": [
+        "1KI",
+        "2CH"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 4,
+      "category": "prophet"
+    },
+    {
+      "id": "char-622b2b5a765f",
+      "en": "Angel",
+      "he": "הַמַּלְאָךְ",
+      "normalized_en_aliases": [
+        "angel"
+      ],
+      "normalized_he_aliases": [
+        "מלאך"
+      ],
+      "books": [
+        "GEN",
+        "ZEC"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "divine"
+    },
+    {
+      "id": "char-d2be52b7e1a7",
+      "en": "Abimelech",
+      "he": "אֲבִימֶלֶךְ",
+      "normalized_en_aliases": [
+        "abimelech"
+      ],
+      "normalized_he_aliases": [
+        "אבימלך"
+      ],
+      "books": [
+        "GEN",
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "king"
+    },
+    {
+      "id": "char-7b849c226e0a",
+      "en": "Jehu",
+      "he": "יֵהוּא",
+      "normalized_en_aliases": [
+        "jehu"
+      ],
+      "normalized_he_aliases": [
+        "יהוא"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "king"
+    },
+    {
+      "id": "char-93fd68b4c7d4",
+      "en": "Joab",
+      "he": "יוֹאָב",
+      "normalized_en_aliases": [
+        "joab"
+      ],
+      "normalized_he_aliases": [
+        "יואב"
+      ],
+      "books": [
+        "2SA",
+        "1CH"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "leader"
+    },
+    {
+      "id": "char-ab04801b6a18",
+      "en": "Joshua",
+      "he": "יְהוֹשֻׁעַ",
+      "normalized_en_aliases": [
+        "joshua"
+      ],
+      "normalized_he_aliases": [
+        "יהושע"
+      ],
+      "books": [
+        "JOS",
+        "ZEC"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "leader"
+    },
+    {
+      "id": "char-3d603f70fd93",
+      "en": "Eliphaz",
+      "he": "אֱלִיפַז",
+      "normalized_en_aliases": [
+        "eliphaz"
+      ],
+      "normalized_he_aliases": [
+        "אליפז"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 3,
+      "category": "other"
+    },
+    {
+      "id": "char-58772a7d0532",
+      "en": "Ezra",
+      "he": "עזרא",
+      "normalized_en_aliases": [
+        "ezra"
+      ],
+      "normalized_he_aliases": [
+        "עזרא"
+      ],
+      "books": [
+        "EZR"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 3,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-c1611dcbed89",
+      "en": "Balaam",
+      "he": "בִּלְעָם",
+      "normalized_en_aliases": [
+        "balaam"
+      ],
+      "normalized_he_aliases": [
+        "בלעם"
+      ],
+      "books": [
+        "NUM"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "prophet"
+    },
+    {
+      "id": "char-6f5cc5a4b984",
+      "en": "Ezekiel",
+      "he": "יחזקאל",
+      "normalized_en_aliases": [
+        "ezekiel"
+      ],
+      "normalized_he_aliases": [
+        "יחזקאל"
+      ],
+      "books": [
+        "EZE",
+        "ZEC"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "prophet"
+    },
+    {
+      "id": "char-30250daea32f",
+      "en": "Habakkuk",
+      "he": "חֲבַקּוּק",
+      "normalized_en_aliases": [
+        "habakkuk"
+      ],
+      "normalized_he_aliases": [
+        "חבקוק"
+      ],
+      "books": [
+        "ISA",
+        "HAB"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 3,
+      "category": "prophet"
+    },
+    {
+      "id": "char-d7d7f4e63da9",
+      "en": "Naomi",
+      "he": "נָעֳמִי",
+      "normalized_en_aliases": [
+        "naomi"
+      ],
+      "normalized_he_aliases": [
+        "נעמי"
+      ],
+      "books": [
+        "RUT"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 3,
+      "category": "woman"
+    },
+    {
+      "id": "char-d9b00bc0f353",
+      "en": "woman",
+      "he": "אִשָּׁה",
+      "normalized_en_aliases": [
+        "woman"
+      ],
+      "normalized_he_aliases": [
+        "אשה"
+      ],
+      "books": [
+        "GEN",
+        "1SA",
+        "2SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 3,
+      "category": "woman"
+    },
+    {
+      "id": "char-f0547ec0b196",
+      "en": "Friends",
+      "he": "ידידיו",
+      "normalized_en_aliases": [
+        "friends"
+      ],
+      "normalized_he_aliases": [
+        "ידידיו"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "companion_sidekick"
+    },
+    {
+      "id": "char-88bdf0c923e1",
+      "en": "Abram",
+      "he": "אַבְרָם",
+      "normalized_en_aliases": [
+        "abram"
+      ],
+      "normalized_he_aliases": [
+        "אברם"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "family"
+    },
+    {
+      "id": "char-ee5080f4adbb",
+      "en": "brothers",
+      "he": "אחים",
+      "normalized_en_aliases": [
+        "brothers"
+      ],
+      "normalized_he_aliases": [
+        "אחים"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "family"
+    },
+    {
+      "id": "char-531b546ca697",
+      "en": "Isaac",
+      "he": "יִצְחָק",
+      "normalized_en_aliases": [
+        "isaac"
+      ],
+      "normalized_he_aliases": [
+        "יצחק"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "family"
+    },
+    {
+      "id": "char-6fc7b8c33ab2",
+      "en": "Lot",
+      "he": "לוֹט",
+      "normalized_en_aliases": [
+        "lot"
+      ],
+      "normalized_he_aliases": [
+        "לוט"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "family"
+    },
+    {
+      "id": "char-078a48f2474e",
+      "en": "Orpah and Ruth",
+      "he": "כַלֹּתֶיהָ",
+      "normalized_en_aliases": [
+        "orpah and ruth"
+      ],
+      "normalized_he_aliases": [
+        "כלתיה"
+      ],
+      "books": [
+        "RUT"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "family"
+    },
+    {
+      "id": "char-80b3f7a6d426",
+      "en": "Balak",
+      "he": "בָלָק",
+      "normalized_en_aliases": [
+        "balak"
+      ],
+      "normalized_he_aliases": [
+        "בלק"
+      ],
+      "books": [
+        "NUM"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-8eb2ffaa2af3",
+      "en": "David",
+      "he": "דָּוִיד",
+      "normalized_en_aliases": [
+        "david"
+      ],
+      "normalized_he_aliases": [
+        "דויד"
+      ],
+      "books": [
+        "1CH"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "king"
+    },
+    {
+      "id": "char-010b7037b73a",
+      "en": "King of Israel",
+      "he": "מֶֽלֶךְ־יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "king of israel"
+      ],
+      "normalized_he_aliases": [
+        "מלך ישראל"
+      ],
+      "books": [
+        "1KI",
+        "2CH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "king"
+    },
+    {
+      "id": "char-3ca5ac1a6be0",
+      "en": "Zedekiah",
+      "he": "צִדְקִיָּהוּ",
+      "normalized_en_aliases": [
+        "zedekiah"
+      ],
+      "normalized_he_aliases": [
+        "צדקיהו"
+      ],
+      "books": [
+        "1KI",
+        "2CH"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "king"
+    },
+    {
+      "id": "char-022802792b7f",
+      "en": "Caleb",
+      "he": "כָלֵב",
+      "normalized_en_aliases": [
+        "caleb"
+      ],
+      "normalized_he_aliases": [
+        "כלב"
+      ],
+      "books": [
+        "JOS",
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "leader"
+    },
+    {
+      "id": "char-d139dfbe12d6",
+      "en": "Gates",
+      "he": "שְׁעָרִים",
+      "normalized_en_aliases": [
+        "gates"
+      ],
+      "normalized_he_aliases": [
+        "שערים"
+      ],
+      "books": [
+        "PSA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "other"
+    },
+    {
+      "id": "char-f0a242aa7fec",
+      "en": "Jerusalem",
+      "he": "ירושלים",
+      "normalized_en_aliases": [
+        "jerusalem"
+      ],
+      "normalized_he_aliases": [
+        "ירושלים"
+      ],
+      "books": [
+        "PSA",
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "other"
+    },
+    {
+      "id": "char-c6d3f8c0d81e",
+      "en": "Sea",
+      "he": "יָם",
+      "normalized_en_aliases": [
+        "sea"
+      ],
+      "normalized_he_aliases": [
+        "ים"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "other"
+    },
+    {
+      "id": "char-4aebe62dfa61",
+      "en": "Children of Israel",
+      "he": "בְנֵֽי־יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "children of israel"
+      ],
+      "normalized_he_aliases": [
+        "בני ישראל"
+      ],
+      "books": [
+        "NUM",
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-cd76c0d028af",
+      "en": "Edom",
+      "he": "אֱדוֹם",
+      "normalized_en_aliases": [
+        "edom"
+      ],
+      "normalized_he_aliases": [
+        "אדום"
+      ],
+      "books": [
+        "OBA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-7b45dfcf6e1f",
+      "en": "Judah",
+      "he": "יְהוּדָה",
+      "normalized_en_aliases": [
+        "judah"
+      ],
+      "normalized_he_aliases": [
+        "יהודה"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-237389b43c00",
+      "en": "People",
+      "he": "הַשְּׂמֵחִים לְלֹא דָבָר",
+      "normalized_en_aliases": [
+        "people"
+      ],
+      "normalized_he_aliases": [
+        "שמחים ללא דבר"
+      ],
+      "books": [
+        "AMO"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-a3a33657e2bb",
+      "en": "People",
+      "he": "עִם ישראל",
+      "normalized_en_aliases": [
+        "people"
+      ],
+      "normalized_he_aliases": [
+        "עם ישראל"
+      ],
+      "books": [
+        "ISA",
+        "JOE"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-22eca210558d",
+      "en": "wicked",
+      "he": "רשעים",
+      "normalized_en_aliases": [
+        "wicked"
+      ],
+      "normalized_he_aliases": [
+        "רשעים"
+      ],
+      "books": [
+        "PSA"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "people_group"
+    },
+    {
+      "id": "char-b458a6dbcb63",
+      "en": "Levites",
+      "he": "הַלְוִיִּם",
+      "normalized_en_aliases": [
+        "levites"
+      ],
+      "normalized_he_aliases": [
+        "לוים"
+      ],
+      "books": [
+        "DEU"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-c7f52760977c",
+      "en": "priests",
+      "he": "שָׂרֵי הַכֹּהֲנִים",
+      "normalized_en_aliases": [
+        "priests"
+      ],
+      "normalized_he_aliases": [
+        "שרי הכהנים"
+      ],
+      "books": [
+        "EZR"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-5d91ee65b9d1",
+      "en": "Elisha",
+      "he": "אֱלִישָׁע",
+      "normalized_en_aliases": [
+        "elisha"
+      ],
+      "normalized_he_aliases": [
+        "אלישע"
+      ],
+      "books": [
+        "1KI",
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "prophet"
+    },
+    {
+      "id": "char-c9e03d0a4b79",
+      "en": "Man of God",
+      "he": "אִישׁ הָֽאֱלֹהִים",
+      "normalized_en_aliases": [
+        "man of god"
+      ],
+      "normalized_he_aliases": [
+        "איש האלהים"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "prophet"
+    },
+    {
+      "id": "char-ffd24729fca1",
+      "en": "Samuel",
+      "he": "שְׁמוּאֵל",
+      "normalized_en_aliases": [
+        "samuel"
+      ],
+      "normalized_he_aliases": [
+        "שמואל"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 2,
+      "category": "prophet"
+    },
+    {
+      "id": "char-629480cd4059",
+      "en": "Zechariah",
+      "he": "זְכַרְיָה",
+      "normalized_en_aliases": [
+        "zechariah"
+      ],
+      "normalized_he_aliases": [
+        "זכריה"
+      ],
+      "books": [
+        "ZEC"
+      ],
+      "observed_fields": [
+        "listener",
+        "speaker"
+      ],
+      "count": 2,
+      "category": "prophet"
+    },
+    {
+      "id": "char-89e27348f12e",
+      "en": "Achsah",
+      "he": "עַכְסָה",
+      "normalized_en_aliases": [
+        "achsah"
+      ],
+      "normalized_he_aliases": [
+        "עכסה"
+      ],
+      "books": [
+        "JOS",
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 2,
+      "category": "woman"
+    },
+    {
+      "id": "char-e98f36f4a005",
+      "en": "Job's companions",
+      "he": "ידידיו",
+      "normalized_en_aliases": [
+        "jobs companions"
+      ],
+      "normalized_he_aliases": [
+        "ידידיו"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "companion_sidekick"
+    },
+    {
+      "id": "char-c5fc07fd6862",
+      "en": "Job's friends",
+      "he": "ידידיו",
+      "normalized_en_aliases": [
+        "jobs friends"
+      ],
+      "normalized_he_aliases": [
+        "ידידיו"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "companion_sidekick"
+    },
+    {
+      "id": "char-0025c7c2722a",
+      "en": "Rab-shakeh",
+      "he": "רַב־שָׁקֵה",
+      "normalized_en_aliases": [
+        "rab shakeh"
+      ],
+      "normalized_he_aliases": [
+        "רב שקה"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "enemy_foreigner"
+    },
+    {
+      "id": "char-c458dc376b6c",
+      "en": "Rabshakeh",
+      "he": "רַב שָׁקֵה",
+      "normalized_en_aliases": [
+        "rabshakeh"
+      ],
+      "normalized_he_aliases": [
+        "רב שקה"
+      ],
+      "books": [
+        "ISA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "enemy_foreigner"
+    },
+    {
+      "id": "char-8ffcb6c4676e",
+      "en": "Sanballat",
+      "he": "סַנְבַלַּט",
+      "normalized_en_aliases": [
+        "sanballat"
+      ],
+      "normalized_he_aliases": [
+        "סנבלט"
+      ],
+      "books": [
+        "NEH"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "enemy_foreigner"
+    },
+    {
+      "id": "char-13abbe2d5329",
+      "en": "Tobiah",
+      "he": "טוֹבִיָּה",
+      "normalized_en_aliases": [
+        "tobiah"
+      ],
+      "normalized_he_aliases": [
+        "טוביה"
+      ],
+      "books": [
+        "NEH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "enemy_foreigner"
+    },
+    {
+      "id": "char-d5cfc41d29a3",
+      "en": "Absalom",
+      "he": "אַבְשָׁלוֹם",
+      "normalized_en_aliases": [
+        "absalom"
+      ],
+      "normalized_he_aliases": [
+        "אבשלום"
+      ],
+      "books": [
+        "2SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-14fe86b9efca",
+      "en": "Adam",
+      "he": "אדם",
+      "normalized_en_aliases": [
+        "adam"
+      ],
+      "normalized_he_aliases": [
+        "אדם"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-0154241e3285",
+      "en": "Adam and Eve",
+      "he": "אָדָם וחוה",
+      "normalized_en_aliases": [
+        "adam and eve"
+      ],
+      "normalized_he_aliases": [
+        "אדם וחוה"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-8f31db8dac6a",
+      "en": "brethren of Ahaziah",
+      "he": "אֲחֵי אֲחַזְיָהוּ",
+      "normalized_en_aliases": [
+        "brethren of ahaziah"
+      ],
+      "normalized_he_aliases": [
+        "אחי אחזיהו"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-1c438b32ea8f",
+      "en": "Cain",
+      "he": "קָיִן",
+      "normalized_en_aliases": [
+        "cain"
+      ],
+      "normalized_he_aliases": [
+        "קין"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-0f3ef523c877",
+      "en": "Elkanah",
+      "he": "אֶלְקָנָה",
+      "normalized_en_aliases": [
+        "elkanah"
+      ],
+      "normalized_he_aliases": [
+        "אלקנה"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-8501a19072e6",
+      "en": "Esau",
+      "he": "עֵשָׂו",
+      "normalized_en_aliases": [
+        "esau"
+      ],
+      "normalized_he_aliases": [
+        "עשו"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-f517d5de813b",
+      "en": "Jonathan",
+      "he": "יְהוֹנָתָן",
+      "normalized_en_aliases": [
+        "jonathan"
+      ],
+      "normalized_he_aliases": [
+        "יהונתן"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-0d4b68c9afc6",
+      "en": "Joseph's sons",
+      "he": "בְּנֵי יוֹסֵף",
+      "normalized_en_aliases": [
+        "josephs sons"
+      ],
+      "normalized_he_aliases": [
+        "בני יוסף"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-f9c84d8c05d4",
+      "en": "Manoah",
+      "he": "מָנוֹחַ",
+      "normalized_en_aliases": [
+        "manoah"
+      ],
+      "normalized_he_aliases": [
+        "מנוח"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-0d54eec2aa27",
+      "en": "Reuel",
+      "he": "רְעוּאֵל",
+      "normalized_en_aliases": [
+        "reuel"
+      ],
+      "normalized_he_aliases": [
+        "רעואל"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "family"
+    },
+    {
+      "id": "char-e96401d644c4",
+      "en": "King Darius",
+      "he": "דָּרְיָוֶשׁ מַלְכָּא",
+      "normalized_en_aliases": [
+        "king darius"
+      ],
+      "normalized_he_aliases": [
+        "דריוש מלכא"
+      ],
+      "books": [
+        "DAN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-f309ddb448cf",
+      "en": "King of Assyria",
+      "he": "מֶלֶךְ אַשּׁוּר",
+      "normalized_en_aliases": [
+        "king of assyria"
+      ],
+      "normalized_he_aliases": [
+        "מלך אשור"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-846636dda672",
+      "en": "King of Moab",
+      "he": "מֶלֶךְ מוֹאָב",
+      "normalized_en_aliases": [
+        "king of moab"
+      ],
+      "normalized_he_aliases": [
+        "מלך מואב"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-cec52edba862",
+      "en": "King of Nineveh",
+      "he": "מֶלֶך נִֽינְוֵה",
+      "normalized_en_aliases": [
+        "king of nineveh"
+      ],
+      "normalized_he_aliases": [
+        "מלך נינוה"
+      ],
+      "books": [
+        "JON"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-e0e4707eac34",
+      "en": "Nebuchadnezzar",
+      "he": "נְבוּכַדְנֶצַּר",
+      "normalized_en_aliases": [
+        "nebuchadnezzar"
+      ],
+      "normalized_he_aliases": [
+        "נבוכדנצר"
+      ],
+      "books": [
+        "DAN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-8a2f6d7985d7",
+      "en": "Sennacherib",
+      "he": "סַנְחֵרִיב",
+      "normalized_en_aliases": [
+        "sennacherib"
+      ],
+      "normalized_he_aliases": [
+        "סנחריב"
+      ],
+      "books": [
+        "2CH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "foreign_king"
+    },
+    {
+      "id": "char-f6a5784e2512",
+      "en": "Ahab",
+      "he": "אַחְאָב",
+      "normalized_en_aliases": [
+        "ahab"
+      ],
+      "normalized_he_aliases": [
+        "אחאב"
+      ],
+      "books": [
+        "1KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-fe3807581cb9",
+      "en": "Hazael",
+      "he": "חֲזָאֵל",
+      "normalized_en_aliases": [
+        "hazael"
+      ],
+      "normalized_he_aliases": [
+        "חזאל"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-4535e1e191da",
+      "en": "Hiram",
+      "he": "חוּרָם",
+      "normalized_en_aliases": [
+        "hiram"
+      ],
+      "normalized_he_aliases": [
+        "חורם"
+      ],
+      "books": [
+        "2CH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-a85afa3c13fd",
+      "en": "Hiram",
+      "he": "חירם",
+      "normalized_en_aliases": [
+        "hiram"
+      ],
+      "normalized_he_aliases": [
+        "חירם"
+      ],
+      "books": [
+        "1KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-33792bab8b68",
+      "en": "King David",
+      "he": "דָּוִד הַמֶּלֶךְ",
+      "normalized_en_aliases": [
+        "king david"
+      ],
+      "normalized_he_aliases": [
+        "דוד המלך"
+      ],
+      "books": [
+        "2SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-728bfecaf93a",
+      "en": "King Josiah",
+      "he": "יֹאשִׁיָּהוּ",
+      "normalized_en_aliases": [
+        "king josiah"
+      ],
+      "normalized_he_aliases": [
+        "יאשיהו"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-5eecde6f2271",
+      "en": "Zedekiah",
+      "he": "צִדְקִיָּה",
+      "normalized_en_aliases": [
+        "zedekiah"
+      ],
+      "normalized_he_aliases": [
+        "צדקיה"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "king"
+    },
+    {
+      "id": "char-e967d5bed200",
+      "en": "Boaz",
+      "he": "בועז",
+      "normalized_en_aliases": [
+        "boaz"
+      ],
+      "normalized_he_aliases": [
+        "בועז"
+      ],
+      "books": [
+        "RUT"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-073527334f5c",
+      "en": "Captain of fifty",
+      "he": "שַׂר־חֲמִשִּׁים",
+      "normalized_en_aliases": [
+        "captain of fifty"
+      ],
+      "normalized_he_aliases": [
+        "שר חמשים"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-b92085f30385",
+      "en": "Moses and Aaron",
+      "he": "מֹשֶׁה וְאַהֲרֹן",
+      "normalized_en_aliases": [
+        "moses and aaron"
+      ],
+      "normalized_he_aliases": [
+        "משה ואהרן"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-3ec0b9a6f1d3",
+      "en": "Nehemiah",
+      "he": "נחמיה",
+      "normalized_en_aliases": [
+        "nehemiah"
+      ],
+      "normalized_he_aliases": [
+        "נחמיה"
+      ],
+      "books": [
+        "NEH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-f492a234c219",
+      "en": "Princes of Israel",
+      "he": "נשיאי יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "princes of israel"
+      ],
+      "normalized_he_aliases": [
+        "נשיאי ישראל"
+      ],
+      "books": [
+        "1CH"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-3a058980afa2",
+      "en": "rulers of Jezreel",
+      "he": "שָׂרֵי יִזְרְעֶאל",
+      "normalized_en_aliases": [
+        "rulers of jezreel"
+      ],
+      "normalized_he_aliases": [
+        "שרי יזרעאל"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-ec89674f11c9",
+      "en": "Samson",
+      "he": "שִׁמְשׁוֹן",
+      "normalized_en_aliases": [
+        "samson"
+      ],
+      "normalized_he_aliases": [
+        "שמשון"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "leader"
+    },
+    {
+      "id": "char-6dfc63cd974e",
+      "en": "Eliphaz",
+      "he": "אֱלִיפַז הַֽתֵּמָנִי",
+      "normalized_en_aliases": [
+        "eliphaz"
+      ],
+      "normalized_he_aliases": [
+        "אליפז התמני"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "other"
+    },
+    {
+      "id": "char-8629d9cabd94",
+      "en": "Messengers",
+      "he": "הַמַּלְאָכִים",
+      "normalized_en_aliases": [
+        "messengers"
+      ],
+      "normalized_he_aliases": [
+        "מלאכים"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "other"
+    },
+    {
+      "id": "char-b3c75442c560",
+      "en": "Naaman",
+      "he": "נַעֲמָֽן",
+      "normalized_en_aliases": [
+        "naaman"
+      ],
+      "normalized_he_aliases": [
+        "נעמן"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "other"
+    },
+    {
+      "id": "char-08076a14b115",
+      "en": "Zophar",
+      "he": "צופר",
+      "normalized_en_aliases": [
+        "zophar"
+      ],
+      "normalized_he_aliases": [
+        "צופר"
+      ],
+      "books": [
+        "JOB"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "other"
+    },
+    {
+      "id": "char-99d1729bef52",
+      "en": "Absalom's servants",
+      "he": "עַבְדֵי אַבְשָׁלוֹם",
+      "normalized_en_aliases": [
+        "absaloms servants"
+      ],
+      "normalized_he_aliases": [
+        "עבדי אבשלום"
+      ],
+      "books": [
+        "2SA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-74e0af227d5a",
+      "en": "children of Benjamin",
+      "he": "בְּנֵי בִנְיָמִן",
+      "normalized_en_aliases": [
+        "children of benjamin"
+      ],
+      "normalized_he_aliases": [
+        "בני בנימן"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-8e97a57c6b63",
+      "en": "congregation of the LORD",
+      "he": "עֲדַת יְהוָה",
+      "normalized_en_aliases": [
+        "congregation of the lord"
+      ],
+      "normalized_he_aliases": [
+        "עדת יהוה"
+      ],
+      "books": [
+        "JOS"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-7c84addac3e6",
+      "en": "Egyptians",
+      "he": "מִצְרָיִם",
+      "normalized_en_aliases": [
+        "egyptians"
+      ],
+      "normalized_he_aliases": [
+        "מצרים"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-ffde50a91002",
+      "en": "five men",
+      "he": "חֲמֵשֶׁת הָאֲנָשִׁים",
+      "normalized_en_aliases": [
+        "five men"
+      ],
+      "normalized_he_aliases": [
+        "חמשת האנשים"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-ecad49c98164",
+      "en": "Hivites",
+      "he": "החיוים",
+      "normalized_en_aliases": [
+        "hivites"
+      ],
+      "normalized_he_aliases": [
+        "חיוים"
+      ],
+      "books": [
+        "JOS"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-1d16f0de902e",
+      "en": "inhabitant of Moab",
+      "he": "יוֹשֵׁב מוֹאָב",
+      "normalized_en_aliases": [
+        "inhabitant of moab"
+      ],
+      "normalized_he_aliases": [
+        "יושב מואב"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-aada3222a263",
+      "en": "Islands",
+      "he": "אִיִּים",
+      "normalized_en_aliases": [
+        "islands"
+      ],
+      "normalized_he_aliases": [
+        "איים"
+      ],
+      "books": [
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-8253f4e60763",
+      "en": "Israel",
+      "he": "עם יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "israel"
+      ],
+      "normalized_he_aliases": [
+        "עם ישראל"
+      ],
+      "books": [
+        "JOS"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-5d53860543d2",
+      "en": "Israelite officers",
+      "he": "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "israelite officers"
+      ],
+      "normalized_he_aliases": [
+        "שטרי בני ישראל"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-2d1ea1a517bd",
+      "en": "Men of Israel",
+      "he": "יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "men of israel"
+      ],
+      "normalized_he_aliases": [
+        "ישראל"
+      ],
+      "books": [
+        "DEU"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-94e3638b1c0a",
+      "en": "men of Judah",
+      "he": "אִישׁ יְהוּדָה",
+      "normalized_en_aliases": [
+        "men of judah"
+      ],
+      "normalized_he_aliases": [
+        "איש יהודה"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-323e3191a4ff",
+      "en": "men of Judah and inhabitants of Jerusalem",
+      "he": "אנשי יְהוּדָה וירושלם",
+      "normalized_en_aliases": [
+        "men of judah and inhabitants of jerusalem"
+      ],
+      "normalized_he_aliases": [
+        "אנשי יהודה וירושלם"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-c2b26e785a52",
+      "en": "men of Sodom",
+      "he": "אַנְשֵׁי סְדֹם",
+      "normalized_en_aliases": [
+        "men of sodom"
+      ],
+      "normalized_he_aliases": [
+        "אנשי סדם"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-c9b4ef6562c6",
+      "en": "Midianite daughters",
+      "he": "בָּנוֹת מִדְיָן",
+      "normalized_en_aliases": [
+        "midianite daughters"
+      ],
+      "normalized_he_aliases": [
+        "בנות מדין"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-8f5861c25a11",
+      "en": "mighty men",
+      "he": "גִּבָּֽרֵי־חַיִל",
+      "normalized_en_aliases": [
+        "mighty men"
+      ],
+      "normalized_he_aliases": [
+        "גברי חיל"
+      ],
+      "books": [
+        "DAN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-842deb0b87bb",
+      "en": "nations",
+      "he": "הַגּוֹיִם",
+      "normalized_en_aliases": [
+        "nations"
+      ],
+      "normalized_he_aliases": [
+        "גוים"
+      ],
+      "books": [
+        "HAG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-d86df2c31814",
+      "en": "people",
+      "he": "בְנֵי אָדָֽם",
+      "normalized_en_aliases": [
+        "people"
+      ],
+      "normalized_he_aliases": [
+        "בני אדם"
+      ],
+      "books": [
+        "PSA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-4b261cf6e660",
+      "en": "People and animals of Nineveh",
+      "he": "אַנְשֵׁי נִֽינְוֵה",
+      "normalized_en_aliases": [
+        "people and animals of nineveh"
+      ],
+      "normalized_he_aliases": [
+        "אנשי נינוה"
+      ],
+      "books": [
+        "JON"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-e74cb3da94cf",
+      "en": "People of Israel",
+      "he": "עם ישראל",
+      "normalized_en_aliases": [
+        "people of israel"
+      ],
+      "normalized_he_aliases": [
+        "עם ישראל"
+      ],
+      "books": [
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-7dfcea23f4fc",
+      "en": "People of Jerusalem",
+      "he": "עם ירושלים",
+      "normalized_en_aliases": [
+        "people of jerusalem"
+      ],
+      "normalized_he_aliases": [
+        "עם ירושלים"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-1d4b0ed3b343",
+      "en": "People of Zion",
+      "he": "עַם צִיּוֹן",
+      "normalized_en_aliases": [
+        "people of zion"
+      ],
+      "normalized_he_aliases": [
+        "עם ציון"
+      ],
+      "books": [
+        "ISA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-d57905740fff",
+      "en": "Pharaoh's officers",
+      "he": "סְרִיסֵי פַרְעֹה",
+      "normalized_en_aliases": [
+        "pharaohs officers"
+      ],
+      "normalized_he_aliases": [
+        "סריסי פרעה"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-0a74f62706aa",
+      "en": "poor of the flock",
+      "he": "עֲנִיֵּי הַצֹּאן",
+      "normalized_en_aliases": [
+        "poor of the flock"
+      ],
+      "normalized_he_aliases": [
+        "עניי הצאן"
+      ],
+      "books": [
+        "ZEC"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-a5d37950e9a0",
+      "en": "presidents and princes",
+      "he": "סָרְכַיָּא וַאֲחַשְׁדַּרְפְּנַיָּא",
+      "normalized_en_aliases": [
+        "presidents and princes"
+      ],
+      "normalized_he_aliases": [
+        "סרכיא ואחשדרפניא"
+      ],
+      "books": [
+        "DAN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-a6f25f2f07a5",
+      "en": "remnant",
+      "he": "הַשְּׁאֵרִית",
+      "normalized_en_aliases": [
+        "remnant"
+      ],
+      "normalized_he_aliases": [
+        "שארית"
+      ],
+      "books": [
+        "JER"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-83913e1feae7",
+      "en": "Tribe of Benjamin",
+      "he": "שִׁבְטֵי בִנְיָמִן",
+      "normalized_en_aliases": [
+        "tribe of benjamin"
+      ],
+      "normalized_he_aliases": [
+        "שבטי בנימן"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-06aaf04be503",
+      "en": "Tribes of Israel",
+      "he": "שִׁבְטֵי יִשְׂרָאֵל",
+      "normalized_en_aliases": [
+        "tribes of israel"
+      ],
+      "normalized_he_aliases": [
+        "שבטי ישראל"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "people_group"
+    },
+    {
+      "id": "char-28a4977e35c5",
+      "en": "Eli",
+      "he": "עֵלִי",
+      "normalized_en_aliases": [
+        "eli"
+      ],
+      "normalized_he_aliases": [
+        "עלי"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-7598de77093e",
+      "en": "Priests",
+      "he": "הַכֹּהֲנִים",
+      "normalized_en_aliases": [
+        "priests"
+      ],
+      "normalized_he_aliases": [
+        "כהנים"
+      ],
+      "books": [
+        "JOS"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-876c30d926f7",
+      "en": "priests and diviners",
+      "he": "כֹּהֲנִים וְלַקֹּֽסְמִים",
+      "normalized_en_aliases": [
+        "priests and diviners"
+      ],
+      "normalized_he_aliases": [
+        "נים ולקסמים"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "priest_levite"
+    },
+    {
+      "id": "char-675cb9addb65",
+      "en": "Amos",
+      "he": "עמוס",
+      "normalized_en_aliases": [
+        "amos"
+      ],
+      "normalized_he_aliases": [
+        "עמוס"
+      ],
+      "books": [
+        "ISA"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-8dfa86dfd8f4",
+      "en": "Balaam",
+      "he": "בלאעם",
+      "normalized_en_aliases": [
+        "balaam"
+      ],
+      "normalized_he_aliases": [
+        "בלאעם"
+      ],
+      "books": [
+        "NUM"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-7da71b3a7a0a",
+      "en": "Daniel",
+      "he": "דָּנִיֵּאל",
+      "normalized_en_aliases": [
+        "daniel"
+      ],
+      "normalized_he_aliases": [
+        "דניאל"
+      ],
+      "books": [
+        "DAN"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-49a9c5c2dc9e",
+      "en": "Elijah",
+      "he": "אֵלִיָּֽה",
+      "normalized_en_aliases": [
+        "elijah"
+      ],
+      "normalized_he_aliases": [
+        "אליה"
+      ],
+      "books": [
+        "2KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-0eaa596fde29",
+      "en": "Elijah",
+      "he": "אֵלִיָּהוּ",
+      "normalized_en_aliases": [
+        "elijah"
+      ],
+      "normalized_he_aliases": [
+        "אליהו"
+      ],
+      "books": [
+        "1KI"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-f3a1efd803d9",
+      "en": "Jonah",
+      "he": "יוֹנָה",
+      "normalized_en_aliases": [
+        "jonah"
+      ],
+      "normalized_he_aliases": [
+        "יונה"
+      ],
+      "books": [
+        "JON"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-c0cee4b8caf3",
+      "en": "Micah",
+      "he": "מִיכָה",
+      "normalized_en_aliases": [
+        "micah"
+      ],
+      "normalized_he_aliases": [
+        "מיכה"
+      ],
+      "books": [
+        "JDG"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-38c79a74719c",
+      "en": "Nathan",
+      "he": "נָתָן",
+      "normalized_en_aliases": [
+        "nathan"
+      ],
+      "normalized_he_aliases": [
+        "נתן"
+      ],
+      "books": [
+        "1CH"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "prophet"
+    },
+    {
+      "id": "char-645f3baa2f8f",
+      "en": "Esther",
+      "he": "אֶסְתֵּר",
+      "normalized_en_aliases": [
+        "esther"
+      ],
+      "normalized_he_aliases": [
+        "אסתר"
+      ],
+      "books": [
+        "EST"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-7eae7b3c7ab9",
+      "en": "Hannah",
+      "he": "חַנָּה",
+      "normalized_en_aliases": [
+        "hannah"
+      ],
+      "normalized_he_aliases": [
+        "חנה"
+      ],
+      "books": [
+        "1SA"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-9340c5186faa",
+      "en": "Jeroboam's wife",
+      "he": "אֵשֶׁת יָרָבְעָם",
+      "normalized_en_aliases": [
+        "jeroboams wife"
+      ],
+      "normalized_he_aliases": [
+        "אשת ירבעם"
+      ],
+      "books": [
+        "1KI"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-053918bfd895",
+      "en": "Pharaoh's daughter",
+      "he": "בַּת־פַּרְעֹה",
+      "normalized_en_aliases": [
+        "pharaohs daughter"
+      ],
+      "normalized_he_aliases": [
+        "בת פרעה"
+      ],
+      "books": [
+        "EXO"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-634dd5df4c0f",
+      "en": "Rahab",
+      "he": "רָחָב",
+      "normalized_en_aliases": [
+        "rahab"
+      ],
+      "normalized_he_aliases": [
+        "רחב"
+      ],
+      "books": [
+        "JOS"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-36924787761e",
+      "en": "Rebekah",
+      "he": "רִבְקָה",
+      "normalized_en_aliases": [
+        "rebekah"
+      ],
+      "normalized_he_aliases": [
+        "רבקה"
+      ],
+      "books": [
+        "GEN"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-2d557b47218e",
+      "en": "Ruth",
+      "he": "רוּת",
+      "normalized_en_aliases": [
+        "ruth"
+      ],
+      "normalized_he_aliases": [
+        "רות"
+      ],
+      "books": [
+        "RUT"
+      ],
+      "observed_fields": [
+        "listener"
+      ],
+      "count": 1,
+      "category": "woman"
+    },
+    {
+      "id": "char-1283a5bbcfe7",
+      "en": "Shulammite woman",
+      "he": "השולמית",
+      "normalized_en_aliases": [
+        "shulammite woman"
+      ],
+      "normalized_he_aliases": [
+        "שולמית"
+      ],
+      "books": [
+        "SON"
+      ],
+      "observed_fields": [
+        "speaker"
+      ],
+      "count": 1,
+      "category": "woman"
+    }
+  ]
+}

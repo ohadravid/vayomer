@@ -1,0 +1,101 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "judges-01-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 1,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife. And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?",
+        "riddle": "What wilt thou?",
+        "speaker": "Caleb",
+        "listener": "Achsah",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Samson",
+            "Manoah",
+            "Abimelech"
+          ],
+          "listener": [
+            "Naomi",
+            "Ruth",
+            "Abimelech"
+          ]
+        },
+        "bonus": "daughter",
+        "bonus_hint": {
+          "quote": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב הַקָּטֹן מִמֶּנּוּ וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
+        "riddle": "מַה־לָּֽךְ",
+        "speaker": "כָלֵב",
+        "listener": "עַכְסָה",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "שִׁמְשׁוֹן",
+            "מָנוֹחַ",
+            "אֲבִימֶלֶךְ"
+          ],
+          "listener": [
+            "נָעֳמִי",
+            "רוּת",
+            "אֲבִימֶלֶךְ"
+          ]
+        },
+        "bonus": "בִתּוֹ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 29,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife.",
+          "14": "And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?"
+        },
+        "he": {
+          "13": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב הַקָּטֹן מִמֶּנּוּ וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה׃",
+          "14": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

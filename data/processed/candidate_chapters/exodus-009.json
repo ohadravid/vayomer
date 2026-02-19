@@ -1,0 +1,100 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-09-08-08",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses and unto Aaron, Take to you handfuls of ashes of the furnace, and let Moses sprinkle it toward the heaven in the sight of Pharaoh.",
+        "riddle": "and let Moses sprinkle it toward the heaven in the sight of Pharaoh.",
+        "speaker": "LORD",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה לְעֵינֵי פַרְעֹֽה",
+        "riddle": "קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה ואהרן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the LORD said unto Moses and unto Aaron, Take to you handfuls of ashes of the furnace, and let Moses sprinkle it toward the heaven in the sight of Pharaoh."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה לְעֵינֵי פַרְעֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a vivid command.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "exodus-09-27-27",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+        "riddle": "the LORD is righteous, and I and my people are wicked.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה ואהרן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked."
+        },
+        "he": {
+          "27": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a vivid confession.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 27,
+        "end": 27
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 16,
+    "prefiltered_count": 0,
+    "llm_window_count": 16,
+    "kept_count": 2,
+    "issue_count": 14
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-03-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 3,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And Moses said unto God, Behold, when I come unto the children of Israel, and shall say unto them, The God of your fathers hath sent me unto you; and they shall say to me, What is his name? what shall I say unto them?",
+        "riddle": "What is his name? what shall I say unto them?",
+        "speaker": "Moses",
+        "listener": "God",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Israel",
+            "people",
+            "Philistines"
+          ],
+          "listener": [
+            "Pharaoh",
+            "Balaam",
+            "Israel"
+          ]
+        },
+        "bonus": "fathers",
+        "bonus_hint": {
+          "quote": "And Joshua said unto the children of Israel, How long are ye slack to go to possess the land, which the LORD God of your fathers hath given you?",
+          "source": {
+            "book": "Joshua",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־הָֽאֱלֹהִים הִנֵּה אָנֹכִי בָא אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתִּי לָהֶם אֱלֹהֵי אֲבוֹתֵיכֶם שְׁלָחַנִי אֲלֵיכֶם וְאָֽמְרוּ־לִי מַה־שְּׁמוֹ מָה אֹמַר אֲלֵהֶֽם",
+        "riddle": "מַה־שְּׁמוֹ מָה",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יִשְׂרָאֵל",
+            "הָעָם",
+            "פְּלִשְׁתִּֽים"
+          ],
+          "listener": [
+            "פַרְעֹה",
+            "בִּלְעָם",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "אֲבוֹתֵיכֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל עַד־אָנָה אַתֶּם מִתְרַפִּים לָבוֹא לָרֶשֶׁת אֶת־הָאָרֶץ אֲשֶׁר נָתַן לָכֶם יְהוָה אֱלֹהֵי אֲבֽוֹתֵיכֶֽם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Moses said unto God, Behold, when I come unto the children of Israel, and shall say unto them, The God of your fathers hath sent me unto you; and they shall say to me, What is his name? what shall I say unto them?"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מֹשֶׁה אֶל־הָֽאֱלֹהִים הִנֵּה אָנֹכִי בָא אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתִּי לָהֶם אֱלֹהֵי אֲבוֹתֵיכֶם שְׁלָחַנִי אֲלֵיכֶם וְאָֽמְרוּ־לִי מַה־שְּׁמוֹ מָה אֹמַר אֲלֵהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 13,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

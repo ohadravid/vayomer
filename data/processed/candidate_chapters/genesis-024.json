@@ -1,0 +1,142 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 24,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-24-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher.",
+        "riddle": "drink a little water of thy pitcher.",
+        "speaker": "servant",
+        "listener": "woman",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ",
+        "riddle": "מַיִם מִכַּדֵּֽךְ",
+        "speaker": "עבד",
+        "listener": "אישה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher."
+        },
+        "he": {
+          "17": "וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech request.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-24-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink.",
+        "riddle": "And she said, Drink, my lord: and she hasted",
+        "speaker": "Rebekah",
+        "listener": "Servant of Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ",
+        "riddle": "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר",
+        "speaker": "רבקה",
+        "listener": "עבד אברהם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink."
+        },
+        "he": {
+          "18": "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech and action",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-24-34-34",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34
+      },
+      "en": {
+        "quote": "And he said, I am Abraham's servant.",
+        "riddle": "I am Abraham's servant.",
+        "speaker": "Servant of Abraham",
+        "listener": "Rebekka's messenger",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר עֶבֶד אַבְרָהָם אָנֹֽכִי",
+        "riddle": "עֶבֶד אַבְרָהָם אָנֹֽכִי",
+        "speaker": "עֶבֶד אַבְרָהָם",
+        "listener": "שליח רבקה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And he said, I am Abraham's servant."
+        },
+        "he": {
+          "34": "וַיֹּאמַר עֶבֶד אַבְרָהָם אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct, memorable identification.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 34,
+        "end": 34
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 50,
+    "prefiltered_count": 0,
+    "llm_window_count": 50,
+    "kept_count": 3,
+    "issue_count": 47
+  }
+}

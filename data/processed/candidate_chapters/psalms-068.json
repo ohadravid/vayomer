@@ -1,0 +1,58 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 68,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-68-28-28",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 68,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "Thy God hath commanded thy strength: strengthen, O God, that which thou hast wrought for us.",
+        "riddle": "strengthen, O God, that which thou hast wrought for us.",
+        "speaker": "Speaker",
+        "listener": "God",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "שָׁם בִּנְיָמִן צָעִיר רֹדֵם שָׂרֵי יְהוּדָה רִגְמָתָם שָׂרֵי זְבֻלוּן שָׂרֵי נַפְתָּלִֽי",
+        "riddle": "שָׁם בִּנְיָמִן צָעִיר רֹדֵם שָׂרֵי יְהוּדָה רִגְמָתָם שָׂרֵי זְבֻלוּן שָׂרֵי נַפְתָּלִֽי",
+        "speaker": "דובר",
+        "listener": "אלוהים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Thy God hath commanded thy strength: strengthen, O God, that which thou hast wrought for us."
+        },
+        "he": {
+          "28": "שָׁם בִּנְיָמִן ׀ צָעִיר רֹדֵם שָׂרֵי יְהוּדָה רִגְמָתָם שָׂרֵי זְבֻלוּן שָׂרֵי נַפְתָּלִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct prayer/command.",
+        "confidence": 0.8
+      },
+      "ref": {
+        "chapter": 68,
+        "start": 28,
+        "end": 28
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 7,
+    "prefiltered_count": 0,
+    "llm_window_count": 7,
+    "kept_count": 1,
+    "issue_count": 6
+  }
+}

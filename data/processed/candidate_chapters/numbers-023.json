@@ -1,0 +1,100 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 23,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-23-12-12",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And he answered and said, Must I not take heed to speak that which the LORD hath put in my mouth?",
+        "riddle": "Must I not take heed to speak that which the LORD hath put in my mouth?",
+        "speaker": "Balaam",
+        "listener": "Implicit",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיַּעַן וַיֹּאמַר הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר",
+        "riddle": "הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר",
+        "speaker": "בלאעם",
+        "listener": "לא ידוע",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And he answered and said, Must I not take heed to speak that which the LORD hath put in my mouth?"
+        },
+        "he": {
+          "12": "וַיַּעַן וַיֹּאמַר הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "numbers-23-17-17",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And when he came to him, behold, he stood by his burnt offering, and the princes of Moab with him. And Balak said unto him, What hath the LORD spoken?",
+        "riddle": "What hath the LORD spoken?",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֵלָיו וְהִנּוֹ נִצָּב עַל־עֹלָתוֹ וְשָׂרֵי מוֹאָב אִתּוֹ וַיֹּאמֶר לוֹ בָּלָק מַה־דִּבֶּר יְהוָֽה",
+        "riddle": "מַה־דִּבֶּר יְהוָֽה",
+        "speaker": "בָּלָק",
+        "listener": "בלעם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when he came to him, behold, he stood by his burnt offering, and the princes of Moab with him. And Balak said unto him, What hath the LORD spoken?"
+        },
+        "he": {
+          "17": "וַיָּבֹא אֵלָיו וְהִנּוֹ נִצָּב עַל־עֹלָתוֹ וְשָׂרֵי מוֹאָב אִתּוֹ וַיֹּאמֶר לוֹ בָּלָק מַה־דִּבֶּר יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question from Balak",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 28,
+    "prefiltered_count": 0,
+    "llm_window_count": 28,
+    "kept_count": 2,
+    "issue_count": 26
+  }
+}

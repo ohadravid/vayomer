@@ -1,0 +1,97 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 49,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-49-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 49,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Hear this, all ye people; give ear, all ye inhabitants of the world: Both low and high, rich and poor, together. My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding. I will incline mine ear to a parable: I will open my dark saying upon the harp.",
+        "riddle": "I will open my dark saying upon the harp.",
+        "speaker": "Psalmist",
+        "listener": "inhabitants of the world",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Israel",
+            "brethren of Ahaziah",
+            "Rabshakeh"
+          ],
+          "listener": []
+        },
+        "bonus": "ear",
+        "bonus_hint": {
+          "quote": "Give ear to my words, O LORD, consider my meditation.",
+          "source": {
+            "book": "Psalms",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "לַמְנַצֵּחַ לִבְנֵי־קֹרַח מִזְמֽוֹר שִׁמְעוּ־זֹאת כָּל־הָֽעַמִּים הַאֲזִינוּ כָּל־יֹשְׁבֵי חָֽלֶד גַּם־בְּנֵי אָדָם גַּם־בְּנֵי־אִישׁ יַחַד עָשִׁיר וְאֶבְיֽוֹן פִּי יְדַבֵּר חָכְמוֹת וְהָגוּת לִבִּי תְבוּנֽוֹת",
+        "riddle": "פִּי יְדַבֵּר חָכְמוֹת וְהָגוּת לִבִּי תְבוּנֽוֹת",
+        "speaker": "בְּנֵי קֹרַח",
+        "listener": "כָּל־הָֽעַמִּים",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "יִשְׂרָאֵל",
+            "אֲחֵי אֲחַזְיָהוּ",
+            "רַב־שָׁקֵה"
+          ],
+          "listener": []
+        },
+        "bonus": "לַמְנַצֵּחַ",
+        "bonus_hint": {
+          "quote": "לַמְנַצֵּחַ אֶֽל־הַנְּחִילוֹת מִזְמוֹר לְדָוִֽד",
+          "source": {
+            "book": "תהילים",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Hear this, all ye people; give ear, all ye inhabitants of the world:",
+          "2": "Both low and high, rich and poor, together.",
+          "3": "My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding.",
+          "4": "I will incline mine ear to a parable: I will open my dark saying upon the harp."
+        },
+        "he": {
+          "1": "לַמְנַצֵּחַ ׀ לִבְנֵי־קֹרַח מִזְמֽוֹר׃",
+          "2": "שִׁמְעוּ־זֹאת כָּל־הָֽעַמִּים הַאֲזִינוּ כָּל־יֹשְׁבֵי חָֽלֶד׃",
+          "3": "גַּם־בְּנֵי אָדָם גַּם־בְּנֵי־אִישׁ יַחַד עָשִׁיר וְאֶבְיֽוֹן׃",
+          "4": "פִּי יְדַבֵּר חָכְמוֹת וְהָגוּת לִבִּי תְבוּנֽוֹת׃"
+        }
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

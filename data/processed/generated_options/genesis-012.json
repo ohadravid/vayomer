@@ -1,0 +1,101 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-12-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And Pharaoh called Abram, and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife? Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
+        "riddle": "Why saidst thou, She is my sister",
+        "speaker": "Pharaoh",
+        "listener": "Abram",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Balak",
+            "Abimelech",
+            "King of Assyria"
+          ],
+          "listener": [
+            "Jacob",
+            "Abimelech",
+            "Joseph"
+          ]
+        },
+        "bonus": "take",
+        "bonus_hint": {
+          "quote": "And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא פַרְעֹה לְאַבְרָם וַיֹּאמֶר מַה־זֹּאת עָשִׂיתָ לִּי לָמָּה לֹא־הִגַּדְתָּ לִּי כִּי אִשְׁתְּךָ הִֽוא לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
+        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי",
+        "speaker": "פַרְעֹה",
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בָלָק",
+            "אֲבִימֶלֶךְ",
+            "מֶלֶךְ אַשּׁוּר"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "אֲבִימֶלֶךְ",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "קַח",
+        "bonus_hint": {
+          "quote": "וְאַתָּה קַח־לְךָ מִכָּל־מַֽאֲכָל אֲשֶׁר יֵֽאָכֵל וְאָסַפְתָּ אֵלֶיךָ וְהָיָה לְךָ וְלָהֶם לְאָכְלָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Pharaoh called Abram, and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife?",
+          "19": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way."
+        },
+        "he": {
+          "18": "וַיִּקְרָא פַרְעֹה לְאַבְרָם וַיֹּאמֶר מַה־זֹּאת עָשִׂיתָ לִּי לָמָּה לֹא־הִגַּדְתָּ לִּי כִּי אִשְׁתְּךָ הִֽוא׃",
+          "19": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 18,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 8,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-08-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 8,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And he settled his countenance stedfastly, until he was ashamed: and the man of God wept. And Hazael said, Why weepeth my lord? And he answered, Because I know the evil that thou wilt do unto the children of Israel: their strong holds wilt thou set on fire, and their young men wilt thou slay with the sword, and wilt dash their children, and rip up their women with child.",
+        "riddle": "Why weepeth my lord?",
+        "speaker": "Hazael",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wept",
+        "bonus_hint": {
+          "quote": "And Esau said unto his father, Hast thou but one blessing, my father? bless me, even me also, O my father. And Esau lifted up his voice, and wept.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 38,
+            "end": 38
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעֲמֵד אֶת־פָּנָיו וַיָּשֶׂם עַד־בֹּשׁ וַיֵּבְךְּ אִישׁ הָאֱלֹהִֽים וַיֹּאמֶר חֲזָאֵל מַדּוּעַ אֲדֹנִי בֹכֶה וַיֹּאמֶר כִּֽי־יָדַעְתִּי אֵת אֲשֶׁר־תַּעֲשֶׂה לִבְנֵי יִשְׂרָאֵל רָעָה מִבְצְרֵיהֶם תְּשַׁלַּח בָּאֵשׁ וּבַחֻֽרֵיהֶם בַּחֶרֶב תַּהֲרֹג וְעֹלְלֵיהֶם תְּרַטֵּשׁ וְהָרֹתֵיהֶם תְּבַקֵּֽעַ",
+        "riddle": "מַדּוּעַ אֲדֹנִי בֹכֶה",
+        "speaker": "חֲזָאֵל",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֵּבְךְּ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר עֵשָׂו אֶל־אָבִיו הַֽבְרָכָה אַחַת הִֽוא־לְךָ אָבִי בָּרֲכֵנִי גַם־אָנִי אָבִי וַיִּשָּׂא עֵשָׂו קֹלוֹ וַיֵּֽבְךְּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 38,
+            "end": 38
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And he settled his countenance stedfastly, until he was ashamed: and the man of God wept.",
+          "12": "And Hazael said, Why weepeth my lord? And he answered, Because I know the evil that thou wilt do unto the children of Israel: their strong holds wilt thou set on fire, and their young men wilt thou slay with the sword, and wilt dash their children, and rip up their women with child."
+        },
+        "he": {
+          "11": "וַיַּעֲמֵד אֶת־פָּנָיו וַיָּשֶׂם עַד־בֹּשׁ וַיֵּבְךְּ אִישׁ הָאֱלֹהִֽים׃",
+          "12": "וַיֹּאמֶר חֲזָאֵל מַדּוּעַ אֲדֹנִי בֹכֶה וַיֹּאמֶר כִּֽי־יָדַעְתִּי אֵת אֲשֶׁר־תַּעֲשֶׂה לִבְנֵי יִשְׂרָאֵל רָעָה מִבְצְרֵיהֶם תְּשַׁלַּח בָּאֵשׁ וּבַחֻֽרֵיהֶם בַּחֶרֶב תַּהֲרֹג וְעֹלְלֵיהֶם תְּרַטֵּשׁ וְהָרֹתֵיהֶם תְּבַקֵּֽעַ׃"
+        }
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 11,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

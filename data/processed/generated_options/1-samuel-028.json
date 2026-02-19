@@ -1,0 +1,191 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 28,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-28-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth.",
+        "riddle": "for what sawest thou?",
+        "speaker": "king",
+        "listener": "woman",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Samuel",
+            "Saul",
+            "Joab"
+          ],
+          "listener": [
+            "Prophet",
+            "Ruth",
+            "Saul"
+          ]
+        },
+        "bonus": "gods",
+        "bonus_hint": {
+          "quote": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ",
+        "riddle": "מָה רָאִית",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָֽאִשָּׁה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שְׁמוּאֵל",
+            "שָׁאוּל",
+            "יוֹאָב"
+          ],
+          "listener": [
+            "הַנָּבִיא",
+            "רוּת",
+            "שָׁאוּל"
+          ]
+        },
+        "bonus": "אֱלֹהִים",
+        "bonus_hint": {
+          "quote": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 3,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 13,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth. And he said unto her, What form is he of? And she said, An old man cometh up; and he is covered with a mantle. And Saul perceived that it was Samuel, and he stooped with his face to the ground, and bowed himself.",
+        "riddle": "What form is he of?",
+        "speaker": "Saul",
+        "listener": "Witch",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "David",
+            "Samuel",
+            "Solomon"
+          ],
+          "listener": [
+            "Prophet",
+            "David",
+            "Joshua"
+          ]
+        },
+        "bonus": "gods",
+        "bonus_hint": {
+          "quote": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ וַיֹּאמֶר לָהּ מַֽה־תָּאֳרוֹ וַתֹּאמֶר אִישׁ זָקֵן עֹלֶה וְהוּא עֹטֶה מְעִיל וַיֵּדַע שָׁאוּל כִּֽי־שְׁמוּאֵל הוּא וַיִּקֹּד אַפַּיִם אַרְצָה וַיִּשְׁתָּֽחוּ",
+        "riddle": "מַֽה־תָּאֳרוֹ",
+        "speaker": "שָׁאוּל",
+        "listener": "הָֽאִשָּׁה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "דָּוִד",
+            "שְׁמוּאֵל",
+            "שְׁלֵמָה"
+          ],
+          "listener": [
+            "הַנָּבִיא",
+            "דָּוִד",
+            "יִהוֹשֻֽׁעַ"
+          ]
+        },
+        "bonus": "אֱלֹהִים",
+        "bonus_hint": {
+          "quote": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 3,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth.",
+          "14": "And he said unto her, What form is he of? And she said, An old man cometh up; and he is covered with a mantle. And Saul perceived that it was Samuel, and he stooped with his face to the ground, and bowed himself."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ׃",
+          "14": "וַיֹּאמֶר לָהּ מַֽה־תָּאֳרוֹ וַתֹּאמֶר אִישׁ זָקֵן עֹלֶה וְהוּא עֹטֶה מְעִיל וַיֵּדַע שָׁאוּל כִּֽי־שְׁמוּאֵל הוּא וַיִּקֹּד אַפַּיִם אַרְצָה וַיִּשְׁתָּֽחוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

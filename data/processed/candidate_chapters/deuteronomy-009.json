@@ -1,0 +1,58 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "deuteronomy-09-12-12",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And the LORD said unto me, Arise, get thee down quickly from hence; for thy people which thou hast brought forth out of Egypt have corrupted themselves; they are quickly turned aside out of the way which I commanded them; they have made them a molten image.",
+        "riddle": "And the LORD said unto me, Arise, get thee down quickly",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרָיִם סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם מַסֵּכָֽה",
+        "riddle": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the LORD said unto me, Arise, get thee down quickly from hence; for thy people which thou hast brought forth out of Egypt have corrupted themselves; they are quickly turned aside out of the way which I commanded them; they have made them a molten image."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרָיִם סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם מַסֵּכָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 18,
+    "prefiltered_count": 0,
+    "llm_window_count": 18,
+    "kept_count": 1,
+    "issue_count": 17
+  }
+}

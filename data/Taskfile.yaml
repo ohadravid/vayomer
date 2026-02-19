@@ -1,0 +1,102 @@
+version: '3'
+
+tasks:
+  candidates:build:
+    desc: Build resumable candidate shards and aggregate candidates.jsonl from the Bible corpus
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-candidates
+        --candidates-out data/processed/candidates.jsonl
+        --shard-dir data/processed/candidate_chapters
+        --issues-log data/processed/candidates_issues.jsonl
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  candidates:eval:
+    desc: Build a seeded candidate eval pack for review
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-candidates-eval
+        --candidates data/processed/candidates.jsonl
+        --shard-dir data/processed/candidate_chapters
+        --out-dir data/processed/candidates_eval
+        --sample-size 24
+        --seed 32988
+        {{.CLI_ARGS}}
+
+  quotes:build:
+    desc: Build resumable riddle chapter outputs from processed candidates
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-quotes
+        --candidates data/processed/candidates.jsonl
+        --out-dir data/processed/generated
+        --issues-log data/processed/generated_issues.jsonl
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  riddles:build:
+    desc: Alias for quotes:build
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-quotes
+        --candidates data/processed/candidates.jsonl
+        --out-dir data/processed/generated
+        --issues-log data/processed/generated_issues.jsonl
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  quotes:eval:
+    desc: Build a seeded quote eval pack for review
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-quotes-eval
+        --candidates data/processed/candidates.jsonl
+        --out-dir data/processed/quotes_eval
+        --sample-size 24
+        --seed 32988
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  options:bank:
+    desc: Build the bilingual character bank from generated riddles
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-character-bank
+        --in-dir data/processed/generated
+        --out-file data/processed/character_bank.json
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  options:build:
+    desc: Build resumable speaker/listener distractor options from the character bank
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-options
+        --in-dir data/processed/generated
+        --bank-file data/processed/character_bank.json
+        --out-dir data/processed/generated_options
+        --issues-log data/processed/generated_options_issues.jsonl
+        --model gemma4:26b
+        {{.CLI_ARGS}}
+
+  options:eval:
+    desc: Build a seeded options eval pack for review
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-options-eval
+        --in-dir data/processed/generated
+        --bank-file data/processed/character_bank.json
+        --out-dir data/processed/options_eval
+        --sample-size 24
+        --seed 32988
+        --model gemma4:26b
+        {{.CLI_ARGS}}

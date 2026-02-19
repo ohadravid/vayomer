@@ -1,0 +1,100 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 32,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-32-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 32,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And when Jacob saw them, he said, This is God's host: and he called the name of that place Mahanaim.",
+        "riddle": "This is God's host: and he called the name of that place Mahanaim.",
+        "speaker": "Jacob",
+        "listener": "himself",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְיַעֲקֹב הָלַךְ לְדַרְכּוֹ וַיִּפְגְּעוּ־בוֹ מַלְאֲכֵי אֱלֹהִֽים",
+        "riddle": "וַיִּפְגְּעוּ־בוֹ מַלְאֲכֵי אֱלֹהִֽים",
+        "speaker": "יַעֲקֹב",
+        "listener": "עצמו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And when Jacob saw them, he said, This is God's host: and he called the name of that place Mahanaim."
+        },
+        "he": {
+          "2": "וְיַעֲקֹב הָלַךְ לְדַרְכּוֹ וַיִּפְגְּעוּ־בוֹ מַלְאֲכֵי אֱלֹהִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a vivid declaration.",
+        "confidence": 0.8
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-32-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 32,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And he delivered them into the hand of his servants, every drove by themselves; and said unto his servants, Pass over before me, and put a space betwixt drove and drove.",
+        "riddle": "and said unto his servants, Pass over before me, and put a space betwixt drove and drove.",
+        "speaker": "Jacob",
+        "listener": "servants",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "גְּמַלִּים מֵינִיקוֹת וּבְנֵיהֶם שְׁלֹשִׁים פָּרוֹת אַרְבָּעִים וּפָרִים עֲשָׂרָה אֲתֹנֹת עֶשְׂרִים וַעְיָרִם עֲשָׂרָֽה",
+        "riddle": "גְּמַלִּים מֵינִיקוֹת וּבְנֵיהֶם שְׁלֹשִׁים פָּרוֹת אַרְבָּעִים וּפָרִים עֲשָׂרָה אֲתֹנֹת",
+        "speaker": "יעקב",
+        "listener": "עבדים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he delivered them into the hand of his servants, every drove by themselves; and said unto his servants, Pass over before me, and put a space betwixt drove and drove."
+        },
+        "he": {
+          "16": "גְּמַלִּים מֵינִיקוֹת וּבְנֵיהֶם שְׁלֹשִׁים פָּרוֹת אַרְבָּעִים וּפָרִים עֲשָׂרָה אֲתֹנֹת עֶשְׂרִים וַעְיָרִם עֲשָׂרָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct command to servants",
+        "confidence": 0.8
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 16,
+        "end": 16
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 24,
+    "prefiltered_count": 0,
+    "llm_window_count": 24,
+    "kept_count": 2,
+    "issue_count": 22
+  }
+}

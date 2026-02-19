@@ -1,0 +1,102 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-02-04-05",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were: And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them.",
+        "riddle": "pursue after them quickly; for ye shall overtake them.",
+        "speaker": "the woman",
+        "listener": "the pursuers",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
+        "riddle": "מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "הרודפים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
+          "5": "And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them."
+        },
+        "he": {
+          "4": "וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר ׀ כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה׃",
+          "5": "וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct command and prediction.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "id": "joshua-02-17-17",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
+        "riddle": "We will be blameless of this thine oath which thou hast made us swear.",
+        "speaker": "the men",
+        "listener": "Rahab",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ",
+        "riddle": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רעב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear."
+        },
+        "he": {
+          "17": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech containing a promise.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 17,
+    "prefiltered_count": 0,
+    "llm_window_count": 17,
+    "kept_count": 2,
+    "issue_count": 15
+  }
+}

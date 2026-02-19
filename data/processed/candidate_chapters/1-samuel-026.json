@@ -1,0 +1,58 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 26,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-26-22-22",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And David answered and said, Behold the king's spear! and let one of the young men come over and fetch it.",
+        "riddle": "Behold the king's spear! and let one of the young men come over and fetch it.",
+        "speaker": "David",
+        "listener": "Abigail",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן דָּוִד וַיֹּאמֶר הִנֵּה חֲנִית הַמֶּלֶךְ וְיַעֲבֹר אֶחָד מֵֽהַנְּעָרִים וְיִקָּחֶֽהָ",
+        "riddle": "הִנֵּה חֲנִית הַמֶּלֶךְ וְיַעֲבֹר אֶחָד מֵֽהַנְּעָרִים וְיִקָּחֶֽהָ",
+        "speaker": "דָּוִד",
+        "listener": "אביגיל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And David answered and said, Behold the king's spear! and let one of the young men come over and fetch it."
+        },
+        "he": {
+          "22": "וַיַּעַן דָּוִד וַיֹּאמֶר הִנֵּה חֲנִית הַמֶּלֶךְ וְיַעֲבֹר אֶחָד מֵֽהַנְּעָרִים וְיִקָּחֶֽהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains vivid direct speech.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 22,
+        "end": 22
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 1,
+    "issue_count": 19
+  }
+}

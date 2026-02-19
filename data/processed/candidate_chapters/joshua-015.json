@@ -1,0 +1,58 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 15,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-15-18-18",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 15,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?",
+        "riddle": "What wouldest thou?",
+        "speaker": "Caleb",
+        "listener": "Achsah",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
+        "riddle": "מַה־לָּֽךְ",
+        "speaker": "כָּלֵב",
+        "listener": "אכסה",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?"
+        },
+        "he": {
+          "18": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 18,
+        "end": 18
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 5,
+    "prefiltered_count": 0,
+    "llm_window_count": 5,
+    "kept_count": 1,
+    "issue_count": 4
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 64,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-64-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 64,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy. Hide me from the secret counsel of the wicked; from the insurrection of the workers of iniquity: Who whet their tongue like a sword, and bend their bows to shoot their arrows, even bitter words: That they may shoot in secret at the perfect: suddenly do they shoot at him, and fear not. They encourage themselves in an evil matter: they commune of laying snares privily; they say, Who shall see them?",
+        "riddle": "Who shall see them?",
+        "speaker": "wicked",
+        "listener": "wicked",
+        "book": "Psalms",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "voice",
+        "bonus_hint": {
+          "quote": "And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech: for I have slain a man to my wounding, and a young man to my hurt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "לַמְנַצֵּחַ מִזְמוֹר לְדָוִֽד שְׁמַע־אֱלֹהִים קוֹלִי בְשִׂיחִי מִפַּחַד אוֹיֵב תִּצֹּר חַיָּֽי תַּסְתִּירֵנִי מִסּוֹד מְרֵעִים מֵרִגְשַׁת פֹּעֲלֵי אָֽוֶן אֲשֶׁר שָׁנְנוּ כַחֶרֶב לְשׁוֹנָם דָּרְכוּ חִצָּם דָּבָר מָֽר לִירוֹת בַּמִּסְתָּרִים תָּם פִּתְאֹם יֹרֻהוּ וְלֹא יִירָֽאוּ",
+        "riddle": "תָּם פִּתְאֹם יֹרֻהוּ וְלֹא יִירָֽאוּ",
+        "speaker": "רשעים",
+        "listener": "רשעים",
+        "book": "תהילים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "קוֹלִי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לֶמֶךְ לְנָשָׁיו עָדָה וְצִלָּה שְׁמַעַן קוֹלִי נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי כִּי אִישׁ הָרַגְתִּי לְפִצְעִי וְיֶלֶד לְחַבֻּרָתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Hear my voice, O God, in my prayer: preserve my life from fear of the enemy.",
+          "2": "Hide me from the secret counsel of the wicked; from the insurrection of the workers of iniquity:",
+          "3": "Who whet their tongue like a sword, and bend their bows to shoot their arrows, even bitter words:",
+          "4": "That they may shoot in secret at the perfect: suddenly do they shoot at him, and fear not.",
+          "5": "They encourage themselves in an evil matter: they commune of laying snares privily; they say, Who shall see them?"
+        },
+        "he": {
+          "1": "לַמְנַצֵּחַ מִזְמוֹר לְדָוִֽד׃",
+          "2": "שְׁמַע־אֱלֹהִים קוֹלִי בְשִׂיחִי מִפַּחַד אוֹיֵב תִּצֹּר חַיָּֽי׃",
+          "3": "תַּסְתִּירֵנִי מִסּוֹד מְרֵעִים מֵרִגְשַׁת פֹּעֲלֵי אָֽוֶן׃",
+          "4": "אֲשֶׁר שָׁנְנוּ כַחֶרֶב לְשׁוֹנָם דָּרְכוּ חִצָּם דָּבָר מָֽר׃",
+          "5": "לִירוֹת בַּמִּסְתָּרִים תָּם פִּתְאֹם יֹרֻהוּ וְלֹא יִירָֽאוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 64,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

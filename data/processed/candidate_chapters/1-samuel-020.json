@@ -1,0 +1,100 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-20-29-29",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And he said, Let me go, I pray thee; for our family hath a sacrifice in the city; and my brother, he hath commanded me to be there: and now, if I have found favour in thine eyes, let me get away, I pray thee, and see my brethren. Therefore he cometh not unto the king's table.",
+        "riddle": "And he said, Let me go, I pray thee",
+        "speaker": "Jonathan",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שַׁלְּחֵנִי נָא כִּי זֶבַח מִשְׁפָּחָה לָנוּ בָּעִיר וְהוּא צִוָּֽה־לִי אָחִי וְעַתָּה אִם־מָצָאתִי חֵן בְּעֵינֶיךָ אִמָּלְטָה נָּא וְאֶרְאֶה אֶת־אֶחָי עַל־כֵּן לֹא־בָא אֶל־שֻׁלְחַן הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר שַׁלְּחֵנִי נָא כִּי זֶבַח מִשְׁפָּחָה לָנוּ בָּעִיר וְהוּא",
+        "speaker": "יונתן",
+        "listener": "דוד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And he said, Let me go, I pray thee; for our family hath a sacrifice in the city; and my brother, he hath commanded me to be there: and now, if I have found favour in thine eyes, let me get away, I pray thee, and see my brethren. Therefore he cometh not unto the king's table."
+        },
+        "he": {
+          "29": "וַיֹּאמֶר שַׁלְּחֵנִי נָא כִּי זֶבַח מִשְׁפָּחָה לָנוּ בָּעִיר וְהוּא צִוָּֽה־לִי אָחִי וְעַתָּה אִם־מָצָאתִי חֵן בְּעֵינֶיךָ אִמָּלְטָה נָּא וְאֶרְאֶה אֶת־אֶחָי עַל־כֵּן לֹא־בָא אֶל־שֻׁלְחַן הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct plea/speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "1-samuel-20-32-32",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?",
+        "riddle": "Wherefore shall he be slain? what hath he done?",
+        "speaker": "Jonathan",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל אָבִיו וַיֹּאמֶר אֵלָיו לָמָּה יוּמַת מֶה עָשָֽׂה",
+        "riddle": "לָמָּה יוּמַת מֶה עָשָֽׂה",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?"
+        },
+        "he": {
+          "32": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל אָבִיו וַיֹּאמֶר אֵלָיו לָמָּה יוּמַת מֶה עָשָֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct questions and speech.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 32,
+        "end": 32
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 35,
+    "prefiltered_count": 0,
+    "llm_window_count": 35,
+    "kept_count": 2,
+    "issue_count": 33
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 14,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-14-05-05",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead.",
+        "riddle": "What aileth thee?",
+        "speaker": "king",
+        "listener": "widow",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי",
+        "riddle": "מַה־לָּךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַלְמָנָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead."
+        },
+        "he": {
+          "5": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 28,
+    "prefiltered_count": 0,
+    "llm_window_count": 28,
+    "kept_count": 1,
+    "issue_count": 27
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-01-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Issachar, Zebulun, and Benjamin, Dan, and Naphtali, Gad, and Asher. And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already. And Joseph died, and all his brethren, and all that generation. And the children of Israel were fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty; and the land was filled with them. Now there arose up a new king over Egypt, which knew not Joseph. And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:",
+        "riddle": "the people of the children of Israel are more and mightier than we:",
+        "speaker": "New king of Egypt",
+        "listener": "Egyptians",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Abimelech",
+            "Joseph"
+          ],
+          "listener": [
+            "Philistines",
+            "men of Sodom",
+            "Hivites"
+          ]
+        },
+        "bonus": "souls",
+        "bonus_hint": {
+          "quote": "These be the sons of Leah, which she bare unto Jacob in Padan-aram, with his daughter Dinah: all the souls of his sons and his daughters were thirty and three.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 46,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "יִשָּׂשכָר זְבוּלֻן וּבְנְיָמִֽן דָּן וְנַפְתָּלִי גָּד וְאָשֵֽׁר וַֽיְהִי כָּל־נֶפֶשׁ יֹצְאֵי יֶֽרֶךְ־יַעֲקֹב שִׁבְעִים נָפֶשׁ וְיוֹסֵף הָיָה בְמִצְרָֽיִם וַיָּמָת יוֹסֵף וְכָל־אֶחָיו וְכֹל הַדּוֹר הַהֽוּא וּבְנֵי יִשְׂרָאֵל פָּרוּ וַֽיִּשְׁרְצוּ וַיִּרְבּוּ וַיַּֽעַצְמוּ בִּמְאֹד מְאֹד וַתִּמָּלֵא הָאָרֶץ אֹתָֽם וַיָּקָם מֶֽלֶךְ־חָדָשׁ עַל־מִצְרָיִם אֲשֶׁר לֹֽא־יָדַע אֶת־יוֹסֵֽף וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
+        "riddle": "הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
+        "speaker": "מֶֽלֶךְ־חָדָשׁ",
+        "listener": "מִצְרָיִם",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "אֲבִימֶלֶךְ",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "פְּלִשְׁתִּֽים",
+            "אַנְשֵׁי סְדֹם",
+            "החיוים"
+          ]
+        },
+        "bonus": "נֶפֶשׁ",
+        "bonus_hint": {
+          "quote": "אֵלֶּה בְּנֵי לֵאָה אֲשֶׁר יָֽלְדָה לְיַעֲקֹב בְּפַדַּן אֲרָם וְאֵת דִּינָה בִתּוֹ כָּל־נֶפֶשׁ בָּנָיו וּבְנוֹתָיו שְׁלֹשִׁים וְשָׁלֹֽשׁ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 46,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Issachar, Zebulun, and Benjamin,",
+          "4": "Dan, and Naphtali, Gad, and Asher.",
+          "5": "And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already.",
+          "6": "And Joseph died, and all his brethren, and all that generation.",
+          "7": "And the children of Israel were fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty; and the land was filled with them.",
+          "8": "Now there arose up a new king over Egypt, which knew not Joseph.",
+          "9": "And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:"
+        },
+        "he": {
+          "3": "יִשָּׂשכָר זְבוּלֻן וּבְנְיָמִֽן׃",
+          "4": "דָּן וְנַפְתָּלִי גָּד וְאָשֵֽׁר׃",
+          "5": "וַֽיְהִי כָּל־נֶפֶשׁ יֹצְאֵי יֶֽרֶךְ־יַעֲקֹב שִׁבְעִים נָפֶשׁ וְיוֹסֵף הָיָה בְמִצְרָֽיִם׃",
+          "6": "וַיָּמָת יוֹסֵף וְכָל־אֶחָיו וְכֹל הַדּוֹר הַהֽוּא׃",
+          "7": "וּבְנֵי יִשְׂרָאֵל פָּרוּ וַֽיִּשְׁרְצוּ וַיִּרְבּוּ וַיַּֽעַצְמוּ בִּמְאֹד מְאֹד וַתִּמָּלֵא הָאָרֶץ אֹתָֽם׃",
+          "8": "וַיָּקָם מֶֽלֶךְ־חָדָשׁ עַל־מִצְרָיִם אֲשֶׁר לֹֽא־יָדַע אֶת־יוֹסֵֽף׃",
+          "9": "וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-05-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 5,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.",
+        "riddle": "Male and female created he them; and blessed them",
+        "speaker": "God",
+        "listener": "Adam and Eve",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם בְּיוֹם הִבָּֽרְאָֽם",
+        "riddle": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם",
+        "speaker": "אלוהים",
+        "listener": "אָדָם וחוה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Male and female created he them; and blessed them, and called their name Adam, in the day when they were created."
+        },
+        "he": {
+          "2": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם בְּיוֹם הִבָּֽרְאָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a vivid divine action",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 5,
+    "prefiltered_count": 0,
+    "llm_window_count": 5,
+    "kept_count": 1,
+    "issue_count": 4
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 13,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-13-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?",
+        "riddle": "Why should he go with thee?",
+        "speaker": "King",
+        "listener": "Absalom",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Amnon",
+        "bonus_hint": {
+          "quote": "And unto David were sons born in Hebron: and his firstborn was Amnon, of Ahinoam the Jezreelitess;",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 3,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ",
+        "riddle": "לָמָּה יֵלֵךְ עִמָּֽךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אַמְנוֹן",
+        "bonus_hint": {
+          "quote": "וַיִּוָלְדוּ לְדָוִד בָּנִים בְּחֶבְרוֹן וַיְהִי בְכוֹרוֹ אַמְנוֹן לַאֲחִינֹעַם הַיִּזְרְעֵאלִֽת",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 26,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

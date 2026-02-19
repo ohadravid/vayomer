@@ -1,0 +1,107 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "job-10-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 10,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul. I will say unto God, Do not condemn me; shew me wherefore thou contendest with me. Is it good unto thee that thou shouldest oppress, that thou shouldest despise the work of thine hands, and shine upon the counsel of the wicked? Hast thou eyes of flesh? or seest thou as man seeth? Are thy days as the days of man? are thy years as man's days,",
+        "riddle": "Are thy days as the days of man?",
+        "speaker": "Job",
+        "listener": "God",
+        "book": "Job",
+        "options": {
+          "speaker": [
+            "Eliphaz",
+            "Zophar",
+            "Isaiah"
+          ],
+          "listener": [
+            "Micaiah",
+            "Joab",
+            "Friends"
+          ]
+        },
+        "bonus": "soul",
+        "bonus_hint": {
+          "quote": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 12,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "נָֽקְטָה נַפְשִׁי בְּחַיָּי אֶֽעֶזְבָה עָלַי שִׂיחִי אֲדַבְּרָה בְּמַר נַפְשִֽׁי אֹמַר אֶל־אֱלוֹהַּ אַל־תַּרְשִׁיעֵנִי הֽוֹדִיעֵנִי עַל מַה־תְּרִיבֵֽנִי הֲטוֹב לְךָ כִּֽי־תַעֲשֹׁק כִּֽי־תִמְאַס יְגִיעַ כַּפֶּיךָ וְעַל־עֲצַת רְשָׁעִים הוֹפָֽעְתָּ הַעֵינֵי בָשָׂר לָךְ אִם־כִּרְאוֹת אֱנוֹשׁ תִּרְאֶֽה הֲכִימֵי אֱנוֹשׁ יָמֶיךָ אִם־שְׁנוֹתֶיךָ כִּימֵי גָֽבֶר",
+        "riddle": "הֲכִימֵי אֱנוֹשׁ יָמֶיךָ",
+        "speaker": "אִיּוֹב",
+        "listener": "אלוהים",
+        "book": "איוב",
+        "options": {
+          "speaker": [
+            "אֱלִיפַז",
+            "צופר",
+            "יְשַֽׁעְיָהוּ"
+          ],
+          "listener": [
+            "מִיכָֽיְהוּ",
+            "יוֹאָב",
+            "ידידיו"
+          ]
+        },
+        "bonus": "נַפְשִׁי",
+        "bonus_hint": {
+          "quote": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 12,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "My soul is weary of my life; I will leave my complaint upon myself; I will speak in the bitterness of my soul.",
+          "2": "I will say unto God, Do not condemn me; shew me wherefore thou contendest with me.",
+          "3": "Is it good unto thee that thou shouldest oppress, that thou shouldest despise the work of thine hands, and shine upon the counsel of the wicked?",
+          "4": "Hast thou eyes of flesh? or seest thou as man seeth?",
+          "5": "Are thy days as the days of man? are thy years as man's days,"
+        },
+        "he": {
+          "1": "נָֽקְטָה נַפְשִׁי בְּחַיָּי אֶֽעֶזְבָה עָלַי שִׂיחִי אֲדַבְּרָה בְּמַר נַפְשִֽׁי׃",
+          "2": "אֹמַר אֶל־אֱלוֹהַּ אַל־תַּרְשִׁיעֵנִי הֽוֹדִיעֵנִי עַל מַה־תְּרִיבֵֽנִי׃",
+          "3": "הֲטוֹב לְךָ ׀ כִּֽי־תַעֲשֹׁק כִּֽי־תִמְאַס יְגִיעַ כַּפֶּיךָ וְעַל־עֲצַת רְשָׁעִים הוֹפָֽעְתָּ׃",
+          "4": "הַעֵינֵי בָשָׂר לָךְ אִם־כִּרְאוֹת אֱנוֹשׁ תִּרְאֶֽה׃",
+          "5": "הֲכִימֵי אֱנוֹשׁ יָמֶיךָ אִם־שְׁנוֹתֶיךָ כִּימֵי גָֽבֶר׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

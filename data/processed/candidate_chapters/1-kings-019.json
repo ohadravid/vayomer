@@ -1,0 +1,58 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 19,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-19-20-20",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?",
+        "riddle": "for what have I done to thee?",
+        "speaker": "Elijah",
+        "listener": "Elisha",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעֲזֹב אֶת־הַבָּקָר וַיָּרָץ אַחֲרֵי אֵֽלִיָּהוּ וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ",
+        "riddle": "מֶה־עָשִׂיתִי לָֽךְ",
+        "speaker": "אֵֽלִיָּהוּ",
+        "listener": "אלישע",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?"
+        },
+        "he": {
+          "20": "וַיַּעֲזֹב אֶת־הַבָּקָר וַיָּרָץ אַחֲרֵי אֵֽלִיָּהוּ וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question from Elijah",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 20,
+        "end": 20
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 17,
+    "prefiltered_count": 0,
+    "llm_window_count": 17,
+    "kept_count": 1,
+    "issue_count": 16
+  }
+}

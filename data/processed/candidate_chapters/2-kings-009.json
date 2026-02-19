@@ -1,0 +1,58 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-09-05-05",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+        "riddle": "Unto which of all us?",
+        "speaker": "Jehu",
+        "listener": "Captain",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר",
+        "riddle": "מִי מִכֻּלָּנוּ",
+        "speaker": "יֵהוּא",
+        "listener": "הַשָּׂר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain."
+        },
+        "he": {
+          "5": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 32,
+    "prefiltered_count": 0,
+    "llm_window_count": 32,
+    "kept_count": 1,
+    "issue_count": 31
+  }
+}

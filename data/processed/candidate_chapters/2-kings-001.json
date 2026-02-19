@@ -1,0 +1,100 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-01-05-05",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And when the messengers turned back unto him, he said unto them, Why are ye now turned back?",
+        "riddle": "Why are ye now turned back?",
+        "speaker": "Ahab",
+        "listener": "Messengers",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשׁוּבוּ הַמַּלְאָכִים אֵלָיו וַיֹּאמֶר אֲלֵיהֶם מַה־זֶּה שַׁבְתֶּֽם",
+        "riddle": "מַה־זֶּה שַׁבְתֶּֽם",
+        "speaker": "אחאב",
+        "listener": "הַמַּלְאָכִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And when the messengers turned back unto him, he said unto them, Why are ye now turned back?"
+        },
+        "he": {
+          "5": "וַיָּשׁוּבוּ הַמַּלְאָכִים אֵלָיו וַיֹּאמֶר אֲלֵיהֶם מַה־זֶּה שַׁבְתֶּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question from king",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-kings-01-11-11",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly.",
+        "riddle": "Come down quickly.",
+        "speaker": "King's messenger",
+        "listener": "Man of God",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב וַיִּשְׁלַח אֵלָיו שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה",
+        "riddle": "מְהֵרָה רֵֽדָה",
+        "speaker": "שליח הַמֶּלֶךְ",
+        "listener": "אִישׁ הָאֱלֹהִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly."
+        },
+        "he": {
+          "11": "וַיָּשָׁב וַיִּשְׁלַח אֵלָיו שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct command.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 11,
+        "end": 11
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 17,
+    "prefiltered_count": 0,
+    "llm_window_count": 17,
+    "kept_count": 2,
+    "issue_count": 15
+  }
+}

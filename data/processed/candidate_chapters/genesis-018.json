@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 18,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-18-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And they said unto him, Where is Sarah thy wife? And he said, Behold, in the tent.",
+        "riddle": "Where is Sarah thy wife?",
+        "speaker": "Visitors",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵׄלָׄיׄוׄ אַיֵּה שָׂרָה אִשְׁתֶּךָ וַיֹּאמֶר הִנֵּה בָאֹֽהֶל",
+        "riddle": "אַיֵּה שָׂרָה אִשְׁתֶּךָ",
+        "speaker": "מבקרים",
+        "listener": "אברהם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And they said unto him, Where is Sarah thy wife? And he said, Behold, in the tent."
+        },
+        "he": {
+          "9": "וַיֹּאמְרוּ אֵׄלָׄיׄוׄ אַיֵּה שָׂרָה אִשְׁתֶּךָ וַיֹּאמֶר הִנֵּה בָאֹֽהֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 29,
+    "prefiltered_count": 0,
+    "llm_window_count": 29,
+    "kept_count": 1,
+    "issue_count": 28
+  }
+}

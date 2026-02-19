@@ -1,0 +1,58 @@
+{
+  "book_code": "EST",
+  "book": "Esther",
+  "book_he": "אסתר",
+  "chapter": 8,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "esther-08-07-07",
+      "source": {
+        "book_code": "EST",
+        "book": "Esther",
+        "book_he": "אסתר",
+        "chapter": 8,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Then the king Ahasuerus said unto Esther the queen and to Mordecai the Jew, Behold, I have given Esther the house of Haman, and him they have hanged upon the gallows, because he laid his hand upon the Jews.",
+        "riddle": "Ahasuerus said unto Esther the queen and to Mordecai",
+        "speaker": "Ahasuerus",
+        "listener": "Esther and Mordecai",
+        "book": "Esther"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֲחַשְׁוֵרֹשׁ לְאֶסְתֵּר הַמַּלְכָּה וּֽלְמָרְדֳּכַי הַיְּהוּדִי הִנֵּה בֵית־הָמָן נָתַתִּי לְאֶסְתֵּר וְאֹתוֹ תָּלוּ עַל־הָעֵץ עַל אֲשֶׁר־שָׁלַח יָדוֹ בַּיְּהוּדִֽים",
+        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ אֲחַשְׁוֵרֹשׁ לְאֶסְתֵּר הַמַּלְכָּה וּֽלְמָרְדֳּכַי הַיְּהוּדִי",
+        "speaker": "אֲחַשְׁוֵרֹשׁ",
+        "listener": "אֶסְתֵּר ומרדכי",
+        "book": "אסתר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Then the king Ahasuerus said unto Esther the queen and to Mordecai the Jew, Behold, I have given Esther the house of Haman, and him they have hanged upon the gallows, because he laid his hand upon the Jews."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר הַמֶּלֶךְ אֲחַשְׁוֵרֹשׁ לְאֶסְתֵּר הַמַּלְכָּה וּֽלְמָרְדֳּכַי הַיְּהוּדִי הִנֵּה בֵית־הָמָן נָתַתִּי לְאֶסְתֵּר וְאֹתוֹ תָּלוּ עַל־הָעֵץ עַל אֲשֶׁר־שָׁלַח יָדוֹ בַּיְּהוּדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech and subjects",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 8,
+    "prefiltered_count": 0,
+    "llm_window_count": 8,
+    "kept_count": 1,
+    "issue_count": 7
+  }
+}

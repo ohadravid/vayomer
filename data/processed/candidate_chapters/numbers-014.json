@@ -1,0 +1,58 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 14,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-14-20-20",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And the LORD said, I have pardoned according to thy word:",
+        "riddle": "I have pardoned according to thy word:",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶֽךָ",
+        "riddle": "סָלַחְתִּי כִּדְבָרֶֽךָ",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And the LORD said, I have pardoned according to thy word:"
+        },
+        "he": {
+          "20": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 20,
+        "end": 20
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 29,
+    "prefiltered_count": 0,
+    "llm_window_count": 29,
+    "kept_count": 1,
+    "issue_count": 28
+  }
+}

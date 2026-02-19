@@ -1,0 +1,111 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 89,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-89-49-49",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 89,
+        "quote_verse_start": 43,
+        "quote_verse_end": 49
+      },
+      "en": {
+        "quote": "Thou hast also turned the edge of his sword, and hast not made him to stand in the battle. Thou hast made his glory to cease, and cast his throne down to the ground. The days of his youth hast thou shortened: thou hast covered him with shame. Selah. How long, LORD? wilt thou hide thyself for ever? shall thy wrath burn like fire? Remember how short my time is: wherefore hast thou made all men in vain? What man is he that liveth, and shall not see death? shall he deliver his soul from the hand of the grave? Selah. Lord, where are thy former lovingkindnesses, which thou swarest unto David in thy truth?",
+        "riddle": "Lord, where are thy former lovingkindnesses, which thou swarest unto David",
+        "speaker": "Psalmist",
+        "listener": "God",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Solomon",
+            "Isaiah",
+            "Ezra"
+          ],
+          "listener": [
+            "Solomon",
+            "Isaiah",
+            "Joab"
+          ]
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "And it came to pass on the third day, when they were sore, that two of the sons of Jacob, Simeon and Levi, Dinah's brethren, took each man his sword, and came upon the city boldly, and slew all the males.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 34,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "הֲרִימוֹתָ יְמִין צָרָיו הִשְׂמַחְתָּ כָּל־אוֹיְבָֽיו אַף־תָּשִׁיב צוּר חַרְבּוֹ וְלֹא הֲקֵימֹתוֹ בַּמִּלְחָמָֽה הִשְׁבַּתָּ מִטְּהָרוֹ וְכִסְאוֹ לָאָרֶץ מִגַּֽרְתָּה הִקְצַרְתָּ יְמֵי עֲלוּמָיו הֶֽעֱטִיתָ עָלָיו בּוּשָׁה סֶֽלָה עַד־מָה יְהוָה תִּסָּתֵר לָנֶצַח תִּבְעַר כְּמוֹ־אֵשׁ חֲמָתֶֽךָ זְכָר־אֲנִי מֶה־חָלֶד עַל־מַה־שָּׁוְא בָּרָאתָ כָל־בְּנֵי־אָדָֽם מִי גֶבֶר יִֽחְיֶה וְלֹא יִרְאֶה־מָּוֶת יְמַלֵּט נַפְשׁוֹ מִיַּד־שְׁאוֹל סֶֽלָה",
+        "riddle": "מִי גֶבֶר יִֽחְיֶה וְלֹא יִרְאֶה",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "שְׁלֵמָה",
+            "יְשַֽׁעְיָהוּ",
+            "עזרא"
+          ],
+          "listener": [
+            "שְׁלֵמָה",
+            "יְשַֽׁעְיָהוּ",
+            "יוֹאָב"
+          ]
+        },
+        "bonus": "חַרְבּוֹ",
+        "bonus_hint": {
+          "quote": "וַיְהִי בַיּוֹם הַשְּׁלִישִׁי בִּֽהְיוֹתָם כֹּֽאֲבִים וַיִּקְחוּ שְׁנֵֽי־בְנֵי־יַעֲקֹב שִׁמְעוֹן וְלֵוִי אֲחֵי דִינָה אִישׁ חַרְבּוֹ וַיָּבֹאוּ עַל־הָעִיר בֶּטַח וַיַּֽהַרְגוּ כָּל־זָכָֽר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 34,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "Thou hast also turned the edge of his sword, and hast not made him to stand in the battle.",
+          "44": "Thou hast made his glory to cease, and cast his throne down to the ground.",
+          "45": "The days of his youth hast thou shortened: thou hast covered him with shame. Selah.",
+          "46": "How long, LORD? wilt thou hide thyself for ever? shall thy wrath burn like fire?",
+          "47": "Remember how short my time is: wherefore hast thou made all men in vain?",
+          "48": "What man is he that liveth, and shall not see death? shall he deliver his soul from the hand of the grave? Selah.",
+          "49": "Lord, where are thy former lovingkindnesses, which thou swarest unto David in thy truth?"
+        },
+        "he": {
+          "43": "הֲרִימוֹתָ יְמִין צָרָיו הִשְׂמַחְתָּ כָּל־אוֹיְבָֽיו׃",
+          "44": "אַף־תָּשִׁיב צוּר חַרְבּוֹ וְלֹא הֲקֵימֹתוֹ בַּמִּלְחָמָֽה׃",
+          "45": "הִשְׁבַּתָּ מִטְּהָרוֹ וְכִסְאוֹ לָאָרֶץ מִגַּֽרְתָּה׃",
+          "46": "הִקְצַרְתָּ יְמֵי עֲלוּמָיו הֶֽעֱטִיתָ עָלָיו בּוּשָׁה סֶֽלָה׃",
+          "47": "עַד־מָה יְהוָה תִּסָּתֵר לָנֶצַח תִּבְעַר כְּמוֹ־אֵשׁ חֲמָתֶֽךָ׃",
+          "48": "זְכָר־אֲנִי מֶה־חָלֶד עַל־מַה־שָּׁוְא בָּרָאתָ כָל־בְּנֵי־אָדָֽם׃",
+          "49": "מִי גֶבֶר יִֽחְיֶה וְלֹא יִרְאֶה־מָּוֶת יְמַלֵּט נַפְשׁוֹ מִיַּד־שְׁאוֹל סֶֽלָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 89,
+        "start": 43,
+        "end": 49
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 34,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "job-34-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 34,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "Let us choose to us judgment: let us know among ourselves what is good. For Job hath said, I am righteous: and God hath taken away my judgment. Should I lie against my right? my wound is incurable without transgression.",
+        "riddle": "I am righteous: and God hath taken away my judgment.",
+        "speaker": "Job",
+        "listener": "Job's friends",
+        "book": "Job",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "good",
+        "bonus_hint": {
+          "quote": "And God saw the light, that it was good: and God divided the light from the darkness.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "מִשְׁפָּט נִבְחֲרָה־לָּנוּ נֵדְעָה בֵינֵינוּ מַה־טּֽוֹב כִּֽי־אָמַר אִיּוֹב צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי עַל־מִשְׁפָּטִי אֲכַזֵּב אָנוּשׁ חִצִּי בְלִי־פָֽשַׁע",
+        "riddle": "צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי",
+        "speaker": "אִיּוֹב",
+        "listener": "ידידיו",
+        "book": "איוב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "טּֽוֹב",
+        "bonus_hint": {
+          "quote": "וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹֽשֶׁךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Let us choose to us judgment: let us know among ourselves what is good.",
+          "5": "For Job hath said, I am righteous: and God hath taken away my judgment.",
+          "6": "Should I lie against my right? my wound is incurable without transgression."
+        },
+        "he": {
+          "4": "מִשְׁפָּט נִבְחֲרָה־לָּנוּ נֵדְעָה בֵינֵינוּ מַה־טּֽוֹב׃",
+          "5": "כִּֽי־אָמַר אִיּוֹב צָדַקְתִּי וְאֵל הֵסִיר מִשְׁפָּטִֽי׃",
+          "6": "עַל־מִשְׁפָּטִי אֲכַזֵּב אָנוּשׁ חִצִּי בְלִי־פָֽשַׁע׃"
+        }
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 4,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

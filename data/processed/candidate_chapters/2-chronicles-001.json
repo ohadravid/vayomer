@@ -1,0 +1,58 @@
+{
+  "book_code": "2CH",
+  "book": "2 Chronicles",
+  "book_he": "דברי הימים ב",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-chronicles-01-07-07",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "In that night did God appear unto Solomon, and said unto him, Ask what I shall give thee.",
+        "riddle": "Ask what I shall give thee.",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "2 Chronicles"
+      },
+      "he": {
+        "quote": "בַּלַּיְלָה הַהוּא נִרְאָה אֱלֹהִים לִשְׁלֹמֹה וַיֹּאמֶר לוֹ שְׁאַל מָה אֶתֶּן־לָֽךְ",
+        "riddle": "מָה אֶתֶּן־לָֽךְ",
+        "speaker": "אֱלֹהִים",
+        "listener": "שְׁלֹמֹה",
+        "book": "דברי הימים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "In that night did God appear unto Solomon, and said unto him, Ask what I shall give thee."
+        },
+        "he": {
+          "7": "בַּלַּיְלָה הַהוּא נִרְאָה אֱלֹהִים לִשְׁלֹמֹה וַיֹּאמֶר לוֹ שְׁאַל מָה אֶתֶּן־לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct command/question from God.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 8,
+    "prefiltered_count": 0,
+    "llm_window_count": 8,
+    "kept_count": 1,
+    "issue_count": 7
+  }
+}

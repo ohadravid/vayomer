@@ -1,0 +1,83 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-01-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Then said Elkanah her husband to her, Hannah, why weepest thou? and why eatest thou not? and why is thy heart grieved? am not I better to thee than ten sons?",
+        "riddle": "why weepest thou? and why eatest thou not? and why is thy heart grieved? am not I better to thee than ten sons?",
+        "speaker": "Elkanah",
+        "listener": "Hannah",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "husband",
+        "bonus_hint": {
+          "quote": "And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 16,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ חַנָּה לָמֶה תִבְכִּי וְלָמֶה לֹא תֹֽאכְלִי וְלָמֶה יֵרַע לְבָבֵךְ הֲלוֹא אָֽנֹכִי טוֹב לָךְ מֵעֲשָׂרָה בָּנִֽים",
+        "riddle": "לָמֶה תִבְכִּי וְלָמֶה לֹא תֹֽאכְלִי וְלָמֶה יֵרַע לְבָבֵךְ הֲלוֹא אָֽנֹכִי טוֹב לָךְ מֵעֲשָׂרָה בָּנִֽים",
+        "speaker": "אֶלְקָנָה",
+        "listener": "חַנָּה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִישָׁהּ",
+        "bonus_hint": {
+          "quote": "וַתִּקַּח שָׂרַי אֵֽשֶׁת־אַבְרָם אֶת־הָגָר הַמִּצְרִית שִׁפְחָתָהּ מִקֵּץ עֶשֶׂר שָׁנִים לְשֶׁבֶת אַבְרָם בְּאֶרֶץ כְּנָעַן וַתִּתֵּן אֹתָהּ לְאַבְרָם אִישָׁהּ לוֹ לְאִשָּֽׁה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Then said Elkanah her husband to her, Hannah, why weepest thou? and why eatest thou not? and why is thy heart grieved? am not I better to thee than ten sons?"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ חַנָּה לָמֶה תִבְכִּי וְלָמֶה לֹא תֹֽאכְלִי וְלָמֶה יֵרַע לְבָבֵךְ הֲלוֹא אָֽנֹכִי טוֹב לָךְ מֵעֲשָׂרָה בָּנִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

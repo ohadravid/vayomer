@@ -1,0 +1,91 @@
+{
+  "book_code": "DAN",
+  "book": "Daniel",
+  "book_he": "דניאל",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "daniel-06-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "DAN",
+        "book": "Daniel",
+        "book_he": "דניאל",
+        "chapter": 6,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "Then these presidents and princes assembled together to the king, and said thus unto him, King Darius, live for ever.",
+        "riddle": "live for ever.",
+        "speaker": "presidents and princes",
+        "listener": "King Darius",
+        "book": "Daniel",
+        "options": {
+          "speaker": [],
+          "listener": [
+            "Ezekiel",
+            "Zedekiah",
+            "Jacob"
+          ]
+        },
+        "bonus": "together",
+        "bonus_hint": {
+          "quote": "And the princes, governors, and captains, and the king's counsellers, being gathered together, saw these men, upon whose bodies the fire had no power, nor was an hair of their head singed, neither were their coats changed, nor the smell of fire had passed on them.",
+          "source": {
+            "book": "Daniel",
+            "chapter": 3,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "אֱדַיִן גֻּבְרַיָּא אִלֵּךְ אָֽמְרִין דִּי לָא נְהַשְׁכַּח לְדָנִיֵּאל דְּנָה כָּל־עִלָּא לָהֵן הַשְׁכַּחְנָֽה עֲלוֹהִי בְּדָת אֱלָהֵֽהּ",
+        "riddle": "דִּי לָא נְהַשְׁכַּח",
+        "speaker": "גֻּבְרַיָּא",
+        "listener": "דָנִיֵּאל",
+        "book": "דניאל",
+        "options": {
+          "speaker": [],
+          "listener": [
+            "יְחֶזְקֵאל",
+            "צִדְקִיָּה",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "אִלֵּךְ",
+        "bonus_hint": {
+          "quote": "וּמִֽתְכַּנְּשִׁין אֲחַשְׁדַּרְפְּנַיָּא סִגְנַיָּא וּפַחֲוָתָא וְהַדָּבְרֵי מַלְכָּא חָזַיִן לְגֻבְרַיָּא אִלֵּךְ דִּי לָֽא־שְׁלֵט נוּרָא בְּגֶשְׁמְהוֹן וּשְׂעַר רֵֽאשְׁהוֹן לָא הִתְחָרַךְ וְסָרְבָּלֵיהוֹן לָא שְׁנוֹ וְרֵיחַ נוּר לָא עֲדָת בְּהֽוֹן",
+          "source": {
+            "book": "דניאל",
+            "chapter": 3,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then these presidents and princes assembled together to the king, and said thus unto him, King Darius, live for ever."
+        },
+        "he": {
+          "6": "אֱדַיִן גֻּבְרַיָּא אִלֵּךְ אָֽמְרִין דִּי לָא נְהַשְׁכַּח לְדָנִיֵּאל דְּנָה כָּל־עִלָּא לָהֵן הַשְׁכַּחְנָֽה עֲלוֹהִי בְּדָת אֱלָהֵֽהּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 6,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

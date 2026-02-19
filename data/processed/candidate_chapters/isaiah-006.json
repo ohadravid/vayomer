@@ -1,0 +1,58 @@
+{
+  "book_code": "ISA",
+  "book": "Isaiah",
+  "book_he": "ישעיהו",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "isaiah-06-04-04",
+      "source": {
+        "book_code": "ISA",
+        "book": "Isaiah",
+        "book_he": "ישעיהו",
+        "chapter": 6,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And the posts of the door moved at the voice of him that cried, and the house was filled with smoke.",
+        "riddle": "the posts of the door moved at the voice",
+        "speaker": "the voice",
+        "listener": "the door posts",
+        "book": "Isaiah"
+      },
+      "he": {
+        "quote": "וַיָּנֻעוּ אַמּוֹת הַסִּפִּים מִקּוֹל הַקּוֹרֵא וְהַבַּיִת יִמָּלֵא עָשָֽׁן",
+        "riddle": "אַמּוֹת הַסִּפִּים מִקּוֹל הַקּוֹרֵא",
+        "speaker": "הַקּוֹרֵא",
+        "listener": "הַסִּפִּים",
+        "book": "ישעיהו"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the posts of the door moved at the voice of him that cried, and the house was filled with smoke."
+        },
+        "he": {
+          "4": "וַיָּנֻעוּ אַמּוֹת הַסִּפִּים מִקּוֹל הַקּוֹרֵא וְהַבַּיִת יִמָּלֵא עָשָֽׁן׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid action caused by voice",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 10,
+    "prefiltered_count": 0,
+    "llm_window_count": 10,
+    "kept_count": 1,
+    "issue_count": 9
+  }
+}

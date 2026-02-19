@@ -1,0 +1,177 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 19,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-19-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 3,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he pressed upon them greatly; and they turned in unto him, and entered into his house; and he made them a feast, and did bake unleavened bread, and they did eat. But before they lay down, the men of the city, even the men of Sodom, compassed the house round, both old and young, all the people from every quarter: And they called unto Lot, and said unto him, Where are the men which came in to thee this night? bring them out unto us, that we may know them. And Lot went out at the door unto them, and shut the door after him, And said, I pray you, brethren, do not so wickedly.",
+        "riddle": "do not so wickedly.",
+        "speaker": "Lot",
+        "listener": "men of Sodom",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "feast",
+        "bonus_hint": {
+          "quote": "And the child grew, and was weaned: and Abraham made a great feast the same day that Isaac was weaned.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 21,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפְצַר־בָּם מְאֹד וַיָּסֻרוּ אֵלָיו וַיָּבֹאוּ אֶל־בֵּיתוֹ וַיַּעַשׂ לָהֶם מִשְׁתֶּה וּמַצּוֹת אָפָה וַיֹּאכֵֽלוּ טֶרֶם יִשְׁכָּבוּ וְאַנְשֵׁי הָעִיר אַנְשֵׁי סְדֹם נָסַבּוּ עַל־הַבַּיִת מִנַּעַר וְעַד־זָקֵן כָּל־הָעָם מִקָּצֶֽה וַיִּקְרְאוּ אֶל־לוֹט וַיֹּאמְרוּ לוֹ אַיֵּה הָאֲנָשִׁים אֲשֶׁר־בָּאוּ אֵלֶיךָ הַלָּיְלָה הוֹצִיאֵם אֵלֵינוּ וְנֵדְעָה אֹתָֽם וַיֵּצֵא אֲלֵהֶם לוֹט הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָֽיו וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ",
+        "riddle": "נָא אַחַי תָּרֵֽעוּ",
+        "speaker": "לוֹט",
+        "listener": "אַנְשֵׁי סְדֹם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מִשְׁתֶּה",
+        "bonus_hint": {
+          "quote": "וַיִּגְדַּל הַיֶּלֶד וַיִּגָּמַל וַיַּעַשׂ אַבְרָהָם מִשְׁתֶּה גָדוֹל בְּיוֹם הִגָּמֵל אֶת־יִצְחָֽק",
+          "source": {
+            "book": "בראשית",
+            "chapter": 21,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And he pressed upon them greatly; and they turned in unto him, and entered into his house; and he made them a feast, and did bake unleavened bread, and they did eat.",
+          "4": "But before they lay down, the men of the city, even the men of Sodom, compassed the house round, both old and young, all the people from every quarter:",
+          "5": "And they called unto Lot, and said unto him, Where are the men which came in to thee this night? bring them out unto us, that we may know them.",
+          "6": "And Lot went out at the door unto them, and shut the door after him,",
+          "7": "And said, I pray you, brethren, do not so wickedly."
+        },
+        "he": {
+          "3": "וַיִּפְצַר־בָּם מְאֹד וַיָּסֻרוּ אֵלָיו וַיָּבֹאוּ אֶל־בֵּיתוֹ וַיַּעַשׂ לָהֶם מִשְׁתֶּה וּמַצּוֹת אָפָה וַיֹּאכֵֽלוּ׃",
+          "4": "טֶרֶם יִשְׁכָּבוּ וְאַנְשֵׁי הָעִיר אַנְשֵׁי סְדֹם נָסַבּוּ עַל־הַבַּיִת מִנַּעַר וְעַד־זָקֵן כָּל־הָעָם מִקָּצֶֽה׃",
+          "5": "וַיִּקְרְאוּ אֶל־לוֹט וַיֹּאמְרוּ לוֹ אַיֵּה הָאֲנָשִׁים אֲשֶׁר־בָּאוּ אֵלֶיךָ הַלָּיְלָה הוֹצִיאֵם אֵלֵינוּ וְנֵדְעָה אֹתָֽם׃",
+          "6": "וַיֵּצֵא אֲלֵהֶם לוֹט הַפֶּתְחָה וְהַדֶּלֶת סָגַר אַחֲרָֽיו׃",
+          "7": "וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 3,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-19-22-23",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 17,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed. And Lot said unto them, Oh, not so, my Lord: Behold now, thy servant hath found grace in thy sight, and thou hast magnified thy mercy, which thou hast shewed unto me in saving my life; and I cannot escape to the mountain, lest some evil take me, and I die: Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live. And he said unto him, See, I have accepted thee concerning this thing also, that I will not overthrow this city, for the which thou hast spoken. Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar. The sun was risen upon the earth when Lot entered into Zoar.",
+        "riddle": "Haste thee, escape thither; for I cannot do any thing till",
+        "speaker": "Angel",
+        "listener": "Lot",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "behind",
+        "bonus_hint": {
+          "quote": "How he met thee by the way, and smote the hindmost of thee, even all that were feeble behind thee, when thou wast faint and weary; and he feared not God.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 25,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָֽי הִנֵּה־נָא מָצָא עַבְדְּךָ חֵן בְּעֵינֶיךָ וַתַּגְדֵּל חַסְדְּךָ אֲשֶׁר עָשִׂיתָ עִמָּדִי לְהַחֲיוֹת אֶת־נַפְשִׁי וְאָנֹכִי לֹא אוּכַל לְהִמָּלֵט הָהָרָה פֶּן־תִּדְבָּקַנִי הָרָעָה וָמַֽתִּי הִנֵּה־נָא הָעִיר הַזֹּאת קְרֹבָה לָנוּס שָׁמָּה וְהִיא מִצְעָר אִמָּלְטָה נָּא שָׁמָּה הֲלֹא מִצְעָר הִוא וּתְחִי נַפְשִֽׁי וַיֹּאמֶר אֵלָיו הִנֵּה נָשָׂאתִי פָנֶיךָ גַּם לַדָּבָר הַזֶּה לְבִלְתִּי הָפְכִּי אֶת־הָעִיר אֲשֶׁר דִּבַּֽרְתָּ מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה",
+        "riddle": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד",
+        "speaker": "מלאך",
+        "listener": "לוֹט",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אַחֲרֶיךָ",
+        "bonus_hint": {
+          "quote": "אֲשֶׁר קָֽרְךָ בַּדֶּרֶךְ וַיְזַנֵּב בְּךָ כָּל־הַנֶּחֱשָׁלִים אַֽחַרֶיךָ וְאַתָּה עָיֵף וְיָגֵעַ וְלֹא יָרֵא אֱלֹהִֽים",
+          "source": {
+            "book": "דברים",
+            "chapter": 25,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+          "18": "And Lot said unto them, Oh, not so, my Lord:",
+          "19": "Behold now, thy servant hath found grace in thy sight, and thou hast magnified thy mercy, which thou hast shewed unto me in saving my life; and I cannot escape to the mountain, lest some evil take me, and I die:",
+          "20": "Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live.",
+          "21": "And he said unto him, See, I have accepted thee concerning this thing also, that I will not overthrow this city, for the which thou hast spoken.",
+          "22": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar.",
+          "23": "The sun was risen upon the earth when Lot entered into Zoar."
+        },
+        "he": {
+          "17": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה׃",
+          "18": "וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָֽי׃",
+          "19": "הִנֵּה־נָא מָצָא עַבְדְּךָ חֵן בְּעֵינֶיךָ וַתַּגְדֵּל חַסְדְּךָ אֲשֶׁר עָשִׂיתָ עִמָּדִי לְהַחֲיוֹת אֶת־נַפְשִׁי וְאָנֹכִי לֹא אוּכַל לְהִמָּלֵט הָהָרָה פֶּן־תִּדְבָּקַנִי הָרָעָה וָמַֽתִּי׃",
+          "20": "הִנֵּה־נָא הָעִיר הַזֹּאת קְרֹבָה לָנוּס שָׁמָּה וְהִיא מִצְעָר אִמָּלְטָה נָּא שָׁמָּה הֲלֹא מִצְעָר הִוא וּתְחִי נַפְשִֽׁי׃",
+          "21": "וַיֹּאמֶר אֵלָיו הִנֵּה נָשָׂאתִי פָנֶיךָ גַּם לַדָּבָר הַזֶּה לְבִלְתִּי הָפְכִּי אֶת־הָעִיר אֲשֶׁר דִּבַּֽרְתָּ׃",
+          "22": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר׃",
+          "23": "הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 17,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

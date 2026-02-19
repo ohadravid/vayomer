@@ -1,0 +1,99 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 48,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-48-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Israel beheld Joseph's sons, and said, Who are these?",
+        "riddle": "Who are these?",
+        "speaker": "Israel",
+        "listener": "Joseph's sons",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "men of Judah",
+            "Tribes of Israel"
+          ],
+          "listener": [
+            "men of Sodom",
+            "Pharaoh's officers",
+            "children of Benjamin"
+          ]
+        },
+        "bonus": "beheld",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה",
+        "riddle": "מִי־אֵֽלֶּה",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "בְּנֵי יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּֽים",
+            "אִישׁ יְהוּדָה",
+            "שִׁבְטֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "אַנְשֵׁי סְדֹם",
+            "סְרִיסֵי פַרְעֹה",
+            "בְּנֵי בִנְיָמִן"
+          ]
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Israel beheld Joseph's sons, and said, Who are these?"
+        },
+        "he": {
+          "8": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

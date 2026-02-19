@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 15,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-15-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And he said, Lord GOD, whereby shall I know that I shall inherit it?",
+        "riddle": "whereby shall I know that I shall inherit it?",
+        "speaker": "Abraham",
+        "listener": "God",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר אֲדֹנָי יֱהוִה בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
+        "riddle": "בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
+        "speaker": "אברהם",
+        "listener": "אלוהים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he said, Lord GOD, whereby shall I know that I shall inherit it?"
+        },
+        "he": {
+          "8": "וַיֹּאמַר אֲדֹנָי יֱהוִה בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 14,
+    "prefiltered_count": 0,
+    "llm_window_count": 14,
+    "kept_count": 1,
+    "issue_count": 13
+  }
+}
