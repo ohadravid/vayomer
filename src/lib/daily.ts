@@ -3,6 +3,7 @@ export const DAILY_ORDER_SEED = 20220805;
 export const HARD_MODE_SUCCESS_MARKS = ["🔥", "⚔️", "👑"] as const;
 export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-02-19": "manual-genesis-03-09-09-d094f0f4",
+  "2026-02-21": "exodus-24-03-04",
 };
 
 function utcDayNumber(date: Date): number {
