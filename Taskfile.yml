@@ -51,6 +51,11 @@ tasks:
     cmds:
       - uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --bonus-model gemma3:27b --hint-model gemma3:27b --in-dir data/rebuilt_quotes --out-dir data/rebuilt_quotes_bonus --force
 
+  data:bonus:manual:
+    desc: Add bonus+hint to manual quotes in-place (use -- for optional filters like --book/--chapters)
+    cmds:
+      - uv run python3 data_processing/add_bonus_words.py --model gemma3:27b --in-dir data/manual_quotes --out-dir data/manual_quotes --issues-log data/manual_quotes_bonus_issues.jsonl --force {{.CLI_ARGS}}
+
   data:options:hard:
     desc: Build item-level regular+hard difficulty option pools from rebuilt quotes
     cmds:

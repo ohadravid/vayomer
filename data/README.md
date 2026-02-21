@@ -34,6 +34,7 @@ uv run python3 data_processing/add_bonus_words.py --model gemma3:4b --bonus-mode
 
 - `en.bonus_hint` and `he.bonus_hint` are selected independently from each language's `bonus` word.
 - Candidate hint quotes are searched across the full Bible (default limit: 10 per language).
+- Hint candidates from the same source book+chapter are excluded.
 - The LLM picks one candidate quote + source (`book/chapter/start/end`).
 - If no suitable different quote exists, `bonus_hint` is written as `null`.
 - Bonus picks are also filtered by Bible-wide token frequency to reduce generic/common words.

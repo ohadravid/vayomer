@@ -132,6 +132,7 @@ Adds `en.bonus` + `he.bonus` to each item from rebuilt outputs and writes update
 Also adds `en.bonus_hint` + `he.bonus_hint`:
 - each hint is a different quote containing the selected bonus word,
 - candidates are searched across the full Bible (up to 10 per language by default),
+- candidates from the same source book+chapter are excluded,
 - the LLM chooses the most interesting candidate quote,
 - if no other quote is found, `bonus_hint` is set to `null`.
 
@@ -208,7 +209,7 @@ Useful flags:
 For manual files (for example `data/manual_quotes/genesis-003.json`), this script:
 
 - asks you to pick bonus words when missing,
-- if bonus exists, scans Bible sources and suggests up to 5 paired hint options where EN+HE are from the same verse,
+- if bonus exists, scans Bible sources and suggests up to 5 paired hint options where EN+HE are from the same verse (excluding the source book+chapter),
 - writes accepted edits back to the same file.
 
 ```bash

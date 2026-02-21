@@ -267,19 +267,16 @@ class BonusHintPicker:
             return []
 
         query_token_set: Set[str] = set(query_tokens)
-        source_code, source_chapter, source_start, source_end = _source_bounds(source)
+        source_code, source_chapter, _, _ = _source_bounds(source)
         cleaned_current_quote = _sanitize_str(current_quote)
         candidates: List[VerseIndexEntry] = []
 
         for entry in self._entries:
             if (
                 source_code
-                and entry.book_code == source_code
                 and source_chapter > 0
+                and entry.book_code.casefold() == source_code.casefold()
                 and entry.chapter == source_chapter
-                and source_start > 0
-                and source_end > 0
-                and source_start <= entry.verse <= source_end
             ):
                 continue
 
