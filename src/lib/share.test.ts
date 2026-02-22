@@ -139,4 +139,29 @@ describe("buildShareText", () => {
     expect(text).toContain("🔥🔥✳️⬜");
     expect(text).not.toContain("✅✅");
   });
+
+  it("adds grandma emoji in the header for manually selected quotes", () => {
+    const manualText = buildShareText({
+      title: "Vayomer",
+      attempts: [SOLVED],
+      solved: true,
+      bonusRequired: true,
+      manualSource: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+    const llmText = buildShareText({
+      title: "Vayomer",
+      attempts: [SOLVED],
+      solved: true,
+      bonusRequired: true,
+      manualSource: false,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(manualText).toContain("Vayomer 👵 2026-02-11 1/5");
+    expect(llmText).toContain("Vayomer 2026-02-11 1/5");
+    expect(llmText).not.toContain("👵");
+  });
 });

@@ -6,6 +6,7 @@ type BuildShareTextArgs = {
   attempts: GuessResult[];
   solved: boolean;
   bonusRequired: boolean;
+  manualSource?: boolean;
   hintUsed?: boolean;
   successMark?: string;
   maxTries: number;
@@ -31,10 +32,10 @@ function attemptRow(attempt: GuessResult, bonusRequired: boolean, successMark: s
 }
 
 export function buildShareText(args: BuildShareTextArgs): string {
-  const { title, attempts, solved, bonusRequired, hintUsed = false, successMark = "✅", maxTries, date, gameUrl } = args;
+  const { title, attempts, solved, bonusRequired, manualSource = false, hintUsed = false, successMark = "✅", maxTries, date, gameUrl } = args;
   const countedAttempts = attempts.filter(doesAttemptCountAsTry);
   const score = solved ? `${Math.min(countedAttempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
-  const header = `${title} ${formatShareDate(date)} ${score}`;
+  const header = `${title}${manualSource ? " 👵" : ""} ${formatShareDate(date)} ${score}`;
   const fallbackRow = bonusRequired ? `⬜⬜⬜${hintUsed ? "💡" : "⬜"}` : "⬜⬜";
   const rows =
     countedAttempts.length > 0

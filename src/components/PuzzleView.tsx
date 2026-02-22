@@ -210,6 +210,7 @@ export function PuzzleView({
   })();
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = attempts.length > 0;
+  const manualSource = puzzle.source?.method === "manual";
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
   const feedback = useMemo(() => {
     if (!result) return "";
@@ -322,13 +323,14 @@ export function PuzzleView({
       attempts,
       solved: fullySolved,
       bonusRequired,
+      manualSource,
       hintUsed: bonusHintUsed,
       successMark,
       maxTries: MAX_TOTAL_TRIES,
       date: new Date(),
       gameUrl: shareUrl,
     });
-  }, [attempts, fullySolved, bonusRequired, bonusHintUsed, successMark, shareUrl, t, lang]);
+  }, [attempts, fullySolved, bonusRequired, manualSource, bonusHintUsed, successMark, shareUrl, t, lang]);
 
   const checkGuess = () => {
     if (submitDisabled) return;
