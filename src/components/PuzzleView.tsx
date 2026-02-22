@@ -179,7 +179,7 @@ export function PuzzleView({
   const hintQuote = puzzle[lang].bonus_hint?.quote?.trim() ?? "";
   const hasBonusHint = hintQuote.length > 0;
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
-  const maskedHintQuote = hasBonusHint ? maskHardWord(hintQuote, bonusAnswer, placeholder) : "";
+  const maskedHintQuote = hasBonusHint ? maskHardWord(hintQuote, bonusAnswer, placeholder, lang) : "";
   const hintSourceLine = formatHintSourceLine(puzzle[lang].bonus_hint?.source);
   const bonusRequired = !!bonusAnswer;
   const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;

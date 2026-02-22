@@ -55,20 +55,51 @@ function escapeRegex(text: string): string {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
-export function maskHardWord(quote: string, hardWord: string, placeholder: string): string {
+function maskTokenCharacters(value: string, placeholder: string): string {
+  return Array.from(value)
+    .map((char) => {
+      if (/\s/u.test(char)) return char;
+      if (/[\u0591-\u05C7]/u.test(char)) return "";
+      return placeholder;
+    })
+    .join("");
+}
+
+function containsHebrew(value: string): boolean {
+  return /[\u0590-\u05FF]/u.test(value);
+}
+
+function normalizeHebrewForMaskMatch(text: string): string {
+  return normalizeHebrew(text).replace(/[יו]/gu, "");
+}
+
+export function maskHardWord(quote: string, hardWord: string, placeholder: string, lang?: Lang): string {
   if (!quote || !hardWord) return quote;
-  const pattern = escapeRegex(hardWord.trim());
+  const trimmedHardWord = hardWord.trim();
+  if (!trimmedHardWord) return quote;
+
+  const pattern = escapeRegex(trimmedHardWord);
   if (!pattern) return quote;
-  const regex = new RegExp(pattern, "gu");
-  return quote.replace(regex, (match) =>
-    Array.from(match)
-      .map((char) => {
-        if (/\s/u.test(char)) return char;
-        if (/[\u0591-\u05C7]/u.test(char)) return "";
-        return placeholder;
-      })
-      .join("")
-  );
+  const exactRegex = new RegExp(pattern, "gu");
+  const exactMasked = quote.replace(exactRegex, (match) => maskTokenCharacters(match, placeholder));
+
+  if (exactMasked !== quote) return exactMasked;
+
+  const resolvedLang = lang ?? (containsHebrew(trimmedHardWord) ? "he" : "en");
+  if (resolvedLang !== "he") return exactMasked;
+
+  const normalizedTarget = normalizeHebrewForMaskMatch(trimmedHardWord);
+  if (!normalizedTarget || /\s/u.test(normalizedTarget)) return exactMasked;
+
+  const hebrewTokenRegex = /[\u0590-\u05FF]+/gu;
+  let replaced = false;
+  const fuzzyMasked = quote.replace(hebrewTokenRegex, (token) => {
+    if (normalizeHebrewForMaskMatch(token) !== normalizedTarget) return token;
+    replaced = true;
+    return maskTokenCharacters(token, placeholder);
+  });
+
+  return replaced ? fuzzyMasked : exactMasked;
 }
 
 function renderTextWithVerseNumbers(text: string, keyPrefix: string): ReactNode[] {

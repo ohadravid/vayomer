@@ -80,6 +80,24 @@ const puzzleWithHint: PuzzleItem = {
   },
 };
 
+const puzzleWithHebrewHintSpellingMismatch: PuzzleItem = {
+  ...puzzleWithHint,
+  id: "manual-genesis-37-07-09-69be8e9c",
+  he: {
+    ...puzzleWithHint.he,
+    quote:
+      "וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָיו",
+    riddle: "הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ",
+    speaker: "אֶחָיו",
+    listener: "יוֹסֵף",
+    bonus: "שְׂנֹא",
+    bonus_hint: {
+      quote: "וְכִֽי־יִהְיֶה אִישׁ שֹׂנֵא לְרֵעֵהוּ וְאָרַב לוֹ",
+      source: { book: "דברים", chapter: 19, start: 11, end: 11 },
+    },
+  },
+};
+
 const coreSolvedAttempt: GuessResult = {
   speakerOk: true,
   listenerOk: true,
@@ -554,6 +572,37 @@ describe("PuzzleView persistence hydration", () => {
     const solvedHintQuoteText = byId("hintQuote").textContent ?? "";
     expect(solvedHintQuoteText.includes("land")).toBe(true);
     expect(solvedHintQuoteText.includes(placeholder)).toBe(false);
+  });
+
+  it("masks Hebrew bonus-hint words even when the hint uses a different niqqud spelling", async () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          lang: "he",
+          puzzle: puzzleWithHebrewHintSpellingMismatch,
+          revealed: false,
+          initial: {
+            speaker: "אֶחָיו",
+            listener: "יוֹסֵף",
+            portion: "",
+            bonus: "",
+            hintRevealed: false,
+            attempts: [coreSolvedAttempt],
+          },
+        })
+      );
+    });
+
+    await clickById("bonusHint");
+
+    const hintQuoteText = byId("hintQuote").textContent ?? "";
+    const placeholder = pickHardWordPlaceholderForId(puzzleWithHebrewHintSpellingMismatch.id);
+
+    expect(hintQuoteText.includes("שֹׂנֵא")).toBe(false);
+    expect(hintQuoteText.includes(placeholder)).toBe(true);
   });
 
   it("restores the bonus hint quote on load when hint was already used", () => {
