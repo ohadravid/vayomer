@@ -5,6 +5,8 @@ export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-02-19": "manual-genesis-03-09-09-d094f0f4",
   "2026-02-21": "exodus-24-03-04",
   "2026-02-22": "manual-genesis-37-07-09-69be8e9c",
+  "2026-02-23": "exodus-20-22-23",
+  "2026-02-24": "manual-genesis-24-16-18-10363c00",
 };
 
 function utcDayNumber(date: Date): number {
