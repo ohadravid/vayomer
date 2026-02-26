@@ -45,6 +45,7 @@ type Props = {
   onPersist?: (state: PersistedGameFields) => void;
   initial?: Omit<PersistedGameFields, "hintRevealed"> & { hintRevealed?: boolean };
   syncDocumentDirection?: boolean;
+  shareEnabled?: boolean;
 };
 
 type PersistableState = PersistedGameFields;
@@ -157,6 +158,7 @@ export function PuzzleView({
   onPersist,
   initial,
   syncDocumentDirection = true,
+  shareEnabled = true,
 }: Props) {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -193,13 +195,14 @@ export function PuzzleView({
     bonusRequired,
   });
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
-  const quoteRevealed = stageTwoOpen || gameState === GameState.Failed;
+  const fullySolved = gameState === GameState.Solved;
+  const quoteRevealed =
+    stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
   const successMark = useMemo(
     () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(new Date())),
     [easyMode]
   );
-  const fullySolved = gameState === GameState.Solved;
   const failedBonusTry = bonusRequired
     ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
     : false;
@@ -209,7 +212,7 @@ export function PuzzleView({
     return fullySolved ? quoteBody : <span className="quote-hidden veil">{quoteBody}</span>;
   })();
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
-  const canShare = attempts.length > 0;
+  const canShare = shareEnabled && attempts.length > 0;
   const manualSource = puzzle.source?.method === "manual";
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
   const feedback = useMemo(() => {
@@ -276,7 +279,7 @@ export function PuzzleView({
     initial?.bonus,
     initial?.hintRevealed,
     initial?.attempts,
-    puzzle,
+    puzzle.id,
   ]);
 
   useEffect(() => {
@@ -462,6 +465,7 @@ export function PuzzleView({
         onShare={shareResult}
         onRevealBonusHint={revealBonusHint}
         canShare={canShare}
+        showShare={shareEnabled}
         disabled={submitDisabled}
         feedback={feedback}
         shareNotice={shareNotice}

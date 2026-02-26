@@ -10,8 +10,14 @@ type PuzzleItem = {
   id: string;
   en: {
     book: string;
+    quote: string;
+    riddle?: string;
     speaker: string;
     listener: string;
+    options?: {
+      speaker?: string[];
+      listener?: string[];
+    };
     bonus?: string | null;
     bonus_hint?: {
       quote?: string | null;
@@ -25,8 +31,14 @@ type PuzzleItem = {
   };
   he: {
     book: string;
+    quote: string;
+    riddle?: string;
     speaker: string;
     listener: string;
+    options?: {
+      speaker?: string[];
+      listener?: string[];
+    };
     bonus?: string | null;
     bonus_hint?: {
       quote?: string | null;
@@ -56,6 +68,7 @@ type GameOpenOptions = {
 
 const WRONG_TEXT = "not-the-answer";
 const quotesOptionsDirPath = fileURLToPath(new URL("../data/quotes_options", import.meta.url));
+const exampleQuotePath = fileURLToPath(new URL("../src/lib/exampleQuote.json", import.meta.url));
 
 function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
   const files = fs
@@ -71,10 +84,36 @@ function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
 }
 
 const dailyItems = loadPuzzleItemsFromQuotesOptions(quotesOptionsDirPath);
+const examplePayload = JSON.parse(fs.readFileSync(exampleQuotePath, "utf8")) as { items?: PuzzleItem[] };
+const examplePuzzle = examplePayload.items?.[0];
 const todayPuzzle = dailyItems[pickDailyItemIndex(dailyItems.length)];
 
 if (!todayPuzzle) {
   throw new Error("Expected at least one puzzle to resolve today's puzzle id.");
+}
+
+if (!examplePuzzle) {
+  throw new Error("Expected one example puzzle in src/lib/exampleQuote.json.");
+}
+
+const exampleEnAnswer = {
+  speaker: examplePuzzle.en.speaker,
+  listener: examplePuzzle.en.listener,
+  bonus: examplePuzzle.en.bonus?.trim() ?? "",
+  riddle: examplePuzzle.en.riddle?.trim() ?? "",
+  quote: examplePuzzle.en.quote,
+};
+const exampleWrongSpeaker = examplePuzzle.en.options?.speaker?.[0]?.trim() ?? "";
+
+if (
+  !exampleEnAnswer.speaker ||
+  !exampleEnAnswer.listener ||
+  !exampleEnAnswer.bonus ||
+  !exampleEnAnswer.riddle ||
+  !exampleEnAnswer.quote ||
+  !exampleWrongSpeaker
+) {
+  throw new Error("Example puzzle must contain EN speaker/listener/quote/riddle/bonus and one wrong speaker option.");
 }
 
 const todayPuzzleId = todayPuzzle.id;
@@ -298,6 +337,40 @@ function buildEnglishArticleVariant(answer: string): string {
   return `the ${trimmed}`;
 }
 
+function pickVisibleContextTokenFromQuote(quote: string, riddle: string, bonus: string, lang: Lang): string {
+  const quoteTokens = quote.match(/\p{L}+/gu) ?? [];
+  const bonusNormalized = normalize(bonus, lang);
+  const riddleTokens = new Set((riddle.match(/\p{L}+/gu) ?? []).map((token) => normalize(token, lang)));
+  const candidate = quoteTokens.find((token) => {
+    const normalizedToken = normalize(token, lang);
+    if (!normalizedToken) return false;
+    if (normalizedToken === bonusNormalized) return false;
+    return !riddleTokens.has(normalizedToken);
+  });
+  return candidate ?? "";
+}
+
+const enVisibleContextToken = pickVisibleContextTokenFromQuote(
+  testPuzzle.en.quote,
+  testPuzzle.en.riddle ?? "",
+  enAnswer.bonus,
+  "en"
+);
+const exampleVisibleContextToken = pickVisibleContextTokenFromQuote(
+  exampleEnAnswer.quote,
+  exampleEnAnswer.riddle,
+  exampleEnAnswer.bonus,
+  "en"
+);
+
+if (!enVisibleContextToken) {
+  throw new Error(`Could not pick a visible non-bonus token from puzzle ${puzzleId}.`);
+}
+
+if (!exampleVisibleContextToken) {
+  throw new Error("Could not pick a visible non-bonus token from example puzzle.");
+}
+
 test("toggling the sheep to hard mode writes hard=1 in the URL", async ({ page }) => {
   await openGame(page, { puzzleId: todayPuzzleId });
   await expect(page.locator("#guessForm")).toBeVisible();
@@ -369,6 +442,9 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  const quoteAfterCoreSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterCoreSolve, "en")).toContain(normalize(enVisibleContextToken, "en"));
+  expect(normalize(quoteAfterCoreSolve, "en")).not.toContain(normalize(enAnswer.bonus, "en"));
   await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.getByText("Tries: 0/5")).toBeVisible();
 
@@ -379,6 +455,9 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   expect(normalize(persistedSpeaker, "en")).toBe(normalize(enAnswer.speaker, "en"));
   expect(normalize(persistedListener, "en")).toBe(normalize(enAnswer.listener, "en"));
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  const quoteAfterReload = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterReload, "en")).toContain(normalize(enVisibleContextToken, "en"));
+  expect(normalize(quoteAfterReload, "en")).not.toContain(normalize(enAnswer.bonus, "en"));
   await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.getByText("Tries: 0/5")).toBeVisible();
 
@@ -386,6 +465,8 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
+  const quoteAfterSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterSolve, "en")).toContain(normalize(enAnswer.bonus, "en"));
   if (testPuzzleHasBonusHint) {
     await expect(page.locator("#bonusHint")).toBeVisible();
   } else {
@@ -615,8 +696,42 @@ test("about page opens and returns to puzzle", async ({ page }) => {
   await expect(page.getByRole("heading", { name: "About Vayomer" })).toBeVisible();
   await expect(page.getByText("Source Material")).toBeVisible();
 
-  await page.getByRole("link", { name: "Back to puzzle" }).click();
+  await page.locator("#topBackButton").click();
   await expect(page.locator("#puzzleCard")).toBeVisible();
+});
+
+test("how-to example opens from ❓, starts with partial correctness, and can be solved", async ({ page }) => {
+  await openGame(page, { lang: "en" });
+
+  await page.getByRole("button", { name: "Open how to play example" }).click();
+  await expect(page).toHaveURL(/#example$/);
+  await expect(page.locator("#guessForm")).toBeVisible();
+  await expect(page.getByRole("button", { name: "Share result" })).toHaveCount(0);
+
+  await expect(page.locator("#inputSpeaker")).toHaveValue(exampleWrongSpeaker);
+  await expect(page.locator("#inputListener")).toHaveValue(exampleEnAnswer.listener);
+  await expect(page.locator("#labelSpeaker")).toContainText("❌");
+  await expect(page.locator("#labelListener")).toContainText("✅");
+  await expect(page.locator("#feedback")).toHaveText("Not quite. Try again.");
+  const quoteBeforeCoreSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteBeforeCoreSolve, "en")).not.toContain(normalize(exampleEnAnswer.bonus, "en"));
+
+  await selectAnswerOption(page.locator("#inputSpeaker"), exampleEnAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), exampleEnAnswer.listener, "en");
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.locator("#inputBonus")).toBeEnabled();
+  const quoteAfterCoreSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterCoreSolve, "en")).toContain(normalize(exampleVisibleContextToken, "en"));
+  expect(normalize(quoteAfterCoreSolve, "en")).not.toContain(normalize(exampleEnAnswer.bonus, "en"));
+
+  await page.fill("#inputBonus", exampleEnAnswer.bonus);
+  await page.click("#submitGuess");
+  await expect(page.locator("#feedback")).toHaveText("Solved.");
+  const quoteAfterSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterSolve, "en")).toContain(normalize(exampleEnAnswer.riddle, "en"));
+  expect(normalize(quoteAfterSolve, "en")).toContain(normalize(exampleEnAnswer.bonus, "en"));
 });
 
 test("language switch updates UI and keeps selected puzzle", async ({ page }) => {

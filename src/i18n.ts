@@ -22,13 +22,13 @@ export const resources = {
         easyModeTooltip: "Easy mode",
         easyModeLockedTooltip: "Difficulty is locked for this puzzle.",
         toggleEasyMode: "Toggle easy mode",
+        openExample: "Open how to play example",
       },
       about: {
         kicker: "About",
         title: "About Vayomer",
         subtitle: "Notes on the game and source texts.",
         link: "About & sources",
-        backToGame: "Back to puzzle",
         gameDescription:
           "Vayomer is a daily quote puzzle built from aligned Hebrew and English Bible texts. Each day, you identify the speaker, listener, and context.",
         sourceHeading: "Source Material",
@@ -42,6 +42,11 @@ export const resources = {
         fontLicenseNote:
           "Distributed under GNU GPL v2 with a font-embedding exception; see the bundled font license files in the repository.",
         modelNote: "Quote were selected with Gemma3:27b, or, when marked with 👵, by Grandma Leah.",
+      },
+      example: {
+        kicker: "Daily Quote Puzzle",
+        title: "Vayomer",
+        subtitle: "Identify the speaker, the listener, and the missing word.",
       },
       puzzleView: {
         solved: "Solved.",
@@ -85,15 +90,15 @@ export const resources = {
         easyModeTooltip: "מצב קל",
         easyModeLockedTooltip: "רמת הקושי נעולה עבור החידה הזו.",
         toggleEasyMode: "החלפת מצב קל",
+        openExample: "פתיחת הדגמה איך לשחק",
       },
       about: {
         kicker: "אודות",
-        title: "אודות ויאמר",
+        title: "אודות וַיֹּאמֶר",
         subtitle: "מידע על המשחק ועל מקורות הטקסט.",
         link: "אודות ומקורות",
-        backToGame: "חזרה לחידה",
         gameDescription:
-          "ויאמר הוא חידון ציטוט יומי שנבנה מטקסטים מקבילים של התנ\"ך בעברית ובאנגלית. בכל יום מזהים את הדובר, המאזין וההקשר.",
+          "וַיֹּאמֶר הוא חידון ציטוט יומי שנבנה מטקסטים מקבילים של התנ\"ך בעברית ובאנגלית. בכל יום מזהים את הדובר, המאזין וההקשר.",
         sourceHeading: "מקורות",
         hebrewLabel: "טקסט עברי:",
         hebrewSourceName: "מהדורת Unicode/XML של קודקס לנינגרד (UXLC), דרך tanach.us",
@@ -104,6 +109,11 @@ export const resources = {
         fontLicenseNote:
           "מופץ תחת GNU GPL v2 עם החרגה להטמעת פונטים במסמכים; ראו את קבצי הרישיון של הפונט המצורפים ב- repository.",
         modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma3:27b, או, כאשר מופיע הסימון 👵, על ידי סבתא לאה.",
+      },
+      example: {
+        kicker: "חִידוֹן צִיטּוּט יוֹמִי",
+        title: "וַיֹּאמֶר",
+        subtitle: "בַּחֲרוּ אֶת הַדּוֹבֵר ואֶת הַמַּאֲזִין הַנְּכוֹנִים. לְאַחַר מִכֵּן, הַקְלִידוּ אֶת הַמִּלָּה הַחֲסֵרָה. חֲמִשָּׁה נִסְיוֹנוֹת לְכָל הַיּוֹתֵר. בְּהַצְלָחָה!",
       },
       puzzleView: {
         solved: "נכון.",

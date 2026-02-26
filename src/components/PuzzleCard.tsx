@@ -95,7 +95,9 @@ export function PuzzleCard({
   const bonus = puzzle[lang].bonus ?? "";
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
   const unmaskedQuote = revealed || quoteRevealed;
-  const renderedQuote = unmaskedQuote ? quote : maskHardWord(quote, bonus, placeholder, lang);
+  const shouldMaskBonusInVisibleQuote = unmaskedQuote && sourceRevealed && !revealed;
+  const renderedQuote =
+    !unmaskedQuote || shouldMaskBonusInVisibleQuote ? maskHardWord(quote, bonus, placeholder, lang) : quote;
   const quoteContent = highlightQuote(renderedQuote, riddleText, unmaskedQuote ? "" : placeholder);
 
   const book = getBookLabel(puzzle, lang);

@@ -1,6 +1,8 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { answersMatch } from "./lib/answerMatcher";
 import { pickDailyItemIndexWithOverrides } from "./lib/daily";
+import { maskHardWord, pickHardWordPlaceholderForId } from "./lib/format";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
 import { loadPuzzleItems } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
@@ -8,12 +10,14 @@ import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import packageMeta from "../package.json";
+import exampleQuoteData from "./lib/exampleQuote.json";
 
 const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
 const HARD_MODE_QUERY_KEY = "hard";
 const LEGACY_EASY_MODE_QUERY_KEY = "easy";
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
+const EXAMPLE_HASH = "#example";
 const DEFAULT_EASY_MODE = true;
 const DIFFICULTY_LOCK_STORAGE_PREFIX = "qs:difficulty-lock:";
 const REPO_URL = "https://github.com/ohadravid/vayomer";
@@ -30,7 +34,11 @@ type PersistedState = PersistedGameFields & {
   revealed: boolean;
 };
 
-type AppPage = "game" | "about";
+enum AppPage {
+  Game = "game",
+  About = "about",
+  Example = "example",
+}
 
 const EMPTY_PERSISTED_GAME_FIELDS: PersistedGameFields = {
   speaker: "",
@@ -40,6 +48,56 @@ const EMPTY_PERSISTED_GAME_FIELDS: PersistedGameFields = {
   hintRevealed: false,
   attempts: [],
 };
+const EXAMPLE_PUZZLE: PuzzleItem | null = ((exampleQuoteData as { items?: PuzzleItem[] }).items ?? [])[0] ?? null;
+
+function buildExamplePuzzleWithMaskedBonusWord(puzzle: PuzzleItem): PuzzleItem {
+  const placeholder = pickHardWordPlaceholderForId(puzzle.id);
+  const enBonus = puzzle.en.bonus ?? "";
+  const heBonus = puzzle.he.bonus ?? "";
+
+  return {
+    ...puzzle,
+    en: {
+      ...puzzle.en,
+      quote: maskHardWord(puzzle.en.quote, enBonus, placeholder, "en"),
+    },
+    he: {
+      ...puzzle.he,
+      quote: maskHardWord(puzzle.he.quote, heBonus, placeholder, "he"),
+    },
+  };
+}
+
+function pickExampleWrongSpeaker(puzzle: PuzzleItem, lang: Lang): string {
+  const answer = puzzle[lang].speaker;
+  const options = puzzle[lang].options?.speaker ?? [];
+  const candidate = options.find((option) => !answersMatch(option, answer, lang));
+  if (candidate) return candidate;
+  return "";
+}
+
+function buildExampleInitialState(puzzle: PuzzleItem, lang: Lang): PersistedGameFields {
+  const wrongSpeaker = pickExampleWrongSpeaker(puzzle, lang);
+  const listener = puzzle[lang].listener;
+  const speakerOk = answersMatch(wrongSpeaker, puzzle[lang].speaker, lang);
+  const listenerOk = answersMatch(listener, puzzle[lang].listener, lang);
+
+  return {
+    speaker: wrongSpeaker,
+    listener,
+    portion: "",
+    bonus: "",
+    hintRevealed: false,
+    attempts: [
+      {
+        speakerOk,
+        listenerOk,
+        portionOk: true,
+        bonusOk: false,
+      },
+    ],
+  };
+}
 
 function toPersistedGameFields(state: PersistedState): PersistedGameFields {
   return {
@@ -250,9 +308,12 @@ export function pruneDifficultyLockKeys(storage: StorageKeyAccess, keepPuzzleId:
   }
 }
 
-function pickPageFromHash(hash: string): AppPage {
-  const normalized = hash.trim().replace(/^#/, "").toLowerCase();
-  return normalized === "about" ? "about" : "game";
+function pickPageFromLocationHash(): AppPage {
+  if (typeof window === "undefined") return AppPage.Game;
+  const hash = window.location.hash.trim().replace(/^#/, "").toLowerCase();
+  if (hash === AppPage.About) return AppPage.About;
+  if (hash === AppPage.Example) return AppPage.Example;
+  return AppPage.Game;
 }
 
 export function App() {
@@ -267,15 +328,13 @@ export function App() {
     value: null,
   });
   const [revealed, setRevealed] = useState(false);
+  const [exampleRevealed, setExampleRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistedGameFields | null>(null);
-  const [page, setPage] = useState<AppPage>(() => {
-    if (typeof window === "undefined") return "game";
-    return pickPageFromHash(window.location.hash);
-  });
+  const [page, setPage] = useState<AppPage>(() => pickPageFromLocationHash());
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const onHashChange = () => setPage(pickPageFromHash(window.location.hash));
+    const onHashChange = () => setPage(pickPageFromLocationHash());
     window.addEventListener("hashchange", onHashChange);
     return () => window.removeEventListener("hashchange", onHashChange);
   }, []);
@@ -337,6 +396,15 @@ export function App() {
   }, []);
 
   const puzzle = useMemo(() => items[index], [items, index]);
+  const exampleMaskedPuzzle = useMemo(
+    () => (EXAMPLE_PUZZLE ? buildExamplePuzzleWithMaskedBonusWord(EXAMPLE_PUZZLE) : null),
+    []
+  );
+  const examplePuzzle = exampleRevealed ? EXAMPLE_PUZZLE : exampleMaskedPuzzle;
+  const exampleInitial = useMemo(
+    () => (EXAMPLE_PUZZLE ? buildExampleInitialState(EXAMPLE_PUZZLE, lang) : null),
+    [lang]
+  );
   const lockedEasyMode = puzzle && lockedEasyModeByPuzzle.puzzleId === puzzle.id ? lockedEasyModeByPuzzle.value : null;
   const easyModeToggleBlocked = isEasyModeToggleBlocked(lockedEasyMode, easyMode);
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
@@ -369,8 +437,13 @@ export function App() {
     document.documentElement.lang = lang;
     document.documentElement.dir = direction;
     document.body.dir = direction;
-    document.title = page === "about" ? t("about.title") : t("app.pageTitle");
+    document.title = page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.pageTitle");
   }, [lang, page, t]);
+
+  useEffect(() => {
+    if (page === AppPage.Example) return;
+    if (exampleRevealed) setExampleRevealed(false);
+  }, [page, exampleRevealed]);
 
   const toggleEasyMode = () => {
     if (easyModeToggleBlocked) return;
@@ -400,7 +473,7 @@ export function App() {
     }
   };
 
-  if (!puzzle && page === "game") return null;
+  if (!puzzle && page === AppPage.Game) return null;
 
   const persist = (state: PersistedGameFields) => {
     if (!puzzle) return;
@@ -440,8 +513,10 @@ export function App() {
 
       <header className="header">
         <div className="header-copy">
-          <div className="kicker">{page === "about" ? t("about.kicker") : t("app.kicker")}</div>
-          <h1>{page === "about" ? t("about.title") : t("app.title")}</h1>
+          <div className="kicker">
+            {page === AppPage.About ? t("about.kicker") : page === AppPage.Example ? t("example.kicker") : t("app.kicker")}
+          </div>
+          <h1>{page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.title")}</h1>
         </div>
         <div className="controls">
           <button
@@ -452,24 +527,41 @@ export function App() {
           >
             {nextLanguage.toUpperCase()}
           </button>
-          {page === "game" ? (
-            <button
-              className={`chip difficulty ${easyMode ? "active" : ""}`}
-              type="button"
-              onClick={toggleEasyMode}
-              disabled={easyModeToggleBlocked}
-              aria-pressed={easyMode}
-              aria-label={t("app.toggleEasyMode")}
-              title={easyModeToggleBlocked ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
-            >
-              🐑
-            </button>
-          ) : null}
+          {page === AppPage.Game ? (
+            <>
+              <button
+                className={`chip difficulty ${easyMode ? "active" : ""}`}
+                type="button"
+                onClick={toggleEasyMode}
+                disabled={easyModeToggleBlocked}
+                aria-pressed={easyMode}
+                aria-label={t("app.toggleEasyMode")}
+                title={easyModeToggleBlocked ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
+              >
+                🐑
+              </button>
+              <button
+                className="chip difficulty"
+                type="button"
+                onClick={() => {
+                  window.location.hash = AppPage.Example;
+                }}
+                aria-label={t("app.openExample")}
+                title={t("app.openExample")}
+              >
+                ❓
+              </button>
+            </>
+          ) : (
+            <a id="topBackButton" className="chip back-chip" href="#">⬅️</a>
+          )}
         </div>
-        <p className="subtitle header-subtitle">{page === "about" ? t("about.subtitle") : t("app.subtitle")}</p>
+        <p className="subtitle header-subtitle">
+          {page === AppPage.About ? t("about.subtitle") : page === AppPage.Example ? t("example.subtitle") : t("app.subtitle")}
+        </p>
       </header>
 
-      {page === "about" ? (
+      {page === AppPage.About ? (
         <section className="card about-card">
           <p>{t("about.gameDescription")}</p>
           <h2 className="about-heading">{t("about.sourceHeading")}</h2>
@@ -505,6 +597,20 @@ export function App() {
             </a>
           </p>
         </section>
+      ) : page === AppPage.Example && examplePuzzle ? (
+        <>
+          <PuzzleView
+            puzzle={examplePuzzle}
+            easyMode
+            revealed={exampleRevealed}
+            onReveal={() => {
+              setExampleRevealed(true);
+            }}
+            onClear={() => {}}
+            initial={exampleInitial ?? undefined}
+            shareEnabled={false}
+          />
+        </>
       ) : puzzle ? (
         <PuzzleView
           puzzle={puzzle}
@@ -519,11 +625,13 @@ export function App() {
       ) : null}
 
       <footer className="footer-note">
-        <div>
-          <a className="footer-link" href={page === "about" ? "#" : ABOUT_HASH}>
-            {page === "about" ? t("about.backToGame") : t("about.link")}
-          </a>
-        </div>
+        {page === AppPage.Game ? (
+          <div>
+            <a className="footer-link" href={ABOUT_HASH}>
+              {t("about.link")}
+            </a>
+          </div>
+        ) : null}
         <div>
           <a className="footer-link footer-version-link" href={REPO_URL} target="_blank" rel="noreferrer">
             {t("footer.version", { version: APP_VERSION })}

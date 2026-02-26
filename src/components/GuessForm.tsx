@@ -23,6 +23,7 @@ type Props = {
   bonusDisabled: boolean;
   bonusHintUsed: boolean;
   canShare: boolean;
+  showShare?: boolean;
   disabled: boolean;
   feedback?: string;
   shareNotice?: string;
@@ -52,6 +53,7 @@ export function GuessForm({
   bonusDisabled,
   bonusHintUsed,
   canShare,
+  showShare = true,
   disabled,
   feedback,
   shareNotice,
@@ -215,11 +217,13 @@ export function GuessForm({
       <div className="status-line">
         <span>{t("guessForm.tries", { used: triesUsed, total: maxTries })}</span>
         <span>{t("guessForm.status", { marks: statusMarks })}</span>
-        <button className="ghost small share-btn" type="button" disabled={!canShare} onClick={onShare}>
-          {t("guessForm.share")}
-        </button>
+        {showShare ? (
+          <button className="ghost small share-btn" type="button" disabled={!canShare} onClick={onShare}>
+            {t("guessForm.share")}
+          </button>
+        ) : null}
       </div>
-      <div className="share-note">{shareNotice}</div>
+      {showShare ? <div className="share-note">{shareNotice}</div> : null}
     </section>
   );
 }
