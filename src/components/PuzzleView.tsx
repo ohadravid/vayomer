@@ -193,7 +193,7 @@ export function PuzzleView({
     bonusRequired,
   });
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
-  const quoteRevealed = stageTwoOpen;
+  const quoteRevealed = stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
   const successMark = useMemo(
     () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(new Date())),

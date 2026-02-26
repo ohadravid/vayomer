@@ -471,12 +471,16 @@ test("full game: lose", async ({ page }) => {
 
   await page.fill("#inputSpeaker", WRONG_TEXT);
   await page.fill("#inputListener", WRONG_TEXT);
+  const quoteBeforeLose = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteBeforeLose, "en")).not.toContain(normalize(enAnswer.bonus, "en"));
   for (let idx = 0; idx < 5; idx += 1) {
     await page.click("#submitGuess");
   }
 
   await expect(page.locator("#feedback")).toHaveText("No tries left.");
   await expect(page.getByText("Tries: 5/5")).toBeVisible();
+  const quoteAfterLose = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterLose, "en")).toContain(normalize(enAnswer.bonus, "en"));
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 
