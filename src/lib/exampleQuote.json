@@ -1,0 +1,85 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 3,
+  "mode": "manual",
+  "items": [
+    {
+      "id": "exodus-03-04-04-example",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 3,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I.",
+        "riddle": "Moses, Moses",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Aaron"
+          ],
+          "listener": []
+        },
+        "bonus": "turned",
+        "bonus_hint": {
+          "quote": "And he did that which was right in the sight of the LORD, and walked in all the way of David his father, and turned not aside to the right hand or to the left.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 22,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא יְהוָה כִּי סָר לִרְאוֹת וַיִּקְרָא אֵלָיו אֱלֹהִים מִתּוֹךְ הַסְּנֶה וַיֹּאמֶר מֹשֶׁה מֹשֶׁה וַיֹּאמֶר הִנֵּֽנִי",
+        "riddle": "מֹשֶׁה מֹשֶׁה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן"
+          ],
+          "listener": []
+        },
+        "bonus": "סָר",
+        "bonus_hint": {
+          "quote": "וַיַּעַשׂ הַיָּשָׁר בְּעֵינֵי יְהוָה וַיֵּלֶךְ בְּכָל־דֶּרֶךְ דָּוִד אָבִיו וְלֹא־סָר יָמִין וּשְׂמֹֽאול",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 22,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And when the LORD saw that he turned aside to see, God called unto him out of the midst of the bush, and said, Moses, Moses. And he said, Here am I."
+        },
+        "he": {
+          "4": "וַיַּרְא יְהוָה כִּי סָר לִרְאוֹת וַיִּקְרָא אֵלָיו אֱלֹהִים מִתּוֹךְ הַסְּנֶה וַיֹּאמֶר מֹשֶׁה מֹשֶׁה וַיֹּאמֶר הִנֵּֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct address from God to Moses, clear spoken span.",
+        "confidence": 1.0,
+        "bonus_source": "manual",
+        "bonus_hint_source": "manual"
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ]
+}
