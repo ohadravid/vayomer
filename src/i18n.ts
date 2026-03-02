@@ -45,8 +45,9 @@ export const resources = {
       },
       example: {
         kicker: "Daily Quote Puzzle",
-        title: "Vayomer",
+        title: "Vayomer - How to Play",
         subtitle: "Identify the speaker, the listener, and the missing word.",
+        upperCornerLabel: "Example"
       },
       puzzleView: {
         solved: "Solved.",
@@ -112,8 +113,9 @@ export const resources = {
       },
       example: {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
-        title: "וַיֹּאמֶר",
+        title: "וַיֹּאמֶר - כֵּיצַד לְשַׂחֵק?",
         subtitle: "בַּחֲרוּ אֶת הַדּוֹבֵר ואֶת הַמַּאֲזִין הַנְּכוֹנִים. לְאַחַר מִכֵּן, הַקְלִידוּ אֶת הַמִּלָּה הַחֲסֵרָה. חֲמִשָּׁה נִסְיוֹנוֹת לְכָל הַיּוֹתֵר. בְּהַצְלָחָה!",
+        upperCornerLabel: "חִידָה לְדֻגְמָה"
       },
       puzzleView: {
         solved: "נכון.",

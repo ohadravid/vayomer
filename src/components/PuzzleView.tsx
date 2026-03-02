@@ -47,6 +47,7 @@ type Props = {
   initial?: Omit<PersistedGameFields, "hintRevealed"> & { hintRevealed?: boolean };
   syncDocumentDirection?: boolean;
   shareEnabled?: boolean;
+  upperCornerLabel?: string,
 };
 
 type PersistableState = PersistedGameFields;
@@ -160,6 +161,7 @@ export function PuzzleView({
   initial,
   syncDocumentDirection = true,
   shareEnabled = true,
+  upperCornerLabel = ""
 }: Props) {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -177,7 +179,7 @@ export function PuzzleView({
   const hasNotifiedChoiceInteractionRef = useRef(false);
   const previousEasyModeRef = useRef(easyMode);
 
-  const dateLabel = useMemo(() => formatDate(new Date(), lang), [lang]);
+  const dateLabel = useMemo(() => upperCornerLabel ? upperCornerLabel : formatDate(new Date(), lang), [lang, upperCornerLabel]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
   const hintQuote = puzzle[lang].bonus_hint?.quote?.trim() ?? "";
   const hasBonusHint = hintQuote.length > 0;

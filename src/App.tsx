@@ -614,6 +614,7 @@ export function App() {
             onClear={() => {}}
             initial={exampleInitial ?? undefined}
             shareEnabled={false}
+            upperCornerLabel={t("example.upperCornerLabel")}
           />
         </>
       ) : puzzle ? (
