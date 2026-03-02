@@ -403,6 +403,7 @@ body[dir="rtl"] .bonus-hint-quote {
 
 .quote-emoji {
   font-family: var(--font-emoji);
+  text-wrap: nowrap;
 }
 
 .full-quote .veil {

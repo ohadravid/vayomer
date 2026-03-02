@@ -98,6 +98,27 @@ const puzzleWithHebrewHintSpellingMismatch: PuzzleItem = {
   },
 };
 
+const puzzleWithBonusBeforeRiddleHe: PuzzleItem = {
+  ...puzzle,
+  id: "genesis-17-01-bonus-before-riddle",
+  en: {
+    ...puzzle.en,
+    quote: "And when Abram was ninety years old and nine, the LORD appeared to Abram.",
+    riddle: "the LORD appeared to Abram.",
+    bonus: "nine",
+  },
+  he: {
+    ...puzzle.he,
+    quote:
+      "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִים וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ",
+    riddle: "הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִים",
+    speaker: "יְהוָה",
+    listener: "אַבְרָם",
+    bonus: "וְתֵשַׁע",
+  },
+  source: { ref_start: "Genesis 17:1", ref_end: "Genesis 17:1" },
+};
+
 const coreSolvedAttempt: GuessResult = {
   speakerOk: true,
   listenerOk: true,
@@ -462,6 +483,33 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(byId<HTMLInputElement>("inputBonus").className).toBe("");
     expect(byId("labelBonus").querySelector('[aria-hidden="true"]')).toBeNull();
+  });
+
+  it("wraps masked placeholder emojis in a dedicated span when bonus is before the riddle", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          lang: "he",
+          puzzle: puzzleWithBonusBeforeRiddleHe,
+          revealed: false,
+          initial: {
+            speaker: "יְהוָה",
+            listener: "אַבְרָם",
+            portion: "",
+            bonus: "",
+            hintRevealed: false,
+            attempts: [coreSolvedAttempt],
+          },
+        })
+      );
+    });
+
+    const emojiSpan = document.querySelector("#fullQuote .quote-hidden .quote-emoji");
+    expect(emojiSpan).not.toBeNull();
+    expect((emojiSpan?.textContent ?? "").length).toBeGreaterThan(0);
   });
 
   it("shows אֱלֹהִים as speaker option for divine aliases in Hebrew and accepts it as correct", () => {
