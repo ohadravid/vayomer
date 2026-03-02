@@ -1,4 +1,5 @@
 import { describe, expect, it } from "bun:test";
+import { Temporal } from "@js-temporal/polyfill";
 import { buildShareText } from "./share";
 import type { GuessResult } from "../types";
 
@@ -33,6 +34,12 @@ const CORE_ONLY_NO_HINT: GuessResult = {
   hintUsed: false,
 };
 
+function dateFromPlainDate(value: Temporal.PlainDate): Date {
+  return new Date(value.year, value.month - 1, value.day);
+}
+
+const TEST_DATE = dateFromPlainDate(Temporal.PlainDate.from("2026-02-11"));
+
 describe("buildShareText", () => {
   it("renders game-style status rows with bonus column", () => {
     const text = buildShareText({
@@ -41,7 +48,7 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
       gameUrl: "https://example.com",
     });
 
@@ -59,7 +66,7 @@ describe("buildShareText", () => {
       solved: false,
       bonusRequired: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("Vayomer 2026-02-11 X/5");
@@ -73,7 +80,7 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: false,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("❌❌");
@@ -88,7 +95,7 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("❌❌⬜⬜");
@@ -104,7 +111,7 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("✅✅✴️⬜");
@@ -118,7 +125,7 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("וַיֹּאמֶר 2026-02-11 1/5");
@@ -132,7 +139,7 @@ describe("buildShareText", () => {
       bonusRequired: true,
       successMark: "🔥",
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("🔥🔥✴️⬜");
@@ -148,7 +155,7 @@ describe("buildShareText", () => {
       bonusRequired: true,
       manualSource: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
     const llmText = buildShareText({
       title: "Vayomer",
@@ -157,7 +164,7 @@ describe("buildShareText", () => {
       bonusRequired: true,
       manualSource: false,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(manualText).toContain("Vayomer 👵 2026-02-11 1/5");
@@ -174,7 +181,7 @@ describe("buildShareText", () => {
       sourceEmoji: "🧠",
       manualSource: true,
       maxTries: 5,
-      date: new Date(2026, 1, 11),
+      date: TEST_DATE,
     });
 
     expect(text).toContain("Vayomer 🧠 2026-02-11 1/5");

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Temporal } from "@js-temporal/polyfill";
 import { answersMatch } from "./lib/answerMatcher";
 import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { maskHardWord, pickHardWordPlaceholderForId } from "./lib/format";
@@ -241,7 +242,11 @@ export function parsePuzzleIdFromSearch(search: string): string | null {
   return trimmed.length > 0 ? trimmed : null;
 }
 
-export function pickPuzzleIndexForSearch(items: PuzzleItem[], search: string, date: Date = new Date()): number {
+export function pickPuzzleIndexForSearch(
+  items: PuzzleItem[],
+  search: string,
+  date: Temporal.PlainDate = Temporal.Now.plainDateISO()
+): number {
   if (items.length === 0) return 0;
   const requestedPuzzleId = parsePuzzleIdFromSearch(search);
   if (requestedPuzzleId) {

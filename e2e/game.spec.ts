@@ -1,4 +1,5 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
+import { Temporal } from "@js-temporal/polyfill";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -228,7 +229,7 @@ function formatHintSource(source: HintSource | undefined): string {
 }
 
 const hintSourceLabel = formatHintSource(hintPuzzle.en.bonus_hint?.source);
-const hardSuccessMark = pickDailyHardModeSuccessMark(new Date());
+const hardSuccessMark = pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO());
 const difficultyLockStoragePrefix = "qs:difficulty-lock:";
 
 if (!enAnswer.speaker || !enAnswer.listener || !enAnswer.bonus) {

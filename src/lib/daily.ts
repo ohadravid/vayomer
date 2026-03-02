@@ -1,6 +1,13 @@
-export const DAILY_EPOCH_DATE = new Date(2026, 2, 16);
+import { Temporal } from "@js-temporal/polyfill";
+
+export const DAILY_EPOCH_DATE = Temporal.PlainDate.from("2026-03-16");
 export const DAILY_ORDER_SEED = 20220805;
 export const HARD_MODE_SUCCESS_MARKS = ["🔥", "⚔️", "👑"] as const;
+export type DailyDateInput = Temporal.PlainDate;
+
+// Override keys are parsed with Temporal:
+// - Full-date overrides: Temporal.PlainDate RFC 9557 strings (e.g. "2026-03-16", "2025-09-23[u-ca=hebrew]")
+// - Recurring month/day overrides: Temporal.PlainMonthDay strings (e.g. "03-16", "1972-09-09[u-ca=hebrew]")
 export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-02-19": "manual-genesis-03-09-09-d094f0f4",
   "2026-02-21": "exodus-24-03-04",
@@ -11,15 +18,21 @@ export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-02-26": "manual-genesis-47-08-09-17ff6fd8",
 };
 
-function utcDayNumber(date: Date): number {
-  return Math.floor(Date.UTC(date.getFullYear(), date.getMonth(), date.getDate()) / (24 * 60 * 60 * 1000));
+function toLocalPlainDate(date: DailyDateInput): Temporal.PlainDate {
+  return date.withCalendar("iso8601");
 }
 
-function dayOffsetFromEpoch(date: Date, epochDate: Date): number {
-  return utcDayNumber(date) - utcDayNumber(epochDate);
+function dayOffsetFromEpoch(date: DailyDateInput, epochDate: DailyDateInput): number {
+  const localDate = toLocalPlainDate(date);
+  const localEpoch = toLocalPlainDate(epochDate);
+  return localEpoch.until(localDate, { largestUnit: "days" }).days;
 }
 
-export function dayIndex(total: number, date: Date = new Date(), epochDate: Date = DAILY_EPOCH_DATE): number {
+export function dayIndex(
+  total: number,
+  date: DailyDateInput = Temporal.Now.plainDateISO(),
+  epochDate: DailyDateInput = DAILY_EPOCH_DATE
+): number {
   if (total <= 0) return 0;
   const offset = dayOffsetFromEpoch(date, epochDate);
   return ((offset % total) + total) % total;
@@ -47,27 +60,74 @@ function buildDailyOrder(total: number): number[] {
   return order;
 }
 
-export function pickDailyItemIndex(total: number, date: Date = new Date()): number {
+export function pickDailyItemIndex(total: number, date: DailyDateInput = Temporal.Now.plainDateISO()): number {
   if (total <= 0) return 0;
   const day = dayIndex(total, date);
   const order = buildDailyOrder(total);
   return order[day] ?? 0;
 }
 
-export function dateOverrideKey(date: Date = new Date()): string {
-  const year = String(date.getFullYear()).padStart(4, "0");
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
+export function dateOverrideKey(date: DailyDateInput = Temporal.Now.plainDateISO()): string {
+  return toLocalPlainDate(date).toString();
+}
+
+function parseOverridePlainDate(value: string): Temporal.PlainDate | null {
+  try {
+    return Temporal.PlainDate.from(value);
+  } catch {
+    return null;
+  }
+}
+
+function parseOverridePlainMonthDay(value: string): Temporal.PlainMonthDay | null {
+  try {
+    return Temporal.PlainMonthDay.from(value);
+  } catch {
+    return null;
+  }
+}
+
+function resolveOverrideId(overrides: Readonly<Record<string, string>>, date: DailyDateInput): string | null {
+  const localDate = toLocalPlainDate(date);
+
+  for (const [rawKey, rawId] of Object.entries(overrides)) {
+    const key = rawKey.trim();
+    const id = rawId.trim();
+    if (!key || !id) continue;
+
+    const dateOverride = parseOverridePlainDate(key);
+    const monthDayOverride = parseOverridePlainMonthDay(key);
+
+    // Some month-day strings (notably non-ISO calendar ones) include a reference year and
+    // are parseable as both PlainDate and PlainMonthDay. Treat canonical PlainMonthDay text
+    // as recurring; otherwise, treat parseable PlainDate text as an exact date.
+    const preferMonthDay =
+      monthDayOverride !== null &&
+      (dateOverride === null || key === monthDayOverride.toString() || key.startsWith("--"));
+
+    if (preferMonthDay && monthDayOverride) {
+      const localMonthDayInCalendar = localDate.withCalendar(monthDayOverride.calendarId).toPlainMonthDay();
+      if (monthDayOverride.equals(localMonthDayInCalendar)) {
+        return id;
+      }
+      continue;
+    }
+
+    if (dateOverride && dateOverride.equals(localDate.withCalendar(dateOverride.calendarId))) {
+      return id;
+    }
+  }
+
+  return null;
 }
 
 export function pickDailyItemIndexWithOverrides(
   items: readonly { id: string }[],
-  date: Date = new Date(),
+  date: DailyDateInput = Temporal.Now.plainDateISO(),
   overrides: Readonly<Record<string, string>> = DAILY_QUOTE_ID_OVERRIDES
 ): number {
   if (items.length <= 0) return 0;
-  const overrideId = overrides[dateOverrideKey(date)]?.trim();
+  const overrideId = resolveOverrideId(overrides, date);
   if (overrideId) {
     const overrideIndex = items.findIndex((item) => item.id === overrideId);
     if (overrideIndex >= 0) return overrideIndex;
@@ -75,7 +135,9 @@ export function pickDailyItemIndexWithOverrides(
   return pickDailyItemIndex(items.length, date);
 }
 
-export function pickDailyHardModeSuccessMark(date: Date = new Date()): (typeof HARD_MODE_SUCCESS_MARKS)[number] {
+export function pickDailyHardModeSuccessMark(
+  date: DailyDateInput = Temporal.Now.plainDateISO()
+): (typeof HARD_MODE_SUCCESS_MARKS)[number] {
   const day = dayOffsetFromEpoch(date, DAILY_EPOCH_DATE);
   const rand = seededRandom(DAILY_ORDER_SEED + day);
   const idx = Math.floor(rand() * HARD_MODE_SUCCESS_MARKS.length);

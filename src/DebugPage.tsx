@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState, type ComponentProps } from "react";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
+import { Temporal } from "@js-temporal/polyfill";
 import { GuessForm } from "./components/GuessForm";
 import { PuzzleCard } from "./components/PuzzleCard";
 import { PuzzleView } from "./components/PuzzleView";
@@ -69,30 +70,20 @@ function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
 }
 
-function toDateInputValue(date: Date): string {
-  const year = String(date.getFullYear()).padStart(4, "0");
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
+function plainDateToDate(date: Temporal.PlainDate): Date {
+  return new Date(date.year, date.month - 1, date.day);
 }
 
-function parseDateInputValue(value: string): Date | null {
-  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
-  if (!match) return null;
-  const year = Number(match[1]);
-  const month = Number(match[2]);
-  const day = Number(match[3]);
-  const parsed = new Date(year, month - 1, day);
+function toDateInputValue(date: Temporal.PlainDate): string {
+  return date.toString();
+}
 
-  if (
-    Number.isNaN(parsed.getTime()) ||
-    parsed.getFullYear() !== year ||
-    parsed.getMonth() !== month - 1 ||
-    parsed.getDate() !== day
-  ) {
+function parseDateInputValue(value: string): Temporal.PlainDate | null {
+  try {
+    return Temporal.PlainDate.from(value);
+  } catch {
     return null;
   }
-  return parsed;
 }
 
 function toInt(value: number | undefined): number | null {
@@ -254,7 +245,7 @@ function makeDebugI18n(lang: Lang) {
 export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; items?: PuzzleItem[] }) {
   const total = items.length;
   const [showFullQuote, setShowFullQuote] = useState(true);
-  const [selectedDate, setSelectedDate] = useState(() => new Date());
+  const [selectedDate, setSelectedDate] = useState(() => Temporal.Now.plainDateISO());
 
   if (total === 0) {
     return <section className="card">{localize(lang, "No quotes available.", "אין ציטוטים זמינים.")}</section>;
@@ -298,11 +289,7 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
           className="debug-quote-nav-btn"
           type="button"
           onClick={() =>
-            setSelectedDate((prev) => {
-              const next = new Date(prev);
-              next.setDate(next.getDate() - 1);
-              return next;
-            })
+            setSelectedDate((prev) => prev.subtract({ days: 1 }))
           }
         >
           {localize(lang, "< Prev", "< הקודם")}
@@ -322,11 +309,7 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
           className="debug-quote-nav-btn"
           type="button"
           onClick={() =>
-            setSelectedDate((prev) => {
-              const next = new Date(prev);
-              next.setDate(next.getDate() + 1);
-              return next;
-            })
+            setSelectedDate((prev) => prev.add({ days: 1 }))
           }
         >
           {localize(lang, "Next >", "הבא >")}
@@ -351,7 +334,7 @@ export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; it
           revealed
           quoteRevealed={showFullQuote}
           sourceRevealed
-          dateLabel={formatDate(selectedDate, lang)}
+          dateLabel={formatDate(plainDateToDate(selectedDate), lang)}
           onClear={() => undefined}
         />
       </div>

@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
+import { Temporal } from "@js-temporal/polyfill";
 import { pickDailyHardModeSuccessMark } from "../lib/daily";
 import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
 import { answersMatch } from "../lib/answerMatcher";
@@ -200,7 +201,7 @@ export function PuzzleView({
     stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
   const successMark = useMemo(
-    () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(new Date())),
+    () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO())),
     [easyMode]
   );
   const failedBonusTry = bonusRequired

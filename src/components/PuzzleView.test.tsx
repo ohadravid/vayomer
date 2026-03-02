@@ -6,6 +6,7 @@ import userEvent from "@testing-library/user-event";
 import { JSDOM } from "jsdom";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
+import { Temporal } from "@js-temporal/polyfill";
 import { PuzzleView } from "./PuzzleView";
 import { resources } from "../i18n";
 import { pickDailyHardModeSuccessMark, HARD_MODE_SUCCESS_MARKS } from "../lib/daily";
@@ -739,7 +740,7 @@ describe("PuzzleView persistence hydration", () => {
 
   it("shows the failed-bonus marker after a wrong bonus guess", async () => {
     const onPersist = () => {};
-    const successMark = pickDailyHardModeSuccessMark(new Date());
+    const successMark = pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO());
     expect(HARD_MODE_SUCCESS_MARKS).toContain(successMark);
     const stageTwoOpenAttempt: GuessResult = {
       speakerOk: true,
