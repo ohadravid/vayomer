@@ -345,6 +345,7 @@ def _build_arg_parser() -> argparse.ArgumentParser:
     parser.add_argument("--speaker-he", default="", help="Hebrew speaker label override")
     parser.add_argument("--listener-en", default="", help="English listener label override")
     parser.add_argument("--listener-he", default="", help="Hebrew listener label override")
+    parser.add_argument("--emoji", default="", help="Optional source emoji marker override (manual defaults to 👵 when omitted)")
 
     parser.add_argument("--item-id", default="", help="Optional item id override")
     parser.add_argument("--pool-dir", default="data/quotes_options", help="Directory used to build option pools")
@@ -386,6 +387,7 @@ def _normalize_cli_args(raw_args: Sequence[str]) -> List[str]:
         "listener_en": "listener-en",
         "listener-he": "listener-he",
         "listener_he": "listener-he",
+        "emoji": "emoji",
         "item-id": "item-id",
         "item_id": "item-id",
         "pool-dir": "pool-dir",
@@ -476,6 +478,8 @@ def main() -> int:
     template = _pick_template_item(book_code=book_code, chapter=chapter, start=start, end=end)
     template_en = template.get("en", {}) if isinstance(template, dict) and isinstance(template.get("en"), dict) else {}
     template_he = template.get("he", {}) if isinstance(template, dict) and isinstance(template.get("he"), dict) else {}
+    template_source = template.get("source", {}) if isinstance(template, dict) and isinstance(template.get("source"), dict) else {}
+    source_emoji = _sanitize_str(args.emoji) or _sanitize_str(template_source.get("emoji"))
 
     speaker_en = _sanitize_str(args.speaker_en) or _sanitize_str(template_en.get("speaker"))
     speaker_he = _sanitize_str(args.speaker_he) or _sanitize_str(template_he.get("speaker"))
@@ -613,6 +617,8 @@ def main() -> int:
             "template_item_id": _sanitize_str(template.get("id")) if isinstance(template, dict) else "",
         },
     }
+    if source_emoji:
+        base_item["source"]["emoji"] = source_emoji
 
     pool_dir = (ROOT / args.pool_dir).resolve()
     manual_dir = (ROOT / args.manual_dir).resolve()

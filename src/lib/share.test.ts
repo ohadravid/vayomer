@@ -164,4 +164,20 @@ describe("buildShareText", () => {
     expect(llmText).toContain("Vayomer 2026-02-11 1/5");
     expect(llmText).not.toContain("👵");
   });
+
+  it("uses source emoji override when provided", () => {
+    const text = buildShareText({
+      title: "Vayomer",
+      attempts: [SOLVED],
+      solved: true,
+      bonusRequired: true,
+      sourceEmoji: "🧠",
+      manualSource: true,
+      maxTries: 5,
+      date: new Date(2026, 1, 11),
+    });
+
+    expect(text).toContain("Vayomer 🧠 2026-02-11 1/5");
+    expect(text).not.toContain("Vayomer 👵 2026-02-11 1/5");
+  });
 });

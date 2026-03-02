@@ -576,6 +576,37 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
+  it("uses manual source emoji override and falls back to grandma emoji", () => {
+    const onPersist = () => {};
+    const initial = {
+      speaker: "the LORD",
+      listener: "Abram",
+      portion: "",
+      bonus: "",
+      attempts: [coreSolvedAttempt],
+    };
+
+    const customEmojiPuzzle: PuzzleItem = {
+      ...puzzle,
+      source: { method: "manual", emoji: "🧠", ref_start: "Genesis 12:1", ref_end: "Genesis 12:1" },
+    };
+
+    act(() => {
+      view = render(buildPuzzleView({ onPersist, puzzle: customEmojiPuzzle, initial }));
+    });
+    expect(byId("refLine").textContent ?? "").toContain("🧠 Genesis 12:1");
+
+    const defaultEmojiPuzzle: PuzzleItem = {
+      ...puzzle,
+      source: { method: "manual", ref_start: "Genesis 12:1", ref_end: "Genesis 12:1" },
+    };
+
+    act(() => {
+      view?.rerender(buildPuzzleView({ onPersist, puzzle: defaultEmojiPuzzle, initial }));
+    });
+    expect(byId("refLine").textContent ?? "").toContain("👵 Genesis 12:1");
+  });
+
   it("reveals a masked bonus hint quote in stage two and unmasks it after solve", async () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {

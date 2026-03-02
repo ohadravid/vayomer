@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { getLanguageFromI18n } from "../lib/language";
-import type { PuzzleItem, SourceMethod } from "../types";
+import type { PuzzleItem } from "../types";
 import { highlightQuote, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
 
 type Props = {
@@ -72,12 +72,10 @@ function getMainSourceRange(puzzle: PuzzleItem): string {
   return formatChapterRange(source.chapter, source.quote_verse_start, source.quote_verse_end);
 }
 
-function sourceMethodFromPuzzle(puzzle: PuzzleItem): SourceMethod {
-  return puzzle.source?.method === "manual" ? "manual" : "llm";
-}
-
-function sourceMethodEmoji(method: SourceMethod): string {
-  return method === "manual" ? "👵" : "";
+function sourceEmojiFromPuzzle(puzzle: PuzzleItem): string {
+  if (puzzle.source?.method !== "manual") return "";
+  const explicit = trimmedString(puzzle.source.emoji);
+  return explicit || "👵";
 }
 
 export function PuzzleCard({
@@ -103,7 +101,8 @@ export function PuzzleCard({
   const book = getBookLabel(puzzle, lang);
   const mainSourceRange = getMainSourceRange(puzzle);
   const sourceLine = [book, mainSourceRange].filter(Boolean).join(" ");
-  const sourceLineWithMethod = sourceLine ? `${sourceMethodEmoji(sourceMethodFromPuzzle(puzzle))} ${sourceLine}` : "";
+  const sourceEmoji = sourceEmojiFromPuzzle(puzzle);
+  const sourceLineWithMethod = sourceLine ? `${sourceEmoji ? `${sourceEmoji} ` : ""}${sourceLine}` : "";
 
   return (
     <section
