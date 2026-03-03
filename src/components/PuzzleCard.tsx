@@ -72,10 +72,11 @@ function getMainSourceRange(puzzle: PuzzleItem): string {
   return formatChapterRange(source.chapter, source.quote_verse_start, source.quote_verse_end);
 }
 
-function sourceEmojiFromPuzzle(puzzle: PuzzleItem): string {
+export function sourceEmojiFromPuzzle(puzzle: PuzzleItem): string {
+  const sourceEmoji = puzzle?.source?.emoji?.trim();
+  if (sourceEmoji) return sourceEmoji;
   if (puzzle.source?.method !== "manual") return "";
-  const explicit = trimmedString(puzzle.source.emoji);
-  return explicit || "👵";
+  return "👵";
 }
 
 export function PuzzleCard({

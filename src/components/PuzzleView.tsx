@@ -21,7 +21,7 @@ import {
 import { getLanguageDirection, getLanguageFromI18n } from "../lib/language";
 import { MAX_TOTAL_TRIES } from "../lib/gameRules";
 import { buildShareText } from "../lib/share";
-import { PuzzleCard } from "./PuzzleCard";
+import { PuzzleCard, sourceEmojiFromPuzzle } from "./PuzzleCard";
 import { GuessForm } from "./GuessForm";
 import {
   GameState,
@@ -216,7 +216,7 @@ export function PuzzleView({
   })();
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = shareEnabled && attempts.length > 0;
-  const sourceEmoji = puzzle.source?.method === "manual" ? (puzzle.source.emoji?.trim() || "👵") : "";
+  const sourceEmoji = sourceEmojiFromPuzzle(puzzle);
   const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
   const feedback = useMemo(() => {
     if (!result) return "";
@@ -479,3 +479,4 @@ export function PuzzleView({
     </>
   );
 }
+

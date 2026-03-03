@@ -153,7 +153,7 @@ describe("buildShareText", () => {
       attempts: [SOLVED],
       solved: true,
       bonusRequired: true,
-      manualSource: true,
+      sourceEmoji: "👵",
       maxTries: 5,
       date: TEST_DATE,
     });
@@ -162,7 +162,7 @@ describe("buildShareText", () => {
       attempts: [SOLVED],
       solved: true,
       bonusRequired: true,
-      manualSource: false,
+      sourceEmoji: "",
       maxTries: 5,
       date: TEST_DATE,
     });
@@ -179,7 +179,6 @@ describe("buildShareText", () => {
       solved: true,
       bonusRequired: true,
       sourceEmoji: "🧠",
-      manualSource: true,
       maxTries: 5,
       date: TEST_DATE,
     });

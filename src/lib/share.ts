@@ -7,7 +7,6 @@ type BuildShareTextArgs = {
   solved: boolean;
   bonusRequired: boolean;
   sourceEmoji?: string;
-  manualSource?: boolean;
   hintUsed?: boolean;
   successMark?: string;
   maxTries: number;
@@ -38,8 +37,7 @@ export function buildShareText(args: BuildShareTextArgs): string {
     attempts,
     solved,
     bonusRequired,
-    sourceEmoji = "",
-    manualSource = false,
+    sourceEmoji,
     hintUsed = false,
     successMark = "✅",
     maxTries,
@@ -48,7 +46,7 @@ export function buildShareText(args: BuildShareTextArgs): string {
   } = args;
   const countedAttempts = attempts.filter(doesAttemptCountAsTry);
   const score = solved ? `${Math.min(countedAttempts.length, maxTries)}/${maxTries}` : `X/${maxTries}`;
-  const marker = sourceEmoji.trim() || (manualSource ? "👵" : "");
+  const marker = sourceEmoji;
   const header = `${title}${marker ? ` ${marker}` : ""} ${formatShareDate(date)} ${score}`;
   const fallbackRow = bonusRequired ? `⬜⬜⬜${hintUsed ? "💡" : "⬜"}` : "⬜⬜";
   const rows =
