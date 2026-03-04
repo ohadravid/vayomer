@@ -1,13 +1,29 @@
-import { loadPuzzleChapterPayloadsJson } from "./puzzleDataMacro" with { type: "macro" };
 import type { PuzzleItem } from "../types";
 
 type ChapterPayload = {
   items?: unknown;
 };
 
-const CHAPTER_PAYLOADS = JSON.parse(
-  loadPuzzleChapterPayloadsJson(["data/quotes_options", "data/manual_quotes"])
-) as ChapterPayload[];
+function sortedPayloadsFromGlob(modules: Record<string, unknown>): ChapterPayload[] {
+  return Object.entries(modules)
+    .sort(([left], [right]) => left.localeCompare(right))
+    .map(([, payload]) => payload as ChapterPayload);
+}
+
+const CHAPTER_PAYLOADS = [
+  ...sortedPayloadsFromGlob(
+    import.meta.glob("/data/quotes_options/*.json", {
+      eager: true,
+      import: "default",
+    })
+  ),
+  ...sortedPayloadsFromGlob(
+    import.meta.glob("/data/manual_quotes/*.json", {
+      eager: true,
+      import: "default",
+    })
+  ),
+];
 
 function normalizeSourceMethod(item: PuzzleItem): PuzzleItem {
   if (!item.source) return item;

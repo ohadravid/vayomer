@@ -41,15 +41,15 @@ task check
 ### Frontend tests
 
 ```
-bun run test
-bun run test:e2e
+npm run test
+npm run test:e2e
 ```
 
 ### Quotes options loading
 
-`src/lib/puzzleData.ts` uses a Bun Macro (`with { type: "macro" }`) to load
+`src/lib/puzzleData.ts` uses Vite eager globs to load
 `data/quotes_options/*.json` and `data/manual_quotes/*.json` (if present) via
-`Glob` at build/transpile time and inline the payload into the bundle.
+`import.meta.glob` at build time and inline the payload into the bundle.
 
 
 ## License

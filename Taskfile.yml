@@ -4,27 +4,27 @@ tasks:
   setup:
     desc: Install dependencies
     cmds:
-      - bun install
+      - npm ci
 
   dev:
     desc: Start dev server
     cmds:
-      - bun run dev
+      - npm run dev
 
   build:
     desc: Build frontend bundle
     cmds:
-      - bun run build
+      - npm run build
 
   serve:dist:
     desc: Build and serve dist
     cmds:
-      - bun run serve:dist
+      - npm run serve:dist
 
   check:
     desc: Typecheck + tests + e2e + build
     cmds:
-      - bun run check
+      - npm run check
 
   data:rebuild:gen-smoke:
     desc: Rebuild smoke run (GEN 1-3, gemma3:27b, end2end)
@@ -67,10 +67,10 @@ tasks:
       - mkdir -p static
       - |
         sh -c '
-        bun --hot index.html debug.html preview.html --port=5173 >/tmp/vayomer-preview-server.log 2>&1 &
+        npm run dev -- --host 127.0.0.1 --port=5173 --strictPort >/tmp/vayomer-preview-server.log 2>&1 &
         SERVER_PID=$!
         trap "kill $SERVER_PID" EXIT INT TERM
         sleep 2
-        bunx playwright screenshot --viewport-size=1200,630 http://127.0.0.1:5173/preview static/preview.png
+        npx playwright screenshot --viewport-size=1200,630 http://127.0.0.1:5173/preview static/preview.png
         (cd static && cwebp -q 100 preview.png -o preview.webp)
         '

@@ -576,7 +576,7 @@ export function DebugPage() {
     <div className="app debug-page">
       <header className="header">
         <div>
-          <div className="kicker">Bun Debug Surface</div>
+          <div className="kicker">Vite Debug Surface</div>
           <h1>Vayomer Debug</h1>
           <p className="subtitle">English and Hebrew puzzle states without Storybook.</p>
         </div>

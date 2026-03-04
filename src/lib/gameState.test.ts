@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { deriveGameState } from "./gameState";
 import { GameState, type GuessResult } from "../types";
 

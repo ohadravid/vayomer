@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { DEFAULT_LANGUAGE, getSearchWithLanguage, normalizeLanguageTag, parseLanguageFromSearch, parseLanguageTag } from "./language";
 
 describe("language defaults", () => {

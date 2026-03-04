@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test";
+import { describe, expect, it } from "vitest";
 import { Temporal } from "@js-temporal/polyfill";
 import {
   HARD_MODE_SUCCESS_MARKS,

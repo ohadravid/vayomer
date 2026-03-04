@@ -1,7 +1,7 @@
-import { afterEach, describe, expect, it } from "bun:test";
+import { afterEach, describe, expect, it } from "vitest";
 import React, { StrictMode, act } from "react";
 import { cleanup, fireEvent, render, type RenderResult } from "@testing-library/react";
-import "@testing-library/jest-dom";
+import "@testing-library/jest-dom/vitest";
 import userEvent from "@testing-library/user-event";
 import { JSDOM } from "jsdom";
 import { createInstance } from "i18next";
@@ -19,7 +19,6 @@ const { window } = dom;
 Object.assign(globalThis, {
   window,
   document: window.document,
-  navigator: window.navigator,
   HTMLElement: window.HTMLElement,
   HTMLInputElement: window.HTMLInputElement,
   HTMLSelectElement: window.HTMLSelectElement,
@@ -30,6 +29,10 @@ Object.assign(globalThis, {
   getComputedStyle: window.getComputedStyle.bind(window),
   requestAnimationFrame: (cb: FrameRequestCallback) => setTimeout(() => cb(Date.now()), 0),
   cancelAnimationFrame: (id: number) => clearTimeout(id),
+});
+Object.defineProperty(globalThis, "navigator", {
+  value: window.navigator,
+  configurable: true,
 });
 (globalThis as { IS_REACT_ACT_ENVIRONMENT?: boolean }).IS_REACT_ACT_ENVIRONMENT = true;
 

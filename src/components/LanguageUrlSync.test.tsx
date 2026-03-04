@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from "bun:test";
+import { afterEach, describe, expect, it } from "vitest";
 import { act, create, type ReactTestRenderer } from "react-test-renderer";
 import { LanguageUrlSync, buildLocationWithLanguage, resolveLanguageFromExternalState, syncLanguageInUrl, type UrlSyncI18n } from "./LanguageUrlSync";
 import { LANGUAGE_STORAGE_KEY } from "../lib/language";

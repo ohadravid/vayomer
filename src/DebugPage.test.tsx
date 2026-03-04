@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from "bun:test";
+import { afterEach, describe, expect, it } from "vitest";
 import { act, create, type ReactTestRenderer } from "react-test-renderer";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
