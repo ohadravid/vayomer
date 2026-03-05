@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, PluginOption } from "vite";
 import react from "@vitejs/plugin-react";
 
 function routeAliasPlugin() {
@@ -32,19 +32,31 @@ function routeAliasPlugin() {
   };
 }
 
-export default defineConfig({
-  plugins: [react(), routeAliasPlugin()],
-  build: {
-    rollupOptions: {
-      input: {
-        main: "index.html",
-        debug: "debug.html",
-        preview: "preview.html",
+export default defineConfig(({ mode }) => {
+  const includeAuxPages = mode === "development";
+
+  let input: Record<string, string> = { main: "index.html" };
+  let plugins: PluginOption[] = [react()];
+
+  if (includeAuxPages) {
+    input = {
+      ...input,
+      debug: "debug.html",
+      preview: "preview.html",
+    };
+    plugins = [...plugins, routeAliasPlugin()]
+  }
+
+  return {
+    plugins,
+    build: {
+      rollupOptions: {
+        input
       },
     },
-  },
-  test: {
-    environment: "node",
-    include: ["src/**/*.test.{ts,tsx}"],
-  },
+    test: {
+      environment: "node",
+      include: ["src/**/*.test.{ts,tsx}"],
+    },
+  };
 });
