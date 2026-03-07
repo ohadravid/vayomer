@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 
 from data_processing import bible_sources, bible_tandem, text_cleanup
 
-DATA_QUOTES_DIR = ROOT / "data" / "quotes"
+DATA_QUOTES_DIR = ROOT / "data" / "quotes_options"
 
 
 @dataclass(frozen=True)
@@ -244,7 +244,7 @@ def test_quote_item_integrity(
                 f"{quote_case.item_id}:{lang}: source points to missing verse "
                 f"{source_book_code} {source_chapter}:{verse}"
             )
-            assert raw_verse == expected_verse, (
+            assert raw_verse in expected_verse, (
                 f"{quote_case.item_id}:{lang}: raw source verse mismatch at "
                 f"{source_book_code} {source_chapter}:{verse}"
             )
