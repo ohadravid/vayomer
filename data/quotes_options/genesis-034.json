@@ -1,0 +1,101 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 34,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-34-04-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 34,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And Shechem spake unto his father Hamor, saying, Get me this damsel to wife. And Jacob heard that he had defiled Dinah his daughter: now his sons were with his cattle in the field: and Jacob held his peace until they were come.",
+        "riddle": "Get me this damsel to wife.",
+        "speaker": "Shechem",
+        "listener": "Hamor",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Isaac",
+            "Aaron"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "steward"
+          ]
+        },
+        "bonus": "Dinah",
+        "bonus_hint": {
+          "quote": "And afterwards she bare a daughter, and called her name Dinah.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 30,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁכֶם אֶל־חֲמוֹר אָבִיו לֵאמֹר קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה וְיַעֲקֹב שָׁמַע כִּי טִמֵּא אֶת־דִּינָה בִתּוֹ וּבָנָיו הָיוּ אֶת־מִקְנֵהוּ בַּשָּׂדֶה וְהֶחֱרִשׁ יַעֲקֹב עַד־בֹּאָֽם",
+        "riddle": "קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה",
+        "speaker": "שְׁכֶם",
+        "listener": "חֲמוֹר",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "אֲשֶׁר"
+          ]
+        },
+        "bonus": "דִּינָה",
+        "bonus_hint": {
+          "quote": "אֵלֶּה בְּנֵי לֵאָה אֲשֶׁר יָֽלְדָה לְיַעֲקֹב בְּפַדַּן אֲרָם וְאֵת דִּינָה בִתּוֹ כָּל־נֶפֶשׁ בָּנָיו וּבְנוֹתָיו שְׁלֹשִׁים וְשָׁלֹֽשׁ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 46,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Shechem spake unto his father Hamor, saying, Get me this damsel to wife.",
+          "5": "And Jacob heard that he had defiled Dinah his daughter: now his sons were with his cattle in the field: and Jacob held his peace until they were come."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר שְׁכֶם אֶל־חֲמוֹר אָבִיו לֵאמֹר קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה",
+          "5": "וְיַעֲקֹב שָׁמַע כִּי טִמֵּא אֶת־דִּינָה בִתּוֹ וּבָנָיו הָיוּ אֶת־מִקְנֵהוּ בַּשָּׂדֶה וְהֶחֱרִשׁ יַעֲקֹב עַד־בֹּאָֽם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-34-04-04",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ]
+}

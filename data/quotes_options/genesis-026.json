@@ -1,0 +1,101 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 26,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-26-01-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 26,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And there was a famine in the land, beside the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar. And the LORD appeared unto him, and said, Go not down into Egypt; dwell in the land which I shall tell thee of:",
+        "riddle": "Go not down into Egypt; dwell in the land which I shall tell thee of:",
+        "speaker": "the LORD",
+        "listener": "Isaac",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Jacob",
+            "Lot"
+          ],
+          "listener": [
+            "Sarah",
+            "Jethro",
+            "Moses"
+          ]
+        },
+        "bonus": "famine",
+        "bonus_hint": {
+          "quote": "And the seven thin and ill favoured kine that came up after them are seven years; and the seven empty ears blasted with the east wind shall be seven years of famine.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי רָעָב בָּאָרֶץ מִלְּבַד הָרָעָב הָרִאשׁוֹן אֲשֶׁר הָיָה בִּימֵי אַבְרָהָם וַיֵּלֶךְ יִצְחָק אֶל־אֲבִימֶלֶךְ מֶֽלֶךְ־פְּלִשְׁתִּים גְּרָֽרָה וַיֵּרָא אֵלָיו יְהוָה וַיֹּאמֶר אַל־תֵּרֵד מִצְרָיְמָה שְׁכֹן בָּאָרֶץ אֲשֶׁר אֹמַר אֵלֶֽיךָ",
+        "riddle": "אַל־תֵּרֵד מִצְרָיְמָה שְׁכֹן בָּאָרֶץ אֲשֶׁר אֹמַר אֵלֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִצְחָק",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "לוֹט"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "יִתְרוֹ",
+            "מֹשֶׁה"
+          ]
+        },
+        "bonus": "רָעָב",
+        "bonus_hint": {
+          "quote": "וַיְהִי רָעָב בִּימֵי דָוִד שָׁלֹשׁ שָׁנִים שָׁנָה אַחֲרֵי שָׁנָה וַיְבַקֵּשׁ דָּוִד אֶת־פְּנֵי יְהוָה וַיֹּאמֶר יְהוָה אֶל־שָׁאוּל וְאֶל־בֵּית הַדָּמִים עַֽל־אֲשֶׁר־הֵמִית אֶת־הַגִּבְעֹנִֽים",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 21,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And there was a famine in the land, beside the first famine that was in the days of Abraham. And Isaac went unto Abimelech king of the Philistines unto Gerar.",
+          "2": "And the LORD appeared unto him, and said, Go not down into Egypt; dwell in the land which I shall tell thee of:"
+        },
+        "he": {
+          "1": "וַיְהִי רָעָב בָּאָרֶץ מִלְּבַד הָרָעָב הָרִאשׁוֹן אֲשֶׁר הָיָה בִּימֵי אַבְרָהָם וַיֵּלֶךְ יִצְחָק אֶל־אֲבִימֶלֶךְ מֶֽלֶךְ־פְּלִשְׁתִּים גְּרָֽרָה",
+          "2": "וַיֵּרָא אֵלָיו יְהוָה וַיֹּאמֶר אַל־תֵּרֵד מִצְרָיְמָה שְׁכֹן בָּאָרֶץ אֲשֶׁר אֹמַר אֵלֶֽיךָ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "genesis-26-02-02",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ]
+}

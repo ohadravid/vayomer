@@ -1,0 +1,97 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 50,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-50-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And Joseph commanded his servants the physicians to embalm his father: and the physicians embalmed Israel.",
+        "riddle": "And Joseph commanded his servants the physicians to embalm his father",
+        "speaker": "Joseph",
+        "listener": "servants",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "the king of Egypt",
+            "Pharaoh's servants"
+          ],
+          "listener": [
+            "the wise men",
+            "steward",
+            "sons of Heth"
+          ]
+        },
+        "bonus": "Israel",
+        "bonus_hint": {
+          "quote": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 32,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְצַו יוֹסֵף אֶת־עֲבָדָיו אֶת־הָרֹפְאִים לַחֲנֹט אֶת־אָבִיו וַיַּחַנְטוּ הָרֹפְאִים אֶת־יִשְׂרָאֵֽל",
+        "riddle": "וַיְצַו יוֹסֵף אֶת־עֲבָדָיו אֶת־הָרֹפְאִים לַחֲנֹט אֶת־אָבִיו",
+        "speaker": "יוֹסֵף",
+        "listener": "עֲבָדָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַּרְעֹה",
+            "מֶלֶך מִצְרַיִם",
+            "עַבְדֵי פַרְעֹה"
+          ],
+          "listener": [
+            "הַחֲכָמִים",
+            "אֲשֶׁר",
+            "בְּנֵי־חֵת"
+          ]
+        },
+        "bonus": "יִשְׂרָאֵֽל",
+        "bonus_hint": {
+          "quote": "וַיֹּֽאמֶר־לוֹ אֱלֹהִים שִׁמְךָ יַעֲקֹב לֹֽא־יִקָּרֵא שִׁמְךָ עוֹד יַעֲקֹב כִּי אִם־יִשְׂרָאֵל יִהְיֶה שְׁמֶךָ וַיִּקְרָא אֶת־שְׁמוֹ יִשְׂרָאֵֽל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 35,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Joseph commanded his servants the physicians to embalm his father: and the physicians embalmed Israel."
+        },
+        "he": {
+          "2": "וַיְצַו יוֹסֵף אֶת־עֲבָדָיו אֶת־הָרֹפְאִים לַחֲנֹט אֶת־אָבִיו וַיַּחַנְטוּ הָרֹפְאִים אֶת־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ]
+}

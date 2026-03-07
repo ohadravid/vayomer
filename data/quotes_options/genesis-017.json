@@ -3,371 +3,192 @@
   "book": "Genesis",
   "book_he": "בראשית",
   "chapter": 17,
-  "mode": "end2end",
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "genesis-17-01-01",
+      "id": "genesis-17-03-05",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 17,
-        "quote_verse_start": 1,
-        "quote_verse_end": 1
+        "quote_verse_start": 3,
+        "quote_verse_end": 5
       },
       "en": {
-        "quote": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
-        "riddle": "walk before me, and be thou perfect",
-        "speaker": "the LORD",
+        "quote": "And Abram fell on his face: and God talked with him, saying, As for me, behold, my covenant is with thee, and thou shalt be a father of many nations. Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee.",
+        "riddle": "As for me, behold, my covenant is with thee, and thou shalt be a father of many nations",
+        "speaker": "God",
         "listener": "Abram",
         "book": "Genesis",
-        "bonus": "Almighty",
-        "bonus_hint": {
-          "quote": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.",
-          "source": {
-            "book": "Ruth",
-            "chapter": 1,
-            "start": 20,
-            "end": 20
-          }
-        },
         "options": {
-          "speaker": [
-            "Sarai",
-            "Isaac",
-            "Abram",
-            "Laban"
-          ],
-          "listener": [
-            "Abraham",
-            "the king of Sodom",
-            "Lot",
-            "Isaac"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the king of Sodom",
-            "Pharaoh",
-            "Esau",
-            "Israel"
-          ],
-          "listener": [
-            "sons of Heth",
-            "Leah",
-            "Joseph",
-            "all the Egyptians"
-          ]
-        }
-      },
-      "he": {
-        "quote": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים",
-        "riddle": "הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים",
-        "speaker": "יְהוָה",
-        "listener": "אַבְרָם",
-        "book": "בראשית",
-        "bonus": "שַׁדַּי",
-        "bonus_hint": {
-          "quote": "וַיֹּאמֶר לוֹ אֱלֹהִים אֲנִי אֵל שַׁדַּי פְּרֵה וּרְבֵה גּוֹי וּקְהַל גּוֹיִם יִהְיֶה מִמֶּךָּ וּמְלָכִים מֵחֲלָצֶיךָ יֵצֵֽאוּ",
-          "source": {
-            "book": "בראשית",
-            "chapter": 35,
-            "start": 11,
-            "end": 11
-          }
-        },
-        "options": {
-          "speaker": [
-            "שָׂרַי",
-            "יִצְחָק",
-            "אַבְרָם",
-            "לָבָן"
-          ],
-          "listener": [
-            "אַבְרָהָם",
-            "מֶלֶךְ סְדֹם",
-            "לוֹט",
-            "יִצְחָק"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "מֶלֶךְ סְדֹם",
-            "פַּרְעֹה",
-            "עֵשָׂו",
-            "יִשְׂרָאֵל"
-          ],
-          "listener": [
-            "בְּנֵי־חֵת",
-            "לֵאָה",
-            "יוֹסֵף",
-            "כָל־מִצְרַיִם"
-          ]
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "1": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect."
-        },
-        "he": {
-          "1": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים׃"
-        }
-      },
-      "meta": {
-        "reason": "The riddle aligns directly with the English verse. Speaker and listener are clearly identified.",
-        "confidence": null,
-        "bonus_source": "llm",
-        "bonus_retries": 0,
-        "bonus_hint_source": "llm"
-      },
-      "ref": {
-        "chapter": 17,
-        "start": 1,
-        "end": 1
-      }
-    },
-    {
-      "id": "genesis-17-01-02",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 17,
-        "quote_verse_start": 1,
-        "quote_verse_end": 2
-      },
-      "en": {
-        "quote": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect. And I will make my covenant between me and thee, and will multiply thee exceedingly.",
-        "riddle": "walk before me, and be thou perfect",
-        "speaker": "the LORD",
-        "listener": "Abram",
-        "book": "Genesis",
-        "bonus": "Almighty",
-        "bonus_hint": {
-          "quote": "And she said unto them, Call me not Naomi, call me Mara: for the Almighty hath dealt very bitterly with me.",
-          "source": {
-            "book": "Ruth",
-            "chapter": 1,
-            "start": 20,
-            "end": 20
-          }
-        },
-        "options": {
-          "speaker": [
-            "the king of Sodom",
-            "Abram",
-            "Isaac",
-            "Laban"
-          ],
-          "listener": [
-            "Lot",
-            "Isaac",
-            "the king of Sodom",
-            "Sarai"
-          ]
-        },
-        "hard_difficulty_options": {
           "speaker": [
             "Abimelech",
-            "Esau",
-            "Lot",
-            "Sarai"
+            "Moses and Aaron",
+            "Abraham"
           ],
           "listener": [
-            "Jacob",
-            "Ephron",
-            "Tamar",
-            "Leah"
+            "Sarah",
+            "Rebekah",
+            "Tamar"
           ]
-        }
-      },
-      "he": {
-        "quote": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד",
-        "riddle": "הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים",
-        "speaker": "יְהוָה",
-        "listener": "אַבְרָם",
-        "book": "בראשית",
-        "bonus": "וַיֵּרָא",
+        },
+        "bonus": "Abraham",
         "bonus_hint": {
-          "quote": "וַיַּרְא יְהוָה כִּי רַבָּה רָעַת הָאָדָם בָּאָרֶץ וְכָל־יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל־הַיּֽוֹם",
-          "source": {
-            "book": "בראשית",
-            "chapter": 6,
-            "start": 5,
-            "end": 5
-          }
-        },
-        "options": {
-          "speaker": [
-            "מֶֽלֶךְ־סְדֹם",
-            "אַבְרָם",
-            "יִצְחָק",
-            "לָבָן"
-          ],
-          "listener": [
-            "לוֹט",
-            "יִצְחָק",
-            "מֶלֶךְ סְדֹם",
-            "שָׂרַי"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "אֲבִימֶלֶךְ",
-            "עֵשָׂו",
-            "לוֹט",
-            "שָׂרַי"
-          ],
-          "listener": [
-            "יַעֲקֹב",
-            "עֶפְרוֹן",
-            "תָּמָר",
-            "לֵאָה"
-          ]
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "1": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
-          "2": "And I will make my covenant between me and thee, and will multiply thee exceedingly."
-        },
-        "he": {
-          "1": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים׃",
-          "2": "וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד׃"
-        }
-      },
-      "meta": {
-        "reason": "The verses discuss a covenant with a promise of numerous descendants (a multitude) and the sign of circumcision (a small sign).",
-        "confidence": 0.95,
-        "bonus_source": "llm",
-        "bonus_retries": 7,
-        "bonus_hint_source": "llm"
-      },
-      "ref": {
-        "chapter": 17,
-        "start": 1,
-        "end": 2
-      }
-    },
-    {
-      "id": "genesis-17-15-15",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 17,
-        "quote_verse_start": 15,
-        "quote_verse_end": 15
-      },
-      "en": {
-        "quote": "And God said unto Abraham, As for Sarai thy wife, thou shalt not call her name Sarai, but Sarah shall her name be.",
-        "riddle": "thou shalt not call her name Sarai",
-        "speaker": "God",
-        "listener": "Abraham",
-        "book": "Genesis",
-        "bonus": "Sarah",
-        "bonus_hint": {
-          "quote": "Therefore Sarah laughed within herself, saying, After I am waxed old shall I have pleasure, my lord being old also?",
+          "quote": "And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?",
           "source": {
             "book": "Genesis",
             "chapter": 18,
-            "start": 12,
-            "end": 12
+            "start": 23,
+            "end": 23
           }
-        },
-        "options": {
-          "speaker": [
-            "Pharaoh",
-            "Abimelech",
-            "Isaac",
-            "Lot"
-          ],
-          "listener": [
-            "Abram",
-            "Sarai",
-            "Laban",
-            "Joseph"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Esau",
-            "Sarai",
-            "Judah",
-            "Abram"
-          ],
-          "listener": [
-            "the king of Sodom",
-            "Leah",
-            "Lot",
-            "Hagar"
-          ]
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם שָׂרַי אִשְׁתְּךָ לֹא־תִקְרָא אֶת־שְׁמָהּ שָׂרָי כִּי שָׂרָה שְׁמָֽהּ",
-        "riddle": "לֹא־תִקְרָא אֶת־שְׁמָהּ שָׂרָי",
+        "quote": "וַיִּפֹּל אַבְרָם עַל־פָּנָיו וַיְדַבֵּר אִתּוֹ אֱלֹהִים לֵאמֹֽר אֲנִי הִנֵּה בְרִיתִי אִתָּךְ וְהָיִיתָ לְאַב הֲמוֹן גּוֹיִֽם וְלֹא־יִקָּרֵא עוֹד אֶת־שִׁמְךָ אַבְרָם וְהָיָה שִׁמְךָ אַבְרָהָם כִּי אַב־הֲמוֹן גּוֹיִם נְתַתִּֽיךָ",
+        "riddle": "אֲנִי הִנֵּה בְרִיתִי אִתָּךְ וְהָיִיתָ לְאַב הֲמוֹן גּוֹיִֽם",
         "speaker": "אֱלֹהִים",
-        "listener": "אַבְרָהָם",
+        "listener": "אַבְרָם",
         "book": "בראשית",
-        "bonus": "שָׂרָה",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "מֹשֶׁה וְאַהֲרֹן",
+            "אַבְרָהָם"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "רִבְקָה",
+            "תָמָר"
+          ]
+        },
+        "bonus": "אַבְרָהָם",
         "bonus_hint": {
-          "quote": "וַתִּצְחַק שָׂרָה בְּקִרְבָּהּ לֵאמֹר אַחֲרֵי בְלֹתִי הָֽיְתָה־לִּי עֶדְנָה וַֽאדֹנִי זָקֵֽן",
+          "quote": "וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע",
           "source": {
             "book": "בראשית",
             "chapter": 18,
-            "start": 12,
-            "end": 12
+            "start": 23,
+            "end": 23
           }
-        },
-        "options": {
-          "speaker": [
-            "פַּרְעֹה",
-            "אֲבִימֶלֶךְ",
-            "יִצְחָק",
-            "לוֹט"
-          ],
-          "listener": [
-            "אַבְרָם",
-            "שָׂרַי",
-            "לָבָן",
-            "יוֹסֵף"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "עֵשָׂו",
-            "שָׂרַי",
-            "יְהוּדָה",
-            "אַבְרָם"
-          ],
-          "listener": [
-            "מֶלֶךְ סְדֹם",
-            "לֵאָה",
-            "לוֹט",
-            "הָגָר"
-          ]
         }
       },
       "raw_quote_source": {
         "en": {
-          "15": "And God said unto Abraham, As for Sarai thy wife, thou shalt not call her name Sarai, but Sarah shall her name be."
+          "3": "And Abram fell on his face: and God talked with him, saying,",
+          "4": "As for me, behold, my covenant is with thee, and thou shalt be a father of many nations.",
+          "5": "Neither shall thy name any more be called Abram, but thy name shall be Abraham; for a father of many nations have I made thee."
         },
         "he": {
-          "15": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם שָׂרַי אִשְׁתְּךָ לֹא־תִקְרָא אֶת־שְׁמָהּ שָׂרָי כִּי שָׂרָה שְׁמָֽהּ׃"
+          "3": "וַיִּפֹּל אַבְרָם עַל־פָּנָיו וַיְדַבֵּר אִתּוֹ אֱלֹהִים לֵאמֹֽר",
+          "4": "אֲנִי הִנֵּה בְרִיתִי אִתָּךְ וְהָיִיתָ לְאַב הֲמוֹן גּוֹיִֽם",
+          "5": "וְלֹא־יִקָּרֵא עוֹד אֶת־שִׁמְךָ אַבְרָם וְהָיָה שִׁמְךָ אַבְרָהָם כִּי אַב־הֲמוֹן גּוֹיִם נְתַתִּֽיךָ"
         }
       },
       "meta": {
-        "reason": "The riddle aligns directly with the instruction to use exact text from the English verse. The speaker and listener are clearly identified, and the riddle is concise and dramatic, matching the event in the verse.",
-        "confidence": null,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-17-03-04",
         "bonus_source": "llm",
-        "bonus_retries": 0,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 17,
-        "start": 15,
-        "end": 15
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-17-08-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession; and I will be their God. And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+        "riddle": "Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Isaac",
+            "Joseph"
+          ],
+          "listener": [
+            "Sarah",
+            "Rachel",
+            "Tamar"
+          ]
+        },
+        "bonus": "Canaan",
+        "bonus_hint": {
+          "quote": "And he said, Cursed be Canaan; a servant of servants shall he be unto his brethren.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 9,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וְנָתַתִּי לְךָ וּלְזַרְעֲךָ אַחֲרֶיךָ אֵת אֶרֶץ מְגֻרֶיךָ אֵת כָּל־אֶרֶץ כְּנַעַן לַאֲחֻזַּת עוֹלָם וְהָיִיתִי לָהֶם לֵאלֹהִֽים וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם",
+        "riddle": "וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יִצְחָק",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "רָחֵל",
+            "תָמָר"
+          ]
+        },
+        "bonus": "כְּנַעַן",
+        "bonus_hint": {
+          "quote": "וַיִּקַּח אַבְרָם אֶת־שָׂרַי אִשְׁתּוֹ וְאֶת־לוֹט בֶּן־אָחִיו וְאֶת־כָּל־רְכוּשָׁם אֲשֶׁר רָכָשׁוּ וְאֶת־הַנֶּפֶשׁ אֲשֶׁר־עָשׂוּ בְחָרָן וַיֵּצְאוּ לָלֶכֶת אַרְצָה כְּנַעַן וַיָּבֹאוּ אַרְצָה כְּנָֽעַן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 12,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession; and I will be their God.",
+          "9": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations."
+        },
+        "he": {
+          "8": "וְנָתַתִּי לְךָ וּלְזַרְעֲךָ אַחֲרֶיךָ אֵת אֶרֶץ מְגֻרֶיךָ אֵת כָּל־אֶרֶץ כְּנַעַן לַאֲחֻזַּת עוֹלָם וְהָיִיתִי לָהֶם לֵאלֹהִֽים",
+          "9": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "genesis-17-09-09",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 9
       }
     }
   ]

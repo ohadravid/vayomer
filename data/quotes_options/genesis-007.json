@@ -3,7 +3,99 @@
   "book": "Genesis",
   "book_he": "בראשית",
   "chapter": 7,
-  "mode": "end2end",
-  "first_k_verses": 0,
-  "items": []
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-07-01-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 7,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation. Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female.",
+        "riddle": "Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.",
+        "speaker": "the LORD",
+        "listener": "Noah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "Abraham",
+            "Moses"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "sons of Jacob"
+          ]
+        },
+        "bonus": "clean",
+        "bonus_hint": {
+          "quote": "Then Jacob said unto his household, and to all that were with him, Put away the strange gods that are among you, and be clean, and change your garments:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 35,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה מִכֹּל הַבְּהֵמָה הַטְּהוֹרָה תִּֽקַּח־לְךָ שִׁבְעָה שִׁבְעָה אִישׁ וְאִשְׁתּוֹ וּמִן־הַבְּהֵמָה אֲשֶׁר לֹא טְהֹרָה הִוא שְׁנַיִם אִישׁ וְאִשְׁתּֽוֹ",
+        "riddle": "בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה",
+        "speaker": "יְהוָה",
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַּרְעֹה",
+            "אַבְרָהָם",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "בְּנֵי יַעֲקֹב"
+          ]
+        },
+        "bonus": "הַטְּהוֹרָה",
+        "bonus_hint": {
+          "quote": "וַיִּבֶן נֹחַ מִזְבֵּחַ לַֽיהוָה וַיִּקַּח מִכֹּל הַבְּהֵמָה הַטְּהוֹרָה וּמִכֹּל הָעוֹף הַטָּהֹר וַיַּעַל עֹלֹת בַּמִּזְבֵּֽחַ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.",
+          "2": "Of every clean beast thou shalt take to thee by sevens, the male and his female: and of beasts that are not clean by two, the male and his female."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה",
+          "2": "מִכֹּל הַבְּהֵמָה הַטְּהוֹרָה תִּֽקַּח־לְךָ שִׁבְעָה שִׁבְעָה אִישׁ וְאִשְׁתּוֹ וּמִן־הַבְּהֵמָה אֲשֶׁר לֹא טְהֹרָה הִוא שְׁנַיִם אִישׁ וְאִשְׁתּֽוֹ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-07-01-01",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 1,
+        "end": 1
+      }
+    }
+  ]
 }

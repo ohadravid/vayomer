@@ -3,130 +3,286 @@
   "book": "Exodus",
   "book_he": "שמות",
   "chapter": 13,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "exodus-13-03-04",
+      "id": "exodus-13-01-03",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 13,
-        "quote_verse_start": 3,
-        "quote_verse_end": 4
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
       },
       "en": {
-        "quote": "And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten. This day came ye out in the month Abib.",
-        "riddle": "Remember this day, in which ye came out from Egypt",
+        "quote": "And the LORD spake unto Moses, saying, Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine. And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.",
+        "riddle": "Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place",
         "speaker": "Moses",
-        "listener": "the people",
+        "listener": "people",
         "book": "Exodus",
-        "bonus": "strength",
-        "bonus_hint": {
-          "quote": "And Moses stretched forth his hand over the sea, and the sea returned to his strength when the morning appeared; and the Egyptians fled against it; and the LORD overthrew the Egyptians in the midst of the sea.",
-          "source": {
-            "book": "Exodus",
-            "chapter": 14,
-            "start": 27,
-            "end": 27
-          }
-        },
         "options": {
           "speaker": [
-            "Moses' father in law",
-            "Moses and Aaron",
-            "Reuel",
-            "Pharaoh"
-          ],
-          "listener": [
-            "the midwives",
-            "Moses",
-            "the Hebrew midwives",
-            "Pharaoh"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the LORD God",
-            "the servant",
-            "Pharaoh's servants",
-            "the midwives"
-          ],
-          "listener": [
             "Aaron",
             "Moses and Aaron",
-            "Pharaoh's daughter",
-            "children of Israel"
+            "Jethro"
+          ],
+          "listener": [
+            "the people of Israel",
+            "the congregation",
+            "brethren"
           ]
+        },
+        "bonus": "firstborn",
+        "bonus_hint": {
+          "quote": "And they made their father drink wine that night: and the firstborn went in, and lay with her father; and he perceived not when she lay down, nor when she arose.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 33,
+            "end": 33
+          }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב",
-        "riddle": "זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם",
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ",
+        "riddle": "זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה",
         "speaker": "מֹשֶׁה",
         "listener": "הָעָם",
         "book": "שמות",
-        "bonus": "בְּחֹזֶק",
-        "bonus_hint": {
-          "quote": "וְהָיָה כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מַה־זֹּאת וְאָמַרְתָּ אֵלָיו בְּחֹזֶק יָד הוֹצִיאָנוּ יְהוָה מִמִּצְרַיִם מִבֵּית עֲבָדִֽים",
-          "source": {
-            "book": "שמות",
-            "chapter": 13,
-            "start": 14,
-            "end": 14
-          }
-        },
         "options": {
           "speaker": [
-            "חֹתְנוֹ",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "רְעוּאֵל",
-            "פַּרְעֹה"
-          ],
-          "listener": [
-            "הַֽמְיַלְּדֹת",
-            "מֹשֶׁה",
-            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת",
-            "פַּרְעֹה"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יְהוָה",
-            "הָעֶבֶד",
-            "עַבְדֵי פַרְעֹה",
-            "הַֽמְיַלְּדֹת"
-          ],
-          "listener": [
             "אַהֲרֹן",
             "מֹשֶׁה וְאַהֲרֹן",
-            "בַּת־פַּרְעֹה",
-            "בְּנֵי יִשְׂרָאֵל"
+            "יִתְרוֹ"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "הָעֵדָה",
+            "אֶחָיו"
           ]
+        },
+        "bonus": "פֶּטֶר",
+        "bonus_hint": {
+          "quote": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל תַּחַת כָּל־בְּכוֹר פֶּטֶר רֶחֶם מִבְּנֵי יִשְׂרָאֵל וְהָיוּ לִי הַלְוִיִּֽם",
+          "source": {
+            "book": "במדבר",
+            "chapter": 3,
+            "start": 12,
+            "end": 12
+          }
         }
       },
       "raw_quote_source": {
         "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.",
+          "3": "And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא׃",
+          "3": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "exodus-13-02-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 13,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine. And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten. This day came ye out in the month Abib.",
+        "riddle": "This day came ye out in the month Abib.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Moses and Aaron",
+            "Joseph",
+            "the LORD God"
+          ],
+          "listener": [
+            "Israel",
+            "the congregation",
+            "sons of Jacob"
+          ]
+        },
+        "bonus": "firstborn",
+        "bonus_hint": {
+          "quote": "And they made their father drink wine that night: and the firstborn went in, and lay with her father; and he perceived not when she lay down, nor when she arose.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "he": {
+        "quote": "קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב",
+        "riddle": "הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה וְאַהֲרֹן",
+            "יוֹסֵף",
+            "יְהוָה"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "הָעֵדָה",
+            "בְּנֵי יַעֲקֹב"
+          ]
+        },
+        "bonus": "בְּכוֹר",
+        "bonus_hint": {
+          "quote": "וַיְהִי עֵר בְּכוֹר יְהוּדָה רַע בְּעֵינֵי יְהוָה וַיְמִתֵהוּ יְהוָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 38,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.",
           "3": "And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.",
           "4": "This day came ye out in the month Abib."
         },
         "he": {
+          "2": "קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא׃",
           "3": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ׃",
           "4": "הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב׃"
         }
       },
       "meta": {
-        "reason": "The verses discuss remembering the exodus from Egypt and specifically mention the month of Abib as the time of departure. The riddle focuses on these key elements.",
-        "confidence": 0.95,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 0,
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 2,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-13-02-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 13,
+        "quote_verse_start": 2,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine. And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten. This day came ye out in the month Abib. And it shall be when the LORD shall bring thee into the land of the Canaanites, and the Hittites, and the Amorites, and the Hivites, and the Jebusites, which he sware unto thy fathers to give thee, a land flowing with milk and honey, that thou shalt keep this service in this month.",
+        "riddle": "Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Abraham",
+            "Sarai"
+          ],
+          "listener": [
+            "the people of Israel",
+            "Israelites",
+            "sons of Jacob"
+          ]
+        },
+        "bonus": "firstborn",
+        "bonus_hint": {
+          "quote": "And the firstborn said unto the younger, Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב וְהָיָה כִֽי־יְבִֽיאֲךָ יְהוָה אֶל־אֶרֶץ הַֽכְּנַעֲנִי וְהַחִתִּי וְהָאֱמֹרִי וְהַחִוִּי וְהַיְבוּסִי אֲשֶׁר נִשְׁבַּע לַאֲבֹתֶיךָ לָתֶת לָךְ אֶרֶץ זָבַת חָלָב וּדְבָשׁ וְעָבַדְתָּ אֶת־הָעֲבֹדָה הַזֹּאת בַּחֹדֶשׁ הַזֶּֽה",
+        "riddle": "זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "אַבְרָהָם",
+            "שָׂרַי"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יַעֲקֹב"
+          ]
+        },
+        "bonus": "בְּכוֹר",
+        "bonus_hint": {
+          "quote": "וַיְהִי עֵר בְּכוֹר יְהוּדָה רַע בְּעֵינֵי יְהוָה וַיְמִתֵהוּ יְהוָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 38,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Sanctify unto me all the firstborn, whatsoever openeth the womb among the children of Israel, both of man and of beast: it is mine.",
+          "3": "And Moses said unto the people, Remember this day, in which ye came out from Egypt, out of the house of bondage; for by strength of hand the LORD brought you out from this place: there shall no leavened bread be eaten.",
+          "4": "This day came ye out in the month Abib.",
+          "5": "And it shall be when the LORD shall bring thee into the land of the Canaanites, and the Hittites, and the Amorites, and the Hivites, and the Jebusites, which he sware unto thy fathers to give thee, a land flowing with milk and honey, that thou shalt keep this service in this month."
+        },
+        "he": {
+          "2": "קַדֶּשׁ־לִי כָל־בְּכוֹר פֶּטֶר כָּל־רֶחֶם בִּבְנֵי יִשְׂרָאֵל בָּאָדָם וּבַבְּהֵמָה לִי הֽוּא",
+          "3": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם זָכוֹר אֶת־הַיּוֹם הַזֶּה אֲשֶׁר יְצָאתֶם מִמִּצְרַיִם מִבֵּית עֲבָדִים כִּי בְּחֹזֶק יָד הוֹצִיא יְהֹוָה אֶתְכֶם מִזֶּה וְלֹא יֵאָכֵל חָמֵֽץ",
+          "4": "הַיּוֹם אַתֶּם יֹצְאִים בְּחֹדֶשׁ הָאָבִֽיב",
+          "5": "וְהָיָה כִֽי־יְבִֽיאֲךָ יְהוָה אֶל־אֶרֶץ הַֽכְּנַעֲנִי וְהַחִתִּי וְהָאֱמֹרִי וְהַחִוִּי וְהַיְבוּסִי אֲשֶׁר נִשְׁבַּע לַאֲבֹתֶיךָ לָתֶת לָךְ אֶרֶץ זָבַת חָלָב וּדְבָשׁ וְעָבַדְתָּ אֶת־הָעֲבֹדָה הַזֹּאת בַּחֹדֶשׁ הַזֶּֽה"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "exodus-13-03-05",
+        "bonus_source": "llm",
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 13,
         "start": 3,
-        "end": 4
+        "end": 5
       }
     }
   ]

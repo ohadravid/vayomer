@@ -3,247 +3,278 @@
   "book": "Exodus",
   "book_he": "שמות",
   "chapter": 33,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "exodus-33-11-12",
+      "id": "exodus-33-01-03",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 33,
-        "quote_verse_start": 11,
-        "quote_verse_end": 12
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
       },
       "en": {
-        "quote": "And the LORD spake unto Moses face to face, as a man speaketh unto his friend. And he turned again into the camp: but his servant Joshua, the son of Nun, a young man, departed not out of the tabernacle. And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight.",
-        "riddle": "face to face, as a man speaketh unto his friend",
+        "quote": "And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it: And I will send an angel before thee; and I will drive out the Canaanite, the Amorite, and the Hittite, and the Perizzite, the Hivite, and the Jebusite: Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.",
+        "riddle": "Unto thy seed will I give it",
         "speaker": "the LORD",
         "listener": "Moses",
         "book": "Exodus",
-        "bonus": "wilt",
-        "bonus_hint": {
-          "quote": "And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?",
-          "source": {
-            "book": "Genesis",
-            "chapter": 18,
-            "start": 23,
-            "end": 23
-          }
-        },
         "options": {
           "speaker": [
-            "Moses and Aaron",
-            "Moses' father in law",
-            "the midwives",
-            "Pharaoh's servants"
+            "Moses",
+            "Jacob",
+            "Joseph"
           ],
           "listener": [
-            "God",
-            "Moses and Aaron",
-            "children of Israel",
-            "elders of Israel"
+            "Joshua",
+            "sons of Jacob",
+            "the people of Israel"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Jethro",
-            "Moses",
-            "the servant",
-            "Pharaoh"
-          ],
-          "listener": [
-            "Aaron",
-            "Pharaoh's daughter",
-            "the Hebrew midwives",
-            "the midwives"
-          ]
+        "bonus": "Amorite",
+        "bonus_hint": {
+          "quote": "And say, Thus saith the Lord GOD unto Jerusalem; Thy birth and thy nativity is of the land of Canaan; thy father was an Amorite, and thy mother an Hittite.",
+          "source": {
+            "book": "Ezekiel",
+            "chapter": 16,
+            "start": 3,
+            "end": 3
+          }
         }
       },
       "he": {
-        "quote": "וְדִבֶּר יְהוָה אֶל־מֹשֶׁה פָּנִים אֶל־פָּנִים כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל־רֵעֵהוּ וְשָׁב אֶל־הַֽמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן־נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹֽהֶל וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי",
-        "riddle": "הַֽמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן־נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹֽהֶל",
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה וְשָׁלַחְתִּי לְפָנֶיךָ מַלְאָךְ וְגֵֽרַשְׁתִּי אֶת־הַֽכְּנַעֲנִי הָֽאֱמֹרִי וְהַֽחִתִּי וְהַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי אֶל־אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶךְ",
+        "riddle": "לְזַרְעֲךָ אֶתְּנֶֽנָּה",
         "speaker": "יְהוָה",
         "listener": "מֹשֶׁה",
         "book": "שמות",
-        "bonus": "בְּעֵינָֽי",
-        "bonus_hint": {
-          "quote": "וְנֹחַ מָצָא חֵן בְּעֵינֵי יְהוָֽה",
-          "source": {
-            "book": "בראשית",
-            "chapter": 6,
-            "start": 8,
-            "end": 8
-          }
-        },
         "options": {
           "speaker": [
-            "מֹשֶׁה וְאַהֲרֹן",
-            "חֹתְנוֹ",
-            "הַֽמְיַלְּדֹת",
-            "עַבְדֵי פַרְעֹה"
+            "מֹשֶׁה",
+            "יַעֲקֹב",
+            "יוֹסֵף"
           ],
           "listener": [
-            "הָאֱלֹהִים",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "בְּנֵי יִשְׂרָאֵל",
-            "זִקְנֵי יִשְׂרָאֵל"
+            "יְהוֹשֻׁעַ",
+            "בְּנֵי יַעֲקֹב",
+            "בְּנֵי יִשְׂרָאֵל"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יִתְרוֹ",
-            "מֹשֶׁה",
-            "הָעֶבֶד",
-            "פַּרְעֹה"
-          ],
-          "listener": [
-            "אַהֲרֹן",
-            "בַּת־פַּרְעֹה",
-            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת",
-            "הַֽמְיַלְּדֹת"
-          ]
+        "bonus": "הָֽאֱמֹרִי",
+        "bonus_hint": {
+          "quote": "וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 48,
+            "start": 22,
+            "end": 22
+          }
         }
       },
       "raw_quote_source": {
         "en": {
-          "11": "And the LORD spake unto Moses face to face, as a man speaketh unto his friend. And he turned again into the camp: but his servant Joshua, the son of Nun, a young man, departed not out of the tabernacle.",
-          "12": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight."
+          "1": "And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it:",
+          "2": "And I will send an angel before thee; and I will drive out the Canaanite, the Amorite, and the Hittite, and the Perizzite, the Hivite, and the Jebusite:",
+          "3": "Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way."
         },
         "he": {
-          "11": "וְדִבֶּר יְהוָה אֶל־מֹשֶׁה פָּנִים אֶל־פָּנִים כַּאֲשֶׁר יְדַבֵּר אִישׁ אֶל־רֵעֵהוּ וְשָׁב אֶל־הַֽמַּחֲנֶה וּמְשָׁרְתוֹ יְהוֹשֻׁעַ בִּן־נוּן נַעַר לֹא יָמִישׁ מִתּוֹךְ הָאֹֽהֶל׃",
-          "12": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי׃"
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה׃",
+          "2": "וְשָׁלַחְתִּי לְפָנֶיךָ מַלְאָךְ וְגֵֽרַשְׁתִּי אֶת־הַֽכְּנַעֲנִי הָֽאֱמֹרִי וְהַֽחִתִּי וְהַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי׃",
+          "3": "אֶל־אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶךְ׃"
         }
       },
       "meta": {
-        "reason": "The verses present a direct dialogue between the Lord and Moses, where the Lord acknowledges knowing Moses and offering grace, but Moses questions the specifics of divine guidance and accompaniment. The riddle captures this dynamic of known favor and an unrevealed path.",
-        "confidence": 0.9,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 33,
-        "start": 11,
-        "end": 12
+        "start": 1,
+        "end": 3
       }
     },
     {
-      "id": "exodus-33-17-17",
+      "id": "exodus-33-05-05",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 33,
-        "quote_verse_start": 17,
-        "quote_verse_end": 17
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
       },
       "en": {
-        "quote": "And the LORD said unto Moses, I will do this thing also that thou hast spoken: for thou hast found grace in my sight, and I know thee by name.",
-        "riddle": "for thou hast found grace in my sight",
+        "quote": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
+        "riddle": "put off thy ornaments from thee, that I may know what to do unto thee",
         "speaker": "the LORD",
-        "listener": "Moses",
+        "listener": "the children of Israel",
         "book": "Exodus",
-        "bonus": "unto",
-        "bonus_hint": {
-          "quote": "And God said, Let the waters under the heaven be gathered together unto one place, and let the dry land appear: and it was so.",
-          "source": {
-            "book": "Genesis",
-            "chapter": 1,
-            "start": 9,
-            "end": 9
-          }
-        },
         "options": {
           "speaker": [
-            "Moses' father in law",
-            "Moses and Aaron",
-            "the midwives",
-            "the servant"
+            "Abraham",
+            "Joseph",
+            "Jethro"
           ],
           "listener": [
-            "God",
-            "the midwives",
-            "elders of Israel",
-            "Pharaoh"
+            "the congregation",
+            "sons of Jacob",
+            "the maid"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Jethro",
-            "Pharaoh",
-            "Pharaoh's servants",
-            "Reuel"
-          ],
-          "listener": [
-            "children of Israel",
-            "Moses and Aaron",
-            "Aaron",
-            "the Hebrew midwives"
-          ]
+        "bonus": "stiffnecked",
+        "bonus_hint": {
+          "quote": "Circumcise therefore the foreskin of your heart, and be no more stiffnecked.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 10,
+            "start": 16,
+            "end": 16
+          }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה גַּם אֶת־הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶֽעֱשֶׂה כִּֽי־מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵֽׁם",
-        "riddle": "כִּֽי־מָצָאתָ חֵן בְּעֵינַי",
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ",
+        "riddle": "הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ",
         "speaker": "יְהוָה",
-        "listener": "מֹשֶׁה",
+        "listener": "בְּנֵֽי־יִשְׂרָאֵל",
         "book": "שמות",
-        "bonus": "אֶֽעֱשֶׂה",
-        "bonus_hint": {
-          "quote": "וְשָׁלַחְתִּי אֶת־יָדִי וְהִכֵּיתִי אֶת־מִצְרַיִם בְּכֹל נִפְלְאֹתַי אֲשֶׁר אֶֽעֱשֶׂה בְּקִרְבּוֹ וְאַחֲרֵי־כֵן יְשַׁלַּח אֶתְכֶֽם",
-          "source": {
-            "book": "שמות",
-            "chapter": 3,
-            "start": 20,
-            "end": 20
-          }
-        },
         "options": {
           "speaker": [
-            "שָׁאוּל",
-            "דְּבוֹרָה",
-            "פַּרְעֹה"
+            "אַבְרָהָם",
+            "יוֹסֵף",
+            "יִתְרוֹ"
           ],
           "listener": [
-            "אַבְרָם",
-            "יוֹסֵף",
-            "יהוֹנָתָן"
+            "הָעֵדָה",
+            "בְּנֵי יַעֲקֹב",
+            "הָֽעַלְמָה"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "שָׁאוּל",
-            "דְּבוֹרָה",
-            "פַּרְעֹה"
-          ],
-          "listener": [
-            "אַבְרָם",
-            "יוֹסֵף",
-            "יהוֹנָתָן"
-          ]
+        "bonus": "עֹרֶף",
+        "bonus_hint": {
+          "quote": "בִּי אֲדֹנָי מָה אֹמַר אַחֲרֵי אֲשֶׁר הָפַךְ יִשְׂרָאֵל עֹרֶף לִפְנֵי אֹיְבָֽיו",
+          "source": {
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 8,
+            "end": 8
+          }
         }
       },
       "raw_quote_source": {
         "en": {
-          "17": "And the LORD said unto Moses, I will do this thing also that thou hast spoken: for thou hast found grace in my sight, and I know thee by name."
+          "5": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee."
         },
         "he": {
-          "17": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה גַּם אֶת־הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶֽעֱשֶׂה כִּֽי־מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵֽׁם׃"
+          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ׃"
         }
       },
       "meta": {
-        "reason": "The quote aligns perfectly with the provided English verse. Speaker and listener are clearly identified, and a concise, dramatic riddle can be extracted.",
-        "confidence": null,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 33,
-        "start": 17,
-        "end": 17
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "exodus-33-05-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee. And the children of Israel stripped themselves of their ornaments by the mount Horeb. And Moses took the tabernacle, and pitched it without the camp, afar off from the camp, and called it the Tabernacle of the congregation. And it came to pass, that every one which sought the LORD went out unto the tabernacle of the congregation, which was without the camp.",
+        "riddle": "put off thy ornaments from thee, that I may know what to do unto thee",
+        "speaker": "Moses",
+        "listener": "children of Israel",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "the LORD",
+            "Aaron",
+            "his father"
+          ],
+          "listener": [
+            "sons of Jacob",
+            "the congregation",
+            "Mishael"
+          ]
+        },
+        "bonus": "stiffnecked",
+        "bonus_hint": {
+          "quote": "Circumcise therefore the foreskin of your heart, and be no more stiffnecked.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 10,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ וַיִּֽתְנַצְּלוּ בְנֵֽי־יִשְׂרָאֵל אֶת־עֶדְיָם מֵהַר חוֹרֵֽב וּמֹשֶׁה יִקַּח אֶת־הָאֹהֶל וְנָֽטָה־לוֹ מִחוּץ לַֽמַּחֲנֶה הַרְחֵק מִן־הַֽמַּחֲנֶה וְקָרָא לוֹ אֹהֶל מוֹעֵד וְהָיָה כָּל־מְבַקֵּשׁ יְהוָה יֵצֵא אֶל־אֹהֶל מוֹעֵד אֲשֶׁר מִחוּץ לַֽמַּחֲנֶֽה",
+        "riddle": "הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵֽי־יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוָה",
+            "אַהֲרֹן",
+            "אָבִיו"
+          ],
+          "listener": [
+            "בְּנֵי יַעֲקֹב",
+            "הָעֵדָה",
+            "מִֽישָׁאֵל"
+          ]
+        },
+        "bonus": "עֹרֶף",
+        "bonus_hint": {
+          "quote": "בִּי אֲדֹנָי מָה אֹמַר אַחֲרֵי אֲשֶׁר הָפַךְ יִשְׂרָאֵל עֹרֶף לִפְנֵי אֹיְבָֽיו",
+          "source": {
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
+          "6": "And the children of Israel stripped themselves of their ornaments by the mount Horeb.",
+          "7": "And Moses took the tabernacle, and pitched it without the camp, afar off from the camp, and called it the Tabernacle of the congregation. And it came to pass, that every one which sought the LORD went out unto the tabernacle of the congregation, which was without the camp."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ׃",
+          "6": "וַיִּֽתְנַצְּלוּ בְנֵֽי־יִשְׂרָאֵל אֶת־עֶדְיָם מֵהַר חוֹרֵֽב׃",
+          "7": "וּמֹשֶׁה יִקַּח אֶת־הָאֹהֶל וְנָֽטָה־לוֹ ׀ מִחוּץ לַֽמַּחֲנֶה הַרְחֵק מִן־הַֽמַּחֲנֶה וְקָרָא לוֹ אֹהֶל מוֹעֵד וְהָיָה כָּל־מְבַקֵּשׁ יְהוָה יֵצֵא אֶל־אֹהֶל מוֹעֵד אֲשֶׁר מִחוּץ לַֽמַּחֲנֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 5,
+        "end": 7
       }
     }
   ]

@@ -1,0 +1,195 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 27,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-27-06-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 6,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Rebekah spake unto Jacob her son, saying, Behold, I heard thy father speak unto Esau thy brother, saying, Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death. Now therefore, my son, obey my voice according to that which I command thee.",
+        "riddle": "Behold, I heard thy father speak unto Esau thy brother, saying, Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death.",
+        "speaker": "Rebekah",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Sarah",
+            "Sarai"
+          ],
+          "listener": [
+            "Israelites",
+            "sons of Jacob",
+            "the people of Israel"
+          ]
+        },
+        "bonus": "obey",
+        "bonus_hint": {
+          "quote": "And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 5,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וְרִבְקָה אָֽמְרָה אֶל־יַעֲקֹב בְּנָהּ לֵאמֹר הִנֵּה שָׁמַעְתִּי אֶת־אָבִיךָ מְדַבֵּר אֶל־עֵשָׂו אָחִיךָ לֵאמֹֽר הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי וְעַתָּה בְנִי שְׁמַע בְּקֹלִי לַאֲשֶׁר אֲנִי מְצַוָּה אֹתָֽךְ",
+        "riddle": "הִנֵּה שָׁמַעְתִּי אֶת־אָבִיךָ מְדַבֵּר אֶל־עֵשָׂו אָחִיךָ לֵאמֹֽר הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי",
+        "speaker": "רִבְקָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "שָׂרָה",
+            "שָׂרַי"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יַעֲקֹב",
+            "בְּנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "שְׁמַע",
+        "bonus_hint": {
+          "quote": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָֽד",
+          "source": {
+            "book": "דברים",
+            "chapter": 6,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Rebekah spake unto Jacob her son, saying, Behold, I heard thy father speak unto Esau thy brother, saying,",
+          "7": "Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death.",
+          "8": "Now therefore, my son, obey my voice according to that which I command thee."
+        },
+        "he": {
+          "6": "וְרִבְקָה אָֽמְרָה אֶל־יַעֲקֹב בְּנָהּ לֵאמֹר הִנֵּה שָׁמַעְתִּי אֶת־אָבִיךָ מְדַבֵּר אֶל־עֵשָׂו אָחִיךָ לֵאמֹֽר",
+          "7": "הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי",
+          "8": "וְעַתָּה בְנִי שְׁמַע בְּקֹלִי לַאֲשֶׁר אֲנִי מְצַוָּה אֹתָֽךְ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-27-06-07",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-27-11-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And Jacob said to Rebekah his mother, Behold, Esau my brother is a hairy man, and I am a smooth man: My father peradventure will feel me, and I shall seem to him as a deceiver; and I shall bring a curse upon me, and not a blessing.",
+        "riddle": "Behold, Esau my brother is a hairy man, and I am a smooth man:",
+        "speaker": "Jacob",
+        "listener": "Rebekah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Moses",
+            "Esau"
+          ],
+          "listener": [
+            "Sarah",
+            "Rachel",
+            "Tamar"
+          ]
+        },
+        "bonus": "curse",
+        "bonus_hint": {
+          "quote": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָֽה",
+        "riddle": "הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק",
+        "speaker": "יַעֲקֹב",
+        "listener": "רִבְקָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "מֹשֶׁה",
+            "עֵשָׂו"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "רָחֵל",
+            "תָמָר"
+          ]
+        },
+        "bonus": "קְלָלָה",
+        "bonus_hint": {
+          "quote": "וַיֶּאֱהַב קְלָלָה וַתְּבוֹאֵהוּ וְֽלֹא־חָפֵץ בִּבְרָכָה וַתִּרְחַק מִמֶּֽנּוּ",
+          "source": {
+            "book": "תהילים",
+            "chapter": 109,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Jacob said to Rebekah his mother, Behold, Esau my brother is a hairy man, and I am a smooth man:",
+          "12": "My father peradventure will feel me, and I shall seem to him as a deceiver; and I shall bring a curse upon me, and not a blessing."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק",
+          "12": "אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָֽה"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-27-11-11",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 11,
+        "end": 11
+      }
+    }
+  ]
+}

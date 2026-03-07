@@ -3,497 +3,190 @@
   "book": "Genesis",
   "book_he": "בראשית",
   "chapter": 16,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "genesis-16-02-03",
+      "id": "genesis-16-01-02",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 16,
-        "quote_verse_start": 2,
-        "quote_verse_end": 3
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
       },
       "en": {
-        "quote": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai. And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife.",
-        "riddle": "Behold now, the LORD hath restrained me from bearing",
+        "quote": "Now Sarai Abram's wife bare him no children: and she had an handmaid, an Egyptian, whose name was Hagar. And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.",
+        "riddle": "Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her.",
         "speaker": "Sarai",
         "listener": "Abram",
         "book": "Genesis",
-        "bonus": "Canaan",
-        "bonus_hint": {
-          "quote": "And he said, Cursed be Canaan; a servant of servants shall he be unto his brethren.",
-          "source": {
-            "book": "Genesis",
-            "chapter": 9,
-            "start": 25,
-            "end": 25
-          }
-        },
         "options": {
           "speaker": [
-            "Judah",
-            "Isaac",
-            "Rachel",
-            "Esau"
-          ],
-          "listener": [
-            "Sarai",
-            "Tamar",
-            "Jacob",
-            "Leah"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Abimelech",
-            "Jacob",
-            "Abram",
+            "Sarah",
+            "the LORD",
             "Lot"
           ],
           "listener": [
-            "Laban",
-            "Rebekah",
-            "Lot",
-            "Ephron"
+            "Abimelech",
+            "Sarah",
+            "Tamar"
           ]
+        },
+        "bonus": "handmaid",
+        "bonus_hint": {
+          "quote": "Six days thou shalt do thy work, and on the seventh day thou shalt rest: that thine ox and thine ass may rest, and the son of thy handmaid, and the stranger, may be refreshed.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 23,
+            "start": 12,
+            "end": 12
+          }
         }
       },
       "he": {
-        "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי וַתִּקַּח שָׂרַי אֵֽשֶׁת־אַבְרָם אֶת־הָגָר הַמִּצְרִית שִׁפְחָתָהּ מִקֵּץ עֶשֶׂר שָׁנִים לְשֶׁבֶת אַבְרָם בְּאֶרֶץ כְּנָעַן וַתִּתֵּן אֹתָהּ לְאַבְרָם אִישָׁהּ לוֹ לְאִשָּֽׁה",
-        "riddle": "הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת",
+        "quote": "וְשָׂרַי אֵשֶׁת אַבְרָם לֹא יָלְדָה לוֹ וְלָהּ שִׁפְחָה מִצְרִית וּשְׁמָהּ הָגָֽר וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי",
+        "riddle": "הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה",
         "speaker": "שָׂרַי",
         "listener": "אַבְרָם",
         "book": "בראשית",
-        "bonus": "אֵֽשֶׁת",
-        "bonus_hint": {
-          "quote": "וַיְנַגַּע יְהוָה אֶת־פַּרְעֹה נְגָעִים גְּדֹלִים וְאֶת־בֵּיתוֹ עַל־דְּבַר שָׂרַי אֵשֶׁת אַבְרָֽם",
-          "source": {
-            "book": "בראשית",
-            "chapter": 12,
-            "start": 17,
-            "end": 17
-          }
-        },
         "options": {
           "speaker": [
-            "יְהוּדָה",
-            "יִצְחָק",
-            "רָחֵל",
-            "עֵשָׂו"
-          ],
-          "listener": [
-            "שָׂרַי",
-            "תָּמָר",
-            "יַעֲקֹב",
-            "לֵאָה"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "אֲבִימֶלֶךְ",
-            "יַעֲקֹב",
-            "אַבְרָם",
+            "שָׂרָה",
+            "יְהוָה",
             "לוֹט"
           ],
           "listener": [
-            "לָבָן",
-            "רִבְקָה",
-            "לוֹט",
-            "עֶפְרוֹן"
+            "אֲבִימֶלֶךְ",
+            "שָׂרָה",
+            "תָמָר"
           ]
+        },
+        "bonus": "שִׁפְחָה",
+        "bonus_hint": {
+          "quote": "וְאִישׁ כִּֽי־יִשְׁכַּב אֶת־אִשָּׁה שִׁכְבַת־זֶרַע וְהִוא שִׁפְחָה נֶחֱרֶפֶת לְאִישׁ וְהָפְדֵּה לֹא נִפְדָּתָה אוֹ חֻפְשָׁה לֹא נִתַּן־לָהּ בִּקֹּרֶת תִּהְיֶה לֹא יוּמְתוּ כִּי־לֹא חֻפָּֽשָׁה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 19,
+            "start": 20,
+            "end": 20
+          }
         }
       },
       "raw_quote_source": {
         "en": {
-          "2": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.",
-          "3": "And Sarai Abram's wife took Hagar her maid the Egyptian, after Abram had dwelt ten years in the land of Canaan, and gave her to her husband Abram to be his wife."
+          "1": "Now Sarai Abram's wife bare him no children: and she had an handmaid, an Egyptian, whose name was Hagar.",
+          "2": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai."
         },
         "he": {
-          "2": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי׃",
-          "3": "וַתִּקַּח שָׂרַי אֵֽשֶׁת־אַבְרָם אֶת־הָגָר הַמִּצְרִית שִׁפְחָתָהּ מִקֵּץ עֶשֶׂר שָׁנִים לְשֶׁבֶת אַבְרָם בְּאֶרֶץ כְּנָעַן וַתִּתֵּן אֹתָהּ לְאַבְרָם אִישָׁהּ לוֹ לְאִשָּֽׁה׃"
+          "1": "וְשָׂרַי אֵשֶׁת אַבְרָם לֹא יָלְדָה לוֹ וְלָהּ שִׁפְחָה מִצְרִית וּשְׁמָהּ הָגָֽר",
+          "2": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי"
         }
       },
       "meta": {
-        "reason": "Sarai proposes Hagar to Abram as a means of having a child, a riddle based on her situation and request.",
-        "confidence": 0.95,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "genesis-16-02-02",
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 16,
         "start": 2,
-        "end": 3
+        "end": 2
       }
     },
     {
-      "id": "genesis-16-05-06",
+      "id": "genesis-16-08-10",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 16,
-        "quote_verse_start": 5,
-        "quote_verse_end": 6
+        "quote_verse_start": 8,
+        "quote_verse_end": 10
       },
       "en": {
-        "quote": "And Sarai said unto Abram, My wrong be upon thee: I have given my maid into thy bosom; and when she saw that she had conceived, I was despised in her eyes: the LORD judge between me and thee. But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face.",
-        "riddle": "when she saw that she had conceived, I was despised",
-        "speaker": "Sarai",
-        "listener": "Abram",
+        "quote": "And he said, Hagar, Sarai's maid, whence camest thou? and whither wilt thou go? And she said, I flee from the face of my mistress Sarai. And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands. And the angel of the LORD said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude.",
+        "riddle": "Hagar, Sarai's maid, whence camest thou? and whither wilt thou go?",
+        "speaker": "the LORD",
+        "listener": "Hagar",
         "book": "Genesis",
-        "bonus": "fled",
-        "bonus_hint": {
-          "quote": "Now when Pharaoh heard this thing, he sought to slay Moses. But Moses fled from the face of Pharaoh, and dwelt in the land of Midian: and he sat down by a well.",
-          "source": {
-            "book": "Exodus",
-            "chapter": 2,
-            "start": 15,
-            "end": 15
-          }
-        },
         "options": {
           "speaker": [
-            "Rachel",
-            "Judah",
-            "Abram",
-            "Pharaoh"
-          ],
-          "listener": [
             "Sarai",
-            "Lot",
-            "Tamar",
-            "the king of Sodom"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Isaac",
-            "Esau",
-            "Abimelech",
-            "Israel"
-          ],
-          "listener": [
-            "Shechem",
             "Abraham",
-            "Judah",
-            "Rebekah"
-          ]
-        }
-      },
-      "he": {
-        "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ",
-        "riddle": "וַתֵּרֶא כִּי הָרָתָה וָאֵקַל",
-        "speaker": "שָׂרַי",
-        "listener": "אַבְרָם",
-        "book": "בראשית",
-        "bonus": "בְּעֵינָיִך",
-        "bonus_hint": {
-          "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם אַל־יֵרַע בְּעֵינֶיךָ עַל־הַנַּעַר וְעַל־אֲמָתֶךָ כֹּל אֲשֶׁר תֹּאמַר אֵלֶיךָ שָׂרָה שְׁמַע בְּקֹלָהּ כִּי בְיִצְחָק יִקָּרֵא לְךָ זָֽרַע",
-          "source": {
-            "book": "בראשית",
-            "chapter": 21,
-            "start": 12,
-            "end": 12
-          }
-        },
-        "options": {
-          "speaker": [
-            "רָחֵל",
-            "יְהוּדָה",
-            "אַבְרָם",
-            "פַּרְעֹה"
+            "Abram"
           ],
           "listener": [
-            "שָׂרַי",
-            "לוֹט",
-            "תָּמָר",
-            "מֶלֶךְ סְדֹם"
+            "Tamar",
+            "Israel",
+            "Pharaoh's daughter"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יִצְחָק",
-            "עֵשָׂו",
-            "אֲבִימֶלֶךְ",
-            "יִשְׂרָאֵל"
-          ],
-          "listener": [
-            "שְׁכֶם",
-            "אַבְרָהָם",
-            "יְהוּדָה",
-            "רִבְקָה"
-          ]
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "5": "And Sarai said unto Abram, My wrong be upon thee: I have given my maid into thy bosom; and when she saw that she had conceived, I was despised in her eyes: the LORD judge between me and thee.",
-          "6": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face."
-        },
-        "he": {
-          "5": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ׃",
-          "6": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ׃"
-        }
-      },
-      "meta": {
-        "reason": "direct_speech_interaction",
-        "confidence": 0.95,
-        "bonus_source": "llm",
-        "bonus_retries": 7,
-        "bonus_hint_source": "llm"
-      },
-      "ref": {
-        "chapter": 16,
-        "start": 5,
-        "end": 6
-      }
-    },
-    {
-      "id": "genesis-16-06-06",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 16,
-        "quote_verse_start": 6,
-        "quote_verse_end": 6
-      },
-      "en": {
-        "quote": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face.",
-        "riddle": "Behold, thy maid is in thy hand; do to her",
-        "speaker": "Abram",
-        "listener": "Sarai",
-        "book": "Genesis",
-        "bonus": "fled",
+        "bonus": "multitude",
         "bonus_hint": {
-          "quote": "And the vale of Siddim was full of slimepits; and the kings of Sodom and Gomorrah fled, and fell there; and they that remained fled to the mountain.",
+          "quote": "And his father refused, and said, I know it, my son, I know it: he also shall become a people, and he also shall be great: but truly his younger brother shall be greater than he, and his seed shall become a multitude of nations.",
           "source": {
             "book": "Genesis",
-            "chapter": 14,
-            "start": 10,
-            "end": 10
+            "chapter": 48,
+            "start": 19,
+            "end": 19
           }
-        },
-        "options": {
-          "speaker": [
-            "Sarai",
-            "Pharaoh",
-            "the king of Sodom",
-            "Rachel"
-          ],
-          "listener": [
-            "Lot",
-            "Hagar",
-            "the king of Sodom",
-            "Judah"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the LORD",
-            "Jacob",
-            "Judah",
-            "Joseph"
-          ],
-          "listener": [
-            "Jacob",
-            "Abram",
-            "all the Egyptians",
-            "Tamar"
-          ]
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ",
-        "riddle": "בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ",
-        "speaker": "אַבְרָם",
-        "listener": "שָׂרַי",
+        "quote": "וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַֽחַת וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶֽיהָ וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת־זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹֽב",
+        "riddle": "הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי",
+        "speaker": "יְהוָה",
+        "listener": "הָגָר",
         "book": "בראשית",
-        "bonus": "שִׁפְחָתֵך",
-        "bonus_hint": {
-          "quote": "וְהִנֵּה קָמָה כָֽל־הַמִּשְׁפָּחָה עַל־שִׁפְחָתֶךָ וַיֹּֽאמְרוּ תְּנִי אֶת־מַכֵּה אָחִיו וּנְמִיתֵהוּ בְּנֶפֶשׁ אָחִיו אֲשֶׁר הָרָג וְנַשְׁמִידָה גַּם אֶת־הַיּוֹרֵשׁ וְכִבּוּ אֶת־גַּֽחַלְתִּי אֲשֶׁר נִשְׁאָרָה לְבִלְתִּי שִׂים־לְאִישִׁי שֵׁם וּשְׁאֵרִית עַל־פְּנֵי הָאֲדָמָֽה",
-          "source": {
-            "book": "שמואל ב",
-            "chapter": 14,
-            "start": 7,
-            "end": 7
-          }
-        },
         "options": {
           "speaker": [
             "שָׂרַי",
-            "פַרְעֹה",
-            "מֶלֶךְ סְדֹם",
-            "רָחֵל"
+            "אַבְרָהָם",
+            "אַבְרָם"
           ],
           "listener": [
-            "לוֹט",
-            "הָגָר",
-            "מֶלֶךְ סְדֹם",
-            "יְהוּדָה"
+            "תָמָר",
+            "יִשְׂרָאֵל",
+            "בַּת־פַּרְעֹה"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יְהוָה",
-            "יַעֲקֹב",
-            "יְהוּדָה",
-            "יוֹסֵף"
-          ],
-          "listener": [
-            "יַעֲקֹב",
-            "אַבְרָם",
-            "כָל־מִצְרַיִם",
-            "תָּמָר"
-          ]
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "6": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face."
-        },
-        "he": {
-          "6": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ׃"
-        }
-      },
-      "meta": {
-        "reason": "Abram relinquishes control over Hagar to Sarai, creating a power dynamic ripe for a riddle about obedience and agency.",
-        "confidence": 0.9,
-        "bonus_source": "llm",
-        "bonus_retries": 7,
-        "bonus_hint_source": "llm"
-      },
-      "ref": {
-        "chapter": 16,
-        "start": 6,
-        "end": 6
-      }
-    },
-    {
-      "id": "genesis-16-06-07",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 16,
-        "quote_verse_start": 6,
-        "quote_verse_end": 7
-      },
-      "en": {
-        "quote": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face. And the angel of the LORD found her by a fountain of water in the wilderness, by the fountain in the way to Shur.",
-        "riddle": "Behold, thy maid is in thy hand; do to her",
-        "speaker": "Abram",
-        "listener": "Sarai",
-        "book": "Genesis",
-        "bonus": "fountain",
+        "bonus": "הַרְבָּה",
         "bonus_hint": {
-          "quote": "For with thee is the fountain of life: in thy light shall we see light.",
-          "source": {
-            "book": "Psalms",
-            "chapter": 36,
-            "start": 9,
-            "end": 9
-          }
-        },
-        "options": {
-          "speaker": [
-            "Abraham",
-            "Sarai",
-            "the king of Sodom",
-            "Isaac"
-          ],
-          "listener": [
-            "Abram",
-            "Hagar",
-            "Tamar",
-            "the king of Sodom"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the LORD",
-            "Rachel",
-            "Israel",
-            "Pharaoh"
-          ],
-          "listener": [
-            "Ephron",
-            "Joseph",
-            "Hamor",
-            "Abraham"
-          ]
-        }
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ וַֽיִּמְצָאָהּ מַלְאַךְ יְהוָה עַל־עֵין הַמַּיִם בַּמִּדְבָּר עַל־הָעַיִן בְּדֶרֶךְ שֽׁוּר",
-        "riddle": "בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ",
-        "speaker": "אַבְרָם",
-        "listener": "שָׂרַי",
-        "book": "בראשית",
-        "bonus": "הַמַּיִם",
-        "bonus_hint": {
-          "quote": "וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּֽיִם",
+          "quote": "אֶֽל־הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל־בָּֽךְ",
           "source": {
             "book": "בראשית",
-            "chapter": 1,
-            "start": 2,
-            "end": 2
+            "chapter": 3,
+            "start": 16,
+            "end": 16
           }
-        },
-        "options": {
-          "speaker": [
-            "אַבְרָהָם",
-            "שָׂרַי",
-            "מֶֽלֶךְ־סְדֹם",
-            "יִצְחָק"
-          ],
-          "listener": [
-            "אַבְרָם",
-            "הָגָר",
-            "תָּמָר",
-            "מֶלֶךְ סְדֹם"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יְהוָה",
-            "רָחֵל",
-            "יִשְׂרָאֵל",
-            "פַּרְעֹה"
-          ],
-          "listener": [
-            "עֶפְרוֹן",
-            "יוֹסֵף",
-            "חֲמוֹר",
-            "אַבְרָהָם"
-          ]
         }
       },
       "raw_quote_source": {
         "en": {
-          "6": "But Abram said unto Sarai, Behold, thy maid is in thy hand; do to her as it pleaseth thee. And when Sarai dealt hardly with her, she fled from her face.",
-          "7": "And the angel of the LORD found her by a fountain of water in the wilderness, by the fountain in the way to Shur."
+          "8": "And he said, Hagar, Sarai's maid, whence camest thou? and whither wilt thou go? And she said, I flee from the face of my mistress Sarai.",
+          "9": "And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands.",
+          "10": "And the angel of the LORD said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude."
         },
         "he": {
-          "6": "וַיֹּאמֶר אַבְרָם אֶל־שָׂרַי הִנֵּה שִׁפְחָתֵךְ בְּיָדֵךְ עֲשִׂי־לָהּ הַטּוֹב בְּעֵינָיִךְ וַתְּעַנֶּהָ שָׂרַי וַתִּבְרַח מִפָּנֶֽיהָ׃",
-          "7": "וַֽיִּמְצָאָהּ מַלְאַךְ יְהוָה עַל־עֵין הַמַּיִם בַּמִּדְבָּר עַל־הָעַיִן בְּדֶרֶךְ שֽׁוּר׃"
+          "8": "וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַֽחַת׃",
+          "9": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶֽיהָ׃",
+          "10": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת־זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹֽב׃"
         }
       },
       "meta": {
-        "reason": "Abram relinquishes control of Hagar to Sarai, creating a power dynamic ripe for a riddle about submission and agency.",
-        "confidence": 0.9,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 0,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 16,
-        "start": 6,
-        "end": 7
+        "start": 8,
+        "end": 10
       }
     }
   ]

@@ -1,0 +1,103 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 29,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-29-10-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 10,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And it came to pass, when Jacob saw Rachel the daughter of Laban his mother's brother, and the sheep of Laban his mother's brother, that Jacob went near, and rolled the stone from the well's mouth, and watered the flock of Laban his mother's brother. And Jacob kissed Rachel, and lifted up his voice, and wept. And Jacob told Rachel that he was her father's brother, and that he was Rebekah's son: and she ran and told her father.",
+        "riddle": "And Jacob told Rachel that he was her father's brother, and that he was Rebekah's son",
+        "speaker": "Jacob",
+        "listener": "Rachel",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Laban",
+            "Esau",
+            "Judah"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "the maid"
+          ]
+        },
+        "bonus": "stone",
+        "bonus_hint": {
+          "quote": "But his bow abode in strength, and the arms of his hands were made strong by the hands of the mighty God of Jacob; (from thence is the shepherd, the stone of Israel:)",
+          "source": {
+            "book": "Genesis",
+            "chapter": 49,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר רָאָה יַעֲקֹב אֶת־רָחֵל בַּת־לָבָן אֲחִי אִמּוֹ וְאֶת־צֹאן לָבָן אֲחִי אִמּוֹ וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וַיַּשְׁקְ אֶת־צֹאן לָבָן אֲחִי אִמּֽוֹ וַיִּשַּׁק יַעֲקֹב לְרָחֵל וַיִּשָּׂא אֶת־קֹלוֹ וַיֵּֽבְךְּ וַיַּגֵּד יַעֲקֹב לְרָחֵל כִּי אֲחִי אָבִיהָ הוּא וְכִי בֶן־רִבְקָה הוּא וַתָּרָץ וַתַּגֵּד לְאָבִֽיהָ",
+        "riddle": "וַיַּגֵּד יַעֲקֹב לְרָחֵל כִּי אֲחִי אָבִיהָ הוּא וְכִי בֶן־רִבְקָה הוּא",
+        "speaker": "יַעֲקֹב",
+        "listener": "רָחֵל",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "לָבָן",
+            "עֵשָׂו",
+            "יְהוּדָה"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "הָֽעַלְמָה"
+          ]
+        },
+        "bonus": "הָאֶבֶן",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח דָּוִד אֶת־יָדוֹ אֶל־הַכֶּלִי וַיִּקַּח מִשָּׁם אֶבֶן וַיְקַלַּע וַיַּךְ אֶת־הַפְּלִשְׁתִּי אֶל־מִצְחוֹ וַתִּטְבַּע הָאֶבֶן בְּמִצְחוֹ וַיִּפֹּל עַל־פָּנָיו אָֽרְצָה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 49,
+            "end": 49
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And it came to pass, when Jacob saw Rachel the daughter of Laban his mother's brother, and the sheep of Laban his mother's brother, that Jacob went near, and rolled the stone from the well's mouth, and watered the flock of Laban his mother's brother.",
+          "11": "And Jacob kissed Rachel, and lifted up his voice, and wept.",
+          "12": "And Jacob told Rachel that he was her father's brother, and that he was Rebekah's son: and she ran and told her father."
+        },
+        "he": {
+          "10": "וַיְהִי כַּאֲשֶׁר רָאָה יַעֲקֹב אֶת־רָחֵל בַּת־לָבָן אֲחִי אִמּוֹ וְאֶת־צֹאן לָבָן אֲחִי אִמּוֹ וַיִּגַּשׁ יַעֲקֹב וַיָּגֶל אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וַיַּשְׁקְ אֶת־צֹאן לָבָן אֲחִי אִמּֽוֹ",
+          "11": "וַיִּשַּׁק יַעֲקֹב לְרָחֵל וַיִּשָּׂא אֶת־קֹלוֹ וַיֵּֽבְךְּ",
+          "12": "וַיַּגֵּד יַעֲקֹב לְרָחֵל כִּי אֲחִי אָבִיהָ הוּא וְכִי בֶן־רִבְקָה הוּא וַתָּרָץ וַתַּגֵּד לְאָבִֽיהָ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "genesis-29-11-12",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 11,
+        "end": 12
+      }
+    }
+  ]
+}

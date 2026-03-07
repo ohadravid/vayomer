@@ -1,0 +1,101 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 22,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-22-04-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Then on the third day Abraham lifted up his eyes, and saw the place afar off. And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,",
+        "riddle": "Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you",
+        "speaker": "Abraham",
+        "listener": "his young men",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Sarah",
+            "the LORD",
+            "his father"
+          ],
+          "listener": [
+            "his sons in law",
+            "the people of Israel",
+            "the congregation"
+          ]
+        },
+        "bonus": "place",
+        "bonus_hint": {
+          "quote": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "בַּיּוֹם הַשְּׁלִישִׁי וַיִּשָּׂא אַבְרָהָם אֶת־עֵינָיו וַיַּרְא אֶת־הַמָּקוֹם מֵרָחֹֽק וַיֹּאמֶר אַבְרָהָם אֶל־נְעָרָיו שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם",
+        "riddle": "שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם",
+        "speaker": "אַבְרָהָם",
+        "listener": "נְעָרָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "שָׂרָה",
+            "יְהוָה",
+            "אָבִיו"
+          ],
+          "listener": [
+            "חֲתָנָיו",
+            "בְּנֵי יִשְׂרָאֵל",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "הַמָּקוֹם",
+        "bonus_hint": {
+          "quote": "וַיִּירָא וַיֹּאמַר מַה־נּוֹרָא הַמָּקוֹם הַזֶּה אֵין זֶה כִּי אִם־בֵּית אֱלֹהִים וְזֶה שַׁעַר הַשָּׁמָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 28,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then on the third day Abraham lifted up his eyes, and saw the place afar off.",
+          "5": "And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,"
+        },
+        "he": {
+          "4": "בַּיּוֹם הַשְּׁלִישִׁי וַיִּשָּׂא אַבְרָהָם אֶת־עֵינָיו וַיַּרְא אֶת־הַמָּקוֹם מֵרָחֹֽק",
+          "5": "וַיֹּאמֶר אַבְרָהָם אֶל־נְעָרָיו שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "genesis-22-05-05",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ]
+}

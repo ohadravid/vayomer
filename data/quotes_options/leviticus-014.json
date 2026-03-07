@@ -1,0 +1,105 @@
+{
+  "book_code": "LEV",
+  "book": "Leviticus",
+  "book_he": "ויקרא",
+  "chapter": 14,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "leviticus-14-01-04",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 14,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest: And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper; Then shall the priest command to take for him that is to be cleansed two birds alive and clean, and cedar wood, and scarlet, and hyssop:",
+        "riddle": "This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Leviticus",
+        "options": {
+          "speaker": [
+            "Aaron",
+            "Isaac",
+            "Laban"
+          ],
+          "listener": [
+            "Pharaoh's daughter",
+            "steward",
+            "the Hebrew midwives"
+          ]
+        },
+        "bonus": "scarlet",
+        "bonus_hint": {
+          "quote": "And it came to pass, when she travailed, that the one put out his hand: and the midwife took and bound upon his hand a scarlet thread, saying, This came out first,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 38,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר זֹאת תִּֽהְיֶה תּוֹרַת הַמְּצֹרָע בְּיוֹם טָהֳרָתוֹ וְהוּבָא אֶל־הַכֹּהֵֽן וְיָצָא הַכֹּהֵן אֶל־מִחוּץ לַֽמַּחֲנֶה וְרָאָה הַכֹּהֵן וְהִנֵּה נִרְפָּא נֶֽגַע־הַצָּרַעַת מִן־הַצָּרֽוּעַ וְצִוָּה הַכֹּהֵן וְלָקַח לַמִּטַּהֵר שְׁתֵּֽי־צִפֳּרִים חַיּוֹת טְהֹרוֹת וְעֵץ אֶרֶז וּשְׁנִי תוֹלַעַת וְאֵזֹֽב",
+        "riddle": "זֹאת תִּֽהְיֶה תּוֹרַת הַמְּצֹרָע בְּיוֹם טָהֳרָתוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "ויקרא",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן",
+            "יִצְחָק",
+            "לָבָן"
+          ],
+          "listener": [
+            "בַּת־פַּרְעֹה",
+            "אֲשֶׁר",
+            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת"
+          ]
+        },
+        "bonus": "וּשְׁנִי",
+        "bonus_hint": {
+          "quote": "וְלָקַח הַכֹּהֵן עֵץ אֶרֶז וְאֵזוֹב וּשְׁנִי תוֹלָעַת וְהִשְׁלִיךְ אֶל־תּוֹךְ שְׂרֵפַת הַפָּרָֽה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 19,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "This shall be the law of the leper in the day of his cleansing: He shall be brought unto the priest:",
+          "3": "And the priest shall go forth out of the camp; and the priest shall look, and, behold, if the plague of leprosy be healed in the leper;",
+          "4": "Then shall the priest command to take for him that is to be cleansed two birds alive and clean, and cedar wood, and scarlet, and hyssop:"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר",
+          "2": "זֹאת תִּֽהְיֶה תּוֹרַת הַמְּצֹרָע בְּיוֹם טָהֳרָתוֹ וְהוּבָא אֶל־הַכֹּהֵֽן",
+          "3": "וְיָצָא הַכֹּהֵן אֶל־מִחוּץ לַֽמַּחֲנֶה וְרָאָה הַכֹּהֵן וְהִנֵּה נִרְפָּא נֶֽגַע־הַצָּרַעַת מִן־הַצָּרֽוּעַ",
+          "4": "וְצִוָּה הַכֹּהֵן וְלָקַח לַמִּטַּהֵר שְׁתֵּֽי־צִפֳּרִים חַיּוֹת טְהֹרוֹת וְעֵץ אֶרֶז וּשְׁנִי תוֹלַעַת וְאֵזֹֽב"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "leviticus-14-01-03",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 1,
+        "end": 3
+      }
+    }
+  ]
+}

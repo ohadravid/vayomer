@@ -3,8 +3,7 @@
   "book": "Genesis",
   "book_he": "בראשית",
   "chapter": 4,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
       "id": "genesis-04-06-07",
@@ -22,6 +21,18 @@
         "speaker": "the LORD",
         "listener": "Cain",
         "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Aaron",
+            "Esau"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "the maid"
+          ]
+        },
         "bonus": "sin",
         "bonus_hint": {
           "quote": "And they took their journey from Elim, and all the congregation of the children of Israel came unto the wilderness of Sin, which is between Elim and Sinai, on the fifteenth day of the second month after their departing out of the land of Egypt.",
@@ -31,42 +42,26 @@
             "start": 1,
             "end": 1
           }
-        },
-        "options": {
-          "speaker": [
-            "the king of Sodom",
-            "Isaac",
-            "Laban",
-            "Abram"
-          ],
-          "listener": [
-            "the king of Sodom",
-            "Lot",
-            "Isaac",
-            "Hagar"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Joseph",
-            "Jacob",
-            "Esau",
-            "Abimelech"
-          ],
-          "listener": [
-            "Jacob",
-            "Abraham",
-            "Tamar",
-            "Sarai"
-          ]
         }
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
         "riddle": "לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ",
         "speaker": "יְהוָה",
-        "listener": "־קָיִן",
+        "listener": "קָיִן",
         "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "אַהֲרֹן",
+            "עֵשָׂו"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "הָֽעַלְמָה"
+          ]
+        },
         "bonus": "חַטָּאת",
         "bonus_hint": {
           "quote": "וַיְדַבֵּר אַהֲרֹן אֶל־מֹשֶׁה הֵן הַיּוֹם הִקְרִיבוּ אֶת־חַטָּאתָם וְאֶת־עֹֽלָתָם לִפְנֵי יְהוָה וַתִּקְרֶאנָה אֹתִי כָּאֵלֶּה וְאָכַלְתִּי חַטָּאת הַיּוֹם הַיִּיטַב בְּעֵינֵי יְהוָֽה",
@@ -76,34 +71,6 @@
             "start": 19,
             "end": 19
           }
-        },
-        "options": {
-          "speaker": [
-            "מֶֽלֶךְ־סְדֹם",
-            "יִצְחָק",
-            "לָבָן",
-            "אַבְרָם"
-          ],
-          "listener": [
-            "מֶלֶךְ סְדֹם",
-            "לוֹט",
-            "יִצְחָק",
-            "הָגָר"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יוֹסֵף",
-            "יַעֲקֹב",
-            "עֵשָׂו",
-            "אֲבִימֶלֶךְ"
-          ],
-          "listener": [
-            "יַעֲקֹב",
-            "אַבְרָהָם",
-            "תָּמָר",
-            "שָׂרַי"
-          ]
         }
       },
       "raw_quote_source": {
@@ -112,21 +79,114 @@
           "7": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him."
         },
         "he": {
-          "6": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ׃",
-          "7": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ׃"
+          "6": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ",
+          "7": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ"
         }
       },
       "meta": {
-        "reason": "The riddle is a direct quote from the provided English verses and aligns with the Hebrew riddle in meaning and context. Speaker and listener are clearly identified in both languages.",
-        "confidence": null,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-04-06-06",
         "bonus_source": "llm",
-        "bonus_retries": 0,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 4,
         "start": 6,
-        "end": 7
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-04-09-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper? And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground.",
+        "riddle": "Where is Abel thy brother?",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jethro",
+            "Esau",
+            "Sarah"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "the maid"
+          ]
+        },
+        "bonus": "blood",
+        "bonus_hint": {
+          "quote": "Whoso sheddeth man's blood, by man shall his blood be shed: for in the image of God made he man.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 9,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה",
+        "riddle": "אֵי הֶבֶל אָחִיךָ",
+        "speaker": "יְהוָה",
+        "listener": "קַיִן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִתְרוֹ",
+            "עֵשָׂו",
+            "שָׂרָה"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "הָֽעַלְמָה"
+          ]
+        },
+        "bonus": "דְּמֵי",
+        "bonus_hint": {
+          "quote": "הֵשִׁיב עָלֶיךָ יְהוָה כֹּל דְּמֵי בֵית־שָׁאוּל אֲשֶׁר מָלַכְתָּ תַּחְתָּיו וַיִּתֵּן יְהוָה אֶת־הַמְּלוּכָה בְּיַד אַבְשָׁלוֹם בְּנֶךָ וְהִנְּךָ בְּרָעָתֶךָ כִּי אִישׁ דָּמִים אָֽתָּה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 16,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+          "10": "And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+          "10": "וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-04-09-09",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 9,
+        "end": 9
       }
     }
   ]

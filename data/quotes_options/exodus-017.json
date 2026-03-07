@@ -3,130 +3,190 @@
   "book": "Exodus",
   "book_he": "שמות",
   "chapter": 17,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "exodus-17-04-05",
+      "id": "exodus-17-04-06",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 17,
         "quote_verse_start": 4,
-        "quote_verse_end": 5
+        "quote_verse_end": 6
       },
       "en": {
-        "quote": "And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me. And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.",
+        "quote": "And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me. And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go. Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel.",
         "riddle": "What shall I do unto this people?",
         "speaker": "Moses",
         "listener": "the LORD",
         "book": "Exodus",
-        "bonus": "river",
-        "bonus_hint": {
-          "quote": "In the same day the LORD made a covenant with Abram, saying, Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates:",
-          "source": {
-            "book": "Genesis",
-            "chapter": 15,
-            "start": 18,
-            "end": 18
-          }
-        },
         "options": {
           "speaker": [
-            "Moses' father in law",
-            "the LORD",
-            "Jethro",
-            "Pharaoh"
+            "Aaron",
+            "Moses and Aaron",
+            "Joseph"
           ],
           "listener": [
-            "children of Israel",
-            "Moses",
-            "Aaron",
-            "Pharaoh"
+            "the congregation",
+            "the people of Israel",
+            "his sons"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Moses and Aaron",
-            "Pharaoh's servants",
-            "the midwives",
-            "Reuel"
-          ],
-          "listener": [
-            "the midwives",
-            "Moses and Aaron",
-            "the Hebrew midwives",
-            "elders of Israel"
-          ]
+        "bonus": "Horeb",
+        "bonus_hint": {
+          "quote": "Now Moses kept the flock of Jethro his father in law, the priest of Midian: and he led the flock to the backside of the desert, and came to the mountain of God, even to Horeb.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
         }
       },
       "he": {
-        "quote": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר מָה אֶעֱשֶׂה לָעָם הַזֶּה עוֹד מְעַט וּסְקָלֻֽנִי וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ",
+        "quote": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר מָה אֶעֱשֶׂה לָעָם הַזֶּה עוֹד מְעַט וּסְקָלֻֽנִי וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ הִנְנִי עֹמֵד לְפָנֶיךָ שָּׁם עַֽל־הַצּוּר בְּחֹרֵב וְהִכִּיתָ בַצּוּר וְיָצְאוּ מִמֶּנּוּ מַיִם וְשָׁתָה הָעָם וַיַּעַשׂ כֵּן מֹשֶׁה לְעֵינֵי זִקְנֵי יִשְׂרָאֵֽל",
         "riddle": "מָה אֶעֱשֶׂה לָעָם הַזֶּה",
         "speaker": "מֹשֶׁה",
         "listener": "־יְהוָה",
         "book": "שמות",
-        "bonus": "אִתְּך",
-        "bonus_hint": {
-          "quote": "וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתָּךְ וּבָאתָ אֶל־הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
-          "source": {
-            "book": "בראשית",
-            "chapter": 6,
-            "start": 18,
-            "end": 18
-          }
-        },
         "options": {
           "speaker": [
-            "חֹתְנוֹ",
-            "יְהוָה",
-            "יִתְרוֹ",
-            "פַּרְעֹה"
+            "אַהֲרֹן",
+            "מֹשֶׁה וְאַהֲרֹן",
+            "יוֹסֵף"
           ],
           "listener": [
+            "הָעֵדָה",
             "בְּנֵי יִשְׂרָאֵל",
-            "מֹשֶׁה",
-            "אַהֲרֹן",
-            "פַּרְעֹה"
+            "בָּנָיו"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "מֹשֶׁה וְאַהֲרֹן",
-            "עַבְדֵי פַרְעֹה",
-            "הַֽמְיַלְּדֹת",
-            "רְעוּאֵל"
-          ],
-          "listener": [
-            "הַֽמְיַלְּדֹת",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת",
-            "זִקְנֵי יִשְׂרָאֵל"
-          ]
+        "bonus": "בְּחֹרֵב",
+        "bonus_hint": {
+          "quote": "יַעֲשׂוּ־עֵגֶל בְּחֹרֵב וַיִּשְׁתַּחֲווּ לְמַסֵּכָֽה",
+          "source": {
+            "book": "תהילים",
+            "chapter": 106,
+            "start": 19,
+            "end": 19
+          }
         }
       },
       "raw_quote_source": {
         "en": {
           "4": "And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me.",
-          "5": "And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go."
+          "5": "And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.",
+          "6": "Behold, I will stand before thee there upon the rock in Horeb; and thou shalt smite the rock, and there shall come water out of it, that the people may drink. And Moses did so in the sight of the elders of Israel."
         },
         "he": {
           "4": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר מָה אֶעֱשֶׂה לָעָם הַזֶּה עוֹד מְעַט וּסְקָלֻֽנִי׃",
-          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ׃"
+          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ׃",
+          "6": "הִנְנִי עֹמֵד לְפָנֶיךָ שָּׁם ׀ עַֽל־הַצּוּר בְּחֹרֵב וְהִכִּיתָ בַצּוּר וְיָצְאוּ מִמֶּנּוּ מַיִם וְשָׁתָה הָעָם וַיַּעַשׂ כֵּן מֹשֶׁה לְעֵינֵי זִקְנֵי יִשְׂרָאֵֽל׃"
         }
       },
       "meta": {
-        "reason": "This interaction clearly shows Moses speaking to the Lord in distress, and the Lord responding with instructions. The riddle focuses on the core action and object from verse 5 (taking elders and the rod).",
-        "confidence": 0.95,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 17,
         "start": 4,
-        "end": 5
+        "end": 6
+      }
+    },
+    {
+      "id": "exodus-17-13-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And Joshua discomfited Amalek and his people with the edge of the sword. And the LORD said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven.",
+        "riddle": "Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Jacob",
+            "Joseph"
+          ],
+          "listener": [
+            "the people of Israel",
+            "sons of Jacob",
+            "Sarah"
+          ]
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "So he drove out the man; and he placed at the east of the garden of Eden Cherubims, and a flaming sword which turned every way, to keep the way of the tree of life.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּחֲלֹשׁ יְהוֹשֻׁעַ אֶת־עֲמָלֵק וְאֶת־עַמּוֹ לְפִי־חָֽרֶב וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם",
+        "riddle": "כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יַעֲקֹב",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "חָֽרֶב",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב מֶה עָשִׂיתָ וַתִּגְנֹב אֶת־לְבָבִי וַתְּנַהֵג אֶת־בְּנֹתַי כִּשְׁבֻיוֹת חָֽרֶב",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Joshua discomfited Amalek and his people with the edge of the sword.",
+          "14": "And the LORD said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven."
+        },
+        "he": {
+          "13": "וַיַּחֲלֹשׁ יְהוֹשֻׁעַ אֶת־עֲמָלֵק וְאֶת־עַמּוֹ לְפִי־חָֽרֶב",
+          "14": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "exodus-17-14-14",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 14,
+        "end": 14
       }
     }
   ]

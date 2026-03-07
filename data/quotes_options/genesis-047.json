@@ -1,0 +1,281 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 47,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "genesis-47-03-03",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.",
+        "riddle": "What is your occupation?",
+        "speaker": "Pharaoh",
+        "listener": "his brethren",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "the king of Egypt",
+            "Abraham",
+            "Joseph"
+          ],
+          "listener": [
+            "Israelites",
+            "children of Israel",
+            "the congregation"
+          ]
+        },
+        "bonus": "shepherds",
+        "bonus_hint": {
+          "quote": "For thus hath the LORD spoken unto me, Like as the lion and the young lion roaring on his prey, when a multitude of shepherds is called forth against him, he will not be afraid of their voice, nor abase himself for the noise of them: so shall the LORD of hosts come down to fight for mount Zion, and for the hill thereof.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 31,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ",
+        "riddle": "מַה־מַּעֲשֵׂיכֶם",
+        "speaker": "פַּרְעֹה",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "מֶלֶך מִצְרַיִם",
+            "אַבְרָהָם",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יִשְׂרָאֵל",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "רֹעֵה",
+        "bonus_hint": {
+          "quote": "רֹעֵה יִשְׂרָאֵל הַאֲזִינָה נֹהֵג כַּצֹּאן יוֹסֵף יֹשֵׁב הַכְּרוּבִים הוֹפִֽיעָה",
+          "source": {
+            "book": "תהילים",
+            "chapter": 80,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-47-08-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Jacob, How old art thou? And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage.",
+        "riddle": "How old art thou?",
+        "speaker": "Pharaoh",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "the king of Egypt",
+            "Jacob",
+            "Shechem"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Joseph's sons"
+          ]
+        },
+        "bonus": "thirty",
+        "bonus_hint": {
+          "quote": "And this is the fashion which thou shalt make it of: The length of the ark shall be three hundred cubits, the breadth of it fifty cubits, and the height of it thirty cubits.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶֽל־יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶֽם",
+        "riddle": "כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "מֶלֶך מִצְרַיִם",
+            "יַעֲקֹב",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "בְּנֵי יוֹסֵף"
+          ]
+        },
+        "bonus": "שְׁלֹשִׁים",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אַל־נָא יִחַר לַֽאדֹנָי וַאֲדַבֵּרָה אוּלַי יִמָּצְאוּן שָׁם שְׁלֹשִׁים וַיֹּאמֶר לֹא אֶֽעֱשֶׂה אִם־אֶמְצָא שָׁם שְׁלֹשִֽׁים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Pharaoh said unto Jacob, How old art thou?",
+          "9": "And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר פַּרְעֹה אֶֽל־יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ",
+          "9": "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶֽם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-47-08-08",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-47-10-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "And Jacob blessed Pharaoh, and went out from before Pharaoh. And Joseph placed his father and his brethren, and gave them a possession in the land of Egypt, in the best of the land, in the land of Rameses, as Pharaoh had commanded.",
+        "riddle": "And Jacob blessed Pharaoh",
+        "speaker": "Jacob",
+        "listener": "Pharaoh",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Joseph",
+            "Abram"
+          ],
+          "listener": [
+            "brethren",
+            "Sarah",
+            "chief butler"
+          ]
+        },
+        "bonus": "possession",
+        "bonus_hint": {
+          "quote": "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession; and I will be their God.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְבָרֶךְ יַעֲקֹב אֶת־פַּרְעֹה וַיֵּצֵא מִלִּפְנֵי פַרְעֹֽה וַיּוֹשֵׁב יוֹסֵף אֶת־אָבִיו וְאֶת־אֶחָיו וַיִּתֵּן לָהֶם אֲחֻזָּה בְּאֶרֶץ מִצְרַיִם בְּמֵיטַב הָאָרֶץ בְּאֶרֶץ רַעְמְסֵס כַּאֲשֶׁר צִוָּה פַרְעֹֽה",
+        "riddle": "וַיְבָרֶךְ יַעֲקֹב אֶת־פַּרְעֹה",
+        "speaker": "יַעֲקֹב",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "יוֹסֵף",
+            "אַבְרָם"
+          ],
+          "listener": [
+            "אֶחָיו",
+            "שָׂרָה",
+            "שַׂר־הַמַּשְׁקִים"
+          ]
+        },
+        "bonus": "אֲחֻזָּה",
+        "bonus_hint": {
+          "quote": "לָמָּה יִגָּרַע שֵׁם־אָבִינוּ מִתּוֹךְ מִשְׁפַּחְתּוֹ כִּי אֵין לוֹ בֵּן תְּנָה־לָּנוּ אֲחֻזָּה בְּתוֹךְ אֲחֵי אָבִֽינוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 27,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Jacob blessed Pharaoh, and went out from before Pharaoh.",
+          "11": "And Joseph placed his father and his brethren, and gave them a possession in the land of Egypt, in the best of the land, in the land of Rameses, as Pharaoh had commanded."
+        },
+        "he": {
+          "10": "וַיְבָרֶךְ יַעֲקֹב אֶת־פַּרְעֹה וַיֵּצֵא מִלִּפְנֵי פַרְעֹֽה",
+          "11": "וַיּוֹשֵׁב יוֹסֵף אֶת־אָבִיו וְאֶת־אֶחָיו וַיִּתֵּן לָהֶם אֲחֻזָּה בְּאֶרֶץ מִצְרַיִם בְּמֵיטַב הָאָרֶץ בְּאֶרֶץ רַעְמְסֵס כַּאֲשֶׁר צִוָּה פַרְעֹֽה"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "genesis-47-10-10",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 10,
+        "end": 10
+      }
+    }
+  ]
+}

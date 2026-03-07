@@ -3,366 +3,294 @@
   "book": "Exodus",
   "book_he": "שמות",
   "chapter": 18,
-  "mode": "end2end",
-  "first_k_verses": 0,
+  "mode": "rebuild_v2_options",
   "items": [
     {
-      "id": "exodus-18-06-06",
+      "id": "exodus-18-01-03",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 18,
-        "quote_verse_start": 6,
-        "quote_verse_end": 6
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
       },
       "en": {
-        "quote": "And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her.",
-        "riddle": "am come unto thee, and thy wife, and her two",
+        "quote": "When Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the LORD had brought Israel out of Egypt; Then Jethro, Moses' father in law, took Zipporah, Moses' wife, after he had sent her back, And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land:",
+        "riddle": "I have been an alien in a strange land:",
         "speaker": "Jethro",
         "listener": "Moses",
         "book": "Exodus",
-        "bonus": "sons",
-        "bonus_hint": {
-          "quote": "That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose.",
-          "source": {
-            "book": "Genesis",
-            "chapter": 6,
-            "start": 2,
-            "end": 2
-          }
-        },
         "options": {
           "speaker": [
-            "Moses' father in law",
-            "Moses and Aaron",
-            "Reuel",
-            "the midwives"
+            "Moses",
+            "Pharaoh",
+            "Abraham"
           ],
           "listener": [
-            "Aaron",
-            "Moses and Aaron",
-            "elders of Israel",
-            "Pharaoh"
+            "Sarah",
+            "Leah",
+            "Tamar"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the LORD",
-            "Pharaoh",
-            "Pharaoh's servants",
-            "the servant"
-          ],
-          "listener": [
-            "Pharaoh's daughter",
-            "the LORD",
-            "children of Israel",
-            "the Hebrew midwives"
-          ]
+        "bonus": "priest",
+        "bonus_hint": {
+          "quote": "And Melchizedek king of Salem brought forth bread and wine: and he was the priest of the most high God.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 18,
+            "end": 18
+          }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר אֶל־מֹשֶׁה אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽהּ",
-        "riddle": "בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽה",
+        "quote": "וַיִּשְׁמַע יִתְרוֹ כֹהֵן מִדְיָן חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר עָשָׂה אֱלֹהִים לְמֹשֶׁה וּלְיִשְׂרָאֵל עַמּוֹ כִּֽי־הוֹצִיא יְהוָה אֶת־יִשְׂרָאֵל מִמִּצְרָֽיִם וַיִּקַּח יִתְרוֹ חֹתֵן מֹשֶׁה אֶת־צִפֹּרָה אֵשֶׁת מֹשֶׁה אַחַר שִׁלּוּחֶֽיהָ וְאֵת שְׁנֵי בָנֶיהָ אֲשֶׁר שֵׁם הָֽאֶחָד גֵּֽרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה",
+        "riddle": "כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה",
         "speaker": "יִתְרוֹ",
-        "listener": "־מֹשֶׁה",
+        "listener": "מֹשֶׁה",
         "book": "שמות",
-        "bonus": "חֹתֶנְך",
-        "bonus_hint": null,
         "options": {
           "speaker": [
-            "חֹתְנוֹ",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "רְעוּאֵל",
-            "הַֽמְיַלְּדֹת"
+            "מֹשֶׁה",
+            "פַּרְעֹה",
+            "אַבְרָהָם"
           ],
           "listener": [
-            "אַהֲרֹן",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "זִקְנֵי יִשְׂרָאֵל",
-            "פַּרְעֹה"
+            "שָׂרָה",
+            "לֵאָה",
+            "תָמָר"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יְהוָה",
-            "פַּרְעֹה",
-            "עַבְדֵי פַרְעֹה",
-            "הָעֶבֶד"
-          ],
-          "listener": [
-            "בַּת־פַּרְעֹה",
-            "יְהוָה",
-            "בְּנֵי יִשְׂרָאֵל",
-            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת"
-          ]
+        "bonus": "כֹהֵן",
+        "bonus_hint": {
+          "quote": "וּמַלְכִּי־צֶדֶק מֶלֶךְ שָׁלֵם הוֹצִיא לֶחֶם וָיָיִן וְהוּא כֹהֵן לְאֵל עֶלְיֽוֹן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 14,
+            "start": 18,
+            "end": 18
+          }
         }
       },
       "raw_quote_source": {
         "en": {
-          "6": "And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her."
+          "1": "When Jethro, the priest of Midian, Moses' father in law, heard of all that God had done for Moses, and for Israel his people, and that the LORD had brought Israel out of Egypt;",
+          "2": "Then Jethro, Moses' father in law, took Zipporah, Moses' wife, after he had sent her back,",
+          "3": "And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land:"
         },
         "he": {
-          "6": "וַיֹּאמֶר אֶל־מֹשֶׁה אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽהּ׃"
+          "1": "וַיִּשְׁמַע יִתְרוֹ כֹהֵן מִדְיָן חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר עָשָׂה אֱלֹהִים לְמֹשֶׁה וּלְיִשְׂרָאֵל עַמּוֹ כִּֽי־הוֹצִיא יְהוָה אֶת־יִשְׂרָאֵל מִמִּצְרָֽיִם׃",
+          "2": "וַיִּקַּח יִתְרוֹ חֹתֵן מֹשֶׁה אֶת־צִפֹּרָה אֵשֶׁת מֹשֶׁה אַחַר שִׁלּוּחֶֽיהָ׃",
+          "3": "וְאֵת שְׁנֵי בָנֶיהָ אֲשֶׁר שֵׁם הָֽאֶחָד גֵּֽרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה׃"
         }
       },
       "meta": {
-        "reason": "Jethro directly addresses Moses, stating his identity and arrival with his family. The riddle focuses on these key details.",
-        "confidence": 0.95,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,
-        "start": 6,
-        "end": 6
+        "start": 1,
+        "end": 3
       }
     },
     {
-      "id": "exodus-18-14-15",
+      "id": "exodus-18-07-10",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 18,
-        "quote_verse_start": 14,
-        "quote_verse_end": 15
+        "quote_verse_start": 7,
+        "quote_verse_end": 10
       },
       "en": {
-        "quote": "And when Moses' father in law saw all that he did to the people, he said, What is this thing that thou doest to the people? why sittest thou thyself alone, and all the people stand by thee from morning unto even? And Moses said unto his father in law, Because the people come unto me to inquire of God:",
-        "riddle": "What is this thing that thou doest to the people?",
-        "speaker": "Moses' father in law",
+        "quote": "And Moses went out to meet his father in law, and did obeisance, and kissed him; and they asked each other of their welfare; and they came into the tent. And Moses told his father in law all that the LORD had done unto Pharaoh and to the Egyptians for Israel's sake, and all the travail that had come upon them by the way, and how the LORD delivered them. And Jethro rejoiced for all the goodness which the LORD had done to Israel, whom he had delivered out of the hand of the Egyptians. And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians.",
+        "riddle": "Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians.",
+        "speaker": "Jethro",
         "listener": "Moses",
         "book": "Exodus",
-        "bonus": "why",
-        "bonus_hint": {
-          "quote": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
-          "source": {
-            "book": "Genesis",
-            "chapter": 4,
-            "start": 6,
-            "end": 6
-          }
-        },
         "options": {
           "speaker": [
-            "Jethro",
-            "Reuel",
             "Moses",
-            "Moses and Aaron"
+            "Abraham",
+            "king of Egypt"
           ],
           "listener": [
-            "elders of Israel",
-            "Pharaoh",
-            "Moses and Aaron",
-            "Pharaoh's daughter"
+            "Sarah",
+            "Tamar",
+            "the maid"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "the LORD",
-            "Pharaoh",
-            "Pharaoh's servants",
-            "the midwives"
-          ],
-          "listener": [
-            "the LORD",
-            "children of Israel",
-            "the midwives",
-            "Aaron"
-          ]
+        "bonus": "Israel",
+        "bonus_hint": {
+          "quote": "And he said, Thy name shall be called no more Jacob, but Israel: for as a prince hast thou power with God and with men, and hast prevailed.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 32,
+            "start": 28,
+            "end": 28
+          }
         }
       },
       "he": {
-        "quote": "וַיַּרְא חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר־הוּא עֹשֶׂה לָעָם וַיֹּאמֶר מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה לָעָם מַדּוּעַ אַתָּה יוֹשֵׁב לְבַדֶּךָ וְכָל־הָעָם נִצָּב עָלֶיךָ מִן־בֹּקֶר עַד־עָֽרֶב וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים",
-        "riddle": "מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה",
-        "speaker": "חֹתְנוֹ",
+        "quote": "וַיֵּצֵא מֹשֶׁה לִקְרַאת חֹֽתְנוֹ וַיִּשְׁתַּחוּ וַיִּשַּׁק־לוֹ וַיִּשְׁאֲלוּ אִישׁ־לְרֵעֵהוּ לְשָׁלוֹם וַיָּבֹאוּ הָאֹֽהֱלָה וַיְסַפֵּר מֹשֶׁה לְחֹתְנוֹ אֵת כָּל־אֲשֶׁר עָשָׂה יְהוָה לְפַרְעֹה וּלְמִצְרַיִם עַל אוֹדֹת יִשְׂרָאֵל אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָתַם בַּדֶּרֶךְ וַיַּצִּלֵם יְהוָֽה וַיִּחַדְּ יִתְרוֹ עַל כָּל־הַטּוֹבָה אֲשֶׁר־עָשָׂה יְהוָה לְיִשְׂרָאֵל אֲשֶׁר הִצִּילוֹ מִיַּד מִצְרָֽיִם וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם",
+        "riddle": "בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם",
+        "speaker": "יִתְרוֹ",
         "listener": "מֹשֶׁה",
         "book": "שמות",
-        "bonus": "עָלֶיך",
-        "bonus_hint": {
-          "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ",
-          "source": {
-            "book": "בראשית",
-            "chapter": 16,
-            "start": 5,
-            "end": 5
-          }
-        },
         "options": {
           "speaker": [
-            "יִתְרוֹ",
-            "רְעוּאֵל",
             "מֹשֶׁה",
-            "מֹשֶׁה וְאַהֲרֹן"
+            "אַבְרָהָם",
+            "מֶלֶךְ מִצְרַיִם"
           ],
           "listener": [
-            "זִקְנֵי יִשְׂרָאֵל",
-            "פַּרְעֹה",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "בַּת־פַּרְעֹה"
+            "שָׂרָה",
+            "תָמָר",
+            "הָֽעַלְמָה"
           ]
         },
-        "hard_difficulty_options": {
-          "speaker": [
-            "יְהוָה",
-            "פַּרְעֹה",
-            "עַבְדֵי פַרְעֹה",
-            "הַֽמְיַלְּדֹת"
-          ],
-          "listener": [
-            "יְהוָה",
-            "בְּנֵי יִשְׂרָאֵל",
-            "הַֽמְיַלְּדֹת",
-            "אַהֲרֹן"
-          ]
+        "bonus": "יִשְׂרָאֵל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יִשְׂרָאֵל רַב עוֹד־יוֹסֵף בְּנִי חָי אֵֽלְכָה וְאֶרְאֶנּוּ בְּטֶרֶם אָמֽוּת",
+          "source": {
+            "book": "בראשית",
+            "chapter": 45,
+            "start": 28,
+            "end": 28
+          }
         }
       },
       "raw_quote_source": {
         "en": {
+          "7": "And Moses went out to meet his father in law, and did obeisance, and kissed him; and they asked each other of their welfare; and they came into the tent.",
+          "8": "And Moses told his father in law all that the LORD had done unto Pharaoh and to the Egyptians for Israel's sake, and all the travail that had come upon them by the way, and how the LORD delivered them.",
+          "9": "And Jethro rejoiced for all the goodness which the LORD had done to Israel, whom he had delivered out of the hand of the Egyptians.",
+          "10": "And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians."
+        },
+        "he": {
+          "7": "וַיֵּצֵא מֹשֶׁה לִקְרַאת חֹֽתְנוֹ וַיִּשְׁתַּחוּ וַיִּשַּׁק־לוֹ וַיִּשְׁאֲלוּ אִישׁ־לְרֵעֵהוּ לְשָׁלוֹם וַיָּבֹאוּ הָאֹֽהֱלָה",
+          "8": "וַיְסַפֵּר מֹשֶׁה לְחֹתְנוֹ אֵת כָּל־אֲשֶׁר עָשָׂה יְהוָה לְפַרְעֹה וּלְמִצְרַיִם עַל אוֹדֹת יִשְׂרָאֵל אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָתַם בַּדֶּרֶךְ וַיַּצִּלֵם יְהוָֽה",
+          "9": "וַיִּחַדְּ יִתְרוֹ עַל כָּל־הַטּוֹבָה אֲשֶׁר־עָשָׂה יְהוָה לְיִשְׂרָאֵל אֲשֶׁר הִצִּילוֹ מִיַּד מִצְרָֽיִם",
+          "10": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "exodus-18-08-10",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 8,
+        "end": 10
+      }
+    },
+    {
+      "id": "exodus-18-10-15",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 10,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians. Now I know that the LORD is greater than all gods: for in the thing wherein they dealt proudly he was above them. And Jethro, Moses' father in law, took a burnt offering and sacrifices for God: and Aaron came, and all the elders of Israel, to eat bread with Moses' father in law before God. And it came to pass on the morrow, that Moses sat to judge the people: and the people stood by Moses from the morning unto the evening. And when Moses' father in law saw all that he did to the people, he said, What is this thing that thou doest to the people? why sittest thou thyself alone, and all the people stand by thee from morning unto even? And Moses said unto his father in law, Because the people come unto me to inquire of God:",
+        "riddle": "What is this thing that thou doest to the people? why sittest thou thyself alone, and all the people stand by thee from morning unto even?",
+        "speaker": "Moses",
+        "listener": "Jethro",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Laban",
+            "Shechem",
+            "king of Egypt"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Hagar"
+          ]
+        },
+        "bonus": "LORD",
+        "bonus_hint": {
+          "quote": "And the LORD God formed man of the dust of the ground, and breathed into his nostrils the breath of life; and man became a living soul.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם עַתָּה יָדַעְתִּי כִּֽי־גָדוֹל יְהוָה מִכָּל־הָאֱלֹהִים כִּי בַדָּבָר אֲשֶׁר זָדוּ עֲלֵיהֶֽם וַיִּקַּח יִתְרוֹ חֹתֵן מֹשֶׁה עֹלָה וּזְבָחִים לֵֽאלֹהִים וַיָּבֹא אַהֲרֹן וְכֹל זִקְנֵי יִשְׂרָאֵל לֶאֱכָל־לֶחֶם עִם־חֹתֵן מֹשֶׁה לִפְנֵי הָאֱלֹהִֽים וַיְהִי מִֽמָּחֳרָת וַיֵּשֶׁב מֹשֶׁה לִשְׁפֹּט אֶת־הָעָם וַיַּעֲמֹד הָעָם עַל־מֹשֶׁה מִן־הַבֹּקֶר עַד־הָעָֽרֶב וַיַּרְא חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר־הוּא עֹשֶׂה לָעָם וַיֹּאמֶר מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה לָעָם מַדּוּעַ אַתָּה יוֹשֵׁב לְבַדֶּךָ וְכָל־הָעָם נִצָּב עָלֶיךָ מִן־בֹּקֶר עַד־עָֽרֶב וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים",
+        "riddle": "מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה לָעָם מַדּוּעַ אַתָּה יוֹשֵׁב לְבַדֶּךָ וְכָל־הָעָם נִצָּב עָלֶיךָ מִן־בֹּקֶר עַד־עָֽרֶב",
+        "speaker": "מֹשֶׁה",
+        "listener": "יִתְרוֹ",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "לָבָן",
+            "שְׁכֶם",
+            "מֶלֶךְ מִצְרַיִם"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "הָגָר"
+          ]
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיִּיצֶר יְהוָה אֱלֹהִים אֶת־הָֽאָדָם עָפָר מִן־הָאֲדָמָה וַיִּפַּח בְּאַפָּיו נִשְׁמַת חַיִּים וַֽיְהִי הָֽאָדָם לְנֶפֶשׁ חַיָּֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians.",
+          "11": "Now I know that the LORD is greater than all gods: for in the thing wherein they dealt proudly he was above them.",
+          "12": "And Jethro, Moses' father in law, took a burnt offering and sacrifices for God: and Aaron came, and all the elders of Israel, to eat bread with Moses' father in law before God.",
+          "13": "And it came to pass on the morrow, that Moses sat to judge the people: and the people stood by Moses from the morning unto the evening.",
           "14": "And when Moses' father in law saw all that he did to the people, he said, What is this thing that thou doest to the people? why sittest thou thyself alone, and all the people stand by thee from morning unto even?",
           "15": "And Moses said unto his father in law, Because the people come unto me to inquire of God:"
         },
         "he": {
-          "14": "וַיַּרְא חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר־הוּא עֹשֶׂה לָעָם וַיֹּאמֶר מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה לָעָם מַדּוּעַ אַתָּה יוֹשֵׁב לְבַדֶּךָ וְכָל־הָעָם נִצָּב עָלֶיךָ מִן־בֹּקֶר עַד־עָֽרֶב׃",
-          "15": "וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים׃"
+          "10": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם",
+          "11": "עַתָּה יָדַעְתִּי כִּֽי־גָדוֹל יְהוָה מִכָּל־הָאֱלֹהִים כִּי בַדָּבָר אֲשֶׁר זָדוּ עֲלֵיהֶֽם",
+          "12": "וַיִּקַּח יִתְרוֹ חֹתֵן מֹשֶׁה עֹלָה וּזְבָחִים לֵֽאלֹהִים וַיָּבֹא אַהֲרֹן וְכֹל זִקְנֵי יִשְׂרָאֵל לֶאֱכָל־לֶחֶם עִם־חֹתֵן מֹשֶׁה לִפְנֵי הָאֱלֹהִֽים",
+          "13": "וַיְהִי מִֽמָּחֳרָת וַיֵּשֶׁב מֹשֶׁה לִשְׁפֹּט אֶת־הָעָם וַיַּעֲמֹד הָעָם עַל־מֹשֶׁה מִן־הַבֹּקֶר עַד־הָעָֽרֶב",
+          "14": "וַיַּרְא חֹתֵן מֹשֶׁה אֵת כָּל־אֲשֶׁר־הוּא עֹשֶׂה לָעָם וַיֹּאמֶר מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר אַתָּה עֹשֶׂה לָעָם מַדּוּעַ אַתָּה יוֹשֵׁב לְבַדֶּךָ וְכָל־הָעָם נִצָּב עָלֶיךָ מִן־בֹּקֶר עַד־עָֽרֶב",
+          "15": "וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים"
         }
       },
       "meta": {
-        "reason": "The riddle aligns directly with the question posed by Moses' father-in-law in both Hebrew and English. The entities are clearly identified and present in the quote.",
-        "confidence": null,
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "exodus-18-11-15",
         "bonus_source": "llm",
-        "bonus_retries": 7,
         "bonus_hint_source": "llm"
       },
       "ref": {
         "chapter": 18,
-        "start": 14,
+        "start": 11,
         "end": 15
-      }
-    },
-    {
-      "id": "exodus-18-17-18",
-      "source": {
-        "book_code": "EXO",
-        "book": "Exodus",
-        "book_he": "שמות",
-        "chapter": 18,
-        "quote_verse_start": 17,
-        "quote_verse_end": 18
-      },
-      "en": {
-        "quote": "And Moses' father in law said unto him, The thing that thou doest is not good. Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone.",
-        "riddle": "Thou wilt surely wear away, both thou",
-        "speaker": "Moses' father in law",
-        "listener": "Moses",
-        "book": "Exodus",
-        "bonus": "thing",
-        "bonus_hint": {
-          "quote": "And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.",
-          "source": {
-            "book": "Genesis",
-            "chapter": 6,
-            "start": 7,
-            "end": 7
-          }
-        },
-        "options": {
-          "speaker": [
-            "Reuel",
-            "Moses and Aaron",
-            "Moses",
-            "the LORD"
-          ],
-          "listener": [
-            "Aaron",
-            "children of Israel",
-            "the midwives",
-            "God"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "Pharaoh",
-            "Jethro",
-            "Pharaoh's servants",
-            "the midwives"
-          ],
-          "listener": [
-            "Pharaoh",
-            "Moses and Aaron",
-            "the Hebrew midwives",
-            "Pharaoh's daughter"
-          ]
-        }
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר חֹתֵן מֹשֶׁה אֵלָיו לֹא־טוֹב הַדָּבָר אֲשֶׁר אַתָּה עֹשֶֽׂה נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ",
-        "riddle": "נָבֹל תִּבֹּל גַּם־אַתָּה",
-        "speaker": "חֹתֵן מֹשֶׁה",
-        "listener": "מֹשֶׁה",
-        "book": "שמות",
-        "bonus": "הַדָּבָר",
-        "bonus_hint": {
-          "quote": "וַיֹּאמֶר בִּי נִשְׁבַּעְתִּי נְאֻם־יְהוָה כִּי יַעַן אֲשֶׁר עָשִׂיתָ אֶת־הַדָּבָר הַזֶּה וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידֶֽךָ",
-          "source": {
-            "book": "בראשית",
-            "chapter": 22,
-            "start": 16,
-            "end": 16
-          }
-        },
-        "options": {
-          "speaker": [
-            "רְעוּאֵל",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "מֹשֶׁה",
-            "יְהוָה"
-          ],
-          "listener": [
-            "אַהֲרֹן",
-            "בְּנֵי יִשְׂרָאֵל",
-            "הַֽמְיַלְּדֹת",
-            "הָאֱלֹהִים"
-          ]
-        },
-        "hard_difficulty_options": {
-          "speaker": [
-            "פַּרְעֹה",
-            "יִתְרוֹ",
-            "עַבְדֵי פַרְעֹה",
-            "הַֽמְיַלְּדֹת"
-          ],
-          "listener": [
-            "פַּרְעֹה",
-            "מֹשֶׁה וְאַהֲרֹן",
-            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת",
-            "בַּת־פַּרְעֹה"
-          ]
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "17": "And Moses' father in law said unto him, The thing that thou doest is not good.",
-          "18": "Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone."
-        },
-        "he": {
-          "17": "וַיֹּאמֶר חֹתֵן מֹשֶׁה אֵלָיו לֹא־טוֹב הַדָּבָר אֲשֶׁר אַתָּה עֹשֶֽׂה׃",
-          "18": "נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ׃"
-        }
-      },
-      "meta": {
-        "reason": "The riddle aligns directly with the English verse. Speaker and listener are clearly identified within the context.",
-        "confidence": null,
-        "bonus_source": "llm",
-        "bonus_retries": 3,
-        "bonus_hint_source": "llm"
-      },
-      "ref": {
-        "chapter": 18,
-        "start": 17,
-        "end": 18
       }
     }
   ]
