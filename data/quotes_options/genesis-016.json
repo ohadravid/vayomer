@@ -104,12 +104,12 @@
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 16,
-        "quote_verse_start": 8,
+        "quote_verse_start": 7,
         "quote_verse_end": 10
       },
       "en": {
         "quote": "And he said, Hagar, Sarai's maid, whence camest thou? and whither wilt thou go? And she said, I flee from the face of my mistress Sarai. And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands. And the angel of the LORD said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude.",
-        "riddle": "Hagar, Sarai's maid, whence camest thou? and whither wilt thou go?",
+        "riddle": "whence camest thou? and whither wilt thou go?",
         "speaker": "the LORD",
         "listener": "Hagar",
         "book": "Genesis",
@@ -137,21 +137,21 @@
         }
       },
       "he": {
-        "quote": "וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַֽחַת וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶֽיהָ וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת־זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹֽב",
-        "riddle": "הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי",
-        "speaker": "יְהוָה",
+        "quote": "וַיִּמְצָאָהּ מַלְאַךְ יְהֹוָה עַל עֵין הַמַּיִם בַּמִּדְבָּר עַל הָעַיִן בְּדֶרֶךְ שׁוּר וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַֽחַת וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶֽיהָ וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת־זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹֽב",
+        "riddle": "אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי",
+        "speaker": "מַלְאַךְ יְהֹוָה",
         "listener": "הָגָר",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "שָׂרַי",
             "אַבְרָהָם",
-            "אַבְרָם"
+            "יְהוָה",
+            "יוֹסֵף"
           ],
           "listener": [
-            "תָמָר",
-            "יִשְׂרָאֵל",
-            "בַּת־פַּרְעֹה"
+            "שָׂרָה",
+            "בַּת־פַּרְעֹה",
+            "אֲבִיגַיִל"
           ]
         },
         "bonus": "הַרְבָּה",
@@ -167,11 +167,13 @@
       },
       "raw_quote_source": {
         "en": {
+          "7": "And the angel of the LORD found her by a fountain of water in the wilderness, by the fountain in the way to Shur.",
           "8": "And he said, Hagar, Sarai's maid, whence camest thou? and whither wilt thou go? And she said, I flee from the face of my mistress Sarai.",
           "9": "And the angel of the LORD said unto her, Return to thy mistress, and submit thyself under her hands.",
           "10": "And the angel of the LORD said unto her, I will multiply thy seed exceedingly, that it shall not be numbered for multitude."
         },
         "he": {
+          "7": "וַיִּמְצָאָהּ מַלְאַךְ יְהֹוָה עַל עֵין הַמַּיִם בַּמִּדְבָּר עַל הָעַיִן בְּדֶרֶךְ שׁוּר",
           "8": "וַיֹּאמַר הָגָר שִׁפְחַת שָׂרַי אֵֽי־מִזֶּה בָאת וְאָנָה תֵלֵכִי וַתֹּאמֶר מִפְּנֵי שָׂרַי גְּבִרְתִּי אָנֹכִי בֹּרַֽחַת׃",
           "9": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה שׁוּבִי אֶל־גְּבִרְתֵּךְ וְהִתְעַנִּי תַּחַת יָדֶֽיהָ׃",
           "10": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הַרְבָּה אַרְבֶּה אֶת־זַרְעֵךְ וְלֹא יִסָּפֵר מֵרֹֽב׃"
@@ -185,7 +187,7 @@
       },
       "ref": {
         "chapter": 16,
-        "start": 8,
+        "start": 7,
         "end": 10
       }
     }
