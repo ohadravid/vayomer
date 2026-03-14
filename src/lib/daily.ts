@@ -19,7 +19,8 @@ export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-03-04": "exodus-07-14-15",
   "2026-03-10": "exodus-32-09-12",
   "2026-03-11": "genesis-16-08-10",
-  "2026-03-13": "genesis-42-07-07",
+  "2026-03-15": "genesis-18-05-06",
+  "2026-03-16": "genesis-42-07-07",
 };
 
 function toLocalPlainDate(date: DailyDateInput): Temporal.PlainDate {
