@@ -256,6 +256,12 @@ export function pickPuzzleIndexForSearch(
   return pickDailyItemIndexWithOverrides(items, date);
 }
 
+function pickInitialPuzzleIndex(items: readonly { id: string }[]): number {
+  if (items.length === 0) return 0;
+  const search = typeof window === "undefined" ? "" : window.location.search;
+  return pickPuzzleIndexForSearch(items, search);
+}
+
 function pickEasyMode(): boolean {
   if (typeof window === "undefined") return DEFAULT_EASY_MODE;
   const fromUrl = parseEasyModeFromSearch(window.location.search);
@@ -326,7 +332,7 @@ export function App() {
   const lang = getLanguageFromI18n(i18n);
   const nextLanguage = getAlternateLanguage(lang);
   const manifestEntries = PUZZLE_MANIFEST;
-  const [index, setIndex] = useState(0);
+  const [index] = useState(() => pickInitialPuzzleIndex(manifestEntries));
   const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
   const [easyMode, setEasyMode] = useState<boolean>(() => pickEasyMode());
   const [lockedEasyModeByPuzzle, setLockedEasyModeByPuzzle] = useState<{ puzzleId: string; value: boolean | null }>({
@@ -394,9 +400,6 @@ export function App() {
         }
       }
     }
-
-    const search = typeof window === "undefined" ? "" : window.location.search;
-    setIndex(pickPuzzleIndexForSearch(manifestEntries, search));
   }, []);
 
   useEffect(() => {
