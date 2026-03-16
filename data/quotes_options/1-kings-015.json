@@ -1,0 +1,101 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 15,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-kings-15-11-13",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 15,
+        "quote_verse_start": 11,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And Asa did that which was right in the eyes of the LORD, as did David his father. And he took away the sodomites out of the land, and removed all the idols that his fathers had made. And also Maachah his mother, even her he removed from being queen, because she had made an idol in a grove; and Asa destroyed her idol, and burnt it by the brook Kidron.",
+        "riddle": "And he took away the sodomites out of the land, and removed all the idols that his fathers had made.",
+        "speaker": "Asa",
+        "listener": "Maachah",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Amaziah",
+            "Shechem",
+            "Uzzi"
+          ],
+          "listener": [
+            "Tamar",
+            "Sarah",
+            "woman of Tekoah"
+          ]
+        },
+        "bonus": "destroyed",
+        "bonus_hint": {
+          "quote": "He that sacrificeth unto any god, save unto the LORD only, he shall be utterly destroyed.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 22,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַשׂ אָסָא הַיָּשָׁר בְּעֵינֵי יְהוָה כְּדָוִד אָבִֽיו וַיַּעֲבֵר הַקְּדֵשִׁים מִן־הָאָרֶץ וַיָּסַר אֶת־כָּל־הַגִּלֻּלִים אֲשֶׁר עָשׂוּ אֲבֹתָֽיו וְגַם אֶת־מַעֲכָה אִמּוֹ וַיְסִרֶהָ מִגְּבִירָה אֲשֶׁר־עָשְׂתָה מִפְלֶצֶת לָאֲשֵׁרָה וַיִּכְרֹת אָסָא אֶת־מִפְלַצְתָּהּ וַיִּשְׂרֹף בְּנַחַל קִדְרֽוֹן",
+        "riddle": "וַיַּעֲבֵר הַקְּדֵשִׁים מִן־הָאָרֶץ וַיָּסַר אֶת־כָּל־הַגִּלֻּלִים אֲשֶׁר עָשׂוּ אֲבֹתָֽיו",
+        "speaker": "אָסָא",
+        "listener": "מַעֲכָה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "אֲמַצְיָהוּ",
+            "שְׁכֶם",
+            "יוֹאָח"
+          ],
+          "listener": [
+            "תָמָר",
+            "שָׂרָה",
+            "האישה הַתְּקוֹעִית"
+          ]
+        },
+        "bonus": "וַיִּכְרֹת",
+        "bonus_hint": {
+          "quote": "וַיִּכְרֹת יְהוֹנָתָן וְדָוִד בְּרִית בְּאַהֲבָתוֹ אֹתוֹ כְּנַפְשֽׁוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Asa did that which was right in the eyes of the LORD, as did David his father.",
+          "12": "And he took away the sodomites out of the land, and removed all the idols that his fathers had made.",
+          "13": "And also Maachah his mother, even her he removed from being queen, because she had made an idol in a grove; and Asa destroyed her idol, and burnt it by the brook Kidron."
+        },
+        "he": {
+          "11": "וַיַּעַשׂ אָסָא הַיָּשָׁר בְּעֵינֵי יְהוָה כְּדָוִד אָבִֽיו׃",
+          "12": "וַיַּעֲבֵר הַקְּדֵשִׁים מִן־הָאָרֶץ וַיָּסַר אֶת־כָּל־הַגִּלֻּלִים אֲשֶׁר עָשׂוּ אֲבֹתָֽיו׃",
+          "13": "וְגַם ׀ אֶת־מַעֲכָה אִמּוֹ וַיְסִרֶהָ מִגְּבִירָה אֲשֶׁר־עָשְׂתָה מִפְלֶצֶת לָאֲשֵׁרָה וַיִּכְרֹת אָסָא אֶת־מִפְלַצְתָּהּ וַיִּשְׂרֹף בְּנַחַל קִדְרֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 11,
+        "end": 13
+      }
+    }
+  ]
+}

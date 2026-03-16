@@ -1,0 +1,93 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 6,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "deuteronomy-06-04-05",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 6,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Hear, O Israel: The LORD our God is one LORD: And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might.",
+        "riddle": "The LORD our God is one LORD:",
+        "speaker": "The LORD",
+        "listener": "O Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Jehoshaphat",
+            "Zerubbabel",
+            "king Solomon"
+          ],
+          "listener": [
+            "sons of Jacob",
+            "the congregation",
+            "Sarah"
+          ]
+        },
+        "bonus": "love",
+        "bonus_hint": {
+          "quote": "Thou shalt not avenge, nor bear any grudge against the children of thy people, but thou shalt love thy neighbour as thyself: I am the LORD.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 19,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָֽד וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶֽךָ",
+        "riddle": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָֽד",
+        "speaker": "יְהוָה",
+        "listener": "שְׁמַע יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "יְהוֹשָׁפָט",
+            "זְרֻבָּבֶל",
+            "מֶלֶךְ שְׁלֹמֹה"
+          ],
+          "listener": [
+            "בְּנֵי יַעֲקֹב",
+            "הָעֵדָֽה",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "וּבְכָל",
+        "bonus_hint": null
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Hear, O Israel: The LORD our God is one LORD:",
+          "5": "And thou shalt love the LORD thy God with all thine heart, and with all thy soul, and with all thy might."
+        },
+        "he": {
+          "4": "שְׁמַע יִשְׂרָאֵל יְהוָה אֱלֹהֵינוּ יְהוָה אֶחָֽד",
+          "5": "וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶֽךָ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "deuteronomy-06-04-04",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ]
+}

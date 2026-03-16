@@ -1,0 +1,101 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 12,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "job-12-01-03",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Job answered and said, No doubt but ye are the people, and wisdom shall die with you. But I have understanding as well as you; I am not inferior to you: yea, who knoweth not such things as these?",
+        "riddle": "But I have understanding as well as you; I am not inferior to you: yea, who knoweth not such things as these?",
+        "speaker": "Job",
+        "listener": "the people",
+        "book": "Job",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Jonathan",
+            "Shechem"
+          ],
+          "listener": [
+            "Ziphites",
+            "sons of Jacob",
+            "Adversaries"
+          ]
+        },
+        "bonus": "wisdom",
+        "bonus_hint": {
+          "quote": "And thou shalt speak unto all that are wise hearted, whom I have filled with the spirit of wisdom, that they may make Aaron's garments to consecrate him, that he may minister unto me in the priest's office.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 28,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר אָמְנָם כִּי אַתֶּם־עָם וְעִמָּכֶם תָּמוּת חָכְמָֽה גַּם־לִי לֵבָב כְּֽמוֹכֶם לֹא־נֹפֵל אָנֹכִי מִכֶּם וְאֶת מִי־אֵין כְּמוֹ־אֵֽלֶּה",
+        "riddle": "גַּם־לִי לֵבָב כְּֽמוֹכֶם לֹא־נֹפֵל אָנֹכִי מִכֶּם וְאֶת מִי־אֵין כְּמוֹ־אֵֽלֶּה",
+        "speaker": "אִיּוֹב",
+        "listener": "עָם",
+        "book": "איוב",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "יְהוֹנָתָן",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "הַזִּפִים",
+            "בְּנֵי יַעֲקֹב",
+            "הָאֲדָמוֹת"
+          ]
+        },
+        "bonus": "וְעִמָּכֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֶל־הַשֹּֽׁפְטִים רְאוּ מָֽה־אַתֶּם עֹשִׂים כִּי לֹא לְאָדָם תִּשְׁפְּטוּ כִּי לַיהוָה וְעִמָּכֶם בִּדְבַר מִשְׁפָּֽט",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 19,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Job answered and said,",
+          "2": "No doubt but ye are the people, and wisdom shall die with you.",
+          "3": "But I have understanding as well as you; I am not inferior to you: yea, who knoweth not such things as these?"
+        },
+        "he": {
+          "1": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר׃",
+          "2": "אָמְנָם כִּי אַתֶּם־עָם וְעִמָּכֶם תָּמוּת חָכְמָֽה׃",
+          "3": "גַּם־לִי לֵבָב ׀ כְּֽמוֹכֶם לֹא־נֹפֵל אָנֹכִי מִכֶּם וְאֶת מִי־אֵין כְּמוֹ־אֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 3
+      }
+    }
+  ]
+}

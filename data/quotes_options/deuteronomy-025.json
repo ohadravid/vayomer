@@ -1,0 +1,293 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 25,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "deuteronomy-25-01-03",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 25,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "If there be a controversy between men, and they come unto judgment, that the judges may judge them; then they shall justify the righteous, and condemn the wicked. And it shall be, if the wicked man be worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number. Forty stripes he may give him, and not exceed: lest, if he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee.",
+        "riddle": "Forty stripes he may give him, and not exceed:",
+        "speaker": "judge",
+        "listener": "wicked man",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Joab",
+            "Zedekiah",
+            "Uzziah"
+          ],
+          "listener": [
+            "Ziba",
+            "Tamar",
+            "Sarah"
+          ]
+        },
+        "bonus": "justify",
+        "bonus_hint": {
+          "quote": "He shall see of the travail of his soul, and shall be satisfied: by his knowledge shall my righteous servant justify many; for he shall bear their iniquities.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 53,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "כִּֽי־יִהְיֶה רִיב בֵּין אֲנָשִׁים וְנִגְּשׁוּ אֶל־הַמִּשְׁפָּט וּשְׁפָטוּם וְהִצְדִּיקוּ אֶת־הַצַּדִּיק וְהִרְשִׁיעוּ אֶת־הָרָשָֽׁע וְהָיָה אִם־בִּן הַכּוֹת הָרָשָׁע וְהִפִּילוֹ הַשֹּׁפֵט וְהִכָּהוּ לְפָנָיו כְּדֵי רִשְׁעָתוֹ בְּמִסְפָּֽר אַרְבָּעִים יַכֶּנּוּ לֹא יֹסִיף פֶּן־יֹסִיף לְהַכֹּתוֹ עַל־אֵלֶּה מַכָּה רַבָּה וְנִקְלָה אָחִיךָ לְעֵינֶֽיךָ",
+        "riddle": "אַרְבָּעִים יַכֶּנּוּ לֹא יֹסִיף",
+        "speaker": "שֹׁפֵט",
+        "listener": "בִּן הַכּוֹת",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "יוֹאָב",
+            "צִדְקִיָּהוּ",
+            "עֻזִיָהוּ"
+          ],
+          "listener": [
+            "צִיבָא",
+            "תָּמָר",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "רִיב",
+        "bonus_hint": {
+          "quote": "בָּא שָׁאוֹן עַד־קְצֵה הָאָרֶץ כִּי רִיב לַֽיהוָה בַּגּוֹיִם נִשְׁפָּט הוּא לְכָל־בָּשָׂר הָרְשָׁעִים נְתָנָם לַחֶרֶב נְאֻם־יְהוָֽה",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 25,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "If there be a controversy between men, and they come unto judgment, that the judges may judge them; then they shall justify the righteous, and condemn the wicked.",
+          "2": "And it shall be, if the wicked man be worthy to be beaten, that the judge shall cause him to lie down, and to be beaten before his face, according to his fault, by a certain number.",
+          "3": "Forty stripes he may give him, and not exceed: lest, if he should exceed, and beat him above these with many stripes, then thy brother should seem vile unto thee."
+        },
+        "he": {
+          "1": "כִּֽי־יִהְיֶה רִיב בֵּין אֲנָשִׁים וְנִגְּשׁוּ אֶל־הַמִּשְׁפָּט וּשְׁפָטוּם וְהִצְדִּיקוּ אֶת־הַצַּדִּיק וְהִרְשִׁיעוּ אֶת־הָרָשָֽׁע׃",
+          "2": "וְהָיָה אִם־בִּן הַכּוֹת הָרָשָׁע וְהִפִּילוֹ הַשֹּׁפֵט וְהִכָּהוּ לְפָנָיו כְּדֵי רִשְׁעָתוֹ בְּמִסְפָּֽר׃",
+          "3": "אַרְבָּעִים יַכֶּנּוּ לֹא יֹסִיף פֶּן־יֹסִיף לְהַכֹּתוֹ עַל־אֵלֶּה מַכָּה רַבָּה וְנִקְלָה אָחִיךָ לְעֵינֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "deuteronomy-25-06-10",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 25,
+        "quote_verse_start": 6,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And it shall be, that the firstborn which she beareth shall succeed in the name of his brother which is dead, that his name be not put out of Israel. And if the man like not to take his brother's wife, then let his brother's wife go up to the gate unto the elders, and say, My husband's brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband's brother. Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her; Then shall his brother's wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother's house. And his name shall be called in Israel, The house of him that hath his shoe loosed.",
+        "riddle": "I like not to take her",
+        "speaker": "man",
+        "listener": "elders",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Uzziah",
+            "Zerubbabel",
+            "Ahab"
+          ],
+          "listener": [
+            "People of Israel",
+            "the congregation",
+            "Ziba"
+          ]
+        },
+        "bonus": "dead",
+        "bonus_hint": {
+          "quote": "Nay, my lord, hear me: the field give I thee, and the cave that is therein, I give it thee; in the presence of the sons of my people give I it thee: bury thy dead.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 23,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהָיָה הַבְּכוֹר אֲשֶׁר תֵּלֵד יָקוּם עַל־שֵׁם אָחִיו הַמֵּת וְלֹֽא־יִמָּחֶה שְׁמוֹ מִיִּשְׂרָאֵֽל וְאִם־לֹא יַחְפֹּץ הָאִישׁ לָקַחַת אֶת־יְבִמְתּוֹ וְעָלְתָה יְבִמְתּוֹ הַשַּׁעְרָה אֶל־הַזְּקֵנִים וְאָֽמְרָה מֵאֵין יְבָמִי לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל לֹא אָבָה יַבְּמִֽי וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו לְעֵינֵי הַזְּקֵנִים וְחָלְצָה נַעֲלוֹ מֵעַל רַגְלוֹ וְיָרְקָה בְּפָנָיו וְעָֽנְתָה וְאָמְרָה כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר לֹא־יִבְנֶה אֶת־בֵּית אָחִֽיו וְנִקְרָא שְׁמוֹ בְּיִשְׂרָאֵל בֵּית חֲלוּץ הַנָּֽעַל",
+        "riddle": "לֹא חָפַצְתִּי לְקַחְתָּֽהּ",
+        "speaker": "אישׁ",
+        "listener": "זקֵנִים",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "עֻזִיָּה",
+            "זְרֻבָּבֶל",
+            "אַחְאָב"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "הָעֵדָֽה",
+            "צִיבָא"
+          ]
+        },
+        "bonus": "אָחִיו",
+        "bonus_hint": {
+          "quote": "וּלְעֵבֶר יֻלַּד שְׁנֵי בָנִים שֵׁם הָֽאֶחָד פֶּלֶג כִּי בְיָמָיו נִפְלְגָה הָאָרֶץ וְשֵׁם אָחִיו יָקְטָֽן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 10,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And it shall be, that the firstborn which she beareth shall succeed in the name of his brother which is dead, that his name be not put out of Israel.",
+          "7": "And if the man like not to take his brother's wife, then let his brother's wife go up to the gate unto the elders, and say, My husband's brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband's brother.",
+          "8": "Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;",
+          "9": "Then shall his brother's wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother's house.",
+          "10": "And his name shall be called in Israel, The house of him that hath his shoe loosed."
+        },
+        "he": {
+          "6": "וְהָיָה הַבְּכוֹר אֲשֶׁר תֵּלֵד יָקוּם עַל־שֵׁם אָחִיו הַמֵּת וְלֹֽא־יִמָּחֶה שְׁמוֹ מִיִּשְׂרָאֵֽל׃",
+          "7": "וְאִם־לֹא יַחְפֹּץ הָאִישׁ לָקַחַת אֶת־יְבִמְתּוֹ וְעָלְתָה יְבִמְתּוֹ הַשַּׁעְרָה אֶל־הַזְּקֵנִים וְאָֽמְרָה מֵאֵין יְבָמִי לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל לֹא אָבָה יַבְּמִֽי׃",
+          "8": "וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ׃",
+          "9": "וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו לְעֵינֵי הַזְּקֵנִים וְחָלְצָה נַעֲלוֹ מֵעַל רַגְלוֹ וְיָרְקָה בְּפָנָיו וְעָֽנְתָה וְאָמְרָה כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר לֹא־יִבְנֶה אֶת־בֵּית אָחִֽיו",
+          "10": "וְנִקְרָא שְׁמוֹ בְּיִשְׂרָאֵל בֵּית חֲלוּץ הַנָּֽעַל׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 6,
+        "end": 10
+      }
+    },
+    {
+      "id": "deuteronomy-25-09-13",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 25,
+        "quote_verse_start": 9,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Then shall his brother's wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother's house. And his name shall be called in Israel, The house of him that hath his shoe loosed. When men strive together one with another, and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets: Then thou shalt cut off her hand, thine eye shall not pity her. Thou shalt not have in thy bag divers weights, a great and a small.",
+        "riddle": "So shall it be done unto that man that will not build up his brother's house.",
+        "speaker": "elders",
+        "listener": "man",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Jotham",
+            "Zaccur"
+          ],
+          "listener": [
+            "his wife",
+            "women",
+            "People of Jabesh"
+          ]
+        },
+        "bonus": "name",
+        "bonus_hint": {
+          "quote": "And out of the ground the LORD God formed every beast of the field, and every fowl of the air; and brought them unto Adam to see what he would call them: and whatsoever Adam called every living creature, that was the name thereof.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו לְעֵינֵי הַזְּקֵנִים וְחָלְצָה נַעֲלוֹ מֵעַל רַגְלוֹ וְיָרְקָה בְּפָנָיו וְעָֽנְתָה וְאָמְרָה כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר לֹא־יִבְנֶה אֶת־בֵּית אָחִֽיו וְנִקְרָא שְׁמוֹ בְּיִשְׂרָאֵל בֵּית חֲלוּץ הַנָּֽעַל כִּֽי־יִנָּצוּ אֲנָשִׁים יַחְדָּו אִישׁ וְאָחִיו וְקָֽרְבָה אֵשֶׁת הָֽאֶחָד לְהַצִּיל אֶת־אִישָׁהּ מִיַּד מַכֵּהוּ וְשָׁלְחָה יָדָהּ וְהֶחֱזִיקָה בִּמְבֻשָֽׁיו וְקַצֹּתָה אֶת־כַּפָּהּ לֹא תָחוֹס עֵינֶֽךָ לֹֽא־יִהְיֶה לְךָ בְּכִֽיסְךָ אֶבֶן וָאָבֶן גְּדוֹלָה וּקְטַנָּֽה",
+        "riddle": "כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר לֹא־יִבְנֶה אֶת־בֵּית אָחִֽיו",
+        "speaker": "זְקֵנִים",
+        "listener": "אִישׁ",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "יוֹתָם",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "אִשְׁתּוֹ",
+            "הַנָּשִׁים",
+            "אַנְשֵׁי יָבֵֽישׁ"
+          ]
+        },
+        "bonus": "וְנִקְרָא",
+        "bonus_hint": {
+          "quote": "וְעַתָּה אֱסֹף אֶת־יֶתֶר הָעָם וַחֲנֵה עַל־הָעִיר וְלָכְדָהּ פֶּן־אֶלְכֹּד אֲנִי אֶת־הָעִיר וְנִקְרָא שְׁמִי עָלֶֽיהָ",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 12,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Then shall his brother's wife come unto him in the presence of the elders, and loose his shoe from off his foot, and spit in his face, and shall answer and say, So shall it be done unto that man that will not build up his brother's house.",
+          "10": "And his name shall be called in Israel, The house of him that hath his shoe loosed.",
+          "11": "When men strive together one with another, and the wife of the one draweth near for to deliver her husband out of the hand of him that smiteth him, and putteth forth her hand, and taketh him by the secrets:",
+          "12": "Then thou shalt cut off her hand, thine eye shall not pity her.",
+          "13": "Thou shalt not have in thy bag divers weights, a great and a small."
+        },
+        "he": {
+          "9": "וְנִגְּשָׁה יְבִמְתּוֹ אֵלָיו לְעֵינֵי הַזְּקֵנִים וְחָלְצָה נַעֲלוֹ מֵעַל רַגְלוֹ וְיָרְקָה בְּפָנָיו וְעָֽנְתָה וְאָמְרָה כָּכָה יֵעָשֶׂה לָאִישׁ אֲשֶׁר לֹא־יִבְנֶה אֶת־בֵּית אָחִֽיו",
+          "10": "וְנִקְרָא שְׁמוֹ בְּיִשְׂרָאֵל בֵּית חֲלוּץ הַנָּֽעַל׃",
+          "11": "כִּֽי־יִנָּצוּ אֲנָשִׁים יַחְדָּו אִישׁ וְאָחִיו וְקָֽרְבָה אֵשֶׁת הָֽאֶחָד לְהַצִּיל אֶת־אִישָׁהּ מִיַּד מַכֵּהוּ וְשָׁלְחָה יָדָהּ וְהֶחֱזִיקָה בִּמְבֻשָֽׁיו׃",
+          "12": "וְקַצֹּתָה אֶת־כַּפָּהּ לֹא תָחוֹס עֵינֶֽךָ׃",
+          "13": "לֹֽא־יִהְיֶה לְךָ בְּכִֽיסְךָ אֶבֶן וָאָבֶן גְּדוֹלָה וּקְטַנָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 9,
+        "end": 13
+      }
+    }
+  ]
+}

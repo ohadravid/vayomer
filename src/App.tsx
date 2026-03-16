@@ -5,7 +5,7 @@ import { answersMatch } from "./lib/answerMatcher";
 import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { maskHardWord, pickHardWordPlaceholderForId } from "./lib/format";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
-import { loadPuzzleItems } from "./lib/puzzleData";
+import { PUZZLE_MANIFEST, loadPuzzleItemById } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
 import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
@@ -243,7 +243,7 @@ export function parsePuzzleIdFromSearch(search: string): string | null {
 }
 
 export function pickPuzzleIndexForSearch(
-  items: PuzzleItem[],
+  items: readonly { id: string }[],
   search: string,
   date: Temporal.PlainDate = Temporal.Now.plainDateISO()
 ): number {
@@ -325,8 +325,9 @@ export function App() {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
   const nextLanguage = getAlternateLanguage(lang);
-  const [items, setItems] = useState<PuzzleItem[]>([]);
+  const manifestEntries = PUZZLE_MANIFEST;
   const [index, setIndex] = useState(0);
+  const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
   const [easyMode, setEasyMode] = useState<boolean>(() => pickEasyMode());
   const [lockedEasyModeByPuzzle, setLockedEasyModeByPuzzle] = useState<{ puzzleId: string; value: boolean | null }>({
     puzzleId: "",
@@ -348,7 +349,7 @@ export function App() {
     if (typeof window === "undefined") return;
     const syncEasyModeFromLocation = () => {
       const next = pickEasyModeForNavigation(window.location.search);
-      const currentPuzzleId = items[index]?.id;
+      const currentPuzzleId = manifestEntries[index]?.id;
       if (!currentPuzzleId) {
         setEasyMode(next);
         return;
@@ -365,7 +366,7 @@ export function App() {
     };
     window.addEventListener("popstate", syncEasyModeFromLocation);
     return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
-  }, [items, index]);
+  }, [manifestEntries, index]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -378,14 +379,13 @@ export function App() {
   }, [easyMode]);
 
   useEffect(() => {
-    const list = loadPuzzleItems();
-    if (list.length === 0) {
-      setItems([]);
+    if (manifestEntries.length === 0) {
+      setPuzzle(null);
       return;
     }
 
     if (typeof window !== "undefined") {
-      const todayPuzzle = list[pickDailyItemIndexWithOverrides(list)];
+      const todayPuzzle = manifestEntries[pickDailyItemIndexWithOverrides(manifestEntries)];
       if (todayPuzzle) {
         try {
           pruneDifficultyLockKeys(window.localStorage, todayPuzzle.id);
@@ -395,12 +395,34 @@ export function App() {
       }
     }
 
-    setItems(list);
     const search = typeof window === "undefined" ? "" : window.location.search;
-    setIndex(pickPuzzleIndexForSearch(list, search));
+    setIndex(pickPuzzleIndexForSearch(manifestEntries, search));
   }, []);
 
-  const puzzle = useMemo(() => items[index], [items, index]);
+  useEffect(() => {
+    const selectedId = manifestEntries[index]?.id;
+    if (!selectedId) {
+      setPuzzle(null);
+      return;
+    }
+
+    let cancelled = false;
+    void (async () => {
+      try {
+        const loadedPuzzle = await loadPuzzleItemById(selectedId);
+        if (cancelled) return;
+        setPuzzle(loadedPuzzle);
+      } catch {
+        if (cancelled) return;
+        setPuzzle(null);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [manifestEntries, index]);
+
   const exampleMaskedPuzzle = useMemo(
     () => (EXAMPLE_PUZZLE ? buildExamplePuzzleWithMaskedBonusWord(EXAMPLE_PUZZLE) : null),
     []

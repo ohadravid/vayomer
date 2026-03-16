@@ -1,0 +1,747 @@
+{
+  "book_code": "2CH",
+  "book": "2 Chronicles",
+  "book_he": "דברי הימים ב",
+  "chapter": 10,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "2-chronicles-10-02-04",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And it came to pass, when Jeroboam the son of Nebat, who was in Egypt, whither he had fled from the presence of Solomon the king, heard it, that Jeroboam returned out of Egypt. And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying, Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee.",
+        "riddle": "ease thou somewhat the grievous servitude of thy father",
+        "speaker": "Jeroboam and all Israel",
+        "listener": "Rehoboam",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Hiram",
+            "Toi",
+            "Shechem"
+          ],
+          "listener": [
+            "Naboth",
+            "Cononiah",
+            "Ziphites"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "With Chedorlaomer the king of Elam, and with Tidal king of nations, and Amraphel king of Shinar, and Arioch king of Ellasar; four kings with five.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כִּשְׁמֹעַ יָרָבְעָם בֶּן־נְבָט וְהוּא בְמִצְרַיִם אֲשֶׁר בָּרַח מִפְּנֵי שְׁלֹמֹה הַמֶּלֶךְ וַיָּשָׁב יָרָבְעָם מִמִּצְרָֽיִם וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ",
+        "riddle": "הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה",
+        "speaker": "יָרָבְעָם וְכָל־יִשְׂרָאֵל",
+        "listener": "רְחַבְעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "הַשְּׂעֹרִים וְהַתֶּבֶן לַסּוּסִים וְלָרָכֶשׁ",
+            "תֹּעִי",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "נָבוֹת",
+            "כָּֽנַנְיָהוּ",
+            "הַזִּפִים"
+          ]
+        },
+        "bonus": "מִמִּצְרָֽיִם",
+        "bonus_hint": {
+          "quote": "וְהִגַּדְתָּ לְבִנְךָ בַּיּוֹם הַהוּא לֵאמֹר בַּעֲבוּר זֶה עָשָׂה יְהוָה לִי בְּצֵאתִי מִמִּצְרָֽיִם",
+          "source": {
+            "book": "שמות",
+            "chapter": 13,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And it came to pass, when Jeroboam the son of Nebat, who was in Egypt, whither he had fled from the presence of Solomon the king, heard it, that Jeroboam returned out of Egypt.",
+          "3": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,",
+          "4": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee."
+        },
+        "he": {
+          "2": "וַיְהִי כִּשְׁמֹעַ יָרָבְעָם בֶּן־נְבָט וְהוּא בְמִצְרַיִם אֲשֶׁר בָּרַח מִפְּנֵי שְׁלֹמֹה הַמֶּלֶךְ וַיָּשָׁב יָרָבְעָם מִמִּצְרָֽיִם׃",
+          "3": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר׃",
+          "4": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 2,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-chronicles-10-03-04",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying, Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee.",
+        "riddle": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee.",
+        "speaker": "Jeroboam",
+        "listener": "Rehoboam",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Ziba",
+            "Benjamin",
+            "Toi"
+          ],
+          "listener": [
+            "sons of Jacob",
+            "Sarah",
+            "Ziphites"
+          ]
+        },
+        "bonus": "came",
+        "bonus_hint": {
+          "quote": "There were giants in the earth in those days; and also after that, when the sons of God came in unto the daughters of men, and they bare children to them, the same became mighty men which were of old, men of renown.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ",
+        "riddle": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ",
+        "speaker": "יָרָבְעָם",
+        "listener": "רְחַבְעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "צִיבָא",
+            "לְבִנְיָמִן",
+            "תֹּעִי"
+          ],
+          "listener": [
+            "בְּנֵי יַעֲקֹב",
+            "שָׂרָה",
+            "הַזִּפִים"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אֶל־הָגָר וַתַּהַר וַתֵּרֶא כִּי הָרָתָה וַתֵּקַל גְּבִרְתָּהּ בְּעֵינֶֽיהָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,",
+          "4": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee."
+        },
+        "he": {
+          "3": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר׃",
+          "4": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-chronicles-10-03-05",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 3,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying, Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee. And he said unto them, Come again unto me after three days. And the people departed.",
+        "riddle": "Come again unto me after three days",
+        "speaker": "Jeroboam",
+        "listener": "Rehoboam",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Joram",
+            "Zedekiah",
+            "Jeroboam and all Israel"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "steward"
+          ]
+        },
+        "bonus": "grievous",
+        "bonus_hint": {
+          "quote": "And the LORD did so; and there came a grievous swarm of flies into the house of Pharaoh, and into his servants' houses, and into all the land of Egypt: the land was corrupted by reason of the swarm of flies.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 8,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם",
+        "riddle": "עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי",
+        "speaker": "יָרָבְעָם",
+        "listener": "רְחַבְעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "יֽוֹרָם",
+            "צִדְקִיָּה",
+            "יָרָבְעָם וְכָל־יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "אֲשֶׁר"
+          ]
+        },
+        "bonus": "הַכָּבֵד",
+        "bonus_hint": {
+          "quote": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְאַתָּה עַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַעַבְדֶֽךָּ",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 12,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And they sent and called him. So Jeroboam and all Israel came and spake to Rehoboam, saying,",
+          "4": "Thy father made our yoke grievous: now therefore ease thou somewhat the grievous servitude of thy father, and his heavy yoke that he put upon us, and we will serve thee.",
+          "5": "And he said unto them, Come again unto me after three days. And the people departed."
+        },
+        "he": {
+          "3": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר׃",
+          "4": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְעַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַֽעַבְדֶֽךָּ׃",
+          "5": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 3,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-chronicles-10-05-07",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he said unto them, Come again unto me after three days. And the people departed. And king Rehoboam took counsel with the old men that had stood before Solomon his father while he yet lived, saying, What counsel give ye me to return answer to this people? And they spake unto him, saying, If thou be kind to this people, and please them, and speak good words to them, they will be thy servants for ever.",
+        "riddle": "Come again unto me after three days",
+        "speaker": "Rehoboam",
+        "listener": "the old men",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Zaccur",
+            "the king of Egypt",
+            "Hamor"
+          ],
+          "listener": [
+            "taskmasters and officers",
+            "Ziba",
+            "the congregation"
+          ]
+        },
+        "bonus": "departed",
+        "bonus_hint": {
+          "quote": "Thus I was; in the day the drought consumed me, and the frost by night; and my sleep departed from mine eyes.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹֽמְדִים לִפְנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב לָֽעָם־הַזֶּה דָּבָֽר וַיְדַבְּרוּ אֵלָיו לֵאמֹר אִם־תִּֽהְיֶה לְטוֹב לְהָעָם הַזֶּה וּרְצִיתָם וְדִבַּרְתָּ אֲלֵהֶם דְּבָרִים טוֹבִים וְהָיוּ לְךָ עֲבָדִים כָּל־הַיָּמִֽים",
+        "riddle": "שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי",
+        "speaker": "רְחַבְעָם",
+        "listener": "הַזְּקֵנִים",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "זַכּוּר",
+            "מֶלֶך מִצְרַיִם",
+            "חֲמוֹר"
+          ],
+          "listener": [
+            "הַנֹּגְשִׂים וְהַשֹׁטְרִים",
+            "צִיבָא",
+            "הַקָּהָל"
+          ]
+        },
+        "bonus": "אֲלֵהֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֲלֵהֶם יִצְחָק מַדּוּעַ בָּאתֶם אֵלָי וְאַתֶּם שְׂנֵאתֶם אֹתִי וַתְּשַׁלְּחוּנִי מֵאִתְּכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 26,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he said unto them, Come again unto me after three days. And the people departed.",
+          "6": "And king Rehoboam took counsel with the old men that had stood before Solomon his father while he yet lived, saying, What counsel give ye me to return answer to this people?",
+          "7": "And they spake unto him, saying, If thou be kind to this people, and please them, and speak good words to them, they will be thy servants for ever."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם׃",
+          "6": "וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹֽמְדִים לִפְנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב לָֽעָם־הַזֶּה דָּבָֽר׃",
+          "7": "וַיְדַבְּרוּ אֵלָיו לֵאמֹר אִם־תִּֽהְיֶה לְטוֹב לְהָעָם הַזֶּה וּרְצִיתָם וְדִבַּרְתָּ אֲלֵהֶם דְּבָרִים טוֹבִים וְהָיוּ לְךָ עֲבָדִים כָּל־הַיָּמִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 5,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-chronicles-10-06-08",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 6,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And king Rehoboam took counsel with the old men that had stood before Solomon his father while he yet lived, saying, What counsel give ye me to return answer to this people? And they spake unto him, saying, If thou be kind to this people, and please them, and speak good words to them, they will be thy servants for ever. But he forsook the counsel which the old men gave him, and took counsel with the young men that were brought up with him, that stood before him.",
+        "riddle": "What counsel give ye me to return answer to this people?",
+        "speaker": "Rehoboam",
+        "listener": "the old men",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Jeroboam and all the congregation of Israel",
+            "Cyrus",
+            "Ziba"
+          ],
+          "listener": [
+            "Ziphites",
+            "Maachah",
+            "steward"
+          ]
+        },
+        "bonus": "yet",
+        "bonus_hint": {
+          "quote": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹֽמְדִים לִפְנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב לָֽעָם־הַזֶּה דָּבָֽר וַיְדַבְּרוּ אֵלָיו לֵאמֹר אִם־תִּֽהְיֶה לְטוֹב לְהָעָם הַזֶּה וּרְצִיתָם וְדִבַּרְתָּ אֲלֵהֶם דְּבָרִים טוֹבִים וְהָיוּ לְךָ עֲבָדִים כָּל־הַיָּמִֽים וַֽיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻהוּ וַיִּוָּעַץ אֶת־הַיְלָדִים אֲשֶׁר גָּדְלוּ אִתּוֹ הָעֹמְדִים לְפָנָֽיו",
+        "riddle": "אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב לָֽעָם־הַזֶּה דָּבָֽר",
+        "speaker": "רְחַבְעָם",
+        "listener": "הַזְּקֵנִים",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "יָרָבְעָם וְכָל־קְהַל יִשְׂרָאֵל",
+            "כורש",
+            "צִיבָא"
+          ],
+          "listener": [
+            "הַזִּפִים",
+            "מַעֲכָה",
+            "אֲשֶׁר"
+          ]
+        },
+        "bonus": "וַיִּוָּעַץ",
+        "bonus_hint": {
+          "quote": "וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹמְדִים אֶת־פְּנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב אֶת־הָֽעָם־הַזֶּה דָּבָֽר",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 12,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And king Rehoboam took counsel with the old men that had stood before Solomon his father while he yet lived, saying, What counsel give ye me to return answer to this people?",
+          "7": "And they spake unto him, saying, If thou be kind to this people, and please them, and speak good words to them, they will be thy servants for ever.",
+          "8": "But he forsook the counsel which the old men gave him, and took counsel with the young men that were brought up with him, that stood before him."
+        },
+        "he": {
+          "6": "וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹֽמְדִים לִפְנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב לָֽעָם־הַזֶּה דָּבָֽר׃",
+          "7": "וַיְדַבְּרוּ אֵלָיו לֵאמֹר אִם־תִּֽהְיֶה לְטוֹב לְהָעָם הַזֶּה וּרְצִיתָם וְדִבַּרְתָּ אֲלֵהֶם דְּבָרִים טוֹבִים וְהָיוּ לְךָ עֲבָדִים כָּל־הַיָּמִֽים׃",
+          "8": "וַֽיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻהוּ וַיִּוָּעַץ אֶת־הַיְלָדִים אֲשֶׁר גָּדְלוּ אִתּוֹ הָעֹמְדִים לְפָנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 6,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-chronicles-10-10-12",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 10,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And the young men that were brought up with him spake unto him, saying, Thus shalt thou answer the people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it somewhat lighter for us; thus shalt thou say unto them, My little finger shall be thicker than my father's loins. For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions. So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.",
+        "riddle": "Thus shalt thou answer the people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it somewhat lighter for us; thus shalt thou say unto them, My little finger shall be thicker than my father's loins.",
+        "speaker": "Jeroboam",
+        "listener": "Rehoboam",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Abishai",
+            "Zaccur",
+            "Shechem"
+          ],
+          "listener": [
+            "Congregation",
+            "Hiram",
+            "Ziba"
+          ]
+        },
+        "bonus": "third",
+        "bonus_hint": {
+          "quote": "And Joseph said unto them the third day, This do, and live; for I fear God:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבְּרוּ אִתּוֹ הַיְלָדִים אֲשֶׁר גָּדְלוּ אִתּוֹ לֵאמֹר כֹּֽה־תֹאמַר לָעָם אֲשֶׁר־דִּבְּרוּ אֵלֶיךָ לֵאמֹר אָבִיךָ הִכְבִּיד אֶת־עֻלֵּנוּ וְאַתָּה הָקֵל מֵעָלֵינוּ כֹּה תֹּאמַר אֲלֵהֶם קָֽטָנִּי עָבָה מִמָּתְנֵי אָבִֽי וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי",
+        "riddle": "כֹּֽה־תֹאמַר לָעָם אֲשֶׁר־דִּבְּרוּ אֵלֶיךָ לֵאמֹר אָבִיךָ הִכְבִּיד אֶת־עֻלֵּנוּ וְאַתָּה הָקֵל מֵעָלֵינוּ כֹּה תֹּאמַר אֲלֵהֶם קָֽטָנִּי עָבָה מִמָּתְנֵי אָבִֽי",
+        "speaker": "יָרָבְעָם",
+        "listener": "רְחַבְעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "אֲבִישַׁי",
+            "זַכּוּר",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "קָהָֽל",
+            "הִרְמוֹן",
+            "צִיבָא"
+          ]
+        },
+        "bonus": "הַשְּׁלִשִׁי",
+        "bonus_hint": {
+          "quote": "בַּחֹדֶשׁ הַשְּׁלִשִׁי הֵחֵלּוּ הָעֲרֵמוֹת לְיִסּוֹד וּבַחֹדֶשׁ הַשְּׁבִיעִי כִּלּֽוּ",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 31,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the young men that were brought up with him spake unto him, saying, Thus shalt thou answer the people that spake unto thee, saying, Thy father made our yoke heavy, but make thou it somewhat lighter for us; thus shalt thou say unto them, My little finger shall be thicker than my father's loins.",
+          "11": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions.",
+          "12": "So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day."
+        },
+        "he": {
+          "10": "וַיְדַבְּרוּ אִתּוֹ הַיְלָדִים אֲשֶׁר גָּדְלוּ אִתּוֹ לֵאמֹר כֹּֽה־תֹאמַר לָעָם אֲשֶׁר־דִּבְּרוּ אֵלֶיךָ לֵאמֹר אָבִיךָ הִכְבִּיד אֶת־עֻלֵּנוּ וְאַתָּה הָקֵל מֵעָלֵינוּ כֹּה תֹּאמַר אֲלֵהֶם קָֽטָנִּי עָבָה מִמָּתְנֵי אָבִֽי׃",
+          "11": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים׃",
+          "12": "וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 10,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-chronicles-10-11-13",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 11,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions. So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day. And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,",
+        "riddle": "Come again to me on the third day",
+        "speaker": "king Rehoboam",
+        "listener": "the people",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "Joash",
+            "king of Egypt"
+          ],
+          "listener": [
+            "congregation",
+            "Ziba",
+            "the LORD"
+          ]
+        },
+        "bonus": "chastise",
+        "bonus_hint": {
+          "quote": "And now whereas my father did lade you with a heavy yoke, I will add to your yoke: my father hath chastised you with whips, but I will chastise you with scorpions.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 12,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי וַיַּעֲנֵם הַמֶּלֶךְ קָשָׁה וַֽיַּעֲזֹב הַמֶּלֶךְ רְחַבְעָם אֵת עֲצַת הַזְּקֵנִֽים",
+        "riddle": "שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי",
+        "speaker": "רְחַבְעָם",
+        "listener": "הָעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "פַּרְעֹה",
+            "יוֹאָשׁ",
+            "מֶלֶךְ מִצְרַיִם"
+          ],
+          "listener": [
+            "הַקָּהָל",
+            "צִיבָא",
+            "יְהוָה"
+          ]
+        },
+        "bonus": "בַּשּׁוֹטִים",
+        "bonus_hint": {
+          "quote": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אוֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי אֲיַסֵּר אֶתְכֶם בָּעַקְרַבִּֽים",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 12,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions.",
+          "12": "So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.",
+          "13": "And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,"
+        },
+        "he": {
+          "11": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים׃",
+          "12": "וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי׃",
+          "13": "וַיַּעֲנֵם הַמֶּלֶךְ קָשָׁה וַֽיַּעֲזֹב הַמֶּלֶךְ רְחַבְעָם אֵת עֲצַת הַזְּקֵנִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 11,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-chronicles-10-11-14",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 11,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions. So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day. And the king answered them roughly; and king Rehoboam forsook the counsel of the old men, And answered them after the advice of the young men, saying, My father made your yoke heavy, but I will add thereto: my father chastised you with whips, but I will chastise you with scorpions.",
+        "riddle": "My father made your yoke heavy, but I will add thereto: my father chastised you with whips, but I will chastise you with scorpions",
+        "speaker": "Rehoboam",
+        "listener": "the people",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "Hiram",
+            "Toi",
+            "Elisha"
+          ],
+          "listener": [
+            "People of Jabesh",
+            "sons of Jacob",
+            "Ziphites"
+          ]
+        },
+        "bonus": "third",
+        "bonus_hint": {
+          "quote": "And Joseph said unto them the third day, This do, and live; for I fear God:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי וַיַּעֲנֵם הַמֶּלֶךְ קָשָׁה וַֽיַּעֲזֹב הַמֶּלֶךְ רְחַבְעָם אֵת עֲצַת הַזְּקֵנִֽים וַיְדַבֵּר אֲלֵהֶם כַּעֲצַת הַיְלָדִים לֵאמֹר אַכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עָלָיו אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּעֲקְרַבִּֽים",
+        "riddle": "אַכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עָלָיו אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּעֲקְרַבִּֽים",
+        "speaker": "רְחַבְעָם",
+        "listener": "הָעָם",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "הַשְּׂעֹרִים וְהַתֶּבֶן לַסּוּסִים וְלָרָכֶשׁ",
+            "תֹּעִי",
+            "אֱלִישָׁע"
+          ],
+          "listener": [
+            "אַנְשֵׁי יָבֵֽישׁ",
+            "בְּנֵי יַעֲקֹב",
+            "הַזִּפִים"
+          ]
+        },
+        "bonus": "דִּבֶּר",
+        "bonus_hint": {
+          "quote": "דִּבֶּר הָאִישׁ אֲדֹנֵי הָאָרֶץ אִתָּנוּ קָשׁוֹת וַיִּתֵּן אֹתָנוּ כִּֽמְרַגְּלִים אֶת־הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "For whereas my father put a heavy yoke upon you, I will put more to your yoke: my father chastised you with whips, but I will chastise you with scorpions.",
+          "12": "So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.",
+          "13": "And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,",
+          "14": "And answered them after the advice of the young men, saying, My father made your yoke heavy, but I will add thereto: my father chastised you with whips, but I will chastise you with scorpions."
+        },
+        "he": {
+          "11": "וְעַתָּה אָבִי הֶעְמִיס עֲלֵיכֶם עֹל כָּבֵד וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּֽעֲקְרַבִּֽים",
+          "12": "וַיָּבֹא יָרָבְעָם וְכָל־הָעָם אֶל־רְחַבְעָם בַּיּוֹם הַשְּׁלִשִׁי כַּאֲשֶׁר דִּבֶּר הַמֶּלֶךְ לֵאמֹר שׁוּבוּ אֵלַי בַּיּוֹם הַשְּׁלִשִֽׁי",
+          "13": "וַיַּעֲנֵם הַמֶּלֶךְ קָשָׁה וַֽיַּעֲזֹב הַמֶּלֶךְ רְחַבְעָם אֵת עֲצַת הַזְּקֵנִֽים",
+          "14": "וַיְדַבֵּר אֲלֵהֶם כַּעֲצַת הַיְלָדִים לֵאמֹר אַכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עָלָיו אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי בָּעֲקְרַבִּֽים"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "2-chronicles-10-12-14",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 12,
+        "end": 14
+      }
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 2,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "2-samuel-02-01-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron. So David went up thither, and his two wives also, Ahinoam the Jezreelitess, and Abigail Nabal's wife the Carmelite. And his men that were with him did David bring up, every man with his household: and they dwelt in the cities of Hebron.",
+        "riddle": "Whither shall I go up?",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Caleb",
+            "Elioenai"
+          ],
+          "listener": [
+            "Sarah",
+            "Ziba",
+            "Tamar"
+          ]
+        },
+        "bonus": "Hebron",
+        "bonus_hint": {
+          "quote": "And they ascended by the south, and came unto Hebron; where Ahiman, Sheshai, and Talmai, the children of Anak, were. (Now Hebron was built seven years before Zoan in Egypt.)",
+          "source": {
+            "book": "Numbers",
+            "chapter": 13,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה וַיַּעַל שָׁם דָּוִד וְגַם שְׁתֵּי נָשָׁיו אֲחִינֹעַם הַיִּזְרְעֵלִית וַאֲבִיגַיִל אֵשֶׁת נָבָל הַֽכַּרְמְלִֽי וַאֲנָשָׁיו אֲשֶׁר־עִמּוֹ הֶעֱלָה דָוִד אִישׁ וּבֵיתוֹ וַיֵּשְׁבוּ בְּעָרֵי חֶבְרֽוֹן",
+        "riddle": "הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה",
+        "speaker": "דָוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "כָּלֵב",
+            "אֶלְיְהוֹעֵינַי"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "צִיבָא",
+            "תָּמָר"
+          ]
+        },
+        "bonus": "וַיִּשְׁאַל",
+        "bonus_hint": {
+          "quote": "וַיִּטֹּשׁ דָּוִד אֶת־הַכֵּלִים מֵעָלָיו עַל־יַד שׁוֹמֵר הַכֵּלִים וַיָּרָץ הַמַּעֲרָכָה וַיָּבֹא וַיִּשְׁאַל לְאֶחָיו לְשָׁלֽוֹם",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+          "2": "So David went up thither, and his two wives also, Ahinoam the Jezreelitess, and Abigail Nabal's wife the Carmelite.",
+          "3": "And his men that were with him did David bring up, every man with his household: and they dwelt in the cities of Hebron."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה ׀ לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה׃",
+          "2": "וַיַּעַל שָׁם דָּוִד וְגַם שְׁתֵּי נָשָׁיו אֲחִינֹעַם הַיִּזְרְעֵלִית וַאֲבִיגַיִל אֵשֶׁת נָבָל הַֽכַּרְמְלִֽי׃",
+          "3": "וַאֲנָשָׁיו אֲשֶׁר־עִמּוֹ הֶעֱלָה דָוִד אִישׁ וּבֵיתוֹ וַיֵּשְׁבוּ בְּעָרֵי חֶבְרֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-02-04-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the men of Judah came, and there they anointed David king over the house of Judah. And they told David, saying, That the men of Jabesh-gilead were they that buried Saul. And David sent messengers unto the men of Jabesh-gilead, and said unto them, Blessed be ye of the LORD, that ye have shewed this kindness unto your lord, even unto Saul, and have buried him. And now the LORD shew kindness and truth unto you: and I also will requite you this kindness, because ye have done this thing.",
+        "riddle": "Blessed be ye of the LORD, that ye have shewed this kindness unto your lord, even unto Saul, and have buried him.",
+        "speaker": "David",
+        "listener": "men of Jabesh-gilead",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "Uzziah",
+            "Zaccur"
+          ],
+          "listener": [
+            "Israelites",
+            "sons of Jacob",
+            "the congregation"
+          ]
+        },
+        "bonus": "truth",
+        "bonus_hint": {
+          "quote": "And the LORD passed by before him, and proclaimed, The LORD, The LORD God, merciful and gracious, longsuffering, and abundant in goodness and truth,",
+          "source": {
+            "book": "Exodus",
+            "chapter": 34,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ אַנְשֵׁי יְהוּדָה וַיִּמְשְׁחוּ־שָׁם אֶת־דָּוִד לְמֶלֶךְ עַל־בֵּית יְהוּדָה וַיַּגִּדוּ לְדָוִד לֵאמֹר אַנְשֵׁי יָבֵישׁ גִּלְעָד אֲשֶׁר קָבְרוּ אֶת־שָׁאֽוּל וַיִּשְׁלַח דָּוִד מַלְאָכִים אֶל־אַנְשֵׁי יָבֵישׁ גִּלְעָד וַיֹּאמֶר אֲלֵיהֶם בְּרֻכִים אַתֶּם לַֽיהוָה אֲשֶׁר עֲשִׂיתֶם הַחֶסֶד הַזֶּה עִם־אֲדֹֽנֵיכֶם עִם־שָׁאוּל וַֽתִּקְבְּרוּ אֹתֽוֹ וְעַתָּה יַֽעַשׂ־יְהוָה עִמָּכֶם חֶסֶד וֶאֱמֶת וְגַם אָנֹכִי אֶעֱשֶׂה אִתְּכֶם הַטּוֹבָה הַזֹּאת אֲשֶׁר עֲשִׂיתֶם הַדָּבָר הַזֶּֽה",
+        "riddle": "בְּרֻכִים אַתֶּם לַֽיהוָה אֲשֶׁר עֲשִׂיתֶם הַחֶסֶד הַזֶּה עִם־אֲדֹֽנֵיכֶם עִם־שָׁאוּל וַֽתִּקְבְּרוּ אֹתֽוֹ",
+        "speaker": "דָוִד",
+        "listener": "אַנְשֵׁי יָבֵישׁ גִּלְעָד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "נָתָן",
+            "עֻזִיָהוּ",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "בְּנֵי־יִשְׂרָאֵל",
+            "בְּנֵי יַעֲקֹב",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "אֶעֱשֶׂה",
+        "bonus_hint": {
+          "quote": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 10,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the men of Judah came, and there they anointed David king over the house of Judah. And they told David, saying, That the men of Jabesh-gilead were they that buried Saul.",
+          "5": "And David sent messengers unto the men of Jabesh-gilead, and said unto them, Blessed be ye of the LORD, that ye have shewed this kindness unto your lord, even unto Saul, and have buried him.",
+          "6": "And now the LORD shew kindness and truth unto you: and I also will requite you this kindness, because ye have done this thing."
+        },
+        "he": {
+          "4": "וַיָּבֹאוּ אַנְשֵׁי יְהוּדָה וַיִּמְשְׁחוּ־שָׁם אֶת־דָּוִד לְמֶלֶךְ עַל־בֵּית יְהוּדָה וַיַּגִּדוּ לְדָוִד לֵאמֹר אַנְשֵׁי יָבֵישׁ גִּלְעָד אֲשֶׁר קָבְרוּ אֶת־שָׁאֽוּל׃",
+          "5": "וַיִּשְׁלַח דָּוִד מַלְאָכִים אֶל־אַנְשֵׁי יָבֵישׁ גִּלְעָד וַיֹּאמֶר אֲלֵיהֶם בְּרֻכִים אַתֶּם לַֽיהוָה אֲשֶׁר עֲשִׂיתֶם הַחֶסֶד הַזֶּה עִם־אֲדֹֽנֵיכֶם עִם־שָׁאוּל וַֽתִּקְבְּרוּ אֹתֽוֹ׃",
+          "6": "וְעַתָּה יַֽעַשׂ־יְהוָה עִמָּכֶם חֶסֶד וֶאֱמֶת וְגַם אָנֹכִי אֶעֱשֶׂה אִתְּכֶם הַטּוֹבָה הַזֹּאת אֲשֶׁר עֲשִׂיתֶם הַדָּבָר הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 4,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-02-10-14",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 10,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "Ish-bosheth Saul's son was forty years old when he began to reign over Israel, and reigned two years. But the house of Judah followed David. And the time that David was king in Hebron over the house of Judah was seven years and six months. And Abner the son of Ner, and the servants of Ish-bosheth the son of Saul, went out from Mahanaim to Gibeon. And Joab the son of Zeruiah, and the servants of David, went out, and met together by the pool of Gibeon: and they sat down, the one on the one side of the pool, and the other on the other side of the pool. And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise.",
+        "riddle": "Let the young men now arise, and play before us.",
+        "speaker": "Abner",
+        "listener": "Joab",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Jethro",
+            "Toi",
+            "Shechem"
+          ],
+          "listener": [
+            "Jedaiah",
+            "Israelites",
+            "Zerahiah"
+          ]
+        },
+        "bonus": "when",
+        "bonus_hint": {
+          "quote": "When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a vagabond shalt thou be in the earth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "בֶּן־אַרְבָּעִים שָׁנָה אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל בְּמָלְכוֹ עַל־יִשְׂרָאֵל וּשְׁתַּיִם שָׁנִים מָלָךְ אַךְ בֵּית יְהוּדָה הָיוּ אַחֲרֵי דָוִֽד וַֽיְהִי מִסְפַּר הַיָּמִים אֲשֶׁר הָיָה דָוִד מֶלֶךְ בְּחֶבְרוֹן עַל־בֵּית יְהוּדָה שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִֽׁים וַיֵּצֵא אַבְנֵר בֶּן־נֵר וְעַבְדֵי אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל מִֽמַּחֲנַיִם גִּבְעֽוֹנָה וְיוֹאָב בֶּן־צְרוּיָה וְעַבְדֵי דָוִד יָֽצְאוּ וַֽיִּפְגְּשׁוּם עַל־בְּרֵכַת גִּבְעוֹן יַחְדָּו וַיֵּשְׁבוּ אֵלֶּה עַל־הַבְּרֵכָה מִזֶּה וְאֵלֶּה עַל־הַבְּרֵכָה מִזֶּֽה וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ",
+        "riddle": "יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ",
+        "speaker": "אַבְנֵר",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "יִתְרוֹ",
+            "תֹּעִי",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "יְדַֽעְיָה",
+            "בְּנֵי־יְהוֹתָם",
+            "זֶרַח בְּנוֹ"
+          ]
+        },
+        "bonus": "אַרְבָּעִים",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי הַמַּבּוּל אַרְבָּעִים יוֹם עַל־הָאָרֶץ וַיִּרְבּוּ הַמַּיִם וַיִּשְׂאוּ אֶת־הַתֵּבָה וַתָּרָם מֵעַל הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 7,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "Ish-bosheth Saul's son was forty years old when he began to reign over Israel, and reigned two years. But the house of Judah followed David.",
+          "11": "And the time that David was king in Hebron over the house of Judah was seven years and six months.",
+          "12": "And Abner the son of Ner, and the servants of Ish-bosheth the son of Saul, went out from Mahanaim to Gibeon.",
+          "13": "And Joab the son of Zeruiah, and the servants of David, went out, and met together by the pool of Gibeon: and they sat down, the one on the one side of the pool, and the other on the other side of the pool.",
+          "14": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise."
+        },
+        "he": {
+          "10": "בֶּן־אַרְבָּעִים שָׁנָה אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל בְּמָלְכוֹ עַל־יִשְׂרָאֵל וּשְׁתַּיִם שָׁנִים מָלָךְ אַךְ בֵּית יְהוּדָה הָיוּ אַחֲרֵי דָוִֽד׃",
+          "11": "וַֽיְהִי מִסְפַּר הַיָּמִים אֲשֶׁר הָיָה דָוִד מֶלֶךְ בְּחֶבְרוֹן עַל־בֵּית יְהוּדָה שֶׁבַע שָׁנִים וְשִׁשָּׁה חֳדָשִֽׁים׃",
+          "12": "וַיֵּצֵא אַבְנֵר בֶּן־נֵר וְעַבְדֵי אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל מִֽמַּחֲנַיִם גִּבְעֽוֹנָה׃",
+          "13": "וְיוֹאָב בֶּן־צְרוּיָה וְעַבְדֵי דָוִד יָֽצְאוּ וַֽיִּפְגְּשׁוּם עַל־בְּרֵכַת גִּבְעוֹן יַחְדָּו וַיֵּשְׁבוּ אֵלֶּה עַל־הַבְּרֵכָה מִזֶּה וְאֵלֶּה עַל־הַבְּרֵכָה מִזֶּֽה׃",
+          "14": "וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 10,
+        "end": 14
+      }
+    }
+  ]
+}

@@ -1,0 +1,285 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 1,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "joshua-01-01-03",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 1,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses' minister, saying, Moses my servant is dead; now therefore arise, go over this Jordan, thou, and all this people, unto the land which I do give to them, even to the children of Israel. Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses.",
+        "riddle": "Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Jehoshaphat",
+            "Zaccur",
+            "Toi"
+          ],
+          "listener": [
+            "Caleb",
+            "Nethaneel",
+            "Zadok and Abiathar"
+          ]
+        },
+        "bonus": "therefore",
+        "bonus_hint": {
+          "quote": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַחֲרֵי מוֹת מֹשֶׁה עֶבֶד יְהוָה וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה לֵאמֹֽר מֹשֶׁה עַבְדִּי מֵת וְעַתָּה קוּם עֲבֹר אֶת־הַיַּרְדֵּן הַזֶּה אַתָּה וְכָל־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לִבְנֵי יִשְׂרָאֵֽל כָּל־מָקוֹם אֲשֶׁר תִּדְרֹךְ כַּֽף־רַגְלְכֶם בּוֹ לָכֶם נְתַתִּיו כַּאֲשֶׁר דִּבַּרְתִּי אֶל־מֹשֶֽׁה",
+        "riddle": "כָּל־מָקוֹם אֲשֶׁר תִּדְרֹךְ כַּֽף־רַגְלְכֶם בּוֹ לָכֶם נְתַתִּיו כַּאֲשֶׁר דִּבַּרְתִּי אֶל־מֹשֶֽׁה",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "יְהוֹשָׁפָט",
+            "זַכּוּר",
+            "תֹּעִי"
+          ],
+          "listener": [
+            "כָּלֵב",
+            "נְתַנְאֵל",
+            "צָדוֹק וְאֶבְיָתָר"
+          ]
+        },
+        "bonus": "הַיַּרְדֵּן",
+        "bonus_hint": {
+          "quote": "כִּי לֹא נִנְחַל אִתָּם מֵעֵבֶר לַיַּרְדֵּן וָהָלְאָה כִּי בָאָה נַחֲלָתֵנוּ אֵלֵינוּ מֵעֵבֶר הַיַּרְדֵּן מִזְרָֽחָה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 32,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now after the death of Moses the servant of the LORD it came to pass, that the LORD spake unto Joshua the son of Nun, Moses' minister, saying,",
+          "2": "Moses my servant is dead; now therefore arise, go over this Jordan, thou, and all this people, unto the land which I do give to them, even to the children of Israel.",
+          "3": "Every place that the sole of your foot shall tread upon, that have I given unto you, as I said unto Moses."
+        },
+        "he": {
+          "1": "וַיְהִי אַחֲרֵי מוֹת מֹשֶׁה עֶבֶד יְהוָה וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה לֵאמֹֽר׃",
+          "2": "מֹשֶׁה עַבְדִּי מֵת וְעַתָּה קוּם עֲבֹר אֶת־הַיַּרְדֵּן הַזֶּה אַתָּה וְכָל־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לִבְנֵי יִשְׂרָאֵֽל׃",
+          "3": "כָּל־מָקוֹם אֲשֶׁר תִּדְרֹךְ כַּֽף־רַגְלְכֶם בּוֹ לָכֶם נְתַתִּיו כַּאֲשֶׁר דִּבַּרְתִּי אֶל־מֹשֶֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "joshua-01-08-10",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success. Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest. Then Joshua commanded the officers of the people, saying,",
+        "riddle": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed:",
+        "speaker": "Joshua",
+        "listener": "officers of the people",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Jethro",
+            "Elkanah",
+            "Uzziah"
+          ],
+          "listener": [
+            "steward",
+            "the congregation",
+            "Elders of Jabesh-gilead"
+          ]
+        },
+        "bonus": "mouth",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Jacob saw Rachel the daughter of Laban his mother's brother, and the sheep of Laban his mother's brother, that Jacob went near, and rolled the stone from the well's mouth, and watered the flock of Laban his mother's brother.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "לֹֽא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ כִּי־אָז תַּצְלִיחַ אֶת־דְּרָכֶךָ וְאָז תַּשְׂכִּֽיל הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת כִּי עִמְּךָ יְהוָה אֱלֹהֶיךָ בְּכֹל אֲשֶׁר תֵּלֵֽךְ וַיְצַו יְהוֹשֻׁעַ אֶת־שֹׁטְרֵי הָעָם לֵאמֹֽר",
+        "riddle": "הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "שֹׁטְרֵי הָעָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "יִתְרוֹ",
+            "אֶלְקָנָה",
+            "עֻזִיָהוּ"
+          ],
+          "listener": [
+            "אֲשֶׁר",
+            "הָעֵדָה",
+            "זִקְנֵי יָבֵישׁ"
+          ]
+        },
+        "bonus": "הַזֶּה",
+        "bonus_hint": {
+          "quote": "בְּעֶצֶם הַיּוֹם הַזֶּה נִמּוֹל אַבְרָהָם וְיִשְׁמָעֵאל בְּנֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 17,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "This book of the law shall not depart out of thy mouth; but thou shalt meditate therein day and night, that thou mayest observe to do according to all that is written therein: for then thou shalt make thy way prosperous, and then thou shalt have good success.",
+          "9": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+          "10": "Then Joshua commanded the officers of the people, saying,"
+        },
+        "he": {
+          "8": "לֹֽא־יָמוּשׁ סֵפֶר הַתּוֹרָה הַזֶּה מִפִּיךָ וְהָגִיתָ בּוֹ יוֹמָם וָלַיְלָה לְמַעַן תִּשְׁמֹר לַעֲשׂוֹת כְּכָל־הַכָּתוּב בּוֹ כִּי־אָז תַּצְלִיחַ אֶת־דְּרָכֶךָ וְאָז תַּשְׂכִּֽיל׃",
+          "9": "הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת כִּי עִמְּךָ יְהוָה אֱלֹהֶיךָ בְּכֹל אֲשֶׁר תֵּלֵֽךְ׃",
+          "10": "וַיְצַו יְהוֹשֻׁעַ אֶת־שֹׁטְרֵי הָעָם לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 10
+      }
+    },
+    {
+      "id": "joshua-01-09-11",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 1,
+        "quote_verse_start": 9,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest. Then Joshua commanded the officers of the people, saying, Pass through the host, and command the people, saying, Prepare you victuals; for within three days ye shall pass over this Jordan, to go in to possess the land, which the LORD your God giveth you to possess it.",
+        "riddle": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+        "speaker": "Joshua",
+        "listener": "officers of the people",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "king Ahaz",
+            "Uzziah",
+            "Shechem"
+          ],
+          "listener": [
+            "Congregation",
+            "taskmasters and officers",
+            "sons of Jacob"
+          ]
+        },
+        "bonus": "host",
+        "bonus_hint": {
+          "quote": "And I, behold, I will harden the hearts of the Egyptians, and they shall follow them: and I will get me honour upon Pharaoh, and upon all his host, upon his chariots, and upon his horsemen.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 14,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת כִּי עִמְּךָ יְהוָה אֱלֹהֶיךָ בְּכֹל אֲשֶׁר תֵּלֵֽךְ וַיְצַו יְהוֹשֻׁעַ אֶת־שֹׁטְרֵי הָעָם לֵאמֹֽר עִבְרוּ בְּקֶרֶב הַֽמַּחֲנֶה וְצַוּוּ אֶת־הָעָם לֵאמֹר הָכִינוּ לָכֶם צֵידָה כִּי בְּעוֹד שְׁלֹשֶׁת יָמִים אַתֶּם עֹֽבְרִים אֶת־הַיַּרְדֵּן הַזֶּה לָבוֹא לָרֶשֶׁת אֶת־הָאָרֶץ אֲשֶׁר יְהוָה אֱלֹֽהֵיכֶם נֹתֵן לָכֶם לְרִשְׁתָּֽהּ",
+        "riddle": "הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת כִּי עִמְּךָ יְהוָה אֱלֹהֶיךָ בְּכֹל אֲשֶׁר תֵּלֵֽךְ",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "שֹׁטְרֵי הָעָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "הַמֶּלֶךְ אָחָז",
+            "עֻזִיָּה",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "קָהָֽל",
+            "הַנֹּגְשִׂים וְהַשֹׁטְרִים",
+            "בְּנֵי יַעֲקֹב"
+          ]
+        },
+        "bonus": "אֱלֹֽהֵיכֶם",
+        "bonus_hint": {
+          "quote": "כִּי אֲנִי יְהוָה אֱלֹֽהֵיכֶם וְהִתְקַדִּשְׁתֶּם וִהְיִיתֶם קְדֹשִׁים כִּי קָדוֹשׁ אָנִי וְלֹא תְטַמְּאוּ אֶת־נַפְשֹׁתֵיכֶם בְּכָל־הַשֶּׁרֶץ הָרֹמֵשׂ עַל־הָאָֽרֶץ",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 11,
+            "start": 44,
+            "end": 44
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Have not I commanded thee? Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest.",
+          "10": "Then Joshua commanded the officers of the people, saying,",
+          "11": "Pass through the host, and command the people, saying, Prepare you victuals; for within three days ye shall pass over this Jordan, to go in to possess the land, which the LORD your God giveth you to possess it."
+        },
+        "he": {
+          "9": "הֲלוֹא צִוִּיתִיךָ חֲזַק וֶאֱמָץ אַֽל־תַּעֲרֹץ וְאַל־תֵּחָת כִּי עִמְּךָ יְהוָה אֱלֹהֶיךָ בְּכֹל אֲשֶׁר תֵּלֵֽךְ׃",
+          "10": "וַיְצַו יְהוֹשֻׁעַ אֶת־שֹׁטְרֵי הָעָם לֵאמֹֽר׃",
+          "11": "עִבְרוּ ׀ בְּקֶרֶב הַֽמַּחֲנֶה וְצַוּוּ אֶת־הָעָם לֵאמֹר הָכִינוּ לָכֶם צֵידָה כִּי בְּעוֹד ׀ שְׁלֹשֶׁת יָמִים אַתֶּם עֹֽבְרִים אֶת־הַיַּרְדֵּן הַזֶּה לָבוֹא לָרֶשֶׁת אֶת־הָאָרֶץ אֲשֶׁר יְהוָה אֱלֹֽהֵיכֶם נֹתֵן לָכֶם לְרִשְׁתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 9,
+        "end": 11
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "book_code": "1CH",
+  "book": "1 Chronicles",
+  "book_he": "דברי הימים א",
+  "chapter": 5,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-chronicles-05-02-04",
+      "source": {
+        "book_code": "1CH",
+        "book": "1 Chronicles",
+        "book_he": "דברי הימים א",
+        "chapter": 5,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph's:) The sons, I say, of Reuben the firstborn of Israel were, Hannoch, and Pallu, Hezron, and Carmi. The sons of Joel; Shemaiah his son, Gog his son, Shimei his son,",
+        "riddle": "the birthright was Joseph's",
+        "speaker": "Judah",
+        "listener": "Joseph",
+        "book": "1 Chronicles",
+        "options": {
+          "speaker": [
+            "Caleb",
+            "Absalom",
+            "Zedekiah"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "the maid"
+          ]
+        },
+        "bonus": "ruler",
+        "bonus_hint": {
+          "quote": "Now therefore so shalt thou say unto my servant David, Thus saith the LORD of hosts, I took thee from the sheepcote, from following the sheep, to be ruler over my people, over Israel:",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 7,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "כִּי יְהוּדָה גָּבַר בְּאֶחָיו וּלְנָגִיד מִמֶּנּוּ וְהַבְּכֹרָה לְיוֹסֵֽף בְּנֵי רְאוּבֵן בְּכוֹר יִשְׂרָאֵל חֲנוֹךְ וּפַלּוּא חֶצְרוֹן וְכַרְמִֽי בְּנֵי יוֹאֵל שְׁמַֽעְיָה בְנוֹ גּוֹג בְּנוֹ שִׁמְעִי בְנֽוֹ",
+        "riddle": "וְהַבְּכֹרָה לְיוֹסֵֽף",
+        "speaker": "יְהוּדָה",
+        "listener": "יוֹסֵף",
+        "book": "דברי הימים א",
+        "options": {
+          "speaker": [
+            "כָּלֵב",
+            "אַבְשָׁלוֹם",
+            "צִדְקִיָּהוּ"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָּמָר",
+            "הָֽעַלְמָה"
+          ]
+        },
+        "bonus": "גָּבַר",
+        "bonus_hint": {
+          "quote": "כִּי כִגְבֹהַּ שָׁמַיִם עַל־הָאָרֶץ גָּבַר חַסְדּוֹ עַל־יְרֵאָֽיו",
+          "source": {
+            "book": "תהילים",
+            "chapter": 103,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "For Judah prevailed above his brethren, and of him came the chief ruler; but the birthright was Joseph's:)",
+          "3": "The sons, I say, of Reuben the firstborn of Israel were, Hannoch, and Pallu, Hezron, and Carmi.",
+          "4": "The sons of Joel; Shemaiah his son, Gog his son, Shimei his son,"
+        },
+        "he": {
+          "2": "כִּי יְהוּדָה גָּבַר בְּאֶחָיו וּלְנָגִיד מִמֶּנּוּ וְהַבְּכֹרָה לְיוֹסֵֽף׃",
+          "3": "בְּנֵי רְאוּבֵן בְּכוֹר יִשְׂרָאֵל חֲנוֹךְ וּפַלּוּא חֶצְרוֹן וְכַרְמִֽי׃",
+          "4": "בְּנֵי יוֹאֵל שְׁמַֽעְיָה בְנוֹ גּוֹג בְּנוֹ שִׁמְעִי בְנֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 2,
+        "end": 4
+      }
+    }
+  ]
+}

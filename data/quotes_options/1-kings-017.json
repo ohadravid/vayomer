@@ -1,0 +1,197 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 17,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-kings-17-01-03",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word. And the word of the LORD came unto him, saying, Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan.",
+        "riddle": "Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan.",
+        "speaker": "Elijah",
+        "listener": "Ahab",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Absalom",
+            "Uzzi"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Jerahmiel's wife"
+          ]
+        },
+        "bonus": "inhabitants",
+        "bonus_hint": {
+          "quote": "And the land is defiled: therefore I do visit the iniquity thereof upon it, and the land itself vomiteth out her inhabitants.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 18,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי וַיְהִי דְבַר־יְהוָה אֵלָיו לֵאמֹֽר לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן",
+        "riddle": "לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אַחְאָב",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּהוּ",
+            "אַבְשָׁלוֹם",
+            "יוֹאָח"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "וְאֵשׁ יָרָבְעָם"
+          ]
+        },
+        "bonus": "חַי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ שָׁאוֹל שָֽׁאַל־הָאִישׁ לָנוּ וּלְמֽוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 43,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.",
+          "2": "And the word of the LORD came unto him, saying,",
+          "3": "Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי׃",
+          "2": "וַיְהִי דְבַר־יְהוָה אֵלָיו לֵאמֹֽר׃",
+          "3": "לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-kings-17-09-13",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 9,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee. So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink. And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand. And she said, As the LORD thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse: and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die. And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son.",
+        "riddle": "Fetch me, I pray thee, a little water in a vessel, that I may drink",
+        "speaker": "Elijah",
+        "listener": "widow woman",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Jeshua",
+            "Barak",
+            "Zerubbabel"
+          ],
+          "listener": [
+            "Sarah",
+            "woman of Tekoah",
+            "Ruth"
+          ]
+        },
+        "bonus": "Arise",
+        "bonus_hint": {
+          "quote": "Arise, go to Padan-aram, to the house of Bethuel thy mother's father; and take thee a wife from thence of the daughters of Laban thy mother's brother.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 28,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "קוּם לֵךְ צָרְפַתָה אֲשֶׁר לְצִידוֹן וְיָשַׁבְתָּ שָׁם הִנֵּה צִוִּיתִי שָׁם אִשָּׁה אַלְמָנָה לְכַלְכְּלֶֽךָ וַיָּקָם וַיֵּלֶךְ צָרְפַתָה וַיָּבֹא אֶל־פֶּתַח הָעִיר וְהִנֵּֽה־שָׁם אִשָּׁה אַלְמָנָה מְקֹשֶׁשֶׁת עֵצִים וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר קְחִי־נָא לִי מְעַט־מַיִם בַּכְּלִי וְאֶשְׁתֶּֽה וַתֵּלֶךְ לָקַחַת וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר לִֽקְחִי־נָא לִי פַּת־לֶחֶם בְּיָדֵֽךְ וַתֹּאמֶר חַי־יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־לִי מָעוֹג כִּי אִם־מְלֹא כַף־קֶמַח בַּכַּד וּמְעַט־שֶׁמֶן בַּצַּפָּחַת וְהִנְנִי מְקֹשֶׁשֶׁת שְׁנַיִם עֵצִים וּבָאתִי וַעֲשִׂיתִיהוּ לִי וְלִבְנִי וַאֲכַלְנֻהוּ וָמָֽתְנוּ וַיֹּאמֶר אֵלֶיהָ אֵלִיָּהוּ אַל־תִּירְאִי בֹּאִי עֲשִׂי כִדְבָרֵךְ אַךְ עֲשִׂי־לִֽי־מִשָּׁם עֻגָה קְטַנָּה בָרִאשֹׁנָה וְהוֹצֵאתְ לִי וְלָךְ וְלִבְנֵךְ תַּעֲשִׂי בָּאַחֲרֹנָֽה",
+        "riddle": "קְחִי־נָא לִי מְעַט־מַיִם בַּכְּלִי וְאֶשְׁתֶּֽה",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אִשָּׁה אַלְמָנָה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "יֵשׁוּעַ",
+            "בָּרָק",
+            "זְרֻבָּבֶל"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "האישה הַתְּקוֹעִית",
+            "רוּת"
+          ]
+        },
+        "bonus": "קוּם",
+        "bonus_hint": {
+          "quote": "אָנֹכִי הָאֵל בֵּֽית־אֵל אֲשֶׁר מָשַׁחְתָּ שָּׁם מַצֵּבָה אֲשֶׁר נָדַרְתָּ לִּי שָׁם נֶדֶר עַתָּה קוּם צֵא מִן־הָאָרֶץ הַזֹּאת וְשׁוּב אֶל־אֶרֶץ מוֹלַדְתֶּֽךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee.",
+          "10": "So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink.",
+          "11": "And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand.",
+          "12": "And she said, As the LORD thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse: and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die.",
+          "13": "And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son."
+        },
+        "he": {
+          "9": "קוּם לֵךְ צָרְפַתָה אֲשֶׁר לְצִידוֹן וְיָשַׁבְתָּ שָׁם הִנֵּה צִוִּיתִי שָׁם אִשָּׁה אַלְמָנָה לְכַלְכְּלֶֽךָ׃",
+          "10": "וַיָּקָם ׀ וַיֵּלֶךְ צָרְפַתָה וַיָּבֹא אֶל־פֶּתַח הָעִיר וְהִנֵּֽה־שָׁם אִשָּׁה אַלְמָנָה מְקֹשֶׁשֶׁת עֵצִים וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר קְחִי־נָא לִי מְעַט־מַיִם בַּכְּלִי וְאֶשְׁתֶּֽה׃",
+          "11": "וַתֵּלֶךְ לָקַחַת וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר לִֽקְחִי־נָא לִי פַּת־לֶחֶם בְּיָדֵֽךְ׃",
+          "12": "וַתֹּאמֶר חַי־יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־לִי מָעוֹג כִּי אִם־מְלֹא כַף־קֶמַח בַּכַּד וּמְעַט־שֶׁמֶן בַּצַּפָּחַת וְהִנְנִי מְקֹשֶׁשֶׁת שְׁנַיִם עֵצִים וּבָאתִי וַעֲשִׂיתִיהוּ לִי וְלִבְנִי וַאֲכַלְנֻהוּ וָמָֽתְנוּ׃",
+          "13": "וַיֹּאמֶר אֵלֶיהָ אֵלִיָּהוּ אַל־תִּירְאִי בֹּאִי עֲשִׂי כִדְבָרֵךְ אַךְ עֲשִׂי־לִֽי־מִשָּׁם עֻגָה קְטַנָּה בָרִאשֹׁנָה וְהוֹצֵאתְ לִי וְלָךְ וְלִבְנֵךְ תַּעֲשִׂי בָּאַחֲרֹנָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 13
+      }
+    }
+  ]
+}

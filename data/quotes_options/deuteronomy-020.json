@@ -1,0 +1,101 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 20,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "deuteronomy-20-09-11",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 20,
+        "quote_verse_start": 9,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "And it shall be, when the officers have made an end of speaking unto the people, that they shall make captains of the armies to lead the people. When thou comest nigh unto a city to fight against it, then proclaim peace unto it. And it shall be, if it make thee answer of peace, and open unto thee, then it shall be, that all the people that is found therein shall be tributaries unto thee, and they shall serve thee.",
+        "riddle": "then proclaim peace unto it",
+        "speaker": "officers",
+        "listener": "people",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Zaccur",
+            "Shechem",
+            "Toi"
+          ],
+          "listener": [
+            "sons of Heth",
+            "the Jews",
+            "Ziphites"
+          ]
+        },
+        "bonus": "serve",
+        "bonus_hint": {
+          "quote": "And he said unto Abram, Know of a surety that thy seed shall be a stranger in a land that is not theirs, and shall serve them; and they shall afflict them four hundred years;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 15,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהָיָה כְּכַלֹּת הַשֹּׁטְרִים לְדַבֵּר אֶל־הָעָם וּפָקְדוּ שָׂרֵי צְבָאוֹת בְּרֹאשׁ הָעָֽם כִּֽי־תִקְרַב אֶל־עִיר לְהִלָּחֵם עָלֶיהָ וְקָרָאתָ אֵלֶיהָ לְשָׁלֽוֹם וְהָיָה אִם־שָׁלוֹם תַּֽעַנְךָ וּפָתְחָה לָךְ וְהָיָה כָּל־הָעָם הַנִּמְצָא־בָהּ יִהְיוּ לְךָ לָמַס וַעֲבָדֽוּךָ",
+        "riddle": "וְקָרָאתָ אֵלֶיהָ לְשָׁלֽוֹם",
+        "speaker": "הַשֹּׁטְרִים",
+        "listener": "הָעָם",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "זַכּוּר",
+            "שְׁכֶם",
+            "תֹּעִי"
+          ],
+          "listener": [
+            "בְּנֵי־חֵת",
+            "הַיְּהוּדִים",
+            "הַזִּפִים"
+          ]
+        },
+        "bonus": "שָׁלוֹם",
+        "bonus_hint": {
+          "quote": "וְנָתַתִּי שָׁלוֹם בָּאָרֶץ וּשְׁכַבְתֶּם וְאֵין מַחֲרִיד וְהִשְׁבַּתִּי חַיָּה רָעָה מִן־הָאָרֶץ וְחֶרֶב לֹא־תַעֲבֹר בְּאַרְצְכֶֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 26,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And it shall be, when the officers have made an end of speaking unto the people, that they shall make captains of the armies to lead the people.",
+          "10": "When thou comest nigh unto a city to fight against it, then proclaim peace unto it.",
+          "11": "And it shall be, if it make thee answer of peace, and open unto thee, then it shall be, that all the people that is found therein shall be tributaries unto thee, and they shall serve thee."
+        },
+        "he": {
+          "9": "וְהָיָה כְּכַלֹּת הַשֹּׁטְרִים לְדַבֵּר אֶל־הָעָם וּפָקְדוּ שָׂרֵי צְבָאוֹת בְּרֹאשׁ הָעָֽם׃",
+          "10": "כִּֽי־תִקְרַב אֶל־עִיר לְהִלָּחֵם עָלֶיהָ וְקָרָאתָ אֵלֶיהָ לְשָׁלֽוֹם׃",
+          "11": "וְהָיָה אִם־שָׁלוֹם תַּֽעַנְךָ וּפָתְחָה לָךְ וְהָיָה כָּל־הָעָם הַנִּמְצָא־בָהּ יִהְיוּ לְךָ לָמַס וַעֲבָדֽוּךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 9,
+        "end": 11
+      }
+    }
+  ]
+}

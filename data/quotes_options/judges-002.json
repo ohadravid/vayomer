@@ -1,0 +1,101 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 2,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "judges-02-04-06",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 2,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And it came to pass, when the angel of the LORD spake these words unto all the children of Israel, that the people lifted up their voice, and wept. And they called the name of that place Bochim: and they sacrificed there unto the LORD. And when Joshua had let the people go, the children of Israel went every man unto his inheritance to possess the land.",
+        "riddle": "And they called the name of that place Bochim",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Jeroboam",
+            "Uzza"
+          ],
+          "listener": [
+            "the people of Israel",
+            "sons of Jacob",
+            "Esau"
+          ]
+        },
+        "bonus": "lifted",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כְּדַבֵּר מַלְאַךְ יְהוָה אֶת־הַדְּבָרִים הָאֵלֶּה אֶֽל־כָּל־בְּנֵי יִשְׂרָאֵל וַיִּשְׂאוּ הָעָם אֶת־קוֹלָם וַיִּבְכּֽוּ וַֽיִּקְרְאוּ שֵֽׁם־הַמָּקוֹם הַהוּא בֹּכִים וַיִּזְבְּחוּ־שָׁם לַֽיהוָֽה וַיְשַׁלַּח יְהוֹשֻׁעַ אֶת־הָעָם וַיֵּלְכוּ בְנֵֽי־יִשְׂרָאֵל אִישׁ לְנַחֲלָתוֹ לָרֶשֶׁת אֶת־הָאָֽרֶץ",
+        "riddle": "וַֽיִּקְרְאוּ שֵֽׁם־הַמָּקוֹם הַהוּא בֹּכִים",
+        "speaker": "יְהוָה",
+        "listener": "הָעָם",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "שָׁאוּל",
+            "יָרָבְעָם",
+            "עֻזָּא"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "בְּנֵי יַעֲקֹב",
+            "עֵשָׂו"
+          ]
+        },
+        "bonus": "הַדְּבָרִים",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ שָׁאוֹל שָֽׁאַל־הָאִישׁ לָנוּ וּלְמֽוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 43,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And it came to pass, when the angel of the LORD spake these words unto all the children of Israel, that the people lifted up their voice, and wept.",
+          "5": "And they called the name of that place Bochim: and they sacrificed there unto the LORD.",
+          "6": "And when Joshua had let the people go, the children of Israel went every man unto his inheritance to possess the land."
+        },
+        "he": {
+          "4": "וַיְהִי כְּדַבֵּר מַלְאַךְ יְהוָה אֶת־הַדְּבָרִים הָאֵלֶּה אֶֽל־כָּל־בְּנֵי יִשְׂרָאֵל וַיִּשְׂאוּ הָעָם אֶת־קוֹלָם וַיִּבְכּֽוּ׃",
+          "5": "וַֽיִּקְרְאוּ שֵֽׁם־הַמָּקוֹם הַהוּא בֹּכִים וַיִּזְבְּחוּ־שָׁם לַֽיהוָֽה׃",
+          "6": "וַיְשַׁלַּח יְהוֹשֻׁעַ אֶת־הָעָם וַיֵּלְכוּ בְנֵֽי־יִשְׂרָאֵל אִישׁ לְנַחֲלָתוֹ לָרֶשֶׁת אֶת־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 4,
+        "end": 6
+      }
+    }
+  ]
+}

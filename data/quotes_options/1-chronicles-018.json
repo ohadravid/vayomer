@@ -1,0 +1,101 @@
+{
+  "book_code": "1CH",
+  "book": "1 Chronicles",
+  "book_he": "דברי הימים א",
+  "chapter": 18,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-chronicles-18-13-14",
+      "source": {
+        "book_code": "1CH",
+        "book": "1 Chronicles",
+        "book_he": "דברי הימים א",
+        "chapter": 18,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And he put garrisons in Edom; and all the Edomites became David's servants. Thus the LORD preserved David whithersoever he went. So David reigned over all Israel, and executed judgment and justice among all his people.",
+        "riddle": "So David reigned over all Israel, and executed judgment and justice among all his people",
+        "speaker": "David",
+        "listener": "his people",
+        "book": "1 Chronicles",
+        "options": {
+          "speaker": [
+            "Uzziah",
+            "Toi",
+            "Elioenai"
+          ],
+          "listener": [
+            "sons of Jacob",
+            "the congregation",
+            "the servant"
+          ]
+        },
+        "bonus": "Thus",
+        "bonus_hint": {
+          "quote": "Thus God hath taken away the cattle of your father, and given them to me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּשֶׂם בֶּֽאֱדוֹם נְצִיבִים וַיִּהְיוּ כָל־אֱדוֹם עֲבָדִים לְדָוִיד וַיּוֹשַׁע יְהוָה אֶת־דָּוִיד בְּכֹל אֲשֶׁר הָלָֽךְ וַיִּמְלֹךְ דָּוִיד עַל־כָּל־יִשְׂרָאֵל וַיְהִי עֹשֶׂה מִשְׁפָּט וּצְדָקָה לְכָל־עַמּֽוֹ",
+        "riddle": "וַיִּמְלֹךְ דָּוִיד עַל־כָּל־יִשְׂרָאֵל וַיְהִי עֹשֶׂה מִשְׁפָּט וּצְדָקָה לְכָל־עַמּֽוֹ",
+        "speaker": "דָּוִיד",
+        "listener": "כָּל־עַמּֽוֹ",
+        "book": "דברי הימים א",
+        "options": {
+          "speaker": [
+            "עֻזִיָּה",
+            "תֹּעִי",
+            "אֶלְיְהוֹעֵינַי"
+          ],
+          "listener": [
+            "בְּנֵי יַעֲקֹב",
+            "הָעֵדָה",
+            "הָעֶבֶד"
+          ]
+        },
+        "bonus": "נְצִיבִים",
+        "bonus_hint": {
+          "quote": "וַיִּתֶּן־חַיִל בְּכָל־עָרֵי יְהוּדָה הַבְּצֻרוֹת וַיִּתֵּן נְצִיבִים בְּאֶרֶץ יְהוּדָה וּבְעָרֵי אֶפְרַיִם אֲשֶׁר לָכַד אָסָא אָבִֽיו",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 17,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he put garrisons in Edom; and all the Edomites became David's servants. Thus the LORD preserved David whithersoever he went.",
+          "14": "So David reigned over all Israel, and executed judgment and justice among all his people."
+        },
+        "he": {
+          "13": "וַיָּשֶׂם בֶּֽאֱדוֹם נְצִיבִים וַיִּהְיוּ כָל־אֱדוֹם עֲבָדִים לְדָוִיד וַיּוֹשַׁע יְהוָה אֶת־דָּוִיד בְּכֹל אֲשֶׁר הָלָֽךְ",
+          "14": "וַיִּמְלֹךְ דָּוִיד עַל־כָּל־יִשְׂרָאֵל וַיְהִי עֹשֶׂה מִשְׁפָּט וּצְדָקָה לְכָל־עַמּֽוֹ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-chronicles-18-14-14",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ]
+}

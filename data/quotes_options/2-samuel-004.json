@@ -1,0 +1,99 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 4,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "2-samuel-04-05-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 4,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the sons of Rimmon the Beerothite, Rechab and Baanah, went, and came about the heat of the day to the house of Ish-bosheth, who lay on a bed at noon. And they came thither into the midst of the house, as though they would have fetched wheat; and they smote him under the fifth rib: and Rechab and Baanah his brother escaped.",
+        "riddle": "and they smote him under the fifth rib",
+        "speaker": "Rechab and Baanah",
+        "listener": "Ish-bosheth",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Micaiah",
+            "Uzziah",
+            "Jehoiada"
+          ],
+          "listener": [
+            "Ziba",
+            "Sarah",
+            "Naboth"
+          ]
+        },
+        "bonus": "lay",
+        "bonus_hint": {
+          "quote": "But before they lay down, the men of the city, even the men of Sodom, compassed the house round, both old and young, all the people from every quarter:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּלְכוּ בְּנֵֽי־רִמּוֹן הַבְּאֵֽרֹתִי רֵכָב וּבַעֲנָה וַיָּבֹאוּ כְּחֹם הַיּוֹם אֶל־בֵּית אִישׁ בֹּשֶׁת וְהוּא שֹׁכֵב אֵת מִשְׁכַּב הַֽצָּהֳרָֽיִם וְהֵנָּה בָּאוּ עַד־תּוֹךְ הַבַּיִת לֹקְחֵי חִטִּים וַיַּכֻּהוּ אֶל־הַחֹמֶשׁ וְרֵכָב וּבַעֲנָה אָחִיו נִמְלָֽטוּ",
+        "riddle": "וַיַּכֻּהוּ אֶל־הַחֹמֶשׁ",
+        "speaker": "רֵכָב וּבַעֲנָה",
+        "listener": "אִישׁ בֹּשֶׁת",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "מִיכָיְהוּ",
+            "עֻזִיָהוּ",
+            "יְהוֹיָדָע"
+          ],
+          "listener": [
+            "צִיבָא",
+            "שָׂרָה",
+            "נָבוֹת"
+          ]
+        },
+        "bonus": "שֹׁכֵב",
+        "bonus_hint": {
+          "quote": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+          "source": {
+            "book": "דברים",
+            "chapter": 27,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the sons of Rimmon the Beerothite, Rechab and Baanah, went, and came about the heat of the day to the house of Ish-bosheth, who lay on a bed at noon.",
+          "6": "And they came thither into the midst of the house, as though they would have fetched wheat; and they smote him under the fifth rib: and Rechab and Baanah his brother escaped."
+        },
+        "he": {
+          "5": "וַיֵּלְכוּ בְּנֵֽי־רִמּוֹן הַבְּאֵֽרֹתִי רֵכָב וּבַעֲנָה וַיָּבֹאוּ כְּחֹם הַיּוֹם אֶל־בֵּית אִישׁ בֹּשֶׁת וְהוּא שֹׁכֵב אֵת מִשְׁכַּב הַֽצָּהֳרָֽיִם׃",
+          "6": "וְהֵנָּה בָּאוּ עַד־תּוֹךְ הַבַּיִת לֹקְחֵי חִטִּים וַיַּכֻּהוּ אֶל־הַחֹמֶשׁ וְרֵכָב וּבַעֲנָה אָחִיו נִמְלָֽטוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 5,
+        "end": 6
+      }
+    }
+  ]
+}

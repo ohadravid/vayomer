@@ -1,51 +1,42 @@
 import type { PuzzleItem } from "../types";
+import manifest from "./puzzleManifest.json";
 
-type ChapterPayload = {
-  items?: unknown;
+export type PuzzleManifestEntry = {
+  id: string;
+  file: string;
 };
 
-function sortedPayloadsFromGlob(modules: Record<string, unknown>): ChapterPayload[] {
-  return Object.entries(modules)
-    .sort(([left], [right]) => left.localeCompare(right))
-    .map(([, payload]) => payload as ChapterPayload);
+type ChapterPayload = {
+  items: PuzzleItem[];
+};
+
+const QUOTES_BASE_URL = "/quotes";
+const chapterCache = new Map<string, Promise<PuzzleItem[]>>();
+
+export const PUZZLE_MANIFEST = manifest as PuzzleManifestEntry[];
+
+export async function loadPuzzleChapter(file: string): Promise<PuzzleItem[]> {
+  const cached = chapterCache.get(file);
+  if (cached) return cached;
+
+  const promise = (async () => {
+    const res = await fetch(`${QUOTES_BASE_URL}/${file}`);
+
+    if (!res.ok) {
+      throw new Error(`Failed to fetch ${file}: ${res.status} ${res.statusText}`);
+    }
+
+    const payload = (await res.json()) as ChapterPayload;
+    return payload.items ?? [];
+  })();
+
+  chapterCache.set(file, promise);
+  return promise;
 }
 
-const CHAPTER_PAYLOADS = [
-  ...sortedPayloadsFromGlob(
-    import.meta.glob("/data/quotes_options/*.json", {
-      eager: true,
-      import: "default",
-    })
-  ),
-  ...sortedPayloadsFromGlob(
-    import.meta.glob("/data/manual_quotes/*.json", {
-      eager: true,
-      import: "default",
-    })
-  ),
-];
-
-function normalizeSourceMethod(item: PuzzleItem): PuzzleItem {
-  if (!item.source) return item;
-  const sourceMethod = item.source.method === "manual" ? "manual" : "llm";
-  if (item.source.method === sourceMethod) return item;
-  return {
-    ...item,
-    source: {
-      ...item.source,
-      method: sourceMethod,
-    },
-  };
-}
-
-function parsePuzzleItems(data: unknown): PuzzleItem[] {
-  const payload = (data as { items?: unknown }).items ?? data;
-  if (!Array.isArray(payload)) return [];
-  return payload
-    .filter((item): item is PuzzleItem => !!item && typeof item === "object")
-    .map((item) => normalizeSourceMethod(item));
-}
-
-export function loadPuzzleItems(): PuzzleItem[] {
-  return CHAPTER_PAYLOADS.flatMap((chapter) => parsePuzzleItems(chapter));
+export async function loadPuzzleItemById(id: string): Promise<PuzzleItem | null> {
+  const match = PUZZLE_MANIFEST.find((entry) => entry.id === id);
+  if (!match) return null;
+  const chapterItems = await loadPuzzleChapter(match.file);
+  return chapterItems.find((item) => item.id === id) ?? null;
 }

@@ -1,0 +1,293 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 11,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-kings-11-04-06",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "For it came to pass, when Solomon was old, that his wives turned away his heart after other gods: and his heart was not perfect with the LORD his God, as was the heart of David his father. For Solomon went after Ashtoreth the goddess of the Zidonians, and after Milcom the abomination of the Ammonites. And Solomon did evil in the sight of the LORD, and went not fully after the LORD, as did David his father.",
+        "riddle": "And Solomon did evil in the sight of the LORD",
+        "speaker": "Solomon",
+        "listener": "the LORD",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Toi",
+            "Hanun"
+          ],
+          "listener": [
+            "Ziphites",
+            "Zedekiah",
+            "People of Jabesh"
+          ]
+        },
+        "bonus": "wives",
+        "bonus_hint": {
+          "quote": "That the sons of God saw the daughters of men that they were fair; and they took them wives of all which they chose.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי לְעֵת זִקְנַת שְׁלֹמֹה נָשָׁיו הִטּוּ אֶת־לְבָבוֹ אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא־הָיָה לְבָבוֹ שָׁלֵם עִם־יְהוָה אֱלֹהָיו כִּלְבַב דָּוִיד אָבִֽיו וַיֵּלֶךְ שְׁלֹמֹה אַחֲרֵי עַשְׁתֹּרֶת אֱלֹהֵי צִדֹנִים וְאַחֲרֵי מִלְכֹּם שִׁקֻּץ עַמֹּנִֽים וַיַּעַשׂ שְׁלֹמֹה הָרַע בְּעֵינֵי יְהוָה וְלֹא מִלֵּא אַחֲרֵי יְהוָה כְּדָוִד אָבִֽיו",
+        "riddle": "וַיֵּלֶךְ שְׁלֹמֹה אַחֲרֵי עַשְׁתֹּרֶת אֱלֹהֵי צִדֹנִים וְאַחֲרֵי מִלְכֹּם שִׁקֻּץ עַמֹּנִֽים וַיַּעַשׂ שְׁלֹמֹה הָרַע בְּעֵינֵי יְהוָה",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "תֹּעִי",
+            "חָנוּן"
+          ],
+          "listener": [
+            "הַזִּפִים",
+            "צִדְקִיָּהוּ",
+            "אַנְשֵׁי יָבֵֽישׁ"
+          ]
+        },
+        "bonus": "אָבִֽיו",
+        "bonus_hint": {
+          "quote": "וְלֹֽא־אֵחַר הַנַּעַר לַעֲשׂוֹת הַדָּבָר כִּי חָפֵץ בְּבַֽת־יַעֲקֹב וְהוּא נִכְבָּד מִכֹּל בֵּית אָבִֽיו",
+          "source": {
+            "book": "בראשית",
+            "chapter": 34,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "For it came to pass, when Solomon was old, that his wives turned away his heart after other gods: and his heart was not perfect with the LORD his God, as was the heart of David his father.",
+          "5": "For Solomon went after Ashtoreth the goddess of the Zidonians, and after Milcom the abomination of the Ammonites.",
+          "6": "And Solomon did evil in the sight of the LORD, and went not fully after the LORD, as did David his father."
+        },
+        "he": {
+          "4": "וַיְהִי לְעֵת זִקְנַת שְׁלֹמֹה נָשָׁיו הִטּוּ אֶת־לְבָבוֹ אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא־הָיָה לְבָבוֹ שָׁלֵם עִם־יְהוָה אֱלֹהָיו כִּלְבַב דָּוִיד אָבִֽיו",
+          "5": "וַיֵּלֶךְ שְׁלֹמֹה אַחֲרֵי עַשְׁתֹּרֶת אֱלֹהֵי צִדֹנִים וְאַחֲרֵי מִלְכֹּם שִׁקֻּץ עַמֹּנִֽים",
+          "6": "וַיַּעַשׂ שְׁלֹמֹה הָרַע בְּעֵינֵי יְהוָה וְלֹא מִלֵּא אַחֲרֵי יְהוָה כְּדָוִד אָבִֽיו"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-kings-11-05-06",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-kings-11-08-12",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 8,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And likewise did he for all his strange wives, which burnt incense and sacrificed unto their gods. And the LORD was angry with Solomon, because his heart was turned from the LORD God of Israel, which had appeared unto him twice, And had commanded him concerning this thing, that he should not go after other gods: but he kept not that which the LORD commanded. Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant. Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son.",
+        "riddle": "And had commanded him concerning this thing, that he should not go after other gods",
+        "speaker": "the LORD God",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Sarah",
+            "Zeresh",
+            "Uzzi"
+          ],
+          "listener": [
+            "Ziba",
+            "servant",
+            "Sarah"
+          ]
+        },
+        "bonus": "because",
+        "bonus_hint": {
+          "quote": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 12,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וְכֵן עָשָׂה לְכָל־נָשָׁיו הַנָּכְרִיּוֹת מַקְטִירוֹת וּֽמְזַבְּחוֹת לֵאלֹהֵיהֶֽן וַיִּתְאַנַּף יְהוָה בִּשְׁלֹמֹה כִּֽי־נָטָה לְבָבוֹ מֵעִם יְהוָה אֱלֹהֵי יִשְׂרָאֵל הַנִּרְאָה אֵלָיו פַּעֲמָֽיִם וְצִוָּה אֵלָיו עַל־הַדָּבָר הַזֶּה לְבִלְתִּי־לֶכֶת אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא שָׁמַר אֵת אֲשֶׁר־צִוָּה יְהוָֽה וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "riddle": "וְצִוָּה אֵלָיו עַל־הַדָּבָר הַזֶּה לְבִלְתִּי־לֶכֶת אַחֲרֵי אֱלֹהִים אֲחֵרִים",
+        "speaker": "יְהוָה",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "שָׂרָה",
+            "זֶרֶשׁ",
+            "יוֹאָח"
+          ],
+          "listener": [
+            "צִיבָא",
+            "נַעֲרוֹ",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "מֵעִם",
+        "bonus_hint": {
+          "quote": "וַיֵּצֵא מֹשֶׁה וְאַהֲרֹן מֵעִם פַּרְעֹה וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה עַל־דְּבַר הַֽצְפַרְדְּעִים אֲשֶׁר־שָׂם לְפַרְעֹֽה",
+          "source": {
+            "book": "שמות",
+            "chapter": 8,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And likewise did he for all his strange wives, which burnt incense and sacrificed unto their gods.",
+          "9": "And the LORD was angry with Solomon, because his heart was turned from the LORD God of Israel, which had appeared unto him twice,",
+          "10": "And had commanded him concerning this thing, that he should not go after other gods: but he kept not that which the LORD commanded.",
+          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
+          "12": "Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son."
+        },
+        "he": {
+          "8": "וְכֵן עָשָׂה לְכָל־נָשָׁיו הַנָּכְרִיּוֹת מַקְטִירוֹת וּֽמְזַבְּחוֹת לֵאלֹהֵיהֶֽן",
+          "9": "וַיִּתְאַנַּף יְהוָה בִּשְׁלֹמֹה כִּֽי־נָטָה לְבָבוֹ מֵעִם יְהוָה אֱלֹהֵי יִשְׂרָאֵל הַנִּרְאָה אֵלָיו פַּעֲמָֽיִם",
+          "10": "וְצִוָּה אֵלָיו עַל־הַדָּבָר הַזֶּה לְבִלְתִּי־לֶכֶת אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא שָׁמַר אֵת אֲשֶׁר־צִוָּה יְהוָֽה",
+          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ",
+          "12": "אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-kings-11-09-12",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 9,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-kings-11-10-12",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 10,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And had commanded him concerning this thing, that he should not go after other gods: but he kept not that which the LORD commanded. Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant. Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son.",
+        "riddle": "Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee,",
+        "speaker": "the LORD",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "the king of Egypt",
+            "Toi",
+            "Zaccur"
+          ],
+          "listener": [
+            "Zadok and Abiathar",
+            "Sarah",
+            "Tamar"
+          ]
+        },
+        "bonus": "kingdom",
+        "bonus_hint": {
+          "quote": "That his heart be not lifted up above his brethren, and that he turn not aside from the commandment, to the right hand, or to the left: to the end that he may prolong his days in his kingdom, he, and his children, in the midst of Israel.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וְצִוָּה אֵלָיו עַל־הַדָּבָר הַזֶּה לְבִלְתִּי־לֶכֶת אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא שָׁמַר אֵת אֲשֶׁר־צִוָּה יְהוָֽה וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "riddle": "יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ",
+        "speaker": "יְהוָֽה",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "מֶלֶך מִצְרַיִם",
+            "תֹּעִי",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "צָדוֹק וְאֶבְיָתָר",
+            "שָׂרָה",
+            "תָּמָר"
+          ]
+        },
+        "bonus": "הַמַּמְלָכָה",
+        "bonus_hint": {
+          "quote": "לְהַֽעֲבִיר הַמַּמְלָכָה מִבֵּית שָׁאוּל וּלְהָקִים אֶת־כִּסֵּא דָוִד עַל־יִשְׂרָאֵל וְעַל־יְהוּדָה מִדָּן וְעַד־בְּאֵר שָֽׁבַע",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And had commanded him concerning this thing, that he should not go after other gods: but he kept not that which the LORD commanded.",
+          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
+          "12": "Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son."
+        },
+        "he": {
+          "10": "וְצִוָּה אֵלָיו עַל־הַדָּבָר הַזֶּה לְבִלְתִּי־לֶכֶת אַחֲרֵי אֱלֹהִים אֲחֵרִים וְלֹא שָׁמַר אֵת אֲשֶׁר־צִוָּה יְהוָֽה׃",
+          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ׃",
+          "12": "אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 10,
+        "end": 12
+      }
+    }
+  ]
+}

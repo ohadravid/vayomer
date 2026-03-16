@@ -1,0 +1,747 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 22,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-kings-22-01-03",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And they continued three years without war between Syria and Israel. And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel. And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria?",
+        "riddle": "Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria?",
+        "speaker": "king of Israel",
+        "listener": "servants",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Toi",
+            "Jesse"
+          ],
+          "listener": [
+            "sons of Heth",
+            "People of Jabesh",
+            "Ziba"
+          ]
+        },
+        "bonus": "third",
+        "bonus_hint": {
+          "quote": "And Joseph said unto them the third day, This do, and live; for I fear God:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּשְׁבוּ שָׁלֹשׁ שָׁנִים אֵין מִלְחָמָה בֵּין אֲרָם וּבֵין יִשְׂרָאֵֽל וַיְהִי בַּשָּׁנָה הַשְּׁלִישִׁית וַיֵּרֶד יְהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה אֶל־מֶלֶךְ יִשְׂרָאֵֽל וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־עֲבָדָיו הַיְדַעְתֶּם כִּֽי־לָנוּ רָמֹת גִּלְעָד וַאֲנַחְנוּ מַחְשִׁים מִקַּחַת אֹתָהּ מִיַּד מֶלֶךְ אֲרָֽם",
+        "riddle": "וַאֲנַחְנוּ מַחְשִׁים מִקַּחַת אֹתָהּ מִיַּד מֶלֶךְ אֲרָֽם",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "עֲבָדָיו",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "תֹּעִי",
+            "יִשַׁי"
+          ],
+          "listener": [
+            "בְּנֵי־חֵת",
+            "אַנְשֵׁי יָבֵֽישׁ",
+            "צִיבָא"
+          ]
+        },
+        "bonus": "בַּשָּׁנָה",
+        "bonus_hint": {
+          "quote": "וַתִּתֹּם הַשָּׁנָה הַהִוא וַיָּבֹאוּ אֵלָיו בַּשָּׁנָה הַשֵּׁנִית וַיֹּאמְרוּ לוֹ לֹֽא־נְכַחֵד מֵֽאֲדֹנִי כִּי אִם־תַּם הַכֶּסֶף וּמִקְנֵה הַבְּהֵמָה אֶל־אֲדֹנִי לֹא נִשְׁאַר לִפְנֵי אֲדֹנִי בִּלְתִּי אִם־גְּוִיָּתֵנוּ וְאַדְמָתֵֽנוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 47,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And they continued three years without war between Syria and Israel.",
+          "2": "And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel.",
+          "3": "And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria?"
+        },
+        "he": {
+          "1": "וַיֵּשְׁבוּ שָׁלֹשׁ שָׁנִים אֵין מִלְחָמָה בֵּין אֲרָם וּבֵין יִשְׂרָאֵֽל׃",
+          "2": "וַיְהִי בַּשָּׁנָה הַשְּׁלִישִׁית וַיֵּרֶד יְהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה אֶל־מֶלֶךְ יִשְׂרָאֵֽל׃",
+          "3": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־עֲבָדָיו הַיְדַעְתֶּם כִּֽי־לָנוּ רָמֹת גִּלְעָד וַאֲנַחְנוּ מַחְשִׁים מִקַּחַת אֹתָהּ מִיַּד מֶלֶךְ אֲרָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-kings-22-02-04",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel. And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria? And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses.",
+        "riddle": "Wilt thou go with me to battle to Ramoth-gilead?",
+        "speaker": "king of Israel",
+        "listener": "Jehoshaphat",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Shechem",
+            "Ahijah"
+          ],
+          "listener": [
+            "Zadok and Abiathar",
+            "sons of Jacob",
+            "Sarah"
+          ]
+        },
+        "bonus": "ours",
+        "bonus_hint": {
+          "quote": "Thus saith the Lord GOD; Because the enemy hath said against you, Aha, even the ancient high places are ours in possession:",
+          "source": {
+            "book": "Ezekiel",
+            "chapter": 36,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בַּשָּׁנָה הַשְּׁלִישִׁית וַיֵּרֶד יְהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה אֶל־מֶלֶךְ יִשְׂרָאֵֽל וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־עֲבָדָיו הַיְדַעְתֶּם כִּֽי־לָנוּ רָמֹת גִּלְעָד וַאֲנַחְנוּ מַחְשִׁים מִקַּחַת אֹתָהּ מִיַּד מֶלֶךְ אֲרָֽם וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ",
+        "riddle": "הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "יְהוֹשָׁפָט",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "שְׁכֶם",
+            "אֲחִיָּהוּ"
+          ],
+          "listener": [
+            "צָדוֹק וְאֶבְיָתָר",
+            "בְּנֵי יַעֲקֹב",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "מִקַּחַת",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר גֵּיחֲזִי נַעַר אֱלִישָׁע אִישׁ־הָאֱלֹהִים הִנֵּה חָשַׂךְ אֲדֹנִי אֶֽת־נַעֲמָן הָֽאֲרַמִּי הַזֶּה מִקַּחַת מִיָּדוֹ אֵת אֲשֶׁר־הֵבִיא חַי־יְהוָה כִּֽי־אִם־רַצְתִּי אַחֲרָיו וְלָקַחְתִּי מֵאִתּוֹ מְאֽוּמָה",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 5,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And it came to pass in the third year, that Jehoshaphat the king of Judah came down to the king of Israel.",
+          "3": "And the king of Israel said unto his servants, Know ye that Ramoth in Gilead is ours, and we be still, and take it not out of the hand of the king of Syria?",
+          "4": "And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses."
+        },
+        "he": {
+          "2": "וַיְהִי בַּשָּׁנָה הַשְּׁלִישִׁית וַיֵּרֶד יְהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה אֶל־מֶלֶךְ יִשְׂרָאֵֽל׃",
+          "3": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־עֲבָדָיו הַיְדַעְתֶּם כִּֽי־לָנוּ רָמֹת גִּלְעָד וַאֲנַחְנוּ מַחְשִׁים מִקַּחַת אֹתָהּ מִיַּד מֶלֶךְ אֲרָֽם׃",
+          "4": "וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 2,
+        "end": 4
+      }
+    },
+    {
+      "id": "1-kings-22-04-06",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses. And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day. Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king.",
+        "riddle": "Shall I go against Ramoth-gilead to battle, or shall I forbear?",
+        "speaker": "king of Israel",
+        "listener": "Jehoshaphat",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Joram",
+            "Zaccur"
+          ],
+          "listener": [
+            "the congregation",
+            "sons of Jacob",
+            "Tamar"
+          ]
+        },
+        "bonus": "Wilt",
+        "bonus_hint": {
+          "quote": "But Abimelech had not come near her: and he said, Lord, wilt thou slay also a righteous nation?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ",
+        "riddle": "הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל",
+        "speaker": "מֶלֶךְ יִשְׂרָאֵל",
+        "listener": "יְהוֹשָׁפָט",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "יֽוֹרָם",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "הָעֵדָה",
+            "בְּנֵי יַעֲקֹב",
+            "תָּמָר"
+          ]
+        },
+        "bonus": "אִתִּי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלֵינוּ הָאִישׁ אֲדֹנֵי הָאָרֶץ בְּזֹאת אֵדַע כִּי כֵנִים אַתֶּם אֲחִיכֶם הָֽאֶחָד הַנִּיחוּ אִתִּי וְאֶת־רַעֲבוֹן בָּתֵּיכֶם קְחוּ וָלֵֽכוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses.",
+          "5": "And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day.",
+          "6": "Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ׃",
+          "5": "וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה׃",
+          "6": "וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 4,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-kings-22-04-07",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 4,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses. And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day. Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king. And Jehoshaphat said, Is there not here a prophet of the LORD besides, that we might inquire of him?",
+        "riddle": "Is there not here a prophet of the LORD besides, that we might inquire of him?",
+        "speaker": "Jehoshaphat",
+        "listener": "king of Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Sarai",
+            "Bath-sheba",
+            "Shechem"
+          ],
+          "listener": [
+            "The wise men",
+            "Ziba",
+            "Jeroboam's wife"
+          ]
+        },
+        "bonus": "Wilt",
+        "bonus_hint": {
+          "quote": "And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ וַיֹּאמֶר יְהוֹשָׁפָט הַאֵין פֹּה נָבִיא לַיהוָה עוֹד וְנִדְרְשָׁה מֵאוֹתֽוֹ",
+        "riddle": "הַאֵין פֹּה נָבִיא לַיהוָה עוֹד וְנִדְרְשָׁה מֵאוֹתֽוֹ",
+        "speaker": "יְהוֹשָׁפָט",
+        "listener": "מֶלֶךְ יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "שָׂרַי",
+            "בַּת־שֶׁבֶע",
+            "שְׁכֶם"
+          ],
+          "listener": [
+            "הַחֲכָמִים",
+            "צִיבָא",
+            "אֵשֶׁת יָרָבְעָם"
+          ]
+        },
+        "bonus": "אִתִּי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלֵינוּ הָאִישׁ אֲדֹנֵי הָאָרֶץ בְּזֹאת אֵדַע כִּי כֵנִים אַתֶּם אֲחִיכֶם הָֽאֶחָד הַנִּיחוּ אִתִּי וְאֶת־רַעֲבוֹן בָּתֵּיכֶם קְחוּ וָלֵֽכוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And he said unto Jehoshaphat, Wilt thou go with me to battle to Ramoth-gilead? And Jehoshaphat said to the king of Israel, I am as thou art, my people as thy people, my horses as thy horses.",
+          "5": "And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day.",
+          "6": "Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king.",
+          "7": "And Jehoshaphat said, Is there not here a prophet of the LORD besides, that we might inquire of him?"
+        },
+        "he": {
+          "4": "וַיֹּאמֶר אֶל־יְהוֹשָׁפָט הֲתֵלֵךְ אִתִּי לַמִּלְחָמָה רָמֹת גִּלְעָד וַיֹּאמֶר יְהֽוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל כָּמוֹנִי כָמוֹךָ כְּעַמִּי כְעַמֶּךָ כְּסוּסַי כְּסוּסֶֽיךָ",
+          "5": "וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה",
+          "6": "וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ",
+          "7": "וַיֹּאמֶר יְהוֹשָׁפָט הַאֵין פֹּה נָבִיא לַיהוָה עוֹד וְנִדְרְשָׁה מֵאוֹתֽוֹ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-kings-22-05-07",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 5,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-kings-22-05-06",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day. Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king.",
+        "riddle": "Inquire, I pray thee, at the word of the LORD to day.",
+        "speaker": "Jehoshaphat",
+        "listener": "king of Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Azariah",
+            "Toi"
+          ],
+          "listener": [
+            "Jehoshaphat",
+            "sons of Heth",
+            "the congregation"
+          ]
+        },
+        "bonus": "Shall",
+        "bonus_hint": {
+          "quote": "And the serpent said unto the woman, Ye shall not surely die:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ",
+        "riddle": "דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה",
+        "speaker": "יְהוֹשָׁפָט",
+        "listener": "מֶלֶךְ יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "עֲזַרְיָהוּ",
+            "תֹּעִי"
+          ],
+          "listener": [
+            "יְהוֹשָׁפָת",
+            "בְּנֵי־חֵת",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "וַיִּקְבֹּץ",
+        "bonus_hint": {
+          "quote": "וְיוֹאָב שָׁב מֵאַחֲרֵי אַבְנֵר וַיִּקְבֹּץ אֶת־כָּל־הָעָם וַיִּפָּקְדוּ מֵעַבְדֵי דָוִד תִּשְׁעָֽה־עָשָׂר אִישׁ וַעֲשָׂה־אֵֽל",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 2,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Jehoshaphat said unto the king of Israel, Inquire, I pray thee, at the word of the LORD to day.",
+          "6": "Then the king of Israel gathered the prophets together, about four hundred men, and said unto them, Shall I go against Ramoth-gilead to battle, or shall I forbear? And they said, Go up; for the Lord shall deliver it into the hand of the king."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר יְהוֹשָׁפָט אֶל־מֶלֶךְ יִשְׂרָאֵל דְּרָשׁ־נָא כַיּוֹם אֶת־דְּבַר יְהוָֽה",
+          "6": "וַיִּקְבֹּץ מֶֽלֶךְ־יִשְׂרָאֵל אֶֽת־הַנְּבִיאִים כְּאַרְבַּע מֵאוֹת אִישׁ וַיֹּאמֶר אֲלֵהֶם הַאֵלֵךְ עַל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־אֶחְדָּל וַיֹּאמְרוּ עֲלֵה וְיִתֵּן אֲדֹנָי בְּיַד הַמֶּֽלֶךְ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "1-kings-22-05-05",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-kings-22-08-10",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 8,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And the king of Israel said unto Jehoshaphat, There is yet one man, Micaiah the son of Imlah, by whom we may inquire of the LORD: but I hate him; for he doth not prophesy good concerning me, but evil. And Jehoshaphat said, Let not the king say so. Then the king of Israel called an officer, and said, Hasten hither Micaiah the son of Imlah. And the king of Israel and Jehoshaphat the king of Judah sat each on his throne, having put on their robes, in a void place in the entrance of the gate of Samaria; and all the prophets prophesied before them.",
+        "riddle": "Hasten hither Micaiah the son of Imlah",
+        "speaker": "king of Israel",
+        "listener": "Jehoshaphat",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "king David",
+            "Uzziah"
+          ],
+          "listener": [
+            "Jacob's sons and Hamor",
+            "sons of Heth",
+            "the tribes of the children of Israel"
+          ]
+        },
+        "bonus": "hate",
+        "bonus_hint": {
+          "quote": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶֽל־יְהוֹשָׁפָט עוֹד אִישׁ־אֶחָד לִדְרֹשׁ אֶת־יְהוָה מֵאֹתוֹ וַאֲנִי שְׂנֵאתִיו כִּי לֹֽא־יִתְנַבֵּא עָלַי טוֹב כִּי אִם־רָע מִיכָיְהוּ בֶּן־יִמְלָה וַיֹּאמֶר יְהוֹשָׁפָט אַל־יֹאמַר הַמֶּלֶךְ כֵּֽן וַיִּקְרָא מֶלֶךְ יִשְׂרָאֵל אֶל־סָרִיס אֶחָד וַיֹּאמֶר מַהֲרָה מִיכָיְהוּ בֶן־יִמְלָֽה וּמֶלֶךְ יִשְׂרָאֵל וִֽיהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה יֹשְׁבִים אִישׁ עַל־כִּסְאוֹ מְלֻבָּשִׁים בְּגָדִים בְּגֹרֶן פֶּתַח שַׁעַר שֹׁמְרוֹן וְכָל־הַנְּבִיאִים מִֽתְנַבְּאִים לִפְנֵיהֶֽם",
+        "riddle": "מַהֲרָה מִיכָיְהוּ בֶן־יִמְלָֽה",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "יְהוֹשָׁפָט",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "הַמֶּלֶךְ דָּוִד",
+            "עֻזִיָהוּ"
+          ],
+          "listener": [
+            "בְנֵֽי־יַעֲקֹב וְחֲמוֹר",
+            "בְּנֵי־חֵת",
+            "בְנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "רָע",
+        "bonus_hint": {
+          "quote": "וְכִֽי־יִהְיֶה בוֹ מוּם פִּסֵּחַ אוֹ עִוֵּר כֹּל מוּם רָע לֹא תִזְבָּחֶנּוּ לַיהוָה אֱלֹהֶֽיךָ",
+          "source": {
+            "book": "דברים",
+            "chapter": 15,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the king of Israel said unto Jehoshaphat, There is yet one man, Micaiah the son of Imlah, by whom we may inquire of the LORD: but I hate him; for he doth not prophesy good concerning me, but evil. And Jehoshaphat said, Let not the king say so.",
+          "9": "Then the king of Israel called an officer, and said, Hasten hither Micaiah the son of Imlah.",
+          "10": "And the king of Israel and Jehoshaphat the king of Judah sat each on his throne, having put on their robes, in a void place in the entrance of the gate of Samaria; and all the prophets prophesied before them."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל ׀ אֶֽל־יְהוֹשָׁפָט עוֹד אִישׁ־אֶחָד לִדְרֹשׁ אֶת־יְהוָה מֵאֹתוֹ וַאֲנִי שְׂנֵאתִיו כִּי לֹֽא־יִתְנַבֵּא עָלַי טוֹב כִּי אִם־רָע מִיכָיְהוּ בֶּן־יִמְלָה וַיֹּאמֶר יְהוֹשָׁפָט אַל־יֹאמַר הַמֶּלֶךְ כֵּֽן׃",
+          "9": "וַיִּקְרָא מֶלֶךְ יִשְׂרָאֵל אֶל־סָרִיס אֶחָד וַיֹּאמֶר מַהֲרָה מִיכָיְהוּ בֶן־יִמְלָֽה׃",
+          "10": "וּמֶלֶךְ יִשְׂרָאֵל וִֽיהוֹשָׁפָט מֶֽלֶךְ־יְהוּדָה יֹשְׁבִים אִישׁ עַל־כִּסְאוֹ מְלֻבָּשִׁים בְּגָדִים בְּגֹרֶן פֶּתַח שַׁעַר שֹׁמְרוֹן וְכָל־הַנְּבִיאִים מִֽתְנַבְּאִים לִפְנֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 8,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-kings-22-11-13",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 11,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And Zedekiah the son of Chenaanah made him horns of iron: and he said, Thus saith the LORD, With these shalt thou push the Syrians, until thou have consumed them. And all the prophets prophesied so, saying, Go up to Ramoth-gilead, and prosper: for the LORD shall deliver it into the king's hand. And the messenger that was gone to call Micaiah spake unto him, saying, Behold now, the words of the prophets declare good unto the king with one mouth: let thy word, I pray thee, be like the word of one of them, and speak that which is good.",
+        "riddle": "Go up to Ramoth-gilead, and prosper: for the LORD shall deliver it into the king's hand",
+        "speaker": "Zedekiah",
+        "listener": "messenger",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Jeroboam",
+            "Zaccur",
+            "Uzziah"
+          ],
+          "listener": [
+            "Ziphites",
+            "Saul's servants",
+            "Israel and Judah"
+          ]
+        },
+        "bonus": "Syrians",
+        "bonus_hint": {
+          "quote": "And when the Syrians saw that they were smitten before Israel, they gathered themselves together.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 10,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַשׂ לוֹ צִדְקִיָּה בֶֽן־כְּנַעֲנָה קַרְנֵי בַרְזֶל וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּאֵלֶּה תְּנַגַּח אֶת־אֲרָם עַד־כַּלֹּתָֽם וְכָל־הַנְּבִאִים נִבְּאִים כֵּן לֵאמֹר עֲלֵה רָמֹת גִּלְעָד וְהַצְלַח וְנָתַן יְהוָה בְּיַד הַמֶּֽלֶךְ וְהַמַּלְאָךְ אֲשֶׁר־הָלַךְ לִקְרֹא מִיכָיְהוּ דִּבֶּר אֵלָיו לֵאמֹר הִנֵּה־נָא דִּבְרֵי הַנְּבִיאִים פֶּֽה־אֶחָד טוֹב אֶל־הַמֶּלֶךְ יְהִֽי־נָא דְבָרְךָ כִּדְבַר אַחַד מֵהֶם וְדִבַּרְתָּ טּֽוֹב",
+        "riddle": "עֲלֵה רָמֹת גִּלְעָד וְהַצְלַח וְנָתַן יְהוָה בְּיַד הַמֶּֽלֶךְ",
+        "speaker": "צִדְקִיָּה",
+        "listener": "הַמַּלְאָךְ",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "יָרָבְעָם",
+            "זַכּוּר",
+            "עֻזִיָהוּ"
+          ],
+          "listener": [
+            "הַזִּפִים",
+            "עֲבָדָיו",
+            "יִשְׂרָאֵל וּבִיהוּדָה"
+          ]
+        },
+        "bonus": "אֲרָם",
+        "bonus_hint": {
+          "quote": "וַיְהִי יִצְחָק בֶּן־אַרְבָּעִים שָׁנָה בְּקַחְתּוֹ אֶת־רִבְקָה בַּת־בְּתוּאֵל הָֽאֲרַמִּי מִפַּדַּן אֲרָם אֲחוֹת לָבָן הָאֲרַמִּי לוֹ לְאִשָּֽׁה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Zedekiah the son of Chenaanah made him horns of iron: and he said, Thus saith the LORD, With these shalt thou push the Syrians, until thou have consumed them.",
+          "12": "And all the prophets prophesied so, saying, Go up to Ramoth-gilead, and prosper: for the LORD shall deliver it into the king's hand.",
+          "13": "And the messenger that was gone to call Micaiah spake unto him, saying, Behold now, the words of the prophets declare good unto the king with one mouth: let thy word, I pray thee, be like the word of one of them, and speak that which is good."
+        },
+        "he": {
+          "11": "וַיַּעַשׂ לוֹ צִדְקִיָּה בֶֽן־כְּנַעֲנָה קַרְנֵי בַרְזֶל וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּאֵלֶּה תְּנַגַּח אֶת־אֲרָם עַד־כַּלֹּתָֽם׃",
+          "12": "וְכָל־הַנְּבִאִים נִבְּאִים כֵּן לֵאמֹר עֲלֵה רָמֹת גִּלְעָד וְהַצְלַח וְנָתַן יְהוָה בְּיַד הַמֶּֽלֶךְ׃",
+          "13": "וְהַמַּלְאָךְ אֲשֶׁר־הָלַךְ ׀ לִקְרֹא מִיכָיְהוּ דִּבֶּר אֵלָיו לֵאמֹר הִנֵּה־נָא דִּבְרֵי הַנְּבִיאִים פֶּֽה־אֶחָד טוֹב אֶל־הַמֶּלֶךְ יְהִֽי־נָא דְבָרְךָ כִּדְבַר אַחַד מֵהֶם וְדִבַּרְתָּ טּֽוֹב׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 11,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-kings-22-14-15",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 22,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Micaiah said, As the LORD liveth, what the LORD saith unto me, that will I speak. So he came to the king. And the king said unto him, Micaiah, shall we go against Ramoth-gilead to battle, or shall we forbear? And he answered him, Go, and prosper: for the LORD shall deliver it into the hand of the king.",
+        "riddle": "As the LORD liveth, what the LORD saith unto me, that will I speak",
+        "speaker": "Micaiah",
+        "listener": "king",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Jeshua",
+            "Uzziah"
+          ],
+          "listener": [
+            "servant",
+            "Tamar",
+            "Deborah"
+          ]
+        },
+        "bonus": "Ramoth",
+        "bonus_hint": {
+          "quote": "And he went with Joram the son of Ahab to the war against Hazael king of Syria in Ramoth-gilead; and the Syrians wounded Joram.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 8,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מִיכָיְהוּ חַי־יְהוָה כִּי אֶת־אֲשֶׁר יֹאמַר יְהוָה אֵלַי אֹתוֹ אֲדַבֵּֽר וַיָּבוֹא אֶל־הַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ אֵלָיו מִיכָיְהוּ הֲנֵלֵךְ אֶל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־נֶחְדָּל וַיֹּאמֶר אֵלָיו עֲלֵה וְהַצְלַח וְנָתַן יְהוָה בְּיַד הַמֶּֽלֶךְ",
+        "riddle": "חַי־יְהוָה כִּי אֶת־אֲשֶׁר יֹאמַר יְהוָה אֵלַי אֹתוֹ אֲדַבֵּֽר",
+        "speaker": "מִיכָיְהוּ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּהוּ",
+            "יֵשׁוּעַ",
+            "עֻזִיָהוּ"
+          ],
+          "listener": [
+            "נַעֲרוֹ",
+            "תָּמָר",
+            "דְּבוֹרָה"
+          ]
+        },
+        "bonus": "לַמִּלְחָמָה",
+        "bonus_hint": {
+          "quote": "וַעֲבָדֶיךָ יַֽעַבְרוּ כָּל־חֲלוּץ צָבָא לִפְנֵי יְהוָה לַמִּלְחָמָה כַּאֲשֶׁר אֲדֹנִי דֹּבֵֽר",
+          "source": {
+            "book": "במדבר",
+            "chapter": 32,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Micaiah said, As the LORD liveth, what the LORD saith unto me, that will I speak.",
+          "15": "So he came to the king. And the king said unto him, Micaiah, shall we go against Ramoth-gilead to battle, or shall we forbear? And he answered him, Go, and prosper: for the LORD shall deliver it into the hand of the king."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר מִיכָיְהוּ חַי־יְהוָה כִּי אֶת־אֲשֶׁר יֹאמַר יְהוָה אֵלַי אֹתוֹ אֲדַבֵּֽר׃",
+          "15": "וַיָּבוֹא אֶל־הַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ אֵלָיו מִיכָיְהוּ הֲנֵלֵךְ אֶל־רָמֹת גִּלְעָד לַמִּלְחָמָה אִם־נֶחְדָּל וַיֹּאמֶר אֵלָיו עֲלֵה וְהַצְלַח וְנָתַן יְהוָה בְּיַד הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 14,
+        "end": 15
+      }
+    }
+  ]
+}

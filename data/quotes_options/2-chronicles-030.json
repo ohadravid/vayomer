@@ -1,0 +1,101 @@
+{
+  "book_code": "2CH",
+  "book": "2 Chronicles",
+  "book_he": "דברי הימים ב",
+  "chapter": 30,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "2-chronicles-30-02-04",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 30,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "For the king had taken counsel, and his princes, and all the congregation in Jerusalem, to keep the passover in the second month. For they could not keep it at that time, because the priests had not sanctified themselves sufficiently, neither had the people gathered themselves together to Jerusalem. And the thing pleased the king and all the congregation.",
+        "riddle": "to keep the passover in the second month",
+        "speaker": "the king",
+        "listener": "his princes",
+        "book": "2 Chronicles",
+        "options": {
+          "speaker": [
+            "David",
+            "Zaccur",
+            "the LORD"
+          ],
+          "listener": [
+            "Congregation",
+            "Ziba",
+            "Sarah"
+          ]
+        },
+        "bonus": "counsel",
+        "bonus_hint": {
+          "quote": "And the children of Israel arose, and went up to the house of God, and asked counsel of God, and said, Which of us shall go up first to the battle against the children of Benjamin? And the LORD said, Judah shall go up first.",
+          "source": {
+            "book": "Judges",
+            "chapter": 20,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּוָּעַץ הַמֶּלֶךְ וְשָׂרָיו וְכָל־הַקָּהָל בִּירוּשָׁלִָם לַעֲשׂוֹת הַפֶּסַח בַּחֹדֶשׁ הַשֵּׁנִֽי כִּי לֹא יָכְלוּ לַעֲשֹׂתוֹ בָּעֵת הַהִיא כִּי הַכֹּהֲנִים לֹֽא־הִתְקַדְּשׁוּ לְמַדַּי וְהָעָם לֹא־נֶאֶסְפוּ לִֽירוּשָׁלִָֽם וַיִּישַׁר הַדָּבָר בְּעֵינֵי הַמֶּלֶךְ וּבְעֵינֵי כָּל־הַקָּהָֽל",
+        "riddle": "לַעֲשׂוֹת הַפֶּסַח בַּחֹדֶשׁ הַשֵּׁנִֽי",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "וְשָׂרָיו",
+        "book": "דברי הימים ב",
+        "options": {
+          "speaker": [
+            "דָּוִיד",
+            "זַכּוּר",
+            "יְהוָה"
+          ],
+          "listener": [
+            "קָהָֽל",
+            "צִיבָא",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "בִּירוּשָׁלִָם",
+        "bonus_hint": {
+          "quote": "כִּי לְמַעַן דָּוִד נָתַן יְהוָה אֱלֹהָיו לוֹ נִיר בִּירוּשָׁלִָם לְהָקִים אֶת־בְּנוֹ אַחֲרָיו וּֽלְהַעֲמִיד אֶת־יְרוּשָׁלִָֽם",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 15,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "For the king had taken counsel, and his princes, and all the congregation in Jerusalem, to keep the passover in the second month.",
+          "3": "For they could not keep it at that time, because the priests had not sanctified themselves sufficiently, neither had the people gathered themselves together to Jerusalem.",
+          "4": "And the thing pleased the king and all the congregation."
+        },
+        "he": {
+          "2": "וַיִּוָּעַץ הַמֶּלֶךְ וְשָׂרָיו וְכָל־הַקָּהָל בִּירוּשָׁלִָם לַעֲשׂוֹת הַפֶּסַח בַּחֹדֶשׁ הַשֵּׁנִֽי׃",
+          "3": "כִּי לֹא יָכְלוּ לַעֲשֹׂתוֹ בָּעֵת הַהִיא כִּי הַכֹּהֲנִים לֹֽא־הִתְקַדְּשׁוּ לְמַדַּי וְהָעָם לֹא־נֶאֶסְפוּ לִֽירוּשָׁלִָֽם׃",
+          "4": "וַיִּישַׁר הַדָּבָר בְּעֵינֵי הַמֶּלֶךְ וּבְעֵינֵי כָּל־הַקָּהָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 2,
+        "end": 4
+      }
+    }
+  ]
+}

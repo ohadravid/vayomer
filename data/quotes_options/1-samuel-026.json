@@ -1,0 +1,657 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 26,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "1-samuel-26-01-03",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And the Ziphites came unto Saul to Gibeah, saying, Doth not David hide himself in the hill of Hachilah, which is before Jeshimon? Then Saul arose, and went down to the wilderness of Ziph, having three thousand chosen men of Israel with him, to seek David in the wilderness of Ziph. And Saul pitched in the hill of Hachilah, which is before Jeshimon, by the way. But David abode in the wilderness, and he saw that Saul came after him into the wilderness.",
+        "riddle": "Doth not David hide himself in the hill of Hachilah",
+        "speaker": "Saul",
+        "listener": "Ziphites",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Shechem",
+            "Zaccur"
+          ],
+          "listener": [
+            "Gazites",
+            "Ziba",
+            "Abner"
+          ]
+        },
+        "bonus": "Ziph",
+        "bonus_hint": {
+          "quote": "And David abode in the wilderness in strong holds, and remained in a mountain in the wilderness of Ziph. And Saul sought him every day, but God delivered him not into his hand.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 23,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ הַזִּפִים אֶל־שָׁאוּל הַגִּבְעָתָה לֵאמֹר הֲלוֹא דָוִד מִסְתַּתֵּר בְּגִבְעַת הַחֲכִילָה עַל פְּנֵי הַיְשִׁימֹֽן וַיָּקָם שָׁאוּל וַיֵּרֶד אֶל־מִדְבַּר־זִיף וְאִתּוֹ שְׁלֹֽשֶׁת־אֲלָפִים אִישׁ בְּחוּרֵי יִשְׂרָאֵל לְבַקֵּשׁ אֶת־דָּוִד בְּמִדְבַּר־זִֽיף וַיִּחַן שָׁאוּל בְּגִבְעַת הַחֲכִילָה אֲשֶׁר עַל־פְּנֵי הַיְשִׁימֹן עַל־הַדָּרֶךְ וְדָוִד יֹשֵׁב בַּמִּדְבָּר וַיַּרְא כִּי בָא שָׁאוּל אַחֲרָיו הַמִּדְבָּֽרָה",
+        "riddle": "הֲלוֹא דָוִד מִסְתַּתֵּר בְּגִבְעַת הַחֲכִילָה",
+        "speaker": "שָׁאוּל",
+        "listener": "הַזִּפִים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "שְׁכֶם",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "לַֽעַזָּתִים",
+            "צִיבָא",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "הַגִּבְעָתָה",
+        "bonus_hint": {
+          "quote": "וַיָּבֹאוּ שָׁם הַגִּבְעָתָה וְהִנֵּה חֶֽבֶל־נְבִאִים לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ אֱלֹהִים וַיִּתְנַבֵּא בְּתוֹכָֽם",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 10,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the Ziphites came unto Saul to Gibeah, saying, Doth not David hide himself in the hill of Hachilah, which is before Jeshimon?",
+          "2": "Then Saul arose, and went down to the wilderness of Ziph, having three thousand chosen men of Israel with him, to seek David in the wilderness of Ziph.",
+          "3": "And Saul pitched in the hill of Hachilah, which is before Jeshimon, by the way. But David abode in the wilderness, and he saw that Saul came after him into the wilderness."
+        },
+        "he": {
+          "1": "וַיָּבֹאוּ הַזִּפִים אֶל־שָׁאוּל הַגִּבְעָתָה לֵאמֹר הֲלוֹא דָוִד מִסְתַּתֵּר בְּגִבְעַת הַחֲכִילָה עַל פְּנֵי הַיְשִׁימֹֽן׃",
+          "2": "וַיָּקָם שָׁאוּל וַיֵּרֶד אֶל־מִדְבַּר־זִיף וְאִתּוֹ שְׁלֹֽשֶׁת־אֲלָפִים אִישׁ בְּחוּרֵי יִשְׂרָאֵל לְבַקֵּשׁ אֶת־דָּוִד בְּמִדְבַּר־זִֽיף׃",
+          "3": "וַיִּחַן שָׁאוּל בְּגִבְעַת הַחֲכִילָה אֲשֶׁר עַל־פְּנֵי הַיְשִׁימֹן עַל־הַדָּרֶךְ וְדָוִד יֹשֵׁב בַּמִּדְבָּר וַיַּרְא כִּי בָא שָׁאוּל אַחֲרָיו הַמִּדְבָּֽרָה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-samuel-26-05-07",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And David arose, and came to the place where Saul had pitched: and David beheld the place where Saul lay, and Abner the son of Ner, the captain of his host: and Saul lay in the trench, and the people pitched round about him. Then answered David and said to Ahimelech the Hittite, and to Abishai the son of Zeruiah, brother to Joab, saying, Who will go down with me to Saul to the camp? And Abishai said, I will go down with thee. So David and Abishai came to the people by night: and, behold, Saul lay sleeping within the trench, and his spear stuck in the ground at his bolster: but Abner and the people lay round about him.",
+        "riddle": "Who will go down with me to Saul to the camp?",
+        "speaker": "David",
+        "listener": "Abishai",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Shemaiah",
+            "Ahab",
+            "Uzziah"
+          ],
+          "listener": [
+            "sons of Heth",
+            "Sarah",
+            "Hagar"
+          ]
+        },
+        "bonus": "lay",
+        "bonus_hint": {
+          "quote": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקָם דָּוִד וַיָּבֹא אֶֽל־הַמָּקוֹם אֲשֶׁר חָנָה־שָׁם שָׁאוּל וַיַּרְא דָּוִד אֶת־הַמָּקוֹם אֲשֶׁר שָֽׁכַב־שָׁם שָׁאוּל וְאַבְנֵר בֶּן־נֵר שַׂר־צְבָאוֹ וְשָׁאוּל שֹׁכֵב בַּמַּעְגָּל וְהָעָם חֹנִים סְבִיבֹתָֽיו וַיַּעַן דָּוִד וַיֹּאמֶר אֶל־אֲחִימֶלֶךְ הַחִתִּי וְאֶל־אֲבִישַׁי בֶּן־צְרוּיָה אֲחִי יוֹאָב לֵאמֹר מִֽי־יֵרֵד אִתִּי אֶל־שָׁאוּל אֶל־הַֽמַּחֲנֶה וַיֹּאמֶר אֲבִישַׁי אֲנִי אֵרֵד עִמָּֽךְ וַיָּבֹא דָוִד וַאֲבִישַׁי אֶל־הָעָם לַיְלָה וְהִנֵּה שָׁאוּל שֹׁכֵב יָשֵׁן בַּמַּעְגָּל וַחֲנִיתוֹ מְעוּכָֽה־בָאָרֶץ מְרַאֲשֹׁתָיו וְאַבְנֵר וְהָעָם שֹׁכְבִים סְבִיבֹתָֽיו",
+        "riddle": "מִֽי־יֵרֵד אִתִּי אֶל־שָׁאוּל אֶל־הַֽמַּחֲנֶה",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִישַׁי",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שְׁמַֽעְיָה",
+            "אַחְאָב",
+            "עֻזִיָּה"
+          ],
+          "listener": [
+            "בְּנֵי־חֵת",
+            "שָׂרָה",
+            "הָגָר"
+          ]
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַיַּרְא יְהוָה כִּי רַבָּה רָעַת הָאָדָם בָּאָרֶץ וְכָל־יֵצֶר מַחְשְׁבֹת לִבּוֹ רַק רַע כָּל־הַיּֽוֹם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David arose, and came to the place where Saul had pitched: and David beheld the place where Saul lay, and Abner the son of Ner, the captain of his host: and Saul lay in the trench, and the people pitched round about him.",
+          "6": "Then answered David and said to Ahimelech the Hittite, and to Abishai the son of Zeruiah, brother to Joab, saying, Who will go down with me to Saul to the camp? And Abishai said, I will go down with thee.",
+          "7": "So David and Abishai came to the people by night: and, behold, Saul lay sleeping within the trench, and his spear stuck in the ground at his bolster: but Abner and the people lay round about him."
+        },
+        "he": {
+          "5": "וַיָּקָם דָּוִד וַיָּבֹא אֶֽל־הַמָּקוֹם אֲשֶׁר חָנָה־שָׁם שָׁאוּל וַיַּרְא דָּוִד אֶת־הַמָּקוֹם אֲשֶׁר שָֽׁכַב־שָׁם שָׁאוּל וְאַבְנֵר בֶּן־נֵר שַׂר־צְבָאוֹ וְשָׁאוּל שֹׁכֵב בַּמַּעְגָּל וְהָעָם חֹנִים סְבִיבֹתָֽיו׃",
+          "6": "וַיַּעַן דָּוִד וַיֹּאמֶר ׀ אֶל־אֲחִימֶלֶךְ הַחִתִּי וְאֶל־אֲבִישַׁי בֶּן־צְרוּיָה אֲחִי יוֹאָב לֵאמֹר מִֽי־יֵרֵד אִתִּי אֶל־שָׁאוּל אֶל־הַֽמַּחֲנֶה וַיֹּאמֶר אֲבִישַׁי אֲנִי אֵרֵד עִמָּֽךְ׃",
+          "7": "וַיָּבֹא דָוִד וַאֲבִישַׁי ׀ אֶל־הָעָם לַיְלָה וְהִנֵּה שָׁאוּל שֹׁכֵב יָשֵׁן בַּמַּעְגָּל וַחֲנִיתוֹ מְעוּכָֽה־בָאָרֶץ מְרַאֲשֹׁתָיו וְאַבְנֵר וְהָעָם שֹׁכְבִים סְבִיבֹתָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 5,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-samuel-26-05-08",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 5,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And David arose, and came to the place where Saul had pitched: and David beheld the place where Saul lay, and Abner the son of Ner, the captain of his host: and Saul lay in the trench, and the people pitched round about him. Then answered David and said to Ahimelech the Hittite, and to Abishai the son of Zeruiah, brother to Joab, saying, Who will go down with me to Saul to the camp? And Abishai said, I will go down with thee. So David and Abishai came to the people by night: and, behold, Saul lay sleeping within the trench, and his spear stuck in the ground at his bolster: but Abner and the people lay round about him. Then said Abishai to David, God hath delivered thine enemy into thine hand this day: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time.",
+        "riddle": "I will go down with thee",
+        "speaker": "Abishai",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Zerubbabel",
+            "Caleb",
+            "Uzza"
+          ],
+          "listener": [
+            "sons of Jacob",
+            "Philistine Lords",
+            "Ziphites"
+          ]
+        },
+        "bonus": "lay",
+        "bonus_hint": {
+          "quote": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקָם דָּוִד וַיָּבֹא אֶֽל־הַמָּקוֹם אֲשֶׁר חָנָה־שָׁם שָׁאוּל וַיַּרְא דָּוִד אֶת־הַמָּקוֹם אֲשֶׁר שָֽׁכַב־שָׁם שָׁאוּל וְאַבְנֵר בֶּן־נֵר שַׂר־צְבָאוֹ וְשָׁאוּל שֹׁכֵב בַּמַּעְגָּל וְהָעָם חֹנִים סְבִיבֹתָֽיו וַיַּעַן דָּוִד וַיֹּאמֶר אֶל־אֲחִימֶלֶךְ הַחִתִּי וְאֶל־אֲבִישַׁי בֶּן־צְרוּיָה אֲחִי יוֹאָב לֵאמֹר מִֽי־יֵרֵד אִתִּי אֶל־שָׁאוּל אֶל־הַֽמַּחֲנֶה וַיֹּאמֶר אֲבִישַׁי אֲנִי אֵרֵד עִמָּֽךְ וַיָּבֹא דָוִד וַאֲבִישַׁי אֶל־הָעָם לַיְלָה וְהִנֵּה שָׁאוּל שֹׁכֵב יָשֵׁן בַּמַּעְגָּל וַחֲנִיתוֹ מְעוּכָֽה־בָאָרֶץ מְרַאֲשֹׁתָיו וְאַבְנֵר וְהָעָם שֹׁכְבִים סְבִיבֹתָֽיו וַיֹּאמֶר אֲבִישַׁי אֶל־דָּוִד סִגַּר אֱלֹהִים הַיּוֹם אֶת־אוֹיִבְךָ בְּיָדֶךָ וְעַתָּה אַכֶּנּוּ נָא בַּחֲנִית וּבָאָרֶץ פַּעַם אַחַת וְלֹא אֶשְׁנֶה לֽוֹ",
+        "riddle": "אֲנִי אֵרֵד עִמָּֽךְ",
+        "speaker": "אֲבִישַׁי",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "זְרֻבָּבֶל",
+            "כָּלֵב",
+            "עֻזָּא"
+          ],
+          "listener": [
+            "בְּנֵי יַעֲקֹב",
+            "סַרְנֵי פְלִשְׁתִּים",
+            "הַזִּפִים"
+          ]
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּֽלֲהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David arose, and came to the place where Saul had pitched: and David beheld the place where Saul lay, and Abner the son of Ner, the captain of his host: and Saul lay in the trench, and the people pitched round about him.",
+          "6": "Then answered David and said to Ahimelech the Hittite, and to Abishai the son of Zeruiah, brother to Joab, saying, Who will go down with me to Saul to the camp? And Abishai said, I will go down with thee.",
+          "7": "So David and Abishai came to the people by night: and, behold, Saul lay sleeping within the trench, and his spear stuck in the ground at his bolster: but Abner and the people lay round about him.",
+          "8": "Then said Abishai to David, God hath delivered thine enemy into thine hand this day: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time."
+        },
+        "he": {
+          "5": "וַיָּקָם דָּוִד וַיָּבֹא אֶֽל־הַמָּקוֹם אֲשֶׁר חָנָה־שָׁם שָׁאוּל וַיַּרְא דָּוִד אֶת־הַמָּקוֹם אֲשֶׁר שָֽׁכַב־שָׁם שָׁאוּל וְאַבְנֵר בֶּן־נֵר שַׂר־צְבָאוֹ וְשָׁאוּל שֹׁכֵב בַּמַּעְגָּל וְהָעָם חֹנִים סְבִיבֹתָֽיו",
+          "6": "וַיַּעַן דָּוִד וַיֹּאמֶר אֶל־אֲחִימֶלֶךְ הַחִתִּי וְאֶל־אֲבִישַׁי בֶּן־צְרוּיָה אֲחִי יוֹאָב לֵאמֹר מִֽי־יֵרֵד אִתִּי אֶל־שָׁאוּל אֶל־הַֽמַּחֲנֶה וַיֹּאמֶר אֲבִישַׁי אֲנִי אֵרֵד עִמָּֽךְ",
+          "7": "וַיָּבֹא דָוִד וַאֲבִישַׁי אֶל־הָעָם לַיְלָה וְהִנֵּה שָׁאוּל שֹׁכֵב יָשֵׁן בַּמַּעְגָּל וַחֲנִיתוֹ מְעוּכָֽה־בָאָרֶץ מְרַאֲשֹׁתָיו וְאַבְנֵר וְהָעָם שֹׁכְבִים סְבִיבֹתָֽיו",
+          "8": "וַיֹּאמֶר אֲבִישַׁי אֶל־דָּוִד סִגַּר אֱלֹהִים הַיּוֹם אֶת־אוֹיִבְךָ בְּיָדֶךָ וְעַתָּה אַכֶּנּוּ נָא בַּחֲנִית וּבָאָרֶץ פַּעַם אַחַת וְלֹא אֶשְׁנֶה לֽוֹ"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-samuel-26-06-08",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 6,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-26-08-10",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 8,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "Then said Abishai to David, God hath delivered thine enemy into thine hand this day: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time. And David said to Abishai, Destroy him not: for who can stretch forth his hand against the LORD's anointed, and be guiltless? David said furthermore, As the LORD liveth, the LORD shall smite him; or his day shall come to die; or he shall descend into battle, and perish.",
+        "riddle": "As the LORD liveth, the LORD shall smite him; or his day shall come to die; or he shall descend into battle, and perish",
+        "speaker": "David",
+        "listener": "Abishai",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Hiram",
+            "Ziba",
+            "Barak"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Rachel"
+          ]
+        },
+        "bonus": "can",
+        "bonus_hint": {
+          "quote": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲבִישַׁי אֶל־דָּוִד סִגַּר אֱלֹהִים הַיּוֹם אֶת־אוֹיִבְךָ בְּיָדֶךָ וְעַתָּה אַכֶּנּוּ נָא בַּחֲנִית וּבָאָרֶץ פַּעַם אַחַת וְלֹא אֶשְׁנֶה לֽוֹ וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי אַל־תַּשְׁחִיתֵהוּ כִּי מִי שָׁלַח יָדוֹ בִּמְשִׁיחַ יְהוָה וְנִקָּֽה וַיֹּאמֶר דָּוִד חַי־יְהוָה כִּי אִם־יְהוָה יִגָּפֶנּוּ אֽוֹ־יוֹמוֹ יָבוֹא וָמֵת אוֹ בַמִּלְחָמָה יֵרֵד וְנִסְפָּֽה",
+        "riddle": "דָּוִד חַי־יְהוָה כִּי אִם־יְהוָה יִגָּפֶנּוּ אֽוֹ־יוֹמוֹ יָבוֹא וָמֵת אוֹ בַמִּלְחָמָה יֵרֵד וְנִסְפָּֽה",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִישַׁי",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "הַשְּׂעֹרִים וְהַתֶּבֶן לַסּוּסִים וְלָרָכֶשׁ",
+            "צִיבָא",
+            "בָּרָק"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "רָחֵל"
+          ]
+        },
+        "bonus": "שָׁלַח",
+        "bonus_hint": {
+          "quote": "שְׁבֻעַת יְהוָה תִּהְיֶה בֵּין שְׁנֵיהֶם אִם־לֹא שָׁלַח יָדוֹ בִּמְלֶאכֶת רֵעֵהוּ וְלָקַח בְּעָלָיו וְלֹא יְשַׁלֵּֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 22,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Then said Abishai to David, God hath delivered thine enemy into thine hand this day: now therefore let me smite him, I pray thee, with the spear even to the earth at once, and I will not smite him the second time.",
+          "9": "And David said to Abishai, Destroy him not: for who can stretch forth his hand against the LORD's anointed, and be guiltless?",
+          "10": "David said furthermore, As the LORD liveth, the LORD shall smite him; or his day shall come to die; or he shall descend into battle, and perish."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר אֲבִישַׁי אֶל־דָּוִד סִגַּר אֱלֹהִים הַיּוֹם אֶת־אוֹיִבְךָ בְּיָדֶךָ וְעַתָּה אַכֶּנּוּ נָא בַּחֲנִית וּבָאָרֶץ פַּעַם אַחַת וְלֹא אֶשְׁנֶה לֽוֹ׃",
+          "9": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי אַל־תַּשְׁחִיתֵהוּ כִּי מִי שָׁלַח יָדוֹ בִּמְשִׁיחַ יְהוָה וְנִקָּֽה׃",
+          "10": "וַיֹּאמֶר דָּוִד חַי־יְהוָה כִּי אִם־יְהוָה יִגָּפֶנּוּ אֽוֹ־יוֹמוֹ יָבוֹא וָמֵת אוֹ בַמִּלְחָמָה יֵרֵד וְנִסְפָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 8,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-samuel-26-10-13",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 10,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "David said furthermore, As the LORD liveth, the LORD shall smite him; or his day shall come to die; or he shall descend into battle, and perish. The LORD forbid that I should stretch forth mine hand against the LORD's anointed: but, I pray thee, take thou now the spear that is at his bolster, and the cruse of water, and let us go. So David took the spear and the cruse of water from Saul's bolster; and they gat them away, and no man saw it, nor knew it, neither awaked: for they were all asleep; because a deep sleep from the LORD was fallen upon them. Then David went over to the other side, and stood on the top of an hill afar off; a great space being between them:",
+        "riddle": "I pray thee, take thou now the spear that is at his bolster, and the cruse of water, and let us go.",
+        "speaker": "David",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Zedekiah",
+            "Ahasuerus",
+            "Ziba"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Zerahiah"
+          ]
+        },
+        "bonus": "battle",
+        "bonus_hint": {
+          "quote": "And there went out the king of Sodom, and the king of Gomorrah, and the king of Admah, and the king of Zeboiim, and the king of Bela (the same is Zoar;) and they joined battle with them in the vale of Siddim;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד חַי־יְהוָה כִּי אִם־יְהוָה יִגָּפֶנּוּ אֽוֹ־יוֹמוֹ יָבוֹא וָמֵת אוֹ בַמִּלְחָמָה יֵרֵד וְנִסְפָּֽה חָלִילָה לִּי מֵֽיהוָה מִשְּׁלֹחַ יָדִי בִּמְשִׁיחַ יְהוָה וְעַתָּה קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ וַיִּקַּח דָּוִד אֶֽת־הַחֲנִית וְאֶת־צַפַּחַת הַמַּיִם מֵרַאֲשֹׁתֵי שָׁאוּל וַיֵּלְכוּ לָהֶם וְאֵין רֹאֶה וְאֵין יוֹדֵעַ וְאֵין מֵקִיץ כִּי כֻלָּם יְשֵׁנִים כִּי תַּרְדֵּמַת יְהוָה נָפְלָה עֲלֵיהֶֽם וַיַּעֲבֹר דָּוִד הָעֵבֶר וַיַּעֲמֹד עַל־רֹאשׁ־הָהָר מֵֽרָחֹק רַב הַמָּקוֹם בֵּינֵיהֶֽם",
+        "riddle": "וְעַתָּה קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ",
+        "speaker": "דָּוִד",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "צִדְקִיָּה",
+            "אֲחַשְׁוֵרוֹשׁ",
+            "צִיבָא"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "זֶרַח בְּנוֹ"
+          ]
+        },
+        "bonus": "חַי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ שָׁאוֹל שָֽׁאַל־הָאִישׁ לָנוּ וּלְמֽוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 43,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "David said furthermore, As the LORD liveth, the LORD shall smite him; or his day shall come to die; or he shall descend into battle, and perish.",
+          "11": "The LORD forbid that I should stretch forth mine hand against the LORD's anointed: but, I pray thee, take thou now the spear that is at his bolster, and the cruse of water, and let us go.",
+          "12": "So David took the spear and the cruse of water from Saul's bolster; and they gat them away, and no man saw it, nor knew it, neither awaked: for they were all asleep; because a deep sleep from the LORD was fallen upon them.",
+          "13": "Then David went over to the other side, and stood on the top of an hill afar off; a great space being between them:"
+        },
+        "he": {
+          "10": "וַיֹּאמֶר דָּוִד חַי־יְהוָה כִּי אִם־יְהוָה יִגָּפֶנּוּ אֽוֹ־יוֹמוֹ יָבוֹא וָמֵת אוֹ בַמִּלְחָמָה יֵרֵד וְנִסְפָּֽה",
+          "11": "חָלִילָה לִּי מֵֽיהוָה מִשְּׁלֹחַ יָדִי בִּמְשִׁיחַ יְהוָה וְעַתָּה קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ",
+          "12": "וַיִּקַּח דָּוִד אֶֽת־הַחֲנִית וְאֶת־צַפַּחַת הַמַּיִם מֵרַאֲשֹׁתֵי שָׁאוּל וַיֵּלְכוּ לָהֶם וְאֵין רֹאֶה וְאֵין יוֹדֵעַ וְאֵין מֵקִיץ כִּי כֻלָּם יְשֵׁנִים כִּי תַּרְדֵּמַת יְהוָה נָפְלָה עֲלֵיהֶֽם",
+          "13": "וַיַּעֲבֹר דָּוִד הָעֵבֶר וַיַּעֲמֹד עַל־רֹאשׁ־הָהָר מֵֽרָחֹק רַב הַמָּקוֹם בֵּינֵיהֶֽם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "1-samuel-26-11-13",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 11,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-26-11-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "The LORD forbid that I should stretch forth mine hand against the LORD's anointed: but, I pray thee, take thou now the spear that is at his bolster, and the cruse of water, and let us go. So David took the spear and the cruse of water from Saul's bolster; and they gat them away, and no man saw it, nor knew it, neither awaked: for they were all asleep; because a deep sleep from the LORD was fallen upon them.",
+        "riddle": "take thou now the spear that is at his bolster, and the cruse of water, and let us go",
+        "speaker": "David",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Uzziah",
+            "Toi",
+            "Zaccur"
+          ],
+          "listener": [
+            "Zedekiah",
+            "Tamar",
+            "Sarah"
+          ]
+        },
+        "bonus": "thee",
+        "bonus_hint": {
+          "quote": "When thou tillest the ground, it shall not henceforth yield unto thee her strength; a fugitive and a vagabond shalt thou be in the earth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "חָלִילָה לִּי מֵֽיהוָה מִשְּׁלֹחַ יָדִי בִּמְשִׁיחַ יְהוָה וְעַתָּה קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ וַיִּקַּח דָּוִד אֶֽת־הַחֲנִית וְאֶת־צַפַּחַת הַמַּיִם מֵרַאֲשֹׁתֵי שָׁאוּל וַיֵּלְכוּ לָהֶם וְאֵין רֹאֶה וְאֵין יוֹדֵעַ וְאֵין מֵקִיץ כִּי כֻלָּם יְשֵׁנִים כִּי תַּרְדֵּמַת יְהוָה נָפְלָה עֲלֵיהֶֽם",
+        "riddle": "קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ",
+        "speaker": "דָּוִד",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "עֻזִיָּה",
+            "תֹּעִי",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "צִדְקִיָּהוּ",
+            "תָּמָר",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "לִּי",
+        "bonus_hint": {
+          "quote": "הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "The LORD forbid that I should stretch forth mine hand against the LORD's anointed: but, I pray thee, take thou now the spear that is at his bolster, and the cruse of water, and let us go.",
+          "12": "So David took the spear and the cruse of water from Saul's bolster; and they gat them away, and no man saw it, nor knew it, neither awaked: for they were all asleep; because a deep sleep from the LORD was fallen upon them."
+        },
+        "he": {
+          "11": "חָלִילָה לִּי מֵֽיהוָה מִשְּׁלֹחַ יָדִי בִּמְשִׁיחַ יְהוָה וְעַתָּה קַח־נָא אֶֽת־הַחֲנִית אֲשֶׁר מְרַאֲשֹׁתָיו וְאֶת־צַפַּחַת הַמַּיִם וְנֵלֲכָה לָּֽנוּ׃",
+          "12": "וַיִּקַּח דָּוִד אֶֽת־הַחֲנִית וְאֶת־צַפַּחַת הַמַּיִם מֵרַאֲשֹׁתֵי שָׁאוּל וַיֵּלְכוּ לָהֶם וְאֵין רֹאֶה וְאֵין יוֹדֵעַ וְאֵין מֵקִיץ כִּי כֻלָּם יְשֵׁנִים כִּי תַּרְדֵּמַת יְהוָה נָפְלָה עֲלֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-samuel-26-14-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 26,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And David cried to the people, and to Abner the son of Ner, saying, Answerest thou not, Abner? Then Abner answered and said, Who art thou that criest to the king? And David said to Abner, Art not thou a valiant man? and who is like to thee in Israel? wherefore then hast thou not kept thy lord the king? for there came one of the people in to destroy the king thy lord.",
+        "riddle": "Answerest thou not, Abner?",
+        "speaker": "David",
+        "listener": "Abner",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Jesse",
+            "Caleb",
+            "Zaccur"
+          ],
+          "listener": [
+            "Ziba",
+            "Hagar",
+            "Onan"
+          ]
+        },
+        "bonus": "cried",
+        "bonus_hint": {
+          "quote": "And when Esau heard the words of his father, he cried with a great and exceeding bitter cry, and said unto his father, Bless me, even me also, O my father.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא דָוִד אֶל־הָעָם וְאֶל־אַבְנֵר בֶּן־נֵר לֵאמֹר הֲלוֹא תַעֲנֶה אַבְנֵר וַיַּעַן אַבְנֵר וַיֹּאמֶר מִי אַתָּה קָרָאתָ אֶל־הַמֶּֽלֶךְ וַיֹּאמֶר דָּוִד אֶל־אַבְנֵר הֲלוֹא־אִישׁ אַתָּה וּמִי כָמוֹךָ בְּיִשְׂרָאֵל וְלָמָּה לֹא שָׁמַרְתָּ אֶל־אֲדֹנֶיךָ הַמֶּלֶךְ כִּי־בָא אַחַד הָעָם לְהַשְׁחִית אֶת־הַמֶּלֶךְ אֲדֹנֶֽיךָ",
+        "riddle": "הֲלוֹא תַעֲנֶה אַבְנֵר",
+        "speaker": "דָוִד",
+        "listener": "אַבְנֵר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "יִשַׁי",
+            "כָּלֵב",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "צִיבָא",
+            "הָגָר",
+            "אוֹנָן"
+          ]
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 50,
+            "end": 50
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And David cried to the people, and to Abner the son of Ner, saying, Answerest thou not, Abner? Then Abner answered and said, Who art thou that criest to the king?",
+          "15": "And David said to Abner, Art not thou a valiant man? and who is like to thee in Israel? wherefore then hast thou not kept thy lord the king? for there came one of the people in to destroy the king thy lord."
+        },
+        "he": {
+          "14": "וַיִּקְרָא דָוִד אֶל־הָעָם וְאֶל־אַבְנֵר בֶּן־נֵר לֵאמֹר הֲלוֹא תַעֲנֶה אַבְנֵר וַיַּעַן אַבְנֵר וַיֹּאמֶר מִי אַתָּה קָרָאתָ אֶל־הַמֶּֽלֶךְ׃",
+          "15": "וַיֹּאמֶר דָּוִד אֶל־אַבְנֵר הֲלוֹא־אִישׁ אַתָּה וּמִי כָמוֹךָ בְּיִשְׂרָאֵל וְלָמָּה לֹא שָׁמַרְתָּ אֶל־אֲדֹנֶיךָ הַמֶּלֶךְ כִּי־בָא אַחַד הָעָם לְהַשְׁחִית אֶת־הַמֶּלֶךְ אֲדֹנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 14,
+        "end": 15
+      }
+    }
+  ]
+}

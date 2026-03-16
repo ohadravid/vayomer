@@ -1,0 +1,297 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 5,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "judges-05-01-04",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Then sang Deborah and Barak the son of Abinoam on that day, saying, Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves. Hear, O ye kings; give ear, O ye princes; I, even I, will sing unto the LORD; I will sing praise to the LORD God of Israel. LORD, when thou wentest out of Seir, when thou marchedst out of the field of Edom, the earth trembled, and the heavens dropped, the clouds also dropped water.",
+        "riddle": "Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves",
+        "speaker": "Deborah",
+        "listener": "Barak",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Balak",
+            "Zaccur",
+            "Toi"
+          ],
+          "listener": [
+            "Tamar",
+            "Jethro",
+            "Achish"
+          ]
+        },
+        "bonus": "heavens",
+        "bonus_hint": {
+          "quote": "He bowed the heavens also, and came down; and darkness was under his feet.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 22,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתָּשַׁר דְּבוֹרָה וּבָרָק בֶּן־אֲבִינֹעַם בַּיּוֹם הַהוּא לֵאמֹֽר בִּפְרֹעַ פְּרָעוֹת בְּיִשְׂרָאֵל בְּהִתְנַדֵּב עָם בָּרֲכוּ יְהוָֽה שִׁמְעוּ מְלָכִים הַאֲזִינוּ רֹֽזְנִים אָֽנֹכִי לַֽיהוָה אָנֹכִי אָשִׁירָה אֲזַמֵּר לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵֽל יְהוָה בְּצֵאתְךָ מִשֵּׂעִיר בְּצַעְדְּךָ מִשְּׂדֵה אֱדוֹם אֶרֶץ רָעָשָׁה גַּם־שָׁמַיִם נָטָפוּ גַּם־עָבִים נָטְפוּ מָֽיִם",
+        "riddle": "בִּפְרֹעַ פְּרָעוֹת בְּיִשְׂרָאֵל בְּהִתְנַדֵּב עָם בָּרֲכוּ יְהוָֽה",
+        "speaker": "דְּבוֹרָה",
+        "listener": "ברק",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "בָּלָק",
+            "זַכּוּר",
+            "תֹּעִי"
+          ],
+          "listener": [
+            "תָמָר",
+            "יִתְרוֹ",
+            "אָכִֽישׁ"
+          ]
+        },
+        "bonus": "שָׁמַיִם",
+        "bonus_hint": {
+          "quote": "וַיֵּט שָׁמַיִם וַיֵּרַד וַעֲרָפֶל תַּחַת רַגְלָֽיו",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 22,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then sang Deborah and Barak the son of Abinoam on that day, saying,",
+          "2": "Praise ye the LORD for the avenging of Israel, when the people willingly offered themselves.",
+          "3": "Hear, O ye kings; give ear, O ye princes; I, even I, will sing unto the LORD; I will sing praise to the LORD God of Israel.",
+          "4": "LORD, when thou wentest out of Seir, when thou marchedst out of the field of Edom, the earth trembled, and the heavens dropped, the clouds also dropped water."
+        },
+        "he": {
+          "1": "וַתָּשַׁר דְּבוֹרָה וּבָרָק בֶּן־אֲבִינֹעַם בַּיּוֹם הַהוּא לֵאמֹֽר",
+          "2": "בִּפְרֹעַ פְּרָעוֹת בְּיִשְׂרָאֵל בְּהִתְנַדֵּב עָם בָּרֲכוּ יְהוָֽה",
+          "3": "שִׁמְעוּ מְלָכִים הַאֲזִינוּ רֹֽזְנִים אָֽנֹכִי לַֽיהוָה אָנֹכִי אָשִׁירָה אֲזַמֵּר לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+          "4": "יְהוָה בְּצֵאתְךָ מִשֵּׂעִיר בְּצַעְדְּךָ מִשְּׂדֵה אֱדוֹם אֶרֶץ רָעָשָׁה גַּם־שָׁמַיִם נָטָפוּ גַּם־עָבִים נָטְפוּ מָֽיִם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "after",
+        "bonus_quote_expanded_from": "judges-05-01-03",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 3
+      }
+    },
+    {
+      "id": "judges-05-05-08",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 5,
+        "quote_verse_start": 5,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "The mountains melted from before the LORD, even that Sinai from before the LORD God of Israel. In the days of Shamgar the son of Anath, in the days of Jael, the highways were unoccupied, and the travellers walked through byways. The inhabitants of the villages ceased, they ceased in Israel, until that I Deborah arose, that I arose a mother in Israel. They chose new gods; then was war in the gates: was there a shield or spear seen among forty thousand in Israel?",
+        "riddle": "was there a shield or spear seen among forty thousand in Israel",
+        "speaker": "Deborah",
+        "listener": "Israel",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Eli",
+            "Uzza",
+            "Elkanah"
+          ],
+          "listener": [
+            "Ziphites",
+            "Gazites",
+            "Sarah"
+          ]
+        },
+        "bonus": "inhabitants",
+        "bonus_hint": {
+          "quote": "And the land is defiled: therefore I do visit the iniquity thereof upon it, and the land itself vomiteth out her inhabitants.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 18,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "הָרִים נָזְלוּ מִפְּנֵי יְהוָה זֶה סִינַי מִפְּנֵי יְהוָה אֱלֹהֵי יִשְׂרָאֵֽל בִּימֵי שַׁמְגַּר בֶּן־עֲנָת בִּימֵי יָעֵל חָדְלוּ אֳרָחוֹת וְהֹלְכֵי נְתִיבוֹת יֵלְכוּ אֳרָחוֹת עֲקַלְקַלּֽוֹת חָדְלוּ פְרָזוֹן בְּיִשְׂרָאֵל חָדֵלּוּ עַד שַׁקַּמְתִּי דְּבוֹרָה שַׁקַּמְתִּי אֵם בְּיִשְׂרָאֵֽל יִבְחַר אֱלֹהִים חֲדָשִׁים אָז לָחֶם שְׁעָרִים מָגֵן אִם־יֵֽרָאֶה וָרֹמַח בְּאַרְבָּעִים אֶלֶף בְּיִשְׂרָאֵֽל",
+        "riddle": "מָגֵן אִם־יֵֽרָאֶה וָרֹמַח בְּאַרְבָּעִים אֶלֶף בְּיִשְׂרָאֵֽל",
+        "speaker": "דְּבוֹרָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "עֵלִי",
+            "עֻזָּא",
+            "אֶלְקָנָה"
+          ],
+          "listener": [
+            "הַזִּפִים",
+            "לַֽעַזָּתִים",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "עַד",
+        "bonus_hint": {
+          "quote": "וְאֶת־הַחֹרִי בְּהַרְרָם שֵׂעִיר עַד אֵיל פָּארָן אֲשֶׁר עַל־הַמִּדְבָּֽר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 14,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "The mountains melted from before the LORD, even that Sinai from before the LORD God of Israel.",
+          "6": "In the days of Shamgar the son of Anath, in the days of Jael, the highways were unoccupied, and the travellers walked through byways.",
+          "7": "The inhabitants of the villages ceased, they ceased in Israel, until that I Deborah arose, that I arose a mother in Israel.",
+          "8": "They chose new gods; then was war in the gates: was there a shield or spear seen among forty thousand in Israel?"
+        },
+        "he": {
+          "5": "הָרִים נָזְלוּ מִפְּנֵי יְהוָה זֶה סִינַי מִפְּנֵי יְהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+          "6": "בִּימֵי שַׁמְגַּר בֶּן־עֲנָת בִּימֵי יָעֵל חָדְלוּ אֳרָחוֹת וְהֹלְכֵי נְתִיבוֹת יֵלְכוּ אֳרָחוֹת עֲקַלְקַלּֽוֹת",
+          "7": "חָדְלוּ פְרָזוֹן בְּיִשְׂרָאֵל חָדֵלּוּ עַד שַׁקַּמְתִּי דְּבוֹרָה שַׁקַּמְתִּי אֵם בְּיִשְׂרָאֵֽל",
+          "8": "יִבְחַר אֱלֹהִים חֲדָשִׁים אָז לָחֶם שְׁעָרִים מָגֵן אִם־יֵֽרָאֶה וָרֹמַח בְּאַרְבָּעִים אֶלֶף בְּיִשְׂרָאֵֽל"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "judges-05-06-08",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 6,
+        "end": 8
+      }
+    },
+    {
+      "id": "judges-05-09-12",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 5,
+        "quote_verse_start": 9,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "My heart is toward the governors of Israel, that offered themselves willingly among the people. Bless ye the LORD. Speak, ye that ride on white asses, ye that sit in judgment, and walk by the way. They that are delivered from the noise of archers in the places of drawing water, there shall they rehearse the righteous acts of the LORD, even the righteous acts toward the inhabitants of his villages in Israel: then shall the people of the LORD go down to the gates. Awake, awake, Deborah: awake, awake, utter a song: arise, Barak, and lead thy captivity captive, thou son of Abinoam.",
+        "riddle": "arise, Barak, and lead thy captivity captive",
+        "speaker": "Deborah",
+        "listener": "Barak",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "king David",
+            "God",
+            "Zerubbabel"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "woman of Tekoah"
+          ]
+        },
+        "bonus": "willingly",
+        "bonus_hint": {
+          "quote": "I know also, my God, that thou triest the heart, and hast pleasure in uprightness. As for me, in the uprightness of mine heart I have willingly offered all these things: and now have I seen with joy thy people, which are present here, to offer willingly unto thee.",
+          "source": {
+            "book": "1 Chronicles",
+            "chapter": 29,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "לִבִּי לְחוֹקְקֵי יִשְׂרָאֵל הַמִּֽתְנַדְּבִים בָּעָם בָּרֲכוּ יְהוָֽה רֹכְבֵי אֲתֹנוֹת צְחֹרוֹת יֹשְׁבֵי עַל־מִדִּין וְהֹלְכֵי עַל־דֶּרֶךְ שִֽׂיחוּ מִקּוֹל מְחַֽצְצִים בֵּין מַשְׁאַבִּים שָׁם יְתַנּוּ צִדְקוֹת יְהוָה צִדְקֹת פִּרְזֹנוֹ בְּיִשְׂרָאֵל אָז יָרְדוּ לַשְּׁעָרִים עַם־יְהוָֽה עוּרִי עוּרִי דְּבוֹרָה עוּרִי עוּרִי דַּבְּרִי־שִׁיר קוּם בָּרָק וּֽשֲׁבֵה שֶׁבְיְךָ בֶּן־אֲבִינֹֽעַם",
+        "riddle": "קוּם בָּרָק וּֽשֲׁבֵה שֶׁבְיְךָ",
+        "speaker": "דְּבוֹרָה",
+        "listener": "בָּרָק",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "הַמֶּלֶךְ דָּוִד",
+            "הָֽאֱלֹהִים",
+            "זְרֻבָּבֶל"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָמָר",
+            "האישה הַתְּקוֹעִית"
+          ]
+        },
+        "bonus": "לִבִּי",
+        "bonus_hint": {
+          "quote": "אַף־לְזֹאת יֶחֱרַד לִבִּי וְיִתַּר מִמְּקוֹמֽוֹ",
+          "source": {
+            "book": "איוב",
+            "chapter": 37,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "My heart is toward the governors of Israel, that offered themselves willingly among the people. Bless ye the LORD.",
+          "10": "Speak, ye that ride on white asses, ye that sit in judgment, and walk by the way.",
+          "11": "They that are delivered from the noise of archers in the places of drawing water, there shall they rehearse the righteous acts of the LORD, even the righteous acts toward the inhabitants of his villages in Israel: then shall the people of the LORD go down to the gates.",
+          "12": "Awake, awake, Deborah: awake, awake, utter a song: arise, Barak, and lead thy captivity captive, thou son of Abinoam."
+        },
+        "he": {
+          "9": "לִבִּי לְחוֹקְקֵי יִשְׂרָאֵל הַמִּֽתְנַדְּבִים בָּעָם בָּרֲכוּ יְהוָֽה",
+          "10": "רֹכְבֵי אֲתֹנוֹת צְחֹרוֹת יֹשְׁבֵי עַל־מִדִּין וְהֹלְכֵי עַל־דֶּרֶךְ שִֽׂיחוּ",
+          "11": "מִקּוֹל מְחַֽצְצִים בֵּין מַשְׁאַבִּים שָׁם יְתַנּוּ צִדְקוֹת יְהוָה צִדְקֹת פִּרְזֹנוֹ בְּיִשְׂרָאֵל אָז יָרְדוּ לַשְּׁעָרִים עַם־יְהוָֽה",
+          "12": "עוּרִי עוּרִי דְּבוֹרָה עוּרִי עוּרִי דַּבְּרִי־שִׁיר קוּם בָּרָק וּֽשֲׁבֵה שֶׁבְיְךָ בֶּן־אֲבִינֹֽעַם"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_quote_expansion": "before",
+        "bonus_quote_expanded_from": "judges-05-10-12",
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 12
+      }
+    }
+  ]
+}

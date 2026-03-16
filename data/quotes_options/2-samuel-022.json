@@ -1,0 +1,101 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 22,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "2-samuel-22-01-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 22,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And David spake unto the LORD the words of this song in the day that the LORD had delivered him out of the hand of all his enemies, and out of the hand of Saul: And he said, The LORD is my rock, and my fortress, and my deliverer; The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence.",
+        "riddle": "The God of my rock; in him will I trust:",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Uzza",
+            "Sarai",
+            "Zaccur"
+          ],
+          "listener": [
+            "sons of Heth",
+            "Sarah",
+            "sons of Jacob"
+          ]
+        },
+        "bonus": "salvation",
+        "bonus_hint": {
+          "quote": "I have waited for thy salvation, O LORD.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 49,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר דָּוִד לַֽיהוָה אֶת־דִּבְרֵי הַשִּׁירָה הַזֹּאת בְּיוֹם הִצִּיל יְהוָה אֹתוֹ מִכַּף כָּל־אֹיְבָיו וּמִכַּף שָׁאֽוּל וַיֹּאמַר יְהוָה סַֽלְעִי וּמְצֻדָתִי וּמְפַלְטִי־לִֽי אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ מָגִנִּי וְקֶרֶן יִשְׁעִי מִשְׂגַּבִּי וּמְנוּסִי מֹשִׁעִי מֵחָמָס תֹּשִׁעֵֽנִי",
+        "riddle": "אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "עֻזָּא",
+            "שָׂרַי",
+            "זַכּוּר"
+          ],
+          "listener": [
+            "בְּנֵי־חֵת",
+            "שָׂרָה",
+            "בְּנֵי יַעֲקֹב"
+          ]
+        },
+        "bonus": "יִשְׁעִי",
+        "bonus_hint": {
+          "quote": "הַדְרִיכֵנִי בַאֲמִתֶּךָ וְֽלַמְּדֵנִי כִּֽי־אַתָּה אֱלֹהֵי יִשְׁעִי אוֹתְךָ קִוִּיתִי כָּל־הַיּֽוֹם",
+          "source": {
+            "book": "תהילים",
+            "chapter": 25,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And David spake unto the LORD the words of this song in the day that the LORD had delivered him out of the hand of all his enemies, and out of the hand of Saul:",
+          "2": "And he said, The LORD is my rock, and my fortress, and my deliverer;",
+          "3": "The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר דָּוִד לַֽיהוָה אֶת־דִּבְרֵי הַשִּׁירָה הַזֹּאת בְּיוֹם הִצִּיל יְהוָה אֹתוֹ מִכַּף כָּל־אֹיְבָיו וּמִכַּף שָׁאֽוּל׃",
+          "2": "וַיֹּאמַר יְהוָה סַֽלְעִי וּמְצֻדָתִי וּמְפַלְטִי־לִֽי׃",
+          "3": "אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ מָגִנִּי וְקֶרֶן יִשְׁעִי מִשְׂגַּבִּי וּמְנוּסִי מֹשִׁעִי מֵחָמָס תֹּשִׁעֵֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 1,
+        "end": 3
+      }
+    }
+  ]
+}

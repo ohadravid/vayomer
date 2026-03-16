@@ -1,0 +1,101 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 3,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "job-03-02-04",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 3,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And Job spake, and said, Let the day perish wherein I was born, and the night in which it was said, There is a man child conceived. Let that day be darkness; let not God regard it from above, neither let the light shine upon it.",
+        "riddle": "Let that day be darkness; let not God regard it from above, neither let the light shine upon it",
+        "speaker": "Job",
+        "listener": "God",
+        "book": "Job",
+        "options": {
+          "speaker": [
+            "Uzza",
+            "Zerubbabel",
+            "Oded"
+          ],
+          "listener": [
+            "People of Judah",
+            "Ziba",
+            "Sarah"
+          ]
+        },
+        "bonus": "night",
+        "bonus_hint": {
+          "quote": "And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר יֹאבַד יוֹם אִוָּלֶד בּוֹ וְהַלַּיְלָה אָמַר הֹרָה גָֽבֶר הַיּוֹם הַהוּא יְֽהִי חֹשֶׁךְ אַֽל־יִדְרְשֵׁהוּ אֱלוֹהַּ מִמָּעַל וְאַל־תּוֹפַע עָלָיו נְהָרָֽה",
+        "riddle": "הַיּוֹם הַהוּא יְֽהִי חֹשֶׁךְ אַֽל־יִדְרְשֵׁהוּ אֱלוֹהַּ מִמָּעַל וְאַל־תּוֹפַע עָלָיו נְהָרָֽה",
+        "speaker": "אִיּוֹב",
+        "listener": "אֱלוֹהַּ",
+        "book": "איוב",
+        "options": {
+          "speaker": [
+            "עֻזָּא",
+            "זְרֻבָּבֶל",
+            "עֹדֵד"
+          ],
+          "listener": [
+            "בָּנַי אֶתְכֶם",
+            "צִיבָא",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "יֹאבַד",
+        "bonus_hint": {
+          "quote": "וְהָיָה בַיּוֹם־הַהוּא נְאֻם־יְהוָה יֹאבַד לֵב־הַמֶּלֶךְ וְלֵב הַשָּׂרִים וְנָשַׁמּוּ הַכֹּהֲנִים וְהַנְּבִיאִים יִתְמָֽהוּ",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 4,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Job spake, and said,",
+          "3": "Let the day perish wherein I was born, and the night in which it was said, There is a man child conceived.",
+          "4": "Let that day be darkness; let not God regard it from above, neither let the light shine upon it."
+        },
+        "he": {
+          "2": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר׃",
+          "3": "יֹאבַד יוֹם אִוָּלֶד בּוֹ וְהַלַּיְלָה אָמַר הֹרָה גָֽבֶר׃",
+          "4": "הַיּוֹם הַהוּא יְֽהִי חֹשֶׁךְ אַֽל־יִדְרְשֵׁהוּ אֱלוֹהַּ מִמָּעַל וְאַל־תּוֹפַע עָלָיו נְהָרָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 2,
+        "end": 4
+      }
+    }
+  ]
+}

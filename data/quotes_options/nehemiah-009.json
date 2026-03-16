@@ -1,0 +1,375 @@
+{
+  "book_code": "NEH",
+  "book": "Nehemiah",
+  "book_he": "נחמיה",
+  "chapter": 9,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "nehemiah-09-05-06",
+      "source": {
+        "book_code": "NEH",
+        "book": "Nehemiah",
+        "book_he": "נחמיה",
+        "chapter": 9,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, and Pethahiah, said, Stand up and bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise. Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.",
+        "riddle": "Stand up and bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.",
+        "speaker": "Jeshua",
+        "listener": "Levites",
+        "book": "Nehemiah",
+        "options": {
+          "speaker": [
+            "David",
+            "Moses",
+            "Ezra"
+          ],
+          "listener": [
+            "the congregation",
+            "Israelite",
+            "servants"
+          ]
+        },
+        "bonus": "host",
+        "bonus_hint": {
+          "quote": "And it came to pass, that in the morning watch the LORD looked unto the host of the Egyptians through the pillar of fire and of the cloud, and troubled the host of the Egyptians,",
+          "source": {
+            "book": "Exodus",
+            "chapter": 14,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הַלְוִיִּם יֵשׁוּעַ וְקַדְמִיאֵל בָּנִי חֲשַׁבְנְיָה שֵׁרֵֽבְיָה הֽוֹדִיָּה שְׁבַנְיָה פְתַֽחְיָה קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם וִיבָֽרְכוּ שֵׁם כְּבוֹדֶךָ וּמְרוֹמַם עַל־כָּל־בְּרָכָה וּתְהִלָּֽה אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים",
+        "riddle": "קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם וִיבָֽרְכוּ שֵׁם כְּבוֹדֶךָ וּמְרוֹמַם עַל־כָּל־בְּרָכָה וּתְהִלָּֽה",
+        "speaker": "יֵשׁוּעַ",
+        "listener": "הַלְוִיִּם",
+        "book": "נחמיה",
+        "options": {
+          "speaker": [
+            "דָוִד",
+            "מֹשֶׁה",
+            "עֶזְרָא"
+          ],
+          "listener": [
+            "הָעֵדָֽה",
+            "הָעִבְרִי",
+            "עֲבָדָיו"
+          ]
+        },
+        "bonus": "בָּהֶם",
+        "bonus_hint": {
+          "quote": "וְגַם הַכֹּהֲנִים הַנִּגָּשִׁים אֶל־יְהוָה יִתְקַדָּשׁוּ פֶּן־יִפְרֹץ בָּהֶם יְהוָֽה",
+          "source": {
+            "book": "שמות",
+            "chapter": 19,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, and Pethahiah, said, Stand up and bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.",
+          "6": "Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee."
+        },
+        "he": {
+          "5": "וַיֹּאמְרוּ הַלְוִיִּם יֵשׁוּעַ וְקַדְמִיאֵל בָּנִי חֲשַׁבְנְיָה שֵׁרֵֽבְיָה הֽוֹדִיָּה שְׁבַנְיָה פְתַֽחְיָה קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם וִיבָֽרְכוּ שֵׁם כְּבוֹדֶךָ וּמְרוֹמַם עַל־כָּל־בְּרָכָה וּתְהִלָּֽה׃",
+          "6": "אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "id": "nehemiah-09-05-07",
+      "source": {
+        "book_code": "NEH",
+        "book": "Nehemiah",
+        "book_he": "נחמיה",
+        "chapter": 9,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, and Pethahiah, said, Stand up and bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise. Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee. Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;",
+        "riddle": "Stand up and bless the LORD your God for ever and ever",
+        "speaker": "Jeshua",
+        "listener": "Levites",
+        "book": "Nehemiah",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "David",
+            "Levite"
+          ],
+          "listener": [
+            "congregation",
+            "Zerahiah",
+            "Sarah"
+          ]
+        },
+        "bonus": "host",
+        "bonus_hint": {
+          "quote": "And it came to pass, that in the morning watch the LORD looked unto the host of the Egyptians through the pillar of fire and of the cloud, and troubled the host of the Egyptians,",
+          "source": {
+            "book": "Exodus",
+            "chapter": 14,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הַלְוִיִּם יֵשׁוּעַ וְקַדְמִיאֵל בָּנִי חֲשַׁבְנְיָה שֵׁרֵֽבְיָה הֽוֹדִיָּה שְׁבַנְיָה פְתַֽחְיָה קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם וִיבָֽרְכוּ שֵׁם כְּבוֹדֶךָ וּמְרוֹמַם עַל־כָּל־בְּרָכָה וּתְהִלָּֽה אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם",
+        "riddle": "קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם",
+        "speaker": "יֵשׁוּעַ",
+        "listener": "הַלְוִיִּם",
+        "book": "נחמיה",
+        "options": {
+          "speaker": [
+            "נָתָן",
+            "דָוִד",
+            "הַלְוִיִּם"
+          ],
+          "listener": [
+            "הַקָּהָל",
+            "זֶרַח בְּנוֹ",
+            "שָׂרָה"
+          ]
+        },
+        "bonus": "בָּהֶם",
+        "bonus_hint": {
+          "quote": "אֶת־אֵֽימָתִי אֲשַׁלַּח לְפָנֶיךָ וְהַמֹּתִי אֶת־כָּל־הָעָם אֲשֶׁר תָּבֹא בָּהֶם וְנָתַתִּי אֶת־כָּל־אֹיְבֶיךָ אֵלֶיךָ עֹֽרֶף",
+          "source": {
+            "book": "שמות",
+            "chapter": 23,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "Then the Levites, Jeshua, and Kadmiel, Bani, Hashabniah, Sherebiah, Hodijah, Shebaniah, and Pethahiah, said, Stand up and bless the LORD your God for ever and ever: and blessed be thy glorious name, which is exalted above all blessing and praise.",
+          "6": "Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.",
+          "7": "Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;"
+        },
+        "he": {
+          "5": "וַיֹּאמְרוּ הַלְוִיִּם יֵשׁוּעַ וְקַדְמִיאֵל בָּנִי חֲשַׁבְנְיָה שֵׁרֵֽבְיָה הֽוֹדִיָּה שְׁבַנְיָה פְתַֽחְיָה קוּמוּ בָּרֲכוּ אֶת־יְהוָה אֱלֹֽהֵיכֶם מִן־הָעוֹלָם עַד־הָעוֹלָם וִיבָֽרְכוּ שֵׁם כְּבוֹדֶךָ וּמְרוֹמַם עַל־כָּל־בְּרָכָה וּתְהִלָּֽה׃",
+          "6": "אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים׃",
+          "7": "אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 5,
+        "end": 7
+      }
+    },
+    {
+      "id": "nehemiah-09-06-08",
+      "source": {
+        "book_code": "NEH",
+        "book": "Nehemiah",
+        "book_he": "נחמיה",
+        "chapter": 9,
+        "quote_verse_start": 6,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee. Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham; And foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give it, I say, to his seed, and hast performed thy words; for thou art righteous:",
+        "riddle": "Thou, even thou, art LORD alone",
+        "speaker": "the LORD",
+        "listener": "Abraham",
+        "book": "Nehemiah",
+        "options": {
+          "speaker": [
+            "king David",
+            "Josiah",
+            "Zerubbabel"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "Congregation"
+          ]
+        },
+        "bonus": "thee",
+        "bonus_hint": {
+          "quote": "And of every living thing of all flesh, two of every sort shalt thou bring into the ark, to keep them alive with thee; they shall be male and female.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם וּמָצָאתָ אֶת־לְבָבוֹ נֶאֱמָן לְפָנֶיךָ וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת־אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי לָתֵת לְזַרְעוֹ וַתָּקֶם אֶת־דְּבָרֶיךָ כִּי צַדִּיק אָֽתָּה",
+        "riddle": "אַתָּה־הוּא יְהוָה לְבַדֶּךָ",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "נחמיה",
+        "options": {
+          "speaker": [
+            "המלך דוד",
+            "יֹאשִׁיָּהוּ",
+            "זְרֻבָּבֶל"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָּמָר",
+            "קָהָֽל"
+          ]
+        },
+        "bonus": "לָתֵת",
+        "bonus_hint": {
+          "quote": "לֹא תֹאסִפוּן לָתֵת תֶּבֶן לָעָם לִלְבֹּן הַלְּבֵנִים כִּתְמוֹל שִׁלְשֹׁם הֵם יֵֽלְכוּ וְקֹשְׁשׁוּ לָהֶם תֶּֽבֶן",
+          "source": {
+            "book": "שמות",
+            "chapter": 5,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Thou, even thou, art LORD alone; thou hast made heaven, the heaven of heavens, with all their host, the earth, and all things that are therein, the seas, and all that is therein, and thou preservest them all; and the host of heaven worshippeth thee.",
+          "7": "Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;",
+          "8": "And foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give it, I say, to his seed, and hast performed thy words; for thou art righteous:"
+        },
+        "he": {
+          "6": "אַתָּה־הוּא יְהוָה לְבַדֶּךָ אַתָּה עָשִׂיתָ אֶֽת־הַשָּׁמַיִם שְׁמֵי הַשָּׁמַיִם וְכָל־צְבָאָם הָאָרֶץ וְכָל־אֲשֶׁר עָלֶיהָ הַיַּמִּים וְכָל־אֲשֶׁר בָּהֶם וְאַתָּה מְחַיֶּה אֶת־כֻּלָּם וּצְבָא הַשָּׁמַיִם לְךָ מִשְׁתַּחֲוִֽים׃",
+          "7": "אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם׃",
+          "8": "וּמָצָאתָ אֶת־לְבָבוֹ נֶאֱמָן לְפָנֶיךָ וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת־אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי לָתֵת לְזַרְעוֹ וַתָּקֶם אֶת־דְּבָרֶיךָ כִּי צַדִּיק אָֽתָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 6,
+        "end": 8
+      }
+    },
+    {
+      "id": "nehemiah-09-07-09",
+      "source": {
+        "book_code": "NEH",
+        "book": "Nehemiah",
+        "book_he": "נחמיה",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham; And foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give it, I say, to his seed, and hast performed thy words; for thou art righteous: And didst see the affliction of our fathers in Egypt, and heardest their cry by the Red sea;",
+        "riddle": "And foundest his heart faithful before thee",
+        "speaker": "the LORD",
+        "listener": "Abraham",
+        "book": "Nehemiah",
+        "options": {
+          "speaker": [
+            "Sarai",
+            "Azariah the son of Johanan",
+            "Uzza"
+          ],
+          "listener": [
+            "Sarah",
+            "Tamar",
+            "the Hebrew midwives"
+          ]
+        },
+        "bonus": "cry",
+        "bonus_hint": {
+          "quote": "And the LORD said, I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters; for I know their sorrows;",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם וּמָצָאתָ אֶת־לְבָבוֹ נֶאֱמָן לְפָנֶיךָ וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת־אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי לָתֵת לְזַרְעוֹ וַתָּקֶם אֶת־דְּבָרֶיךָ כִּי צַדִּיק אָֽתָּה וַתֵּרֶא אֶת־עֳנִי אֲבֹתֵינוּ בְּמִצְרָיִם וְאֶת־זַעֲקָתָם שָׁמַעְתָּ עַל־יַם־סֽוּף",
+        "riddle": "וּמָצָאתָ אֶת־לְבָבוֹ נֶאֱמָן לְפָנֶיךָ",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "נחמיה",
+        "options": {
+          "speaker": [
+            "שָׂרַי",
+            "עֲזַרְיָהוּ בֶן־יְהֽוֹחָנָן",
+            "עֻזָּא"
+          ],
+          "listener": [
+            "שָׂרָה",
+            "תָּמָר",
+            "לַֽמְיַלְּדֹת הָֽעִבְרִיֹּת"
+          ]
+        },
+        "bonus": "בְּמִצְרָיִם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה רָאֹה רָאִיתִי אֶת־עֳנִי עַמִּי אֲשֶׁר בְּמִצְרָיִם וְאֶת־צַעֲקָתָם שָׁמַעְתִּי מִפְּנֵי נֹֽגְשָׂיו כִּי יָדַעְתִּי אֶת־מַכְאֹבָֽיו",
+          "source": {
+            "book": "שמות",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Thou art the LORD the God, who didst choose Abram, and broughtest him forth out of Ur of the Chaldees, and gavest him the name of Abraham;",
+          "8": "And foundest his heart faithful before thee, and madest a covenant with him to give the land of the Canaanites, the Hittites, the Amorites, and the Perizzites, and the Jebusites, and the Girgashites, to give it, I say, to his seed, and hast performed thy words; for thou art righteous:",
+          "9": "And didst see the affliction of our fathers in Egypt, and heardest their cry by the Red sea;"
+        },
+        "he": {
+          "7": "אַתָּה־הוּא יְהוָה הָאֱלֹהִים אֲשֶׁר בָּחַרְתָּ בְּאַבְרָם וְהוֹצֵאתוֹ מֵאוּר כַּשְׂדִּים וְשַׂמְתָּ שְּׁמוֹ אַבְרָהָֽם׃",
+          "8": "וּמָצָאתָ אֶת־לְבָבוֹ נֶאֱמָן לְפָנֶיךָ וְכָרוֹת עִמּוֹ הַבְּרִית לָתֵת אֶת־אֶרֶץ הַכְּנַעֲנִי הַחִתִּי הָאֱמֹרִי וְהַפְּרִזִּי וְהַיְבוּסִי וְהַגִּרְגָּשִׁי לָתֵת לְזַרְעוֹ וַתָּקֶם אֶת־דְּבָרֶיךָ כִּי צַדִּיק אָֽתָּה׃",
+          "9": "וַתֵּרֶא אֶת־עֳנִי אֲבֹתֵינוּ בְּמִצְרָיִם וְאֶת־זַעֲקָתָם שָׁמַעְתָּ עַל־יַם־סֽוּף׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 9
+      }
+    }
+  ]
+}

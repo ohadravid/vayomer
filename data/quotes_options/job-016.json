@@ -1,0 +1,101 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 16,
+  "mode": "rebuild_v2_options",
+  "items": [
+    {
+      "id": "job-16-01-03",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 16,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Then Job answered and said, I have heard many such things: miserable comforters are ye all. Shall vain words have an end? or what emboldeneth thee that thou answerest?",
+        "riddle": "Shall vain words have an end?",
+        "speaker": "Job",
+        "listener": "comforters",
+        "book": "Job",
+        "options": {
+          "speaker": [
+            "Eliphaz the Temanite",
+            "Isaac",
+            "Balak"
+          ],
+          "listener": [
+            "his sons",
+            "the congregation",
+            "Ziba"
+          ]
+        },
+        "bonus": "such",
+        "bonus_hint": {
+          "quote": "And, behold, seven other kine came up after them, poor and very ill favoured and leanfleshed, such as I never saw in all the land of Egypt for badness:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר שָׁמַעְתִּי כְאֵלֶּה רַבּוֹת מְנַחֲמֵי עָמָל כֻּלְּכֶֽם הֲקֵץ לְדִבְרֵי־רוּחַ אוֹ מַה־יַּמְרִֽיצְךָ כִּי תַעֲנֶֽה",
+        "riddle": "הֲקֵץ לְדִבְרֵי־רוּחַ",
+        "speaker": "אִיּוֹב",
+        "listener": "מְנַחֲמֵי עָמָל",
+        "book": "איוב",
+        "options": {
+          "speaker": [
+            "אֱלִיפַז הַתֵּימָנִי",
+            "יִצְחָק",
+            "בָּלָק"
+          ],
+          "listener": [
+            "בָּנָיו",
+            "הָעֵדָה",
+            "צִיבָא"
+          ]
+        },
+        "bonus": "שָׁמַעְתִּי",
+        "bonus_hint": {
+          "quote": "וְרִבְקָה אָֽמְרָה אֶל־יַעֲקֹב בְּנָהּ לֵאמֹר הִנֵּה שָׁמַעְתִּי אֶת־אָבִיךָ מְדַבֵּר אֶל־עֵשָׂו אָחִיךָ לֵאמֹֽר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Job answered and said,",
+          "2": "I have heard many such things: miserable comforters are ye all.",
+          "3": "Shall vain words have an end? or what emboldeneth thee that thou answerest?"
+        },
+        "he": {
+          "1": "וַיַּעַן אִיּוֹב וַיֹּאמַֽר׃",
+          "2": "שָׁמַעְתִּי כְאֵלֶּה רַבּוֹת מְנַחֲמֵי עָמָל כֻּלְּכֶֽם׃",
+          "3": "הֲקֵץ לְדִבְרֵי־רוּחַ אוֹ מַה־יַּמְרִֽיצְךָ כִּי תַעֲנֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "llm_en_he_validated",
+        "confidence": 1.0,
+        "bonus_source": "llm",
+        "bonus_hint_source": "llm"
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 1,
+        "end": 3
+      }
+    }
+  ]
+}

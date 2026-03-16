@@ -8,7 +8,7 @@ import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
-import { loadPuzzleItems } from "./lib/puzzleData";
+import { PUZZLE_MANIFEST, loadPuzzleChapter } from "./lib/puzzleData";
 import { dayIndex, pickDailyItemIndexWithOverrides } from "./lib/daily";
 import type {
   BonusHint,
@@ -64,7 +64,38 @@ const EMPTY_EDITED: GuessEditState = {
 type PuzzleInitial = ComponentProps<typeof PuzzleView>["initial"];
 const CHOICE_FIELDS: EasyChoiceField[] = ["speaker", "listener"];
 
-const debugQuoteItems = loadPuzzleItems();
+let debugQuoteItemsPromise: Promise<PuzzleItem[]> | null = null;
+
+async function loadAllPuzzleItems(): Promise<PuzzleItem[]> {
+  const files = [...new Set(PUZZLE_MANIFEST.map((entry) => entry.file))];
+  const chapters = await Promise.all(files.map((file) => loadPuzzleChapter(file)));
+  return chapters.flatMap((chapter) => chapter);
+}
+
+function DebugQuoteBrowser({ lang }: { lang: Lang }) {
+  const [items, setItems] = useState<PuzzleItem[]>([]);
+
+  useEffect(() => {
+    let cancelled = false;
+    if (!debugQuoteItemsPromise) {
+      debugQuoteItemsPromise = loadAllPuzzleItems();
+    }
+    void debugQuoteItemsPromise
+      .then((loaded) => {
+        if (cancelled) return;
+        setItems(loaded);
+      })
+      .catch(() => {
+        if (cancelled) return;
+        setItems([]);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, []);
+
+  return <QuoteBrowser lang={lang} items={items} />;
+}
 
 function localize(lang: Lang, english: string, hebrew: string): string {
   return lang === "he" ? hebrew : english;
@@ -242,7 +273,7 @@ function makeDebugI18n(lang: Lang) {
   return i18n;
 }
 
-export function QuoteBrowser({ lang, items = debugQuoteItems }: { lang: Lang; items?: PuzzleItem[] }) {
+export function QuoteBrowser({ lang, items = [] }: { lang: Lang; items?: PuzzleItem[] }) {
   const total = items.length;
   const [showFullQuote, setShowFullQuote] = useState(true);
   const [selectedDate, setSelectedDate] = useState(() => Temporal.Now.plainDateISO());
@@ -414,7 +445,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
         <section className="debug-grid">
           <article className="debug-panel">
             <h2>{localize(lang, "All Quotes Browser", "דפדפן כל הציטוטים")}</h2>
-            <QuoteBrowser lang={lang} />
+            <DebugQuoteBrowser lang={lang} />
           </article>
         </section>
 
