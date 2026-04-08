@@ -19,9 +19,13 @@ const LEGACY_DIFFICULTY_QUERY_KEYS = ["hard", "easy"] as const;
 const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
 
-type PersistedState = PersistedGameFields & {
+type PersistedDraft = Pick<PersistedGameFields, "speaker" | "listener" | "portion" | "bonus">;
+
+type PersistedState = {
   version: string;
-  lang: Lang;
+  drafts: Partial<Record<Lang, PersistedDraft>>;
+  attempts: GuessResult[];
+  hintRevealed: boolean;
   revealed: boolean;
 };
 
@@ -38,6 +42,12 @@ const EMPTY_PERSISTED_GAME_FIELDS: PersistedGameFields = {
   bonus: "",
   hintRevealed: false,
   attempts: [],
+};
+const EMPTY_PERSISTED_DRAFT: PersistedDraft = {
+  speaker: "",
+  listener: "",
+  portion: "",
+  bonus: "",
 };
 const EXAMPLE_PUZZLE: PuzzleItem | null = ((exampleQuoteData as { items?: PuzzleItem[] }).items ?? [])[0] ?? null;
 
@@ -90,14 +100,12 @@ function buildExampleInitialState(puzzle: PuzzleItem, lang: Lang): PersistedGame
   };
 }
 
-function toPersistedGameFields(state: PersistedState): PersistedGameFields {
+function toPersistedDraft(state: PersistedGameFields): PersistedDraft {
   return {
     speaker: state.speaker,
     listener: state.listener,
     portion: state.portion,
     bonus: state.bonus,
-    hintRevealed: state.hintRevealed,
-    attempts: state.attempts,
   };
 }
 
@@ -123,47 +131,81 @@ function toGuessResult(raw: unknown): GuessResult | null {
 }
 
 function parseAttempts(parsed: Record<string, unknown>): GuessResult[] {
-  if (Array.isArray(parsed.attempts)) {
-    return parsed.attempts
-      .map((attempt) => toGuessResult(attempt))
-      .filter((attempt): attempt is GuessResult => attempt !== null);
-  }
-
-  const legacyResult = toGuessResult(parsed.result);
-  if (!legacyResult) return [];
-  const tries =
-    typeof parsed.guesses === "number" && Number.isFinite(parsed.guesses) && parsed.guesses > 0
-      ? Math.floor(parsed.guesses)
-      : 1;
-  return Array.from({ length: tries }, () => ({ ...legacyResult }));
+  if (!Array.isArray(parsed.attempts)) return [];
+  return parsed.attempts
+    .map((attempt) => toGuessResult(attempt))
+    .filter((attempt): attempt is GuessResult => attempt !== null);
 }
 
-export function parsePersistedState(raw: string | null, lang: Lang, currentVersion: string): PersistedState | null {
+function parsePersistedDraft(raw: unknown): PersistedDraft | null {
+  if (!raw || typeof raw !== "object") return null;
+  const parsed = raw as Record<string, unknown>;
+  return {
+    speaker: typeof parsed.speaker === "string" ? parsed.speaker : "",
+    listener: typeof parsed.listener === "string" ? parsed.listener : "",
+    portion: typeof parsed.portion === "string" ? parsed.portion : "",
+    bonus: typeof parsed.bonus === "string" ? parsed.bonus : "",
+  };
+}
+
+function parsePersistedDrafts(raw: unknown): Partial<Record<Lang, PersistedDraft>> | null {
+  if (!raw || typeof raw !== "object") return null;
+  const parsed = raw as Record<string, unknown>;
+  const drafts: Partial<Record<Lang, PersistedDraft>> = {};
+
+  for (const language of ["en", "he"] as const) {
+    const draft = parsePersistedDraft(parsed[language]);
+    if (draft) drafts[language] = draft;
+  }
+
+  return drafts;
+}
+
+export function parsePersistedState(raw: string | null, currentVersion: string): PersistedState | null {
   if (!raw) return null;
   try {
     const parsed = JSON.parse(raw) as Record<string, unknown>;
     if (parsed.version !== currentVersion) return null;
-    if (parsed.lang !== lang) return null;
+    if (!Array.isArray(parsed.attempts)) return null;
+    const drafts = parsePersistedDrafts(parsed.drafts);
+    if (!drafts) return null;
     const attempts = parseAttempts(parsed);
     const hasCoreSolvedAttempt = attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
     const revealed = !!parsed.revealed && hasCoreSolvedAttempt;
-    const hintRevealed = !!parsed.hintRevealed || !!parsed.bookHintUsed;
     return {
       version: currentVersion,
-      lang,
-      speaker: typeof parsed.speaker === "string" ? parsed.speaker : "",
-      listener: typeof parsed.listener === "string" ? parsed.listener : "",
-      portion: typeof parsed.portion === "string" ? parsed.portion : "",
-      bonus: typeof parsed.bonus === "string" ? parsed.bonus : "",
-      hintRevealed,
+      drafts,
       attempts,
-      // Old/corrupted payloads can end up with `revealed: true` and no solved attempt.
-      // Treat those as not revealed so the form remains playable on load.
+      hintRevealed: !!parsed.hintRevealed,
       revealed,
     };
   } catch {
     return null;
   }
+}
+
+export function resolvePersistedGameFields(state: PersistedState, puzzle: PuzzleItem, lang: Lang): PersistedGameFields {
+  const langDraft = state.drafts[lang];
+  const hasCoreSolvedAttempt = state.attempts.some((attempt) => attempt.speakerOk && attempt.listenerOk);
+  const draft: PersistedDraft = {
+    ...EMPTY_PERSISTED_DRAFT,
+    ...(langDraft ?? {}),
+  };
+
+  if (hasCoreSolvedAttempt) {
+    if (!langDraft?.speaker) draft.speaker = puzzle[lang].speaker;
+    if (!langDraft?.listener) draft.listener = puzzle[lang].listener;
+  }
+
+  if (state.revealed && !langDraft?.bonus) {
+    draft.bonus = puzzle[lang].bonus ?? "";
+  }
+
+  return {
+    ...draft,
+    hintRevealed: state.hintRevealed,
+    attempts: state.attempts,
+  };
 }
 
 export function parsePuzzleIdFromSearch(search: string): string | null {
@@ -288,17 +330,17 @@ export function App() {
     () => (EXAMPLE_PUZZLE ? buildExampleInitialState(EXAMPLE_PUZZLE, lang) : null),
     [lang]
   );
-  const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
+  const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id) : "";
 
   useEffect(() => {
     if (!puzzle) return;
     const rawPersisted = localStorage.getItem(storageKey);
-    const parsed = parsePersistedState(rawPersisted, lang, APP_VERSION);
+    const parsed = parsePersistedState(rawPersisted, APP_VERSION);
     if (rawPersisted && !parsed) {
       localStorage.removeItem(storageKey);
     }
     setRevealed(parsed?.revealed ?? false);
-    setInitial(parsed ? toPersistedGameFields(parsed) : { ...EMPTY_PERSISTED_GAME_FIELDS });
+    setInitial(parsed ? resolvePersistedGameFields(parsed, puzzle, lang) : { ...EMPTY_PERSISTED_GAME_FIELDS });
   }, [puzzle, storageKey, lang]);
 
   useEffect(() => {
@@ -318,11 +360,15 @@ export function App() {
 
   const persist = (state: PersistedGameFields) => {
     if (!puzzle) return;
-    const existing = parsePersistedState(localStorage.getItem(storageKey), lang, APP_VERSION);
+    const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
     const payload = {
       version: APP_VERSION,
-      lang,
-      ...state,
+      drafts: {
+        ...(existing?.drafts ?? {}),
+        [lang]: toPersistedDraft(state),
+      },
+      attempts: state.attempts,
+      hintRevealed: state.hintRevealed,
       revealed: existing?.revealed ?? revealed,
     };
     localStorage.setItem(storageKey, JSON.stringify(payload));
@@ -338,11 +384,17 @@ export function App() {
   const reveal = () => {
     if (!puzzle) return;
     setRevealed(true);
-    const existing = parsePersistedState(localStorage.getItem(storageKey), lang, APP_VERSION);
+    const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
     localStorage.setItem(
       storageKey,
       JSON.stringify({
-        ...(existing ?? { version: APP_VERSION, lang, ...EMPTY_PERSISTED_GAME_FIELDS, revealed: false }),
+        ...(existing ?? {
+          version: APP_VERSION,
+          drafts: {},
+          attempts: [],
+          hintRevealed: false,
+          revealed: false,
+        }),
         revealed: true,
       })
     );

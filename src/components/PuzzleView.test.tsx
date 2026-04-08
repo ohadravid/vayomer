@@ -301,6 +301,51 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
+  it("does not persist stale local state when hydration and persist target change together", async () => {
+    const calls: PersistPayload[] = [];
+    const onPersistHe = () => {};
+    const onPersistEn = (state: PersistPayload) => {
+      calls.push(state);
+    };
+    const initialHe = {
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      portion: "",
+      bonus: "טיוטה",
+      hintRevealed: false,
+      attempts: [coreSolvedAttempt],
+    };
+    const initialEn = {
+      speaker: "the LORD",
+      listener: "Abram",
+      portion: "",
+      bonus: "",
+      hintRevealed: false,
+      attempts: [coreSolvedAttempt],
+    };
+
+    act(() => {
+      view = render(buildPuzzleView({ onPersist: onPersistHe, lang: "he", initial: initialHe }));
+    });
+
+    act(() => {
+      view?.rerender(buildPuzzleView({ onPersist: onPersistEn, lang: "en", initial: initialEn }));
+    });
+
+    expect(calls).toHaveLength(0);
+
+    await setInputValue("inputBonus", "earth");
+
+    expect(calls.length).toBeGreaterThan(0);
+    expect(calls.every((call) => call.speaker === "the LORD" && call.listener === "Abram")).toBe(true);
+    expect(calls[calls.length - 1]).toMatchObject({
+      speaker: "the LORD",
+      listener: "Abram",
+      bonus: "earth",
+      attempts: initialEn.attempts,
+    });
+  });
+
   it("uses options when options are present", () => {
     const onPersist = () => {};
     const puzzleWithDifficultyOptions: PuzzleItem = {

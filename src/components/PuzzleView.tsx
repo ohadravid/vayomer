@@ -167,6 +167,7 @@ export function PuzzleView({
   const [shareNotice, setShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
+  const isHydratingRef = useRef(false);
 
   const dateLabel = useMemo(() => upperCornerLabel ? upperCornerLabel : formatDate(new Date(), lang), [lang, upperCornerLabel]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -236,6 +237,7 @@ export function PuzzleView({
     const nextValues = initialValues(initial);
     const nextAttempts = initial?.attempts ?? [];
     hydratedStateSignatureRef.current = signatureFromState(buildPersistableState(initial));
+    isHydratingRef.current = true;
     setSpeaker(nextValues.speaker);
     setListener(nextValues.listener);
     setPortion(nextValues.portion);
@@ -269,7 +271,14 @@ export function PuzzleView({
       hintRevealed,
       attempts,
     };
-    if (signatureFromState(nextState) === hydratedStateSignatureRef.current) return;
+    const nextSignature = signatureFromState(nextState);
+    if (isHydratingRef.current) {
+      if (nextSignature === hydratedStateSignatureRef.current) {
+        isHydratingRef.current = false;
+      }
+      return;
+    }
+    if (nextSignature === hydratedStateSignatureRef.current) return;
     persistRef.current(nextState);
   }, [speaker, listener, portion, bonus, bonusHintUsed, hintRevealed, attempts]);
 

@@ -66,6 +66,8 @@ type GameOpenOptions = {
 };
 
 const WRONG_TEXT = "not-the-answer";
+const EN_BONUS_DRAFT = "draft-word";
+const HE_BONUS_DRAFT = "טיוטה";
 const quotesOptionsDirPath = fileURLToPath(new URL("../data/quotes_options", import.meta.url));
 const exampleQuotePath = fileURLToPath(new URL("../src/lib/exampleQuote.json", import.meta.url));
 
@@ -283,6 +285,17 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   await expect(page.locator("#guessForm")).toBeVisible();
 }
 
+async function expectSolvedState(
+  page: Page,
+  args: { lang: Lang; bonus: string; feedback: string; triesLabel: string }
+): Promise<void> {
+  await expect(page.locator("#feedback")).toHaveText(args.feedback);
+  await expect(page.getByText(args.triesLabel)).toBeVisible();
+  await expect(page.locator("#submitGuess")).toBeDisabled();
+  const quoteText = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteText, args.lang)).toContain(normalize(args.bonus, args.lang));
+}
+
 function findMatchingOption(options: string[], answer: string, lang: Lang): string {
   const exact = options.find((option) => option === answer);
   if (exact) return exact;
@@ -363,7 +376,7 @@ test("legacy difficulty params are removed from the URL on load", async ({ page 
   expect(new URL(page.url()).searchParams.get("puzzle")).toBe(todayPuzzleId);
 });
 
-test("full game: clear win (reload persists state)", async ({ page }) => {
+test("full game: clear win (double reload persists stage-two state)", async ({ page }) => {
   await openGame(page);
   await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.locator("#refLine")).toHaveText("");
@@ -392,6 +405,19 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   await expect(page.locator("#refLine")).not.toHaveText("");
   await expect(page.getByText("Tries: 0/5")).toBeVisible();
 
+  await page.reload();
+  await expect(page.locator("#guessForm")).toBeVisible();
+  const persistedSpeakerAfterSecondReload = await page.locator("#inputSpeaker").inputValue();
+  const persistedListenerAfterSecondReload = await page.locator("#inputListener").inputValue();
+  expect(normalize(persistedSpeakerAfterSecondReload, "en")).toBe(normalize(enAnswer.speaker, "en"));
+  expect(normalize(persistedListenerAfterSecondReload, "en")).toBe(normalize(enAnswer.listener, "en"));
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  const quoteAfterSecondReload = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterSecondReload, "en")).toContain(normalize(enVisibleContextToken, "en"));
+  expect(normalize(quoteAfterSecondReload, "en")).not.toContain(normalize(enAnswer.bonus, "en"));
+  await expect(page.locator("#refLine")).not.toHaveText("");
+  await expect(page.getByText("Tries: 0/5")).toBeVisible();
+
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");
 
@@ -405,6 +431,44 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
   }
   await expect(page.getByText("Tries: 1/5")).toBeVisible();
   await expect(page.locator("#submitGuess")).toBeDisabled();
+});
+
+test("language switch keeps shared progress and separate drafts", async ({ page }) => {
+  await openGame(page, { lang: "he" });
+
+  await selectAnswerOption(page.locator("#inputSpeaker"), heAnswer.speaker, "he");
+  await selectAnswerOption(page.locator("#inputListener"), heAnswer.listener, "he");
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
+  await expect(page.getByText("ניסיונות: 0/5")).toBeVisible();
+  await expect(page.locator("#inputBonus")).toBeEnabled();
+  await page.fill("#inputBonus", HE_BONUS_DRAFT);
+  await expect(page.locator("#inputBonus")).toHaveValue(HE_BONUS_DRAFT);
+
+  await page.getByRole("button", { name: "החלפת שפה ל-EN" }).click();
+
+  await expect(page.locator("html")).toHaveAttribute("lang", "en");
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await expect(page.getByText("Tries: 0/5")).toBeVisible();
+  const enSpeakerAfterSwitch = await page.locator("#inputSpeaker").inputValue();
+  expect(normalize(enSpeakerAfterSwitch, "en")).toBe(normalize(enAnswer.speaker, "en"));
+  await expect(page.locator("#inputListener")).toHaveValue(enAnswer.listener);
+  await expect(page.locator("#inputBonus")).toHaveValue("");
+  expect(new URL(page.url()).searchParams.get("puzzle")).toBe(puzzleId);
+
+  await page.fill("#inputBonus", EN_BONUS_DRAFT);
+  await expect(page.locator("#inputBonus")).toHaveValue(EN_BONUS_DRAFT);
+
+  await page.getByRole("button", { name: "Switch language to HE" }).click();
+
+  await expect(page.locator("html")).toHaveAttribute("lang", "he");
+  await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
+  await expect(page.getByText("ניסיונות: 0/5")).toBeVisible();
+  const heSpeakerAfterReturn = await page.locator("#inputSpeaker").inputValue();
+  expect(normalize(heSpeakerAfterReturn, "he")).toBe(normalize(heAnswer.speaker, "he"));
+  await expect(page.locator("#inputListener")).toHaveValue(heAnswer.listener);
+  await expect(page.locator("#inputBonus")).toHaveValue(HE_BONUS_DRAFT);
 });
 
 test("bonus hint in stage two reveals hint, stays visible after solve, and is reflected in share", async ({ page }) => {
@@ -479,6 +543,41 @@ test("full game: mistakes and win", async ({ page }) => {
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
   await expect(page.getByText("Tries: 3/5")).toBeVisible();
+});
+
+test("solved state survives two reloads", async ({ page }) => {
+  await openGame(page, { lang: "en" });
+
+  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
+  await page.click("#submitGuess");
+  await page.fill("#inputBonus", enAnswer.bonus);
+  await page.click("#submitGuess");
+
+  await expectSolvedState(page, {
+    lang: "en",
+    bonus: enAnswer.bonus,
+    feedback: "Solved.",
+    triesLabel: "Tries: 1/5",
+  });
+
+  await page.reload();
+  await expect(page.locator("#guessForm")).toBeVisible();
+  await expectSolvedState(page, {
+    lang: "en",
+    bonus: enAnswer.bonus,
+    feedback: "Solved.",
+    triesLabel: "Tries: 1/5",
+  });
+
+  await page.reload();
+  await expect(page.locator("#guessForm")).toBeVisible();
+  await expectSolvedState(page, {
+    lang: "en",
+    bonus: enAnswer.bonus,
+    feedback: "Solved.",
+    triesLabel: "Tries: 1/5",
+  });
 });
 
 test("full game: lose", async ({ page }) => {

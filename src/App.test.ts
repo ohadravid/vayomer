@@ -3,11 +3,31 @@ import {
   parsePersistedState,
   parsePuzzleIdFromSearch,
   pickPuzzleIndexForSearch,
+  resolvePersistedGameFields,
 } from "./App";
 import type { PuzzleItem } from "./types";
 import packageMeta from "../package.json";
 
 const CURRENT_VERSION = packageMeta.version;
+const hydrationPuzzle: PuzzleItem = {
+  id: "hydra-puzzle",
+  en: {
+    book: "Genesis",
+    quote: "Now the LORD said unto Abram.",
+    riddle: "Now the LORD said unto Abram.",
+    speaker: "the LORD",
+    listener: "Abram",
+    bonus: "land",
+  },
+  he: {
+    book: "בראשית",
+    quote: "וַיֹּאמֶר אֲדֹנָי אֶל-אַבְרָם.",
+    riddle: "וַיֹּאמֶר אֲדֹנָי אֶל-אַבְרָם.",
+    speaker: "אֲדֹנָי",
+    listener: "אַבְרָם",
+    bonus: "הָאָרֶץ",
+  },
+};
 
 describe("parsePuzzleIdFromSearch", () => {
   it("returns the puzzle id from query params", () => {
@@ -52,110 +72,101 @@ describe("parsePersistedState", () => {
   it("drops state when persisted version differs from current app version", () => {
     const raw = JSON.stringify({
       version: "0.0.1",
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
+      drafts: {
+        he: {
+          speaker: "אֲדֹנָי",
+          listener: "אַבְרָם",
+          portion: "",
+          bonus: "הָאָרֶץ",
+        },
+      },
       attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
       revealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed).toBeNull();
   });
 
-  it("drops state when version is missing", () => {
+  it("drops state when required shared fields are missing", () => {
     const raw = JSON.stringify({
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
-      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
-      revealed: true,
+      version: CURRENT_VERSION,
+      revealed: false,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed).toBeNull();
   });
 
   it("ignores revealed=true when there is no solved core attempt", () => {
     const raw = JSON.stringify({
       version: CURRENT_VERSION,
-      lang: "he",
-      speaker: "",
-      listener: "",
-      portion: "",
-      bonus: "",
+      drafts: {
+        he: {
+          speaker: "",
+          listener: "",
+          portion: "",
+          bonus: "",
+        },
+      },
       attempts: [],
       revealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed?.revealed).toBe(false);
   });
 
   it("keeps revealed=true when a solved core attempt exists", () => {
     const raw = JSON.stringify({
       version: CURRENT_VERSION,
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
+      drafts: {
+        he: {
+          speaker: "אֲדֹנָי",
+          listener: "אַבְרָם",
+          portion: "",
+          bonus: "הָאָרֶץ",
+        },
+      },
       attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
       revealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed?.revealed).toBe(true);
   });
 
   it("keeps hintRevealed=true when explicitly persisted", () => {
     const raw = JSON.stringify({
       version: CURRENT_VERSION,
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
+      drafts: {
+        he: {
+          speaker: "אֲדֹנָי",
+          listener: "אַבְרָם",
+          portion: "",
+          bonus: "הָאָרֶץ",
+        },
+      },
       attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
       revealed: true,
       hintRevealed: true,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
-    expect(parsed?.hintRevealed).toBe(true);
-  });
-
-  it("restores hintRevealed when legacy bookHintUsed was persisted", () => {
-    const raw = JSON.stringify({
-      version: CURRENT_VERSION,
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
-      attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false, countsAsTry: false }],
-      revealed: false,
-      bookHintUsed: true,
-      hintRevealed: false,
-    });
-
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
-    expect(parsed?.revealed).toBe(false);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed?.hintRevealed).toBe(true);
   });
 
   it("keeps only structurally valid attempts", () => {
     const raw = JSON.stringify({
       version: CURRENT_VERSION,
-      lang: "he",
-      speaker: "אֲדֹנָי",
-      listener: "אַבְרָם",
-      portion: "",
-      bonus: "הָאָרֶץ",
+      drafts: {
+        he: {
+          speaker: "אֲדֹנָי",
+          listener: "אַבְרָם",
+          portion: "",
+          bonus: "הָאָרֶץ",
+        },
+      },
       attempts: [
         { speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false },
         { speakerOk: true, listenerOk: true, portionOk: true },
@@ -163,13 +174,105 @@ describe("parsePersistedState", () => {
       revealed: false,
     });
 
-    const parsed = parsePersistedState(raw, "he", CURRENT_VERSION);
+    const parsed = parsePersistedState(raw, CURRENT_VERSION);
     expect(parsed?.attempts).toHaveLength(1);
     expect(parsed?.attempts[0]).toMatchObject({
       speakerOk: true,
       listenerOk: true,
       portionOk: true,
       bonusOk: false,
+    });
+  });
+});
+
+describe("resolvePersistedGameFields", () => {
+  it("hydrates the current language draft and shared progress", () => {
+    const state = parsePersistedState(
+      JSON.stringify({
+        version: CURRENT_VERSION,
+        drafts: {
+          he: {
+            speaker: "אֲדֹנָי",
+            listener: "אַבְרָם",
+            portion: "",
+            bonus: "טיוטה",
+          },
+        },
+        attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false }],
+        hintRevealed: true,
+        revealed: false,
+      }),
+      CURRENT_VERSION
+    );
+
+    expect(state).not.toBeNull();
+    const resolved = resolvePersistedGameFields(state!, hydrationPuzzle, "he");
+
+    expect(resolved).toMatchObject({
+      speaker: "אֲדֹנָי",
+      listener: "אַבְרָם",
+      bonus: "טיוטה",
+      hintRevealed: true,
+    });
+    expect(resolved.attempts).toHaveLength(1);
+  });
+
+  it("prefills the active language with correct locked answers when stage two is already open", () => {
+    const state = parsePersistedState(
+      JSON.stringify({
+        version: CURRENT_VERSION,
+        drafts: {
+          he: {
+            speaker: "אֲדֹנָי",
+            listener: "אַבְרָם",
+            portion: "",
+            bonus: "טיוטה",
+          },
+        },
+        attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: false }],
+        hintRevealed: false,
+        revealed: false,
+      }),
+      CURRENT_VERSION
+    );
+
+    expect(state).not.toBeNull();
+    const resolved = resolvePersistedGameFields(state!, hydrationPuzzle, "en");
+
+    expect(resolved).toMatchObject({
+      speaker: "the LORD",
+      listener: "Abram",
+      bonus: "",
+      hintRevealed: false,
+    });
+  });
+
+  it("prefills the solved bonus in the active language when that draft is missing", () => {
+    const state = parsePersistedState(
+      JSON.stringify({
+        version: CURRENT_VERSION,
+        drafts: {
+          he: {
+            speaker: "אֲדֹנָי",
+            listener: "אַבְרָם",
+            portion: "",
+            bonus: "הָאָרֶץ",
+          },
+        },
+        attempts: [{ speakerOk: true, listenerOk: true, portionOk: true, bonusOk: true }],
+        hintRevealed: false,
+        revealed: true,
+      }),
+      CURRENT_VERSION
+    );
+
+    expect(state).not.toBeNull();
+    const resolved = resolvePersistedGameFields(state!, hydrationPuzzle, "en");
+
+    expect(resolved).toMatchObject({
+      speaker: "the LORD",
+      listener: "Abram",
+      bonus: "land",
     });
   });
 });
