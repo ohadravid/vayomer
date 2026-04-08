@@ -237,7 +237,7 @@ function buildGuessValues(lang: Lang): GuessValues {
   };
 }
 
-function RevealTransitionDemo({ lang, choicePools }: { lang: Lang; choicePools: EasyChoicePools }) {
+function RevealTransitionDemo({ lang }: { lang: Lang }) {
   const [revealed, setRevealed] = useState(false);
 
   useEffect(() => {
@@ -249,8 +249,6 @@ function RevealTransitionDemo({ lang, choicePools }: { lang: Lang; choicePools: 
   return (
     <PuzzleView
       puzzle={samplePuzzle}
-      easyMode={false}
-      choicePools={choicePools}
       revealed={revealed}
       onReveal={() => setRevealed(true)}
       onClear={() => setRevealed(false)}
@@ -454,8 +452,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Fresh</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               revealed={false}
               onReveal={() => undefined}
               onClear={() => undefined}
@@ -467,8 +463,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Core Solved</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               initial={buildInitial(lang, "core-solved")}
               revealed={false}
               onReveal={() => undefined}
@@ -481,8 +475,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Stage Two Missing</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               initial={buildInitial(lang, "stage-two-missing")}
               revealed={false}
               onReveal={() => undefined}
@@ -495,8 +487,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Stage Two Revealed</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               initial={buildInitial(lang, "stage-two-revealed")}
               revealed
               onReveal={() => undefined}
@@ -509,8 +499,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Solved</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               initial={buildInitial(lang, "solved")}
               revealed
               onReveal={() => undefined}
@@ -523,8 +511,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>PuzzleView Failed</h2>
             <PuzzleView
               puzzle={samplePuzzle}
-              easyMode={false}
-              choicePools={choicePools}
               initial={buildInitial(lang, "failed")}
               revealed={false}
               onReveal={() => undefined}
@@ -535,7 +521,7 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
 
           <article className="debug-panel">
             <h2>PuzzleView Reveal Transition</h2>
-            <RevealTransitionDemo lang={lang} choicePools={choicePools} />
+            <RevealTransitionDemo lang={lang} />
           </article>
         </section>
 
@@ -568,7 +554,6 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
             <h2>GuessForm Standalone</h2>
             <section className="card">
               <GuessForm
-                easyMode
                 choiceOptions={choicePools}
                 values={guessValues}
                 result={guessResult}

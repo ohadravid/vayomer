@@ -3,13 +3,11 @@ import type { ReactNode } from "react";
 import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues } from "../types";
 
 type Props = {
-  easyMode: boolean;
   choiceOptions?: EasyChoicePools;
   values: GuessValues;
   result: GuessResult | null;
   editedSinceCheck: GuessEditState;
   onChange: (field: GuessField, value: string) => void;
-  onChoiceInteracted?: () => void;
   onSubmit: () => void;
   onShare: () => void;
   onRevealBonusHint: () => void;
@@ -33,13 +31,11 @@ type Props = {
 };
 
 export function GuessForm({
-  easyMode,
   choiceOptions,
   values,
   result,
   editedSinceCheck,
   onChange,
-  onChoiceInteracted,
   onSubmit,
   onShare,
   onRevealBonusHint,
@@ -90,50 +86,21 @@ export function GuessForm({
     );
     const className = coreFieldState(field);
     return (
-      <select
-        id={inputId}
-        value={values[field]}
-        onChange={(e) => onChange(field, e.target.value)}
-        onClick={onChoiceInteracted}
-        disabled={disabled}
-        className={className}
-      >
-        <option value="">{t("guessForm.selectOption")}</option>
-        {renderedOptions.map((option) => (
+        <select
+          id={inputId}
+          value={values[field]}
+          onChange={(e) => onChange(field, e.target.value)}
+          disabled={disabled}
+          className={className}
+        >
+          <option value="">{t("guessForm.selectOption")}</option>
+          {renderedOptions.map((option) => (
           <option key={option} value={option}>
             {option}
           </option>
         ))}
       </select>
     );
-  };
-
-  const renderHardInputControl = (
-    field: "speaker" | "listener",
-    disabled: boolean
-  ) => {
-    const inputId = field === "speaker" ? "inputSpeaker" : "inputListener";
-    const className = coreFieldState(field);
-    return (
-      <input
-        id={inputId}
-        type="text"
-        autoComplete="off"
-        value={values[field]}
-        onChange={(e) => onChange(field, e.target.value)}
-        onClick={onChoiceInteracted}
-        disabled={disabled}
-        className={className}
-      />
-    );
-  };
-
-  const renderChoiceControl = (
-    field: "speaker" | "listener",
-    disabled: boolean
-  ) => {
-    if (easyMode) return renderEasyChoiceControl(field, disabled);
-    return renderHardInputControl(field, disabled);
   };
 
   return (
@@ -152,14 +119,14 @@ export function GuessForm({
               {t("guessForm.speaker")}
               {coreFieldMark("speaker") ? <span aria-hidden="true">{coreFieldMark("speaker")}</span> : null}
             </span>
-            {renderChoiceControl("speaker", coreSolved)}
+            {renderEasyChoiceControl("speaker", coreSolved)}
           </label>
           <label>
             <span id="labelListener" className="field-label">
               {t("guessForm.listener")}
               {coreFieldMark("listener") ? <span aria-hidden="true">{coreFieldMark("listener")}</span> : null}
             </span>
-            {renderChoiceControl("listener", coreSolved)}
+            {renderEasyChoiceControl("listener", coreSolved)}
           </label>
         </div>
         <div

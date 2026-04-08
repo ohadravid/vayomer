@@ -13,21 +13,11 @@ import { LanguageUrlSync } from "./components/LanguageUrlSync";
 import packageMeta from "../package.json";
 import exampleQuoteData from "./lib/exampleQuote.json";
 
-const EASY_MODE_STORAGE_KEY = "qs:easy-mode";
-const HARD_MODE_QUERY_KEY = "hard";
-const LEGACY_EASY_MODE_QUERY_KEY = "easy";
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
-const EXAMPLE_HASH = "#example";
-const DEFAULT_EASY_MODE = true;
-const DIFFICULTY_LOCK_STORAGE_PREFIX = "qs:difficulty-lock:";
+const LEGACY_DIFFICULTY_QUERY_KEYS = ["hard", "easy"] as const;
 const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
-const ENCODED_TRUE = "1";
-const ENCODED_FALSE = "0";
-const STORAGE_TRUE_VALUE = ENCODED_TRUE;
-
-type EncodedBoolean = typeof ENCODED_TRUE | typeof ENCODED_FALSE;
 
 type PersistedState = PersistedGameFields & {
   version: string;
@@ -148,24 +138,6 @@ function parseAttempts(parsed: Record<string, unknown>): GuessResult[] {
   return Array.from({ length: tries }, () => ({ ...legacyResult }));
 }
 
-export function buildDifficultyLockStorageKey(puzzleId: string): string {
-  return `${DIFFICULTY_LOCK_STORAGE_PREFIX}${puzzleId}`;
-}
-
-export function parseDifficultyLockFromStorageValue(raw: string | null): boolean | null {
-  return parseEasyModeFromStorageValue(raw);
-}
-
-export function toDifficultyLockStorageValue(enabled: boolean): EncodedBoolean {
-  return toEasyModeStorageValue(enabled);
-}
-
-export function isEasyModeToggleBlocked(lockedEasyMode: boolean | null, easyMode: boolean): boolean {
-  // A locked puzzle can always move from hard -> easy, but never back to hard.
-  const togglingToHard = easyMode;
-  return togglingToHard && lockedEasyMode !== null;
-}
-
 export function parsePersistedState(raw: string | null, lang: Lang, currentVersion: string): PersistedState | null {
   if (!raw) return null;
   try {
@@ -192,47 +164,6 @@ export function parsePersistedState(raw: string | null, lang: Lang, currentVersi
   } catch {
     return null;
   }
-}
-
-function parseEncodedBoolean(raw: string | null, trueValue: EncodedBoolean): boolean | null {
-  if (raw !== ENCODED_TRUE && raw !== ENCODED_FALSE) return null;
-  return raw === trueValue;
-}
-
-function toEncodedBoolean(value: boolean, trueValue: EncodedBoolean): EncodedBoolean {
-  if (value) return trueValue;
-  return trueValue === ENCODED_TRUE ? ENCODED_FALSE : ENCODED_TRUE;
-}
-
-function parseHardModeFromQueryValue(raw: string | null): boolean | null {
-  return parseEncodedBoolean(raw, ENCODED_TRUE);
-}
-
-function parseEasyModeFromStorageValue(raw: string | null): boolean | null {
-  return parseEncodedBoolean(raw, STORAGE_TRUE_VALUE);
-}
-
-export function toEasyModeStorageValue(enabled: boolean): EncodedBoolean {
-  return toEncodedBoolean(enabled, STORAGE_TRUE_VALUE);
-}
-
-function toHardModeQueryValue(enabled: boolean): EncodedBoolean {
-  return toEncodedBoolean(enabled, ENCODED_TRUE);
-}
-
-function pickEasyModeFromStorage(): boolean {
-  if (typeof window === "undefined") return DEFAULT_EASY_MODE;
-  try {
-    return parseEasyModeFromStorageValue(window.localStorage.getItem(EASY_MODE_STORAGE_KEY)) ?? DEFAULT_EASY_MODE;
-  } catch {
-    return DEFAULT_EASY_MODE;
-  }
-}
-
-export function parseEasyModeFromSearch(search: string): boolean | null {
-  const hardMode = parseHardModeFromQueryValue(new URLSearchParams(search).get(HARD_MODE_QUERY_KEY));
-  if (hardMode === null) return null;
-  return !hardMode;
 }
 
 export function parsePuzzleIdFromSearch(search: string): string | null {
@@ -262,61 +193,31 @@ function pickInitialPuzzleIndex(items: readonly { id: string }[]): number {
   return pickPuzzleIndexForSearch(items, search);
 }
 
-function pickEasyMode(): boolean {
-  if (typeof window === "undefined") return DEFAULT_EASY_MODE;
-  const fromUrl = parseEasyModeFromSearch(window.location.search);
-  if (fromUrl !== null) return fromUrl;
-  return pickEasyModeFromStorage();
-}
-
-export function pickEasyModeForNavigation(search: string): boolean {
-  const fromUrl = parseEasyModeFromSearch(search);
-  return fromUrl ?? DEFAULT_EASY_MODE;
-}
-
-export function getSearchWithEasyMode(search: string, easyModeEnabled: boolean): string {
+function getSearchWithoutLegacyDifficultyParams(search: string): string {
   const params = new URLSearchParams(search);
-  params.delete(LEGACY_EASY_MODE_QUERY_KEY);
-  const hardModeEnabled = !easyModeEnabled;
-  if (easyModeEnabled === DEFAULT_EASY_MODE) {
-    params.delete(HARD_MODE_QUERY_KEY);
-  } else {
-    params.set(HARD_MODE_QUERY_KEY, toHardModeQueryValue(hardModeEnabled));
+  let changed = false;
+
+  for (const key of LEGACY_DIFFICULTY_QUERY_KEYS) {
+    if (!params.has(key)) continue;
+    params.delete(key);
+    changed = true;
   }
+
+  if (!changed) return search;
   const serialized = params.toString();
   return serialized ? `?${serialized}` : "";
 }
 
-type BrowserForEasyModeHistory = {
+type BrowserForHistorySync = {
   location: Pick<Location, "pathname" | "search" | "hash">;
   history: Pick<History, "state" | "replaceState">;
 };
 
-type StorageKeyAccess = Pick<Storage, "length" | "key" | "removeItem">;
-
-export function buildLocationWithEasyMode(pathname: string, search: string, hash: string, easyModeEnabled: boolean): string {
-  return `${pathname}${getSearchWithEasyMode(search, easyModeEnabled)}${hash}`;
-}
-
-export function syncEasyModeInUrl(browser: BrowserForEasyModeHistory, easyModeEnabled: boolean): void {
+function syncLegacyDifficultyParamsInUrl(browser: BrowserForHistorySync): void {
   const current = `${browser.location.pathname}${browser.location.search}${browser.location.hash}`;
-  const next = buildLocationWithEasyMode(
-    browser.location.pathname,
-    browser.location.search,
-    browser.location.hash,
-    easyModeEnabled
-  );
+  const next = `${browser.location.pathname}${getSearchWithoutLegacyDifficultyParams(browser.location.search)}${browser.location.hash}`;
   if (current === next) return;
   browser.history.replaceState(browser.history.state, "", next);
-}
-
-export function pruneDifficultyLockKeys(storage: StorageKeyAccess, keepPuzzleId: string): void {
-  const keepKey = buildDifficultyLockStorageKey(keepPuzzleId);
-  for (let idx = storage.length - 1; idx >= 0; idx -= 1) {
-    const key = storage.key(idx);
-    if (!key || !key.startsWith(DIFFICULTY_LOCK_STORAGE_PREFIX) || key === keepKey) continue;
-    storage.removeItem(key);
-  }
 }
 
 function pickPageFromLocationHash(): AppPage {
@@ -334,11 +235,6 @@ export function App() {
   const manifestEntries = PUZZLE_MANIFEST;
   const [index] = useState(() => pickInitialPuzzleIndex(manifestEntries));
   const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
-  const [easyMode, setEasyMode] = useState<boolean>(() => pickEasyMode());
-  const [lockedEasyModeByPuzzle, setLockedEasyModeByPuzzle] = useState<{ puzzleId: string; value: boolean | null }>({
-    puzzleId: "",
-    value: null,
-  });
   const [revealed, setRevealed] = useState(false);
   const [exampleRevealed, setExampleRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistedGameFields | null>(null);
@@ -353,53 +249,10 @@ export function App() {
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const syncEasyModeFromLocation = () => {
-      const next = pickEasyModeForNavigation(window.location.search);
-      const currentPuzzleId = manifestEntries[index]?.id;
-      if (!currentPuzzleId) {
-        setEasyMode(next);
-        return;
-      }
-      let locked: boolean | null = null;
-      try {
-        locked = parseDifficultyLockFromStorageValue(
-          window.localStorage.getItem(buildDifficultyLockStorageKey(currentPuzzleId))
-        );
-      } catch {
-        locked = null;
-      }
-      setEasyMode(locked ?? next);
-    };
-    window.addEventListener("popstate", syncEasyModeFromLocation);
-    return () => window.removeEventListener("popstate", syncEasyModeFromLocation);
-  }, [manifestEntries, index]);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    syncEasyModeInUrl(window, easyMode);
-    try {
-      localStorage.setItem(EASY_MODE_STORAGE_KEY, toEasyModeStorageValue(easyMode));
-    } catch {
-      // Ignore storage access errors.
-    }
-  }, [easyMode]);
-
-  useEffect(() => {
-    if (manifestEntries.length === 0) {
-      setPuzzle(null);
-      return;
-    }
-
-    if (typeof window !== "undefined") {
-      const todayPuzzle = manifestEntries[pickDailyItemIndexWithOverrides(manifestEntries)];
-      if (todayPuzzle) {
-        try {
-          pruneDifficultyLockKeys(window.localStorage, todayPuzzle.id);
-        } catch {
-          // Ignore storage access errors.
-        }
-      }
-    }
+    const syncFromLocation = () => syncLegacyDifficultyParamsInUrl(window);
+    syncFromLocation();
+    window.addEventListener("popstate", syncFromLocation);
+    return () => window.removeEventListener("popstate", syncFromLocation);
   }, []);
 
   useEffect(() => {
@@ -435,24 +288,10 @@ export function App() {
     () => (EXAMPLE_PUZZLE ? buildExampleInitialState(EXAMPLE_PUZZLE, lang) : null),
     [lang]
   );
-  const lockedEasyMode = puzzle && lockedEasyModeByPuzzle.puzzleId === puzzle.id ? lockedEasyModeByPuzzle.value : null;
-  const easyModeToggleBlocked = isEasyModeToggleBlocked(lockedEasyMode, easyMode);
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id, lang) : "";
 
   useEffect(() => {
     if (!puzzle) return;
-    let difficultyLock: boolean | null = null;
-    try {
-      difficultyLock = parseDifficultyLockFromStorageValue(
-        localStorage.getItem(buildDifficultyLockStorageKey(puzzle.id))
-      );
-    } catch {
-      difficultyLock = null;
-    }
-    setLockedEasyModeByPuzzle({ puzzleId: puzzle.id, value: difficultyLock });
-    if (difficultyLock !== null) {
-      setEasyMode(difficultyLock);
-    }
     const rawPersisted = localStorage.getItem(storageKey);
     const parsed = parsePersistedState(rawPersisted, lang, APP_VERSION);
     if (rawPersisted && !parsed) {
@@ -474,34 +313,6 @@ export function App() {
     if (page === AppPage.Example) return;
     if (exampleRevealed) setExampleRevealed(false);
   }, [page, exampleRevealed]);
-
-  const toggleEasyMode = () => {
-    if (easyModeToggleBlocked) return;
-    setEasyMode((previous) => !previous);
-  };
-
-  const lockDifficultyForPuzzle = () => {
-    if (!puzzle || typeof window === "undefined") return;
-    const lockKey = buildDifficultyLockStorageKey(puzzle.id);
-    let existing: boolean | null = null;
-    try {
-      existing = parseDifficultyLockFromStorageValue(window.localStorage.getItem(lockKey));
-    } catch {
-      existing = null;
-    }
-    const nextLock = existing ?? easyMode;
-    if (existing === null) {
-      try {
-        window.localStorage.setItem(lockKey, toDifficultyLockStorageValue(nextLock));
-      } catch {
-        // Ignore storage access errors.
-      }
-    }
-    setLockedEasyModeByPuzzle({ puzzleId: puzzle.id, value: nextLock });
-    if (easyMode !== nextLock) {
-      setEasyMode(nextLock);
-    }
-  };
 
   if (!puzzle && page === AppPage.Game) return null;
 
@@ -560,18 +371,7 @@ export function App() {
           {page === AppPage.Game ? (
             <>
               <button
-                className={`chip difficulty ${easyMode ? "active" : ""}`}
-                type="button"
-                onClick={toggleEasyMode}
-                disabled={easyModeToggleBlocked}
-                aria-pressed={easyMode}
-                aria-label={t("app.toggleEasyMode")}
-                title={easyModeToggleBlocked ? t("app.easyModeLockedTooltip") : t("app.easyModeTooltip")}
-              >
-                🐑
-              </button>
-              <button
-                className="chip difficulty"
+                className="chip"
                 type="button"
                 onClick={() => {
                   window.location.hash = AppPage.Example;
@@ -631,7 +431,6 @@ export function App() {
         <>
           <PuzzleView
             puzzle={examplePuzzle}
-            easyMode
             revealed={exampleRevealed}
             onReveal={() => {
               setExampleRevealed(true);
@@ -645,8 +444,6 @@ export function App() {
       ) : puzzle ? (
         <PuzzleView
           puzzle={puzzle}
-          easyMode={easyMode}
-          onChoiceInteracted={lockDifficultyForPuzzle}
           revealed={revealed}
           onReveal={reveal}
           onClear={clearResult}

@@ -1,7 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
-import { Temporal } from "@js-temporal/polyfill";
-import { pickDailyHardModeSuccessMark } from "../lib/daily";
 import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
 import { answersMatch } from "../lib/answerMatcher";
 import {
@@ -25,7 +23,6 @@ import { PuzzleCard, sourceEmojiFromPuzzle } from "./PuzzleCard";
 import { GuessForm } from "./GuessForm";
 import {
   GameState,
-  type EasyChoicePools,
   type GuessEditState,
   type GuessField,
   type GuessResult,
@@ -37,9 +34,6 @@ import {
 
 type Props = {
   puzzle: PuzzleItem;
-  easyMode: boolean;
-  choicePools?: EasyChoicePools;
-  onChoiceInteracted?: () => void;
   onReveal: () => void;
   onClear: () => void;
   revealed: boolean;
@@ -151,9 +145,6 @@ async function copyToClipboard(text: string): Promise<boolean> {
 
 export function PuzzleView({
   puzzle,
-  easyMode,
-  choicePools: _choicePools,
-  onChoiceInteracted,
   revealed,
   onReveal,
   onClear,
@@ -176,8 +167,6 @@ export function PuzzleView({
   const [shareNotice, setShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
-  const hasNotifiedChoiceInteractionRef = useRef(false);
-  const previousEasyModeRef = useRef(easyMode);
 
   const dateLabel = useMemo(() => upperCornerLabel ? upperCornerLabel : formatDate(new Date(), lang), [lang, upperCornerLabel]);
   const bonusAnswer = puzzle[lang].bonus ?? "";
@@ -202,10 +191,7 @@ export function PuzzleView({
   const quoteRevealed =
     stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
-  const successMark = useMemo(
-    () => (easyMode ? "✅" : pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO())),
-    [easyMode]
-  );
+  const successMark = "✅";
   const failedBonusTry = bonusRequired
     ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
     : false;
@@ -226,7 +212,6 @@ export function PuzzleView({
     return t("puzzleView.retry");
   }, [result, bonusRequired, gameState, t]);
   const multipleChoiceOptions = useMemo(() => {
-    if (!easyMode) return undefined;
     const pools = resolveChoicePoolsForDifficulty({
       puzzle,
       lang,
@@ -245,22 +230,7 @@ export function PuzzleView({
         seed: `${puzzle.id}:listener`,
       }),
     };
-  }, [easyMode, puzzle, lang]);
-
-  useEffect(() => {
-    hasNotifiedChoiceInteractionRef.current = false;
-  }, [puzzle.id]);
-
-  useEffect(() => {
-    if (previousEasyModeRef.current === easyMode) return;
-    previousEasyModeRef.current = easyMode;
-    setSpeaker(EMPTY_GUESS_VALUES.speaker);
-    setListener(EMPTY_GUESS_VALUES.listener);
-    setPortion(EMPTY_GUESS_VALUES.portion);
-    setBonus(EMPTY_GUESS_VALUES.bonus);
-    setEditedSinceCheck(emptyEditedState());
-    setShareNotice("");
-  }, [easyMode]);
+  }, [puzzle, lang]);
 
   useEffect(() => {
     const nextValues = initialValues(initial);
@@ -431,12 +401,6 @@ export function PuzzleView({
     setEditedSinceCheck((prev) => ({ ...prev, [field]: true }));
   };
 
-  const handleChoiceInteraction = () => {
-    if (!onChoiceInteracted || hasNotifiedChoiceInteractionRef.current) return;
-    hasNotifiedChoiceInteractionRef.current = true;
-    onChoiceInteracted();
-  };
-
   return (
     <>
       <PuzzleCard
@@ -448,7 +412,6 @@ export function PuzzleView({
         onClear={clearLocal}
       />
       <GuessForm
-        easyMode={easyMode}
         choiceOptions={multipleChoiceOptions}
         values={{ speaker, listener, portion, bonus }}
         result={result}
@@ -463,7 +426,6 @@ export function PuzzleView({
         hintQuoteContent={hintQuoteContent}
         hintSourceLine={hintSourceLine}
         onChange={handleChange}
-        onChoiceInteracted={handleChoiceInteraction}
         onSubmit={checkGuess}
         onShare={shareResult}
         onRevealBonusHint={revealBonusHint}
@@ -479,4 +441,3 @@ export function PuzzleView({
     </>
   );
 }
-

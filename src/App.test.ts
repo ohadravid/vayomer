@@ -1,42 +1,13 @@
 import { describe, expect, it } from "vitest";
 import {
-  buildDifficultyLockStorageKey,
-  getSearchWithEasyMode,
-  isEasyModeToggleBlocked,
-  parseDifficultyLockFromStorageValue,
-  parseEasyModeFromSearch,
   parsePersistedState,
   parsePuzzleIdFromSearch,
-  pruneDifficultyLockKeys,
-  pickEasyModeForNavigation,
   pickPuzzleIndexForSearch,
-  toDifficultyLockStorageValue,
 } from "./App";
 import type { PuzzleItem } from "./types";
 import packageMeta from "../package.json";
 
 const CURRENT_VERSION = packageMeta.version;
-
-describe("parseEasyModeFromSearch", () => {
-  it("parses explicit hard mode values", () => {
-    expect(parseEasyModeFromSearch("?hard=0")).toBe(true);
-    expect(parseEasyModeFromSearch("?hard=1")).toBe(false);
-  });
-
-  it("returns null when the query param is missing or invalid", () => {
-    expect(parseEasyModeFromSearch("?lng=en")).toBeNull();
-    expect(parseEasyModeFromSearch("?hard=2")).toBeNull();
-    expect(parseEasyModeFromSearch("?easy=1")).toBeNull();
-  });
-});
-
-describe("pickEasyModeForNavigation", () => {
-  it("strictly trusts the URL during navigation", () => {
-    expect(pickEasyModeForNavigation("?hard=0")).toBe(true);
-    expect(pickEasyModeForNavigation("?hard=1")).toBe(false);
-    expect(pickEasyModeForNavigation("?lng=en")).toBe(true);
-  });
-});
 
 describe("parsePuzzleIdFromSearch", () => {
   it("returns the puzzle id from query params", () => {
@@ -74,76 +45,6 @@ describe("pickPuzzleIndexForSearch", () => {
     expect(pickPuzzleIndexForSearch(puzzles, "")).toBeLessThan(puzzles.length);
     expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeGreaterThanOrEqual(0);
     expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeLessThan(puzzles.length);
-  });
-});
-
-describe("getSearchWithEasyMode", () => {
-  it("keeps URL canonical for default easy mode", () => {
-    expect(getSearchWithEasyMode("?lng=en", true)).toBe("?lng=en");
-    expect(getSearchWithEasyMode("?lng=en&hard=0", true)).toBe("?lng=en");
-    expect(getSearchWithEasyMode("?lng=en&easy=1", true)).toBe("?lng=en");
-  });
-
-  it("writes hard=1 for explicit non-default mode", () => {
-    expect(getSearchWithEasyMode("", false)).toBe("?hard=1");
-    expect(getSearchWithEasyMode("?lng=en&hard=0", false)).toBe("?lng=en&hard=1");
-    expect(getSearchWithEasyMode("?lng=en&easy=1", false)).toBe("?lng=en&hard=1");
-  });
-});
-
-describe("difficulty lock storage", () => {
-  it("builds puzzle-scoped keys", () => {
-    expect(buildDifficultyLockStorageKey("genesis-12-01-01")).toBe("qs:difficulty-lock:genesis-12-01-01");
-  });
-
-  it("parses and serializes lock values", () => {
-    expect(String(toDifficultyLockStorageValue(true))).toBe("1");
-    expect(String(toDifficultyLockStorageValue(false))).toBe("0");
-    expect(parseDifficultyLockFromStorageValue("1")).toBe(true);
-    expect(parseDifficultyLockFromStorageValue("0")).toBe(false);
-    expect(parseDifficultyLockFromStorageValue("x")).toBeNull();
-  });
-
-  it("prunes old puzzle locks and keeps only the selected puzzle lock", () => {
-    const entries = new Map<string, string>([
-      ["qs:difficulty-lock:genesis-06-13-13", "1"],
-      ["qs:difficulty-lock:genesis-12-01-01", "0"],
-      ["qs:easy-mode", "1"],
-    ]);
-    const fakeStorage = {
-      get length() {
-        return entries.size;
-      },
-      key(index: number): string | null {
-        return Array.from(entries.keys())[index] ?? null;
-      },
-      removeItem(key: string): void {
-        entries.delete(key);
-      },
-    };
-
-    pruneDifficultyLockKeys(fakeStorage, "genesis-12-01-01");
-
-    expect(entries.has("qs:difficulty-lock:genesis-06-13-13")).toBe(false);
-    expect(entries.has("qs:difficulty-lock:genesis-12-01-01")).toBe(true);
-    expect(entries.has("qs:easy-mode")).toBe(true);
-  });
-});
-
-describe("isEasyModeToggleBlocked", () => {
-  it("allows both directions when no lock exists", () => {
-    expect(isEasyModeToggleBlocked(null, false)).toBe(false);
-    expect(isEasyModeToggleBlocked(null, true)).toBe(false);
-  });
-
-  it("allows hard -> easy even when locked", () => {
-    expect(isEasyModeToggleBlocked(false, false)).toBe(false);
-    expect(isEasyModeToggleBlocked(true, false)).toBe(false);
-  });
-
-  it("blocks easy -> hard when locked", () => {
-    expect(isEasyModeToggleBlocked(false, true)).toBe(true);
-    expect(isEasyModeToggleBlocked(true, true)).toBe(true);
   });
 });
 

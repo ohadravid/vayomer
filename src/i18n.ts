@@ -17,11 +17,6 @@ export const resources = {
         pageTitle: "Vayomer | Daily Quote Puzzle",
         subtitle: "Identify the speaker, the listener, and the missing word.",
         switchLanguage: "Switch language to {{language}}",
-        easyModeOn: "Easy mode: on",
-        easyModeOff: "Easy mode: off",
-        easyModeTooltip: "Easy mode",
-        easyModeLockedTooltip: "Difficulty is locked for this puzzle.",
-        toggleEasyMode: "Toggle easy mode",
         openExample: "Open how to play example",
       },
       about: {
@@ -86,11 +81,6 @@ export const resources = {
         pageTitle: "וַיֹּאמֶר | חידון ציטוט יומי",
         subtitle: "זַהוּ אֶת הַדּוֹבֵר, אֶת הַמַּאֲזִין, וְאֶת הַמִּלָּה הַחֲסֵרָה.",
         switchLanguage: "החלפת שפה ל-{{language}}",
-        easyModeOn: "מצב קל: פעיל",
-        easyModeOff: "מצב קל: כבוי",
-        easyModeTooltip: "מצב קל",
-        easyModeLockedTooltip: "רמת הקושי נעולה עבור החידה הזו.",
-        toggleEasyMode: "החלפת מצב קל",
         openExample: "פתיחת הדגמה איך לשחק",
       },
       about: {

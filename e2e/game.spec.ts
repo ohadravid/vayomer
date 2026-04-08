@@ -1,9 +1,8 @@
 import { expect, test, type Locator, type Page } from "@playwright/test";
-import { Temporal } from "@js-temporal/polyfill";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { pickDailyHardModeSuccessMark, pickDailyItemIndex } from "../src/lib/daily";
+import { pickDailyItemIndex } from "../src/lib/daily";
 import { normalize } from "../src/lib/format";
 import type { Lang } from "../src/types";
 
@@ -61,7 +60,6 @@ type HintSource = {
 };
 
 type GameOpenOptions = {
-  easyMode?: boolean;
   captureClipboard?: boolean;
   lang?: "en" | "he";
   puzzleId?: string;
@@ -229,8 +227,6 @@ function formatHintSource(source: HintSource | undefined): string {
 }
 
 const hintSourceLabel = formatHintSource(hintPuzzle.en.bonus_hint?.source);
-const hardSuccessMark = pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO());
-const difficultyLockStoragePrefix = "qs:difficulty-lock:";
 
 if (!enAnswer.speaker || !enAnswer.listener || !enAnswer.bonus) {
   throw new Error(`Missing EN answers in puzzle ${puzzleId}.`);
@@ -283,19 +279,8 @@ async function openGame(page: Page, options: GameOpenOptions = {}): Promise<void
   params.set("puzzle", options.puzzleId ?? puzzleId);
   params.set("lng", options.lang ?? "en");
 
-  if (options.easyMode === false) {
-    params.set("hard", "1");
-  }
-
   await page.goto(`/?${params.toString()}`);
   await expect(page.locator("#guessForm")).toBeVisible();
-}
-
-async function getDifficultyLockValue(page: Page, id: string): Promise<string | null> {
-  return page.evaluate(
-    ({ puzzleId, prefix }) => localStorage.getItem(`${prefix}${puzzleId}`),
-    { puzzleId: id, prefix: difficultyLockStoragePrefix }
-  );
 }
 
 function findMatchingOption(options: string[], answer: string, lang: Lang): string {
@@ -327,15 +312,6 @@ async function pickWrongOption(select: Locator, correctAnswer: string, lang: Lan
     throw new Error(`Expected a wrong option. Correct answer: ${correctAnswer}.`);
   }
   return wrong;
-}
-
-function buildEnglishArticleVariant(answer: string): string {
-  const trimmed = answer.trim();
-  if (!trimmed) return trimmed;
-  if (/^the\s+/iu.test(trimmed)) {
-    return trimmed.replace(/^the\s+/iu, "");
-  }
-  return `the ${trimmed}`;
 }
 
 function pickVisibleContextTokenFromQuote(quote: string, riddle: string, bonus: string, lang: Lang): string {
@@ -372,74 +348,28 @@ if (!exampleVisibleContextToken) {
   throw new Error("Could not pick a visible non-bonus token from example puzzle.");
 }
 
-test("toggling the sheep to hard mode writes hard=1 in the URL", async ({ page }) => {
-  await openGame(page, { puzzleId: todayPuzzleId });
-  await expect(page.locator("#guessForm")).toBeVisible();
-  const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
-
-  const defaultTagName = await page.locator("#inputSpeaker").evaluate((node) => node.tagName);
-  expect(defaultTagName).toBe("SELECT");
-  expect(new URL(page.url()).searchParams.get("hard")).toBeNull();
-  await expect(difficultyToggle).toBeEnabled();
-  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
-
-  await difficultyToggle.click();
-  await expect(difficultyToggle).toBeEnabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
-});
-
-test("difficulty lock keeps hard mode when revisiting regular URL", async ({ page }) => {
-  await openGame(page, { easyMode: false, puzzleId: todayPuzzleId });
-  const difficultyToggle = page.getByRole("button", { name: "Toggle easy mode" });
-
-  await expect(difficultyToggle).toBeEnabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBeNull();
-  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
-
-  await page.click("#inputSpeaker");
-  await expect(difficultyToggle).toBeEnabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  expect(await getDifficultyLockValue(page, todayPuzzleId)).toBe("0");
-  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
-
-  const regularParams = new URLSearchParams({
+test("legacy difficulty params are removed from the URL on load", async ({ page }) => {
+  const params = new URLSearchParams({
     puzzle: todayPuzzleId,
     lng: "en",
+    hard: "1",
+    easy: "0",
   });
-  await page.goto(`/?${regularParams.toString()}`);
+
+  await page.goto(`/?${params.toString()}`);
   await expect(page.locator("#guessForm")).toBeVisible();
-
-  // The hard lock still applies across navigation even when URL has no explicit mode.
-  await expect(difficultyToggle).toBeEnabled();
-  await expect(difficultyToggle).toHaveAttribute("aria-pressed", "false");
-  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBe("1");
-});
-
-test("hard mode accepts fuzzy free-text answers", async ({ page }) => {
-  await openGame(page, { easyMode: false });
-
-  await page.fill("#inputSpeaker", buildEnglishArticleVariant(enAnswer.speaker));
-  await page.fill("#inputListener", `${enAnswer.listener}!!!`);
-  await page.click("#submitGuess");
-
-  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-  await expect(page.locator("#labelSpeaker")).toContainText("✅");
-  await expect(page.locator("#labelListener")).toContainText("✅");
-  await expect(page.locator("#labelBonus")).not.toContainText("❌");
-  await expect(page.locator("#labelBonus")).not.toContainText("✅");
-  await expect(page.locator("#inputBonus")).not.toHaveClass(/wrong|correct/);
-  await expect(page.locator("#bonusHint")).toHaveCount(testPuzzleHasBonusHint ? 1 : 0);
+  await expect.poll(() => new URL(page.url()).searchParams.get("hard")).toBeNull();
+  await expect.poll(() => new URL(page.url()).searchParams.get("easy")).toBeNull();
+  expect(new URL(page.url()).searchParams.get("puzzle")).toBe(todayPuzzleId);
 });
 
 test("full game: clear win (reload persists state)", async ({ page }) => {
-  await openGame(page, { easyMode: false });
+  await openGame(page);
   await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.locator("#refLine")).toHaveText("");
 
-  await page.fill("#inputSpeaker", enAnswer.speaker);
-  await page.fill("#inputListener", enAnswer.listener);
+  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
@@ -478,12 +408,12 @@ test("full game: clear win (reload persists state)", async ({ page }) => {
 });
 
 test("bonus hint in stage two reveals hint, stays visible after solve, and is reflected in share", async ({ page }) => {
-  await openGame(page, { easyMode: false, puzzleId: hintPuzzleId, lang: "en", captureClipboard: true });
+  await openGame(page, { puzzleId: hintPuzzleId, lang: "en", captureClipboard: true });
   await expect(page.locator("#bonusHint")).toHaveCount(0);
   await expect(page.locator("#refLine")).toHaveText("");
 
-  await page.fill("#inputSpeaker", hintEnAnswer.speaker);
-  await page.fill("#inputListener", hintEnAnswer.listener);
+  await selectAnswerOption(page.locator("#inputSpeaker"), hintEnAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), hintEnAnswer.listener, "en");
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
@@ -522,22 +452,25 @@ test("bonus hint in stage two reveals hint, stays visible after solve, and is re
 });
 
 test("full game: mistakes and win", async ({ page }) => {
-  await openGame(page, { easyMode: false });
+  await openGame(page);
 
-  await page.fill("#inputSpeaker", WRONG_TEXT);
-  await page.fill("#inputListener", WRONG_TEXT);
+  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
+
+  await page.selectOption("#inputSpeaker", wrongSpeaker);
+  await page.selectOption("#inputListener", wrongListener);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Not quite. Try again.");
 
-  await page.fill("#inputSpeaker", enAnswer.speaker);
-  await page.fill("#inputListener", enAnswer.listener);
+  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
 
   await page.fill("#inputBonus", WRONG_TEXT);
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-  await expect(page.getByText(`Status: ${hardSuccessMark}${hardSuccessMark}✴️⬜`)).toBeVisible();
+  await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
   await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
   await expect(page.locator("#labelBonus")).toContainText("❌");
 
@@ -549,10 +482,13 @@ test("full game: mistakes and win", async ({ page }) => {
 });
 
 test("full game: lose", async ({ page }) => {
-  await openGame(page, { easyMode: false });
+  await openGame(page);
 
-  await page.fill("#inputSpeaker", WRONG_TEXT);
-  await page.fill("#inputListener", WRONG_TEXT);
+  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
+
+  await page.selectOption("#inputSpeaker", wrongSpeaker);
+  await page.selectOption("#inputListener", wrongListener);
   const quoteBeforeLose = await page.locator("#fullQuote").innerText();
   expect(normalize(quoteBeforeLose, "en")).not.toContain(normalize(enAnswer.bonus, "en"));
   for (let idx = 0; idx < 5; idx += 1) {
@@ -566,24 +502,8 @@ test("full game: lose", async ({ page }) => {
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 
-test("easy mode: clear win", async ({ page }) => {
-  await openGame(page);
-
-  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
-  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
-  await page.click("#submitGuess");
-  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-
-  await page.fill("#inputBonus", enAnswer.bonus);
-  await page.click("#submitGuess");
-
-  await expect(page.locator("#feedback")).toHaveText("Solved.");
-  await expect(page.getByText("Tries: 1/5")).toBeVisible();
-  await expect(page.locator("#submitGuess")).toBeDisabled();
-});
-
-test("easy mode canonicalizes divine speaker options to God and accepts them", async ({ page }) => {
-  await openGame(page, { puzzleId: divinePuzzleId, easyMode: true, lang: "en" });
+test("canonicalizes divine speaker options to God and accepts them", async ({ page }) => {
+  await openGame(page, { puzzleId: divinePuzzleId, lang: "en" });
 
   const speakerSelect = page.locator("#inputSpeaker");
   const speakerOptions = await speakerSelect
@@ -605,8 +525,8 @@ test("easy mode canonicalizes divine speaker options to God and accepts them", a
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
 });
 
-test("hebrew easy mode canonicalizes divine speaker options to אֱלֹהִים and accepts them", async ({ page }) => {
-  await openGame(page, { puzzleId: divineHePuzzleId, easyMode: true, lang: "he" });
+test("hebrew canonicalizes divine speaker options to אֱלֹהִים and accepts them", async ({ page }) => {
+  await openGame(page, { puzzleId: divineHePuzzleId, lang: "he" });
 
   const speakerSelect = page.locator("#inputSpeaker");
   const speakerOptions = await speakerSelect
@@ -628,57 +548,14 @@ test("hebrew easy mode canonicalizes divine speaker options to אֱלֹהִים 
   await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
 });
 
-test("easy mode: mistakes and win", async ({ page }) => {
-  await openGame(page);
-
-  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
-  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
-
-  await page.selectOption("#inputSpeaker", wrongSpeaker);
-  await page.selectOption("#inputListener", wrongListener);
-  await page.click("#submitGuess");
-  await expect(page.locator("#feedback")).toHaveText("Not quite. Try again.");
-
-  await selectAnswerOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
-  await selectAnswerOption(page.locator("#inputListener"), enAnswer.listener, "en");
-  await page.click("#submitGuess");
-  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-
-  await page.fill("#inputBonus", WRONG_TEXT);
-  await page.click("#submitGuess");
-  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
-  await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
-
-  await page.fill("#inputBonus", enAnswer.bonus);
-  await page.click("#submitGuess");
-
-  await expect(page.locator("#feedback")).toHaveText("Solved.");
-  await expect(page.getByText("Tries: 3/5")).toBeVisible();
-});
-
-test("easy mode: lose", async ({ page }) => {
-  await openGame(page);
-
-  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
-  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
-
-  await page.selectOption("#inputSpeaker", wrongSpeaker);
-  await page.selectOption("#inputListener", wrongListener);
-
-  for (let idx = 0; idx < 5; idx += 1) {
-    await page.click("#submitGuess");
-  }
-
-  await expect(page.locator("#feedback")).toHaveText("No tries left.");
-  await expect(page.getByText("Tries: 5/5")).toBeVisible();
-  await expect(page.locator("#submitGuess")).toBeDisabled();
-});
-
 test("share copies result text", async ({ page }) => {
-  await openGame(page, { easyMode: false, captureClipboard: true });
+  await openGame(page, { captureClipboard: true });
 
-  await page.fill("#inputSpeaker", WRONG_TEXT);
-  await page.fill("#inputListener", WRONG_TEXT);
+  const wrongSpeaker = await pickWrongOption(page.locator("#inputSpeaker"), enAnswer.speaker, "en");
+  const wrongListener = await pickWrongOption(page.locator("#inputListener"), enAnswer.listener, "en");
+
+  await page.selectOption("#inputSpeaker", wrongSpeaker);
+  await page.selectOption("#inputListener", wrongListener);
   await page.click("#submitGuess");
 
   await page.getByRole("button", { name: "Share result" }).click();
@@ -748,10 +625,10 @@ test("language switch updates UI and keeps selected puzzle", async ({ page }) =>
 });
 
 test("hebrew full game flow", async ({ page }) => {
-  await openGame(page, { lang: "he", easyMode: false });
+  await openGame(page, { lang: "he" });
 
-  await page.fill("#inputSpeaker", heAnswer.speaker);
-  await page.fill("#inputListener", `${heAnswer.listener}!!!`);
+  await selectAnswerOption(page.locator("#inputSpeaker"), heAnswer.speaker, "he");
+  await selectAnswerOption(page.locator("#inputListener"), heAnswer.listener, "he");
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
 

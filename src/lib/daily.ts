@@ -2,7 +2,6 @@ import { Temporal } from "@js-temporal/polyfill";
 
 export const DAILY_EPOCH_DATE = Temporal.PlainDate.from("2026-03-16");
 export const DAILY_ORDER_SEED = 20220805;
-export const HARD_MODE_SUCCESS_MARKS = ["🔥", "⚔️", "👑"] as const;
 export type DailyDateInput = Temporal.PlainDate;
 
 // Override keys are parsed with Temporal:
@@ -152,13 +151,4 @@ export function pickDailyItemIndexWithOverrides(
     if (overrideIndex >= 0) return overrideIndex;
   }
   return pickDailyItemIndex(items.length, date);
-}
-
-export function pickDailyHardModeSuccessMark(
-  date: DailyDateInput = Temporal.Now.plainDateISO()
-): (typeof HARD_MODE_SUCCESS_MARKS)[number] {
-  const day = dayOffsetFromEpoch(date, DAILY_EPOCH_DATE);
-  const rand = seededRandom(DAILY_ORDER_SEED + day);
-  const idx = Math.floor(rand() * HARD_MODE_SUCCESS_MARKS.length);
-  return HARD_MODE_SUCCESS_MARKS[idx] ?? HARD_MODE_SUCCESS_MARKS[0];
 }

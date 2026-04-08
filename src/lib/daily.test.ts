@@ -1,10 +1,8 @@
 import { describe, expect, it } from "vitest";
 import { Temporal } from "@js-temporal/polyfill";
 import {
-  HARD_MODE_SUCCESS_MARKS,
   dateOverrideKey,
   dayIndex,
-  pickDailyHardModeSuccessMark,
   pickDailyItemIndex,
   pickDailyItemIndexWithOverrides,
 } from "./daily";
@@ -98,18 +96,5 @@ describe("date override selection", () => {
 
     expect(pickDailyItemIndexWithOverrides(items, isoA, overrides)).toBe(1);
     expect(pickDailyItemIndexWithOverrides(items, isoB, overrides)).toBe(pickDailyItemIndex(items.length, isoB));
-  });
-});
-
-describe("pickDailyHardModeSuccessMark", () => {
-  it("returns one of the allowed hard-mode marks", () => {
-    const mark = pickDailyHardModeSuccessMark(Temporal.PlainDate.from("2026-02-15"));
-    expect(HARD_MODE_SUCCESS_MARKS).toContain(mark);
-  });
-
-  it("is deterministic per day", () => {
-    const date = Temporal.PlainDate.from("2026-02-15");
-    const sameDay = Temporal.PlainDate.from("2026-02-15");
-    expect(pickDailyHardModeSuccessMark(date)).toBe(pickDailyHardModeSuccessMark(sameDay));
   });
 });

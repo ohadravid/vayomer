@@ -6,10 +6,8 @@ import userEvent from "@testing-library/user-event";
 import { JSDOM } from "jsdom";
 import { createInstance } from "i18next";
 import { I18nextProvider, initReactI18next } from "react-i18next";
-import { Temporal } from "@js-temporal/polyfill";
 import { PuzzleView } from "./PuzzleView";
 import { resources } from "../i18n";
-import { pickDailyHardModeSuccessMark, HARD_MODE_SUCCESS_MARKS } from "../lib/daily";
 import { pickHardWordPlaceholderForId } from "../lib/format";
 import type { GuessResult, Lang, PuzzleItem } from "../types";
 
@@ -155,11 +153,9 @@ function createI18n(lang: Lang) {
 
 function buildPuzzleView(props: {
   onPersist: (state: PersistPayload) => void;
-  onChoiceInteracted?: () => void;
   lang?: Lang;
   puzzle?: PuzzleItem;
   revealed?: boolean;
-  easyMode?: boolean;
   initial?: {
     speaker: string;
     listener: string;
@@ -175,11 +171,9 @@ function buildPuzzleView(props: {
       <StrictMode>
         <PuzzleView
           puzzle={props.puzzle ?? puzzle}
-          easyMode={props.easyMode ?? false}
           revealed={props.revealed ?? false}
           onReveal={() => {}}
           onClear={() => {}}
-          onChoiceInteracted={props.onChoiceInteracted}
           onPersist={props.onPersist}
           initial={props.initial}
           syncDocumentDirection={false}
@@ -229,26 +223,6 @@ afterEach(() => {
 });
 
 describe("PuzzleView persistence hydration", () => {
-  it("does not lock difficulty until a core field is clicked", async () => {
-    const onPersist = () => {};
-    let interactions = 0;
-    const onChoiceInteracted = () => {
-      interactions += 1;
-    };
-
-    act(() => {
-      view = render(buildPuzzleView({ onPersist, onChoiceInteracted }));
-    });
-
-    expect(interactions).toBe(0);
-
-    await clickById("inputSpeaker");
-    expect(interactions).toBe(1);
-
-    await clickById("inputListener");
-    expect(interactions).toBe(1);
-  });
-
   it("does not persist when parent re-sends an equivalent initial payload", () => {
     const calls: PersistPayload[] = [];
     const onPersist = (state: PersistPayload) => {
@@ -327,7 +301,7 @@ describe("PuzzleView persistence hydration", () => {
     });
   });
 
-  it("uses free-text inputs in hard mode even when options are present", () => {
+  it("uses options when options are present", () => {
     const onPersist = () => {};
     const puzzleWithDifficultyOptions: PuzzleItem = {
       ...puzzle,
@@ -341,28 +315,7 @@ describe("PuzzleView persistence hydration", () => {
     };
 
     act(() => {
-      view = render(buildPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: false }));
-    });
-
-    expect(byId("inputSpeaker").tagName).toBe("INPUT");
-    expect(byId("inputListener").tagName).toBe("INPUT");
-  });
-
-  it("uses options in easy mode when options are present", () => {
-    const onPersist = () => {};
-    const puzzleWithDifficultyOptions: PuzzleItem = {
-      ...puzzle,
-      en: {
-        ...puzzle.en,
-        options: {
-          speaker: ["Easy Speaker"],
-          listener: ["Easy Listener"],
-        },
-      },
-    };
-
-    act(() => {
-      view = render(buildPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions, easyMode: true }));
+      view = render(buildPuzzleView({ onPersist, puzzle: puzzleWithDifficultyOptions }));
     });
 
     const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
@@ -376,7 +329,7 @@ describe("PuzzleView persistence hydration", () => {
     const onPersist = () => {};
 
     act(() => {
-      view = render(buildPuzzleView({ onPersist, easyMode: true }));
+      view = render(buildPuzzleView({ onPersist }));
     });
 
     const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
@@ -392,48 +345,6 @@ describe("PuzzleView persistence hydration", () => {
 
     const feedback = byId("feedback").textContent ?? "";
     expect(feedback).toBe("Nice! Now find the missing word.");
-  });
-
-  it("accepts fuzzy free-text answers in hard mode", async () => {
-    const onPersist = () => {};
-
-    act(() => {
-      view = render(buildPuzzleView({ onPersist, easyMode: false }));
-    });
-
-    expect(byId("inputSpeaker").tagName).toBe("INPUT");
-    expect(byId("inputListener").tagName).toBe("INPUT");
-
-    await setInputValue("inputSpeaker", "LORD");
-    await setInputValue("inputListener", "Abram!!!");
-
-    await clickById("submitGuess");
-
-    const feedback = byId("feedback").textContent ?? "";
-    expect(feedback).toBe("Nice! Now find the missing word.");
-    expect(byId("labelSpeaker").textContent ?? "").toContain("✅");
-    expect(byId("labelListener").textContent ?? "").toContain("✅");
-  });
-
-  it("clears typed text when difficulty mode switches", async () => {
-    const onPersist = () => {};
-
-    act(() => {
-      view = render(buildPuzzleView({ onPersist, easyMode: false }));
-    });
-
-    await setInputValue("inputSpeaker", "LORD");
-    await setInputValue("inputListener", "Abram");
-
-    expect(byId<HTMLInputElement>("inputSpeaker").value).toBe("LORD");
-    expect(byId<HTMLInputElement>("inputListener").value).toBe("Abram");
-
-    act(() => {
-      view?.rerender(buildPuzzleView({ onPersist, easyMode: true }));
-    });
-
-    expect(byId<HTMLSelectElement>("inputSpeaker").value).toBe("");
-    expect(byId<HTMLSelectElement>("inputListener").value).toBe("");
   });
 
   it("marks bonus field and label as wrong in stage two when bonus is incorrect", () => {
@@ -520,7 +431,7 @@ describe("PuzzleView persistence hydration", () => {
     const onPersist = () => {};
 
     act(() => {
-      view = render(buildPuzzleView({ onPersist, easyMode: true, lang: "he" }));
+      view = render(buildPuzzleView({ onPersist, lang: "he" }));
     });
 
     const speakerOptions = Array.from(byId<HTMLSelectElement>("inputSpeaker").options).map((opt) => opt.value);
@@ -743,8 +654,6 @@ describe("PuzzleView persistence hydration", () => {
 
   it("shows the failed-bonus marker after a wrong bonus guess", async () => {
     const onPersist = () => {};
-    const successMark = pickDailyHardModeSuccessMark(Temporal.Now.plainDateISO());
-    expect(HARD_MODE_SUCCESS_MARKS).toContain(successMark);
     const stageTwoOpenAttempt: GuessResult = {
       speakerOk: true,
       listenerOk: true,
@@ -770,11 +679,11 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    expect(document.querySelector(".status-line")?.textContent ?? "").toContain(`${successMark}${successMark}✡️⬜`);
+    expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✡️⬜");
 
     await setInputValue("inputBonus", "earth");
     await clickById("submitGuess");
 
-    expect(document.querySelector(".status-line")?.textContent ?? "").toContain(`${successMark}${successMark}✴️⬜`);
+    expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✴️⬜");
   });
 });
