@@ -68,8 +68,9 @@ type GameOpenOptions = {
 const WRONG_TEXT = "not-the-answer";
 const EN_BONUS_DRAFT = "draft-word";
 const HE_BONUS_DRAFT = "טיוטה";
+const EXAMPLE_SEEN_STORAGE_KEY = "qs:example-seen";
 const quotesOptionsDirPath = fileURLToPath(new URL("../data/quotes_options", import.meta.url));
-const exampleQuotePath = fileURLToPath(new URL("../src/lib/exampleQuote.json", import.meta.url));
+const exampleQuotesDirPath = fileURLToPath(new URL("../src/lib", import.meta.url));
 
 function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
   const files = fs
@@ -84,9 +85,24 @@ function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
   });
 }
 
+function loadExamplePuzzleItems(dirPath: string): PuzzleItem[] {
+  const files = fs
+    .readdirSync(dirPath)
+    .filter((name) => /^exampleQuote.*\.json$/u.test(name))
+    .sort();
+
+  return files.flatMap((name) => {
+    const raw = fs.readFileSync(path.join(dirPath, name), "utf8");
+    const parsed = JSON.parse(raw) as { items?: PuzzleItem[] } | PuzzleItem[];
+    return Array.isArray(parsed) ? parsed : (parsed.items ?? []);
+  });
+}
+
 const dailyItems = loadPuzzleItemsFromQuotesOptions(quotesOptionsDirPath);
-const examplePayload = JSON.parse(fs.readFileSync(exampleQuotePath, "utf8")) as { items?: PuzzleItem[] };
-const examplePuzzle = examplePayload.items?.[0];
+const exampleItems = loadExamplePuzzleItems(exampleQuotesDirPath);
+const examplePuzzle = exampleItems.find((item) => item.id === "exodus-03-04-04-example");
+const dailyExamplePuzzle = exampleItems[pickDailyItemIndex(exampleItems.length)];
+const hpExamplePuzzle = exampleItems.find((item) => item.id === "hp-example-1");
 const todayPuzzle = dailyItems[pickDailyItemIndex(dailyItems.length)];
 
 if (!todayPuzzle) {
@@ -94,7 +110,15 @@ if (!todayPuzzle) {
 }
 
 if (!examplePuzzle) {
-  throw new Error("Expected one example puzzle in src/lib/exampleQuote.json.");
+  throw new Error("Expected exodus-03-04-04-example in src/lib/exampleQuote*.json.");
+}
+
+if (!dailyExamplePuzzle) {
+  throw new Error("Expected at least one daily example puzzle in src/lib/exampleQuote*.json.");
+}
+
+if (!hpExamplePuzzle) {
+  throw new Error("Expected hp-example-1 in src/lib/exampleQuote*.json.");
 }
 
 const exampleEnAnswer = {
@@ -105,6 +129,19 @@ const exampleEnAnswer = {
   quote: examplePuzzle.en.quote,
 };
 const exampleWrongSpeaker = examplePuzzle.en.options?.speaker?.[0]?.trim() ?? "";
+const hpExampleEnAnswer = {
+  speaker: hpExamplePuzzle.en.speaker,
+  listener: hpExamplePuzzle.en.listener,
+  bonus: hpExamplePuzzle.en.bonus?.trim() ?? "",
+  riddle: hpExamplePuzzle.en.riddle?.trim() ?? "",
+  quote: hpExamplePuzzle.en.quote,
+};
+const hpExampleWrongSpeaker = hpExamplePuzzle.en.options?.speaker?.[0]?.trim() ?? "";
+const dailyExampleEnAnswer = {
+  speaker: dailyExamplePuzzle.en.speaker,
+  listener: dailyExamplePuzzle.en.listener,
+};
+const dailyExampleWrongSpeaker = dailyExamplePuzzle.en.options?.speaker?.[0]?.trim() ?? "";
 
 if (
   !exampleEnAnswer.speaker ||
@@ -115,6 +152,21 @@ if (
   !exampleWrongSpeaker
 ) {
   throw new Error("Example puzzle must contain EN speaker/listener/quote/riddle/bonus and one wrong speaker option.");
+}
+
+if (
+  !hpExampleEnAnswer.speaker ||
+  !hpExampleEnAnswer.listener ||
+  !hpExampleEnAnswer.bonus ||
+  !hpExampleEnAnswer.riddle ||
+  !hpExampleEnAnswer.quote ||
+  !hpExampleWrongSpeaker
+) {
+  throw new Error("HP example puzzle must contain EN speaker/listener/quote/riddle/bonus and one wrong speaker option.");
+}
+
+if (!dailyExampleEnAnswer.speaker || !dailyExampleEnAnswer.listener || !dailyExampleWrongSpeaker) {
+  throw new Error("Daily example puzzle must contain EN speaker/listener and one wrong speaker option.");
 }
 
 const todayPuzzleId = todayPuzzle.id;
@@ -352,6 +404,12 @@ const exampleVisibleContextToken = pickVisibleContextTokenFromQuote(
   exampleEnAnswer.bonus,
   "en"
 );
+const hpExampleVisibleContextToken = pickVisibleContextTokenFromQuote(
+  hpExampleEnAnswer.quote,
+  hpExampleEnAnswer.riddle,
+  hpExampleEnAnswer.bonus,
+  "en"
+);
 
 if (!enVisibleContextToken) {
   throw new Error(`Could not pick a visible non-bonus token from puzzle ${puzzleId}.`);
@@ -359,6 +417,10 @@ if (!enVisibleContextToken) {
 
 if (!exampleVisibleContextToken) {
   throw new Error("Could not pick a visible non-bonus token from example puzzle.");
+}
+
+if (!hpExampleVisibleContextToken) {
+  throw new Error("Could not pick a visible non-bonus token from HP example puzzle.");
 }
 
 test("legacy difficulty params are removed from the URL on load", async ({ page }) => {
@@ -721,6 +783,56 @@ test("how-to example opens from ❓, starts with partial correctness, and can be
   const quoteAfterSolve = await page.locator("#fullQuote").innerText();
   expect(normalize(quoteAfterSolve, "en")).toContain(normalize(exampleEnAnswer.riddle, "en"));
   expect(normalize(quoteAfterSolve, "en")).toContain(normalize(exampleEnAnswer.bonus, "en"));
+});
+
+test("first example view uses the bible example, then later views use the daily example and persist a marker", async ({ page }) => {
+  await openGame(page, { lang: "en" });
+
+  await page.getByRole("button", { name: "Open how to play example" }).click();
+  await expect(page.locator("#inputSpeaker")).toHaveValue(exampleWrongSpeaker);
+  await expect(page.locator("#inputListener")).toHaveValue(exampleEnAnswer.listener);
+  expect(await page.evaluate((key) => localStorage.getItem(key), EXAMPLE_SEEN_STORAGE_KEY)).toBe("1");
+
+  await page.locator("#topBackButton").click();
+  await expect(page.locator("#puzzleCard")).toBeVisible();
+
+  await page.getByRole("button", { name: "Open how to play example" }).click();
+  await expect(page.locator("#inputSpeaker")).toHaveValue(dailyExampleWrongSpeaker);
+  await expect(page.locator("#inputListener")).toHaveValue(dailyExampleEnAnswer.listener);
+});
+
+test("example page can resolve the HP example by id from the URL", async ({ page }) => {
+  await page.addInitScript((storageKey) => {
+    window.localStorage.setItem(storageKey, "1");
+  }, EXAMPLE_SEEN_STORAGE_KEY);
+
+  const params = new URLSearchParams({
+    puzzle: hpExamplePuzzle.id,
+    lng: "en",
+  });
+
+  await page.goto(`/?${params.toString()}#example`);
+  await expect(page.locator("#guessForm")).toBeVisible();
+  await expect(page.locator("#inputSpeaker")).toHaveValue(hpExampleWrongSpeaker);
+  await expect(page.locator("#inputListener")).toHaveValue(hpExampleEnAnswer.listener);
+  await expect(page.locator("#feedback")).toHaveText("Not quite. Try again.");
+
+  const quoteBeforeCoreSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteBeforeCoreSolve, "en")).toContain(normalize(hpExampleVisibleContextToken, "en"));
+  expect(normalize(quoteBeforeCoreSolve, "en")).not.toContain(normalize(hpExampleEnAnswer.bonus, "en"));
+
+  await selectAnswerOption(page.locator("#inputSpeaker"), hpExampleEnAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), hpExampleEnAnswer.listener, "en");
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await page.fill("#inputBonus", hpExampleEnAnswer.bonus);
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Solved.");
+  const quoteAfterSolve = await page.locator("#fullQuote").innerText();
+  expect(normalize(quoteAfterSolve, "en")).toContain(normalize(hpExampleEnAnswer.riddle, "en"));
+  expect(normalize(quoteAfterSolve, "en")).toContain(normalize(hpExampleEnAnswer.bonus, "en"));
 });
 
 test("language switch updates UI and keeps selected puzzle", async ({ page }) => {

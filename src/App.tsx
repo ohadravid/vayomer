@@ -10,8 +10,8 @@ import { buildPuzzleStorageKey } from "./lib/persistence";
 import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
+import { hasSeenExample, markExampleSeen, pickExamplePuzzle } from "./lib/examplePuzzles";
 import packageMeta from "../package.json";
-import exampleQuoteData from "./lib/exampleQuote.json";
 
 const PUZZLE_QUERY_KEY = "puzzle";
 const ABOUT_HASH = "#about";
@@ -49,7 +49,6 @@ const EMPTY_PERSISTED_DRAFT: PersistedDraft = {
   portion: "",
   bonus: "",
 };
-const EXAMPLE_PUZZLE: PuzzleItem | null = ((exampleQuoteData as { items?: PuzzleItem[] }).items ?? [])[0] ?? null;
 
 function buildExamplePuzzleWithMaskedBonusWord(puzzle: PuzzleItem): PuzzleItem {
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
@@ -235,6 +234,13 @@ function pickInitialPuzzleIndex(items: readonly { id: string }[]): number {
   return pickPuzzleIndexForSearch(items, search);
 }
 
+function pickInitialExamplePuzzle(): PuzzleItem | null {
+  const search = typeof window === "undefined" ? "" : window.location.search;
+  const requestedId = parsePuzzleIdFromSearch(search);
+  if (typeof window === "undefined") return pickExamplePuzzle(requestedId, false);
+  return pickExamplePuzzle(requestedId, hasSeenExample(window.localStorage));
+}
+
 function getSearchWithoutLegacyDifficultyParams(search: string): string {
   const params = new URLSearchParams(search);
   let changed = false;
@@ -276,6 +282,7 @@ export function App() {
   const nextLanguage = getAlternateLanguage(lang);
   const manifestEntries = PUZZLE_MANIFEST;
   const [index] = useState(() => pickInitialPuzzleIndex(manifestEntries));
+  const [exampleBasePuzzle, setExampleBasePuzzle] = useState<PuzzleItem | null>(() => pickInitialExamplePuzzle());
   const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [exampleRevealed, setExampleRevealed] = useState(false);
@@ -322,13 +329,13 @@ export function App() {
   }, [manifestEntries, index]);
 
   const exampleMaskedPuzzle = useMemo(
-    () => (EXAMPLE_PUZZLE ? buildExamplePuzzleWithMaskedBonusWord(EXAMPLE_PUZZLE) : null),
-    []
+    () => (exampleBasePuzzle ? buildExamplePuzzleWithMaskedBonusWord(exampleBasePuzzle) : null),
+    [exampleBasePuzzle]
   );
-  const examplePuzzle = exampleRevealed ? EXAMPLE_PUZZLE : exampleMaskedPuzzle;
+  const examplePuzzle = exampleRevealed ? exampleBasePuzzle : exampleMaskedPuzzle;
   const exampleInitial = useMemo(
-    () => (EXAMPLE_PUZZLE ? buildExampleInitialState(EXAMPLE_PUZZLE, lang) : null),
-    [lang]
+    () => (exampleBasePuzzle ? buildExampleInitialState(exampleBasePuzzle, lang) : null),
+    [exampleBasePuzzle, lang]
   );
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id) : "";
 
@@ -350,6 +357,20 @@ export function App() {
     document.body.dir = direction;
     document.title = page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.pageTitle");
   }, [lang, page, t]);
+
+  useEffect(() => {
+    if (page !== AppPage.Example) return;
+    const search = typeof window === "undefined" ? "" : window.location.search;
+    const requestedId = parsePuzzleIdFromSearch(search);
+
+    if (typeof window === "undefined") {
+      setExampleBasePuzzle(pickExamplePuzzle(requestedId, false));
+      return;
+    }
+
+    setExampleBasePuzzle(pickExamplePuzzle(requestedId, hasSeenExample(window.localStorage)));
+    markExampleSeen(window.localStorage);
+  }, [page]);
 
   useEffect(() => {
     if (page === AppPage.Example) return;

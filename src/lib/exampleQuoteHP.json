@@ -1,0 +1,101 @@
+{
+  "items": [
+    {
+      "id": "hp-example-1",
+      "en": {
+        "quote": "‘It certainly seems so,’ said Dumbledore. ‘We have much to be thankful for. Would you care for a sherbet lemon?’ ‘A what?’ ‘A sherbet lemon. They’re a kind of Muggle sweet I’m rather fond of.’ ‘No, thank you,’ said Professor McGonagall coldly",
+        "riddle": "Would you care for a sherbet lemon?",
+        "speaker": "Professor Dumbledore",
+        "listener": "Professor McGonagall",
+        "book": "Harry Potter and the Philosopher's Stone",
+        "options": {
+          "speaker": [
+            "Hagrid"
+          ],
+          "listener": []
+        },
+        "bonus": "Muggle",
+        "bonus_hint": {
+          "quote": "’I heard you went to live with Muggles,’ said Ron. ‘What are they like?’ ‘Horrible",
+          "source": {
+            "book": "Harry Potter and the Philosopher's Stone",
+            "chapter": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "\"בהחלט נראה שכן,\" אמר דַמבֶּלדוֹר. \"יש על מה לשמוח. אפשר להציע לך קְרֶמְבּוֹ?\" \"קְרֶ־מה?\" \"קרמבו. זה מין ממתק של מוּגלְגים שאני די מחבב.\" \"לא, תודה,\" אמרה הפרופסור מֶקגונַגל בקרירות",
+        "riddle": "אפשר להציע לך קְרֶמְבּוֹ?",
+        "speaker": "פרופסור דַמבֶּלדוֹר",
+        "listener": "פרופסור מֶקגונַגל",
+        "book": "הארי פוטר ואבן החכמים",
+        "options": {
+          "speaker": [
+            "האגְריד"
+          ],
+          "listener": []
+        },
+        "bonus": "מוּגלְגים",
+        "bonus_hint": {
+          "quote": "\"שמעתי שעברת לגור עם מוּגלְגים,\" אמר רון. \"איך הם?\" \"זוועתיים\"",
+          "source": {
+            "book": "הארי פוטר ואבן החכמים",
+            "chapter": 6
+          }
+        }
+      },
+      "ref": {
+        "chapter": 1
+      }
+    },
+
+    {
+      "id": "hp-example-2",
+      "en": {
+        "quote": "I hope you’re pleased with yourselves. We could all have been killed – or worse, expelled. Now, if you don’t mind, I’m going to bed.",
+        "riddle": "We could all have been killed – or worse, expelled.",
+        "speaker": "Hermione",
+        "listener": "Harry and Ron",
+        "book": "Harry Potter and the Philosopher's Stone",
+        "options": {
+          "speaker": [
+            "Dean Thomas"
+          ],
+          "listener": []
+        },
+        "bonus": "mind",
+        "bonus_hint": {
+          "quote": "‘I want to hear you’re training hard, Potter, or I may change my mind about punishing you.’",
+          "source": {
+            "book": "Harry Potter and the Philosopher's Stone",
+            "chapter": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "היא נעמדה, שולחת לעברם מבט זועם. \"אני מקווה שאתם מרוצים. היינו יכולים ליהרג, או גרוע מזה - להיות מסולקים מבית-הספר. ועכשיו, אם לא איכפת לכם, אני הולכת לישון.\" רון הסתכל עליה בפה פעור.",
+        "riddle": "היינו יכולים ליהרג, או גרוע מזה - להיות מסולקים מבית-הספר",
+        "speaker": "הֶרמַיוֹני",
+        "listener": "הארי ורון",
+        "book": "הארי פוטר ואבן החכמים",
+        "options": {
+          "speaker": [
+            "דין תומאס"
+          ],
+          "listener": []
+        },
+        "bonus": "מבט",
+        "bonus_hint": {
+          "quote": "\"נימבוס 2000, המורה\", אמר הארי. מתאפק שלא לצחוק למראה המבט הנדהם על פניו של מאלפוי. \"ואפשר לומר שקיבלתי אותו בזכות מאלפוי,\" הוא הוסיף.",
+          "source": {
+            "book": "הארי פוטר ואבן החכמים",
+            "chapter": 10
+          }
+        }
+      },
+      "ref": {
+        "chapter": 9
+      }
+    }
+  ]
+}
