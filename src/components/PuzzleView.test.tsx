@@ -127,6 +127,12 @@ const coreSolvedAttempt: GuessResult = {
   portionOk: true,
   bonusOk: false,
 };
+const failedAttempt: GuessResult = {
+  speakerOk: false,
+  listenerOk: false,
+  portionOk: true,
+  bonusOk: false,
+};
 
 type PersistPayload = {
   speaker: string;
@@ -730,5 +736,37 @@ describe("PuzzleView persistence hydration", () => {
     await clickById("submitGuess");
 
     expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✴️⬜");
+  });
+
+  it("reveals the correct answers when no tries are left", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          revealed: false,
+          initial: {
+            speaker: "Sarah",
+            listener: "Isaac",
+            portion: "",
+            bonus: "earth",
+            hintRevealed: false,
+            attempts: [failedAttempt, failedAttempt, failedAttempt, failedAttempt, failedAttempt],
+          },
+        })
+      );
+    });
+
+    expect(byId("feedback").textContent ?? "").toBe("No tries left.");
+    expect(byId<HTMLSelectElement>("inputSpeaker").value).toBe("the LORD");
+    expect(byId<HTMLSelectElement>("inputListener").value).toBe("Abram");
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("land");
+    expect(byId<HTMLSelectElement>("inputSpeaker").disabled).toBe(true);
+    expect(byId<HTMLSelectElement>("inputListener").disabled).toBe(true);
+    expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);
+    expect(byId("labelSpeaker").textContent ?? "").toContain("✅");
+    expect(byId("labelListener").textContent ?? "").toContain("✅");
+    expect(byId("labelBonus").textContent ?? "").toContain("✅");
   });
 });

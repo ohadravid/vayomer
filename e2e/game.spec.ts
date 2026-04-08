@@ -598,6 +598,18 @@ test("full game: lose", async ({ page }) => {
   await expect(page.getByText("Tries: 5/5")).toBeVisible();
   const quoteAfterLose = await page.locator("#fullQuote").innerText();
   expect(normalize(quoteAfterLose, "en")).toContain(normalize(enAnswer.bonus, "en"));
+  const revealedSpeaker = await page.locator("#inputSpeaker").inputValue();
+  const revealedListener = await page.locator("#inputListener").inputValue();
+  const revealedBonus = await page.locator("#inputBonus").inputValue();
+  expect(normalize(revealedSpeaker, "en")).toBe(normalize(enAnswer.speaker, "en"));
+  expect(normalize(revealedListener, "en")).toBe(normalize(enAnswer.listener, "en"));
+  expect(normalize(revealedBonus, "en")).toBe(normalize(enAnswer.bonus, "en"));
+  await expect(page.locator("#inputSpeaker")).toBeDisabled();
+  await expect(page.locator("#inputListener")).toBeDisabled();
+  await expect(page.locator("#inputBonus")).toBeDisabled();
+  await expect(page.locator("#labelSpeaker")).toContainText("✅");
+  await expect(page.locator("#labelListener")).toContainText("✅");
+  await expect(page.locator("#labelBonus")).toContainText("✅");
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 

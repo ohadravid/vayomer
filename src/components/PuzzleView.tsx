@@ -52,6 +52,12 @@ const EMPTY_GUESS_VALUES: GuessValues = {
   portion: "",
   bonus: "",
 };
+const ALL_CORRECT_RESULT: GuessResult = {
+  speakerOk: true,
+  listenerOk: true,
+  portionOk: true,
+  bonusOk: true,
+};
 
 function emptyEditedState(): GuessEditState {
   return {
@@ -187,11 +193,24 @@ export function PuzzleView({
     maxGuesses: MAX_TOTAL_TRIES,
     bonusRequired,
   });
+  const answersRevealed = gameState === GameState.Failed;
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const fullySolved = gameState === GameState.Solved;
   const quoteRevealed =
     stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
+  const displayValues: GuessValues = answersRevealed
+    ? {
+        speaker: puzzle[lang].speaker,
+        listener: puzzle[lang].listener,
+        portion,
+        bonus: bonusRequired ? bonusAnswer : bonus,
+      }
+    : { speaker, listener, portion, bonus };
+  const displayResult = answersRevealed ? ALL_CORRECT_RESULT : result;
+  const coreFieldsLocked = stageTwoOpen || answersRevealed;
+  const bonusRowVisible = stageTwoOpen || answersRevealed;
+  const extraChecked = coreSolved || answersRevealed;
   const successMark = "✅";
   const failedBonusTry = bonusRequired
     ? attempts.some((attempt) => doesAttemptCountAsTry(attempt) && attempt.speakerOk && attempt.listenerOk && !attempt.bonusOk)
@@ -422,13 +441,13 @@ export function PuzzleView({
       />
       <GuessForm
         choiceOptions={multipleChoiceOptions}
-        values={{ speaker, listener, portion, bonus }}
-        result={result}
+        values={displayValues}
+        result={displayResult}
         editedSinceCheck={editedSinceCheck}
-        coreSolved={stageTwoOpen}
-        showBonusRow={stageTwoOpen}
-        extraChecked={coreSolved}
-        bonusDisabled={revealed || !bonusRequired}
+        coreSolved={coreFieldsLocked}
+        showBonusRow={bonusRowVisible}
+        extraChecked={extraChecked}
+        bonusDisabled={revealed || answersRevealed || !bonusRequired}
         bonusHintUsed={bonusHintUsed}
         showBonusHint={stageTwoOpen && hasBonusHint}
         showHintQuote={showHintQuote}
