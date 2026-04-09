@@ -462,7 +462,6 @@ body[dir="rtl"] .bonus-hint-quote {
 .bonus-hint-btn {
   min-height: 2.75rem;
   block-size: 2.75rem;
-  align-self: end;
   white-space: nowrap;
 }
 
@@ -515,6 +514,12 @@ label {
   pointer-events: auto;
 }
 
+.bonus-cell,
+.bonus-hint-btn,
+.submit-cell {
+  align-self: end;
+}
+
 .field-label {
   display: inline-flex;
   align-items: center;
@@ -524,16 +529,11 @@ label {
 .submit-cell {
   justify-self: stretch;
   inline-size: 100%;
-  transition: transform 0.2s ease;
 }
 
 #inputBonus,
 #submitGuess {
   block-size: 2.75rem;
-}
-
-.form-row.secondary.bonus-visible .submit-cell {
-  transform: translateY(0.1rem);
 }
 
 .bonus-hint-reveal {
@@ -619,10 +619,6 @@ label {
 @media (max-width: 34rem) {
   .bonus-cell {
     transform: translateY(-0.2rem);
-  }
-
-  .form-row.secondary.bonus-visible .submit-cell {
-    transform: translateY(0);
   }
 
   .form-row.secondary.bonus-visible.with-bonus-hint {
