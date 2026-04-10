@@ -88,7 +88,7 @@ const puzzleWithHebrewHintSpellingMismatch: PuzzleItem = {
   he: {
     ...puzzleWithHint.he,
     quote:
-      "וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָיו",
+      "וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שֹׂנֵא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָיו",
     riddle: "הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ",
     speaker: "אֶחָיו",
     listener: "יוֹסֵף",
@@ -476,6 +476,35 @@ describe("PuzzleView persistence hydration", () => {
     const emojiSpan = document.querySelector("#fullQuote .quote-hidden .quote-emoji");
     expect(emojiSpan).not.toBeNull();
     expect((emojiSpan?.textContent ?? "").length).toBeGreaterThan(0);
+  });
+
+  it("masks Hebrew bonus words in the main quote even when the quote uses a different niqqud spelling", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          lang: "he",
+          puzzle: puzzleWithHebrewHintSpellingMismatch,
+          revealed: false,
+          initial: {
+            speaker: "",
+            listener: "",
+            portion: "",
+            bonus: "",
+            hintRevealed: false,
+            attempts: [],
+          },
+        })
+      );
+    });
+
+    const fullQuoteText = byId("fullQuote").textContent ?? "";
+    const placeholder = pickHardWordPlaceholderForId(puzzleWithHebrewHintSpellingMismatch.id);
+
+    expect(fullQuoteText.includes("שֹׂנֵא")).toBe(false);
+    expect(fullQuoteText.includes(placeholder)).toBe(true);
   });
 
   it("shows אֱלֹהִים as speaker option for divine aliases in Hebrew and accepts it as correct", () => {

@@ -27,6 +27,13 @@ describe("maskHardWord", () => {
     expect(masked).toContain("🪧🪧🪧🪧🪧");
   });
 
+  it("masks Hebrew niqqud variants in main-quote text", () => {
+    const quote = "וַיּוֹסִפוּ עוֹד שֹׂנֵא אֹתוֹ עַל־חֲלֹמֹתָיו";
+    const masked = maskHardWord(quote, "שְׂנֹא", "🪧", "he");
+    expect(masked).not.toContain("שֹׂנֵא");
+    expect(masked).toContain("🪧🪧🪧");
+  });
+
   it("masks Hebrew niqqud variants that normalize to the same answer", () => {
     const quote = "וְכִֽי־יִהְיֶה אִישׁ שֹׂנֵא לְרֵעֵהוּ";
     const masked = maskHardWord(quote, "שְׂנֹא", "🪧", "he");
