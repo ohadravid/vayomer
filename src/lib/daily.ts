@@ -8,31 +8,11 @@ export type DailyDateInput = Temporal.PlainDate;
 // - Full-date overrides: Temporal.PlainDate RFC 9557 strings (e.g. "2026-03-16", "2025-09-23[u-ca=hebrew]")
 // - Recurring month/day overrides: Temporal.PlainMonthDay strings (e.g. "03-16", "1972-09-09[u-ca=hebrew]")
 export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
-  "2026-02-19": "manual-genesis-03-09-09-d094f0f4",
-  "2026-02-21": "exodus-24-03-04",
-  "2026-02-22": "manual-genesis-37-07-09-69be8e9c",
-  "2026-02-23": "exodus-20-22-23",
-  "2026-02-24": "manual-genesis-24-16-18-10363c00",
-  "2026-02-25": "exodus-33-17-17",
-  "2026-02-26": "manual-genesis-47-08-09-17ff6fd8",
-  "2026-03-04": "exodus-07-14-15",
-  "2026-03-10": "exodus-32-09-12",
-  "2026-03-11": "genesis-16-08-10",
-  "2026-03-15": "genesis-18-05-06",
-  "2026-03-16": "genesis-42-07-07",
-  "2026-03-17": "1-samuel-23-09-11",
-  "2026-03-19": "manual-jeremiah-33-10-11-4f49ab70",
-  "2026-03-24": "genesis-44-14-15",
-  "2026-03-25": "genesis-22-04-05",
-  "2026-03-26": "genesis-22-04-05",
-  "2026-03-27": "1-samuel-01-08-11",
-  "2026-03-29": "1-samuel-16-09-11",
-  "2026-03-30": "2-chronicles-18-04-06",
-  "2026-03-31": "joshua-20-01-03",
-  "2026-04-03": "exodus-17-04-06",
-  "2026-04-04": "1-kings-19-07-09",
-  "2026-04-09": "1-chronicles-22-07-09",
-  "2026-04-10": "1-chronicles-22-07-09",
+  "02-19": "manual-genesis-03-09-09-d094f0f4",
+  "02-22": "manual-genesis-37-07-09-69be8e9c",
+  "02-24": "manual-genesis-24-16-18-10363c00",
+  "02-26": "manual-genesis-47-08-09-17ff6fd8",
+  "03-19": "manual-jeremiah-33-10-11-4f49ab70",
 };
 
 function toLocalPlainDate(date: DailyDateInput): Temporal.PlainDate {

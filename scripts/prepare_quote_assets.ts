@@ -12,7 +12,7 @@ type PuzzleChapterPayload = {
 
 const ROOT = process.cwd();
 const SOURCES = [
-  { key: "options", dir: path.join(ROOT, "data", "quotes_options") },
+  { key: "options", dir: path.join(ROOT, "data", "processed", "generated_options") },
   { key: "manual", dir: path.join(ROOT, "data", "manual_quotes") },
 ] as const;
 const OUTPUT_ROOT = path.join(ROOT, "public", "quotes");
