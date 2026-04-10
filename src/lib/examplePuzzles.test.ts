@@ -45,7 +45,7 @@ describe("examplePuzzles", () => {
 
   it("uses the same daily picker after the seen marker exists", () => {
     const date = Temporal.PlainDate.from("2026-04-08");
-    const expected = EXAMPLE_PUZZLES[pickDailyItemIndex(EXAMPLE_PUZZLES.length, date)];
+    const expected = EXAMPLE_PUZZLES[pickDailyItemIndex(EXAMPLE_PUZZLES, date)];
 
     expect(pickExamplePuzzle(null, true, date)?.id).toBe(expected?.id);
   });

@@ -23,13 +23,32 @@ describe("dayIndex", () => {
 describe("pickDailyItemIndex", () => {
   it("is deterministic for a given date", () => {
     const date = Temporal.PlainDate.from("2030-05-10");
-    expect(pickDailyItemIndex(17, date)).toBe(pickDailyItemIndex(17, date));
+    const items = [{ id: "a" }, { id: "b" }, { id: "c" }];
+    expect(pickDailyItemIndex(items, date)).toBe(pickDailyItemIndex(items, date));
   });
 
   it("supports dates before the epoch date", () => {
-    const idx = pickDailyItemIndex(8, Temporal.PlainDate.from("1901-01-01"));
+    const items = Array.from({ length: 8 }, (_, idx) => ({ id: `item-${idx}` }));
+    const idx = pickDailyItemIndex(items, Temporal.PlainDate.from("1901-01-01"));
     expect(idx).toBeGreaterThanOrEqual(0);
-    expect(idx).toBeLessThan(8);
+    expect(idx).toBeLessThan(items.length);
+  });
+
+  it("keeps the remaining order stable when an item is removed", () => {
+    const start = Temporal.PlainDate.from("2026-03-16");
+    const orderedItems = [{ id: "alpha" }, { id: "beta" }, { id: "gamma" }, { id: "delta" }];
+    const filteredItems = orderedItems.filter((item) => item.id !== "gamma");
+
+    const originalCycle = orderedItems.map((_, offset) => {
+      const date = start.add({ days: offset });
+      return orderedItems[pickDailyItemIndex(orderedItems, date)]?.id;
+    });
+    const filteredCycle = filteredItems.map((_, offset) => {
+      const date = start.add({ days: offset });
+      return filteredItems[pickDailyItemIndex(filteredItems, date)]?.id;
+    });
+
+    expect(originalCycle.filter((id) => id !== "gamma")).toEqual(filteredCycle);
   });
 });
 
@@ -49,7 +68,7 @@ describe("date override selection", () => {
     const items = [{ id: "a" }, { id: "b" }, { id: "c" }];
     const date = Temporal.PlainDate.from("2026-03-16");
     const overrides = { "2026-03-16": "missing-id" };
-    expect(pickDailyItemIndexWithOverrides(items, date, overrides)).toBe(pickDailyItemIndex(items.length, date));
+    expect(pickDailyItemIndexWithOverrides(items, date, overrides)).toBe(pickDailyItemIndex(items, date));
   });
 
   it("supports recurring Gregorian month-day keys", () => {
@@ -95,6 +114,6 @@ describe("date override selection", () => {
     const overrides = { [fullHebrewKey]: "b" };
 
     expect(pickDailyItemIndexWithOverrides(items, isoA, overrides)).toBe(1);
-    expect(pickDailyItemIndexWithOverrides(items, isoB, overrides)).toBe(pickDailyItemIndex(items.length, isoB));
+    expect(pickDailyItemIndexWithOverrides(items, isoB, overrides)).toBe(pickDailyItemIndex(items, isoB));
   });
 });

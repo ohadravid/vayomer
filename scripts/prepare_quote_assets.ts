@@ -1,5 +1,6 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { pathToFileURL } from "node:url";
 
 type PuzzleManifestEntry = {
   id: string;
@@ -17,6 +18,7 @@ const SOURCES = [
 ] as const;
 const OUTPUT_ROOT = path.join(ROOT, "public", "quotes");
 const MANIFEST_SOURCE_PATH = path.join(ROOT, "src", "lib", "puzzleManifest.json");
+export const DAILY_ORDER_SEED = 20220805;
 
 function parsePayloadItems(payload: PuzzleChapterPayload): Array<{ id?: string }> {
   return Array.isArray(payload.items) ? payload.items : [];
@@ -28,6 +30,26 @@ async function listJsonFiles(dir: string): Promise<string[]> {
     .filter((entry) => entry.isFile() && entry.name.endsWith(".json"))
     .map((entry) => entry.name)
     .sort((left, right) => left.localeCompare(right));
+}
+
+export function fnv1a(str: string): number {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < str.length; i += 1) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return h >>> 0;
+}
+
+export function compareDailyOrderIds(leftId: string, rightId: string): number {
+  const leftHash = fnv1a(`${DAILY_ORDER_SEED}:${leftId}`);
+  const rightHash = fnv1a(`${DAILY_ORDER_SEED}:${rightId}`);
+
+  if (leftHash !== rightHash) {
+    return leftHash - rightHash;
+  }
+
+  return leftId.localeCompare(rightId);
 }
 
 async function main(): Promise<void> {
@@ -63,11 +85,17 @@ async function main(): Promise<void> {
     }
   }
 
+  manifest.sort((left, right) => compareDailyOrderIds(left.id, right.id));
+
   await fs.writeFile(MANIFEST_SOURCE_PATH, JSON.stringify(manifest));
   console.log(`Prepared ${manifest.length} puzzle IDs and chapter mappings.`);
 }
 
-void main().catch((error: unknown) => {
-  console.error(error);
-  process.exit(1);
-});
+const entryHref = process.argv[1] ? pathToFileURL(path.resolve(process.argv[1])).href : null;
+
+if (entryHref === import.meta.url) {
+  void main().catch((error: unknown) => {
+    console.error(error);
+    process.exit(1);
+  });
+}

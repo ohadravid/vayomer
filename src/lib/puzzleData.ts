@@ -14,6 +14,7 @@ const QUOTES_BASE_URL = "/quotes";
 const chapterCache = new Map<string, Promise<PuzzleItem[]>>();
 
 export const PUZZLE_MANIFEST = manifest as PuzzleManifestEntry[];
+export const PUZZLE_MANIFEST_INDEX_BY_ID = new Map(PUZZLE_MANIFEST.map((entry, index) => [entry.id, index]));
 
 export async function loadPuzzleChapter(file: string): Promise<PuzzleItem[]> {
   const cached = chapterCache.get(file);

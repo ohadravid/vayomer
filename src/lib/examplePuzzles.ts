@@ -18,7 +18,8 @@ export const DEFAULT_EXAMPLE_PUZZLE: PuzzleItem | null = defaultExampleItems[0] 
 
 export const EXAMPLE_PUZZLES: PuzzleItem[] = Object.entries(exampleModules)
   .sort(([leftPath], [rightPath]) => leftPath.localeCompare(rightPath))
-  .flatMap(([, payload]) => (Array.isArray(payload.items) ? payload.items : []));
+  .flatMap(([, payload]) => (Array.isArray(payload.items) ? payload.items : []))
+  .sort((left, right) => left.id.localeCompare(right.id));
 
 export function findExamplePuzzleById(id: string | null | undefined): PuzzleItem | null {
   const trimmedId = typeof id === "string" ? id.trim() : "";
@@ -48,7 +49,7 @@ export function markExampleSeen(storage: ExampleStorage): void {
 
 export function pickDailyExamplePuzzle(date: Temporal.PlainDate = Temporal.Now.plainDateISO()): PuzzleItem | null {
   if (EXAMPLE_PUZZLES.length === 0) return DEFAULT_EXAMPLE_PUZZLE;
-  const dailyIndex = pickDailyItemIndex(EXAMPLE_PUZZLES.length, date);
+  const dailyIndex = pickDailyItemIndex(EXAMPLE_PUZZLES, date);
   return EXAMPLE_PUZZLES[dailyIndex] ?? DEFAULT_EXAMPLE_PUZZLE;
 }
 

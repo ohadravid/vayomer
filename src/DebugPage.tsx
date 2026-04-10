@@ -8,7 +8,7 @@ import { PuzzleView } from "./components/PuzzleView";
 import { resources } from "./i18n";
 import { formatDate } from "./lib/format";
 import { getLanguageDirection } from "./lib/language";
-import { PUZZLE_MANIFEST, loadPuzzleChapter } from "./lib/puzzleData";
+import { PUZZLE_MANIFEST, PUZZLE_MANIFEST_INDEX_BY_ID, loadPuzzleChapter } from "./lib/puzzleData";
 import { dayIndex, pickDailyItemIndexWithOverrides } from "./lib/daily";
 import type {
   BonusHint,
@@ -69,7 +69,16 @@ let debugQuoteItemsPromise: Promise<PuzzleItem[]> | null = null;
 async function loadAllPuzzleItems(): Promise<PuzzleItem[]> {
   const files = [...new Set(PUZZLE_MANIFEST.map((entry) => entry.file))];
   const chapters = await Promise.all(files.map((file) => loadPuzzleChapter(file)));
-  return chapters.flatMap((chapter) => chapter);
+  return chapters.flatMap((chapter) => chapter).sort((left, right) => {
+    const leftIndex = PUZZLE_MANIFEST_INDEX_BY_ID.get(left.id) ?? Number.MAX_SAFE_INTEGER;
+    const rightIndex = PUZZLE_MANIFEST_INDEX_BY_ID.get(right.id) ?? Number.MAX_SAFE_INTEGER;
+
+    if (leftIndex !== rightIndex) {
+      return leftIndex - rightIndex;
+    }
+
+    return left.id.localeCompare(right.id);
+  });
 }
 
 function DebugQuoteBrowser({ lang }: { lang: Lang }) {
