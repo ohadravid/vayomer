@@ -2,6 +2,8 @@
 
 A daily "Who said to who" game built on the Hebrew Bible (Old Testament).
 
+Play on [vayomer.io](https://vayomer.io/)!
+
 ## Source Materials
 
 Hebrew Version:
@@ -16,9 +18,9 @@ English Version:
 > Multilingual Parallel Bible Corpus. Christos Christodoulopoulos. \
 > https://hdl.handle.net/21.11113/0000-0016-9447-1
 
-Quotes were selected using Gemma3:27b.
+Quotes were selected using Gemma4:26b.
 
-Code was written (mostly) by GPT-5.3-Codex.
+Code was written (mostly) using GPT-5.3-Codex.
 
 ## Quick Start
 
@@ -32,25 +34,11 @@ task dev
 Main app: `http://localhost:5173/`  
 Debug page: `http://localhost:5173/debug`
 
-### Web checks
+### Web tests
 
 ```
 task check
 ```
-
-### Frontend tests
-
-```
-npm run test
-npm run test:e2e
-```
-
-### Quotes options loading
-
-`src/lib/puzzleData.ts` uses Vite eager globs to load
-`data/quotes_options/*.json` and `data/manual_quotes/*.json` (if present) via
-`import.meta.glob` at build time and inline the payload into the bundle.
-
 
 ## License
 

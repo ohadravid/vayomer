@@ -36,7 +36,7 @@ export const resources = {
         fontSourceName: "Taamey Frank CLM by Yoram Gnat (via Open Siddur)",
         fontLicenseNote:
           "Distributed under GNU GPL v2 with a font-embedding exception; see the bundled font license files in the repository.",
-        modelNote: "Quote were selected with Gemma3:27b, or, when marked with 👵, by Grandma Leah.",
+        modelNote: "Quote were selected with Gemma4:26b, or, when marked with 👵, by Grandma Leah.",
       },
       example: {
         kicker: "Daily Quote Puzzle",
@@ -99,7 +99,7 @@ export const resources = {
         fontSourceName: "Taamey Frank CLM מאת Yoram Gnat (דרך Open Siddur)",
         fontLicenseNote:
           "מופץ תחת GNU GPL v2 עם החרגה להטמעת פונטים במסמכים; ראו את קבצי הרישיון של הפונט המצורפים ב- repository.",
-        modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma3:27b, או, כאשר מופיע הסימון 👵, על ידי סבתא לאה.",
+        modelNote: "בחירת הציטוטים נעשתה באמצעות Gemma4:26b, או, כאשר מופיע הסימון 👵, על ידי סבתא לאה.",
       },
       example: {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
