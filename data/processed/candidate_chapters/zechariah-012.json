@@ -1,0 +1,58 @@
+{
+  "book_code": "ZEC",
+  "book": "Zechariah",
+  "book_he": "זכריה",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "zechariah-12-05-05",
+      "source": {
+        "book_code": "ZEC",
+        "book": "Zechariah",
+        "book_he": "זכריה",
+        "chapter": 12,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And the governors of Judah shall say in their heart, The inhabitants of Jerusalem shall be my strength in the LORD of hosts their God.",
+        "riddle": "The inhabitants of Jerusalem shall be my strength in the LORD of hosts their God.",
+        "speaker": "governors of Judah",
+        "listener": "themselves",
+        "book": "Zechariah"
+      },
+      "he": {
+        "quote": "וְאָֽמְרוּ אַלֻּפֵי יְהוּדָה בְּלִבָּם אַמְצָה לִי יֹשְׁבֵי יְרוּשָׁלִַם בַּיהוָה צְבָאוֹת אֱלֹהֵיהֶֽם",
+        "riddle": "אַמְצָה לִי יֹשְׁבֵי יְרוּשָׁלִַם בַּיהוָה צְבָאוֹת אֱלֹהֵיהֶֽם",
+        "speaker": "אַלֻּפֵי יְהוּדָה",
+        "listener": "עצמם",
+        "book": "זכריה"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the governors of Judah shall say in their heart, The inhabitants of Jerusalem shall be my strength in the LORD of hosts their God."
+        },
+        "he": {
+          "5": "וְאָֽמְרוּ אַלֻּפֵי יְהוּדָה בְּלִבָּם אַמְצָה לִי יֹשְׁבֵי יְרוּשָׁלִַם בַּיהוָה צְבָאוֹת אֱלֹהֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct internal speech.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 5,
+    "prefiltered_count": 0,
+    "llm_window_count": 5,
+    "kept_count": 1,
+    "issue_count": 4
+  }
+}

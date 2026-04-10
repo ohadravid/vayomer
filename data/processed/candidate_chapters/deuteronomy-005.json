@@ -1,0 +1,58 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "deuteronomy-05-30-30",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "Go say to them, Get you into your tents again.",
+        "riddle": "Get you into your tents again.",
+        "speaker": "God",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם",
+        "riddle": "שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם",
+        "speaker": "אלוהים",
+        "listener": "משה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "Go say to them, Get you into your tents again."
+        },
+        "he": {
+          "30": "לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct command with clear speaker/listener",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 30,
+        "end": 30
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 21,
+    "prefiltered_count": 0,
+    "llm_window_count": 21,
+    "kept_count": 1,
+    "issue_count": 20
+  }
+}

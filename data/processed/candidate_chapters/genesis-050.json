@@ -1,0 +1,60 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 50,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-50-19-20",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 19,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And Joseph said unto them, Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+        "riddle": "for am I in the place of God?",
+        "speaker": "Joseph",
+        "listener": "brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
+        "riddle": "הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ",
+        "speaker": "יוֹסֵף",
+        "listener": "אחים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joseph said unto them, Fear not: for am I in the place of God?",
+          "20": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי׃",
+          "20": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable rhetorical question and declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 19,
+        "end": 20
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 1,
+    "issue_count": 19
+  }
+}

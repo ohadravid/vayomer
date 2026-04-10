@@ -1,0 +1,85 @@
+{
+  "book_code": "ZEC",
+  "book": "Zechariah",
+  "book_he": "זכריה",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "zechariah-03-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "ZEC",
+        "book": "Zechariah",
+        "book_he": "זכריה",
+        "chapter": 3,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And the angel of the LORD protested unto Joshua, saying, Thus saith the LORD of hosts; If thou wilt walk in my ways, and if thou wilt keep my charge, then thou shalt also judge my house, and shalt also keep my courts, and I will give thee places to walk among these that stand by.",
+        "riddle": "and I will give thee places to walk among these that stand by.",
+        "speaker": "LORD of hosts",
+        "listener": "Joshua",
+        "book": "Zechariah",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "ways",
+        "bonus_hint": {
+          "quote": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 3,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּעַד מַלְאַךְ יְהוָה בִּיהוֹשֻׁעַ לֵאמֹֽר כֹּה־אָמַר יְהוָה צְבָאוֹת אִם־בִּדְרָכַי תֵּלֵךְ וְאִם אֶת־מִשְׁמַרְתִּי תִשְׁמֹר וְגַם־אַתָּה תָּדִין אֶת־בֵּיתִי וְגַם תִּשְׁמֹר אֶת־חֲצֵרָי וְנָתַתִּי לְךָ מַהְלְכִים בֵּין הָעֹמְדִים הָאֵֽלֶּה",
+        "riddle": "מַהְלְכִים בֵּין הָעֹמְדִים הָאֵֽלֶּה",
+        "speaker": "יְהוָה צְבָאוֹת",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "זכריה",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בִּדְרָכַי",
+        "bonus_hint": {
+          "quote": "וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 3,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the angel of the LORD protested unto Joshua, saying,",
+          "7": "Thus saith the LORD of hosts; If thou wilt walk in my ways, and if thou wilt keep my charge, then thou shalt also judge my house, and shalt also keep my courts, and I will give thee places to walk among these that stand by."
+        },
+        "he": {
+          "6": "וַיָּעַד מַלְאַךְ יְהוָה בִּיהוֹשֻׁעַ לֵאמֹֽר׃",
+          "7": "כֹּה־אָמַר יְהוָה צְבָאוֹת אִם־בִּדְרָכַי תֵּלֵךְ וְאִם אֶת־מִשְׁמַרְתִּי תִשְׁמֹר וְגַם־אַתָּה תָּדִין אֶת־בֵּיתִי וְגַם תִּשְׁמֹר אֶת־חֲצֵרָי וְנָתַתִּי לְךָ מַהְלְכִים בֵּין הָעֹמְדִים הָאֵֽלֶּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

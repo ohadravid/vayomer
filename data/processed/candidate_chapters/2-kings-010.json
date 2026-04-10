@@ -1,0 +1,100 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-10-04-04",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "But they were exceedingly afraid, and said, Behold, two kings stood not before him: how then shall we stand?",
+        "riddle": "how then shall we stand?",
+        "speaker": "servants",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּֽרְאוּ מְאֹד מְאֹד וַיֹּאמְרוּ הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנוּ",
+        "riddle": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנוּ",
+        "speaker": "עבדים",
+        "listener": "עבדים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "But they were exceedingly afraid, and said, Behold, two kings stood not before him: how then shall we stand?"
+        },
+        "he": {
+          "4": "וַיִּֽרְאוּ מְאֹד מְאֹד וַיֹּאמְרוּ הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable question and direct speech.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-kings-10-13-13",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Jehu met with the brethren of Ahaziah king of Judah, and said, Who are ye? And they answered, We are the brethren of Ahaziah; and we go down to salute the children of the king and the children of the queen.",
+        "riddle": "Who are ye?",
+        "speaker": "Jehu",
+        "listener": "brethren of Ahaziah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְיֵהוּא מָצָא אֶת־אֲחֵי אֲחַזְיָהוּ מֶֽלֶךְ־יְהוּדָה וַיֹּאמֶר מִי אַתֶּם וַיֹּאמְרוּ אֲחֵי אֲחַזְיָהוּ אֲנַחְנוּ וַנֵּרֶד לִשְׁלוֹם בְּנֵֽי־הַמֶּלֶךְ וּבְנֵי הַגְּבִירָֽה",
+        "riddle": "מִי אַתֶּם",
+        "speaker": "יֵהוּא",
+        "listener": "אֲחֵי אֲחַזְיָהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Jehu met with the brethren of Ahaziah king of Judah, and said, Who are ye? And they answered, We are the brethren of Ahaziah; and we go down to salute the children of the king and the children of the queen."
+        },
+        "he": {
+          "13": "וְיֵהוּא מָצָא אֶת־אֲחֵי אֲחַזְיָהוּ מֶֽלֶךְ־יְהוּדָה וַיֹּאמֶר מִי אַתֶּם וַיֹּאמְרוּ אֲחֵי אֲחַזְיָהוּ אֲנַחְנוּ וַנֵּרֶד לִשְׁלוֹם בְּנֵֽי־הַמֶּלֶךְ וּבְנֵי הַגְּבִירָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 13,
+        "end": 13
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 28,
+    "prefiltered_count": 0,
+    "llm_window_count": 28,
+    "kept_count": 2,
+    "issue_count": 26
+  }
+}

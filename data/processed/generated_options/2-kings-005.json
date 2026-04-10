@@ -1,0 +1,105 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-05-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honourable, because by him the LORD had given deliverance unto Syria: he was also a mighty man in valour, but he was a leper. And the Syrians had gone out by companies, and had brought away captive out of the land of Israel a little maid; and she waited on Naaman's wife. And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy. And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel.",
+        "riddle": "Thus and thus said the maid that is of the land of Israel.",
+        "speaker": "messenger",
+        "listener": "Naaman",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Isaiah",
+            "Elijah",
+            "Jehu"
+          ],
+          "listener": [
+            "Jeroboam's wife",
+            "Isaiah",
+            "Philistines"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וְנַעֲמָן שַׂר־צְבָא מֶֽלֶךְ־אֲרָם הָיָה אִישׁ גָּדוֹל לִפְנֵי אֲדֹנָיו וּנְשֻׂא פָנִים כִּֽי־בוֹ נָֽתַן־יְהוָה תְּשׁוּעָה לַאֲרָם וְהָאִישׁ הָיָה גִּבּוֹר חַיִל מְצֹרָֽע וַאֲרָם יָצְאוּ גְדוּדִים וַיִּשְׁבּוּ מֵאֶרֶץ יִשְׂרָאֵל נַעֲרָה קְטַנָּה וַתְּהִי לִפְנֵי אֵשֶׁת נַעֲמָֽן וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
+        "riddle": "כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
+        "speaker": "השליח",
+        "listener": "נַעֲמָֽן",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "יְשַֽׁעְיָהוּ",
+            "אֵלֶיהָ",
+            "יֵהוּא"
+          ],
+          "listener": [
+            "אֵשֶׁת יָרָבְעָם",
+            "יְשַֽׁעְיָהוּ",
+            "פְּלִשְׁתִּֽים"
+          ]
+        },
+        "bonus": "מֶֽלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיְהִי בִּימֵי אַמְרָפֶל מֶֽלֶךְ־שִׁנְעָר אַרְיוֹךְ מֶלֶךְ אֶלָּסָר כְּדָרְלָעֹמֶר מֶלֶךְ עֵילָם וְתִדְעָל מֶלֶךְ גּוֹיִֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 14,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honourable, because by him the LORD had given deliverance unto Syria: he was also a mighty man in valour, but he was a leper.",
+          "2": "And the Syrians had gone out by companies, and had brought away captive out of the land of Israel a little maid; and she waited on Naaman's wife.",
+          "3": "And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.",
+          "4": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel."
+        },
+        "he": {
+          "1": "וְנַעֲמָן שַׂר־צְבָא מֶֽלֶךְ־אֲרָם הָיָה אִישׁ גָּדוֹל לִפְנֵי אֲדֹנָיו וּנְשֻׂא פָנִים כִּֽי־בוֹ נָֽתַן־יְהוָה תְּשׁוּעָה לַאֲרָם וְהָאִישׁ הָיָה גִּבּוֹר חַיִל מְצֹרָֽע׃",
+          "2": "וַאֲרָם יָצְאוּ גְדוּדִים וַיִּשְׁבּוּ מֵאֶרֶץ יִשְׂרָאֵל נַעֲרָה קְטַנָּה וַתְּהִי לִפְנֵי אֵשֶׁת נַעֲמָֽן׃",
+          "3": "וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ׃",
+          "4": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

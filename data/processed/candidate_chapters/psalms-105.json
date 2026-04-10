@@ -1,0 +1,102 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 105,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-105-34-34",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 105,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34
+      },
+      "en": {
+        "quote": "He spake, and the locusts came, and caterpillers, and that without number,",
+        "riddle": "He spake, and the locusts came, and caterpillers",
+        "speaker": "God",
+        "listener": "locusts",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק וְאֵין מִסְפָּֽר",
+        "riddle": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק",
+        "speaker": "אלוהים",
+        "listener": "אַרְבֶּה",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "He spake, and the locusts came, and caterpillers, and that without number,"
+        },
+        "he": {
+          "34": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק וְאֵין מִסְפָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid command and its effect",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 105,
+        "start": 34,
+        "end": 34
+      }
+    },
+    {
+      "id": "psalms-105-34-35",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 105,
+        "quote_verse_start": 34,
+        "quote_verse_end": 35
+      },
+      "en": {
+        "quote": "He spake, and the locusts came, and caterpillers, and that without number, And did eat up all the herbs in their land, and devoured the fruit of their ground.",
+        "riddle": "He spake, and the locusts came, and caterpillers",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק וְאֵין מִסְפָּֽר וַיֹּאכַל כָּל־עֵשֶׂב בְּאַרְצָם וַיֹּאכַל פְּרִי אַדְמָתָֽם",
+        "riddle": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק וְאֵין מִסְפָּֽר וַיֹּאכַל",
+        "speaker": "אלוהים",
+        "listener": "ישראל",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "He spake, and the locusts came, and caterpillers, and that without number,",
+          "35": "And did eat up all the herbs in their land, and devoured the fruit of their ground."
+        },
+        "he": {
+          "34": "אָמַר וַיָּבֹא אַרְבֶּה וְיֶלֶק וְאֵין מִסְפָּֽר׃",
+          "35": "וַיֹּאכַל כָּל־עֵשֶׂב בְּאַרְצָם וַיֹּאכַל פְּרִי אַדְמָתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains vivid direct speech action",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 105,
+        "start": 34,
+        "end": 35
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 13,
+    "prefiltered_count": 0,
+    "llm_window_count": 13,
+    "kept_count": 2,
+    "issue_count": 11
+  }
+}

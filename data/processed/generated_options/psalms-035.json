@@ -1,0 +1,105 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 35,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-35-03-04",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 35,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Plead my cause, O LORD, with them that strive with me: fight against them that fight against me. Take hold of shield and buckler, and stand up for mine help. Draw out also the spear, and stop the way against them that persecute me: say unto my soul, I am thy salvation. Let them be confounded and put to shame that seek after my soul: let them be turned back and brought to confusion that devise my hurt.",
+        "riddle": "Draw out also the spear, and stop the way against them",
+        "speaker": "Psalmist",
+        "listener": "God",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Solomon",
+            "Isaiah",
+            "Joab"
+          ],
+          "listener": [
+            "Joab",
+            "Solomon",
+            "Sanballat"
+          ]
+        },
+        "bonus": "shield",
+        "bonus_hint": {
+          "quote": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 15,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "לְדָוִד רִיבָה יְהוָה אֶת־יְרִיבַי לְחַם אֶת־לֹֽחֲמָֽי הַחֲזֵק מָגֵן וְצִנָּה וְקוּמָה בְּעֶזְרָתִֽי וְהָרֵק חֲנִית וּסְגֹר לִקְרַאת רֹדְפָי אֱמֹר לְנַפְשִׁי יְֽשֻׁעָתֵךְ אָֽנִי יֵבֹשׁוּ וְיִכָּלְמוּ מְבַקְשֵׁי נַפְשִׁי יִסֹּגוּ אָחוֹר וְיַחְפְּרוּ חֹשְׁבֵי רָעָתִֽי",
+        "riddle": "וְהָרֵק חֲנִית וּסְגֹר לִקְרַאת רֹדְפָי אֱמֹר לְנַפְשִׁי יְֽשֻׁעָתֵךְ אָֽנִי",
+        "speaker": "דָוִד",
+        "listener": "יְהוָה",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "שְׁלֵמָה",
+            "יְשַֽׁעְיָהוּ",
+            "יוֹאָב"
+          ],
+          "listener": [
+            "יוֹאָב",
+            "שְׁלֵמָה",
+            "סַנְבַלַּט"
+          ]
+        },
+        "bonus": "מָגֵן",
+        "bonus_hint": {
+          "quote": "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 15,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Plead my cause, O LORD, with them that strive with me: fight against them that fight against me.",
+          "2": "Take hold of shield and buckler, and stand up for mine help.",
+          "3": "Draw out also the spear, and stop the way against them that persecute me: say unto my soul, I am thy salvation.",
+          "4": "Let them be confounded and put to shame that seek after my soul: let them be turned back and brought to confusion that devise my hurt."
+        },
+        "he": {
+          "1": "לְדָוִד ׀ רִיבָה יְהוָה אֶת־יְרִיבַי לְחַם אֶת־לֹֽחֲמָֽי׃",
+          "2": "הַחֲזֵק מָגֵן וְצִנָּה וְקוּמָה בְּעֶזְרָתִֽי׃",
+          "3": "וְהָרֵק חֲנִית וּסְגֹר לִקְרַאת רֹדְפָי אֱמֹר לְנַפְשִׁי יְֽשֻׁעָתֵךְ אָֽנִי׃",
+          "4": "יֵבֹשׁוּ וְיִכָּלְמוּ מְבַקְשֵׁי נַפְשִׁי יִסֹּגוּ אָחוֹר וְיַחְפְּרוּ חֹשְׁבֵי רָעָתִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 35,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

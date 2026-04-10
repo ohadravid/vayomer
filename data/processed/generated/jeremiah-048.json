@@ -1,0 +1,85 @@
+{
+  "book_code": "JER",
+  "book": "Jeremiah",
+  "book_he": "ירמיהו",
+  "chapter": 48,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "jeremiah-48-43-43",
+      "source": {
+        "method": "llm",
+        "book_code": "JER",
+        "book": "Jeremiah",
+        "book_he": "ירמיהו",
+        "chapter": 48,
+        "quote_verse_start": 43,
+        "quote_verse_end": 44
+      },
+      "en": {
+        "quote": "Fear, and the pit, and the snare, shall be upon thee, O inhabitant of Moab, saith the LORD. He that fleeth from the fear shall fall into the pit; and he that getteth up out of the pit shall be taken in the snare: for I will bring upon it, even upon Moab, the year of their visitation, saith the LORD.",
+        "riddle": "Fear, and the pit, and the snare, shall be upon thee",
+        "speaker": "LORD",
+        "listener": "inhabitant of Moab",
+        "book": "Jeremiah",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "fall",
+        "bonus_hint": {
+          "quote": "And upon whatsoever any of them, when they are dead, doth fall, it shall be unclean; whether it be any vessel of wood, or raiment, or skin, or sack, whatsoever vessel it be, wherein any work is done, it must be put into water, and it shall be unclean until the even; so it shall be cleansed.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 11,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "he": {
+        "quote": "פַּחַד וָפַחַת וָפָח עָלֶיךָ יוֹשֵׁב מוֹאָב נְאֻם־יְהוָֽה הַנָּס מִפְּנֵי הַפַּחַד יִפֹּל אֶל־הַפַּחַת וְהָֽעֹלֶה מִן־הַפַּחַת יִלָּכֵד בַּפָּח כִּֽי־אָבִיא אֵלֶיהָ אֶל־מוֹאָב שְׁנַת פְּקֻדָּתָם נְאֻם־יְהוָֽה",
+        "riddle": "פַּחַד וָפַחַת וָפָח עָלֶיךָ",
+        "speaker": "יְהוָֽה",
+        "listener": "יוֹשֵׁב מוֹאָב",
+        "book": "ירמיהו",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יִפֹּל",
+        "bonus_hint": {
+          "quote": "וְכֹל אֲשֶׁר־יִפֹּל־עָלָיו מֵהֶם בְּמֹתָם יִטְמָא מִכָּל־כְּלִי־עֵץ אוֹ בֶגֶד אוֹ־עוֹר אוֹ שָׂק כָּל־כְּלִי אֲשֶׁר־יֵעָשֶׂה מְלָאכָה בָּהֶם בַּמַּיִם יוּבָא וְטָמֵא עַד־הָעֶרֶב וְטָהֵֽר",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 11,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "Fear, and the pit, and the snare, shall be upon thee, O inhabitant of Moab, saith the LORD.",
+          "44": "He that fleeth from the fear shall fall into the pit; and he that getteth up out of the pit shall be taken in the snare: for I will bring upon it, even upon Moab, the year of their visitation, saith the LORD."
+        },
+        "he": {
+          "43": "פַּחַד וָפַחַת וָפָח עָלֶיךָ יוֹשֵׁב מוֹאָב נְאֻם־יְהוָֽה׃",
+          "44": "הַנָּס מִפְּנֵי הַפַּחַד יִפֹּל אֶל־הַפַּחַת וְהָֽעֹלֶה מִן־הַפַּחַת יִלָּכֵד בַּפָּח כִּֽי־אָבִיא אֵלֶיהָ אֶל־מוֹאָב שְׁנַת פְּקֻדָּתָם נְאֻם־יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 43,
+        "end": 44
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

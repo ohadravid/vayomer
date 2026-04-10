@@ -1,0 +1,85 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-10-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance? When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
+        "riddle": "What shall I do for my son?",
+        "speaker": "Saul's father",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "oil",
+        "bonus_hint": {
+          "quote": "And spice, and oil for the light, and for the anointing oil, and for the sweet incense.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 35,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
+        "riddle": "מָה אֶעֱשֶׂה לִבְנִֽי",
+        "speaker": "אבי שאול",
+        "listener": "שאול",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַשֶּׁמֶן",
+        "bonus_hint": {
+          "quote": "וְאֶת־הַבֹּשֶׂם וְאֶת־הַשָּׁמֶן לְמָאוֹר וּלְשֶׁמֶן הַמִּשְׁחָה וְלִקְטֹרֶת הַסַּמִּֽים",
+          "source": {
+            "book": "שמות",
+            "chapter": 35,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?",
+          "2": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?"
+        },
+        "he": {
+          "1": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד׃",
+          "2": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

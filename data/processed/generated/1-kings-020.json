@@ -1,0 +1,85 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-20-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And, behold, there came a prophet unto Ahab king of Israel, saying, Thus saith the LORD, Hast thou seen all this great multitude? behold, I will deliver it in to thine hand this day; and thou shalt know that I am the LORD. And Ahab said, By whom? And he said, Thus saith the LORD, Even by the young men of the princes of the provinces. Then he said, Who shall order the battle? And he answered, Thou.",
+        "riddle": "Who shall order the battle?",
+        "speaker": "Ahab",
+        "listener": "Prophet",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהִנֵּה נָבִיא אֶחָד נִגַּשׁ אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כֹּה אָמַר יְהוָה הְֽרָאִיתָ אֵת כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה הִנְנִי נֹתְנוֹ בְיָֽדְךָ הַיּוֹם וְיָדַעְתָּ כִּֽי־אֲנִי יְהוָֽה וַיֹּאמֶר אַחְאָב בְּמִי וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּנַעֲרֵי שָׂרֵי הַמְּדִינוֹת וַיֹּאמֶר מִֽי־יֶאְסֹר הַמִּלְחָמָה וַיֹּאמֶר אָֽתָּה",
+        "riddle": "מִֽי־יֶאְסֹר הַמִּלְחָמָה",
+        "speaker": "אַחְאָב",
+        "listener": "נָבִיא",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מֶֽלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיְהִי בִּימֵי אַמְרָפֶל מֶֽלֶךְ־שִׁנְעָר אַרְיוֹךְ מֶלֶךְ אֶלָּסָר כְּדָרְלָעֹמֶר מֶלֶךְ עֵילָם וְתִדְעָל מֶלֶךְ גּוֹיִֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 14,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And, behold, there came a prophet unto Ahab king of Israel, saying, Thus saith the LORD, Hast thou seen all this great multitude? behold, I will deliver it in to thine hand this day; and thou shalt know that I am the LORD.",
+          "14": "And Ahab said, By whom? And he said, Thus saith the LORD, Even by the young men of the princes of the provinces. Then he said, Who shall order the battle? And he answered, Thou."
+        },
+        "he": {
+          "13": "וְהִנֵּה ׀ נָבִיא אֶחָד נִגַּשׁ אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כֹּה אָמַר יְהוָה הְֽרָאִיתָ אֵת כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה הִנְנִי נֹתְנוֹ בְיָֽדְךָ הַיּוֹם וְיָדַעְתָּ כִּֽי־אֲנִי יְהוָֽה׃",
+          "14": "וַיֹּאמֶר אַחְאָב בְּמִי וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּנַעֲרֵי שָׂרֵי הַמְּדִינוֹת וַיֹּאמֶר מִֽי־יֶאְסֹר הַמִּלְחָמָה וַיֹּאמֶר אָֽתָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 33,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-33-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And he lifted up his eyes, and saw the women and the children; and said, Who are those with thee? And he said, The children which God hath graciously given thy servant.",
+        "riddle": "Who are those with thee?",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא אֶת־עֵינָיו וַיַּרְא אֶת־הַנָּשִׁים וְאֶת־הַיְלָדִים וַיֹּאמֶר מִי־אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר־חָנַן אֱלֹהִים אֶת־עַבְדֶּֽךָ",
+        "riddle": "מִי־אֵלֶּה לָּךְ",
+        "speaker": "יעקב",
+        "listener": "עשו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he lifted up his eyes, and saw the women and the children; and said, Who are those with thee? And he said, The children which God hath graciously given thy servant."
+        },
+        "he": {
+          "5": "וַיִּשָּׂא אֶת־עֵינָיו וַיַּרְא אֶת־הַנָּשִׁים וְאֶת־הַיְלָדִים וַיֹּאמֶר מִי־אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר־חָנַן אֱלֹהִים אֶת־עַבְדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 14,
+    "prefiltered_count": 0,
+    "llm_window_count": 14,
+    "kept_count": 1,
+    "issue_count": 13
+  }
+}

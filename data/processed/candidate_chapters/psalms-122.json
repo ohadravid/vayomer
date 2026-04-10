@@ -1,0 +1,102 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 122,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-122-06-07",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 122,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Pray for the peace of Jerusalem: they shall prosper that love thee. Peace be within thy walls, and prosperity within thy palaces.",
+        "riddle": "Pray for the peace of Jerusalem: they shall prosper",
+        "speaker": "Psalmist",
+        "listener": "People",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "שַׁאֲלוּ שְׁלוֹם יְרוּשָׁלִָם יִשְׁלָיוּ אֹהֲבָֽיִךְ יְהִֽי־שָׁלוֹם בְּחֵילֵךְ שַׁלְוָה בְּאַרְמְנוֹתָֽיִךְ",
+        "riddle": "שַׁאֲלוּ שְׁלוֹם יְרוּשָׁלִָם יִשְׁלָיוּ אֹהֲבָֽיִךְ",
+        "speaker": "משורר",
+        "listener": "עמים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Pray for the peace of Jerusalem: they shall prosper that love thee.",
+          "7": "Peace be within thy walls, and prosperity within thy palaces."
+        },
+        "he": {
+          "6": "שַׁאֲלוּ שְׁלוֹם יְרוּשָׁלִָם יִשְׁלָיוּ אֹהֲבָֽיִךְ׃",
+          "7": "יְהִֽי־שָׁלוֹם בְּחֵילֵךְ שַׁלְוָה בְּאַרְמְנוֹתָֽיִךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable command and promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 122,
+        "start": 6,
+        "end": 7
+      }
+    },
+    {
+      "id": "psalms-122-08-08",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 122,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "For my brethren and companions' sakes, I will now say, Peace be within thee.",
+        "riddle": "Peace be within thee.",
+        "speaker": "Psalmist",
+        "listener": "Jerusalem",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "לְמַעַן אַחַי וְרֵעָי אֲדַבְּרָה־נָּא שָׁלוֹם בָּֽךְ",
+        "riddle": "אֲדַבְּרָה־נָּא שָׁלוֹם בָּֽךְ",
+        "speaker": "משורר",
+        "listener": "ירושלים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "For my brethren and companions' sakes, I will now say, Peace be within thee."
+        },
+        "he": {
+          "8": "לְמַעַן אַחַי וְרֵעָי אֲדַבְּרָה־נָּא שָׁלוֹם בָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct blessing.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 122,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 6,
+    "prefiltered_count": 0,
+    "llm_window_count": 6,
+    "kept_count": 2,
+    "issue_count": 4
+  }
+}

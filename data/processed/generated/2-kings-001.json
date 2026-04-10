@@ -1,0 +1,161 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-01-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Now therefore thus saith the LORD, Thou shalt not come down from that bed on which thou art gone up, but shalt surely die. And Elijah departed. And when the messengers turned back unto him, he said unto them, Why are ye now turned back?",
+        "riddle": "Why are ye now turned back?",
+        "speaker": "Elijah",
+        "listener": "Messengers",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "die",
+        "bonus_hint": {
+          "quote": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלָכֵן כֹּֽה־אָמַר יְהוָה הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּי מוֹת תָּמוּת וַיֵּלֶךְ אֵלִיָּֽה וַיָּשׁוּבוּ הַמַּלְאָכִים אֵלָיו וַיֹּאמֶר אֲלֵיהֶם מַה־זֶּה שַׁבְתֶּֽם",
+        "riddle": "מַה־זֶּה שַׁבְתֶּֽם",
+        "speaker": "אֵלִיָּֽה",
+        "listener": "הַמַּלְאָכִים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "תָּמוּת",
+        "bonus_hint": {
+          "quote": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Now therefore thus saith the LORD, Thou shalt not come down from that bed on which thou art gone up, but shalt surely die. And Elijah departed.",
+          "5": "And when the messengers turned back unto him, he said unto them, Why are ye now turned back?"
+        },
+        "he": {
+          "4": "וְלָכֵן כֹּֽה־אָמַר יְהוָה הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּי מוֹת תָּמוּת וַיֵּלֶךְ אֵלִיָּֽה׃",
+          "5": "וַיָּשׁוּבוּ הַמַּלְאָכִים אֵלָיו וַיֹּאמֶר אֲלֵיהֶם מַה־זֶּה שַׁבְתֶּֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-01-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty. Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly.",
+        "riddle": "Come down quickly.",
+        "speaker": "Captain of fifty",
+        "listener": "Man of God",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "fire",
+        "bonus_hint": {
+          "quote": "And the angel of the LORD appeared unto him in a flame of fire out of the midst of a bush: and he looked, and, behold, the bush burned with fire, and the bush was not consumed.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעֲנֶה אֵלִיָּהוּ וַיְדַבֵּר אֶל־שַׂר הַחֲמִשִּׁים וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו וַיָּשָׁב וַיִּשְׁלַח אֵלָיו שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה",
+        "riddle": "מְהֵרָה רֵֽדָה",
+        "speaker": "שַׂר־חֲמִשִּׁים",
+        "listener": "אִישׁ הָאֱלֹהִים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֵשׁ",
+        "bonus_hint": {
+          "quote": "וַיֵּרָא מַלְאַךְ יְהֹוָה אֵלָיו בְּלַבַּת־אֵשׁ מִתּוֹךְ הַסְּנֶה וַיַּרְא וְהִנֵּה הַסְּנֶה בֹּעֵר בָּאֵשׁ וְהַסְּנֶה אֵינֶנּוּ אֻכָּֽל",
+          "source": {
+            "book": "שמות",
+            "chapter": 3,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty.",
+          "11": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly."
+        },
+        "he": {
+          "10": "וַיַּעֲנֶה אֵלִיָּהוּ וַיְדַבֵּר אֶל־שַׂר הַחֲמִשִּׁים וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו׃",
+          "11": "וַיָּשָׁב וַיִּשְׁלַח אֵלָיו שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

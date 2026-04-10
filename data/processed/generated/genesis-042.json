@@ -1,0 +1,83 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 42,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-42-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 42,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why do ye look one upon another?",
+        "riddle": "Why do ye look one upon another?",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Egypt",
+        "bonus_hint": {
+          "quote": "And ye shall tell my father of all my glory in Egypt, and of all that ye have seen; and ye shall haste and bring down my father hither.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 45,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא יַעֲקֹב כִּי יֶשׁ־שֶׁבֶר בְּמִצְרָיִם וַיֹּאמֶר יַעֲקֹב לְבָנָיו לָמָּה תִּתְרָאֽוּ",
+        "riddle": "לָמָּה תִּתְרָאֽוּ",
+        "speaker": "יַעֲקֹב",
+        "listener": "בָנָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּמִצְרָיִם",
+        "bonus_hint": {
+          "quote": "וְהִגַּדְתֶּם לְאָבִי אֶת־כָּל־כְּבוֹדִי בְּמִצְרַיִם וְאֵת כָּל־אֲשֶׁר רְאִיתֶם וּמִֽהַרְתֶּם וְהוֹרַדְתֶּם אֶת־אָבִי הֵֽנָּה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 45,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now when Jacob saw that there was corn in Egypt, Jacob said unto his sons, Why do ye look one upon another?"
+        },
+        "he": {
+          "1": "וַיַּרְא יַעֲקֹב כִּי יֶשׁ־שֶׁבֶר בְּמִצְרָיִם וַיֹּאמֶר יַעֲקֹב לְבָנָיו לָמָּה תִּתְרָאֽוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 42,
+        "start": 1,
+        "end": 1
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "2CH",
+  "book": "2 Chronicles",
+  "book_he": "דברי הימים ב",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-chronicles-10-05-05",
+      "source": {
+        "book_code": "2CH",
+        "book": "2 Chronicles",
+        "book_he": "דברי הימים ב",
+        "chapter": 10,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And he said unto them, Come again unto me after three days. And the people departed.",
+        "riddle": "Come again unto me after three days. And the people departed.",
+        "speaker": "Rehoboam",
+        "listener": "The people",
+        "book": "2 Chronicles"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם",
+        "speaker": "רחבעם",
+        "listener": "הָעָֽם",
+        "book": "דברי הימים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he said unto them, Come again unto me after three days. And the people departed."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר אֲלֵהֶם עוֹד שְׁלֹשֶׁת יָמִים וְשׁוּבוּ אֵלָי וַיֵּלֶךְ הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct command and outcome.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 15,
+    "prefiltered_count": 0,
+    "llm_window_count": 15,
+    "kept_count": 1,
+    "issue_count": 14
+  }
+}

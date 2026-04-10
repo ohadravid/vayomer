@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 39,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-39-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out.",
+        "riddle": "caught him by his garment, saying, Lie with me",
+        "speaker": "Potiphar's wife",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה",
+        "riddle": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי",
+        "speaker": "אשת פוטיפר",
+        "listener": "יוסף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out."
+        },
+        "he": {
+          "12": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 14,
+    "prefiltered_count": 0,
+    "llm_window_count": 14,
+    "kept_count": 1,
+    "issue_count": 13
+  }
+}

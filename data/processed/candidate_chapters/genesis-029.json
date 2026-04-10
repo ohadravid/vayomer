@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 29,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-29-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
+        "riddle": "what shall thy wages be?",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "riddle": "מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and speech.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 22,
+    "prefiltered_count": 0,
+    "llm_window_count": 22,
+    "kept_count": 1,
+    "issue_count": 21
+  }
+}

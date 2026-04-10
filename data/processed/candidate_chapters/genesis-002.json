@@ -1,0 +1,60 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-02-23-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 23,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man. Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+        "riddle": "And Adam said, This is now bone of my bones",
+        "speaker": "Adam",
+        "listener": "Eve",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+        "riddle": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת",
+        "speaker": "אדם",
+        "listener": "חוה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+          "24": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת׃",
+          "24": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable declaration of identity",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 23,
+        "end": 24
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 8,
+    "prefiltered_count": 0,
+    "llm_window_count": 8,
+    "kept_count": 1,
+    "issue_count": 7
+  }
+}

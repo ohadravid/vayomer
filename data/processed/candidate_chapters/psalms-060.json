@@ -1,0 +1,58 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 60,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-60-09-09",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 60,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Who will bring me into the strong city? who will lead me into Edom?",
+        "riddle": "Who will bring me into the strong city? who will lead me into Edom?",
+        "speaker": "Speaker",
+        "listener": "God",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "לִי גִלְעָד וְלִי מְנַשֶּׁה וְאֶפְרַיִם מָעוֹז רֹאשִׁי יְהוּדָה מְחֹֽקְקִי",
+        "riddle": "לִי גִלְעָד וְלִי מְנַשֶּׁה וְאֶפְרַיִם מָעוֹז רֹאשִׁי יְהוּדָה מְחֹֽקְקִי",
+        "speaker": "דובר",
+        "listener": "אלוהים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Who will bring me into the strong city? who will lead me into Edom?"
+        },
+        "he": {
+          "9": "לִי גִלְעָד ׀ וְלִי מְנַשֶּׁה וְאֶפְרַיִם מָעוֹז רֹאשִׁי יְהוּדָה מְחֹֽקְקִי׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct questions",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 60,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 3,
+    "prefiltered_count": 0,
+    "llm_window_count": 3,
+    "kept_count": 1,
+    "issue_count": 2
+  }
+}

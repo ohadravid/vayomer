@@ -1,0 +1,60 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-03-17-18",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 17,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house. And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house.",
+        "riddle": "And the one woman said, O my lord, I",
+        "speaker": "woman",
+        "listener": "Solomon",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי לְלִדְתִּי וַתֵּלֶד גַּם־הָאִשָּׁה הַזֹּאת וַאֲנַחְנוּ יַחְדָּו אֵֽין־זָר אִתָּנוּ בַּבַּיִת זוּלָתִי שְׁתַּֽיִם־אֲנַחְנוּ בַּבָּֽיִת",
+        "riddle": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת",
+        "speaker": "אִשָּׁה",
+        "listener": "שלמה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house.",
+          "18": "And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house."
+        },
+        "he": {
+          "17": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת׃",
+          "18": "וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי לְלִדְתִּי וַתֵּלֶד גַּם־הָאִשָּׁה הַזֹּאת וַאֲנַחְנוּ יַחְדָּו אֵֽין־זָר אִתָּנוּ בַּבַּיִת זוּלָתִי שְׁתַּֽיִם־אֲנַחְנוּ בַּבָּֽיִת׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct address and speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 17,
+        "end": 18
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 18,
+    "prefiltered_count": 0,
+    "llm_window_count": 18,
+    "kept_count": 1,
+    "issue_count": 17
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "PRO",
+  "book": "Proverbs",
+  "book_he": "משלי",
+  "chapter": 24,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "proverbs-24-24-24",
+      "source": {
+        "book_code": "PRO",
+        "book": "Proverbs",
+        "book_he": "משלי",
+        "chapter": 24,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "He that saith unto the wicked, Thou are righteous; him shall the people curse, nations shall abhor him:",
+        "riddle": "He that saith unto the wicked, Thou are righteous",
+        "speaker": "Speaker",
+        "listener": "Wicked person",
+        "book": "Proverbs"
+      },
+      "he": {
+        "quote": "אֹמֵר לְרָשָׁע צַדִּיק אָתָּה יִקְּבֻהוּ עַמִּים יִזְעָמוּהוּ לְאֻמִּֽים",
+        "riddle": "אֹמֵר לְרָשָׁע צַדִּיק אָתָּה",
+        "speaker": "דובר",
+        "listener": "רָשָׁע",
+        "book": "משלי"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "He that saith unto the wicked, Thou are righteous; him shall the people curse, nations shall abhor him:"
+        },
+        "he": {
+          "24": "אֹמֵר ׀ לְרָשָׁע צַדִּיק אָתָּה יִקְּבֻהוּ עַמִּים יִזְעָמוּהוּ לְאֻמִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech/declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 10,
+    "prefiltered_count": 0,
+    "llm_window_count": 10,
+    "kept_count": 1,
+    "issue_count": 9
+  }
+}

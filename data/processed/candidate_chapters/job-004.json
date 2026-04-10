@@ -1,0 +1,100 @@
+{
+  "book_code": "JOB",
+  "book": "Job",
+  "book_he": "איוב",
+  "chapter": 4,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "job-04-02-02",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 4,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "If we assay to commune with thee, wilt thou be grieved? but who can withhold himself from speaking?",
+        "riddle": "wilt thou be grieved? but who can withhold himself from speaking?",
+        "speaker": "Eliphaz",
+        "listener": "Job",
+        "book": "Job"
+      },
+      "he": {
+        "quote": "הֲנִסָּה דָבָר אֵלֶיךָ תִּלְאֶה וַעְצֹר בְּמִלִּין מִי יוּכָֽל",
+        "riddle": "תִּלְאֶה וַעְצֹר בְּמִלִּין מִי יוּכָֽל",
+        "speaker": "אליפת",
+        "listener": "איוב",
+        "book": "איוב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "If we assay to commune with thee, wilt thou be grieved? but who can withhold himself from speaking?"
+        },
+        "he": {
+          "2": "הֲנִסָּה דָבָר אֵלֶיךָ תִּלְאֶה וַעְצֹר בְּמִלִּין מִי יוּכָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable rhetorical question.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "job-04-21-21",
+      "source": {
+        "book_code": "JOB",
+        "book": "Job",
+        "book_he": "איוב",
+        "chapter": 4,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Doth not their excellency which is in them go away? they die, even without wisdom.",
+        "riddle": "Doth not their excellency which is in them go away?",
+        "speaker": "Eliphaz",
+        "listener": "Job",
+        "book": "Job"
+      },
+      "he": {
+        "quote": "הֲלֹא־נִסַּע יִתְרָם בָּם יָמוּתוּ וְלֹא בְחָכְמָֽה",
+        "riddle": "הֲלֹא־נִסַּע יִתְרָם בָּם",
+        "speaker": "אליפת",
+        "listener": "איוב",
+        "book": "איוב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Doth not their excellency which is in them go away? they die, even without wisdom."
+        },
+        "he": {
+          "21": "הֲלֹא־נִסַּע יִתְרָם בָּם יָמוּתוּ וְלֹא בְחָכְמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 21,
+        "end": 21
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 12,
+    "prefiltered_count": 0,
+    "llm_window_count": 12,
+    "kept_count": 2,
+    "issue_count": 10
+  }
+}

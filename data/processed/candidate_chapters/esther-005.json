@@ -1,0 +1,58 @@
+{
+  "book_code": "EST",
+  "book": "Esther",
+  "book_he": "אסתר",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "esther-05-07-07",
+      "source": {
+        "book_code": "EST",
+        "book": "Esther",
+        "book_he": "אסתר",
+        "chapter": 5,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Then answered Esther, and said, My petition and my request is;",
+        "riddle": "My petition and my request is;",
+        "speaker": "Esther",
+        "listener": "Ahasuerus",
+        "book": "Esther"
+      },
+      "he": {
+        "quote": "וַתַּעַן אֶסְתֵּר וַתֹּאמַר שְׁאֵלָתִי וּבַקָּשָׁתִֽי",
+        "riddle": "שְׁאֵלָתִי וּבַקָּשָׁתִֽי",
+        "speaker": "אֶסְתֵּר",
+        "listener": "אחשרוש",
+        "book": "אסתר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Then answered Esther, and said, My petition and my request is;"
+        },
+        "he": {
+          "7": "וַתַּעַן אֶסְתֵּר וַתֹּאמַר שְׁאֵלָתִי וּבַקָּשָׁתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech from Esther",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 12,
+    "prefiltered_count": 0,
+    "llm_window_count": 12,
+    "kept_count": 1,
+    "issue_count": 11
+  }
+}

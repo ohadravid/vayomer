@@ -1,0 +1,99 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-20-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?",
+        "riddle": "Wherefore shall he be slain? what hath he done?",
+        "speaker": "Jonathan",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Elkanah",
+            "David",
+            "Philistines"
+          ],
+          "listener": [
+            "David",
+            "Prophet",
+            "Philistines"
+          ]
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל אָבִיו וַיֹּאמֶר אֵלָיו לָמָּה יוּמַת מֶה עָשָֽׂה",
+        "riddle": "לָמָּה יוּמַת מֶה עָשָֽׂה",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "אֶלְקָנָה",
+            "דָּוִד",
+            "פְּלִשְׁתִּֽים"
+          ],
+          "listener": [
+            "דָּוִד",
+            "הַנָּבִיא",
+            "פְּלִשְׁתִּֽים"
+          ]
+        },
+        "bonus": "אָבִיו",
+        "bonus_hint": {
+          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?"
+        },
+        "he": {
+          "32": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל אָבִיו וַיֹּאמֶר אֵלָיו לָמָּה יוּמַת מֶה עָשָֽׂה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 32,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-05-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him; Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.",
+        "riddle": "Male and female created he them; and blessed them",
+        "speaker": "God",
+        "listener": "Adam and Eve",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "day",
+        "bonus_hint": {
+          "quote": "And to rule over the day and over the night, and to divide the light from the darkness: and God saw that it was good.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "זֶה סֵפֶר תּוֹלְדֹת אָדָם בְּיוֹם בְּרֹא אֱלֹהִים אָדָם בִּדְמוּת אֱלֹהִים עָשָׂה אֹתֽוֹ זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם בְּיוֹם הִבָּֽרְאָֽם",
+        "riddle": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם",
+        "speaker": "אֱלֹהִים",
+        "listener": "אָדָם וחוה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּיוֹם",
+        "bonus_hint": {
+          "quote": "וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּֽלֲהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "This is the book of the generations of Adam. In the day that God created man, in the likeness of God made he him;",
+          "2": "Male and female created he them; and blessed them, and called their name Adam, in the day when they were created."
+        },
+        "he": {
+          "1": "זֶה סֵפֶר תּוֹלְדֹת אָדָם בְּיוֹם בְּרֹא אֱלֹהִים אָדָם בִּדְמוּת אֱלֹהִים עָשָׂה אֹתֽוֹ׃",
+          "2": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם בְּיוֹם הִבָּֽרְאָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "book_code": "ZEC",
+  "book": "Zechariah",
+  "book_he": "זכריה",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "zechariah-01-09-09",
+      "source": {
+        "book_code": "ZEC",
+        "book": "Zechariah",
+        "book_he": "זכריה",
+        "chapter": 1,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Then said I, O my lord, what are these? And the angel that talked with me said unto me, I will shew thee what these be.",
+        "riddle": "what are these?",
+        "speaker": "Zechariah",
+        "listener": "Angel",
+        "book": "Zechariah"
+      },
+      "he": {
+        "quote": "וָאֹמַר מָה־אֵלֶּה אֲדֹנִי וַיֹּאמֶר אֵלַי הַמַּלְאָךְ הַדֹּבֵר בִּי אֲנִי אַרְאֶךָּ מָה־הֵמָּה אֵֽלֶּה",
+        "riddle": "מָה־הֵמָּה אֵֽלֶּה",
+        "speaker": "זכריה",
+        "listener": "מלאך",
+        "book": "זכריה"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Then said I, O my lord, what are these? And the angel that talked with me said unto me, I will shew thee what these be."
+        },
+        "he": {
+          "9": "וָאֹמַר מָה־אֵלֶּה אֲדֹנִי וַיֹּאמֶר אֵלַי הַמַּלְאָךְ הַדֹּבֵר בִּי אֲנִי אַרְאֶךָּ מָה־הֵמָּה אֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "zechariah-01-17-17",
+      "source": {
+        "book_code": "ZEC",
+        "book": "Zechariah",
+        "book_he": "זכריה",
+        "chapter": 1,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Cry yet, saying, Thus saith the LORD of hosts; My cities through prosperity shall yet be spread abroad; and the LORD shall yet comfort Zion, and shall yet choose Jerusalem.",
+        "riddle": "Cry yet, saying, Thus saith the LORD of hosts",
+        "speaker": "Prophet",
+        "listener": "People",
+        "book": "Zechariah"
+      },
+      "he": {
+        "quote": "עוֹד קְרָא לֵאמֹר כֹּה אָמַר יְהוָה צְבָאוֹת עוֹד תְּפוּצֶינָה עָרַי מִטּוֹב וְנִחַם יְהוָה עוֹד אֶת־צִיּוֹן וּבָחַר עוֹד בִּירוּשָׁלִָֽם",
+        "riddle": "עוֹד קְרָא לֵאמֹר כֹּה אָמַר יְהוָה צְבָאוֹת",
+        "speaker": "נביא",
+        "listener": "עם",
+        "book": "זכריה"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Cry yet, saying, Thus saith the LORD of hosts; My cities through prosperity shall yet be spread abroad; and the LORD shall yet comfort Zion, and shall yet choose Jerusalem."
+        },
+        "he": {
+          "17": "עוֹד ׀ קְרָא לֵאמֹר כֹּה אָמַר יְהוָה צְבָאוֹת עוֹד תְּפוּצֶינָה עָרַי מִטּוֹב וְנִחַם יְהוָה עוֹד אֶת־צִיּוֹן וּבָחַר עוֹד בִּירוּשָׁלִָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a powerful divine command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 17,
+    "prefiltered_count": 0,
+    "llm_window_count": 17,
+    "kept_count": 2,
+    "issue_count": 15
+  }
+}

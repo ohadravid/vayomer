@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 47,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-47-03-03",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.",
+        "riddle": "What is your occupation?",
+        "speaker": "Pharaoh",
+        "listener": "his brethren",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ",
+        "riddle": "מַה־מַּעֲשֵׂיכֶם",
+        "speaker": "פַּרְעֹה",
+        "listener": "אֶחָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 3,
+        "end": 3
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 24,
+    "prefiltered_count": 0,
+    "llm_window_count": 24,
+    "kept_count": 1,
+    "issue_count": 23
+  }
+}

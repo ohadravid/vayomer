@@ -1,0 +1,100 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 33,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-33-05-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
+        "riddle": "therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
+        "speaker": "LORD",
+        "listener": "Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ",
+        "riddle": "מָה אֶֽעֱשֶׂה־לָּֽךְ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵֽי־יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct command/warning.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "exodus-33-18-18",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And he said, I beseech thee, shew me thy glory.",
+        "riddle": "shew me thy glory.",
+        "speaker": "Moses",
+        "listener": "God",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר הַרְאֵנִי נָא אֶת־כְּבֹדֶֽךָ",
+        "riddle": "הַרְאֵנִי נָא אֶת־כְּבֹדֶֽךָ",
+        "speaker": "משה",
+        "listener": "אלוהים",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he said, I beseech thee, shew me thy glory."
+        },
+        "he": {
+          "18": "וַיֹּאמַר הַרְאֵנִי נָא אֶת־כְּבֹדֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct request.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 18,
+        "end": 18
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 18,
+    "prefiltered_count": 0,
+    "llm_window_count": 18,
+    "kept_count": 2,
+    "issue_count": 16
+  }
+}

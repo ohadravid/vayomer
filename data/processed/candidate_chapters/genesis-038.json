@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 38,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-38-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 38,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And it came to pass, as he drew back his hand, that, behold, his brother came out: and she said, How hast thou broken forth? this breach be upon thee: therefore his name was called Pharez.",
+        "riddle": "How hast thou broken forth?",
+        "speaker": "woman",
+        "listener": "Zerah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְהִי כְּמֵשִׁיב יָדוֹ וְהִנֵּה יָצָא אָחִיו וַתֹּאמֶר מַה־פָּרַצְתָּ עָלֶיךָ פָּרֶץ וַיִּקְרָא שְׁמוֹ פָּֽרֶץ",
+        "riddle": "מַה־פָּרַצְתָּ עָלֶיךָ פָּרֶץ",
+        "speaker": "אישה",
+        "listener": "זרח",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And it came to pass, as he drew back his hand, that, behold, his brother came out: and she said, How hast thou broken forth? this breach be upon thee: therefore his name was called Pharez."
+        },
+        "he": {
+          "29": "וַיְהִי ׀ כְּמֵשִׁיב יָדוֹ וְהִנֵּה יָצָא אָחִיו וַתֹּאמֶר מַה־פָּרַצְתָּ עָלֶיךָ פָּרֶץ וַיִּקְרָא שְׁמוֹ פָּֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech and question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 38,
+        "start": 29,
+        "end": 29
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 24,
+    "prefiltered_count": 0,
+    "llm_window_count": 24,
+    "kept_count": 1,
+    "issue_count": 23
+  }
+}

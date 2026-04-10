@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-12-19-19",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
+        "riddle": "Why saidst thou, She is my sister",
+        "speaker": "Pharaoh",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
+        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי",
+        "speaker": "פרעה",
+        "listener": "אברם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way."
+        },
+        "he": {
+          "19": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 19,
+        "end": 19
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 12,
+    "prefiltered_count": 0,
+    "llm_window_count": 12,
+    "kept_count": 1,
+    "issue_count": 11
+  }
+}

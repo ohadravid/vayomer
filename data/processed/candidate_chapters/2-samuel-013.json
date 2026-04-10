@@ -1,0 +1,58 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 13,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-13-26-26",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?",
+        "riddle": "Why should he go with thee?",
+        "speaker": "King",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ",
+        "riddle": "לָמָּה יֵלֵךְ עִמָּֽךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 31,
+    "prefiltered_count": 0,
+    "llm_window_count": 31,
+    "kept_count": 1,
+    "issue_count": 30
+  }
+}

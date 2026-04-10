@@ -1,0 +1,100 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 78,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-78-19-19",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 78,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Yea, they spake against God; they said, Can God furnish a table in the wilderness?",
+        "riddle": "Can God furnish a table in the wilderness?",
+        "speaker": "Israelites",
+        "listener": "God",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "וַֽיְדַבְּרוּ בֵּֽאלֹהִים אָמְרוּ הֲיוּכַל אֵל לַעֲרֹךְ שֻׁלְחָן בַּמִּדְבָּֽר",
+        "riddle": "הֲיוּכַל אֵל לַעֲרֹךְ שֻׁלְחָן בַּמִּדְבָּֽר",
+        "speaker": "בני ישראל",
+        "listener": "אלוהים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Yea, they spake against God; they said, Can God furnish a table in the wilderness?"
+        },
+        "he": {
+          "19": "וַֽיְדַבְּרוּ בֵּֽאלֹהִים אָמְרוּ הֲיוּכַל אֵל לַעֲרֹךְ שֻׁלְחָן בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable skeptical question.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 78,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "psalms-78-23-23",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 78,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Though he had commanded the clouds from above, and opened the doors of heaven,",
+        "riddle": "Though he had commanded the clouds from above",
+        "speaker": "Narrator",
+        "listener": "Israel",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "וַיְצַו שְׁחָקִים מִמָּעַל וְדַלְתֵי שָׁמַיִם פָּתָֽח",
+        "riddle": "וַיְצַו שְׁחָקִים מִמָּעַל",
+        "speaker": "מספר",
+        "listener": "ישראל",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Though he had commanded the clouds from above, and opened the doors of heaven,"
+        },
+        "he": {
+          "23": "וַיְצַו שְׁחָקִים מִמָּעַל וְדַלְתֵי שָׁמַיִם פָּתָֽח׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid divine action",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 78,
+        "start": 23,
+        "end": 23
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 7,
+    "prefiltered_count": 0,
+    "llm_window_count": 7,
+    "kept_count": 2,
+    "issue_count": 5
+  }
+}

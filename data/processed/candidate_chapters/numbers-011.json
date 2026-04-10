@@ -1,0 +1,100 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 11,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-11-04-04",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?",
+        "riddle": "Who shall give us flesh to eat?",
+        "speaker": "Children of Israel",
+        "listener": "Implicit",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר",
+        "riddle": "מִי יַאֲכִלֵנוּ בָּשָֽׂר",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "Implicit",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?"
+        },
+        "he": {
+          "4": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "numbers-11-20-20",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "But even a whole month, until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which is among you, and have wept before him, saying, Why came we forth out of Egypt?",
+        "riddle": "Why came we forth out of Egypt?",
+        "speaker": "Israelites",
+        "listener": "God",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "עַד חֹדֶשׁ יָמִים עַד אֲשֶׁר־יֵצֵא מֵֽאַפְּכֶם וְהָיָה לָכֶם לְזָרָא יַעַן כִּֽי־מְאַסְתֶּם אֶת־יְהוָה אֲשֶׁר בְּקִרְבְּכֶם וַתִּבְכּוּ לְפָנָיו לֵאמֹר לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם",
+        "riddle": "לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם",
+        "speaker": "בני ישראל",
+        "listener": "אלוהים",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "But even a whole month, until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which is among you, and have wept before him, saying, Why came we forth out of Egypt?"
+        },
+        "he": {
+          "20": "עַד ׀ חֹדֶשׁ יָמִים עַד אֲשֶׁר־יֵצֵא מֵֽאַפְּכֶם וְהָיָה לָכֶם לְזָרָא יַעַן כִּֽי־מְאַסְתֶּם אֶת־יְהוָה אֲשֶׁר בְּקִרְבְּכֶם וַתִּבְכּוּ לְפָנָיו לֵאמֹר לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 20,
+        "end": 20
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 26,
+    "prefiltered_count": 0,
+    "llm_window_count": 26,
+    "kept_count": 2,
+    "issue_count": 24
+  }
+}

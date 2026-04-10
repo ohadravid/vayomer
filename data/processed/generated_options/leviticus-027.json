@@ -1,0 +1,101 @@
+{
+  "book_code": "LEV",
+  "book": "Leviticus",
+  "book_he": "ויקרא",
+  "chapter": 27,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "leviticus-27-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 27,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.",
+        "riddle": "the persons shall be for the LORD by thy estimation.",
+        "speaker": "God",
+        "listener": "Israelites",
+        "book": "Leviticus",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Levites",
+            "Joseph"
+          ],
+          "listener": [
+            "people",
+            "Philistines",
+            "Egyptians"
+          ]
+        },
+        "bonus": "vow",
+        "bonus_hint": {
+          "quote": "If a man vow a vow unto the LORD, or swear an oath to bind his soul with a bond; he shall not break his word, he shall do according to all that proceedeth out of his mouth.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 30,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה",
+        "riddle": "וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "הַלְוִיִּם",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "הָעָם",
+            "פְּלִשְׁתִּֽים",
+            "מִצְרָיִם"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר מֹשֶׁה אֶל־רָאשֵׁי הַמַּטּוֹת לִבְנֵי יִשְׂרָאֵל לֵאמֹר זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָֽה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 30,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

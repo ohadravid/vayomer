@@ -1,0 +1,58 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 42,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-42-09-09",
+      "source": {
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 42,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "I will say unto God my rock, Why hast thou forgotten me? why go I mourning because of the oppression of the enemy?",
+        "riddle": "Why hast thou forgotten me? why go I mourning because of the oppression of the enemy?",
+        "speaker": "Psalmist",
+        "listener": "God",
+        "book": "Psalms"
+      },
+      "he": {
+        "quote": "יוֹמָם יְצַוֶּה יְהוָה חַסְדּוֹ וּבַלַּיְלָה שִׁירוֹ עִמִּי תְּפִלָּה לְאֵל חַיָּֽי",
+        "riddle": "יוֹמָם יְצַוֶּה יְהוָה חַסְדּוֹ וּבַלַּיְלָה שִׁירוֹ עִמִּי תְּפִלָּה לְאֵל חַיָּֽי",
+        "speaker": "משורר",
+        "listener": "אלוהים",
+        "book": "תהילים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "I will say unto God my rock, Why hast thou forgotten me? why go I mourning because of the oppression of the enemy?"
+        },
+        "he": {
+          "9": "יוֹמָם ׀ יְצַוֶּה יְהוָה ׀ חַסְדּוֹ וּבַלַּיְלָה שִׁירוֹ עִמִּי תְּפִלָּה לְאֵל חַיָּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains vivid direct questions.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 42,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 8,
+    "prefiltered_count": 0,
+    "llm_window_count": 8,
+    "kept_count": 1,
+    "issue_count": 7
+  }
+}

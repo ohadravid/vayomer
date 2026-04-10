@@ -1,0 +1,58 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 31,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-31-15-15",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Moses said unto them, Have ye saved all the women alive?",
+        "riddle": "Have ye saved all the women alive?",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם מֹשֶׁה הַֽחִיִּיתֶם כָּל־נְקֵבָֽה",
+        "riddle": "הַֽחִיִּיתֶם כָּל־נְקֵבָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "ישראל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Moses said unto them, Have ye saved all the women alive?"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר אֲלֵיהֶם מֹשֶׁה הַֽחִיִּיתֶם כָּל־נְקֵבָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question from Moses",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 1,
+    "issue_count": 19
+  }
+}

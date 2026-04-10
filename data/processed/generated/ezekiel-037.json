@@ -1,0 +1,83 @@
+{
+  "book_code": "EZE",
+  "book": "Ezekiel",
+  "book_he": "יחזקאל",
+  "chapter": 37,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "ezekiel-37-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "EZE",
+        "book": "Ezekiel",
+        "book_he": "יחזקאל",
+        "chapter": 37,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And when the children of thy people shall speak unto thee, saying, Wilt thou not shew us what thou meanest by these?",
+        "riddle": "Wilt thou not shew us what thou meanest by these?",
+        "speaker": "children of thy people",
+        "listener": "Ezekiel",
+        "book": "Ezekiel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "speak",
+        "bonus_hint": {
+          "quote": "Wherefore should the Egyptians speak, and say, For mischief did he bring them out, to slay them in the mountains, and to consume them from the face of the earth? Turn from thy fierce wrath, and repent of this evil against thy people.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 32,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וְכַֽאֲשֶׁר יֹאמְרוּ אֵלֶיךָ בְּנֵי עַמְּךָ לֵאמֹר הֲלֽוֹא־תַגִּיד לָנוּ מָה־אֵלֶּה לָּֽךְ",
+        "riddle": "מָה־אֵלֶּה לָּֽךְ",
+        "speaker": "בְּנֵי עַמְּךָ",
+        "listener": "יחזקאל",
+        "book": "יחזקאל",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יֹאמְרוּ",
+        "bonus_hint": {
+          "quote": "לָמָּה יֹאמְרוּ מִצְרַיִם לֵאמֹר בְּרָעָה הֽוֹצִיאָם לַהֲרֹג אֹתָם בֶּֽהָרִים וּלְכַלֹּתָם מֵעַל פְּנֵי הָֽאֲדָמָה שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל־הָרָעָה לְעַמֶּֽךָ",
+          "source": {
+            "book": "שמות",
+            "chapter": 32,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And when the children of thy people shall speak unto thee, saying, Wilt thou not shew us what thou meanest by these?"
+        },
+        "he": {
+          "18": "וְכַֽאֲשֶׁר יֹאמְרוּ אֵלֶיךָ בְּנֵי עַמְּךָ לֵאמֹר הֲלֽוֹא־תַגִּיד לָנוּ מָה־אֵלֶּה לָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 18,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

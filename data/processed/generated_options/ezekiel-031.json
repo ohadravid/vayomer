@@ -1,0 +1,101 @@
+{
+  "book_code": "EZE",
+  "book": "Ezekiel",
+  "book_he": "יחזקאל",
+  "chapter": 31,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "ezekiel-31-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EZE",
+        "book": "Ezekiel",
+        "book_he": "יחזקאל",
+        "chapter": 31,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And it came to pass in the eleventh year, in the third month, in the first day of the month, that the word of the LORD came unto me, saying, Son of man, speak unto Pharaoh king of Egypt, and to his multitude; Whom art thou like in thy greatness?",
+        "riddle": "Whom art thou like in thy greatness?",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Ezekiel",
+        "options": {
+          "speaker": [
+            "Psalmist",
+            "Daniel",
+            "Nebuchadnezzar"
+          ],
+          "listener": [
+            "King Darius",
+            "Zedekiah",
+            "Hezekiah"
+          ]
+        },
+        "bonus": "year",
+        "bonus_hint": {
+          "quote": "In the six hundredth year of Noah's life, in the second month, the seventeenth day of the month, the same day were all the fountains of the great deep broken up, and the windows of heaven were opened.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 7,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בְּאַחַת עֶשְׂרֵה שָׁנָה בַּשְּׁלִישִׁי בְּאֶחָד לַחֹדֶשׁ הָיָה דְבַר־יְהוָה אֵלַי לֵאמֹֽר בֶּן־אָדָם אֱמֹר אֶל־פַּרְעֹה מֶֽלֶךְ־מִצְרַיִם וְאֶל־הֲמוֹנוֹ אֶל־מִי דָּמִיתָ בְגָדְלֶֽךָ",
+        "riddle": "מִי דָּמִיתָ בְגָדְלֶֽךָ",
+        "speaker": "הֲ",
+        "listener": "פַּרְעֹה",
+        "book": "יחזקאל",
+        "options": {
+          "speaker": [
+            "דָּוִד",
+            "דָנִיֵּאל",
+            "נְבוּכַדְנֶצַּר"
+          ],
+          "listener": [
+            "דָּרְיָוֶשׁ מַלְכָּא",
+            "צִדְקִיָּה",
+            "חִזְקִיָּהוּ"
+          ]
+        },
+        "bonus": "שָׁנָה",
+        "bonus_hint": {
+          "quote": "בִּשְׁנַת שֵׁשׁ־מֵאוֹת שָׁנָה לְחַיֵּי־נֹחַ בַּחֹדֶשׁ הַשֵּׁנִי בְּשִׁבְעָֽה־עָשָׂר יוֹם לַחֹדֶשׁ בַּיּוֹם הַזֶּה נִבְקְעוּ כָּֽל־מַעְיְנֹת תְּהוֹם רַבָּה וַאֲרֻבֹּת הַשָּׁמַיִם נִפְתָּֽחוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 7,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass in the eleventh year, in the third month, in the first day of the month, that the word of the LORD came unto me, saying,",
+          "2": "Son of man, speak unto Pharaoh king of Egypt, and to his multitude; Whom art thou like in thy greatness?"
+        },
+        "he": {
+          "1": "וַיְהִי בְּאַחַת עֶשְׂרֵה שָׁנָה בַּשְּׁלִישִׁי בְּאֶחָד לַחֹדֶשׁ הָיָה דְבַר־יְהוָה אֵלַי לֵאמֹֽר׃",
+          "2": "בֶּן־אָדָם אֱמֹר אֶל־פַּרְעֹה מֶֽלֶךְ־מִצְרַיִם וְאֶל־הֲמוֹנוֹ אֶל־מִי דָּמִיתָ בְגָדְלֶֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

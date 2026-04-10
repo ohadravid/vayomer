@@ -1,0 +1,58 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-05-04-04",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel.",
+        "riddle": "Thus and thus said the maid that is of the land of Israel.",
+        "speaker": "maid",
+        "listener": "lord",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
+        "riddle": "כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
+        "speaker": "הַֽנַּעֲרָה",
+        "listener": "אדֹנָיו",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel."
+        },
+        "he": {
+          "4": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech/report",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 25,
+    "prefiltered_count": 0,
+    "llm_window_count": 25,
+    "kept_count": 1,
+    "issue_count": 24
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-02-27-28",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 27,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother. So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more.",
+        "riddle": "Joab said, As God liveth, unless thou hadst spoken",
+        "speaker": "Joab",
+        "listener": "Abner",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו וַיִּתְקַע יוֹאָב בַּשּׁוֹפָר וַיַּֽעַמְדוּ כָּל־הָעָם וְלֹֽא־יִרְדְּפוּ עוֹד אַחֲרֵי יִשְׂרָאֵל וְלֹֽא־יָסְפוּ עוֹד לְהִלָּחֵֽם",
+        "riddle": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ",
+        "speaker": "יוֹאָב",
+        "listener": "אבנר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
+          "28": "So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו׃",
+          "28": "וַיִּתְקַע יוֹאָב בַּשּׁוֹפָר וַיַּֽעַמְדוּ כָּל־הָעָם וְלֹֽא־יִרְדְּפוּ עוֹד אַחֲרֵי יִשְׂרָאֵל וְלֹֽא־יָסְפוּ עוֹד לְהִלָּחֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech and oath",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 27,
+        "end": 28
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 16,
+    "prefiltered_count": 0,
+    "llm_window_count": 16,
+    "kept_count": 1,
+    "issue_count": 15
+  }
+}

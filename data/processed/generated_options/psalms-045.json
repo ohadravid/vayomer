@@ -1,0 +1,101 @@
+{
+  "book_code": "PSA",
+  "book": "Psalms",
+  "book_he": "תהילים",
+  "chapter": 45,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "psalms-45-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "PSA",
+        "book": "Psalms",
+        "book_he": "תהילים",
+        "chapter": 45,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue is the pen of a ready writer. Thou art fairer than the children of men: grace is poured into thy lips: therefore God hath blessed thee for ever.",
+        "riddle": "Thou art fairer than the children of men",
+        "speaker": "Solomon",
+        "listener": "Queen of Sheba",
+        "book": "Psalms",
+        "options": {
+          "speaker": [
+            "Psalmist",
+            "Isaiah",
+            "Shulammite woman"
+          ],
+          "listener": [
+            "Hezekiah",
+            "Isaiah",
+            "Jacob"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "לַמְנַצֵּחַ עַל־שֹׁשַׁנִּים לִבְנֵי־קֹרַח מַשְׂכִּיל שִׁיר יְדִידֹֽת רָחַשׁ לִבִּי דָּבָר טוֹב אֹמֵר אָנִי מַעֲשַׂי לְמֶלֶךְ לְשׁוֹנִי עֵט סוֹפֵר מָהִֽיר",
+        "riddle": "לַמְנַצֵּחַ עַל־שֹׁשַׁנִּים לִבְנֵי־קֹרַח מַשְׂכִּיל שִׁיר יְדִידֹֽת",
+        "speaker": "שְׁלֵמָה",
+        "listener": "רָחַשׁ",
+        "book": "תהילים",
+        "options": {
+          "speaker": [
+            "דָּוִד",
+            "יְשַֽׁעְיָהוּ",
+            "השולמית"
+          ],
+          "listener": [
+            "חִזְקִיָּהוּ",
+            "יְשַֽׁעְיָהוּ",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "לְמֶלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה חָטְאוּ מַשְׁקֵה מֶֽלֶךְ־מִצְרַיִם וְהָאֹפֶה לַאֲדֹנֵיהֶם לְמֶלֶךְ מִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "My heart is inditing a good matter: I speak of the things which I have made touching the king: my tongue is the pen of a ready writer.",
+          "2": "Thou art fairer than the children of men: grace is poured into thy lips: therefore God hath blessed thee for ever."
+        },
+        "he": {
+          "1": "לַמְנַצֵּחַ עַל־שֹׁשַׁנִּים לִבְנֵי־קֹרַח מַשְׂכִּיל שִׁיר יְדִידֹֽת׃",
+          "2": "רָחַשׁ לִבִּי ׀ דָּבָר טוֹב אֹמֵר אָנִי מַעֲשַׂי לְמֶלֶךְ לְשׁוֹנִי עֵט ׀ סוֹפֵר מָהִֽיר׃"
+        }
+      },
+      "ref": {
+        "chapter": 45,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

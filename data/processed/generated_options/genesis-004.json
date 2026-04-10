@@ -1,0 +1,101 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 4,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-04-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen? If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "riddle": "Why art thou wroth? and why is thy countenance fallen?",
+        "speaker": "LORD",
+        "listener": "Cain",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Joseph",
+            "Balaam"
+          ],
+          "listener": [
+            "Jacob",
+            "Joseph",
+            "Abraham"
+          ]
+        },
+        "bonus": "sin",
+        "bonus_hint": {
+          "quote": "But the flesh of the bullock, and his skin, and his dung, shalt thou burn with fire without the camp: it is a sin offering.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 29,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
+        "riddle": "לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "קָיִן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יוֹסֵף",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "יוֹסֵף",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "חַטָּאת",
+        "bonus_hint": {
+          "quote": "וְאֶת־בְּשַׂר הַפָּר וְאֶת־עֹרוֹ וְאֶת־פִּרְשׁוֹ תִּשְׂרֹף בָּאֵשׁ מִחוּץ לַֽמַּחֲנֶה חַטָּאת הֽוּא",
+          "source": {
+            "book": "שמות",
+            "chapter": 29,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
+          "7": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ׃",
+          "7": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

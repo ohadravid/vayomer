@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 48,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-48-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Israel beheld Joseph's sons, and said, Who are these?",
+        "riddle": "Who are these?",
+        "speaker": "Israel",
+        "listener": "Joseph's sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה",
+        "riddle": "מִי־אֵֽלֶּה",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "בְּנֵי יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Israel beheld Joseph's sons, and said, Who are these?"
+        },
+        "he": {
+          "8": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 1,
+    "issue_count": 19
+  }
+}

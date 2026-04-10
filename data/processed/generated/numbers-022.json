@@ -1,0 +1,83 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 22,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-22-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And God came unto Balaam, and said, What men are these with thee?",
+        "riddle": "What men are these with thee?",
+        "speaker": "God",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "came",
+        "bonus_hint": {
+          "quote": "And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ",
+        "riddle": "מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ",
+        "speaker": "אֱלֹהִים",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי מִקֵּץ יָמִים וַיָּבֵא קַיִן מִפְּרִי הָֽאֲדָמָה מִנְחָה לַֽיהוָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And God came unto Balaam, and said, What men are these with thee?"
+        },
+        "he": {
+          "9": "וַיָּבֹא אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר מִי הָאֲנָשִׁים הָאֵלֶּה עִמָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 13,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "judges-13-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Then Manoah intreated the LORD, and said, O my Lord, let the man of God which thou didst send come again unto us, and teach us what we shall do unto the child that shall be born.",
+        "riddle": "and teach us what we shall do unto the child that shall be born.",
+        "speaker": "Manoah",
+        "listener": "LORD",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "man",
+        "bonus_hint": {
+          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֶּעְתַּר מָנוֹחַ אֶל־יְהוָה וַיֹּאמַר בִּי אֲדוֹנָי אִישׁ הָאֱלֹהִים אֲשֶׁר שָׁלַחְתָּ יָבוֹא־נָא עוֹד אֵלֵינוּ וְיוֹרֵנוּ מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד",
+        "riddle": "מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד",
+        "speaker": "מָנוֹחַ",
+        "listener": "אֶל־יְהוָה",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִישׁ",
+        "bonus_hint": {
+          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Then Manoah intreated the LORD, and said, O my Lord, let the man of God which thou didst send come again unto us, and teach us what we shall do unto the child that shall be born."
+        },
+        "he": {
+          "8": "וַיֶּעְתַּר מָנוֹחַ אֶל־יְהוָה וַיֹּאמַר בִּי אֲדוֹנָי אִישׁ הָאֱלֹהִים אֲשֶׁר שָׁלַחְתָּ יָבוֹא־נָא עוֹד אֵלֵינוּ וְיוֹרֵנוּ מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "book_code": "ZEC",
+  "book": "Zechariah",
+  "book_he": "זכריה",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "zechariah-01-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "ZEC",
+        "book": "Zechariah",
+        "book_he": "זכריה",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Upon the four and twentieth day of the eleventh month, which is the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying, I saw by night, and behold a man riding upon a red horse, and he stood among the myrtle trees that were in the bottom; and behind him were there red horses, speckled, and white. Then said I, O my lord, what are these? And the angel that talked with me said unto me, I will shew thee what these be.",
+        "riddle": "what are these?",
+        "speaker": "Zechariah",
+        "listener": "Angel",
+        "book": "Zechariah",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "month",
+        "bonus_hint": {
+          "quote": "And Laban said to him, Surely thou art my bone and my flesh. And he abode with him the space of a month.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "בְּיוֹם עֶשְׂרִים וְאַרְבָּעָה לְעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ הוּא־חֹדֶשׁ שְׁבָט בִּשְׁנַת שְׁתַּיִם לְדָרְיָוֶשׁ הָיָה דְבַר־יְהוָה אֶל־זְכַרְיָה בֶּן־בֶּרֶכְיָהוּ בֶּן־עִדּוֹא הַנָּבִיא לֵאמֹֽר רָאִיתִי הַלַּיְלָה וְהִנֵּה־אִישׁ רֹכֵב עַל־סוּס אָדֹם וְהוּא עֹמֵד בֵּין הַהֲדַסִּים אֲשֶׁר בַּמְּצֻלָה וְאַחֲרָיו סוּסִים אֲדֻמִּים שְׂרֻקִּים וּלְבָנִֽים וָאֹמַר מָה־אֵלֶּה אֲדֹנִי וַיֹּאמֶר אֵלַי הַמַּלְאָךְ הַדֹּבֵר בִּי אֲנִי אַרְאֶךָּ מָה־הֵמָּה אֵֽלֶּה",
+        "riddle": "מָה־הֵמָּה אֵֽלֶּה",
+        "speaker": "זְכַרְיָה",
+        "listener": "מַלְאַךְ",
+        "book": "זכריה",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חֹדֶשׁ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לוֹ לָבָן אַךְ עַצְמִי וּבְשָׂרִי אָתָּה וַיֵּשֶׁב עִמּוֹ חֹדֶשׁ יָמִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 29,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Upon the four and twentieth day of the eleventh month, which is the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,",
+          "8": "I saw by night, and behold a man riding upon a red horse, and he stood among the myrtle trees that were in the bottom; and behind him were there red horses, speckled, and white.",
+          "9": "Then said I, O my lord, what are these? And the angel that talked with me said unto me, I will shew thee what these be."
+        },
+        "he": {
+          "7": "בְּיוֹם עֶשְׂרִים וְאַרְבָּעָה לְעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ הוּא־חֹדֶשׁ שְׁבָט בִּשְׁנַת שְׁתַּיִם לְדָרְיָוֶשׁ הָיָה דְבַר־יְהוָה אֶל־זְכַרְיָה בֶּן־בֶּרֶכְיָהוּ בֶּן־עִדּוֹא הַנָּבִיא לֵאמֹֽר׃",
+          "8": "רָאִיתִי ׀ הַלַּיְלָה וְהִנֵּה־אִישׁ רֹכֵב עַל־סוּס אָדֹם וְהוּא עֹמֵד בֵּין הַהֲדַסִּים אֲשֶׁר בַּמְּצֻלָה וְאַחֲרָיו סוּסִים אֲדֻמִּים שְׂרֻקִּים וּלְבָנִֽים׃",
+          "9": "וָאֹמַר מָה־אֵלֶּה אֲדֹנִי וַיֹּאמֶר אֵלַי הַמַּלְאָךְ הַדֹּבֵר בִּי אֲנִי אַרְאֶךָּ מָה־הֵמָּה אֵֽלֶּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

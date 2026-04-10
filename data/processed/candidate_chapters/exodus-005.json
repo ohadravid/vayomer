@@ -1,0 +1,100 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-05-13-13",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw.",
+        "riddle": "And the taskmasters hasted them, saying, Fulfil your works",
+        "speaker": "taskmasters",
+        "listener": "Israelites",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן",
+        "riddle": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם",
+        "speaker": "הַנֹּגְשִׂים",
+        "listener": "בני ישראל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw."
+        },
+        "he": {
+          "13": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct command and speaker",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "exodus-05-15-15",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
+        "riddle": "Wherefore dealest thou thus with thy servants?",
+        "speaker": "Israelite officers",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ",
+        "riddle": "לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ",
+        "speaker": "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?"
+        },
+        "he": {
+          "15": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question/complaint",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 22,
+    "prefiltered_count": 0,
+    "llm_window_count": 22,
+    "kept_count": 2,
+    "issue_count": 20
+  }
+}

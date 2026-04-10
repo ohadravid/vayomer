@@ -1,0 +1,58 @@
+{
+  "book_code": "EST",
+  "book": "Esther",
+  "book_he": "אסתר",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "esther-06-07-07",
+      "source": {
+        "book_code": "EST",
+        "book": "Esther",
+        "book_he": "אסתר",
+        "chapter": 6,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Haman answered the king, For the man whom the king delighteth to honour,",
+        "riddle": "For the man whom the king delighteth to honour",
+        "speaker": "Haman",
+        "listener": "King",
+        "book": "Esther"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָמָן אֶל־הַמֶּלֶךְ אִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרֽוֹ",
+        "riddle": "אִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרֽוֹ",
+        "speaker": "הָמָן",
+        "listener": "הַמֶּלֶךְ",
+        "book": "אסתר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Haman answered the king, For the man whom the king delighteth to honour,"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר הָמָן אֶל־הַמֶּלֶךְ אִישׁ אֲשֶׁר הַמֶּלֶךְ חָפֵץ בִּיקָרֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct speech describing a person",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 13,
+    "prefiltered_count": 0,
+    "llm_window_count": 13,
+    "kept_count": 1,
+    "issue_count": 12
+  }
+}

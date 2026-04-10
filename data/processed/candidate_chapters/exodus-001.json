@@ -1,0 +1,58 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-01-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 1,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:",
+        "riddle": "the people of the children of Israel are more and mightier than we:",
+        "speaker": "Pharaoh",
+        "listener": "his people",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
+        "riddle": "הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
+        "speaker": "פרעה",
+        "listener": "עַמּוֹ",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:"
+        },
+        "he": {
+          "9": "וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a vivid declaration.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 9,
+    "prefiltered_count": 0,
+    "llm_window_count": 9,
+    "kept_count": 1,
+    "issue_count": 8
+  }
+}

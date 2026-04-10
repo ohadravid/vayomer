@@ -1,0 +1,58 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 22,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-22-18-18",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 22,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel.",
+        "riddle": "But that ye must turn away this day from following the LORD?",
+        "speaker": "Phinehas",
+        "listener": "Reubenites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף",
+        "riddle": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם",
+        "speaker": "פנחס",
+        "listener": "ראובניים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel."
+        },
+        "he": {
+          "18": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct warning question.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 18,
+        "end": 18
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 25,
+    "prefiltered_count": 0,
+    "llm_window_count": 25,
+    "kept_count": 1,
+    "issue_count": 24
+  }
+}

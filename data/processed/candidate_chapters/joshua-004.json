@@ -1,0 +1,100 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 4,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-04-06-06",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "That this may be a sign among you, that when your children ask their fathers in time to come, saying, What mean ye by these stones?",
+        "riddle": "What mean ye by these stones?",
+        "speaker": "children",
+        "listener": "fathers",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "לְמַעַן תִּֽהְיֶה זֹאת אוֹת בְּקִרְבְּכֶם כִּֽי־יִשְׁאָלוּן בְּנֵיכֶם מָחָר לֵאמֹר מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם",
+        "riddle": "מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם",
+        "speaker": "בְּנֵיכֶם",
+        "listener": "אבות",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "That this may be a sign among you, that when your children ask their fathers in time to come, saying, What mean ye by these stones?"
+        },
+        "he": {
+          "6": "לְמַעַן תִּֽהְיֶה זֹאת אוֹת בְּקִרְבְּכֶם כִּֽי־יִשְׁאָלוּן בְּנֵיכֶם מָחָר לֵאמֹר מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "joshua-04-21-21",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?",
+        "riddle": "What mean these stones?",
+        "speaker": "Joshua",
+        "listener": "Children of Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה",
+        "riddle": "מָה הָאֲבָנִים הָאֵֽלֶּה",
+        "speaker": "יהושע",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "Memorable direct question.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 21,
+        "end": 21
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 20,
+    "prefiltered_count": 0,
+    "llm_window_count": 20,
+    "kept_count": 2,
+    "issue_count": 18
+  }
+}

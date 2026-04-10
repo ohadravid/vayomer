@@ -1,0 +1,58 @@
+{
+  "book_code": "DAN",
+  "book": "Daniel",
+  "book_he": "דניאל",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "daniel-02-02-02",
+      "source": {
+        "book_code": "DAN",
+        "book": "Daniel",
+        "book_he": "דניאל",
+        "chapter": 2,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king.",
+        "riddle": "Then the king commanded to call the magicians",
+        "speaker": "king",
+        "listener": "magicians",
+        "book": "Daniel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ לִקְרֹא לַֽחַרְטֻמִּים וְלָֽאַשָּׁפִים וְלַֽמְכַשְּׁפִים וְלַכַּשְׂדִּים לְהַגִּיד לַמֶּלֶךְ חֲלֹמֹתָיו וַיָּבֹאוּ וַיַּֽעַמְדוּ לִפְנֵי הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ לִקְרֹא לַֽחַרְטֻמִּים וְלָֽאַשָּׁפִים וְלַֽמְכַשְּׁפִים וְלַכַּשְׂדִּים",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "חַרְטֻמִּים",
+        "book": "דניאל"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Then the king commanded to call the magicians, and the astrologers, and the sorcerers, and the Chaldeans, for to shew the king his dreams. So they came and stood before the king."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר הַמֶּלֶךְ לִקְרֹא לַֽחַרְטֻמִּים וְלָֽאַשָּׁפִים וְלַֽמְכַשְּׁפִים וְלַכַּשְׂדִּים לְהַגִּיד לַמֶּלֶךְ חֲלֹמֹתָיו וַיָּבֹאוּ וַיַּֽעַמְדוּ לִפְנֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 27,
+    "prefiltered_count": 0,
+    "llm_window_count": 27,
+    "kept_count": 1,
+    "issue_count": 26
+  }
+}

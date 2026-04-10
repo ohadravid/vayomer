@@ -1,0 +1,58 @@
+{
+  "book_code": "HAG",
+  "book": "Haggai",
+  "book_he": "חגי",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "haggai-02-08-08",
+      "source": {
+        "book_code": "HAG",
+        "book": "Haggai",
+        "book_he": "חגי",
+        "chapter": 2,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "The silver is mine, and the gold is mine, saith the LORD of hosts.",
+        "riddle": "The silver is mine, and the gold is mine",
+        "speaker": "LORD of hosts",
+        "listener": "Israel",
+        "book": "Haggai"
+      },
+      "he": {
+        "quote": "לִי הַכֶּסֶף וְלִי הַזָּהָב נְאֻם יְהוָה צְבָאֽוֹת",
+        "riddle": "לִי הַכֶּסֶף וְלִי הַזָּהָב",
+        "speaker": "יְהוָה צְבָאֽוֹת",
+        "listener": "ישראל",
+        "book": "חגי"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "The silver is mine, and the gold is mine, saith the LORD of hosts."
+        },
+        "he": {
+          "8": "לִי הַכֶּסֶף וְלִי הַזָּהָב נְאֻם יְהוָה צְבָאֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "Vivid declaration of ownership",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 23,
+    "prefiltered_count": 0,
+    "llm_window_count": 23,
+    "kept_count": 1,
+    "issue_count": 22
+  }
+}

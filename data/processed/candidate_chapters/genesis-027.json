@@ -1,0 +1,142 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 27,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-27-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And he came unto his father, and said, My father: and he said, Here am I; who art thou, my son?",
+        "riddle": "my son?",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֶל־אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי מִי אַתָּה בְּנִֽי",
+        "riddle": "מִי אַתָּה בְּנִֽי",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he came unto his father, and said, My father: and he said, Here am I; who art thou, my son?"
+        },
+        "he": {
+          "18": "וַיָּבֹא אֶל־אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי מִי אַתָּה בְּנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct question and identity.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-27-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And he said, Art thou my very son Esau? And he said, I am.",
+        "riddle": "Art thou my very son Esau?",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַתָּה זֶה בְּנִי עֵשָׂו וַיֹּאמֶר אָֽנִי",
+        "riddle": "אַתָּה זֶה בְּנִי עֵשָׂו",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And he said, Art thou my very son Esau? And he said, I am."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר אַתָּה זֶה בְּנִי עֵשָׂו וַיֹּאמֶר אָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-27-32-32",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau.",
+        "riddle": "Who art thou?",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ יִצְחָק אָבִיו מִי־אָתָּה וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו",
+        "riddle": "מִי־אָתָּה",
+        "speaker": "יִצְחָק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau."
+        },
+        "he": {
+          "32": "וַיֹּאמֶר לוֹ יִצְחָק אָבִיו מִי־אָתָּה וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct question and answer.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 32,
+        "end": 32
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 37,
+    "prefiltered_count": 0,
+    "llm_window_count": 37,
+    "kept_count": 3,
+    "issue_count": 34
+  }
+}

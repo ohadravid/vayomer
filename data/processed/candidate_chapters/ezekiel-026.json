@@ -1,0 +1,58 @@
+{
+  "book_code": "EZE",
+  "book": "Ezekiel",
+  "book_he": "יחזקאל",
+  "chapter": 26,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "ezekiel-26-05-05",
+      "source": {
+        "book_code": "EZE",
+        "book": "Ezekiel",
+        "book_he": "יחזקאל",
+        "chapter": 26,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "It shall be a place for the spreading of nets in the midst of the sea: for I have spoken it, saith the Lord GOD: and it shall become a spoil to the nations.",
+        "riddle": "saith the Lord GOD: and it shall become a spoil to the nations.",
+        "speaker": "Lord GOD",
+        "listener": "nations",
+        "book": "Ezekiel"
+      },
+      "he": {
+        "quote": "מִשְׁטַח חֲרָמִים תִּֽהְיֶה בְּתוֹךְ הַיָּם כִּי אֲנִי דִבַּרְתִּי נְאֻם אֲדֹנָי יְהוִה וְהָיְתָה לְבַז לַגּוֹיִֽם",
+        "riddle": "כִּי אֲנִי דִבַּרְתִּי נְאֻם אֲדֹנָי יְהוִה וְהָיְתָה לְבַז לַגּוֹיִֽם",
+        "speaker": "אֲדֹנָי יְהוִה",
+        "listener": "לַגּוֹיִֽם",
+        "book": "יחזקאל"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "It shall be a place for the spreading of nets in the midst of the sea: for I have spoken it, saith the Lord GOD: and it shall become a spoil to the nations."
+        },
+        "he": {
+          "5": "מִשְׁטַח חֲרָמִים תִּֽהְיֶה בְּתוֹךְ הַיָּם כִּי אֲנִי דִבַּרְתִּי נְאֻם אֲדֹנָי יְהוִה וְהָיְתָה לְבַז לַגּוֹיִֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains divine declaration and consequence.",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 26,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 16,
+    "prefiltered_count": 0,
+    "llm_window_count": 16,
+    "kept_count": 1,
+    "issue_count": 15
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-09-26-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And he said, Blessed be the LORD God of Shem; and Canaan shall be his servant.",
+        "riddle": "Blessed be the LORD God of Shem; and Canaan shall be his servant.",
+        "speaker": "Noah",
+        "listener": "God and Shem",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
+        "riddle": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
+        "speaker": "נח",
+        "listener": "אלוהים ושם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And he said, Blessed be the LORD God of Shem; and Canaan shall be his servant."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a memorable blessing.",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 11,
+    "prefiltered_count": 0,
+    "llm_window_count": 11,
+    "kept_count": 1,
+    "issue_count": 10
+  }
+}

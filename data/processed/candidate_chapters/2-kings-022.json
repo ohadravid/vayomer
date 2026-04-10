@@ -1,0 +1,60 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 22,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-22-10-11",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "And Shaphan the scribe shewed the king, saying, Hilkiah the priest hath delivered me a book. And Shaphan read it before the king. And it came to pass, when the king had heard the words of the book of the law, that he rent his clothes.",
+        "riddle": "And Shaphan the scribe shewed the king, saying, Hilkiah",
+        "speaker": "Shaphan",
+        "listener": "King",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה הַכֹּהֵן וַיִּקְרָאֵהוּ שָׁפָן לִפְנֵי הַמֶּֽלֶךְ וַֽיְהִי כִּשְׁמֹעַ הַמֶּלֶךְ אֶת־דִּבְרֵי סֵפֶר הַתּוֹרָה וַיִּקְרַע אֶת־בְּגָדָֽיו",
+        "riddle": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה",
+        "speaker": "שָׁפָן",
+        "listener": "הַמֶּֽלֶךְ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Shaphan the scribe shewed the king, saying, Hilkiah the priest hath delivered me a book. And Shaphan read it before the king.",
+          "11": "And it came to pass, when the king had heard the words of the book of the law, that he rent his clothes."
+        },
+        "he": {
+          "10": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה הַכֹּהֵן וַיִּקְרָאֵהוּ שָׁפָן לִפְנֵי הַמֶּֽלֶךְ׃",
+          "11": "וַֽיְהִי כִּשְׁמֹעַ הַמֶּלֶךְ אֶת־דִּבְרֵי סֵפֶר הַתּוֹרָה וַיִּקְרַע אֶת־בְּגָדָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains direct speech/announcement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 10,
+        "end": 11
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 14,
+    "prefiltered_count": 0,
+    "llm_window_count": 14,
+    "kept_count": 1,
+    "issue_count": 13
+  }
+}

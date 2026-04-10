@@ -1,0 +1,58 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 18,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-18-08-08",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And he answered him, I am: go, tell thy lord, Behold, Elijah is here.",
+        "riddle": "go, tell thy lord, Behold, Elijah is here.",
+        "speaker": "Obadiah",
+        "listener": "Messenger",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ אָנִי לֵךְ אֱמֹר לַאדֹנֶיךָ הִנֵּה אֵלִיָּֽהוּ",
+        "riddle": "לֵךְ אֱמֹר לַאדֹנֶיךָ הִנֵּה אֵלִיָּֽהוּ",
+        "speaker": "עובדיה",
+        "listener": "שליח",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he answered him, I am: go, tell thy lord, Behold, Elijah is here."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר לוֹ אָנִי לֵךְ אֱמֹר לַאדֹנֶיךָ הִנֵּה אֵלִיָּֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "Direct command and declaration.",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 43,
+    "prefiltered_count": 0,
+    "llm_window_count": 43,
+    "kept_count": 1,
+    "issue_count": 42
+  }
+}

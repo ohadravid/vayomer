@@ -1,0 +1,60 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 32,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-32-02-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me. And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron.",
+        "riddle": "Aaron said unto them, Break off the golden earrings",
+        "speaker": "Aaron",
+        "listener": "the people",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי וַיִּתְפָּֽרְקוּ כָּל־הָעָם אֶת־נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵיהֶם וַיָּבִיאוּ אֶֽל־אַהֲרֹֽן",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם",
+        "speaker": "אַהֲרֹן",
+        "listener": "הָעָם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.",
+          "3": "And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי׃",
+          "3": "וַיִּתְפָּֽרְקוּ כָּל־הָעָם אֶת־נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵיהֶם וַיָּבִיאוּ אֶֽל־אַהֲרֹֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "Contains a clear command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 2,
+        "end": 3
+      }
+    }
+  ],
+  "stats": {
+    "window_count": 30,
+    "prefiltered_count": 0,
+    "llm_window_count": 30,
+    "kept_count": 1,
+    "issue_count": 29
+  }
+}

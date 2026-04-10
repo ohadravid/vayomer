@@ -1,0 +1,83 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 15,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-15-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 15,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And the people murmured against Moses, saying, What shall we drink?",
+        "riddle": "What shall we drink?",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "murmured",
+        "bonus_hint": {
+          "quote": "And all the children of Israel murmured against Moses and against Aaron: and the whole congregation said unto them, Would God that we had died in the land of Egypt! or would God we had died in this wilderness!",
+          "source": {
+            "book": "Numbers",
+            "chapter": 14,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה",
+        "riddle": "מַה־נִּשְׁתֶּֽה",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּלֹּנוּ",
+        "bonus_hint": {
+          "quote": "וַיִּלֹּנוּ עַל־מֹשֶׁה וְעַֽל־אַהֲרֹן כֹּל בְּנֵי יִשְׂרָאֵל וַֽיֹּאמְרוּ אֲלֵהֶם כָּל־הָעֵדָה לוּ־מַתְנוּ בְּאֶרֶץ מִצְרַיִם אוֹ בַּמִּדְבָּר הַזֶּה לוּ־מָֽתְנוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 14,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the people murmured against Moses, saying, What shall we drink?"
+        },
+        "he": {
+          "24": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 24,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}
