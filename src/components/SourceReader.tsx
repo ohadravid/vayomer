@@ -143,16 +143,17 @@ export function SourceReader({ route, lang }: Props) {
     return (
       <section className="card reader-card">
         <div className="reader-topline">
+          <h2 className="reader-heading">
+            <span>{currentBook.en}</span>
+            <span lang="he" dir="rtl">
+              {currentBook.he}
+            </span>
+          </h2>
           <InternalLink className="reader-back-link" href={buildReaderPath()}>
             {t("reader.allBooks")}
           </InternalLink>
         </div>
-        <h2 className="reader-heading">
-          <span>{currentBook.en}</span>
-          <span lang="he" dir="rtl">
-            {currentBook.he}
-          </span>
-        </h2>
+
         <div className="reader-chapter-grid" id="readerChapterList">
           {chapters.map((chapter) => (
             <InternalLink
@@ -175,17 +176,17 @@ export function SourceReader({ route, lang }: Props) {
   return (
     <section className="card reader-card">
       <div className="reader-topline">
+        <h2 className="reader-heading">
+          <span>{chapterPayload.book}</span>
+          <span lang="he" dir="rtl">
+            {chapterPayload.book_he}
+          </span>
+          <span className="reader-heading-chapter">{t("reader.chapterLabel", { chapter: chapterPayload.chapter })}</span>
+        </h2>
         <InternalLink className="reader-back-link" href={buildReaderHref({ lang, bookSlug: chapterPayload.slug })}>
           {t("reader.backToChapters")}
         </InternalLink>
       </div>
-      <h2 className="reader-heading">
-        <span>{chapterPayload.book}</span>
-        <span lang="he" dir="rtl">
-          {chapterPayload.book_he}
-        </span>
-        <span className="reader-heading-chapter">{t("reader.chapterLabel", { chapter: chapterPayload.chapter })}</span>
-      </h2>
       <div className="reader-verse-list" id="readerVerseList">
         {chapterPayload.verses.map((verse) => (
           <article className="reader-verse" id={`v${verse.verse}`} key={verse.verse}>

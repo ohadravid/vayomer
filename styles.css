@@ -461,12 +461,8 @@ body[dir="rtl"] .bonus-hint-quote {
   visibility: visible;
 }
 
-.reader-card {
-  gap: var(--s3);
-}
-
 .reader-topline {
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -491,7 +487,6 @@ body[dir="rtl"] .bonus-hint-quote {
 }
 
 .reader-heading-chapter {
-  color: var(--muted);
   font-size: var(--fs-base);
 }
 
@@ -556,10 +551,6 @@ body[dir="rtl"] .bonus-hint-quote {
   grid-template-columns: 2.25rem minmax(0, 1fr) minmax(0, 1fr);
   gap: var(--s1);
   align-items: start;
-  padding: var(--s1);
-  border: 1px solid var(--border);
-  border-radius: var(--r);
-  scroll-margin-top: 1rem;
 }
 
 .reader-verse:target {
@@ -581,7 +572,6 @@ body[dir="rtl"] .bonus-hint-quote {
 
 .reader-verse-text-he {
   font-family: var(--font-hebrew-quote);
-  text-align: end;
 }
 
 .form-row.secondary.bonus-visible.with-bonus-hint {
