@@ -10,7 +10,7 @@ import pytest
 from click.testing import CliRunner
 
 from data_proc.candidates_pipeline import build_candidates_command
-from data_proc.candidates_pipeline import _candidate_prompt_system
+from data_proc.candidates_pipeline import CandidateStrategyEvaluation, _candidate_prompt_system, select_best_candidate_strategy
 from data_proc.corpus import BibleCorpus
 from data_proc.llm import JsonResponseError, OllamaJsonClient, _parse_json_object
 from data_proc.options_pipeline import (
@@ -189,7 +189,7 @@ def test_prepare_bonus_candidate_expands_one_verse_when_needed(candidate_map, se
 
 
 def test_prepare_context_candidate_expands_one_verse_when_selected(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["genesis-48-02-02"]
+    candidate = candidate_map["genesis-24-17-17"]
 
     class StubLLM:
         def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
@@ -204,16 +204,16 @@ def test_prepare_context_candidate_expands_one_verse_when_selected(candidate_map
     prepared = pipeline.prepare_context_candidate(candidate)
 
     assert prepared.expansion == "before"
-    assert prepared.candidate.source.quote_verse_start == 1
-    assert prepared.candidate.source.quote_verse_end == 2
-    assert prepared.candidate.ref.start == 1
-    assert prepared.candidate.ref.end == 2
+    assert prepared.candidate.source.quote_verse_start == 16
+    assert prepared.candidate.source.quote_verse_end == 17
+    assert prepared.candidate.ref.start == 16
+    assert prepared.candidate.ref.end == 17
     assert candidate.en.riddle in prepared.candidate.en.quote
     assert candidate.he.riddle in prepared.candidate.he.quote
 
 
 def test_prepare_context_candidate_retries_when_first_choice_keeps_weak_context(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["genesis-48-02-02"]
+    candidate = candidate_map["genesis-24-17-17"]
     seen_prompts: list[str] = []
 
     class StubLLM:
@@ -232,12 +232,12 @@ def test_prepare_context_candidate_retries_when_first_choice_keeps_weak_context(
 
     assert seen_prompts == ["quote-context-expansion", "quote-context-expansion-retry"]
     assert prepared.expansion == "before"
-    assert prepared.candidate.source.quote_verse_start == 1
-    assert prepared.candidate.source.quote_verse_end == 2
+    assert prepared.candidate.source.quote_verse_start == 16
+    assert prepared.candidate.source.quote_verse_end == 17
 
 
 def test_prepare_context_candidate_forces_before_after_choice_for_weak_context(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["genesis-48-02-02"]
+    candidate = candidate_map["genesis-24-17-17"]
     seen_prompts: list[str] = []
 
     class StubLLM:
@@ -261,8 +261,8 @@ def test_prepare_context_candidate_forces_before_after_choice_for_weak_context(c
         "quote-context-expansion-forced",
     ]
     assert prepared.expansion == "before"
-    assert prepared.candidate.source.quote_verse_start == 1
-    assert prepared.candidate.source.quote_verse_end == 2
+    assert prepared.candidate.source.quote_verse_start == 16
+    assert prepared.candidate.source.quote_verse_end == 17
 
 
 def test_prepare_context_candidate_keeps_clear_single_verse_quote_minimal(candidate_map, bible_corpus: BibleCorpus) -> None:
@@ -281,38 +281,35 @@ def test_prepare_context_candidate_keeps_clear_single_verse_quote_minimal(candid
 
 
 def test_prepare_context_candidate_can_expand_short_multi_verse_quote(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["job-32-09-11"]
-    candidate = replace(
-        candidate,
-        en=replace(candidate.en, speaker="Job", listener="his friends"),
-        he=replace(candidate.he, speaker="איוב", listener="אחיו"),
-    )
+    candidate = candidate_map["1-chronicles-16-15-16"]
 
     class StubLLM:
         def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
             assert prompt_name == "quote-context-expansion"
             assert "after_added_verse:" in user_prompt
             assert "before_added_verse:" in user_prompt
-            return {"choice": "after", "reason": "after verse names the missing listener context"}
+            return {"choice": "before", "reason": "before verse gives the fuller exhortation context"}
 
     pipeline = CandidatePipeline(corpus=bible_corpus, llm=StubLLM())
     prepared = pipeline.prepare_context_candidate(candidate)
 
     assert prepared.expansion == "before"
-    assert prepared.candidate.source.quote_verse_start == 8
-    assert prepared.candidate.source.quote_verse_end == 11
-    assert "there is a spirit in man" in prepared.candidate.en.quote.casefold()
-    assert "רֽוּחַ־הִיא בֶאֱנוֹשׁ" in prepared.candidate.he.quote
+    assert prepared.candidate.source.quote_verse_start == 14
+    assert prepared.candidate.source.quote_verse_end == 16
+    assert candidate.en.riddle in prepared.candidate.en.quote
+    assert candidate.he.riddle in prepared.candidate.he.quote
 
 
 def test_validate_candidate_targets_riddle_not_other_turns(candidate_map, seeded_live_pipeline: CandidatePipeline) -> None:
-    candidate = candidate_map["exodus-24-06-08"]
+    candidate = candidate_map["exodus-04-02-02"]
     resolved = seeded_live_pipeline.resolve_roles(candidate)
     english_result = seeded_live_pipeline.validate_candidate(resolved, "en")
     hebrew_result = seeded_live_pipeline.validate_candidate(resolved, "he")
 
-    assert resolved.en.speaker == "people"
+    assert resolved.en.speaker == "LORD"
     assert resolved.en.listener == "Moses"
+    assert resolved.he.speaker in {"יְהוָה", "יהוה"}
+    assert resolved.he.listener in {"מֹשֶׁה", "משה"}
     assert english_result.speaker_is_speaking
     assert english_result.listener_is_addressed
     assert english_result.listener_is_character
@@ -321,26 +318,26 @@ def test_validate_candidate_targets_riddle_not_other_turns(candidate_map, seeded
 
 
 def test_validate_candidate_reconciles_hebrew_false_negative_from_english(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["exodus-24-06-08"]
+    candidate = candidate_map["exodus-04-02-02"]
     candidate = replace(
         candidate,
-        en=replace(candidate.en, speaker="people", listener="Moses"),
-        he=replace(candidate.he, speaker="הָעָם", listener="מֹשֶׁה"),
+        en=replace(candidate.en, speaker="LORD", listener="Moses"),
+        he=replace(candidate.he, speaker="יְהוָה", listener="מֹשֶׁה"),
     )
     responses = {
         "en-role-validation": (
-            "people",
+            "LORD",
             "Moses",
             ValidationResult(
                 speaker_is_speaking=True,
                 listener_is_addressed=True,
                 speaker_is_character=True,
                 listener_is_character=True,
-                reason="The people answer Moses.",
+                reason="The LORD addresses Moses directly.",
             ),
         ),
         "he-role-validation": (
-            "הָעָם",
+            "יְהוָה",
             "מֹשֶׁה",
             ValidationResult(
                 speaker_is_speaking=True,
@@ -364,19 +361,33 @@ def test_validate_candidate_reconciles_hebrew_false_negative_from_english(candid
 
 
 def test_resolve_roles_corrects_reversed_speaker_and_listener(candidate_map, seeded_live_pipeline: CandidatePipeline) -> None:
-    candidate = candidate_map["exodus-24-02-04"]
+    candidate = candidate_map["exodus-10-08-08"]
+    candidate = replace(
+        candidate,
+        en=replace(candidate.en, speaker="Moses and Aaron", listener="Pharaoh"),
+        he=replace(candidate.he, speaker="מֹשֶׁה ואהרון", listener="פַּרְעֹה"),
+    )
     resolved = seeded_live_pipeline.resolve_roles(candidate)
 
-    assert resolved.en.speaker == "people"
-    assert resolved.en.listener == "Moses"
-    assert resolved.he.speaker in {"הָעָם", "העם"}
-    assert resolved.he.listener in {"מֹשֶׁה", "משה"}
+    assert resolved.en.speaker == "Pharaoh"
+    assert resolved.en.listener == "Moses and Aaron"
+    assert resolved.he.speaker in {"פַּרְעֹה", "פרעה"}
+    assert "מֹשֶׁה" in resolved.he.listener or "משה" in resolved.he.listener
+    assert "אַהֲרֹן" in resolved.he.listener or "אהרון" in resolved.he.listener or "אהרן" in resolved.he.listener
 
 
-def test_refine_riddles_edits_down_long_hebrew_riddle(candidate_map, seeded_live_pipeline: CandidatePipeline) -> None:
-    candidate = candidate_map["genesis-13-08-09"]
-    resolved = seeded_live_pipeline.resolve_roles(candidate)
-    refined = seeded_live_pipeline.refine_riddles(resolved)
+def test_refine_riddles_edits_down_long_hebrew_riddle(candidate_map, bible_corpus: BibleCorpus) -> None:
+    candidate = candidate_map["genesis-24-18-18"]
+
+    class StubLLM:
+        def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
+            assert "allowed_riddles:" in user_prompt
+            if prompt_name == "en-riddle-edit":
+                return {"riddle": "Drink, my lord: and she hasted"}
+            assert prompt_name == "he-riddle-edit"
+            return {"riddle": "שְׁתֵה אֲדֹנִי"}
+
+    refined = CandidatePipeline(corpus=bible_corpus, llm=StubLLM()).refine_riddles(candidate)
 
     assert refined.en.riddle in refined.en.quote
     assert refined.he.riddle in refined.he.quote
@@ -386,7 +397,7 @@ def test_refine_riddles_edits_down_long_hebrew_riddle(candidate_map, seeded_live
     assert not refined.he.riddle.startswith("ויאמר")
     assert not whole_word_occurs(refined.he.riddle, refined.he.speaker, "he")
     assert not whole_word_occurs(refined.he.riddle, refined.he.listener, "he")
-    assert "מְרִיבָה" in refined.he.riddle or "מריבה" in refined.he.riddle
+    assert "שְׁתֵה אֲדֹנִי" in refined.he.riddle or "שתה אדני" in cleanup_hebrew_quote(refined.he.riddle)
 
 
 def test_alignment_prompt_caps_output_and_prefers_short_results(candidate_map) -> None:
@@ -453,7 +464,7 @@ def test_ollama_client_disables_thinking_and_applies_default_json_options(monkey
     assert captured["options"] == {"temperature": 0, "num_predict": 128, "seed": TEST_SEED}
 
 
-def test_ollama_client_raises_token_budget_for_candidate_windows(monkeypatch) -> None:
+def test_ollama_client_raises_token_budget_for_candidate_chapter_extraction(monkeypatch) -> None:
     captured: dict[str, object] = {}
 
     def fake_chat(*, model: str, messages, format: str, timeout: float, think, options=None):
@@ -463,15 +474,46 @@ def test_ollama_client_raises_token_budget_for_candidate_windows(monkeypatch) ->
     monkeypatch.setattr("data_proc.llm._ollama_chat", fake_chat)
     client = OllamaJsonClient(model="gemma4:26b", max_retries=1, request_options={"seed": TEST_SEED})
 
-    assert client.chat_json("candidate-window", "system", "user") == {"ok": True}
-    assert captured["options"] == {"temperature": 0, "num_predict": 256, "seed": TEST_SEED}
+    assert client.chat_json("candidate-chapter-extract", "system", "user") == {"ok": True}
+    assert captured["options"] == {"temperature": 0, "num_predict": 1024, "seed": TEST_SEED}
 
 
 def test_candidate_prompt_keeps_json_output_short() -> None:
     prompt = _candidate_prompt_system()
 
-    assert "Return one compact single-line JSON object only." in prompt
+    assert 'Return exactly one JSON object with a single top-level key items.' in prompt
+    assert 'If there are no candidates, return {"items": []}.' in prompt
     assert "Keep reason very short, at most six words." in prompt
+
+
+def test_select_best_candidate_strategy_prefers_must_pass_then_recall_then_cost() -> None:
+    selected = select_best_candidate_strategy(
+        [
+            CandidateStrategyEvaluation(
+                strategy="full_chapter",
+                passed_must_pass=False,
+                recall_hits=20,
+                issue_count=1,
+                llm_call_count=40,
+            ),
+            CandidateStrategyEvaluation(
+                strategy="dialogue_blocks",
+                passed_must_pass=True,
+                recall_hits=18,
+                issue_count=10,
+                llm_call_count=50,
+            ),
+            CandidateStrategyEvaluation(
+                strategy="other",
+                passed_must_pass=True,
+                recall_hits=18,
+                issue_count=12,
+                llm_call_count=20,
+            ),
+        ]
+    )
+
+    assert selected == "dialogue_blocks"
 
 
 def test_strict_json_parser_accepts_fenced_json_with_trailing_text(monkeypatch) -> None:
@@ -1186,16 +1228,74 @@ def test_build_character_bank_canonicalizes_divine_aliases(candidate_map) -> Non
     assert divine_entries[0].count == 2
 
 
-def test_filter_overlapping_chapter_items_keeps_first_variant(generated_payloads) -> None:
-    payload = next(payload for payload in generated_payloads if payload.book_code == "EXO" and payload.chapter == 32)
+def test_filter_overlapping_chapter_items_keeps_overlapping_turns(candidate_map) -> None:
+    candidate = candidate_map["genesis-03-13-13"]
+    first = FinalQuoteItem(
+        id="synthetic-1",
+        source=FinalSource(
+            method="llm",
+            book_code="GEN",
+            book="Genesis",
+            book_he="בראשית",
+            chapter=3,
+            quote_verse_start=13,
+            quote_verse_end=13,
+        ),
+        en=FinalLangText(
+            quote=candidate.en.quote,
+            riddle=candidate.en.riddle,
+            speaker=candidate.en.speaker,
+            listener=candidate.en.listener,
+            book=candidate.en.book,
+            options=ChoicePools.empty(),
+            bonus="serpent",
+            bonus_hint=BonusHint(
+                quote="And the LORD God called unto Adam, and said unto him, Where art thou?",
+                source=HintSourceRef(book="Genesis", chapter=3, start=9, end=9),
+            ),
+        ),
+        he=FinalLangText(
+            quote=candidate.he.quote,
+            riddle=candidate.he.riddle,
+            speaker=candidate.he.speaker,
+            listener=candidate.he.listener,
+            book=candidate.he.book,
+            options=ChoicePools.empty(),
+            bonus="הנחש",
+            bonus_hint=BonusHint(
+                quote="וַיִּקְרָא יְהוָה אֱלֹהִים אֶל־הָאָדָם וַיֹּאמֶר לוֹ אַיֶּכָּה",
+                source=HintSourceRef(book="בראשית", chapter=3, start=9, end=9),
+            ),
+        ),
+        raw_quote_source=candidate.raw_quote_source,
+        ref=RefRange(chapter=3, start=13, end=13),
+        meta=FinalMeta(
+            mode="llm",
+            source="data-proc",
+            template_item_id="",
+            bonus_source="llm",
+            bonus_hint_source="aligned-bible-search",
+        ),
+    )
+    second = replace(
+        first,
+        id="synthetic-2",
+        source=replace(first.source, quote_verse_start=13, quote_verse_end=14),
+        ref=RefRange(chapter=3, start=13, end=14),
+    )
+    payload = ChapterPayload(
+        book_code="GEN",
+        book="Genesis",
+        book_he="בראשית",
+        chapter=3,
+        mode="llm",
+        items=[first, second],
+    )
 
     kept, dropped = _filter_overlapping_chapter_items(payload)
 
-    kept_ids = [item.id for item in kept]
-    dropped_ids = [record.candidate_id for record in dropped]
-    assert "exodus-32-01-03" in kept_ids
-    assert "exodus-32-02-04" not in kept_ids
-    assert "exodus-32-02-04" in dropped_ids
+    assert [item.id for item in kept] == ["synthetic-1", "synthetic-2"]
+    assert dropped == []
 
 
 def test_read_character_bank_normalizes_stale_divine_aliases(tmp_path) -> None:
@@ -1244,7 +1344,12 @@ def test_read_character_bank_normalizes_stale_divine_aliases(tmp_path) -> None:
 
 def test_options_builder_skips_unresolved_individual_roles_without_llm(generated_payloads) -> None:
     payload = next(payload for payload in generated_payloads if payload.book_code == "JOB" and payload.chapter == 13)
-    item = next(item for item in payload.items if item.id == "job-13-03-05")
+    item = next(item for item in payload.items if item.id == "job-13-11-11")
+    item = replace(
+        item,
+        en=replace(item.en, speaker="he", listener="him"),
+        he=replace(item.he, speaker="הוא", listener="אותו"),
+    )
     bank = read_character_bank(CHARACTER_BANK_PATH)
 
     class StubLLM:

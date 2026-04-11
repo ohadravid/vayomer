@@ -1359,26 +1359,7 @@ def _items_are_overlapping_variants(first: FinalQuoteItem, second: FinalQuoteIte
 
 
 def _filter_overlapping_chapter_items(payload: ChapterPayload) -> tuple[list[FinalQuoteItem], list[DropRecord]]:
-    kept: list[FinalQuoteItem] = []
-    dropped: list[DropRecord] = []
-    for item in sorted(payload.items, key=lambda value: (value.ref.start, value.ref.end, value.id)):
-        overlap = next((existing for existing in kept if _items_are_overlapping_variants(existing, item)), None)
-        if overlap is None:
-            kept.append(item)
-            continue
-        dropped.append(
-            DropRecord(
-                candidate_id=item.id,
-                book_code=item.source.book_code,
-                chapter=item.source.chapter,
-                start=item.ref.start,
-                end=item.ref.end,
-                stage="dedupe",
-                reason="overlapping_quote_variant",
-                detail=f"Earlier overlapping item kept as {overlap.id}",
-            )
-        )
-    return kept, dropped
+    return sorted(payload.items, key=lambda value: (value.ref.start, value.ref.end, value.id)), []
 
 
 def run_build_options(

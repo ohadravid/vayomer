@@ -192,7 +192,11 @@ class OllamaJsonClient:
         if prompt_name == "candidate-window":
             options["num_predict"] = 256
         elif prompt_name == "candidate-window-batch":
-            options["num_predict"] = 512
+            options["num_predict"] = 1024
+        elif prompt_name == "candidate-chapter-extract":
+            options["num_predict"] = 1024
+        elif prompt_name in {"candidate-hebrew-projection", "candidate-hebrew-projection-retry"}:
+            options["num_predict"] = 256
         if self.request_options:
             options.update(self.request_options)
         return options

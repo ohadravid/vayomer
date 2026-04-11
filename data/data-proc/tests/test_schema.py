@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from data_proc.schema import (
     BonusHint,
+    CandidateSource,
     ChapterPayload,
     CharacterBank,
     CharacterBankEntry,
@@ -20,7 +21,9 @@ def test_candidate_schema_deserializes_representative_line(candidate_map) -> Non
 
     assert item.source.book_code == "GEN"
     assert item.en.quote == "And the LORD God called unto Adam, and said unto him, Where art thou?"
-    assert item.he.listener == "הָֽאָדָם"
+    assert item.he.listener == "אדם"
+    assert item.source.speaker_mention_verse is None
+    assert item.source.listener_mention_verse is None
 
     serialized = item.to_dict()
     assert "options" not in serialized["en"]
@@ -93,6 +96,26 @@ def test_final_chapter_payload_serializes_exact_output_shape(candidate_map) -> N
 
     reparsed = ChapterPayload.from_dict(serialized)
     assert reparsed == payload
+
+
+def test_candidate_source_round_trips_optional_mention_verses() -> None:
+    payload = {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7,
+    }
+
+    parsed = CandidateSource.from_dict(payload)
+
+    assert parsed.speaker_mention_verse == 7
+    assert parsed.listener_mention_verse == 7
+    assert parsed.to_dict()["speaker_mention_verse"] == 7
+    assert parsed.to_dict()["listener_mention_verse"] == 7
 
 
 def test_final_lang_text_parses_legacy_empty_list_options() -> None:

@@ -4,7 +4,8 @@ import json
 import logging
 import os
 import re
-from dataclasses import dataclass
+from difflib import SequenceMatcher
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Iterable
 
@@ -18,6 +19,7 @@ from data_proc.pipeline import (
     _canonical_book_filter,
     _chapter_sort_key,
     _normalized_riddle_key,
+    _project_hebrew_substring_to_original,
 )
 from data_proc.schema import CandidateItem, CandidateMeta, CandidateSource, CandidateLangText, DropRecord, RawQuoteSource, RefRange
 from data_proc.utils import bible_sources
@@ -130,16 +132,72 @@ class CandidateChapterShard:
 
 
 @dataclass(frozen=True)
-class CandidateDecision:
-    keep: bool
+class CandidateSpec:
+    quote_verse_start: int
+    quote_verse_end: int
+    speaker_mention_verse: int | None
+    listener_mention_verse: int | None
     en_riddle: str
-    he_riddle: str
     en_speaker: str
     en_listener: str
-    he_speaker: str
-    he_listener: str
     reason: str
     confidence: float
+
+
+@dataclass(frozen=True)
+class HebrewProjection:
+    keep: bool
+    he_riddle: str
+    he_speaker: str
+    he_listener: str
+
+
+@dataclass(frozen=True)
+class CandidateStrategyEvaluation:
+    strategy: str
+    passed_must_pass: bool
+    recall_hits: int
+    issue_count: int
+    llm_call_count: int
+
+
+MINIMAL_CANDIDATE_BOOK_CODES = (
+    "GEN",
+    "EXO",
+    "LEV",
+    "NUM",
+    "DEU",
+    "JOS",
+    "JDG",
+    "1SA",
+    "2SA",
+    "1KI",
+    "2KI",
+)
+FULL_CHAPTER_STRATEGY = "full_chapter"
+DIALOGUE_BLOCKS_STRATEGY = "dialogue_blocks"
+PRODUCTION_CANDIDATE_EXTRACTION_STRATEGY = DIALOGUE_BLOCKS_STRATEGY
+SHORT_RIDDLE_WORD_THRESHOLD = 3
+BLOCK_CONTEXT_BEFORE = 2
+BLOCK_CONTEXT_AFTER = 1
+BLOCK_MAX_VERSES = 8
+BLOCK_OVERLAP_VERSES = 1
+
+
+def select_best_candidate_strategy(evaluations: Iterable[CandidateStrategyEvaluation]) -> str:
+    ordered = sorted(
+        evaluations,
+        key=lambda evaluation: (
+            not evaluation.passed_must_pass,
+            -evaluation.recall_hits,
+            evaluation.issue_count,
+            evaluation.llm_call_count,
+            evaluation.strategy,
+        ),
+    )
+    if not ordered:
+        raise ValueError("No candidate strategy evaluations were provided")
+    return ordered[0].strategy
 
 
 def _slugify_book_name(name: str) -> str:
@@ -220,18 +278,24 @@ def _read_all_candidate_shards(shard_dir: Path) -> list[CandidateChapterShard]:
 
 def _candidate_prompt_system() -> str:
     return (
-        "You evaluate one bilingual Bible quote window as a possible riddle candidate. "
-        "Be high recall: keep plausible direct speech, memorable questions, commands, warnings, blessings, and vivid declarations even if the listener is only implicit. "
-        "Drop only when the window is mostly narration, structurally broken, or lacks a memorable speech core. "
-        "Single-verse direct questions or direct speech should usually be kept. "
-        "Return JSON only with keys keep, en_riddle, he_riddle, en_speaker, en_listener, he_speaker, he_listener, reason, confidence. "
-        "keep must be a boolean. confidence must be a number between 0 and 1. "
-        "Return one compact single-line JSON object only. "
-        "Use only exact strings from en_riddle_candidates and he_riddle_candidates when keep is true. "
-        "Prefer concise core utterances and avoid reporting clauses when a cleaner candidate exists. Prefer the smallest window that already contains the memorable speech. "
+        "You extract Bible riddle candidates from English verses only. "
+        "Be high recall for direct speech, questions, commands, replies, warnings, blessings, and vivid declarations. "
+        "Drop narration, indirect reports without a memorable speech core, and obvious self-talk. "
+        "Return exactly one JSON object with a single top-level key items. "
+        'If there are no candidates, return {"items": []}. '
+        "Do not return a bare array. Do not use markdown fences. Do not add any keys other than items at the top level. "
+        "Each object must have exactly these keys: quote_verse_start, quote_verse_end, speaker_mention_verse, listener_mention_verse, en_riddle, en_speaker, en_listener, reason, confidence. "
+        "quote_verse_start and quote_verse_end must be integers. speaker_mention_verse and listener_mention_verse must be integers or null. confidence must be a number between 0 and 1. "
+        "quote_verse_start..quote_verse_end must be the minimal verse span of the speech turn itself, not the setup verses. "
+        "speaker_mention_verse and listener_mention_verse may point to nearby provided verses that name the same roles more clearly; use null when the quote verses already provide enough context. "
+        "en_riddle must be an exact substring of the English quote built from quote_verse_start..quote_verse_end. "
+        "Copy en_riddle character-for-character from the provided verse text. Do not paraphrase. Do not modernize spelling. Keep words like ye, thou, hath, and midwife exactly as written. "
+        "If the spoken core is shorter than 3 words, expand en_riddle to an exact substring that begins with the speech and may include immediate trailing narrative from the same verse for better UX. "
         "Use short concrete names or group labels for speakers and listeners when possible. "
+        "Do not output duplicate items or overlapping variants of the same speech core. "
         "Keep reason very short, at most six words. "
-        "If keep is false, return empty strings for all riddle and role fields."
+        "Return items in verse order. "
+        'Output shape example: {"items":[{"quote_verse_start":7,"quote_verse_end":7,"speaker_mention_verse":null,"listener_mention_verse":null,"en_riddle":"Shall I go and call thee a nurse","en_speaker":"sister","en_listener":"Pharaoh\'s daughter","reason":"direct question","confidence":0.92}]}.'
     )
 
 
@@ -239,22 +303,23 @@ def _display_hebrew_candidates(candidates: list[str]) -> tuple[list[str], dict[s
     display_map: dict[str, str] = {}
     display_candidates: list[str] = []
     for candidate in candidates:
-        display = strip_hebrew_marks(cleanup_hebrew_quote(candidate))
-        if not display or display in display_map:
+        normalized_display = strip_hebrew_marks(cleanup_hebrew_quote(candidate))
+        display = cleanup_hebrew_quote(candidate)
+        if not normalized_display or normalized_display in display_map:
             continue
-        display_map[display] = candidate
+        display_map[normalized_display] = candidate
         display_candidates.append(display)
     return display_candidates, display_map
 
 
-def _candidate_prompt_user(window: RangeQuote, *, en_riddle_candidates: list[str], he_riddle_candidates: list[str]) -> str:
+def _candidate_prompt_user(*, book: str, chapter: int, verses: list[dict[str, object]]) -> str:
     return (
-        f"ref: {window.book_en} {window.chapter}:{window.start}-{window.end}\n"
-        f"english_quote: {window.en_quote}\n"
-        f"hebrew_quote: {strip_hebrew_marks(window.he_quote)}\n"
-        f"en_riddle_candidates: {en_riddle_candidates}\n"
-        f"he_riddle_candidates: {he_riddle_candidates}\n"
-        "Return the best candidate or keep=false."
+        f"ref: {book} {chapter}\n"
+        f"english_verses: {json.dumps(verses, ensure_ascii=False)}\n"
+        "Use only the provided verse numbers.\n"
+        'Return exactly one JSON object shaped like {"items":[...]}.\n'
+        "Never wrap the response in markdown.\n"
+        "Every candidate must use verse numbers from the provided verses only."
     )
 
 
@@ -271,6 +336,245 @@ def _validate_confidence(value: object) -> float:
     except (TypeError, ValueError):
         return 0.0
     return max(0.0, min(1.0, confidence))
+
+
+def _coerce_optional_verse(value: object, available_verses: set[int]) -> int | None:
+    if value in (None, "", 0):
+        return None
+    try:
+        verse = int(value)
+    except (TypeError, ValueError) as exc:
+        raise ValueError(f"invalid mention verse {value!r}") from exc
+    if verse not in available_verses:
+        raise ValueError(f"mention verse {verse} is outside the provided verses")
+    return verse
+
+
+def _quote_text_from_source(raw_source: dict[str, str], start: int, end: int) -> str:
+    return clean_text(" ".join(raw_source[str(verse)] for verse in range(start, end + 1)))
+
+
+def _english_similarity_score(target: str, candidate: str) -> tuple[float, int]:
+    target_tokens = {normalize_word(token, "en") for token in clean_text(target).split()}
+    candidate_tokens = {normalize_word(token, "en") for token in clean_text(candidate).split()}
+    target_tokens.discard("")
+    candidate_tokens.discard("")
+    shared = target_tokens & candidate_tokens
+    if not shared:
+        return 0.0, 0
+    overlap = len(shared) / max(len(target_tokens | candidate_tokens), 1)
+    seq = SequenceMatcher(None, clean_text(target).casefold(), clean_text(candidate).casefold()).ratio()
+    return (overlap * 0.7) + (seq * 0.3), len(shared)
+
+
+def _align_english_riddle_to_quote(quote: str, riddle: str) -> str:
+    cleaned_quote = clean_text(quote)
+    cleaned_riddle = clean_text(riddle)
+    if not cleaned_riddle:
+        return ""
+    if cleaned_riddle in cleaned_quote:
+        return cleaned_riddle
+
+    preferred_word_count = len(cleaned_riddle.split()) or None
+    seen: set[str] = set()
+    best_candidate = ""
+    best_score = 0.0
+    best_shared = 0
+    candidate_pool = list(
+        candidate_riddle_spans(
+            cleaned_quote,
+            "en",
+            preferred_word_count=preferred_word_count,
+            max_candidates=24,
+        )
+    )
+    quote_tokens = cleaned_quote.split()
+    if quote_tokens:
+        min_words = max(1, (preferred_word_count or 1) - 2)
+        max_words = min(len(quote_tokens), (preferred_word_count or len(quote_tokens)) + 3)
+        for window_size in range(min_words, max_words + 1):
+            for start_index in range(0, len(quote_tokens) - window_size + 1):
+                candidate_pool.append(" ".join(quote_tokens[start_index : start_index + window_size]))
+
+    for candidate in candidate_pool:
+        cleaned_candidate = clean_text(candidate)
+        if not cleaned_candidate or cleaned_candidate in seen:
+            continue
+        seen.add(cleaned_candidate)
+        score, shared = _english_similarity_score(cleaned_riddle, cleaned_candidate)
+        if (score, shared, -len(cleaned_candidate)) > (best_score, best_shared, -len(best_candidate)):
+            best_candidate = cleaned_candidate
+            best_score = score
+            best_shared = shared
+
+    if best_candidate and (
+        (best_score >= 0.72 and best_shared >= 2)
+        or (best_score >= 0.62 and best_shared >= 4)
+    ):
+        return best_candidate
+    return ""
+
+
+def _maybe_expand_short_english_riddle(quote: str, riddle: str) -> str:
+    cleaned_quote = clean_text(quote)
+    cleaned_riddle = clean_text(riddle)
+    if len(cleaned_riddle.split()) >= SHORT_RIDDLE_WORD_THRESHOLD:
+        return cleaned_riddle
+    start = cleaned_quote.find(cleaned_riddle)
+    if start < 0:
+        return cleaned_riddle
+    expanded = clean_text(cleaned_quote[start:])
+    if len(expanded.split()) <= 28:
+        return expanded
+    return cleaned_riddle
+
+
+def _candidate_specs_from_payload(
+    payload: dict,
+    *,
+    block: RangeQuote,
+) -> tuple[list[CandidateSpec], list[str]]:
+    items = payload.get("items")
+    if not isinstance(items, list):
+        raise ValueError("items must be a list")
+
+    available_verses = {int(key) for key in block.raw_quote_source["en"]}
+    specs: list[CandidateSpec] = []
+    errors: list[str] = []
+    seen_keys: set[tuple[int, int, str]] = set()
+    for index, item in enumerate(items):
+        if not isinstance(item, dict):
+            errors.append(f"item {index}: must be an object")
+            continue
+        try:
+            start = int(item["quote_verse_start"])
+            end = int(item["quote_verse_end"])
+            if start > end:
+                raise ValueError("start is after end")
+            if any(verse not in available_verses for verse in range(start, end + 1)):
+                raise ValueError("quote verse range is outside the provided verses")
+            quote = _quote_text_from_source(block.raw_quote_source["en"], start, end)
+            raw_riddle = clean_text(str(item["en_riddle"]))
+            if not raw_riddle:
+                raise ValueError("en_riddle is empty")
+            aligned_riddle = _align_english_riddle_to_quote(quote, raw_riddle)
+            if not aligned_riddle:
+                raise ValueError("en_riddle is not an exact substring of the quote")
+            raw_speaker = item.get("en_speaker")
+            raw_listener = item.get("en_listener")
+            speaker = clean_text(raw_speaker) if isinstance(raw_speaker, str) else ""
+            listener = clean_text(raw_listener) if isinstance(raw_listener, str) else ""
+            if not speaker or not listener:
+                raise ValueError("speaker or listener is empty")
+            riddle = _maybe_expand_short_english_riddle(quote, aligned_riddle)
+            if riddle not in quote:
+                raise ValueError("expanded en_riddle is not an exact substring of the quote")
+            spec = CandidateSpec(
+                quote_verse_start=start,
+                quote_verse_end=end,
+                speaker_mention_verse=_coerce_optional_verse(item.get("speaker_mention_verse"), available_verses),
+                listener_mention_verse=_coerce_optional_verse(item.get("listener_mention_verse"), available_verses),
+                en_riddle=riddle,
+                en_speaker=speaker,
+                en_listener=listener,
+                reason=clean_text(str(item.get("reason", ""))),
+                confidence=_validate_confidence(item.get("confidence")),
+            )
+        except (KeyError, TypeError, ValueError) as exc:
+            errors.append(f"item {index}: {exc}")
+            continue
+        dedupe_key = (spec.quote_verse_start, spec.quote_verse_end, _normalized_riddle_key(spec.en_riddle, "en"))
+        if dedupe_key in seen_keys:
+            continue
+        seen_keys.add(dedupe_key)
+        specs.append(spec)
+    return specs, errors
+
+
+def _candidate_hebrew_projection_system() -> str:
+    return (
+        "You align one English Bible riddle candidate to Hebrew from the same verses. "
+        "Return exactly one JSON object with keys keep, he_riddle, he_speaker, he_listener. "
+        "keep must be a boolean. "
+        "If keep is true, he_riddle must be exactly one string from he_riddle_candidates. "
+        "Copy he_riddle character-for-character from he_riddle_candidates. Do not paraphrase it. "
+        "Return the Hebrew speaker and listener for the same roles as the English speaker and listener. "
+        "he_speaker and he_listener must be Hebrew strings taken from the Hebrew quote or Hebrew supporting context, never English or transliteration. "
+        "Use short concrete Hebrew names or Hebrew group labels, not pronouns or reporting clauses. "
+        "If the English riddle starts with a one- or two-word speech and then keeps trailing narrative, choose the Hebrew exact substring for that same speech turn and trailing context. "
+        "If the Hebrew quote does not contain the same speech turn, set keep to false and return empty strings."
+    )
+
+
+def _candidate_hebrew_projection_retry_system() -> str:
+    return (
+        _candidate_hebrew_projection_system()
+        + " Re-check carefully before returning keep=false. "
+        + "If the same speech turn appears anywhere in he_riddle_candidates, set keep=true and choose the closest exact candidate."
+    )
+
+
+def _candidate_hebrew_projection_user(
+    *,
+    quote_range: RangeQuote,
+    raw_quote_source: RawQuoteSource,
+    spec: CandidateSpec,
+    he_riddle_candidates: list[str],
+) -> str:
+    hebrew_context = [
+        raw_quote_source.he[key]
+        for key in sorted(raw_quote_source.he, key=lambda key: int(key))
+    ]
+    lines = [
+        f"ref: {quote_range.book_en} {quote_range.chapter}:{spec.quote_verse_start}-{spec.quote_verse_end}",
+        f"english_quote: {quote_range.en_quote}",
+        f"english_riddle: {spec.en_riddle}",
+        f"english_speaker: {spec.en_speaker}",
+        f"english_listener: {spec.en_listener}",
+        f"hebrew_quote: {cleanup_hebrew_quote(quote_range.he_quote)}",
+        f"hebrew_supporting_context: {json.dumps(hebrew_context, ensure_ascii=False)}",
+        f"he_riddle_candidates: {he_riddle_candidates}",
+    ]
+    if spec.speaker_mention_verse is not None:
+        lines.append(f"speaker_mention_verse: {spec.speaker_mention_verse}")
+    if spec.listener_mention_verse is not None:
+        lines.append(f"listener_mention_verse: {spec.listener_mention_verse}")
+    lines.append("Return the matching Hebrew riddle, speaker, and listener.")
+    lines.append("he_speaker and he_listener must be Hebrew, not English.")
+    return "\n".join(lines)
+
+
+def _candidate_hebrew_projection_retry_user(*, base_prompt: str) -> str:
+    return (
+        f"{base_prompt}\n"
+        "Previous answer kept false or failed to choose a valid exact Hebrew riddle.\n"
+        "Re-check the Hebrew quote and he_riddle_candidates.\n"
+        "If the same speech turn is present, choose the closest exact he_riddle candidate and keep=true."
+    )
+
+
+def _hebrew_projection_from_payload(
+    payload: dict,
+    *,
+    he_allowed_map: dict[str, str],
+    hebrew_restore_map: dict[str, str],
+    hebrew_quote: str,
+) -> HebrewProjection:
+    keep = bool(payload.get("keep"))
+    raw_he_riddle = str(payload.get("he_riddle", "")) if keep else ""
+    he_riddle = _normalize_candidate_choice(raw_he_riddle, he_allowed_map, lang="he") if keep else ""
+    if keep and not he_riddle and raw_he_riddle:
+        projected = _project_hebrew_substring_to_original(hebrew_quote, raw_he_riddle)
+        if projected is not None:
+            he_riddle = projected
+    he_speaker = restore_hebrew_surface_from_map(str(payload.get("he_speaker", "")), hebrew_restore_map) if keep else ""
+    he_listener = restore_hebrew_surface_from_map(str(payload.get("he_listener", "")), hebrew_restore_map) if keep else ""
+    return HebrewProjection(
+        keep=keep,
+        he_riddle=he_riddle,
+        he_speaker=he_speaker,
+        he_listener=he_listener,
+    )
 
 
 def _window_has_dialogue_cues(window: RangeQuote) -> bool:
@@ -312,37 +616,85 @@ def _candidate_issue(window: RangeQuote, stage: str, reason: str, detail: str) -
     )
 
 
-def _build_candidate_item(window: RangeQuote, decision: CandidateDecision) -> CandidateItem:
+def _candidate_issue_for_spec(
+    *,
+    book_code: str,
+    book: str,
+    chapter: int,
+    start: int,
+    end: int,
+    stage: str,
+    reason: str,
+    detail: str,
+) -> DropRecord:
+    return DropRecord(
+        candidate_id=_candidate_id(book, chapter, start, end),
+        book_code=book_code,
+        chapter=chapter,
+        start=start,
+        end=end,
+        stage=stage,
+        reason=reason,
+        detail=detail,
+    )
+
+
+def _assign_unique_candidate_ids(items: list[CandidateItem]) -> list[CandidateItem]:
+    if not items:
+        return []
+
+    base_counts: dict[str, int] = {}
+    for item in items:
+        base_counts[item.id] = base_counts.get(item.id, 0) + 1
+
+    seen_per_base: dict[str, int] = {}
+    out: list[CandidateItem] = []
+    for item in items:
+        if base_counts[item.id] == 1:
+            out.append(item)
+            continue
+        ordinal = seen_per_base.get(item.id, 0) + 1
+        seen_per_base[item.id] = ordinal
+        out.append(replace(item, id=f"{item.id}-{ordinal}"))
+    return out
+
+
+def _build_candidate_item(
+    *,
+    quote_range: RangeQuote,
+    raw_quote_source: RawQuoteSource,
+    spec: CandidateSpec,
+    projection: HebrewProjection,
+) -> CandidateItem:
     return CandidateItem(
-        id=_candidate_id(window.book_en, window.chapter, window.start, window.end),
+        id=_candidate_id(quote_range.book_en, quote_range.chapter, spec.quote_verse_start, spec.quote_verse_end),
         source=CandidateSource(
-            book_code=window.book_code,
-            book=window.book_en,
-            book_he=window.book_he,
-            chapter=window.chapter,
-            quote_verse_start=window.start,
-            quote_verse_end=window.end,
+            book_code=quote_range.book_code,
+            book=quote_range.book_en,
+            book_he=quote_range.book_he,
+            chapter=quote_range.chapter,
+            quote_verse_start=spec.quote_verse_start,
+            quote_verse_end=spec.quote_verse_end,
+            speaker_mention_verse=spec.speaker_mention_verse,
+            listener_mention_verse=spec.listener_mention_verse,
         ),
         en=CandidateLangText(
-            quote=window.en_quote,
-            riddle=decision.en_riddle,
-            speaker=decision.en_speaker,
-            listener=decision.en_listener,
-            book=window.book_en,
+            quote=quote_range.en_quote,
+            riddle=spec.en_riddle,
+            speaker=spec.en_speaker,
+            listener=spec.en_listener,
+            book=quote_range.book_en,
         ),
         he=CandidateLangText(
-            quote=window.he_quote,
-            riddle=decision.he_riddle,
-            speaker=decision.he_speaker,
-            listener=decision.he_listener,
-            book=window.book_he,
+            quote=quote_range.he_quote,
+            riddle=projection.he_riddle,
+            speaker=projection.he_speaker,
+            listener=projection.he_listener,
+            book=quote_range.book_he,
         ),
-        raw_quote_source=RawQuoteSource(
-            en=dict(window.raw_quote_source["en"]),
-            he=dict(window.raw_quote_source["he"]),
-        ),
-        meta=CandidateMeta(reason=decision.reason, confidence=decision.confidence),
-        ref=RefRange(chapter=window.chapter, start=window.start, end=window.end),
+        raw_quote_source=raw_quote_source,
+        meta=CandidateMeta(reason=spec.reason, confidence=spec.confidence),
+        ref=RefRange(chapter=quote_range.chapter, start=spec.quote_verse_start, end=spec.quote_verse_end),
     )
 
 
@@ -357,39 +709,6 @@ def _validate_candidate_item(item: CandidateItem) -> None:
         raise ValueError("hebrew speaker/listener is empty")
     if item.source.chapter != item.ref.chapter:
         raise ValueError("source chapter does not match ref chapter")
-
-
-def _decision_from_payload(
-    payload: dict,
-    *,
-    window: RangeQuote,
-    en_allowed: list[str],
-    he_allowed_map: dict[str, str],
-    hebrew_restore_map: dict[str, str],
-) -> CandidateDecision:
-    keep = bool(payload.get("keep"))
-    en_allowed_map = {clean_text(candidate): candidate for candidate in en_allowed}
-    en_riddle = _normalize_candidate_choice(payload.get("en_riddle"), en_allowed_map, lang="en") if keep else ""
-    he_riddle = _normalize_candidate_choice(payload.get("he_riddle"), he_allowed_map, lang="he") if keep else ""
-
-    en_speaker = clean_text(str(payload.get("en_speaker", ""))) if keep else ""
-    en_listener = clean_text(str(payload.get("en_listener", ""))) if keep else ""
-    he_speaker = restore_hebrew_surface_from_map(str(payload.get("he_speaker", "")), hebrew_restore_map) if keep else ""
-    he_listener = restore_hebrew_surface_from_map(str(payload.get("he_listener", "")), hebrew_restore_map) if keep else ""
-    if he_riddle:
-        he_riddle = restore_hebrew_surface_from_map(he_riddle, hebrew_restore_map)
-
-    return CandidateDecision(
-        keep=keep,
-        en_riddle=en_riddle,
-        he_riddle=he_riddle,
-        en_speaker=en_speaker,
-        en_listener=en_listener,
-        he_speaker=he_speaker,
-        he_listener=he_listener,
-        reason=clean_text(str(payload.get("reason", ""))),
-        confidence=_validate_confidence(payload.get("confidence")),
-    )
 
 
 def _chapter_candidate_windows(tandem: TandemBible, *, book_code: str, chapter: int) -> list[RangeQuote]:
@@ -420,111 +739,283 @@ def _chapter_candidate_windows(tandem: TandemBible, *, book_code: str, chapter: 
     return out
 
 
+def _chapter_dialogue_blocks(tandem: TandemBible, *, book_code: str, chapter: int) -> list[RangeQuote]:
+    single_verse_windows = list(tandem.iter_windows(book_code, chapter, max_window=1, min_window=1))
+    if not single_verse_windows:
+        return []
+
+    verse_numbers = [window.start for window in single_verse_windows]
+    anchor_indexes = [
+        index
+        for index, window in enumerate(single_verse_windows)
+        if _window_has_strong_dialogue_cues(window)
+    ]
+    if not anchor_indexes:
+        return []
+
+    index_ranges: list[tuple[int, int]] = []
+    for anchor_index in anchor_indexes:
+        start_index = max(0, anchor_index - BLOCK_CONTEXT_BEFORE)
+        end_index = min(len(verse_numbers) - 1, anchor_index + BLOCK_CONTEXT_AFTER)
+        index_ranges.append((start_index, end_index))
+
+    merged_ranges: list[list[int]] = []
+    for start_index, end_index in sorted(index_ranges):
+        if not merged_ranges or start_index > merged_ranges[-1][1]:
+            merged_ranges.append([start_index, end_index])
+            continue
+        merged_ranges[-1][1] = max(merged_ranges[-1][1], end_index)
+
+    split_ranges: list[tuple[int, int]] = []
+    step = max(1, BLOCK_MAX_VERSES - BLOCK_OVERLAP_VERSES)
+    for start_index, end_index in merged_ranges:
+        current_start = start_index
+        while current_start <= end_index:
+            current_end = min(end_index, current_start + BLOCK_MAX_VERSES - 1)
+            split_ranges.append((current_start, current_end))
+            if current_end >= end_index:
+                break
+            current_start += step
+
+    out: list[RangeQuote] = []
+    for start_index, end_index in split_ranges:
+        collected = tandem.collect_range(
+            book_code,
+            chapter,
+            verse_numbers[start_index],
+            verse_numbers[end_index],
+        )
+        if collected is not None:
+            out.append(collected)
+    return out
+
+
+def _chapter_extraction_blocks(
+    tandem: TandemBible,
+    *,
+    book_code: str,
+    chapter: int,
+    strategy: str,
+) -> list[RangeQuote]:
+    if strategy == FULL_CHAPTER_STRATEGY:
+        windows = list(tandem.iter_windows(book_code, chapter, max_window=1, min_window=1))
+        if not windows:
+            return []
+        return [tandem.collect_range(book_code, chapter, windows[0].start, windows[-1].end)]
+    if strategy == DIALOGUE_BLOCKS_STRATEGY:
+        return _chapter_dialogue_blocks(tandem, book_code=book_code, chapter=chapter)
+    raise ValueError(f"Unsupported candidate extraction strategy: {strategy}")
+
+
+def _candidate_spec_prompt_payload(block: RangeQuote) -> list[dict[str, object]]:
+    return [
+        {"verse": int(verse), "text": block.raw_quote_source["en"][verse]}
+        for verse in sorted(block.raw_quote_source["en"], key=lambda key: int(key))
+    ]
+
+
+def _support_raw_quote_source(
+    tandem: TandemBible,
+    *,
+    book_code: str,
+    chapter: int,
+    spec: CandidateSpec,
+) -> RawQuoteSource:
+    support_verses = set(range(spec.quote_verse_start, spec.quote_verse_end + 1))
+    if spec.speaker_mention_verse is not None:
+        support_verses.add(spec.speaker_mention_verse)
+    if spec.listener_mention_verse is not None:
+        support_verses.add(spec.listener_mention_verse)
+
+    raw_en: dict[str, str] = {}
+    raw_he: dict[str, str] = {}
+    for verse in sorted(support_verses):
+        range_quote = tandem.collect_range(book_code, chapter, verse, verse)
+        if range_quote is None or range_quote.missing:
+            raise ValueError(f"missing source verse {verse}")
+        raw_en[str(verse)] = range_quote.raw_quote_source["en"][str(verse)]
+        raw_he[str(verse)] = range_quote.raw_quote_source["he"][str(verse)]
+    return RawQuoteSource(en=raw_en, he=raw_he)
+
+
+def _project_hebrew_candidate(
+    *,
+    llm: JsonChatModel,
+    quote_range: RangeQuote,
+    raw_quote_source: RawQuoteSource,
+    spec: CandidateSpec,
+) -> HebrewProjection:
+    preferred_word_count = len(clean_text(spec.en_riddle).split()) or None
+    he_candidates = candidate_riddle_spans(
+        quote_range.he_quote,
+        "he",
+        preferred_word_count=preferred_word_count,
+        max_candidates=16,
+    )
+    he_display_candidates, he_display_map = _display_hebrew_candidates(he_candidates)
+    if not he_display_candidates:
+        raise ValueError("No Hebrew riddle candidates remained")
+    hebrew_restore_map = hebrew_surface_map([quote_range.he_quote, *raw_quote_source.he.values()])
+    base_user_prompt = _candidate_hebrew_projection_user(
+        quote_range=quote_range,
+        raw_quote_source=raw_quote_source,
+        spec=spec,
+        he_riddle_candidates=he_display_candidates,
+    )
+    payload = llm.chat_json(
+        prompt_name="candidate-hebrew-projection",
+        system_prompt=_candidate_hebrew_projection_system(),
+        user_prompt=base_user_prompt,
+        required_keys=("keep", "he_riddle", "he_speaker", "he_listener"),
+    )
+    projection = _hebrew_projection_from_payload(
+        payload,
+        he_allowed_map=he_display_map,
+        hebrew_restore_map=hebrew_restore_map,
+        hebrew_quote=quote_range.he_quote,
+    )
+    if not projection.keep or not projection.he_riddle:
+        retry_payload = llm.chat_json(
+            prompt_name="candidate-hebrew-projection-retry",
+            system_prompt=_candidate_hebrew_projection_retry_system(),
+            user_prompt=_candidate_hebrew_projection_retry_user(base_prompt=base_user_prompt),
+            required_keys=("keep", "he_riddle", "he_speaker", "he_listener"),
+        )
+        projection = _hebrew_projection_from_payload(
+            retry_payload,
+            he_allowed_map=he_display_map,
+            hebrew_restore_map=hebrew_restore_map,
+            hebrew_quote=quote_range.he_quote,
+        )
+    return projection
+
+
 def _build_chapter_candidates(
     tandem: TandemBible,
     *,
     llm: JsonChatModel,
     book_code: str,
     chapter: int,
+    strategy: str = PRODUCTION_CANDIDATE_EXTRACTION_STRATEGY,
 ) -> tuple[CandidateChapterShard, list[DropRecord]]:
     window_issues: list[DropRecord] = []
     kept_items: list[CandidateItem] = []
     seen_riddle_keys: set[tuple[str, str]] = set()
     prefiltered = 0
     llm_seen = 0
+    projection_seen = 0
 
-    prepared_windows: list[tuple[RangeQuote, list[str], list[str], dict[str, str], dict[str, str]]] = []
-    windows = _chapter_candidate_windows(tandem, book_code=book_code, chapter=chapter)
-    for window in windows:
-        if not _window_has_dialogue_cues(window):
-            prefiltered += 1
-            continue
-
-        en_candidates = _window_riddle_candidates(window, "en")
-        he_candidates = _window_riddle_candidates(window, "he")
-        he_display_candidates, he_display_map = _display_hebrew_candidates(he_candidates)
-        if not en_candidates or not he_display_candidates:
-            window_issues.append(_candidate_issue(window, "deterministic", "no_riddle_candidates", "No exact riddle substrings survived deterministic candidate generation"))
-            continue
-        hebrew_restore_map = hebrew_surface_map([window.he_quote, *window.raw_quote_source["he"].values()])
-        prepared_windows.append((window, en_candidates, he_display_candidates, he_display_map, hebrew_restore_map))
-
-    def handle_decision(window: RangeQuote, decision: CandidateDecision) -> None:
-        if not decision.keep:
-            window_issues.append(_candidate_issue(window, "candidate", "llm_drop", decision.reason or "LLM chose keep=false"))
-            return
-        if not decision.en_riddle or not decision.he_riddle:
-            window_issues.append(_candidate_issue(window, "candidate", "bad_riddle_choice", "LLM did not choose valid exact riddle candidates"))
-            return
-
-        item = _build_candidate_item(window, decision)
+    blocks = _chapter_extraction_blocks(tandem, book_code=book_code, chapter=chapter, strategy=strategy)
+    extracted_specs: list[CandidateSpec] = []
+    seen_spec_keys: set[tuple[int, int, str]] = set()
+    for block in blocks:
+        llm_seen += 1
         try:
+            payload = llm.chat_json(
+                prompt_name="candidate-chapter-extract",
+                system_prompt=_candidate_prompt_system(),
+                user_prompt=_candidate_prompt_user(
+                    book=block.book_en,
+                    chapter=block.chapter,
+                    verses=_candidate_spec_prompt_payload(block),
+                ),
+                required_keys=("items",),
+            )
+            specs, errors = _candidate_specs_from_payload(payload, block=block)
+        except Exception as exc:
+            window_issues.append(_candidate_issue(block, "candidate", "llm_error", str(exc)))
+            continue
+        if errors:
+            detail = "; ".join(errors[:3])
+            window_issues.append(_candidate_issue(block, "candidate", "bad_payload_items", detail))
+        for spec in specs:
+            spec_key = (
+                spec.quote_verse_start,
+                spec.quote_verse_end,
+                _normalized_riddle_key(spec.en_riddle, "en"),
+            )
+            if spec_key in seen_spec_keys:
+                continue
+            seen_spec_keys.add(spec_key)
+            extracted_specs.append(spec)
+
+    for spec in extracted_specs:
+        issue_kwargs = {
+            "book_code": book_code,
+            "book": bible_sources.BOOK_CODE_TO_EN[book_code],
+            "chapter": chapter,
+            "start": spec.quote_verse_start,
+            "end": spec.quote_verse_end,
+        }
+        try:
+            quote_range = tandem.collect_range(book_code, chapter, spec.quote_verse_start, spec.quote_verse_end)
+            if quote_range is None or quote_range.missing:
+                raise ValueError("quote source verses are missing")
+            raw_quote_source = _support_raw_quote_source(
+                tandem,
+                book_code=book_code,
+                chapter=chapter,
+                spec=spec,
+            )
+            projection_seen += 1
+            projection = _project_hebrew_candidate(
+                llm=llm,
+                quote_range=quote_range,
+                raw_quote_source=raw_quote_source,
+                spec=spec,
+            )
+            if not projection.keep or not projection.he_riddle:
+                raise ValueError("Hebrew projection did not return a valid riddle")
+            item = _build_candidate_item(
+                quote_range=quote_range,
+                raw_quote_source=raw_quote_source,
+                spec=spec,
+                projection=projection,
+            )
             _validate_candidate_item(item)
-        except ValueError as exc:
-            window_issues.append(_candidate_issue(window, "candidate", "invalid_candidate", str(exc)))
-            return
+        except Exception as exc:
+            window_issues.append(
+                _candidate_issue_for_spec(
+                    **issue_kwargs,
+                    stage="candidate",
+                    reason="invalid_candidate",
+                    detail=str(exc),
+                )
+            )
+            continue
 
         riddle_key = (
             _normalized_riddle_key(item.en.riddle, "en"),
             _normalized_riddle_key(item.he.riddle, "he"),
         )
         if riddle_key in seen_riddle_keys:
-            window_issues.append(_candidate_issue(window, "dedupe", "duplicate_candidate_riddle", "A previous candidate in this chapter already used the same riddle turn"))
-            return
+            window_issues.append(
+                _candidate_issue_for_spec(
+                    **issue_kwargs,
+                    stage="dedupe",
+                    reason="duplicate_candidate_riddle",
+                    detail="A previous candidate in this chapter already used the same riddle turn",
+                )
+            )
+            continue
         seen_riddle_keys.add(riddle_key)
         kept_items.append(item)
 
-    for window, en_candidates, he_display_candidates, he_display_map, hebrew_restore_map in prepared_windows:
-        llm_seen += 1
-        try:
-            payload = llm.chat_json(
-                prompt_name="candidate-window",
-                system_prompt=_candidate_prompt_system(),
-                user_prompt=_candidate_prompt_user(
-                    window,
-                    en_riddle_candidates=en_candidates,
-                    he_riddle_candidates=he_display_candidates,
-                ),
-                required_keys=(
-                    "keep",
-                    "en_riddle",
-                    "he_riddle",
-                    "en_speaker",
-                    "en_listener",
-                    "he_speaker",
-                    "he_listener",
-                    "reason",
-                    "confidence",
-                ),
-            )
-        except Exception as exc:
-            window_issues.append(_candidate_issue(window, "candidate", "llm_error", str(exc)))
-            continue
-        try:
-            decision = _decision_from_payload(
-                payload,
-                window=window,
-                en_allowed=en_candidates,
-                he_allowed_map=he_display_map,
-                hebrew_restore_map=hebrew_restore_map,
-            )
-        except Exception as exc:
-            window_issues.append(_candidate_issue(window, "candidate", "bad_payload", str(exc)))
-            continue
-        handle_decision(window, decision)
-
-    first_window = windows[0] if windows else tandem.collect_range(book_code, chapter, 1, 1)
+    first_window = blocks[0] if blocks else tandem.collect_range(book_code, chapter, 1, 1)
     shard = CandidateChapterShard(
         book_code=book_code,
         book=bible_sources.BOOK_CODE_TO_EN[book_code],
         book_he=bible_sources.BOOK_CODE_TO_HE[book_code],
         chapter=chapter,
         mode="llm",
-        items=sorted(kept_items, key=lambda item: (item.ref.start, item.ref.end, item.id)),
+        items=_assign_unique_candidate_ids(sorted(kept_items, key=lambda item: (item.ref.start, item.ref.end, item.id))),
         stats={
-            "window_count": len(windows),
+            "window_count": len(blocks),
             "prefiltered_count": prefiltered,
             "llm_window_count": llm_seen,
+            "projection_llm_count": projection_seen,
+            "llm_call_count": llm_seen + projection_seen,
+            "spec_count": len(extracted_specs),
             "kept_count": len(kept_items),
             "issue_count": len(window_issues),
         },
@@ -541,6 +1032,9 @@ def _build_chapter_candidates(
                 "window_count": 0,
                 "prefiltered_count": 0,
                 "llm_window_count": 0,
+                "projection_llm_count": 0,
+                "llm_call_count": 0,
+                "spec_count": 0,
                 "kept_count": 0,
                 "issue_count": len(window_issues),
             },
@@ -593,6 +1087,7 @@ def run_build_candidates(
     hebrew_zip: Path,
     book_filter: str | None = None,
     chapter_filter: int | None = None,
+    allowed_book_codes: tuple[str, ...] | None = None,
     limit: int | None = None,
     resume: bool = True,
 ) -> tuple[list[CandidateChapterShard], list[DropRecord]]:
@@ -602,6 +1097,7 @@ def run_build_candidates(
         (book_code, chapter)
         for book_code, chapter in tandem.iter_chapters(book_filter=canonical_book_filter or "")
         if (not canonical_book_filter or book_code == canonical_book_filter)
+        and (canonical_book_filter or allowed_book_codes is None or book_code in allowed_book_codes)
         and (chapter_filter is None or chapter == chapter_filter)
     ]
     resume_point = _find_resume_point_for_chapters(
@@ -659,12 +1155,14 @@ def build_candidates_eval_pack(
     seed: int | None,
     book_filter: str | None = None,
     chapter_filter: int | None = None,
+    allowed_book_codes: tuple[str, ...] | None = None,
 ) -> dict:
     canonical_book_filter = _canonical_book_filter(book_filter)
     shards = [
         shard
         for shard in _read_all_candidate_shards(shard_dir)
         if (not canonical_book_filter or shard.book_code == canonical_book_filter)
+        and (canonical_book_filter or allowed_book_codes is None or shard.book_code in allowed_book_codes)
         and (chapter_filter is None or shard.chapter == chapter_filter)
     ]
     sample_items = _stable_candidate_eval_sample(shards, sample_size)
@@ -704,6 +1202,12 @@ def _build_llm_client(model: str, seed: int | None):
     return OllamaJsonClient(model=model, fallback_model=None, request_options=options)
 
 
+def _default_candidate_book_scope(*, book_filter: str | None, full_canon: bool) -> tuple[str, ...] | None:
+    if full_canon or book_filter:
+        return None
+    return MINIMAL_CANDIDATE_BOOK_CODES
+
+
 @click.command("build-candidates")
 @click.option("--candidates-out", "candidates_path", type=click.Path(path_type=Path, dir_okay=False), default=Path("data/processed/candidates.jsonl"), show_default=True)
 @click.option("--shard-dir", type=click.Path(path_type=Path, file_okay=False), default=Path("data/processed/candidate_chapters"), show_default=True)
@@ -714,6 +1218,7 @@ def _build_llm_client(model: str, seed: int | None):
 @click.option("--hebrew-zip", type=click.Path(path_type=Path, exists=True, dir_okay=False), default=DEFAULT_HEBREW_ZIP, show_default=True)
 @click.option("--book", "book_filter", default=None)
 @click.option("--chapter", "chapter_filter", type=int, default=None)
+@click.option("--full-canon", is_flag=True, default=False)
 @click.option("--limit", type=int, default=None)
 @click.option("--resume/--no-resume", default=True, show_default=True)
 @click.option("--quiet-llm", is_flag=True, default=False)
@@ -727,6 +1232,7 @@ def build_candidates_command(
     hebrew_zip: Path,
     book_filter: str | None,
     chapter_filter: int | None,
+    full_canon: bool,
     limit: int | None,
     resume: bool,
     quiet_llm: bool,
@@ -741,6 +1247,7 @@ def build_candidates_command(
         hebrew_zip=hebrew_zip,
         book_filter=book_filter,
         chapter_filter=chapter_filter,
+        allowed_book_codes=_default_candidate_book_scope(book_filter=book_filter, full_canon=full_canon),
         limit=limit,
         resume=resume,
     )
@@ -755,6 +1262,7 @@ def build_candidates_command(
 @click.option("--seed", type=int, default=32988, show_default=True)
 @click.option("--book", "book_filter", default=None)
 @click.option("--chapter", "chapter_filter", type=int, default=None)
+@click.option("--full-canon", is_flag=True, default=False)
 def build_candidates_eval_command(
     candidates_path: Path,
     shard_dir: Path,
@@ -763,6 +1271,7 @@ def build_candidates_eval_command(
     seed: int,
     book_filter: str | None,
     chapter_filter: int | None,
+    full_canon: bool,
 ) -> None:
     payload = build_candidates_eval_pack(
         candidates_path=candidates_path,
@@ -772,5 +1281,6 @@ def build_candidates_eval_command(
         seed=seed,
         book_filter=book_filter,
         chapter_filter=chapter_filter,
+        allowed_book_codes=_default_candidate_book_scope(book_filter=book_filter, full_canon=full_canon),
     )
     click.echo(f"Wrote candidates eval pack with {payload['sample_size']} items to {out_dir}.")

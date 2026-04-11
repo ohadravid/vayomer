@@ -15,6 +15,7 @@ from data_proc.llm import JsonChatModel
 from data_proc.schema import (
     BonusHint,
     CandidateItem,
+    CandidateSource,
     ChapterPayload,
     ChoicePools,
     DropRecord,
@@ -22,6 +23,7 @@ from data_proc.schema import (
     FinalMeta,
     FinalQuoteItem,
     FinalSource,
+    RawQuoteSource,
     RefRange,
     append_jsonl,
     iter_candidate_items,
@@ -489,14 +491,56 @@ def _riddle_turn_text(text: str, lang: str) -> str:
     return cleaned
 
 
+def _speech_core_text(text: str, lang: str) -> str:
+    cleaned = _riddle_turn_text(text, lang)
+    if lang != "en":
+        return cleaned
+    match = re.match(r"^(.*?[.?!])(?:\s+|$)", cleaned)
+    if not match:
+        return cleaned
+    candidate = clean_text(match.group(1))
+    if 0 < len(candidate.split()) < 3 and len(candidate) < len(cleaned):
+        return candidate
+    return cleaned
+
+
 def _normalized_riddle_key(text: str, lang: str) -> str:
-    base = _riddle_turn_text(text, lang)
+    base = _speech_core_text(text, lang)
     if lang == "he":
         base = strip_hebrew_marks(cleanup_hebrew_quote(base))
     else:
         base = clean_text(base)
     base = re.sub(r"[^\w\s]+", " ", base, flags=re.UNICODE).casefold()
     return " ".join(base.split())
+
+
+def _source_support_verse_numbers(source: CandidateSource | FinalSource) -> tuple[int, ...]:
+    verses = set(range(source.quote_verse_start, source.quote_verse_end + 1))
+    if source.speaker_mention_verse is not None:
+        verses.add(source.speaker_mention_verse)
+    if source.listener_mention_verse is not None:
+        verses.add(source.listener_mention_verse)
+    return tuple(sorted(verses))
+
+
+def _sorted_raw_source_map(values: dict[str, str]) -> dict[str, str]:
+    return {key: values[key] for key in sorted(values, key=lambda key: int(key))}
+
+
+def _merge_candidate_raw_quote_source(candidate: CandidateItem, quote_source: dict[str, dict[str, str]]) -> RawQuoteSource:
+    merged_en = dict(quote_source["en"])
+    merged_he = dict(quote_source["he"])
+    for verse in _source_support_verse_numbers(candidate.source):
+        verse_key = str(verse)
+        if verse_key not in merged_en and verse_key in candidate.raw_quote_source.en:
+            merged_en[verse_key] = candidate.raw_quote_source.en[verse_key]
+        if verse_key not in merged_he and verse_key in candidate.raw_quote_source.he:
+            merged_he[verse_key] = candidate.raw_quote_source.he[verse_key]
+    return replace(
+        candidate.raw_quote_source,
+        en=_sorted_raw_source_map(merged_en),
+        he=_sorted_raw_source_map(merged_he),
+    )
 
 
 def _canonicalize_role_text(role: str, lang: str) -> str:
@@ -655,9 +699,22 @@ def _validate_required_text(candidate: CandidateItem) -> None:
     if candidate.source.book != candidate.en.book or candidate.source.book_he != candidate.he.book:
         raise _drop(candidate, "deterministic", "book_mismatch", "source book names do not match language payloads")
 
-    verse_keys = {str(verse) for verse in range(candidate.ref.start, candidate.ref.end + 1)}
-    if set(candidate.raw_quote_source.en.keys()) != verse_keys or set(candidate.raw_quote_source.he.keys()) != verse_keys:
-        raise _drop(candidate, "deterministic", "raw_source_mismatch", "raw_quote_source keys do not match source verse range")
+    quote_verse_keys = {str(verse) for verse in range(candidate.ref.start, candidate.ref.end + 1)}
+    allowed_verse_keys = {str(verse) for verse in _source_support_verse_numbers(candidate.source)}
+    raw_en_keys = set(candidate.raw_quote_source.en.keys())
+    raw_he_keys = set(candidate.raw_quote_source.he.keys())
+    if not quote_verse_keys <= raw_en_keys or not quote_verse_keys <= raw_he_keys:
+        raise _drop(candidate, "deterministic", "raw_source_mismatch", "raw_quote_source is missing quote source verses")
+    if raw_en_keys - allowed_verse_keys or raw_he_keys - allowed_verse_keys:
+        raise _drop(candidate, "deterministic", "raw_source_mismatch", "raw_quote_source contains unsupported verse keys")
+    if candidate.source.speaker_mention_verse is not None:
+        verse_key = str(candidate.source.speaker_mention_verse)
+        if verse_key not in raw_en_keys or verse_key not in raw_he_keys:
+            raise _drop(candidate, "deterministic", "raw_source_mismatch", "speaker mention verse missing from raw_quote_source")
+    if candidate.source.listener_mention_verse is not None:
+        verse_key = str(candidate.source.listener_mention_verse)
+        if verse_key not in raw_en_keys or verse_key not in raw_he_keys:
+            raise _drop(candidate, "deterministic", "raw_source_mismatch", "listener mention verse missing from raw_quote_source")
 
     for lang, lang_text in (("en", candidate.en), ("he", candidate.he)):
         quote = _clean_for_lang(lang_text.quote, lang)
@@ -767,6 +824,15 @@ def _riddle_edit_user_prompt(candidate: CandidateItem, lang: str, *, english_tar
     return "\n".join(lines)
 
 
+def _target_riddle_prompt_lines(riddle: str, lang: str, *, target_key: str = "target_riddle", stored_key: str = "stored_riddle") -> list[str]:
+    prompt_riddle = _llm_hebrew(riddle) if lang == "he" else clean_text(riddle)
+    prompt_core = _llm_hebrew(_speech_core_text(riddle, lang)) if lang == "he" else _speech_core_text(riddle, lang)
+    lines = [f"{target_key}: {prompt_core}"]
+    if prompt_core != prompt_riddle:
+        lines.append(f"{stored_key}: {prompt_riddle}")
+    return lines
+
+
 def _role_resolution_system_prompt(lang: str) -> str:
     language = "Hebrew" if lang == "he" else "English"
     bilingual_clause = (
@@ -798,27 +864,28 @@ def _role_resolution_user_prompt(
 ) -> str:
     text = candidate.he if lang == "he" else candidate.en
     quote = _llm_hebrew(text.quote) if lang == "he" else text.quote
-    riddle = _llm_hebrew(text.riddle) if lang == "he" else text.riddle
     speaker = _llm_hebrew(text.speaker) if lang == "he" else text.speaker
     listener = _llm_hebrew(text.listener) if lang == "he" else text.listener
-    prompt = (
-        f"supporting_quote_context: {quote}\n"
-        f"target_riddle: {riddle}\n"
-        f"proposed_speaker: {speaker}\n"
-        f"proposed_listener: {listener}\n"
-        f"swapped_speaker: {listener}\n"
-        f"swapped_listener: {speaker}\n"
-        "Return the actual speaker and listener for the target_riddle only."
-    )
+    lines = [
+        f"supporting_quote_context: {quote}",
+        *_target_riddle_prompt_lines(text.riddle, lang),
+        f"proposed_speaker: {speaker}",
+        f"proposed_listener: {listener}",
+        f"swapped_speaker: {listener}",
+        f"swapped_listener: {speaker}",
+        "Return the actual speaker and listener for the target_riddle only.",
+    ]
     if lang == "he" and english_speaker and english_listener:
-        prompt += (
-            f"\nenglish_supporting_quote_context: {candidate.en.quote}\n"
-            f"english_target_riddle: {candidate.en.riddle}\n"
-            f"english_speaker_for_same_riddle: {english_speaker}\n"
-            f"english_listener_for_same_riddle: {english_listener}\n"
-            "Return the Hebrew names for those same speaker and listener roles."
+        lines.extend(
+            [
+                f"english_supporting_quote_context: {candidate.en.quote}",
+                *_target_riddle_prompt_lines(candidate.en.riddle, "en", target_key="english_target_riddle", stored_key="english_stored_riddle"),
+                f"english_speaker_for_same_riddle: {english_speaker}",
+                f"english_listener_for_same_riddle: {english_listener}",
+                "Return the Hebrew names for those same speaker and listener roles.",
+            ]
         )
-    return prompt
+    return "\n".join(lines)
 
 
 def _role_validation_user_prompt(
@@ -831,12 +898,11 @@ def _role_validation_user_prompt(
 ) -> str:
     text = candidate.he if lang == "he" else candidate.en
     quote = _llm_hebrew(text.quote) if lang == "he" else text.quote
-    riddle = _llm_hebrew(text.riddle) if lang == "he" else text.riddle
     speaker = _llm_hebrew(text.speaker) if lang == "he" else text.speaker
     listener = _llm_hebrew(text.listener) if lang == "he" else text.listener
     lines = [
         f"supporting_quote_context: {quote}",
-        f"target_riddle: {riddle}",
+        *_target_riddle_prompt_lines(text.riddle, lang),
         f"proposed_speaker: {speaker}",
         f"proposed_listener: {listener}",
         f"swapped_speaker: {listener}",
@@ -847,7 +913,7 @@ def _role_validation_user_prompt(
         lines.extend(
             [
                 f"english_supporting_quote_context: {candidate.en.quote}",
-                f"english_target_riddle: {candidate.en.riddle}",
+                *_target_riddle_prompt_lines(candidate.en.riddle, "en", target_key="english_target_riddle", stored_key="english_stored_riddle"),
                 f"english_speaker_for_same_riddle: {english_speaker}",
                 f"english_listener_for_same_riddle: {english_listener}",
                 "Return the Hebrew speaker and listener for those same roles.",
@@ -892,25 +958,26 @@ def _role_validation_retry_user_prompt(
 def _validation_user_prompt(candidate: CandidateItem, lang: str) -> str:
     text = candidate.he if lang == "he" else candidate.en
     quote = _llm_hebrew(text.quote) if lang == "he" else text.quote
-    riddle = _llm_hebrew(text.riddle) if lang == "he" else text.riddle
     speaker = _llm_hebrew(text.speaker) if lang == "he" else text.speaker
     listener = _llm_hebrew(text.listener) if lang == "he" else text.listener
-    prompt = (
-        f"supporting_quote_context: {quote}\n"
-        f"target_riddle: {riddle}\n"
-        f"speaker_for_riddle: {speaker}\n"
-        f"listener_for_riddle: {listener}\n"
-        "Judge the provided speaker_for_riddle and listener_for_riddle for the target_riddle only. Use the full quote only as context. Do not swap the roles."
-    )
+    lines = [
+        f"supporting_quote_context: {quote}",
+        *_target_riddle_prompt_lines(text.riddle, lang),
+        f"speaker_for_riddle: {speaker}",
+        f"listener_for_riddle: {listener}",
+        "Judge the provided speaker_for_riddle and listener_for_riddle for the target_riddle only. Use the full quote only as context. Do not swap the roles.",
+    ]
     if lang == "he":
-        prompt += (
-            f"\nenglish_supporting_quote_context: {candidate.en.quote}\n"
-            f"english_target_riddle: {candidate.en.riddle}\n"
-            f"english_speaker_for_riddle: {candidate.en.speaker}\n"
-            f"english_listener_for_riddle: {candidate.en.listener}\n"
-            "The English lines describe the same riddle turn."
+        lines.extend(
+            [
+                f"english_supporting_quote_context: {candidate.en.quote}",
+                *_target_riddle_prompt_lines(candidate.en.riddle, "en", target_key="english_target_riddle", stored_key="english_stored_riddle"),
+                f"english_speaker_for_riddle: {candidate.en.speaker}",
+                f"english_listener_for_riddle: {candidate.en.listener}",
+                "The English lines describe the same riddle turn.",
+            ]
         )
-    return prompt
+    return "\n".join(lines)
 
 
 def _hebrew_role_repair_system_prompt() -> str:
@@ -1618,7 +1685,7 @@ class CandidatePipeline:
             source=replace(candidate.source, quote_verse_start=start, quote_verse_end=end),
             en=replace(candidate.en, quote=range_quote.en_quote),
             he=replace(candidate.he, quote=range_quote.he_quote),
-            raw_quote_source=replace(candidate.raw_quote_source, en=range_quote.raw_quote_source["en"], he=range_quote.raw_quote_source["he"]),
+            raw_quote_source=_merge_candidate_raw_quote_source(candidate, range_quote.raw_quote_source),
             meta=candidate.meta,
             ref=replace(candidate.ref, start=start, end=end),
         )
@@ -1846,6 +1913,8 @@ class CandidatePipeline:
                 chapter=candidate.source.chapter,
                 quote_verse_start=candidate.source.quote_verse_start,
                 quote_verse_end=candidate.source.quote_verse_end,
+                speaker_mention_verse=candidate.source.speaker_mention_verse,
+                listener_mention_verse=candidate.source.listener_mention_verse,
             ),
             en=FinalLangText(
                 quote=candidate.en.quote,

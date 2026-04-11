@@ -16,6 +16,8 @@ class CandidateSource:
     chapter: int
     quote_verse_start: int
     quote_verse_end: int
+    speaker_mention_verse: int | None = None
+    listener_mention_verse: int | None = None
 
     @classmethod
     def from_dict(cls, data: dict) -> "CandidateSource":
@@ -26,10 +28,12 @@ class CandidateSource:
             chapter=data["chapter"],
             quote_verse_start=data["quote_verse_start"],
             quote_verse_end=data["quote_verse_end"],
+            speaker_mention_verse=data.get("speaker_mention_verse"),
+            listener_mention_verse=data.get("listener_mention_verse"),
         )
 
     def to_dict(self) -> dict:
-        return {
+        payload = {
             "book_code": self.book_code,
             "book": self.book,
             "book_he": self.book_he,
@@ -37,6 +41,11 @@ class CandidateSource:
             "quote_verse_start": self.quote_verse_start,
             "quote_verse_end": self.quote_verse_end,
         }
+        if self.speaker_mention_verse is not None:
+            payload["speaker_mention_verse"] = self.speaker_mention_verse
+        if self.listener_mention_verse is not None:
+            payload["listener_mention_verse"] = self.listener_mention_verse
+        return payload
 
 
 @dataclass(frozen=True)
@@ -150,6 +159,8 @@ class FinalSource:
     chapter: int
     quote_verse_start: int
     quote_verse_end: int
+    speaker_mention_verse: int | None = None
+    listener_mention_verse: int | None = None
 
     @classmethod
     def from_dict(cls, data: dict) -> "FinalSource":
@@ -161,10 +172,12 @@ class FinalSource:
             chapter=data["chapter"],
             quote_verse_start=data["quote_verse_start"],
             quote_verse_end=data["quote_verse_end"],
+            speaker_mention_verse=data.get("speaker_mention_verse"),
+            listener_mention_verse=data.get("listener_mention_verse"),
         )
 
     def to_dict(self) -> dict:
-        return {
+        payload = {
             "method": self.method,
             "book_code": self.book_code,
             "book": self.book,
@@ -173,6 +186,11 @@ class FinalSource:
             "quote_verse_start": self.quote_verse_start,
             "quote_verse_end": self.quote_verse_end,
         }
+        if self.speaker_mention_verse is not None:
+            payload["speaker_mention_verse"] = self.speaker_mention_verse
+        if self.listener_mention_verse is not None:
+            payload["listener_mention_verse"] = self.listener_mention_verse
+        return payload
 
 
 @dataclass(frozen=True)
