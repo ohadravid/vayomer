@@ -2,7 +2,7 @@ import { expect, test, type Locator, type Page } from "@playwright/test";
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { pickDailyItemIndex } from "../src/lib/daily";
+import { pickDailyItemIndex, pickDailyItemIndexWithOverrides } from "../src/lib/daily";
 import { normalize } from "../src/lib/format";
 import type { Lang } from "../src/types";
 
@@ -59,6 +59,11 @@ type HintSource = {
   end?: number;
 };
 
+type PuzzleManifestEntry = {
+  id: string;
+  file: string;
+};
+
 type GameOpenOptions = {
   captureClipboard?: boolean;
   lang?: "en" | "he";
@@ -69,10 +74,17 @@ const WRONG_TEXT = "not-the-answer";
 const EN_BONUS_DRAFT = "draft-word";
 const HE_BONUS_DRAFT = "טיוטה";
 const EXAMPLE_SEEN_STORAGE_KEY = "qs:example-seen";
-const quotesOptionsDirPath = fileURLToPath(new URL("../data/quotes_options", import.meta.url));
+const generatedOptionsDirPath = fileURLToPath(new URL("../data/processed/generated_options", import.meta.url));
+const manualQuotesDirPath = fileURLToPath(new URL("../data/manual_quotes", import.meta.url));
+const puzzleManifestPath = fileURLToPath(new URL("../src/lib/puzzleManifest.json", import.meta.url));
 const exampleQuotesDirPath = fileURLToPath(new URL("../src/lib", import.meta.url));
 
-function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
+function parsePuzzleItems(raw: string): PuzzleItem[] {
+  const parsed = JSON.parse(raw) as { items?: PuzzleItem[] } | PuzzleItem[];
+  return Array.isArray(parsed) ? parsed : (parsed.items ?? []);
+}
+
+function loadPuzzleItemsFromDir(dirPath: string): PuzzleItem[] {
   const files = fs
     .readdirSync(dirPath)
     .filter((name) => name.endsWith(".json"))
@@ -80,8 +92,27 @@ function loadPuzzleItemsFromQuotesOptions(dirPath: string): PuzzleItem[] {
 
   return files.flatMap((name) => {
     const raw = fs.readFileSync(path.join(dirPath, name), "utf8");
-    const parsed = JSON.parse(raw) as { items?: PuzzleItem[] } | PuzzleItem[];
-    return Array.isArray(parsed) ? parsed : (parsed.items ?? []);
+    return parsePuzzleItems(raw);
+  });
+}
+
+function loadManifestEntries(filePath: string): PuzzleManifestEntry[] {
+  const raw = fs.readFileSync(filePath, "utf8");
+  const parsed = JSON.parse(raw) as PuzzleManifestEntry[];
+  return Array.isArray(parsed) ? parsed : [];
+}
+
+function loadPuzzleItemsFromManifest(manifestPath: string): PuzzleItem[] {
+  const itemsById = new Map(
+    [...loadPuzzleItemsFromDir(generatedOptionsDirPath), ...loadPuzzleItemsFromDir(manualQuotesDirPath)].map((item) => [item.id, item])
+  );
+
+  return loadManifestEntries(manifestPath).map((entry) => {
+    const item = itemsById.get(entry.id);
+    if (!item) {
+      throw new Error(`Expected manifest puzzle ${entry.id} (${entry.file}) to exist in source data.`);
+    }
+    return item;
   });
 }
 
@@ -93,17 +124,16 @@ function loadExamplePuzzleItems(dirPath: string): PuzzleItem[] {
 
   return files.flatMap((name) => {
     const raw = fs.readFileSync(path.join(dirPath, name), "utf8");
-    const parsed = JSON.parse(raw) as { items?: PuzzleItem[] } | PuzzleItem[];
-    return Array.isArray(parsed) ? parsed : (parsed.items ?? []);
-  });
+    return parsePuzzleItems(raw);
+  }).sort((left, right) => left.id.localeCompare(right.id));
 }
 
-const dailyItems = loadPuzzleItemsFromQuotesOptions(quotesOptionsDirPath);
+const dailyItems = loadPuzzleItemsFromManifest(puzzleManifestPath);
 const exampleItems = loadExamplePuzzleItems(exampleQuotesDirPath);
 const examplePuzzle = exampleItems.find((item) => item.id === "exodus-03-04-04-example");
-const dailyExamplePuzzle = exampleItems[pickDailyItemIndex(exampleItems.length)];
+const dailyExamplePuzzle = exampleItems[pickDailyItemIndex(exampleItems)];
 const hpExamplePuzzle = exampleItems.find((item) => item.id === "hp-example-1");
-const todayPuzzle = dailyItems[pickDailyItemIndex(dailyItems.length)];
+const todayPuzzle = dailyItems[pickDailyItemIndexWithOverrides(dailyItems)];
 
 if (!todayPuzzle) {
   throw new Error("Expected at least one puzzle to resolve today's puzzle id.");
@@ -197,7 +227,7 @@ const testPuzzle = dailyItems.find(
 );
 
 if (!testPuzzle) {
-  throw new Error("Expected a puzzle with EN/HE bonus answers and easy-mode distractors in data/quotes_options/*.json.");
+  throw new Error("Expected a puzzle with EN/HE bonus answers and easy-mode distractors in the generated puzzle data.");
 }
 
 const puzzleId = testPuzzle.id;
@@ -222,7 +252,7 @@ const hintPuzzle = dailyItems.find(
 );
 
 if (!hintPuzzle) {
-  throw new Error("Expected at least one puzzle with EN/HE bonus_hint quotes in data/quotes_options/*.json.");
+  throw new Error("Expected at least one puzzle with EN/HE bonus_hint quotes in the generated puzzle data.");
 }
 
 const hintPuzzleId = hintPuzzle.id;
