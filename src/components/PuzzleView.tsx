@@ -448,6 +448,7 @@ export function PuzzleView({
         showBonusRow={bonusRowVisible}
         extraChecked={extraChecked}
         bonusDisabled={revealed || answersRevealed || !bonusRequired}
+        bonusStateOverride={gameState === GameState.Failed && bonusRequired ? "wrong" : undefined}
         bonusHintUsed={bonusHintUsed}
         showBonusHint={stageTwoOpen && hasBonusHint}
         showHintQuote={showHintQuote}

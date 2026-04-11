@@ -794,8 +794,9 @@ describe("PuzzleView persistence hydration", () => {
     expect(byId<HTMLSelectElement>("inputSpeaker").disabled).toBe(true);
     expect(byId<HTMLSelectElement>("inputListener").disabled).toBe(true);
     expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);
+    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
     expect(byId("labelSpeaker").textContent ?? "").toContain("✅");
     expect(byId("labelListener").textContent ?? "").toContain("✅");
-    expect(byId("labelBonus").textContent ?? "").toContain("✅");
+    expect(byId("labelBonus").textContent ?? "").toContain("❌");
   });
 });
