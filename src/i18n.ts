@@ -42,7 +42,7 @@ export const resources = {
         kicker: "Daily Quote Puzzle",
         title: "Vayomer - How to Play",
         subtitle: "Identify the speaker, the listener, and the missing word.",
-        upperCornerLabel: "Example"
+        upperCornerLabel: "Example",
       },
       reader: {
         kicker: "",
@@ -54,6 +54,8 @@ export const resources = {
         allBooks: "All books",
         backToChapters: "Back to chapters",
         chapterLabel: "Chapter {{chapter}}",
+        previousChapter: "Previous chapter",
+        nextChapter: "Next chapter",
       },
       puzzleView: {
         solved: "Solved.",
@@ -116,7 +118,7 @@ export const resources = {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
         title: "וַיֹּאמֶר - כֵּיצַד לְשַׂחֵק?",
         subtitle: "בַּחֲרוּ אֶת הַדּוֹבֵר ואֶת הַמַּאֲזִין הַנְּכוֹנִים. לְאַחַר מִכֵּן, הַקְלִידוּ אֶת הַמִּלָּה הַחֲסֵרָה. חֲמִשָּׁה נִסְיוֹנוֹת לְכָל הַיּוֹתֵר. בְּהַצְלָחָה!",
-        upperCornerLabel: "חִידָה לְדֻגְמָה"
+        upperCornerLabel: "חִידָה לְדֻגְמָה",
       },
       reader: {
         kicker: "",
@@ -128,6 +130,8 @@ export const resources = {
         allBooks: "כל הספרים",
         backToChapters: "חזרה לפרקים",
         chapterLabel: "פרק {{chapter}}",
+        previousChapter: "פרק קודם",
+        nextChapter: "פרק הבא",
       },
       puzzleView: {
         solved: "נכון.",

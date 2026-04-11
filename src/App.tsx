@@ -1,23 +1,21 @@
 import { useEffect, useMemo, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Temporal } from "@js-temporal/polyfill";
+import { BrowserRouter, Link, Navigate, Outlet, useLocation, useNavigate, useRoutes, type RouteObject } from "react-router-dom";
 import { answersMatch } from "./lib/answerMatcher";
 import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { maskHardWord, pickHardWordPlaceholderForId } from "./lib/format";
 import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n, getSearchWithLanguage } from "./lib/language";
 import { PUZZLE_MANIFEST, loadPuzzleItemById } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
-import { parseReaderRoute } from "./lib/sourceReader";
 import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
-import { InternalLink } from "./components/InternalLink";
 import { hasSeenExample, markExampleSeen, pickExamplePuzzle } from "./lib/examplePuzzles";
-import { SourceReader } from "./components/SourceReader";
+import { ReadBookPage, ReadBooksPage, ReadChapterPage } from "./components/SourceReader";
 import packageMeta from "../package.json";
 
 const PUZZLE_QUERY_KEY = "puzzle";
-const ABOUT_HASH = "#about";
 const LEGACY_DIFFICULTY_QUERY_KEYS = ["hard", "easy"] as const;
 const REPO_URL = "https://github.com/ohadravid/vayomer";
 const APP_VERSION = packageMeta.version;
@@ -32,11 +30,7 @@ type PersistedState = {
   revealed: boolean;
 };
 
-enum AppPage {
-  Game = "game",
-  About = "about",
-  Example = "example",
-}
+type AppSection = "game" | "about" | "example" | "reader";
 
 const EMPTY_PERSISTED_GAME_FIELDS: PersistedGameFields = {
   speaker: "",
@@ -231,19 +225,6 @@ export function pickPuzzleIndexForSearch(
   return pickDailyItemIndexWithOverrides(items, date);
 }
 
-function pickInitialPuzzleIndex(items: readonly { id: string }[]): number {
-  if (items.length === 0) return 0;
-  const search = typeof window === "undefined" ? "" : window.location.search;
-  return pickPuzzleIndexForSearch(items, search);
-}
-
-function pickInitialExamplePuzzle(): PuzzleItem | null {
-  const search = typeof window === "undefined" ? "" : window.location.search;
-  const requestedId = parsePuzzleIdFromSearch(search);
-  if (typeof window === "undefined") return pickExamplePuzzle(requestedId, false);
-  return pickExamplePuzzle(requestedId, hasSeenExample(window.localStorage));
-}
-
 function getSearchWithoutLegacyDifficultyParams(search: string): string {
   const params = new URLSearchParams(search);
   let changed = false;
@@ -259,76 +240,32 @@ function getSearchWithoutLegacyDifficultyParams(search: string): string {
   return serialized ? `?${serialized}` : "";
 }
 
-type BrowserForHistorySync = {
-  location: Pick<Location, "pathname" | "search" | "hash">;
-  history: Pick<History, "state" | "replaceState">;
-};
-
-function syncLegacyDifficultyParamsInUrl(browser: BrowserForHistorySync): void {
-  const current = `${browser.location.pathname}${browser.location.search}${browser.location.hash}`;
-  const next = `${browser.location.pathname}${getSearchWithoutLegacyDifficultyParams(browser.location.search)}${browser.location.hash}`;
-  if (current === next) return;
-  browser.history.replaceState(browser.history.state, "", next);
+function getAppSection(pathname: string): AppSection {
+  if (pathname === "/about") return "about";
+  if (pathname === "/example") return "example";
+  if (pathname === "/read" || pathname.startsWith("/read/")) return "reader";
+  return "game";
 }
 
-function pickPageFromLocationHash(): AppPage {
-  if (typeof window === "undefined") return AppPage.Game;
-  const hash = window.location.hash.trim().replace(/^#/, "").toLowerCase();
-  if (hash === AppPage.About) return AppPage.About;
-  if (hash === AppPage.Example) return AppPage.Example;
-  return AppPage.Game;
+function buildAppHref(pathname: string, lang: Lang, search: string): string {
+  return `${pathname}${getSearchWithLanguage(search, lang)}`;
 }
 
-function pickInitialPathname(): string {
-  if (typeof window === "undefined") return "/";
-  return window.location.pathname;
+function usePageLanguage(): Lang {
+  const { i18n } = useTranslation();
+  return getLanguageFromI18n(i18n);
 }
 
-function buildHomeHref(lang: Lang): string {
-  return `/${getSearchWithLanguage("", lang)}`;
-}
-
-export function App() {
-  const { t, i18n } = useTranslation();
-  const lang = getLanguageFromI18n(i18n);
-  const nextLanguage = getAlternateLanguage(lang);
+function GamePage() {
+  const lang = usePageLanguage();
+  const location = useLocation();
   const manifestEntries = PUZZLE_MANIFEST;
-  const [index] = useState(() => pickInitialPuzzleIndex(manifestEntries));
-  const [exampleBasePuzzle, setExampleBasePuzzle] = useState<PuzzleItem | null>(() => pickInitialExamplePuzzle());
+  const index = useMemo(() => pickPuzzleIndexForSearch(manifestEntries, location.search), [location.search, manifestEntries]);
   const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
   const [revealed, setRevealed] = useState(false);
-  const [exampleRevealed, setExampleRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistedGameFields | null>(null);
-  const [page, setPage] = useState<AppPage>(() => pickPageFromLocationHash());
-  const [pathname, setPathname] = useState(() => pickInitialPathname());
-  const readerRoute = useMemo(() => parseReaderRoute(pathname), [pathname]);
-  const homeHref = useMemo(() => buildHomeHref(lang), [lang]);
 
   useEffect(() => {
-    if (typeof window === "undefined") return;
-    const onHashChange = () => setPage(pickPageFromLocationHash());
-    window.addEventListener("hashchange", onHashChange);
-    return () => window.removeEventListener("hashchange", onHashChange);
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const syncFromLocation = () => syncLegacyDifficultyParamsInUrl(window);
-    syncFromLocation();
-    window.addEventListener("popstate", syncFromLocation);
-    return () => window.removeEventListener("popstate", syncFromLocation);
-  }, []);
-
-  useEffect(() => {
-    if (typeof window === "undefined") return;
-    const syncPathname = () => setPathname(window.location.pathname);
-    syncPathname();
-    window.addEventListener("popstate", syncPathname);
-    return () => window.removeEventListener("popstate", syncPathname);
-  }, []);
-
-  useEffect(() => {
-    if (readerRoute) return;
     const selectedId = manifestEntries[index]?.id;
     if (!selectedId) {
       setPuzzle(null);
@@ -336,6 +273,8 @@ export function App() {
     }
 
     let cancelled = false;
+    setPuzzle(null);
+
     void (async () => {
       try {
         const loadedPuzzle = await loadPuzzleItemById(selectedId);
@@ -350,17 +289,8 @@ export function App() {
     return () => {
       cancelled = true;
     };
-  }, [manifestEntries, index, readerRoute]);
+  }, [index, manifestEntries]);
 
-  const exampleMaskedPuzzle = useMemo(
-    () => (exampleBasePuzzle ? buildExamplePuzzleWithMaskedBonusWord(exampleBasePuzzle) : null),
-    [exampleBasePuzzle]
-  );
-  const examplePuzzle = exampleRevealed ? exampleBasePuzzle : exampleMaskedPuzzle;
-  const exampleInitial = useMemo(
-    () => (exampleBasePuzzle ? buildExampleInitialState(exampleBasePuzzle, lang) : null),
-    [exampleBasePuzzle, lang]
-  );
   const storageKey = puzzle ? buildPuzzleStorageKey(puzzle.id) : "";
 
   useEffect(() => {
@@ -372,45 +302,11 @@ export function App() {
     }
     setRevealed(parsed?.revealed ?? false);
     setInitial(parsed ? resolvePersistedGameFields(parsed, puzzle, lang) : { ...EMPTY_PERSISTED_GAME_FIELDS });
-  }, [puzzle, storageKey, lang]);
+  }, [lang, puzzle, storageKey]);
 
-  useEffect(() => {
-    const direction = getLanguageDirection(lang);
-    document.documentElement.lang = lang;
-    document.documentElement.dir = direction;
-    document.body.dir = direction;
-    document.title = readerRoute
-      ? t("reader.pageTitle")
-      : page === AppPage.About
-        ? t("about.title")
-        : page === AppPage.Example
-          ? t("example.title")
-          : t("app.pageTitle");
-  }, [lang, page, readerRoute, t]);
-
-  useEffect(() => {
-    if (page !== AppPage.Example) return;
-    const search = typeof window === "undefined" ? "" : window.location.search;
-    const requestedId = parsePuzzleIdFromSearch(search);
-
-    if (typeof window === "undefined") {
-      setExampleBasePuzzle(pickExamplePuzzle(requestedId, false));
-      return;
-    }
-
-    setExampleBasePuzzle(pickExamplePuzzle(requestedId, hasSeenExample(window.localStorage)));
-    markExampleSeen(window.localStorage);
-  }, [page]);
-
-  useEffect(() => {
-    if (page === AppPage.Example) return;
-    if (exampleRevealed) setExampleRevealed(false);
-  }, [page, exampleRevealed]);
-
-  if (!readerRoute && !puzzle && page === AppPage.Game) return null;
+  if (!puzzle) return null;
 
   const persist = (state: PersistedGameFields) => {
-    if (!puzzle) return;
     const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
     const payload = {
       version: APP_VERSION,
@@ -426,14 +322,12 @@ export function App() {
   };
 
   const clearResult = () => {
-    if (!puzzle) return;
     localStorage.removeItem(storageKey);
     setRevealed(false);
     setInitial({ ...EMPTY_PERSISTED_GAME_FIELDS });
   };
 
   const reveal = () => {
-    if (!puzzle) return;
     setRevealed(true);
     const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
     localStorage.setItem(
@@ -452,21 +346,153 @@ export function App() {
   };
 
   return (
+    <PuzzleView
+      puzzle={puzzle}
+      revealed={revealed}
+      onReveal={reveal}
+      onClear={clearResult}
+      onPersist={persist}
+      initial={initial ?? undefined}
+    />
+  );
+}
+
+function ExamplePage() {
+  const { t } = useTranslation();
+  const lang = usePageLanguage();
+  const location = useLocation();
+  const requestedId = parsePuzzleIdFromSearch(location.search);
+  const [exampleBasePuzzle, setExampleBasePuzzle] = useState<PuzzleItem | null>(null);
+  const [exampleRevealed, setExampleRevealed] = useState(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") {
+      setExampleBasePuzzle(pickExamplePuzzle(requestedId, false));
+      return;
+    }
+
+    setExampleBasePuzzle(pickExamplePuzzle(requestedId, hasSeenExample(window.localStorage)));
+    setExampleRevealed(false);
+    markExampleSeen(window.localStorage);
+  }, [requestedId]);
+
+  const exampleMaskedPuzzle = useMemo(
+    () => (exampleBasePuzzle ? buildExamplePuzzleWithMaskedBonusWord(exampleBasePuzzle) : null),
+    [exampleBasePuzzle]
+  );
+  const examplePuzzle = exampleRevealed ? exampleBasePuzzle : exampleMaskedPuzzle;
+  const exampleInitial = useMemo(
+    () => (exampleBasePuzzle ? buildExampleInitialState(exampleBasePuzzle, lang) : null),
+    [exampleBasePuzzle, lang]
+  );
+
+  if (!examplePuzzle) return null;
+
+  return (
+    <PuzzleView
+      puzzle={examplePuzzle}
+      revealed={exampleRevealed}
+      onReveal={() => {
+        setExampleRevealed(true);
+      }}
+      onClear={() => {}}
+      initial={exampleInitial ?? undefined}
+      shareEnabled={false}
+      upperCornerLabel={t("example.upperCornerLabel")}
+    />
+  );
+}
+
+function AboutPage() {
+  const { t } = useTranslation();
+
+  return (
+    <section className="card about-card">
+      <p>{t("about.gameDescription")}</p>
+      <h2 className="about-heading">{t("about.sourceHeading")}</h2>
+      <ul className="about-list">
+        <li>
+          <strong>{t("about.hebrewLabel")}</strong>{" "}
+          <a href="https://tanach.us/" target="_blank" rel="noreferrer">
+            {t("about.hebrewSourceName")}
+          </a>
+        </li>
+        <li>
+          <strong>{t("about.englishLabel")}</strong>{" "}
+          <a href="https://hdl.handle.net/21.11113/0000-0016-9447-1" target="_blank" rel="noreferrer">
+            {t("about.englishSourceName")}
+          </a>
+        </li>
+        <li>
+          <strong>{t("about.fontLabel")}</strong>{" "}
+          <a href="https://opensiddur.org/help/fonts/#t'amim-with-niqqud" target="_blank" rel="noreferrer">
+            {t("about.fontSourceName")}
+          </a>
+          <p>({t("about.fontLicenseNote")})</p>
+        </li>
+      </ul>
+      <p className="about-note">{t("about.modelNote")}</p>
+      <p className="about-note">
+        <a href="https://icons8.com/icon/112712/scroll" target="_blank" rel="noreferrer">
+          Scroll
+        </a>{" "}
+        icon by{" "}
+        <a href="https://icons8.com" target="_blank" rel="noreferrer">
+          Icons8
+        </a>
+      </p>
+    </section>
+  );
+}
+
+function AppLayout() {
+  const { t, i18n } = useTranslation();
+  const location = useLocation();
+  const navigate = useNavigate();
+  const lang = getLanguageFromI18n(i18n);
+  const nextLanguage = getAlternateLanguage(lang);
+  const section = getAppSection(location.pathname);
+  const cleanedSearch = useMemo(() => getSearchWithoutLegacyDifficultyParams(location.search), [location.search]);
+  const homeHref = useMemo(() => buildAppHref("/", lang, cleanedSearch), [cleanedSearch, lang]);
+  const aboutHref = useMemo(() => buildAppHref("/about", lang, cleanedSearch), [cleanedSearch, lang]);
+  const exampleHref = useMemo(() => buildAppHref("/example", lang, cleanedSearch), [cleanedSearch, lang]);
+
+  useEffect(() => {
+    if (cleanedSearch === location.search) return;
+    void navigate(`${location.pathname}${cleanedSearch}${location.hash}`, { replace: true });
+  }, [cleanedSearch, location.hash, location.pathname, location.search, navigate]);
+
+  useEffect(() => {
+    const direction = getLanguageDirection(lang);
+    document.documentElement.lang = lang;
+    document.documentElement.dir = direction;
+    document.body.dir = direction;
+    document.title =
+      section === "reader"
+        ? t("reader.pageTitle")
+        : section === "about"
+          ? t("about.title")
+          : section === "example"
+            ? t("example.title")
+            : t("app.pageTitle");
+  }, [lang, section, t]);
+
+  return (
     <div className="app" id="app">
       <LanguageUrlSync i18n={i18n} lang={lang} />
 
       <header className="header">
         <div className="header-copy">
           <div className="kicker">
-            {readerRoute
+            {section === "reader"
               ? t("reader.kicker")
-              : page === AppPage.About
+              : section === "about"
                 ? t("about.kicker")
-                : page === AppPage.Example
+                : section === "example"
                   ? t("example.kicker")
                   : t("app.kicker")}
           </div>
-          <h1>{readerRoute ? t("reader.title") : page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.title")}</h1>
+          <h1>{section === "reader" ? t("reader.title") : section === "about" ? t("about.title") : section === "example" ? t("example.title") : t("app.title")}</h1>
         </div>
         <div className="controls">
           <button
@@ -477,106 +503,35 @@ export function App() {
           >
             {nextLanguage.toUpperCase()}
           </button>
-          {!readerRoute && page === AppPage.Game ? (
-            <>
-              <button
-                className="chip"
-                type="button"
-                onClick={() => {
-                  window.location.hash = AppPage.Example;
-                }}
-                aria-label={t("app.openExample")}
-                title={t("app.openExample")}
-              >
-                ❓
-              </button>
-            </>
+          {section === "game" ? (
+            <Link className="chip" to={exampleHref} aria-label={t("app.openExample")} title={t("app.openExample")}>
+              ❓
+            </Link>
           ) : (
-            <InternalLink id="topBackButton" className="chip back-chip" href={homeHref}>
+            <Link id="topBackButton" className="chip back-chip" to={homeHref}>
               ⬅️
-            </InternalLink>
+            </Link>
           )}
         </div>
         <p className="subtitle header-subtitle">
-          {readerRoute
+          {section === "reader"
             ? t("reader.subtitle")
-            : page === AppPage.About
+            : section === "about"
               ? t("about.subtitle")
-              : page === AppPage.Example
+              : section === "example"
                 ? t("example.subtitle")
                 : t("app.subtitle")}
         </p>
       </header>
 
-      {readerRoute ? (
-        <SourceReader route={readerRoute} lang={lang} />
-      ) : page === AppPage.About ? (
-        <section className="card about-card">
-          <p>{t("about.gameDescription")}</p>
-          <h2 className="about-heading">{t("about.sourceHeading")}</h2>
-          <ul className="about-list">
-            <li>
-              <strong>{t("about.hebrewLabel")}</strong>{" "}
-              <a href="https://tanach.us/" target="_blank" rel="noreferrer">
-                {t("about.hebrewSourceName")}
-              </a>
-            </li>
-            <li>
-              <strong>{t("about.englishLabel")}</strong>{" "}
-              <a href="https://hdl.handle.net/21.11113/0000-0016-9447-1" target="_blank" rel="noreferrer">
-                {t("about.englishSourceName")}
-              </a>
-            </li>
-            <li>
-              <strong>{t("about.fontLabel")}</strong>{" "}
-              <a href="https://opensiddur.org/help/fonts/#t'amim-with-niqqud" target="_blank" rel="noreferrer">
-                {t("about.fontSourceName")}
-              </a>
-              <p>({t("about.fontLicenseNote")})</p>
-            </li>
-          </ul>
-          <p className="about-note">{t("about.modelNote")}</p>
-          <p className="about-note">
-            <a href="https://icons8.com/icon/112712/scroll" target="_blank" rel="noreferrer">
-              Scroll
-            </a>{" "}
-            icon by{" "}
-            <a href="https://icons8.com" target="_blank" rel="noreferrer">
-              Icons8
-            </a>
-          </p>
-        </section>
-      ) : page === AppPage.Example && examplePuzzle ? (
-        <>
-          <PuzzleView
-            puzzle={examplePuzzle}
-            revealed={exampleRevealed}
-            onReveal={() => {
-              setExampleRevealed(true);
-            }}
-            onClear={() => {}}
-            initial={exampleInitial ?? undefined}
-            shareEnabled={false}
-            upperCornerLabel={t("example.upperCornerLabel")}
-          />
-        </>
-      ) : puzzle ? (
-        <PuzzleView
-          puzzle={puzzle}
-          revealed={revealed}
-          onReveal={reveal}
-          onClear={clearResult}
-          onPersist={persist}
-          initial={initial ?? undefined}
-        />
-      ) : null}
+      <Outlet />
 
       <footer className="footer-note">
-        {!readerRoute && page === AppPage.Game ? (
+        {section === "game" ? (
           <div>
-            <InternalLink className="footer-link" href={`${homeHref}${ABOUT_HASH}`}>
+            <Link className="footer-link" to={aboutHref}>
               {t("about.link")}
-            </InternalLink>
+            </Link>
           </div>
         ) : null}
         <div>
@@ -586,5 +541,32 @@ export function App() {
         </div>
       </footer>
     </div>
+  );
+}
+
+export const APP_ROUTE_OBJECTS: RouteObject[] = [
+  {
+    element: <AppLayout />,
+    children: [
+      { index: true, element: <GamePage /> },
+      { path: "about", element: <AboutPage /> },
+      { path: "example", element: <ExamplePage /> },
+      { path: "read", element: <ReadBooksPage /> },
+      { path: "read/:bookSlug", element: <ReadBookPage /> },
+      { path: "read/:bookSlug/:chapter", element: <ReadChapterPage /> },
+      { path: "*", element: <Navigate to="/" replace /> },
+    ],
+  },
+];
+
+export function AppRoutes() {
+  return useRoutes(APP_ROUTE_OBJECTS);
+}
+
+export function App() {
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
   );
 }

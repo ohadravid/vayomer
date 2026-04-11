@@ -3,9 +3,9 @@ import { getSearchWithLanguage } from "./language";
 
 export type SourceBook = {
   code: string;
+  slug: string;
   en: string;
   he: string;
-  slug: string;
 };
 
 export type SourceIndexBook = {
@@ -13,7 +13,7 @@ export type SourceIndexBook = {
   slug: string;
   en: string;
   he: string;
-  chapters: number[];
+  chapter_count: number;
 };
 
 export type SourceIndexPayload = {
@@ -35,89 +35,70 @@ export type SourceChapterPayload = {
   verses: SourceVerse[];
 };
 
-export type ReaderRoute =
-  | { kind: "read-books" }
-  | { kind: "read-book"; bookSlug: string }
-  | { kind: "read-chapter"; bookSlug: string; chapter: number }
-  | { kind: "read-not-found" };
-
 const SOURCE_BOOK_DEFS = [
-  { code: "GEN", en: "Genesis", he: "בראשית" },
-  { code: "EXO", en: "Exodus", he: "שמות" },
-  { code: "LEV", en: "Leviticus", he: "ויקרא" },
-  { code: "NUM", en: "Numbers", he: "במדבר" },
-  { code: "DEU", en: "Deuteronomy", he: "דברים" },
-  { code: "JOS", en: "Joshua", he: "יהושע" },
-  { code: "JDG", en: "Judges", he: "שופטים" },
-  { code: "RUT", en: "Ruth", he: "רות" },
-  { code: "1SA", en: "1 Samuel", he: "שמואל א" },
-  { code: "2SA", en: "2 Samuel", he: "שמואל ב" },
-  { code: "1KI", en: "1 Kings", he: "מלכים א" },
-  { code: "2KI", en: "2 Kings", he: "מלכים ב" },
-  { code: "1CH", en: "1 Chronicles", he: "דברי הימים א" },
-  { code: "2CH", en: "2 Chronicles", he: "דברי הימים ב" },
-  { code: "EZR", en: "Ezra", he: "עזרא" },
-  { code: "NEH", en: "Nehemiah", he: "נחמיה" },
-  { code: "EST", en: "Esther", he: "אסתר" },
-  { code: "JOB", en: "Job", he: "איוב" },
-  { code: "PSA", en: "Psalms", he: "תהילים" },
-  { code: "PRO", en: "Proverbs", he: "משלי" },
-  { code: "ECC", en: "Ecclesiastes", he: "קהלת" },
-  { code: "SON", en: "Song of Songs", he: "שיר השירים" },
-  { code: "ISA", en: "Isaiah", he: "ישעיהו" },
-  { code: "JER", en: "Jeremiah", he: "ירמיהו" },
-  { code: "LAM", en: "Lamentations", he: "איכה" },
-  { code: "EZE", en: "Ezekiel", he: "יחזקאל" },
-  { code: "DAN", en: "Daniel", he: "דניאל" },
-  { code: "HOS", en: "Hosea", he: "הושע" },
-  { code: "JOE", en: "Joel", he: "יואל" },
-  { code: "AMO", en: "Amos", he: "עמוס" },
-  { code: "OBA", en: "Obadiah", he: "עובדיה" },
-  { code: "JON", en: "Jonah", he: "יונה" },
-  { code: "MIC", en: "Micah", he: "מיכה" },
-  { code: "NAH", en: "Nahum", he: "נחום" },
-  { code: "HAB", en: "Habakkuk", he: "חבקוק" },
-  { code: "ZEP", en: "Zephaniah", he: "צפניה" },
-  { code: "HAG", en: "Haggai", he: "חגי" },
-  { code: "ZEC", en: "Zechariah", he: "זכריה" },
-  { code: "MAL", en: "Malachi", he: "מלאכי" },
+  { code: "GEN", slug: "genesis", en: "Genesis", he: "בראשית" },
+  { code: "EXO", slug: "exodus", en: "Exodus", he: "שמות" },
+  { code: "LEV", slug: "leviticus", en: "Leviticus", he: "ויקרא" },
+  { code: "NUM", slug: "numbers", en: "Numbers", he: "במדבר" },
+  { code: "DEU", slug: "deuteronomy", en: "Deuteronomy", he: "דברים" },
+  { code: "JOS", slug: "joshua", en: "Joshua", he: "יהושע" },
+  { code: "JDG", slug: "judges", en: "Judges", he: "שופטים" },
+  { code: "RUT", slug: "ruth", en: "Ruth", he: "רות" },
+  { code: "1SA", slug: "1-samuel", en: "1 Samuel", he: "שמואל א" },
+  { code: "2SA", slug: "2-samuel", en: "2 Samuel", he: "שמואל ב" },
+  { code: "1KI", slug: "1-kings", en: "1 Kings", he: "מלכים א" },
+  { code: "2KI", slug: "2-kings", en: "2 Kings", he: "מלכים ב" },
+  { code: "1CH", slug: "1-chronicles", en: "1 Chronicles", he: "דברי הימים א" },
+  { code: "2CH", slug: "2-chronicles", en: "2 Chronicles", he: "דברי הימים ב" },
+  { code: "EZR", slug: "ezra", en: "Ezra", he: "עזרא" },
+  { code: "NEH", slug: "nehemiah", en: "Nehemiah", he: "נחמיה" },
+  { code: "EST", slug: "esther", en: "Esther", he: "אסתר" },
+  { code: "JOB", slug: "job", en: "Job", he: "איוב" },
+  { code: "PSA", slug: "psalms", en: "Psalms", he: "תהילים" },
+  { code: "PRO", slug: "proverbs", en: "Proverbs", he: "משלי" },
+  { code: "ECC", slug: "ecclesiastes", en: "Ecclesiastes", he: "קהלת" },
+  { code: "SON", slug: "song-of-songs", en: "Song of Songs", he: "שיר השירים" },
+  { code: "ISA", slug: "isaiah", en: "Isaiah", he: "ישעיהו" },
+  { code: "JER", slug: "jeremiah", en: "Jeremiah", he: "ירמיהו" },
+  { code: "LAM", slug: "lamentations", en: "Lamentations", he: "איכה" },
+  { code: "EZE", slug: "ezekiel", en: "Ezekiel", he: "יחזקאל" },
+  { code: "DAN", slug: "daniel", en: "Daniel", he: "דניאל" },
+  { code: "HOS", slug: "hosea", en: "Hosea", he: "הושע" },
+  { code: "JOE", slug: "joel", en: "Joel", he: "יואל" },
+  { code: "AMO", slug: "amos", en: "Amos", he: "עמוס" },
+  { code: "OBA", slug: "obadiah", en: "Obadiah", he: "עובדיה" },
+  { code: "JON", slug: "jonah", en: "Jonah", he: "יונה" },
+  { code: "MIC", slug: "micah", en: "Micah", he: "מיכה" },
+  { code: "NAH", slug: "nahum", en: "Nahum", he: "נחום" },
+  { code: "HAB", slug: "habakkuk", en: "Habakkuk", he: "חבקוק" },
+  { code: "ZEP", slug: "zephaniah", en: "Zephaniah", he: "צפניה" },
+  { code: "HAG", slug: "haggai", en: "Haggai", he: "חגי" },
+  { code: "ZEC", slug: "zechariah", en: "Zechariah", he: "זכריה" },
+  { code: "MAL", slug: "malachi", en: "Malachi", he: "מלאכי" },
 ] as const;
 
-export const SOURCE_BOOKS: readonly SourceBook[] = SOURCE_BOOK_DEFS.map((book) => ({
-  ...book,
-  slug: slugifyBookName(book.en),
-}));
+export const SOURCE_BOOKS: readonly SourceBook[] = SOURCE_BOOK_DEFS;
 
 const BOOK_BY_CODE = new Map(SOURCE_BOOKS.map((book) => [book.code, book]));
+const ORDER_BY_SLUG = new Map(SOURCE_BOOKS.map((book, index) => [book.slug, index]));
 
-export function slugifyBookName(name: string): string {
-  return name.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
-}
+export type ReaderNeighbor = {
+  bookSlug: string;
+  chapter: number;
+};
 
-function toPositiveInt(value: number | undefined): number | null {
-  if (typeof value !== "number" || !Number.isFinite(value)) return null;
-  const rounded = Math.floor(value);
-  return rounded > 0 ? rounded : null;
+export function getSourceBookByCode(bookCode: string | undefined): SourceBook | undefined {
+  return bookCode ? BOOK_BY_CODE.get(bookCode) : undefined;
 }
 
 export function buildVerseHash(verse: number): string {
-  return `#v${Math.floor(verse)}`;
-}
-
-export function getSourceBookSlug(bookCode: string | undefined, fallbackBookName = ""): string | null {
-  const book = typeof bookCode === "string" ? BOOK_BY_CODE.get(bookCode.trim()) : undefined;
-  if (book) return book.slug;
-  const trimmedFallback = fallbackBookName.trim();
-  return trimmedFallback ? slugifyBookName(trimmedFallback) : null;
+  return `#v${verse}`;
 }
 
 export function buildReaderPath(bookSlug?: string, chapter?: number): string {
-  const cleanBookSlug = typeof bookSlug === "string" ? bookSlug.trim().replace(/^\/+|\/+$/g, "") : "";
-  const chapterNumber = toPositiveInt(chapter);
-
-  if (!cleanBookSlug) return "/read";
-  if (chapterNumber === null) return `/read/${cleanBookSlug}`;
-  return `/read/${cleanBookSlug}/${chapterNumber}`;
+  if (!bookSlug) return "/read";
+  if (chapter === undefined) return `/read/${bookSlug}`;
+  return `/read/${bookSlug}/${chapter}`;
 }
 
 export function buildReaderHref(params: {
@@ -128,34 +109,47 @@ export function buildReaderHref(params: {
 }): string {
   const path = buildReaderPath(params.bookSlug, params.chapter);
   const search = getSearchWithLanguage("", params.lang);
-  const verse = toPositiveInt(params.verse);
-  const hash = verse === null ? "" : buildVerseHash(verse);
+  const hash = params.verse === undefined ? "" : buildVerseHash(params.verse);
   return `${path}${search}${hash}`;
 }
 
 export function buildReaderHrefFromSource(source: SourceRef | undefined, lang: Lang): string | null {
-  if (!source) return null;
-  const bookSlug = getSourceBookSlug(source.book_code, source.book);
-  const chapter = toPositiveInt(source.chapter);
-  const verse = toPositiveInt(source.quote_verse_start);
-  if (!bookSlug || chapter === null || verse === null) return null;
-  return buildReaderHref({ lang, bookSlug, chapter, verse });
+  if (!source?.book_code || source.chapter === undefined || source.quote_verse_start === undefined) return null;
+  const book = getSourceBookByCode(source.book_code);
+  if (!book) return null;
+  return buildReaderHref({ lang, bookSlug: book.slug, chapter: source.chapter, verse: source.quote_verse_start });
 }
 
-export function parseReaderRoute(pathname: string): ReaderRoute | null {
-  const parts = pathname
-    .trim()
-    .split("/")
-    .filter(Boolean);
+export function getOrderedSourceIndexBooks(books: readonly SourceIndexBook[]): SourceIndexBook[] {
+  return [...books].sort((left, right) => {
+    const leftOrder = ORDER_BY_SLUG.get(left.slug) ?? Number.MAX_SAFE_INTEGER;
+    const rightOrder = ORDER_BY_SLUG.get(right.slug) ?? Number.MAX_SAFE_INTEGER;
+    return leftOrder - rightOrder;
+  });
+}
 
-  if (parts.length === 0 || parts[0] !== "read") return null;
-  if (parts.length === 1) return { kind: "read-books" };
-  if (parts.length === 2) return { kind: "read-book", bookSlug: parts[1] };
-  if (parts.length === 3) {
-    const chapter = Number.parseInt(parts[2] ?? "", 10);
-    if (Number.isInteger(chapter) && chapter > 0) {
-      return { kind: "read-chapter", bookSlug: parts[1], chapter };
-    }
-  }
-  return { kind: "read-not-found" };
+export function getReaderNeighbors(
+  books: readonly SourceIndexBook[],
+  bookSlug: string,
+  chapter: number
+): { previous: ReaderNeighbor | null; next: ReaderNeighbor | null } {
+  const orderedBooks = getOrderedSourceIndexBooks(books);
+  const bookIndex = orderedBooks.findIndex((book) => book.slug === bookSlug);
+  if (bookIndex < 0) return { previous: null, next: null };
+
+  const currentBook = orderedBooks[bookIndex];
+  const previous =
+    chapter > 1
+      ? { bookSlug, chapter: chapter - 1 }
+      : bookIndex > 0
+        ? { bookSlug: orderedBooks[bookIndex - 1]!.slug, chapter: orderedBooks[bookIndex - 1]!.chapter_count }
+        : null;
+  const next =
+    chapter < currentBook.chapter_count
+      ? { bookSlug, chapter: chapter + 1 }
+      : bookIndex < orderedBooks.length - 1
+        ? { bookSlug: orderedBooks[bookIndex + 1]!.slug, chapter: 1 }
+        : null;
+
+  return { previous, next };
 }

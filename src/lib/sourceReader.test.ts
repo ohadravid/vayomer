@@ -1,12 +1,16 @@
 import { describe, expect, it } from "vitest";
 import type { SourceRef } from "../types";
-import { buildReaderHref, buildReaderHrefFromSource, parseReaderRoute, slugifyBookName } from "./sourceReader";
+import {
+  buildReaderHref,
+  buildReaderHrefFromSource,
+  getOrderedSourceIndexBooks,
+  getReaderNeighbors,
+  getSourceBookByCode,
+} from "./sourceReader";
 
-describe("slugifyBookName", () => {
-  it("matches the source-reader book slug format", () => {
-    expect(slugifyBookName("Exodus")).toBe("exodus");
-    expect(slugifyBookName("1 Samuel")).toBe("1-samuel");
-    expect(slugifyBookName("Song of Songs")).toBe("song-of-songs");
+describe("getSourceBookByCode", () => {
+  it("returns the canonical book registry entry", () => {
+    expect(getSourceBookByCode("EXO")).toMatchObject({ slug: "exodus", en: "Exodus", he: "שמות" });
   });
 });
 
@@ -35,20 +39,38 @@ describe("buildReaderHrefFromSource", () => {
   });
 });
 
-describe("parseReaderRoute", () => {
-  it("parses the supported reader paths", () => {
-    expect(parseReaderRoute("/read")).toEqual({ kind: "read-books" });
-    expect(parseReaderRoute("/read/exodus")).toEqual({ kind: "read-book", bookSlug: "exodus" });
-    expect(parseReaderRoute("/read/exodus/33")).toEqual({ kind: "read-chapter", bookSlug: "exodus", chapter: 33 });
+describe("getOrderedSourceIndexBooks", () => {
+  it("sorts books into canonical tanakh order", () => {
+    const ordered = getOrderedSourceIndexBooks([
+      { code: "EXO", slug: "exodus", en: "Exodus", he: "שמות", chapter_count: 40 },
+      { code: "GEN", slug: "genesis", en: "Genesis", he: "בראשית", chapter_count: 50 },
+    ]);
+
+    expect(ordered.map((book) => book.slug)).toEqual(["genesis", "exodus"]);
+  });
+});
+
+describe("getReaderNeighbors", () => {
+  const books = [
+    { code: "GEN", slug: "genesis", en: "Genesis", he: "בראשית", chapter_count: 50 },
+    { code: "EXO", slug: "exodus", en: "Exodus", he: "שמות", chapter_count: 40 },
+  ];
+
+  it("moves within the current book when possible", () => {
+    expect(getReaderNeighbors(books, "exodus", 33)).toEqual({
+      previous: { bookSlug: "exodus", chapter: 32 },
+      next: { bookSlug: "exodus", chapter: 34 },
+    });
   });
 
-  it("returns a reader not-found route for invalid /read paths", () => {
-    expect(parseReaderRoute("/read/exodus/not-a-chapter")).toEqual({ kind: "read-not-found" });
-    expect(parseReaderRoute("/read/exodus/33/extra")).toEqual({ kind: "read-not-found" });
-  });
-
-  it("returns null for non-reader paths", () => {
-    expect(parseReaderRoute("/")).toBeNull();
-    expect(parseReaderRoute("/preview")).toBeNull();
+  it("moves across book boundaries at the edges", () => {
+    expect(getReaderNeighbors(books, "exodus", 1)).toEqual({
+      previous: { bookSlug: "genesis", chapter: 50 },
+      next: { bookSlug: "exodus", chapter: 2 },
+    });
+    expect(getReaderNeighbors(books, "genesis", 50)).toEqual({
+      previous: { bookSlug: "genesis", chapter: 49 },
+      next: { bookSlug: "exodus", chapter: 1 },
+    });
   });
 });

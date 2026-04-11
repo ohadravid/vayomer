@@ -1,6 +1,10 @@
+import { execFile as execFileCallback } from "node:child_process";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { promisify } from "node:util";
 import { pathToFileURL } from "node:url";
+
+const execFile = promisify(execFileCallback);
 
 type PuzzleManifestEntry = {
   id: string;
@@ -17,7 +21,7 @@ const SOURCES = [
   { key: "manual", dir: path.join(ROOT, "data", "manual_quotes") },
 ] as const;
 const QUOTES_OUTPUT_ROOT = path.join(ROOT, "public", "quotes");
-const SOURCE_READER_INPUT_ROOT = path.join(ROOT, "source");
+const SOURCE_READER_ARCHIVE_PATH = path.join(ROOT, "source.zip");
 const SOURCE_READER_OUTPUT_ROOT = path.join(ROOT, "public", "source");
 const MANIFEST_SOURCE_PATH = path.join(ROOT, "src", "lib", "puzzleManifest.json");
 export const DAILY_ORDER_SEED = 20220805;
@@ -54,20 +58,21 @@ export function compareDailyOrderIds(leftId: string, rightId: string): number {
   return leftId.localeCompare(rightId);
 }
 
-export async function mirrorSourceReaderAssets(
-  inputRoot = SOURCE_READER_INPUT_ROOT,
+export async function extractSourceReaderAssets(
+  archivePath = SOURCE_READER_ARCHIVE_PATH,
   outputRoot = SOURCE_READER_OUTPUT_ROOT
 ): Promise<void> {
   await fs.rm(outputRoot, { recursive: true, force: true });
 
   try {
-    const stats = await fs.stat(inputRoot);
-    if (!stats.isDirectory()) return;
+    const stats = await fs.stat(archivePath);
+    if (!stats.isFile()) return;
   } catch {
     return;
   }
 
-  await fs.cp(inputRoot, outputRoot, { recursive: true });
+  await fs.mkdir(outputRoot, { recursive: true });
+  await execFile("unzip", ["-oq", archivePath, "-d", outputRoot]);
 }
 
 async function main(): Promise<void> {
@@ -106,7 +111,7 @@ async function main(): Promise<void> {
   manifest.sort((left, right) => compareDailyOrderIds(left.id, right.id));
 
   await fs.writeFile(MANIFEST_SOURCE_PATH, JSON.stringify(manifest));
-  await mirrorSourceReaderAssets();
+  await extractSourceReaderAssets();
   console.log(`Prepared ${manifest.length} puzzle IDs and chapter mappings.`);
 }
 

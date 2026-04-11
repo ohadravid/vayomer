@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import type { i18n as I18nInstance } from "i18next";
+import { useLocation, useNavigate } from "react-router-dom";
 import {
   DEFAULT_LANGUAGE,
   LANGUAGE_STORAGE_KEY,
@@ -12,23 +13,9 @@ import type { Lang } from "../types";
 
 export type UrlSyncI18n = Pick<I18nInstance, "resolvedLanguage" | "language" | "changeLanguage">;
 
-/**
- * Keeps language state synchronized between i18n, URL, and local storage.
- *
- * Behavior:
- * - Hebrew is the canonical default URL and removes the `lng` query parameter.
- * - Non-default language (`en`) writes `lng=en` so links are shareable.
- * - Boot uses URL first, then storage, and waits for initial language sync
- *   before i18n writes back to the URL.
- * - `popstate` trusts only the URL (no storage fallback) so Back/Forward works.
- * - Cross-tab storage changes can still drive i18n updates.
- *
- * Implementation:
- * - One effect reflects current i18n language into `history.replaceState`.
- * - A second effect subscribes to `popstate` and `storage` and applies external
- *   language values back into i18n when they differ.
- */
 export function LanguageUrlSync({ i18n, lang }: { i18n: UrlSyncI18n; lang: Lang }) {
+  const location = useLocation();
+  const navigate = useNavigate();
   const i18nRef = useRef(i18n);
   const [isBootstrapped, setIsBootstrapped] = useState(false);
 
@@ -41,12 +28,12 @@ export function LanguageUrlSync({ i18n, lang }: { i18n: UrlSyncI18n; lang: Lang 
       setIsBootstrapped(true);
       return;
     }
+
     const instance = i18nRef.current;
     let cancelled = false;
-    const targetLang = resolveLanguageFromExternalState(window.location.search, readLanguageFromStorage(window));
+    const targetLang = resolveLanguageFromExternalState(location.search, readLanguageFromStorage(window));
     const finishBoot = () => {
-      if (cancelled) return;
-      setIsBootstrapped(true);
+      if (!cancelled) setIsBootstrapped(true);
     };
 
     if (!targetLang || targetLang === getLanguageFromI18n(instance)) {
@@ -64,25 +51,31 @@ export function LanguageUrlSync({ i18n, lang }: { i18n: UrlSyncI18n; lang: Lang 
 
   useEffect(() => {
     if (!isBootstrapped) return;
-    if (typeof window === "undefined") return;
     if (lang !== getLanguageFromI18n(i18nRef.current)) return;
-    syncLanguageInUrl(window, lang);
+
+    const current = `${location.pathname}${location.search}${location.hash}`;
+    const next = buildLocationWithLanguage(location.pathname, location.search, location.hash, lang);
+    if (next !== current) {
+      void navigate(next, { replace: true });
+    }
+
+    if (typeof window === "undefined") return;
     try {
       window.localStorage.setItem(LANGUAGE_STORAGE_KEY, lang);
     } catch {
       // Ignore storage access errors.
     }
-  }, [lang, isBootstrapped]);
+  }, [isBootstrapped, lang, location.hash, location.pathname, location.search, navigate]);
+
+  useEffect(() => {
+    if (!isBootstrapped) return;
+    const fromUrl = parseLanguageFromSearch(location.search) ?? DEFAULT_LANGUAGE;
+    if (fromUrl === getLanguageFromI18n(i18nRef.current)) return;
+    void i18nRef.current.changeLanguage(fromUrl);
+  }, [isBootstrapped, location.search]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
-
-    const onPopState = () => {
-      const fromUrl = parseLanguageFromSearch(window.location.search);
-      const nextLang = fromUrl ?? DEFAULT_LANGUAGE;
-      if (nextLang === getLanguageFromI18n(i18nRef.current)) return;
-      void i18nRef.current.changeLanguage(nextLang);
-    };
 
     const onStorage = (event: StorageEvent) => {
       if (event.storageArea && event.storageArea !== window.localStorage) return;
@@ -93,10 +86,8 @@ export function LanguageUrlSync({ i18n, lang }: { i18n: UrlSyncI18n; lang: Lang 
       void i18nRef.current.changeLanguage(fromStorage);
     };
 
-    window.addEventListener("popstate", onPopState);
     window.addEventListener("storage", onStorage);
     return () => {
-      window.removeEventListener("popstate", onPopState);
       window.removeEventListener("storage", onStorage);
     };
   }, []);
@@ -105,10 +96,6 @@ export function LanguageUrlSync({ i18n, lang }: { i18n: UrlSyncI18n; lang: Lang 
 }
 
 type BrowserForStorage = Pick<Window, "localStorage">;
-type BrowserForHistory = {
-  location: Pick<Location, "pathname" | "search" | "hash">;
-  history: Pick<History, "state" | "replaceState">;
-};
 
 function readLanguageFromStorage(browser: BrowserForStorage): Lang | null {
   try {
@@ -129,11 +116,4 @@ export function resolveLanguageFromExternalState(search: string, storedLanguage:
 
 export function buildLocationWithLanguage(pathname: string, search: string, hash: string, lang: Lang): string {
   return `${pathname}${getSearchWithLanguage(search, lang)}${hash}`;
-}
-
-export function syncLanguageInUrl(browser: BrowserForHistory, lang: Lang): void {
-  const current = `${browser.location.pathname}${browser.location.search}${browser.location.hash}`;
-  const next = buildLocationWithLanguage(browser.location.pathname, browser.location.search, browser.location.hash, lang);
-  if (next === current) return;
-  browser.history.replaceState(browser.history.state, "", next);
 }

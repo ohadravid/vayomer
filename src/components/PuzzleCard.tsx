@@ -3,7 +3,6 @@ import { getLanguageFromI18n } from "../lib/language";
 import { buildReaderHrefFromSource } from "../lib/sourceReader";
 import type { PuzzleItem } from "../types";
 import { highlightQuote, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
-import { InternalLink } from "./InternalLink";
 
 type Props = {
   puzzle: PuzzleItem;
@@ -135,9 +134,9 @@ export function PuzzleCard({
       <div id="refLine" className="ref-line">
         {sourceRevealed ? (
           sourceHref ? (
-            <InternalLink className="ref-link" href={sourceHref}>
+            <a className="ref-link" href={sourceHref}>
               {sourceLineWithMethod}
-            </InternalLink>
+            </a>
           ) : (
             sourceLineWithMethod
           )

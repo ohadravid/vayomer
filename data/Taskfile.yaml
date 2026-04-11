@@ -102,7 +102,7 @@ tasks:
         {{.CLI_ARGS}}
 
   source:build:
-    desc: Build the dual-language source reader JSON files
+    desc: Build the dual-language source reader archive
     dir: '{{.TASKFILE_DIR}}/..'
     cmds:
       - >
