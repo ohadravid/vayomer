@@ -4,13 +4,16 @@ import { Temporal } from "@js-temporal/polyfill";
 import { answersMatch } from "./lib/answerMatcher";
 import { pickDailyItemIndexWithOverrides } from "./lib/daily";
 import { maskHardWord, pickHardWordPlaceholderForId } from "./lib/format";
-import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n } from "./lib/language";
+import { getAlternateLanguage, getLanguageDirection, getLanguageFromI18n, getSearchWithLanguage } from "./lib/language";
 import { PUZZLE_MANIFEST, loadPuzzleItemById } from "./lib/puzzleData";
 import { buildPuzzleStorageKey } from "./lib/persistence";
+import { parseReaderRoute } from "./lib/sourceReader";
 import type { GuessResult, Lang, PersistedGameFields, PuzzleItem } from "./types";
 import { PuzzleView } from "./components/PuzzleView";
 import { LanguageUrlSync } from "./components/LanguageUrlSync";
+import { InternalLink } from "./components/InternalLink";
 import { hasSeenExample, markExampleSeen, pickExamplePuzzle } from "./lib/examplePuzzles";
+import { SourceReader } from "./components/SourceReader";
 import packageMeta from "../package.json";
 
 const PUZZLE_QUERY_KEY = "puzzle";
@@ -276,6 +279,15 @@ function pickPageFromLocationHash(): AppPage {
   return AppPage.Game;
 }
 
+function pickInitialPathname(): string {
+  if (typeof window === "undefined") return "/";
+  return window.location.pathname;
+}
+
+function buildHomeHref(lang: Lang): string {
+  return `/${getSearchWithLanguage("", lang)}`;
+}
+
 export function App() {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -288,6 +300,9 @@ export function App() {
   const [exampleRevealed, setExampleRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistedGameFields | null>(null);
   const [page, setPage] = useState<AppPage>(() => pickPageFromLocationHash());
+  const [pathname, setPathname] = useState(() => pickInitialPathname());
+  const readerRoute = useMemo(() => parseReaderRoute(pathname), [pathname]);
+  const homeHref = useMemo(() => buildHomeHref(lang), [lang]);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -305,6 +320,15 @@ export function App() {
   }, []);
 
   useEffect(() => {
+    if (typeof window === "undefined") return;
+    const syncPathname = () => setPathname(window.location.pathname);
+    syncPathname();
+    window.addEventListener("popstate", syncPathname);
+    return () => window.removeEventListener("popstate", syncPathname);
+  }, []);
+
+  useEffect(() => {
+    if (readerRoute) return;
     const selectedId = manifestEntries[index]?.id;
     if (!selectedId) {
       setPuzzle(null);
@@ -326,7 +350,7 @@ export function App() {
     return () => {
       cancelled = true;
     };
-  }, [manifestEntries, index]);
+  }, [manifestEntries, index, readerRoute]);
 
   const exampleMaskedPuzzle = useMemo(
     () => (exampleBasePuzzle ? buildExamplePuzzleWithMaskedBonusWord(exampleBasePuzzle) : null),
@@ -355,8 +379,14 @@ export function App() {
     document.documentElement.lang = lang;
     document.documentElement.dir = direction;
     document.body.dir = direction;
-    document.title = page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.pageTitle");
-  }, [lang, page, t]);
+    document.title = readerRoute
+      ? t("reader.pageTitle")
+      : page === AppPage.About
+        ? t("about.title")
+        : page === AppPage.Example
+          ? t("example.title")
+          : t("app.pageTitle");
+  }, [lang, page, readerRoute, t]);
 
   useEffect(() => {
     if (page !== AppPage.Example) return;
@@ -377,7 +407,7 @@ export function App() {
     if (exampleRevealed) setExampleRevealed(false);
   }, [page, exampleRevealed]);
 
-  if (!puzzle && page === AppPage.Game) return null;
+  if (!readerRoute && !puzzle && page === AppPage.Game) return null;
 
   const persist = (state: PersistedGameFields) => {
     if (!puzzle) return;
@@ -428,9 +458,15 @@ export function App() {
       <header className="header">
         <div className="header-copy">
           <div className="kicker">
-            {page === AppPage.About ? t("about.kicker") : page === AppPage.Example ? t("example.kicker") : t("app.kicker")}
+            {readerRoute
+              ? t("reader.kicker")
+              : page === AppPage.About
+                ? t("about.kicker")
+                : page === AppPage.Example
+                  ? t("example.kicker")
+                  : t("app.kicker")}
           </div>
-          <h1>{page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.title")}</h1>
+          <h1>{readerRoute ? t("reader.title") : page === AppPage.About ? t("about.title") : page === AppPage.Example ? t("example.title") : t("app.title")}</h1>
         </div>
         <div className="controls">
           <button
@@ -441,7 +477,7 @@ export function App() {
           >
             {nextLanguage.toUpperCase()}
           </button>
-          {page === AppPage.Game ? (
+          {!readerRoute && page === AppPage.Game ? (
             <>
               <button
                 className="chip"
@@ -456,15 +492,25 @@ export function App() {
               </button>
             </>
           ) : (
-            <a id="topBackButton" className="chip back-chip" href="#">⬅️</a>
+            <InternalLink id="topBackButton" className="chip back-chip" href={homeHref}>
+              ⬅️
+            </InternalLink>
           )}
         </div>
         <p className="subtitle header-subtitle">
-          {page === AppPage.About ? t("about.subtitle") : page === AppPage.Example ? t("example.subtitle") : t("app.subtitle")}
+          {readerRoute
+            ? t("reader.subtitle")
+            : page === AppPage.About
+              ? t("about.subtitle")
+              : page === AppPage.Example
+                ? t("example.subtitle")
+                : t("app.subtitle")}
         </p>
       </header>
 
-      {page === AppPage.About ? (
+      {readerRoute ? (
+        <SourceReader route={readerRoute} lang={lang} />
+      ) : page === AppPage.About ? (
         <section className="card about-card">
           <p>{t("about.gameDescription")}</p>
           <h2 className="about-heading">{t("about.sourceHeading")}</h2>
@@ -526,11 +572,11 @@ export function App() {
       ) : null}
 
       <footer className="footer-note">
-        {page === AppPage.Game ? (
+        {!readerRoute && page === AppPage.Game ? (
           <div>
-            <a className="footer-link" href={ABOUT_HASH}>
+            <InternalLink className="footer-link" href={`${homeHref}${ABOUT_HASH}`}>
               {t("about.link")}
-            </a>
+            </InternalLink>
           </div>
         ) : null}
         <div>

@@ -53,6 +53,7 @@ export type SourceMethod = "llm" | "manual";
 export type SourceRef = {
   method?: SourceMethod;
   emoji?: string;
+  book_code?: string;
   ref_start?: string;
   ref_end?: string;
   book?: string;

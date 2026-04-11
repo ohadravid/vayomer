@@ -44,6 +44,17 @@ export const resources = {
         subtitle: "Identify the speaker, the listener, and the missing word.",
         upperCornerLabel: "Example"
       },
+      reader: {
+        kicker: "Source Reader",
+        title: "Bible Reader",
+        pageTitle: "Vayomer | Bible Reader",
+        subtitle: "Hebrew and English verses, side by side.",
+        loading: "Loading source text…",
+        notFound: "Source text not found.",
+        allBooks: "All books",
+        backToChapters: "Back to chapters",
+        chapterLabel: "Chapter {{chapter}}",
+      },
       puzzleView: {
         solved: "Solved.",
         keepGoing: "Nice! Now find the missing word.",
@@ -106,6 +117,17 @@ export const resources = {
         title: "וַיֹּאמֶר - כֵּיצַד לְשַׂחֵק?",
         subtitle: "בַּחֲרוּ אֶת הַדּוֹבֵר ואֶת הַמַּאֲזִין הַנְּכוֹנִים. לְאַחַר מִכֵּן, הַקְלִידוּ אֶת הַמִּלָּה הַחֲסֵרָה. חֲמִשָּׁה נִסְיוֹנוֹת לְכָל הַיּוֹתֵר. בְּהַצְלָחָה!",
         upperCornerLabel: "חִידָה לְדֻגְמָה"
+      },
+      reader: {
+        kicker: "מְקוֹר",
+        title: "קוֹרֵא הַתַּנָּ״ךְ",
+        pageTitle: "וַיֹּאמֶר | קורא התנ״ך",
+        subtitle: "פסוקים בעברית ובאנגלית, זה לצד זה.",
+        loading: "טוענים את הטקסט…",
+        notFound: "הטקסט לא נמצא.",
+        allBooks: "כל הספרים",
+        backToChapters: "חזרה לפרקים",
+        chapterLabel: "פרק {{chapter}}",
       },
       puzzleView: {
         solved: "נכון.",

@@ -100,3 +100,11 @@ tasks:
         --seed 32988
         --model gemma4:26b
         {{.CLI_ARGS}}
+
+  source:build:
+    desc: Build the dual-language source reader JSON files
+    dir: '{{.TASKFILE_DIR}}/..'
+    cmds:
+      - >
+        uv run --project data/data-proc data-proc build-source-reader
+        {{.CLI_ARGS}}

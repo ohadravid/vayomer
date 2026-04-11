@@ -1,7 +1,9 @@
 import { useTranslation } from "react-i18next";
 import { getLanguageFromI18n } from "../lib/language";
+import { buildReaderHrefFromSource } from "../lib/sourceReader";
 import type { PuzzleItem } from "../types";
 import { highlightQuote, maskHardWord, pickHardWordPlaceholderForId } from "../lib/format";
+import { InternalLink } from "./InternalLink";
 
 type Props = {
   puzzle: PuzzleItem;
@@ -104,6 +106,7 @@ export function PuzzleCard({
   const sourceLine = [book, mainSourceRange].filter(Boolean).join(" ");
   const sourceEmoji = sourceEmojiFromPuzzle(puzzle);
   const sourceLineWithMethod = sourceLine ? `${sourceEmoji ? `${sourceEmoji} ` : ""}${sourceLine}` : "";
+  const sourceHref = buildReaderHrefFromSource(puzzle.source, lang);
 
   return (
     <section
@@ -130,7 +133,17 @@ export function PuzzleCard({
         {quoteContent}
       </div>
       <div id="refLine" className="ref-line">
-        {sourceRevealed ? sourceLineWithMethod : ""}
+        {sourceRevealed ? (
+          sourceHref ? (
+            <InternalLink className="ref-link" href={sourceHref}>
+              {sourceLineWithMethod}
+            </InternalLink>
+          ) : (
+            sourceLineWithMethod
+          )
+        ) : (
+          ""
+        )}
       </div>
     </section>
   );
