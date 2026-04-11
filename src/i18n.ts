@@ -45,11 +45,11 @@ export const resources = {
         upperCornerLabel: "Example"
       },
       reader: {
-        kicker: "Source Reader",
-        title: "Bible Reader",
-        pageTitle: "Vayomer | Bible Reader",
+        kicker: "",
+        title: "A Hebrew - English Bible",
+        pageTitle: "Vayomer | A Hebrew - English Bible",
         subtitle: "Hebrew and English verses, side by side.",
-        loading: "Loading source text…",
+        loading: "Loading source text...",
         notFound: "Source text not found.",
         allBooks: "All books",
         backToChapters: "Back to chapters",
@@ -119,11 +119,11 @@ export const resources = {
         upperCornerLabel: "חִידָה לְדֻגְמָה"
       },
       reader: {
-        kicker: "מְקוֹר",
-        title: "קוֹרֵא הַתַּנָּ״ךְ",
-        pageTitle: "וַיֹּאמֶר | קורא התנ״ך",
+        kicker: "",
+        title: "תָּנָ״ךְ דּוּ לְשׁוֹנִי",
+        pageTitle: "וַיֹּאמֶר | תָּנָ״ךְ דּוּ לְשׁוֹנִי",
         subtitle: "פסוקים בעברית ובאנגלית, זה לצד זה.",
-        loading: "טוענים את הטקסט…",
+        loading: "טקסט בטעינה...",
         notFound: "הטקסט לא נמצא.",
         allBooks: "כל הספרים",
         backToChapters: "חזרה לפרקים",
