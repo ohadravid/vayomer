@@ -42,7 +42,20 @@ export const resources = {
         kicker: "Daily Quote Puzzle",
         title: "Vayomer - How to Play",
         subtitle: "Identify the speaker, the listener, and the missing word.",
-        upperCornerLabel: "Example"
+        upperCornerLabel: "Example",
+      },
+      reader: {
+        kicker: "",
+        title: "A Hebrew - English Bible",
+        pageTitle: "Vayomer | A Hebrew - English Bible",
+        subtitle: "Hebrew and English verses, side by side.",
+        loading: "Loading source text...",
+        notFound: "Source text not found.",
+        allBooks: "All books",
+        backToChapters: "Back to chapters",
+        chapterLabel: "Chapter {{chapter}}",
+        previousChapter: "Previous chapter",
+        nextChapter: "Next chapter",
       },
       puzzleView: {
         solved: "Solved.",
@@ -105,7 +118,20 @@ export const resources = {
         kicker: "חִידוֹן צִיטּוּט יוֹמִי",
         title: "וַיֹּאמֶר - כֵּיצַד לְשַׂחֵק?",
         subtitle: "בַּחֲרוּ אֶת הַדּוֹבֵר ואֶת הַמַּאֲזִין הַנְּכוֹנִים. לְאַחַר מִכֵּן, הַקְלִידוּ אֶת הַמִּלָּה הַחֲסֵרָה. חֲמִשָּׁה נִסְיוֹנוֹת לְכָל הַיּוֹתֵר. בְּהַצְלָחָה!",
-        upperCornerLabel: "חִידָה לְדֻגְמָה"
+        upperCornerLabel: "חִידָה לְדֻגְמָה",
+      },
+      reader: {
+        kicker: "",
+        title: "תָּנָ״ךְ דּוּ לְשׁוֹנִי",
+        pageTitle: "וַיֹּאמֶר | תָּנָ״ךְ דּוּ לְשׁוֹנִי",
+        subtitle: "פסוקים בעברית ובאנגלית, זה לצד זה.",
+        loading: "טקסט בטעינה...",
+        notFound: "הטקסט לא נמצא.",
+        allBooks: "כל הספרים",
+        backToChapters: "חזרה לפרקים",
+        chapterLabel: "פרק {{chapter}}",
+        previousChapter: "פרק קודם",
+        nextChapter: "פרק הבא",
       },
       puzzleView: {
         solved: "נכון.",

@@ -1,65 +1,22 @@
 import { afterEach, describe, expect, it } from "vitest";
-import { act, create, type ReactTestRenderer } from "react-test-renderer";
-import { LanguageUrlSync, buildLocationWithLanguage, resolveLanguageFromExternalState, syncLanguageInUrl, type UrlSyncI18n } from "./LanguageUrlSync";
+import React from "react";
+import { act, cleanup, fireEvent, render } from "@testing-library/react";
+import "@testing-library/jest-dom/vitest";
+import { JSDOM } from "jsdom";
+import { MemoryRouter, useLocation, useNavigate } from "react-router-dom";
+import { LanguageUrlSync, buildLocationWithLanguage, resolveLanguageFromExternalState, type UrlSyncI18n } from "./LanguageUrlSync";
 import { LANGUAGE_STORAGE_KEY } from "../lib/language";
 
-type Listener = (event?: unknown) => void;
+const dom = new JSDOM("<!doctype html><html><body></body></html>", { url: "https://example.test/" });
+const { window } = dom;
 
-type FakeWindow = {
-  location: { pathname: string; search: string; hash: string };
-  history: { state: unknown; replaceState: (state: unknown, title: string, url: string) => void };
-  localStorage: {
-    getItem: (key: string) => string | null;
-    setItem: (key: string, value: string) => void;
-    removeItem: (key: string) => void;
-  };
-  addEventListener: (type: string, listener: Listener) => void;
-  removeEventListener: (type: string, listener: Listener) => void;
-  dispatchEvent: (type: string, event?: unknown) => void;
-};
-
-function createFakeWindow(initialPath: string): FakeWindow {
-  const url = new URL(initialPath, "https://example.test");
-  const storage = new Map<string, string>();
-  const listeners = new Map<string, Set<Listener>>();
-
-  const location = {
-    pathname: url.pathname,
-    search: url.search,
-    hash: url.hash,
-  };
-
-  const history = {
-    state: null as unknown,
-    replaceState(nextState: unknown, _title: string, nextUrl: string) {
-      history.state = nextState;
-      const parsed = new URL(nextUrl, "https://example.test");
-      location.pathname = parsed.pathname;
-      location.search = parsed.search;
-      location.hash = parsed.hash;
-    },
-  };
-
-  return {
-    location,
-    history,
-    localStorage: {
-      getItem: (key: string) => storage.get(key) ?? null,
-      setItem: (key: string, value: string) => void storage.set(key, value),
-      removeItem: (key: string) => void storage.delete(key),
-    },
-    addEventListener(type, listener) {
-      if (!listeners.has(type)) listeners.set(type, new Set());
-      listeners.get(type)?.add(listener);
-    },
-    removeEventListener(type, listener) {
-      listeners.get(type)?.delete(listener);
-    },
-    dispatchEvent(type, event) {
-      for (const listener of listeners.get(type) ?? []) listener(event);
-    },
-  };
-}
+Object.assign(globalThis, {
+  window,
+  document: window.document,
+  HTMLElement: window.HTMLElement,
+  Event: window.Event,
+  StorageEvent: window.StorageEvent,
+});
 
 const mockT = (() => "") as unknown as never;
 
@@ -68,11 +25,6 @@ function createI18n(initialLanguage: "en" | "he", { deferLanguageChange = false 
   let pendingLanguage: "en" | "he" | null = null;
   let resolvePendingChange: (() => void) | null = null;
   const calls: string[] = [];
-  const listeners = new Set<() => void>();
-
-  const emitLanguageChanged = () => {
-    for (const listener of listeners) listener();
-  };
 
   return {
     i18n: {
@@ -92,16 +44,7 @@ function createI18n(initialLanguage: "en" | "he", { deferLanguageChange = false 
           });
         }
         language = next as "en" | "he";
-        emitLanguageChanged();
         return Promise.resolve(mockT);
-      },
-      on(eventName: string, listener: () => void) {
-        if (eventName === "languageChanged") listeners.add(listener);
-        return this;
-      },
-      off(eventName: string, listener: () => void) {
-        if (eventName === "languageChanged") listeners.delete(listener);
-        return this;
       },
     } as unknown as UrlSyncI18n,
     calls,
@@ -109,25 +52,43 @@ function createI18n(initialLanguage: "en" | "he", { deferLanguageChange = false 
       if (!pendingLanguage) return;
       language = pendingLanguage;
       pendingLanguage = null;
-      emitLanguageChanged();
       resolvePendingChange?.();
       resolvePendingChange = null;
     },
   };
 }
 
-let root: ReactTestRenderer | null = null;
+function LocationEcho() {
+  const location = useLocation();
+  return <output data-testid="location">{`${location.pathname}${location.search}${location.hash}`}</output>;
+}
+
+function RouterControl() {
+  const navigate = useNavigate();
+  return (
+    <button type="button" onClick={() => void navigate("/")}>
+      go-home
+    </button>
+  );
+}
+
+function renderSync(i18n: UrlSyncI18n, lang: "en" | "he", initialEntry: string) {
+  return render(
+    <MemoryRouter initialEntries={[initialEntry]}>
+      <LanguageUrlSync i18n={i18n} lang={lang} />
+      <LocationEcho />
+      <RouterControl />
+    </MemoryRouter>
+  );
+}
 
 async function flushMicrotasks() {
   await Promise.resolve();
 }
 
 afterEach(() => {
-  if (root) {
-    act(() => root?.unmount());
-    root = null;
-  }
-  delete (globalThis as { window?: unknown }).window;
+  cleanup();
+  window.localStorage.clear();
 });
 
 describe("buildLocationWithLanguage", () => {
@@ -136,7 +97,7 @@ describe("buildLocationWithLanguage", () => {
   });
 
   it("removes language parameter for default Hebrew", () => {
-    expect(buildLocationWithLanguage("/", "?easy=1&lng=en", "#about", "he")).toBe("/?easy=1#about");
+    expect(buildLocationWithLanguage("/", "?easy=1&lng=en", "#v5", "he")).toBe("/?easy=1#v5");
   });
 });
 
@@ -150,168 +111,83 @@ describe("resolveLanguageFromExternalState", () => {
   });
 });
 
-describe("syncLanguageInUrl", () => {
-  it("writes shareable english URL", () => {
-    const fakeWindow = createFakeWindow("/?easy=1");
-    syncLanguageInUrl(fakeWindow, "en");
-    expect(fakeWindow.location.search).toBe("?easy=1&lng=en");
-  });
-
-  it("removes query language for default Hebrew URL", () => {
-    const fakeWindow = createFakeWindow("/?easy=1&lng=en");
-    syncLanguageInUrl(fakeWindow, "he");
-    expect(fakeWindow.location.search).toBe("?easy=1");
-  });
-});
-
 describe("LanguageUrlSync", () => {
-  it("renders null and syncs current language into URL", () => {
-    const fakeWindow = createFakeWindow("/?easy=1");
-    (globalThis as { window?: unknown }).window = fakeWindow;
+  it("renders null and syncs current language into the router location", async () => {
     const { i18n } = createI18n("en");
+    const view = renderSync(i18n, "en", "/?easy=1");
 
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="en" />);
+    await act(async () => {
+      await flushMicrotasks();
     });
 
-    expect(root?.toJSON()).toBeNull();
-    expect(fakeWindow.location.search).toBe("?easy=1&lng=en");
+    expect(view.getByTestId("location")).toHaveTextContent("/?easy=1&lng=en");
+    expect(window.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("en");
   });
 
-  it("reacts to languageChanged and updates URL", () => {
-    const fakeWindow = createFakeWindow("/");
-    (globalThis as { window?: unknown }).window = fakeWindow;
+  it("updates the location when the current language prop changes", async () => {
     const { i18n } = createI18n("he");
+    const view = renderSync(i18n, "he", "/");
 
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="he" />);
+    await act(async () => {
+      await flushMicrotasks();
     });
 
-    act(() => {
-      void i18n.changeLanguage("en");
-      root?.update(<LanguageUrlSync i18n={i18n} lang="en" />);
+    expect(view.getByTestId("location")).toHaveTextContent("/");
+
+    await act(async () => {
+      await i18n.changeLanguage("en");
+      view.rerender(
+        <MemoryRouter initialEntries={["/"]}>
+          <LanguageUrlSync i18n={i18n} lang="en" />
+          <LocationEcho />
+          <RouterControl />
+        </MemoryRouter>
+      );
+      await flushMicrotasks();
     });
 
-    expect(fakeWindow.location.search).toBe("?lng=en");
-    expect(fakeWindow.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("en");
+    expect(view.getByTestId("location")).toHaveTextContent("/?lng=en");
+    expect(window.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("en");
   });
 
-  it("updates URL in both toggle directions on first click", () => {
-    const fakeWindow = createFakeWindow("/");
-    (globalThis as { window?: unknown }).window = fakeWindow;
-    const { i18n } = createI18n("he");
-
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="he" />);
-    });
-
-    act(() => {
-      void i18n.changeLanguage("en");
-      root?.update(<LanguageUrlSync i18n={i18n} lang="en" />);
-    });
-    expect(fakeWindow.location.search).toBe("?lng=en");
-
-    act(() => {
-      void i18n.changeLanguage("he");
-      root?.update(<LanguageUrlSync i18n={i18n} lang="he" />);
-    });
-    expect(fakeWindow.location.search).toBe("");
-  });
-
-  it("does not overwrite explicit URL language during boot", async () => {
-    const fakeWindow = createFakeWindow("/?lng=en");
-    (globalThis as { window?: unknown }).window = fakeWindow;
+  it("does not overwrite an explicit URL language during boot", async () => {
     const { i18n, calls, resolvePendingLanguageChange } = createI18n("he", { deferLanguageChange: true });
-
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="he" />);
-    });
+    const view = renderSync(i18n, "he", "/?lng=en");
 
     expect(calls).toEqual(["en"]);
-    expect(fakeWindow.location.search).toBe("?lng=en");
+    expect(view.getByTestId("location")).toHaveTextContent("/?lng=en");
 
     await act(async () => {
       resolvePendingLanguageChange();
       await flushMicrotasks();
-      root?.update(<LanguageUrlSync i18n={i18n} lang="en" />);
+      view.rerender(
+        <MemoryRouter initialEntries={["/?lng=en"]}>
+          <LanguageUrlSync i18n={i18n} lang="en" />
+          <LocationEcho />
+          <RouterControl />
+        </MemoryRouter>
+      );
     });
 
-    expect(fakeWindow.location.search).toBe("?lng=en");
-    expect(fakeWindow.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("en");
+    expect(view.getByTestId("location")).toHaveTextContent("/?lng=en");
+    expect(window.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("en");
   });
 
-  it("popstate trusts URL and can navigate back to default Hebrew", () => {
-    const fakeWindow = createFakeWindow("/?lng=en");
-    fakeWindow.localStorage.setItem(LANGUAGE_STORAGE_KEY, "en");
-    (globalThis as { window?: unknown }).window = fakeWindow;
+  it("reacts when router navigation removes the language query", async () => {
     const { i18n, calls } = createI18n("en");
-
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="en" />);
-    });
-
-    fakeWindow.location.search = "";
-    act(() => {
-      fakeWindow.dispatchEvent("popstate");
-    });
-
-    expect(calls).toEqual(["he"]);
-    expect(fakeWindow.location.search).toBe("");
-  });
-
-  it("uses storage as fallback only during initial boot", async () => {
-    const fakeWindow = createFakeWindow("/");
-    fakeWindow.localStorage.setItem(LANGUAGE_STORAGE_KEY, "en");
-    (globalThis as { window?: unknown }).window = fakeWindow;
-    const { i18n, calls } = createI18n("he");
+    const view = renderSync(i18n, "en", "/?lng=en");
 
     await act(async () => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="he" />);
       await flushMicrotasks();
-      root?.update(<LanguageUrlSync i18n={i18n} lang="en" />);
     });
 
-    act(() => {
-      fakeWindow.dispatchEvent("storage", { key: LANGUAGE_STORAGE_KEY, storageArea: fakeWindow.localStorage });
-    });
-
-    expect(calls).toEqual(["en"]);
-    expect(fakeWindow.location.search).toBe("?lng=en");
-  });
-
-  it("updates from storage events after boot", () => {
-    const fakeWindow = createFakeWindow("/");
-    (globalThis as { window?: unknown }).window = fakeWindow;
-    const { i18n, calls } = createI18n("he");
-
-    act(() => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="he" />);
-    });
-
-    act(() => {
-      fakeWindow.dispatchEvent("storage", {
-        key: LANGUAGE_STORAGE_KEY,
-        newValue: "en",
-        storageArea: fakeWindow.localStorage,
-      });
-    });
-
-    expect(calls).toEqual(["en"]);
-  });
-
-  it("replaces stale english storage with Hebrew when URL resolves to default Hebrew", async () => {
-    const fakeWindow = createFakeWindow("/?lng=he");
-    fakeWindow.localStorage.setItem(LANGUAGE_STORAGE_KEY, "en");
-    (globalThis as { window?: unknown }).window = fakeWindow;
-    const { i18n } = createI18n("en");
+    fireEvent.click(view.getByRole("button", { name: "go-home" }));
 
     await act(async () => {
-      root = create(<LanguageUrlSync i18n={i18n} lang="en" />);
       await flushMicrotasks();
-      root?.update(<LanguageUrlSync i18n={i18n} lang="he" />);
     });
 
-    expect(fakeWindow.location.search).toBe("");
-    expect(fakeWindow.localStorage.getItem(LANGUAGE_STORAGE_KEY)).toBe("he");
+    expect(view.getByTestId("location")).toHaveTextContent("/");
+    expect(calls).toContain("he");
   });
 });

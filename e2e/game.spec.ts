@@ -794,15 +794,17 @@ test("share copies result text", async ({ page }) => {
   await expect(page.locator(".share-note")).toHaveText("Result copied.");
 
   const copiedText = await page.evaluate(() => (globalThis as { __copiedText?: string }).__copiedText ?? "");
+  const origin = new URL(page.url()).origin;
   expect(copiedText).toContain("Vayomer");
-  expect(copiedText).toContain("http://localhost:4173/");
+  expect(copiedText).toContain(`${origin}/`);
 });
 
 test("about page opens and returns to puzzle", async ({ page }) => {
   await openGame(page);
 
   await page.getByRole("link", { name: "About & sources" }).click();
-  await expect(page).toHaveURL(/#about$/);
+  await expect.poll(() => new URL(page.url()).pathname).toBe("/about");
+  await expect.poll(() => new URL(page.url()).searchParams.get("lng")).toBe("en");
   await expect(page.getByRole("heading", { name: "About Vayomer" })).toBeVisible();
   await expect(page.getByText("Source Material")).toBeVisible();
 
@@ -813,8 +815,9 @@ test("about page opens and returns to puzzle", async ({ page }) => {
 test("how-to example opens from ❓, starts with partial correctness, and can be solved", async ({ page }) => {
   await openGame(page, { lang: "en" });
 
-  await page.getByRole("button", { name: "Open how to play example" }).click();
-  await expect(page).toHaveURL(/#example$/);
+  await page.getByRole("link", { name: "Open how to play example" }).click();
+  await expect.poll(() => new URL(page.url()).pathname).toBe("/example");
+  await expect.poll(() => new URL(page.url()).searchParams.get("lng")).toBe("en");
   await expect(page.locator("#guessForm")).toBeVisible();
   await expect(page.getByRole("button", { name: "Share result" })).toHaveCount(0);
 
@@ -847,7 +850,7 @@ test("how-to example opens from ❓, starts with partial correctness, and can be
 test("first example view uses the bible example, then later views use the daily example and persist a marker", async ({ page }) => {
   await openGame(page, { lang: "en" });
 
-  await page.getByRole("button", { name: "Open how to play example" }).click();
+  await page.getByRole("link", { name: "Open how to play example" }).click();
   await expect(page.locator("#inputSpeaker")).toHaveValue(exampleWrongSpeaker);
   await expect(page.locator("#inputListener")).toHaveValue(exampleEnAnswer.listener);
   expect(await page.evaluate((key) => localStorage.getItem(key), EXAMPLE_SEEN_STORAGE_KEY)).toBe("1");
@@ -855,7 +858,7 @@ test("first example view uses the bible example, then later views use the daily 
   await page.locator("#topBackButton").click();
   await expect(page.locator("#puzzleCard")).toBeVisible();
 
-  await page.getByRole("button", { name: "Open how to play example" }).click();
+  await page.getByRole("link", { name: "Open how to play example" }).click();
   await expect(page.locator("#inputSpeaker")).toHaveValue(dailyExampleWrongSpeaker);
   await expect(page.locator("#inputListener")).toHaveValue(dailyExampleEnAnswer.listener);
 });
@@ -870,7 +873,7 @@ test("example page can resolve the HP example by id from the URL", async ({ page
     lng: "en",
   });
 
-  await page.goto(`/?${params.toString()}#example`);
+  await page.goto(`/example?${params.toString()}`);
   await expect(page.locator("#guessForm")).toBeVisible();
   await expect(page.locator("#inputSpeaker")).toHaveValue(hpExampleWrongSpeaker);
   await expect(page.locator("#inputListener")).toHaveValue(hpExampleEnAnswer.listener);

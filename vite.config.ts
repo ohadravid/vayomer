@@ -35,7 +35,7 @@ function routeAliasPlugin() {
 export default defineConfig(({ mode }) => {
   const includeAuxPages = mode === "development";
 
-  let input: Record<string, string> = { main: "index.html" };
+  let input: Record<string, string> = { main: "index.html", notFound: "404.html" };
   let plugins: PluginOption[] = [react()];
 
   if (includeAuxPages) {

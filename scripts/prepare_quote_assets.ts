@@ -1,6 +1,10 @@
+import { execFile as execFileCallback } from "node:child_process";
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { promisify } from "node:util";
 import { pathToFileURL } from "node:url";
+
+const execFile = promisify(execFileCallback);
 
 type PuzzleManifestEntry = {
   id: string;
@@ -16,7 +20,9 @@ const SOURCES = [
   { key: "options", dir: path.join(ROOT, "data", "processed", "generated_options") },
   { key: "manual", dir: path.join(ROOT, "data", "manual_quotes") },
 ] as const;
-const OUTPUT_ROOT = path.join(ROOT, "public", "quotes");
+const QUOTES_OUTPUT_ROOT = path.join(ROOT, "public", "quotes");
+const SOURCE_READER_ARCHIVE_PATH = path.join(ROOT, "source.zip");
+const SOURCE_READER_OUTPUT_ROOT = path.join(ROOT, "public", "source");
 const MANIFEST_SOURCE_PATH = path.join(ROOT, "src", "lib", "puzzleManifest.json");
 export const DAILY_ORDER_SEED = 20220805;
 
@@ -52,16 +58,33 @@ export function compareDailyOrderIds(leftId: string, rightId: string): number {
   return leftId.localeCompare(rightId);
 }
 
+export async function extractSourceReaderAssets(
+  archivePath = SOURCE_READER_ARCHIVE_PATH,
+  outputRoot = SOURCE_READER_OUTPUT_ROOT
+): Promise<void> {
+  await fs.rm(outputRoot, { recursive: true, force: true });
+
+  try {
+    const stats = await fs.stat(archivePath);
+    if (!stats.isFile()) return;
+  } catch {
+    return;
+  }
+
+  await fs.mkdir(outputRoot, { recursive: true });
+  await execFile("unzip", ["-oq", archivePath, "-d", outputRoot]);
+}
+
 async function main(): Promise<void> {
-  await fs.rm(OUTPUT_ROOT, { recursive: true, force: true });
-  await fs.mkdir(OUTPUT_ROOT, { recursive: true });
+  await fs.rm(QUOTES_OUTPUT_ROOT, { recursive: true, force: true });
+  await fs.mkdir(QUOTES_OUTPUT_ROOT, { recursive: true });
 
   const manifest: PuzzleManifestEntry[] = [];
   const seenIds = new Set<string>();
 
   for (const source of SOURCES) {
     const sourceFiles = await listJsonFiles(source.dir);
-    const outputDir = path.join(OUTPUT_ROOT, source.key);
+    const outputDir = path.join(QUOTES_OUTPUT_ROOT, source.key);
     await fs.mkdir(outputDir, { recursive: true });
 
     for (const fileName of sourceFiles) {
@@ -88,6 +111,7 @@ async function main(): Promise<void> {
   manifest.sort((left, right) => compareDailyOrderIds(left.id, right.id));
 
   await fs.writeFile(MANIFEST_SOURCE_PATH, JSON.stringify(manifest));
+  await extractSourceReaderAssets();
   console.log(`Prepared ${manifest.length} puzzle IDs and chapter mappings.`);
 }
 

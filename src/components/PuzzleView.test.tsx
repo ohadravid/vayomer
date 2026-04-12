@@ -61,7 +61,7 @@ const puzzle: PuzzleItem = {
     bonus: "הָאָרֶץ",
   },
   portion: { en: "Lech-Lecha", he: "לך-לך" },
-  source: { ref_start: "Genesis 12:1", ref_end: "Genesis 12:1" },
+  source: { book_code: "GEN", book: "Genesis", book_he: "בראשית", chapter: 12, quote_verse_start: 1, quote_verse_end: 1, ref_start: "Genesis 12:1", ref_end: "Genesis 12:1" },
 };
 
 const puzzleWithHint: PuzzleItem = {
@@ -613,6 +613,25 @@ describe("PuzzleView persistence hydration", () => {
       view?.rerender(buildPuzzleView({ onPersist, puzzle: defaultEmojiPuzzle, initial }));
     });
     expect(byId("refLine").textContent ?? "").toContain("👵 Genesis 12:1");
+  });
+
+  it("links the revealed source line to the reader route", () => {
+    const onPersist = () => {};
+    const initial = {
+      speaker: "the LORD",
+      listener: "Abram",
+      portion: "",
+      bonus: "",
+      attempts: [coreSolvedAttempt],
+    };
+
+    act(() => {
+      view = render(buildPuzzleView({ onPersist, initial }));
+    });
+
+    const refLink = byId("refLine").querySelector("a");
+    expect(refLink).not.toBeNull();
+    expect(refLink?.getAttribute("href")).toBe("/read/genesis/12?lng=en#v1");
   });
 
   it("reveals a masked bonus hint quote in stage two and unmasks it after solve", async () => {
