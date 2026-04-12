@@ -133,6 +133,19 @@ const failedAttempt: GuessResult = {
   portionOk: true,
   bonusOk: false,
 };
+const stageTwoTransitionAttempt: GuessResult = {
+  speakerOk: true,
+  listenerOk: true,
+  portionOk: true,
+  bonusOk: false,
+  countsAsTry: false,
+};
+const failedBonusAttempt: GuessResult = {
+  speakerOk: true,
+  listenerOk: true,
+  portionOk: true,
+  bonusOk: false,
+};
 
 type PersistPayload = {
   speaker: string;
@@ -767,6 +780,56 @@ describe("PuzzleView persistence hydration", () => {
     expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✴️⬜");
   });
 
+  it("reveals the bonus word in the quote and hint on failure but preserves the typed bonus input", () => {
+    const onPersist = () => {};
+    const puzzleWithHintAndBonusInQuote: PuzzleItem = {
+      ...puzzleWithHint,
+      en: {
+        ...puzzleWithHint.en,
+        quote: "Now the LORD said unto Abram, Get thee out unto the land that I will show thee.",
+      },
+    };
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          puzzle: puzzleWithHintAndBonusInQuote,
+          revealed: false,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "earth",
+            hintRevealed: true,
+            attempts: [
+              stageTwoTransitionAttempt,
+              failedBonusAttempt,
+              failedBonusAttempt,
+              failedBonusAttempt,
+              failedBonusAttempt,
+              failedBonusAttempt,
+            ],
+          },
+        })
+      );
+    });
+
+    const fullQuoteText = byId("fullQuote").textContent ?? "";
+    const hintQuoteText = byId("hintQuote").textContent ?? "";
+    const placeholder = pickHardWordPlaceholderForId(puzzleWithHintAndBonusInQuote.id);
+
+    expect(byId("feedback").textContent ?? "").toBe("No tries left.");
+    expect(fullQuoteText.includes("land")).toBe(true);
+    expect(fullQuoteText.includes(placeholder)).toBe(false);
+    expect(hintQuoteText.includes("land")).toBe(true);
+    expect(hintQuoteText.includes(placeholder)).toBe(false);
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("earth");
+    expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);
+    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
+    expect(byId("labelBonus").textContent ?? "").toContain("❌");
+  });
+
   it("reveals the correct answers when no tries are left", () => {
     const onPersist = () => {};
 
@@ -790,7 +853,7 @@ describe("PuzzleView persistence hydration", () => {
     expect(byId("feedback").textContent ?? "").toBe("No tries left.");
     expect(byId<HTMLSelectElement>("inputSpeaker").value).toBe("the LORD");
     expect(byId<HTMLSelectElement>("inputListener").value).toBe("Abram");
-    expect(byId<HTMLInputElement>("inputBonus").value).toBe("land");
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("earth");
     expect(byId<HTMLSelectElement>("inputSpeaker").disabled).toBe(true);
     expect(byId<HTMLSelectElement>("inputListener").disabled).toBe(true);
     expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);

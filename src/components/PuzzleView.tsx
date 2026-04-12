@@ -196,6 +196,7 @@ export function PuzzleView({
   const answersRevealed = gameState === GameState.Failed;
   const stageTwoOpen = isStageTwoOpen(gameState) || coreSolved;
   const fullySolved = gameState === GameState.Solved;
+  const bonusRevealed = fullySolved || answersRevealed;
   const quoteRevealed =
     stageTwoOpen || gameState === GameState.Failed;
   const sourceRevealed = stageTwoOpen;
@@ -204,7 +205,7 @@ export function PuzzleView({
         speaker: puzzle[lang].speaker,
         listener: puzzle[lang].listener,
         portion,
-        bonus: bonusRequired ? bonusAnswer : bonus,
+        bonus,
       }
     : { speaker, listener, portion, bonus };
   const displayResult = answersRevealed ? ALL_CORRECT_RESULT : result;
@@ -217,8 +218,8 @@ export function PuzzleView({
     : false;
   const hintQuoteContent = (() => {
     if (!hasBonusHint) return null;
-    const quoteBody = renderQuoteText(fullySolved ? hintQuote : maskedHintQuote, fullySolved ? "" : placeholder, "hint");
-    return fullySolved ? quoteBody : <span className="quote-hidden veil">{quoteBody}</span>;
+    const quoteBody = renderQuoteText(bonusRevealed ? hintQuote : maskedHintQuote, bonusRevealed ? "" : placeholder, "hint");
+    return bonusRevealed ? quoteBody : <span className="quote-hidden veil">{quoteBody}</span>;
   })();
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = shareEnabled && attempts.length > 0;
@@ -436,6 +437,7 @@ export function PuzzleView({
         revealed={revealed}
         quoteRevealed={quoteRevealed}
         sourceRevealed={sourceRevealed}
+        bonusRevealed={bonusRevealed}
         dateLabel={dateLabel}
         onClear={clearLocal}
       />

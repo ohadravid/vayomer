@@ -8,6 +8,7 @@ type Props = {
   revealed: boolean;
   quoteRevealed: boolean;
   sourceRevealed: boolean;
+  bonusRevealed?: boolean;
   dateLabel: string;
   onClear: () => void;
 };
@@ -84,6 +85,7 @@ export function PuzzleCard({
   revealed,
   quoteRevealed,
   sourceRevealed,
+  bonusRevealed = false,
   dateLabel,
   onClear,
 }: Props) {
@@ -94,7 +96,7 @@ export function PuzzleCard({
   const bonus = puzzle[lang].bonus ?? "";
   const placeholder = pickHardWordPlaceholderForId(puzzle.id);
   const unmaskedQuote = revealed || quoteRevealed;
-  const shouldMaskBonusInVisibleQuote = unmaskedQuote && sourceRevealed && !revealed;
+  const shouldMaskBonusInVisibleQuote = unmaskedQuote && sourceRevealed && !revealed && !bonusRevealed;
   const shouldMaskBonus = !unmaskedQuote || shouldMaskBonusInVisibleQuote;
   const renderedQuote = shouldMaskBonus ? maskHardWord(quote, bonus, placeholder, lang) : quote;
   const quoteContent = highlightQuote(renderedQuote, riddleText, shouldMaskBonus ? placeholder : "");
