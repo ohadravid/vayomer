@@ -263,8 +263,8 @@ input[type="radio"] {
 }
 
 .correct {
-  border-color: var(--success);
-  background-color: rgb(111 174 138 / 0.1);
+  border-color: var(--success) !important;
+  background-color: rgb(111 174 138 / 0.1) !important;
 }
 
 .wrong {
