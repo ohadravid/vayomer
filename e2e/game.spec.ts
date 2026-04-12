@@ -699,9 +699,10 @@ test("full game: lose", async ({ page }) => {
   await expect(page.locator("#inputSpeaker")).toBeDisabled();
   await expect(page.locator("#inputListener")).toBeDisabled();
   await expect(page.locator("#inputBonus")).toBeDisabled();
+  await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
   await expect(page.locator("#labelSpeaker")).toContainText("✅");
   await expect(page.locator("#labelListener")).toContainText("✅");
-  await expect(page.locator("#labelBonus")).toContainText("✅");
+  await expect(page.locator("#labelBonus")).toContainText("❌");
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 

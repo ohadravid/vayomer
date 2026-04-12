@@ -268,8 +268,8 @@ input[type="radio"] {
 }
 
 .wrong {
-  border-color: var(--danger);
-  background-color: rgb(184 59 59 / 0.1);
+  border-color: var(--danger) !important;
+  background-color: rgb(184 59 59 / 0.1) !important;
 }
 
 .header {
