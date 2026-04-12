@@ -607,6 +607,34 @@ test("bonus hint in stage two reveals hint, stays visible after solve, and is re
   expect(copiedText).toContain("💡");
 });
 
+test("stage-two failure reveals the bonus in quote and hint but preserves the typed bonus input", async ({ page }) => {
+  await openGame(page, { puzzleId: hintPuzzleId, lang: "en" });
+
+  await selectAnswerOption(page.locator("#inputSpeaker"), hintEnAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), hintEnAnswer.listener, "en");
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  await page.click("#bonusHint");
+  await expect(page.locator("#hintQuote")).toBeVisible();
+
+  await page.fill("#inputBonus", WRONG_TEXT);
+  for (let idx = 0; idx < 5; idx += 1) {
+    await page.click("#submitGuess");
+  }
+
+  await expect(page.locator("#feedback")).toHaveText("No tries left.");
+  await expect(page.getByText("Tries: 5/5")).toBeVisible();
+  const quoteAfterLose = await page.locator("#fullQuote").innerText();
+  const hintQuoteAfterLose = await page.locator("#hintQuote").innerText();
+  expect(normalize(quoteAfterLose, "en")).toContain(normalize(hintEnAnswer.bonus, "en"));
+  expect(normalize(hintQuoteAfterLose, "en")).toContain(normalize(hintEnAnswer.bonus, "en"));
+  await expect(page.locator("#inputBonus")).toHaveValue(WRONG_TEXT);
+  await expect(page.locator("#inputBonus")).toBeDisabled();
+  await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
+  await expect(page.locator("#labelBonus")).toContainText("❌");
+});
+
 test("full game: mistakes and win", async ({ page }) => {
   await openGame(page);
 
@@ -695,13 +723,14 @@ test("full game: lose", async ({ page }) => {
   const revealedBonus = await page.locator("#inputBonus").inputValue();
   expect(normalize(revealedSpeaker, "en")).toBe(normalize(enAnswer.speaker, "en"));
   expect(normalize(revealedListener, "en")).toBe(normalize(enAnswer.listener, "en"));
-  expect(normalize(revealedBonus, "en")).toBe(normalize(enAnswer.bonus, "en"));
+  expect(revealedBonus).toBe("");
   await expect(page.locator("#inputSpeaker")).toBeDisabled();
   await expect(page.locator("#inputListener")).toBeDisabled();
   await expect(page.locator("#inputBonus")).toBeDisabled();
+  await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
   await expect(page.locator("#labelSpeaker")).toContainText("✅");
   await expect(page.locator("#labelListener")).toContainText("✅");
-  await expect(page.locator("#labelBonus")).toContainText("✅");
+  await expect(page.locator("#labelBonus")).toContainText("❌");
   await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 

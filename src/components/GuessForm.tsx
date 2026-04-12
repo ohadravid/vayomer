@@ -19,6 +19,7 @@ type Props = {
   showBonusRow: boolean;
   extraChecked: boolean;
   bonusDisabled: boolean;
+  bonusStateOverride?: "correct" | "wrong" | "";
   bonusHintUsed: boolean;
   canShare: boolean;
   showShare?: boolean;
@@ -47,6 +48,7 @@ export function GuessForm({
   showBonusRow,
   extraChecked,
   bonusDisabled,
+  bonusStateOverride,
   bonusHintUsed,
   canShare,
   showShare = true,
@@ -71,7 +73,8 @@ export function GuessForm({
   };
   const bonusFeedbackVisible =
     showBonusRow && !!result && extraChecked && !editedSinceCheck.bonus && result.countsAsTry !== false;
-  const bonusState: "correct" | "wrong" | "" = bonusFeedbackVisible ? (result!.bonusOk ? "correct" : "wrong") : "";
+  const bonusState: "correct" | "wrong" | "" =
+    bonusStateOverride ?? (bonusFeedbackVisible ? (result!.bonusOk ? "correct" : "wrong") : "");
   const bonusMark = bonusState === "correct" ? "✅" : bonusState === "wrong" ? "❌" : "";
 
   const renderEasyChoiceControl = (

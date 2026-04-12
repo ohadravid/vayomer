@@ -40,4 +40,11 @@ describe("maskHardWord", () => {
     expect(masked).not.toContain("שֹׂנֵא");
     expect(masked).toContain("🪧🪧🪧");
   });
+
+  it("masks Hebrew hint words when the target appears after a maqaf-joined prefix", () => {
+    const quote = "כִּי רִנְנַת רְשָׁעִים מִקָּרוֹב וְשִׂמְחַת חָנֵף עֲדֵי־רָֽגַע";
+    const masked = maskHardWord(quote, "רֶגַע", "🪧", "he");
+    expect(masked).not.toContain("רָֽגַע");
+    expect(masked).toContain("עֲדֵי־🪧🪧🪧");
+  });
 });

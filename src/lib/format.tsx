@@ -73,6 +73,8 @@ function normalizeHebrewForMaskMatch(text: string): string {
   return normalizeHebrew(text).replace(/[יו]/gu, "");
 }
 
+const HEBREW_MASK_WORD_REGEX = /[\u0590-\u05BD\u05BF-\u05FF]+/gu;
+
 export function maskHardWord(quote: string, hardWord: string, placeholder: string, lang?: Lang): string {
   if (!quote || !hardWord) return quote;
   const trimmedHardWord = hardWord.trim();
@@ -91,9 +93,8 @@ export function maskHardWord(quote: string, hardWord: string, placeholder: strin
   const normalizedTarget = normalizeHebrewForMaskMatch(trimmedHardWord);
   if (!normalizedTarget || /\s/u.test(normalizedTarget)) return exactMasked;
 
-  const hebrewTokenRegex = /[\u0590-\u05FF]+/gu;
   let replaced = false;
-  const fuzzyMasked = quote.replace(hebrewTokenRegex, (token) => {
+  const fuzzyMasked = quote.replace(HEBREW_MASK_WORD_REGEX, (token) => {
     if (normalizeHebrewForMaskMatch(token) !== normalizedTarget) return token;
     replaced = true;
     return maskTokenCharacters(token, placeholder);
