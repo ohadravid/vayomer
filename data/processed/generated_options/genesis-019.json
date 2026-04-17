@@ -104,6 +104,110 @@
       }
     },
     {
+      "id": "genesis-19-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 11,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And they smote the men that were at the door of the house with blindness, both small and great: so that they wearied themselves to find the door. And the men said unto Lot, Hast thou here any besides? son in law, and thy sons, and thy daughters, and whatsoever thou hast in the city, bring them out of this place: For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it. And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law. And when the morning arose, then the angels hastened Lot, saying, Arise, take thy wife, and thy two daughters, which are here; lest thou be consumed in the iniquity of the city. And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city. And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+        "riddle": "Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+        "speaker": "Lot",
+        "listener": "Lot's family",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Abraham",
+            "Balaam"
+          ],
+          "listener": [
+            "Jacob",
+            "Joseph",
+            "Rebekah"
+          ]
+        },
+        "bonus": "door",
+        "bonus_hint": {
+          "quote": "And he said, I will certainly return unto thee according to the time of life; and, lo, Sarah thy wife shall have a son. And Sarah heard it in the tent door, which was behind him.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וְֽאֶת־הָאֲנָשִׁים אֲשֶׁר־פֶּתַח הַבַּיִת הִכּוּ בַּסַּנְוֵרִים מִקָּטֹן וְעַד־גָּדוֹל וַיִּלְאוּ לִמְצֹא הַפָּֽתַח וַיֹּאמְרוּ הָאֲנָשִׁים אֶל־לוֹט עֹד מִֽי־לְךָ פֹה חָתָן וּבָנֶיךָ וּבְנֹתֶיךָ וְכֹל אֲשֶׁר־לְךָ בָּעִיר הוֹצֵא מִן־הַמָּקֽוֹם כִּֽי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּֽי־גָֽדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָֽהּ וַיֵּצֵא לוֹט וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו וּכְמוֹ הַשַּׁחַר עָלָה וַיָּאִיצוּ הַמַּלְאָכִים בְּלוֹט לֵאמֹר קוּם קַח אֶֽת־אִשְׁתְּךָ וְאֶת־שְׁתֵּי בְנֹתֶיךָ הַנִּמְצָאֹת פֶּן־תִּסָּפֶה בַּעֲוֺן הָעִֽיר וַֽיִּתְמַהְמָהּ וַיַּחֲזִקוּ הָאֲנָשִׁים בְּיָדוֹ וּבְיַד־אִשְׁתּוֹ וּבְיַד שְׁתֵּי בְנֹתָיו בְּחֶמְלַת יְהוָה עָלָיו וַיֹּצִאֻהוּ וַיַּנִּחֻהוּ מִחוּץ לָעִֽיר וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה",
+        "riddle": "הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה",
+        "speaker": "הַמַּלְאָכִים",
+        "listener": "לוֹט",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "אַבְרָהָם",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "לָבָן",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "פֶּתַח",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּךָ וְשָׂרָה שֹׁמַעַת פֶּתַח הָאֹהֶל וְהוּא אַחֲרָֽיו",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And they smote the men that were at the door of the house with blindness, both small and great: so that they wearied themselves to find the door.",
+          "12": "And the men said unto Lot, Hast thou here any besides? son in law, and thy sons, and thy daughters, and whatsoever thou hast in the city, bring them out of this place:",
+          "13": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+          "14": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law.",
+          "15": "And when the morning arose, then the angels hastened Lot, saying, Arise, take thy wife, and thy two daughters, which are here; lest thou be consumed in the iniquity of the city.",
+          "16": "And while he lingered, the men laid hold upon his hand, and upon the hand of his wife, and upon the hand of his two daughters; the LORD being merciful unto him: and they brought him forth, and set him without the city.",
+          "17": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed."
+        },
+        "he": {
+          "11": "וְֽאֶת־הָאֲנָשִׁים אֲשֶׁר־פֶּתַח הַבַּיִת הִכּוּ בַּסַּנְוֵרִים מִקָּטֹן וְעַד־גָּדוֹל וַיִּלְאוּ לִמְצֹא הַפָּֽתַח׃",
+          "12": "וַיֹּאמְרוּ הָאֲנָשִׁים אֶל־לוֹט עֹד מִֽי־לְךָ פֹה חָתָן וּבָנֶיךָ וּבְנֹתֶיךָ וְכֹל אֲשֶׁר־לְךָ בָּעִיר הוֹצֵא מִן־הַמָּקֽוֹם׃",
+          "13": "כִּֽי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּֽי־גָֽדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָֽהּ׃",
+          "14": "וַיֵּצֵא לוֹט וַיְדַבֵּר ׀ אֶל־חֲתָנָיו ׀ לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו׃",
+          "15": "וּכְמוֹ הַשַּׁחַר עָלָה וַיָּאִיצוּ הַמַּלְאָכִים בְּלוֹט לֵאמֹר קוּם קַח אֶֽת־אִשְׁתְּךָ וְאֶת־שְׁתֵּי בְנֹתֶיךָ הַנִּמְצָאֹת פֶּן־תִּסָּפֶה בַּעֲוֺן הָעִֽיר׃",
+          "16": "וַֽיִּתְמַהְמָהּ ׀ וַיַּחֲזִקוּ הָאֲנָשִׁים בְּיָדוֹ וּבְיַד־אִשְׁתּוֹ וּבְיַד שְׁתֵּי בְנֹתָיו בְּחֶמְלַת יְהוָה עָלָיו וַיֹּצִאֻהוּ וַיַּנִּחֻהוּ מִחוּץ לָעִֽיר׃",
+          "17": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 11,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "genesis-19-22-23",
       "source": {
         "method": "llm",
