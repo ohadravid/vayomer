@@ -13,13 +13,15 @@
         "book_he": "שמות",
         "chapter": 11,
         "quote_verse_start": 4,
-        "quote_verse_end": 4
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt:",
         "riddle": "About midnight will I go out into the midst of Egypt:",
         "speaker": "the LORD",
-        "listener": "Moses",
+        "listener": "the people",
         "book": "Exodus"
       },
       "he": {
@@ -31,14 +33,18 @@
       },
       "raw_quote_source": {
         "en": {
+          "1": "And the LORD said unto Moses, Yet will I bring one plague more upon Pharaoh, and upon Egypt; afterwards he will let you go hence: when he shall let you go, he shall surely thrust you out hence altogether.",
+          "2": "Speak now in the ears of the people, and let every man borrow of his neighbour, and every woman of her neighbour, jewels of silver, and jewels of gold.",
           "4": "And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt:"
         },
         "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עוֹד נֶגַע אֶחָד אָבִיא עַל־פַּרְעֹה וְעַל־מִצְרַיִם אַֽחֲרֵי־כֵן יְשַׁלַּח אֶתְכֶם מִזֶּה כְּשַׁלְּחוֹ כָּלָה גָּרֵשׁ יְגָרֵשׁ אֶתְכֶם מִזֶּֽה׃",
+          "2": "דַּבֶּר־נָא בְּאָזְנֵי הָעָם וְיִשְׁאֲלוּ אִישׁ ׀ מֵאֵת רֵעֵהוּ וְאִשָּׁה מֵאֵת רְעוּתָהּ כְּלֵי־כֶסֶף וּכְלֵי זָהָֽב׃",
           "4": "וַיֹּאמֶר מֹשֶׁה כֹּה אָמַר יְהוָה כַּחֲצֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָֽיִם׃"
         }
       },
       "meta": {
-        "reason": "Vivid divine declaration",
+        "reason": "vivid declaration",
         "confidence": 0.95
       },
       "ref": {
@@ -46,13 +52,147 @@
         "start": 4,
         "end": 4
       }
+    },
+    {
+      "id": "exodus-11-04-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 11,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 4
+      },
+      "en": {
+        "quote": "And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt: And all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh that sitteth upon his throne, even unto the firstborn of the maidservant that is behind the mill; and all the firstborn of beasts.",
+        "riddle": "all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh that sitteth upon his throne, even unto the firstborn of the maidservant that is behind the mill; and all the firstborn of beasts.",
+        "speaker": "the LORD",
+        "listener": "Egypt",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה כֹּה אָמַר יְהוָה כַּחֲצֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָֽיִם וּמֵת כָּל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם מִבְּכוֹר פַּרְעֹה הַיֹּשֵׁב עַל־כִּסְאוֹ עַד בְּכוֹר הַשִּׁפְחָה אֲשֶׁר אַחַר הָרֵחָיִם וְכֹל בְּכוֹר בְּהֵמָֽה",
+        "riddle": "וּמֵת כָּל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם מִבְּכוֹר פַּרְעֹה הַיֹּשֵׁב עַל־כִּסְאוֹ עַד בְּכוֹר הַשִּׁפְחָה אֲשֶׁר אַחַר הָרֵחָיִם וְכֹל בְּכוֹר בְּהֵמָֽה",
+        "speaker": "יְהוָה",
+        "listener": "מִצְרָֽיִם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Moses said, Thus saith the LORD, About midnight will I go out into the midst of Egypt:",
+          "5": "And all the firstborn in the land of Egypt shall die, from the firstborn of Pharaoh that sitteth upon his throne, even unto the firstborn of the maidservant that is behind the mill; and all the firstborn of beasts."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר מֹשֶׁה כֹּה אָמַר יְהוָה כַּחֲצֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָֽיִם׃",
+          "5": "וּמֵת כָּל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם מִבְּכוֹר פַּרְעֹה הַיֹּשֵׁב עַל־כִּסְאוֹ עַד בְּכוֹר הַשִּׁפְחָה אֲשֶׁר אַחַר הָרֵחָיִם וְכֹל בְּכוֹר בְּהֵמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid warning",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 4,
+        "end": 5
+      }
+    },
+    {
+      "id": "exodus-11-08-08",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 11,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And all these thy servants shall come down unto me, and bow down themselves unto me, saying, Get thee out, and all the people that follow thee: and after that I will go out. And he went out from Pharaoh in a great anger.",
+        "riddle": "Get thee out, and all the people that follow thee",
+        "speaker": "Pharaoh's servants",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְיָרְדוּ כָל־עֲבָדֶיךָ אֵלֶּה אֵלַי וְהִשְׁתַּֽחֲוּוּ־לִי לֵאמֹר צֵא אַתָּה וְכָל־הָעָם אֲשֶׁר־בְּרַגְלֶיךָ וְאַחֲרֵי־כֵן אֵצֵא וַיֵּצֵא מֵֽעִם־פַּרְעֹה בָּחֳרִי־אָֽף",
+        "riddle": "עֲבָדֶיךָ אֵלֶּה אֵלַי וְהִשְׁתַּֽחֲוּוּ־לִי לֵאמֹר צֵא אַתָּה וְכָל־הָעָם אֲשֶׁר־בְּרַגְלֶיךָ",
+        "speaker": "עֲבָדֶיךָ",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And all these thy servants shall come down unto me, and bow down themselves unto me, saying, Get thee out, and all the people that follow thee: and after that I will go out. And he went out from Pharaoh in a great anger."
+        },
+        "he": {
+          "8": "וְיָרְדוּ כָל־עֲבָדֶיךָ אֵלֶּה אֵלַי וְהִשְׁתַּֽחֲוּוּ־לִי לֵאמֹר צֵא אַתָּה וְכָל־הָעָם אֲשֶׁר־בְּרַגְלֶיךָ וְאַחֲרֵי־כֵן אֵצֵא וַיֵּצֵא מֵֽעִם־פַּרְעֹה בָּחֳרִי־אָֽף׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command in speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "exodus-11-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 11,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Pharaoh shall not hearken unto you; that my wonders may be multiplied in the land of Egypt.",
+        "riddle": "Pharaoh shall not hearken unto you",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֹא־יִשְׁמַע אֲלֵיכֶם פַּרְעֹה לְמַעַן רְבוֹת מוֹפְתַי בְּאֶרֶץ מִצְרָֽיִם",
+        "riddle": "לֹא־יִשְׁמַע אֲלֵיכֶם פַּרְעֹה לְמַעַן",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Moses, Pharaoh shall not hearken unto you; that my wonders may be multiplied in the land of Egypt."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֹא־יִשְׁמַע אֲלֵיכֶם פַּרְעֹה לְמַעַן רְבוֹת מוֹפְתַי בְּאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 9,
+        "end": 9
+      }
     }
   ],
   "stats": {
-    "window_count": 7,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 1,
-    "issue_count": 6
+    "llm_window_count": 2,
+    "projection_llm_count": 4,
+    "llm_call_count": 6,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

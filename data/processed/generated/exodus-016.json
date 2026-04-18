@@ -6,19 +6,175 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-16-16-17",
+      "id": "exodus-16-08-08",
       "source": {
         "method": "llm",
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 16,
-        "quote_verse_start": 13,
-        "quote_verse_end": 19
+        "quote_verse_start": 6,
+        "quote_verse_end": 8
       },
       "en": {
-        "quote": "And it came to pass, that at even the quails came up, and covered the camp: and in the morning the dew lay round about the host. And when the dew that lay was gone up, behold, upon the face of the wilderness there lay a small round thing, as small as the hoar frost on the ground. And when the children of Israel saw it, they said one to another, It is manna: for they wist not what it was. And Moses said unto them, This is the bread which the LORD hath given you to eat. This is the thing which the LORD hath commanded, Gather of it every man according to his eating, an omer for every man, according to the number of your persons; take ye every man for them which are in his tents. And the children of Israel did so, and gathered, some more, some less. And when they did mete it with an omer, he that gathered much had nothing over, and he that gathered little had no lack; they gathered every man according to his eating. And Moses said, Let no man leave of it till the morning.",
-        "riddle": "This is the thing which the LORD hath commanded, Gather of",
+        "quote": "And Moses and Aaron said unto all the children of Israel, At even, then ye shall know that the LORD hath brought you out from the land of Egypt: And in the morning, then ye shall see the glory of the LORD; for that he heareth your murmurings against the LORD: and what are we, that ye murmur against us? And Moses said, This shall be, when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what are we? your murmurings are not against us, but against the LORD.",
+        "riddle": "and what are we?",
+        "speaker": "Moses",
+        "listener": "children of Israel",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "morning",
+        "bonus_hint": {
+          "quote": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה וְאַהֲרֹן אֶֽל־כָּל־בְּנֵי יִשְׂרָאֵל עֶרֶב וִֽידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרָֽיִם וּבֹקֶר וּרְאִיתֶם אֶת־כְּבוֹד יְהוָה בְּשָׁמְעוֹ אֶת־תְּלֻנֹּתֵיכֶם עַל־יְהוָה וְנַחְנוּ מָה כִּי תַלִּינוּ עָלֵֽינוּ וַיֹּאמֶר מֹשֶׁה בְּתֵת יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ בִּשְׁמֹעַ יְהוָה אֶת־תְּלֻנֹּתֵיכֶם אֲשֶׁר־אַתֶּם מַלִּינִם עָלָיו וְנַחְנוּ מָה לֹא־עָלֵינוּ תְלֻנֹּתֵיכֶם כִּי עַל־יְהוָֽה",
+        "riddle": "מָה כִּי תַלִּינוּ עָלֵֽינו",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עֶרֶב",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Moses and Aaron said unto all the children of Israel, At even, then ye shall know that the LORD hath brought you out from the land of Egypt:",
+          "7": "And in the morning, then ye shall see the glory of the LORD; for that he heareth your murmurings against the LORD: and what are we, that ye murmur against us?",
+          "8": "And Moses said, This shall be, when the LORD shall give you in the evening flesh to eat, and in the morning bread to the full; for that the LORD heareth your murmurings which ye murmur against him: and what are we? your murmurings are not against us, but against the LORD."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר מֹשֶׁה וְאַהֲרֹן אֶֽל־כָּל־בְּנֵי יִשְׂרָאֵל עֶרֶב וִֽידַעְתֶּם כִּי יְהוָה הוֹצִיא אֶתְכֶם מֵאֶרֶץ מִצְרָֽיִם׃",
+          "7": "וּבֹקֶר וּרְאִיתֶם אֶת־כְּבוֹד יְהוָה בְּשָׁמְעוֹ אֶת־תְּלֻנֹּתֵיכֶם עַל־יְהוָה וְנַחְנוּ מָה כִּי תַלִּינוּ עָלֵֽינוּ׃",
+          "8": "וַיֹּאמֶר מֹשֶׁה בְּתֵת יְהוָה לָכֶם בָּעֶרֶב בָּשָׂר לֶאֱכֹל וְלֶחֶם בַּבֹּקֶר לִשְׂבֹּעַ בִּשְׁמֹעַ יְהוָה אֶת־תְּלֻנֹּתֵיכֶם אֲשֶׁר־אַתֶּם מַלִּינִם עָלָיו וְנַחְנוּ מָה לֹא־עָלֵינוּ תְלֻנֹּתֵיכֶם כִּי עַל־יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 6,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-16-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 16,
+        "quote_verse_start": 25,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Moses said, Eat that to day; for to day is a sabbath unto the LORD: to day ye shall not find it in the field. Six days ye shall gather it; but on the seventh day, which is the sabbath, in it there shall be none.",
+        "riddle": "Six days ye shall gather it; but on the seventh day, which is the sabbath, in it there shall be none.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "field",
+        "bonus_hint": {
+          "quote": "And the golden mice, according to the number of all the cities of the Philistines belonging to the five lords, both of fenced cities, and of country villages, even unto the great stone of Abel, whereon they set down the ark of the LORD: which stone remaineth unto this day in the field of Joshua, the Beth-shemite.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 6,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אִכְלֻהוּ הַיּוֹם כִּֽי־שַׁבָּת הַיּוֹם לַיהוָה הַיּוֹם לֹא תִמְצָאֻהוּ בַּשָּׂדֶֽה שֵׁשֶׁת יָמִים תִּלְקְטֻהוּ וּבַיּוֹם הַשְּׁבִיעִי שַׁבָּת לֹא יִֽהְיֶה־בּֽוֹ",
+        "riddle": "שֵׁשֶׁת יָמִים תִּלְקְטֻהוּ וּבַיּוֹם הַשְּׁבִיעִי שַׁבָּת לֹא יִֽהְיֶה־בּֽוֹ",
+        "speaker": "מֹשֶׁה",
+        "listener": "בני ישראל",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַיּוֹם",
+        "bonus_hint": {
+          "quote": "וְעַכְבְּרֵי הַזָּהָב מִסְפַּר כָּל־עָרֵי פְלִשְׁתִּים לַחֲמֵשֶׁת הַסְּרָנִים מֵעִיר מִבְצָר וְעַד כֹּפֶר הַפְּרָזִי וְעַד אָבֵל הַגְּדוֹלָה אֲשֶׁר הִנִּיחוּ עָלֶיהָ אֵת אֲרוֹן יְהוָה עַד הַיּוֹם הַזֶּה בִּשְׂדֵה יְהוֹשֻׁעַ בֵּית הַשִּׁמְשִֽׁי",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 6,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Moses said, Eat that to day; for to day is a sabbath unto the LORD: to day ye shall not find it in the field.",
+          "26": "Six days ye shall gather it; but on the seventh day, which is the sabbath, in it there shall be none."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר מֹשֶׁה אִכְלֻהוּ הַיּוֹם כִּֽי־שַׁבָּת הַיּוֹם לַיהוָה הַיּוֹם לֹא תִמְצָאֻהוּ בַּשָּׂדֶֽה׃",
+          "26": "שֵׁשֶׁת יָמִים תִּלְקְטֻהוּ וּבַיּוֹם הַשְּׁבִיעִי שַׁבָּת לֹא יִֽהְיֶה־בּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 25,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-16-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 16,
+        "quote_verse_start": 32,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 32
+      },
+      "en": {
+        "quote": "And Moses said, This is the thing which the LORD commandeth, Fill an omer of it to be kept for your generations; that they may see the bread wherewith I have fed you in the wilderness, when I brought you forth from the land of Egypt. And Moses said unto Aaron, Take a pot, and put an omer full of manna therein, and lay it up before the LORD, to be kept for your generations. As the LORD commanded Moses, so Aaron laid it up before the Testimony, to be kept.",
+        "riddle": "This is the thing which the LORD commandeth, Fill an omer of it to be kept for your generations",
         "speaker": "Moses",
         "listener": "Israelites",
         "book": "Exodus",
@@ -26,62 +182,54 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "camp",
+        "bonus": "bread",
         "bonus_hint": {
-          "quote": "And Moses brought forth the people out of the camp to meet with God; and they stood at the nether part of the mount.",
+          "quote": "And the people spake against God, and against Moses, Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread.",
           "source": {
-            "book": "Exodus",
-            "chapter": 19,
-            "start": 17,
-            "end": 17
+            "book": "Numbers",
+            "chapter": 21,
+            "start": 5,
+            "end": 5
           }
         }
       },
       "he": {
-        "quote": "וַיְהִי בָעֶרֶב וַתַּעַל הַשְּׂלָו וַתְּכַס אֶת־הַֽמַּחֲנֶה וּבַבֹּקֶר הָֽיְתָה שִׁכְבַת הַטַּל סָבִיב לַֽמַּחֲנֶֽה וַתַּעַל שִׁכְבַת הַטָּל וְהִנֵּה עַל־פְּנֵי הַמִּדְבָּר דַּק מְחֻסְפָּס דַּק כַּכְּפֹר עַל־הָאָֽרֶץ וַיִּרְאוּ בְנֵֽי־יִשְׂרָאֵל וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו מָן הוּא כִּי לֹא יָדְעוּ מַה־הוּא וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם הוּא הַלֶּחֶם אֲשֶׁר נָתַן יְהוָה לָכֶם לְאָכְלָֽה זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּֽחוּ וַיַּעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַֽיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִֽיט וַיָּמֹדּוּ בָעֹמֶר וְלֹא הֶעְדִּיף הַמַּרְבֶּה וְהַמַּמְעִיט לֹא הֶחְסִיר אִישׁ לְפִֽי־אָכְלוֹ לָקָֽטוּ וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם אִישׁ אַל־יוֹתֵר מִמֶּנּוּ עַד־בֹּֽקֶר",
-        "riddle": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ",
+        "quote": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם לְמַעַן יִרְאוּ אֶת־הַלֶּחֶם אֲשֶׁר הֶאֱכַלְתִּי אֶתְכֶם בַּמִּדְבָּר בְּהוֹצִיאִי אֶתְכֶם מֵאֶרֶץ מִצְרָֽיִם וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן קַח צִנְצֶנֶת אַחַת וְתֶן־שָׁמָּה מְלֹֽא־הָעֹמֶר מָן וְהַנַּח אֹתוֹ לִפְנֵי יְהוָה לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶֽם כַּאֲשֶׁר צִוָּה יְהוָה אֶל־מֹשֶׁה וַיַּנִּיחֵהוּ אַהֲרֹן לִפְנֵי הָעֵדֻת לְמִשְׁמָֽרֶת",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם לְמַעַן יִרְאוּ אֶת־הַלֶּחֶם אֲשֶׁר הֶאֱכַלְתִּי אֶתְכֶם",
         "speaker": "מֹשֶׁה",
-        "listener": "בְנֵֽי־יִשְׂרָאֵל",
+        "listener": "בְנֵי יִשְׂרָאֵל",
         "book": "שמות",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַֽמַּחֲנֶה",
+        "bonus": "בַּמִּדְבָּר",
         "bonus_hint": {
-          "quote": "וַיּוֹצֵא מֹשֶׁה אֶת־הָעָם לִקְרַאת הָֽאֱלֹהִים מִן־הַֽמַּחֲנֶה וַיִּֽתְיַצְּבוּ בְּתַחְתִּית הָהָֽר",
+          "quote": "וַיְדַבֵּר הָעָם בֵּֽאלֹהִים וּבְמֹשֶׁה לָמָה הֶֽעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵֽל",
           "source": {
-            "book": "שמות",
-            "chapter": 19,
-            "start": 17,
-            "end": 17
+            "book": "במדבר",
+            "chapter": 21,
+            "start": 5,
+            "end": 5
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "13": "And it came to pass, that at even the quails came up, and covered the camp: and in the morning the dew lay round about the host.",
-          "14": "And when the dew that lay was gone up, behold, upon the face of the wilderness there lay a small round thing, as small as the hoar frost on the ground.",
-          "15": "And when the children of Israel saw it, they said one to another, It is manna: for they wist not what it was. And Moses said unto them, This is the bread which the LORD hath given you to eat.",
-          "16": "This is the thing which the LORD hath commanded, Gather of it every man according to his eating, an omer for every man, according to the number of your persons; take ye every man for them which are in his tents.",
-          "17": "And the children of Israel did so, and gathered, some more, some less.",
-          "18": "And when they did mete it with an omer, he that gathered much had nothing over, and he that gathered little had no lack; they gathered every man according to his eating.",
-          "19": "And Moses said, Let no man leave of it till the morning."
+          "32": "And Moses said, This is the thing which the LORD commandeth, Fill an omer of it to be kept for your generations; that they may see the bread wherewith I have fed you in the wilderness, when I brought you forth from the land of Egypt.",
+          "33": "And Moses said unto Aaron, Take a pot, and put an omer full of manna therein, and lay it up before the LORD, to be kept for your generations.",
+          "34": "As the LORD commanded Moses, so Aaron laid it up before the Testimony, to be kept."
         },
         "he": {
-          "13": "וַיְהִי בָעֶרֶב וַתַּעַל הַשְּׂלָו וַתְּכַס אֶת־הַֽמַּחֲנֶה וּבַבֹּקֶר הָֽיְתָה שִׁכְבַת הַטַּל סָבִיב לַֽמַּחֲנֶֽה׃",
-          "14": "וַתַּעַל שִׁכְבַת הַטָּל וְהִנֵּה עַל־פְּנֵי הַמִּדְבָּר דַּק מְחֻסְפָּס דַּק כַּכְּפֹר עַל־הָאָֽרֶץ׃",
-          "15": "וַיִּרְאוּ בְנֵֽי־יִשְׂרָאֵל וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו מָן הוּא כִּי לֹא יָדְעוּ מַה־הוּא וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם הוּא הַלֶּחֶם אֲשֶׁר נָתַן יְהוָה לָכֶם לְאָכְלָֽה׃",
-          "16": "זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה לִקְטוּ מִמֶּנּוּ אִישׁ לְפִי אָכְלוֹ עֹמֶר לַגֻּלְגֹּלֶת מִסְפַּר נַפְשֹׁתֵיכֶם אִישׁ לַאֲשֶׁר בְּאָהֳלוֹ תִּקָּֽחוּ׃",
-          "17": "וַיַּעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַֽיִּלְקְטוּ הַמַּרְבֶּה וְהַמַּמְעִֽיט׃",
-          "18": "וַיָּמֹדּוּ בָעֹמֶר וְלֹא הֶעְדִּיף הַמַּרְבֶּה וְהַמַּמְעִיט לֹא הֶחְסִיר אִישׁ לְפִֽי־אָכְלוֹ לָקָֽטוּ׃",
-          "19": "וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם אִישׁ אַל־יוֹתֵר מִמֶּנּוּ עַד־בֹּֽקֶר׃"
+          "32": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר צִוָּה יְהוָה מְלֹא הָעֹמֶר מִמֶּנּוּ לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶם לְמַעַן ׀ יִרְאוּ אֶת־הַלֶּחֶם אֲשֶׁר הֶאֱכַלְתִּי אֶתְכֶם בַּמִּדְבָּר בְּהוֹצִיאִי אֶתְכֶם מֵאֶרֶץ מִצְרָֽיִם׃",
+          "33": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן קַח צִנְצֶנֶת אַחַת וְתֶן־שָׁמָּה מְלֹֽא־הָעֹמֶר מָן וְהַנַּח אֹתוֹ לִפְנֵי יְהוָה לְמִשְׁמֶרֶת לְדֹרֹתֵיכֶֽם׃",
+          "34": "כַּאֲשֶׁר צִוָּה יְהוָה אֶל־מֹשֶׁה וַיַּנִּיחֵהוּ אַהֲרֹן לִפְנֵי הָעֵדֻת לְמִשְׁמָֽרֶת׃"
         }
       },
       "ref": {
         "chapter": 16,
-        "start": 13,
-        "end": 19
+        "start": 32,
+        "end": 34
       },
       "meta": {
         "mode": "llm",

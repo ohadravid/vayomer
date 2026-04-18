@@ -6,95 +6,773 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-01-16-16",
+      "id": "1-kings-01-02-02",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 1,
-        "quote_verse_start": 16,
-        "quote_verse_end": 16
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
-        "quote": "And Bath-sheba bowed, and did obeisance unto the king. And the king said, What wouldest thou?",
-        "riddle": "What wouldest thou?",
-        "speaker": "the king",
+        "quote": "Wherefore his servants said unto him, Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her cherish him, and let her lie in thy bosom, that my lord the king may get heat.",
+        "riddle": "Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her cherish him, and let her lie in thy bosom, that my lord the king may get heat.",
+        "speaker": "servants",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לוֹ עֲבָדָיו יְבַקְשׁוּ לַאדֹנִי הַמֶּלֶךְ נַעֲרָה בְתוּלָה וְעָֽמְדָה לִפְנֵי הַמֶּלֶךְ וּתְהִי־לוֹ סֹכֶנֶת וְשָׁכְבָה בְחֵיקֶךָ וְחַם לַאדֹנִי הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמְרוּ לוֹ עֲבָדָיו יְבַקְשׁוּ לַאדֹנִי הַמֶּלֶךְ נַעֲרָה בְתוּלָה וְעָֽמְדָה לִפְנֵי הַמֶּלֶךְ וּתְהִי־לוֹ סֹכֶנֶת וְשָׁכְבָה בְחֵיקֶךָ וְחַם לַאדֹנִי הַמֶּֽלֶךְ",
+        "speaker": "עֲבָדָיו",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Wherefore his servants said unto him, Let there be sought for my lord the king a young virgin: and let her stand before the king, and let her cherish him, and let her lie in thy bosom, that my lord the king may get heat."
+        },
+        "he": {
+          "2": "וַיֹּאמְרוּ לוֹ עֲבָדָיו יְבַקְשׁוּ לַאדֹנִי הַמֶּלֶךְ נַעֲרָה בְתוּלָה וְעָֽמְדָה לִפְנֵי הַמֶּלֶךְ וּתְהִי־לוֹ סֹכֶנֶת וְשָׁכְבָה בְחֵיקֶךָ וְחַם לַאדֹנִי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "1-kings-01-11-11",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Wherefore Nathan spake unto Bath-sheba the mother of Solomon, saying, Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?",
+        "riddle": "Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?",
+        "speaker": "Nathan",
         "listener": "Bath-sheba",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "וַתִּקֹּד בַּת־שֶׁבַע וַתִּשְׁתַּחוּ לַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ מַה־לָּֽךְ",
-        "riddle": "מַה־לָּֽךְ",
-        "speaker": "הַמֶּלֶךְ",
+        "quote": "וַיֹּאמֶר נָתָן אֶל־בַּת־שֶׁבַע אֵם־שְׁלֹמֹה לֵאמֹר הֲלוֹא שָׁמַעַתְּ כִּי מָלַךְ אֲדֹנִיָּהוּ בֶן־חַגִּית וַאֲדֹנֵינוּ דָוִד לֹא יָדָֽע",
+        "riddle": "הֲלוֹא שָׁמַעַתְּ כִּי מָלַךְ אֲדֹנִיָּהוּ בֶן־חַגִּית וַאֲדֹנֵינוּ דָוִד לֹא יָדָֽע",
+        "speaker": "נָתָן",
         "listener": "בַּת־שֶׁבַע",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "16": "And Bath-sheba bowed, and did obeisance unto the king. And the king said, What wouldest thou?"
+          "11": "Wherefore Nathan spake unto Bath-sheba the mother of Solomon, saying, Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?"
         },
         "he": {
-          "16": "וַתִּקֹּד בַּת־שֶׁבַע וַתִּשְׁתַּחוּ לַמֶּלֶךְ וַיֹּאמֶר הַמֶּלֶךְ מַה־לָּֽךְ׃"
+          "11": "וַיֹּאמֶר נָתָן אֶל־בַּת־שֶׁבַע אֵם־שְׁלֹמֹה לֵאמֹר הֲלוֹא שָׁמַעַתְּ כִּי מָלַךְ אֲדֹנִיָּהוּ בֶן־חַגִּית וַאֲדֹנֵינוּ דָוִד לֹא יָדָֽע׃"
         }
       },
       "meta": {
-        "reason": "Contains direct question.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 1,
-        "start": 16,
-        "end": 16
+        "start": 11,
+        "end": 11
       }
     },
     {
-      "id": "1-kings-01-41-41",
+      "id": "1-kings-01-12-12",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 1,
-        "quote_verse_start": 41,
-        "quote_verse_end": 41
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
       },
       "en": {
-        "quote": "And Adonijah and all the guests that were with him heard it as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore is this noise of the city being in an uproar?",
-        "riddle": "Wherefore is this noise of the city being in an uproar?",
-        "speaker": "Joab",
-        "listener": "Implicit",
+        "quote": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon.",
+        "riddle": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon.",
+        "speaker": "Nathan",
+        "listener": "Bath-sheba",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "וַיִּשְׁמַע אֲדֹנִיָּהוּ וְכָל־הַקְּרֻאִים אֲשֶׁר אִתּוֹ וְהֵם כִּלּוּ לֶאֱכֹל וַיִּשְׁמַע יוֹאָב אֶת־קוֹל הַשּׁוֹפָר וַיֹּאמֶר מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה",
-        "riddle": "מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה",
-        "speaker": "יוֹאָב",
-        "listener": "Implicit",
+        "quote": "וְעַתָּה לְכִי אִיעָצֵךְ נָא עֵצָה וּמַלְּטִי אֶת־נַפְשֵׁךְ וְאֶת־נֶפֶשׁ בְּנֵךְ שְׁלֹמֹֽה",
+        "riddle": "וְעַתָּה לְכִי אִיעָצֵךְ נָא עֵצָה וּמַלְּטִי אֶת־נַפְשֵׁךְ וְאֶת־נֶפֶשׁ בְּנֵךְ שְׁלֹמֹֽה",
+        "speaker": "נָתָן",
+        "listener": "בַּת־שֶׁבַע",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "41": "And Adonijah and all the guests that were with him heard it as they had made an end of eating. And when Joab heard the sound of the trumpet, he said, Wherefore is this noise of the city being in an uproar?"
+          "11": "Wherefore Nathan spake unto Bath-sheba the mother of Solomon, saying, Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?",
+          "12": "Now therefore come, let me, I pray thee, give thee counsel, that thou mayest save thine own life, and the life of thy son Solomon."
         },
         "he": {
-          "41": "וַיִּשְׁמַע אֲדֹנִיָּהוּ וְכָל־הַקְּרֻאִים אֲשֶׁר אִתּוֹ וְהֵם כִּלּוּ לֶאֱכֹל וַיִּשְׁמַע יוֹאָב אֶת־קוֹל הַשּׁוֹפָר וַיֹּאמֶר מַדּוּעַ קֽוֹל־הַקִּרְיָה הוֹמָֽה׃"
+          "11": "וַיֹּאמֶר נָתָן אֶל־בַּת־שֶׁבַע אֵם־שְׁלֹמֹה לֵאמֹר הֲלוֹא שָׁמַעַתְּ כִּי מָלַךְ אֲדֹנִיָּהוּ בֶן־חַגִּית וַאֲדֹנֵינוּ דָוִד לֹא יָדָֽע׃",
+          "12": "וְעַתָּה לְכִי אִיעָצֵךְ נָא עֵצָה וּמַלְּטִי אֶת־נַפְשֵׁךְ וְאֶת־נֶפֶשׁ בְּנֵךְ שְׁלֹמֹֽה׃"
         }
       },
       "meta": {
-        "reason": "Contains a direct question",
-        "confidence": 1.0
+        "reason": "command and advice",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 1,
-        "start": 41,
-        "end": 41
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-kings-01-13-13",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Go and get thee in unto king David, and say unto him, Didst not thou, my lord, O king, swear unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne? why then doth Adonijah reign?",
+        "riddle": "Didst not thou, my lord, O king, swear unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne? why then doth Adonijah reign?",
+        "speaker": "Nathan",
+        "listener": "King David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "לְכִי וּבֹאִי אֶל־הַמֶּלֶךְ דָּוִד וְאָמַרְתְּ אֵלָיו הֲלֹֽא־אַתָּה אֲדֹנִי הַמֶּלֶךְ נִשְׁבַּעְתָּ לַאֲמָֽתְךָ לֵאמֹר כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרַי וְהוּא יֵשֵׁב עַל־כִּסְאִי וּמַדּוּעַ מָלַךְ אֲדֹנִיָֽהוּ",
+        "riddle": "לְכִי וּבֹאִי אֶל־הַמֶּלֶךְ דָּוִד וְאָמַרְתְּ אֵלָיו הֲלֹֽא־אַתָּה אֲדֹנִי הַמֶּלֶךְ נִשְׁבַּעְתָּ לַאֲמָֽתְךָ לֵאמֹר כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרַי וְהוּא יֵשֵׁב עַל־כִּסְאִי וּמַדּוּעַ מָלַךְ אֲדֹנִיָֽהוּ",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Wherefore Nathan spake unto Bath-sheba the mother of Solomon, saying, Hast thou not heard that Adonijah the son of Haggith doth reign, and David our lord knoweth it not?",
+          "13": "Go and get thee in unto king David, and say unto him, Didst not thou, my lord, O king, swear unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne? why then doth Adonijah reign?"
+        },
+        "he": {
+          "11": "וַיֹּאמֶר נָתָן אֶל־בַּת־שֶׁבַע אֵם־שְׁלֹמֹה לֵאמֹר הֲלוֹא שָׁמַעַתְּ כִּי מָלַךְ אֲדֹנִיָּהוּ בֶן־חַגִּית וַאֲדֹנֵינוּ דָוִד לֹא יָדָֽע׃",
+          "13": "לְכִי וּבֹאִי ׀ אֶל־הַמֶּלֶךְ דָּוִד וְאָמַרְתְּ אֵלָיו הֲלֹֽא־אַתָּה אֲדֹנִי הַמֶּלֶךְ נִשְׁבַּעְתָּ לַאֲמָֽתְךָ לֵאמֹר כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרַי וְהוּא יֵשֵׁב עַל־כִּסְאִי וּמַדּוּעַ מָלַךְ אֲדֹנִיָֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-kings-01-17-18",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 17,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And she said unto him, My lord, thou swarest by the LORD thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne. And now, behold, Adonijah reigneth; and now, my lord the king, thou knowest it not:",
+        "riddle": "My lord, thou swarest by the LORD thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne. And now, behold, Adonijah reigneth; and now, my lord the king, thou knowest it not:",
+        "speaker": "Bath-sheba",
+        "listener": "the king",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לוֹ אֲדֹנִי אַתָּה נִשְׁבַּעְתָּ בַּֽיהוָה אֱלֹהֶיךָ לַֽאֲמָתֶךָ כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי וְעַתָּה הִנֵּה אֲדֹנִיָּה מָלָךְ וְעַתָּה אֲדֹנִי הַמֶּלֶךְ לֹא יָדָֽעְתָּ",
+        "riddle": "וַתֹּאמֶר לוֹ אֲדֹנִי אַתָּה נִשְׁבַּעְתָּ בַּֽיהוָה אֱלֹהֶיךָ לַֽאֲמָתֶךָ כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי וְעַתָּה הִנֵּה אֲדֹנִיָּה מָלָךְ וְעַתָּה אֲדֹנִי הַמֶּלֶךְ לֹא יָדָֽעְתָּ",
+        "speaker": "בַת שֶׁבַע",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And she said unto him, My lord, thou swarest by the LORD thy God unto thine handmaid, saying, Assuredly Solomon thy son shall reign after me, and he shall sit upon my throne.",
+          "18": "And now, behold, Adonijah reigneth; and now, my lord the king, thou knowest it not:"
+        },
+        "he": {
+          "17": "וַתֹּאמֶר לוֹ אֲדֹנִי אַתָּה נִשְׁבַּעְתָּ בַּֽיהוָה אֱלֹהֶיךָ לַֽאֲמָתֶךָ כִּֽי־שְׁלֹמֹה בְנֵךְ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי׃",
+          "18": "וְעַתָּה הִנֵּה אֲדֹנִיָּה מָלָךְ וְעַתָּה אֲדֹנִי הַמֶּלֶךְ לֹא יָדָֽעְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 17,
+        "end": 18
+      }
+    },
+    {
+      "id": "1-kings-01-20-20",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And thou, my lord, O king, the eyes of all Israel are upon thee, that thou shouldest tell them who shall sit on the throne of my lord the king after him.",
+        "riddle": "the eyes of all Israel are upon thee, that thou shouldest tell them who shall sit on the throne of my lord the king after him.",
+        "speaker": "Bath-sheba",
+        "listener": "the king",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְאַתָּה אֲדֹנִי הַמֶּלֶךְ עֵינֵי כָל־יִשְׂרָאֵל עָלֶיךָ לְהַגִּיד לָהֶם מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו",
+        "riddle": "וְאַתָּה אֲדֹנִי הַמֶּלֶךְ עֵינֵי כָל־יִשְׂרָאֵל עָלֶיךָ לְהַגִּיד לָהֶם מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו",
+        "speaker": "בַת שֶׁבַע",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And thou, my lord, O king, the eyes of all Israel are upon thee, that thou shouldest tell them who shall sit on the throne of my lord the king after him."
+        },
+        "he": {
+          "20": "וְאַתָּה אֲדֹנִי הַמֶּלֶךְ עֵינֵי כָל־יִשְׂרָאֵל עָלֶיךָ לְהַגִּיד לָהֶם מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "warning/declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "1-kings-01-24-24",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Nathan said, My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?",
+        "riddle": "My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נָתָן אֲדֹנִי הַמֶּלֶךְ אַתָּה אָמַרְתָּ אֲדֹנִיָּהוּ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי",
+        "riddle": "אֲדֹנִי הַמֶּלֶךְ אַתָּה אָמַרְתָּ אֲדֹנִיָּהוּ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Nathan said, My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?"
+        },
+        "he": {
+          "24": "וַיֹּאמֶר נָתָן אֲדֹנִי הַמֶּלֶךְ אַתָּה אָמַרְתָּ אֲדֹנִיָּהוּ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "1-kings-01-26-27",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 26,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "But me, even me thy servant, and Zadok the priest, and Benaiah the son of Jehoiada, and thy servant Solomon, hath he not called. Is this thing done by my lord the king, and thou hast not shewed it unto thy servant, who should sit on the throne of my lord the king after him?",
+        "riddle": "But me, even me thy servant, and Zadok the priest, and Benaiah the son of Jehoiada, and thy servant Solomon, hath he not called. Is this thing done by my lord the king, and thou hast not shewed it unto thy servant, who should sit on the throne of my lord the king after him?",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְלִי אֲנִֽי־עַבְדֶּךָ וּלְצָדֹק הַכֹּהֵן וְלִבְנָיָהוּ בֶן־יְהוֹיָדָע וְלִשְׁלֹמֹה עַבְדְּךָ לֹא קָרָֽא אִם מֵאֵת אֲדֹנִי הַמֶּלֶךְ נִהְיָה הַדָּבָר הַזֶּה וְלֹא הוֹדַעְתָּ אֶֽת־עַבְדְּךָ מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו",
+        "riddle": "וְלִי אֲנִֽי־עַבְדֶּךָ וּלְצָדֹק הַכֹּהֵן וְלִבְנָיָהוּ בֶן־יְהוֹיָדָע וְלִשְׁלֹמֹה עַבְדְּךָ לֹא קָרָֽא אִם מֵאֵת אֲדֹנִי הַמֶּלֶךְ נִהְיָה הַדָּבָר הַזֶּה וְלֹא הוֹדַעְתָּ אֶֽת־עַבְדְּךָ מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Nathan said, My lord, O king, hast thou said, Adonijah shall reign after me, and he shall sit upon my throne?",
+          "26": "But me, even me thy servant, and Zadok the priest, and Benaiah the son of Jehoiada, and thy servant Solomon, hath he not called.",
+          "27": "Is this thing done by my lord the king, and thou hast not shewed it unto thy servant, who should sit on the throne of my lord the king after him?"
+        },
+        "he": {
+          "24": "וַיֹּאמֶר נָתָן אֲדֹנִי הַמֶּלֶךְ אַתָּה אָמַרְתָּ אֲדֹנִיָּהוּ יִמְלֹךְ אַחֲרָי וְהוּא יֵשֵׁב עַל־כִּסְאִֽי׃",
+          "26": "וְלִי אֲנִֽי־עַבְדֶּךָ וּלְצָדֹק הַכֹּהֵן וְלִבְנָיָהוּ בֶן־יְהוֹיָדָע וְלִשְׁלֹמֹה עַבְדְּךָ לֹא קָרָֽא׃",
+          "27": "אִם מֵאֵת אֲדֹנִי הַמֶּלֶךְ נִהְיָה הַדָּבָר הַזֶּה וְלֹא הוֹדַעְתָּ אֶֽת־עַבְדְּךָ מִי יֵשֵׁב עַל־כִּסֵּא אֲדֹנִֽי־הַמֶּלֶךְ אַחֲרָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "complex question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 26,
+        "end": 27
+      }
+    },
+    {
+      "id": "1-kings-01-28-28",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "Then king David answered and said, Call me Bath-sheba. And she came into the king's presence, and stood before the king.",
+        "riddle": "Call me Bath-sheba",
+        "speaker": "David",
+        "listener": "Bath-sheba",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעַן הַמֶּלֶךְ דָּוִד וַיֹּאמֶר קִרְאוּ־לִי לְבַת־שָׁבַע וַתָּבֹא לִפְנֵי הַמֶּלֶךְ וַֽתַּעֲמֹד לִפְנֵי הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר קִרְאוּ־לִי",
+        "speaker": "דָּוִד",
+        "listener": "בַת שָׁבַע",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Then king David answered and said, Call me Bath-sheba. And she came into the king's presence, and stood before the king."
+        },
+        "he": {
+          "28": "וַיַּעַן הַמֶּלֶךְ דָּוִד וַיֹּאמֶר קִרְאוּ־לִי לְבַת־שָׁבַע וַתָּבֹא לִפְנֵי הַמֶּלֶךְ וַֽתַּעֲמֹד לִפְנֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "1-kings-01-32-32",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And king David said, Call me Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada. And they came before the king.",
+        "riddle": "Call me Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada.",
+        "speaker": "king David",
+        "listener": "servants",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ דָּוִד קִרְאוּ־לִי לְצָדוֹק הַכֹּהֵן וּלְנָתָן הַנָּבִיא וְלִבְנָיָהוּ בֶּן־יְהוֹיָדָע וַיָּבֹאוּ לִפְנֵי הַמֶּֽלֶךְ",
+        "riddle": "קִרְאוּ־לִי לְצָדוֹק הַכֹּהֵן וּלְנָתָן הַנָּבִיא וְלִבְנָיָהוּ בֶּן־יְהוֹיָדָע וַיָּבֹאוּ לִפְנֵי",
+        "speaker": "דָּוִד",
+        "listener": "עוֹבְדָיו",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And king David said, Call me Zadok the priest, and Nathan the prophet, and Benaiah the son of Jehoiada. And they came before the king."
+        },
+        "he": {
+          "32": "וַיֹּאמֶר ׀ הַמֶּלֶךְ דָּוִד קִרְאוּ־לִי לְצָדוֹק הַכֹּהֵן וּלְנָתָן הַנָּבִיא וְלִבְנָיָהוּ בֶּן־יְהוֹיָדָע וַיָּבֹאוּ לִפְנֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "1-kings-01-36-36",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "And Benaiah the son of Jehoiada answered the king, and said, Amen: the LORD God of my lord the king say so too.",
+        "riddle": "Amen: the LORD God of my lord the king say so too.",
+        "speaker": "Benaiah",
+        "listener": "the king",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעַן בְּנָיָהוּ בֶן־יְהֽוֹיָדָע אֶת־הַמֶּלֶךְ וַיֹּאמֶר אָמֵן כֵּן יֹאמַר יְהוָה אֱלֹהֵי אֲדֹנִי הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר אָמֵן כֵּן יֹאמַר יְהוָה אֱלֹהֵי אֲדֹנִי הַמֶּֽלֶךְ",
+        "speaker": "בְּנָיָהוּ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And Benaiah the son of Jehoiada answered the king, and said, Amen: the LORD God of my lord the king say so too."
+        },
+        "he": {
+          "36": "וַיַּעַן בְּנָיָהוּ בֶן־יְהֽוֹיָדָע אֶת־הַמֶּלֶךְ וַיֹּאמֶר ׀ אָמֵן כֵּן יֹאמַר יְהוָה אֱלֹהֵי אֲדֹנִי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 36,
+        "end": 36
+      }
+    },
+    {
+      "id": "1-kings-01-37-37",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 37,
+        "quote_verse_end": 37,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "As the LORD hath been with my lord the king, even so be he with Solomon, and make his throne greater than the throne of my lord king David.",
+        "riddle": "As the LORD hath been with my lord the king, even so be he with Solomon, and make his throne greater than the throne of my lord king David.",
+        "speaker": "Benaiah",
+        "listener": "the king",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "כַּאֲשֶׁר הָיָה יְהוָה עִם־אֲדֹנִי הַמֶּלֶךְ כֵּן יִֽהְיֶה עִם־שְׁלֹמֹה וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסֵּא אֲדֹנִי הַמֶּלֶךְ דָּוִֽד",
+        "riddle": "כַּאֲשֶׁר הָיָה יְהוָה עִם־אֲדֹנִי הַמֶּלֶךְ כֵּן יִֽהְיֶה עִם־שְׁלֹמֹה וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסֵּא אֲדֹנִי הַמֶּלֶךְ דָּוִֽד",
+        "speaker": "בְּנָיָהוּ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And Benaiah the son of Jehoiada answered the king, and said, Amen: the LORD God of my lord the king say so too.",
+          "37": "As the LORD hath been with my lord the king, even so be he with Solomon, and make his throne greater than the throne of my lord king David."
+        },
+        "he": {
+          "36": "וַיַּעַן בְּנָיָהוּ בֶן־יְהֽוֹיָדָע אֶת־הַמֶּלֶךְ וַיֹּאמֶר ׀ אָמֵן כֵּן יֹאמַר יְהוָה אֱלֹהֵי אֲדֹנִי הַמֶּֽלֶךְ׃",
+          "37": "כַּאֲשֶׁר הָיָה יְהוָה עִם־אֲדֹנִי הַמֶּלֶךְ כֵּן יִֽהְיֶה עִם־שְׁלֹמֹה וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסֵּא אֲדֹנִי הַמֶּלֶךְ דָּוִֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing/declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 37,
+        "end": 37
+      }
+    },
+    {
+      "id": "1-kings-01-42-42",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 42,
+        "quote_verse_end": 42,
+        "speaker_mention_verse": 42,
+        "listener_mention_verse": 42
+      },
+      "en": {
+        "quote": "And while he yet spake, behold, Jonathan the son of Abiathar the priest came: and Adonijah said unto him, Come in; for thou art a valiant man, and bringest good tidings.",
+        "riddle": "Come in; for thou art a valiant man, and bringest good tidings.",
+        "speaker": "Adonijah",
+        "listener": "Jonathan",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "עוֹדֶנּוּ מְדַבֵּר וְהִנֵּה יוֹנָתָן בֶּן־אֶבְיָתָר הַכֹּהֵן בָּא וַיֹּאמֶר אֲדֹנִיָּהוּ בֹּא כִּי אִישׁ חַיִל אַתָּה וְטוֹב תְּבַשֵּֽׂר",
+        "riddle": "בֹּא כִּי אִישׁ חַיִל אַתָּה וְטוֹב תְּבַשֵּֽׂר",
+        "speaker": "אֲדֹנִיָּהוּ",
+        "listener": "יוֹנָתָן",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "42": "And while he yet spake, behold, Jonathan the son of Abiathar the priest came: and Adonijah said unto him, Come in; for thou art a valiant man, and bringest good tidings."
+        },
+        "he": {
+          "42": "עוֹדֶנּוּ מְדַבֵּר וְהִנֵּה יוֹנָתָן בֶּן־אֶבְיָתָר הַכֹּהֵן בָּא וַיֹּאמֶר אֲדֹנִיָּהוּ בֹּא כִּי אִישׁ חַיִל אַתָּה וְטוֹב תְּבַשֵּֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/praise",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 42,
+        "end": 42
+      }
+    },
+    {
+      "id": "1-kings-01-43-43",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 43,
+        "quote_verse_end": 43,
+        "speaker_mention_verse": 43,
+        "listener_mention_verse": 43
+      },
+      "en": {
+        "quote": "And Jonathan answered and said to Adonijah, Verily our lord king David hath made Solomon king.",
+        "riddle": "Verily our lord king David hath made Solomon king.",
+        "speaker": "Jonathan",
+        "listener": "Adonijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעַן יוֹנָתָן וַיֹּאמֶר לַאֲדֹנִיָּהוּ אֲבָל אֲדֹנֵינוּ הַמֶּֽלֶךְ־דָּוִד הִמְלִיךְ אֶת־שְׁלֹמֹֽה",
+        "riddle": "אֲבָל אֲדֹנֵינוּ הַמֶּֽלֶךְ־דָּוִד הִמְלִיךְ אֶת־שְׁלֹמֹֽה",
+        "speaker": "יוֹנָתָן",
+        "listener": "אֲדֹנִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "And Jonathan answered and said to Adonijah, Verily our lord king David hath made Solomon king."
+        },
+        "he": {
+          "43": "וַיַּעַן יוֹנָתָן וַיֹּאמֶר לַאֲדֹנִיָּהוּ אֲבָל אֲדֹנֵינוּ הַמֶּֽלֶךְ־דָּוִד הִמְלִיךְ אֶת־שְׁלֹמֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 43,
+        "end": 43
+      }
+    },
+    {
+      "id": "1-kings-01-47-47",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 47,
+        "quote_verse_end": 47,
+        "speaker_mention_verse": 47,
+        "listener_mention_verse": 47
+      },
+      "en": {
+        "quote": "And moreover the king's servants came to bless our lord king David, saying, God make the name of Solomon better than thy name, and make his throne greater than thy throne. And the king bowed himself upon the bed.",
+        "riddle": "God make the name of Solomon better than thy name, and make his throne greater than thy throne",
+        "speaker": "king's servants",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְגַם־בָּאוּ עַבְדֵי הַמֶּלֶךְ לְבָרֵךְ אֶת־אֲדֹנֵינוּ הַמֶּלֶךְ דָּוִד לֵאמֹר יֵיטֵב אֱלֹהִים אֶת־שֵׁם שְׁלֹמֹה מִשְּׁמֶךָ וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסְאֶךָ וַיִּשְׁתַּחוּ הַמֶּלֶךְ עַל־הַמִּשְׁכָּֽב",
+        "riddle": "עַבְדֵי הַמֶּלֶךְ לְבָרֵךְ אֶת־אֲדֹנֵינוּ הַמֶּלֶךְ דָּוִד לֵאמֹר יֵיטֵב אֱלֹהִים אֶת־שֵׁם שְׁלֹמֹה מִשְּׁמֶךָ וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסְאֶךָ וַיִּשְׁתַּחו",
+        "speaker": "עַבְדֵי הַמֶּלֶךְ",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "47": "And moreover the king's servants came to bless our lord king David, saying, God make the name of Solomon better than thy name, and make his throne greater than thy throne. And the king bowed himself upon the bed."
+        },
+        "he": {
+          "47": "וְגַם־בָּאוּ עַבְדֵי הַמֶּלֶךְ לְבָרֵךְ אֶת־אֲדֹנֵינוּ הַמֶּלֶךְ דָּוִד לֵאמֹר יֵיטֵב אֱלֹהִים אֶת־שֵׁם שְׁלֹמֹה מִשְּׁמֶךָ וִֽיגַדֵּל אֶת־כִּסְאוֹ מִכִּסְאֶךָ וַיִּשְׁתַּחוּ הַמֶּלֶךְ עַל־הַמִּשְׁכָּֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing/direct speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 47,
+        "end": 47
+      }
+    },
+    {
+      "id": "1-kings-01-51-51",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 51,
+        "quote_verse_end": 51,
+        "listener_mention_verse": 51
+      },
+      "en": {
+        "quote": "And it was told Solomon, saying, Behold, Adonijah feareth king Solomon: for, lo, he hath caught hold on the horns of the altar, saying, Let king Solomon swear unto me to day that he will not slay his servant with the sword.",
+        "riddle": "Let king Solomon swear unto me to day that he will not slay his servant with the sword",
+        "speaker": "Adonijah",
+        "listener": "Solomon",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֻּגַּד לִשְׁלֹמֹה לֵאמֹר הִנֵּה אֲדֹנִיָּהוּ יָרֵא אֶת־הַמֶּלֶךְ שְׁלֹמֹה וְהִנֵּה אָחַז בְּקַרְנוֹת הַמִּזְבֵּחַ לֵאמֹר יִשָּֽׁבַֽע־לִי כַיּוֹם הַמֶּלֶךְ שְׁלֹמֹה אִם־יָמִית אֶת־עַבְדּוֹ בֶּחָֽרֶב",
+        "riddle": "יִשָּֽׁבַֽע־לִי כַיּוֹם הַמֶּלֶךְ שְׁלֹמֹה אִם־יָמִית אֶת־עַבְדּוֹ בֶּחָֽרֶב",
+        "speaker": "אֲדֹנִיָּהוּ",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "51": "And it was told Solomon, saying, Behold, Adonijah feareth king Solomon: for, lo, he hath caught hold on the horns of the altar, saying, Let king Solomon swear unto me to day that he will not slay his servant with the sword."
+        },
+        "he": {
+          "51": "וַיֻּגַּד לִשְׁלֹמֹה לֵאמֹר הִנֵּה אֲדֹנִיָּהוּ יָרֵא אֶת־הַמֶּלֶךְ שְׁלֹמֹה וְהִנֵּה אָחַז בְּקַרְנוֹת הַמִּזְבֵּחַ לֵאמֹר יִשָּֽׁבַֽע־לִי כַיּוֹם הַמֶּלֶךְ שְׁלֹמֹה אִם־יָמִית אֶת־עַבְדּוֹ בֶּחָֽרֶב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 51,
+        "end": 51
+      }
+    },
+    {
+      "id": "1-kings-01-52-52",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 1,
+        "quote_verse_start": 52,
+        "quote_verse_end": 52,
+        "speaker_mention_verse": 52,
+        "listener_mention_verse": 52
+      },
+      "en": {
+        "quote": "And Solomon said, If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die.",
+        "riddle": "If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die",
+        "speaker": "Solomon",
+        "listener": "Adonijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁלֹמֹה אִם יִהְיֶה לְבֶן־חַיִל לֹֽא־יִפֹּל מִשַּׂעֲרָתוֹ אָרְצָה וְאִם־רָעָה תִמָּצֵא־בוֹ וָמֵֽת",
+        "riddle": "וַיֹּאמֶר שְׁלֹמֹה אִם יִהְיֶה לְבֶן־חַיִל לֹֽא־יִפֹּל מִשַּׂעֲרָתוֹ אָרְצָה וְאִם־רָעָה תִמָּצֵא־בוֹ וָמֵֽת",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "אַדְנִיָּה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "52": "And Solomon said, If he will shew himself a worthy man, there shall not an hair of him fall to the earth: but if wickedness shall be found in him, he shall die."
+        },
+        "he": {
+          "52": "וַיֹּאמֶר שְׁלֹמֹה אִם יִהְיֶה לְבֶן־חַיִל לֹֽא־יִפֹּל מִשַּׂעֲרָתוֹ אָרְצָה וְאִם־רָעָה תִמָּצֵא־בוֹ וָמֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional declaration",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 52,
+        "end": 52
       }
     }
   ],
   "stats": {
-    "window_count": 43,
+    "window_count": 9,
     "prefiltered_count": 0,
-    "llm_window_count": 43,
-    "kept_count": 2,
-    "issue_count": 41
+    "llm_window_count": 9,
+    "projection_llm_count": 25,
+    "llm_call_count": 34,
+    "spec_count": 25,
+    "kept_count": 17,
+    "issue_count": 10
   }
 }

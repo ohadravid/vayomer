@@ -45,6 +45,8 @@ JSON_REPAIR_PROMPT_VARIANTS: tuple[tuple[str, str], ...] = (
     ),
 )
 JSON_STRING_CLOSERS = {",", "}", "]", ":"}
+JSON_OPEN_TO_CLOSE = {"{": "}", "[": "]"}
+JSON_CLOSE_TO_OPEN = {"}": "{", "]": "["}
 
 
 def _candidate_json_payloads(content: str) -> list[str]:
@@ -121,6 +123,50 @@ def _sanitize_json_string_issues(candidate: str) -> str:
     return "".join(sanitized)
 
 
+def _balance_json_structure(candidate: str) -> str:
+    balanced: list[str] = []
+    stack: list[str] = []
+    in_string = False
+    escaped = False
+
+    for char in candidate:
+        balanced.append(char)
+        if in_string:
+            if escaped:
+                escaped = False
+                continue
+            if char == "\\":
+                escaped = True
+                continue
+            if char == '"':
+                in_string = False
+            continue
+
+        if char == '"':
+            in_string = True
+            continue
+        if char in JSON_OPEN_TO_CLOSE:
+            stack.append(char)
+            continue
+        if char in JSON_CLOSE_TO_OPEN:
+            if stack and stack[-1] == JSON_CLOSE_TO_OPEN[char]:
+                stack.pop()
+            continue
+
+    while balanced and balanced[-1].isspace():
+        balanced.pop()
+    while balanced and balanced[-1] == ",":
+        balanced.pop()
+        while balanced and balanced[-1].isspace():
+            balanced.pop()
+
+    if stack != ["{"]:
+        return candidate
+
+    balanced.append("}")
+    return "".join(balanced)
+
+
 def _parse_json_object(content: str) -> dict:
     decoder = json.JSONDecoder()
     last_error: Exception | None = None
@@ -130,6 +176,9 @@ def _parse_json_object(content: str) -> dict:
         sanitized = _sanitize_json_string_issues(candidate)
         if sanitized != candidate:
             parse_variants.append(sanitized)
+        balanced = _balance_json_structure(sanitized)
+        if balanced not in parse_variants:
+            parse_variants.append(balanced)
 
         for parse_candidate in parse_variants:
             try:
@@ -196,6 +245,14 @@ class OllamaJsonClient:
         elif prompt_name == "candidate-chapter-extract":
             options["num_predict"] = 1024
         elif prompt_name in {"candidate-hebrew-projection", "candidate-hebrew-projection-retry"}:
+            options["num_predict"] = 256
+        elif prompt_name in {
+            "en-role-validation",
+            "he-role-validation",
+            "en-role-validation-retry",
+            "he-role-validation-retry",
+            "he-role-repair",
+        }:
             options["num_predict"] = 256
         if self.request_options:
             options.update(self.request_options)

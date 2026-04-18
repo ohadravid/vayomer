@@ -6,53 +6,235 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-06-22-22",
+      "id": "genesis-06-03-03",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 6,
-        "quote_verse_start": 22,
-        "quote_verse_end": 22
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
       },
       "en": {
-        "quote": "Thus did Noah; according to all that God commanded him, so did he.",
-        "riddle": "according to all that God commanded him, so did he.",
-        "speaker": "Narrator",
-        "listener": "Noah",
+        "quote": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+        "riddle": "My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years.",
+        "speaker": "the LORD",
+        "listener": "man",
         "book": "Genesis"
       },
       "he": {
-        "quote": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
-        "riddle": "כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה",
-        "speaker": "Narrator",
-        "listener": "Noah",
+        "quote": "וַיֹּאמֶר יְהוָה לֹֽא־יָדוֹן רוּחִי בָֽאָדָם לְעֹלָם בְּשַׁגַּם הוּא בָשָׂר וְהָיוּ יָמָיו מֵאָה וְעֶשְׂרִים שָׁנָֽה",
+        "riddle": "וַיֹּאמֶר יְהוָה לֹֽא־יָדוֹן רוּחִי בָֽאָדָם לְעֹלָם בְּשַׁגַּם הוּא בָשָׂר וְהָיוּ יָמָיו מֵאָה וְעֶשְׂרִים שָׁנָֽה",
+        "speaker": "יְהוָה",
+        "listener": "אָדָם",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
-          "22": "Thus did Noah; according to all that God commanded him, so did he."
+          "3": "And the LORD said, My spirit shall not always strive with man, for that he also is flesh: yet his days shall be an hundred and twenty years."
         },
         "he": {
-          "22": "וַיַּעַשׂ נֹחַ כְּכֹל אֲשֶׁר צִוָּה אֹתוֹ אֱלֹהִים כֵּן עָשָֽׂה׃"
+          "3": "וַיֹּאמֶר יְהוָה לֹֽא־יָדוֹן רוּחִי בָֽאָדָם לְעֹלָם בְּשַׁגַּם הוּא בָשָׂר וְהָיוּ יָמָיו מֵאָה וְעֶשְׂרִים שָׁנָֽה׃"
         }
       },
       "meta": {
-        "reason": "Vivid declaration of obedience",
-        "confidence": 0.9
+        "reason": "divine declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 6,
-        "start": 22,
-        "end": 22
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-06-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.",
+        "riddle": "I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them.",
+        "speaker": "the LORD",
+        "listener": "man",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶמְחֶה אֶת־הָאָדָם אֲשֶׁר־בָּרָאתִי מֵעַל פְּנֵי הָֽאֲדָמָה מֵֽאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם כִּי נִחַמְתִּי כִּי עֲשִׂיתִֽם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶמְחֶה אֶת־הָאָדָם אֲשֶׁר־בָּרָאתִי מֵעַל פְּנֵי הָֽאֲדָמָה מֵֽאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם כִּי נִחַמְתִּי כִּי עֲשִׂיתִֽם",
+        "speaker": "יְהוָה",
+        "listener": "הָאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD said, I will destroy man whom I have created from the face of the earth; both man, and beast, and the creeping thing, and the fowls of the air; for it repenteth me that I have made them."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְהוָה אֶמְחֶה אֶת־הָאָדָם אֲשֶׁר־בָּרָאתִי מֵעַל פְּנֵי הָֽאֲדָמָה מֵֽאָדָם עַד־בְּהֵמָה עַד־רֶמֶשׂ וְעַד־עוֹף הַשָּׁמָיִם כִּי נִחַמְתִּי כִּי עֲשִׂיתִֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-06-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+        "riddle": "The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ",
+        "riddle": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "genesis-06-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+        "riddle": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר",
+        "riddle": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+          "14": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ׃",
+          "14": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-06-20-21",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 20,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive. And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.",
+        "riddle": "two of every sort shall come unto thee, to keep them alive. And take thou unto thee of all food that is eaten, and thou shalt gather it to thee",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "מֵהָעוֹף לְמִינֵהוּ וּמִן־הַבְּהֵמָה לְמִינָהּ מִכֹּל רֶמֶשׂ הָֽאֲדָמָה לְמִינֵהוּ שְׁנַיִם מִכֹּל יָבֹאוּ אֵלֶיךָ לְהַֽחֲיֽוֹת וְאַתָּה קַח־לְךָ מִכָּל־מַֽאֲכָל אֲשֶׁר יֵֽאָכֵל וְאָסַפְתָּ אֵלֶיךָ וְהָיָה לְךָ וְלָהֶם לְאָכְלָֽה",
+        "riddle": "מֵהָעוֹף לְמִינֵהוּ וּמִן־הַבְּהֵמָה לְמִינָהּ מִכֹּל רֶמֶשׂ הָֽאֲדָמָה לְמִינֵהוּ שְׁנַיִם מִכֹּל יָבֹאוּ אֵלֶיךָ לְהַֽחֲיֽוֹת וְאַתָּה קַח־לְךָ מִכָּל־מַֽאֲכָל אֲשֶׁר יֵֽאָכֵל וְאָסַפְתָּ אֵלֶיךָ וְהָיָה לְךָ וְלָהֶם לְאָכְלָֽה",
+        "speaker": "אלוהים",
+        "listener": "נח",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.",
+          "21": "And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them."
+        },
+        "he": {
+          "20": "מֵהָעוֹף לְמִינֵהוּ וּמִן־הַבְּהֵמָה לְמִינָהּ מִכֹּל רֶמֶשׂ הָֽאֲדָמָה לְמִינֵהוּ שְׁנַיִם מִכֹּל יָבֹאוּ אֵלֶיךָ לְהַֽחֲיֽוֹת׃",
+          "21": "וְאַתָּה קַח־לְךָ מִכָּל־מַֽאֲכָל אֲשֶׁר יֵֽאָכֵל וְאָסַפְתָּ אֵלֶיךָ וְהָיָה לְךָ וְלָהֶם לְאָכְלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 20,
+        "end": 21
       }
     }
   ],
   "stats": {
-    "window_count": 7,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 1,
-    "issue_count": 6
+    "llm_window_count": 4,
+    "projection_llm_count": 5,
+    "llm_call_count": 9,
+    "spec_count": 5,
+    "kept_count": 5,
+    "issue_count": 0
   }
 }

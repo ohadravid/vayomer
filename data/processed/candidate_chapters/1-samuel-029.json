@@ -4,12 +4,314 @@
   "book_he": "שמואל א",
   "chapter": 29,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-samuel-29-03-03-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+        "riddle": "What do these Hebrews here?",
+        "speaker": "Philistine princes",
+        "listener": "Achish",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה",
+        "riddle": "מָה הָעִבְרִים הָאֵלֶּה",
+        "speaker": "שָׂרֵי פְלִשְׁתִּים",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?"
+        },
+        "he": {
+          "3": "וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד ׀ שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-samuel-29-03-03-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+        "riddle": "Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+        "speaker": "Achish",
+        "listener": "Philistine princes",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה",
+        "riddle": "הֲלֽוֹא־זֶה דָוִד עֶבֶד שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה",
+        "speaker": "אָכִישׁ",
+        "listener": "שָׂרֵי פְלִשְׁתִּים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?"
+        },
+        "he": {
+          "3": "וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד ׀ שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-samuel-29-05-05",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?",
+        "riddle": "Saul slew his thousands, and David his ten thousands?",
+        "speaker": "Israelite women",
+        "listener": "Israelite women",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הֲלוֹא־זֶה דָוִד אֲשֶׁר יַעֲנוּ־לוֹ בַּמְּחֹלוֹת לֵאמֹר הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "riddle": "הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "speaker": "נָשִׁים",
+        "listener": "נָשִׁים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?"
+        },
+        "he": {
+          "5": "הֲלוֹא־זֶה דָוִד אֲשֶׁר יַעֲנוּ־לוֹ בַּמְּחֹלוֹת לֵאמֹר הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid song lyric",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-29-06-06",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not.",
+        "riddle": "Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not.",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אָכִישׁ אֶל־דָּוִד וַיֹּאמֶר אֵלָיו חַי־יְהוָה כִּי־יָשָׁר אַתָּה וְטוֹב בְּעֵינַי צֵאתְךָ וּבֹאֲךָ אִתִּי בַּֽמַּחֲנֶה כִּי לֹֽא־מָצָאתִֽי בְךָ רָעָה מִיּוֹם בֹּאֲךָ אֵלַי עַד־הַיּוֹם הַזֶּה וּבְעֵינֵי הַסְּרָנִים לֹֽא־טוֹב אָֽתָּה",
+        "riddle": "וַיִּקְרָא אָכִישׁ אֶל־דָּוִד וַיֹּאמֶר אֵלָיו חַי־יְהוָה כִּי־יָשָׁר אַתָּה וְטוֹב בְּעֵינַי צֵאתְךָ וּבֹאֲךָ אִתִּי בַּֽמַּחֲנֶה כִּי לֹֽא־מָצָאתִֽי בְךָ רָעָה מִיּוֹם בֹּאֲךָ אֵלַי עַד־הַיּוֹם הַזֶּה וּבְעֵינֵי הַסְּרָנִים לֹֽא־טוֹב אָֽתָּה",
+        "speaker": "אָכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not."
+        },
+        "he": {
+          "6": "וַיִּקְרָא אָכִישׁ אֶל־דָּוִד וַיֹּאמֶר אֵלָיו חַי־יְהוָה כִּי־יָשָׁר אַתָּה וְטוֹב בְּעֵינַי צֵאתְךָ וּבֹאֲךָ אִתִּי בַּֽמַּחֲנֶה כִּי לֹֽא־מָצָאתִֽי בְךָ רָעָה מִיּוֹם בֹּאֲךָ אֵלַי עַד־הַיּוֹם הַזֶּה וּבְעֵינֵי הַסְּרָנִים לֹֽא־טוֹב אָֽתָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-samuel-29-07-07",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+        "riddle": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים",
+        "riddle": "וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים",
+        "speaker": "אֲכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines."
+        },
+        "he": {
+          "7": "וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-samuel-29-08-08",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+        "riddle": "But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+        "speaker": "David",
+        "listener": "Achish",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ כִּי מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶךְ",
+        "riddle": "מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶך",
+        "speaker": "דָּוִד",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ כִּי מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-29-09-09",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle.",
+        "riddle": "I know that thou art good in my sight, as an angel of God",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה",
+        "riddle": "יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ",
+        "speaker": "אָכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle."
+        },
+        "he": {
+          "9": "וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
   "stats": {
-    "window_count": 8,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 0,
-    "issue_count": 8
+    "llm_window_count": 2,
+    "projection_llm_count": 8,
+    "llm_call_count": 10,
+    "spec_count": 8,
+    "kept_count": 7,
+    "issue_count": 1
   }
 }

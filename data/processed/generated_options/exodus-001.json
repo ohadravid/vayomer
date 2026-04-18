@@ -6,98 +6,88 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-01-09-09",
+      "id": "exodus-01-22-22",
       "source": {
         "method": "llm",
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 1,
-        "quote_verse_start": 3,
-        "quote_verse_end": 9
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
       },
       "en": {
-        "quote": "Issachar, Zebulun, and Benjamin, Dan, and Naphtali, Gad, and Asher. And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already. And Joseph died, and all his brethren, and all that generation. And the children of Israel were fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty; and the land was filled with them. Now there arose up a new king over Egypt, which knew not Joseph. And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:",
-        "riddle": "the people of the children of Israel are more and mightier than we:",
-        "speaker": "New king of Egypt",
-        "listener": "Egyptians",
+        "quote": "And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive.",
+        "riddle": "Every son that is born ye shall cast into the river, and every daughter ye shall save alive.",
+        "speaker": "Pharaoh",
+        "listener": "his people",
         "book": "Exodus",
         "options": {
           "speaker": [
-            "Moses",
             "Abimelech",
+            "Balaam",
             "Joseph"
           ],
           "listener": [
-            "Philistines",
-            "men of Sodom",
-            "Hivites"
+            "children",
+            "Taskmasters",
+            "Israel"
           ]
         },
-        "bonus": "souls",
+        "bonus": "charged",
         "bonus_hint": {
-          "quote": "These be the sons of Leah, which she bare unto Jacob in Padan-aram, with his daughter Dinah: all the souls of his sons and his daughters were thirty and three.",
+          "quote": "And Abimelech charged all his people, saying, He that toucheth this man or his wife shall surely be put to death.",
           "source": {
             "book": "Genesis",
-            "chapter": 46,
-            "start": 15,
-            "end": 15
+            "chapter": 26,
+            "start": 11,
+            "end": 11
           }
         }
       },
       "he": {
-        "quote": "יִשָּׂשכָר זְבוּלֻן וּבְנְיָמִֽן דָּן וְנַפְתָּלִי גָּד וְאָשֵֽׁר וַֽיְהִי כָּל־נֶפֶשׁ יֹצְאֵי יֶֽרֶךְ־יַעֲקֹב שִׁבְעִים נָפֶשׁ וְיוֹסֵף הָיָה בְמִצְרָֽיִם וַיָּמָת יוֹסֵף וְכָל־אֶחָיו וְכֹל הַדּוֹר הַהֽוּא וּבְנֵי יִשְׂרָאֵל פָּרוּ וַֽיִּשְׁרְצוּ וַיִּרְבּוּ וַיַּֽעַצְמוּ בִּמְאֹד מְאֹד וַתִּמָּלֵא הָאָרֶץ אֹתָֽם וַיָּקָם מֶֽלֶךְ־חָדָשׁ עַל־מִצְרָיִם אֲשֶׁר לֹֽא־יָדַע אֶת־יוֹסֵֽף וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
-        "riddle": "הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ",
-        "speaker": "מֶֽלֶךְ־חָדָשׁ",
-        "listener": "מִצְרָיִם",
+        "quote": "וַיְצַו פַּרְעֹה לְכָל־עַמּוֹ לֵאמֹר כָּל־הַבֵּן הַיִּלּוֹד הַיְאֹרָה תַּשְׁלִיכֻהוּ וְכָל־הַבַּת תְּחַיּֽוּן",
+        "riddle": "כָּל־הַבֵּן הַיִּלּוֹד הַיְאֹרָה תַּשְׁלִיכֻהוּ וְכָל־הַבַּת תְּחַיּֽוּן",
+        "speaker": "פַּרְעֹה",
+        "listener": "עַמּוֹ",
         "book": "שמות",
         "options": {
           "speaker": [
-            "מֹשֶׁה",
             "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
             "יוֹסֵף"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "אַנְשֵׁי סְדֹם",
-            "החיוים"
+            "בְּנֵיכֶם",
+            "הַנֹּגְשִׂים",
+            "יִשְׂרָאֵל"
           ]
         },
-        "bonus": "נֶפֶשׁ",
+        "bonus": "וַיְצַו",
         "bonus_hint": {
-          "quote": "אֵלֶּה בְּנֵי לֵאָה אֲשֶׁר יָֽלְדָה לְיַעֲקֹב בְּפַדַּן אֲרָם וְאֵת דִּינָה בִתּוֹ כָּל־נֶפֶשׁ בָּנָיו וּבְנוֹתָיו שְׁלֹשִׁים וְשָׁלֹֽשׁ",
+          "quote": "וַיְצַו אֲבִימֶלֶךְ אֶת־כָּל־הָעָם לֵאמֹר הַנֹּגֵעַ בָּאִישׁ הַזֶּה וּבְאִשְׁתּוֹ מוֹת יוּמָֽת",
           "source": {
             "book": "בראשית",
-            "chapter": 46,
-            "start": 15,
-            "end": 15
+            "chapter": 26,
+            "start": 11,
+            "end": 11
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "3": "Issachar, Zebulun, and Benjamin,",
-          "4": "Dan, and Naphtali, Gad, and Asher.",
-          "5": "And all the souls that came out of the loins of Jacob were seventy souls: for Joseph was in Egypt already.",
-          "6": "And Joseph died, and all his brethren, and all that generation.",
-          "7": "And the children of Israel were fruitful, and increased abundantly, and multiplied, and waxed exceeding mighty; and the land was filled with them.",
-          "8": "Now there arose up a new king over Egypt, which knew not Joseph.",
-          "9": "And he said unto his people, Behold, the people of the children of Israel are more and mightier than we:"
+          "22": "And Pharaoh charged all his people, saying, Every son that is born ye shall cast into the river, and every daughter ye shall save alive."
         },
         "he": {
-          "3": "יִשָּׂשכָר זְבוּלֻן וּבְנְיָמִֽן׃",
-          "4": "דָּן וְנַפְתָּלִי גָּד וְאָשֵֽׁר׃",
-          "5": "וַֽיְהִי כָּל־נֶפֶשׁ יֹצְאֵי יֶֽרֶךְ־יַעֲקֹב שִׁבְעִים נָפֶשׁ וְיוֹסֵף הָיָה בְמִצְרָֽיִם׃",
-          "6": "וַיָּמָת יוֹסֵף וְכָל־אֶחָיו וְכֹל הַדּוֹר הַהֽוּא׃",
-          "7": "וּבְנֵי יִשְׂרָאֵל פָּרוּ וַֽיִּשְׁרְצוּ וַיִּרְבּוּ וַיַּֽעַצְמוּ בִּמְאֹד מְאֹד וַתִּמָּלֵא הָאָרֶץ אֹתָֽם׃",
-          "8": "וַיָּקָם מֶֽלֶךְ־חָדָשׁ עַל־מִצְרָיִם אֲשֶׁר לֹֽא־יָדַע אֶת־יוֹסֵֽף׃",
-          "9": "וַיֹּאמֶר אֶל־עַמּוֹ הִנֵּה עַם בְּנֵי יִשְׂרָאֵל רַב וְעָצוּם מִמֶּֽנּוּ׃"
+          "22": "וַיְצַו פַּרְעֹה לְכָל־עַמּוֹ לֵאמֹר כָּל־הַבֵּן הַיִּלּוֹד הַיְאֹרָה תַּשְׁלִיכֻהוּ וְכָל־הַבַּת תְּחַיּֽוּן׃"
         }
       },
       "ref": {
         "chapter": 1,
-        "start": 3,
-        "end": 9
+        "start": 22,
+        "end": 22
       },
       "meta": {
         "mode": "llm",

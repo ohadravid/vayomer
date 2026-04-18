@@ -1,0 +1,571 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 18,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-18-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 9,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15
+      },
+      "en": {
+        "quote": "And he said, What have I sinned, that thou wouldest deliver thy servant into the hand of Ahab, to slay me? As the LORD thy God liveth, there is no nation or kingdom, whither my lord hath not sent to seek thee: and when they said, He is not there; he took an oath of the kingdom and nation, that they found thee not. And now thou sayest, Go, tell thy lord, Behold, Elijah is here. And it shall come to pass, as soon as I am gone from thee, that the Spirit of the LORD shall carry thee whither I know not; and so when I come and tell Ahab, and he cannot find thee, he shall slay me: but I thy servant fear the LORD from my youth. Was it not told my lord what I did when Jezebel slew the prophets of the LORD, how I hid an hundred men of the LORD's prophets by fifty in a cave, and fed them with bread and water? And now thou sayest, Go, tell thy lord, Behold, Elijah is here: and he shall slay me. And Elijah said, As the LORD of hosts liveth, before whom I stand, I will surely shew myself unto him to day.",
+        "riddle": "As the LORD of hosts liveth, before whom I stand, I will surely shew myself unto him to day.",
+        "speaker": "Elijah",
+        "listener": "Ahaziah",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "slay",
+        "bonus_hint": {
+          "quote": "Thus saith the LORD of hosts, the God of Israel, of Ahab the son of Kolaiah, and of Zedekiah the son of Maaseiah, which prophesy a lie unto you in my name; Behold, I will deliver them into the hand of Nebuchadrezzar king of Babylon; and he shall slay them before your eyes;",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 29,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶה חָטָאתִי כִּֽי־אַתָּה נֹתֵן אֶֽת־עַבְדְּךָ בְּיַד־אַחְאָב לַהֲמִיתֵֽנִי חַי יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־גּוֹי וּמַמְלָכָה אֲשֶׁר לֹֽא־שָׁלַח אֲדֹנִי שָׁם לְבַקֶּשְׁךָ וְאָמְרוּ אָיִן וְהִשְׁבִּיעַ אֶת־הַמַּמְלָכָה וְאֶת־הַגּוֹי כִּי לֹא יִמְצָאֶֽכָּה וְעַתָּה אַתָּה אֹמֵר לֵךְ אֱמֹר לַאדֹנֶיךָ הִנֵּה אֵלִיָּֽהוּ וְהָיָה אֲנִי אֵלֵךְ מֵאִתָּךְ וְרוּחַ יְהוָה יִֽשָּׂאֲךָ עַל אֲשֶׁר לֹֽא־אֵדָע וּבָאתִי לְהַגִּיד לְאַחְאָב וְלֹא יִֽמְצָאֲךָ וַהֲרָגָנִי וְעַבְדְּךָ יָרֵא אֶת־יְהוָה מִנְּעֻרָֽי הֲלֹֽא־הֻגַּד לַֽאדֹנִי אֵת אֲשֶׁר־עָשִׂיתִי בַּהֲרֹג אִיזֶבֶל אֵת נְבִיאֵי יְהוָה וָאַחְבִּא מִנְּבִיאֵי יְהוָה מֵאָה אִישׁ חֲמִשִּׁים חֲמִשִּׁים אִישׁ בַּמְּעָרָה וָאֲכַלְכְּלֵם לֶחֶם וָמָֽיִם וְעַתָּה אַתָּה אֹמֵר לֵךְ אֱמֹר לַֽאדֹנֶיךָ הִנֵּה אֵלִיָּהוּ וַהֲרָגָֽנִי וַיֹּאמֶר אֵֽלִיָּהוּ חַי יְהוָה צְבָאוֹת אֲשֶׁר עָמַדְתִּי לְפָנָיו כִּי הַיּוֹם אֵרָאֶה אֵלָֽיו",
+        "riddle": "חַי יְהוָה צְבָאוֹת אֲשֶׁר עָמַדְתִּי לְפָנָיו כִּי הַיּוֹם אֵרָאֶה אֵלָֽיו",
+        "speaker": "אֵלִיָּֽהוּ",
+        "listener": "יְהוָה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "נֹתֵן",
+        "bonus_hint": {
+          "quote": "כֹּֽה־אָמַר יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל אֶל־אַחְאָב בֶּן־קֽוֹלָיָה וְאֶל־צִדְקִיָּהוּ בֶן־מַֽעֲשֵׂיָה הַֽנִבְּאִים לָכֶם בִּשְׁמִי שָׁקֶר הִנְנִי נֹתֵן אֹתָם בְּיַד נְבֽוּכַדְרֶאצַּר מֶֽלֶךְ־בָּבֶל וְהִכָּם לְעֵינֵיכֶֽם",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 29,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he said, What have I sinned, that thou wouldest deliver thy servant into the hand of Ahab, to slay me?",
+          "10": "As the LORD thy God liveth, there is no nation or kingdom, whither my lord hath not sent to seek thee: and when they said, He is not there; he took an oath of the kingdom and nation, that they found thee not.",
+          "11": "And now thou sayest, Go, tell thy lord, Behold, Elijah is here.",
+          "12": "And it shall come to pass, as soon as I am gone from thee, that the Spirit of the LORD shall carry thee whither I know not; and so when I come and tell Ahab, and he cannot find thee, he shall slay me: but I thy servant fear the LORD from my youth.",
+          "13": "Was it not told my lord what I did when Jezebel slew the prophets of the LORD, how I hid an hundred men of the LORD's prophets by fifty in a cave, and fed them with bread and water?",
+          "14": "And now thou sayest, Go, tell thy lord, Behold, Elijah is here: and he shall slay me.",
+          "15": "And Elijah said, As the LORD of hosts liveth, before whom I stand, I will surely shew myself unto him to day."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר מֶה חָטָאתִי כִּֽי־אַתָּה נֹתֵן אֶֽת־עַבְדְּךָ בְּיַד־אַחְאָב לַהֲמִיתֵֽנִי׃",
+          "10": "חַי ׀ יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־גּוֹי וּמַמְלָכָה אֲשֶׁר לֹֽא־שָׁלַח אֲדֹנִי שָׁם לְבַקֶּשְׁךָ וְאָמְרוּ אָיִן וְהִשְׁבִּיעַ אֶת־הַמַּמְלָכָה וְאֶת־הַגּוֹי כִּי לֹא יִמְצָאֶֽכָּה׃",
+          "11": "וְעַתָּה אַתָּה אֹמֵר לֵךְ אֱמֹר לַאדֹנֶיךָ הִנֵּה אֵלִיָּֽהוּ׃",
+          "12": "וְהָיָה אֲנִי ׀ אֵלֵךְ מֵאִתָּךְ וְרוּחַ יְהוָה ׀ יִֽשָּׂאֲךָ עַל אֲשֶׁר לֹֽא־אֵדָע וּבָאתִי לְהַגִּיד לְאַחְאָב וְלֹא יִֽמְצָאֲךָ וַהֲרָגָנִי וְעַבְדְּךָ יָרֵא אֶת־יְהוָה מִנְּעֻרָֽי׃",
+          "13": "הֲלֹֽא־הֻגַּד לַֽאדֹנִי אֵת אֲשֶׁר־עָשִׂיתִי בַּהֲרֹג אִיזֶבֶל אֵת נְבִיאֵי יְהוָה וָאַחְבִּא מִנְּבִיאֵי יְהוָה מֵאָה אִישׁ חֲמִשִּׁים חֲמִשִּׁים אִישׁ בַּמְּעָרָה וָאֲכַלְכְּלֵם לֶחֶם וָמָֽיִם׃",
+          "14": "וְעַתָּה אַתָּה אֹמֵר לֵךְ אֱמֹר לַֽאדֹנֶיךָ הִנֵּה אֵלִיָּהוּ וַהֲרָגָֽנִי׃",
+          "15": "וַיֹּאמֶר אֵֽלִיָּהוּ חַי יְהוָה צְבָאוֹת אֲשֶׁר עָמַדְתִּי לְפָנָיו כִּי הַיּוֹם אֵרָאֶה אֵלָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 9,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 22,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Then said Elijah unto the people, I, even I only, remain a prophet of the LORD; but Baal's prophets are four hundred and fifty men. Let them therefore give us two bullocks; and let them choose one bullock for themselves, and cut it in pieces, and lay it on wood, and put no fire under: and I will dress the other bullock, and lay it on wood, and put no fire under:",
+        "riddle": "I, even I only, remain a prophet of the LORD; but Baal's prophets are four hundred and fifty men.",
+        "speaker": "Elijah",
+        "listener": "people",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bullocks",
+        "bonus_hint": {
+          "quote": "And in the beginnings of your months ye shall offer a burnt offering unto the LORD; two young bullocks, and one ram, seven lambs of the first year without spot;",
+          "source": {
+            "book": "Numbers",
+            "chapter": 28,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ אֶל־הָעָם אֲנִי נוֹתַרְתִּי נָבִיא לַיהוָה לְבַדִּי וּנְבִיאֵי הַבַּעַל אַרְבַּע־מֵאוֹת וַחֲמִשִּׁים אִֽישׁ וְיִתְּנוּ־לָנוּ שְׁנַיִם פָּרִים וְיִבְחֲרוּ לָהֶם הַפָּר הָאֶחָד וִֽינַתְּחֻהוּ וְיָשִׂימוּ עַל־הָעֵצִים וְאֵשׁ לֹא יָשִׂימוּ וַאֲנִי אֶעֱשֶׂה אֶת־הַפָּר הָאֶחָד וְנָֽתַתִּי עַל־הָעֵצִים וְאֵשׁ לֹא אָשִֽׂים",
+        "riddle": "אֲנִי נוֹתַרְתִּי נָבִיא לַיהוָה לְבַדִּי וּנְבִיאֵי הַבַּעַל אַרְבַּע־מֵאוֹת וַחֲמִשִּׁים אִֽיש",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "הָעָם",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שְׁנַיִם",
+        "bonus_hint": {
+          "quote": "וּבְרָאשֵׁי חָדְשֵׁיכֶם תַּקְרִיבוּ עֹלָה לַיהוָה פָּרִים בְּנֵֽי־בָקָר שְׁנַיִם וְאַיִל אֶחָד כְּבָשִׂים בְּנֵי־שָׁנָה שִׁבְעָה תְּמִימִֽם",
+          "source": {
+            "book": "במדבר",
+            "chapter": 28,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Then said Elijah unto the people, I, even I only, remain a prophet of the LORD; but Baal's prophets are four hundred and fifty men.",
+          "23": "Let them therefore give us two bullocks; and let them choose one bullock for themselves, and cut it in pieces, and lay it on wood, and put no fire under: and I will dress the other bullock, and lay it on wood, and put no fire under:"
+        },
+        "he": {
+          "22": "וַיֹּאמֶר אֵלִיָּהוּ אֶל־הָעָם אֲנִי נוֹתַרְתִּי נָבִיא לַיהוָה לְבַדִּי וּנְבִיאֵי הַבַּעַל אַרְבַּע־מֵאוֹת וַחֲמִשִּׁים אִֽישׁ׃",
+          "23": "וְיִתְּנוּ־לָנוּ שְׁנַיִם פָּרִים וְיִבְחֲרוּ לָהֶם הַפָּר הָאֶחָד וִֽינַתְּחֻהוּ וְיָשִׂימוּ עַל־הָעֵצִים וְאֵשׁ לֹא יָשִׂימוּ וַאֲנִי אֶעֱשֶׂה ׀ אֶת־הַפָּר הָאֶחָד וְנָֽתַתִּי עַל־הָעֵצִים וְאֵשׁ לֹא אָשִֽׂים׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 22,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 25,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Elijah said unto the prophets of Baal, Choose you one bullock for yourselves, and dress it first; for ye are many; and call on the name of your gods, but put no fire under. And they took the bullock which was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, O Baal, hear us. But there was no voice, nor any that answered. And they leaped upon the altar which was made.",
+        "riddle": "Choose you one bullock for yourselves, and dress it first; for ye are many; and call on the name of your gods, but put no fire under.",
+        "speaker": "Elijah",
+        "listener": "prophets of Baal",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "morning",
+        "bonus_hint": {
+          "quote": "And they received of Moses all the offering, which the children of Israel had brought for the work of the service of the sanctuary, to make it withal. And they brought yet unto him free offerings every morning.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 36,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ לִנְבִיאֵי הַבַּעַל בַּחֲרוּ לָכֶם הַפָּר הָֽאֶחָד וַעֲשׂוּ רִאשֹׁנָה כִּי אַתֶּם הָרַבִּים וְקִרְאוּ בְּשֵׁם אֱלֹהֵיכֶם וְאֵשׁ לֹא תָשִֽׂימוּ וַיִּקְחוּ אֶת־הַפָּר אֲשֶׁר־נָתַן לָהֶם וַֽיַּעֲשׂוּ וַיִּקְרְאוּ בְשֵׁם־הַבַּעַל מֵהַבֹּקֶר וְעַד־הַצָּהֳרַיִם לֵאמֹר הַבַּעַל עֲנֵנוּ וְאֵין קוֹל וְאֵין עֹנֶה וַֽיְפַסְּחוּ עַל־הַמִּזְבֵּחַ אֲשֶׁר עָשָֽׂה",
+        "riddle": "בַּחֲרוּ לָכֶם הַפָּר הָֽאֶחָד וַעֲשׂוּ רִאשֹׁנָה כִּי אַתֶּם הָרַבִּים וְקִרְאוּ בְּשֵׁם אֱלֹהֵיכֶם וְאֵשׁ לֹא תָשִֽׂימו",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "נְבִיאֵי הַבַּעַל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּקְחוּ",
+        "bonus_hint": {
+          "quote": "וַיִּקְחוּ מִלִּפְנֵי מֹשֶׁה אֵת כָּל־הַתְּרוּמָה אֲשֶׁר הֵבִיאוּ בְּנֵי יִשְׂרָאֵל לִמְלֶאכֶת עֲבֹדַת הַקֹּדֶשׁ לַעֲשֹׂת אֹתָהּ וְהֵם הֵבִיאוּ אֵלָיו עוֹד נְדָבָה בַּבֹּקֶר בַּבֹּֽקֶר",
+          "source": {
+            "book": "שמות",
+            "chapter": 36,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Elijah said unto the prophets of Baal, Choose you one bullock for yourselves, and dress it first; for ye are many; and call on the name of your gods, but put no fire under.",
+          "26": "And they took the bullock which was given them, and they dressed it, and called on the name of Baal from morning even until noon, saying, O Baal, hear us. But there was no voice, nor any that answered. And they leaped upon the altar which was made."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר אֵלִיָּהוּ לִנְבִיאֵי הַבַּעַל בַּחֲרוּ לָכֶם הַפָּר הָֽאֶחָד וַעֲשׂוּ רִאשֹׁנָה כִּי אַתֶּם הָרַבִּים וְקִרְאוּ בְּשֵׁם אֱלֹהֵיכֶם וְאֵשׁ לֹא תָשִֽׂימוּ׃",
+          "26": "וַיִּקְחוּ אֶת־הַפָּר אֲשֶׁר־נָתַן לָהֶם וַֽיַּעֲשׂוּ וַיִּקְרְאוּ בְשֵׁם־הַבַּעַל מֵהַבֹּקֶר וְעַד־הַצָּהֳרַיִם לֵאמֹר הַבַּעַל עֲנֵנוּ וְאֵין קוֹל וְאֵין עֹנֶה וַֽיְפַסְּחוּ עַל־הַמִּזְבֵּחַ אֲשֶׁר עָשָֽׂה׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 25,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
+      },
+      "en": {
+        "quote": "And Elijah said unto all the people, Come near unto me. And all the people came near unto him. And he repaired the altar of the LORD that was broken down.",
+        "riddle": "Come near unto me",
+        "speaker": "Elijah",
+        "listener": "people",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "altar",
+        "bonus_hint": {
+          "quote": "Therefore thou and thy sons with thee shall keep your priest's office for every thing of the altar, and within the vail; and ye shall serve: I have given your priest's office unto you as a service of gift: and the stranger that cometh nigh shall be put to death.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 18,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ לְכָל־הָעָם גְּשׁוּ אֵלַי וַיִּגְּשׁוּ כָל־הָעָם אֵלָיו וַיְרַפֵּא אֶת־מִזְבַּח יְהוָה הֶהָרֽוּס",
+        "riddle": "גְּשׁוּ אֵלַי",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "הָעָם",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לְכָל",
+        "bonus_hint": {
+          "quote": "וְאַתָּה וּבָנֶיךָ אִתְּךָ תִּשְׁמְרוּ אֶת־כְּהֻנַּתְכֶם לְכָל־דְּבַר הַמִּזְבֵּחַ וּלְמִבֵּית לַפָּרֹכֶת וַעֲבַדְתֶּם עֲבֹדַת מַתָּנָה אֶתֵּן אֶת־כְּהֻנַּתְכֶם וְהַזָּר הַקָּרֵב יוּמָֽת",
+          "source": {
+            "book": "במדבר",
+            "chapter": 18,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And Elijah said unto all the people, Come near unto me. And all the people came near unto him. And he repaired the altar of the LORD that was broken down."
+        },
+        "he": {
+          "30": "וַיֹּאמֶר אֵלִיָּהוּ לְכָל־הָעָם גְּשׁוּ אֵלַי וַיִּגְּשׁוּ כָל־הָעָם אֵלָיו וַיְרַפֵּא אֶת־מִזְבַּח יְהוָה הֶהָרֽוּס׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 30,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-43-43",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 38,
+        "quote_verse_end": 44,
+        "speaker_mention_verse": 43,
+        "listener_mention_verse": 43
+      },
+      "en": {
+        "quote": "Then the fire of the LORD fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench. And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God. And Elijah said unto them, Take the prophets of Baal; let not one of them escape. And they took them: and Elijah brought them down to the brook Kishon, and slew them there. And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound of abundance of rain. So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees, And said to his servant, Go up now, look toward the sea. And he went up, and looked, and said, There is nothing. And he said, Go again seven times. And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man's hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not.",
+        "riddle": "Go up now, look toward the sea.",
+        "speaker": "Elijah",
+        "listener": "servant",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "water",
+        "bonus_hint": {
+          "quote": "Eat not of it raw, nor sodden at all with water, but roast with fire; his head with his legs, and with the purtenance thereof.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 12,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתִּפֹּל אֵשׁ־יְהוָה וַתֹּאכַל אֶת־הָֽעֹלָה וְאֶת־הָעֵצִים וְאֶת־הָאֲבָנִים וְאֶת־הֶעָפָר וְאֶת־הַמַּיִם אֲשֶׁר־בַּתְּעָלָה לִחֵֽכָה וַיַּרְא כָּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְהוָה הוּא הָאֱלֹהִים יְהוָה הוּא הָאֱלֹהִֽים וַיֹּאמֶר אֵלִיָּהוּ לָהֶם תִּפְשׂוּ אֶת־נְבִיאֵי הַבַּעַל אִישׁ אַל־יִמָּלֵט מֵהֶם וַֽיִּתְפְּשׂוּם וַיּוֹרִדֵם אֵלִיָּהוּ אֶל־נַחַל קִישׁוֹן וַיִּשְׁחָטֵם שָֽׁם וַיֹּאמֶר אֵלִיָּהוּ לְאַחְאָב עֲלֵה אֱכֹל וּשְׁתֵה כִּי־קוֹל הֲמוֹן הַגָּֽשֶׁם וַיַּעֲלֶה אַחְאָב לֶאֱכֹל וְלִשְׁתּוֹת וְאֵלִיָּהוּ עָלָה אֶל־רֹאשׁ הַכַּרְמֶל וַיִּגְהַר אַרְצָה וַיָּשֶׂם פָּנָיו בֵּין בִּרְכָּֽיו וַיֹּאמֶר אֶֽל־נַעֲרוֹ עֲלֵֽה־נָא הַבֵּט דֶּֽרֶךְ־יָם וַיַּעַל וַיַּבֵּט וַיֹּאמֶר אֵין מְאוּמָה וַיֹּאמֶר שֻׁב שֶׁבַע פְּעָמִֽים וַֽיְהִי בַּשְּׁבִעִית וַיֹּאמֶר הִנֵּה־עָב קְטַנָּה כְּכַף־אִישׁ עֹלָה מִיָּם וַיֹּאמֶר עֲלֵה אֱמֹר אֶל־אַחְאָב אֱסֹר וָרֵד וְלֹא יַעַצָרְכָה הַגָּֽשֶׁם",
+        "riddle": "עֲלֵֽה־נָא הַבֵּט דֶּֽרֶךְ־יָם",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "נער",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֵשׁ",
+        "bonus_hint": {
+          "quote": "אַל־תֹּאכְלוּ מִמֶּנּוּ נָא וּבָשֵׁל מְבֻשָּׁל בַּמָּיִם כִּי אִם־צְלִי־אֵשׁ רֹאשׁוֹ עַל־כְּרָעָיו וְעַל־קִרְבּֽוֹ",
+          "source": {
+            "book": "שמות",
+            "chapter": 12,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "Then the fire of the LORD fell, and consumed the burnt sacrifice, and the wood, and the stones, and the dust, and licked up the water that was in the trench.",
+          "39": "And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God.",
+          "40": "And Elijah said unto them, Take the prophets of Baal; let not one of them escape. And they took them: and Elijah brought them down to the brook Kishon, and slew them there.",
+          "41": "And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound of abundance of rain.",
+          "42": "So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees,",
+          "43": "And said to his servant, Go up now, look toward the sea. And he went up, and looked, and said, There is nothing. And he said, Go again seven times.",
+          "44": "And it came to pass at the seventh time, that he said, Behold, there ariseth a little cloud out of the sea, like a man's hand. And he said, Go up, say unto Ahab, Prepare thy chariot, and get thee down, that the rain stop thee not."
+        },
+        "he": {
+          "38": "וַתִּפֹּל אֵשׁ־יְהוָה וַתֹּאכַל אֶת־הָֽעֹלָה וְאֶת־הָעֵצִים וְאֶת־הָאֲבָנִים וְאֶת־הֶעָפָר וְאֶת־הַמַּיִם אֲשֶׁר־בַּתְּעָלָה לִחֵֽכָה׃",
+          "39": "וַיַּרְא כָּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְהוָה הוּא הָאֱלֹהִים יְהוָה הוּא הָאֱלֹהִֽים׃",
+          "40": "וַיֹּאמֶר אֵלִיָּהוּ לָהֶם תִּפְשׂוּ ׀ אֶת־נְבִיאֵי הַבַּעַל אִישׁ אַל־יִמָּלֵט מֵהֶם וַֽיִּתְפְּשׂוּם וַיּוֹרִדֵם אֵלִיָּהוּ אֶל־נַחַל קִישׁוֹן וַיִּשְׁחָטֵם שָֽׁם׃",
+          "41": "וַיֹּאמֶר אֵלִיָּהוּ לְאַחְאָב עֲלֵה אֱכֹל וּשְׁתֵה כִּי־קוֹל הֲמוֹן הַגָּֽשֶׁם׃",
+          "42": "וַיַּעֲלֶה אַחְאָב לֶאֱכֹל וְלִשְׁתּוֹת וְאֵלִיָּהוּ עָלָה אֶל־רֹאשׁ הַכַּרְמֶל וַיִּגְהַר אַרְצָה וַיָּשֶׂם פָּנָיו בֵּין בִּרְכָּֽיו׃",
+          "43": "וַיֹּאמֶר אֶֽל־נַעֲרוֹ עֲלֵֽה־נָא הַבֵּט דֶּֽרֶךְ־יָם וַיַּעַל וַיַּבֵּט וַיֹּאמֶר אֵין מְאוּמָה וַיֹּאמֶר שֻׁב שֶׁבַע פְּעָמִֽים׃",
+          "44": "וַֽיְהִי בַּשְּׁבִעִית וַיֹּאמֶר הִנֵּה־עָב קְטַנָּה כְּכַף־אִישׁ עֹלָה מִיָּם וַיֹּאמֶר עֲלֵה אֱמֹר אֶל־אַחְאָב אֱסֹר וָרֵד וְלֹא יַעַצָרְכָה הַגָּֽשֶׁם׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 38,
+        "end": 44
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-40-40",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 39,
+        "quote_verse_end": 40,
+        "speaker_mention_verse": 40
+      },
+      "en": {
+        "quote": "And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God. And Elijah said unto them, Take the prophets of Baal; let not one of them escape. And they took them: and Elijah brought them down to the brook Kishon, and slew them there.",
+        "riddle": "Take the prophets of Baal; let not one of them escape.",
+        "speaker": "Elijah",
+        "listener": "people",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "faces",
+        "bonus_hint": {
+          "quote": "And there came a fire out from before the LORD, and consumed upon the altar the burnt offering and the fat: which when all the people saw, they shouted, and fell on their faces.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא כָּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְהוָה הוּא הָאֱלֹהִים יְהוָה הוּא הָאֱלֹהִֽים וַיֹּאמֶר אֵלִיָּהוּ לָהֶם תִּפְשׂוּ אֶת־נְבִיאֵי הַבַּעַל אִישׁ אַל־יִמָּלֵט מֵהֶם וַֽיִּתְפְּשׂוּם וַיּוֹרִדֵם אֵלִיָּהוּ אֶל־נַחַל קִישׁוֹן וַיִּשְׁחָטֵם שָֽׁם",
+        "riddle": "תִּפְשׂוּ אֶת־נְבִיאֵי הַבַּעַל אִישׁ אַל־יִמָּלֵט מֵהֶם וַֽיִּתְפְּשׂוּם",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "הָעָם",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַתֵּצֵא אֵשׁ מִלִּפְנֵי יְהוָה וַתֹּאכַל עַל־הַמִּזְבֵּחַ אֶת־הָעֹלָה וְאֶת־הַחֲלָבִים וַיַּרְא כָּל־הָעָם וַיָּרֹנּוּ וַֽיִּפְּלוּ עַל־פְּנֵיהֶֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "39": "And when all the people saw it, they fell on their faces: and they said, The LORD, he is the God; the LORD, he is the God.",
+          "40": "And Elijah said unto them, Take the prophets of Baal; let not one of them escape. And they took them: and Elijah brought them down to the brook Kishon, and slew them there."
+        },
+        "he": {
+          "39": "וַיַּרְא כָּל־הָעָם וַֽיִּפְּלוּ עַל־פְּנֵיהֶם וַיֹּאמְרוּ יְהוָה הוּא הָאֱלֹהִים יְהוָה הוּא הָאֱלֹהִֽים׃",
+          "40": "וַיֹּאמֶר אֵלִיָּהוּ לָהֶם תִּפְשׂוּ ׀ אֶת־נְבִיאֵי הַבַּעַל אִישׁ אַל־יִמָּלֵט מֵהֶם וַֽיִּתְפְּשׂוּם וַיּוֹרִדֵם אֵלִיָּהוּ אֶל־נַחַל קִישׁוֹן וַיִּשְׁחָטֵם שָֽׁם׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 39,
+        "end": 40
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-18-41-41",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 18,
+        "quote_verse_start": 41,
+        "quote_verse_end": 42,
+        "speaker_mention_verse": 41,
+        "listener_mention_verse": 41
+      },
+      "en": {
+        "quote": "And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound of abundance of rain. So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees,",
+        "riddle": "Get thee up, eat and drink; for there is a sound of abundance of rain.",
+        "speaker": "Elijah",
+        "listener": "Ahab",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "earth",
+        "bonus_hint": {
+          "quote": "When he uttereth his voice, there is a multitude of waters in the heavens, and he causeth the vapours to ascend from the ends of the earth; he maketh lightnings with rain, and bringeth forth the wind out of his treasures.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ לְאַחְאָב עֲלֵה אֱכֹל וּשְׁתֵה כִּי־קוֹל הֲמוֹן הַגָּֽשֶׁם וַיַּעֲלֶה אַחְאָב לֶאֱכֹל וְלִשְׁתּוֹת וְאֵלִיָּהוּ עָלָה אֶל־רֹאשׁ הַכַּרְמֶל וַיִּגְהַר אַרְצָה וַיָּשֶׂם פָּנָיו בֵּין בִּרְכָּֽיו",
+        "riddle": "עֲלֵה אֱכֹל וּשְׁתֵה כִּי־קוֹל הֲמוֹן הַגָּֽשֶׁם",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אַחְאָב",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּעֲלֶה",
+        "bonus_hint": {
+          "quote": "לְקוֹל תִּתּוֹ הֲמוֹן מַיִם בַּשָּׁמַיִם וַיַּעֲלֶה נְשִׂאִים מִקְצֵה הָאָרֶץ בְּרָקִים לַמָּטָר עָשָׂה וַיּוֹצֵא רוּחַ מֵאֹצְרֹתָֽיו",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "41": "And Elijah said unto Ahab, Get thee up, eat and drink; for there is a sound of abundance of rain.",
+          "42": "So Ahab went up to eat and to drink. And Elijah went up to the top of Carmel; and he cast himself down upon the earth, and put his face between his knees,"
+        },
+        "he": {
+          "41": "וַיֹּאמֶר אֵלִיָּהוּ לְאַחְאָב עֲלֵה אֱכֹל וּשְׁתֵה כִּי־קוֹל הֲמוֹן הַגָּֽשֶׁם׃",
+          "42": "וַיַּעֲלֶה אַחְאָב לֶאֱכֹל וְלִשְׁתּוֹת וְאֵלִיָּהוּ עָלָה אֶל־רֹאשׁ הַכַּרְמֶל וַיִּגְהַר אַרְצָה וַיָּשֶׂם פָּנָיו בֵּין בִּרְכָּֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 41,
+        "end": 42
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

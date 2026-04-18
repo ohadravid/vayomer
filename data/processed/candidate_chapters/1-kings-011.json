@@ -6,55 +6,188 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-11-11-12",
+      "id": "1-kings-11-02-02",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "Of the nations concerning which the LORD said unto the children of Israel, Ye shall not go in to them, neither shall they come in unto you: for surely they will turn away your heart after their gods: Solomon clave unto these in love.",
+        "riddle": "Ye shall not go in to them, neither shall they come in unto you",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "מִן־הַגּוֹיִם אֲשֶׁר אָֽמַר־יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל לֹֽא־תָבֹאוּ בָהֶם וְהֵם לֹא־יָבֹאוּ בָכֶם אָכֵן יַטּוּ אֶת־לְבַבְכֶם אַחֲרֵי אֱלֹהֵיהֶם בָּהֶם דָּבַק שְׁלֹמֹה לְאַהֲבָֽה",
+        "riddle": "אָֽמַר־יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל לֹֽא־תָבֹאוּ בָהֶם וְהֵם לֹא־יָבֹאוּ בָכֶם",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Of the nations concerning which the LORD said unto the children of Israel, Ye shall not go in to them, neither shall they come in unto you: for surely they will turn away your heart after their gods: Solomon clave unto these in love."
+        },
+        "he": {
+          "2": "מִן־הַגּוֹיִם אֲשֶׁר אָֽמַר־יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל לֹֽא־תָבֹאוּ בָהֶם וְהֵם לֹא־יָבֹאוּ בָכֶם אָכֵן יַטּוּ אֶת־לְבַבְכֶם אַחֲרֵי אֱלֹהֵיהֶם בָּהֶם דָּבַק שְׁלֹמֹה לְאַהֲבָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "1-kings-11-11-11",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 11,
         "quote_verse_start": 11,
-        "quote_verse_end": 12
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
       },
       "en": {
-        "quote": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant. Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son.",
-        "riddle": "but I will rend it out of the hand of thy son.",
-        "speaker": "LORD",
+        "quote": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
+        "riddle": "Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
+        "speaker": "the LORD",
         "listener": "Solomon",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
-        "riddle": "מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "quote": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ",
+        "riddle": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ",
         "speaker": "יְהוָה",
         "listener": "שְׁלֹמֹה",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
-          "12": "Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son."
+          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant."
         },
         "he": {
-          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ׃",
-          "12": "אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה׃"
+          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ׃"
         }
       },
       "meta": {
-        "reason": "Vivid divine warning",
+        "reason": "direct warning/declaration",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 11,
         "start": 11,
-        "end": 12
+        "end": 11
+      }
+    },
+    {
+      "id": "1-kings-11-31-31",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And he said to Jeroboam, Take thee ten pieces: for thus saith the LORD, the God of Israel, Behold, I will rend the kingdom out of the hand of Solomon, and will give ten tribes to thee:",
+        "riddle": "Take thee ten pieces: for thus saith the LORD, the God of Israel, Behold, I will rend the kingdom out of the hand of Solomon, and will give ten tribes to thee:",
+        "speaker": "Ahijah",
+        "listener": "Jeroboam",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְיָֽרָבְעָם קַח־לְךָ עֲשָׂרָה קְרָעִים כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הִנְנִי קֹרֵעַ אֶת־הַמַּמְלָכָה מִיַּד שְׁלֹמֹה וְנָתַתִּי לְךָ אֵת עֲשָׂרָה הַשְּׁבָטִֽים",
+        "riddle": "וַיֹּאמֶר לְיָֽרָבְעָם קַח־לְךָ עֲשָׂרָה קְרָעִים כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הִנְנִי קֹרֵעַ אֶת־הַמַּמְלָכָה מִיַּד שְׁלֹמֹה וְנָתַתִּי לְךָ אֵת עֲשָׂרָה הַשְּׁבָטִֽים",
+        "speaker": "אֲחִיָּה הַשִּׁילֹנִי הַנָּבִיא",
+        "listener": "יָֽרָבְעָם",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And it came to pass at that time when Jeroboam went out of Jerusalem, that the prophet Ahijah the Shilonite found him in the way; and he had clad himself with a new garment; and they two were alone in the field:",
+          "31": "And he said to Jeroboam, Take thee ten pieces: for thus saith the LORD, the God of Israel, Behold, I will rend the kingdom out of the hand of Solomon, and will give ten tribes to thee:"
+        },
+        "he": {
+          "29": "וַֽיְהִי בָּעֵת הַהִיא וְיָֽרָבְעָם יָצָא מִירוּשָׁלִָם וַיִּמְצָא אֹתוֹ אֲחִיָּה הַשִּׁילֹנִי הַנָּבִיא בַּדֶּרֶךְ וְהוּא מִתְכַּסֶּה בְּשַׂלְמָה חֲדָשָׁה וּשְׁנֵיהֶם לְבַדָּם בַּשָּׂדֶֽה׃",
+          "31": "וַיֹּאמֶר לְיָֽרָבְעָם קַח־לְךָ עֲשָׂרָה קְרָעִים כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הִנְנִי קֹרֵעַ אֶת־הַמַּמְלָכָה מִיַּד שְׁלֹמֹה וְנָתַתִּי לְךָ אֵת עֲשָׂרָה הַשְּׁבָטִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "1-kings-11-39-39",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 11,
+        "quote_verse_start": 39,
+        "quote_verse_end": 39
+      },
+      "en": {
+        "quote": "And I will for this afflict the seed of David, but not for ever.",
+        "riddle": "And I will for this afflict the seed of David, but not for ever.",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים",
+        "riddle": "וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים",
+        "speaker": "אלוהים",
+        "listener": "שלמה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "39": "And I will for this afflict the seed of David, but not for ever."
+        },
+        "he": {
+          "39": "וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 39,
+        "end": 39
       }
     }
   ],
   "stats": {
-    "window_count": 14,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 1,
-    "issue_count": 13
+    "llm_window_count": 5,
+    "projection_llm_count": 7,
+    "llm_call_count": 12,
+    "spec_count": 7,
+    "kept_count": 4,
+    "issue_count": 3
   }
 }

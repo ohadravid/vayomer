@@ -6,53 +6,190 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-22-42-42",
+      "id": "2-samuel-22-02-03",
       "source": {
         "book_code": "2SA",
         "book": "2 Samuel",
         "book_he": "שמואל ב",
         "chapter": 22,
-        "quote_verse_start": 42,
-        "quote_verse_end": 42
+        "quote_verse_start": 2,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
       },
       "en": {
-        "quote": "They looked, but there was none to save; even unto the LORD, but he answered them not.",
-        "riddle": "They looked, but there was none to save",
+        "quote": "And he said, The LORD is my rock, and my fortress, and my deliverer; The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence.",
+        "riddle": "The LORD is my rock, and my fortress, and my deliverer; The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence.",
         "speaker": "David",
-        "listener": "People",
+        "listener": "LORD",
         "book": "2 Samuel"
       },
       "he": {
-        "quote": "יִשְׁעוּ וְאֵין מֹשִׁיעַ אֶל־יְהוָה וְלֹא עָנָֽם",
-        "riddle": "יִשְׁעוּ וְאֵין מֹשִׁיעַ",
-        "speaker": "דוד",
-        "listener": "עמים",
+        "quote": "וַיֹּאמַר יְהוָה סַֽלְעִי וּמְצֻדָתִי וּמְפַלְטִי־לִֽי אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ מָגִנִּי וְקֶרֶן יִשְׁעִי מִשְׂגַּבִּי וּמְנוּסִי מֹשִׁעִי מֵחָמָס תֹּשִׁעֵֽנִי",
+        "riddle": "וַיֹּאמַר יְהוָה סַֽלְעִי וּמְצֻדָתִי וּמְפַלְטִי־לִֽי אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ מָגִנִּי וְקֶרֶן יִשְׁעִי מִשְׂגַּבִּי וּמְנוּסִי מֹשִׁעִי מֵחָמָס תֹּשִׁעֵֽנִי",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
         "book": "שמואל ב"
       },
       "raw_quote_source": {
         "en": {
-          "42": "They looked, but there was none to save; even unto the LORD, but he answered them not."
+          "1": "And David spake unto the LORD the words of this song in the day that the LORD had delivered him out of the hand of all his enemies, and out of the hand of Saul:",
+          "2": "And he said, The LORD is my rock, and my fortress, and my deliverer;",
+          "3": "The God of my rock; in him will I trust: he is my shield, and the horn of my salvation, my high tower, and my refuge, my saviour; thou savest me from violence."
         },
         "he": {
-          "42": "יִשְׁעוּ וְאֵין מֹשִׁיעַ אֶל־יְהוָה וְלֹא עָנָֽם׃"
+          "1": "וַיְדַבֵּר דָּוִד לַֽיהוָה אֶת־דִּבְרֵי הַשִּׁירָה הַזֹּאת בְּיוֹם הִצִּיל יְהוָה אֹתוֹ מִכַּף כָּל־אֹיְבָיו וּמִכַּף שָׁאֽוּל׃",
+          "2": "וַיֹּאמַר יְהוָה סַֽלְעִי וּמְצֻדָתִי וּמְפַלְטִי־לִֽי׃",
+          "3": "אֱלֹהֵי צוּרִי אֶחֱסֶה־בּוֹ מָגִנִּי וְקֶרֶן יִשְׁעִי מִשְׂגַּבִּי וּמְנוּסִי מֹשִׁעִי מֵחָמָס תֹּשִׁעֵֽנִי׃"
         }
       },
       "meta": {
-        "reason": "Vivid, dramatic imagery",
-        "confidence": 0.9
+        "reason": "vivid declaration",
+        "confidence": 1.0
       },
       "ref": {
         "chapter": 22,
-        "start": 42,
-        "end": 42
+        "start": 2,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-22-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 22,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "In my distress I called upon the LORD, and cried to my God: and he did hear my voice out of his temple, and my cry did enter into his ears.",
+        "riddle": "In my distress I called upon the LORD, and cried to my God: and he did hear my voice out of his temple, and my cry did enter into his ears.",
+        "speaker": "David",
+        "listener": "God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "בַּצַּר־לִי אֶקְרָא יְהוָה וְאֶל־אֱלֹהַי אֶקְרָא וַיִּשְׁמַע מֵהֵֽיכָלוֹ קוֹלִי וְשַׁוְעָתִי בְּאָזְנָֽיו",
+        "riddle": "בַּצַּר־לִי אֶקְרָא יְהוָה וְאֶל־אֱלֹהַי אֶקְרָא וַיִּשְׁמַע מֵהֵֽיכָלוֹ קוֹלִי וְשַׁוְעָתִי בְּאָזְנָֽיו",
+        "speaker": "דוד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "In my distress I called upon the LORD, and cried to my God: and he did hear my voice out of his temple, and my cry did enter into his ears."
+        },
+        "he": {
+          "7": "בַּצַּר־לִי אֶקְרָא יְהוָה וְאֶל־אֱלֹהַי אֶקְרָא וַיִּשְׁמַע מֵהֵֽיכָלוֹ קוֹלִי וְשַׁוְעָתִי בְּאָזְנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of prayer",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-22-32-32",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 22,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "For who is God, save the LORD? and who is a rock, save our God?",
+        "riddle": "For who is God, save the LORD? and who is a rock, save our God?",
+        "speaker": "David",
+        "listener": "none",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "כִּי מִי־אֵל מִבַּלְעֲדֵי יְהוָה וּמִי צוּר מִֽבַּלְעֲדֵי אֱלֹהֵֽינוּ",
+        "riddle": "כִּי מִי־אֵל מִבַּלְעֲדֵי יְהוָה וּמִי צוּר מִֽבַּלְעֲדֵי אֱלֹהֵֽינוּ",
+        "speaker": "דוד",
+        "listener": "none",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "For who is God, save the LORD? and who is a rock, save our God?"
+        },
+        "he": {
+          "32": "כִּי מִי־אֵל מִבַּלְעֲדֵי יְהוָה וּמִי צוּר מִֽבַּלְעֲדֵי אֱלֹהֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "2-samuel-22-40-41",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 22,
+        "quote_verse_start": 40,
+        "quote_verse_end": 41
+      },
+      "en": {
+        "quote": "For thou hast girded me with strength to battle: them that rose up against me hast thou subdued under me. Thou hast also given me the necks of mine enemies, that I might destroy them that hate me.",
+        "riddle": "For thou hast girded me with strength to battle: them that rose up against me hast thou subdued under me. Thou hast also given me the necks of mine enemies, that I might destroy them that hate me.",
+        "speaker": "David",
+        "listener": "LORD",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתַּזְרֵנִי חַיִל לַמִּלְחָמָה תַּכְרִיעַ קָמַי תַּחְתֵּֽנִי וְאֹיְבַי תַּתָּה לִּי עֹרֶף מְשַׂנְאַי וָאַצְמִיתֵֽם",
+        "riddle": "וַתַּזְרֵנִי חַיִל לַמִּלְחָמָה תַּכְרִיעַ קָמַי תַּחְתֵּֽנִי וְאֹיְבַי תַּתָּה לִּי עֹרֶף מְשַׂנְאַי וָאַצְמִיתֵֽם",
+        "speaker": "דוד",
+        "listener": "יהוה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "For thou hast girded me with strength to battle: them that rose up against me hast thou subdued under me.",
+          "41": "Thou hast also given me the necks of mine enemies, that I might destroy them that hate me."
+        },
+        "he": {
+          "40": "וַתַּזְרֵנִי חַיִל לַמִּלְחָמָה תַּכְרִיעַ קָמַי תַּחְתֵּֽנִי׃",
+          "41": "וְאֹיְבַי תַּתָּה לִּי עֹרֶף מְשַׂנְאַי וָאַצְמִיתֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of victory",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 40,
+        "end": 41
       }
     }
   ],
   "stats": {
-    "window_count": 9,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 1,
-    "issue_count": 8
+    "llm_window_count": 4,
+    "projection_llm_count": 4,
+    "llm_call_count": 8,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

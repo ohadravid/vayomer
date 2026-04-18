@@ -4,12 +4,58 @@
   "book_he": "דברים",
   "chapter": 25,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-25-08-08",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 25,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;",
+        "riddle": "I like not to take her",
+        "speaker": "brother",
+        "listener": "elders",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ",
+        "riddle": "לֹא חָפַצְתִּי לְקַחְתָּֽה",
+        "speaker": "אִישׁ",
+        "listener": "זִקְנֵי־עִירוֹ",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;"
+        },
+        "he": {
+          "8": "וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct refusal",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
   "stats": {
-    "window_count": 5,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 0,
-    "issue_count": 5
+    "llm_window_count": 1,
+    "projection_llm_count": 3,
+    "llm_call_count": 4,
+    "spec_count": 3,
+    "kept_count": 1,
+    "issue_count": 2
   }
 }

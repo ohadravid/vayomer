@@ -6,6 +6,321 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-kings-19-02-02",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2
+      },
+      "en": {
+        "quote": "Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.",
+        "riddle": "So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time.",
+        "speaker": "Jezebel",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתִּשְׁלַח אִיזֶבֶל מַלְאָךְ אֶל־אֵלִיָּהוּ לֵאמֹר כֹּֽה־יַעֲשׂוּן אֱלֹהִים וְכֹה יוֹסִפוּן כִּֽי־כָעֵת מָחָר אָשִׂים אֶֽת־נַפְשְׁךָ כְּנֶפֶשׁ אַחַד מֵהֶֽם",
+        "riddle": "וַתִּשְׁלַח אִיזֶבֶל מַלְאָךְ אֶל־אֵלִיָּהוּ לֵאמֹר כֹּֽה־יַעֲשׂוּן אֱלֹהִים וְכֹה יוֹסִפוּן כִּֽי־כָעֵת מָחָר אָשִׂים אֶֽת־נַפְשְׁךָ כְּנֶפֶשׁ אַחַד מֵהֶֽם",
+        "speaker": "אִיזֶבֶל",
+        "listener": "אֵלִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Then Jezebel sent a messenger unto Elijah, saying, So let the gods do to me, and more also, if I make not thy life as the life of one of them by to morrow about this time."
+        },
+        "he": {
+          "2": "וַתִּשְׁלַח אִיזֶבֶל מַלְאָךְ אֶל־אֵלִיָּהוּ לֵאמֹר כֹּֽה־יַעֲשׂוּן אֱלֹהִים וְכֹה יוֹסִפוּן כִּֽי־כָעֵת מָחָר אָשִׂים אֶֽת־נַפְשְׁךָ כְּנֶפֶשׁ אַחַד מֵהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct threat",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "1-kings-19-04-04",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "But he himself went a day's journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O LORD, take away my life; for I am not better than my fathers.",
+        "riddle": "It is enough; now, O LORD, take away my life; for I am not better than my fathers.",
+        "speaker": "Elijah",
+        "listener": "LORD",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְהֽוּא־הָלַךְ בַּמִּדְבָּר דֶּרֶךְ יוֹם וַיָּבֹא וַיֵּשֶׁב תַּחַת רֹתֶם אֶחָד וַיִּשְׁאַל אֶת־נַפְשׁוֹ לָמוּת וַיֹּאמֶר רַב עַתָּה יְהוָה קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי",
+        "riddle": "רַב עַתָּה יְהוָה קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי",
+        "speaker": "אליה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "But he himself went a day's journey into the wilderness, and came and sat down under a juniper tree: and he requested for himself that he might die; and said, It is enough; now, O LORD, take away my life; for I am not better than my fathers."
+        },
+        "he": {
+          "4": "וְהֽוּא־הָלַךְ בַּמִּדְבָּר דֶּרֶךְ יוֹם וַיָּבֹא וַיֵּשֶׁב תַּחַת רֹתֶם אֶחָד וַיִּשְׁאַל אֶת־נַפְשׁוֹ לָמוּת וַיֹּאמֶר ׀ רַב עַתָּה יְהוָה קַח נַפְשִׁי כִּֽי־לֹא־טוֹב אָנֹכִי מֵאֲבֹתָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "1-kings-19-07-07",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the angel of the LORD came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee.",
+        "riddle": "Arise and eat; because the journey is too great for thee.",
+        "speaker": "angel",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב מַלְאַךְ יְהוָה שֵׁנִית וַיִּגַּע־בּוֹ וַיֹּאמֶר קוּם אֱכֹל כִּי רַב מִמְּךָ הַדָּֽרֶךְ",
+        "riddle": "וַיֹּאמֶר קוּם אֱכֹל כִּי רַב מִמְּךָ הַדָּֽרֶךְ",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "אֵלִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the angel of the LORD came again the second time, and touched him, and said, Arise and eat; because the journey is too great for thee."
+        },
+        "he": {
+          "7": "וַיָּשָׁב מַלְאַךְ יְהוָה ׀ שֵׁנִית וַיִּגַּע־בּוֹ וַיֹּאמֶר קוּם אֱכֹל כִּי רַב מִמְּךָ הַדָּֽרֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-kings-19-10-10",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he said, I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+        "riddle": "I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+        "speaker": "Elijah",
+        "listener": "the LORD",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהוָה אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָֽאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ",
+        "riddle": "וַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהוָה אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָֽאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ",
+        "speaker": "אֵלִיָּֽהוּ",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he came thither unto a cave, and lodged there; and, behold, the word of the LORD came to him, and he said unto him, What doest thou here, Elijah?",
+          "10": "And he said, I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away."
+        },
+        "he": {
+          "9": "וַיָּבֹא־שָׁם אֶל־הַמְּעָרָה וַיָּלֶן שָׁם וְהִנֵּה דְבַר־יְהוָה אֵלָיו וַיֹּאמֶר לוֹ מַה־לְּךָ פֹה אֵלִיָּֽהוּ׃",
+          "10": "וַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהוָה ׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָֽאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-kings-19-11-11",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And he said, Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind: and after the wind an earthquake; but the LORD was not in the earthquake:",
+        "riddle": "Go forth, and stand upon the mount before the LORD.",
+        "speaker": "the LORD",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְהוָה וְהִנֵּה יְהוָה עֹבֵר וְרוּחַ גְּדוֹלָה וְחָזָק מְפָרֵק הָרִים וּמְשַׁבֵּר סְלָעִים לִפְנֵי יְהוָה לֹא בָרוּחַ יְהוָה וְאַחַר הָרוּחַ רַעַשׁ לֹא בָרַעַשׁ יְהוָֽה",
+        "riddle": "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְהוָה וְהִנֵּה יְהוָה",
+        "speaker": "יְהוָה",
+        "listener": "אֵלִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And he said, I have been very jealous for the LORD God of hosts: for the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+          "11": "And he said, Go forth, and stand upon the mount before the LORD. And, behold, the LORD passed by, and a great and strong wind rent the mountains, and brake in pieces the rocks before the LORD; but the LORD was not in the wind: and after the wind an earthquake; but the LORD was not in the earthquake:"
+        },
+        "he": {
+          "10": "וַיֹּאמֶר קַנֹּא קִנֵּאתִי לַיהוָה ׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָֽאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃",
+          "11": "וַיֹּאמֶר צֵא וְעָמַדְתָּ בָהָר לִפְנֵי יְהוָה וְהִנֵּה יְהוָה עֹבֵר וְרוּחַ גְּדוֹלָה וְחָזָק מְפָרֵק הָרִים וּמְשַׁבֵּר סְלָעִים לִפְנֵי יְהוָה לֹא בָרוּחַ יְהוָה וְאַחַר הָרוּחַ רַעַשׁ לֹא בָרַעַשׁ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "1-kings-19-14-14",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And he said, I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+        "riddle": "I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+        "speaker": "Elijah",
+        "listener": "a voice",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר קַנֹּא קִנֵאתִי לַיהוָה אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ",
+        "riddle": "וַיֹּאמֶר קַנֹּא קִנֵאתִי לַיהוָה אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "קוֹל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And it was so, when Elijah heard it, that he wrapped his face in his mantle, and went out, and stood in the entering in of the cave. And, behold, there came a voice unto him, and said, What doest thou here, Elijah?",
+          "14": "And he said, I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away."
+        },
+        "he": {
+          "13": "וַיְהִי ׀ כִּשְׁמֹעַ אֵלִיָּהוּ וַיָּלֶט פָּנָיו בְּאַדַּרְתּוֹ וַיֵּצֵא וַֽיַּעֲמֹד פֶּתַח הַמְּעָרָה וְהִנֵּה אֵלָיו קוֹל וַיֹּאמֶר מַה־לְּךָ פֹה אֵלִיָּֽהוּ׃",
+          "14": "וַיֹּאמֶר קַנֹּא קִנֵאתִי לַיהוָה ׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-kings-19-15-15",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 19,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the LORD said unto him, Go, return on thy way to the wilderness of Damascus: and when thou comest, anoint Hazael to be king over Syria:",
+        "riddle": "Go, return on thy way to the wilderness of Damascus: and when thou comest, anoint Hazael to be king over Syria:",
+        "speaker": "the LORD",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֵלָיו לֵךְ שׁוּב לְדַרְכְּךָ מִדְבַּרָה דַמָּשֶׂק וּבָאתָ וּמָשַׁחְתָּ אֶת־חֲזָאֵל לְמֶלֶךְ עַל־אֲרָֽם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֵלָיו לֵךְ שׁוּב לְדַרְכְּךָ מִדְבַּרָה דַמָּשֶׂק וּבָאתָ וּמָשַׁחְתָּ אֶת־חֲזָאֵל לְמֶלֶךְ עַל־אֲרָֽם",
+        "speaker": "יְהוָה",
+        "listener": "אֵלָיו",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, I have been very jealous for the LORD God of hosts: because the children of Israel have forsaken thy covenant, thrown down thine altars, and slain thy prophets with the sword; and I, even I only, am left; and they seek my life, to take it away.",
+          "15": "And the LORD said unto him, Go, return on thy way to the wilderness of Damascus: and when thou comest, anoint Hazael to be king over Syria:"
+        },
+        "he": {
+          "14": "וַיֹּאמֶר קַנֹּא קִנֵאתִי לַיהוָה ׀ אֱלֹהֵי צְבָאוֹת כִּֽי־עָזְבוּ בְרִֽיתְךָ בְּנֵי יִשְׂרָאֵל אֶת־מִזְבְּחֹתֶיךָ הָרָסוּ וְאֶת־נְבִיאֶיךָ הָרְגוּ בֶחָרֶב וָאִוָּתֵר אֲנִי לְבַדִּי וַיְבַקְשׁוּ אֶת־נַפְשִׁי לְקַחְתָּֽהּ׃",
+          "15": "וַיֹּאמֶר יְהוָה אֵלָיו לֵךְ שׁוּב לְדַרְכְּךָ מִדְבַּרָה דַמָּשֶׂק וּבָאתָ וּמָשַׁחְתָּ אֶת־חֲזָאֵל לְמֶלֶךְ עַל־אֲרָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
       "id": "1-kings-19-20-20",
       "source": {
         "book_code": "1KI",
@@ -13,20 +328,22 @@
         "book_he": "מלכים א",
         "chapter": 19,
         "quote_verse_start": 20,
-        "quote_verse_end": 20
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
       },
       "en": {
         "quote": "And he left the oxen, and ran after Elijah, and said, Let me, I pray thee, kiss my father and my mother, and then I will follow thee. And he said unto him, Go back again: for what have I done to thee?",
-        "riddle": "for what have I done to thee?",
-        "speaker": "Elijah",
-        "listener": "Elisha",
+        "riddle": "Let me, I pray thee, kiss my father and my mother, and then I will follow thee.",
+        "speaker": "Elisha",
+        "listener": "Elijah",
         "book": "1 Kings"
       },
       "he": {
         "quote": "וַיַּעֲזֹב אֶת־הַבָּקָר וַיָּרָץ אַחֲרֵי אֵֽלִיָּהוּ וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ",
-        "riddle": "מֶה־עָשִׂיתִי לָֽךְ",
-        "speaker": "אֵֽלִיָּהוּ",
-        "listener": "אלישע",
+        "riddle": "וַיֹּאמֶר אֶשְּׁקָה־נָּא לְאָבִי וּלְאִמִּי וְאֵלְכָה אַחֲרֶיךָ וַיֹּאמֶר לוֹ לֵךְ שׁוּב כִּי מֶה־עָשִׂיתִי לָֽךְ",
+        "speaker": "אֱלִישָׁע",
+        "listener": "אֵֽלִיָּהוּ",
         "book": "מלכים א"
       },
       "raw_quote_source": {
@@ -38,7 +355,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question from Elijah",
+        "reason": "direct request",
         "confidence": 0.95
       },
       "ref": {
@@ -49,10 +366,13 @@
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 1,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 8,
+    "issue_count": 5
   }
 }

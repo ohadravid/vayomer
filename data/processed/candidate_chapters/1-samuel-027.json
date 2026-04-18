@@ -4,12 +4,189 @@
   "book_he": "שמואל א",
   "chapter": 27,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-samuel-27-01-01",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 27,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "And David said in his heart, I shall now perish one day by the hand of Saul: there is nothing better for me than that I should speedily escape into the land of the Philistines; and Saul shall despair of me, to seek me any more in any coast of Israel: so shall I escape out of his hand.",
+        "riddle": "I shall now perish one day by the hand of Saul",
+        "speaker": "David",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־לִבּוֹ עַתָּה אֶסָּפֶה יוֹם־אֶחָד בְּיַד־שָׁאוּל אֵֽין־לִי טוֹב כִּי הִמָּלֵט אִמָּלֵט אֶל־אֶרֶץ פְּלִשְׁתִּים וְנוֹאַשׁ מִמֶּנִּי שָׁאוּל לְבַקְשֵׁנִי עוֹד בְּכָל־גְּבוּל יִשְׂרָאֵל וְנִמְלַטְתִּי מִיָּדֽוֹ",
+        "riddle": "עַתָּה אֶסָּפֶה יוֹם־אֶחָד בְּיַד־שָׁאוּל אֵֽין־לִי טוֹב כִּי הִמָּלֵט",
+        "speaker": "דָּוִד",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And David said in his heart, I shall now perish one day by the hand of Saul: there is nothing better for me than that I should speedily escape into the land of the Philistines; and Saul shall despair of me, to seek me any more in any coast of Israel: so shall I escape out of his hand."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר דָּוִד אֶל־לִבּוֹ עַתָּה אֶסָּפֶה יוֹם־אֶחָד בְּיַד־שָׁאוּל אֵֽין־לִי טוֹב כִּי הִמָּלֵט אִמָּלֵט ׀ אֶל־אֶרֶץ פְּלִשְׁתִּים וְנוֹאַשׁ מִמֶּנִּי שָׁאוּל לְבַקְשֵׁנִי עוֹד בְּכָל־גְּבוּל יִשְׂרָאֵל וְנִמְלַטְתִּי מִיָּדֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "internal declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "1-samuel-27-05-05",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 27,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And David said unto Achish, If I have now found grace in thine eyes, let them give me a place in some town in the country, that I may dwell there: for why should thy servant dwell in the royal city with thee?",
+        "riddle": "If I have now found grace in thine eyes, let them give me a place in some town in the country, that I may dwell there: for why should thy servant dwell in the royal city with thee?",
+        "speaker": "David",
+        "listener": "Achish",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ יִתְּנוּ־לִי מָקוֹם בְּאַחַת עָרֵי הַשָּׂדֶה וְאֵשְׁבָה שָּׁם וְלָמָּה יֵשֵׁב עַבְדְּךָ בְּעִיר הַמַּמְלָכָה עִמָּֽךְ",
+        "riddle": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ יִתְּנוּ־לִי מָקוֹם בְּאַחַת עָרֵי הַשָּׂדֶה וְאֵשְׁבָה שָּׁם וְלָמָּה יֵשֵׁב עַבְדְּךָ בְּעִיר הַמַּמְלָכָה עִמָּֽךְ",
+        "speaker": "דָּוִד",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David said unto Achish, If I have now found grace in thine eyes, let them give me a place in some town in the country, that I may dwell there: for why should thy servant dwell in the royal city with thee?"
+        },
+        "he": {
+          "5": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ יִתְּנוּ־לִי מָקוֹם בְּאַחַת עָרֵי הַשָּׂדֶה וְאֵשְׁבָה שָּׁם וְלָמָּה יֵשֵׁב עַבְדְּךָ בְּעִיר הַמַּמְלָכָה עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-27-10-10",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 27,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Achish said, Whither have ye made a road to day? And David said, Against the south of Judah, and against the south of the Jerahmeelites, and against the south of the Kenites.",
+        "riddle": "Whither have ye made a road to day?",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אָכִישׁ אַל־פְּשַׁטְתֶּם הַיּוֹם וַיֹּאמֶר דָּוִד עַל־נֶגֶב יְהוּדָה וְעַל־נֶגֶב הַיַּרְחְמְאֵלִי וְאֶל־נֶגֶב הַקֵּינִֽי",
+        "riddle": "וַיֹּאמֶר אָכִישׁ אַל־פְּשַׁטְתֶּם הַיּוֹם וַיֹּאמֶר",
+        "speaker": "אָכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Achish said, Whither have ye made a road to day? And David said, Against the south of Judah, and against the south of the Jerahmeelites, and against the south of the Kenites."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר אָכִישׁ אַל־פְּשַׁטְתֶּם הַיּוֹם וַיֹּאמֶר דָּוִד עַל־נֶגֶב יְהוּדָה וְעַל־נֶגֶב הַיַּרְחְמְאֵלִי וְאֶל־נֶגֶב הַקֵּינִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-samuel-27-12-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 27,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Achish believed David, saying, He hath made his people Israel utterly to abhor him; therefore he shall be my servant for ever.",
+        "riddle": "He hath made his people Israel utterly to abhor him; therefore he shall be my servant for ever.",
+        "speaker": "Achish",
+        "listener": "himself",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּאֲמֵן אָכִישׁ בְּדָוִד לֵאמֹר הַבְאֵשׁ הִבְאִישׁ בְּעַמּוֹ בְיִשְׂרָאֵל וְהָיָה לִי לְעֶבֶד עוֹלָֽם",
+        "riddle": "הַבְאֵשׁ הִבְאִישׁ בְּעַמּוֹ בְיִשְׂרָאֵל וְהָיָה לִי לְעֶבֶד עוֹלָֽם",
+        "speaker": "אָכִישׁ",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Achish believed David, saying, He hath made his people Israel utterly to abhor him; therefore he shall be my servant for ever."
+        },
+        "he": {
+          "12": "וַיַּאֲמֵן אָכִישׁ בְּדָוִד לֵאמֹר הַבְאֵשׁ הִבְאִישׁ בְּעַמּוֹ בְיִשְׂרָאֵל וְהָיָה לִי לְעֶבֶד עוֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 5,
+    "llm_call_count": 8,
+    "spec_count": 5,
+    "kept_count": 4,
+    "issue_count": 1
   }
 }

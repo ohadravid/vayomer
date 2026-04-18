@@ -4,12 +4,106 @@
   "book_he": "בראשית",
   "chapter": 13,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-13-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 13,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren.",
+        "riddle": "Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren.",
+        "speaker": "Abram",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ",
+        "riddle": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ",
+        "speaker": "אַבְרָם",
+        "listener": "לוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-13-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 13,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "Is not the whole land before thee? separate thyself, I pray thee, from me: if thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left.",
+        "riddle": "Is not the whole land before thee? separate thyself, I pray thee, from me: if thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left.",
+        "speaker": "Abram",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הֲלֹא כָל־הָאָרֶץ לְפָנֶיךָ הִפָּרֶד נָא מֵעָלָי אִם־הַשְּׂמֹאל וְאֵימִנָה וְאִם־הַיָּמִין וְאַשְׂמְאִֽילָה",
+        "riddle": "הֲלֹא כָל־הָאָרֶץ לְפָנֶיךָ הִפָּרֶד נָא מֵעָלָי אִם־הַשְּׂמֹאל וְאֵימִנָה וְאִם־הַיָּמִין וְאַשְׂמְאִֽילָה",
+        "speaker": "אַבְרָם",
+        "listener": "לוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Abram said unto Lot, Let there be no strife, I pray thee, between me and thee, and between my herdmen and thy herdmen; for we be brethren.",
+          "9": "Is not the whole land before thee? separate thyself, I pray thee, from me: if thou wilt take the left hand, then I will go to the right; or if thou depart to the right hand, then I will go to the left."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר אַבְרָם אֶל־לוֹט אַל־נָא תְהִי מְרִיבָה בֵּינִי וּבֵינֶיךָ וּבֵין רֹעַי וּבֵין רֹעֶיךָ כִּֽי־אֲנָשִׁים אַחִים אֲנָֽחְנוּ׃",
+          "9": "הֲלֹא כָל־הָאָרֶץ לְפָנֶיךָ הִפָּרֶד נָא מֵעָלָי אִם־הַשְּׂמֹאל וְאֵימִנָה וְאִם־הַיָּמִין וְאַשְׂמְאִֽילָה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 9,
+        "end": 9
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 3,
+    "llm_call_count": 6,
+    "spec_count": 3,
+    "kept_count": 2,
+    "issue_count": 1
   }
 }

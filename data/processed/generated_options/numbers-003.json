@@ -1,0 +1,198 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-03-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him. And they shall keep his charge, and the charge of the whole congregation before the tabernacle of the congregation, to do the service of the tabernacle.",
+        "riddle": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Balak"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Balak"
+          ]
+        },
+        "bonus": "tabernacle",
+        "bonus_hint": {
+          "quote": "And the LORD called unto Moses, and spake unto him out of the tabernacle of the congregation, saying,",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ וְשָׁמְרוּ אֶת־מִשְׁמַרְתּוֹ וְאֶת־מִשְׁמֶרֶת כָּל־הָעֵדָה לִפְנֵי אֹהֶל מוֹעֵד לַעֲבֹד אֶת־עֲבֹדַת הַמִּשְׁכָּֽן",
+        "riddle": "הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "בָּלָק"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֶל־מֹשֶׁה וַיְדַבֵּר יְהוָה אֵלָיו מֵאֹהֶל מוֹעֵד לֵאמֹֽר",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD spake unto Moses, saying,",
+          "6": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him.",
+          "7": "And they shall keep his charge, and the charge of the whole congregation before the tabernacle of the congregation, to do the service of the tabernacle."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "6": "הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ׃",
+          "7": "וְשָׁמְרוּ אֶת־מִשְׁמַרְתּוֹ וְאֶת־מִשְׁמֶרֶת כָּל־הָעֵדָה לִפְנֵי אֹהֶל מוֹעֵד לַעֲבֹד אֶת־עֲבֹדַת הַמִּשְׁכָּֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-03-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses in the wilderness of Sinai, saying, Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them.",
+        "riddle": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Aaron"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "wilderness",
+        "bonus_hint": {
+          "quote": "And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the second month, in the second year after they were come out of the land of Egypt, saying,",
+          "source": {
+            "book": "Numbers",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּמִדְבַּר סִינַי לֵאמֹֽר פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם",
+        "riddle": "פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּמִדְבַּר סִינַי בְּאֹהֶל מוֹעֵד בְּאֶחָד לַחֹדֶשׁ הַשֵּׁנִי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם לֵאמֹֽר",
+          "source": {
+            "book": "במדבר",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD spake unto Moses in the wilderness of Sinai, saying,",
+          "15": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them."
+        },
+        "he": {
+          "14": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּמִדְבַּר סִינַי לֵאמֹֽר׃",
+          "15": "פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -6,40 +6,40 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-11-11-12",
+      "id": "1-kings-11-39-39",
       "source": {
         "method": "llm",
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 11,
-        "quote_verse_start": 11,
-        "quote_verse_end": 12
+        "quote_verse_start": 33,
+        "quote_verse_end": 39
       },
       "en": {
-        "quote": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant. Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son.",
-        "riddle": "but I will rend it out of the hand of thy son.",
-        "speaker": "LORD",
+        "quote": "Because that they have forsaken me, and have worshipped Ashtoreth the goddess of the Zidonians, Chemosh the god of the Moabites, and Milcom the god of the children of Ammon, and have not walked in my ways, to do that which is right in mine eyes, and to keep my statutes and my judgments, as did David his father. Howbeit I will not take the whole kingdom out of his hand: but I will make him prince all the days of his life for David my servant's sake, whom I chose, because he kept my commandments and my statutes: But I will take the kingdom out of his son's hand, and will give it unto thee, even ten tribes. And unto his son will I give one tribe, that David my servant may have a light alway before me in Jerusalem, the city which I have chosen me to put my name there. And I will take thee, and thou shalt reign according to all that thy soul desireth, and shalt be king over Israel. And it shall be, if thou wilt hearken unto all that I command thee, and wilt walk in my ways, and do that is right in my sight, to keep my statutes and my commandments, as David my servant did; that I will be with thee, and build thee a sure house, as I built for David, and will give Israel unto thee. And I will for this afflict the seed of David, but not for ever.",
+        "riddle": "And I will for this afflict the seed of David, but not for ever.",
+        "speaker": "God",
         "listener": "Solomon",
         "book": "1 Kings",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "covenant",
+        "bonus": "forsaken",
         "bonus_hint": {
-          "quote": "But with thee will I establish my covenant; and thou shalt come into the ark, thou, and thy sons, and thy wife, and thy sons' wives with thee.",
+          "quote": "Because they have forsaken me, and have estranged this place, and have burned incense in it unto other gods, whom neither they nor their fathers have known, nor the kings of Judah, and have filled this place with the blood of innocents;",
           "source": {
-            "book": "Genesis",
-            "chapter": 6,
-            "start": 18,
-            "end": 18
+            "book": "Jeremiah",
+            "chapter": 19,
+            "start": 4,
+            "end": 4
           }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
-        "riddle": "מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה",
+        "quote": "יַעַן אֲשֶׁר עֲזָבוּנִי וַיִּֽשְׁתַּחֲווּ לְעַשְׁתֹּרֶת אֱלֹהֵי צִֽדֹנִין לִכְמוֹשׁ אֱלֹהֵי מוֹאָב וּלְמִלְכֹּם אֱלֹהֵי בְנֵֽי־עַמּוֹן וְלֹֽא־הָלְכוּ בִדְרָכַי לַעֲשׂוֹת הַיָּשָׁר בְּעֵינַי וְחֻקֹּתַי וּמִשְׁפָּטַי כְּדָוִד אָבִֽיו וְלֹֽא־אֶקַּח אֶת־כָּל־הַמַּמְלָכָה מִיָּדוֹ כִּי נָשִׂיא אֲשִׁתֶנּוּ כֹּל יְמֵי חַיָּיו לְמַעַן דָּוִד עַבְדִּי אֲשֶׁר בָּחַרְתִּי אֹתוֹ אֲשֶׁר שָׁמַר מִצְוֺתַי וְחֻקֹּתָֽי וְלָקַחְתִּי הַמְּלוּכָה מִיַּד בְּנוֹ וּנְתַתִּיהָ לְּךָ אֵת עֲשֶׂרֶת הַשְּׁבָטִֽים וְלִבְנוֹ אֶתֵּן שֵֽׁבֶט־אֶחָד לְמַעַן הֱיֽוֹת־נִיר לְדָֽוִיד־עַבְדִּי כָּֽל־הַיָּמִים לְפָנַי בִּירוּשָׁלִַם הָעִיר אֲשֶׁר בָּחַרְתִּי לִי לָשׂוּם שְׁמִי שָֽׁם וְאֹתְךָ אֶקַּח וּמָלַכְתָּ בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשֶׁךָ וְהָיִיתָ מֶּלֶךְ עַל־יִשְׂרָאֵֽל וְהָיָה אִם־תִּשְׁמַע אֶת־כָּל־אֲשֶׁר אֲצַוַּךָ וְהָלַכְתָּ בִדְרָכַי וְעָשִׂיתָ הַיָּשָׁר בְּעֵינַי לִשְׁמוֹר חֻקּוֹתַי וּמִצְוֺתַי כַּאֲשֶׁר עָשָׂה דָּוִד עַבְדִּי וְהָיִיתִי עִמָּךְ וּבָנִיתִי לְךָ בַֽיִת־נֶאֱמָן כַּאֲשֶׁר בָּנִיתִי לְדָוִד וְנָתַתִּי לְךָ אֶת־יִשְׂרָאֵֽל וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים",
+        "riddle": "וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים",
         "speaker": "יְהוָה",
         "listener": "שְׁלֹמֹה",
         "book": "מלכים א",
@@ -47,31 +47,41 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "בְּרִיתִי",
+        "bonus": "יַעַן",
         "bonus_hint": {
-          "quote": "וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתָּךְ וּבָאתָ אֶל־הַתֵּבָה אַתָּה וּבָנֶיךָ וְאִשְׁתְּךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
+          "quote": "יַעַן אֲשֶׁר עֲזָבֻנִי וַֽיְנַכְּרוּ אֶת־הַמָּקוֹם הַזֶּה וַיְקַטְּרוּ־בוֹ לֵאלֹהִים אֲחֵרִים אֲשֶׁר לֹֽא־יְדָעוּם הֵמָּה וַאֲבֽוֹתֵיהֶם וּמַלְכֵי יְהוּדָה וּמָֽלְאוּ אֶת־הַמָּקוֹם הַזֶּה דַּם נְקִיִּֽם",
           "source": {
-            "book": "בראשית",
-            "chapter": 6,
-            "start": 18,
-            "end": 18
+            "book": "ירמיהו",
+            "chapter": 19,
+            "start": 4,
+            "end": 4
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "11": "Wherefore the LORD said unto Solomon, Forasmuch as this is done of thee, and thou hast not kept my covenant and my statutes, which I have commanded thee, I will surely rend the kingdom from thee, and will give it to thy servant.",
-          "12": "Notwithstanding in thy days I will not do it for David thy father's sake: but I will rend it out of the hand of thy son."
+          "33": "Because that they have forsaken me, and have worshipped Ashtoreth the goddess of the Zidonians, Chemosh the god of the Moabites, and Milcom the god of the children of Ammon, and have not walked in my ways, to do that which is right in mine eyes, and to keep my statutes and my judgments, as did David his father.",
+          "34": "Howbeit I will not take the whole kingdom out of his hand: but I will make him prince all the days of his life for David my servant's sake, whom I chose, because he kept my commandments and my statutes:",
+          "35": "But I will take the kingdom out of his son's hand, and will give it unto thee, even ten tribes.",
+          "36": "And unto his son will I give one tribe, that David my servant may have a light alway before me in Jerusalem, the city which I have chosen me to put my name there.",
+          "37": "And I will take thee, and thou shalt reign according to all that thy soul desireth, and shalt be king over Israel.",
+          "38": "And it shall be, if thou wilt hearken unto all that I command thee, and wilt walk in my ways, and do that is right in my sight, to keep my statutes and my commandments, as David my servant did; that I will be with thee, and build thee a sure house, as I built for David, and will give Israel unto thee.",
+          "39": "And I will for this afflict the seed of David, but not for ever."
         },
         "he": {
-          "11": "וַיֹּאמֶר יְהוָה לִשְׁלֹמֹה יַעַן אֲשֶׁר הָֽיְתָה־זֹּאת עִמָּךְ וְלֹא שָׁמַרְתָּ בְּרִיתִי וְחֻקֹּתַי אֲשֶׁר צִוִּיתִי עָלֶיךָ קָרֹעַ אֶקְרַע אֶת־הַמַּמְלָכָה מֵֽעָלֶיךָ וּנְתַתִּיהָ לְעַבְדֶּֽךָ׃",
-          "12": "אַךְ־בְּיָמֶיךָ לֹא אֶעֱשֶׂנָּה לְמַעַן דָּוִד אָבִיךָ מִיַּד בִּנְךָ אֶקְרָעֶֽנָּה׃"
+          "33": "יַעַן ׀ אֲשֶׁר עֲזָבוּנִי וַיִּֽשְׁתַּחֲווּ לְעַשְׁתֹּרֶת אֱלֹהֵי צִֽדֹנִין לִכְמוֹשׁ אֱלֹהֵי מוֹאָב וּלְמִלְכֹּם אֱלֹהֵי בְנֵֽי־עַמּוֹן וְלֹֽא־הָלְכוּ בִדְרָכַי לַעֲשׂוֹת הַיָּשָׁר בְּעֵינַי וְחֻקֹּתַי וּמִשְׁפָּטַי כְּדָוִד אָבִֽיו׃",
+          "34": "וְלֹֽא־אֶקַּח אֶת־כָּל־הַמַּמְלָכָה מִיָּדוֹ כִּי ׀ נָשִׂיא אֲשִׁתֶנּוּ כֹּל יְמֵי חַיָּיו לְמַעַן דָּוִד עַבְדִּי אֲשֶׁר בָּחַרְתִּי אֹתוֹ אֲשֶׁר שָׁמַר מִצְוֺתַי וְחֻקֹּתָֽי׃",
+          "35": "וְלָקַחְתִּי הַמְּלוּכָה מִיַּד בְּנוֹ וּנְתַתִּיהָ לְּךָ אֵת עֲשֶׂרֶת הַשְּׁבָטִֽים׃",
+          "36": "וְלִבְנוֹ אֶתֵּן שֵֽׁבֶט־אֶחָד לְמַעַן הֱיֽוֹת־נִיר לְדָֽוִיד־עַבְדִּי כָּֽל־הַיָּמִים ׀ לְפָנַי בִּירוּשָׁלִַם הָעִיר אֲשֶׁר בָּחַרְתִּי לִי לָשׂוּם שְׁמִי שָֽׁם׃",
+          "37": "וְאֹתְךָ אֶקַּח וּמָלַכְתָּ בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשֶׁךָ וְהָיִיתָ מֶּלֶךְ עַל־יִשְׂרָאֵֽל׃",
+          "38": "וְהָיָה אִם־תִּשְׁמַע אֶת־כָּל־אֲשֶׁר אֲצַוַּךָ וְהָלַכְתָּ בִדְרָכַי וְעָשִׂיתָ הַיָּשָׁר בְּעֵינַי לִשְׁמוֹר חֻקּוֹתַי וּמִצְוֺתַי כַּאֲשֶׁר עָשָׂה דָּוִד עַבְדִּי וְהָיִיתִי עִמָּךְ וּבָנִיתִי לְךָ בַֽיִת־נֶאֱמָן כַּאֲשֶׁר בָּנִיתִי לְדָוִד וְנָתַתִּי לְךָ אֶת־יִשְׂרָאֵֽל׃",
+          "39": "וַֽאעַנֶּה אֶת־זֶרַע דָּוִד לְמַעַן זֹאת אַךְ לֹא כָל־הַיָּמִֽים׃"
         }
       },
       "ref": {
         "chapter": 11,
-        "start": 11,
-        "end": 12
+        "start": 33,
+        "end": 39
       },
       "meta": {
         "mode": "llm",

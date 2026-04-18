@@ -1,0 +1,559 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 17,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-17-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect. And I will make my covenant between me and thee, and will multiply thee exceedingly.",
+        "riddle": "And I will make my covenant between me and thee, and will multiply thee exceedingly.",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Almighty",
+        "bonus_hint": {
+          "quote": "And God Almighty bless thee, and make thee fruitful, and multiply thee, that thou mayest be a multitude of people;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 28,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד",
+        "riddle": "וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שַׁדַּי",
+        "bonus_hint": {
+          "quote": "וְאֵל שַׁדַּי יְבָרֵךְ אֹֽתְךָ וְיַפְרְךָ וְיַרְבֶּךָ וְהָיִיתָ לִקְהַל עַמִּֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 28,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And when Abram was ninety years old and nine, the LORD appeared to Abram, and said unto him, I am the Almighty God; walk before me, and be thou perfect.",
+          "2": "And I will make my covenant between me and thee, and will multiply thee exceedingly."
+        },
+        "he": {
+          "1": "וַיְהִי אַבְרָם בֶּן־תִּשְׁעִים שָׁנָה וְתֵשַׁע שָׁנִים וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר אֵלָיו אֲנִי־אֵל שַׁדַּי הִתְהַלֵּךְ לְפָנַי וֶהְיֵה תָמִֽים׃",
+          "2": "וְאֶתְּנָה בְרִיתִי בֵּינִי וּבֵינֶךָ וְאַרְבֶּה אוֹתְךָ בִּמְאֹד מְאֹֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession; and I will be their God. And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+        "riddle": "Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Canaan",
+        "bonus_hint": {
+          "quote": "When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 14,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "וְנָתַתִּי לְךָ וּלְזַרְעֲךָ אַחֲרֶיךָ אֵת אֶרֶץ מְגֻרֶיךָ אֵת כָּל־אֶרֶץ כְּנַעַן לַאֲחֻזַּת עוֹלָם וְהָיִיתִי לָהֶם לֵאלֹהִֽים וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם",
+        "riddle": "וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְנָתַתִּי",
+        "bonus_hint": {
+          "quote": "כִּי תָבֹאוּ אֶל־אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי נֹתֵן לָכֶם לַאֲחֻזָּה וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 14,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And I will give unto thee, and to thy seed after thee, the land wherein thou art a stranger, all the land of Canaan, for an everlasting possession; and I will be their God.",
+          "9": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations."
+        },
+        "he": {
+          "8": "וְנָתַתִּי לְךָ וּלְזַרְעֲךָ אַחֲרֶיךָ אֵת ׀ אֶרֶץ מְגֻרֶיךָ אֵת כָּל־אֶרֶץ כְּנַעַן לַאֲחֻזַּת עוֹלָם וְהָיִיתִי לָהֶם לֵאלֹהִֽים׃",
+          "9": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 8,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations. This is my covenant, which ye shall keep, between me and you and thy seed after thee; Every man child among you shall be circumcised.",
+        "riddle": "This is my covenant, which ye shall keep, between me and you and thy seed after thee; Every man child among you shall be circumcised.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "generations",
+        "bonus_hint": {
+          "quote": "Speak thou also unto the children of Israel, saying, Verily my sabbaths ye shall keep: for it is a sign between me and you throughout your generations; that ye may know that I am the LORD that doth sanctify you.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 31,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם זֹאת בְּרִיתִי אֲשֶׁר תִּשְׁמְרוּ בֵּינִי וּבֵינֵיכֶם וּבֵין זַרְעֲךָ אַחֲרֶיךָ הִמּוֹל לָכֶם כָּל־זָכָֽר",
+        "riddle": "זֹאת בְּרִיתִי אֲשֶׁר תִּשְׁמְרוּ בֵּינִי וּבֵינֵיכֶם וּבֵין זַרְעֲךָ אַחֲרֶיךָ הִמּוֹל לָכֶם כָּל־זָכָֽר",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְאַתָּה",
+        "bonus_hint": {
+          "quote": "וְאַתָּה דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אַךְ אֶת־שַׁבְּתֹתַי תִּשְׁמֹרוּ כִּי אוֹת הִוא בֵּינִי וּבֵֽינֵיכֶם לְדֹרֹתֵיכֶם לָדַעַת כִּי אֲנִי יְהוָה מְקַדִּשְׁכֶֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 31,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And God said unto Abraham, Thou shalt keep my covenant therefore, thou, and thy seed after thee in their generations.",
+          "10": "This is my covenant, which ye shall keep, between me and you and thy seed after thee; Every man child among you shall be circumcised."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם וְאַתָּה אֶת־בְּרִיתִי תִשְׁמֹר אַתָּה וְזַרְעֲךָ אַֽחֲרֶיךָ לְדֹרֹתָֽם׃",
+          "10": "זֹאת בְּרִיתִי אֲשֶׁר תִּשְׁמְרוּ בֵּינִי וּבֵינֵיכֶם וּבֵין זַרְעֲךָ אַחֲרֶיךָ הִמּוֹל לָכֶם כָּל־זָכָֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Abraham said unto God, O that Ishmael might live before thee! And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.",
+        "riddle": "O that Ishmael might live before thee!",
+        "speaker": "Abraham",
+        "listener": "God",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "covenant",
+        "bonus_hint": {
+          "quote": "Take heed to thyself, lest thou make a covenant with the inhabitants of the land whither thou goest, lest it be for a snare in the midst of thee:",
+          "source": {
+            "book": "Exodus",
+            "chapter": 34,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו",
+        "riddle": "לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ",
+        "speaker": "אַבְרָהָם",
+        "listener": "הָֽאֱלֹהִים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לְךָ",
+        "bonus_hint": {
+          "quote": "הִשָּׁמֶר לְךָ פֶּן־תִּכְרֹת בְּרִית לְיוֹשֵׁב הָאָרֶץ אֲשֶׁר אַתָּה בָּא עָלֶיהָ פֶּן־יִהְיֶה לְמוֹקֵשׁ בְּקִרְבֶּֽךָ",
+          "source": {
+            "book": "שמות",
+            "chapter": 34,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Abraham said unto God, O that Ishmael might live before thee!",
+          "19": "And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ׃",
+          "19": "וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 18,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And Abraham said unto God, O that Ishmael might live before thee! And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.",
+        "riddle": "Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "covenant",
+        "bonus_hint": {
+          "quote": "I the LORD have called thee in righteousness, and will hold thine hand, and will keep thee, and give thee for a covenant of the people, for a light of the Gentiles;",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 42,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו",
+        "riddle": "אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לִבְרִית",
+        "bonus_hint": {
+          "quote": "אֲנִי יְהוָה קְרָאתִיךָֽ בְצֶדֶק וְאַחְזֵק בְּיָדֶךָ וְאֶצָּרְךָ וְאֶתֶּנְךָ לִבְרִית עָם לְאוֹר גּוֹיִֽם",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 42,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Abraham said unto God, O that Ishmael might live before thee!",
+          "19": "And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ׃",
+          "19": "וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 18,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 18,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Abraham said unto God, O that Ishmael might live before thee! And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him. And as for Ishmael, I have heard thee: Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly; twelve princes shall he beget, and I will make him a great nation.",
+        "riddle": "Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Ishmael",
+        "bonus_hint": {
+          "quote": "And the angel of the LORD said unto her, Behold, thou art with child, and shalt bear a son, and shalt call his name Ishmael; because the LORD hath heard thy affliction.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 16,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו וּֽלְיִשְׁמָעֵאל שְׁמַעְתִּיךָ הִנֵּה בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד וּנְתַתִּיו לְגוֹי גָּדֽוֹל",
+        "riddle": "הִנֵּה בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יִשְׁמָעֵאל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְקָרָאת שְׁמוֹ יִשְׁמָעֵאל כִּֽי־שָׁמַע יְהוָה אֶל־עָנְיֵֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Abraham said unto God, O that Ishmael might live before thee!",
+          "19": "And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.",
+          "20": "And as for Ishmael, I have heard thee: Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly; twelve princes shall he beget, and I will make him a great nation."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ׃",
+          "19": "וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו׃",
+          "20": "וּֽלְיִשְׁמָעֵאל שְׁמַעְתִּיךָ הִנֵּה ׀ בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד וּנְתַתִּיו לְגוֹי גָּדֽוֹל׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 18,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-17-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 17,
+        "quote_verse_start": 18,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And Abraham said unto God, O that Ishmael might live before thee! And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him. And as for Ishmael, I have heard thee: Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly; twelve princes shall he beget, and I will make him a great nation. But my covenant will I establish with Isaac, which Sarah shall bear unto thee at this set time in the next year.",
+        "riddle": "But my covenant will I establish with Isaac, which Sarah shall bear unto thee at this set time in the next year.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Ishmael",
+        "bonus_hint": {
+          "quote": "And the angel of the LORD said unto her, Behold, thou art with child, and shalt bear a son, and shalt call his name Ishmael; because the LORD hath heard thy affliction.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 16,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו וּֽלְיִשְׁמָעֵאל שְׁמַעְתִּיךָ הִנֵּה בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד וּנְתַתִּיו לְגוֹי גָּדֽוֹל וְאֶת־בְּרִיתִי אָקִים אֶת־יִצְחָק אֲשֶׁר תֵּלֵד לְךָ שָׂרָה לַמּוֹעֵד הַזֶּה בַּשָּׁנָה הָאַחֶֽרֶת",
+        "riddle": "וְאֶת־בְּרִיתִי אָקִים אֶת־יִצְחָק אֲשֶׁר תֵּלֵד לְךָ שָׂרָה לַמּוֹעֵד הַזֶּה בַּשָּׁנָה הָאַחֶֽרֶת",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יִשְׁמָעֵאל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לָהּ מַלְאַךְ יְהוָה הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְקָרָאת שְׁמוֹ יִשְׁמָעֵאל כִּֽי־שָׁמַע יְהוָה אֶל־עָנְיֵֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Abraham said unto God, O that Ishmael might live before thee!",
+          "19": "And God said, Sarah thy wife shall bear thee a son indeed; and thou shalt call his name Isaac: and I will establish my covenant with him for an everlasting covenant, and with his seed after him.",
+          "20": "And as for Ishmael, I have heard thee: Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly; twelve princes shall he beget, and I will make him a great nation.",
+          "21": "But my covenant will I establish with Isaac, which Sarah shall bear unto thee at this set time in the next year."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר אַבְרָהָם אֶל־הָֽאֱלֹהִים לוּ יִשְׁמָעֵאל יִחְיֶה לְפָנֶֽיךָ׃",
+          "19": "וַיֹּאמֶר אֱלֹהִים אֲבָל שָׂרָה אִשְׁתְּךָ יֹלֶדֶת לְךָ בֵּן וְקָרָאתָ אֶת־שְׁמוֹ יִצְחָק וַהֲקִמֹתִי אֶת־בְּרִיתִי אִתּוֹ לִבְרִית עוֹלָם לְזַרְעוֹ אַחֲרָֽיו׃",
+          "20": "וּֽלְיִשְׁמָעֵאל שְׁמַעְתִּיךָ הִנֵּה ׀ בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד וּנְתַתִּיו לְגוֹי גָּדֽוֹל׃",
+          "21": "וְאֶת־בְּרִיתִי אָקִים אֶת־יִצְחָק אֲשֶׁר תֵּלֵד לְךָ שָׂרָה לַמּוֹעֵד הַזֶּה בַּשָּׁנָה הָאַחֶֽרֶת׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 18,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

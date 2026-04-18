@@ -4,12 +4,236 @@
   "book_he": "במדבר",
   "chapter": 18,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-18-01-01",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 18,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD said unto Aaron, Thou and thy sons and thy father's house with thee shall bear the iniquity of the sanctuary: and thou and thy sons with thee shall bear the iniquity of your priesthood.",
+        "riddle": "Thou and thy sons and thy father's house with thee shall bear the iniquity of the sanctuary: and thou and thy sons with thee shall bear the iniquity of your priesthood.",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן אַתָּה וּבָנֶיךָ וּבֵית־אָבִיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן הַמִּקְדָּשׁ וְאַתָּה וּבָנֶיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן כְּהֻנַּתְכֶֽם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן אַתָּה וּבָנֶיךָ וּבֵית־אָבִיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן הַמִּקְדָּשׁ וְאַתָּה וּבָנֶיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן כְּהֻנַּתְכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Aaron, Thou and thy sons and thy father's house with thee shall bear the iniquity of the sanctuary: and thou and thy sons with thee shall bear the iniquity of your priesthood."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן אַתָּה וּבָנֶיךָ וּבֵית־אָבִיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן הַמִּקְדָּשׁ וְאַתָּה וּבָנֶיךָ אִתָּךְ תִּשְׂאוּ אֶת־עֲוֺן כְּהֻנַּתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "numbers-18-08-08",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 18,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the LORD spake unto Aaron, Behold, I also have given thee the charge of mine heave offerings of all the hallowed things of the children of Israel; unto thee have I given them by reason of the anointing, and to thy sons, by an ordinance for ever.",
+        "riddle": "Behold, I also have given thee the charge of mine heave offerings",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶֽל־אַהֲרֹן וַאֲנִי הִנֵּה נָתַתִּֽי לְךָ אֶת־מִשְׁמֶרֶת תְּרוּמֹתָי לְכָל־קָדְשֵׁי בְנֵֽי־יִשְׂרָאֵל לְךָ נְתַתִּים לְמָשְׁחָה וּלְבָנֶיךָ לְחָק־עוֹלָֽם",
+        "riddle": "וַאֲנִי הִנֵּה נָתַתִּֽי לְךָ אֶת־מִשְׁמֶרֶת תְּרוּמֹתָי לְכָל־קָדְשֵׁי בְנֵֽי־יִשְׂרָאֵל לְךָ",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the LORD spake unto Aaron, Behold, I also have given thee the charge of mine heave offerings of all the hallowed things of the children of Israel; unto thee have I given them by reason of the anointing, and to thy sons, by an ordinance for ever."
+        },
+        "he": {
+          "8": "וַיְדַבֵּר יְהוָה אֶֽל־אַהֲרֹן וַאֲנִי הִנֵּה נָתַתִּֽי לְךָ אֶת־מִשְׁמֶרֶת תְּרוּמֹתָי לְכָל־קָדְשֵׁי בְנֵֽי־יִשְׂרָאֵל לְךָ נְתַתִּים לְמָשְׁחָה וּלְבָנֶיךָ לְחָק־עוֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "numbers-18-20-20",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 18,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And the LORD spake unto Aaron, Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.",
+        "riddle": "Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel.",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן בְּאַרְצָם לֹא תִנְחָל וְחֵלֶק לֹא־יִהְיֶה לְךָ בְּתוֹכָם אֲנִי חֶלְקְךָ וְנַחֲלָתְךָ בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל",
+        "riddle": "בְּאַרְצָם לֹא תִנְחָל וְחֵלֶק לֹא־יִהְיֶה לְךָ בְּתוֹכָם אֲנִי חֶלְקְךָ וְנַחֲלָתְךָ בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And the LORD spake unto Aaron, Thou shalt have no inheritance in their land, neither shalt thou have any part among them: I am thy part and thine inheritance among the children of Israel."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן בְּאַרְצָם לֹא תִנְחָל וְחֵלֶק לֹא־יִהְיֶה לְךָ בְּתוֹכָם אֲנִי חֶלְקְךָ וְנַחֲלָתְךָ בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "numbers-18-26-26",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 18,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Thus speak unto the Levites, and say unto them, When ye take of the children of Israel the tithes which I have given you from them for your inheritance, then ye shall offer up an heave offering of it for the LORD, even a tenth part of the tithe.",
+        "riddle": "When ye take of the children of Israel the tithes which I have given you from them for your inheritance, then ye shall offer up an heave offering of it for the LORD, even a tenth part of the tithe.",
+        "speaker": "the LORD",
+        "listener": "the Levites",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וְאֶל־הַלְוִיִּם תְּדַבֵּר וְאָמַרְתָּ אֲלֵהֶם כִּֽי־תִקְחוּ מֵאֵת בְּנֵֽי־יִשְׂרָאֵל אֶת־הַֽמַּעֲשֵׂר אֲשֶׁר נָתַתִּי לָכֶם מֵאִתָּם בְּנַחֲלַתְכֶם וַהֲרֵמֹתֶם מִמֶּנּוּ תְּרוּמַת יְהוָה מַעֲשֵׂר מִן־הַֽמַּעֲשֵֽׂר",
+        "riddle": "וְאֶל־הַלְוִיִּם תְּדַבֵּר וְאָמַרְתָּ אֲלֵהֶם כִּֽי־תִקְחוּ מֵאֵת בְּנֵֽי־יִשְׂרָאֵל אֶת־הַֽמַּעֲשֵׂר אֲשֶׁר נָתַתִּי לָכֶם מֵאִתָּם בְּנַחֲלַתְכֶם וַהֲרֵמֹתֶם מִמֶּנּוּ תְּרוּמַת יְהוָה מַעֲשֵׂר מִן־הַֽמַּעֲשֵֽׂר",
+        "speaker": "יְהוָה",
+        "listener": "הַלְוִיִּם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And the LORD spake unto Moses, saying,",
+          "26": "Thus speak unto the Levites, and say unto them, When ye take of the children of Israel the tithes which I have given you from them for your inheritance, then ye shall offer up an heave offering of it for the LORD, even a tenth part of the tithe."
+        },
+        "he": {
+          "25": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "26": "וְאֶל־הַלְוִיִּם תְּדַבֵּר וְאָמַרְתָּ אֲלֵהֶם כִּֽי־תִקְחוּ מֵאֵת בְּנֵֽי־יִשְׂרָאֵל אֶת־הַֽמַּעֲשֵׂר אֲשֶׁר נָתַתִּי לָכֶם מֵאִתָּם בְּנַחֲלַתְכֶם וַהֲרֵמֹתֶם מִמֶּנּוּ תְּרוּמַת יְהוָה מַעֲשֵׂר מִן־הַֽמַּעֲשֵֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "numbers-18-30-30",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 18,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "Therefore thou shalt say unto them, When ye have heaved the best thereof from it, then it shall be counted unto the Levites as the increase of the threshingfloor, and as the increase of the winepress.",
+        "riddle": "When ye have heaved the best thereof from it, then it shall be counted unto the Levites as the increase of the threshingfloor, and as the increase of the winepress.",
+        "speaker": "the LORD",
+        "listener": "priests",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וְאָמַרְתָּ אֲלֵהֶם בַּהֲרִֽימְכֶם אֶת־חֶלְבּוֹ מִמֶּנּוּ וְנֶחְשַׁב לַלְוִיִּם כִּתְבוּאַת גֹּרֶן וְכִתְבוּאַת יָֽקֶב",
+        "riddle": "בַּהֲרִֽימְכֶם אֶת־חֶלְבּוֹ מִמֶּנּוּ וְנֶחְשַׁב לַלְוִיִּם כִּתְבוּאַת גֹּרֶן וְכִתְבוּאַת יָֽקֶב",
+        "speaker": "יהוה",
+        "listener": "כהנים",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "Therefore thou shalt say unto them, When ye have heaved the best thereof from it, then it shall be counted unto the Levites as the increase of the threshingfloor, and as the increase of the winepress."
+        },
+        "he": {
+          "30": "וְאָמַרְתָּ אֲלֵהֶם בַּהֲרִֽימְכֶם אֶת־חֶלְבּוֹ מִמֶּנּוּ וְנֶחְשַׁב לַלְוִיִּם כִּתְבוּאַת גֹּרֶן וְכִתְבוּאַת יָֽקֶב׃"
+        }
+      },
+      "meta": {
+        "reason": "commanded speech content",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 30,
+        "end": 30
+      }
+    }
+  ],
   "stats": {
-    "window_count": 12,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 0,
-    "issue_count": 12
+    "llm_window_count": 5,
+    "projection_llm_count": 6,
+    "llm_call_count": 11,
+    "spec_count": 6,
+    "kept_count": 5,
+    "issue_count": 1
   }
 }

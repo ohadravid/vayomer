@@ -6,76 +6,810 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-kings-05-04-04",
+      "id": "2-kings-05-10-10",
       "source": {
         "method": "llm",
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 5,
-        "quote_verse_start": 1,
-        "quote_verse_end": 4
+        "quote_verse_start": 4,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
       },
       "en": {
-        "quote": "Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honourable, because by him the LORD had given deliverance unto Syria: he was also a mighty man in valour, but he was a leper. And the Syrians had gone out by companies, and had brought away captive out of the land of Israel a little maid; and she waited on Naaman's wife. And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy. And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel.",
-        "riddle": "Thus and thus said the maid that is of the land of Israel.",
-        "speaker": "messenger",
+        "quote": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel. And the king of Syria said, Go to, go, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment. And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy. And it came to pass, when the king of Israel had read the letter, that he rent his clothes, and said, Am I God, to kill and to make alive, that this man doth send unto me to recover a man of his leprosy? wherefore consider, I pray you, and see how he seeketh a quarrel against me. And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel. So Naaman came with his horses and with his chariot, and stood at the door of the house of Elisha. And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+        "riddle": "Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+        "speaker": "messenger of Elisha",
         "listener": "Naaman",
         "book": "2 Kings",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "king",
+        "bonus": "lord",
         "bonus_hint": {
-          "quote": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;",
+          "quote": "Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the LORD.",
           "source": {
             "book": "Genesis",
-            "chapter": 14,
-            "start": 1,
-            "end": 1
+            "chapter": 13,
+            "start": 18,
+            "end": 18
           }
         }
       },
       "he": {
-        "quote": "וְנַעֲמָן שַׂר־צְבָא מֶֽלֶךְ־אֲרָם הָיָה אִישׁ גָּדוֹל לִפְנֵי אֲדֹנָיו וּנְשֻׂא פָנִים כִּֽי־בוֹ נָֽתַן־יְהוָה תְּשׁוּעָה לַאֲרָם וְהָאִישׁ הָיָה גִּבּוֹר חַיִל מְצֹרָֽע וַאֲרָם יָצְאוּ גְדוּדִים וַיִּשְׁבּוּ מֵאֶרֶץ יִשְׂרָאֵל נַעֲרָה קְטַנָּה וַתְּהִי לִפְנֵי אֵשֶׁת נַעֲמָֽן וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
-        "riddle": "כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
-        "speaker": "השליח",
-        "listener": "נַעֲמָֽן",
+        "quote": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל וַיֹּאמֶר מֶֽלֶךְ־אֲרָם לֶךְ־בֹּא וְאֶשְׁלְחָה סֵפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֵּלֶךְ וַיִּקַּח בְּיָדוֹ עֶשֶׂר כִּכְּרֵי־כֶסֶף וְשֵׁשֶׁת אֲלָפִים זָהָב וְעֶשֶׂר חֲלִיפוֹת בְּגָדִֽים וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ וַיְהִי כִּקְרֹא מֶֽלֶךְ־יִשְׂרָאֵל אֶת־הַסֵּפֶר וַיִּקְרַע בְּגָדָיו וַיֹּאמֶר הַאֱלֹהִים אָנִי לְהָמִית וּֽלְהַחֲיוֹת כִּֽי־זֶה שֹׁלֵחַ אֵלַי לֶאֱסֹף אִישׁ מִצָּֽרַעְתּוֹ כִּי אַךְ־דְּעֽוּ־נָא וּרְאוּ כִּֽי־מִתְאַנֶּה הוּא לִֽי וַיְהִי כִּשְׁמֹעַ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל וַיָּבֹא נַעֲמָן בְּסוּסָיו וּבְרִכְבּוֹ וַיַּעֲמֹד פֶּֽתַח־הַבַּיִת לֶאֱלִישָֽׁע וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר",
+        "riddle": "הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר",
+        "speaker": "מַלְאָךְ אֱלִישָׁע",
+        "listener": "נַעֲמָן",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "מֶֽלֶךְ",
+        "bonus": "וַיָּבֹא",
         "bonus_hint": {
-          "quote": "וַיְהִי בִּימֵי אַמְרָפֶל מֶֽלֶךְ־שִׁנְעָר אַרְיוֹךְ מֶלֶךְ אֶלָּסָר כְּדָרְלָעֹמֶר מֶלֶךְ עֵילָם וְתִדְעָל מֶלֶךְ גּוֹיִֽם",
+          "quote": "וַיֶּאֱהַל אַבְרָם וַיָּבֹא וַיֵּשֶׁב בְּאֵלֹנֵי מַמְרֵא אֲשֶׁר בְּחֶבְרוֹן וַיִּֽבֶן־שָׁם מִזְבֵּחַ לַֽיהוָֽה",
           "source": {
             "book": "בראשית",
-            "chapter": 14,
-            "start": 1,
-            "end": 1
+            "chapter": 13,
+            "start": 18,
+            "end": 18
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "1": "Now Naaman, captain of the host of the king of Syria, was a great man with his master, and honourable, because by him the LORD had given deliverance unto Syria: he was also a mighty man in valour, but he was a leper.",
-          "2": "And the Syrians had gone out by companies, and had brought away captive out of the land of Israel a little maid; and she waited on Naaman's wife.",
-          "3": "And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.",
-          "4": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel."
+          "4": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel.",
+          "5": "And the king of Syria said, Go to, go, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment.",
+          "6": "And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy.",
+          "7": "And it came to pass, when the king of Israel had read the letter, that he rent his clothes, and said, Am I God, to kill and to make alive, that this man doth send unto me to recover a man of his leprosy? wherefore consider, I pray you, and see how he seeketh a quarrel against me.",
+          "8": "And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel.",
+          "9": "So Naaman came with his horses and with his chariot, and stood at the door of the house of Elisha.",
+          "10": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean."
         },
         "he": {
-          "1": "וְנַעֲמָן שַׂר־צְבָא מֶֽלֶךְ־אֲרָם הָיָה אִישׁ גָּדוֹל לִפְנֵי אֲדֹנָיו וּנְשֻׂא פָנִים כִּֽי־בוֹ נָֽתַן־יְהוָה תְּשׁוּעָה לַאֲרָם וְהָאִישׁ הָיָה גִּבּוֹר חַיִל מְצֹרָֽע׃",
-          "2": "וַאֲרָם יָצְאוּ גְדוּדִים וַיִּשְׁבּוּ מֵאֶרֶץ יִשְׂרָאֵל נַעֲרָה קְטַנָּה וַתְּהִי לִפְנֵי אֵשֶׁת נַעֲמָֽן׃",
-          "3": "וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ׃",
-          "4": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל׃"
+          "4": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל׃",
+          "5": "וַיֹּאמֶר מֶֽלֶךְ־אֲרָם לֶךְ־בֹּא וְאֶשְׁלְחָה סֵפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֵּלֶךְ וַיִּקַּח בְּיָדוֹ עֶשֶׂר כִּכְּרֵי־כֶסֶף וְשֵׁשֶׁת אֲלָפִים זָהָב וְעֶשֶׂר חֲלִיפוֹת בְּגָדִֽים׃",
+          "6": "וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ׃",
+          "7": "וַיְהִי כִּקְרֹא מֶֽלֶךְ־יִשְׂרָאֵל אֶת־הַסֵּפֶר וַיִּקְרַע בְּגָדָיו וַיֹּאמֶר הַאֱלֹהִים אָנִי לְהָמִית וּֽלְהַחֲיוֹת כִּֽי־זֶה שֹׁלֵחַ אֵלַי לֶאֱסֹף אִישׁ מִצָּֽרַעְתּוֹ כִּי אַךְ־דְּעֽוּ־נָא וּרְאוּ כִּֽי־מִתְאַנֶּה הוּא לִֽי׃",
+          "8": "וַיְהִי כִּשְׁמֹעַ ׀ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל׃",
+          "9": "וַיָּבֹא נַעֲמָן בְּסוּסָיו וּבְרִכְבּוֹ וַיַּעֲמֹד פֶּֽתַח־הַבַּיִת לֶאֱלִישָֽׁע׃",
+          "10": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר׃"
         }
       },
       "ref": {
         "chapter": 5,
-        "start": 1,
-        "end": 4
+        "start": 4,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the king of Syria said, Go to, go, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment. And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy.",
+        "riddle": "Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy.",
+        "speaker": "king of Syria",
+        "listener": "king of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "silver",
+        "bonus_hint": {
+          "quote": "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten shekels of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in.",
+          "source": {
+            "book": "Judges",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶֽלֶךְ־אֲרָם לֶךְ־בֹּא וְאֶשְׁלְחָה סֵפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֵּלֶךְ וַיִּקַּח בְּיָדוֹ עֶשֶׂר כִּכְּרֵי־כֶסֶף וְשֵׁשֶׁת אֲלָפִים זָהָב וְעֶשֶׂר חֲלִיפוֹת בְּגָדִֽים וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ",
+        "riddle": "וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽו",
+        "speaker": "מֶֽלֶךְ־אֲרָם",
+        "listener": "מֶלֶךְ יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֵּלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לוֹ מִיכָה שְׁבָה עִמָּדִי וֶֽהְיֵה־לִי לְאָב וּלְכֹהֵן וְאָנֹכִי אֶֽתֶּן־לְךָ עֲשֶׂרֶת כֶּסֶף לַיָּמִים וְעֵרֶךְ בְּגָדִים וּמִחְיָתֶךָ וַיֵּלֶךְ הַלֵּוִֽי",
+          "source": {
+            "book": "שופטים",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the king of Syria said, Go to, go, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment.",
+          "6": "And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר מֶֽלֶךְ־אֲרָם לֶךְ־בֹּא וְאֶשְׁלְחָה סֵפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֵּלֶךְ וַיִּקַּח בְּיָדוֹ עֶשֶׂר כִּכְּרֵי־כֶסֶף וְשֵׁשֶׁת אֲלָפִים זָהָב וְעֶשֶׂר חֲלִיפוֹת בְּגָדִֽים׃",
+          "6": "וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 5,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel.",
+        "riddle": "Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel.",
+        "speaker": "Elisha",
+        "listener": "king of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "man",
+        "bonus_hint": {
+          "quote": "And it came to pass, as the camels had done drinking, that the man took a golden earring of half a shekel weight, and two bracelets for her hands of ten shekels weight of gold;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כִּשְׁמֹעַ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל",
+        "riddle": "לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל־יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel."
+        },
+        "he": {
+          "8": "וַיְהִי כִּשְׁמֹעַ ׀ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-15-15-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 10,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean. But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper. Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage. And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean? Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean. And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "riddle": "Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "riddle": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּיַּרְדֵּן",
+        "bonus_hint": {
+          "quote": "וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+          "11": "But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper.",
+          "12": "Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage.",
+          "13": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+          "14": "Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.",
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant."
+        },
+        "he": {
+          "10": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר׃",
+          "11": "וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי ׀ יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע׃",
+          "12": "הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה׃",
+          "13": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר׃",
+          "14": "וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר׃",
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-15-15-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 10,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean. But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper. Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage. And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean? Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean. And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "riddle": "Behold, now I know that there is no God in all earth, but in Israel",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "riddle": "הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּיַּרְדֵּן",
+        "bonus_hint": {
+          "quote": "וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+          "11": "But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper.",
+          "12": "Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage.",
+          "13": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+          "14": "Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.",
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant."
+        },
+        "he": {
+          "10": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר׃",
+          "11": "וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי ׀ יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע׃",
+          "12": "הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה׃",
+          "13": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר׃",
+          "14": "וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר׃",
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 10,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean. But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper. Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage. And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean? Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean. And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant. But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused.",
+        "riddle": "As the LORD liveth, before whom I stand, I will receive none",
+        "speaker": "Elisha",
+        "listener": "Naaman",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wash",
+        "bonus_hint": {
+          "quote": "Wash me throughly from mine iniquity, and cleanse me from my sin.",
+          "source": {
+            "book": "Psalms",
+            "chapter": 51,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן",
+        "riddle": "חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח",
+        "speaker": "אֱלִישָׁע",
+        "listener": "נַעֲמָן",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "בְּֽבוֹא־אֵלָיו נָתָן הַנָּבִיא כַּֽאֲשֶׁר־בָּא אֶל־בַּת־שָֽׁבַע",
+          "source": {
+            "book": "תהילים",
+            "chapter": 51,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+          "11": "But Naaman was wroth, and went away, and said, Behold, I thought, He will surely come out to me, and stand, and call on the name of the LORD his God, and strike his hand over the place, and recover the leper.",
+          "12": "Are not Abana and Pharpar, rivers of Damascus, better than all the waters of Israel? may I not wash in them, and be clean? So he turned and went away in a rage.",
+          "13": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+          "14": "Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.",
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+          "16": "But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused."
+        },
+        "he": {
+          "10": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר׃",
+          "11": "וַיִּקְצֹף נַעֲמָן וַיֵּלַךְ וַיֹּאמֶר הִנֵּה אָמַרְתִּי אֵלַי ׀ יֵצֵא יָצוֹא וְעָמַד וְקָרָא בְּשֵׁם־יְהוָה אֱלֹהָיו וְהֵנִיף יָדוֹ אֶל־הַמָּקוֹם וְאָסַף הַמְּצֹרָֽע׃",
+          "12": "הֲלֹא טוֹב אֲמָנָה וּפַרְפַּר נַהֲרוֹת דַּמֶּשֶׂק מִכֹּל מֵימֵי יִשְׂרָאֵל הֲלֹֽא־אֶרְחַץ בָּהֶם וְטָהָרְתִּי וַיִּפֶן וַיֵּלֶךְ בְּחֵמָֽה׃",
+          "13": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר׃",
+          "14": "וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר׃",
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃",
+          "16": "וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean? Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean. And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant. But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused. And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD. In this thing the LORD pardon thy servant, that when my master goeth into the house of Rimmon to worship there, and he leaneth on my hand, and I bow myself in the house of Rimmon: when I bow down myself in the house of Rimmon, the LORD pardon thy servant in this thing. And he said unto him, Go in peace. So he departed from him a little way.",
+        "riddle": "Go in peace",
+        "speaker": "Elisha",
+        "listener": "Naaman",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "prophet",
+        "bonus_hint": {
+          "quote": "And, behold, men passed by, and saw the carcase cast in the way, and the lion standing by the carcase: and they came and told it in the city where the old prophet dwelt.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 13,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה לַדָּבָר הַזֶּה יִסְלַח יְהוָה לְעַבְדֶּךָ בְּבוֹא אֲדֹנִי בֵית־רִמּוֹן לְהִשְׁתַּחֲוֺת שָׁמָּה וְהוּא נִשְׁעָן עַל־יָדִי וְהִֽשְׁתַּחֲוֵיתִי בֵּית רִמֹּן בְּהִשְׁתַּחֲוָיָתִי בֵּית רִמֹּן יִסְלַח־נא יְהוָה לְעַבְדְּךָ בַּדָּבָר הַזֶּֽה וַיֹּאמֶר לוֹ לֵךְ לְשָׁלוֹם וַיֵּלֶךְ מֵאִתּוֹ כִּבְרַת־אָֽרֶץ",
+        "riddle": "לֵךְ לְשָׁלוֹם",
+        "speaker": "אֱלִישָׁע",
+        "listener": "נַעֲמָן",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבְּרוּ",
+        "bonus_hint": {
+          "quote": "וְהִנֵּה אֲנָשִׁים עֹבְרִים וַיִּרְאוּ אֶת־הַנְּבֵלָה מֻשְׁלֶכֶת בַּדֶּרֶךְ וְאֶת־הָאַרְיֵה עֹמֵד אֵצֶל הַנְּבֵלָה וַיָּבֹאוּ וַיְדַבְּרוּ בָעִיר אֲשֶׁר הַנָּבִיא הַזָּקֵן יֹשֵׁב בָּֽהּ",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 13,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+          "14": "Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.",
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+          "16": "But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused.",
+          "17": "And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD.",
+          "18": "In this thing the LORD pardon thy servant, that when my master goeth into the house of Rimmon to worship there, and he leaneth on my hand, and I bow myself in the house of Rimmon: when I bow down myself in the house of Rimmon, the LORD pardon thy servant in this thing.",
+          "19": "And he said unto him, Go in peace. So he departed from him a little way."
+        },
+        "he": {
+          "13": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר׃",
+          "14": "וַיֵּרֶד וַיִּטְבֹּל בַּיַּרְדֵּן שֶׁבַע פְּעָמִים כִּדְבַר אִישׁ הָאֱלֹהִים וַיָּשָׁב בְּשָׂרוֹ כִּבְשַׂר נַעַר קָטֹן וַיִּטְהָֽר׃",
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃",
+          "16": "וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן׃",
+          "17": "וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה׃",
+          "18": "לַדָּבָר הַזֶּה יִסְלַח יְהוָה לְעַבְדֶּךָ בְּבוֹא אֲדֹנִי בֵית־רִמּוֹן לְהִשְׁתַּחֲוֺת שָׁמָּה וְהוּא ׀ נִשְׁעָן עַל־יָדִי וְהִֽשְׁתַּחֲוֵיתִי בֵּית רִמֹּן בְּהִשְׁתַּחֲוָיָתִי בֵּית רִמֹּן יִסְלַח־נא יְהוָה לְעַבְדְּךָ בַּדָּבָר הַזֶּֽה׃",
+          "19": "וַיֹּאמֶר לוֹ לֵךְ לְשָׁלוֹם וַיֵּלֶךְ מֵאִתּוֹ כִּבְרַת־אָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant. But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused. And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD.",
+        "riddle": "Shall there not then, I pray thee, be given to thy servant two mules' burden of earth?",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Israel",
+        "bonus_hint": {
+          "quote": "And Joshua returned, and all Israel with him, unto the camp to Gilgal.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 10,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה",
+        "riddle": "וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּשָׁב",
+        "bonus_hint": {
+          "quote": "וַיָּשָׁב יְהוֹשֻׁעַ וְכָל־יִשְׂרָאֵל עִמּוֹ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּֽלָה",
+          "source": {
+            "book": "יהושע",
+            "chapter": 10,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+          "16": "But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused.",
+          "17": "And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD."
+        },
+        "he": {
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃",
+          "16": "וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן׃",
+          "17": "וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 21,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "So Gehazi followed after Naaman. And when Naaman saw him running after him, he lighted down from the chariot to meet him, and said, Is all well? And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments. And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him.",
+        "riddle": "Be content, take two talents.",
+        "speaker": "Naaman",
+        "listener": "Gehazi",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "chariot",
+        "bonus_hint": {
+          "quote": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. And Jehu followed after him, and said, Smite him also in the chariot. And they did so at the going up to Gur, which is by Ibleam. And he fled to Megiddo, and died there.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּרְדֹּף גֵּיחֲזִי אַחֲרֵי נַֽעֲמָן וַיִּרְאֶה נַֽעֲמָן רָץ אַחֲרָיו וַיִּפֹּל מֵעַל הַמֶּרְכָּבָה לִקְרָאתוֹ וַיֹּאמֶר הֲשָׁלֽוֹם וַיֹּאמֶר שָׁלוֹם אֲדֹנִי שְׁלָחַנִי לֵאמֹר הִנֵּה עַתָּה זֶה בָּאוּ אֵלַי שְׁנֵֽי־נְעָרִים מֵהַר אֶפְרַיִם מִבְּנֵי הַנְּבִיאִים תְּנָה־נָּא לָהֶם כִּכַּר־כֶּסֶף וּשְׁתֵּי חֲלִפוֹת בְּגָדִֽים וַיֹּאמֶר נַעֲמָן הוֹאֵל קַח כִּכָּרָיִם וַיִּפְרָץ־בּוֹ וַיָּצַר כִּכְּרַיִם כֶּסֶף בִּשְׁנֵי חֲרִטִים וּשְׁתֵּי חֲלִפוֹת בְּגָדִים וַיִּתֵּן אֶל־שְׁנֵי נְעָרָיו וַיִּשְׂאוּ לְפָנָֽיו",
+        "riddle": "קַח כִּכָּרָיִם",
+        "speaker": "נַֽעֲמָן",
+        "listener": "גֵּיחֲזִי",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּרְדֹּף",
+        "bonus_hint": {
+          "quote": "וַאֲחַזְיָה מֶֽלֶךְ־יְהוּדָה רָאָה וַיָּנָס דֶּרֶךְ בֵּית הַגָּן וַיִּרְדֹּף אַחֲרָיו יֵהוּא וַיֹּאמֶר גַּם־אֹתוֹ הַכֻּהוּ אֶל־הַמֶּרְכָּבָה בְּמַֽעֲלֵה־גוּר אֲשֶׁר אֶֽת־יִבְלְעָם וַיָּנָס מְגִדּוֹ וַיָּמָת שָֽׁם",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "So Gehazi followed after Naaman. And when Naaman saw him running after him, he lighted down from the chariot to meet him, and said, Is all well?",
+          "22": "And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments.",
+          "23": "And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him."
+        },
+        "he": {
+          "21": "וַיִּרְדֹּף גֵּיחֲזִי אַחֲרֵי נַֽעֲמָן וַיִּרְאֶה נַֽעֲמָן רָץ אַחֲרָיו וַיִּפֹּל מֵעַל הַמֶּרְכָּבָה לִקְרָאתוֹ וַיֹּאמֶר הֲשָׁלֽוֹם׃",
+          "22": "וַיֹּאמֶר ׀ שָׁלוֹם אֲדֹנִי שְׁלָחַנִי לֵאמֹר הִנֵּה עַתָּה זֶה בָּאוּ אֵלַי שְׁנֵֽי־נְעָרִים מֵהַר אֶפְרַיִם מִבְּנֵי הַנְּבִיאִים תְּנָה־נָּא לָהֶם כִּכַּר־כֶּסֶף וּשְׁתֵּי חֲלִפוֹת בְּגָדִֽים׃",
+          "23": "וַיֹּאמֶר נַעֲמָן הוֹאֵל קַח כִּכָּרָיִם וַיִּפְרָץ־בּוֹ וַיָּצַר כִּכְּרַיִם כֶּסֶף בִּשְׁנֵי חֲרִטִים וּשְׁתֵּי חֲלִפוֹת בְּגָדִים וַיִּתֵּן אֶל־שְׁנֵי נְעָרָיו וַיִּשְׂאוּ לְפָנָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 21,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-05-27-27",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 25,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "But he went in, and stood before his master. And Elisha said unto him, Whence comest thou, Gehazi? And he said, Thy servant went no whither. And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants? The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow.",
+        "riddle": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever.",
+        "speaker": "Elisha",
+        "listener": "Gehazi",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "master",
+        "bonus_hint": {
+          "quote": "If his master have given him a wife, and she have born him sons or daughters; the wife and her children shall be her master's, and he shall go out by himself.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 21,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהוּא־בָא וַיַּעֲמֹד אֶל־אֲדֹנָיו וַיֹּאמֶר אֵלָיו אֱלִישָׁע מֵאַיִן גֵּחֲזִי וַיֹּאמֶר לֹֽא־הָלַךְ עַבְדְּךָ אָנֶה וָאָֽנָה וַיֹּאמֶר אֵלָיו לֹא־לִבִּי הָלַךְ כַּאֲשֶׁר הָֽפַךְ־אִישׁ מֵעַל מֶרְכַּבְתּוֹ לִקְרָאתֶךָ הַעֵת לָקַחַת אֶת־הַכֶּסֶף וְלָקַחַת בְּגָדִים וְזֵיתִים וּכְרָמִים וְצֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֽוֹת וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם וַיֵּצֵא מִלְּפָנָיו מְצֹרָע כַּשָּֽׁלֶג",
+        "riddle": "וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם",
+        "speaker": "אֱלִישָׁע",
+        "listener": "גֵּחֲזִי",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְהוּא",
+        "bonus_hint": {
+          "quote": "אִם־אֲדֹנָיו יִתֶּן־לוֹ אִשָּׁה וְיָלְדָה־לוֹ בָנִים אוֹ בָנוֹת הָאִשָּׁה וִילָדֶיהָ תִּהְיֶה לַֽאדֹנֶיהָ וְהוּא יֵצֵא בְגַפּֽוֹ",
+          "source": {
+            "book": "שמות",
+            "chapter": 21,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "But he went in, and stood before his master. And Elisha said unto him, Whence comest thou, Gehazi? And he said, Thy servant went no whither.",
+          "26": "And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?",
+          "27": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow."
+        },
+        "he": {
+          "25": "וְהוּא־בָא וַיַּעֲמֹד אֶל־אֲדֹנָיו וַיֹּאמֶר אֵלָיו אֱלִישָׁע מֵאַיִן גֵּחֲזִי וַיֹּאמֶר לֹֽא־הָלַךְ עַבְדְּךָ אָנֶה וָאָֽנָה׃",
+          "26": "וַיֹּאמֶר אֵלָיו לֹא־לִבִּי הָלַךְ כַּאֲשֶׁר הָֽפַךְ־אִישׁ מֵעַל מֶרְכַּבְתּוֹ לִקְרָאתֶךָ הַעֵת לָקַחַת אֶת־הַכֶּסֶף וְלָקַחַת בְּגָדִים וְזֵיתִים וּכְרָמִים וְצֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֽוֹת׃",
+          "27": "וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם וַיֵּצֵא מִלְּפָנָיו מְצֹרָע כַּשָּֽׁלֶג׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 25,
+        "end": 27
       },
       "meta": {
         "mode": "llm",

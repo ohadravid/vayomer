@@ -13,18 +13,20 @@
         "book_he": "שמואל א",
         "chapter": 22,
         "quote_verse_start": 3,
-        "quote_verse_end": 3
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
       },
       "en": {
         "quote": "And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.",
-        "riddle": "till I know what God will do for me.",
+        "riddle": "Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.",
         "speaker": "David",
-        "listener": "King of Moab",
+        "listener": "king of Moab",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֵּלֶךְ דָּוִד מִשָּׁם מִצְפֵּה מוֹאָב וַיֹּאמֶר אֶל־מֶלֶךְ מוֹאָב יֵֽצֵא־נָא אָבִי וְאִמִּי אִתְּכֶם עַד אֲשֶׁר אֵדַע מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים",
-        "riddle": "מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים",
+        "riddle": "וַיֹּאמֶר אֶל־מֶלֶךְ מוֹאָב יֵֽצֵא־נָא אָבִי וְאִמִּי אִתְּכֶם עַד אֲשֶׁר אֵדַע מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים",
         "speaker": "דָּוִד",
         "listener": "מֶלֶךְ מוֹאָב",
         "book": "שמואל א"
@@ -38,13 +40,362 @@
         }
       },
       "meta": {
-        "reason": "Contains a vivid declaration.",
-        "confidence": 0.9
+        "reason": "direct request",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 22,
         "start": 3,
         "end": 3
+      }
+    },
+    {
+      "id": "1-samuel-22-05-05",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the prophet Gad said unto David, Abide not in the hold; depart, and get thee into the land of Judah. Then David departed, and came into the forest of Hareth.",
+        "riddle": "Abide not in the hold; depart, and get thee into the land of Judah.",
+        "speaker": "Gad",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר גָּד הַנָּבִיא אֶל־דָּוִד לֹא תֵשֵׁב בַּמְּצוּדָה לֵךְ וּבָֽאתָ־לְּךָ אֶרֶץ יְהוּדָה וַיֵּלֶךְ דָּוִד וַיָּבֹא יַעַר חָֽרֶת",
+        "riddle": "לֹא תֵשֵׁב בַּמְּצוּדָה לֵךְ וּבָֽאתָ־לְּךָ אֶרֶץ יְהוּדָה וַיֵּלֶךְ דָּוִד וַיָּבֹא יַעַר",
+        "speaker": "גָּד הַנָּבִיא",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the prophet Gad said unto David, Abide not in the hold; depart, and get thee into the land of Judah. Then David departed, and came into the forest of Hareth."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר גָּד הַנָּבִיא אֶל־דָּוִד לֹא תֵשֵׁב בַּמְּצוּדָה לֵךְ וּבָֽאתָ־לְּךָ אֶרֶץ יְהוּדָה וַיֵּלֶךְ דָּוִד וַיָּבֹא יַעַר חָֽרֶת׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-22-07-07",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "Then Saul said unto his servants that stood about him, Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;",
+        "riddle": "Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;",
+        "speaker": "Saul",
+        "listener": "servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל לַֽעֲבָדָיו הַנִּצָּבִים עָלָיו שִׁמְעוּ־נָא בְּנֵי יְמִינִי גַּם־לְכֻלְּכֶם יִתֵּן בֶּן־יִשַׁי שָׂדוֹת וּכְרָמִים לְכֻלְּכֶם יָשִׂים שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאֽוֹת",
+        "riddle": "שִׁמְעוּ־נָא בְּנֵי יְמִינִי גַּם־לְכֻלְּכֶם יִתֵּן בֶּן־יִשַׁי שָׂדוֹת וּכְרָמִים לְכֻלְּכֶם יָשִׂים שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאֽוֹת",
+        "speaker": "שָׁאוּל",
+        "listener": "עֲבָדָיו",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Then Saul said unto his servants that stood about him, Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר שָׁאוּל לַֽעֲבָדָיו הַנִּצָּבִים עָלָיו שִׁמְעוּ־נָא בְּנֵי יְמִינִי גַּם־לְכֻלְּכֶם יִתֵּן בֶּן־יִשַׁי שָׂדוֹת וּכְרָמִים לְכֻלְּכֶם יָשִׂים שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-samuel-22-09-09",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9
+      },
+      "en": {
+        "quote": "Then answered Doeg the Edomite, which was set over the servants of Saul, and said, I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+        "riddle": "I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+        "speaker": "Doeg the Edomite",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן דֹּאֵג הָאֲדֹמִי וְהוּא נִצָּב עַל־עַבְדֵֽי־שָׁאוּל וַיֹּאמַר רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב",
+        "riddle": "רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב",
+        "speaker": "דֹּאֵג הָאֲדֹמִי",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Then answered Doeg the Edomite, which was set over the servants of Saul, and said, I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub."
+        },
+        "he": {
+          "9": "וַיַּעַן דֹּאֵג הָאֲדֹמִי וְהוּא נִצָּב עַל־עַבְדֵֽי־שָׁאוּל וַיֹּאמַר רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "1-samuel-22-12-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Saul said, Hear now, thou son of Ahitub. And he answered, Here I am, my lord.",
+        "riddle": "Hear now, thou son of Ahitub.",
+        "speaker": "Saul",
+        "listener": "Ahimelech",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב וַיֹּאמֶר הִנְנִי אֲדֹנִֽי",
+        "riddle": "שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב",
+        "speaker": "שָׁאוּל",
+        "listener": "בֶּן־אֲחִיטוּב",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Saul said, Hear now, thou son of Ahitub. And he answered, Here I am, my lord."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר שָׁאוּל שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב וַיֹּאמֶר הִנְנִי אֲדֹנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-samuel-22-13-13",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Saul said unto him, Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast inquired of God for him, that he should rise against me, to lie in wait, as at this day?",
+        "riddle": "Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast inquired of God for him, that he should rise against me, to lie in wait, as at this day?",
+        "speaker": "Saul",
+        "listener": "Ahimelech",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו שָׁאוּל לָמָּה קְשַׁרְתֶּם עָלַי אַתָּה וּבֶן־יִשָׁי בְּתִתְּךָ לוֹ לֶחֶם וְחֶרֶב וְשָׁאוֹל לוֹ בֵּֽאלֹהִים לָקוּם אֵלַי לְאֹרֵב כַּיּוֹם הַזֶּֽה",
+        "riddle": "לָמָּה קְשַׁרְתֶּם עָלַי אַתָּה וּבֶן־יִשָׁי בְּתִתְּךָ לוֹ לֶחֶם וְחֶרֶב וְשָׁאוֹל לוֹ בֵּֽאלֹהִים לָקוּם אֵלַי לְאֹרֵב כַּיּוֹם הַזֶּֽה",
+        "speaker": "שָׁאוּל",
+        "listener": "אַחִימֶלֶךְ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Saul said unto him, Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast inquired of God for him, that he should rise against me, to lie in wait, as at this day?"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֵלָיו שָׁאוּל לָמָּה קְשַׁרְתֶּם עָלַי אַתָּה וּבֶן־יִשָׁי בְּתִתְּךָ לוֹ לֶחֶם וְחֶרֶב וְשָׁאוֹל לוֹ בֵּֽאלֹהִים לָקוּם אֵלַי לְאֹרֵב כַּיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-22-14-14",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Then Ahimelech answered the king, and said, And who is so faithful among all thy servants as David, which is the king's son in law, and goeth at thy bidding, and is honourable in thine house?",
+        "riddle": "And who is so faithful among all thy servants as David, which is the king's son in law, and goeth at thy bidding, and is honourable in thine house?",
+        "speaker": "Ahimelech",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן אֲחִימֶלֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמַר וּמִי בְכָל־עֲבָדֶיךָ כְּדָוִד נֶאֱמָן וַחֲתַן הַמֶּלֶךְ וְסָר אֶל־מִשְׁמַעְתֶּךָ וְנִכְבָּד בְּבֵיתֶֽךָ",
+        "riddle": "וַיַּעַן אֲחִימֶלֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמַר וּמִי בְכָל־עֲבָדֶיךָ כְּדָוִד נֶאֱמָן וַחֲתַן הַמֶּלֶךְ וְסָר אֶל־מִשְׁמַעְתֶּךָ וְנִכְבָּד בְּבֵיתֶֽךָ",
+        "speaker": "אֲחִימֶלֶךְ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Then Ahimelech answered the king, and said, And who is so faithful among all thy servants as David, which is the king's son in law, and goeth at thy bidding, and is honourable in thine house?"
+        },
+        "he": {
+          "14": "וַיַּעַן אֲחִימֶלֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמַר וּמִי בְכָל־עֲבָדֶיךָ כְּדָוִד נֶאֱמָן וַחֲתַן הַמֶּלֶךְ וְסָר אֶל־מִשְׁמַעְתֶּךָ וְנִכְבָּד בְּבֵיתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-samuel-22-15-15-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Did I then begin to inquire of God for him? be it far from me: let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more.",
+        "riddle": "Did I then begin to inquire of God for him? be it far from me: let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more.",
+        "speaker": "Ahimelech",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל",
+        "riddle": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל",
+        "speaker": "אַחִימֶלֶךְ",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Did I then begin to inquire of God for him? be it far from me: let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more."
+        },
+        "he": {
+          "15": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct defense",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-22-15-15-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Did I then begin to inquire of God for him? be it far from me: let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more.",
+        "riddle": "let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more.",
+        "speaker": "servant",
+        "listener": "king",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל",
+        "riddle": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל",
+        "speaker": "עַבְדְּךָ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Did I then begin to inquire of God for him? be it far from me: let not the king impute any thing un to his servant, nor to all the house of my father: for thy servant knew nothing of all this, less or more."
+        },
+        "he": {
+          "15": "הַיּוֹם הַחִלֹּתִי לִשְׁאָל־לוֹ בֵאלֹהִים חָלִילָה לִּי אַל־יָשֵׂם הַמֶּלֶךְ בְּעַבְדּוֹ דָבָר בְּכָל־בֵּית אָבִי כִּי לֹֽא־יָדַע עַבְדְּךָ בְּכָל־זֹאת דָּבָר קָטֹן אוֹ גָדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "plea for mercy",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 15,
+        "end": 15
       }
     },
     {
@@ -55,18 +406,20 @@
         "book_he": "שמואל א",
         "chapter": 22,
         "quote_verse_start": 16,
-        "quote_verse_end": 16
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
       },
       "en": {
         "quote": "And the king said, Thou shalt surely die, Ahimelech, thou, and all thy father's house.",
-        "riddle": "And the king said, Thou shalt surely die, Ahimelech",
+        "riddle": "Thou shalt surely die, Ahimelech, thou, and all thy father's house.",
         "speaker": "king",
         "listener": "Ahimelech",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמֶר הַמֶּלֶךְ מוֹת תָּמוּת אֲחִימֶלֶךְ אַתָּה וְכָל־בֵּית אָבִֽיךָ",
-        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ מוֹת תָּמוּת אֲחִימֶלֶךְ",
+        "riddle": "מוֹת תָּמוּת אֲחִימֶלֶךְ אַתָּה וְכָל־בֵּית אָבִֽיךָ",
         "speaker": "הַמֶּלֶךְ",
         "listener": "אֲחִימֶלֶךְ",
         "book": "שמואל א"
@@ -80,13 +433,57 @@
         }
       },
       "meta": {
-        "reason": "Vivid death threat",
+        "reason": "death sentence",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 22,
         "start": 16,
         "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-22-17-17",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And the king said unto the footmen that stood about him, Turn, and slay the priests of the LORD; because their hand also is with David, and because they knew when he fled, and did not shew it to me. But the servants of the king would not put forth their hand to fall upon the priests of the LORD.",
+        "riddle": "Turn, and slay the priests of the LORD; because their hand also is with David, and because they knew when he fled, and did not shew it to me.",
+        "speaker": "king",
+        "listener": "footmen",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ לָרָצִים הַנִּצָּבִים עָלָיו סֹבּוּ וְהָמִיתוּ כֹּהֲנֵי יְהוָה כִּי גַם־יָדָם עִם־דָּוִד וְכִי יָֽדְעוּ כִּֽי־בֹרֵחַ הוּא וְלֹא גָלוּ אֶת־אָזְנִי וְלֹֽא־אָבוּ עַבְדֵי הַמֶּלֶךְ לִשְׁלֹחַ אֶת־יָדָם לִפְגֹעַ בְּכֹהֲנֵי יְהוָֽה",
+        "riddle": "סֹבּוּ וְהָמִיתוּ כֹּהֲנֵי יְהוָה כִּי גַם־יָדָם עִם־דָּוִד וְכִי יָֽדְעוּ כִּֽי־בֹרֵחַ הוּא וְלֹא גָלוּ אֶת־אָזְנִי וְלֹֽא־אָבוּ עַבְדֵי הַמֶּלֶךְ לִשְׁלֹחַ אֶת־יָדָם לִפְגֹעַ בְּכֹהֲנֵי",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "לָרָצִים הַנִּצָּבִים עָלָיו",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the king said unto the footmen that stood about him, Turn, and slay the priests of the LORD; because their hand also is with David, and because they knew when he fled, and did not shew it to me. But the servants of the king would not put forth their hand to fall upon the priests of the LORD."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר הַמֶּלֶךְ לָרָצִים הַנִּצָּבִים עָלָיו סֹבּוּ וְהָמִיתוּ ׀ כֹּהֲנֵי יְהוָה כִּי גַם־יָדָם עִם־דָּוִד וְכִי יָֽדְעוּ כִּֽי־בֹרֵחַ הוּא וְלֹא גָלוּ אֶת־אָזְנִי וְלֹֽא־אָבוּ עַבְדֵי הַמֶּלֶךְ לִשְׁלֹחַ אֶת־יָדָם לִפְגֹעַ בְּכֹהֲנֵי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command to kill",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 17,
+        "end": 17
       }
     },
     {
@@ -97,18 +494,20 @@
         "book_he": "שמואל א",
         "chapter": 22,
         "quote_verse_start": 18,
-        "quote_verse_end": 18
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And the king said to Doeg, Turn thou, and fall upon the priests. And Doeg the Edomite turned, and he fell upon the priests, and slew on that day fourscore and five persons that did wear a linen ephod.",
-        "riddle": "And the king said to Doeg, Turn thou, and",
+        "riddle": "Turn thou, and fall upon the priests.",
         "speaker": "king",
         "listener": "Doeg",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמֶר הַמֶּלֶךְ לְדוֹאֵג סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים וַיִּסֹּב דּוֹאֵג הָאֲדֹמִי וַיִּפְגַּע־הוּא בַּכֹּהֲנִים וַיָּמֶת בַּיּוֹם הַהוּא שְׁמֹנִים וַחֲמִשָּׁה אִישׁ נֹשֵׂא אֵפוֹד בָּֽד",
-        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ לְדוֹאֵג סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים",
+        "riddle": "סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים",
         "speaker": "הַמֶּלֶךְ",
         "listener": "דּוֹאֵג",
         "book": "שמואל א"
@@ -122,21 +521,114 @@
         }
       },
       "meta": {
-        "reason": "Contains direct command",
-        "confidence": 0.9
+        "reason": "direct command",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 22,
         "start": 18,
         "end": 18
       }
+    },
+    {
+      "id": "1-samuel-22-22-22",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house.",
+        "riddle": "I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house.",
+        "speaker": "David",
+        "listener": "Abiathar",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ",
+        "riddle": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ",
+        "speaker": "דָּוִד",
+        "listener": "אֶבְיָתָר",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "1-samuel-22-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.",
+        "riddle": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.",
+        "speaker": "David",
+        "listener": "Abiathar",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי",
+        "riddle": "שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי",
+        "speaker": "דָּוִד",
+        "listener": "אֶבְיָתָר",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house.",
+          "23": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ׃",
+          "23": "שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "command and warning",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 23,
+        "end": 23
+      }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 3,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 15,
+    "llm_call_count": 19,
+    "spec_count": 15,
+    "kept_count": 14,
+    "issue_count": 1
   }
 }

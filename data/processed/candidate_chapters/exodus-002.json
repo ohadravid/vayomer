@@ -19,14 +19,14 @@
         "quote": "And when she had opened it, she saw the child: and, behold, the babe wept. And she had compassion on him, and said, This is one of the Hebrews' children.",
         "riddle": "This is one of the Hebrews' children.",
         "speaker": "Pharaoh's daughter",
-        "listener": "None",
+        "listener": "maid",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַתִּפְתַּח וַתִּרְאֵהוּ אֶת־הַיֶּלֶד וְהִנֵּה־נַעַר בֹּכֶה וַתַּחְמֹל עָלָיו וַתֹּאמֶר מִיַּלְדֵי הָֽעִבְרִים זֶֽה",
         "riddle": "מִיַּלְדֵי הָֽעִבְרִים זֶֽה",
-        "speaker": "בת פרעה",
-        "listener": "אין",
+        "speaker": "בת פַּרְעֹה",
+        "listener": "שִׁפְחָה",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -38,13 +38,157 @@
         }
       },
       "meta": {
-        "reason": "Contains direct speech declaration.",
-        "confidence": 1.0
+        "reason": "vivid declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 2,
         "start": 6,
         "end": 6
+      }
+    },
+    {
+      "id": "exodus-02-07-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Then said his sister to Pharaoh's daughter, Shall I go and call to thee a nurse of the Hebrew women, that she may nurse the child for thee?",
+        "riddle": "Shall I go and call to thee a nurse of the Hebrew women, that she may nurse the child for thee?",
+        "speaker": "sister",
+        "listener": "Pharaoh's daughter",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר אֲחֹתוֹ אֶל־בַּת־פַּרְעֹה הַאֵלֵךְ וְקָרָאתִי לָךְ אִשָּׁה מֵינֶקֶת מִן הָעִבְרִיֹּת וְתֵינִק לָךְ אֶת־הַיָּֽלֶד",
+        "riddle": "וַתֹּאמֶר אֲחֹתוֹ אֶל־בַּת־פַּרְעֹה הַאֵלֵךְ וְקָרָאתִי לָךְ אִשָּׁה מֵינֶקֶת מִן הָעִבְרִיֹּת וְתֵינִק לָךְ אֶת־הַיָּֽלֶד",
+        "speaker": "אֲחֹתוֹ",
+        "listener": "בַּת־פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And his sister stood afar off, to wit what would be done to him.",
+          "5": "And the daughter of Pharaoh came down to wash herself at the river; and her maidens walked along by the river's side; and when she saw the ark among the flags, she sent her maid to fetch it.",
+          "7": "Then said his sister to Pharaoh's daughter, Shall I go and call to thee a nurse of the Hebrew women, that she may nurse the child for thee?"
+        },
+        "he": {
+          "4": "וַתֵּתַצַּב אֲחֹתוֹ מֵרָחֹק לְדֵעָה מַה־יֵּעָשֶׂה לֽוֹ׃",
+          "5": "וַתֵּרֶד בַּת־פַּרְעֹה לִרְחֹץ עַל־הַיְאֹר וְנַעֲרֹתֶיהָ הֹלְכֹת עַל־יַד הַיְאֹר וַתֵּרֶא אֶת־הַתֵּבָה בְּתוֹךְ הַסּוּף וַתִּשְׁלַח אֶת־אֲמָתָהּ וַתִּקָּחֶֽהָ",
+          "7": "וַתֹּאמֶר אֲחֹתוֹ אֶל־בַּת־פַּרְעֹה הַאֵלֵךְ וְקָרָאתִי לָךְ אִשָּׁה מֵינֶקֶת מִן הָעִבְרִיֹּת וְתֵינִק לָךְ אֶת־הַיָּֽלֶד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "exodus-02-08-08",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Pharaoh's daughter said to her, Go. And the maid went and called the child's mother.",
+        "riddle": "Go. And the maid went and called the child's mother.",
+        "speaker": "Pharaoh's daughter",
+        "listener": "sister",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַתֹּֽאמֶר־לָהּ בַּת־פַּרְעֹה לֵכִי וַתֵּלֶךְ הָֽעַלְמָה וַתִּקְרָא אֶת־אֵם הַיָּֽלֶד",
+        "riddle": "לֵכִי וַתֵּלֶךְ הָֽעַלְמָה וַתִּקְרָא אֶת־אֵם הַיָּֽלֶד",
+        "speaker": "בַּת־פַּרְעֹה",
+        "listener": "הָֽעַלְמָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the daughter of Pharaoh came down to wash herself at the river; and her maidens walked along by the river's side; and when she saw the ark among the flags, she sent her maid to fetch it.",
+          "7": "Then said his sister to Pharaoh's daughter, Shall I go and call to thee a nurse of the Hebrew women, that she may nurse the child for thee?",
+          "8": "And Pharaoh's daughter said to her, Go. And the maid went and called the child's mother."
+        },
+        "he": {
+          "5": "וַתֵּרֶד בַּת־פַּרְעֹה לִרְחֹץ עַל־הַיְאֹר וְנַעֲרֹתֶיהָ הֹלְכֹת עַל־יַד הַיְאֹר וַתֵּרֶא אֶת־הַתֵּבָה בְּתוֹךְ הַסּוּף וַתִּשְׁלַח אֶת־אֲמָתָהּ וַתִּקָּחֶֽהָ",
+          "7": "וַתֹּאמֶר אֲחֹתוֹ אֶל־בַּת־פַּרְעֹה הַאֵלֵךְ וְקָרָאתִי לָךְ אִשָּׁה מֵינֶקֶת מִן הָעִבְרִיֹּת וְתֵינִק לָךְ אֶת־הַיָּֽלֶד׃",
+          "8": "וַתֹּֽאמֶר־לָהּ בַּת־פַּרְעֹה לֵכִי וַתֵּלֶךְ הָֽעַלְמָה וַתִּקְרָא אֶת־אֵם הַיָּֽלֶד׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "exodus-02-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Pharaoh's daughter said unto her, Take this child away, and nurse it for me, and I will give thee thy wages. And the woman took the child, and nursed it.",
+        "riddle": "Take this child away, and nurse it for me, and I will give thee thy wages.",
+        "speaker": "Pharaoh's daughter",
+        "listener": "child's mother",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהּ בַּת־פַּרְעֹה הֵילִיכִי אֶת־הַיֶּלֶד הַזֶּה וְהֵינִקִהוּ לִי וַאֲנִי אֶתֵּן אֶת־שְׂכָרֵךְ וַתִּקַּח הָאִשָּׁה הַיֶּלֶד וַתְּנִיקֵֽהוּ",
+        "riddle": "הֵילִיכִי אֶת־הַיֶּלֶד הַזֶּה וְהֵינִקִהוּ לִי וַאֲנִי אֶתֵּן אֶת־שְׂכָרֵךְ וַתִּקַּח הָאִשָּׁה הַיֶּלֶד וַתְּנִיקֵֽהוּ",
+        "speaker": "בַּת־פַּרְעֹה",
+        "listener": "הָאִשָּׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the daughter of Pharaoh came down to wash herself at the river; and her maidens walked along by the river's side; and when she saw the ark among the flags, she sent her maid to fetch it.",
+          "8": "And Pharaoh's daughter said to her, Go. And the maid went and called the child's mother.",
+          "9": "And Pharaoh's daughter said unto her, Take this child away, and nurse it for me, and I will give thee thy wages. And the woman took the child, and nursed it."
+        },
+        "he": {
+          "5": "וַתֵּרֶד בַּת־פַּרְעֹה לִרְחֹץ עַל־הַיְאֹר וְנַעֲרֹתֶיהָ הֹלְכֹת עַל־יַד הַיְאֹר וַתֵּרֶא אֶת־הַתֵּבָה בְּתוֹךְ הַסּוּף וַתִּשְׁלַח אֶת־אֲמָתָהּ וַתִּקָּחֶֽהָ",
+          "8": "וַתֹּֽאמֶר־לָהּ בַּת־פַּרְעֹה לֵכִי וַתֵּלֶךְ הָֽעַלְמָה וַתִּקְרָא אֶת־אֵם הַיָּֽלֶד׃",
+          "9": "וַתֹּאמֶר לָהּ בַּת־פַּרְעֹה הֵילִיכִי אֶת־הַיֶּלֶד הַזֶּה וְהֵינִקִהוּ לִי וַאֲנִי אֶתֵּן אֶת־שְׂכָרֵךְ וַתִּקַּח הָאִשָּׁה הַיֶּלֶד וַתְּנִיקֵֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 9,
+        "end": 9
       }
     },
     {
@@ -61,14 +205,14 @@
         "quote": "And when he went out the second day, behold, two men of the Hebrews strove together: and he said to him that did the wrong, Wherefore smitest thou thy fellow?",
         "riddle": "Wherefore smitest thou thy fellow?",
         "speaker": "Moses",
-        "listener": "Wrongdoer",
+        "listener": "Hebrew man",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיֵּצֵא בַּיּוֹם הַשֵּׁנִי וְהִנֵּה שְׁנֵֽי־אֲנָשִׁים עִבְרִים נִצִּים וַיֹּאמֶר לָֽרָשָׁע לָמָּה תַכֶּה רֵעֶֽךָ",
         "riddle": "לָמָּה תַכֶּה רֵעֶֽךָ",
-        "speaker": "משה",
-        "listener": "עושה הרע",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָרָשָׁע",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -80,13 +224,97 @@
         }
       },
       "meta": {
-        "reason": "Direct question/confrontation",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 2,
         "start": 13,
         "end": 13
+      }
+    },
+    {
+      "id": "exodus-02-14-14-1",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known.",
+        "riddle": "Who made thee a prince and a judge over us?",
+        "speaker": "Hebrew man",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מִי שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת־הַמִּצְרִי וַיִּירָא מֹשֶׁה וַיֹּאמַר אָכֵן נוֹדַע הַדָּבָֽר",
+        "riddle": "מִי שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת",
+        "speaker": "אִישׁ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר מִי שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת־הַמִּצְרִי וַיִּירָא מֹשֶׁה וַיֹּאמַר אָכֵן נוֹדַע הַדָּבָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "exodus-02-14-14-2",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known.",
+        "riddle": "intendest thou to kill me, as thou killedst the Egyptian?",
+        "speaker": "Hebrew man",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מִי שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת־הַמִּצְרִי וַיִּירָא מֹשֶׁה וַיֹּאמַר אָכֵן נוֹדַע הַדָּבָֽר",
+        "riddle": "שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת־הַמִּצְרִי",
+        "speaker": "אִישׁ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, Who made thee a prince and a judge over us? intendest thou to kill me, as thou killedst the Egyptian? And Moses feared, and said, Surely this thing is known."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר מִי שָֽׂמְךָ לְאִישׁ שַׂר וְשֹׁפֵט עָלֵינוּ הַלְהָרְגֵנִי אַתָּה אֹמֵר כַּאֲשֶׁר הָרַגְתָּ אֶת־הַמִּצְרִי וַיִּירָא מֹשֶׁה וַיֹּאמַר אָכֵן נוֹדַע הַדָּבָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
       }
     },
     {
@@ -97,7 +325,9 @@
         "book_he": "שמות",
         "chapter": 2,
         "quote_verse_start": 18,
-        "quote_verse_end": 18
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And when they came to Reuel their father, he said, How is it that ye are come so soon to day?",
@@ -110,7 +340,7 @@
         "quote": "וַתָּבֹאנָה אֶל־רְעוּאֵל אֲבִיהֶן וַיֹּאמֶר מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם",
         "riddle": "מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם",
         "speaker": "רְעוּאֵל",
-        "listener": "בנותיהם",
+        "listener": "בְּנוֹת",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -122,7 +352,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question from Reuel",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -130,13 +360,106 @@
         "start": 18,
         "end": 18
       }
+    },
+    {
+      "id": "exodus-02-19-19",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock.",
+        "riddle": "An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock.",
+        "speaker": "daughters",
+        "listener": "Reuel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַתֹּאמַרְןָ אִישׁ מִצְרִי הִצִּילָנוּ מִיַּד הָרֹעִים וְגַם־דָּלֹה דָלָה לָנוּ וַיַּשְׁקְ אֶת־הַצֹּֽאן",
+        "riddle": "וַתֹּאמַרְןָ אִישׁ מִצְרִי הִצִּילָנוּ מִיַּד הָרֹעִים וְגַם־דָּלֹה דָלָה לָנוּ וַיַּשְׁקְ אֶת־הַצֹּֽאן",
+        "speaker": "בְּנוֹת רְעוּאֵל",
+        "listener": "רְעוּאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And when they came to Reuel their father, he said, How is it that ye are come so soon to day?",
+          "19": "And they said, An Egyptian delivered us out of the hand of the shepherds, and also drew water enough for us, and watered the flock."
+        },
+        "he": {
+          "18": "וַתָּבֹאנָה אֶל־רְעוּאֵל אֲבִיהֶן וַיֹּאמֶר מַדּוּעַ מִהַרְתֶּן בֹּא הַיּֽוֹם׃",
+          "19": "וַתֹּאמַרְןָ אִישׁ מִצְרִי הִצִּילָנוּ מִיַּד הָרֹעִים וְגַם־דָּלֹה דָלָה לָנוּ וַיַּשְׁקְ אֶת־הַצֹּֽאן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "exodus-02-20-20",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 2,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And he said unto his daughters, And where is he? why is it that ye have left the man? call him, that he may eat bread.",
+        "riddle": "And where is he? why is it that ye have left the man? call him, that he may eat bread.",
+        "speaker": "Reuel",
+        "listener": "daughters",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בְּנֹתָיו וְאַיּוֹ לָמָּה זֶּה עֲזַבְתֶּן אֶת־הָאִישׁ קִרְאֶן לוֹ וְיֹאכַל לָֽחֶם",
+        "riddle": "וַיֹּאמֶר אֶל־בְּנֹתָיו וְאַיּוֹ לָמָּה זֶּה עֲזַבְתֶּן אֶת־הָאִישׁ קִרְאֶן לוֹ וְיֹאכַל לָֽחֶם",
+        "speaker": "רעואל",
+        "listener": "בְּנֹתָיו",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And he said unto his daughters, And where is he? why is it that ye have left the man? call him, that he may eat bread."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר אֶל־בְּנֹתָיו וְאַיּוֹ לָמָּה זֶּה עֲזַבְתֶּן אֶת־הָאִישׁ קִרְאֶן לוֹ וְיֹאכַל לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "series of questions/commands",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 20,
+        "end": 20
+      }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 3,
-    "issue_count": 13
+    "llm_window_count": 4,
+    "projection_llm_count": 10,
+    "llm_call_count": 14,
+    "spec_count": 10,
+    "kept_count": 10,
+    "issue_count": 3
   }
 }

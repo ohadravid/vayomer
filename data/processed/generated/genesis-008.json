@@ -1,0 +1,89 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 8,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-08-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 8,
+        "quote_verse_start": 15,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And God spake unto Noah, saying, Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee. Bring forth with thee every living thing that is with thee, of all flesh, both of fowl, and of cattle, and of every creeping thing that creepeth upon the earth; that they may breed abundantly in the earth, and be fruitful, and multiply upon the earth.",
+        "riddle": "Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "cattle",
+        "bonus_hint": {
+          "quote": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֱלֹהִים אֶל־נֹחַ לֵאמֹֽר צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ כָּל־הַחַיָּה אֲשֶֽׁר־אִתְּךָ מִכָּל־בָּשָׂר בָּעוֹף וּבַבְּהֵמָה וּבְכָל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ הַיְצֵא אִתָּךְ וְשָֽׁרְצוּ בָאָרֶץ וּפָרוּ וְרָבוּ עַל־הָאָֽרֶץ",
+        "riddle": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מִכָּל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהֹוָה אֱלֹהִים אֶֽל־הַנָּחָשׁ כִּי עָשִׂיתָ זֹּאת אָרוּר אַתָּה מִכָּל־הַבְּהֵמָה וּמִכֹּל חַיַּת הַשָּׂדֶה עַל־גְּחֹנְךָ תֵלֵךְ וְעָפָר תֹּאכַל כָּל־יְמֵי חַיֶּֽיךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 3,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And God spake unto Noah, saying,",
+          "16": "Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.",
+          "17": "Bring forth with thee every living thing that is with thee, of all flesh, both of fowl, and of cattle, and of every creeping thing that creepeth upon the earth; that they may breed abundantly in the earth, and be fruitful, and multiply upon the earth."
+        },
+        "he": {
+          "15": "וַיְדַבֵּר אֱלֹהִים אֶל־נֹחַ לֵאמֹֽר׃",
+          "16": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ׃",
+          "17": "כָּל־הַחַיָּה אֲשֶֽׁר־אִתְּךָ מִכָּל־בָּשָׂר בָּעוֹף וּבַבְּהֵמָה וּבְכָל־הָרֶמֶשׂ הָרֹמֵשׂ עַל־הָאָרֶץ הַיְצֵא אִתָּךְ וְשָֽׁרְצוּ בָאָרֶץ וּפָרוּ וְרָבוּ עַל־הָאָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 15,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

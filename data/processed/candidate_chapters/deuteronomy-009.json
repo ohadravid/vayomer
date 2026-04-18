@@ -13,20 +13,22 @@
         "book_he": "דברים",
         "chapter": 9,
         "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
       },
       "en": {
         "quote": "And the LORD said unto me, Arise, get thee down quickly from hence; for thy people which thou hast brought forth out of Egypt have corrupted themselves; they are quickly turned aside out of the way which I commanded them; they have made them a molten image.",
-        "riddle": "And the LORD said unto me, Arise, get thee down quickly",
-        "speaker": "LORD",
+        "riddle": "Arise, get thee down quickly from hence; for thy people which thou hast brought forth out of Egypt have corrupted themselves; they are quickly turned aside out of the way which I commanded them; they have made them a molten image.",
+        "speaker": "the LORD",
         "listener": "Moses",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרָיִם סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם מַסֵּכָֽה",
-        "riddle": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה",
+        "riddle": "וַיֹּאמֶר יְהוָה אֵלַי קוּם רֵד מַהֵר מִזֶּה כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הוֹצֵאתָ מִמִּצְרָיִם סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם מַסֵּכָֽה",
         "speaker": "יְהוָה",
-        "listener": "משה",
+        "listener": "מֹשֶׁה",
         "book": "דברים"
       },
       "raw_quote_source": {
@@ -38,21 +40,285 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct command",
-        "confidence": 0.9
+        "reason": "direct command and declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 9,
         "start": 12,
         "end": 12
       }
+    },
+    {
+      "id": "deuteronomy-09-13-13",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13
+      },
+      "en": {
+        "quote": "Furthermore the LORD spake unto me, saying, I have seen this people, and, behold, it is a stiffnecked people:",
+        "riddle": "I have seen this people, and, behold, it is a stiffnecked people:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֵלַי לֵאמֹר רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף הֽוּא",
+        "riddle": "רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Furthermore the LORD spake unto me, saying, I have seen this people, and, behold, it is a stiffnecked people:"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֵלַי לֵאמֹר רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "deuteronomy-09-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And I looked, and, behold, ye had sinned against the LORD your God, and had made you a molten calf: ye had turned aside quickly out of the way which the LORD had commanded you.",
+        "riddle": "ye had sinned against the LORD your God, and had made you a molten calf",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וָאֵרֶא וְהִנֵּה חֲטָאתֶם לַיהוָה אֱלֹֽהֵיכֶם עֲשִׂיתֶם לָכֶם עֵגֶל מַסֵּכָה סַרְתֶּם מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר־צִוָּה יְהוָה אֶתְכֶֽם",
+        "riddle": "חֲטָאתֶם לַיהוָה אֱלֹֽהֵיכֶם עֲשִׂיתֶם לָכֶם עֵגֶל מַסֵּכָה סַרְתֶּם מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר־צִוָּה",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And I looked, and, behold, ye had sinned against the LORD your God, and had made you a molten calf: ye had turned aside quickly out of the way which the LORD had commanded you."
+        },
+        "he": {
+          "16": "וָאֵרֶא וְהִנֵּה חֲטָאתֶם לַיהוָה אֱלֹֽהֵיכֶם עֲשִׂיתֶם לָכֶם עֵגֶל מַסֵּכָה סַרְתֶּם מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר־צִוָּה יְהוָה אֶתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of sin",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "deuteronomy-09-23-23",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "Likewise when the LORD sent you from Kadesh-barnea, saying, Go up and possess the land which I have given you; then ye rebelled against the commandment of the LORD your God, and ye believed him not, nor hearkened to his voice.",
+        "riddle": "Go up and possess the land which I have given you",
+        "speaker": "the LORD",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וּבִשְׁלֹחַ יְהוָה אֶתְכֶם מִקָּדֵשׁ בַּרְנֵעַ לֵאמֹר עֲלוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נָתַתִּי לָכֶם וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶם וְלֹא הֶֽאֱמַנְתֶּם לוֹ וְלֹא שְׁמַעְתֶּם בְּקֹלֽוֹ",
+        "riddle": "עֲלוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נָתַתִּי לָכֶם וַתַּמְרוּ אֶת־פִּי יְהוָה",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Likewise when the LORD sent you from Kadesh-barnea, saying, Go up and possess the land which I have given you; then ye rebelled against the commandment of the LORD your God, and ye believed him not, nor hearkened to his voice."
+        },
+        "he": {
+          "23": "וּבִשְׁלֹחַ יְהוָה אֶתְכֶם מִקָּדֵשׁ בַּרְנֵעַ לֵאמֹר עֲלוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נָתַתִּי לָכֶם וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶם וְלֹא הֶֽאֱמַנְתֶּם לוֹ וְלֹא שְׁמַעְתֶּם בְּקֹלֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "deuteronomy-09-26-26",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "I prayed therefore unto the LORD, and said, O Lord GOD, destroy not thy people and thine inheritance, which thou hast redeemed through thy greatness, which thou hast brought forth out of Egypt with a mighty hand.",
+        "riddle": "O Lord GOD, destroy not thy people and thine inheritance",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וָאֶתְפַּלֵּל אֶל־יְהוָה וָאֹמַר אֲדֹנָי יְהוִה אַל־תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר־הוֹצֵאתָ מִמִּצְרַיִם בְּיָד חֲזָקָֽה",
+        "riddle": "אֲדֹנָי יְהוִה אַל־תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "I prayed therefore unto the LORD, and said, O Lord GOD, destroy not thy people and thine inheritance, which thou hast redeemed through thy greatness, which thou hast brought forth out of Egypt with a mighty hand."
+        },
+        "he": {
+          "26": "וָאֶתְפַּלֵּל אֶל־יְהוָה וָאֹמַר אֲדֹנָי יְהוִה אַל־תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר־הוֹצֵאתָ מִמִּצְרַיִם בְּיָד חֲזָקָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "deuteronomy-09-27-27",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Remember thy servants, Abraham, Isaac, and Jacob; look not unto the stubbornness of this people, nor to their wickedness, nor to their sin:",
+        "riddle": "Remember thy servants, Abraham, Isaac, and Jacob",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "זְכֹר לַעֲבָדֶיךָ לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב אַל־תֵּפֶן אֶל־קְשִׁי הָעָם הַזֶּה וְאֶל־רִשְׁעוֹ וְאֶל־חַטָּאתֽוֹ",
+        "riddle": "זְכֹר לַעֲבָדֶיךָ לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "I prayed therefore unto the LORD, and said, O Lord GOD, destroy not thy people and thine inheritance, which thou hast redeemed through thy greatness, which thou hast brought forth out of Egypt with a mighty hand.",
+          "27": "Remember thy servants, Abraham, Isaac, and Jacob; look not unto the stubbornness of this people, nor to their wickedness, nor to their sin:"
+        },
+        "he": {
+          "26": "וָאֶתְפַּלֵּל אֶל־יְהוָה וָאֹמַר אֲדֹנָי יְהוִה אַל־תַּשְׁחֵת עַמְּךָ וְנַחֲלָתְךָ אֲשֶׁר פָּדִיתָ בְּגָדְלֶךָ אֲשֶׁר־הוֹצֵאתָ מִמִּצְרַיִם בְּיָד חֲזָקָֽה׃",
+          "27": "זְכֹר לַעֲבָדֶיךָ לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב אַל־תֵּפֶן אֶל־קְשִׁי הָעָם הַזֶּה וְאֶל־רִשְׁעוֹ וְאֶל־חַטָּאתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "deuteronomy-09-28-28",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 9,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "Lest the land whence thou broughtest us out say, Because the LORD was not able to bring them into the land which he promised them, and because he hated them, he hath brought them out to slay them in the wilderness.",
+        "riddle": "Lest the land whence thou broughtest us out say, Because the LORD was not able to bring them into the land which he promised them, and because he hated them, he hath brought them out to slay them in the wilderness.",
+        "speaker": "Moses",
+        "listener": "God",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "פֶּן־יֹאמְרוּ הָאָרֶץ אֲשֶׁר הוֹצֵאתָנוּ מִשָּׁם מִבְּלִי יְכֹלֶת יְהוָה לַהֲבִיאָם אֶל־הָאָרֶץ אֲשֶׁר־דִּבֶּר לָהֶם וּמִשִּׂנְאָתוֹ אוֹתָם הוֹצִיאָם לַהֲמִתָם בַּמִּדְבָּֽר",
+        "riddle": "פֶּן־יֹאמְרוּ הָאָרֶץ אֲשֶׁר הוֹצֵאתָנוּ מִשָּׁם מִבְּלִי יְכֹלֶת יְהוָה לַהֲבִיאָם אֶל־הָאָרֶץ אֲשֶׁר־דִּבֶּר לָהֶם וּמִשִּׂנְאָתוֹ אוֹתָם הוֹצִיאָם לַהֲמִתָם בַּמִּדְבָּֽר",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Lest the land whence thou broughtest us out say, Because the LORD was not able to bring them into the land which he promised them, and because he hated them, he hath brought them out to slay them in the wilderness."
+        },
+        "he": {
+          "28": "פֶּן־יֹאמְרוּ הָאָרֶץ אֲשֶׁר הוֹצֵאתָנוּ מִשָּׁם מִבְּלִי יְכֹלֶת יְהוָה לַהֲבִיאָם אֶל־הָאָרֶץ אֲשֶׁר־דִּבֶּר לָהֶם וּמִשִּׂנְאָתוֹ אוֹתָם הוֹצִיאָם לַהֲמִתָם בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of concern",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 28,
+        "end": 28
+      }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 1,
-    "issue_count": 17
+    "llm_window_count": 5,
+    "projection_llm_count": 9,
+    "llm_call_count": 14,
+    "spec_count": 9,
+    "kept_count": 7,
+    "issue_count": 2
   }
 }

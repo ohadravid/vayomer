@@ -4,12 +4,488 @@
   "book_he": "שמואל ב",
   "chapter": 11,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-11-03-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And David sent and inquired after the woman. And one said, Is not this Bath-sheba, the daughter of Eliam, the wife of Uriah the Hittite?",
+        "riddle": "Is not this Bath-sheba, the daughter of Eliam, the wife of Uriah the Hittite?",
+        "speaker": "messenger",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח דָּוִד וַיִּדְרֹשׁ לָֽאִשָּׁה וַיֹּאמֶר הֲלוֹא־זֹאת בַּת־שֶׁבַע בַּת־אֱלִיעָם אֵשֶׁת אוּרִיָּה הַחִתִּֽי",
+        "riddle": "וַיֹּאמֶר הֲלוֹא־זֹאת בַּת־שֶׁבַע בַּת־אֱלִיעָם אֵשֶׁת אוּרִיָּה הַחִתִּֽי",
+        "speaker": "אִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And David sent and inquired after the woman. And one said, Is not this Bath-sheba, the daughter of Eliam, the wife of Uriah the Hittite?"
+        },
+        "he": {
+          "3": "וַיִּשְׁלַח דָּוִד וַיִּדְרֹשׁ לָֽאִשָּׁה וַיֹּאמֶר הֲלוֹא־זֹאת בַּת־שֶׁבַע בַּת־אֱלִיעָם אֵשֶׁת אוּרִיָּה הַחִתִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-11-05-05",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And the woman conceived, and sent and told David, and said, I am with child.",
+        "riddle": "I am with child.",
+        "speaker": "Bathsheba",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתַּהַר הָֽאִשָּׁה וַתִּשְׁלַח וַתַּגֵּד לְדָוִד וַתֹּאמֶר הָרָה אָנֹֽכִי",
+        "riddle": "הָרָה אָנֹֽכִי",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "דָוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the woman conceived, and sent and told David, and said, I am with child."
+        },
+        "he": {
+          "5": "וַתַּהַר הָֽאִשָּׁה וַתִּשְׁלַח וַתַּגֵּד לְדָוִד וַתֹּאמֶר הָרָה אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-samuel-11-06-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And David sent to Joab, saying, Send me Uriah the Hittite. And Joab sent Uriah to David.",
+        "riddle": "Send me Uriah the Hittite.",
+        "speaker": "David",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח דָּוִד אֶל־יוֹאָב שְׁלַח אֵלַי אֶת־אֽוּרִיָּה הַחִתִּי וַיִּשְׁלַח יוֹאָב אֶת־אֽוּרִיָּה אֶל־דָּוִֽד",
+        "riddle": "שְׁלַח אֵלַי אֶת־אֽוּרִיָּה הַחִתִּי",
+        "speaker": "דָּוִד",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And David sent to Joab, saying, Send me Uriah the Hittite. And Joab sent Uriah to David."
+        },
+        "he": {
+          "6": "וַיִּשְׁלַח דָּוִד אֶל־יוֹאָב שְׁלַח אֵלַי אֶת־אֽוּרִיָּה הַחִתִּי וַיִּשְׁלַח יוֹאָב אֶת־אֽוּרִיָּה אֶל־דָּוִֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-11-08-08",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And David said to Uriah, Go down to thy house, and wash thy feet. And Uriah departed out of the king's house, and there followed him a mess of meat from the king.",
+        "riddle": "Go down to thy house, and wash thy feet.",
+        "speaker": "David",
+        "listener": "Uriah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לְאוּרִיָּה רֵד לְבֵיתְךָ וּרְחַץ רַגְלֶיךָ וַיֵּצֵא אֽוּרִיָּה מִבֵּית הַמֶּלֶךְ וַתֵּצֵא אַחֲרָיו מַשְׂאַת הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר דָּוִד לְאוּרִיָּה רֵד לְבֵיתְךָ וּרְחַץ רַגְלֶיךָ",
+        "speaker": "דָּוִד",
+        "listener": "אֽוּרִיָּה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David said to Uriah, Go down to thy house, and wash thy feet. And Uriah departed out of the king's house, and there followed him a mess of meat from the king."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר דָּוִד לְאוּרִיָּה רֵד לְבֵיתְךָ וּרְחַץ רַגְלֶיךָ וַיֵּצֵא אֽוּרִיָּה מִבֵּית הַמֶּלֶךְ וַתֵּצֵא אַחֲרָיו מַשְׂאַת הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-11-10-10",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And when they had told David, saying, Uriah went not down unto his house, David said unto Uriah, Camest thou not from thy journey? why then didst thou not go down unto thine house?",
+        "riddle": "Camest thou not from thy journey? why then didst thou not go down unto thine house?",
+        "speaker": "David",
+        "listener": "Uriah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּגִּדוּ לְדָוִד לֵאמֹר לֹֽא־יָרַד אוּרִיָּה אֶל־בֵּיתוֹ וַיֹּאמֶר דָּוִד אֶל־אוּרִיָּה הֲלוֹא מִדֶּרֶךְ אַתָּה בָא מַדּוּעַ לֹֽא־יָרַדְתָּ אֶל־בֵּיתֶֽךָ",
+        "riddle": "הֲלוֹא מִדֶּרֶךְ אַתָּה בָא מַדּוּעַ לֹֽא־יָרַדְתָּ אֶל־בֵּיתֶֽך",
+        "speaker": "דָּוִד",
+        "listener": "אוּרִיָּה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And when they had told David, saying, Uriah went not down unto his house, David said unto Uriah, Camest thou not from thy journey? why then didst thou not go down unto thine house?"
+        },
+        "he": {
+          "10": "וַיַּגִּדוּ לְדָוִד לֵאמֹר לֹֽא־יָרַד אוּרִיָּה אֶל־בֵּיתוֹ וַיֹּאמֶר דָּוִד אֶל־אוּרִיָּה הֲלוֹא מִדֶּרֶךְ אַתָּה בָא מַדּוּעַ לֹֽא־יָרַדְתָּ אֶל־בֵּיתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct questions",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "2-samuel-11-12-12",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And David said to Uriah, Tarry here to day also, and to morrow I will let thee depart. So Uriah abode in Jerusalem that day, and the morrow.",
+        "riddle": "Tarry here to day also, and to morrow I will let thee depart.",
+        "speaker": "David",
+        "listener": "Uriah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אוּרִיָּה שֵׁב בָּזֶּה גַּם־הַיּוֹם וּמָחָר אֲשַׁלְּחֶךָּ וַיֵּשֶׁב אוּרִיָּה בִירוּשָׁלִַם בַּיּוֹם הַהוּא וּמִֽמָּחֳרָֽת",
+        "riddle": "שֵׁב בָּזֶּה גַּם־הַיּוֹם וּמָחָר אֲשַׁלְּחֶךָּ וַיֵּשֶׁב אוּרִיָּה בִירוּשָׁלִַם בַּיּוֹם הַהוּא",
+        "speaker": "דָּוִד",
+        "listener": "אוּרִיָּה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And David said to Uriah, Tarry here to day also, and to morrow I will let thee depart. So Uriah abode in Jerusalem that day, and the morrow."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר דָּוִד אֶל־אוּרִיָּה שֵׁב בָּזֶּה גַּם־הַיּוֹם וּמָחָר אֲשַׁלְּחֶךָּ וַיֵּשֶׁב אוּרִיָּה בִירוּשָׁלִַם בַּיּוֹם הַהוּא וּמִֽמָּחֳרָֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-samuel-11-15-15",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he wrote in the letter, saying, Set ye Uriah in the forefront of the hottest battle, and retire ye from him, that he may be smitten, and die.",
+        "riddle": "Set ye Uriah in the forefront of the hottest battle, and retire ye from him, that he may be smitten, and die.",
+        "speaker": "David",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּכְתֹּב בַּסֵּפֶר לֵאמֹר הָבוּ אֶת־אֽוּרִיָּה אֶל־מוּל פְּנֵי הַמִּלְחָמָה הַֽחֲזָקָה וְשַׁבְתֶּם מֵאַחֲרָיו וְנִכָּה וָמֵֽת",
+        "riddle": "וַיִּכְתֹּב בַּסֵּפֶר לֵאמֹר הָבוּ אֶת־אֽוּרִיָּה אֶל־מוּל פְּנֵי הַמִּלְחָמָה הַֽחֲזָקָה וְשַׁבְתֶּם מֵאַחֲרָיו וְנִכָּה וָמֵֽת",
+        "speaker": "דָּוִד",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And it came to pass in the morning, that David wrote a letter to Joab, and sent it by the hand of Uriah.",
+          "15": "And he wrote in the letter, saying, Set ye Uriah in the forefront of the hottest battle, and retire ye from him, that he may be smitten, and die."
+        },
+        "he": {
+          "14": "וַיְהִי בַבֹּקֶר וַיִּכְתֹּב דָּוִד סֵפֶר אֶל־יוֹאָב וַיִּשְׁלַח בְּיַד אוּרִיָּֽה׃",
+          "15": "וַיִּכְתֹּב בַּסֵּפֶר לֵאמֹר הָבוּ אֶת־אֽוּרִיָּה אֶל־מוּל פְּנֵי הַמִּלְחָמָה הַֽחֲזָקָה וְשַׁבְתֶּם מֵאַחֲרָיו וְנִכָּה וָמֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "written command",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-samuel-11-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And charged the messenger, saying, When thou hast made an end of telling the matters of the war unto the king,",
+        "riddle": "When thou hast made an end of telling the matters of the war unto the king",
+        "speaker": "Joab",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיְצַו אֶת־הַמַּלְאָךְ לֵאמֹר כְּכַלּוֹתְךָ אֵת כָּל־דִּבְרֵי הַמִּלְחָמָה לְדַבֵּר אֶל־הַמֶּֽלֶךְ",
+        "riddle": "כְּכַלּוֹתְךָ אֵת כָּל־דִּבְרֵי הַמִּלְחָמָה לְדַבֵּר אֶל־הַמֶּֽלֶך",
+        "speaker": "יוֹאָב",
+        "listener": "מַלְאָךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And charged the messenger, saying, When thou hast made an end of telling the matters of the war unto the king,"
+        },
+        "he": {
+          "19": "וַיְצַו אֶת־הַמַּלְאָךְ לֵאמֹר כְּכַלּוֹתְךָ אֵת כָּל־דִּבְרֵי הַמִּלְחָמָה לְדַבֵּר אֶל־הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "command to messenger",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-samuel-11-21-21",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Who smote Abimelech the son of Jerubbesheth? did not a woman cast a piece of a millstone upon him from the wall, that he died in Thebez? why went ye nigh the wall? then say thou, Thy servant Uriah the Hittite is dead also.",
+        "riddle": "Who smote Abimelech the son of Jerubbesheth? did not a woman cast a piece of a millstone upon him from the wall, that he died in Thebez?",
+        "speaker": "Joab",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "מִֽי־הִכָּה אֶת־אֲבִימֶלֶךְ בֶּן־יְרֻבֶּשֶׁת הֲלֽוֹא־אִשָּׁה הִשְׁלִיכָה עָלָיו פֶּלַח רֶכֶב מֵעַל הַֽחוֹמָה וַיָּמָת בְּתֵבֵץ לָמָּה נִגַּשְׁתֶּם אֶל־הַֽחוֹמָה וְאָמַרְתָּ גַּם עַבְדְּךָ אוּרִיָּה הַחִתִּי מֵֽת",
+        "riddle": "מִֽי־הִכָּה אֶת־אֲבִימֶלֶךְ בֶּן־יְרֻבֶּשֶׁת הֲלֽוֹא־אִשָּׁה הִשְׁלִיכָה עָלָיו פֶּלַח רֶכֶב מֵעַל הַֽחוֹמָה וַיָּמָת בְּתֵבֵץ לָמָּה נִגַּשְׁתֶּם אֶל־הַֽחוֹמָה וְאָמַרְתָּ גַּם עַבְדְּךָ אוּרִיָּה הַחִתִּי מֵֽת",
+        "speaker": "יוֹאָב",
+        "listener": "מַלְאָךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Who smote Abimelech the son of Jerubbesheth? did not a woman cast a piece of a millstone upon him from the wall, that he died in Thebez? why went ye nigh the wall? then say thou, Thy servant Uriah the Hittite is dead also."
+        },
+        "he": {
+          "21": "מִֽי־הִכָּה אֶת־אֲבִימֶלֶךְ בֶּן־יְרֻבֶּשֶׁת הֲלֽוֹא־אִשָּׁה הִשְׁלִיכָה עָלָיו פֶּלַח רֶכֶב מֵעַל הַֽחוֹמָה וַיָּמָת בְּתֵבֵץ לָמָּה נִגַּשְׁתֶּם אֶל־הַֽחוֹמָה וְאָמַרְתָּ גַּם עַבְדְּךָ אוּרִיָּה הַחִתִּי מֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "riddle-like question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-11-23-23",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And the messenger said unto David, Surely the men prevailed against us, and came out unto us into the field, and we were upon them even unto the entering of the gate.",
+        "riddle": "Surely the men prevailed against us, and came out unto us into the field, and we were upon them even unto the entering of the gate.",
+        "speaker": "messenger",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמַּלְאָךְ אֶל־דָּוִד כִּֽי־גָבְרוּ עָלֵינוּ הָֽאֲנָשִׁים וַיֵּצְאוּ אֵלֵינוּ הַשָּׂדֶה וַנִּהְיֶה עֲלֵיהֶם עַד־פֶּתַח הַשָּֽׁעַר",
+        "riddle": "וַיֹּאמֶר הַמַּלְאָךְ אֶל־דָּוִד כִּֽי־גָבְרוּ עָלֵינוּ הָֽאֲנָשִׁים וַיֵּצְאוּ אֵלֵינוּ הַשָּׂדֶה וַנִּהְיֶה עֲלֵיהֶם עַד־פֶּתַח הַשָּֽׁעַר",
+        "speaker": "הַמַּלְאָךְ",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And the messenger said unto David, Surely the men prevailed against us, and came out unto us into the field, and we were upon them even unto the entering of the gate."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר הַמַּלְאָךְ אֶל־דָּוִד כִּֽי־גָבְרוּ עָלֵינוּ הָֽאֲנָשִׁים וַיֵּצְאוּ אֵלֵינוּ הַשָּׂדֶה וַנִּהְיֶה עֲלֵיהֶם עַד־פֶּתַח הַשָּֽׁעַר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-samuel-11-25-25",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 11,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "Then David said unto the messenger, Thus shalt thou say unto Joab, Let not this thing displease thee, for the sword devoureth one as well as another: make thy battle more strong against the city, and overthrow it: and encourage thou him.",
+        "riddle": "Thus shalt thou say unto Joab, Let not this thing displease thee, for the sword devoureth one as well as another: make thy battle more strong against the city, and overthrow it: and encourage thou him.",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַמַּלְאָךְ כֹּֽה־תֹאמַר אֶל־יוֹאָב אַל־יֵרַע בְּעֵינֶיךָ אֶת־הַדָּבָר הַזֶּה כִּֽי־כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב הַחֲזֵק מִלְחַמְתְּךָ אֶל־הָעִיר וְהָרְסָהּ וְחַזְּקֵֽהוּ",
+        "riddle": "וַיֹּאמֶר דָּוִד אֶל־הַמַּלְאָךְ כֹּֽה־תֹאמַר אֶל־יוֹאָב אַל־יֵרַע בְּעֵינֶיךָ אֶת־הַדָּבָר הַזֶּה כִּֽי־כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב הַחֲזֵק מִלְחַמְתְּךָ אֶל־הָעִיר וְהָרְסָהּ וְחַזְּקֵֽהוּ",
+        "speaker": "דָּוִד",
+        "listener": "הַמַּלְאָךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Then David said unto the messenger, Thus shalt thou say unto Joab, Let not this thing displease thee, for the sword devoureth one as well as another: make thy battle more strong against the city, and overthrow it: and encourage thou him."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר דָּוִד אֶל־הַמַּלְאָךְ כֹּֽה־תֹאמַר אֶל־יוֹאָב אַל־יֵרַע בְּעֵינֶיךָ אֶת־הַדָּבָר הַזֶּה כִּֽי־כָזֹה וְכָזֶה תֹּאכַל הֶחָרֶב הַחֲזֵק מִלְחַמְתְּךָ אֶל־הָעִיר וְהָרְסָהּ וְחַזְּקֵֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 22,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 22,
-    "kept_count": 0,
-    "issue_count": 22
+    "llm_window_count": 5,
+    "projection_llm_count": 13,
+    "llm_call_count": 18,
+    "spec_count": 13,
+    "kept_count": 11,
+    "issue_count": 2
   }
 }

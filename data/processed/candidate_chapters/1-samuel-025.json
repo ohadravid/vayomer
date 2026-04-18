@@ -6,6 +6,809 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-25-05-05",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+        "riddle": "Get you up to Carmel, and go to Nabal, and greet him in my name:",
+        "speaker": "David",
+        "listener": "young men",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח דָּוִד עֲשָׂרָה נְעָרִים וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי לְשָׁלֽוֹם",
+        "riddle": "וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי",
+        "speaker": "דָּוִד",
+        "listener": "נְעָרִים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:"
+        },
+        "he": {
+          "5": "וַיִּשְׁלַח דָּוִד עֲשָׂרָה נְעָרִים וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי לְשָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-25-06-06",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And thus shall ye say to him that liveth in prosperity, Peace be both to thee, and peace be to thine house, and peace be unto all that thou hast.",
+        "riddle": "Peace be both to thee, and peace be to thine house, and peace be unto all that thou hast.",
+        "speaker": "David's messengers",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַאֲמַרְתֶּם כֹּה לֶחָי וְאַתָּה שָׁלוֹם וּבֵיתְךָ שָׁלוֹם וְכֹל אֲשֶׁר־לְךָ שָׁלֽוֹם",
+        "riddle": "וַאֲמַרְתֶּם כֹּה לֶחָי וְאַתָּה שָׁלוֹם וּבֵיתְךָ שָׁלוֹם וְכֹל אֲשֶׁר־לְךָ שָׁלֽוֹם",
+        "speaker": "דָּוִד",
+        "listener": "נָבָל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+          "6": "And thus shall ye say to him that liveth in prosperity, Peace be both to thee, and peace be to thine house, and peace be unto all that thou hast."
+        },
+        "he": {
+          "5": "וַיִּשְׁלַח דָּוִד עֲשָׂרָה נְעָרִים וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי לְשָׁלֽוֹם׃",
+          "6": "וַאֲמַרְתֶּם כֹּה לֶחָי וְאַתָּה שָׁלוֹם וּבֵיתְךָ שָׁלוֹם וְכֹל אֲשֶׁר־לְךָ שָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-samuel-25-07-07",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And now I have heard that thou hast shearers: now thy shepherds which were with us, we hurt them not, neither was there ought missing unto them, all the while they were in Carmel.",
+        "riddle": "now thy shepherds which were with us, we hurt them not, neither was there ought missing unto them, all the while they were in Carmel.",
+        "speaker": "David's messengers",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה שָׁמַעְתִּי כִּי גֹזְזִים לָךְ עַתָּה הָרֹעִים אֲשֶׁר־לְךָ הָיוּ עִמָּנוּ לֹא הֶכְלַמְנוּם וְלֹֽא־נִפְקַד לָהֶם מְאוּמָה כָּל־יְמֵי הֱיוֹתָם בַּכַּרְמֶֽל",
+        "riddle": "וְעַתָּה שָׁמַעְתִּי כִּי גֹזְזִים לָךְ עַתָּה הָרֹעִים אֲשֶׁר־לְךָ הָיוּ עִמָּנוּ לֹא הֶכְלַמְנוּם וְלֹֽא־נִפְקַד לָהֶם מְאוּמָה כָּל־יְמֵי הֱיוֹתָם בַּכַּרְמֶֽל",
+        "speaker": "דָּוִד",
+        "listener": "נָבָל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+          "7": "And now I have heard that thou hast shearers: now thy shepherds which were with us, we hurt them not, neither was there ought missing unto them, all the while they were in Carmel."
+        },
+        "he": {
+          "5": "וַיִּשְׁלַח דָּוִד עֲשָׂרָה נְעָרִים וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי לְשָׁלֽוֹם׃",
+          "7": "וְעַתָּה שָׁמַעְתִּי כִּי גֹזְזִים לָךְ עַתָּה הָרֹעִים אֲשֶׁר־לְךָ הָיוּ עִמָּנוּ לֹא הֶכְלַמְנוּם וְלֹֽא־נִפְקַד לָהֶם מְאוּמָה כָּל־יְמֵי הֱיוֹתָם בַּכַּרְמֶֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-samuel-25-08-08",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Ask thy young men, and they will shew thee. Wherefore let the young men find favour in thine eyes: for we come in a good day: give, I pray thee, whatsoever cometh to thine hand unto thy servants, and to thy son David.",
+        "riddle": "Ask thy young men, and they will shew thee. Wherefore let the young men find favour in thine eyes: for we come in a good day: give, I pray thee, whatsoever cometh to thine hand unto thy servants, and to thy son David.",
+        "speaker": "David's messengers",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "שְׁאַל אֶת־נְעָרֶיךָ וְיַגִּידוּ לָךְ וְיִמְצְאוּ הַנְּעָרִים חֵן בְּעֵינֶיךָ כִּֽי־עַל־יוֹם טוֹב בָּנוּ תְּנָה־נָּא אֵת אֲשֶׁר תִּמְצָא יָֽדְךָ לַעֲבָדֶיךָ וּלְבִנְךָ לְדָוִֽד",
+        "riddle": "שְׁאַל אֶת־נְעָרֶיךָ וְיַגִּידוּ לָךְ וְיִמְצְאוּ הַנְּעָרִים חֵן בְּעֵינֶיךָ כִּֽי־עַל־יוֹם טוֹב בָּנוּ תְּנָה־נָּא אֵת אֲשֶׁר תִּמְצָא יָֽדְךָ לַעֲבָדֶיךָ וּלְבִנְךָ לְדָוִֽד",
+        "speaker": "דָּוִד",
+        "listener": "נָבָל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+          "8": "Ask thy young men, and they will shew thee. Wherefore let the young men find favour in thine eyes: for we come in a good day: give, I pray thee, whatsoever cometh to thine hand unto thy servants, and to thy son David."
+        },
+        "he": {
+          "5": "וַיִּשְׁלַח דָּוִד עֲשָׂרָה נְעָרִים וַיֹּאמֶר דָּוִד לַנְּעָרִים עֲלוּ כַרְמֶלָה וּבָאתֶם אֶל־נָבָל וּשְׁאֶלְתֶּם־לוֹ בִשְׁמִי לְשָׁלֽוֹם׃",
+          "8": "שְׁאַל אֶת־נְעָרֶיךָ וְיַגִּידוּ לָךְ וְיִמְצְאוּ הַנְּעָרִים חֵן בְּעֵינֶיךָ כִּֽי־עַל־יוֹם טוֹב בָּנוּ תְּנָה־נָּא אֵת אֲשֶׁר תִּמְצָא יָֽדְךָ לַעֲבָדֶיךָ וּלְבִנְךָ לְדָוִֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-25-10-10",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Nabal answered David's servants, and said, Who is David? and who is the son of Jesse? there be many servants now a days that break away every man from his master.",
+        "riddle": "Who is David? and who is the son of Jesse?",
+        "speaker": "Nabal",
+        "listener": "David's servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן נָבָל אֶת־עַבְדֵי דָוִד וַיֹּאמֶר מִי דָוִד וּמִי בֶן־יִשָׁי הַיּוֹם רַבּוּ עֲבָדִים הַמִּתְפָּרְצִים אִישׁ מִפְּנֵי אֲדֹנָֽיו",
+        "riddle": "וַיֹּאמֶר מִי דָוִד וּמִי בֶן־יִשָׁי הַיּוֹם רַבּוּ עֲבָדִים הַמִּתְפָּרְצִים",
+        "speaker": "נָבָל",
+        "listener": "עַבְדֵי דָוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Nabal answered David's servants, and said, Who is David? and who is the son of Jesse? there be many servants now a days that break away every man from his master."
+        },
+        "he": {
+          "10": "וַיַּעַן נָבָל אֶת־עַבְדֵי דָוִד וַיֹּאמֶר מִי דָוִד וּמִי בֶן־יִשָׁי הַיּוֹם רַבּוּ עֲבָדִים הַמִּתְפָּרְצִים אִישׁ מִפְּנֵי אֲדֹנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-samuel-25-11-11",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Shall I then take my bread, and my water, and my flesh that I have killed for my shearers, and give it unto men, whom I know not whence they be?",
+        "riddle": "Shall I then take my bread, and my water, and my flesh that I have killed for my shearers, and give it unto men, whom I know not whence they be?",
+        "speaker": "Nabal",
+        "listener": "David's servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְלָקַחְתִּי אֶת־לַחְמִי וְאֶת־מֵימַי וְאֵת טִבְחָתִי אֲשֶׁר טָבַחְתִּי לְגֹֽזְזָי וְנָֽתַתִּי לַֽאֲנָשִׁים אֲשֶׁר לֹא יָדַעְתִּי אֵי מִזֶּה הֵֽמָּה",
+        "riddle": "וְלָקַחְתִּי אֶת־לַחְמִי וְאֶת־מֵימַי וְאֵת טִבְחָתִי אֲשֶׁר טָבַחְתִּי לְגֹֽזְזָי וְנָֽתַתִּי לַֽאֲנָשִׁים אֲשֶׁר לֹא יָדַעְתִּי אֵי מִזֶּה הֵֽמָּה",
+        "speaker": "נָבָל",
+        "listener": "עַבְדֵי דָוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Nabal answered David's servants, and said, Who is David? and who is the son of Jesse? there be many servants now a days that break away every man from his master.",
+          "11": "Shall I then take my bread, and my water, and my flesh that I have killed for my shearers, and give it unto men, whom I know not whence they be?"
+        },
+        "he": {
+          "10": "וַיַּעַן נָבָל אֶת־עַבְדֵי דָוִד וַיֹּאמֶר מִי דָוִד וּמִי בֶן־יִשָׁי הַיּוֹם רַבּוּ עֲבָדִים הַמִּתְפָּרְצִים אִישׁ מִפְּנֵי אֲדֹנָֽיו׃",
+          "11": "וְלָקַחְתִּי אֶת־לַחְמִי וְאֶת־מֵימַי וְאֵת טִבְחָתִי אֲשֶׁר טָבַחְתִּי לְגֹֽזְזָי וְנָֽתַתִּי לַֽאֲנָשִׁים אֲשֶׁר לֹא יָדַעְתִּי אֵי מִזֶּה הֵֽמָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "1-samuel-25-13-13",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto his men, Gird ye on every man his sword. And they girded on every man his sword; and David also girded on his sword: and there went up after David about four hundred men; and two hundred abode by the stuff.",
+        "riddle": "Gird ye on every man his sword.",
+        "speaker": "David",
+        "listener": "David's men",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לַאֲנָשָׁיו חִגְרוּ אִישׁ אֶת־חַרְבּוֹ וַֽיַּחְגְּרוּ אִישׁ אֶת־חַרְבּוֹ וַיַּחְגֹּר גַּם־דָּוִד אֶת־חַרְבּוֹ וַֽיַּעֲלוּ אַחֲרֵי דָוִד כְּאַרְבַּע מֵאוֹת אִישׁ וּמָאתַיִם יָשְׁבוּ עַל־הַכֵּלִֽים",
+        "riddle": "חִגְרוּ אִישׁ אֶת־חַרְבּו",
+        "speaker": "דָּוִד",
+        "listener": "אֲנָשָׁיו",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto his men, Gird ye on every man his sword. And they girded on every man his sword; and David also girded on his sword: and there went up after David about four hundred men; and two hundred abode by the stuff."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד לַאֲנָשָׁיו חִגְרוּ ׀ אִישׁ אֶת־חַרְבּוֹ וַֽיַּחְגְּרוּ אִישׁ אֶת־חַרְבּוֹ וַיַּחְגֹּר גַּם־דָּוִד אֶת־חַרְבּוֹ וַֽיַּעֲלוּ ׀ אַחֲרֵי דָוִד כְּאַרְבַּע מֵאוֹת אִישׁ וּמָאתַיִם יָשְׁבוּ עַל־הַכֵּלִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-25-19-19",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And she said unto her servants, Go on before me; behold, I come after you. But she told not her husband Nabal.",
+        "riddle": "Go on before me; behold, I come after you.",
+        "speaker": "Abigail",
+        "listener": "servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לִנְעָרֶיהָ עִבְרוּ לְפָנַי הִנְנִי אַחֲרֵיכֶם בָּאָה וּלְאִישָׁהּ נָבָל לֹא הִגִּֽידָה",
+        "riddle": "עִבְרוּ לְפָנַי הִנְנִי אַחֲרֵיכֶם בָּאָה",
+        "speaker": "אֲבִיגַיִל",
+        "listener": "נְעָרֶיהָ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And she said unto her servants, Go on before me; behold, I come after you. But she told not her husband Nabal."
+        },
+        "he": {
+          "19": "וַתֹּאמֶר לִנְעָרֶיהָ עִבְרוּ לְפָנַי הִנְנִי אַחֲרֵיכֶם בָּאָה וּלְאִישָׁהּ נָבָל לֹא הִגִּֽידָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "1-samuel-25-21-21",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Now David had said, Surely in vain have I kept all that this fellow hath in the wilderness, so that nothing was missed of all that pertained unto him: and he hath requited me evil for good.",
+        "riddle": "Surely in vain have I kept all that this fellow hath in the wilderness, so that nothing was missed of all that pertained unto him: and he hath requited me evil for good.",
+        "speaker": "David",
+        "listener": "David's men",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְדָוִד אָמַר אַךְ לַשֶּׁקֶר שָׁמַרְתִּי אֶֽת־כָּל־אֲשֶׁר לָזֶה בַּמִּדְבָּר וְלֹא־נִפְקַד מִכָּל־אֲשֶׁר־לוֹ מְאוּמָה וַיָּֽשֶׁב־לִי רָעָה תַּחַת טוֹבָֽה",
+        "riddle": "וְדָוִד אָמַר אַךְ לַשֶּׁקֶר שָׁמַרְתִּי אֶֽת־כָּל־אֲשֶׁר לָזֶה בַּמִּדְבָּר וְלֹא־נִפְקַד מִכָּל־אֲשֶׁר־לוֹ מְאוּמָה וַיָּֽשֶׁב־לִי רָעָה תַּחַת טוֹבָֽה",
+        "speaker": "דָוִד",
+        "listener": "דָוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Now David had said, Surely in vain have I kept all that this fellow hath in the wilderness, so that nothing was missed of all that pertained unto him: and he hath requited me evil for good."
+        },
+        "he": {
+          "21": "וְדָוִד אָמַר אַךְ לַשֶּׁקֶר שָׁמַרְתִּי אֶֽת־כָּל־אֲשֶׁר לָזֶה בַּמִּדְבָּר וְלֹא־נִפְקַד מִכָּל־אֲשֶׁר־לוֹ מְאוּמָה וַיָּֽשֶׁב־לִי רָעָה תַּחַת טוֹבָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "1-samuel-25-24-24",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+        "riddle": "Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+        "speaker": "Abigail",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתִּפֹּל עַל־רַגְלָיו וַתֹּאמֶר בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽךָ",
+        "riddle": "בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽך",
+        "speaker": "אֲבִיגַיִל",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid."
+        },
+        "he": {
+          "24": "וַתִּפֹּל עַל־רַגְלָיו וַתֹּאמֶר בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "1-samuel-25-25-25",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "Let not my lord, I pray thee, regard this man of Belial, even Nabal: for as his name is, so is he; Nabal is his name, and folly is with him: but I thine handmaid saw not the young men of my lord, whom thou didst send.",
+        "riddle": "Let not my lord, I pray thee, regard this man of Belial, even Nabal: for as his name is, so is he; Nabal is his name, and folly is with him",
+        "speaker": "handmaid",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "אַל־נָא יָשִׂים אֲדֹנִי אֶת־לִבּוֹ אֶל־אִישׁ הַבְּלִיַּעַל הַזֶּה עַל־נָבָל כִּי כִשְׁמוֹ כֶּן־הוּא נָבָל שְׁמוֹ וּנְבָלָה עִמּוֹ וַֽאֲנִי אֲמָתְךָ לֹא רָאִיתִי אֶת־נַעֲרֵי אֲדֹנִי אֲשֶׁר שָׁלָֽחְתָּ",
+        "riddle": "אַל־נָא יָשִׂים אֲדֹנִי אֶת־לִבּוֹ אֶל־אִישׁ הַבְּלִיַּעַל הַזֶּה עַל־נָבָל כִּי כִשְׁמוֹ כֶּן־הוּא נָבָל שְׁמוֹ וּנְבָלָה עִמּוֹ וַֽאֲנִי אֲמָתְךָ לֹא רָאִיתִי אֶת־נַעֲרֵי אֲדֹנִי אֲשֶׁר שָׁלָֽחְתָּ",
+        "speaker": "אֲמָתְךָ",
+        "listener": "נָבָל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+          "25": "Let not my lord, I pray thee, regard this man of Belial, even Nabal: for as his name is, so is he; Nabal is his name, and folly is with him: but I thine handmaid saw not the young men of my lord, whom thou didst send."
+        },
+        "he": {
+          "24": "וַתִּפֹּל עַל־רַגְלָיו וַתֹּאמֶר בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽךָ׃",
+          "25": "אַל־נָא יָשִׂים אֲדֹנִי ׀ אֶת־לִבּוֹ אֶל־אִישׁ הַבְּלִיַּעַל הַזֶּה עַל־נָבָל כִּי כִשְׁמוֹ כֶּן־הוּא נָבָל שְׁמוֹ וּנְבָלָה עִמּוֹ וַֽאֲנִי אֲמָתְךָ לֹא רָאִיתִי אֶת־נַעֲרֵי אֲדֹנִי אֲשֶׁר שָׁלָֽחְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning and description",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "1-samuel-25-26-26",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "Now therefore, my lord, as the LORD liveth, and as thy soul liveth, seeing the LORD hath withholden thee from coming to shed blood, and from avenging thyself with thine own hand, now let thine enemies, and they that seek evil to my lord, be as Nabal.",
+        "riddle": "now let thine enemies, and they that seek evil to my lord, be as Nabal.",
+        "speaker": "handmaid",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה אֲדֹנִי חַי־יְהוָה וְחֵֽי־נַפְשְׁךָ אֲשֶׁר מְנָעֲךָ יְהוָה מִבּוֹא בְדָמִים וְהוֹשֵׁעַ יָדְךָ לָךְ וְעַתָּה יִֽהְיוּ כְנָבָל אֹיְבֶיךָ וְהַֽמְבַקְשִׁים אֶל־אֲדֹנִי רָעָֽה",
+        "riddle": "וְעַתָּה אֲדֹנִי חַי־יְהוָה וְחֵֽי־נַפְשְׁךָ אֲשֶׁר מְנָעֲךָ יְהוָה מִבּוֹא בְדָמִים וְהוֹשֵׁעַ יָדְךָ לָךְ וְעַתָּה יִֽהְיוּ כְנָבָל",
+        "speaker": "אֲמָֽתְךָ",
+        "listener": "אֲדֹנִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+          "26": "Now therefore, my lord, as the LORD liveth, and as thy soul liveth, seeing the LORD hath withholden thee from coming to shed blood, and from avenging thyself with thine own hand, now let thine enemies, and they that seek evil to my lord, be as Nabal."
+        },
+        "he": {
+          "24": "וַתִּפֹּל עַל־רַגְלָיו וַתֹּאמֶר בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽךָ׃",
+          "26": "וְעַתָּה אֲדֹנִי חַי־יְהוָה וְחֵֽי־נַפְשְׁךָ אֲשֶׁר מְנָעֲךָ יְהוָה מִבּוֹא בְדָמִים וְהוֹשֵׁעַ יָדְךָ לָךְ וְעַתָּה יִֽהְיוּ כְנָבָל אֹיְבֶיךָ וְהַֽמְבַקְשִׁים אֶל־אֲדֹנִי רָעָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "1-samuel-25-28-28",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "I pray thee, forgive the trespass of thine handmaid: for the LORD will certainly make my lord a sure house; because my lord fighteth the battles of the LORD, and evil hath not been found in thee all thy days.",
+        "riddle": "I pray thee, forgive the trespass of thine handmaid: for the LORD will certainly make my lord a sure house",
+        "speaker": "handmaid",
+        "listener": "Nabal",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "שָׂא נָא לְפֶשַׁע אֲמָתֶךָ כִּי עָשֹֽׂה־יַעֲשֶׂה יְהוָה לַֽאדֹנִי בַּיִת נֶאֱמָן כִּי־מִלְחֲמוֹת יְהוָה אֲדֹנִי נִלְחָם וְרָעָה לֹא־תִמָּצֵא בְךָ מִיָּמֶֽיךָ",
+        "riddle": "שָׂא נָא לְפֶשַׁע אֲמָתֶךָ כִּי עָשֹֽׂה־יַעֲשֶׂה יְהוָה לַֽאדֹנִי בַּיִת נֶאֱמָן כִּי־מִלְחֲמוֹת יְהוָה אֲדֹנִי נִלְחָם",
+        "speaker": "אֲמָתֶךָ",
+        "listener": "אֲדֹנִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And fell at his feet, and said, Upon me, my lord, upon me let this iniquity be: and let thine handmaid, I pray thee, speak in thine audience, and hear the words of thine handmaid.",
+          "28": "I pray thee, forgive the trespass of thine handmaid: for the LORD will certainly make my lord a sure house; because my lord fighteth the battles of the LORD, and evil hath not been found in thee all thy days."
+        },
+        "he": {
+          "24": "וַתִּפֹּל עַל־רַגְלָיו וַתֹּאמֶר בִּי־אֲנִי אֲדֹנִי הֶֽעָוֺן וּֽתְדַבֶּר־נָא אֲמָֽתְךָ בְּאָזְנֶיךָ וּשְׁמַע אֵת דִּבְרֵי אֲמָתֶֽךָ׃",
+          "28": "שָׂא נָא לְפֶשַׁע אֲמָתֶךָ כִּי עָשֹֽׂה־יַעֲשֶׂה יְהוָה לַֽאדֹנִי בַּיִת נֶאֱמָן כִּי־מִלְחֲמוֹת יְהוָה אֲדֹנִי נִלְחָם וְרָעָה לֹא־תִמָּצֵא בְךָ מִיָּמֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing and plea",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "1-samuel-25-32-32",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And David said to Abigail, Blessed be the LORD God of Israel, which sent thee this day to meet me:",
+        "riddle": "Blessed be the LORD God of Israel, which sent thee this day to meet me",
+        "speaker": "David",
+        "listener": "Abigail",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לַאֲבִיגַל בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר שְׁלָחֵךְ הַיּוֹם הַזֶּה לִקְרָאתִֽי",
+        "riddle": "בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר שְׁלָחֵךְ הַיּוֹם הַזֶּה לִקְרָאתִֽי",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִיגַל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And David said to Abigail, Blessed be the LORD God of Israel, which sent thee this day to meet me:"
+        },
+        "he": {
+          "32": "וַיֹּאמֶר דָּוִד לַאֲבִיגַל בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר שְׁלָחֵךְ הַיּוֹם הַזֶּה לִקְרָאתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "1-samuel-25-33-33",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And blessed be thy advice, and blessed be thou, which hast kept me this day from coming to shed blood, and from avenging myself with mine own hand.",
+        "riddle": "And blessed be thy advice, and blessed be thou",
+        "speaker": "David",
+        "listener": "Abigail",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וּבָרוּךְ טַעְמֵךְ וּבְרוּכָה אָתְּ אֲשֶׁר כְּלִתִנִי הַיּוֹם הַזֶּה מִבּוֹא בְדָמִים וְהֹשֵׁעַ יָדִי לִֽי",
+        "riddle": "וּבָרוּךְ טַעְמֵךְ וּבְרוּכָה אָתְּ אֲשֶׁר כְּלִתִנִי הַיּוֹם הַזֶּה מִבּוֹא בְדָמִים וְהֹשֵׁעַ יָדִי לִֽי",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִיגַל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And David said to Abigail, Blessed be the LORD God of Israel, which sent thee this day to meet me:",
+          "33": "And blessed be thy advice, and blessed be thou, which hast kept me this day from coming to shed blood, and from avenging myself with mine own hand."
+        },
+        "he": {
+          "32": "וַיֹּאמֶר דָּוִד לַאֲבִיגַל בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר שְׁלָחֵךְ הַיּוֹם הַזֶּה לִקְרָאתִֽי׃",
+          "33": "וּבָרוּךְ טַעְמֵךְ וּבְרוּכָה אָתְּ אֲשֶׁר כְּלִתִנִי הַיּוֹם הַזֶּה מִבּוֹא בְדָמִים וְהֹשֵׁעַ יָדִי לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "1-samuel-25-35-35",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 35,
+        "listener_mention_verse": 35
+      },
+      "en": {
+        "quote": "So David received of her hand that which she had brought him, and said unto her, Go up in peace to thine house; see, I have hearkened to thy voice, and have accepted thy person.",
+        "riddle": "Go up in peace to thine house",
+        "speaker": "David",
+        "listener": "Abigail",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקַּח דָּוִד מִיָּדָהּ אֵת אֲשֶׁר־הֵבִיאָה לוֹ וְלָהּ אָמַר עֲלִי לְשָׁלוֹם לְבֵיתֵךְ רְאִי שָׁמַעְתִּי בְקוֹלֵךְ וָאֶשָּׂא פָּנָֽיִךְ",
+        "riddle": "אֵת אֲשֶׁר־הֵבִיאָה לוֹ וְלָהּ אָמַר עֲלִי לְשָׁלוֹם לְבֵיתֵךְ",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִיגַיִל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "So David received of her hand that which she had brought him, and said unto her, Go up in peace to thine house; see, I have hearkened to thy voice, and have accepted thy person."
+        },
+        "he": {
+          "35": "וַיִּקַּח דָּוִד מִיָּדָהּ אֵת אֲשֶׁר־הֵבִיאָה לוֹ וְלָהּ אָמַר עֲלִי לְשָׁלוֹם לְבֵיתֵךְ רְאִי שָׁמַעְתִּי בְקוֹלֵךְ וָאֶשָּׂא פָּנָֽיִךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 35,
+        "end": 35
+      }
+    },
+    {
+      "id": "1-samuel-25-39-39",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 39,
+        "quote_verse_end": 39,
+        "speaker_mention_verse": 39
+      },
+      "en": {
+        "quote": "And when David heard that Nabal was dead, he said, Blessed be the LORD, that hath pleaded the cause of my reproach from the hand of Nabal, and hath kept his servant from evil: for the LORD hath returned the wickedness of Nabal upon his own head, And David sent and communed with Abigail, to take her to him to wife.",
+        "riddle": "Blessed be the LORD, that hath pleaded the cause of my reproach from the hand of Nabal, and hath kept his servant from evil: for the LORD hath returned the wickedness of Nabal upon his own head,",
+        "speaker": "David",
+        "listener": "none",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע דָּוִד כִּי מֵת נָבָל וַיֹּאמֶר בָּרוּךְ יְהוָה אֲשֶׁר רָב אֶת־רִיב חֶרְפָּתִי מִיַּד נָבָל וְאֶת־עַבְדּוֹ חָשַׂךְ מֵֽרָעָה וְאֵת רָעַת נָבָל הֵשִׁיב יְהוָה בְּרֹאשׁוֹ וַיִּשְׁלַח דָּוִד וַיְדַבֵּר בַּאֲבִיגַיִל לְקַחְתָּהּ לוֹ לְאִשָּֽׁה",
+        "riddle": "בָּרוּךְ יְהוָה אֲשֶׁר רָב אֶת־רִיב חֶרְפָּתִי מִיַּד נָבָל וְאֶת־עַבְדּוֹ חָשַׂךְ מֵֽרָעָה וְאֵת רָעַת נָבָל הֵשִׁיב יְהוָה בְּרֹאשׁו",
+        "speaker": "דָּוִד",
+        "listener": "none",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "39": "And when David heard that Nabal was dead, he said, Blessed be the LORD, that hath pleaded the cause of my reproach from the hand of Nabal, and hath kept his servant from evil: for the LORD hath returned the wickedness of Nabal upon his own head, And David sent and communed with Abigail, to take her to him to wife."
+        },
+        "he": {
+          "39": "וַיִּשְׁמַע דָּוִד כִּי מֵת נָבָל וַיֹּאמֶר בָּרוּךְ יְהוָה אֲשֶׁר רָב אֶת־רִיב חֶרְפָּתִי מִיַּד נָבָל וְאֶת־עַבְדּוֹ חָשַׂךְ מֵֽרָעָה וְאֵת רָעַת נָבָל הֵשִׁיב יְהוָה בְּרֹאשׁוֹ וַיִּשְׁלַח דָּוִד וַיְדַבֵּר בַּאֲבִיגַיִל לְקַחְתָּהּ לוֹ לְאִשָּֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 39,
+        "end": 39
+      }
+    },
+    {
+      "id": "1-samuel-25-40-40",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 25,
+        "quote_verse_start": 40,
+        "quote_verse_end": 40,
+        "speaker_mention_verse": 40,
+        "listener_mention_verse": 41
+      },
+      "en": {
+        "quote": "And when the servants of David were come to Abigail to Carmel, they spake unto her, saying, David sent us unto thee to take thee to him to wife.",
+        "riddle": "David sent us unto thee to take thee to him to wife",
+        "speaker": "David's servants",
+        "listener": "Abigail",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ עַבְדֵי דָוִד אֶל־אֲבִיגַיִל הַכַּרְמֶלָה וַיְדַבְּרוּ אֵלֶיהָ לֵאמֹר דָּוִד שְׁלָחָנוּ אֵלַיִךְ לְקַחְתֵּךְ לוֹ לְאִשָּֽׁה",
+        "riddle": "דָּוִד שְׁלָחָנוּ אֵלַיִךְ לְקַחְתֵּךְ לוֹ לְאִשָּֽׁה",
+        "speaker": "עַבְדֵי דָוִד",
+        "listener": "אֲבִיגַיִל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "And when the servants of David were come to Abigail to Carmel, they spake unto her, saying, David sent us unto thee to take thee to him to wife.",
+          "41": "And she arose, and bowed herself on her face to the earth, and said, Behold, let thine handmaid be a servant to wash the feet of the servants of my lord."
+        },
+        "he": {
+          "40": "וַיָּבֹאוּ עַבְדֵי דָוִד אֶל־אֲבִיגַיִל הַכַּרְמֶלָה וַיְדַבְּרוּ אֵלֶיהָ לֵאמֹר דָּוִד שְׁלָחָנוּ אֵלַיִךְ לְקַחְתֵּךְ לוֹ לְאִשָּֽׁה׃",
+          "41": "וַתָּקָם וַתִּשְׁתַּחוּ אַפַּיִם אָרְצָה וַתֹּאמֶר הִנֵּה אֲמָֽתְךָ לְשִׁפְחָה לִרְחֹץ רַגְלֵי עַבְדֵי אֲדֹנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 40,
+        "end": 40
+      }
+    },
+    {
       "id": "1-samuel-25-41-41",
       "source": {
         "book_code": "1SA",
@@ -13,20 +816,21 @@
         "book_he": "שמואל א",
         "chapter": 25,
         "quote_verse_start": 41,
-        "quote_verse_end": 41
+        "quote_verse_end": 41,
+        "speaker_mention_verse": 41
       },
       "en": {
         "quote": "And she arose, and bowed herself on her face to the earth, and said, Behold, let thine handmaid be a servant to wash the feet of the servants of my lord.",
-        "riddle": "let thine handmaid be a servant to wash the feet of the servants of my lord.",
+        "riddle": "Behold, let thine handmaid be a servant to wash the feet of the servants of my lord",
         "speaker": "Abigail",
-        "listener": "Servants",
+        "listener": "none",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַתָּקָם וַתִּשְׁתַּחוּ אַפַּיִם אָרְצָה וַתֹּאמֶר הִנֵּה אֲמָֽתְךָ לְשִׁפְחָה לִרְחֹץ רַגְלֵי עַבְדֵי אֲדֹנִֽי",
-        "riddle": "וַתִּשְׁתַּחוּ אַפַּיִם אָרְצָה וַתֹּאמֶר הִנֵּה אֲמָֽתְךָ לְשִׁפְחָה לִרְחֹץ רַגְלֵי עַבְדֵי אֲדֹנִֽי",
-        "speaker": "אביגיל",
-        "listener": "עבדים",
+        "riddle": "הִנֵּה אֲמָֽתְךָ לְשִׁפְחָה לִרְחֹץ רַגְלֵי עַבְדֵי אֲדֹנִֽי",
+        "speaker": "אֲבִיגַיִל",
+        "listener": "דָּוִד",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -38,8 +842,8 @@
         }
       },
       "meta": {
-        "reason": "Contains direct speech/vow.",
-        "confidence": 0.95
+        "reason": "direct speech",
+        "confidence": 0.96
       },
       "ref": {
         "chapter": 25,
@@ -49,10 +853,13 @@
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 1,
-    "issue_count": 27
+    "llm_window_count": 6,
+    "projection_llm_count": 20,
+    "llm_call_count": 26,
+    "spec_count": 20,
+    "kept_count": 19,
+    "issue_count": 1
   }
 }

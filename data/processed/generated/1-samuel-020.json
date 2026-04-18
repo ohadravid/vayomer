@@ -6,6 +6,488 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-20-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Jonathan said, Far be it from thee: for if I knew certainly that evil were determined by my father to come upon thee, then would not I tell it thee? Then said David to Jonathan, Who shall tell me? or what if thy father answer thee roughly?",
+        "riddle": "Who shall tell me? or what if thy father answer thee roughly?",
+        "speaker": "David",
+        "listener": "Jonathan",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "evil",
+        "bonus_hint": {
+          "quote": "I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 14,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹנָתָן חָלִילָה לָּךְ כִּי אִם־יָדֹעַ אֵדַע כִּֽי־כָלְתָה הָרָעָה מֵעִם אָבִי לָבוֹא עָלֶיךָ וְלֹא אֹתָהּ אַגִּיד לָֽךְ וַיֹּאמֶר דָּוִד אֶל־יְהוֹנָתָן מִי יַגִּיד לִי אוֹ מַה־יַּעַנְךָ אָבִיךָ קָשָֽׁה",
+        "riddle": "מִי יַגִּיד לִי אוֹ מַה־יַּעַנְךָ אָבִיךָ קָשָֽׁה",
+        "speaker": "דָּוִד",
+        "listener": "יְהוֹנָתָן",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא זֹאת אֶֽעֱשֶׂה לְכָל־הָעֵדָה הָֽרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻֽתוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 14,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Jonathan said, Far be it from thee: for if I knew certainly that evil were determined by my father to come upon thee, then would not I tell it thee?",
+          "10": "Then said David to Jonathan, Who shall tell me? or what if thy father answer thee roughly?"
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוֹנָתָן חָלִילָה לָּךְ כִּי ׀ אִם־יָדֹעַ אֵדַע כִּֽי־כָלְתָה הָרָעָה מֵעִם אָבִי לָבוֹא עָלֶיךָ וְלֹא אֹתָהּ אַגִּיד לָֽךְ׃",
+          "10": "וַיֹּאמֶר דָּוִד אֶל־יְהוֹנָתָן מִי יַגִּיד לִי אוֹ מַה־יַּעַנְךָ אָבִיךָ קָשָֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul. Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+        "riddle": "To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+        "speaker": "Jonathan",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "soul",
+        "bonus_hint": {
+          "quote": "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיּוֹסֶף יְהֽוֹנָתָן לְהַשְׁבִּיעַ אֶת־דָּוִד בְּאַהֲבָתוֹ אֹתוֹ כִּֽי־אַהֲבַת נַפְשׁוֹ אֲהֵבֽוֹ וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ",
+        "riddle": "מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽך",
+        "speaker": "יְהֽוֹנָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּאַהֲבָתוֹ",
+        "bonus_hint": {
+          "quote": "וַיִּכְרֹת יְהוֹנָתָן וְדָוִד בְּרִית בְּאַהֲבָתוֹ אֹתוֹ כְּנַפְשֽׁוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul.",
+          "18": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty."
+        },
+        "he": {
+          "17": "וַיּוֹסֶף יְהֽוֹנָתָן לְהַשְׁבִּיעַ אֶת־דָּוִד בְּאַהֲבָתוֹ אֹתוֹ כִּֽי־אַהֲבַת נַפְשׁוֹ אֲהֵבֽוֹ׃",
+          "18": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul. Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty. And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel. And I will shoot three arrows on the side thereof, as though I shot at a mark. And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth. But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away.",
+        "riddle": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+        "speaker": "Jonathan",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "moon",
+        "bonus_hint": {
+          "quote": "And he dreamed yet another dream, and told it his brethren, and said, Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 37,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיּוֹסֶף יְהֽוֹנָתָן לְהַשְׁבִּיעַ אֶת־דָּוִד בְּאַהֲבָתוֹ אֹתוֹ כִּֽי־אַהֲבַת נַפְשׁוֹ אֲהֵבֽוֹ וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים מִמְּךָ וָהֵנָּה קָחֶנּוּ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה וְאִם־כֹּה אֹמַר לָעֶלֶם הִנֵּה הַחִצִּים מִמְּךָ וָהָלְאָה לֵךְ כִּי שִֽׁלַּחֲךָ יְהוָֽה",
+        "riddle": "וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה",
+        "speaker": "יְהֽוֹנָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֹתוֹ",
+        "bonus_hint": {
+          "quote": "וַיַּחֲלֹם עוֹד חֲלוֹם אַחֵר וַיְסַפֵּר אֹתוֹ לְאֶחָיו וַיֹּאמֶר הִנֵּה חָלַמְתִּֽי חֲלוֹם עוֹד וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּֽוֹכָבִים מִֽשְׁתַּחֲוִים לִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 37,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Jonathan caused David to swear again, because he loved him: for he loved him as he loved his own soul.",
+          "18": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+          "19": "And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.",
+          "20": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+          "21": "And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth.",
+          "22": "But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away."
+        },
+        "he": {
+          "17": "וַיּוֹסֶף יְהֽוֹנָתָן לְהַשְׁבִּיעַ אֶת־דָּוִד בְּאַהֲבָתוֹ אֹתוֹ כִּֽי־אַהֲבַת נַפְשׁוֹ אֲהֵבֽוֹ׃",
+          "18": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ׃",
+          "19": "וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל׃",
+          "20": "וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה׃",
+          "21": "וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים ׀ מִמְּךָ וָהֵנָּה קָחֶנּוּ ׀ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה׃",
+          "22": "וְאִם־כֹּה אֹמַר לָעֶלֶם הִנֵּה הַחִצִּים מִמְּךָ וָהָלְאָה לֵךְ כִּי שִֽׁלַּחֲךָ יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 18,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty. And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel. And I will shoot three arrows on the side thereof, as though I shot at a mark. And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth.",
+        "riddle": "Go, find out the arrows",
+        "speaker": "Jonathan",
+        "listener": "lad",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "moon",
+        "bonus_hint": {
+          "quote": "And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים מִמְּךָ וָהֵנָּה קָחֶנּוּ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה",
+        "riddle": "לֵךְ מְצָא אֶת־הַחִצִּים",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "הַנַּעַר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חֹדֶשׁ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר מַדּוּעַ אַתְּ הֹלֶכֶת אֵלָיו הַיּוֹם לֹֽא־חֹדֶשׁ וְלֹא שַׁבָּת וַתֹּאמֶר שָׁלֽוֹם",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+          "19": "And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.",
+          "20": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+          "21": "And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth."
+        },
+        "he": {
+          "18": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ׃",
+          "19": "וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל׃",
+          "20": "וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה׃",
+          "21": "וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים ׀ מִמְּךָ וָהֵנָּה קָחֶנּוּ ׀ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 18,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 18,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty. And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel. And I will shoot three arrows on the side thereof, as though I shot at a mark. And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth. But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away.",
+        "riddle": "the arrows are beyond thee; go thy way",
+        "speaker": "Jonathan",
+        "listener": "lad",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "moon",
+        "bonus_hint": {
+          "quote": "And he said, Wherefore wilt thou go to him to day? it is neither new moon, nor sabbath. And she said, It shall be well.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים מִמְּךָ וָהֵנָּה קָחֶנּוּ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה וְאִם־כֹּה אֹמַר לָעֶלֶם הִנֵּה הַחִצִּים מִמְּךָ וָהָלְאָה לֵךְ כִּי שִֽׁלַּחֲךָ יְהוָֽה",
+        "riddle": "הִנֵּה הַחִצִּים מִמְּךָ וָהָלְאָה לֵךְ כִּי שִֽׁלַּחֲךָ יְהוָֽה",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "הַנַּעַר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חֹדֶשׁ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר מַדּוּעַ אַתְּ הֹלֶכֶת אֵלָיו הַיּוֹם לֹֽא־חֹדֶשׁ וְלֹא שַׁבָּת וַתֹּאמֶר שָׁלֽוֹם",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Then Jonathan said to David, To morrow is the new moon: and thou shalt be missed, because thy seat will be empty.",
+          "19": "And when thou hast stayed three days, then thou shalt go down quickly, and come to the place where thou didst hide thyself when the business was in hand, and shalt remain by the stone Ezel.",
+          "20": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+          "21": "And, behold, I will send a lad, saying, Go, find out the arrows. If I expressly say unto the lad, Behold, the arrows are on this side of thee, take them; then come thou: for there is peace to thee, and no hurt; as the LORD liveth.",
+          "22": "But if I say thus unto the young man, Behold, the arrows are beyond thee; go thy way: for the LORD hath sent thee away."
+        },
+        "he": {
+          "18": "וַיֹּֽאמֶר־לוֹ יְהוֹנָתָן מָחָר חֹדֶשׁ וְנִפְקַדְתָּ כִּי יִפָּקֵד מוֹשָׁבֶֽךָ׃",
+          "19": "וְשִׁלַּשְׁתָּ תֵּרֵד מְאֹד וּבָאתָ אֶל־הַמָּקוֹם אֲשֶׁר־נִסְתַּרְתָּ שָּׁם בְּיוֹם הַֽמַּעֲשֶׂה וְיָשַׁבְתָּ אֵצֶל הָאֶבֶן הָאָֽזֶל׃",
+          "20": "וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה׃",
+          "21": "וְהִנֵּה אֶשְׁלַח אֶת־הַנַּעַר לֵךְ מְצָא אֶת־הַחִצִּים אִם־אָמֹר אֹמַר לַנַּעַר הִנֵּה הַחִצִּים ׀ מִמְּךָ וָהֵנָּה קָחֶנּוּ ׀ וָבֹאָה כִּֽי־שָׁלוֹם לְךָ וְאֵין דָּבָר חַי־יְהוָֽה׃",
+          "22": "וְאִם־כֹּה אֹמַר לָעֶלֶם הִנֵּה הַחִצִּים מִמְּךָ וָהָלְאָה לֵךְ כִּי שִֽׁלַּחֲךָ יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 18,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Jonathan answered Saul, David earnestly asked leave of me to go to Bethlehem:",
+        "riddle": "David earnestly asked leave of me to go to Bethlehem:",
+        "speaker": "Jonathan",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "answered",
+        "bonus_hint": {
+          "quote": "And Abraham answered and said, Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל נִשְׁאֹל נִשְׁאַל דָּוִד מֵעִמָּדִי עַד־בֵּית לָֽחֶם",
+        "riddle": "נִשְׁאֹל נִשְׁאַל דָּוִד מֵעִמָּדִי עַד־בֵּית לָֽחֶם",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And it came to pass on the morrow, which was the second day of the month, that David's place was empty: and Saul said unto Jonathan his son, Wherefore cometh not the son of Jesse to meat, neither yesterday, nor to day?",
+          "28": "And Jonathan answered Saul, David earnestly asked leave of me to go to Bethlehem:"
+        },
+        "he": {
+          "27": "וַיְהִי מִֽמָּחֳרַת הַחֹדֶשׁ הַשֵּׁנִי וַיִּפָּקֵד מְקוֹם דָּוִד וַיֹּאמֶר שָׁאוּל אֶל־יְהוֹנָתָן בְּנוֹ מַדּוּעַ לֹא־בָא בֶן־יִשַׁי גַּם־תְּמוֹל גַּם־הַיּוֹם אֶל־הַלָּֽחֶם׃",
+          "28": "וַיַּעַן יְהוֹנָתָן אֶת־שָׁאוּל נִשְׁאֹל נִשְׁאַל דָּוִד מֵעִמָּדִי עַד־בֵּית לָֽחֶם׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 28,
+        "end": 28
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "1-samuel-20-32-32",
       "source": {
         "method": "llm",
@@ -14,7 +496,9 @@
         "book_he": "שמואל א",
         "chapter": 20,
         "quote_verse_start": 32,
-        "quote_verse_end": 32
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
       },
       "en": {
         "quote": "And Jonathan answered Saul his father, and said unto him, Wherefore shall he be slain? what hath he done?",
@@ -28,12 +512,12 @@
         },
         "bonus": "father",
         "bonus_hint": {
-          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "quote": "And Isaac his father answered and said unto him, Behold, thy dwelling shall be the fatness of the earth, and of the dew of heaven from above;",
           "source": {
             "book": "Genesis",
-            "chapter": 2,
-            "start": 24,
-            "end": 24
+            "chapter": 27,
+            "start": 39,
+            "end": 39
           }
         }
       },
@@ -47,14 +531,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "אָבִיו",
+        "bonus": "וַיַּעַן",
         "bonus_hint": {
-          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "quote": "וַיַּעַן יִצְחָק אָבִיו וַיֹּאמֶר אֵלָיו הִנֵּה מִשְׁמַנֵּי הָאָרֶץ יִהְיֶה מֽוֹשָׁבֶךָ וּמִטַּל הַשָּׁמַיִם מֵעָֽל",
           "source": {
             "book": "בראשית",
-            "chapter": 2,
-            "start": 24,
-            "end": 24
+            "chapter": 27,
+            "start": 39,
+            "end": 39
           }
         }
       },
@@ -70,6 +554,160 @@
         "chapter": 20,
         "start": 32,
         "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-36-36",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 35,
+        "quote_verse_end": 36,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "And it came to pass in the morning, that Jonathan went out into the field at the time appointed with David, and a little lad with him. And he said unto his lad, Run, find out now the arrows which I shoot. And as the lad ran, he shot an arrow beyond him.",
+        "riddle": "Run, find out now the arrows which I shoot.",
+        "speaker": "Jonathan",
+        "listener": "lad",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "arrow",
+        "bonus_hint": {
+          "quote": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בַבֹּקֶר וַיֵּצֵא יְהוֹנָתָן הַשָּׂדֶה לְמוֹעֵד דָּוִד וְנַעַר קָטֹן עִמּֽוֹ וַיֹּאמֶר לְנַעֲרוֹ רֻץ מְצָא נָא אֶת־הַחִצִּים אֲשֶׁר אָנֹכִי מוֹרֶה הַנַּעַר רָץ וְהֽוּא־יָרָה הַחֵצִי לְהַעֲבִרֽוֹ",
+        "riddle": "מְצָא נָא אֶת־הַחִצִּים אֲשֶׁר אָנֹכִי מוֹרֶה",
+        "speaker": "יְהוֹנָתָן",
+        "listener": "נַעַר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֵּצֵא",
+        "bonus_hint": {
+          "quote": "וְיֵהוּא מִלֵּא יָדוֹ בַקֶּשֶׁת וַיַּךְ אֶת־יְהוֹרָם בֵּין זְרֹעָיו וַיֵּצֵא הַחֵצִי מִלִּבּוֹ וַיִּכְרַע בְּרִכְבּֽוֹ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "And it came to pass in the morning, that Jonathan went out into the field at the time appointed with David, and a little lad with him.",
+          "36": "And he said unto his lad, Run, find out now the arrows which I shoot. And as the lad ran, he shot an arrow beyond him."
+        },
+        "he": {
+          "35": "וַיְהִי בַבֹּקֶר וַיֵּצֵא יְהוֹנָתָן הַשָּׂדֶה לְמוֹעֵד דָּוִד וְנַעַר קָטֹן עִמּֽוֹ׃",
+          "36": "וַיֹּאמֶר לְנַעֲרוֹ רֻץ מְצָא נָא אֶת־הַחִצִּים אֲשֶׁר אָנֹכִי מוֹרֶה הַנַּעַר רָץ וְהֽוּא־יָרָה הַחֵצִי לְהַעֲבִרֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 35,
+        "end": 36
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-20-38-38",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 20,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 38,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "And Jonathan cried after the lad, Make speed, haste, stay not. And Jonathan's lad gathered up the arrows, and came to his master.",
+        "riddle": "Make speed, haste, stay not.",
+        "speaker": "Jonathan",
+        "listener": "lad",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "arrows",
+        "bonus_hint": {
+          "quote": "And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 13,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יְהֽוֹנָתָן אַחֲרֵי הַנַּעַר מְהֵרָה חוּשָׁה אַֽל־תַּעֲמֹד וַיְלַקֵּט נַעַר יְהֽוֹנָתָן אֶת־הַחִצִּים וַיָּבֹא אֶל־אֲדֹנָֽיו",
+        "riddle": "מְהֵרָה חוּשָׁה אַֽל־תַּעֲמֹד",
+        "speaker": "יְהֽוֹנָתָן",
+        "listener": "הַנַּעַר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַחִצִּים",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר קַח הַחִצִּים וַיִּקָּח וַיֹּאמֶר לְמֶֽלֶךְ־יִשְׂרָאֵל הַךְ־אַרְצָה וַיַּךְ שָֽׁלֹשׁ־פְּעָמִים וַֽיַּעֲמֹֽד",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 13,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "And Jonathan cried after the lad, Make speed, haste, stay not. And Jonathan's lad gathered up the arrows, and came to his master."
+        },
+        "he": {
+          "38": "וַיִּקְרָא יְהֽוֹנָתָן אַחֲרֵי הַנַּעַר מְהֵרָה חוּשָׁה אַֽל־תַּעֲמֹד וַיְלַקֵּט נַעַר יְהֽוֹנָתָן אֶת־הַחִצִּים וַיָּבֹא אֶל־אֲדֹנָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 38,
+        "end": 38
       },
       "meta": {
         "mode": "llm",

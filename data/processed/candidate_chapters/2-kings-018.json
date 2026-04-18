@@ -6,6 +6,50 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-18-14-14",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Hezekiah king of Judah sent to the king of Assyria to Lachish, saying, I have offended; return from me: that which thou puttest on me will I bear. And the king of Assyria appointed unto Hezekiah king of Judah three hundred talents of silver and thirty talents of gold.",
+        "riddle": "I have offended; return from me: that which thou puttest on me will I bear.",
+        "speaker": "Hezekiah",
+        "listener": "king of Assyria",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח חִזְקִיָּה מֶֽלֶךְ־יְהוּדָה אֶל־מֶֽלֶךְ־אַשּׁוּר לָכִישָׁה לֵאמֹר חָטָאתִי שׁוּב מֵֽעָלַי אֵת אֲשֶׁר־תִּתֵּן עָלַי אֶשָּׂא וַיָּשֶׂם מֶֽלֶךְ־אַשּׁוּר עַל־חִזְקִיָּה מֶֽלֶךְ־יְהוּדָה שְׁלֹשׁ מֵאוֹת כִּכַּר־כֶּסֶף וּשְׁלֹשִׁים כִּכַּר זָהָֽב",
+        "riddle": "וַיִּשְׁלַח חִזְקִיָּה מֶֽלֶךְ־יְהוּדָה אֶל־מֶֽלֶךְ־אַשּׁוּר לָכִישָׁה לֵאמֹר חָטָאתִי שׁוּב מֵֽעָלַי אֵת אֲשֶׁר־תִּתֵּן עָלַי אֶשָּׂא",
+        "speaker": "חִזְקִיָּה",
+        "listener": "מֶֽלֶךְ־אַשּׁוּר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Hezekiah king of Judah sent to the king of Assyria to Lachish, saying, I have offended; return from me: that which thou puttest on me will I bear. And the king of Assyria appointed unto Hezekiah king of Judah three hundred talents of silver and thirty talents of gold."
+        },
+        "he": {
+          "14": "וַיִּשְׁלַח חִזְקִיָּה מֶֽלֶךְ־יְהוּדָה אֶל־מֶֽלֶךְ־אַשּׁוּר ׀ לָכִישָׁה ׀ לֵאמֹר ׀ חָטָאתִי שׁוּב מֵֽעָלַי אֵת אֲשֶׁר־תִּתֵּן עָלַי אֶשָּׂא וַיָּשֶׂם מֶֽלֶךְ־אַשּׁוּר עַל־חִזְקִיָּה מֶֽלֶךְ־יְהוּדָה שְׁלֹשׁ מֵאוֹת כִּכַּר־כֶּסֶף וּשְׁלֹשִׁים כִּכַּר זָהָֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
       "id": "2-kings-18-19-19",
       "source": {
         "book_code": "2KI",
@@ -13,38 +57,180 @@
         "book_he": "מלכים ב",
         "chapter": 18,
         "quote_verse_start": 19,
-        "quote_verse_end": 19
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And Rab-shakeh said unto them, Speak ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?",
         "riddle": "What confidence is this wherein thou trustest?",
-        "speaker": "King of Assyria",
-        "listener": "Hezekiah",
+        "speaker": "Rab-shakeh",
+        "listener": "officials",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיֹּאמֶר אֲלֵהֶם רַב־שָׁקֵה אִמְרוּ־נָא אֶל־חִזְקִיָּהוּ כֹּֽה־אָמַר הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּׁוּר מָה הַבִּטָּחוֹן הַזֶּה אֲשֶׁר בָּטָֽחְתָּ",
         "riddle": "מָה הַבִּטָּחוֹן הַזֶּה אֲשֶׁר בָּטָֽחְתָּ",
-        "speaker": "מֶלֶךְ אַשּׁוּר",
-        "listener": "חִזְקִיָּהוּ",
+        "speaker": "רַב־שָׁקֵה",
+        "listener": "אֲלֵהֶם",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
         "en": {
+          "18": "And when they had called to the king, there came out to them Eliakim the son of Hilkiah, which was over the household, and Shebna the scribe, and Joah the son of Asaph the recorder.",
           "19": "And Rab-shakeh said unto them, Speak ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?"
         },
         "he": {
+          "18": "וַֽיִּקְרְאוּ אֶל־הַמֶּלֶךְ וַיֵּצֵא אֲלֵהֶם אֶלְיָקִים בֶּן־חִלְקִיָּהוּ אֲשֶׁר עַל־הַבָּיִת וְשֶׁבְנָה הַסֹּפֵר וְיוֹאָח בֶּן־אָסָף הַמַּזְכִּֽיר׃",
           "19": "וַיֹּאמֶר אֲלֵהֶם רַב־שָׁקֵה אִמְרוּ־נָא אֶל־חִזְקִיָּהוּ כֹּֽה־אָמַר הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּׁוּר מָה הַבִּטָּחוֹן הַזֶּה אֲשֶׁר בָּטָֽחְתָּ׃"
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 18,
         "start": 19,
         "end": 19
+      }
+    },
+    {
+      "id": "2-kings-18-20-20",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Thou sayest, (but they are but vain words,) I have counsel and strength for the war. Now on whom dost thou trust, that thou rebellest against me?",
+        "riddle": "Now on whom dost thou trust, that thou rebellest against me?",
+        "speaker": "Rab-shakeh",
+        "listener": "officials",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אָמַרְתָּ אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה עַתָּה עַל־מִי בָטַחְתָּ כִּי מָרַדְתָּ בִּֽי",
+        "riddle": "אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה עַתָּה עַל־מִי בָטַחְתָּ כִּי מָרַדְתָּ בִּֽי",
+        "speaker": "רַב־שָׁקֵה",
+        "listener": "אֶלְיָקִים וְשֶׁבְנָה הַסֹּפֵר וְיוֹאָח",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And when they had called to the king, there came out to them Eliakim the son of Hilkiah, which was over the household, and Shebna the scribe, and Joah the son of Asaph the recorder.",
+          "19": "And Rab-shakeh said unto them, Speak ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?",
+          "20": "Thou sayest, (but they are but vain words,) I have counsel and strength for the war. Now on whom dost thou trust, that thou rebellest against me?"
+        },
+        "he": {
+          "18": "וַֽיִּקְרְאוּ אֶל־הַמֶּלֶךְ וַיֵּצֵא אֲלֵהֶם אֶלְיָקִים בֶּן־חִלְקִיָּהוּ אֲשֶׁר עַל־הַבָּיִת וְשֶׁבְנָה הַסֹּפֵר וְיוֹאָח בֶּן־אָסָף הַמַּזְכִּֽיר׃",
+          "19": "וַיֹּאמֶר אֲלֵהֶם רַב־שָׁקֵה אִמְרוּ־נָא אֶל־חִזְקִיָּהוּ כֹּֽה־אָמַר הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּׁוּר מָה הַבִּטָּחוֹן הַזֶּה אֲשֶׁר בָּטָֽחְתָּ׃",
+          "20": "אָמַרְתָּ אַךְ־דְּבַר־שְׂפָתַיִם עֵצָה וּגְבוּרָה לַמִּלְחָמָה עַתָּה עַל־מִי בָטַחְתָּ כִּי מָרַדְתָּ בִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-kings-18-21-21",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Now, behold, thou trustest upon the staff of this bruised reed, even upon Egypt, on which if a man lean, it will go into his hand, and pierce it: so is Pharoah king of Egypt unto all that trust on him.",
+        "riddle": "thou trustest upon the staff of this bruised reed, even upon Egypt, on which if a man lean, it will go into his hand, and pierce it",
+        "speaker": "Rab-shakeh",
+        "listener": "officials",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "עַתָּה הִנֵּה בָטַחְתָּ לְּךָ עַל־מִשְׁעֶנֶת הַקָּנֶה הָרָצוּץ הַזֶּה עַל־מִצְרַיִם אֲשֶׁר יִסָּמֵךְ אִישׁ עָלָיו וּבָא בְכַפּוֹ וּנְקָבָהּ כֵּן פַּרְעֹה מֶֽלֶךְ־מִצְרַיִם לְכָֽל־הַבֹּטְחִים עָלָֽיו",
+        "riddle": "עַתָּה הִנֵּה בָטַחְתָּ לְּךָ עַל־מִשְׁעֶנֶת הַקָּנֶה הָרָצוּץ הַזֶּה עַל־מִצְרַיִם אֲשֶׁר יִסָּמֵךְ אִישׁ עָלָיו וּבָא בְכַפּוֹ וּנְקָבָהּ כֵּן פַּרְעֹה מֶֽלֶךְ־מִצְרַיִם לְכָֽל־הַבֹּטְחִים עָלָֽיו",
+        "speaker": "רַב־שָׁקֵה",
+        "listener": "אֶל־הַמֶּלֶךְ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And when they had called to the king, there came out to them Eliakim the son of Hilkiah, which was over the household, and Shebna the scribe, and Joah the son of Asaph the recorder.",
+          "19": "And Rab-shakeh said unto them, Speak ye now to Hezekiah, Thus saith the great king, the king of Assyria, What confidence is this wherein thou trustest?",
+          "21": "Now, behold, thou trustest upon the staff of this bruised reed, even upon Egypt, on which if a man lean, it will go into his hand, and pierce it: so is Pharoah king of Egypt unto all that trust on him."
+        },
+        "he": {
+          "18": "וַֽיִּקְרְאוּ אֶל־הַמֶּלֶךְ וַיֵּצֵא אֲלֵהֶם אֶלְיָקִים בֶּן־חִלְקִיָּהוּ אֲשֶׁר עַל־הַבָּיִת וְשֶׁבְנָה הַסֹּפֵר וְיוֹאָח בֶּן־אָסָף הַמַּזְכִּֽיר׃",
+          "19": "וַיֹּאמֶר אֲלֵהֶם רַב־שָׁקֵה אִמְרוּ־נָא אֶל־חִזְקִיָּהוּ כֹּֽה־אָמַר הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּׁוּר מָה הַבִּטָּחוֹן הַזֶּה אֲשֶׁר בָּטָֽחְתָּ׃",
+          "21": "עַתָּה הִנֵּה בָטַחְתָּ לְּךָ עַל־מִשְׁעֶנֶת הַקָּנֶה הָרָצוּץ הַזֶּה עַל־מִצְרַיִם אֲשֶׁר יִסָּמֵךְ אִישׁ עָלָיו וּבָא בְכַפּוֹ וּנְקָבָהּ כֵּן פַּרְעֹה מֶֽלֶךְ־מִצְרַיִם לְכָֽל־הַבֹּטְחִים עָלָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-kings-18-23-23",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Now therefore, I pray thee, give pledges to my lord the king of Assyria, and I will deliver thee two thousand horses, if thou be able on thy part to set riders upon them.",
+        "riddle": "give pledges to my lord the king of Assyria, and I will deliver thee two thousand horses",
+        "speaker": "Rab-shakeh",
+        "listener": "Hezekiah's officials",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְעַתָּה הִתְעָרֶב נָא אֶת־אֲדֹנִי אֶת־מֶלֶךְ אַשּׁוּר וְאֶתְּנָה לְךָ אַלְפַּיִם סוּסִים אִם־תּוּכַל לָתֶת לְךָ רֹכְבִים עֲלֵיהֶֽם",
+        "riddle": "וְעַתָּה הִתְעָרֶב נָא אֶת־אֲדֹנִי אֶת־מֶלֶךְ אַשּׁוּר וְאֶתְּנָה לְךָ אַלְפַּיִם סוּסִים אִם־תּוּכַל לָתֶת לְךָ רֹכְבִים",
+        "speaker": "רַב שָׁקֵה",
+        "listener": "יהויקים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Now therefore, I pray thee, give pledges to my lord the king of Assyria, and I will deliver thee two thousand horses, if thou be able on thy part to set riders upon them."
+        },
+        "he": {
+          "23": "וְעַתָּה הִתְעָרֶב נָא אֶת־אֲדֹנִי אֶת־מֶלֶךְ אַשּׁוּר וְאֶתְּנָה לְךָ אַלְפַּיִם סוּסִים אִם־תּוּכַל לָתֶת לְךָ רֹכְבִים עֲלֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/offer",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 23,
+        "end": 23
       }
     },
     {
@@ -59,16 +245,16 @@
       },
       "en": {
         "quote": "How then wilt thou turn away the face of one captain of the least of my master's servants, and put thy trust on Egypt for chariots and for horsemen?",
-        "riddle": "How then wilt thou turn away the face of one captain",
-        "speaker": "Rabshakeh",
+        "riddle": "How then wilt thou turn away the face of one captain of the least of my master's servants, and put thy trust on Egypt",
+        "speaker": "Rab-shakeh",
         "listener": "Hezekiah's officials",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וְאֵיךְ תָּשִׁיב אֵת פְּנֵי פַחַת אַחַד עַבְדֵי אֲדֹנִי הַקְּטַנִּים וַתִּבְטַח לְךָ עַל־מִצְרַיִם לְרֶכֶב וּלְפָרָשִֽׁים",
-        "riddle": "וְאֵיךְ תָּשִׁיב אֵת פְּנֵי פַחַת אַחַד עַבְדֵי אֲדֹנִי הַקְּטַנִּים",
-        "speaker": "רבשק",
-        "listener": "פקידי חזקיהו",
+        "riddle": "וְאֵיךְ תָּשִׁיב אֵת פְּנֵי פַחַת אַחַד עַבְדֵי אֲדֹנִי הַקְּטַנִּים וַתִּבְטַח לְךָ עַל־מִצְרַיִם לְרֶכֶב וּלְפָרָשִֽׁים",
+        "speaker": "רַב שָׁקֵךְ",
+        "listener": "שַׁלְשֵׁרֵי חִזקִיָּה",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
@@ -80,21 +266,506 @@
         }
       },
       "meta": {
-        "reason": "Memorable rhetorical question",
-        "confidence": 0.95
+        "reason": "rhetorical question",
+        "confidence": 0.9
       },
       "ref": {
         "chapter": 18,
         "start": 24,
         "end": 24
       }
+    },
+    {
+      "id": "2-kings-18-25-25",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Am I now come up without the LORD against this place to destroy it? The LORD said to me, Go up against this land, and destroy it.",
+        "riddle": "Am I now come up without the LORD against this place to destroy it?",
+        "speaker": "Rab-shakeh",
+        "listener": "the people on the wall",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "עַתָּה הֲמִבַּלְעֲדֵי יְהוָה עָלִיתִי עַל־הַמָּקוֹם הַזֶּה לְהַשְׁחִתוֹ יְהוָה אָמַר אֵלַי עֲלֵה עַל־הָאָרֶץ הַזֹּאת וְהַשְׁחִיתָֽהּ",
+        "riddle": "עַתָּה הֲמִבַּלְעֲדֵי יְהוָה עָלִיתִי עַל־הַמָּקוֹם הַזֶּה לְהַשְׁחִתוֹ יְהוָה אָמַר אֵלַי עֲלֵה",
+        "speaker": "רַב שָׁקֶה",
+        "listener": "הָעָם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Am I now come up without the LORD against this place to destroy it? The LORD said to me, Go up against this land, and destroy it."
+        },
+        "he": {
+          "25": "עַתָּה הֲמִבַּלְעֲדֵי יְהוָה עָלִיתִי עַל־הַמָּקוֹם הַזֶּה לְהַשְׁחִתוֹ יְהוָה אָמַר אֵלַי עֲלֵה עַל־הָאָרֶץ הַזֹּאת וְהַשְׁחִיתָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-kings-18-26-26",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Then said Eliakim the son of Hilkiah, and Shebna, and Joah, unto Rab-shakeh, Speak, I pray thee, to thy servants in the Syrian language; for we understand it: and talk not with us in the Jews' language in the ears of the people that are on the wall.",
+        "riddle": "Speak, I pray thee, to thy servants in the Syrian language; for we understand it",
+        "speaker": "Eliakim, Shebna, and Joah",
+        "listener": "Rab-shakeh",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶלְיָקִים בֶּן־חִלְקִיָּהוּ וְשֶׁבְנָה וְיוֹאָח אֶל־רַב־שָׁקֵה דַּבֶּר־נָא אֶל־עֲבָדֶיךָ אֲרָמִית כִּי שֹׁמְעִים אֲנָחְנוּ וְאַל־תְּדַבֵּר עִמָּנוּ יְהוּדִית בְּאָזְנֵי הָעָם אֲשֶׁר עַל־הַחֹמָֽה",
+        "riddle": "דַּבֶּר־נָא אֶל־עֲבָדֶיךָ אֲרָמִית כִּי שֹׁמְעִים אֲנָחְנו",
+        "speaker": "אֶלְיָקִים וְשֶׁבְנָה וְיוֹאָח",
+        "listener": "רַב־שָׁקֵה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then said Eliakim the son of Hilkiah, and Shebna, and Joah, unto Rab-shakeh, Speak, I pray thee, to thy servants in the Syrian language; for we understand it: and talk not with us in the Jews' language in the ears of the people that are on the wall."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אֶלְיָקִים בֶּן־חִלְקִיָּהוּ וְשֶׁבְנָה וְיוֹאָח אֶל־רַב־שָׁקֵה דַּבֶּר־נָא אֶל־עֲבָדֶיךָ אֲרָמִית כִּי שֹׁמְעִים אֲנָחְנוּ וְאַל־תְּדַבֵּר עִמָּנוּ יְהוּדִית בְּאָזְנֵי הָעָם אֲשֶׁר עַל־הַחֹמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "2-kings-18-27-27",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "But Rab-shakeh said unto them, Hath my master sent me to thy master, and to thee, to speak these words? hath he not sent me to the men which sit on the wall, that they may eat their own dung, and drink their own piss with you.",
+        "riddle": "Hath my master sent me to thy master, and to thee, to speak these words?",
+        "speaker": "Rab-shakeh",
+        "listener": "Eliakim, Shebna, and Joah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם רַב־שָׁקֵה הַעַל אֲדֹנֶיךָ וְאֵלֶיךָ שְׁלָחַנִי אֲדֹנִי לְדַבֵּר אֶת־הַדְּבָרִים הָאֵלֶּה הֲלֹא עַל־הָאֲנָשִׁים הַיֹּֽשְׁבִים עַל־הַחֹמָה לֶאֱכֹל אֶת צוֹאָתָם וְלִשְׁתּוֹת אֶת־מימֵי רַגְלֵיהֶם עִמָּכֶֽם",
+        "riddle": "וַיֹּאמֶר אֲלֵיהֶם רַב־שָׁקֵה הַעַל אֲדֹנֶיךָ וְאֵלֶיךָ שְׁלָחַנִי אֲדֹנִי לְדַבֵּר אֶת־הַדְּבָרִים הָאֵלֶּה",
+        "speaker": "רַב־שָׁקֵה",
+        "listener": "אֲלֵיהֶם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "But Rab-shakeh said unto them, Hath my master sent me to thy master, and to thee, to speak these words? hath he not sent me to the men which sit on the wall, that they may eat their own dung, and drink their own piss with you."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר אֲלֵיהֶם רַב־שָׁקֵה הַעַל אֲדֹנֶיךָ וְאֵלֶיךָ שְׁלָחַנִי אֲדֹנִי לְדַבֵּר אֶת־הַדְּבָרִים הָאֵלֶּה הֲלֹא עַל־הָאֲנָשִׁים הַיֹּֽשְׁבִים עַל־הַחֹמָה לֶאֱכֹל אֶת צוֹאָתָם וְלִשְׁתּוֹת אֶת־מימֵי רַגְלֵיהֶם עִמָּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "2-kings-18-28-28",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "Then Rab-shakeh stood and cried with a loud voice in the Jews' language, and spake, saying, Hear the word of the great king, the king of Assyria:",
+        "riddle": "Hear the word of the great king, the king of Assyria",
+        "speaker": "Rab-shakeh",
+        "listener": "the people on the wall",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַֽיַּעֲמֹד רַב־שָׁקֵה וַיִּקְרָא בְקוֹל־גָּדוֹל יְהוּדִית וַיְדַבֵּר וַיֹּאמֶר שִׁמְעוּ דְּבַר־הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּֽׁוּר",
+        "riddle": "וַֽיַּעֲמֹד רַב־שָׁקֵה וַיִּקְרָא בְקוֹל־גָּדוֹל יְהוּדִית וַיְדַבֵּר וַיֹּאמֶר שִׁמְעוּ דְּבַר־הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּֽׁוּר",
+        "speaker": "רַב־שָׁקֵה",
+        "listener": "יְהוּדִית",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Then Rab-shakeh stood and cried with a loud voice in the Jews' language, and spake, saying, Hear the word of the great king, the king of Assyria:"
+        },
+        "he": {
+          "28": "וַֽיַּעֲמֹד רַב־שָׁקֵה וַיִּקְרָא בְקוֹל־גָּדוֹל יְהוּדִית וַיְדַבֵּר וַיֹּאמֶר שִׁמְעוּ דְּבַר־הַמֶּלֶךְ הַגָּדוֹל מֶלֶךְ אַשּֽׁוּר׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "2-kings-18-29-29",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "Thus saith the king, Let not Hezekiah deceive you: for he shall not be able to deliver you out of his hand:",
+        "riddle": "Let not Hezekiah deceive you: for he shall not be able to deliver you out of his hand",
+        "speaker": "King of Assyria",
+        "listener": "the people on the wall",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "כֹּה אָמַר הַמֶּלֶךְ אַל־יַשִּׁיא לָכֶם חִזְקִיָּהוּ כִּי־לֹא יוּכַל לְהַצִּיל אֶתְכֶם מִיָּדֽוֹ",
+        "riddle": "כֹּה אָמַר הַמֶּלֶךְ אַל־יַשִּׁיא לָכֶם חִזְקִיָּהוּ כִּי־לֹא יוּכַל לְהַצִּיל אֶתְכֶם מִיָּדֽוֹ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָעָם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "Thus saith the king, Let not Hezekiah deceive you: for he shall not be able to deliver you out of his hand:"
+        },
+        "he": {
+          "29": "כֹּה אָמַר הַמֶּלֶךְ אַל־יַשִּׁיא לָכֶם חִזְקִיָּהוּ כִּי־לֹא יוּכַל לְהַצִּיל אֶתְכֶם מִיָּדֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "2-kings-18-30-30",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "Neither let Hezekiah make you trust in the LORD, saying, The LORD will surely deliver us, and this city shall not be delivered into the hand of the king of Assyria.",
+        "riddle": "Neither let Hezekiah make you trust in the LORD",
+        "speaker": "King of Assyria",
+        "listener": "the people on the wall",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְאַל־יַבְטַח אֶתְכֶם חִזְקִיָּהוּ אֶל־יְהוָה לֵאמֹר הַצֵּל יַצִּילֵנוּ יְהוָה וְלֹא תִנָּתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ אַשּֽׁוּר",
+        "riddle": "וְאַל־יַבְטַח אֶתְכֶם חִזְקִיָּהוּ אֶל־יְהוָה לֵאמֹר",
+        "speaker": "מֶלֶךְ אַשּֽׁוּר",
+        "listener": "הָעִיר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "Neither let Hezekiah make you trust in the LORD, saying, The LORD will surely deliver us, and this city shall not be delivered into the hand of the king of Assyria."
+        },
+        "he": {
+          "30": "וְאַל־יַבְטַח אֶתְכֶם חִזְקִיָּהוּ אֶל־יְהוָה לֵאמֹר הַצֵּל יַצִּילֵנוּ יְהוָה וְלֹא תִנָּתֵן אֶת־הָעִיר הַזֹּאת בְּיַד מֶלֶךְ אַשּֽׁוּר׃"
+        }
+      },
+      "meta": {
+        "reason": "warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "2-kings-18-31-31",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+        "riddle": "Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+        "speaker": "king of Assyria",
+        "listener": "people of Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ",
+        "riddle": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ",
+        "speaker": "מֶלֶךְ אַשּׁוּר",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:"
+        },
+        "he": {
+          "31": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and offer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "2-kings-18-32-32",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Until I come and take you away to a land like your own land, a land of corn and wine, a land of bread and vineyards, a land of oil olive and of honey, that ye may live, and not die: and hearken not unto Hezekiah, when he persuadeth you, saying, The LORD will deliver us.",
+        "riddle": "Until I come and take you away to a land like your own land, a land of corn and wine, a land of bread and vineyards, a land of oil olive and of honey, that ye may live, and not die",
+        "speaker": "king of Assyria",
+        "listener": "people of Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "עַד־בֹּאִי וְלָקַחְתִּי אֶתְכֶם אֶל־אֶרֶץ כְּאַרְצְכֶם אֶרֶץ דָּגָן וְתִירוֹשׁ אֶרֶץ לֶחֶם וּכְרָמִים אֶרֶץ זֵית יִצְהָר וּדְבַשׁ וִֽחְיוּ וְלֹא תָמֻתוּ וְאַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּֽי־יַסִּית אֶתְכֶם לֵאמֹר יְהוָה יַצִּילֵֽנוּ",
+        "riddle": "עַד־בֹּאִי וְלָקַחְתִּי אֶתְכֶם אֶל־אֶרֶץ כְּאַרְצְכֶם אֶרֶץ דָּגָן וְתִירוֹשׁ אֶרֶץ לֶחֶם וּכְרָמִים אֶרֶץ זֵית יִצְהָר וּדְבַשׁ וִֽחְיוּ וְלֹא תָמֻתוּ וְאַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּֽי־יַסִּית אֶתְכֶם לֵאמֹר יְהוָה יַצִּילֵֽנוּ",
+        "speaker": "מֶלֶךְ אַשּׁוּר",
+        "listener": "עֲשֽׂוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+          "32": "Until I come and take you away to a land like your own land, a land of corn and wine, a land of bread and vineyards, a land of oil olive and of honey, that ye may live, and not die: and hearken not unto Hezekiah, when he persuadeth you, saying, The LORD will deliver us."
+        },
+        "he": {
+          "31": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ׃",
+          "32": "עַד־בֹּאִי וְלָקַחְתִּי אֶתְכֶם אֶל־אֶרֶץ כְּאַרְצְכֶם אֶרֶץ דָּגָן וְתִירוֹשׁ אֶרֶץ לֶחֶם וּכְרָמִים אֶרֶץ זֵית יִצְהָר וּדְבַשׁ וִֽחְיוּ וְלֹא תָמֻתוּ וְאַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּֽי־יַסִּית אֶתְכֶם לֵאמֹר יְהוָה יַצִּילֵֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid promise",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "2-kings-18-33-33",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Hath any of the gods of the nations delivered at all his land out of the hand of the king of Assyria?",
+        "riddle": "Hath any of the gods of the nations delivered at all his land out of the hand of the king of Assyria?",
+        "speaker": "king of Assyria",
+        "listener": "people of Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הַהַצֵּל הִצִּילוּ אֱלֹהֵי הַגּוֹיִם אִישׁ אֶת־אַרְצוֹ מִיַּד מֶלֶךְ אַשּֽׁוּר",
+        "riddle": "הַהַצֵּל הִצִּילוּ אֱלֹהֵי הַגּוֹיִם אִישׁ אֶת־אַרְצוֹ מִיַּד מֶלֶךְ אַשּֽׁוּר",
+        "speaker": "מֶלֶךְ אַשּֽׁוּר",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+          "33": "Hath any of the gods of the nations delivered at all his land out of the hand of the king of Assyria?"
+        },
+        "he": {
+          "31": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ׃",
+          "33": "הַהַצֵּל הִצִּילוּ אֱלֹהֵי הַגּוֹיִם אִישׁ אֶת־אַרְצוֹ מִיַּד מֶלֶךְ אַשּֽׁוּר׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "2-kings-18-34-34",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Where are the gods of Hamath, and of Arpad? where are the gods of Sepharvaim, Hena, and Ivah? have they delivered Samaria out of mine hand?",
+        "riddle": "Where are the gods of Hamath, and of Arpad? where are the gods of Sepharvaim, Hena, and Ivah? have they delivered Samaria out of mine hand?",
+        "speaker": "king of Assyria",
+        "listener": "people of Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אַיֵּה אֱלֹהֵי חֲמָת וְאַרְפָּד אַיֵּה אֱלֹהֵי סְפַרְוַיִם הֵנַע וְעִוָּה כִּֽי־הִצִּילוּ אֶת־שֹׁמְרוֹן מִיָּדִֽי",
+        "riddle": "אַיֵּה אֱלֹהֵי חֲמָת וְאַרְפָּד אַיֵּה אֱלֹהֵי סְפַרְוַיִם הֵנַע וְעִוָּה כִּֽי־הִצִּילוּ אֶת־שֹׁמְרוֹן מִיָּדִֽי",
+        "speaker": "מֶלֶךְ אַשּׁוּר",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+          "34": "Where are the gods of Hamath, and of Arpad? where are the gods of Sepharvaim, Hena, and Ivah? have they delivered Samaria out of mine hand?"
+        },
+        "he": {
+          "31": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ׃",
+          "34": "אַיֵּה אֱלֹהֵי חֲמָת וְאַרְפָּד אַיֵּה אֱלֹהֵי סְפַרְוַיִם הֵנַע וְעִוָּה כִּֽי־הִצִּילוּ אֶת־שֹׁמְרוֹן מִיָּדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "series of questions",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 34,
+        "end": 34
+      }
+    },
+    {
+      "id": "2-kings-18-35-35",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 18,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Who are they among all the gods of the countries, that have delivered their country out of mine hand, that the LORD should deliver Jerusalem out of mine hand?",
+        "riddle": "Who are they among all the gods of the countries, that have delivered their country out of mine hand, that the LORD should deliver Jerusalem out of mine hand?",
+        "speaker": "king of Assyria",
+        "listener": "people of Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "מִי בְּכָל־אֱלֹהֵי הָֽאֲרָצוֹת אֲשֶׁר־הִצִּילוּ אֶת־אַרְצָם מִיָּדִי כִּי־יַצִּיל יְהוָה אֶת־יְרוּשָׁלִַם מִיָּדִֽי",
+        "riddle": "מִי בְּכָל־אֱלֹהֵי הָֽאֲרָצוֹת אֲשֶׁר־הִצִּילוּ אֶת־אַרְצָם מִיָּדִי כִּי־יַצִּיל יְהוָה אֶת־יְרוּשָׁלִַם מִיָּדִֽי",
+        "speaker": "מֶלֶךְ אַשּׁוּר",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Hearken not to Hezekiah: for thus saith the king of Assyria, Make an agreement with me by a present, and come out to me, and then eat ye every man of his own vine, and every one of his fig tree, and drink ye every one the waters of his cistern:",
+          "35": "Who are they among all the gods of the countries, that have delivered their country out of mine hand, that the LORD should deliver Jerusalem out of mine hand?"
+        },
+        "he": {
+          "31": "אַֽל־תִּשְׁמְעוּ אֶל־חִזְקִיָּהוּ כִּי כֹה אָמַר מֶלֶךְ אַשּׁוּר עֲשֽׂוּ־אִתִּי בְרָכָה וּצְאוּ אֵלַי וְאִכְלוּ אִישׁ־גַּפְנוֹ וְאִישׁ תְּאֵֽנָתוֹ וּשְׁתוּ אִישׁ מֵֽי־בוֹרֽוֹ׃",
+          "35": "מִי בְּכָל־אֱלֹהֵי הָֽאֲרָצוֹת אֲשֶׁר־הִצִּילוּ אֶת־אַרְצָם מִיָּדִי כִּי־יַצִּיל יְהוָה אֶת־יְרוּשָׁלִַם מִיָּדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 35,
+        "end": 35
+      }
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 2,
-    "issue_count": 26
+    "llm_window_count": 5,
+    "projection_llm_count": 17,
+    "llm_call_count": 22,
+    "spec_count": 17,
+    "kept_count": 17,
+    "issue_count": 0
   }
 }

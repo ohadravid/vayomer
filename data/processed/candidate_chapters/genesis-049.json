@@ -4,12 +4,274 @@
   "book_he": "בראשית",
   "chapter": 49,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-49-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days.",
+        "riddle": "Gather yourselves together, that I may tell you that which shall befall you in the last days.",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִֽים",
+        "riddle": "הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִֽים",
+        "speaker": "יַעֲקֹב",
+        "listener": "בָּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Jacob called unto his sons, and said, Gather yourselves together, that I may tell you that which shall befall you in the last days."
+        },
+        "he": {
+          "1": "וַיִּקְרָא יַעֲקֹב אֶל־בָּנָיו וַיֹּאמֶר הֵאָֽסְפוּ וְאַגִּידָה לָכֶם אֵת אֲשֶׁר־יִקְרָא אֶתְכֶם בְּאַחֲרִית הַיָּמִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and prophecy",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-49-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.",
+        "riddle": "Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father.",
+        "speaker": "Israel",
+        "listener": "sons of Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶֽם",
+        "riddle": "הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶֽם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "בְּנֵי יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Gather yourselves together, and hear, ye sons of Jacob; and hearken unto Israel your father."
+        },
+        "he": {
+          "2": "הִקָּבְצוּ וְשִׁמְעוּ בְּנֵי יַעֲקֹב וְשִׁמְעוּ אֶל־יִשְׂרָאֵל אֲבִיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-49-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Judah, thou art he whom thy brethren shall praise: thy hand shall be in the neck of thine enemies; thy father's children shall bow down before thee.",
+        "riddle": "Judah, thou art he whom thy brethren shall praise: thy hand shall be in the neck of thine enemies; thy father's children shall bow down before thee.",
+        "speaker": "Jacob",
+        "listener": "Judah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "יְהוּדָה אַתָּה יוֹדוּךָ אַחֶיךָ יָדְךָ בְּעֹרֶף אֹיְבֶיךָ יִשְׁתַּחֲוּוּ לְךָ בְּנֵי אָבִֽיךָ",
+        "riddle": "יְהוּדָה אַתָּה יוֹדוּךָ אַחֶיךָ יָדְךָ בְּעֹרֶף אֹיְבֶיךָ יִשְׁתַּחֲוּוּ לְךָ בְּנֵי אָבִֽיךָ",
+        "speaker": "יעקב",
+        "listener": "יְהוּדָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Judah, thou art he whom thy brethren shall praise: thy hand shall be in the neck of thine enemies; thy father's children shall bow down before thee."
+        },
+        "he": {
+          "8": "יְהוּדָה אַתָּה יוֹדוּךָ אַחֶיךָ יָדְךָ בְּעֹרֶף אֹיְבֶיךָ יִשְׁתַּחֲוּוּ לְךָ בְּנֵי אָבִֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration/blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-49-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Judah is a lion's whelp: from the prey, my son, thou art gone up: he stooped down, he couched as a lion, and as an old lion; who shall rouse him up?",
+        "riddle": "Judah is a lion's whelp: from the prey, my son, thou art gone up: he stooped down, he couched as a lion, and as an old lion; who shall rouse him up?",
+        "speaker": "Jacob",
+        "listener": "Judah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "גּוּר אַרְיֵה יְהוּדָה מִטֶּרֶף בְּנִי עָלִיתָ כָּרַע רָבַץ כְּאַרְיֵה וּכְלָבִיא מִי יְקִימֶֽנּוּ",
+        "riddle": "גּוּר אַרְיֵה יְהוּדָה מִטֶּרֶף בְּנִי עָלִיתָ כָּרַע רָבַץ כְּאַרְיֵה וּכְלָבִיא מִי יְקִימֶֽנּוּ",
+        "speaker": "יעקב",
+        "listener": "יְהוּדָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Judah is a lion's whelp: from the prey, my son, thou art gone up: he stooped down, he couched as a lion, and as an old lion; who shall rouse him up?"
+        },
+        "he": {
+          "9": "גּוּר אַרְיֵה יְהוּדָה מִטֶּרֶף בְּנִי עָלִיתָ כָּרַע רָבַץ כְּאַרְיֵה וּכְלָבִיא מִי יְקִימֶֽנּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid metaphor and question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-49-27-27",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Benjamin shall ravin as a wolf: in the morning he shall devour the prey, and at night he shall divide the spoil.",
+        "riddle": "Benjamin shall ravin as a wolf: in the morning he shall devour the prey, and at night he shall divide the spoil.",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "בִּנְיָמִין זְאֵב יִטְרָף בַּבֹּקֶר יֹאכַל עַד וְלָעֶרֶב יְחַלֵּק שָׁלָֽל",
+        "riddle": "בִּנְיָמִין זְאֵב יִטְרָף בַּבֹּקֶר יֹאכַל עַד וְלָעֶרֶב יְחַלֵּק שָׁלָֽל",
+        "speaker": "יַעֲקֹב",
+        "listener": "בְּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "Benjamin shall ravin as a wolf: in the morning he shall devour the prey, and at night he shall divide the spoil."
+        },
+        "he": {
+          "27": "בִּנְיָמִין זְאֵב יִטְרָף בַּבֹּקֶר יֹאכַל עַד וְלָעֶרֶב יְחַלֵּק שָׁלָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "genesis-49-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 49,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And he charged them, and said unto them, I am to be gathered unto my people: bury me with my fathers in the cave that is in the field of Ephron the Hittite,",
+        "riddle": "I am to be gathered unto my people: bury me with my fathers in the cave that is in the field of Ephron the Hittite",
+        "speaker": "Jacob",
+        "listener": "his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְצַו אוֹתָם וַיֹּאמֶר אֲלֵהֶם אֲנִי נֶאֱסָף אֶל־עַמִּי קִבְרוּ אֹתִי אֶל־אֲבֹתָי אֶל־הַמְּעָרָה אֲשֶׁר בִּשְׂדֵה עֶפְרוֹן הַֽחִתִּֽי",
+        "riddle": "אֲנִי נֶאֱסָף אֶל־עַמִּי קִבְרוּ אֹתִי אֶל־אֲבֹתָי אֶל־הַמְּעָרָה אֲשֶׁר בִּשְׂדֵה עֶפְרוֹן הַֽחִתִּֽי",
+        "speaker": "יַעֲקֹב",
+        "listener": "בְּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And he charged them, and said unto them, I am to be gathered unto my people: bury me with my fathers in the cave that is in the field of Ephron the Hittite,"
+        },
+        "he": {
+          "29": "וַיְצַו אוֹתָם וַיֹּאמֶר אֲלֵהֶם אֲנִי נֶאֱסָף אֶל־עַמִּי קִבְרוּ אֹתִי אֶל־אֲבֹתָי אֶל־הַמְּעָרָה אֲשֶׁר בִּשְׂדֵה עֶפְרוֹן הַֽחִתִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 49,
+        "start": 29,
+        "end": 29
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 6,
+    "llm_call_count": 9,
+    "spec_count": 6,
+    "kept_count": 6,
+    "issue_count": 0
   }
 }

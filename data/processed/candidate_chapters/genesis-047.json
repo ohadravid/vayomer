@@ -6,7 +6,49 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-47-03-03",
+      "id": "genesis-47-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "Then Joseph came and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen.",
+        "riddle": "My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen.",
+        "speaker": "Joseph",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיָּבֹא יוֹסֵף וַיַּגֵּד לְפַרְעֹה וַיֹּאמֶר אָבִי וְאַחַי וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם בָּאוּ מֵאֶרֶץ כְּנָעַן וְהִנָּם בְּאֶרֶץ גֹּֽשֶׁן",
+        "riddle": "אָבִי וְאַחַי וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם בָּאוּ מֵאֶרֶץ כְּנָעַן וְהִנָּם בְּאֶרֶץ גֹּֽשֶׁן",
+        "speaker": "יוֹסֵף",
+        "listener": "פַרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Joseph came and told Pharaoh, and said, My father and my brethren, and their flocks, and their herds, and all that they have, are come out of the land of Canaan; and, behold, they are in the land of Goshen."
+        },
+        "he": {
+          "1": "וַיָּבֹא יוֹסֵף וַיַּגֵּד לְפַרְעֹה וַיֹּאמֶר אָבִי וְאַחַי וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם בָּאוּ מֵאֶרֶץ כְּנָעַן וְהִנָּם בְּאֶרֶץ גֹּֽשֶׁן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-47-03-03-1",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
@@ -19,7 +61,7 @@
         "quote": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.",
         "riddle": "What is your occupation?",
         "speaker": "Pharaoh",
-        "listener": "his brethren",
+        "listener": "Joseph's brethren",
         "book": "Genesis"
       },
       "he": {
@@ -38,21 +80,728 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 47,
         "start": 3,
         "end": 3
       }
+    },
+    {
+      "id": "genesis-47-03-03-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers.",
+        "riddle": "Thy servants are shepherds, both we, and also our fathers.",
+        "speaker": "Joseph's brethren",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ",
+        "riddle": "וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ",
+        "speaker": "אֶחָיו",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Pharaoh said unto his brethren, What is your occupation? And they said unto Pharaoh, Thy servants are shepherds, both we, and also our fathers."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר פַּרְעֹה אֶל־אֶחָיו מַה־מַּעֲשֵׂיכֶם וַיֹּאמְרוּ אֶל־פַּרְעֹה רֹעֵה צֹאן עֲבָדֶיךָ גַּם־אֲנַחְנוּ גַּם־אֲבוֹתֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-47-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "They said moreover unto Pharaoh, For to sojourn in the land are we come; for thy servants have no pasture for their flocks; for the famine is sore in the land of Canaan: now therefore, we pray thee, let thy servants dwell in the land of Goshen.",
+        "riddle": "For to sojourn in the land are we come; for thy servants have no pasture for their flocks; for the famine is sore in the land of Canaan: now therefore, we pray thee, let thy servants dwell in the land of Goshen.",
+        "speaker": "Joseph's brethren",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֶל־פַּרְעֹה לָגוּר בָּאָרֶץ בָּאנוּ כִּי־אֵין מִרְעֶה לַצֹּאן אֲשֶׁר לַעֲבָדֶיךָ כִּֽי־כָבֵד הָרָעָב בְּאֶרֶץ כְּנָעַן וְעַתָּה יֵֽשְׁבוּ־נָא עֲבָדֶיךָ בְּאֶרֶץ גֹּֽשֶׁן",
+        "riddle": "וַיֹּאמְרוּ אֶל־פַּרְעֹה לָגוּר בָּאָרֶץ בָּאנוּ כִּי־אֵין מִרְעֶה לַצֹּאן אֲשֶׁר לַעֲבָדֶיךָ כִּֽי־כָבֵד הָרָעָב בְּאֶרֶץ כְּנָעַן וְעַתָּה יֵֽשְׁבוּ־נָא עֲבָדֶיךָ בְּאֶרֶץ גֹּֽשֶׁן",
+        "speaker": "עֲבָדֶיךָ",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "They said moreover unto Pharaoh, For to sojourn in the land are we come; for thy servants have no pasture for their flocks; for the famine is sore in the land of Canaan: now therefore, we pray thee, let thy servants dwell in the land of Goshen."
+        },
+        "he": {
+          "4": "וַיֹּאמְרוּ אֶל־פַּרְעֹה לָגוּר בָּאָרֶץ בָּאנוּ כִּי־אֵין מִרְעֶה לַצֹּאן אֲשֶׁר לַעֲבָדֶיךָ כִּֽי־כָבֵד הָרָעָב בְּאֶרֶץ כְּנָעַן וְעַתָּה יֵֽשְׁבוּ־נָא עֲבָדֶיךָ בְּאֶרֶץ גֹּֽשֶׁן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-47-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And Pharaoh spake unto Joseph, saying, Thy father and thy brethren are come unto thee:",
+        "riddle": "Thy father and thy brethren are come unto thee:",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף לֵאמֹר אָבִיךָ וְאַחֶיךָ בָּאוּ אֵלֶֽיךָ",
+        "riddle": "אָבִיךָ וְאַחֶיךָ בָּאוּ אֵלֶֽיךָ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Pharaoh spake unto Joseph, saying, Thy father and thy brethren are come unto thee:"
+        },
+        "he": {
+          "5": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף לֵאמֹר אָבִיךָ וְאַחֶיךָ בָּאוּ אֵלֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "genesis-47-06-06",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowest any men of activity among them, then make them rulers over my cattle.",
+        "riddle": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowest any men of activity among them, then make them rulers over my cattle.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אֶרֶץ מִצְרַיִם לְפָנֶיךָ הִוא בְּמֵיטַב הָאָרֶץ הוֹשֵׁב אֶת־אָבִיךָ וְאֶת־אַחֶיךָ יֵשְׁבוּ בְּאֶרֶץ גֹּשֶׁן וְאִם־יָדַעְתָּ וְיֶשׁ־בָּם אַנְשֵׁי־חַיִל וְשַׂמְתָּם שָׂרֵי מִקְנֶה עַל־אֲשֶׁר־לִֽי",
+        "riddle": "אֶרֶץ מִצְרַיִם לְפָנֶיךָ הִוא בְּמֵיטַב הָאָרֶץ הוֹשֵׁב אֶת־אָבִיךָ וְאֶת־אַחֶיךָ יֵשְׁבוּ בְּאֶרֶץ גֹּשֶׁן וְאִם־יָדַעְתָּ וְיֶשׁ־בָּם אַנְשֵׁי־חַיִל וְשַׂמְתָּם שָׂרֵי מִקְנֶה עַל־אֲשֶׁר־לִֽי",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "The land of Egypt is before thee; in the best of the land make thy father and brethren to dwell; in the land of Goshen let them dwell: and if thou knowest any men of activity among them, then make them rulers over my cattle."
+        },
+        "he": {
+          "6": "אֶרֶץ מִצְרַיִם לְפָנֶיךָ הִוא בְּמֵיטַב הָאָרֶץ הוֹשֵׁב אֶת־אָבִיךָ וְאֶת־אַחֶיךָ יֵשְׁבוּ בְּאֶרֶץ גֹּשֶׁן וְאִם־יָדַעְתָּ וְיֶשׁ־בָּם אַנְשֵׁי־חַיִל וְשַׂמְתָּם שָׂרֵי מִקְנֶה עַל־אֲשֶׁר־לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-47-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Jacob, How old art thou?",
+        "riddle": "How old art thou?",
+        "speaker": "Pharaoh",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶֽל־יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ",
+        "riddle": "כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Pharaoh said unto Jacob, How old art thou?"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר פַּרְעֹה אֶֽל־יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-47-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage.",
+        "riddle": "The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage.",
+        "speaker": "Jacob",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶֽם",
+        "riddle": "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶֽם",
+        "speaker": "יַעֲקֹב",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Pharaoh said unto Jacob, How old art thou?",
+          "9": "And Jacob said unto Pharaoh, The days of the years of my pilgrimage are an hundred and thirty years: few and evil have the days of the years of my life been, and have not attained unto the days of the years of the life of my fathers in the days of their pilgrimage."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר פַּרְעֹה אֶֽל־יַעֲקֹב כַּמָּה יְמֵי שְׁנֵי חַיֶּֽיךָ׃",
+          "9": "וַיֹּאמֶר יַעֲקֹב אֶל־פַּרְעֹה יְמֵי שְׁנֵי מְגוּרַי שְׁלֹשִׁים וּמְאַת שָׁנָה מְעַט וְרָעִים הָיוּ יְמֵי שְׁנֵי חַיַּי וְלֹא הִשִּׂיגוּ אֶת־יְמֵי שְׁנֵי חַיֵּי אֲבֹתַי בִּימֵי מְגוּרֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-47-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And when money failed in the land of Egypt, and in the land of Canaan, all the Egyptians came unto Joseph, and said, Give us bread: for why should we die in thy presence? for the money faileth.",
+        "riddle": "Give us bread: for why should we die in thy presence? for the money faileth.",
+        "speaker": "Egyptians",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּתֹּם הַכֶּסֶף מֵאֶרֶץ מִצְרַיִם וּמֵאֶרֶץ כְּנַעַן וַיָּבֹאוּ כָל־מִצְרַיִם אֶל־יוֹסֵף לֵאמֹר הָֽבָה־לָּנוּ לֶחֶם וְלָמָּה נָמוּת נֶגְדֶּךָ כִּי אָפֵס כָּֽסֶף",
+        "riddle": "וַיָּבֹאוּ כָל־מִצְרַיִם אֶל־יוֹסֵף לֵאמֹר הָֽבָה־לָּנוּ לֶחֶם וְלָמָּה נָמוּת נֶגְדֶּךָ כִּי אָפֵס כָּֽסֶף",
+        "speaker": "מִצְרַיִם",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And when money failed in the land of Egypt, and in the land of Canaan, all the Egyptians came unto Joseph, and said, Give us bread: for why should we die in thy presence? for the money faileth.",
+          "16": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail."
+        },
+        "he": {
+          "15": "וַיִּתֹּם הַכֶּסֶף מֵאֶרֶץ מִצְרַיִם וּמֵאֶרֶץ כְּנַעַן וַיָּבֹאוּ כָל־מִצְרַיִם אֶל־יוֹסֵף לֵאמֹר הָֽבָה־לָּנוּ לֶחֶם וְלָמָּה נָמוּת נֶגְדֶּךָ כִּי אָפֵס כָּֽסֶף׃",
+          "16": "וַיֹּאמֶר יוֹסֵף הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea and question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-47-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail.",
+        "riddle": "Give your cattle; and I will give you for your cattle, if money fail.",
+        "speaker": "Joseph",
+        "listener": "Egyptians",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף",
+        "riddle": "הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף",
+        "speaker": "יוֹסֵף",
+        "listener": "מִצְרַיִם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And when money failed in the land of Egypt, and in the land of Canaan, all the Egyptians came unto Joseph, and said, Give us bread: for why should we die in thy presence? for the money faileth.",
+          "16": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail."
+        },
+        "he": {
+          "15": "וַיִּתֹּם הַכֶּסֶף מֵאֶרֶץ מִצְרַיִם וּמֵאֶרֶץ כְּנַעַן וַיָּבֹאוּ כָל־מִצְרַיִם אֶל־יוֹסֵף לֵאמֹר הָֽבָה־לָּנוּ לֶחֶם וְלָמָּה נָמוּת נֶגְדֶּךָ כִּי אָפֵס כָּֽסֶף׃",
+          "16": "וַיֹּאמֶר יוֹסֵף הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and offer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-47-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "When that year was ended, they came unto him the second year, and said unto him, We will not hide it from my lord, how that our money is spent; my lord also hath our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our lands:",
+        "riddle": "We will not hide it from my lord, how that our money is spent; my lord also hath our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our lands:",
+        "speaker": "Egyptians",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתִּתֹּם הַשָּׁנָה הַהִוא וַיָּבֹאוּ אֵלָיו בַּשָּׁנָה הַשֵּׁנִית וַיֹּאמְרוּ לוֹ לֹֽא־נְכַחֵד מֵֽאֲדֹנִי כִּי אִם־תַּם הַכֶּסֶף וּמִקְנֵה הַבְּהֵמָה אֶל־אֲדֹנִי לֹא נִשְׁאַר לִפְנֵי אֲדֹנִי בִּלְתִּי אִם־גְּוִיָּתֵנוּ וְאַדְמָתֵֽנוּ",
+        "riddle": "וַתִּתֹּם הַשָּׁנָה הַהִוא וַיָּבֹאוּ אֵלָיו בַּשָּׁנָה הַשֵּׁנִית וַיֹּאמְרוּ לוֹ לֹֽא־נְכַחֵד מֵֽאֲדֹנִי כִּי אִם־תַּם הַכֶּסֶף וּמִקְנֵה הַבְּהֵמָה אֶל־אֲדֹנִי לֹא נִשְׁאַר לִפְנֵי אֲדֹנִי בִּלְתִּי אִם־גְּוִיָּתֵנוּ וְאַדְמָתֵֽנוּ",
+        "speaker": "מִקְנֵה הַבְּהֵמָה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail.",
+          "18": "When that year was ended, they came unto him the second year, and said unto him, We will not hide it from my lord, how that our money is spent; my lord also hath our herds of cattle; there is not ought left in the sight of my lord, but our bodies, and our lands:"
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יוֹסֵף הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף׃",
+          "18": "וַתִּתֹּם הַשָּׁנָה הַהִוא וַיָּבֹאוּ אֵלָיו בַּשָּׁנָה הַשֵּׁנִית וַיֹּאמְרוּ לוֹ לֹֽא־נְכַחֵד מֵֽאֲדֹנִי כִּי אִם־תַּם הַכֶּסֶף וּמִקְנֵה הַבְּהֵמָה אֶל־אֲדֹנִי לֹא נִשְׁאַר לִפְנֵי אֲדֹנִי בִּלְתִּי אִם־גְּוִיָּתֵנוּ וְאַדְמָתֵֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-47-19-19",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "Wherefore shall we die before thine eyes, both we and our land? buy us and our land for bread, and we and our land will be servants unto Pharaoh: and give us seed, that we may live, and not die, that the land be not desolate.",
+        "riddle": "Wherefore shall we die before thine eyes, both we and our land? buy us and our land for bread, and we and our land will be servants unto Pharaoh: and give us seed, that we may live, and not die, that the land be not desolate.",
+        "speaker": "Egyptians",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "לָמָּה נָמוּת לְעֵינֶיךָ גַּם־אֲנַחְנוּ גַּם אַדְמָתֵנוּ קְנֵֽה־אֹתָנוּ וְאֶת־אַדְמָתֵנוּ בַּלָּחֶם וְנִֽהְיֶה אֲנַחְנוּ וְאַדְמָתֵנוּ עֲבָדִים לְפַרְעֹה וְתֶן־זֶרַע וְנִֽחְיֶה וְלֹא נָמוּת וְהָאֲדָמָה לֹא תֵשָֽׁם",
+        "riddle": "לָמָּה נָמוּת לְעֵינֶיךָ גַּם־אֲנַחְנוּ גַּם אַדְמָתֵנוּ קְנֵֽה־אֹתָנוּ וְאֶת־אַדְמָתֵנוּ בַּלָּחֶם וְנִֽהְיֶה אֲנַחְנוּ וְאַדְמָתֵנוּ עֲבָדִים לְפַרְעֹה וְתֶן־זֶרַע וְנִֽחְיֶה וְלֹא נָמוּת וְהָאֲדָמָה לֹא תֵשָֽׁם",
+        "speaker": "אֲנַחְנוּ",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Joseph said, Give your cattle; and I will give you for your cattle, if money fail.",
+          "19": "Wherefore shall we die before thine eyes, both we and our land? buy us and our land for bread, and we and our land will be servants unto Pharaoh: and give us seed, that we may live, and not die, that the land be not desolate."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יוֹסֵף הָבוּ מִקְנֵיכֶם וְאֶתְּנָה לָכֶם בְּמִקְנֵיכֶם אִם־אָפֵס כָּֽסֶף׃",
+          "19": "לָמָּה נָמוּת לְעֵינֶיךָ גַּם־אֲנַחְנוּ גַּם אַדְמָתֵנוּ קְנֵֽה־אֹתָנוּ וְאֶת־אַדְמָתֵנוּ בַּלָּחֶם וְנִֽהְיֶה אֲנַחְנוּ וְאַדְמָתֵנוּ עֲבָדִים לְפַרְעֹה וְתֶן־זֶרַע וְנִֽחְיֶה וְלֹא נָמוּת וְהָאֲדָמָה לֹא תֵשָֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "genesis-47-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "Then Joseph said unto the people, Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you, and ye shall sow the land.",
+        "riddle": "Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you, and ye shall sow the land.",
+        "speaker": "Joseph",
+        "listener": "the people",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־הָעָם הֵן קָנִיתִי אֶתְכֶם הַיּוֹם וְאֶת־אַדְמַתְכֶם לְפַרְעֹה הֵֽא־לָכֶם זֶרַע וּזְרַעְתֶּם אֶת־הָאֲדָמָֽה",
+        "riddle": "הֵן קָנִיתִי אֶתְכֶם הַיּוֹם וְאֶת־אַדְמַתְכֶם לְפַרְעֹה הֵֽא־לָכֶם זֶרַע וּזְרַעְתֶּם אֶת־הָאֲדָמָֽה",
+        "speaker": "יוֹסֵף",
+        "listener": "הָעָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Then Joseph said unto the people, Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you, and ye shall sow the land."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר יוֹסֵף אֶל־הָעָם הֵן קָנִיתִי אֶתְכֶם הַיּוֹם וְאֶת־אַדְמַתְכֶם לְפַרְעֹה הֵֽא־לָכֶם זֶרַע וּזְרַעְתֶּם אֶת־הָאֲדָמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "genesis-47-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And it shall come to pass in the increase, that ye shall give the fifth part unto Pharaoh, and four parts shall be your own, for seed of the field, and for your food, and for them of your households, and for food for your little ones.",
+        "riddle": "And it shall come to pass in the increase, that ye shall give the fifth part unto Pharaoh, and four parts shall be your own, for seed of the field, and for your food, and for them of your households, and for food for your little ones.",
+        "speaker": "Joseph",
+        "listener": "the people",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְהָיָה בַּתְּבוּאֹת וּנְתַתֶּם חֲמִישִׁית לְפַרְעֹה וְאַרְבַּע הַיָּדֹת יִהְיֶה לָכֶם לְזֶרַע הַשָּׂדֶה וּֽלְאָכְלְכֶם וְלַאֲשֶׁר בְּבָתֵּיכֶם וְלֶאֱכֹל לְטַפְּכֶֽם",
+        "riddle": "וְהָיָה בַּתְּבוּאֹת וּנְתַתֶּם חֲמִישִׁית לְפַרְעֹה וְאַרְבַּע הַיָּדֹת יִהְיֶה לָכֶם לְזֶרַע הַשָּׂדֶה וּֽלְאָכְלְכֶם וְלַאֲשֶׁר בְּבָתֵּיכֶם וְלֶאֱכֹל לְטַפְּכֶֽם",
+        "speaker": "יוֹסֵף",
+        "listener": "הָעָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Then Joseph said unto the people, Behold, I have bought you this day and your land for Pharaoh: lo, here is seed for you, and ye shall sow the land.",
+          "24": "And it shall come to pass in the increase, that ye shall give the fifth part unto Pharaoh, and four parts shall be your own, for seed of the field, and for your food, and for them of your households, and for food for your little ones."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר יוֹסֵף אֶל־הָעָם הֵן קָנִיתִי אֶתְכֶם הַיּוֹם וְאֶת־אַדְמַתְכֶם לְפַרְעֹה הֵֽא־לָכֶם זֶרַע וּזְרַעְתֶּם אֶת־הָאֲדָמָֽה׃",
+          "24": "וְהָיָה בַּתְּבוּאֹת וּנְתַתֶּם חֲמִישִׁית לְפַרְעֹה וְאַרְבַּע הַיָּדֹת יִהְיֶה לָכֶם לְזֶרַע הַשָּׂדֶה וּֽלְאָכְלְכֶם וְלַאֲשֶׁר בְּבָתֵּיכֶם וְלֶאֱכֹל לְטַפְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-47-25-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh's servants.",
+        "riddle": "Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh's servants.",
+        "speaker": "the people",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הֶחֱיִתָנוּ נִמְצָא־חֵן בְּעֵינֵי אֲדֹנִי וְהָיִינוּ עֲבָדִים לְפַרְעֹֽה",
+        "riddle": "וַיֹּאמְרוּ הֶחֱיִתָנוּ נִמְצָא־חֵן בְּעֵינֵי אֲדֹנִי וְהָיִינוּ עֲבָדִים לְפַרְעֹֽה",
+        "speaker": "הָעָם",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And they said, Thou hast saved our lives: let us find grace in the sight of my lord, and we will be Pharaoh's servants."
+        },
+        "he": {
+          "25": "וַיֹּאמְרוּ הֶחֱיִתָנוּ נִמְצָא־חֵן בְּעֵינֵי אֲדֹנִי וְהָיִינוּ עֲבָדִים לְפַרְעֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "genesis-47-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:",
+        "riddle": "If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּקְרְבוּ יְמֵֽי־יִשְׂרָאֵל לָמוּת וַיִּקְרָא לִבְנוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִי וְעָשִׂיתָ עִמָּדִי חֶסֶד וֶאֱמֶת אַל־נָא תִקְבְּרֵנִי בְּמִצְרָֽיִם",
+        "riddle": "וַיִּקְרְבוּ יְמֵֽי־יִשְׂרָאֵל לָמוּת וַיִּקְרָא לִבְנוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִי וְעָשִׂיתָ עִמָּדִי חֶסֶד וֶאֱמֶת אַל־נָא תִקְבְּרֵנִי בְּמִצְרָֽיִם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:"
+        },
+        "he": {
+          "29": "וַיִּקְרְבוּ יְמֵֽי־יִשְׂרָאֵל לָמוּת וַיִּקְרָא ׀ לִבְנוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִי וְעָשִׂיתָ עִמָּדִי חֶסֶד וֶאֱמֶת אַל־נָא תִקְבְּרֵנִי בְּמִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "genesis-47-30-30",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said.",
+        "riddle": "But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace.",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְשָֽׁכַבְתִּי עִם־אֲבֹתַי וּנְשָׂאתַנִי מִמִּצְרַיִם וּקְבַרְתַּנִי בִּקְבֻרָתָם וַיֹּאמַר אָנֹכִי אֶֽעֱשֶׂה כִדְבָרֶֽךָ",
+        "riddle": "וְשָֽׁכַבְתִּי עִם־אֲבֹתַי וּנְשָׂאתַנִי מִמִּצְרַיִם וּקְבַרְתַּנִי בִּקְבֻרָתָם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:",
+          "30": "But I will lie with my fathers, and thou shalt carry me out of Egypt, and bury me in their buryingplace. And he said, I will do as thou hast said."
+        },
+        "he": {
+          "29": "וַיִּקְרְבוּ יְמֵֽי־יִשְׂרָאֵל לָמוּת וַיִּקְרָא ׀ לִבְנוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִי וְעָשִׂיתָ עִמָּדִי חֶסֶד וֶאֱמֶת אַל־נָא תִקְבְּרֵנִי בְּמִצְרָֽיִם׃",
+          "30": "וְשָֽׁכַבְתִּי עִם־אֲבֹתַי וּנְשָׂאתַנִי מִמִּצְרַיִם וּקְבַרְתַּנִי בִּקְבֻרָתָם וַיֹּאמַר אָנֹכִי אֶֽעֱשֶׂה כִדְבָרֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "genesis-47-31-31",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 47,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head.",
+        "riddle": "Swear unto me.",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הִשָּֽׁבְעָה לִי וַיִּשָּׁבַע לוֹ וַיִּשְׁתַּחוּ יִשְׂרָאֵל עַל־רֹאשׁ הַמִּטָּֽה",
+        "riddle": "הִשָּֽׁבְעָה לִי",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And he said, Swear unto me. And he sware unto him. And Israel bowed himself upon the bed's head."
+        },
+        "he": {
+          "31": "וַיֹּאמֶר הִשָּֽׁבְעָה לִי וַיִּשָּׁבַע לוֹ וַיִּשְׁתַּחוּ יִשְׂרָאֵל עַל־רֹאשׁ הַמִּטָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 47,
+        "start": 31,
+        "end": 31
+      }
     }
   ],
   "stats": {
-    "window_count": 24,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 24,
-    "kept_count": 1,
-    "issue_count": 23
+    "llm_window_count": 5,
+    "projection_llm_count": 19,
+    "llm_call_count": 24,
+    "spec_count": 19,
+    "kept_count": 18,
+    "issue_count": 1
   }
 }

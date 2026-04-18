@@ -6,6 +6,134 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-09-03-03",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the asses of Kish Saul's father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.",
+        "riddle": "Take now one of the servants with thee, and arise, go seek the asses.",
+        "speaker": "Kish",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאבַדְנָה הָאֲתֹנוֹת לְקִישׁ אֲבִי שָׁאוּל וַיֹּאמֶר קִישׁ אֶל־שָׁאוּל בְּנוֹ קַח־נָא אִתְּךָ אֶת־אַחַד מֵֽהַנְּעָרִים וְקוּם לֵךְ בַּקֵּשׁ אֶת־הָאֲתֹנֹֽת",
+        "riddle": "קִישׁ אֶל־שָׁאוּל בְּנוֹ קַח־נָא אִתְּךָ אֶת־אַחַד מֵֽהַנְּעָרִים וְקוּם לֵךְ בַּקֵּשׁ אֶת",
+        "speaker": "קִישׁ",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the asses of Kish Saul's father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses."
+        },
+        "he": {
+          "3": "וַתֹּאבַדְנָה הָאֲתֹנוֹת לְקִישׁ אֲבִי שָׁאוּל וַיֹּאמֶר קִישׁ אֶל־שָׁאוּל בְּנוֹ קַח־נָא אִתְּךָ אֶת־אַחַד מֵֽהַנְּעָרִים וְקוּם לֵךְ בַּקֵּשׁ אֶת־הָאֲתֹנֹֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "1-samuel-09-05-05",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And when they were come to the land of Zuph, Saul said to his servant that was with him, Come, and let us return; lest my father leave caring for the asses, and take thought for us.",
+        "riddle": "Come, and let us return; lest my father leave caring for the asses, and take thought for us.",
+        "speaker": "Saul",
+        "listener": "servant",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הֵמָּה בָּאוּ בְּאֶרֶץ צוּף וְשָׁאוּל אָמַר לְנַעֲרוֹ אֲשֶׁר־עִמּוֹ לְכָה וְנָשׁוּבָה פֶּן־יֶחְדַּל אָבִי מִן־הָאֲתֹנוֹת וְדָאַג לָֽנוּ",
+        "riddle": "לְנַעֲרוֹ אֲשֶׁר־עִמּוֹ לְכָה וְנָשׁוּבָה",
+        "speaker": "שָׁאוּל",
+        "listener": "נַעֲרוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And when they were come to the land of Zuph, Saul said to his servant that was with him, Come, and let us return; lest my father leave caring for the asses, and take thought for us."
+        },
+        "he": {
+          "5": "הֵמָּה בָּאוּ בְּאֶרֶץ צוּף וְשָׁאוּל אָמַר לְנַעֲרוֹ אֲשֶׁר־עִמּוֹ לְכָה וְנָשׁוּבָה פֶּן־יֶחְדַּל אָבִי מִן־הָאֲתֹנוֹת וְדָאַג לָֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-09-06-06",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And he said unto him, Behold now, there is in this city a man of God, and he is an honourable man; all that he saith cometh surely to pass: now let us go thither; peradventure he can shew us our way that we should go.",
+        "riddle": "Behold now, there is in this city a man of God, and he is an honourable man; all that he saith cometh surely to pass: now let us go thither; peradventure he can shew us our way that we should go.",
+        "speaker": "servant",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ הִנֵּה־נָא אִישׁ־אֱלֹהִים בָּעִיר הַזֹּאת וְהָאִישׁ נִכְבָּד כֹּל אֲשֶׁר־יְדַבֵּר בּוֹא יָבוֹא עַתָּה נֵלֲכָה שָּׁם אוּלַי יַגִּיד לָנוּ אֶת־דַּרְכֵּנוּ אֲשֶׁר־הָלַכְנוּ עָלֶֽיהָ",
+        "riddle": "וַיֹּאמֶר לוֹ הִנֵּה־נָא אִישׁ־אֱלֹהִים בָּעִיר הַזֹּאת וְהָאִישׁ נִכְבָּד כֹּל אֲשֶׁר־יְדַבֵּר בּוֹא יָבוֹא עַתָּה נֵלֲכָה שָּׁם אוּלַי יַגִּיד לָנוּ אֶת־דַּרְכֵּנוּ אֲשֶׁר־הָלַכְנוּ עָלֶֽיהָ",
+        "speaker": "עֶבֶד",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he said unto him, Behold now, there is in this city a man of God, and he is an honourable man; all that he saith cometh surely to pass: now let us go thither; peradventure he can shew us our way that we should go."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר לוֹ הִנֵּה־נָא אִישׁ־אֱלֹהִים בָּעִיר הַזֹּאת וְהָאִישׁ נִכְבָּד כֹּל אֲשֶׁר־יְדַבֵּר בּוֹא יָבוֹא עַתָּה נֵלֲכָה שָּׁם אוּלַי יַגִּיד לָנוּ אֶת־דַּרְכֵּנוּ אֲשֶׁר־הָלַכְנוּ עָלֶֽיהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
       "id": "1-samuel-09-07-07",
       "source": {
         "book_code": "1SA",
@@ -17,16 +145,16 @@
       },
       "en": {
         "quote": "Then said Saul to his servant, But, behold, if we go, what shall we bring the man? for the bread is spent in our vessels, and there is not a present to bring to the man of God: what have we?",
-        "riddle": "what have we?",
+        "riddle": "But, behold, if we go, what shall we bring the man? for the bread is spent in our vessels, and there is not a present to bring to the man of God: what have we?",
         "speaker": "Saul",
         "listener": "servant",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ וְהִנֵּה נֵלֵךְ וּמַה־נָּבִיא לָאִישׁ כִּי הַלֶּחֶם אָזַל מִכֵּלֵינוּ וּתְשׁוּרָה אֵין־לְהָבִיא לְאִישׁ הָאֱלֹהִים מָה אִתָּֽנוּ",
-        "riddle": "מָה אִתָּֽנוּ",
+        "riddle": "וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ וְהִנֵּה נֵלֵךְ וּמַה־נָּבִיא לָאִישׁ כִּי הַלֶּחֶם אָזַל מִכֵּלֵינוּ וּתְשׁוּרָה אֵין־לְהָבִיא לְאִישׁ הָאֱלֹהִים מָה אִתָּֽנוּ",
         "speaker": "שָׁאוּל",
-        "listener": "נער",
+        "listener": "נַעַר",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -38,21 +166,539 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.94
       },
       "ref": {
         "chapter": 9,
         "start": 7,
         "end": 7
       }
+    },
+    {
+      "id": "1-samuel-09-08-08",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And the servant answered Saul again, and said, Behold, I have here at hand the fourth part of a shekel of silver: that will I give to the man of God, to tell us our way.",
+        "riddle": "Behold, I have here at hand the fourth part of a shekel of silver: that will I give to the man of God, to tell us our way.",
+        "speaker": "servant",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּסֶף הַנַּעַר לַעֲנוֹת אֶת־שָׁאוּל וַיֹּאמֶר הִנֵּה נִמְצָא בְיָדִי רֶבַע שֶׁקֶל כָּסֶף וְנָֽתַתִּי לְאִישׁ הָאֱלֹהִים וְהִגִּיד לָנוּ אֶת־דַּרְכֵּֽנוּ",
+        "riddle": "וַיֹּסֶף הַנַּעַר לַעֲנוֹת אֶת־שָׁאוּל וַיֹּאמֶר הִנֵּה נִמְצָא בְיָדִי רֶבַע שֶׁקֶל כָּסֶף וְנָֽתַתִּי לְאִישׁ הָאֱלֹהִים וְהִגִּיד לָנוּ אֶת־דַּרְכֵּֽנוּ",
+        "speaker": "הַנַּעַר",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the servant answered Saul again, and said, Behold, I have here at hand the fourth part of a shekel of silver: that will I give to the man of God, to tell us our way."
+        },
+        "he": {
+          "8": "וַיֹּסֶף הַנַּעַר לַעֲנוֹת אֶת־שָׁאוּל וַיֹּאמֶר הִנֵּה נִמְצָא בְיָדִי רֶבַע שֶׁקֶל כָּסֶף וְנָֽתַתִּי לְאִישׁ הָאֱלֹהִים וְהִגִּיד לָנוּ אֶת־דַּרְכֵּֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-09-10-10",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Then said Saul to his servant, Well said; come, let us go. So they went unto the city where the man of God was.",
+        "riddle": "Well said; come, let us go.",
+        "speaker": "Saul",
+        "listener": "servant",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ טוֹב דְּבָרְךָ לְכָה נֵלֵכָה וַיֵּֽלְכוּ אֶל־הָעִיר אֲשֶׁר־שָׁם אִישׁ הָאֱלֹהִֽים",
+        "riddle": "טוֹב דְּבָרְךָ לְכָה נֵלֵכָה",
+        "speaker": "שָׁאוּל",
+        "listener": "נַעַר",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "Then said Saul to his servant, Well said; come, let us go. So they went unto the city where the man of God was."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר שָׁאוּל לְנַעֲרוֹ טוֹב דְּבָרְךָ לְכָה ׀ נֵלֵכָה וַיֵּֽלְכוּ אֶל־הָעִיר אֲשֶׁר־שָׁם אִישׁ הָאֱלֹהִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "1-samuel-09-12-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And they answered them, and said, He is; behold, he is before you: make haste now, for he came to day to the city; for there is a sacrifice of the people to day in the high place:",
+        "riddle": "He is; behold, he is before you: make haste now, for he came to day to the city; for there is a sacrifice of the people to day in the high place:",
+        "speaker": "maidens",
+        "listener": "Saul and servant",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתַּעֲנֶינָה אוֹתָם וַתֹּאמַרְנָה יֵּשׁ הִנֵּה לְפָנֶיךָ מַהֵר עַתָּה כִּי הַיּוֹם בָּא לָעִיר כִּי זֶבַח הַיּוֹם לָעָם בַּבָּמָֽה",
+        "riddle": "וַתַּעֲנֶינָה אוֹתָם וַתֹּאמַרְנָה יֵּשׁ הִנֵּה לְפָנֶיךָ מַהֵר עַתָּה כִּי הַיּוֹם בָּא לָעִיר כִּי זֶבַח הַיּוֹם לָעָם בַּבָּמָֽה",
+        "speaker": "נַעֲרוֹת",
+        "listener": "שָׁאוּל וְעַבְדּוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And they answered them, and said, He is; behold, he is before you: make haste now, for he came to day to the city; for there is a sacrifice of the people to day in the high place:"
+        },
+        "he": {
+          "12": "וַתַּעֲנֶינָה אוֹתָם וַתֹּאמַרְנָה יֵּשׁ הִנֵּה לְפָנֶיךָ מַהֵר ׀ עַתָּה כִּי הַיּוֹם בָּא לָעִיר כִּי זֶבַח הַיּוֹם לָעָם בַּבָּמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-samuel-09-15-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Now the LORD had told Samuel in his ear a day before Saul came, saying,",
+        "riddle": "the LORD had told Samuel in his ear a day before Saul came, saying,",
+        "speaker": "LORD",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַֽיהוָה גָּלָה אֶת־אֹזֶן שְׁמוּאֵל יוֹם אֶחָד לִפְנֵי בֽוֹא־שָׁאוּל לֵאמֹֽר",
+        "riddle": "וַֽיהוָה גָּלָה אֶת־אֹזֶן שְׁמוּאֵל יוֹם אֶחָד לִפְנֵי בֽוֹא־שָׁאוּל לֵאמֹֽר",
+        "speaker": "יהוָה",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Now the LORD had told Samuel in his ear a day before Saul came, saying,"
+        },
+        "he": {
+          "15": "וַֽיהוָה גָּלָה אֶת־אֹזֶן שְׁמוּאֵל יוֹם אֶחָד לִפְנֵי בֽוֹא־שָׁאוּל לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "divine communication",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-09-16-16",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "To morrow about this time I will send thee a man out of the land of Benjamin, and thou shalt anoint him to be captain over my people Israel, that he may save my people out of the hand of the Philistines: for I have looked upon my people, because their cry is come unto me.",
+        "riddle": "To morrow about this time I will send thee a man out of the land of Benjamin, and thou shalt anoint him to be captain over my people Israel",
+        "speaker": "the LORD",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "כָּעֵת מָחָר אֶשְׁלַח אֵלֶיךָ אִישׁ מֵאֶרֶץ בִּנְיָמִן וּמְשַׁחְתּוֹ לְנָגִיד עַל־עַמִּי יִשְׂרָאֵל וְהוֹשִׁיעַ אֶת־עַמִּי מִיַּד פְּלִשְׁתִּים כִּי רָאִיתִי אֶת־עַמִּי כִּי בָּאָה צַעֲקָתוֹ אֵלָֽי",
+        "riddle": "כָּעֵת מָחָר אֶשְׁלַח אֵלֶיךָ אִישׁ מֵאֶרֶץ בִּנְיָמִן וּמְשַׁחְתּוֹ לְנָגִיד עַל־עַמִּי יִשְׂרָאֵל וְהוֹשִׁיעַ אֶת־עַמִּי מִיַּד פְּלִשְׁתִּים כִּי רָאִיתִי אֶת־עַמִּי כִּי בָּאָה צַעֲקָתוֹ אֵלָֽי",
+        "speaker": "יהוָה",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Now the LORD had told Samuel in his ear a day before Saul came, saying,",
+          "16": "To morrow about this time I will send thee a man out of the land of Benjamin, and thou shalt anoint him to be captain over my people Israel, that he may save my people out of the hand of the Philistines: for I have looked upon my people, because their cry is come unto me."
+        },
+        "he": {
+          "15": "וַֽיהוָה גָּלָה אֶת־אֹזֶן שְׁמוּאֵל יוֹם אֶחָד לִפְנֵי בֽוֹא־שָׁאוּל לֵאמֹֽר׃",
+          "16": "כָּעֵת ׀ מָחָר אֶשְׁלַח אֵלֶיךָ אִישׁ מֵאֶרֶץ בִּנְיָמִן וּמְשַׁחְתּוֹ לְנָגִיד עַל־עַמִּי יִשְׂרָאֵל וְהוֹשִׁיעַ אֶת־עַמִּי מִיַּד פְּלִשְׁתִּים כִּי רָאִיתִי אֶת־עַמִּי כִּי בָּאָה צַעֲקָתוֹ אֵלָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-09-17-17",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when Samuel saw Saul, the LORD said unto him, Behold the man whom I spake to thee of! this same shall reign over my people.",
+        "riddle": "Behold the man whom I spake to thee of! this same shall reign over my people.",
+        "speaker": "the LORD",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וּשְׁמוּאֵל רָאָה אֶת־שָׁאוּל וַיהוָה עָנָהוּ הִנֵּה הָאִישׁ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ זֶה יַעְצֹר בְּעַמִּֽי",
+        "riddle": "הִנֵּה הָאִישׁ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ זֶה יַעְצֹר בְּעַמִּֽי",
+        "speaker": "יהוָה",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when Samuel saw Saul, the LORD said unto him, Behold the man whom I spake to thee of! this same shall reign over my people."
+        },
+        "he": {
+          "17": "וּשְׁמוּאֵל רָאָה אֶת־שָׁאוּל וַיהוָה עָנָהוּ הִנֵּה הָאִישׁ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ זֶה יַעְצֹר בְּעַמִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "1-samuel-09-18-18",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "Then Saul drew near to Samuel in the gate, and said, Tell me, I pray thee, where the seer's house is.",
+        "riddle": "Tell me, I pray thee, where the seer's house is.",
+        "speaker": "Saul",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּגַּשׁ שָׁאוּל אֶת־שְׁמוּאֵל בְּתוֹךְ הַשָּׁעַר וַיֹּאמֶר הַגִּֽידָה־נָּא לִי אֵי־זֶה בֵּית הָרֹאֶֽה",
+        "riddle": "וַיֹּאמֶר הַגִּֽידָה־נָּא לִי אֵי־זֶה בֵּית הָרֹאֶֽה",
+        "speaker": "שָׁאוּל",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Then Saul drew near to Samuel in the gate, and said, Tell me, I pray thee, where the seer's house is."
+        },
+        "he": {
+          "18": "וַיִּגַּשׁ שָׁאוּל אֶת־שְׁמוּאֵל בְּתוֹךְ הַשָּׁעַר וַיֹּאמֶר הַגִּֽידָה־נָּא לִי אֵי־זֶה בֵּית הָרֹאֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "1-samuel-09-19-19",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And Samuel answered Saul, and said, I am the seer: go up before me unto the high place; for ye shall eat with me to day, and to morrow I will let thee go, and will tell thee all that is in thine heart.",
+        "riddle": "I am the seer: go up before me unto the high place; for ye shall eat with me to day",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן שְׁמוּאֵל אֶת־שָׁאוּל וַיֹּאמֶר אָנֹכִי הָרֹאֶה עֲלֵה לְפָנַי הַבָּמָה וַאֲכַלְתֶּם עִמִּי הַיּוֹם וְשִׁלַּחְתִּיךָ בַבֹּקֶר וְכֹל אֲשֶׁר בִּֽלְבָבְךָ אַגִּיד לָֽךְ",
+        "riddle": "וַיֹּאמֶר אָנֹכִי הָרֹאֶה עֲלֵה לְפָנַי הַבָּמָה וַאֲכַלְתֶּם עִמִּי הַיּוֹם וְשִׁלַּחְתִּיךָ בַבֹּקֶר וְכֹל אֲשֶׁר בִּֽלְבָבְךָ אַגִּיד לָֽךְ",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Samuel answered Saul, and said, I am the seer: go up before me unto the high place; for ye shall eat with me to day, and to morrow I will let thee go, and will tell thee all that is in thine heart."
+        },
+        "he": {
+          "19": "וַיַּעַן שְׁמוּאֵל אֶת־שָׁאוּל וַיֹּאמֶר אָנֹכִי הָרֹאֶה עֲלֵה לְפָנַי הַבָּמָה וַאֲכַלְתֶּם עִמִּי הַיּוֹם וְשִׁלַּחְתִּיךָ בַבֹּקֶר וְכֹל אֲשֶׁר בִּֽלְבָבְךָ אַגִּיד לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "1-samuel-09-21-21",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And Saul answered and said, Am not I a Benjamite, of the smallest of the tribes of Israel? and my family the least of all the families of the tribe of Benjamin? wherefore then speakest thou so to me?",
+        "riddle": "Am not I a Benjamite, of the smallest of the tribes of Israel?",
+        "speaker": "Saul",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן שָׁאוּל וַיֹּאמֶר הֲלוֹא בֶן־יְמִינִי אָנֹכִי מִקַּטַנֵּי שִׁבְטֵי יִשְׂרָאֵל וּמִשְׁפַּחְתִּי הַצְּעִרָה מִכָּֽל־מִשְׁפְּחוֹת שִׁבְטֵי בִנְיָמִן וְלָמָּה דִּבַּרְתָּ אֵלַי כַּדָּבָר הַזֶּֽה",
+        "riddle": "הֲלוֹא בֶן־יְמִינִי אָנֹכִי מִקַּטַנֵּי שִׁבְטֵי יִשְׂרָאֵל וּמִשְׁפַּחְתִּי הַצְּעִרָה מִכָּֽל־מִשְׁפְּחוֹת שִׁבְטֵי בִנְיָמִן וְלָמָּה דִּבַּרְתָּ",
+        "speaker": "שָׁאוּל",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Saul answered and said, Am not I a Benjamite, of the smallest of the tribes of Israel? and my family the least of all the families of the tribe of Benjamin? wherefore then speakest thou so to me?"
+        },
+        "he": {
+          "21": "וַיַּעַן שָׁאוּל וַיֹּאמֶר הֲלוֹא בֶן־יְמִינִי אָנֹכִי מִקַּטַנֵּי שִׁבְטֵי יִשְׂרָאֵל וּמִשְׁפַּחְתִּי הַצְּעִרָה מִכָּֽל־מִשְׁפְּחוֹת שִׁבְטֵי בִנְיָמִן וְלָמָּה דִּבַּרְתָּ אֵלַי כַּדָּבָר הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "1-samuel-09-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And Samuel said unto the cook, Bring the portion which I gave thee, of which I said unto thee, Set it by thee.",
+        "riddle": "Bring the portion which I gave thee",
+        "speaker": "Samuel",
+        "listener": "the cook",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל לַטַּבָּח תְּנָה אֶת־הַמָּנָה אֲשֶׁר נָתַתִּי לָךְ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ שִׂים אֹתָהּ עִמָּֽךְ",
+        "riddle": "תְּנָה אֶת־הַמָּנָה אֲשֶׁר נָתַתִּי לָךְ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הַטַּבָּח",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Samuel said unto the cook, Bring the portion which I gave thee, of which I said unto thee, Set it by thee."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר שְׁמוּאֵל לַטַּבָּח תְּנָה אֶת־הַמָּנָה אֲשֶׁר נָתַתִּי לָךְ אֲשֶׁר אָמַרְתִּי אֵלֶיךָ שִׂים אֹתָהּ עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-samuel-09-24-24",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And the cook took up the shoulder, and that which was upon it, and set it before Saul. And Samuel said, Behold that which is left! set it before thee, and eat: for unto this time hath it been kept for thee since I said, I have invited the people. So Saul did eat with Samuel that day.",
+        "riddle": "Behold that which is left! set it before thee, and eat",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּרֶם הַטַּבָּח אֶת־הַשּׁוֹק וְהֶעָלֶיהָ וַיָּשֶׂם לִפְנֵי שָׁאוּל וַיֹּאמֶר הִנֵּה הַנִּשְׁאָר שִׂים־לְפָנֶיךָ אֱכֹל כִּי לַמּוֹעֵד שָֽׁמוּר־לְךָ לֵאמֹר הָעָם קָרָאתִי וַיֹּאכַל שָׁאוּל עִם־שְׁמוּאֵל בַּיּוֹם הַהֽוּא",
+        "riddle": "וַיָּשֶׂם לִפְנֵי שָׁאוּל וַיֹּאמֶר הִנֵּה הַנִּשְׁאָר שִׂים־לְפָנֶיךָ אֱכֹל כִּי לַמּוֹעֵד",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the cook took up the shoulder, and that which was upon it, and set it before Saul. And Samuel said, Behold that which is left! set it before thee, and eat: for unto this time hath it been kept for thee since I said, I have invited the people. So Saul did eat with Samuel that day."
+        },
+        "he": {
+          "24": "וַיָּרֶם הַטַּבָּח אֶת־הַשּׁוֹק וְהֶעָלֶיהָ וַיָּשֶׂם ׀ לִפְנֵי שָׁאוּל וַיֹּאמֶר הִנֵּה הַנִּשְׁאָר שִׂים־לְפָנֶיךָ אֱכֹל כִּי לַמּוֹעֵד שָֽׁמוּר־לְךָ לֵאמֹר הָעָם ׀ קָרָאתִי וַיֹּאכַל שָׁאוּל עִם־שְׁמוּאֵל בַּיּוֹם הַהֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "1-samuel-09-27-27",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 9,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "And as they were going down to the end of the city, Samuel said to Saul, Bid the servant pass on before us, (and he passed on,) but stand thou still a while, that I may shew thee the word of God.",
+        "riddle": "the servant pass on before us, (and he passed on,) but stand thou still a while,",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הֵמָּה יֽוֹרְדִים בִּקְצֵה הָעִיר וּשְׁמוּאֵל אָמַר אֶל־שָׁאוּל אֱמֹר לַנַּעַר וְיַעֲבֹר לְפָנֵינוּ וַֽיַּעֲבֹר וְאַתָּה עֲמֹד כַּיּוֹם וְאַשְׁמִיעֲךָ אֶת־דְּבַר אֱלֹהִֽים",
+        "riddle": "אֱמֹר לַנַּעַר וְיַעֲבֹר לְפָנֵינוּ וַֽיַּעֲבֹר וְאַתָּה עֲמֹד כַּיּוֹם וְאַשְׁמִיעֲךָ אֶת־דְּבַר אֱלֹהִֽים",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And as they were going down to the end of the city, Samuel said to Saul, Bid the servant pass on before us, (and he passed on,) but stand thou still a while, that I may shew thee the word of God."
+        },
+        "he": {
+          "27": "הֵמָּה יֽוֹרְדִים בִּקְצֵה הָעִיר וּשְׁמוּאֵל אָמַר אֶל־שָׁאוּל אֱמֹר לַנַּעַר וְיַעֲבֹר לְפָנֵינוּ וַֽיַּעֲבֹר וְאַתָּה עֲמֹד כַּיּוֹם וְאַשְׁמִיעֲךָ אֶת־דְּבַר אֱלֹהִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 27,
+        "end": 27
+      }
     }
   ],
   "stats": {
-    "window_count": 24,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 24,
-    "kept_count": 1,
-    "issue_count": 23
+    "llm_window_count": 4,
+    "projection_llm_count": 19,
+    "llm_call_count": 23,
+    "spec_count": 19,
+    "kept_count": 16,
+    "issue_count": 3
   }
 }

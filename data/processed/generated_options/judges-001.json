@@ -6,88 +6,179 @@
   "mode": "llm",
   "items": [
     {
-      "id": "judges-01-14-14",
+      "id": "judges-01-03-03",
       "source": {
         "method": "llm",
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 1,
-        "quote_verse_start": 13,
-        "quote_verse_end": 14
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "listener_mention_verse": 3
       },
       "en": {
-        "quote": "And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife. And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?",
-        "riddle": "What wilt thou?",
-        "speaker": "Caleb",
-        "listener": "Achsah",
+        "quote": "And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him.",
+        "riddle": "Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot.",
+        "speaker": "Judah",
+        "listener": "Simeon",
         "book": "Judges",
         "options": {
           "speaker": [
-            "Samson",
-            "Manoah",
-            "Abimelech"
+            "Israel",
+            "Philistines",
+            "tribes of Reuben, Gad, and Manasseh"
           ],
           "listener": [
-            "Naomi",
-            "Ruth",
-            "Abimelech"
+            "Gideon",
+            "Jephthah",
+            "Philistines"
           ]
         },
-        "bonus": "daughter",
+        "bonus": "brother",
         "bonus_hint": {
-          "quote": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+          "quote": "And she again bare his brother Abel. And Abel was a keeper of sheep, but Cain was a tiller of the ground.",
           "source": {
             "book": "Genesis",
-            "chapter": 29,
-            "start": 6,
-            "end": 6
+            "chapter": 4,
+            "start": 2,
+            "end": 2
           }
         }
       },
       "he": {
-        "quote": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב הַקָּטֹן מִמֶּנּוּ וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
-        "riddle": "מַה־לָּֽךְ",
-        "speaker": "כָלֵב",
-        "listener": "עַכְסָה",
+        "quote": "וַיֹּאמֶר יְהוּדָה לְשִׁמְעוֹן אָחִיו עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶךָ וַיֵּלֶךְ אִתּוֹ שִׁמְעֽוֹן",
+        "riddle": "עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶך",
+        "speaker": "יְהוּדָה",
+        "listener": "שִׁמְעֽוֹן",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "שִׁמְשׁוֹן",
-            "מָנוֹחַ",
-            "אֲבִימֶלֶךְ"
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "רְאוּבֵן וגד וַחֲצִי מְנַשֶּׁה"
           ],
           "listener": [
-            "נָעֳמִי",
-            "רוּת",
-            "אֲבִימֶלֶךְ"
+            "גִּדְעוֹן",
+            "יִפְתָּח",
+            "פְּלִשְׁתִּים"
           ]
         },
-        "bonus": "בִתּוֹ",
+        "bonus": "אָחִיו",
         "bonus_hint": {
-          "quote": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+          "quote": "וַתֹּסֶף לָלֶדֶת אֶת־אָחִיו אֶת־הָבֶל וַֽיְהִי־הֶבֶל רֹעֵה צֹאן וְקַיִן הָיָה עֹבֵד אֲדָמָֽה",
           "source": {
             "book": "בראשית",
-            "chapter": 29,
-            "start": 6,
-            "end": 6
+            "chapter": 4,
+            "start": 2,
+            "end": 2
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "13": "And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife.",
-          "14": "And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?"
+          "3": "And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him."
         },
         "he": {
-          "13": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב הַקָּטֹן מִמֶּנּוּ וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה׃",
-          "14": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+          "3": "וַיֹּאמֶר יְהוּדָה לְשִׁמְעוֹן אָחִיו עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶךָ וַיֵּלֶךְ אִתּוֹ שִׁמְעֽוֹן׃"
         }
       },
       "ref": {
         "chapter": 1,
-        "start": 13,
-        "end": 14
+        "start": 3,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-01-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 1,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the spies saw a man come forth out of the city, and they said unto him, Shew us, we pray thee, the entrance into the city, and we will shew thee mercy.",
+        "riddle": "Shew us, we pray thee, the entrance into the city, and we will shew thee mercy.",
+        "speaker": "spies",
+        "listener": "man",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Israelites",
+            "Gibeonites"
+          ],
+          "listener": [
+            "Gideon",
+            "Samson",
+            "Samuel"
+          ]
+        },
+        "bonus": "forth",
+        "bonus_hint": {
+          "quote": "And when king David came to Bahurim, behold, thence came out a man of the family of the house of Saul, whose name was Shimei, the son of Gera: he came forth, and cursed still as he came.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 16,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּרְאוּ הַשֹּׁמְרִים אִישׁ יוֹצֵא מִן־הָעִיר וַיֹּאמְרוּ לוֹ הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד",
+        "riddle": "הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד",
+        "speaker": "הַשֹּׁמְרִים",
+        "listener": "אִישׁ",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "בְּנֵי יִשְׂרָאֵל",
+            "ישיבי גִבְעוֹן"
+          ],
+          "listener": [
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן",
+            "שְׁמוּאֵל"
+          ]
+        },
+        "bonus": "יוֹצֵא",
+        "bonus_hint": {
+          "quote": "וּבָא הַמֶּלֶךְ דָּוִד עַד־בַּֽחוּרִים וְהִנֵּה מִשָּׁם אִישׁ יוֹצֵא מִמִּשְׁפַּחַת בֵּית־שָׁאוּל וּשְׁמוֹ שִׁמְעִי בֶן־גֵּרָא יֹצֵא יָצוֹא וּמְקַלֵּֽל",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 16,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the spies saw a man come forth out of the city, and they said unto him, Shew us, we pray thee, the entrance into the city, and we will shew thee mercy."
+        },
+        "he": {
+          "24": "וַיִּרְאוּ הַשֹּׁמְרִים אִישׁ יוֹצֵא מִן־הָעִיר וַיֹּאמְרוּ לוֹ הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 24,
+        "end": 24
       },
       "meta": {
         "mode": "llm",

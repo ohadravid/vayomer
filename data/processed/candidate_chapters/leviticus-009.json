@@ -6,55 +6,234 @@
   "mode": "llm",
   "items": [
     {
-      "id": "leviticus-09-21-22",
+      "id": "leviticus-09-02-02",
       "source": {
         "book_code": "LEV",
         "book": "Leviticus",
         "book_he": "ויקרא",
         "chapter": 9,
-        "quote_verse_start": 21,
-        "quote_verse_end": 22
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
       },
       "en": {
-        "quote": "And the breasts and the right shoulder Aaron waved for a wave offering before the LORD; as Moses commanded. And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings.",
-        "riddle": "And the breasts and the right shoulder Aaron waved",
-        "speaker": "Narrator",
-        "listener": "People",
+        "quote": "And he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the LORD.",
+        "riddle": "Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the LORD.",
+        "speaker": "Moses",
+        "listener": "Aaron",
         "book": "Leviticus"
       },
       "he": {
-        "quote": "וְאֵת הֶחָזוֹת וְאֵת שׁוֹק הַיָּמִין הֵנִיף אַהֲרֹן תְּנוּפָה לִפְנֵי יְהוָה כַּאֲשֶׁר צִוָּה מֹשֶֽׁה וַיִּשָּׂא אַהֲרֹן אֶת־יָדָיו אֶל־הָעָם וַֽיְבָרְכֵם וַיֵּרֶד מֵעֲשֹׂת הַֽחַטָּאת וְהָעֹלָה וְהַשְּׁלָמִֽים",
-        "riddle": "וְאֵת הֶחָזוֹת וְאֵת שׁוֹק הַיָּמִין הֵנִיף אַהֲרֹן",
-        "speaker": "ספר",
-        "listener": "עם ישראל",
+        "quote": "וַיֹּאמֶר אֶֽל־אַהֲרֹן קַח־לְךָ עֵגֶל בֶּן־בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה תְּמִימִם וְהַקְרֵב לִפְנֵי יְהוָֽה",
+        "riddle": "וַיֹּאמֶר אֶֽל־אַהֲרֹן קַח־לְךָ עֵגֶל בֶּן־בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה תְּמִימִם וְהַקְרֵב לִפְנֵי יְהוָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן",
         "book": "ויקרא"
       },
       "raw_quote_source": {
         "en": {
-          "21": "And the breasts and the right shoulder Aaron waved for a wave offering before the LORD; as Moses commanded.",
+          "1": "And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;",
+          "2": "And he said unto Aaron, Take thee a young calf for a sin offering, and a ram for a burnt offering, without blemish, and offer them before the LORD."
+        },
+        "he": {
+          "1": "וַיְהִי בַּיּוֹם הַשְּׁמִינִי קָרָא מֹשֶׁה לְאַהֲרֹן וּלְבָנָיו וּלְזִקְנֵי יִשְׂרָאֵֽל׃",
+          "2": "וַיֹּאמֶר אֶֽל־אַהֲרֹן קַח־לְךָ עֵגֶל בֶּן־בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה תְּמִימִם וְהַקְרֵב לִפְנֵי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "leviticus-09-03-03",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 9,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;",
+        "riddle": "Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;",
+        "speaker": "Moses",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וְאֶל־בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר קְחוּ שְׂעִיר־עִזִּים לְחַטָּאת וְעֵגֶל וָכֶבֶשׂ בְּנֵי־שָׁנָה תְּמִימִם לְעֹלָֽה",
+        "riddle": "קְחוּ שְׂעִיר־עִזִּים לְחַטָּאת וְעֵגֶל וָכֶבֶשׂ בְּנֵי־שָׁנָה תְּמִימִם לְעֹלָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass on the eighth day, that Moses called Aaron and his sons, and the elders of Israel;",
+          "3": "And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;"
+        },
+        "he": {
+          "1": "וַיְהִי בַּיּוֹם הַשְּׁמִינִי קָרָא מֹשֶׁה לְאַהֲרֹן וּלְבָנָיו וּלְזִקְנֵי יִשְׂרָאֵֽל׃",
+          "3": "וְאֶל־בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר קְחוּ שְׂעִיר־עִזִּים לְחַטָּאת וְעֵגֶל וָכֶבֶשׂ בְּנֵי־שָׁנָה תְּמִימִם לְעֹלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "leviticus-09-06-06",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 9,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And Moses said, This is the thing which the LORD commanded that ye should do: and the glory of the LORD shall appear unto you.",
+        "riddle": "This is the thing which the LORD commanded that ye should do: and the glory of the LORD shall appear unto you.",
+        "speaker": "Moses",
+        "listener": "the congregation",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה תַּעֲשׂוּ וְיֵרָא אֲלֵיכֶם כְּבוֹד יְהוָֽה",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה תַּעֲשׂוּ וְיֵרָא אֲלֵיכֶם כְּבוֹד יְהוָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָד",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Moses said, This is the thing which the LORD commanded that ye should do: and the glory of the LORD shall appear unto you."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר מֹשֶׁה זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה תַּעֲשׂוּ וְיֵרָא אֲלֵיכֶם כְּבוֹד יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "leviticus-09-07-07",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Moses said unto Aaron, Go unto the altar, and offer thy sin offering, and thy burnt offering, and make an atonement for thyself, and for the people: and offer the offering of the people, and make an atonement for them; as the LORD commanded.",
+        "riddle": "Go unto the altar, and offer thy sin offering, and thy burnt offering, and make an atonement for thyself, and for the people: and offer the offering of the people, and make an atonement for them; as the LORD commanded.",
+        "speaker": "Moses",
+        "listener": "Aaron",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן קְרַב אֶל־הַמִּזְבֵּחַ וַעֲשֵׂה אֶת־חַטָּֽאתְךָ וְאֶת־עֹלָתֶךָ וְכַפֵּר בַּֽעַדְךָ וּבְעַד הָעָם וַעֲשֵׂה אֶת־קָרְבַּן הָעָם וְכַפֵּר בַּֽעֲדָם כַּאֲשֶׁר צִוָּה יְהוָֽה",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן קְרַב אֶל־הַמִּזְבֵּחַ וַעֲשֵׂה אֶת־חַטָּֽאתְךָ וְאֶת־עֹלָתֶךָ וְכַפֵּר בַּֽעַדְךָ וּבְעַד הָעָם וַעֲשֵׂה אֶת־קָרְבַּן הָעָם וְכַפֵּר בַּֽעֲדָם כַּאֲשֶׁר צִוָּה יְהוָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Moses said unto Aaron, Go unto the altar, and offer thy sin offering, and thy burnt offering, and make an atonement for thyself, and for the people: and offer the offering of the people, and make an atonement for them; as the LORD commanded."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן קְרַב אֶל־הַמִּזְבֵּחַ וַעֲשֵׂה אֶת־חַטָּֽאתְךָ וְאֶת־עֹלָתֶךָ וְכַפֵּר בַּֽעַדְךָ וּבְעַד הָעָם וַעֲשֵׂה אֶת־קָרְבַּן הָעָם וְכַפֵּר בַּֽעֲדָם כַּאֲשֶׁר צִוָּה יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "leviticus-09-22-22",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 9,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings.",
+        "riddle": "And Aaron lifted up his hand toward the people, and blessed them",
+        "speaker": "Aaron",
+        "listener": "the people",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא אַהֲרֹן אֶת־יָדָיו אֶל־הָעָם וַֽיְבָרְכֵם וַיֵּרֶד מֵעֲשֹׂת הַֽחַטָּאת וְהָעֹלָה וְהַשְּׁלָמִֽים",
+        "riddle": "וַיִּשָּׂא אַהֲרֹן אֶת־יָדָיו אֶל־הָעָם וַֽיְבָרְכֵם",
+        "speaker": "אַהֲרֹן",
+        "listener": "הָעָם",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
           "22": "And Aaron lifted up his hand toward the people, and blessed them, and came down from offering of the sin offering, and the burnt offering, and peace offerings."
         },
         "he": {
-          "21": "וְאֵת הֶחָזוֹת וְאֵת שׁוֹק הַיָּמִין הֵנִיף אַהֲרֹן תְּנוּפָה לִפְנֵי יְהוָה כַּאֲשֶׁר צִוָּה מֹשֶֽׁה׃",
           "22": "וַיִּשָּׂא אַהֲרֹן אֶת־יָדָיו אֶל־הָעָם וַֽיְבָרְכֵם וַיֵּרֶד מֵעֲשֹׂת הַֽחַטָּאת וְהָעֹלָה וְהַשְּׁלָמִֽים׃"
         }
       },
       "meta": {
-        "reason": "Contains vivid ritual action",
-        "confidence": 0.8
+        "reason": "vivid blessing",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 9,
-        "start": 21,
+        "start": 22,
         "end": 22
       }
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 1,
-    "issue_count": 11
+    "llm_window_count": 3,
+    "projection_llm_count": 5,
+    "llm_call_count": 8,
+    "spec_count": 5,
+    "kept_count": 5,
+    "issue_count": 0
   }
 }

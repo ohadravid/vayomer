@@ -1,0 +1,103 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 28,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-28-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 28,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan. Arise, go to Padan-aram, to the house of Bethuel thy mother's father; and take thee a wife from thence of the daughters of Laban thy mother's brother.",
+        "riddle": "Arise, go to Padan-aram, to the house of Bethuel thy mother's father; and take thee a wife from thence of the daughters of Laban thy mother's brother.",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Joseph",
+            "Balaam"
+          ],
+          "listener": [
+            "Joseph",
+            "Esau",
+            "Rebekah"
+          ]
+        },
+        "bonus": "Canaan",
+        "bonus_hint": {
+          "quote": "And Jacob said unto Joseph, God Almighty appeared unto me at Luz in the land of Canaan, and blessed me,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 48,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יִצְחָק אֶֽל־יַעֲקֹב וַיְבָרֶךְ אֹתוֹ וַיְצַוֵּהוּ וַיֹּאמֶר לוֹ לֹֽא־תִקַּח אִשָּׁה מִבְּנוֹת כְּנָֽעַן קוּם לֵךְ פַּדֶּנָֽה אֲרָם בֵּיתָה בְתוּאֵל אֲבִי אִמֶּךָ וְקַח־לְךָ מִשָּׁם אִשָּׁה מִבְּנוֹת לָבָן אֲחִי אִמֶּֽךָ",
+        "riddle": "קוּם לֵךְ פַּדֶּנָֽה אֲרָם בֵּיתָה בְתוּאֵל אֲבִי אִמֶּךָ וְקַח־לְךָ מִשָּׁם אִשָּׁה מִבְּנוֹת לָבָן אֲחִי אִמֶּֽךָ",
+        "speaker": "יִצְחָק",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יוֹסֵף",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "עֵשָׂו",
+            "רִבְקָה"
+          ]
+        },
+        "bonus": "וַיְבָרֶךְ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־יוֹסֵף אֵל שַׁדַּי נִרְאָֽה־אֵלַי בְּלוּז בְּאֶרֶץ כְּנָעַן וַיְבָרֶךְ אֹתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 48,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan.",
+          "2": "Arise, go to Padan-aram, to the house of Bethuel thy mother's father; and take thee a wife from thence of the daughters of Laban thy mother's brother."
+        },
+        "he": {
+          "1": "וַיִּקְרָא יִצְחָק אֶֽל־יַעֲקֹב וַיְבָרֶךְ אֹתוֹ וַיְצַוֵּהוּ וַיֹּאמֶר לוֹ לֹֽא־תִקַּח אִשָּׁה מִבְּנוֹת כְּנָֽעַן׃",
+          "2": "קוּם לֵךְ פַּדֶּנָֽה אֲרָם בֵּיתָה בְתוּאֵל אֲבִי אִמֶּךָ וְקַח־לְךָ מִשָּׁם אִשָּׁה מִבְּנוֹת לָבָן אֲחִי אִמֶּֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

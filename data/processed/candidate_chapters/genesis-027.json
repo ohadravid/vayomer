@@ -6,6 +6,232 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-27-03-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Now therefore take, I pray thee, thy weapons, thy quiver and thy bow, and go out to the field, and take me some venison; And make me savoury meat, such as I love, and bring it to me, that I may eat; that my soul may bless thee before I die.",
+        "riddle": "take, I pray thee, thy weapons, thy quiver and thy bow, and go out to the field, and take me some venison; And make me savoury meat, such as I love, and bring it to me, that I may eat; that my soul may bless thee before I die.",
+        "speaker": "Isaac",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְעַתָּה שָׂא־נָא כֵלֶיךָ תֶּלְיְךָ וְקַשְׁתֶּךָ וְצֵא הַשָּׂדֶה וְצוּדָה לִּי צָֽיִד וַעֲשֵׂה־לִי מַטְעַמִּים כַּאֲשֶׁר אָהַבְתִּי וְהָבִיאָה לִּי וְאֹכֵלָה בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי בְּטֶרֶם אָמֽוּת",
+        "riddle": "וְעַתָּה שָׂא־נָא כֵלֶיךָ תֶּלְיְךָ וְקַשְׁתֶּךָ וְצֵא הַשָּׂדֶה וְצוּדָה לִּי צָֽיִד וַעֲשֵׂה־לִי מַטְעַמִּים כַּאֲשֶׁר אָהַבְתִּי וְהָבִיאָה לִּי וְאֹכֵלָה בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי בְּטֶרֶם אָמֽוּת",
+        "speaker": "יצחק",
+        "listener": "עשו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Now therefore take, I pray thee, thy weapons, thy quiver and thy bow, and go out to the field, and take me some venison;",
+          "4": "And make me savoury meat, such as I love, and bring it to me, that I may eat; that my soul may bless thee before I die."
+        },
+        "he": {
+          "3": "וְעַתָּה שָׂא־נָא כֵלֶיךָ תֶּלְיְךָ וְקַשְׁתֶּךָ וְצֵא הַשָּׂדֶה וְצוּדָה לִּי צָֽיִד׃",
+          "4": "וַעֲשֵׂה־לִי מַטְעַמִּים כַּאֲשֶׁר אָהַבְתִּי וְהָבִיאָה לִּי וְאֹכֵלָה בַּעֲבוּר תְּבָרֶכְךָ נַפְשִׁי בְּטֶרֶם אָמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "command and purpose",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-27-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death.",
+        "riddle": "Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death.",
+        "speaker": "Isaac",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי",
+        "riddle": "הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי",
+        "speaker": "יצחק",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Rebekah spake unto Jacob her son, saying, Behold, I heard thy father speak unto Esau thy brother, saying,",
+          "7": "Bring me venison, and make me savoury meat, that I may eat, and bless thee before the LORD before my death."
+        },
+        "he": {
+          "6": "וְרִבְקָה אָֽמְרָה אֶל־יַעֲקֹב בְּנָהּ לֵאמֹר הִנֵּה שָׁמַעְתִּי אֶת־אָבִיךָ מְדַבֵּר אֶל־עֵשָׂו אָחִיךָ לֵאמֹֽר׃",
+          "7": "הָבִיאָה לִּי צַיִד וַעֲשֵׂה־לִי מַטְעַמִּים וְאֹכֵלָה וַאֲבָרֶכְכָה לִפְנֵי יְהוָה לִפְנֵי מוֹתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "quoted command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-27-09-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "Go now to the flock, and fetch me from thence two good kids of the goats; and I will make them savoury meat for thy father, such as he loveth: And thou shalt bring it to thy father, that he may eat, and that he may bless thee before his death.",
+        "riddle": "Go now to the flock, and fetch me from thence two good kids of the goats; and I will make them savoury meat for thy father, such as he loveth: And thou shalt bring it to thy father, that he may eat, and that he may bless thee before his death.",
+        "speaker": "Rebekah",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "לֶךְ־נָא אֶל־הַצֹּאן וְקַֽח־לִי מִשָּׁם שְׁנֵי גְּדָיֵי עִזִּים טֹבִים וְאֶֽעֱשֶׂה אֹתָם מַטְעַמִּים לְאָבִיךָ כַּאֲשֶׁר אָהֵֽב וְהֵבֵאתָ לְאָבִיךָ וְאָכָל בַּעֲבֻר אֲשֶׁר יְבָרֶכְךָ לִפְנֵי מוֹתֽוֹ",
+        "riddle": "לֶךְ־נָא אֶל־הַצֹּאן וְקַֽח־לִי מִשָּׁם שְׁנֵי גְּדָיֵי עִזִּים טֹבִים וְאֶֽעֱשֶׂה אֹתָם מַטְעַמִּים לְאָבִיךָ כַּאֲשֶׁר אָהֵֽב וְהֵבֵאתָ לְאָבִיךָ וְאָכָל בַּעֲבֻר אֲשֶׁר יְבָרֶכְךָ לִפְנֵי מוֹתֽוֹ",
+        "speaker": "רבקה",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Go now to the flock, and fetch me from thence two good kids of the goats; and I will make them savoury meat for thy father, such as he loveth:",
+          "10": "And thou shalt bring it to thy father, that he may eat, and that he may bless thee before his death."
+        },
+        "he": {
+          "9": "לֶךְ־נָא אֶל־הַצֹּאן וְקַֽח־לִי מִשָּׁם שְׁנֵי גְּדָיֵי עִזִּים טֹבִים וְאֶֽעֱשֶׂה אֹתָם מַטְעַמִּים לְאָבִיךָ כַּאֲשֶׁר אָהֵֽב׃",
+          "10": "וְהֵבֵאתָ לְאָבִיךָ וְאָכָל בַּעֲבֻר אֲשֶׁר יְבָרֶכְךָ לִפְנֵי מוֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 9,
+        "end": 10
+      }
+    },
+    {
+      "id": "genesis-27-11-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Jacob said to Rebekah his mother, Behold, Esau my brother is a hairy man, and I am a smooth man: My father peradventure will feel me, and I shall seem to him as a deceiver; and I shall bring a curse upon me, and not a blessing.",
+        "riddle": "Behold, Esau my brother is a hairy man, and I am a smooth man: My father peradventure will feel me, and I shall seem to him as a deceiver; and I shall bring a curse upon me, and not a blessing.",
+        "speaker": "Jacob",
+        "listener": "Rebekah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָֽה",
+        "riddle": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָֽה",
+        "speaker": "יַעֲקֹב",
+        "listener": "רִבְקָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Jacob said to Rebekah his mother, Behold, Esau my brother is a hairy man, and I am a smooth man:",
+          "12": "My father peradventure will feel me, and I shall seem to him as a deceiver; and I shall bring a curse upon me, and not a blessing."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק׃",
+          "12": "אוּלַי יְמֻשֵּׁנִי אָבִי וְהָיִיתִי בְעֵינָיו כִּמְתַעְתֵּעַ וְהֵבֵאתִי עָלַי קְלָלָה וְלֹא בְרָכָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-27-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And his mother said unto him, Upon me be thy curse, my son: only obey my voice, and go fetch me them.",
+        "riddle": "Upon me be thy curse, my son: only obey my voice, and go fetch me them.",
+        "speaker": "Rebekah",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לוֹ אִמּוֹ עָלַי קִלְלָתְךָ בְּנִי אַךְ שְׁמַע בְּקֹלִי וְלֵךְ קַֽח־לִֽי",
+        "riddle": "וַתֹּאמֶר לוֹ אִמּוֹ עָלַי קִלְלָתְךָ בְּנִי אַךְ שְׁמַע בְּקֹלִי וְלֵךְ קַֽח־לִֽי",
+        "speaker": "רִבְקָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Jacob said to Rebekah his mother, Behold, Esau my brother is a hairy man, and I am a smooth man:",
+          "13": "And his mother said unto him, Upon me be thy curse, my son: only obey my voice, and go fetch me them."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יַעֲקֹב אֶל־רִבְקָה אִמּוֹ הֵן עֵשָׂו אָחִי אִישׁ שָׂעִר וְאָנֹכִי אִישׁ חָלָֽק׃",
+          "13": "וַתֹּאמֶר לוֹ אִמּוֹ עָלַי קִלְלָתְךָ בְּנִי אַךְ שְׁמַע בְּקֹלִי וְלֵךְ קַֽח־לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech and command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
       "id": "genesis-27-18-18",
       "source": {
         "book_code": "GEN",
@@ -13,18 +239,20 @@
         "book_he": "בראשית",
         "chapter": 27,
         "quote_verse_start": 18,
-        "quote_verse_end": 18
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And he came unto his father, and said, My father: and he said, Here am I; who art thou, my son?",
-        "riddle": "my son?",
+        "riddle": "Here am I; who art thou, my son?",
         "speaker": "Isaac",
         "listener": "Jacob",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיָּבֹא אֶל־אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּי מִי אַתָּה בְּנִֽי",
-        "riddle": "מִי אַתָּה בְּנִֽי",
+        "riddle": "הִנֶּנִּי מִי אַתָּה בְּנִֽי",
         "speaker": "יצחק",
         "listener": "יעקב",
         "book": "בראשית"
@@ -38,7 +266,7 @@
         }
       },
       "meta": {
-        "reason": "Contains direct question and identity.",
+        "reason": "direct question and reply",
         "confidence": 0.95
       },
       "ref": {
@@ -48,7 +276,183 @@
       }
     },
     {
-      "id": "genesis-27-24-24",
+      "id": "genesis-27-19-19",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And Jacob said unto his father, I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+        "riddle": "I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me.",
+        "speaker": "Jacob",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אֶל־אָבִיו אָנֹכִי עֵשָׂו בְּכֹרֶךָ עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי קֽוּם־נָא שְׁבָה וְאָכְלָה מִצֵּידִי בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶֽׁךָ",
+        "riddle": "אָנֹכִי עֵשָׂו בְּכֹרֶךָ עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי קֽוּם־נָא שְׁבָה וְאָכְלָה מִצֵּידִי בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶֽׁך",
+        "speaker": "יַעֲקֹב",
+        "listener": "אָבִיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Jacob said unto his father, I am Esau thy firstborn; I have done according as thou badest me: arise, I pray thee, sit and eat of my venison, that thy soul may bless me."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר יַעֲקֹב אֶל־אָבִיו אָנֹכִי עֵשָׂו בְּכֹרֶךָ עָשִׂיתִי כַּאֲשֶׁר דִּבַּרְתָּ אֵלָי קֽוּם־נָא שְׁבָה וְאָכְלָה מִצֵּידִי בַּעֲבוּר תְּבָרֲכַנִּי נַפְשֶֽׁךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "genesis-27-20-20",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Isaac said unto his son, How is it that thou hast found it so quickly, my son? And he said, Because the LORD thy God brought it to me.",
+        "riddle": "How is it that thou hast found it so quickly, my son?",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִצְחָק אֶל־בְּנוֹ מַה־זֶּה מִהַרְתָּ לִמְצֹא בְּנִי וַיֹּאמֶר כִּי הִקְרָה יְהוָה אֱלֹהֶיךָ לְפָנָֽי",
+        "riddle": "מַה־זֶּה מִהַרְתָּ לִמְצֹא בְּנִי",
+        "speaker": "יִצְחָק",
+        "listener": "בְּנוֹ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Isaac said unto his son, How is it that thou hast found it so quickly, my son? And he said, Because the LORD thy God brought it to me."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר יִצְחָק אֶל־בְּנוֹ מַה־זֶּה מִהַרְתָּ לִמְצֹא בְּנִי וַיֹּאמֶר כִּי הִקְרָה יְהוָה אֱלֹהֶיךָ לְפָנָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "genesis-27-21-21",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Isaac said unto Jacob, Come near, I pray thee, that I may feel thee, my son, whether thou be my very son Esau or not.",
+        "riddle": "Come near, I pray thee, that I may feel thee, my son, whether thou be my very son Esau or not.",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִצְחָק אֶֽל־יַעֲקֹב גְּשָׁה־נָּא וַאֲמֻֽשְׁךָ בְּנִי הַֽאַתָּה זֶה בְּנִי עֵשָׂו אִם־לֹֽא",
+        "riddle": "גְּשָׁה־נָּא וַאֲמֻֽשְׁךָ בְּנִי הַֽאַתָּה זֶה בְּנִי עֵשָׂו אִם־לֹֽא",
+        "speaker": "יִצְחָק",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Isaac said unto Jacob, Come near, I pray thee, that I may feel thee, my son, whether thou be my very son Esau or not."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יִצְחָק אֶֽל־יַעֲקֹב גְּשָׁה־נָּא וַאֲמֻֽשְׁךָ בְּנִי הַֽאַתָּה זֶה בְּנִי עֵשָׂו אִם־לֹֽא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "genesis-27-22-22",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Jacob went near unto Isaac his father; and he felt him, and said, The voice is Jacob's voice, but the hands are the hands of Esau.",
+        "riddle": "The voice is Jacob's voice, but the hands are the hands of Esau.",
+        "speaker": "Jacob",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּגַּשׁ יַעֲקֹב אֶל־יִצְחָק אָבִיו וַיְמֻשֵּׁהוּ וַיֹּאמֶר הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָֽׂו",
+        "riddle": "וַיֹּאמֶר הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָֽׂו",
+        "speaker": "יַעֲקֹב",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Jacob went near unto Isaac his father; and he felt him, and said, The voice is Jacob's voice, but the hands are the hands of Esau."
+        },
+        "he": {
+          "22": "וַיִּגַּשׁ יַעֲקֹב אֶל־יִצְחָק אָבִיו וַיְמֻשֵּׁהוּ וַיֹּאמֶר הַקֹּל קוֹל יַעֲקֹב וְהַיָּדַיִם יְדֵי עֵשָֽׂו׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "genesis-27-24-24-1",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
@@ -80,8 +484,8 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 27,
@@ -90,27 +494,281 @@
       }
     },
     {
-      "id": "genesis-27-32-32",
+      "id": "genesis-27-24-24-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And he said, Art thou my very son Esau? And he said, I am.",
+        "riddle": "I am.",
+        "speaker": "Jacob",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַתָּה זֶה בְּנִי עֵשָׂו וַיֹּאמֶר אָֽנִי",
+        "riddle": "אָֽנִי",
+        "speaker": "עֵשָׂו",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And he said, Art thou my very son Esau? And he said, I am."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר אַתָּה זֶה בְּנִי עֵשָׂו וַיֹּאמֶר אָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-27-25-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And he said, Bring it near to me, and I will eat of my son's venison, that my soul may bless thee. And he brought it near to him, and he did eat: and he brought him wine, and he drank.",
+        "riddle": "Bring it near to me, and I will eat of my son's venison, that my soul may bless thee.",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַגִּשָׁה לִּי וְאֹֽכְלָה מִצֵּיד בְּנִי לְמַעַן תְּבָֽרֶכְךָ נַפְשִׁי וַיַּגֶּשׁ־לוֹ וַיֹּאכַל וַיָּבֵא לוֹ יַיִן וַיֵּֽשְׁתְּ",
+        "riddle": "הַגִּשָׁה לִּי וְאֹֽכְלָה מִצֵּיד בְּנִי לְמַעַן תְּבָֽרֶכְךָ נַפְשִׁי וַיַּגֶּשׁ־לוֹ וַיֹּאכַל וַיָּבֵא לוֹ יַיִן וַיֵּֽשְׁתְּ",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And he said, Bring it near to me, and I will eat of my son's venison, that my soul may bless thee. And he brought it near to him, and he did eat: and he brought him wine, and he drank."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר הַגִּשָׁה לִּי וְאֹֽכְלָה מִצֵּיד בְּנִי לְמַעַן תְּבָֽרֶכְךָ נַפְשִׁי וַיַּגֶּשׁ־לוֹ וַיֹּאכַל וַיָּבֵא לוֹ יַיִן וַיֵּֽשְׁתְּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "genesis-27-26-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And his father Isaac said unto him, Come near now, and kiss me, my son.",
+        "riddle": "Come near now, and kiss me, my son.",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו יִצְחָק אָבִיו גְּשָׁה־נָּא וּשְׁקָה־לִּי בְּנִֽי",
+        "riddle": "גְּשָׁה־נָּא וּשְׁקָה־לִּי בְּנִֽי",
+        "speaker": "יִצְחָק",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And his father Isaac said unto him, Come near now, and kiss me, my son."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אֵלָיו יִצְחָק אָבִיו גְּשָׁה־נָּא וּשְׁקָה־לִּי בְּנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "genesis-27-27-27",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "And he came near, and kissed him: and he smelled the smell of his raiment, and blessed him, and said, See, the smell of my son is as the smell of a field which the LORD hath blessed:",
+        "riddle": "See, the smell of my son is as the smell of a field which the LORD hath blessed:",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּגַּשׁ וַיִּשַּׁק־לוֹ וַיָּרַח אֶת־רֵיחַ בְּגָדָיו וַֽיְבָרֲכֵהוּ וַיֹּאמֶר רְאֵה רֵיחַ בְּנִי כְּרֵיחַ שָׂדֶה אֲשֶׁר בֵּרֲכוֹ יְהוָֽה",
+        "riddle": "וַיֹּאמֶר רְאֵה רֵיחַ בְּנִי כְּרֵיחַ שָׂדֶה אֲשֶׁר בֵּרֲכוֹ יְהוָֽה",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And he came near, and kissed him: and he smelled the smell of his raiment, and blessed him, and said, See, the smell of my son is as the smell of a field which the LORD hath blessed:"
+        },
+        "he": {
+          "27": "וַיִּגַּשׁ וַיִּשַּׁק־לוֹ וַיָּרַח אֶת־רֵיחַ בְּגָדָיו וַֽיְבָרֲכֵהוּ וַיֹּאמֶר רְאֵה רֵיחַ בְּנִי כְּרֵיחַ שָׂדֶה אֲשֶׁר בֵּרֲכוֹ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "genesis-27-28-28",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "Therefore God give thee of the dew of heaven, and the fatness of the earth, and plenty of corn and wine:",
+        "riddle": "Therefore God give thee of the dew of heaven, and the fatness of the earth, and plenty of corn and wine:",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְיִֽתֶּן־לְךָ הָאֱלֹהִים מִטַּל הַשָּׁמַיִם וּמִשְׁמַנֵּי הָאָרֶץ וְרֹב דָּגָן וְתִירֹֽשׁ",
+        "riddle": "וְיִֽתֶּן־לְךָ הָאֱלֹהִים מִטַּל הַשָּׁמַיִם וּמִשְׁמַנֵּי הָאָרֶץ וְרֹב דָּגָן וְתִירֹֽשׁ",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Therefore God give thee of the dew of heaven, and the fatness of the earth, and plenty of corn and wine:"
+        },
+        "he": {
+          "28": "וְיִֽתֶּן־לְךָ הָאֱלֹהִים מִטַּל הַשָּׁמַיִם וּמִשְׁמַנֵּי הָאָרֶץ וְרֹב דָּגָן וְתִירֹֽשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "genesis-27-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "Let people serve thee, and nations bow down to thee: be lord over thy brethren, and let thy mother's sons bow down to thee: cursed be every one that curseth thee, and blessed be he that blesseth thee.",
+        "riddle": "Let people serve thee, and nations bow down to thee: be lord over thy brethren, and let thy mother's sons bow down to thee: cursed be every one that curseth thee, and blessed be he that blesseth thee.",
+        "speaker": "Isaac",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "יַֽעַבְדוּךָ עַמִּים וְיִֽשְׁתַּחֲוֻו לְךָ לְאֻמִּים הֱוֵה גְבִיר לְאַחֶיךָ וְיִשְׁתַּחֲוּוּ לְךָ בְּנֵי אִמֶּךָ אֹרְרֶיךָ אָרוּר וּֽמְבָרֲכֶיךָ בָּרֽוּךְ",
+        "riddle": "יַֽעַבְדוּךָ עַמִּים וְיִֽשְׁתַּחֲוֻו לְךָ לְאֻמִּים הֱוֵה גְבִיר לְאַחֶיךָ וְיִשְׁתַּחֲוּוּ לְךָ בְּנֵי אִמֶּךָ אֹרְרֶיךָ אָרוּר וּֽמְבָרֲכֶיךָ בָּרֽוּךְ",
+        "speaker": "יצחק",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "Let people serve thee, and nations bow down to thee: be lord over thy brethren, and let thy mother's sons bow down to thee: cursed be every one that curseth thee, and blessed be he that blesseth thee."
+        },
+        "he": {
+          "29": "יַֽעַבְדוּךָ עַמִּים וְיִֽשְׁתַּחֲוֻו לְךָ לְאֻמִּים הֱוֵה גְבִיר לְאַחֶיךָ וְיִשְׁתַּחֲוּוּ לְךָ בְּנֵי אִמֶּךָ אֹרְרֶיךָ אָרוּר וּֽמְבָרֲכֶיךָ בָּרֽוּךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "genesis-27-32-32-1",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 27,
         "quote_verse_start": 32,
-        "quote_verse_end": 32
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
       },
       "en": {
         "quote": "And Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau.",
         "riddle": "Who art thou?",
         "speaker": "Isaac",
-        "listener": "Jacob",
+        "listener": "Esau",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמֶר לוֹ יִצְחָק אָבִיו מִי־אָתָּה וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו",
         "riddle": "מִי־אָתָּה",
         "speaker": "יִצְחָק",
-        "listener": "יעקב",
+        "listener": "עֵשָֽׂו",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -122,21 +780,370 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 27,
         "start": 32,
         "end": 32
       }
+    },
+    {
+      "id": "genesis-27-32-32-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau.",
+        "riddle": "I am thy son, thy firstborn Esau.",
+        "speaker": "Esau",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ יִצְחָק אָבִיו מִי־אָתָּה וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו",
+        "riddle": "וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו",
+        "speaker": "עֵשָֽׂו",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Isaac his father said unto him, Who art thou? And he said, I am thy son, thy firstborn Esau."
+        },
+        "he": {
+          "32": "וַיֹּאמֶר לוֹ יִצְחָק אָבִיו מִי־אָתָּה וַיֹּאמֶר אֲנִי בִּנְךָ בְכֹֽרְךָ עֵשָֽׂו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "genesis-27-35-35",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35
+      },
+      "en": {
+        "quote": "And he said, Thy brother came with subtilty, and hath taken away thy blessing.",
+        "riddle": "Thy brother came with subtilty, and hath taken away thy blessing.",
+        "speaker": "Isaac",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּא אָחִיךָ בְּמִרְמָה וַיִּקַּח בִּרְכָתֶֽךָ",
+        "riddle": "בָּא אָחִיךָ בְּמִרְמָה וַיִּקַּח בִּרְכָתֶֽךָ",
+        "speaker": "יצחק",
+        "listener": "עשו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "And he said, Thy brother came with subtilty, and hath taken away thy blessing."
+        },
+        "he": {
+          "35": "וַיֹּאמֶר בָּא אָחִיךָ בְּמִרְמָה וַיִּקַּח בִּרְכָתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct accusation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 35,
+        "end": 35
+      }
+    },
+    {
+      "id": "genesis-27-36-36",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36
+      },
+      "en": {
+        "quote": "And he said, Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?",
+        "riddle": "Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?",
+        "speaker": "Esau",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַֽיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת־בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא־אָצַלְתָּ לִּי בְּרָכָֽה",
+        "riddle": "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַֽיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת־בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא־אָצַלְתָּ לִּי בְּרָכָֽה",
+        "speaker": "עֵשָׂו",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And he said, Is not he rightly named Jacob? for he hath supplanted me these two times: he took away my birthright; and, behold, now he hath taken away my blessing. And he said, Hast thou not reserved a blessing for me?"
+        },
+        "he": {
+          "36": "וַיֹּאמֶר הֲכִי קָרָא שְׁמוֹ יַעֲקֹב וַֽיַּעְקְבֵנִי זֶה פַעֲמַיִם אֶת־בְּכֹרָתִי לָקָח וְהִנֵּה עַתָּה לָקַח בִּרְכָתִי וַיֹּאמַר הֲלֹא־אָצַלְתָּ לִּי בְּרָכָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "series of questions",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 36,
+        "end": 36
+      }
+    },
+    {
+      "id": "genesis-27-37-37",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 37,
+        "quote_verse_end": 37,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 37
+      },
+      "en": {
+        "quote": "And Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and wine have I sustained him: and what shall I do now unto thee, my son?",
+        "riddle": "what shall I do now unto thee, my son?",
+        "speaker": "Isaac",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּעַן יִצְחָק וַיֹּאמֶר לְעֵשָׂו הֵן גְּבִיר שַׂמְתִּיו לָךְ וְאֶת־כָּל־אֶחָיו נָתַתִּי לוֹ לַעֲבָדִים וְדָגָן וְתִירֹשׁ סְמַכְתִּיו וּלְכָה אֵפוֹא מָה אֶֽעֱשֶׂה בְּנִֽי",
+        "riddle": "מָה אֶֽעֱשֶׂה בְּנִֽי",
+        "speaker": "יִצְחָק",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "37": "And Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and wine have I sustained him: and what shall I do now unto thee, my son?"
+        },
+        "he": {
+          "37": "וַיַּעַן יִצְחָק וַיֹּאמֶר לְעֵשָׂו הֵן גְּבִיר שַׂמְתִּיו לָךְ וְאֶת־כָּל־אֶחָיו נָתַתִּי לוֹ לַעֲבָדִים וְדָגָן וְתִירֹשׁ סְמַכְתִּיו וּלְכָה אֵפוֹא מָה אֶֽעֱשֶׂה בְּנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 37,
+        "end": 37
+      }
+    },
+    {
+      "id": "genesis-27-38-38",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 38,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "And Esau said unto his father, Hast thou but one blessing, my father? bless me, even me also, O my father. And Esau lifted up his voice, and wept.",
+        "riddle": "Hast thou but one blessing, my father? bless me, even me also, O my father.",
+        "speaker": "Esau",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵשָׂו אֶל־אָבִיו הַֽבְרָכָה אַחַת הִֽוא־לְךָ אָבִי בָּרֲכֵנִי גַם־אָנִי אָבִי וַיִּשָּׂא עֵשָׂו קֹלוֹ וַיֵּֽבְךְּ",
+        "riddle": "הַֽבְרָכָה אַחַת הִֽוא־לְךָ אָבִי בָּרֲכֵנִי גַם־אָנִי אָבִי",
+        "speaker": "עֵשָׂו",
+        "listener": "אָבִיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "And Esau said unto his father, Hast thou but one blessing, my father? bless me, even me also, O my father. And Esau lifted up his voice, and wept."
+        },
+        "he": {
+          "38": "וַיֹּאמֶר עֵשָׂו אֶל־אָבִיו הַֽבְרָכָה אַחַת הִֽוא־לְךָ אָבִי בָּרֲכֵנִי גַם־אָנִי אָבִי וַיִּשָּׂא עֵשָׂו קֹלוֹ וַיֵּֽבְךְּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and plea",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 38,
+        "end": 38
+      }
+    },
+    {
+      "id": "genesis-27-42-42",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 42,
+        "quote_verse_end": 42,
+        "speaker_mention_verse": 42,
+        "listener_mention_verse": 42
+      },
+      "en": {
+        "quote": "And these words of Esau her elder son were told to Rebekah: and she sent and called Jacob her younger son, and said unto him, Behold, thy brother Esau, as touching thee, doth comfort himself, purposing to kill thee.",
+        "riddle": "Behold, thy brother Esau, as touching thee, doth comfort himself, purposing to kill thee.",
+        "speaker": "Rebekah",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֻּגַּד לְרִבְקָה אֶת־דִּבְרֵי עֵשָׂו בְּנָהּ הַגָּדֹל וַתִּשְׁלַח וַתִּקְרָא לְיַעֲקֹב בְּנָהּ הַקָּטָן וַתֹּאמֶר אֵלָיו הִנֵּה עֵשָׂו אָחִיךָ מִתְנַחֵם לְךָ לְהָרְגֶֽךָ",
+        "riddle": "עֵשָׂו בְּנָהּ הַגָּדֹל וַתִּשְׁלַח וַתִּקְרָא לְיַעֲקֹב בְּנָהּ הַקָּטָן וַתֹּאמֶר אֵלָיו הִנֵּה עֵשָׂו אָחִיךָ מִתְנַחֵם לְךָ לְהָרְגֶֽךָ",
+        "speaker": "רִבְקָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "42": "And these words of Esau her elder son were told to Rebekah: and she sent and called Jacob her younger son, and said unto him, Behold, thy brother Esau, as touching thee, doth comfort himself, purposing to kill thee."
+        },
+        "he": {
+          "42": "וַיֻּגַּד לְרִבְקָה אֶת־דִּבְרֵי עֵשָׂו בְּנָהּ הַגָּדֹל וַתִּשְׁלַח וַתִּקְרָא לְיַעֲקֹב בְּנָהּ הַקָּטָן וַתֹּאמֶר אֵלָיו הִנֵּה עֵשָׂו אָחִיךָ מִתְנַחֵם לְךָ לְהָרְגֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 42,
+        "end": 42
+      }
+    },
+    {
+      "id": "genesis-27-43-43",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 43,
+        "quote_verse_end": 43,
+        "speaker_mention_verse": 43,
+        "listener_mention_verse": 43
+      },
+      "en": {
+        "quote": "Now therefore, my son, obey my voice; and arise, flee thou to Laban my brother to Haran;",
+        "riddle": "Now therefore, my son, obey my voice; and arise, flee thou to Laban my brother to Haran;",
+        "speaker": "Rebekah",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְעַתָּה בְנִי שְׁמַע בְּקֹלִי וְקוּם בְּרַח־לְךָ אֶל־לָבָן אָחִי חָרָֽנָה",
+        "riddle": "וְעַתָּה בְנִי שְׁמַע בְּקֹלִי וְקוּם בְּרַח־לְךָ אֶל־לָבָן אָחִי חָרָֽנָה",
+        "speaker": "רבקה",
+        "listener": "יעקב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "Now therefore, my son, obey my voice; and arise, flee thou to Laban my brother to Haran;"
+        },
+        "he": {
+          "43": "וְעַתָּה בְנִי שְׁמַע בְּקֹלִי וְקוּם בְּרַח־לְךָ אֶל־לָבָן אָחִי חָרָֽנָה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 43,
+        "end": 43
+      }
+    },
+    {
+      "id": "genesis-27-46-46",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 27,
+        "quote_verse_start": 46,
+        "quote_verse_end": 46,
+        "speaker_mention_verse": 46,
+        "listener_mention_verse": 46
+      },
+      "en": {
+        "quote": "And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?",
+        "riddle": "I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?",
+        "speaker": "Rebekah",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר רִבְקָה אֶל־יִצְחָק קַצְתִּי בְחַיַּי מִפְּנֵי בְּנוֹת חֵת אִם־לֹקֵחַ יַעֲקֹב אִשָּׁה מִבְּנֽוֹת־חֵת כָּאֵלֶּה מִבְּנוֹת הָאָרֶץ לָמָּה לִּי חַיִּֽים",
+        "riddle": "וַתֹּאמֶר רִבְקָה אֶל־יִצְחָק קַצְתִּי בְחַיַּי מִפְּנֵי בְּנוֹת חֵת אִם־לֹקֵחַ יַעֲקֹב אִשָּׁה מִבְּנֽוֹת־חֵת כָּאֵלֶּה מִבְּנוֹת הָאָרֶץ לָמָּה לִּי חַיִּֽים",
+        "speaker": "רִבְקָה",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "46": "And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?"
+        },
+        "he": {
+          "46": "וַתֹּאמֶר רִבְקָה אֶל־יִצְחָק קַצְתִּי בְחַיַּי מִפְּנֵי בְּנוֹת חֵת אִם־לֹקֵחַ יַעֲקֹב אִשָּׁה מִבְּנֽוֹת־חֵת כָּאֵלֶּה מִבְּנוֹת הָאָרֶץ לָמָּה לִּי חַיִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 46,
+        "end": 46
+      }
     }
   ],
   "stats": {
-    "window_count": 37,
+    "window_count": 7,
     "prefiltered_count": 0,
-    "llm_window_count": 37,
-    "kept_count": 3,
-    "issue_count": 34
+    "llm_window_count": 7,
+    "projection_llm_count": 35,
+    "llm_call_count": 42,
+    "spec_count": 35,
+    "kept_count": 26,
+    "issue_count": 10
   }
 }

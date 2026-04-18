@@ -6,98 +6,407 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-39-12-12",
+      "id": "genesis-39-07-07",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 39,
-        "quote_verse_start": 6,
-        "quote_verse_end": 12
+        "quote_verse_start": 3,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
       },
       "en": {
-        "quote": "And he left all that he had in Joseph's hand; and he knew not ought he had, save the bread which he did eat. And Joseph was a goodly person, and well favoured. And it came to pass after these things, that his master's wife cast her eyes upon Joseph; and she said, Lie with me. But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand; There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God? And it came to pass, as she spake to Joseph day by day, that he hearkened not unto her, to lie by her, or to be with her. And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within. And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out.",
-        "riddle": "caught him by his garment, saying, Lie with me",
-        "speaker": "Potiphar's wife",
+        "quote": "And his master saw that the LORD was with him, and that the LORD made all that he did to prosper in his hand. And Joseph found grace in his sight, and he served him: and he made him overseer over his house, and all that he had he put into his hand. And it came to pass from the time that he had made him overseer in his house, and over all that he had, that the LORD blessed the Egyptian's house for Joseph's sake; and the blessing of the LORD was upon all that he had in the house, and in the field. And he left all that he had in Joseph's hand; and he knew not ought he had, save the bread which he did eat. And Joseph was a goodly person, and well favoured. And it came to pass after these things, that his master's wife cast her eyes upon Joseph; and she said, Lie with me. But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand; There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+        "riddle": "Lie with me.",
+        "speaker": "master's wife",
         "listener": "Joseph",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Jacob",
-            "Laban",
-            "Abimelech"
+            "Abraham",
+            "Pharaoh",
+            "Balaam"
           ],
           "listener": [
+            "Abraham",
             "Jacob",
-            "Rebekah",
-            "Abraham"
+            "Rebekah"
           ]
         },
-        "bonus": "bread",
+        "bonus": "master",
         "bonus_hint": {
-          "quote": "And she gave the savoury meat and the bread, which she had prepared, into the hand of her son Jacob.",
+          "quote": "And he said, O LORD God of my master Abraham, I pray thee, send me good speed this day, and shew kindness unto my master Abraham.",
           "source": {
             "book": "Genesis",
-            "chapter": 27,
-            "start": 17,
-            "end": 17
+            "chapter": 24,
+            "start": 12,
+            "end": 12
           }
         }
       },
       "he": {
-        "quote": "וַיַּעֲזֹב כָּל־אֲשֶׁר־לוֹ בְּיַד־יוֹסֵף וְלֹא־יָדַע אִתּוֹ מְאוּמָה כִּי אִם־הַלֶּחֶם אֲשֶׁר־הוּא אוֹכֵל וַיְהִי יוֹסֵף יְפֵה־תֹאַר וִיפֵה מַרְאֶֽה וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וַתִּשָּׂא אֵֽשֶׁת־אֲדֹנָיו אֶת־עֵינֶיהָ אֶל־יוֹסֵף וַתֹּאמֶר שִׁכְבָה עִמִּֽי וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים וַיְהִי כְּדַבְּרָהּ אֶל־יוֹסֵף יוֹם יוֹם וְלֹא־שָׁמַע אֵלֶיהָ לִשְׁכַּב אֶצְלָהּ לִהְיוֹת עִמָּֽהּ וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה",
-        "riddle": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי",
+        "quote": "וַיַּרְא אֲדֹנָיו כִּי יְהוָה אִתּוֹ וְכֹל אֲשֶׁר־הוּא עֹשֶׂה יְהוָה מַצְלִיחַ בְּיָדֽוֹ וַיִּמְצָא יוֹסֵף חֵן בְּעֵינָיו וַיְשָׁרֶת אֹתוֹ וַיַּפְקִדֵהוּ עַל־בֵּיתוֹ וְכָל־יֶשׁ־לוֹ נָתַן בְּיָדֽוֹ וַיְהִי מֵאָז הִפְקִיד אֹתוֹ בְּבֵיתוֹ וְעַל כָּל־אֲשֶׁר יֶשׁ־לוֹ וַיְבָרֶךְ יְהוָה אֶת־בֵּית הַמִּצְרִי בִּגְלַל יוֹסֵף וַיְהִי בִּרְכַּת יְהוָה בְּכָל־אֲשֶׁר יֶשׁ־לוֹ בַּבַּיִת וּבַשָּׂדֶֽה וַיַּעֲזֹב כָּל־אֲשֶׁר־לוֹ בְּיַד־יוֹסֵף וְלֹא־יָדַע אִתּוֹ מְאוּמָה כִּי אִם־הַלֶּחֶם אֲשֶׁר־הוּא אוֹכֵל וַיְהִי יוֹסֵף יְפֵה־תֹאַר וִיפֵה מַרְאֶֽה וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וַתִּשָּׂא אֵֽשֶׁת־אֲדֹנָיו אֶת־עֵינֶיהָ אֶל־יוֹסֵף וַתֹּאמֶר שִׁכְבָה עִמִּֽי וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים",
+        "riddle": "שִׁכְבָה עִמִּֽי",
         "speaker": "אֵֽשֶׁת־אֲדֹנָיו",
         "listener": "יוֹסֵף",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "יַעֲקֹב",
-            "לָבָן",
-            "אֲבִימֶלֶךְ"
+            "אַבְרָהָם",
+            "פַרְעֹה",
+            "בִּלְעָם"
           ],
           "listener": [
+            "אַבְרָהָם",
             "יַעֲקֹב",
-            "רִבְקָה",
-            "אַבְרָהָם"
+            "רִבְקָה"
           ]
         },
-        "bonus": "הַלֶּחֶם",
+        "bonus": "יְהוָה",
         "bonus_hint": {
-          "quote": "וַתִּתֵּן אֶת־הַמַּטְעַמִּים וְאֶת־הַלֶּחֶם אֲשֶׁר עָשָׂתָה בְּיַד יַעֲקֹב בְּנָֽהּ",
+          "quote": "וַיֹּאמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה־נָא לְפָנַי הַיּוֹם וַעֲשֵׂה־חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם",
           "source": {
             "book": "בראשית",
-            "chapter": 27,
-            "start": 17,
-            "end": 17
+            "chapter": 24,
+            "start": 12,
+            "end": 12
           }
         }
       },
       "raw_quote_source": {
         "en": {
+          "3": "And his master saw that the LORD was with him, and that the LORD made all that he did to prosper in his hand.",
+          "4": "And Joseph found grace in his sight, and he served him: and he made him overseer over his house, and all that he had he put into his hand.",
+          "5": "And it came to pass from the time that he had made him overseer in his house, and over all that he had, that the LORD blessed the Egyptian's house for Joseph's sake; and the blessing of the LORD was upon all that he had in the house, and in the field.",
           "6": "And he left all that he had in Joseph's hand; and he knew not ought he had, save the bread which he did eat. And Joseph was a goodly person, and well favoured.",
           "7": "And it came to pass after these things, that his master's wife cast her eyes upon Joseph; and she said, Lie with me.",
           "8": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand;",
-          "9": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
-          "10": "And it came to pass, as she spake to Joseph day by day, that he hearkened not unto her, to lie by her, or to be with her.",
-          "11": "And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within.",
-          "12": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out."
+          "9": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?"
         },
         "he": {
+          "3": "וַיַּרְא אֲדֹנָיו כִּי יְהוָה אִתּוֹ וְכֹל אֲשֶׁר־הוּא עֹשֶׂה יְהוָה מַצְלִיחַ בְּיָדֽוֹ׃",
+          "4": "וַיִּמְצָא יוֹסֵף חֵן בְּעֵינָיו וַיְשָׁרֶת אֹתוֹ וַיַּפְקִדֵהוּ עַל־בֵּיתוֹ וְכָל־יֶשׁ־לוֹ נָתַן בְּיָדֽוֹ׃",
+          "5": "וַיְהִי מֵאָז הִפְקִיד אֹתוֹ בְּבֵיתוֹ וְעַל כָּל־אֲשֶׁר יֶשׁ־לוֹ וַיְבָרֶךְ יְהוָה אֶת־בֵּית הַמִּצְרִי בִּגְלַל יוֹסֵף וַיְהִי בִּרְכַּת יְהוָה בְּכָל־אֲשֶׁר יֶשׁ־לוֹ בַּבַּיִת וּבַשָּׂדֶֽה׃",
           "6": "וַיַּעֲזֹב כָּל־אֲשֶׁר־לוֹ בְּיַד־יוֹסֵף וְלֹא־יָדַע אִתּוֹ מְאוּמָה כִּי אִם־הַלֶּחֶם אֲשֶׁר־הוּא אוֹכֵל וַיְהִי יוֹסֵף יְפֵה־תֹאַר וִיפֵה מַרְאֶֽה׃",
           "7": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וַתִּשָּׂא אֵֽשֶׁת־אֲדֹנָיו אֶת־עֵינֶיהָ אֶל־יוֹסֵף וַתֹּאמֶר שִׁכְבָה עִמִּֽי׃",
           "8": "וַיְמָאֵן ׀ וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי׃",
-          "9": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים׃",
-          "10": "וַיְהִי כְּדַבְּרָהּ אֶל־יוֹסֵף יוֹם ׀ יוֹם וְלֹא־שָׁמַע אֵלֶיהָ לִשְׁכַּב אֶצְלָהּ לִהְיוֹת עִמָּֽהּ׃",
-          "11": "וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת׃",
-          "12": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃"
+          "9": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים׃"
         }
       },
       "ref": {
         "chapter": 39,
-        "start": 6,
-        "end": 12
+        "start": 3,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-39-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand; There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God? And it came to pass, as she spake to Joseph day by day, that he hearkened not unto her, to lie by her, or to be with her. And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within. And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out. And it came to pass, when she saw that he had left his garment in her hand, and was fled forth, That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+        "riddle": "See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+        "speaker": "Potiphar's wife",
+        "listener": "men of her house",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Rebekah",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "brethren",
+            "Joseph's sons",
+            "servants"
+          ]
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 3,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים וַיְהִי כְּדַבְּרָהּ אֶל־יוֹסֵף יוֹם יוֹם וְלֹא־שָׁמַע אֵלֶיהָ לִשְׁכַּב אֶצְלָהּ לִהְיוֹת עִמָּֽהּ וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל",
+        "riddle": "רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל",
+        "speaker": "אֵשֶׁת אֲדֹנָיו",
+        "listener": "אַנְשֵׁי בֵיתָהּ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "רִבְקָה",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "אָחִיו",
+            "בְּנֵי יוֹסֵף",
+            "עֲבָדָיו"
+          ]
+        },
+        "bonus": "הֵן",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע וְעַתָּה פֶּן־יִשְׁלַח יָדוֹ וְלָקַח גַּם מֵעֵץ הַֽחַיִּים וְאָכַל וָחַי לְעֹלָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 3,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand;",
+          "9": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+          "10": "And it came to pass, as she spake to Joseph day by day, that he hearkened not unto her, to lie by her, or to be with her.",
+          "11": "And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within.",
+          "12": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out.",
+          "13": "And it came to pass, when she saw that he had left his garment in her hand, and was fled forth,",
+          "14": "That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:"
+        },
+        "he": {
+          "8": "וַיְמָאֵן ׀ וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי׃",
+          "9": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים׃",
+          "10": "וַיְהִי כְּדַבְּרָהּ אֶל־יוֹסֵף יוֹם ׀ יוֹם וְלֹא־שָׁמַע אֵלֶיהָ לִשְׁכַּב אֶצְלָהּ לִהְיוֹת עִמָּֽהּ׃",
+          "11": "וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת׃",
+          "12": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃",
+          "13": "וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה׃",
+          "14": "וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל׃"
+        }
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 8,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-39-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 11,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within. And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out. And it came to pass, when she saw that he had left his garment in her hand, and was fled forth, That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice: And it came to pass, when he heard that I lifted up my voice and cried, that he left his garment with me, and fled, and got him out. And she laid up his garment by her, until his lord came home. And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:",
+        "riddle": "The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:",
+        "speaker": "Potiphar's wife",
+        "listener": "Potiphar",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Rebekah",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Joseph",
+            "Jacob",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "Joseph",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 30,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל וַיְהִי כְשָׁמְעוֹ כִּֽי־הֲרִימֹתִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס וַיֵּצֵא הַחֽוּצָה וַתַּנַּח בִּגְדוֹ אֶצְלָהּ עַד־בּוֹא אֲדֹנָיו אֶל־בֵּיתֽוֹ וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי",
+        "riddle": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי",
+        "speaker": "אֵשֶׁת פטיאר",
+        "listener": "פטיאר",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "רִבְקָה",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 30,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And it came to pass about this time, that Joseph went into the house to do his business; and there was none of the men of the house there within.",
+          "12": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out.",
+          "13": "And it came to pass, when she saw that he had left his garment in her hand, and was fled forth,",
+          "14": "That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+          "15": "And it came to pass, when he heard that I lifted up my voice and cried, that he left his garment with me, and fled, and got him out.",
+          "16": "And she laid up his garment by her, until his lord came home.",
+          "17": "And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:"
+        },
+        "he": {
+          "11": "וַיְהִי כְּהַיּוֹם הַזֶּה וַיָּבֹא הַבַּיְתָה לַעֲשׂוֹת מְלַאכְתּוֹ וְאֵין אִישׁ מֵאַנְשֵׁי הַבַּיִת שָׁם בַּבָּֽיִת׃",
+          "12": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃",
+          "13": "וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה׃",
+          "14": "וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל׃",
+          "15": "וַיְהִי כְשָׁמְעוֹ כִּֽי־הֲרִימֹתִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃",
+          "16": "וַתַּנַּח בִּגְדוֹ אֶצְלָהּ עַד־בּוֹא אֲדֹנָיו אֶל־בֵּיתֽוֹ׃",
+          "17": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 11,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-39-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And it came to pass, when she saw that he had left his garment in her hand, and was fled forth, That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice: And it came to pass, when he heard that I lifted up my voice and cried, that he left his garment with me, and fled, and got him out. And she laid up his garment by her, until his lord came home. And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me: And it came to pass, as I lifted up my voice and cried, that he left his garment with me, and fled out. And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled.",
+        "riddle": "After this manner did thy servant to me",
+        "speaker": "Potiphar's wife",
+        "listener": "Potiphar",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Pharaoh",
+            "Jacob"
+          ],
+          "listener": [
+            "Pharaoh",
+            "Jacob",
+            "Abraham"
+          ]
+        },
+        "bonus": "garment",
+        "bonus_hint": {
+          "quote": "Then they hasted, and took every man his garment, and put it under him on the top of the stairs, and blew with trumpets, saying, Jehu is king.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל וַיְהִי כְשָׁמְעוֹ כִּֽי־הֲרִימֹתִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס וַיֵּצֵא הַחֽוּצָה וַתַּנַּח בִּגְדוֹ אֶצְלָהּ עַד־בּוֹא אֲדֹנָיו אֶל־בֵּיתֽוֹ וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי וַיְהִי כַּהֲרִימִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס הַחֽוּצָה וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ",
+        "riddle": "כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּך",
+        "speaker": "אִשְׁתּוֹ",
+        "listener": "אֲדֹנָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יַעֲקֹב"
+          ],
+          "listener": [
+            "פַרְעֹה",
+            "יַעֲקֹב",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "בִּגְדוֹ",
+        "bonus_hint": {
+          "quote": "וַֽיְמַהֲרוּ וַיִּקְחוּ אִישׁ בִּגְדוֹ וַיָּשִׂימוּ תַחְתָּיו אֶל־גֶּרֶם הַֽמַּעֲלוֹת וַֽיִּתְקְעוּ בַּשּׁוֹפָר וַיֹּאמְרוּ מָלַךְ יֵהֽוּא",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And it came to pass, when she saw that he had left his garment in her hand, and was fled forth,",
+          "14": "That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+          "15": "And it came to pass, when he heard that I lifted up my voice and cried, that he left his garment with me, and fled, and got him out.",
+          "16": "And she laid up his garment by her, until his lord came home.",
+          "17": "And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:",
+          "18": "And it came to pass, as I lifted up my voice and cried, that he left his garment with me, and fled out.",
+          "19": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled."
+        },
+        "he": {
+          "13": "וַיְהִי כִּרְאוֹתָהּ כִּֽי־עָזַב בִּגְדוֹ בְּיָדָהּ וַיָּנָס הַחֽוּצָה׃",
+          "14": "וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל׃",
+          "15": "וַיְהִי כְשָׁמְעוֹ כִּֽי־הֲרִימֹתִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃",
+          "16": "וַתַּנַּח בִּגְדוֹ אֶצְלָהּ עַד־בּוֹא אֲדֹנָיו אֶל־בֵּיתֽוֹ׃",
+          "17": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי׃",
+          "18": "וַיְהִי כַּהֲרִימִי קוֹלִי וָאֶקְרָא וַיַּעֲזֹב בִּגְדוֹ אֶצְלִי וַיָּנָס הַחֽוּצָה׃",
+          "19": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 13,
+        "end": 19
       },
       "meta": {
         "mode": "llm",

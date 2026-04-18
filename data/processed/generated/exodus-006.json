@@ -1,0 +1,316 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-06-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And God spake unto Moses, and said unto him, I am the LORD: And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them.",
+        "riddle": "I am the LORD:",
+        "speaker": "God",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "JEHOVAH",
+        "bonus_hint": {
+          "quote": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֱלֹהִים אֶל־מֹשֶׁה וַיֹּאמֶר אֵלָיו אֲנִי יְהוָֽה וָאֵרָא אֶל־אַבְרָהָם אֶל־יִצְחָק וְאֶֽל־יַעֲקֹב בְּאֵל שַׁדָּי וּשְׁמִי יְהוָה לֹא נוֹדַעְתִּי לָהֶֽם",
+        "riddle": "אֵלָיו אֲנִי יְהוָֽה",
+        "speaker": "אֱלֹהִים",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אַבְרָהָם",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אַבְרָהָם שֵֽׁם־הַמָּקוֹם הַהוּא יְהוָה יִרְאֶה אֲשֶׁר יֵאָמֵר הַיּוֹם בְּהַר יְהוָה יֵרָאֶֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And God spake unto Moses, and said unto him, I am the LORD:",
+          "3": "And I appeared unto Abraham, unto Isaac, and unto Jacob, by the name of God Almighty, but by my name JEHOVAH was I not known to them."
+        },
+        "he": {
+          "2": "וַיְדַבֵּר אֱלֹהִים אֶל־מֹשֶׁה וַיֹּאמֶר אֵלָיו אֲנִי יְהוָֽה׃",
+          "3": "וָאֵרָא אֶל־אַבְרָהָם אֶל־יִצְחָק וְאֶֽל־יַעֲקֹב בְּאֵל שַׁדָּי וּשְׁמִי יְהוָה לֹא נוֹדַעְתִּי לָהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-06-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 9,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Moses spake so unto the children of Israel: but they hearkened not unto Moses for anguish of spirit, and for cruel bondage. And the LORD spake unto Moses, saying, Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land.",
+        "riddle": "Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bondage",
+        "bonus_hint": {
+          "quote": "That the LORD sent a prophet unto the children of Israel, which said unto them, Thus saith the LORD God of Israel, I brought you up from Egypt, and brought you forth out of the house of bondage;",
+          "source": {
+            "book": "Judges",
+            "chapter": 6,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מֹשֶׁה כֵּן אֶל־בְּנֵי יִשְׂרָאֵל וְלֹא שָֽׁמְעוּ אֶל־מֹשֶׁה מִקֹּצֶר רוּחַ וּמֵעֲבֹדָה קָשָֽׁה וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ",
+        "riddle": "בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּנֵי",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח יְהוָה אִישׁ נָבִיא אֶל־בְּנֵי יִשְׂרָאֵל וַיֹּאמֶר לָהֶם כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי הֶעֱלֵיתִי אֶתְכֶם מִמִּצְרַיִם וָאֹצִיא אֶתְכֶם מִבֵּית עֲבָדִֽים",
+          "source": {
+            "book": "שופטים",
+            "chapter": 6,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Moses spake so unto the children of Israel: but they hearkened not unto Moses for anguish of spirit, and for cruel bondage.",
+          "10": "And the LORD spake unto Moses, saying,",
+          "11": "Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land."
+        },
+        "he": {
+          "9": "וַיְדַבֵּר מֹשֶׁה כֵּן אֶל־בְּנֵי יִשְׂרָאֵל וְלֹא שָֽׁמְעוּ אֶל־מֹשֶׁה מִקֹּצֶר רוּחַ וּמֵעֲבֹדָה קָשָֽׁה׃",
+          "10": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "11": "בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 9,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-06-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Moses spake before the LORD, saying, Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?",
+        "riddle": "Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "before",
+        "bonus_hint": {
+          "quote": "And Abraham stood up from before his dead, and spake unto the sons of Heth, saying,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 23,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מֹשֶׁה לִפְנֵי יְהוָה לֵאמֹר הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם",
+        "riddle": "הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיָּקָם אַבְרָהָם מֵעַל פְּנֵי מֵתוֹ וַיְדַבֵּר אֶל־בְּנֵי־חֵת לֵאמֹֽר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 23,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses spake before the LORD, saying, Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?"
+        },
+        "he": {
+          "12": "וַיְדַבֵּר מֹשֶׁה לִפְנֵי יְהוָה לֵאמֹר הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 12,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-06-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30
+      },
+      "en": {
+        "quote": "And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?",
+        "riddle": "Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "before",
+        "bonus_hint": {
+          "quote": "The earth also was corrupt before God, and the earth was filled with violence.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה לִפְנֵי יְהוָה הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה",
+        "riddle": "הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לִפְנֵי",
+        "bonus_hint": {
+          "quote": "וַתִּשָּׁחֵת הָאָרֶץ לִפְנֵי הָֽאֱלֹהִים וַתִּמָּלֵא הָאָרֶץ חָמָֽס",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?"
+        },
+        "he": {
+          "30": "וַיֹּאמֶר מֹשֶׁה לִפְנֵי יְהוָה הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 30,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

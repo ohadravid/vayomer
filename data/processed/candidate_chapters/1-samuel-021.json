@@ -6,95 +6,58 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-21-02-02",
+      "id": "1-samuel-21-15-15",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 21,
-        "quote_verse_start": 2,
-        "quote_verse_end": 2
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
       },
       "en": {
-        "quote": "And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place.",
-        "riddle": "and what I have commanded thee: and I have appointed my servants to such and such a place.",
-        "speaker": "David",
-        "listener": "Ahimelech",
+        "quote": "Have I need of mad men, that ye have brought this fellow to play the mad man in my presence? shall this fellow come into my house?",
+        "riddle": "Have I need of mad men, that ye have brought this fellow to play the mad man in my presence? shall this fellow come into my house?",
+        "speaker": "Achish",
+        "listener": "servants",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "וַיָּבֹא דָוִד נֹבֶה אֶל־אֲחִימֶלֶךְ הַכֹּהֵן וַיֶּחֱרַד אֲחִימֶלֶךְ לִקְרַאת דָּוִד וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ",
-        "riddle": "מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ",
-        "speaker": "Ahimelech",
-        "listener": "David",
+        "quote": "וַיֹּאמֶר אָכִישׁ אֶל־עֲבָדָיו הִנֵּה תִרְאוּ אִישׁ מִשְׁתַּגֵּעַ לָמָּה תָּבִיאוּ אֹתוֹ אֵלָֽי",
+        "riddle": "וַיֹּאמֶר אָכִישׁ אֶל־עֲבָדָיו הִנֵּה תִרְאוּ אִישׁ מִשְׁתַּגֵּעַ לָמָּה תָּבִיאוּ אֹתוֹ אֵלָֽי",
+        "speaker": "אָכִישׁ",
+        "listener": "עֲבָדָיו",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "2": "And David said unto Ahimelech the priest, The king hath commanded me a business, and hath said unto me, Let no man know any thing of the business whereabout I send thee, and what I have commanded thee: and I have appointed my servants to such and such a place."
+          "15": "Have I need of mad men, that ye have brought this fellow to play the mad man in my presence? shall this fellow come into my house?"
         },
         "he": {
-          "2": "וַיָּבֹא דָוִד נֹבֶה אֶל־אֲחִימֶלֶךְ הַכֹּהֵן וַיֶּחֱרַד אֲחִימֶלֶךְ לִקְרַאת דָּוִד וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה לְבַדֶּךָ וְאִישׁ אֵין אִתָּֽךְ׃"
+          "15": "וַיֹּאמֶר אָכִישׁ אֶל־עֲבָדָיו הִנֵּה תִרְאוּ אִישׁ מִשְׁתַּגֵּעַ לָמָּה תָּבִיאוּ אֹתוֹ אֵלָֽי׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech and questions",
-        "confidence": 0.8
+        "reason": "rhetorical questions",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 21,
-        "start": 2,
-        "end": 2
-      }
-    },
-    {
-      "id": "1-samuel-21-08-08",
-      "source": {
-        "book_code": "1SA",
-        "book": "1 Samuel",
-        "book_he": "שמואל א",
-        "chapter": 21,
-        "quote_verse_start": 8,
-        "quote_verse_end": 8
-      },
-      "en": {
-        "quote": "And David said unto Ahimelech, And is there not here under thine hand spear or sword? for I have neither brought my sword nor my weapons with me, because the king's business required haste.",
-        "riddle": "And is there not here under thine hand spear or sword?",
-        "speaker": "David",
-        "listener": "Ahimelech",
-        "book": "1 Samuel"
-      },
-      "he": {
-        "quote": "וְשָׁם אִישׁ מֵעַבְדֵי שָׁאוּל בַּיּוֹם הַהוּא נֶעְצָר לִפְנֵי יְהוָה וּשְׁמוֹ דֹּאֵג הָאֲדֹמִי אַבִּיר הָרֹעִים אֲשֶׁר לְשָׁאֽוּל",
-        "riddle": "וְשָׁם אִישׁ מֵעַבְדֵי שָׁאוּל בַּיּוֹם הַהוּא נֶעְצָר לִפְנֵי יְהוָה",
-        "speaker": "A man",
-        "listener": "God",
-        "book": "שמואל א"
-      },
-      "raw_quote_source": {
-        "en": {
-          "8": "And David said unto Ahimelech, And is there not here under thine hand spear or sword? for I have neither brought my sword nor my weapons with me, because the king's business required haste."
-        },
-        "he": {
-          "8": "וְשָׁם אִישׁ מֵעַבְדֵי שָׁאוּל בַּיּוֹם הַהוּא נֶעְצָר לִפְנֵי יְהוָה וּשְׁמוֹ דֹּאֵג הָאֲדֹמִי אַבִּיר הָרֹעִים אֲשֶׁר לְשָׁאֽוּל׃"
-        }
-      },
-      "meta": {
-        "reason": "Contains direct question and vivid declaration",
-        "confidence": 0.85
-      },
-      "ref": {
-        "chapter": 21,
-        "start": 8,
-        "end": 8
+        "start": 15,
+        "end": 15
       }
     }
   ],
   "stats": {
-    "window_count": 15,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 15,
-    "kept_count": 2,
-    "issue_count": 13
+    "llm_window_count": 2,
+    "projection_llm_count": 12,
+    "llm_call_count": 14,
+    "spec_count": 12,
+    "kept_count": 1,
+    "issue_count": 11
   }
 }

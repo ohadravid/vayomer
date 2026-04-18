@@ -6,6 +6,100 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-09-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the trees said to the fig tree, Come thou, and reign over us. But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?",
+        "riddle": "Come thou, and reign over us",
+        "speaker": "trees",
+        "listener": "fig tree",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Gideon",
+            "Abimelech",
+            "Samuel"
+          ],
+          "listener": [
+            "Gideon",
+            "Samson",
+            "Samuel"
+          ]
+        },
+        "bonus": "fruit",
+        "bonus_hint": {
+          "quote": "And God said, Behold, I have given you every herb bearing seed, which is upon the face of all the earth, and every tree, in the which is the fruit of a tree yielding seed; to you it shall be for meat.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הָעֵצִים לַתְּאֵנָה לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ וַתֹּאמֶר לָהֶם הַתְּאֵנָה הֶחֳדַלְתִּי אֶת־מָתְקִי וְאֶת־תְּנוּבָתִי הַטּוֹבָה וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "riddle": "לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ",
+        "speaker": "הָעֵצִים",
+        "listener": "הַתְּאֵנָה",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "גִּדְעוֹן",
+            "אֲבִימֶלֶךְ",
+            "שְׁמוּאֵל"
+          ],
+          "listener": [
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן",
+            "שְׁמוּאֵל"
+          ]
+        },
+        "bonus": "וְאֶת",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֱלֹהִים הִנֵּה נָתַתִּי לָכֶם אֶת־כָּל־עֵשֶׂב זֹרֵעַ זֶרַע אֲשֶׁר עַל־פְּנֵי כָל־הָאָרֶץ וְאֶת־כָּל־הָעֵץ אֲשֶׁר־בּוֹ פְרִי־עֵץ זֹרֵעַ זָרַע לָכֶם יִֽהְיֶה לְאָכְלָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the trees said to the fig tree, Come thou, and reign over us.",
+          "11": "But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?"
+        },
+        "he": {
+          "10": "וַיֹּאמְרוּ הָעֵצִים לַתְּאֵנָה לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ׃",
+          "11": "וַתֹּאמֶר לָהֶם הַתְּאֵנָה הֶחֳדַלְתִּי אֶת־מָתְקִי וְאֶת־תְּנוּבָתִי הַטּוֹבָה וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "judges-09-48-48",
       "source": {
         "method": "llm",
@@ -13,91 +107,83 @@
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 9,
-        "quote_verse_start": 43,
-        "quote_verse_end": 49
+        "quote_verse_start": 47,
+        "quote_verse_end": 48,
+        "speaker_mention_verse": 48,
+        "listener_mention_verse": 48
       },
       "en": {
-        "quote": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them. And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them. And Abimelech fought against the city all that day; and he took the city, and slew the people that was therein, and beat down the city, and sowed it with salt. And when all the men of the tower of Shechem heard that, they entered into an hold of the house of the god Berith. And it was told Abimelech, that all the men of the tower of Shechem were gathered together. And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done. And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women.",
-        "riddle": "and do as I have done.",
+        "quote": "And it was told Abimelech, that all the men of the tower of Shechem were gathered together. And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done.",
+        "riddle": "What ye have seen me do, make haste, and do as I have done.",
         "speaker": "Abimelech",
-        "listener": "Abimelech's people",
+        "listener": "people",
         "book": "Judges",
         "options": {
           "speaker": [
-            "Saul",
+            "Gideon",
             "Samson",
-            "Philistines"
+            "David"
           ],
           "listener": [
-            "Israel",
+            "children of Israel",
             "Philistines",
-            "children of Benjamin"
+            "children"
           ]
         },
-        "bonus": "three",
+        "bonus": "tower",
         "bonus_hint": {
-          "quote": "And their meat offering shall be of flour mingled with oil, three tenth deals unto every bullock of the thirteen bullocks, two tenth deals to each ram of the two rams,",
+          "quote": "And when he came to the tower, he took them from their hand, and bestowed them in the house: and he let the men go, and they departed.",
           "source": {
-            "book": "Numbers",
-            "chapter": 29,
-            "start": 14,
-            "end": 14
+            "book": "2 Kings",
+            "chapter": 5,
+            "start": 24,
+            "end": 24
           }
         }
       },
       "he": {
-        "quote": "וַיִקַּח אֶת־הָעָם וַֽיֶּחֱצֵם לִשְׁלֹשָׁה רָאשִׁים וַיֶּאֱרֹב בַּשָּׂדֶה וַיַּרְא וְהִנֵּה הָעָם יֹצֵא מִן־הָעִיר וַיָּקָם עֲלֵיהֶם וַיַּכֵּֽם וַאֲבִימֶלֶךְ וְהָרָאשִׁים אֲשֶׁר עִמּוֹ פָּשְׁטוּ וַיַּעַמְדוּ פֶּתַח שַׁעַר הָעִיר וּשְׁנֵי הָֽרָאשִׁים פָּשְׁטוּ עַֽל־כָּל־אֲשֶׁר בַּשָּׂדֶה וַיַּכּֽוּם וַאֲבִימֶלֶךְ נִלְחָם בָּעִיר כֹּל הַיּוֹם הַהוּא וַיִּלְכֹּד אֶת־הָעִיר וְאֶת־הָעָם אֲשֶׁר־בָּהּ הָרָג וַיִּתֹּץ אֶת־הָעִיר וַיִּזְרָעֶהָ מֶֽלַח וַֽיִּשְׁמְעוּ כָּֽל־בַּעֲלֵי מִֽגְדַּל־שְׁכֶם וַיָּבֹאוּ אֶל־צְרִיחַ בֵּית אֵל בְּרִֽית וַיֻּגַּד לַאֲבִימֶלֶךְ כִּי הִֽתְקַבְּצוּ כָּֽל־בַּעֲלֵי מִֽגְדַּל־שְׁכֶֽם וַיַּעַל אֲבִימֶלֶךְ הַר־צַלְמוֹן הוּא וְכָל־הָעָם אֲשֶׁר־אִתּוֹ וַיִּקַּח אֲבִימֶלֶךְ אֶת־הַקַּרְדֻּמּוֹת בְּיָדוֹ וַיִּכְרֹת שׂוֹכַת עֵצִים וַיִּשָּׂאֶהָ וַיָּשֶׂם עַל־שִׁכְמוֹ וַיֹּאמֶר אֶל־הָעָם אֲשֶׁר־עִמּוֹ מָה רְאִיתֶם עָשִׂיתִי מַהֲרוּ עֲשׂוּ כָמֽוֹנִי וַיִּכְרְתוּ גַם־כָּל־הָעָם אִישׁ שׂוֹכֹה וַיֵּלְכוּ אַחֲרֵי אֲבִימֶלֶךְ וַיָּשִׂימוּ עַֽל־הַצְּרִיחַ וַיַּצִּיתוּ עֲלֵיהֶם אֶֽת־הַצְּרִיחַ בָּאֵשׁ וַיָּמֻתוּ גַּם כָּל־אַנְשֵׁי מִֽגְדַּל־שְׁכֶם כְּאֶלֶף אִישׁ וְאִשָּֽׁה",
+        "quote": "וַיֻּגַּד לַאֲבִימֶלֶךְ כִּי הִֽתְקַבְּצוּ כָּֽל־בַּעֲלֵי מִֽגְדַּל־שְׁכֶֽם וַיַּעַל אֲבִימֶלֶךְ הַר־צַלְמוֹן הוּא וְכָל־הָעָם אֲשֶׁר־אִתּוֹ וַיִּקַּח אֲבִימֶלֶךְ אֶת־הַקַּרְדֻּמּוֹת בְּיָדוֹ וַיִּכְרֹת שׂוֹכַת עֵצִים וַיִּשָּׂאֶהָ וַיָּשֶׂם עַל־שִׁכְמוֹ וַיֹּאמֶר אֶל־הָעָם אֲשֶׁר־עִמּוֹ מָה רְאִיתֶם עָשִׂיתִי מַהֲרוּ עֲשׂוּ כָמֽוֹנִי",
         "riddle": "מָה רְאִיתֶם עָשִׂיתִי מַהֲרוּ עֲשׂוּ כָמֽוֹנִי",
         "speaker": "אֲבִימֶלֶךְ",
         "listener": "הָעָם",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "שָׁאוּל",
+            "גִּדְעוֹן",
             "שִׁמְשׁוֹן",
-            "פְּלִשְׁתִּֽים"
+            "דּוֹד"
           ],
           "listener": [
-            "יִשְׂרָאֵל",
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי בִנְיָמִן"
+            "בְּנֵי יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "בְּנֵיכֶם"
           ]
         },
-        "bonus": "לִשְׁלֹשָׁה",
+        "bonus": "וַיִּקַּח",
         "bonus_hint": {
-          "quote": "וּמִנְחָתָם סֹלֶת בְּלוּלָה בַשָּׁמֶן שְׁלֹשָׁה עֶשְׂרֹנִים לַפָּר הָֽאֶחָד לִשְׁלֹשָׁה עָשָׂר פָּרִים שְׁנֵי עֶשְׂרֹנִים לָאַיִל הָֽאֶחָד לִשְׁנֵי הָאֵילִֽם",
+          "quote": "וַיָּבֹא אֶל־הָעֹפֶל וַיִּקַּח מִיָּדָם וַיִּפְקֹד בַּבָּיִת וַיְשַׁלַּח אֶת־הָאֲנָשִׁים וַיֵּלֵֽכוּ",
           "source": {
-            "book": "במדבר",
-            "chapter": 29,
-            "start": 14,
-            "end": 14
+            "book": "מלכים ב",
+            "chapter": 5,
+            "start": 24,
+            "end": 24
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "43": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them.",
-          "44": "And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them.",
-          "45": "And Abimelech fought against the city all that day; and he took the city, and slew the people that was therein, and beat down the city, and sowed it with salt.",
-          "46": "And when all the men of the tower of Shechem heard that, they entered into an hold of the house of the god Berith.",
           "47": "And it was told Abimelech, that all the men of the tower of Shechem were gathered together.",
-          "48": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done.",
-          "49": "And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women."
+          "48": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done."
         },
         "he": {
-          "43": "וַיִקַּח אֶת־הָעָם וַֽיֶּחֱצֵם לִשְׁלֹשָׁה רָאשִׁים וַיֶּאֱרֹב בַּשָּׂדֶה וַיַּרְא וְהִנֵּה הָעָם יֹצֵא מִן־הָעִיר וַיָּקָם עֲלֵיהֶם וַיַּכֵּֽם׃",
-          "44": "וַאֲבִימֶלֶךְ וְהָרָאשִׁים אֲשֶׁר עִמּוֹ פָּשְׁטוּ וַיַּעַמְדוּ פֶּתַח שַׁעַר הָעִיר וּשְׁנֵי הָֽרָאשִׁים פָּשְׁטוּ עַֽל־כָּל־אֲשֶׁר בַּשָּׂדֶה וַיַּכּֽוּם׃",
-          "45": "וַאֲבִימֶלֶךְ נִלְחָם בָּעִיר כֹּל הַיּוֹם הַהוּא וַיִּלְכֹּד אֶת־הָעִיר וְאֶת־הָעָם אֲשֶׁר־בָּהּ הָרָג וַיִּתֹּץ אֶת־הָעִיר וַיִּזְרָעֶהָ מֶֽלַח׃",
-          "46": "וַֽיִּשְׁמְעוּ כָּֽל־בַּעֲלֵי מִֽגְדַּל־שְׁכֶם וַיָּבֹאוּ אֶל־צְרִיחַ בֵּית אֵל בְּרִֽית׃",
           "47": "וַיֻּגַּד לַאֲבִימֶלֶךְ כִּי הִֽתְקַבְּצוּ כָּֽל־בַּעֲלֵי מִֽגְדַּל־שְׁכֶֽם׃",
-          "48": "וַיַּעַל אֲבִימֶלֶךְ הַר־צַלְמוֹן הוּא וְכָל־הָעָם אֲשֶׁר־אִתּוֹ וַיִּקַּח אֲבִימֶלֶךְ אֶת־הַקַּרְדֻּמּוֹת בְּיָדוֹ וַיִּכְרֹת שׂוֹכַת עֵצִים וַיִּשָּׂאֶהָ וַיָּשֶׂם עַל־שִׁכְמוֹ וַיֹּאמֶר אֶל־הָעָם אֲשֶׁר־עִמּוֹ מָה רְאִיתֶם עָשִׂיתִי מַהֲרוּ עֲשׂוּ כָמֽוֹנִי׃",
-          "49": "וַיִּכְרְתוּ גַם־כָּל־הָעָם אִישׁ שׂוֹכֹה וַיֵּלְכוּ אַחֲרֵי אֲבִימֶלֶךְ וַיָּשִׂימוּ עַֽל־הַצְּרִיחַ וַיַּצִּיתוּ עֲלֵיהֶם אֶֽת־הַצְּרִיחַ בָּאֵשׁ וַיָּמֻתוּ גַּם כָּל־אַנְשֵׁי מִֽגְדַּל־שְׁכֶם כְּאֶלֶף אִישׁ וְאִשָּֽׁה׃"
+          "48": "וַיַּעַל אֲבִימֶלֶךְ הַר־צַלְמוֹן הוּא וְכָל־הָעָם אֲשֶׁר־אִתּוֹ וַיִּקַּח אֲבִימֶלֶךְ אֶת־הַקַּרְדֻּמּוֹת בְּיָדוֹ וַיִּכְרֹת שׂוֹכַת עֵצִים וַיִּשָּׂאֶהָ וַיָּשֶׂם עַל־שִׁכְמוֹ וַיֹּאמֶר אֶל־הָעָם אֲשֶׁר־עִמּוֹ מָה רְאִיתֶם עָשִׂיתִי מַהֲרוּ עֲשׂוּ כָמֽוֹנִי׃"
         }
       },
       "ref": {
         "chapter": 9,
-        "start": 43,
-        "end": 49
+        "start": 47,
+        "end": 48
       },
       "meta": {
         "mode": "llm",

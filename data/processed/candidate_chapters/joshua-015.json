@@ -6,53 +6,103 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-15-18-18",
+      "id": "joshua-15-16-16",
       "source": {
         "book_code": "JOS",
         "book": "Joshua",
         "book_he": "יהושע",
         "chapter": 15,
-        "quote_verse_start": 18,
-        "quote_verse_end": 18
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16
       },
       "en": {
-        "quote": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?",
-        "riddle": "What wouldest thou?",
+        "quote": "And Caleb said, He that smiteth Kirjath-sepher, and taketh it, to him will I give Achsah my daughter to wife.",
+        "riddle": "He that smiteth Kirjath-sepher, and taketh it, to him will I give Achsah my daughter to wife.",
         "speaker": "Caleb",
-        "listener": "Achsah",
+        "listener": "conqueror",
         "book": "Joshua"
       },
       "he": {
-        "quote": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
-        "riddle": "מַה־לָּֽךְ",
+        "quote": "וַיֹּאמֶר כָּלֵב אֲשֶׁר־יַכֶּה אֶת־קִרְיַת־סֵפֶר וּלְכָדָהּ וְנָתַתִּי לוֹ אֶת־עַכְסָה בִתִּי לְאִשָּֽׁה",
+        "riddle": "וַיֹּאמֶר כָּלֵב אֲשֶׁר־יַכֶּה אֶת־קִרְיַת־סֵפֶר וּלְכָדָהּ וְנָתַתִּי לוֹ אֶת־עַכְסָה בִתִּי לְאִשָּֽׁה",
         "speaker": "כָּלֵב",
-        "listener": "אכסה",
+        "listener": "כָּלֵב",
         "book": "יהושע"
       },
       "raw_quote_source": {
         "en": {
-          "18": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?"
+          "16": "And Caleb said, He that smiteth Kirjath-sepher, and taketh it, to him will I give Achsah my daughter to wife."
         },
         "he": {
-          "18": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+          "16": "וַיֹּאמֶר כָּלֵב אֲשֶׁר־יַכֶּה אֶת־קִרְיַת־סֵפֶר וּלְכָדָהּ וְנָתַתִּי לוֹ אֶת־עַכְסָה בִתִּי לְאִשָּֽׁה׃"
         }
       },
       "meta": {
-        "reason": "Contains direct question",
-        "confidence": 1.0
+        "reason": "vivid declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
-        "start": 18,
-        "end": 18
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "joshua-15-19-19",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 15,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Who answered, Give me a blessing; for thou hast given me a south land; give me also springs of water. And he gave her the upper springs, and the nether springs.",
+        "riddle": "Give me a blessing; for thou hast given me a south land; give me also springs of water.",
+        "speaker": "Achsah",
+        "listener": "Caleb",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת תַּחְתִּיּֽוֹת",
+        "riddle": "תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת",
+        "speaker": "עַכְשָׁה",
+        "listener": "כָּלֵב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?",
+          "19": "Who answered, Give me a blessing; for thou hast given me a south land; give me also springs of water. And he gave her the upper springs, and the nether springs."
+        },
+        "he": {
+          "18": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃",
+          "19": "וַתֹּאמֶר תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת תַּחְתִּיּֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 19,
+        "end": 19
       }
     }
   ],
   "stats": {
-    "window_count": 5,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 1,
-    "issue_count": 4
+    "llm_window_count": 1,
+    "projection_llm_count": 3,
+    "llm_call_count": 4,
+    "spec_count": 3,
+    "kept_count": 2,
+    "issue_count": 1
   }
 }

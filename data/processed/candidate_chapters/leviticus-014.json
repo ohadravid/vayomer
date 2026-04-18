@@ -4,12 +4,104 @@
   "book_he": "ויקרא",
   "chapter": 14,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-14-34-34",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 14,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 33,
+        "listener_mention_verse": 33
+      },
+      "en": {
+        "quote": "When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;",
+        "riddle": "When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;",
+        "speaker": "the LORD",
+        "listener": "Moses and Aaron",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "כִּי תָבֹאוּ אֶל־אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי נֹתֵן לָכֶם לַאֲחֻזָּה וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶֽם",
+        "riddle": "כִּי תָבֹאוּ אֶל־אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי נֹתֵן לָכֶם לַאֲחֻזָּה וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "33": "And the LORD spake unto Moses and unto Aaron, saying,",
+          "34": "When ye be come into the land of Canaan, which I give to you for a possession, and I put the plague of leprosy in a house of the land of your possession;"
+        },
+        "he": {
+          "33": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "34": "כִּי תָבֹאוּ אֶל־אֶרֶץ כְּנַעַן אֲשֶׁר אֲנִי נֹתֵן לָכֶם לַאֲחֻזָּה וְנָתַתִּי נֶגַע צָרַעַת בְּבֵית אֶרֶץ אֲחֻזַּתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration/instruction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 34,
+        "end": 34
+      }
+    },
+    {
+      "id": "leviticus-14-35-35",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 14,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35
+      },
+      "en": {
+        "quote": "And he that owneth the house shall come and tell the priest, saying, It seemeth to me there is as it were a plague in the house:",
+        "riddle": "It seemeth to me there is as it were a plague in the house:",
+        "speaker": "house owner",
+        "listener": "priest",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וּבָא אֲשֶׁר־לוֹ הַבַּיִת וְהִגִּיד לַכֹּהֵן לֵאמֹר כְּנֶגַע נִרְאָה לִי בַּבָּֽיִת",
+        "riddle": "לֵאמֹר כְּנֶגַע נִרְאָה לִי בַּבָּֽיִת",
+        "speaker": "אֲשֶׁר־לוֹ הַבַּיִת",
+        "listener": "כֹּהֵן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "And he that owneth the house shall come and tell the priest, saying, It seemeth to me there is as it were a plague in the house:"
+        },
+        "he": {
+          "35": "וּבָא אֲשֶׁר־לוֹ הַבַּיִת וְהִגִּיד לַכֹּהֵן לֵאמֹר כְּנֶגַע נִרְאָה לִי בַּבָּֽיִת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 35,
+        "end": 35
+      }
+    }
+  ],
   "stats": {
-    "window_count": 6,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 6,
-    "kept_count": 0,
-    "issue_count": 6
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

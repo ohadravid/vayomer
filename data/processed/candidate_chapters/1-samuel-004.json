@@ -6,139 +6,277 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-04-08-08",
+      "id": "1-samuel-04-06-06",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 4,
-        "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
       },
       "en": {
-        "quote": "Woe unto us! who shall deliver us out of the hand of these mighty Gods? these are the Gods that smote the Egyptians with all the plagues in the wilderness.",
-        "riddle": "Woe unto us! who shall deliver us out of the hand of these mighty Gods?",
-        "speaker": "Israelites",
-        "listener": "Themselves",
+        "quote": "And when the Philistines heard the noise of the shout, they said, What meaneth the noise of this great shout in the camp of the Hebrews? And they understood that the ark of the LORD was come into the camp.",
+        "riddle": "What meaneth the noise of this great shout in the camp of the Hebrews?",
+        "speaker": "Philistines",
+        "listener": "Philistines",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "אוֹי לָנוּ מִי יַצִּילֵנוּ מִיַּד הָאֱלֹהִים הָאַדִּירִים הָאֵלֶּה אֵלֶּה הֵם הָאֱלֹהִים הַמַּכִּים אֶת־מִצְרַיִם בְּכָל־מַכָּה בַּמִּדְבָּֽר",
-        "riddle": "אוֹי לָנוּ מִי יַצִּילֵנוּ מִיַּד הָאֱלֹהִים הָאַדִּירִים הָאֵלֶּה אֵלֶּה",
-        "speaker": "בני ישראל",
-        "listener": "עצמם",
+        "quote": "וַיִּשְׁמְעוּ פְלִשְׁתִּים אֶת־קוֹל הַתְּרוּעָה וַיֹּאמְרוּ מֶה קוֹל הַתְּרוּעָה הַגְּדוֹלָה הַזֹּאת בְּמַחֲנֵה הָעִבְרִים וַיֵּדְעוּ כִּי אֲרוֹן יְהוָה בָּא אֶל־הַֽמַּחֲנֶֽה",
+        "riddle": "מֶה קוֹל הַתְּרוּעָה הַגְּדוֹלָה הַזֹּאת בְּמַחֲנֵה הָעִבְרִים וַיֵּדְעוּ כִּי אֲרוֹן יְהוָה בָּא אֶל־הַֽמַּחֲנֶֽה",
+        "speaker": "פְלִשְׁתִּים",
+        "listener": "פְלִשְׁתִּים",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "8": "Woe unto us! who shall deliver us out of the hand of these mighty Gods? these are the Gods that smote the Egyptians with all the plagues in the wilderness."
+          "6": "And when the Philistines heard the noise of the shout, they said, What meaneth the noise of this great shout in the camp of the Hebrews? And they understood that the ark of the LORD was come into the camp."
         },
         "he": {
-          "8": "אוֹי לָנוּ מִי יַצִּילֵנוּ מִיַּד הָאֱלֹהִים הָאַדִּירִים הָאֵלֶּה אֵלֶּה הֵם הָאֱלֹהִים הַמַּכִּים אֶת־מִצְרַיִם בְּכָל־מַכָּה בַּמִּדְבָּֽר׃"
+          "6": "וַיִּשְׁמְעוּ פְלִשְׁתִּים אֶת־קוֹל הַתְּרוּעָה וַיֹּאמְרוּ מֶה קוֹל הַתְּרוּעָה הַגְּדוֹלָה הַזֹּאת בְּמַחֲנֵה הָעִבְרִים וַיֵּדְעוּ כִּי אֲרוֹן יְהוָה בָּא אֶל־הַֽמַּחֲנֶֽה׃"
         }
       },
       "meta": {
-        "reason": "Vivid rhetorical question and warning",
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-samuel-04-09-09",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 4,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Be strong, and quit yourselves like men, O ye Philistines, that ye be not servants unto the Hebrews, as they have been to you: quit yourselves like men, and fight.",
+        "riddle": "Be strong, and quit yourselves like men, O ye Philistines",
+        "speaker": "unnamed speaker",
+        "listener": "Philistines",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הִֽתְחַזְּקוּ וִֽהְיוּ לַֽאֲנָשִׁים פְּלִשְׁתִּים פֶּן תַּעַבְדוּ לָעִבְרִים כַּאֲשֶׁר עָבְדוּ לָכֶם וִהְיִיתֶם לַאֲנָשִׁים וְנִלְחַמְתֶּֽם",
+        "riddle": "הִֽתְחַזְּקוּ וִֽהְיוּ לַֽאֲנָשִׁים פְּלִשְׁתִּים פֶּן תַּעַבְדוּ לָעִבְרִים כַּאֲשֶׁר עָבְדוּ לָכֶם",
+        "speaker": "עִבְרִים",
+        "listener": "פְּלִשְׁתִּים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Be strong, and quit yourselves like men, O ye Philistines, that ye be not servants unto the Hebrews, as they have been to you: quit yourselves like men, and fight."
+        },
+        "he": {
+          "9": "הִֽתְחַזְּקוּ וִֽהְיוּ לַֽאֲנָשִׁים פְּלִשְׁתִּים פֶּן תַּעַבְדוּ לָעִבְרִים כַּאֲשֶׁר עָבְדוּ לָכֶם וִהְיִיתֶם לַאֲנָשִׁים וְנִלְחַמְתֶּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "1-samuel-04-14-14",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 4,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And when Eli heard the noise of the crying, he said, What meaneth the noise of this tumult? And the man came in hastily, and told Eli.",
+        "riddle": "What meaneth the noise of this tumult?",
+        "speaker": "Eli",
+        "listener": "man of Benjamin",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע עֵלִי אֶת־קוֹל הַצְּעָקָה וַיֹּאמֶר מֶה קוֹל הֶהָמוֹן הַזֶּה וְהָאִישׁ מִהַר וַיָּבֹא וַיַּגֵּד לְעֵלִֽי",
+        "riddle": "מֶה קוֹל הֶהָמוֹן הַזֶּה וְהָאִישׁ מִהַר וַיָּבֹא וַיַּגֵּד לְעֵלִֽי",
+        "speaker": "עֵלִי",
+        "listener": "הָאִישׁ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And when Eli heard the noise of the crying, he said, What meaneth the noise of this tumult? And the man came in hastily, and told Eli."
+        },
+        "he": {
+          "14": "וַיִּשְׁמַע עֵלִי אֶת־קוֹל הַצְּעָקָה וַיֹּאמֶר מֶה קוֹל הֶהָמוֹן הַזֶּה וְהָאִישׁ מִהַר וַיָּבֹא וַיַּגֵּד לְעֵלִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 4,
-        "start": 8,
-        "end": 8
+        "start": 14,
+        "end": 14
       }
     },
     {
-      "id": "1-samuel-04-17-18",
+      "id": "1-samuel-04-16-16",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 4,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the man said unto Eli, I am he that came out of the army, and I fled to day out of the army. And he said, What is there done, my son?",
+        "riddle": "I am he that came out of the army, and I fled to day out of the army.",
+        "speaker": "man of Benjamin",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָאִישׁ אֶל־עֵלִי אָֽנֹכִי הַבָּא מִן־הַמַּעֲרָכָה וַאֲנִי מִן־הַמַּעֲרָכָה נַסְתִּי הַיּוֹם וַיֹּאמֶר מֶֽה־הָיָה הַדָּבָר בְּנִֽי",
+        "riddle": "אָֽנֹכִי הַבָּא מִן־הַמַּעֲרָכָה וַאֲנִי מִן־הַמַּעֲרָכָה נַסְתִּי הַיּוֹם וַיֹּאמֶר מֶֽה־הָיָה הַדָּבָר בְּנִֽי",
+        "speaker": "הָאִישׁ",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the man said unto Eli, I am he that came out of the army, and I fled to day out of the army. And he said, What is there done, my son?"
+        },
+        "he": {
+          "16": "וַיֹּאמֶר הָאִישׁ אֶל־עֵלִי אָֽנֹכִי הַבָּא מִן־הַמַּעֲרָכָה וַאֲנִי מִן־הַמַּעֲרָכָה נַסְתִּי הַיּוֹם וַיֹּאמֶר מֶֽה־הָיָה הַדָּבָר בְּנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-04-17-17",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 4,
         "quote_verse_start": 17,
-        "quote_verse_end": 18
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
       },
       "en": {
-        "quote": "And the messenger answered and said, Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken. And it came to pass, when he made mention of the ark of God, that he fell from off the seat backward by the side of the gate, and his neck brake, and he died: for he was an old man, and heavy. And he had judged Israel forty years.",
-        "riddle": "And the messenger answered and said, Israel is fled",
+        "quote": "And the messenger answered and said, Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken.",
+        "riddle": "Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken.",
         "speaker": "messenger",
         "listener": "Eli",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה גְדוֹלָה הָיְתָה בָעָם וְגַם־שְׁנֵי בָנֶיךָ מֵתוּ חָפְנִי וּפִינְחָס וַאֲרוֹן הָאֱלֹהִים נִלְקָֽחָה וַיְהִי כְּהַזְכִּירוֹ אֶת־אֲרוֹן הָאֱלֹהִים וַיִּפֹּל מֵֽעַל־הַכִּסֵּא אֲחֹרַנִּית בְּעַד יַד הַשַּׁעַר וַתִּשָּׁבֵר מַפְרַקְתּוֹ וַיָּמֹת כִּֽי־זָקֵן הָאִישׁ וְכָבֵד וְהוּא שָׁפַט אֶת־יִשְׂרָאֵל אַרְבָּעִים שָׁנָֽה",
-        "riddle": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה",
+        "quote": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה גְדוֹלָה הָיְתָה בָעָם וְגַם־שְׁנֵי בָנֶיךָ מֵתוּ חָפְנִי וּפִינְחָס וַאֲרוֹן הָאֱלֹהִים נִלְקָֽחָה",
+        "riddle": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה גְדוֹלָה הָיְתָה בָעָם וְגַם־שְׁנֵי בָנֶיךָ מֵתוּ חָפְנִי וּפִינְחָס וַאֲרוֹן הָאֱלֹהִים נִלְקָֽחָה",
         "speaker": "הַֽמְבַשֵּׂר",
-        "listener": "עלי",
+        "listener": "עֵלִי",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "17": "And the messenger answered and said, Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken.",
-          "18": "And it came to pass, when he made mention of the ark of God, that he fell from off the seat backward by the side of the gate, and his neck brake, and he died: for he was an old man, and heavy. And he had judged Israel forty years."
+          "17": "And the messenger answered and said, Israel is fled before the Philistines, and there hath been also a great slaughter among the people, and thy two sons also, Hophni and Phinehas, are dead, and the ark of God is taken."
         },
         "he": {
-          "17": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה גְדוֹלָה הָיְתָה בָעָם וְגַם־שְׁנֵי בָנֶיךָ מֵתוּ חָפְנִי וּפִינְחָס וַאֲרוֹן הָאֱלֹהִים נִלְקָֽחָה׃",
-          "18": "וַיְהִי כְּהַזְכִּירוֹ ׀ אֶת־אֲרוֹן הָאֱלֹהִים וַיִּפֹּל מֵֽעַל־הַכִּסֵּא אֲחֹרַנִּית בְּעַד ׀ יַד הַשַּׁעַר וַתִּשָּׁבֵר מַפְרַקְתּוֹ וַיָּמֹת כִּֽי־זָקֵן הָאִישׁ וְכָבֵד וְהוּא שָׁפַט אֶת־יִשְׂרָאֵל אַרְבָּעִים שָׁנָֽה׃"
+          "17": "וַיַּעַן הַֽמְבַשֵּׂר וַיֹּאמֶר נָס יִשְׂרָאֵל לִפְנֵי פְלִשְׁתִּים וְגַם מַגֵּפָה גְדוֹלָה הָיְתָה בָעָם וְגַם־שְׁנֵי בָנֶיךָ מֵתוּ חָפְנִי וּפִינְחָס וַאֲרוֹן הָאֱלֹהִים נִלְקָֽחָה׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech/news",
-        "confidence": 0.9
+        "reason": "direct report",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 4,
         "start": 17,
-        "end": 18
+        "end": 17
       }
     },
     {
-      "id": "1-samuel-04-22-22",
+      "id": "1-samuel-04-20-20",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 4,
-        "quote_verse_start": 22,
-        "quote_verse_end": 22
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
       },
       "en": {
-        "quote": "And she said, The glory is departed from Israel: for the ark of God is taken.",
-        "riddle": "The glory is departed from Israel: for the ark of God is taken.",
-        "speaker": "Woman",
-        "listener": "People",
+        "quote": "And about the time of her death the women that stood by her said unto her, Fear not; for thou hast born a son. But she answered not, neither did she regard it.",
+        "riddle": "Fear not; for thou hast born a son.",
+        "speaker": "women",
+        "listener": "Phinehas' wife",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "וַתֹּאמֶר גָּלָה כָבוֹד מִיִּשְׂרָאֵל כִּי נִלְקַח אֲרוֹן הָאֱלֹהִֽים",
-        "riddle": "גָּלָה כָבוֹד מִיִּשְׂרָאֵל כִּי נִלְקַח אֲרוֹן הָאֱלֹהִֽים",
-        "speaker": "אישה",
-        "listener": "עם",
+        "quote": "וּכְעֵת מוּתָהּ וַתְּדַבֵּרְנָה הַנִּצָּבוֹת עָלֶיהָ אַל־תִּֽירְאִי כִּי בֵן יָלָדְתְּ וְלֹא עָנְתָה וְלֹא־שָׁתָה לִבָּֽהּ",
+        "riddle": "הַנִּצָּבוֹת עָלֶיהָ אַל־תִּֽירְאִי כִּי בֵן",
+        "speaker": "הַנִּצָּבוֹת",
+        "listener": "אִשַּׁת פִּינְחָס",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "22": "And she said, The glory is departed from Israel: for the ark of God is taken."
+          "20": "And about the time of her death the women that stood by her said unto her, Fear not; for thou hast born a son. But she answered not, neither did she regard it."
         },
         "he": {
-          "22": "וַתֹּאמֶר גָּלָה כָבוֹד מִיִּשְׂרָאֵל כִּי נִלְקַח אֲרוֹן הָאֱלֹהִֽים׃"
+          "20": "וּכְעֵת מוּתָהּ וַתְּדַבֵּרְנָה הַנִּצָּבוֹת עָלֶיהָ אַל־תִּֽירְאִי כִּי בֵן יָלָדְתְּ וְלֹא עָנְתָה וְלֹא־שָׁתָה לִבָּֽהּ׃"
         }
       },
       "meta": {
-        "reason": "Vivid declaration of loss.",
+        "reason": "direct command and declaration",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 4,
-        "start": 22,
-        "end": 22
+        "start": 20,
+        "end": 20
       }
     }
   ],
   "stats": {
-    "window_count": 15,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 15,
-    "kept_count": 3,
-    "issue_count": 12
+    "llm_window_count": 4,
+    "projection_llm_count": 10,
+    "llm_call_count": 14,
+    "spec_count": 10,
+    "kept_count": 6,
+    "issue_count": 5
   }
 }

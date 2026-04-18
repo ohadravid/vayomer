@@ -6,90 +6,6 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-03-08-08",
-      "source": {
-        "method": "llm",
-        "book_code": "JOS",
-        "book": "Joshua",
-        "book_he": "יהושע",
-        "chapter": 3,
-        "quote_verse_start": 3,
-        "quote_verse_end": 8
-      },
-      "en": {
-        "quote": "And they commanded the people, saying, When ye see the ark of the covenant of the LORD your God, and the priests the Levites bearing it, then ye shall remove from your place, and go after it. Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed this way heretofore. And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you. And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people. And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee. And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
-        "riddle": "ye shall stand still in Jordan.",
-        "speaker": "God",
-        "listener": "Priests",
-        "book": "Joshua",
-        "options": {
-          "speaker": [],
-          "listener": []
-        },
-        "bonus": "ark",
-        "bonus_hint": {
-          "quote": "And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.",
-          "source": {
-            "book": "Exodus",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
-          }
-        }
-      },
-      "he": {
-        "quote": "וַיְצַוּוּ אֶת־הָעָם לֵאמֹר כִּרְאֽוֹתְכֶם אֵת אֲרוֹן בְּרִית־יְהוָה אֱלֹהֵיכֶם וְהַכֹּֽהֲנִים הַלְוִיִּם נֹשְׂאִים אֹתוֹ וְאַתֶּם תִּסְעוּ מִמְּקוֹמְכֶם וַהֲלַכְתֶּם אַחֲרָֽיו אַךְ רָחוֹק יִהְיֶה בֵּֽינֵיכֶם וּבֵינָיו כְּאַלְפַּיִם אַמָּה בַּמִּדָּה אַֽל־תִּקְרְבוּ אֵלָיו לְמַעַן אֲשֶׁר־תֵּֽדְעוּ אֶת־הַדֶּרֶךְ אֲשֶׁר תֵּֽלְכוּ־בָהּ כִּי לֹא עֲבַרְתֶּם בַּדֶּרֶךְ מִתְּמוֹל שִׁלְשֽׁוֹם וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הִתְקַדָּשׁוּ כִּי מָחָר יַעֲשֶׂה יְהוָה בְּקִרְבְּכֶם נִפְלָאֽוֹת וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
-        "riddle": "מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
-        "speaker": "יְהוָה",
-        "listener": "הַכֹּהֲנִים",
-        "book": "יהושע",
-        "options": {
-          "speaker": [],
-          "listener": []
-        },
-        "bonus": "אֲרוֹן",
-        "bonus_hint": {
-          "quote": "וְעָשׂוּ אֲרוֹן עֲצֵי שִׁטִּים אַמָּתַיִם וָחֵצִי אָרְכּוֹ וְאַמָּה וָחֵצִי רָחְבּוֹ וְאַמָּה וָחֵצִי קֹמָתֽוֹ",
-          "source": {
-            "book": "שמות",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
-          }
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "3": "And they commanded the people, saying, When ye see the ark of the covenant of the LORD your God, and the priests the Levites bearing it, then ye shall remove from your place, and go after it.",
-          "4": "Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed this way heretofore.",
-          "5": "And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you.",
-          "6": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
-          "7": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
-          "8": "And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan."
-        },
-        "he": {
-          "3": "וַיְצַוּוּ אֶת־הָעָם לֵאמֹר כִּרְאֽוֹתְכֶם אֵת אֲרוֹן בְּרִית־יְהוָה אֱלֹהֵיכֶם וְהַכֹּֽהֲנִים הַלְוִיִּם נֹשְׂאִים אֹתוֹ וְאַתֶּם תִּסְעוּ מִמְּקוֹמְכֶם וַהֲלַכְתֶּם אַחֲרָֽיו׃",
-          "4": "אַךְ ׀ רָחוֹק יִהְיֶה בֵּֽינֵיכֶם וּבֵינָיו כְּאַלְפַּיִם אַמָּה בַּמִּדָּה אַֽל־תִּקְרְבוּ אֵלָיו לְמַעַן אֲשֶׁר־תֵּֽדְעוּ אֶת־הַדֶּרֶךְ אֲשֶׁר תֵּֽלְכוּ־בָהּ כִּי לֹא עֲבַרְתֶּם בַּדֶּרֶךְ מִתְּמוֹל שִׁלְשֽׁוֹם׃",
-          "5": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הִתְקַדָּשׁוּ כִּי מָחָר יַעֲשֶׂה יְהוָה בְּקִרְבְּכֶם נִפְלָאֽוֹת׃",
-          "6": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם׃",
-          "7": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ׃",
-          "8": "וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ׃"
-        }
-      },
-      "ref": {
-        "chapter": 3,
-        "start": 3,
-        "end": 8
-      },
-      "meta": {
-        "mode": "llm",
-        "source": "data-proc",
-        "template_item_id": "",
-        "bonus_source": "llm",
-        "bonus_hint_source": "aligned-bible-search"
-      }
-    },
-    {
       "id": "joshua-03-05-05",
       "source": {
         "method": "llm",
@@ -98,7 +14,9 @@
         "book_he": "יהושע",
         "chapter": 3,
         "quote_verse_start": 5,
-        "quote_verse_end": 6
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
         "quote": "And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you. And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
@@ -112,12 +30,12 @@
         },
         "bonus": "ark",
         "bonus_hint": {
-          "quote": "And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.",
+          "quote": "And Moses wrote this law, and delivered it unto the priests the sons of Levi, which bare the ark of the covenant of the LORD, and unto all the elders of Israel.",
           "source": {
-            "book": "Exodus",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
           }
         }
       },
@@ -131,14 +49,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "אֲרוֹן",
+        "bonus": "הַכֹּהֲנִים",
         "bonus_hint": {
-          "quote": "וְעָשׂוּ אֲרוֹן עֲצֵי שִׁטִּים אַמָּתַיִם וָחֵצִי אָרְכּוֹ וְאַמָּה וָחֵצִי רָחְבּוֹ וְאַמָּה וָחֵצִי קֹמָתֽוֹ",
+          "quote": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת וַֽיִּתְּנָהּ אֶל־הַכֹּהֲנִים בְּנֵי לֵוִי הַנֹּשְׂאִים אֶת־אֲרוֹן בְּרִית יְהוָה וְאֶל־כָּל־זִקְנֵי יִשְׂרָאֵֽל",
           "source": {
-            "book": "שמות",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
+            "book": "דברים",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
           }
         }
       },
@@ -156,6 +74,396 @@
         "chapter": 3,
         "start": 5,
         "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-03-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you. And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
+        "riddle": "Take up the ark of the covenant, and pass over before the people.",
+        "speaker": "Joshua",
+        "listener": "priests",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wonders",
+        "bonus_hint": {
+          "quote": "The great temptations which thine eyes saw, and the signs, and the wonders, and the mighty hand, and the stretched out arm, whereby the LORD thy God brought thee out: so shall the LORD thy God do unto all the people of whom thou art afraid.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הִתְקַדָּשׁוּ כִּי מָחָר יַעֲשֶׂה יְהוָה בְּקִרְבְּכֶם נִפְלָאֽוֹת וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם",
+        "riddle": "לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הַכֹּהֲנִים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יַעֲשֶׂה",
+        "bonus_hint": {
+          "quote": "הַמַּסֹּת הַגְּדֹלֹת אֲשֶׁר־רָאוּ עֵינֶיךָ וְהָאֹתֹת וְהַמֹּֽפְתִים וְהַיָּד הַחֲזָקָה וְהַזְּרֹעַ הַנְּטוּיָה אֲשֶׁר הוֹצִֽאֲךָ יְהוָה אֱלֹהֶיךָ כֵּֽן־יַעֲשֶׂה יְהוָה אֱלֹהֶיךָ לְכָל־הָעַמִּים אֲשֶׁר־אַתָּה יָרֵא מִפְּנֵיהֶֽם",
+          "source": {
+            "book": "דברים",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you.",
+          "6": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הִתְקַדָּשׁוּ כִּי מָחָר יַעֲשֶׂה יְהוָה בְּקִרְבְּכֶם נִפְלָאֽוֹת׃",
+          "6": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-03-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people. And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
+        "riddle": "This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
+        "speaker": "LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "ark",
+        "bonus_hint": {
+          "quote": "And Moses wrote this law, and delivered it unto the priests the sons of Levi, which bare the ark of the covenant of the LORD, and unto all the elders of Israel.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ",
+        "riddle": "הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽך",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַכֹּהֲנִים",
+        "bonus_hint": {
+          "quote": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת וַֽיִּתְּנָהּ אֶל־הַכֹּהֲנִים בְּנֵי לֵוִי הַנֹּשְׂאִים אֶת־אֲרוֹן בְּרִית יְהוָה וְאֶל־כָּל־זִקְנֵי יִשְׂרָאֵֽל",
+          "source": {
+            "book": "דברים",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
+          "7": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם׃",
+          "7": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-03-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee. And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
+        "riddle": "When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
+        "speaker": "LORD",
+        "listener": "priests",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "command",
+        "bonus_hint": {
+          "quote": "As the LORD commanded Moses his servant, so did Moses command Joshua, and so did Joshua; he left nothing undone of all that the LORD commanded Moses.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 11,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
+        "riddle": "כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדו",
+        "speaker": "יְהוָה",
+        "listener": "הַכֹּהֲנִים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוֹשֻׁעַ",
+        "bonus_hint": {
+          "quote": "כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶׁה עַבְדּוֹ כֵּן־צִוָּה מֹשֶׁה אֶת־יְהוֹשֻׁעַ וְכֵן עָשָׂה יְהוֹשֻׁעַ לֹֽא־הֵסִיר דָּבָר מִכֹּל אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+          "source": {
+            "book": "יהושע",
+            "chapter": 11,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
+          "8": "And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ׃",
+          "8": "וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-03-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God. And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites.",
+        "riddle": "Come hither, and hear the words of the LORD your God.",
+        "speaker": "Joshua",
+        "listener": "children of Israel",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "living",
+        "bonus_hint": {
+          "quote": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי",
+        "riddle": "גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חַי",
+        "bonus_hint": {
+          "quote": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God.",
+          "10": "And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם׃",
+          "10": "וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-03-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God. And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites.",
+        "riddle": "Hereby ye shall know that the living God is among you",
+        "speaker": "Joshua",
+        "listener": "Israelites",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "words",
+        "bonus_hint": {
+          "quote": "And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי",
+        "riddle": "בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "דִּבְרֵי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God.",
+          "10": "And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם׃",
+          "10": "וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 9,
+        "end": 10
       },
       "meta": {
         "mode": "llm",

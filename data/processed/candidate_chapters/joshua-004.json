@@ -6,6 +6,52 @@
   "mode": "llm",
   "items": [
     {
+      "id": "joshua-04-05-05",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And Joshua said unto them, Pass over before the ark of the LORD your God into the midst of Jordan, and take ye up every man of you a stone upon his shoulder, according unto the number of the tribes of the children of Israel:",
+        "riddle": "Pass over before the ark of the LORD your God into the midst of Jordan, and take ye up every man of you a stone upon his shoulder, according unto the number of the tribes of the children of Israel:",
+        "speaker": "Joshua",
+        "listener": "twelve men",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יְהוֹשֻׁעַ עִבְרוּ לִפְנֵי אֲרוֹן יְהוָה אֱלֹֽהֵיכֶם אֶל־תּוֹךְ הַיַּרְדֵּן וְהָרִימוּ לָכֶם אִישׁ אֶבֶן אַחַת עַל־שִׁכְמוֹ לְמִסְפַּר שִׁבְטֵי בְנֵי־יִשְׂרָאֵֽל",
+        "riddle": "וַיֹּאמֶר לָהֶם יְהוֹשֻׁעַ עִבְרוּ לִפְנֵי אֲרוֹן יְהוָה אֱלֹֽהֵיכֶם אֶל־תּוֹךְ הַיַּרְדֵּן וְהָרִימוּ לָכֶם אִישׁ אֶבֶן אַחַת עַל־שִׁכְמוֹ לְמִסְפַּר שִׁבְטֵי בְנֵי־יִשְׂרָאֵֽל",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "שְׁנֵים הֶֽעָשָׂר אִישׁ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then Joshua called the twelve men, whom he had prepared of the children of Israel, out of every tribe a man:",
+          "5": "And Joshua said unto them, Pass over before the ark of the LORD your God into the midst of Jordan, and take ye up every man of you a stone upon his shoulder, according unto the number of the tribes of the children of Israel:"
+        },
+        "he": {
+          "4": "וַיִּקְרָא יְהוֹשֻׁעַ אֶל־שְׁנֵים הֶֽעָשָׂר אִישׁ אֲשֶׁר הֵכִין מִבְּנֵי יִשְׂרָאֵל אִישׁ־אֶחָד אִישׁ־אֶחָד מִשָּֽׁבֶט׃",
+          "5": "וַיֹּאמֶר לָהֶם יְהוֹשֻׁעַ עִבְרוּ לִפְנֵי אֲרוֹן יְהוָה אֱלֹֽהֵיכֶם אֶל־תּוֹךְ הַיַּרְדֵּן וְהָרִימוּ לָכֶם אִישׁ אֶבֶן אַחַת עַל־שִׁכְמוֹ לְמִסְפַּר שִׁבְטֵי בְנֵי־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
       "id": "joshua-04-06-06",
       "source": {
         "book_code": "JOS",
@@ -13,7 +59,9 @@
         "book_he": "יהושע",
         "chapter": 4,
         "quote_verse_start": 6,
-        "quote_verse_end": 6
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
       },
       "en": {
         "quote": "That this may be a sign among you, that when your children ask their fathers in time to come, saying, What mean ye by these stones?",
@@ -26,7 +74,7 @@
         "quote": "לְמַעַן תִּֽהְיֶה זֹאת אוֹת בְּקִרְבְּכֶם כִּֽי־יִשְׁאָלוּן בְּנֵיכֶם מָחָר לֵאמֹר מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם",
         "riddle": "מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם",
         "speaker": "בְּנֵיכֶם",
-        "listener": "אבות",
+        "listener": "הָאֲבָרִים",
         "book": "יהושע"
       },
       "raw_quote_source": {
@@ -38,13 +86,149 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct question.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 4,
         "start": 6,
         "end": 6
+      }
+    },
+    {
+      "id": "joshua-04-07-07",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "Then ye shall answer them, That the waters of Jordan were cut off before the ark of the covenant of the LORD; when it passed over Jordan, the waters of Jordan were cut off: and these stones shall be for a memorial unto the children of Israel for ever.",
+        "riddle": "That the waters of Jordan were cut off before the ark of the covenant of the LORD; when it passed over Jordan, the waters of Jordan were cut off: and these stones shall be for a memorial unto the children of Israel for ever.",
+        "speaker": "fathers",
+        "listener": "children",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַאֲמַרְתֶּם לָהֶם אֲשֶׁר נִכְרְתוּ מֵימֵי הַיַּרְדֵּן מִפְּנֵי אֲרוֹן בְּרִית־יְהוָה בְּעָבְרוֹ בַּיַּרְדֵּן נִכְרְתוּ מֵי הַיַּרְדֵּן וְהָיוּ הָאֲבָנִים הָאֵלֶּה לְזִכָּרוֹן לִבְנֵי יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "riddle": "וַאֲמַרְתֶּם לָהֶם אֲשֶׁר נִכְרְתוּ מֵימֵי הַיַּרְדֵּן מִפְּנֵי אֲרוֹן בְּרִית־יְהוָה בְּעָבְרוֹ בַּיַּרְדֵּן נִכְרְתוּ מֵי הַיַּרְדֵּן וְהָיוּ הָאֲבָנִים הָאֵלֶּה לְזִכָּרוֹן לִבְנֵי יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "speaker": "אֲבִים",
+        "listener": "בְּנֵיכֶם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "That this may be a sign among you, that when your children ask their fathers in time to come, saying, What mean ye by these stones?",
+          "7": "Then ye shall answer them, That the waters of Jordan were cut off before the ark of the covenant of the LORD; when it passed over Jordan, the waters of Jordan were cut off: and these stones shall be for a memorial unto the children of Israel for ever."
+        },
+        "he": {
+          "6": "לְמַעַן תִּֽהְיֶה זֹאת אוֹת בְּקִרְבְּכֶם כִּֽי־יִשְׁאָלוּן בְּנֵיכֶם מָחָר לֵאמֹר מָה הָאֲבָנִים הָאֵלֶּה לָכֶֽם׃",
+          "7": "וַאֲמַרְתֶּם לָהֶם אֲשֶׁר נִכְרְתוּ מֵימֵי הַיַּרְדֵּן מִפְּנֵי אֲרוֹן בְּרִית־יְהוָה בְּעָבְרוֹ בַּיַּרְדֵּן נִכְרְתוּ מֵי הַיַּרְדֵּן וְהָיוּ הָאֲבָנִים הָאֵלֶּה לְזִכָּרוֹן לִבְנֵי יִשְׂרָאֵל עַד־עוֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct answer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "joshua-04-15-16",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 15,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the LORD spake unto Joshua, saying, Command the priests that bear the ark of the testimony, that they come up out of Jordan.",
+        "riddle": "Command the priests that bear the ark of the testimony, that they come up out of Jordan.",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן",
+        "riddle": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the LORD spake unto Joshua, saying,",
+          "16": "Command the priests that bear the ark of the testimony, that they come up out of Jordan."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר׃",
+          "16": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 15,
+        "end": 16
+      }
+    },
+    {
+      "id": "joshua-04-17-17",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Joshua therefore commanded the priests, saying, Come ye up out of Jordan.",
+        "riddle": "Come ye up out of Jordan.",
+        "speaker": "Joshua",
+        "listener": "priests",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיְצַו יְהוֹשֻׁעַ אֶת־הַכֹּהֲנִים לֵאמֹר עֲלוּ מִן־הַיַּרְדֵּֽן",
+        "riddle": "עֲלוּ מִן־הַיַּרְדֵּֽן",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הַכֹּהֲנִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Joshua therefore commanded the priests, saying, Come ye up out of Jordan."
+        },
+        "he": {
+          "17": "וַיְצַו יְהוֹשֻׁעַ אֶת־הַכֹּהֲנִים לֵאמֹר עֲלוּ מִן־הַיַּרְדֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 17,
+        "end": 17
       }
     },
     {
@@ -55,20 +239,22 @@
         "book_he": "יהושע",
         "chapter": 4,
         "quote_verse_start": 21,
-        "quote_verse_end": 21
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
       },
       "en": {
         "quote": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?",
         "riddle": "What mean these stones?",
-        "speaker": "Joshua",
-        "listener": "Children of Israel",
+        "speaker": "children of Israel",
+        "listener": "fathers",
         "book": "Joshua"
       },
       "he": {
         "quote": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה",
         "riddle": "מָה הָאֲבָנִים הָאֵֽלֶּה",
-        "speaker": "יהושע",
-        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "אֲבוֹתָם",
         "book": "יהושע"
       },
       "raw_quote_source": {
@@ -80,21 +266,70 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 4,
         "start": 21,
         "end": 21
       }
+    },
+    {
+      "id": "joshua-04-22-22",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Then ye shall let your children know, saying, Israel came over this Jordan on dry land.",
+        "riddle": "Israel came over this Jordan on dry land.",
+        "speaker": "fathers",
+        "listener": "children",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְהוֹדַעְתֶּם אֶת־בְּנֵיכֶם לֵאמֹר בַּיַּבָּשָׁה עָבַר יִשְׂרָאֵל אֶת־הַיַּרְדֵּן הַזֶּֽה",
+        "riddle": "בַּיַּבָּשָׁה עָבַר יִשְׂרָאֵל אֶת־הַיַּרְדֵּן הַזֶּֽה",
+        "speaker": "אֲבוֹתָם",
+        "listener": "בְּנֵיכֶם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?",
+          "22": "Then ye shall let your children know, saying, Israel came over this Jordan on dry land."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה׃",
+          "22": "וְהוֹדַעְתֶּם אֶת־בְּנֵיכֶם לֵאמֹר בַּיַּבָּשָׁה עָבַר יִשְׂרָאֵל אֶת־הַיַּרְדֵּן הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 22,
+        "end": 22
+      }
     }
   ],
   "stats": {
-    "window_count": 20,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 2,
-    "issue_count": 18
+    "llm_window_count": 4,
+    "projection_llm_count": 8,
+    "llm_call_count": 12,
+    "spec_count": 8,
+    "kept_count": 7,
+    "issue_count": 1
   }
 }

@@ -6,6 +6,82 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-20-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Isaiah said, Take a lump of figs. And they took and laid it on the boil, and he recovered. And Hezekiah said unto Isaiah, What shall be the sign that the LORD will heal me, and that I shall go up into the house of the LORD the third day?",
+        "riddle": "Take a lump of figs.",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "boil",
+        "bonus_hint": {
+          "quote": "And they took ashes of the furnace, and stood before Pharaoh; and Moses sprinkled it up toward heaven; and it became a boil breaking forth with blains upon man, and upon beast.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְשַֽׁעְיָהוּ קְחוּ דְּבֶלֶת תְּאֵנִים וַיִּקְחוּ וַיָּשִׂימוּ עַֽל־הַשְּׁחִין וַיֶּֽחִי וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַׁעְיָהוּ מָה אוֹת כִּֽי־יִרְפָּא יְהוָה לִי וְעָלִיתִי בַּיּוֹם הַשְּׁלִישִׁי בֵּית יְהוָֽה",
+        "riddle": "קְחוּ דְּבֶלֶת תְּאֵנִים",
+        "speaker": "יְשַֽׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּקְחוּ",
+        "bonus_hint": {
+          "quote": "וַיִּקְחוּ אֶת־פִּיחַ הַכִּבְשָׁן וַיַּֽעַמְדוּ לִפְנֵי פַרְעֹה וַיִּזְרֹק אֹתוֹ מֹשֶׁה הַשָּׁמָיְמָה וַיְהִי שְׁחִין אֲבַעְבֻּעֹת פֹּרֵחַ בָּאָדָם וּבַבְּהֵמָֽה",
+          "source": {
+            "book": "שמות",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Isaiah said, Take a lump of figs. And they took and laid it on the boil, and he recovered.",
+          "8": "And Hezekiah said unto Isaiah, What shall be the sign that the LORD will heal me, and that I shall go up into the house of the LORD the third day?"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְשַֽׁעְיָהוּ קְחוּ דְּבֶלֶת תְּאֵנִים וַיִּקְחוּ וַיָּשִׂימוּ עַֽל־הַשְּׁחִין וַיֶּֽחִי׃",
+          "8": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַׁעְיָהוּ מָה אוֹת כִּֽי־יִרְפָּא יְהוָה לִי וְעָלִיתִי בַּיּוֹם הַשְּׁלִישִׁי בֵּית יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "2-kings-20-14-14",
       "source": {
         "method": "llm",
@@ -14,7 +90,9 @@
         "book_he": "מלכים ב",
         "chapter": 20,
         "quote_verse_start": 14,
-        "quote_verse_end": 14
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.",
@@ -26,35 +104,35 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "prophet",
+        "bonus": "Babylon",
         "bonus_hint": {
-          "quote": "But the prophet, which shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die.",
+          "quote": "And Nebuchadnezzar king of Babylon came against the city, and his servants did besiege it.",
           "source": {
-            "book": "Deuteronomy",
-            "chapter": 18,
-            "start": 20,
-            "end": 20
+            "book": "2 Kings",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
           }
         }
       },
       "he": {
         "quote": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל",
         "riddle": "מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ",
-        "speaker": "יְשַֽׁעְיָהוּ",
+        "speaker": "יְשַֽׁעְיָהוּ הַנָּבִיא",
         "listener": "חִזְקִיָּהוּ",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַנָּבִיא",
+        "bonus": "וַיָּבֹא",
         "bonus_hint": {
-          "quote": "אַךְ הַנָּבִיא אֲשֶׁר יָזִיד לְדַבֵּר דָּבָר בִּשְׁמִי אֵת אֲשֶׁר לֹֽא־צִוִּיתִיו לְדַבֵּר וַאֲשֶׁר יְדַבֵּר בְּשֵׁם אֱלֹהִים אֲחֵרִים וּמֵת הַנָּבִיא הַהֽוּא",
+          "quote": "וַיָּבֹא נְבוּכַדְנֶאצַּר מֶֽלֶךְ־בָּבֶל עַל־הָעִיר וַעֲבָדָיו צָרִים עָלֶֽיהָ",
           "source": {
-            "book": "דברים",
-            "chapter": 18,
-            "start": 20,
-            "end": 20
+            "book": "מלכים ב",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
           }
         }
       },
@@ -80,7 +158,7 @@
       }
     },
     {
-      "id": "2-kings-20-15-15",
+      "id": "2-kings-20-15-15-1",
       "source": {
         "method": "llm",
         "book_code": "2KI",
@@ -88,7 +166,9 @@
         "book_he": "מלכים ב",
         "chapter": 20,
         "quote_verse_start": 14,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon. And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
@@ -100,35 +180,35 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "prophet",
+        "bonus": "Babylon",
         "bonus_hint": {
-          "quote": "But the prophet, which shall presume to speak a word in my name, which I have not commanded him to speak, or that shall speak in the name of other gods, even that prophet shall die.",
+          "quote": "And Nebuchadnezzar king of Babylon came against the city, and his servants did besiege it.",
           "source": {
-            "book": "Deuteronomy",
-            "chapter": 18,
-            "start": 20,
-            "end": 20
+            "book": "2 Kings",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
           }
         }
       },
       "he": {
         "quote": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
         "riddle": "מָה רָאוּ בְּבֵיתֶךָ",
-        "speaker": "יְשַֽׁעְיָהוּ",
+        "speaker": "יְשַֽׁעְיָהוּ הַנָּבִיא",
         "listener": "חִזְקִיָּהוּ",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַנָּבִיא",
+        "bonus": "וַיָּבֹא",
         "bonus_hint": {
-          "quote": "אַךְ הַנָּבִיא אֲשֶׁר יָזִיד לְדַבֵּר דָּבָר בִּשְׁמִי אֵת אֲשֶׁר לֹֽא־צִוִּיתִיו לְדַבֵּר וַאֲשֶׁר יְדַבֵּר בְּשֵׁם אֱלֹהִים אֲחֵרִים וּמֵת הַנָּבִיא הַהֽוּא",
+          "quote": "וַיָּבֹא נְבוּכַדְנֶאצַּר מֶֽלֶךְ־בָּבֶל עַל־הָעִיר וַעֲבָדָיו צָרִים עָלֶֽיהָ",
           "source": {
-            "book": "דברים",
-            "chapter": 18,
-            "start": 20,
-            "end": 20
+            "book": "מלכים ב",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
           }
         }
       },
@@ -146,6 +226,238 @@
         "chapter": 20,
         "start": 14,
         "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-20-15-15-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon. And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+        "riddle": "All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+        "speaker": "Hezekiah",
+        "listener": "Isaiah",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Babylon",
+        "bonus_hint": {
+          "quote": "And Nebuchadnezzar king of Babylon came against the city, and his servants did besiege it.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
+        "riddle": "אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְשַֽׁעְיָהוּ",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא נְבוּכַדְנֶאצַּר מֶֽלֶךְ־בָּבֶל עַל־הָעִיר וַעֲבָדָיו צָרִים עָלֶֽיהָ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.",
+          "15": "And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them."
+        },
+        "he": {
+          "14": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ ׀ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל׃",
+          "15": "וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-20-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Isaiah said unto Hezekiah, Hear the word of the LORD. Behold, the days come, that all that is in thine house,and that which thy fathers have laid up in store unto this day, shall be carried into Babylon: nothing shall be left, saith the LORD.",
+        "riddle": "Hear the word of the LORD.",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "house",
+        "bonus_hint": {
+          "quote": "And he that is eight days old shall be circumcised among you, every man child in your generations, he that is born in the house, or bought with money of any stranger, which is not of thy seed.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְשַׁעְיָהוּ אֶל־חִזְקִיָּהוּ שְׁמַע דְּבַר־יְהוָֽה הִנֵּה יָמִים בָּאִים וְנִשָּׂא כָּל־אֲשֶׁר בְּבֵיתֶךָ וַאֲשֶׁר אָצְרוּ אֲבֹתֶיךָ עַד־הַיּוֹם הַזֶּה בָּבֶלָה לֹֽא־יִוָּתֵר דָּבָר אָמַר יְהוָֽה",
+        "riddle": "שְׁמַע דְּבַר־יְהוָֽה",
+        "speaker": "יְשַׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יָמִים",
+        "bonus_hint": {
+          "quote": "וּבֶן־שְׁמֹנַת יָמִים יִמּוֹל לָכֶם כָּל־זָכָר לְדֹרֹתֵיכֶם יְלִיד בָּיִת וּמִקְנַת־כֶּסֶף מִכֹּל בֶּן־נֵכָר אֲשֶׁר לֹא מִֽזַּרְעֲךָ הֽוּא",
+          "source": {
+            "book": "בראשית",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Isaiah said unto Hezekiah, Hear the word of the LORD.",
+          "17": "Behold, the days come, that all that is in thine house,and that which thy fathers have laid up in store unto this day, shall be carried into Babylon: nothing shall be left, saith the LORD."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יְשַׁעְיָהוּ אֶל־חִזְקִיָּהוּ שְׁמַע דְּבַר־יְהוָֽה׃",
+          "17": "הִנֵּה יָמִים בָּאִים וְנִשָּׂא ׀ כָּל־אֲשֶׁר בְּבֵיתֶךָ וַאֲשֶׁר אָצְרוּ אֲבֹתֶיךָ עַד־הַיּוֹם הַזֶּה בָּבֶלָה לֹֽא־יִוָּתֵר דָּבָר אָמַר יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-20-19-19-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?",
+        "riddle": "Is it not good, if peace and truth be in my days?",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "word",
+        "bonus_hint": {
+          "quote": "Is not this the word that we did tell thee in Egypt, saying, Let us alone, that we may serve the Egyptians? For it had been better for us to serve the Egyptians, than that we should die in the wilderness.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 14,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי",
+        "riddle": "הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי",
+        "speaker": "יְשַֽׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "טוֹב",
+        "bonus_hint": {
+          "quote": "הֲלֹא־זֶה הַדָּבָר אֲשֶׁר דִּבַּרְנוּ אֵלֶיךָ בְמִצְרַיִם לֵאמֹר חֲדַל מִמֶּנּוּ וְנַֽעַבְדָה אֶת־מִצְרָיִם כִּי טוֹב לָנוּ עֲבֹד אֶת־מִצְרַיִם מִמֻּתֵנוּ בַּמִּדְבָּֽר",
+          "source": {
+            "book": "שמות",
+            "chapter": 14,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?"
+        },
+        "he": {
+          "19": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 19,
+        "end": 19
       },
       "meta": {
         "mode": "llm",

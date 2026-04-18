@@ -6,6 +6,90 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-21-07-07",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 21,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And they shall answer and say, Our hands have not shed this blood, neither have our eyes seen it.",
+        "riddle": "Our hands have not shed this blood, neither have our eyes seen it.",
+        "speaker": "elders",
+        "listener": "the LORD",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְעָנוּ וְאָמְרוּ יָדֵינוּ לֹא שָֽׁפְכוּ אֶת־הַדָּם הַזֶּה וְעֵינֵינוּ לֹא רָאֽוּ",
+        "riddle": "וְעָנוּ וְאָמְרוּ יָדֵינוּ לֹא שָֽׁפְכוּ אֶת־הַדָּם הַזֶּה וְעֵינֵינוּ לֹא רָאֽוּ",
+        "speaker": "זקנים",
+        "listener": "יהוה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And they shall answer and say, Our hands have not shed this blood, neither have our eyes seen it."
+        },
+        "he": {
+          "7": "וְעָנוּ וְאָמְרוּ יָדֵינוּ לֹא שָֽׁפְכוּ אֶת־הַדָּם הַזֶּה וְעֵינֵינוּ לֹא רָאֽוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "deuteronomy-21-08-08",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 21,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel's charge. And the blood shall be forgiven them.",
+        "riddle": "Be merciful, O LORD, unto thy people Israel",
+        "speaker": "elders",
+        "listener": "the LORD",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כַּפֵּר לְעַמְּךָ יִשְׂרָאֵל אֲשֶׁר־פָּדִיתָ יְהוָה וְאַל־תִּתֵּן דָּם נָקִי בְּקֶרֶב עַמְּךָ יִשְׂרָאֵל וְנִכַּפֵּר לָהֶם הַדָּֽם",
+        "riddle": "כַּפֵּר לְעַמְּךָ יִשְׂרָאֵל אֲשֶׁר־פָּדִיתָ יְהוָה",
+        "speaker": "עַמְּךָ יִשְׂרָאֵל",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Be merciful, O LORD, unto thy people Israel, whom thou hast redeemed, and lay not innocent blood unto thy people of Israel's charge. And the blood shall be forgiven them."
+        },
+        "he": {
+          "8": "כַּפֵּר לְעַמְּךָ יִשְׂרָאֵל אֲשֶׁר־פָּדִיתָ יְהוָה וְאַל־תִּתֵּן דָּם נָקִי בְּקֶרֶב עַמְּךָ יִשְׂרָאֵל וְנִכַּפֵּר לָהֶם הַדָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
       "id": "deuteronomy-21-20-20",
       "source": {
         "book_code": "DEU",
@@ -17,16 +101,16 @@
       },
       "en": {
         "quote": "And they shall say unto the elders of his city, This our son is stubborn and rebellious, he will not obey our voice; he is a glutton, and a drunkard.",
-        "riddle": "he is a glutton, and a drunkard.",
+        "riddle": "This our son is stubborn and rebellious, he will not obey our voice; he is a glutton, and a drunkard.",
         "speaker": "parents",
         "listener": "elders",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "וְאָמְרוּ אֶל־זִקְנֵי עִירוֹ בְּנֵנוּ זֶה סוֹרֵר וּמֹרֶה אֵינֶנּוּ שֹׁמֵעַ בְּקֹלֵנוּ זוֹלֵל וְסֹבֵֽא",
-        "riddle": "בְּנֵנוּ זֶה סוֹרֵר וּמֹרֶה אֵינֶנּוּ שֹׁמֵעַ בְּקֹלֵנוּ זוֹלֵל וְסֹבֵֽא",
-        "speaker": "הורים",
-        "listener": "זִקְנֵי העיר",
+        "riddle": "וְאָמְרוּ אֶל־זִקְנֵי עִירוֹ בְּנֵנוּ זֶה סוֹרֵר וּמֹרֶה אֵינֶנּוּ שֹׁמֵעַ בְּקֹלֵנוּ זוֹלֵל וְסֹבֵֽא",
+        "speaker": "הַהוֹרִים",
+        "listener": "זִקְנֵי הָעִיר",
         "book": "דברים"
       },
       "raw_quote_source": {
@@ -38,7 +122,7 @@
         }
       },
       "meta": {
-        "reason": "Vivid description of a person",
+        "reason": "direct accusation",
         "confidence": 0.95
       },
       "ref": {
@@ -49,10 +133,13 @@
     }
   ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 1,
-    "issue_count": 3
+    "llm_window_count": 2,
+    "projection_llm_count": 3,
+    "llm_call_count": 5,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

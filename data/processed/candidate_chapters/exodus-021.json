@@ -4,12 +4,59 @@
   "book_he": "שמות",
   "chapter": 21,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-21-05-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 21,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:",
+        "riddle": "I love my master, my wife, and my children; I will not go out free:",
+        "speaker": "servant",
+        "listener": "master",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְאִם־אָמֹר יֹאמַר הָעֶבֶד אָהַבְתִּי אֶת־אֲדֹנִי אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי",
+        "riddle": "אָהַבְתִּי אֶת־אֲדֹנִי אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי",
+        "speaker": "הָעֶבֶד",
+        "listener": "אֲדֹנִי",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And if the servant shall plainly say, I love my master, my wife, and my children; I will not go out free:"
+        },
+        "he": {
+          "5": "וְאִם־אָמֹר יֹאמַר הָעֶבֶד אָהַבְתִּי אֶת־אֲדֹנִי אֶת־אִשְׁתִּי וְאֶת־בָּנָי לֹא אֵצֵא חָפְשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

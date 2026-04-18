@@ -6,6 +6,82 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-15-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in. And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her.",
+        "riddle": "is not her younger sister fairer than she? take her, I pray thee, instead of her",
+        "speaker": "wife's father",
+        "listener": "Samson",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wheat",
+        "bonus_hint": {
+          "quote": "And Reuben went in the days of wheat harvest, and found mandrakes in the field, and brought them unto his mother Leah. Then Rachel said to Leah, Give me, I pray thee, of thy son's mandrakes.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 30,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי מִיָּמִים בִּימֵי קְצִיר־חִטִּים וַיִּפְקֹד שִׁמְשׁוֹן אֶת־אִשְׁתּוֹ בִּגְדִי עִזִּים וַיֹּאמֶר אָבֹאָה אֶל־אִשְׁתִּי הֶחָדְרָה וְלֹֽא־נְתָנוֹ אָבִיהָ לָבֽוֹא וַיֹּאמֶר אָבִיהָ אָמֹר אָמַרְתִּי כִּי־שָׂנֹא שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ",
+        "riddle": "שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ",
+        "speaker": "אָבִיהָ",
+        "listener": "שִׁמְשׁוֹן",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בִּימֵי",
+        "bonus_hint": {
+          "quote": "וַיֵּלֶךְ רְאוּבֵן בִּימֵי קְצִיר־חִטִּים וַיִּמְצָא דֽוּדָאִים בַּשָּׂדֶה וַיָּבֵא אֹתָם אֶל־לֵאָה אִמּוֹ וַתֹּאמֶר רָחֵל אֶל־לֵאָה תְּנִי־נָא לִי מִדּוּדָאֵי בְּנֵֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 30,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.",
+          "2": "And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her."
+        },
+        "he": {
+          "1": "וַיְהִי מִיָּמִים בִּימֵי קְצִיר־חִטִּים וַיִּפְקֹד שִׁמְשׁוֹן אֶת־אִשְׁתּוֹ בִּגְדִי עִזִּים וַיֹּאמֶר אָבֹאָה אֶל־אִשְׁתִּי הֶחָדְרָה וְלֹֽא־נְתָנוֹ אָבִיהָ לָבֽוֹא׃",
+          "2": "וַיֹּאמֶר אָבִיהָ אָמֹר אָמַרְתִּי כִּי־שָׂנֹא שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "judges-15-06-06",
       "source": {
         "method": "llm",
@@ -80,7 +156,259 @@
       }
     },
     {
-      "id": "judges-15-10-10",
+      "id": "judges-15-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire. And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease.",
+        "riddle": "Though ye have done this, yet will I be avenged of you",
+        "speaker": "Samson",
+        "listener": "Philistines",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wife",
+        "bonus_hint": {
+          "quote": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ פְלִשְׁתִּים מִי עָשָׂה זֹאת וַיֹּאמְרוּ שִׁמְשׁוֹן חֲתַן הַתִּמְנִי כִּי לָקַח אֶת־אִשְׁתּוֹ וַֽיִּתְּנָהּ לְמֵרֵעֵהוּ וַיַּעֲלוּ פְלִשְׁתִּים וַיִּשְׂרְפוּ אוֹתָהּ וְאֶת־אָבִיהָ בָּאֵֽשׁ וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל",
+        "riddle": "אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר",
+        "speaker": "שִׁמְשׁוֹן",
+        "listener": "הפלשתים",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עָשָׂה",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire.",
+          "7": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease."
+        },
+        "he": {
+          "6": "וַיֹּאמְרוּ פְלִשְׁתִּים מִי עָשָׂה זֹאת וַיֹּאמְרוּ שִׁמְשׁוֹן חֲתַן הַתִּמְנִי כִּי לָקַח אֶת־אִשְׁתּוֹ וַֽיִּתְּנָהּ לְמֵרֵעֵהוּ וַיַּעֲלוּ פְלִשְׁתִּים וַיִּשְׂרְפוּ אוֹתָהּ וְאֶת־אָבִיהָ בָּאֵֽשׁ׃",
+          "7": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-15-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 6,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire. And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease. And he smote them hip and thigh with a great slaughter: and he went down and dwelt in the top of the rock Etam. Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi. And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us. Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them. And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves.",
+        "riddle": "We are come down to bind thee, that we may deliver thee into the hand of the Philistines.",
+        "speaker": "men of Judah",
+        "listener": "Samson",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wife",
+        "bonus_hint": {
+          "quote": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ פְלִשְׁתִּים מִי עָשָׂה זֹאת וַיֹּאמְרוּ שִׁמְשׁוֹן חֲתַן הַתִּמְנִי כִּי לָקַח אֶת־אִשְׁתּוֹ וַֽיִּתְּנָהּ לְמֵרֵעֵהוּ וַיַּעֲלוּ פְלִשְׁתִּים וַיִּשְׂרְפוּ אוֹתָהּ וְאֶת־אָבִיהָ בָּאֵֽשׁ וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל וַיַּךְ אוֹתָם שׁוֹק עַל־יָרֵךְ מַכָּה גְדוֹלָה וַיֵּרֶד וַיֵּשֶׁב בִּסְעִיף סֶלַע עֵיטָֽם וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ וַיֵּרְדוּ שְׁלֹשֶׁת אֲלָפִים אִישׁ מִֽיהוּדָה אֶל־סְעִיף סֶלַע עֵיטָם וַיֹּאמְרוּ לְשִׁמְשׁוֹן הֲלֹא יָדַעְתָּ כִּֽי־מֹשְׁלִים בָּנוּ פְּלִשְׁתִּים וּמַה־זֹּאת עָשִׂיתָ לָּנוּ וַיֹּאמֶר לָהֶם כַּאֲשֶׁר עָשׂוּ לִי כֵּן עָשִׂיתִי לָהֶֽם וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם",
+        "riddle": "לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים",
+        "speaker": "אנשי יְהוּדָה",
+        "listener": "שִׁמְשׁוֹן",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עָשָׂה",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire.",
+          "7": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease.",
+          "8": "And he smote them hip and thigh with a great slaughter: and he went down and dwelt in the top of the rock Etam.",
+          "9": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi.",
+          "10": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
+          "11": "Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them.",
+          "12": "And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves."
+        },
+        "he": {
+          "6": "וַיֹּאמְרוּ פְלִשְׁתִּים מִי עָשָׂה זֹאת וַיֹּאמְרוּ שִׁמְשׁוֹן חֲתַן הַתִּמְנִי כִּי לָקַח אֶת־אִשְׁתּוֹ וַֽיִּתְּנָהּ לְמֵרֵעֵהוּ וַיַּעֲלוּ פְלִשְׁתִּים וַיִּשְׂרְפוּ אוֹתָהּ וְאֶת־אָבִיהָ בָּאֵֽשׁ׃",
+          "7": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל׃",
+          "8": "וַיַּךְ אוֹתָם שׁוֹק עַל־יָרֵךְ מַכָּה גְדוֹלָה וַיֵּרֶד וַיֵּשֶׁב בִּסְעִיף סֶלַע עֵיטָֽם׃",
+          "9": "וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי׃",
+          "10": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ׃",
+          "11": "וַיֵּרְדוּ שְׁלֹשֶׁת אֲלָפִים אִישׁ מִֽיהוּדָה אֶל־סְעִיף סֶלַע עֵיטָם וַיֹּאמְרוּ לְשִׁמְשׁוֹן הֲלֹא יָדַעְתָּ כִּֽי־מֹשְׁלִים בָּנוּ פְּלִשְׁתִּים וּמַה־זֹּאת עָשִׂיתָ לָּנוּ וַיֹּאמֶר לָהֶם כַּאֲשֶׁר עָשׂוּ לִי כֵּן עָשִׂיתִי לָהֶֽם׃",
+          "12": "וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 6,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-15-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 7,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease. And he smote them hip and thigh with a great slaughter: and he went down and dwelt in the top of the rock Etam. Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi. And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us. Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them. And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves. And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock.",
+        "riddle": "No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee.",
+        "speaker": "men of Judah",
+        "listener": "Samson",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "slaughter",
+        "bonus_hint": {
+          "quote": "Hath he smitten him, as he smote those that smote him? or is he slain according to the slaughter of them that are slain by him?",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 27,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל וַיַּךְ אוֹתָם שׁוֹק עַל־יָרֵךְ מַכָּה גְדוֹלָה וַיֵּרֶד וַיֵּשֶׁב בִּסְעִיף סֶלַע עֵיטָֽם וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ וַיֵּרְדוּ שְׁלֹשֶׁת אֲלָפִים אִישׁ מִֽיהוּדָה אֶל־סְעִיף סֶלַע עֵיטָם וַיֹּאמְרוּ לְשִׁמְשׁוֹן הֲלֹא יָדַעְתָּ כִּֽי־מֹשְׁלִים בָּנוּ פְּלִשְׁתִּים וּמַה־זֹּאת עָשִׂיתָ לָּנוּ וַיֹּאמֶר לָהֶם כַּאֲשֶׁר עָשׂוּ לִי כֵּן עָשִׂיתִי לָהֶֽם וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם וַיֹּאמְרוּ לוֹ לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן־הַסָּֽלַע",
+        "riddle": "לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן",
+        "speaker": "אנשי יְהוּדָה",
+        "listener": "שִׁמְשׁוֹן",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "הַכְּמַכַּת מַכֵּהוּ הִכָּהוּ אִם־כְּהֶרֶג הֲרֻגָיו הֹרָֽג",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 27,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease.",
+          "8": "And he smote them hip and thigh with a great slaughter: and he went down and dwelt in the top of the rock Etam.",
+          "9": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi.",
+          "10": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
+          "11": "Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them.",
+          "12": "And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves.",
+          "13": "And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל׃",
+          "8": "וַיַּךְ אוֹתָם שׁוֹק עַל־יָרֵךְ מַכָּה גְדוֹלָה וַיֵּרֶד וַיֵּשֶׁב בִּסְעִיף סֶלַע עֵיטָֽם׃",
+          "9": "וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי׃",
+          "10": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ׃",
+          "11": "וַיֵּרְדוּ שְׁלֹשֶׁת אֲלָפִים אִישׁ מִֽיהוּדָה אֶל־סְעִיף סֶלַע עֵיטָם וַיֹּאמְרוּ לְשִׁמְשׁוֹן הֲלֹא יָדַעְתָּ כִּֽי־מֹשְׁלִים בָּנוּ פְּלִשְׁתִּים וּמַה־זֹּאת עָשִׂיתָ לָּנוּ וַיֹּאמֶר לָהֶם כַּאֲשֶׁר עָשׂוּ לִי כֵּן עָשִׂיתִי לָהֶֽם׃",
+          "12": "וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם׃",
+          "13": "וַיֹּאמְרוּ לוֹ לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן־הַסָּֽלַע׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 7,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-15-10-10-1",
       "source": {
         "method": "llm",
         "book_code": "JDG",
@@ -88,7 +416,9 @@
         "book_he": "שופטים",
         "chapter": 15,
         "quote_verse_start": 9,
-        "quote_verse_end": 10
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
       },
       "en": {
         "quote": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi. And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
@@ -115,7 +445,7 @@
         "quote": "וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ",
         "riddle": "לָמָה עֲלִיתֶם עָלֵינוּ",
         "speaker": "אִישׁ יְהוּדָה",
-        "listener": "פְלִשְׁתִּים",
+        "listener": "הפלשתים",
         "book": "שופטים",
         "options": {
           "speaker": [],
@@ -156,74 +486,154 @@
       }
     },
     {
-      "id": "judges-15-16-16",
+      "id": "judges-15-10-10-2",
       "source": {
         "method": "llm",
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 15,
-        "quote_verse_start": 14,
-        "quote_verse_end": 16
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
       },
       "en": {
-        "quote": "And when he came unto Lehi, the Philistines shouted against him: and the Spirit of the LORD came mightily upon him, and the cords that were upon his arms became as flax that was burnt with fire, and his bands loosed from off his hands. And he found a new jawbone of an ass, and put forth his hand, and took it, and slew a thousand men therewith. And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
-        "riddle": "with the jaw of an ass have I slain a thousand men.",
-        "speaker": "Samson",
-        "listener": "Philistines",
+        "quote": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi. And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
+        "riddle": "To bind Samson are we come up, to do to him as he hath done to us.",
+        "speaker": "Philistines",
+        "listener": "men of Judah",
         "book": "Judges",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "Spirit",
+        "bonus": "pitched",
         "bonus_hint": {
-          "quote": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?",
+          "quote": "And all the congregation of the children of Israel journeyed from the wilderness of Sin, after their journeys, according to the commandment of the LORD, and pitched in Rephidim: and there was no water for the people to drink.",
           "source": {
-            "book": "Genesis",
-            "chapter": 41,
-            "start": 38,
-            "end": 38
+            "book": "Exodus",
+            "chapter": 17,
+            "start": 1,
+            "end": 1
           }
         }
       },
       "he": {
-        "quote": "הוּא־בָא עַד־לֶחִי וּפִלְשִׁתִּים הֵרִיעוּ לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ יְהוָה וַתִּהְיֶינָה הָעֲבֹתִים אֲשֶׁר עַל־זְרוֹעוֹתָיו כַּפִּשְׁתִּים אֲשֶׁר בָּעֲרוּ בָאֵשׁ וַיִּמַסּוּ אֱסוּרָיו מֵעַל יָדָֽיו וַיִּמְצָא לְחִֽי־חֲמוֹר טְרִיָּה וַיִּשְׁלַח יָדוֹ וַיִּקָּחֶהָ וַיַּךְ־בָּהּ אֶלֶף אִֽישׁ וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ",
-        "riddle": "בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ",
-        "speaker": "שִׁמְשׁוֹן",
-        "listener": "פְּלִשְׁתִּים",
+        "quote": "וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ",
+        "riddle": "לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנו",
+        "speaker": "פְלִשְׁתִּים",
+        "listener": "אִישׁ יְהוּדָה",
         "book": "שופטים",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "רוּחַ",
+        "bonus": "וַֽיַּחֲנוּ",
         "bonus_hint": {
-          "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־עֲבָדָיו הֲנִמְצָא כָזֶה אִישׁ אֲשֶׁר רוּחַ אֱלֹהִים בּֽוֹ",
+          "quote": "וַיִּסְעוּ כָּל־עֲדַת בְּנֵֽי־יִשְׂרָאֵל מִמִּדְבַּר־סִין לְמַסְעֵיהֶם עַל־פִּי יְהוָה וַֽיַּחֲנוּ בִּרְפִידִים וְאֵין מַיִם לִשְׁתֹּת הָעָֽם",
           "source": {
-            "book": "בראשית",
-            "chapter": 41,
-            "start": 38,
-            "end": 38
+            "book": "שמות",
+            "chapter": 17,
+            "start": 1,
+            "end": 1
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "14": "And when he came unto Lehi, the Philistines shouted against him: and the Spirit of the LORD came mightily upon him, and the cords that were upon his arms became as flax that was burnt with fire, and his bands loosed from off his hands.",
-          "15": "And he found a new jawbone of an ass, and put forth his hand, and took it, and slew a thousand men therewith.",
-          "16": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men."
+          "9": "Then the Philistines went up, and pitched in Judah, and spread themselves in Lehi.",
+          "10": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us."
         },
         "he": {
-          "14": "הוּא־בָא עַד־לֶחִי וּפִלְשִׁתִּים הֵרִיעוּ לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ יְהוָה וַתִּהְיֶינָה הָעֲבֹתִים אֲשֶׁר עַל־זְרוֹעוֹתָיו כַּפִּשְׁתִּים אֲשֶׁר בָּעֲרוּ בָאֵשׁ וַיִּמַסּוּ אֱסוּרָיו מֵעַל יָדָֽיו׃",
-          "15": "וַיִּמְצָא לְחִֽי־חֲמוֹר טְרִיָּה וַיִּשְׁלַח יָדוֹ וַיִּקָּחֶהָ וַיַּךְ־בָּהּ אֶלֶף אִֽישׁ׃",
-          "16": "וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ׃"
+          "9": "וַיַּעֲלוּ פְלִשְׁתִּים וַֽיַּחֲנוּ בִּיהוּדָה וַיִּנָּטְשׁוּ בַּלֶּֽחִי׃",
+          "10": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ׃"
         }
       },
       "ref": {
         "chapter": 15,
-        "start": 14,
-        "end": 16
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-15-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 16,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men. And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand, and called that place Ramath-lehi. And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+        "riddle": "Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+        "speaker": "Samson",
+        "listener": "LORD",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "ass",
+        "bonus_hint": {
+          "quote": "And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ וַֽיְהִי כְּכַלֹּתוֹ לְדַבֵּר וַיַּשְׁלֵךְ הַלְּחִי מִיָּדוֹ וַיִּקְרָא לַמָּקוֹם הַהוּא רָמַת לֶֽחִי וַיִּצְמָא מְאֹד וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים",
+        "riddle": "אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים",
+        "speaker": "שִׁמְשׁוֹן",
+        "listener": "יְהוָה",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַחֲמוֹר",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־נְעָרָיו שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
+          "17": "And it came to pass, when he had made an end of speaking, that he cast away the jawbone out of his hand, and called that place Ramath-lehi.",
+          "18": "And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?"
+        },
+        "he": {
+          "16": "וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ׃",
+          "17": "וַֽיְהִי כְּכַלֹּתוֹ לְדַבֵּר וַיַּשְׁלֵךְ הַלְּחִי מִיָּדוֹ וַיִּקְרָא לַמָּקוֹם הַהוּא רָמַת לֶֽחִי׃",
+          "18": "וַיִּצְמָא מְאֹד וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 16,
+        "end": 18
       },
       "meta": {
         "mode": "llm",

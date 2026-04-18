@@ -4,12 +4,231 @@
   "book_he": "שמואל ב",
   "chapter": 9,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-09-01-01",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And David said, Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan's sake?",
+        "riddle": "Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan's sake?",
+        "speaker": "David",
+        "listener": "servants",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד הֲכִי יֶשׁ־עוֹד אֲשֶׁר נוֹתַר לְבֵית שָׁאוּל וְאֶעֱשֶׂה עִמּוֹ חֶסֶד בַּעֲבוּר יְהוֹנָתָֽן",
+        "riddle": "וַיֹּאמֶר דָּוִד הֲכִי יֶשׁ־עוֹד אֲשֶׁר נוֹתַר לְבֵית שָׁאוּל וְאֶעֱשֶׂה עִמּוֹ חֶסֶד בַּעֲבוּר יְהוֹנָתָֽן",
+        "speaker": "דָּוִד",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And David said, Is there yet any that is left of the house of Saul, that I may shew him kindness for Jonathan's sake?"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר דָּוִד הֲכִי יֶשׁ־עוֹד אֲשֶׁר נוֹתַר לְבֵית שָׁאוּל וְאֶעֱשֶׂה עִמּוֹ חֶסֶד בַּעֲבוּר יְהוֹנָתָֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-samuel-09-04-04",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 9,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And the king said unto him, Where is he? And Ziba said unto the king, Behold, he is in the house of Machir, the son of Ammiel, in Lo-debar.",
+        "riddle": "Where is he?",
+        "speaker": "David",
+        "listener": "Ziba",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לוֹ הַמֶּלֶךְ אֵיפֹה הוּא וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ הִנֵּה־הוּא בֵּית מָכִיר בֶּן־עַמִּיאֵל בְּלוֹ דְבָֽר",
+        "riddle": "אֵיפֹה הוּא",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "צִיבָא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the king said unto him, Where is he? And Ziba said unto the king, Behold, he is in the house of Machir, the son of Ammiel, in Lo-debar."
+        },
+        "he": {
+          "4": "וַיֹּֽאמֶר־לוֹ הַמֶּלֶךְ אֵיפֹה הוּא וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ הִנֵּה־הוּא בֵּית מָכִיר בֶּן־עַמִּיאֵל בְּלוֹ דְבָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-samuel-09-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy father's sake, and will restore thee all the land of Saul thy father; and thou shalt eat bread at my table continually.",
+        "riddle": "Fear not: for I will surely shew thee kindness for Jonathan thy father's sake",
+        "speaker": "David",
+        "listener": "Mephibosheth",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ דָוִד אַל־תִּירָא כִּי עָשֹׂה אֶעֱשֶׂה עִמְּךָ חֶסֶד בַּֽעֲבוּר יְהוֹנָתָן אָבִיךָ וַהֲשִׁבֹתִי לְךָ אֶֽת־כָּל־שְׂדֵה שָׁאוּל אָבִיךָ וְאַתָּה תֹּאכַל לֶחֶם עַל־שֻׁלְחָנִי תָּמִֽיד",
+        "riddle": "אַל־תִּירָא כִּי עָשֹׂה אֶעֱשֶׂה עִמְּךָ חֶסֶד בַּֽעֲבוּר יְהוֹנָתָן אָבִיךָ וַהֲשִׁבֹתִי לְךָ",
+        "speaker": "דָוִד",
+        "listener": "מְפִיבוֹשֶׁת",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And David said unto him, Fear not: for I will surely shew thee kindness for Jonathan thy father's sake, and will restore thee all the land of Saul thy father; and thou shalt eat bread at my table continually."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר לוֹ דָוִד אַל־תִּירָא כִּי עָשֹׂה אֶעֱשֶׂה עִמְּךָ חֶסֶד בַּֽעֲבוּר יְהוֹנָתָן אָבִיךָ וַהֲשִׁבֹתִי לְךָ אֶֽת־כָּל־שְׂדֵה שָׁאוּל אָבִיךָ וְאַתָּה תֹּאכַל לֶחֶם עַל־שֻׁלְחָנִי תָּמִֽיד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/promise",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-09-09-09",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 9,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Then the king called to Ziba, Saul's servant, and said unto him, I have given unto thy master's son all that pertained to Saul and to all his house.",
+        "riddle": "I have given unto thy master's son all that pertained to Saul and to all his house.",
+        "speaker": "David",
+        "listener": "Ziba",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא הַמֶּלֶךְ אֶל־צִיבָא נַעַר שָׁאוּל וַיֹּאמֶר אֵלָיו כֹּל אֲשֶׁר הָיָה לְשָׁאוּל וּלְכָל־בֵּיתוֹ נָתַתִּי לְבֶן־אֲדֹנֶֽיךָ",
+        "riddle": "וַיֹּאמֶר אֵלָיו כֹּל אֲשֶׁר הָיָה לְשָׁאוּל וּלְכָל־בֵּיתוֹ נָתַתִּי לְבֶן־אֲדֹנֶֽיך",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "צִיבָא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Then the king called to Ziba, Saul's servant, and said unto him, I have given unto thy master's son all that pertained to Saul and to all his house."
+        },
+        "he": {
+          "9": "וַיִּקְרָא הַמֶּלֶךְ אֶל־צִיבָא נַעַר שָׁאוּל וַיֹּאמֶר אֵלָיו כֹּל אֲשֶׁר הָיָה לְשָׁאוּל וּלְכָל־בֵּיתוֹ נָתַתִּי לְבֶן־אֲדֹנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "2-samuel-09-11-11",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 9,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "Then said Ziba unto the king, According to all that my lord the king hath commanded his servant, so shall thy servant do. As for Mephibosheth, said the king, he shall eat at my table, as one of the king's sons.",
+        "riddle": "According to all that my lord the king hath commanded his servant, so shall thy servant do.",
+        "speaker": "Ziba",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ כְּכֹל אֲשֶׁר יְצַוֶּה אֲדֹנִי הַמֶּלֶךְ אֶת־עַבְדּוֹ כֵּן יַעֲשֶׂה עַבְדֶּךָ וּמְפִיבֹשֶׁת אֹכֵל עַל־שֻׁלְחָנִי כְּאַחַד מִבְּנֵי הַמֶּֽלֶךְ",
+        "riddle": "כְּכֹל אֲשֶׁר יְצַוֶּה אֲדֹנִי הַמֶּלֶךְ אֶת־עַבְדּוֹ כֵּן יַעֲשֶׂה עַבְדֶּךָ וּמְפִיבֹשֶׁת אֹכֵל עַל־שֻׁלְחָנִי כְּאַחַד מִבְּנֵי הַמֶּֽלֶךְ",
+        "speaker": "צִיבָא",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Then said Ziba unto the king, According to all that my lord the king hath commanded his servant, so shall thy servant do. As for Mephibosheth, said the king, he shall eat at my table, as one of the king's sons."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ כְּכֹל אֲשֶׁר יְצַוֶּה אֲדֹנִי הַמֶּלֶךְ אֶת־עַבְדּוֹ כֵּן יַעֲשֶׂה עַבְדֶּךָ וּמְפִיבֹשֶׁת אֹכֵל עַל־שֻׁלְחָנִי כְּאַחַד מִבְּנֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "reply of obedience",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 11,
+        "end": 11
+      }
+    }
+  ],
   "stats": {
-    "window_count": 12,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 0,
-    "issue_count": 12
+    "llm_window_count": 2,
+    "projection_llm_count": 10,
+    "llm_call_count": 12,
+    "spec_count": 10,
+    "kept_count": 5,
+    "issue_count": 5
   }
 }

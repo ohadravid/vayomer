@@ -1,0 +1,101 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 17,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-17-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 17,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Joshua spake unto the house of Joseph, even to Ephraim and to Manasseh, saying, Thou art a great people, and hast great power: thou shalt not have one lot only:",
+        "riddle": "Thou art a great people, and hast great power: thou shalt not have one lot only:",
+        "speaker": "Joshua",
+        "listener": "house of Joseph",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Gideon"
+          ],
+          "listener": [
+            "Israel",
+            "Judah",
+            "Reuben and Gad"
+          ]
+        },
+        "bonus": "Ephraim",
+        "bonus_hint": {
+          "quote": "Of the children of Joseph: of Ephraim; Elishama the son of Ammihud: of Manasseh; Gamaliel the son of Pedahzur.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 1,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בֵּית יוֹסֵף לְאֶפְרַיִם וְלִמְנַשֶּׁה לֵאמֹר עַם־רַב אַתָּה וְכֹחַ גָּדוֹל לָךְ לֹֽא־יִהְיֶה לְךָ גּוֹרָל אֶחָֽד",
+        "riddle": "עַם־רַב אַתָּה וְכֹחַ גָּדוֹל לָךְ לֹֽא־יִהְיֶה לְךָ גּוֹרָל אֶחָֽד",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "בֵּית יוֹסֵף",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "גִּדְעוֹן"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "יְהוּדָה",
+            "בְּנֵי רְאוּבֵן וגד"
+          ]
+        },
+        "bonus": "לְאֶפְרַיִם",
+        "bonus_hint": {
+          "quote": "לִבְנֵי יוֹסֵף לְאֶפְרַיִם אֱלִישָׁמָע בֶּן־עַמִּיהוּד לִמְנַשֶּׁה גַּמְלִיאֵל בֶּן־פְּדָהצֽוּר",
+          "source": {
+            "book": "במדבר",
+            "chapter": 1,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Joshua spake unto the house of Joseph, even to Ephraim and to Manasseh, saying, Thou art a great people, and hast great power: thou shalt not have one lot only:"
+        },
+        "he": {
+          "17": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בֵּית יוֹסֵף לְאֶפְרַיִם וְלִמְנַשֶּׁה לֵאמֹר עַם־רַב אַתָּה וְכֹחַ גָּדוֹל לָךְ לֹֽא־יִהְיֶה לְךָ גּוֹרָל אֶחָֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 17,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

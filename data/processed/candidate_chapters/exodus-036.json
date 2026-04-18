@@ -4,12 +4,106 @@
   "book_he": "שמות",
   "chapter": 36,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-36-05-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 36,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make.",
+        "riddle": "The people bring much more than enough for the service of the work, which the LORD commanded to make.",
+        "speaker": "wise men",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֶל־מֹשֶׁה לֵּאמֹר מַרְבִּים הָעָם לְהָבִיא מִדֵּי הָֽעֲבֹדָה לַמְּלָאכָה אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽהּ",
+        "riddle": "וַיֹּאמְרוּ אֶל־מֹשֶׁה לֵּאמֹר מַרְבִּים הָעָם לְהָבִיא מִדֵּי הָֽעֲבֹדָה לַמְּלָאכָה אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽהּ",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Moses called Bezaleel and Aholiab, and every wise hearted man, in whose heart the LORD had put wisdom, even every one whose heart stirred him up to come unto the work to do it:",
+          "5": "And they spake unto Moses, saying, The people bring much more than enough for the service of the work, which the LORD commanded to make."
+        },
+        "he": {
+          "2": "וַיִּקְרָא מֹשֶׁה אֶל־בְּצַלְאֵל וְאֶל־אָֽהֳלִיאָב וְאֶל כָּל־אִישׁ חֲכַם־לֵב אֲשֶׁר נָתַן יְהוָה חָכְמָה בְּלִבּוֹ כֹּל אֲשֶׁר נְשָׂאוֹ לִבּוֹ לְקָרְבָה אֶל־הַמְּלָאכָה לַעֲשֹׂת אֹתָֽהּ׃",
+          "5": "וַיֹּאמְרוּ אֶל־מֹשֶׁה לֵּאמֹר מַרְבִּים הָעָם לְהָבִיא מִדֵּי הָֽעֲבֹדָה לַמְּלָאכָה אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 36,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "exodus-36-06-06",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 36,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Moses gave commandment, and they caused it to be proclaimed throughout the camp, saying, Let neither man nor woman make any more work for the offering of the sanctuary. So the people were restrained from bringing.",
+        "riddle": "Let neither man nor woman make any more work for the offering of the sanctuary.",
+        "speaker": "Moses",
+        "listener": "the camp",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְצַו מֹשֶׁה וַיַּעֲבִירוּ קוֹל בַּֽמַּחֲנֶה לֵאמֹר אִישׁ וְאִשָּׁה אַל־יַעֲשׂוּ־עוֹד מְלָאכָה לִתְרוּמַת הַקֹּדֶשׁ וַיִּכָּלֵא הָעָם מֵהָבִֽיא",
+        "riddle": "לֵאמֹר אִישׁ וְאִשָּׁה אַל־יַעֲשׂוּ־עוֹד מְלָאכָה לִתְרוּמַת הַקֹּדֶשׁ וַיִּכָּלֵא הָעָם",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Moses gave commandment, and they caused it to be proclaimed throughout the camp, saying, Let neither man nor woman make any more work for the offering of the sanctuary. So the people were restrained from bringing."
+        },
+        "he": {
+          "6": "וַיְצַו מֹשֶׁה וַיַּעֲבִירוּ קוֹל בַּֽמַּחֲנֶה לֵאמֹר אִישׁ וְאִשָּׁה אַל־יַעֲשׂוּ־עוֹד מְלָאכָה לִתְרוּמַת הַקֹּדֶשׁ וַיִּכָּלֵא הָעָם מֵהָבִֽיא׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment proclamation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 36,
+        "start": 6,
+        "end": 6
+      }
+    }
+  ],
   "stats": {
-    "window_count": 6,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 6,
-    "kept_count": 0,
-    "issue_count": 6
+    "llm_window_count": 1,
+    "projection_llm_count": 2,
+    "llm_call_count": 3,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

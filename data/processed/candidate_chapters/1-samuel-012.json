@@ -6,45 +6,213 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-12-03-03",
+      "id": "1-samuel-12-01-01",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 12,
-        "quote_verse_start": 3,
-        "quote_verse_end": 3
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
       },
       "en": {
-        "quote": "Behold, here I am: witness against me before the LORD, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you.",
-        "riddle": "Behold, here I am: witness against me before the LORD",
+        "quote": "And Samuel said unto all Israel, Behold, I have hearkened unto your voice in all that ye said unto me, and have made a king over you.",
+        "riddle": "Behold, I have hearkened unto your voice in all that ye said unto me, and have made a king over you.",
         "speaker": "Samuel",
         "listener": "Israel",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "הִנְנִי עֲנוּ בִי נֶגֶד יְהוָה וְנֶגֶד מְשִׁיחוֹ אֶת־שׁוֹר מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי וְאֶת־מִי עָשַׁקְתִּי אֶת־מִי רַצּוֹתִי וּמִיַּד־מִי לָקַחְתִּי כֹפֶר וְאַעְלִים עֵינַי בּוֹ וְאָשִׁיב לָכֶֽם",
-        "riddle": "הִנְנִי עֲנוּ בִי נֶגֶד יְהוָה וְנֶגֶד מְשִׁיחוֹ",
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־כָּל־יִשְׂרָאֵל הִנֵּה שָׁמַעְתִּי בְקֹֽלְכֶם לְכֹל אֲשֶׁר־אֲמַרְתֶּם לִי וָאַמְלִיךְ עֲלֵיכֶם מֶֽלֶךְ",
+        "riddle": "וַיֹּאמֶר שְׁמוּאֵל אֶל־כָּל־יִשְׂרָאֵל הִנֵּה שָׁמַעְתִּי בְקֹֽלְכֶם לְכֹל אֲשֶׁר־אֲמַרְתֶּם לִי וָאַמְלִיךְ עֲלֵיכֶם מֶֽלֶךְ",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Samuel said unto all Israel, Behold, I have hearkened unto your voice in all that ye said unto me, and have made a king over you."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר שְׁמוּאֵל אֶל־כָּל־יִשְׂרָאֵל הִנֵּה שָׁמַעְתִּי בְקֹֽלְכֶם לְכֹל אֲשֶׁר־אֲמַרְתֶּם לִי וָאַמְלִיךְ עֲלֵיכֶם מֶֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "1-samuel-12-04-04",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And they said, Thou hast not defrauded us, nor oppressed us, neither hast thou taken ought of any man's hand.",
+        "riddle": "Thou hast not defrauded us, nor oppressed us, neither hast thou taken ought of any man's hand.",
+        "speaker": "Israel",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לֹא עֲשַׁקְתָּנוּ וְלֹא רַצּוֹתָנוּ וְלֹֽא־לָקַחְתָּ מִיַּד־אִישׁ מְאֽוּמָה",
+        "riddle": "וַיֹּאמְרוּ לֹא עֲשַׁקְתָּנוּ וְלֹא רַצּוֹתָנוּ וְלֹֽא־לָקַחְתָּ מִיַּד־אִישׁ מְאֽוּמָה",
+        "speaker": "ישראל",
+        "listener": "שמואל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And they said, Thou hast not defrauded us, nor oppressed us, neither hast thou taken ought of any man's hand."
+        },
+        "he": {
+          "4": "וַיֹּאמְרוּ לֹא עֲשַׁקְתָּנוּ וְלֹא רַצּוֹתָנוּ וְלֹֽא־לָקַחְתָּ מִיַּד־אִישׁ מְאֽוּמָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "1-samuel-12-05-05-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And he said unto them, The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand. And they answered, He is witness.",
+        "riddle": "The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand.",
+        "speaker": "Samuel",
+        "listener": "Israel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם עֵד יְהוָה בָּכֶם וְעֵד מְשִׁיחוֹ הַיּוֹם הַזֶּה כִּי לֹא מְצָאתֶם בְּיָדִי מְאוּמָה וַיֹּאמֶר עֵֽד",
+        "riddle": "וַיֹּאמֶר אֲלֵיהֶם עֵד יְהוָה בָּכֶם וְעֵד מְשִׁיחוֹ הַיּוֹם הַזֶּה כִּי לֹא מְצָאתֶם בְּיָדִי מְאוּמָה וַיֹּאמֶר עֵֽד",
         "speaker": "שמואל",
         "listener": "ישראל",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "3": "Behold, here I am: witness against me before the LORD, and before his anointed: whose ox have I taken? or whose ass have I taken? or whom have I defrauded? whom have I oppressed? or of whose hand have I received any bribe to blind mine eyes therewith? and I will restore it you."
+          "5": "And he said unto them, The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand. And they answered, He is witness."
         },
         "he": {
-          "3": "הִנְנִי עֲנוּ בִי נֶגֶד יְהוָה וְנֶגֶד מְשִׁיחוֹ אֶת־שׁוֹר ׀ מִי לָקַחְתִּי וַחֲמוֹר מִי לָקַחְתִּי וְאֶת־מִי עָשַׁקְתִּי אֶת־מִי רַצּוֹתִי וּמִיַּד־מִי לָקַחְתִּי כֹפֶר וְאַעְלִים עֵינַי בּוֹ וְאָשִׁיב לָכֶֽם׃"
+          "5": "וַיֹּאמֶר אֲלֵיהֶם עֵד יְהוָה בָּכֶם וְעֵד מְשִׁיחוֹ הַיּוֹם הַזֶּה כִּי לֹא מְצָאתֶם בְּיָדִי מְאוּמָה וַיֹּאמֶר עֵֽד׃"
         }
       },
       "meta": {
-        "reason": "Vivid self-witnessing declaration",
+        "reason": "direct speech",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 12,
-        "start": 3,
-        "end": 3
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-12-05-05-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And he said unto them, The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand. And they answered, He is witness.",
+        "riddle": "He is witness.",
+        "speaker": "Israel",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם עֵד יְהוָה בָּכֶם וְעֵד מְשִׁיחוֹ הַיּוֹם הַזֶּה כִּי לֹא מְצָאתֶם בְּיָדִי מְאוּמָה וַיֹּאמֶר עֵֽד",
+        "riddle": "עֵד",
+        "speaker": "ישראל",
+        "listener": "שמואל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he said unto them, The LORD is witness against you, and his anointed is witness this day, that ye have not found ought in my hand. And they answered, He is witness."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר אֲלֵיהֶם עֵד יְהוָה בָּכֶם וְעֵד מְשִׁיחוֹ הַיּוֹם הַזֶּה כִּי לֹא מְצָאתֶם בְּיָדִי מְאוּמָה וַיֹּאמֶר עֵֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "short reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-samuel-12-06-06",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And Samuel said unto the people, It is the LORD that advanced Moses and Aaron, and that brought your fathers up out of the land of Egypt.",
+        "riddle": "It is the LORD that advanced Moses and Aaron, and that brought your fathers up out of the land of Egypt.",
+        "speaker": "Samuel",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם יְהוָה אֲשֶׁר עָשָׂה אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן וַאֲשֶׁר הֶעֱלָה אֶת־אֲבֹתֵיכֶם מֵאֶרֶץ מִצְרָֽיִם",
+        "riddle": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם יְהוָה אֲשֶׁר עָשָׂה אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן וַאֲשֶׁר הֶעֱלָה אֶת־אֲבֹתֵיכֶם מֵאֶרֶץ מִצְרָֽיִם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הָעָם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Samuel said unto the people, It is the LORD that advanced Moses and Aaron, and that brought your fathers up out of the land of Egypt."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם יְהוָה אֲשֶׁר עָשָׂה אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן וַאֲשֶׁר הֶעֱלָה אֶת־אֲבֹתֵיכֶם מֵאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 6,
+        "end": 6
       }
     },
     {
@@ -59,16 +227,16 @@
       },
       "en": {
         "quote": "And they cried unto the LORD, and said, We have sinned, because we have forsaken the LORD, and have served Baalim and Ashtaroth: but now deliver us out of the hand of our enemies, and we will serve thee.",
-        "riddle": "but now deliver us out of the hand of our enemies, and we will serve thee.",
-        "speaker": "Israelites",
-        "listener": "God",
+        "riddle": "We have sinned, because we have forsaken the LORD, and have served Baalim and Ashtaroth: but now deliver us out of the hand of our enemies, and we will serve thee.",
+        "speaker": "the people",
+        "listener": "the LORD",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיִּזְעֲקוּ אֶל־יְהוָה וַיֹּאמְרֻו חָטָאנוּ כִּי עָזַבְנוּ אֶת־יְהוָה וַנַּעֲבֹד אֶת־הַבְּעָלִים וְאֶת־הָעַשְׁתָּרוֹת וְעַתָּה הַצִּילֵנוּ מִיַּד אֹיְבֵינוּ וְנַעַבְדֶֽךָּ",
-        "riddle": "מִיַּד אֹיְבֵינוּ וְנַעַבְדֶֽךָּ",
-        "speaker": "בני ישראל",
-        "listener": "אלוהים",
+        "riddle": "וַיִּזְעֲקוּ אֶל־יְהוָה וַיֹּאמְרֻו חָטָאנוּ כִּי עָזַבְנוּ אֶת־יְהוָה וַנַּעֲבֹד אֶת־הַבְּעָלִים וְאֶת־הָעַשְׁתָּרוֹת וְעַתָּה הַצִּילֵנוּ מִיַּד אֹיְבֵינוּ וְנַעַבְדֶֽךָּ",
+        "speaker": "הָעָם",
+        "listener": "יְהוָה",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -80,7 +248,7 @@
         }
       },
       "meta": {
-        "reason": "Direct plea and promise.",
+        "reason": "direct plea",
         "confidence": 0.95
       },
       "ref": {
@@ -88,13 +256,310 @@
         "start": 10,
         "end": 10
       }
+    },
+    {
+      "id": "1-samuel-12-12-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And when ye saw that Nahash the king of the children of Ammon came against you, ye said unto me, Nay; but a king shall reign over us: when the LORD your God was your king.",
+        "riddle": "Nay; but a king shall reign over us: when the LORD your God was your king.",
+        "speaker": "the people",
+        "listener": "Samuel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתִּרְאוּ כִּֽי־נָחָשׁ מֶלֶךְ בְּנֵֽי־עַמּוֹן בָּא עֲלֵיכֶם וַתֹּאמְרוּ לִי לֹא כִּי־מֶלֶךְ יִמְלֹךְ עָלֵינוּ וַיהוָה אֱלֹהֵיכֶם מַלְכְּכֶֽם",
+        "riddle": "לֹא כִּי־מֶלֶךְ יִמְלֹךְ עָלֵינוּ וַיהוָה אֱלֹהֵיכֶם מַלְכְּכֶֽם",
+        "speaker": "הָעָם",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And when ye saw that Nahash the king of the children of Ammon came against you, ye said unto me, Nay; but a king shall reign over us: when the LORD your God was your king."
+        },
+        "he": {
+          "12": "וַתִּרְאוּ כִּֽי־נָחָשׁ מֶלֶךְ בְּנֵֽי־עַמּוֹן בָּא עֲלֵיכֶם וַתֹּאמְרוּ לִי לֹא כִּי־מֶלֶךְ יִמְלֹךְ עָלֵינוּ וַיהוָה אֱלֹהֵיכֶם מַלְכְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-samuel-12-15-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you, as it was against your fathers.",
+        "riddle": "But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you",
+        "speaker": "Samuel",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְאִם־לֹא תִשְׁמְעוּ בְּקוֹל יְהוָה וּמְרִיתֶם אֶת־פִּי יְהוָה וְהָיְתָה יַד־יְהוָה בָּכֶם וּבַאֲבֹתֵיכֶֽם",
+        "riddle": "וְאִם־לֹא תִשְׁמְעוּ בְּקוֹל יְהוָה וּמְרִיתֶם אֶת־פִּי יְהוָה וְהָיְתָה יַד־יְהוָה בָּכֶם וּבַאֲבֹתֵיכֶֽם",
+        "speaker": "שמואל",
+        "listener": "העם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "But if ye will not obey the voice of the LORD, but rebel against the commandment of the LORD, then shall the hand of the LORD be against you, as it was against your fathers."
+        },
+        "he": {
+          "15": "וְאִם־לֹא תִשְׁמְעוּ בְּקוֹל יְהוָה וּמְרִיתֶם אֶת־פִּי יְהוָה וְהָיְתָה יַד־יְהוָה בָּכֶם וּבַאֲבֹתֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "warning of judgment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-12-16-16",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "Now therefore stand and see this great thing, which the LORD will do before your eyes.",
+        "riddle": "Now therefore stand and see this great thing, which the LORD will do before your eyes.",
+        "speaker": "Samuel",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "גַּם־עַתָּה הִתְיַצְּבוּ וּרְאוּ אֶת־הַדָּבָר הַגָּדוֹל הַזֶּה אֲשֶׁר יְהוָה עֹשֶׂה לְעֵינֵיכֶֽם",
+        "riddle": "גַּם־עַתָּה הִתְיַצְּבוּ וּרְאוּ אֶת־הַדָּבָר הַגָּדוֹל הַזֶּה אֲשֶׁר יְהוָה עֹשֶׂה לְעֵינֵיכֶֽם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הָעָם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Now therefore stand and see this great thing, which the LORD will do before your eyes."
+        },
+        "he": {
+          "16": "גַּם־עַתָּה הִתְיַצְּבוּ וּרְאוּ אֶת־הַדָּבָר הַגָּדוֹל הַזֶּה אֲשֶׁר יְהוָה עֹשֶׂה לְעֵינֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command to observe",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-12-17-17",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Is it not wheat harvest to day? I will call unto the LORD, and he shall send thunder and rain; that ye may perceive and see that your wickedness is great, which ye have done in the sight of the LORD, in asking you a king.",
+        "riddle": "Is it not wheat harvest to day?",
+        "speaker": "Samuel",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הֲלוֹא קְצִיר־חִטִּים הַיּוֹם אֶקְרָא אֶל־יְהוָה וְיִתֵּן קֹלוֹת וּמָטָר וּדְעוּ וּרְאוּ כִּֽי־רָעַתְכֶם רַבָּה אֲשֶׁר עֲשִׂיתֶם בְּעֵינֵי יְהוָה לִשְׁאוֹל לָכֶם מֶֽלֶךְ",
+        "riddle": "הֲלוֹא קְצִיר־חִטִּים הַיּוֹם אֶקְרָא אֶל־יְהוָה",
+        "speaker": "שמואל",
+        "listener": "העם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Is it not wheat harvest to day? I will call unto the LORD, and he shall send thunder and rain; that ye may perceive and see that your wickedness is great, which ye have done in the sight of the LORD, in asking you a king."
+        },
+        "he": {
+          "17": "הֲלוֹא קְצִיר־חִטִּים הַיּוֹם אֶקְרָא אֶל־יְהוָה וְיִתֵּן קֹלוֹת וּמָטָר וּדְעוּ וּרְאוּ כִּֽי־רָעַתְכֶם רַבָּה אֲשֶׁר עֲשִׂיתֶם בְּעֵינֵי יְהוָה לִשְׁאוֹל לָכֶם מֶֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "1-samuel-12-20-20",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And Samuel said unto the people, Fear not: ye have done all this wickedness: yet turn not aside from following the LORD, but serve the LORD with all your heart;",
+        "riddle": "Fear not: ye have done all this wickedness: yet turn not aside from following the LORD, but serve the LORD with all your heart",
+        "speaker": "Samuel",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם אַל־תִּירָאוּ אַתֶּם עֲשִׂיתֶם אֵת כָּל־הָרָעָה הַזֹּאת אַךְ אַל־תָּסוּרוּ מֵאַחֲרֵי יְהוָה וַעֲבַדְתֶּם אֶת־יְהוָה בְּכָל־לְבַבְכֶֽם",
+        "riddle": "אַל־תִּירָאוּ אַתֶּם עֲשִׂיתֶם אֵת כָּל־הָרָעָה הַזֹּאת אַךְ אַל־תָּסוּרוּ מֵאַחֲרֵי יְהוָה וַעֲבַדְתֶּם אֶת־יְהוָה בְּכָל־לְבַבְכֶֽם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הָעָם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Samuel said unto the people, Fear not: ye have done all this wickedness: yet turn not aside from following the LORD, but serve the LORD with all your heart;"
+        },
+        "he": {
+          "20": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם אַל־תִּירָאוּ אַתֶּם עֲשִׂיתֶם אֵת כָּל־הָרָעָה הַזֹּאת אַךְ אַל־תָּסוּרוּ מֵאַחֲרֵי יְהוָה וַעֲבַדְתֶּם אֶת־יְהוָה בְּכָל־לְבַבְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "exhortation and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "1-samuel-12-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Moreover as for me, God forbid that I should sin against the LORD in ceasing to pray for you: but I will teach you the good and the right way:",
+        "riddle": "God forbid that I should sin against the LORD in ceasing to pray for you",
+        "speaker": "Samuel",
+        "listener": "Israel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "גַּם אָנֹכִי חָלִילָה לִּי מֵחֲטֹא לַֽיהוָה מֵחֲדֹל לְהִתְפַּלֵּל בַּעַדְכֶם וְהוֹרֵיתִי אֶתְכֶם בְּדֶרֶךְ הַטּוֹבָה וְהַיְשָׁרָֽה",
+        "riddle": "גַּם אָנֹכִי חָלִילָה לִּי מֵחֲטֹא לַֽיהוָה מֵחֲדֹל לְהִתְפַּלֵּל בַּעַדְכֶם וְהוֹרֵיתִי אֶתְכֶם בְּדֶרֶךְ הַטּוֹבָה וְהַיְשָׁרָֽה",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Moreover as for me, God forbid that I should sin against the LORD in ceasing to pray for you: but I will teach you the good and the right way:"
+        },
+        "he": {
+          "23": "גַּם אָנֹכִי חָלִילָה לִּי מֵחֲטֹא לַֽיהוָה מֵחֲדֹל לְהִתְפַּלֵּל בַּעַדְכֶם וְהוֹרֵיתִי אֶתְכֶם בְּדֶרֶךְ הַטּוֹבָה וְהַיְשָׁרָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-samuel-12-24-24",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 12,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "Only fear the LORD, and serve him in truth with all your heart: for consider how great things he hath done for you.",
+        "riddle": "Only fear the LORD, and serve him in truth with all your heart",
+        "speaker": "Samuel",
+        "listener": "Israel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "אַךְ יְראוּ אֶת־יְהוָה וַעֲבַדְתֶּם אֹתוֹ בֶּאֱמֶת בְּכָל־לְבַבְכֶם כִּי רְאוּ אֵת אֲשֶׁר־הִגְדִּל עִמָּכֶֽם",
+        "riddle": "אַךְ יְראוּ אֶת־יְהוָה וַעֲבַדְתֶּם אֹתוֹ בֶּאֱמֶת בְּכָל־לְבַבְכֶם",
+        "speaker": "שמואל",
+        "listener": "ישראל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "Only fear the LORD, and serve him in truth with all your heart: for consider how great things he hath done for you."
+        },
+        "he": {
+          "24": "אַךְ ׀ יְראוּ אֶת־יְהוָה וַעֲבַדְתֶּם אֹתוֹ בֶּאֱמֶת בְּכָל־לְבַבְכֶם כִּי רְאוּ אֵת אֲשֶׁר־הִגְדִּל עִמָּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 24,
+        "end": 24
+      }
     }
   ],
   "stats": {
-    "window_count": 20,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 2,
-    "issue_count": 18
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 13,
+    "issue_count": 2
   }
 }

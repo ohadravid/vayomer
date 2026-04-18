@@ -4,12 +4,279 @@
   "book_he": "שמות",
   "chapter": 18,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-18-03-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land:",
+        "riddle": "I have been an alien in a strange land",
+        "speaker": "Moses",
+        "listener": "Jethro",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְאֵת שְׁנֵי בָנֶיהָ אֲשֶׁר שֵׁם הָֽאֶחָד גֵּֽרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה",
+        "riddle": "גֵּֽרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה",
+        "speaker": "גֵּֽרְשֹׁם",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And her two sons; of which the name of the one was Gershom; for he said, I have been an alien in a strange land:"
+        },
+        "he": {
+          "3": "וְאֵת שְׁנֵי בָנֶיהָ אֲשֶׁר שֵׁם הָֽאֶחָד גֵּֽרְשֹׁם כִּי אָמַר גֵּר הָיִיתִי בְּאֶרֶץ נָכְרִיָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "exodus-18-06-06",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her.",
+        "riddle": "I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her",
+        "speaker": "Jethro",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־מֹשֶׁה אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽהּ",
+        "riddle": "אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽה",
+        "speaker": "יִתְרוֹ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he said unto Moses, I thy father in law Jethro am come unto thee, and thy wife, and her two sons with her."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר אֶל־מֹשֶׁה אֲנִי חֹתֶנְךָ יִתְרוֹ בָּא אֵלֶיךָ וְאִשְׁתְּךָ וּשְׁנֵי בָנֶיהָ עִמָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "exodus-18-10-10",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians.",
+        "riddle": "Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians.",
+        "speaker": "Jethro",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם",
+        "riddle": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם",
+        "speaker": "יִתְרוֹ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Jethro said, Blessed be the LORD, who hath delivered you out of the hand of the Egyptians, and out of the hand of Pharaoh, who hath delivered the people from under the hand of the Egyptians."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר יִתְרוֹ בָּרוּךְ יְהוָה אֲשֶׁר הִצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד פַּרְעֹה אֲשֶׁר הִצִּיל אֶת־הָעָם מִתַּחַת יַד־מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "exodus-18-15-16",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 15,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Moses said unto his father in law, Because the people come unto me to inquire of God: When they have a matter, they come unto me; and I judge between one and another, and I do make them know the statutes of God, and his laws.",
+        "riddle": "Because the people come unto me to inquire of God: When they have a matter, they come unto me; and I judge between one and another, and I do make them know the statutes of God, and his laws.",
+        "speaker": "Moses",
+        "listener": "Jethro",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים כִּֽי־יִהְיֶה לָהֶם דָּבָר בָּא אֵלַי וְשָׁפַטְתִּי בֵּין אִישׁ וּבֵין רֵעֵהוּ וְהוֹדַעְתִּי אֶת־חֻקֵּי הָאֱלֹהִים וְאֶת־תּוֹרֹתָֽיו",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים כִּֽי־יִהְיֶה לָהֶם דָּבָר בָּא אֵלַי וְשָׁפַטְתִּי בֵּין אִישׁ וּבֵין רֵעֵהוּ וְהוֹדַעְתִּי אֶת־חֻקֵּי הָאֱלֹהִים וְאֶת־תּוֹרֹתָֽיו",
+        "speaker": "מֹשֶׁה",
+        "listener": "חֹתְנוֹ",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Moses said unto his father in law, Because the people come unto me to inquire of God:",
+          "16": "When they have a matter, they come unto me; and I judge between one and another, and I do make them know the statutes of God, and his laws."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר מֹשֶׁה לְחֹתְנוֹ כִּֽי־יָבֹא אֵלַי הָעָם לִדְרֹשׁ אֱלֹהִֽים׃",
+          "16": "כִּֽי־יִהְיֶה לָהֶם דָּבָר בָּא אֵלַי וְשָׁפַטְתִּי בֵּין אִישׁ וּבֵין רֵעֵהוּ וְהוֹדַעְתִּי אֶת־חֻקֵּי הָאֱלֹהִים וְאֶת־תּוֹרֹתָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct explanation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 15,
+        "end": 16
+      }
+    },
+    {
+      "id": "exodus-18-17-17",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Moses' father in law said unto him, The thing that thou doest is not good.",
+        "riddle": "The thing that thou doest is not good.",
+        "speaker": "Jethro",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חֹתֵן מֹשֶׁה אֵלָיו לֹא־טוֹב הַדָּבָר אֲשֶׁר אַתָּה עֹשֶֽׂה",
+        "riddle": "לֹא־טוֹב הַדָּבָר אֲשֶׁר אַתָּה עֹשֶֽׂה",
+        "speaker": "חֹתֵן מֹשֶׁה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Moses' father in law said unto him, The thing that thou doest is not good."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר חֹתֵן מֹשֶׁה אֵלָיו לֹא־טוֹב הַדָּבָר אֲשֶׁר אַתָּה עֹשֶֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "exodus-18-18-18",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 18,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone.",
+        "riddle": "Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone.",
+        "speaker": "Jethro",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ",
+        "riddle": "נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ",
+        "speaker": "יִתְרוֹ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone."
+        },
+        "he": {
+          "18": "נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 18,
+        "end": 18
+      }
+    }
+  ],
   "stats": {
-    "window_count": 15,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 15,
-    "kept_count": 0,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 9,
+    "llm_call_count": 13,
+    "spec_count": 9,
+    "kept_count": 6,
+    "issue_count": 3
   }
 }

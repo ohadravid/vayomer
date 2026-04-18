@@ -4,12 +4,60 @@
   "book_he": "מלכים ב",
   "chapter": 15,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-kings-15-12-12",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 15,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "This was the word of the LORD which he spake unto Jehu, saying, Thy sons shall sit on the throne of Israel unto the fourth generation. And so it came to pass.",
+        "riddle": "Thy sons shall sit on the throne of Israel unto the fourth generation.",
+        "speaker": "the LORD",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הוּא דְבַר־יְהוָה אֲשֶׁר דִּבֶּר אֶל־יֵהוּא לֵאמֹר בְּנֵי רְבִיעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵל וַֽיְהִי־כֵֽן",
+        "riddle": "דִּבֶּר אֶל־יֵהוּא לֵאמֹר בְּנֵי רְבִיעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵל",
+        "speaker": "יְהוָה",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "This was the word of the LORD which he spake unto Jehu, saying, Thy sons shall sit on the throne of Israel unto the fourth generation. And so it came to pass."
+        },
+        "he": {
+          "12": "הוּא דְבַר־יְהוָה אֲשֶׁר דִּבֶּר אֶל־יֵהוּא לֵאמֹר בְּנֵי רְבִיעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵל וַֽיְהִי־כֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prophecy",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ],
   "stats": {
-    "window_count": 8,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 0,
-    "issue_count": 8
+    "llm_window_count": 4,
+    "projection_llm_count": 1,
+    "llm_call_count": 5,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

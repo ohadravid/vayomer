@@ -6,6 +6,404 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-09-08-08",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "The trees went forth on a time to anoint a king over them; and they said unto the olive tree, Reign thou over us.",
+        "riddle": "Reign thou over us",
+        "speaker": "trees",
+        "listener": "olive tree",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "הָלוֹךְ הָֽלְכוּ הָעֵצִים לִמְשֹׁחַ עֲלֵיהֶם מֶלֶךְ וַיֹּאמְרוּ לַזַּיִת מָלְכָה עָלֵֽינוּ",
+        "riddle": "וַיֹּאמְרוּ לַזַּיִת מָלְכָה עָלֵֽינוּ",
+        "speaker": "הָעֵצִים",
+        "listener": "לַזַּיִת",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "The trees went forth on a time to anoint a king over them; and they said unto the olive tree, Reign thou over us."
+        },
+        "he": {
+          "8": "הָלוֹךְ הָֽלְכוּ הָעֵצִים לִמְשֹׁחַ עֲלֵיהֶם מֶלֶךְ וַיֹּאמְרוּ לַזַּיִת מָלְכָה עָלֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "judges-09-09-09",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "But the olive tree said unto them, Should I leave my fatness, wherewith by me they honour God and man, and go to be promoted over the trees?",
+        "riddle": "Should I leave my fatness, wherewith by me they honour God and man, and go to be promoted over the trees?",
+        "speaker": "olive tree",
+        "listener": "trees",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם הַזַּיִת הֶחֳדַלְתִּי אֶת־דִּשְׁנִי אֲשֶׁר־בִּי יְכַבְּדוּ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "riddle": "וַיֹּאמֶר לָהֶם הַזַּיִת הֶחֳדַלְתִּי אֶת־דִּשְׁנִי אֲשֶׁר־בִּי יְכַבְּדוּ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "speaker": "הַזַּיִת",
+        "listener": "הָעֵצִֽים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "The trees went forth on a time to anoint a king over them; and they said unto the olive tree, Reign thou over us.",
+          "9": "But the olive tree said unto them, Should I leave my fatness, wherewith by me they honour God and man, and go to be promoted over the trees?"
+        },
+        "he": {
+          "8": "הָלוֹךְ הָֽלְכוּ הָעֵצִים לִמְשֹׁחַ עֲלֵיהֶם מֶלֶךְ וַיֹּאמְרוּ לַזַּיִת מָלְכָה עָלֵֽינוּ׃",
+          "9": "וַיֹּאמֶר לָהֶם הַזַּיִת הֶחֳדַלְתִּי אֶת־דִּשְׁנִי אֲשֶׁר־בִּי יְכַבְּדוּ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "judges-09-10-10",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the trees said to the fig tree, Come thou, and reign over us.",
+        "riddle": "Come thou, and reign over us",
+        "speaker": "trees",
+        "listener": "fig tree",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הָעֵצִים לַתְּאֵנָה לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ",
+        "riddle": "לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ",
+        "speaker": "הָעֵצִים",
+        "listener": "הַתְּאֵנָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the trees said to the fig tree, Come thou, and reign over us."
+        },
+        "he": {
+          "10": "וַיֹּאמְרוּ הָעֵצִים לַתְּאֵנָה לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "judges-09-11-11",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?",
+        "riddle": "Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?",
+        "speaker": "fig tree",
+        "listener": "trees",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהֶם הַתְּאֵנָה הֶחֳדַלְתִּי אֶת־מָתְקִי וְאֶת־תְּנוּבָתִי הַטּוֹבָה וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "riddle": "וַתֹּאמֶר לָהֶם הַתְּאֵנָה הֶחֳדַלְתִּי אֶת־מָתְקִי וְאֶת־תְּנוּבָתִי הַטּוֹבָה וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "speaker": "הַתְּאֵנָה",
+        "listener": "הָעֵצִֽים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the trees said to the fig tree, Come thou, and reign over us.",
+          "11": "But the fig tree said unto them, Should I forsake my sweetness, and my good fruit, and go to be promoted over the trees?"
+        },
+        "he": {
+          "10": "וַיֹּאמְרוּ הָעֵצִים לַתְּאֵנָה לְכִי־אַתְּ מָלְכִי עָלֵֽינוּ׃",
+          "11": "וַתֹּאמֶר לָהֶם הַתְּאֵנָה הֶחֳדַלְתִּי אֶת־מָתְקִי וְאֶת־תְּנוּבָתִי הַטּוֹבָה וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "judges-09-13-13",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And the vine said unto them, Should I leave my wine, which cheereth God and man, and go to be promoted over the trees?",
+        "riddle": "Should I leave my wine, which cheereth God and man, and go to be promoted over the trees?",
+        "speaker": "vine",
+        "listener": "trees",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהֶם הַגֶּפֶן הֶחֳדַלְתִּי אֶת־תִּירוֹשִׁי הַֽמְשַׂמֵּחַ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "riddle": "וַתֹּאמֶר לָהֶם הַגֶּפֶן הֶחֳדַלְתִּי אֶת־תִּירוֹשִׁי הַֽמְשַׂמֵּחַ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים",
+        "speaker": "הַגֶּפֶן",
+        "listener": "הָעֵצִֽים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the vine said unto them, Should I leave my wine, which cheereth God and man, and go to be promoted over the trees?"
+        },
+        "he": {
+          "13": "וַתֹּאמֶר לָהֶם הַגֶּפֶן הֶחֳדַלְתִּי אֶת־תִּירוֹשִׁי הַֽמְשַׂמֵּחַ אֱלֹהִים וַאֲנָשִׁים וְהָלַכְתִּי לָנוּעַ עַל־הָעֵצִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "judges-09-14-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Then said all the trees unto the bramble, Come thou, and reign over us. And the bramble said unto the trees, If in truth ye anoint me king over you, then come and put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon.",
+        "riddle": "If in truth ye anoint me king over you, then come and put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon.",
+        "speaker": "bramble",
+        "listener": "trees",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ כָל־הָעֵצִים אֶל־הָאָטָד לֵךְ אַתָּה מְלָךְ־עָלֵֽינוּ וַיֹּאמֶר הָאָטָד אֶל־הָעֵצִים אִם בֶּאֱמֶת אַתֶּם מֹשְׁחִים אֹתִי לְמֶלֶךְ עֲלֵיכֶם בֹּאוּ חֲסוּ בְצִלִּי וְאִם־אַיִן תֵּצֵא אֵשׁ מִן־הָאָטָד וְתֹאכַל אֶת־אַרְזֵי הַלְּבָנֽוֹן",
+        "riddle": "וַיֹּאמֶר הָאָטָד אֶל־הָעֵצִים אִם בֶּאֱמֶת אַתֶּם מֹשְׁחִים אֹתִי לְמֶלֶךְ עֲלֵיכֶם בֹּאוּ חֲסוּ בְצִלִּי וְאִם־אַיִן תֵּצֵא אֵשׁ מִן־הָאָטָד וְתֹאכַל אֶת־אַרְזֵי הַלְּבָנֽוֹן",
+        "speaker": "הָאָטָד",
+        "listener": "הָעֵצִים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Then said all the trees unto the bramble, Come thou, and reign over us.",
+          "15": "And the bramble said unto the trees, If in truth ye anoint me king over you, then come and put your trust in my shadow: and if not, let fire come out of the bramble, and devour the cedars of Lebanon."
+        },
+        "he": {
+          "14": "וַיֹּאמְרוּ כָל־הָעֵצִים אֶל־הָאָטָד לֵךְ אַתָּה מְלָךְ־עָלֵֽינוּ׃",
+          "15": "וַיֹּאמֶר הָאָטָד אֶל־הָעֵצִים אִם בֶּאֱמֶת אַתֶּם מֹשְׁחִים אֹתִי לְמֶלֶךְ עֲלֵיכֶם בֹּאוּ חֲסוּ בְצִלִּי וְאִם־אַיִן תֵּצֵא אֵשׁ מִן־הָאָטָד וְתֹאכַל אֶת־אַרְזֵי הַלְּבָנֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional warning",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 14,
+        "end": 15
+      }
+    },
+    {
+      "id": "judges-09-36-36",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "And when Gaal saw the people, he said to Zebul, Behold, there come people down from the top of the mountains. And Zebul said unto him, Thou seest the shadow of the mountains as if they were men.",
+        "riddle": "Behold, there come people down from the top of the mountains.",
+        "speaker": "Gaal",
+        "listener": "Zebul",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיַּרְא־גַּעַל אֶת־הָעָם וַיֹּאמֶר אֶל־זְבֻל הִנֵּה־עָם יוֹרֵד מֵרָאשֵׁי הֶהָרִים וַיֹּאמֶר אֵלָיו זְבֻל אֵת צֵל הֶהָרִים אַתָּה רֹאֶה כָּאֲנָשִֽׁים",
+        "riddle": "גַּעַל אֶת־הָעָם וַיֹּאמֶר אֶל־זְבֻל הִנֵּה־עָם יוֹרֵד מֵרָאשֵׁי הֶהָרִים וַיֹּאמֶר אֵלָיו",
+        "speaker": "גַּעַל",
+        "listener": "זְבֻל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And when Gaal saw the people, he said to Zebul, Behold, there come people down from the top of the mountains. And Zebul said unto him, Thou seest the shadow of the mountains as if they were men."
+        },
+        "he": {
+          "36": "וַיַּרְא־גַּעַל אֶת־הָעָם וַיֹּאמֶר אֶל־זְבֻל הִנֵּה־עָם יוֹרֵד מֵרָאשֵׁי הֶהָרִים וַיֹּאמֶר אֵלָיו זְבֻל אֵת צֵל הֶהָרִים אַתָּה רֹאֶה כָּאֲנָשִֽׁים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 36,
+        "end": 36
+      }
+    },
+    {
+      "id": "judges-09-37-37",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 37,
+        "quote_verse_end": 37,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 37
+      },
+      "en": {
+        "quote": "And Gaal spake again and said, See there come people down by the middle of the land, and another company come along by the plain of Meonenim.",
+        "riddle": "See there come people down by the middle of the land, and another company come along by the plain of Meonenim.",
+        "speaker": "Gaal",
+        "listener": "Zebul",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּסֶף עוֹד גַּעַל לְדַבֵּר וַיֹּאמֶר הִנֵּה־עָם יֽוֹרְדִים מֵעִם טַבּוּר הָאָרֶץ וְרֹאשׁ־אֶחָד בָּא מִדֶּרֶךְ אֵלוֹן מְעוֹנְנִֽים",
+        "riddle": "וַיֹּסֶף עוֹד גַּעַל לְדַבֵּר וַיֹּאמֶר הִנֵּה־עָם יֽוֹרְדִים מֵעִם טַבּוּר הָאָרֶץ וְרֹאשׁ־אֶחָד בָּא מִדֶּרֶךְ אֵלוֹן מְעוֹנְנִֽים",
+        "speaker": "גַּעַל",
+        "listener": "זְבוּל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "37": "And Gaal spake again and said, See there come people down by the middle of the land, and another company come along by the plain of Meonenim."
+        },
+        "he": {
+          "37": "וַיֹּסֶף עוֹד גַּעַל לְדַבֵּר וַיֹּאמֶר הִנֵּה־עָם יֽוֹרְדִים מֵעִם טַבּוּר הָאָרֶץ וְרֹאשׁ־אֶחָד בָּא מִדֶּרֶךְ אֵלוֹן מְעוֹנְנִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 37,
+        "end": 37
+      }
+    },
+    {
+      "id": "judges-09-38-38",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 38,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "Then said Zebul unto him, Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them.",
+        "riddle": "Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them.",
+        "speaker": "Zebul",
+        "listener": "Gaal",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו זְבֻל אַיֵּה אֵפוֹא פִיךָ אֲשֶׁר תֹּאמַר מִי אֲבִימֶלֶךְ כִּי נַעַבְדֶנּוּ הֲלֹא זֶה הָעָם אֲשֶׁר מָאַסְתָּה בּוֹ צֵא־נָא עַתָּה וְהִלָּחֶם בּֽוֹ",
+        "riddle": "אַיֵּה אֵפוֹא פִיךָ אֲשֶׁר תֹּאמַר מִי אֲבִימֶלֶךְ כִּי נַעַבְדֶנּוּ הֲלֹא זֶה הָעָם אֲשֶׁר מָאַסְתָּה בּוֹ צֵא־נָא עַתָּה וְהִלָּחֶם בּֽו",
+        "speaker": "זְבֻל",
+        "listener": "גַּעַל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "Then said Zebul unto him, Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them."
+        },
+        "he": {
+          "38": "וַיֹּאמֶר אֵלָיו זְבֻל אַיֵּה אֵפוֹא פִיךָ אֲשֶׁר תֹּאמַר מִי אֲבִימֶלֶךְ כִּי נַעַבְדֶנּוּ הֲלֹא זֶה הָעָם אֲשֶׁר מָאַסְתָּה בּוֹ צֵא־נָא עַתָּה וְהִלָּחֶם בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 38,
+        "end": 38
+      }
+    },
+    {
       "id": "judges-09-48-48",
       "source": {
         "book_code": "JDG",
@@ -13,11 +411,13 @@
         "book_he": "שופטים",
         "chapter": 9,
         "quote_verse_start": 48,
-        "quote_verse_end": 48
+        "quote_verse_end": 48,
+        "speaker_mention_verse": 48,
+        "listener_mention_verse": 48
       },
       "en": {
         "quote": "And Abimelech gat him up to mount Zalmon, he and all the people that were with him; and Abimelech took an axe in his hand, and cut down a bough from the trees, and took it, and laid it on his shoulder, and said unto the people that were with him, What ye have seen me do, make haste, and do as I have done.",
-        "riddle": "and do as I have done.",
+        "riddle": "What ye have seen me do, make haste, and do as I have done.",
         "speaker": "Abimelech",
         "listener": "his people",
         "book": "Judges"
@@ -38,7 +438,7 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct command.",
+        "reason": "direct command",
         "confidence": 0.95
       },
       "ref": {
@@ -46,13 +446,60 @@
         "start": 48,
         "end": 48
       }
+    },
+    {
+      "id": "judges-09-54-54",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 9,
+        "quote_verse_start": 54,
+        "quote_verse_end": 54,
+        "speaker_mention_verse": 54,
+        "listener_mention_verse": 54
+      },
+      "en": {
+        "quote": "Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A woman slew him. And his young man thrust him through, and he died.",
+        "riddle": "Draw thy sword, and slay me, that men say not of me, A woman slew him.",
+        "speaker": "Abimelech",
+        "listener": "armourbearer",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא מְהֵרָה אֶל־הַנַּעַר נֹשֵׂא כֵלָיו וַיֹּאמֶר לוֹ שְׁלֹף חַרְבְּךָ וּמוֹתְתֵנִי פֶּן־יֹאמְרוּ לִי אִשָּׁה הֲרָגָתְהוּ וַיִּדְקְרֵהוּ נַעֲרוֹ וַיָּמֹֽת",
+        "riddle": "וַיִּקְרָא מְהֵרָה אֶל־הַנַּעַר נֹשֵׂא כֵלָיו וַיֹּאמֶר לוֹ שְׁלֹף חַרְבְּךָ וּמוֹתְתֵנִי פֶּן־יֹאמְרוּ לִי אִשָּׁה הֲרָגָתְהוּ וַיִּדְקְרֵהוּ נַעֲרוֹ וַיָּמֹֽת",
+        "speaker": "אבימלך",
+        "listener": "הַנַּעַר נֹשֵׂא כֵלָיו",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "54": "Then he called hastily unto the young man his armourbearer, and said unto him, Draw thy sword, and slay me, that men say not of me, A woman slew him. And his young man thrust him through, and he died."
+        },
+        "he": {
+          "54": "וַיִּקְרָא מְהֵרָה אֶל־הַנַּעַר ׀ נֹשֵׂא כֵלָיו וַיֹּאמֶר לוֹ שְׁלֹף חַרְבְּךָ וּמוֹתְתֵנִי פֶּן־יֹאמְרוּ לִי אִשָּׁה הֲרָגָתְהוּ וַיִּדְקְרֵהוּ נַעֲרוֹ וַיָּמֹֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 54,
+        "end": 54
+      }
     }
   ],
   "stats": {
-    "window_count": 27,
+    "window_count": 7,
     "prefiltered_count": 0,
-    "llm_window_count": 27,
-    "kept_count": 1,
-    "issue_count": 26
+    "llm_window_count": 7,
+    "projection_llm_count": 17,
+    "llm_call_count": 24,
+    "spec_count": 17,
+    "kept_count": 11,
+    "issue_count": 6
   }
 }

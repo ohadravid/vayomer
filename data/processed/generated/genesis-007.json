@@ -1,0 +1,85 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 7,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-07-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 7,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.",
+        "riddle": "Come thou and all thy house into the ark",
+        "speaker": "LORD",
+        "listener": "Noah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "righteous",
+        "bonus_hint": {
+          "quote": "I have been young, and now am old; yet have I not seen the righteous forsaken, nor his seed begging bread.",
+          "source": {
+            "book": "Psalms",
+            "chapter": 37,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה",
+        "riddle": "בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי",
+        "speaker": "יְהוָה",
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "רָאִיתִי",
+        "bonus_hint": {
+          "quote": "נַעַר הָיִיתִי גַּם־זָקַנְתִּי וְֽלֹא־רָאִיתִי צַדִּיק נֶעֱזָב וְזַרְעוֹ מְבַקֶּשׁ־לָֽחֶם",
+          "source": {
+            "book": "תהילים",
+            "chapter": 37,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 1,
+        "end": 1
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

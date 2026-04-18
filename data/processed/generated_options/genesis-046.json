@@ -1,0 +1,380 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 46,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-46-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 46,
+        "quote_verse_start": 2,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And God spake unto Israel in the visions of the night, and said, Jacob, Jacob. And he said, Here am I. And he said, I am God, the God of thy father: fear not to go down into Egypt; for I will there make of thee a great nation: I will go down with thee into Egypt; and I will also surely bring thee up again: and Joseph shall put his hand upon thine eyes.",
+        "riddle": "I will go down with thee into Egypt; and I will also surely bring thee up again: and Joseph shall put his hand upon thine eyes.",
+        "speaker": "God",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Isaac",
+            "Balaam"
+          ],
+          "listener": [
+            "Isaac",
+            "Abraham",
+            "Moses"
+          ]
+        },
+        "bonus": "night",
+        "bonus_hint": {
+          "quote": "And God made two great lights; the greater light to rule the day, and the lesser light to rule the night: he made the stars also.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים לְיִשְׂרָאֵל בְּמַרְאֹת הַלַּיְלָה וַיֹּאמֶר יַעֲקֹב יַעֲקֹב וַיֹּאמֶר הִנֵּֽנִי וַיֹּאמֶר אָנֹכִי הָאֵל אֱלֹהֵי אָבִיךָ אַל־תִּירָא מֵרְדָה מִצְרַיְמָה כִּֽי־לְגוֹי גָּדוֹל אֲשִֽׂימְךָ שָֽׁם אָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה וְאָנֹכִי אַֽעַלְךָ גַם־עָלֹה וְיוֹסֵף יָשִׁית יָדוֹ עַל־עֵינֶֽיךָ",
+        "riddle": "אָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה וְאָנֹכִי אַֽעַלְךָ גַם־עָלֹה וְיוֹסֵף יָשִׁית יָדוֹ עַל־עֵינֶֽיךָ",
+        "speaker": "אֱלֹהִים",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יִצְחָק",
+            "אַבְרָהָם",
+            "מֹשֶׁה"
+          ]
+        },
+        "bonus": "הַלַּיְלָה",
+        "bonus_hint": {
+          "quote": "וַיַּעַשׂ אֱלֹהִים אֶת־שְׁנֵי הַמְּאֹרֹת הַגְּדֹלִים אֶת־הַמָּאוֹר הַגָּדֹל לְמֶמְשֶׁלֶת הַיּוֹם וְאֶת־הַמָּאוֹר הַקָּטֹן לְמֶמְשֶׁלֶת הַלַּיְלָה וְאֵת הַכּוֹכָבִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And God spake unto Israel in the visions of the night, and said, Jacob, Jacob. And he said, Here am I.",
+          "3": "And he said, I am God, the God of thy father: fear not to go down into Egypt; for I will there make of thee a great nation:",
+          "4": "I will go down with thee into Egypt; and I will also surely bring thee up again: and Joseph shall put his hand upon thine eyes."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֱלֹהִים ׀ לְיִשְׂרָאֵל בְּמַרְאֹת הַלַּיְלָה וַיֹּאמֶר יַעֲקֹב ׀ יַעֲקֹב וַיֹּאמֶר הִנֵּֽנִי׃",
+          "3": "וַיֹּאמֶר אָנֹכִי הָאֵל אֱלֹהֵי אָבִיךָ אַל־תִּירָא מֵרְדָה מִצְרַיְמָה כִּֽי־לְגוֹי גָּדוֹל אֲשִֽׂימְךָ שָֽׁם׃",
+          "4": "אָנֹכִי אֵרֵד עִמְּךָ מִצְרַיְמָה וְאָנֹכִי אַֽעַלְךָ גַם־עָלֹה וְיוֹסֵף יָשִׁית יָדוֹ עַל־עֵינֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 46,
+        "start": 2,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-46-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 46,
+        "quote_verse_start": 30,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, Now let me die, since I have seen thy face, because thou art yet alive. And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
+        "riddle": "Now let me die, since I have seen thy face, because thou art yet alive.",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "sons of Jacob",
+            "Judah",
+            "Philistines"
+          ],
+          "listener": [
+            "Abraham",
+            "Pharaoh",
+            "Abimelech and Phichol"
+          ]
+        },
+        "bonus": "Pharaoh",
+        "bonus_hint": {
+          "quote": "And he took some of his brethren, even five men, and presented them unto Pharaoh.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 47,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף אָמוּתָה הַפָּעַם אַחֲרֵי רְאוֹתִי אֶת־פָּנֶיךָ כִּי עוֹדְךָ חָֽי וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי",
+        "riddle": "אָמוּתָה הַפָּעַם אַחֲרֵי רְאוֹתִי אֶת־פָּנֶיךָ כִּי עוֹדְךָ חָֽי",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בְנֵֽי־יַעֲקֹב",
+            "יְהוּדָה",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "אַבְרָהָם",
+            "פַרְעֹה",
+            "אֲבִימֶלֶךְ וּפִיכֹל"
+          ]
+        },
+        "bonus": "אֶחָיו",
+        "bonus_hint": {
+          "quote": "וּמִקְצֵה אֶחָיו לָקַח חֲמִשָּׁה אֲנָשִׁים וַיַּצִּגֵם לִפְנֵי פַרְעֹֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 47,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And Israel said unto Joseph, Now let me die, since I have seen thy face, because thou art yet alive.",
+          "31": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;"
+        },
+        "he": {
+          "30": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף אָמוּתָה הַפָּעַם אַחֲרֵי רְאוֹתִי אֶת־פָּנֶיךָ כִּי עוֹדְךָ חָֽי׃",
+          "31": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 46,
+        "start": 30,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-46-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 46,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
+        "riddle": "My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
+        "speaker": "Joseph",
+        "listener": "Pharaoh",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Jacob",
+            "Isaac"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Balak",
+            "Abraham"
+          ]
+        },
+        "bonus": "shew",
+        "bonus_hint": {
+          "quote": "Then was Abner very wroth for the words of Ish-bosheth, and said, Am I a dog's head, which against Judah do shew kindness this day unto the house of Saul thy father, to his brethren, and to his friends, and have not delivered thee into the hand of David, that thou chargest me to day with a fault concerning this woman?",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי",
+        "riddle": "אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "פַרְעֹה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "בָּלָק",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "אֶחָיו",
+        "bonus_hint": {
+          "quote": "וַיִּחַר לְאַבְנֵר מְאֹד עַל־דִּבְרֵי אִֽישׁ־בֹּשֶׁת וַיֹּאמֶר הֲרֹאשׁ כֶּלֶב אָנֹכִי אֲשֶׁר לִֽיהוּדָה הַיּוֹם אֶֽעֱשֶׂה־חֶסֶד עִם־בֵּית שָׁאוּל אָבִיךָ אֶל־אֶחָיו וְאֶל־מֵרֵעֵהוּ וְלֹא הִמְצִיתִךָ בְּיַד־דָּוִד וַתִּפְקֹד עָלַי עֲוֺן הָאִשָּׁה הַיּֽוֹם",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;"
+        },
+        "he": {
+          "31": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 46,
+        "start": 31,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-46-33-33",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 46,
+        "quote_verse_start": 32,
+        "quote_verse_end": 33
+      },
+      "en": {
+        "quote": "And the men are shepherds, for their trade hath been to feed cattle; and they have brought their flocks, and their herds, and all that they have. And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?",
+        "riddle": "What is your occupation?",
+        "speaker": "Pharaoh",
+        "listener": "shepherds",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "king of Sodom",
+            "Balak"
+          ],
+          "listener": [
+            "brethren",
+            "Joseph's sons",
+            "Taskmasters"
+          ]
+        },
+        "bonus": "cattle",
+        "bonus_hint": {
+          "quote": "And there was a strife between the herdmen of Abram's cattle and the herdmen of Lot's cattle: and the Canaanite and the Perizzite dwelled then in the land.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהָאֲנָשִׁים רֹעֵי צֹאן כִּֽי־אַנְשֵׁי מִקְנֶה הָיוּ וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם הֵבִֽיאוּ וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם",
+        "riddle": "וְאָמַר מַה־מַּעֲשֵׂיכֶֽם",
+        "speaker": "פַּרְעֹה",
+        "listener": "אַנְשֵׁי מִקְנֶה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "מֶֽלֶךְ־סְדֹם",
+            "בָּלָק"
+          ],
+          "listener": [
+            "אָחִיו",
+            "בְּנֵי יוֹסֵף",
+            "הַנֹּגְשִׂים"
+          ]
+        },
+        "bonus": "רֹעֵי",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי־רִיב בֵּין רֹעֵי מִקְנֵֽה־אַבְרָם וּבֵין רֹעֵי מִקְנֵה־לוֹט וְהַֽכְּנַעֲנִי וְהַפְּרִזִּי אָז יֹשֵׁב בָּאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And the men are shepherds, for their trade hath been to feed cattle; and they have brought their flocks, and their herds, and all that they have.",
+          "33": "And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?"
+        },
+        "he": {
+          "32": "וְהָאֲנָשִׁים רֹעֵי צֹאן כִּֽי־אַנְשֵׁי מִקְנֶה הָיוּ וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם הֵבִֽיאוּ׃",
+          "33": "וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 46,
+        "start": 32,
+        "end": 33
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

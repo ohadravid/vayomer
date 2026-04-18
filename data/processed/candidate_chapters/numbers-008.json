@@ -4,12 +4,155 @@
   "book_he": "במדבר",
   "chapter": 8,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-08-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 8,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Speak unto Aaron, and say unto him, When thou lightest the lamps, the seven lamps shall give light over against the candlestick.",
+        "riddle": "When thou lightest the lamps, the seven lamps shall give light over against the candlestick.",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶֽל־אַהֲרֹן וְאָמַרְתָּ אֵלָיו בְּהַעֲלֹֽתְךָ אֶת־הַנֵּרֹת אֶל־מוּל פְּנֵי הַמְּנוֹרָה יָאִירוּ שִׁבְעַת הַנֵּרֽוֹת",
+        "riddle": "דַּבֵּר אֶֽל־אַהֲרֹן וְאָמַרְתָּ אֵלָיו בְּהַעֲלֹֽתְךָ אֶת־הַנֵּרֹת אֶל־מוּל פְּנֵי הַמְּנוֹרָה יָאִירוּ שִׁבְעַת הַנֵּרֽוֹת",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto Aaron, and say unto him, When thou lightest the lamps, the seven lamps shall give light over against the candlestick.",
+          "3": "And Aaron did so; he lighted the lamps thereof over against the candlestick, as the LORD commanded Moses."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶֽל־אַהֲרֹן וְאָמַרְתָּ אֵלָיו בְּהַעֲלֹֽתְךָ אֶת־הַנֵּרֹת אֶל־מוּל פְּנֵי הַמְּנוֹרָה יָאִירוּ שִׁבְעַת הַנֵּרֽוֹת׃",
+          "3": "וַיַּעַשׂ כֵּן אַהֲרֹן אֶל־מוּל פְּנֵי הַמְּנוֹרָה הֶעֱלָה נֵרֹתֶיהָ כַּֽאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-08-06-06",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 8,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "Take the Levites from among the children of Israel, and cleanse them.",
+        "riddle": "Take the Levites from among the children of Israel, and cleanse them.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם",
+        "riddle": "קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD spake unto Moses, saying,",
+          "6": "Take the Levites from among the children of Israel, and cleanse them."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "6": "קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "numbers-08-24-24",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 8,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "This is it that belongeth unto the Levites: from twenty and five years old and upward they shall go in to wait upon the service of the tabernacle of the congregation:",
+        "riddle": "This is it that belongeth unto the Levites: from twenty and five years old and upward they shall go in to wait upon the service of the tabernacle of the congregation:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "זֹאת אֲשֶׁר לַלְוִיִּם מִבֶּן חָמֵשׁ וְעֶשְׂרִים שָׁנָה וָמַעְלָה יָבוֹא לִצְבֹא צָבָא בַּעֲבֹדַת אֹהֶל מוֹעֵֽד",
+        "riddle": "זֹאת אֲשֶׁר לַלְוִיִּם מִבֶּן חָמֵשׁ וְעֶשְׂרִים שָׁנָה וָמַעְלָה יָבוֹא לִצְבֹא צָבָא בַּעֲבֹדַת אֹהֶל מוֹעֵֽד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And the LORD spake unto Moses, saying,",
+          "24": "This is it that belongeth unto the Levites: from twenty and five years old and upward they shall go in to wait upon the service of the tabernacle of the congregation:"
+        },
+        "he": {
+          "23": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "24": "זֹאת אֲשֶׁר לַלְוִיִּם מִבֶּן חָמֵשׁ וְעֶשְׂרִים שָׁנָה וָמַעְלָה יָבוֹא לִצְבֹא צָבָא בַּעֲבֹדַת אֹהֶל מוֹעֵֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 11,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 11,
-    "kept_count": 0,
-    "issue_count": 11
+    "llm_window_count": 2,
+    "projection_llm_count": 3,
+    "llm_call_count": 5,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

@@ -4,12 +4,60 @@
   "book_he": "דברים",
   "chapter": 34,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-34-04-04",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 34,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, and unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither.",
+        "riddle": "This is the land which I sware unto Abraham, unto Isaac, and unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֵלָיו זֹאת הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה הֶרְאִיתִיךָ בְעֵינֶיךָ וְשָׁמָּה לֹא תַעֲבֹֽר",
+        "riddle": "וַיֹּאמֶר יְהוָה אֵלָיו זֹאת הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה הֶרְאִיתִיךָ בְעֵינֶיךָ וְשָׁמָּה לֹא תַעֲבֹֽר",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the LORD said unto him, This is the land which I sware unto Abraham, unto Isaac, and unto Jacob, saying, I will give it unto thy seed: I have caused thee to see it with thine eyes, but thou shalt not go over thither."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר יְהוָה אֵלָיו זֹאת הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶנָּה הֶרְאִיתִיךָ בְעֵינֶיךָ וְשָׁמָּה לֹא תַעֲבֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 0,
-    "issue_count": 4
+    "llm_window_count": 2,
+    "projection_llm_count": 1,
+    "llm_call_count": 3,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

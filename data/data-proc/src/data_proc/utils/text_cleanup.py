@@ -7,6 +7,7 @@ from typing import Iterable
 SPACE_RE = re.compile(r"\s+")
 HEBREW_CANTILLATION_RE = re.compile(r"[\u0591-\u05AF]")
 HEBREW_ALL_MARKS_RE = re.compile(r"[\u0591-\u05C7]")
+HEBREW_BONUS_NON_WORD_RE = re.compile(r"[^\u05D0-\u05EA\u05B0-\u05BD\u05BF\u05C1-\u05C2\u05C4-\u05C5\u05C7]+")
 EN_WORD_RE = re.compile(r"[A-Za-z]+(?:'[A-Za-z]+)?")
 HE_WORD_SPLIT_RE = re.compile(r"[^\u05D0-\u05EA\u0591-\u05C7]+")
 HE_LETTER_CLUSTER_RE = re.compile(r"[\u05D0-\u05EA][\u0591-\u05C7]*")
@@ -206,6 +207,50 @@ def word_set(text: str, lang: str) -> set[str]:
     return {normalized for _, normalized in word_pairs(text, lang) if normalized}
 
 
+def _normalize_hebrew_bonus_token(token: str) -> str:
+    cleaned = cleanup_hebrew_quote(token)
+    return HEBREW_BONUS_NON_WORD_RE.sub("", cleaned)
+
+
+def normalize_bonus_word(word: str, lang: str) -> str:
+    if lang != "he":
+        return normalize_word(word, lang)
+
+    cleaned = cleanup_hebrew_quote(word).replace("־", " ").replace("-", " ")
+    tokens = [_normalize_hebrew_bonus_token(token) for token in HE_WORD_SPLIT_RE.split(cleaned) if token]
+    return " ".join(token for token in tokens if token)
+
+
+def bonus_word_pairs(text: str, lang: str) -> list[tuple[str, str, str]]:
+    if lang != "he":
+        return [(surface, normalized, normalized) for surface, normalized in word_pairs(text, lang)]
+
+    cleaned = cleanup_hebrew_quote(text)
+    cleaned = cleaned.replace("־", " ").replace("-", " ")
+    raw_tokens = [token for token in HE_WORD_SPLIT_RE.split(cleaned) if token]
+    out: list[tuple[str, str, str]] = []
+    for token in raw_tokens:
+        bonus_normalized = _normalize_hebrew_bonus_token(token)
+        normalized = normalize_word(token, "he")
+        if bonus_normalized and normalized:
+            out.append((token, bonus_normalized, normalized))
+    return out
+
+
+def bonus_word_set(text: str, lang: str) -> set[str]:
+    return {bonus_normalized for _, bonus_normalized, _ in bonus_word_pairs(text, lang) if bonus_normalized}
+
+
+def whole_bonus_word_occurs(text: str, word: str, lang: str) -> bool:
+    text_tokens = [bonus_normalized for _, bonus_normalized, _ in bonus_word_pairs(text, lang) if bonus_normalized]
+    word_tokens = [bonus_normalized for _, bonus_normalized, _ in bonus_word_pairs(word, lang) if bonus_normalized]
+    if not text_tokens or not word_tokens:
+        return False
+
+    span = len(word_tokens)
+    return any(text_tokens[index : index + span] == word_tokens for index in range(len(text_tokens) - span + 1))
+
+
 def _hebrew_surface_variants(surface: str) -> list[str]:
     cleaned = cleanup_hebrew_quote(surface)
     if not cleaned:
@@ -373,17 +418,22 @@ def subtract_words(text: str, excluded_text: str, lang: str, *, forbidden_texts:
 def candidate_bonus_words(text: str, riddle: str, lang: str, *, forbidden_texts: Iterable[str] = ()) -> list[str]:
     stopwords = HE_BONUS_STOPWORDS if lang == "he" else EN_BONUS_STOPWORDS
     reporting_words = HE_REPORTING_WORDS if lang == "he" else EN_REPORTING_WORDS
+    excluded_bonus_words = bonus_word_set(riddle, lang)
+    forbidden_words: set[str] = set()
+    for forbidden_text in forbidden_texts:
+        forbidden_words.update(forbidden_word_set(forbidden_text, lang))
     out: list[str] = []
     seen: set[str] = set()
-    for surface in subtract_words(text, riddle, lang, forbidden_texts=forbidden_texts):
-        normalized = normalize_word(surface, lang)
-        if not normalized or normalized in seen:
+    for surface, bonus_normalized, normalized in bonus_word_pairs(text, lang):
+        if not bonus_normalized or bonus_normalized in excluded_bonus_words or bonus_normalized in seen:
+            continue
+        if not normalized or normalized in forbidden_words:
             continue
         if normalized in stopwords or normalized in reporting_words:
             continue
         if lang == "en" and len(normalized) < 3:
             continue
-        seen.add(normalized)
+        seen.add(bonus_normalized)
         out.append(surface)
     return out
 

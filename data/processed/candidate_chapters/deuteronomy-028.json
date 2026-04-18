@@ -4,12 +4,58 @@
   "book_he": "דברים",
   "chapter": 28,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-28-67-67",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 28,
+        "quote_verse_start": 67,
+        "quote_verse_end": 67
+      },
+      "en": {
+        "quote": "In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning! for the fear of thine heart wherewith thou shalt fear, and for the sight of thine eyes which thou shalt see.",
+        "riddle": "In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning!",
+        "speaker": "the person under curse",
+        "listener": "themselves",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "בַּבֹּקֶר תֹּאמַר מִֽי־יִתֵּן עֶרֶב וּבָעֶרֶב תֹּאמַר מִֽי־יִתֵּן בֹּקֶר מִפַּחַד לְבָֽבְךָ אֲשֶׁר תִּפְחָד וּמִמַּרְאֵה עֵינֶיךָ אֲשֶׁר תִּרְאֶֽה",
+        "riddle": "בַּבֹּקֶר תֹּאמַר מִֽי־יִתֵּן עֶרֶב וּבָעֶרֶב תֹּאמַר מִֽי־יִתֵּן בֹּקֶר",
+        "speaker": "האדם תחת הקללה",
+        "listener": "עצמו",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "67": "In the morning thou shalt say, Would God it were even! and at even thou shalt say, Would God it were morning! for the fear of thine heart wherewith thou shalt fear, and for the sight of thine eyes which thou shalt see."
+        },
+        "he": {
+          "67": "בַּבֹּקֶר תֹּאמַר מִֽי־יִתֵּן עֶרֶב וּבָעֶרֶב תֹּאמַר מִֽי־יִתֵּן בֹּקֶר מִפַּחַד לְבָֽבְךָ אֲשֶׁר תִּפְחָד וּמִמַּרְאֵה עֵינֶיךָ אֲשֶׁר תִּרְאֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of distress",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 67,
+        "end": 67
+      }
+    }
+  ],
   "stats": {
-    "window_count": 6,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 6,
-    "kept_count": 0,
-    "issue_count": 6
+    "llm_window_count": 3,
+    "projection_llm_count": 2,
+    "llm_call_count": 5,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

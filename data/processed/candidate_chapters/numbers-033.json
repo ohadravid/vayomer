@@ -4,12 +4,64 @@
   "book_he": "במדבר",
   "chapter": 33,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-33-51-52",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 33,
+        "quote_verse_start": 51,
+        "quote_verse_end": 52,
+        "speaker_mention_verse": 50,
+        "listener_mention_verse": 51
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and say unto them, When ye are passed over Jordan into the land of Canaan; Then ye shall drive out all the inhabitants of the land from before you, and destroy all their pictures, and destroy all their molten images, and quite pluck down all their high places:",
+        "riddle": "When ye are passed over Jordan into the land of Canaan; Then ye shall drive out all the inhabitants of the land from before you, and destroy all their pictures, and destroy all their molten images, and quite pluck down all their high places:",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי אַתֶּם עֹבְרִים אֶת־הַיַּרְדֵּן אֶל־אֶרֶץ כְּנָֽעַן וְהוֹרַשְׁתֶּם אֶת־כָּל־יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶם וְאִבַּדְתֶּם אֵת כָּל־מַשְׂכִּיֹּתָם וְאֵת כָּל־צַלְמֵי מַסֵּֽכֹתָם תְּאַבֵּדוּ וְאֵת כָּל־בָּמֹתָם תַּשְׁמִֽידוּ",
+        "riddle": "כִּי אַתֶּם עֹבְרִים אֶת־הַיַּרְדֵּן אֶל־אֶרֶץ כְּנָֽעַן וְהוֹרַשְׁתֶּם אֶת־כָּל־יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶם וְאִבַּדְתֶּם אֵת כָּל־מַשְׂכִּיֹּתָם וְאֵת כָּל־צַלְמֵי מַסֵּֽכֹתָם תְּאַבֵּדוּ וְאֵת כָּל־בָּמֹתָם תַּשְׁמִֽידו",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "50": "And the LORD spake unto Moses in the plains of Moab by Jordan near Jericho, saying,",
+          "51": "Speak unto the children of Israel, and say unto them, When ye are passed over Jordan into the land of Canaan;",
+          "52": "Then ye shall drive out all the inhabitants of the land from before you, and destroy all their pictures, and destroy all their molten images, and quite pluck down all their high places:"
+        },
+        "he": {
+          "50": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּעַֽרְבֹת מוֹאָב עַל־יַרְדֵּן יְרֵחוֹ לֵאמֹֽר׃",
+          "51": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי אַתֶּם עֹבְרִים אֶת־הַיַּרְדֵּן אֶל־אֶרֶץ כְּנָֽעַן׃",
+          "52": "וְהוֹרַשְׁתֶּם אֶת־כָּל־יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶם וְאִבַּדְתֶּם אֵת כָּל־מַשְׂכִּיֹּתָם וְאֵת כָּל־צַלְמֵי מַסֵּֽכֹתָם תְּאַבֵּדוּ וְאֵת כָּל־בָּמֹתָם תַּשְׁמִֽידוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 51,
+        "end": 52
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

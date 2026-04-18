@@ -14,63 +14,65 @@
         "book_he": "שופטים",
         "chapter": 20,
         "quote_verse_start": 3,
-        "quote_verse_end": 3
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
       },
       "en": {
         "quote": "(Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness?",
-        "riddle": "how was this wickedness?",
+        "riddle": "Tell us, how was this wickedness?",
         "speaker": "children of Israel",
         "listener": "children of Benjamin",
         "book": "Judges",
         "options": {
           "speaker": [
             "Philistines",
-            "Joseph's sons",
-            "men of Judah"
+            "Judah",
+            "Hivites"
           ],
           "listener": [
             "Philistines",
-            "Joseph's sons",
-            "Hivites"
+            "Judah",
+            "house of Joseph"
           ]
         },
-        "bonus": "heard",
+        "bonus": "Mizpeh",
         "bonus_hint": {
-          "quote": "And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.",
+          "quote": "And when the Philistines heard that the children of Israel were gathered together to Mizpeh, the lords of the Philistines went up against Israel. And when the children of Israel heard it, they were afraid of the Philistines.",
           "source": {
-            "book": "Genesis",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
+            "book": "1 Samuel",
+            "chapter": 7,
+            "start": 7,
+            "end": 7
           }
         }
       },
       "he": {
         "quote": "וַֽיִּשְׁמְעוּ בְּנֵי בִנְיָמִן כִּֽי־עָלוּ בְנֵֽי־יִשְׂרָאֵל הַמִּצְפָּה וַיֹּֽאמְרוּ בְּנֵי יִשְׂרָאֵל דַּבְּרוּ אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
-        "riddle": "אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
+        "riddle": "דַּבְּרוּ אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
         "speaker": "בְנֵֽי־יִשְׂרָאֵל",
         "listener": "בְּנֵי בִנְיָמִן",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יוֹסֵף",
-            "אִישׁ יְהוּדָה"
+            "פְּלִשְׁתִּים",
+            "יְהוּדָה",
+            "וְיֹשְׁבֵי גִבְעוֹן"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יוֹסֵף",
-            "החיוים"
+            "פְּלִשְׁתִּים",
+            "יְהוּדָה",
+            "בֵּית יוֹסֵף"
           ]
         },
         "bonus": "וַֽיִּשְׁמְעוּ",
         "bonus_hint": {
-          "quote": "וַֽיִּשְׁמְעוּ אֶת־קוֹל יְהוָה אֱלֹהִים מִתְהַלֵּךְ בַּגָּן לְרוּחַ הַיּוֹם וַיִּתְחַבֵּא הָֽאָדָם וְאִשְׁתּוֹ מִפְּנֵי יְהוָה אֱלֹהִים בְּתוֹךְ עֵץ הַגָּֽן",
+          "quote": "וַיִּשְׁמְעוּ פְלִשְׁתִּים כִּֽי־הִתְקַבְּצוּ בְנֵֽי־יִשְׂרָאֵל הַמִּצְפָּתָה וַיַּעֲלוּ סַרְנֵֽי־פְלִשְׁתִּים אֶל־יִשְׂרָאֵל וַֽיִּשְׁמְעוּ בְּנֵי יִשְׂרָאֵל וַיִּֽרְאוּ מִפְּנֵי פְלִשְׁתִּֽים",
           "source": {
-            "book": "בראשית",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
+            "book": "שמואל א",
+            "chapter": 7,
+            "start": 7,
+            "end": 7
           }
         }
       },
@@ -104,34 +106,36 @@
         "book_he": "שופטים",
         "chapter": 20,
         "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
       },
       "en": {
         "quote": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you?",
         "riddle": "What wickedness is this that is done among you?",
-        "speaker": "Tribes of Israel",
-        "listener": "Tribe of Benjamin",
+        "speaker": "tribes of Israel",
+        "listener": "tribe of Benjamin",
         "book": "Judges",
         "options": {
           "speaker": [
             "Philistines",
-            "Israelites",
-            "Rab-shakeh"
+            "Israel",
+            "men of the city"
           ],
           "listener": [
             "Philistines",
-            "Israelites",
-            "Hivites"
+            "Judah",
+            "children"
           ]
         },
-        "bonus": "sent",
+        "bonus": "men",
         "bonus_hint": {
-          "quote": "And Pharaoh commanded his men concerning him: and they sent him away, and his wife, and all that he had.",
+          "quote": "And when they urged him till he was ashamed, he said, Send. They sent therefore fifty men; and they sought three days, but found him not.",
           "source": {
-            "book": "Genesis",
-            "chapter": 12,
-            "start": 20,
-            "end": 20
+            "book": "2 Kings",
+            "chapter": 2,
+            "start": 17,
+            "end": 17
           }
         }
       },
@@ -143,24 +147,24 @@
         "book": "שופטים",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "רַב־שָׁקֵה"
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "אַנְשֵׁי הָעִיר"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "החיוים"
+            "פְּלִשְׁתִּים",
+            "יְהוּדָה",
+            "בְּנֵיכֶם"
           ]
         },
         "bonus": "וַֽיִּשְׁלְחוּ",
         "bonus_hint": {
-          "quote": "וַיְצַו עָלָיו פַּרְעֹה אֲנָשִׁים וַֽיְשַׁלְּחוּ אֹתוֹ וְאֶת־אִשְׁתּוֹ וְאֶת־כָּל־אֲשֶׁר־לֽוֹ",
+          "quote": "וַיִּפְצְרוּ־בוֹ עַד־בֹּשׁ וַיֹּאמֶר שְׁלָחוּ וַֽיִּשְׁלְחוּ חֲמִשִּׁים אִישׁ וַיְבַקְשׁוּ שְׁלֹשָֽׁה־יָמִים וְלֹא מְצָאֻֽהוּ",
           "source": {
-            "book": "בראשית",
-            "chapter": 12,
-            "start": 20,
-            "end": 20
+            "book": "מלכים ב",
+            "chapter": 2,
+            "start": 17,
+            "end": 17
           }
         }
       },
@@ -176,6 +180,192 @@
         "chapter": 20,
         "start": 12,
         "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-20-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you? Now therefore deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel. But the children of Benjamin would not hearken to the voice of their brethren the children of Israel:",
+        "riddle": "deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel.",
+        "speaker": "tribes of Israel",
+        "listener": "tribe of Benjamin",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Israel",
+            "Israelites"
+          ],
+          "listener": [
+            "Judah",
+            "Philistines",
+            "house of Joseph"
+          ]
+        },
+        "bonus": "wickedness",
+        "bonus_hint": {
+          "quote": "The LORD shall send upon thee cursing, vexation, and rebuke, in all that thou settest thine hand unto for to do, until thou be destroyed, and until thou perish quickly; because of the wickedness of thy doings, whereby thou hast forsaken me.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 28,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ שִׁבְטֵי יִשְׂרָאֵל אֲנָשִׁים בְּכָל־שִׁבְטֵי בִנְיָמִן לֵאמֹר מָה הָרָעָה הַזֹּאת אֲשֶׁר נִהְיְתָה בָּכֶֽם וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל וְלֹא אָבוּ בְנֵי בִּנְיָמִן לִשְׁמֹעַ בְּקוֹל אֲחֵיהֶם בְּנֵֽי־יִשְׂרָאֵֽל",
+        "riddle": "וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל",
+        "speaker": "שִׁבְטֵי יִשְׂרָאֵל",
+        "listener": "בְּנֵֽי בִּנְיָמִין",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "בְּנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "יְהוּדָה",
+            "פְּלִשְׁתִּים",
+            "בֵּית יוֹסֵף"
+          ]
+        },
+        "bonus": "בְּכָל",
+        "bonus_hint": {
+          "quote": "יְשַׁלַּח יְהוָה בְּךָ אֶת־הַמְּאֵרָה אֶת־הַמְּהוּמָה וְאֶת־הַמִּגְעֶרֶת בְּכָל־מִשְׁלַח יָדְךָ אֲשֶׁר תַּעֲשֶׂה עַד הִשָּֽׁמֶדְךָ וְעַד־אֲבָדְךָ מַהֵר מִפְּנֵי רֹעַ מַֽעֲלָלֶיךָ אֲשֶׁר עֲזַבְתָּֽנִי",
+          "source": {
+            "book": "דברים",
+            "chapter": 28,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you?",
+          "13": "Now therefore deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel. But the children of Benjamin would not hearken to the voice of their brethren the children of Israel:"
+        },
+        "he": {
+          "12": "וַֽיִּשְׁלְחוּ שִׁבְטֵי יִשְׂרָאֵל אֲנָשִׁים בְּכָל־שִׁבְטֵי בִנְיָמִן לֵאמֹר מָה הָרָעָה הַזֹּאת אֲשֶׁר נִהְיְתָה בָּכֶֽם׃",
+          "13": "וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל וְלֹא אָבוּ בְנֵי בִּנְיָמִן לִשְׁמֹעַ בְּקוֹל אֲחֵיהֶם בְּנֵֽי־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 12,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-20-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And the LORD said, Go up; for to morrow I will deliver them into thine hand.",
+        "riddle": "Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease?",
+        "speaker": "Phinehas",
+        "listener": "LORD",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Gideon",
+            "Samson",
+            "Eli"
+          ],
+          "listener": [
+            "Micah",
+            "Gideon",
+            "Samson"
+          ]
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "And he said, God forbid that I should do so: but the man in whose hand the cup is found, he shall be my servant; and as for you, get you up in peace unto your father.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 44,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וּפִינְחָס בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל וַיֹּאמֶר יְהוָה עֲלוּ כִּי מָחָר אֶתְּנֶנּוּ בְיָדֶֽךָ",
+        "riddle": "בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל",
+        "speaker": "פִינְחָס",
+        "listener": "יְהוָה",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן",
+            "עָלַי"
+          ],
+          "listener": [
+            "מִיכָה",
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן"
+          ]
+        },
+        "bonus": "עֲלוּ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר חָלִילָה לִּי מֵעֲשׂוֹת זֹאת הָאִישׁ אֲשֶׁר נִמְצָא הַגָּבִיעַ בְּיָדוֹ הוּא יִהְיֶה־לִּי עָבֶד וְאַתֶּם עֲלוּ לְשָׁלוֹם אֶל־אֲבִיכֶֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 44,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And the LORD said, Go up; for to morrow I will deliver them into thine hand."
+        },
+        "he": {
+          "28": "וּפִינְחָס בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד ׀ לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל וַיֹּאמֶר יְהוָה עֲלוּ כִּי מָחָר אֶתְּנֶנּוּ בְיָדֶֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 28,
+        "end": 28
       },
       "meta": {
         "mode": "llm",

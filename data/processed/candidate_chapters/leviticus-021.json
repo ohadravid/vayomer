@@ -4,12 +4,154 @@
   "book_he": "ויקרא",
   "chapter": 21,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-21-01-01",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 21,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:",
+        "riddle": "There shall none be defiled for the dead among his people:",
+        "speaker": "the LORD",
+        "listener": "priests",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־הַכֹּהֲנִים בְּנֵי אַהֲרֹן וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו",
+        "riddle": "אֱמֹר אֶל־הַכֹּהֲנִים בְּנֵי אַהֲרֹן וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו",
+        "speaker": "יְהוָה",
+        "listener": "הַכֹּהֲנִים בְּנֵי אַהֲרֹן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Moses, Speak unto the priests the sons of Aaron, and say unto them, There shall none be defiled for the dead among his people:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־הַכֹּהֲנִים בְּנֵי אַהֲרֹן וְאָמַרְתָּ אֲלֵהֶם לְנֶפֶשׁ לֹֽא־יִטַּמָּא בְּעַמָּֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "leviticus-21-15-15",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 21,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Neither shall he profane his seed among his people: for I the LORD do sanctify him.",
+        "riddle": "for I the LORD do sanctify him",
+        "speaker": "the LORD",
+        "listener": "priests",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וְלֹֽא־יְחַלֵּל זַרְעוֹ בְּעַמָּיו כִּי אֲנִי יְהוָה מְקַדְּשֽׁוֹ",
+        "riddle": "כִּי אֲנִי יְהוָה מְקַדְּשֽׁוֹ",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Neither shall he profane his seed among his people: for I the LORD do sanctify him.",
+          "16": "And the LORD spake unto Moses, saying,",
+          "17": "Speak unto Aaron, saying, Whosoever he be of thy seed in their generations that hath any blemish, let him not approach to offer the bread of his God."
+        },
+        "he": {
+          "15": "וְלֹֽא־יְחַלֵּל זַרְעוֹ בְּעַמָּיו כִּי אֲנִי יְהוָה מְקַדְּשֽׁוֹ׃",
+          "16": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "17": "דַּבֵּר אֶֽל־אַהֲרֹן לֵאמֹר אִישׁ מִֽזַּרְעֲךָ לְדֹרֹתָם אֲשֶׁר יִהְיֶה בוֹ מוּם לֹא יִקְרַב לְהַקְרִיב לֶחֶם אֱלֹהָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "leviticus-21-17-17",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 21,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Speak unto Aaron, saying, Whosoever he be of thy seed in their generations that hath any blemish, let him not approach to offer the bread of his God.",
+        "riddle": "Whosoever he be of thy seed in their generations that hath any blemish, let him not approach to offer the bread of his God",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶֽל־אַהֲרֹן לֵאמֹר אִישׁ מִֽזַּרְעֲךָ לְדֹרֹתָם אֲשֶׁר יִהְיֶה בוֹ מוּם לֹא יִקְרַב לְהַקְרִיב לֶחֶם אֱלֹהָֽיו",
+        "riddle": "דַּבֵּר אֶֽל־אַהֲרֹן לֵאמֹר אִישׁ מִֽזַּרְעֲךָ לְדֹרֹתָם אֲשֶׁר יִהְיֶה בוֹ מוּם לֹא יִקְרַב לְהַקְרִיב לֶחֶם אֱלֹהָֽיו",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the LORD spake unto Moses, saying,",
+          "17": "Speak unto Aaron, saying, Whosoever he be of thy seed in their generations that hath any blemish, let him not approach to offer the bread of his God."
+        },
+        "he": {
+          "16": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "17": "דַּבֵּר אֶֽל־אַהֲרֹן לֵאמֹר אִישׁ מִֽזַּרְעֲךָ לְדֹרֹתָם אֲשֶׁר יִהְיֶה בוֹ מוּם לֹא יִקְרַב לְהַקְרִיב לֶחֶם אֱלֹהָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
   "stats": {
-    "window_count": 5,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 0,
-    "issue_count": 5
+    "llm_window_count": 2,
+    "projection_llm_count": 3,
+    "llm_call_count": 5,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

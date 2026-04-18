@@ -6,7 +6,87 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-04-21-21",
+      "id": "joshua-04-15-16",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 14,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "On that day the LORD magnified Joshua in the sight of all Israel; and they feared him, as they feared Moses, all the days of his life. And the LORD spake unto Joshua, saying, Command the priests that bear the ark of the testimony, that they come up out of Jordan.",
+        "riddle": "Command the priests that bear the ark of the testimony, that they come up out of Jordan.",
+        "speaker": "LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Moses",
+        "bonus_hint": {
+          "quote": "And it came to pass, that on the sixth day they gathered twice as much bread, two omers for one man: and all the rulers of the congregation came and told Moses.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 16,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "בַּיּוֹם הַהוּא גִּדַּל יְהוָה אֶת־יְהוֹשֻׁעַ בְּעֵינֵי כָּל־יִשְׂרָאֵל וַיִּֽרְאוּ אֹתוֹ כַּאֲשֶׁר יָרְאוּ אֶת־מֹשֶׁה כָּל־יְמֵי חַיָּֽיו וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן",
+        "riddle": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּיּוֹם",
+        "bonus_hint": {
+          "quote": "וַיְהִי בַּיּוֹם הַשִּׁשִּׁי לָֽקְטוּ לֶחֶם מִשְׁנֶה שְׁנֵי הָעֹמֶר לָאֶחָד וַיָּבֹאוּ כָּל־נְשִׂיאֵי הָֽעֵדָה וַיַּגִּידוּ לְמֹשֶֽׁה",
+          "source": {
+            "book": "שמות",
+            "chapter": 16,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "On that day the LORD magnified Joshua in the sight of all Israel; and they feared him, as they feared Moses, all the days of his life.",
+          "15": "And the LORD spake unto Joshua, saying,",
+          "16": "Command the priests that bear the ark of the testimony, that they come up out of Jordan."
+        },
+        "he": {
+          "14": "בַּיּוֹם הַהוּא גִּדַּל יְהוָה אֶת־יְהוֹשֻׁעַ בְּעֵינֵי כָּל־יִשְׂרָאֵל וַיִּֽרְאוּ אֹתוֹ כַּאֲשֶׁר יָרְאוּ אֶת־מֹשֶׁה כָּל־יְמֵי חַיָּֽיו׃",
+          "15": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר׃",
+          "16": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 14,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-04-22-22",
       "source": {
         "method": "llm",
         "book_code": "JOS",
@@ -14,34 +94,36 @@
         "book_he": "יהושע",
         "chapter": 4,
         "quote_verse_start": 16,
-        "quote_verse_end": 22
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
       },
       "en": {
         "quote": "Command the priests that bear the ark of the testimony, that they come up out of Jordan. Joshua therefore commanded the priests, saying, Come ye up out of Jordan. And it came to pass, when the priests that bare the ark of the covenant of the LORD were come up out of the midst of Jordan, and the soles of the priests' feet were lifted up unto the dry land, that the waters of Jordan returned unto their place, and flowed over all his banks, as they did before. And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho. And those twelve stones, which they took out of Jordan, did Joshua pitch in Gilgal. And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones? Then ye shall let your children know, saying, Israel came over this Jordan on dry land.",
-        "riddle": "What mean these stones?",
-        "speaker": "Children of Israel",
-        "listener": "Fathers of Israel",
+        "riddle": "Israel came over this Jordan on dry land.",
+        "speaker": "parents",
+        "listener": "children",
         "book": "Joshua",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "priests",
+        "bonus": "ark",
         "bonus_hint": {
-          "quote": "Only the land of the priests bought he not; for the priests had a portion assigned them of Pharaoh, and did eat their portion which Pharaoh gave them: wherefore they sold not their lands.",
+          "quote": "And Moses wrote this law, and delivered it unto the priests the sons of Levi, which bare the ark of the covenant of the LORD, and unto all the elders of Israel.",
           "source": {
-            "book": "Genesis",
-            "chapter": 47,
-            "start": 22,
-            "end": 22
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
           }
         }
       },
       "he": {
         "quote": "צַוֵּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן הָעֵדוּת וְיַעֲלוּ מִן־הַיַּרְדֵּֽן וַיְצַו יְהוֹשֻׁעַ אֶת־הַכֹּהֲנִים לֵאמֹר עֲלוּ מִן־הַיַּרְדֵּֽן וַיְהִי כַּעֲלוֹת הַכֹּהֲנִים נֹשְׂאֵי אֲרוֹן בְּרִית־יְהוָה מִתּוֹךְ הַיַּרְדֵּן נִתְּקוּ כַּפּוֹת רַגְלֵי הַכֹּהֲנִים אֶל הֶחָרָבָה וַיָּשֻׁבוּ מֵֽי־הַיַּרְדֵּן לִמְקוֹמָם וַיֵּלְכוּ כִתְמוֹל־שִׁלְשׁוֹם עַל־כָּל־גְּדוֹתָֽיו וְהָעָם עָלוּ מִן־הַיַּרְדֵּן בֶּעָשׂוֹר לַחֹדֶשׁ הָרִאשׁוֹן וַֽיַּחֲנוּ בַּגִּלְגָּל בִּקְצֵה מִזְרַח יְרִיחֽוֹ וְאֵת שְׁתֵּים עֶשְׂרֵה הָֽאֲבָנִים הָאֵלֶּה אֲשֶׁר לָקְחוּ מִן־הַיַּרְדֵּן הֵקִים יְהוֹשֻׁעַ בַּגִּלְגָּֽל וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה וְהוֹדַעְתֶּם אֶת־בְּנֵיכֶם לֵאמֹר בַּיַּבָּשָׁה עָבַר יִשְׂרָאֵל אֶת־הַיַּרְדֵּן הַזֶּֽה",
-        "riddle": "מָה הָאֲבָנִים הָאֵֽלֶּה",
-        "speaker": "בְּנֵיכֶם",
-        "listener": "אֲבוֹתָם",
+        "riddle": "בַּיַּבָּשָׁה עָבַר יִשְׂרָאֵל אֶת־הַיַּרְדֵּן הַזֶּֽה",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "בְּנֵיכֶם",
         "book": "יהושע",
         "options": {
           "speaker": [],
@@ -49,12 +131,12 @@
         },
         "bonus": "הַכֹּהֲנִים",
         "bonus_hint": {
-          "quote": "רַק אַדְמַת הַכֹּהֲנִים לֹא קָנָה כִּי חֹק לַכֹּהֲנִים מֵאֵת פַּרְעֹה וְאָֽכְלוּ אֶת־חֻקָּם אֲשֶׁר נָתַן לָהֶם פַּרְעֹה עַל־כֵּן לֹא מָכְרוּ אֶת־אַדְמָתָֽם",
+          "quote": "וַיִּכְתֹּב מֹשֶׁה אֶת־הַתּוֹרָה הַזֹּאת וַֽיִּתְּנָהּ אֶל־הַכֹּהֲנִים בְּנֵי לֵוִי הַנֹּשְׂאִים אֶת־אֲרוֹן בְּרִית יְהוָה וְאֶל־כָּל־זִקְנֵי יִשְׂרָאֵֽל",
           "source": {
-            "book": "בראשית",
-            "chapter": 47,
-            "start": 22,
-            "end": 22
+            "book": "דברים",
+            "chapter": 31,
+            "start": 9,
+            "end": 9
           }
         }
       },
@@ -82,6 +164,158 @@
         "chapter": 4,
         "start": 16,
         "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-04-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Joshua therefore commanded the priests, saying, Come ye up out of Jordan.",
+        "riddle": "Come ye up out of Jordan.",
+        "speaker": "Joshua",
+        "listener": "priests",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "commanded",
+        "bonus_hint": {
+          "quote": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְצַו יְהוֹשֻׁעַ אֶת־הַכֹּהֲנִים לֵאמֹר עֲלוּ מִן־הַיַּרְדֵּֽן",
+        "riddle": "עֲלוּ מִן־הַיַּרְדֵּֽן",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הַכֹּהֲנִים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְצַו",
+        "bonus_hint": {
+          "quote": "וַיְצַו יְהוָה אֱלֹהִים עַל־הָֽאָדָם לֵאמֹר מִכֹּל עֵֽץ־הַגָּן אָכֹל תֹּאכֵֽל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Joshua therefore commanded the priests, saying, Come ye up out of Jordan."
+        },
+        "he": {
+          "17": "וַיְצַו יְהוֹשֻׁעַ אֶת־הַכֹּהֲנִים לֵאמֹר עֲלוּ מִן־הַיַּרְדֵּֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 17,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-04-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 4,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?",
+        "riddle": "What mean these stones?",
+        "speaker": "children of Israel",
+        "listener": "fathers",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "time",
+        "bonus_hint": {
+          "quote": "For, behold, in those days, and in that time, when I shall bring again the captivity of Judah and Jerusalem,",
+          "source": {
+            "book": "Joel",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה",
+        "riddle": "מָה הָאֲבָנִים הָאֵֽלֶּה",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "אֲבוֹתָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּנֵיכֶם",
+        "bonus_hint": {
+          "quote": "וְהָיָה אַֽחֲרֵי־כֵן אֶשְׁפּוֹךְ אֶת־רוּחִי עַל־כָּל־בָּשָׂר וְנִבְּאוּ בְּנֵיכֶם וּבְנֽוֹתֵיכֶם זִקְנֵיכֶם חֲלֹמוֹת יַחֲלֹמוּן בַּחוּרֵיכֶם חֶזְיֹנוֹת יִרְאֽוּ",
+          "source": {
+            "book": "יואל",
+            "chapter": 3,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And he spake unto the children of Israel, saying, When your children shall ask their fathers in time to come, saying, What mean these stones?"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אֲשֶׁר יִשְׁאָלוּן בְּנֵיכֶם מָחָר אֶת־אֲבוֹתָם לֵאמֹר מָה הָאֲבָנִים הָאֵֽלֶּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 21,
+        "end": 21
       },
       "meta": {
         "mode": "llm",

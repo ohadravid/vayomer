@@ -6,6 +6,100 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-06-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it: That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged. Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey.",
+        "riddle": "to keep all his statutes and his commandments, which I command thee",
+        "speaker": "LORD",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "angel of the LORD"
+          ],
+          "listener": [
+            "people",
+            "children",
+            "Philistines"
+          ]
+        },
+        "bonus": "commanded",
+        "bonus_hint": {
+          "quote": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 27,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וְזֹאת הַמִּצְוָה הַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם לְלַמֵּד אֶתְכֶם לַעֲשׂוֹת בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּֽהּ לְמַעַן תִּירָא אֶת־יְהוָה אֱלֹהֶיךָ לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ כֹּל יְמֵי חַיֶּיךָ וּלְמַעַן יַאֲרִכֻן יָמֶֽיךָ וְשָׁמַעְתָּ יִשְׂרָאֵל וְשָׁמַרְתָּ לַעֲשׂוֹת אֲשֶׁר יִיטַב לְךָ וַאֲשֶׁר תִּרְבּוּן מְאֹד כַּאֲשֶׁר דִּבֶּר יְהוָה אֱלֹהֵי אֲבֹתֶיךָ לָךְ אֶרֶץ זָבַת חָלָב וּדְבָֽשׁ",
+        "riddle": "לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "מַלְאַךְ יְהוָה"
+          ],
+          "listener": [
+            "הָעָם",
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים"
+          ]
+        },
+        "bonus": "הַמִּצְוָה",
+        "bonus_hint": {
+          "quote": "וַיְצַו מֹשֶׁה וְזִקְנֵי יִשְׂרָאֵל אֶת־הָעָם לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם",
+          "source": {
+            "book": "דברים",
+            "chapter": 27,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it:",
+          "2": "That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged.",
+          "3": "Hear therefore, O Israel, and observe to do it; that it may be well with thee, and that ye may increase mightily, as the LORD God of thy fathers hath promised thee, in the land that floweth with milk and honey."
+        },
+        "he": {
+          "1": "וְזֹאת הַמִּצְוָה הַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם לְלַמֵּד אֶתְכֶם לַעֲשׂוֹת בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּֽהּ׃",
+          "2": "לְמַעַן תִּירָא אֶת־יְהוָה אֱלֹהֶיךָ לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ כֹּל יְמֵי חַיֶּיךָ וּלְמַעַן יַאֲרִכֻן יָמֶֽיךָ׃",
+          "3": "וְשָׁמַעְתָּ יִשְׂרָאֵל וְשָׁמַרְתָּ לַעֲשׂוֹת אֲשֶׁר יִיטַב לְךָ וַאֲשֶׁר תִּרְבּוּן מְאֹד כַּאֲשֶׁר דִּבֶּר יְהוָה אֱלֹהֵי אֲבֹתֶיךָ לָךְ אֶרֶץ זָבַת חָלָב וּדְבָֽשׁ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "deuteronomy-06-21-21",
       "source": {
         "method": "llm",
@@ -19,19 +113,19 @@
       "en": {
         "quote": "(For the LORD thy God is a jealous God among you) lest the anger of the LORD thy God be kindled against thee, and destroy thee from off the face of the earth. Ye shall not tempt the LORD your God, as ye tempted him in Massah. Ye shall diligently keep the commandments of the LORD your God, and his testimonies, and his statutes, which he hath commanded thee. And thou shalt do that which is right and good in the sight of the LORD: that it may be well with thee, and that thou mayest go in and possess the good land which the LORD sware unto thy fathers, To cast out all thine enemies from before thee, as the LORD hath spoken. And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you? Then thou shalt say unto thy son, We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
         "riddle": "We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
-        "speaker": "Parent",
-        "listener": "Son",
+        "speaker": "parent",
+        "listener": "son",
         "book": "Deuteronomy",
         "options": {
           "speaker": [
             "Joshua",
-            "Samuel",
-            "David"
+            "Philistines",
+            "Levites"
           ],
           "listener": [
-            "Moses",
             "Joshua",
-            "Jacob"
+            "Balaam",
+            "Balak"
           ]
         },
         "bonus": "jealous",
@@ -47,20 +141,20 @@
       },
       "he": {
         "quote": "כִּי אֵל קַנָּא יְהוָה אֱלֹהֶיךָ בְּקִרְבֶּךָ פֶּן־יֶחֱרֶה אַף־יְהוָה אֱלֹהֶיךָ בָּךְ וְהִשְׁמִידְךָ מֵעַל פְּנֵי הָאֲדָמָֽה לֹא תְנַסּוּ אֶת־יְהוָה אֱלֹהֵיכֶם כַּאֲשֶׁר נִסִּיתֶם בַּמַּסָּֽה שָׁמוֹר תִּשְׁמְרוּן אֶת־מִצְוֺת יְהוָה אֱלֹהֵיכֶם וְעֵדֹתָיו וְחֻקָּיו אֲשֶׁר צִוָּֽךְ וְעָשִׂיתָ הַיָּשָׁר וְהַטּוֹב בְּעֵינֵי יְהוָה לְמַעַן יִיטַב לָךְ וּבָאתָ וְיָֽרַשְׁתָּ אֶת־הָאָרֶץ הַטֹּבָה אֲשֶׁר־נִשְׁבַּע יְהוָה לַאֲבֹתֶֽיךָ לַהֲדֹף אֶת־כָּל־אֹיְבֶיךָ מִפָּנֶיךָ כַּאֲשֶׁר דִּבֶּר יְהוָֽה כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם וְאָמַרְתָּ לְבִנְךָ עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה",
-        "riddle": "עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה",
-        "speaker": "הורה",
-        "listener": "בְּנוֹ",
+        "riddle": "עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ",
+        "speaker": "אָב",
+        "listener": "בֵּֽן",
         "book": "דברים",
         "options": {
           "speaker": [
-            "יִהוֹשֻֽׁעַ",
-            "שְׁמוּאֵל",
-            "דָּוִד"
+            "יְהוֹשֻׁעַ",
+            "פְּלִשְׁתִּים",
+            "הַלְוִיִּֽם"
           ],
           "listener": [
-            "מֹשֶׁה",
-            "יִהוֹשֻֽׁעַ",
-            "יַעֲקֹב"
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "בָּלָק"
           ]
         },
         "bonus": "קַנָּא",
@@ -98,6 +192,108 @@
         "chapter": 6,
         "start": 15,
         "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-06-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 6,
+        "quote_verse_start": 18,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And thou shalt do that which is right and good in the sight of the LORD: that it may be well with thee, and that thou mayest go in and possess the good land which the LORD sware unto thy fathers, To cast out all thine enemies from before thee, as the LORD hath spoken. And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you? Then thou shalt say unto thy son, We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand: And the LORD shewed signs and wonders, great and sore, upon Egypt, upon Pharaoh, and upon all his household, before our eyes: And he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers. And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as it is at this day.",
+        "riddle": "What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?",
+        "speaker": "son",
+        "listener": "parent",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Joshua",
+            "Balaam"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Manoah"
+          ]
+        },
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And the LORD said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 21,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "וְעָשִׂיתָ הַיָּשָׁר וְהַטּוֹב בְּעֵינֵי יְהוָה לְמַעַן יִיטַב לָךְ וּבָאתָ וְיָֽרַשְׁתָּ אֶת־הָאָרֶץ הַטֹּבָה אֲשֶׁר־נִשְׁבַּע יְהוָה לַאֲבֹתֶֽיךָ לַהֲדֹף אֶת־כָּל־אֹיְבֶיךָ מִפָּנֶיךָ כַּאֲשֶׁר דִּבֶּר יְהוָֽה כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם וְאָמַרְתָּ לְבִנְךָ עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה וַיִּתֵּן יְהוָה אוֹתֹת וּמֹפְתִים גְּדֹלִים וְרָעִים בְּמִצְרַיִם בְּפַרְעֹה וּבְכָל־בֵּיתוֹ לְעֵינֵֽינוּ וְאוֹתָנוּ הוֹצִיא מִשָּׁם לְמַעַן הָבִיא אֹתָנוּ לָתֶת לָנוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לַאֲבֹתֵֽינוּ וַיְצַוֵּנוּ יְהוָה לַעֲשׂוֹת אֶת־כָּל־הַחֻקִּים הָאֵלֶּה לְיִרְאָה אֶת־יְהוָה אֱלֹהֵינוּ לְטוֹב לָנוּ כָּל־הַיָּמִים לְחַיֹּתֵנוּ כְּהַיּוֹם הַזֶּֽה",
+        "riddle": "מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם",
+        "speaker": "בִנְךָ",
+        "listener": "אָבִיךָ",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "מָנוֹחַ"
+          ]
+        },
+        "bonus": "וְעָשִׂיתָ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אַל־תִּירָא אֹתוֹ כִּי בְיָדְךָ נָתַתִּי אֹתוֹ וְאֶת־כָּל־עַמּוֹ וְאֶת־אַרְצוֹ וְעָשִׂיתָ לּוֹ כַּאֲשֶׁר עָשִׂיתָ לְסִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּֽוֹן",
+          "source": {
+            "book": "במדבר",
+            "chapter": 21,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And thou shalt do that which is right and good in the sight of the LORD: that it may be well with thee, and that thou mayest go in and possess the good land which the LORD sware unto thy fathers,",
+          "19": "To cast out all thine enemies from before thee, as the LORD hath spoken.",
+          "20": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?",
+          "21": "Then thou shalt say unto thy son, We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
+          "22": "And the LORD shewed signs and wonders, great and sore, upon Egypt, upon Pharaoh, and upon all his household, before our eyes:",
+          "23": "And he brought us out from thence, that he might bring us in, to give us the land which he sware unto our fathers.",
+          "24": "And the LORD commanded us to do all these statutes, to fear the LORD our God, for our good always, that he might preserve us alive, as it is at this day."
+        },
+        "he": {
+          "18": "וְעָשִׂיתָ הַיָּשָׁר וְהַטּוֹב בְּעֵינֵי יְהוָה לְמַעַן יִיטַב לָךְ וּבָאתָ וְיָֽרַשְׁתָּ אֶת־הָאָרֶץ הַטֹּבָה אֲשֶׁר־נִשְׁבַּע יְהוָה לַאֲבֹתֶֽיךָ׃",
+          "19": "לַהֲדֹף אֶת־כָּל־אֹיְבֶיךָ מִפָּנֶיךָ כַּאֲשֶׁר דִּבֶּר יְהוָֽה׃",
+          "20": "כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם׃",
+          "21": "וְאָמַרְתָּ לְבִנְךָ עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה׃",
+          "22": "וַיִּתֵּן יְהוָה אוֹתֹת וּמֹפְתִים גְּדֹלִים וְרָעִים ׀ בְּמִצְרַיִם בְּפַרְעֹה וּבְכָל־בֵּיתוֹ לְעֵינֵֽינוּ׃",
+          "23": "וְאוֹתָנוּ הוֹצִיא מִשָּׁם לְמַעַן הָבִיא אֹתָנוּ לָתֶת לָנוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לַאֲבֹתֵֽינוּ׃",
+          "24": "וַיְצַוֵּנוּ יְהוָה לַעֲשׂוֹת אֶת־כָּל־הַחֻקִּים הָאֵלֶּה לְיִרְאָה אֶת־יְהוָה אֱלֹהֵינוּ לְטוֹב לָנוּ כָּל־הַיָּמִים לְחַיֹּתֵנוּ כְּהַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 18,
+        "end": 24
       },
       "meta": {
         "mode": "llm",

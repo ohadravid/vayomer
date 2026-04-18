@@ -4,12 +4,641 @@
   "book_he": "שופטים",
   "chapter": 8,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "judges-08-01-01",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply.",
+        "riddle": "Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites?",
+        "speaker": "men of Ephraim",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו אִישׁ אֶפְרַיִם מָֽה־הַדָּבָר הַזֶּה עָשִׂיתָ לָּנוּ לְבִלְתִּי קְרֹאות לָנוּ כִּי הָלַכְתָּ לְהִלָּחֵם בְּמִדְיָן וַיְרִיבוּן אִתּוֹ בְּחָזְקָֽה",
+        "riddle": "מָֽה־הַדָּבָר הַזֶּה עָשִׂיתָ לָּנוּ לְבִלְתִּי קְרֹאות לָנוּ כִּי הָלַכְתָּ לְהִלָּחֵם בְּמִדְיָן וַיְרִיבוּן אִתּוֹ בְּחָזְקָֽה",
+        "speaker": "אִישׁ אֶפְרַיִם",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ אֵלָיו אִישׁ אֶפְרַיִם מָֽה־הַדָּבָר הַזֶּה עָשִׂיתָ לָּנוּ לְבִלְתִּי קְרֹאות לָנוּ כִּי הָלַכְתָּ לְהִלָּחֵם בְּמִדְיָן וַיְרִיבוּן אִתּוֹ בְּחָזְקָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "judges-08-02-02",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And he said unto them, What have I done now in comparison of you? Is not the gleaning of the grapes of Ephraim better than the vintage of Abi-ezer?",
+        "riddle": "What have I done now in comparison of you? Is not the gleaning of the grapes of Ephraim better than the vintage of Abi-ezer?",
+        "speaker": "Gideon",
+        "listener": "men of Ephraim",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם מֶה־עָשִׂיתִי עַתָּה כָּכֶם הֲלוֹא טוֹב עֹלְלוֹת אֶפְרַיִם מִבְצִיר אֲבִיעֶֽזֶר",
+        "riddle": "מֶה־עָשִׂיתִי עַתָּה כָּכֶם הֲלוֹא טוֹב עֹלְלוֹת אֶפְרַיִם מִבְצִיר אֲבִיעֶֽזֶר",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אִישׁ אֶפְרַיִם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the men of Ephraim said unto him, Why hast thou served us thus, that thou calledst us not, when thou wentest to fight with the Midianites? And they did chide with him sharply.",
+          "2": "And he said unto them, What have I done now in comparison of you? Is not the gleaning of the grapes of Ephraim better than the vintage of Abi-ezer?"
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ אֵלָיו אִישׁ אֶפְרַיִם מָֽה־הַדָּבָר הַזֶּה עָשִׂיתָ לָּנוּ לְבִלְתִּי קְרֹאות לָנוּ כִּי הָלַכְתָּ לְהִלָּחֵם בְּמִדְיָן וַיְרִיבוּן אִתּוֹ בְּחָזְקָֽה׃",
+          "2": "וַיֹּאמֶר אֲלֵיהֶם מֶה־עָשִׂיתִי עַתָּה כָּכֶם הֲלוֹא טוֹב עֹלְלוֹת אֶפְרַיִם מִבְצִיר אֲבִיעֶֽזֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "judges-08-05-05",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And he said unto the men of Succoth, Give, I pray you, loaves of bread unto the people that follow me; for they be faint, and I am pursuing after Zebah and Zalmunna, kings of Midian.",
+        "riddle": "Give, I pray you, loaves of bread unto the people that follow me; for they be faint, and I am pursuing after Zebah and Zalmunna, kings of Midian.",
+        "speaker": "Gideon",
+        "listener": "men of Succoth",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְאַנְשֵׁי סֻכּוֹת תְּנוּ־נָא כִּכְּרוֹת לֶחֶם לָעָם אֲשֶׁר בְּרַגְלָי כִּי־עֲיֵפִים הֵם וְאָנֹכִי רֹדֵף אַחֲרֵי זֶבַח וְצַלְמֻנָּע מַלְכֵי מִדְיָֽן",
+        "riddle": "תְּנוּ־נָא כִּכְּרוֹת לֶחֶם לָעָם אֲשֶׁר בְּרַגְלָי כִּי־עֲיֵפִים הֵם וְאָנֹכִי רֹדֵף אַחֲרֵי זֶבַח וְצַלְמֻנָּע מַלְכֵי מִדְיָֽן",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אַנְשֵׁי סֻכּוֹת",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he said unto the men of Succoth, Give, I pray you, loaves of bread unto the people that follow me; for they be faint, and I am pursuing after Zebah and Zalmunna, kings of Midian."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר לְאַנְשֵׁי סֻכּוֹת תְּנוּ־נָא כִּכְּרוֹת לֶחֶם לָעָם אֲשֶׁר בְּרַגְלָי כִּי־עֲיֵפִים הֵם וְאָנֹכִי רֹדֵף אַחֲרֵי זֶבַח וְצַלְמֻנָּע מַלְכֵי מִדְיָֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "command/request",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "judges-08-06-06",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the princes of Succoth said, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thine army?",
+        "riddle": "Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thine army?",
+        "speaker": "princes of Succoth",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׂרֵי סֻכּוֹת הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּֽי־נִתֵּן לִֽצְבָאֲךָ לָֽחֶם",
+        "riddle": "הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּֽי־נִתֵּן לִֽצְבָאֲךָ לָֽחֶם",
+        "speaker": "שָׂרֵי סֻכּוֹת",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he said unto the men of Succoth, Give, I pray you, loaves of bread unto the people that follow me; for they be faint, and I am pursuing after Zebah and Zalmunna, kings of Midian.",
+          "6": "And the princes of Succoth said, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thine army?"
+        },
+        "he": {
+          "5": "וַיֹּאמֶר לְאַנְשֵׁי סֻכּוֹת תְּנוּ־נָא כִּכְּרוֹת לֶחֶם לָעָם אֲשֶׁר בְּרַגְלָי כִּי־עֲיֵפִים הֵם וְאָנֹכִי רֹדֵף אַחֲרֵי זֶבַח וְצַלְמֻנָּע מַלְכֵי מִדְיָֽן׃",
+          "6": "וַיֹּאמֶר שָׂרֵי סֻכּוֹת הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּֽי־נִתֵּן לִֽצְבָאֲךָ לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "judges-08-07-07",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Gideon said, Therefore when the LORD hath delivered Zebah and Zalmunna into mine hand, then I will tear your flesh with the thorns of the wilderness and with briers.",
+        "riddle": "Therefore when the LORD hath delivered Zebah and Zalmunna into mine hand, then I will tear your flesh with the thorns of the wilderness and with briers.",
+        "speaker": "Gideon",
+        "listener": "princes of Succoth",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר גִּדְעוֹן לָכֵן בְּתֵת יְהוָה אֶת־זֶבַח וְאֶת־צַלְמֻנָּע בְּיָדִי וְדַשְׁתִּי אֶת־בְּשַׂרְכֶם אֶת־קוֹצֵי הַמִּדְבָּר וְאֶת־הַֽבַּרְקֳנִֽים",
+        "riddle": "וַיֹּאמֶר גִּדְעוֹן לָכֵן בְּתֵת יְהוָה אֶת־זֶבַח וְאֶת־צַלְמֻנָּע בְּיָדִי וְדַשְׁתִּי אֶת־בְּשַׂרְכֶם אֶת־קוֹצֵי הַמִּדְבָּר וְאֶת־הַֽבַּרְקֳנִֽים",
+        "speaker": "גִּדְעוֹן",
+        "listener": "שָׂרֵי סֻכּוֹת",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the princes of Succoth said, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thine army?",
+          "7": "And Gideon said, Therefore when the LORD hath delivered Zebah and Zalmunna into mine hand, then I will tear your flesh with the thorns of the wilderness and with briers."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר שָׂרֵי סֻכּוֹת הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּֽי־נִתֵּן לִֽצְבָאֲךָ לָֽחֶם׃",
+          "7": "וַיֹּאמֶר גִּדְעוֹן לָכֵן בְּתֵת יְהוָה אֶת־זֶבַח וְאֶת־צַלְמֻנָּע בְּיָדִי וְדַשְׁתִּי אֶת־בְּשַׂרְכֶם אֶת־קוֹצֵי הַמִּדְבָּר וְאֶת־הַֽבַּרְקֳנִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "threat/declaration",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "judges-08-09-09",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And he spake also unto the men of Penuel, saying, When I come again in peace, I will break down this tower.",
+        "riddle": "When I come again in peace, I will break down this tower.",
+        "speaker": "Gideon",
+        "listener": "men of Penuel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר גַּם־לְאַנְשֵׁי פְנוּאֵל לֵאמֹר בְּשׁוּבִי בְשָׁלוֹם אֶתֹּץ אֶת־הַמִּגְדָּל הַזֶּֽה",
+        "riddle": "בְּשׁוּבִי בְשָׁלוֹם אֶתֹּץ אֶת־הַמִּגְדָּל הַזֶּֽה",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אַנְשֵׁי פְנוּאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he spake also unto the men of Penuel, saying, When I come again in peace, I will break down this tower."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר גַּם־לְאַנְשֵׁי פְנוּאֵל לֵאמֹר בְּשׁוּבִי בְשָׁלוֹם אֶתֹּץ אֶת־הַמִּגְדָּל הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct threat/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "judges-08-15-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he came unto the men of Succoth, and said, Behold Zebah and Zalmunna, with whom ye did upbraid me, saying, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thy men that are weary?",
+        "riddle": "Behold Zebah and Zalmunna, with whom ye did upbraid me, saying, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thy men that are weary?",
+        "speaker": "Gideon",
+        "listener": "men of Succoth",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֶל־אַנְשֵׁי סֻכּוֹת וַיֹּאמֶר הִנֵּה זֶבַח וְצַלְמֻנָּע אֲשֶׁר חֵרַפְתֶּם אוֹתִי לֵאמֹר הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּי נִתֵּן לַאֲנָשֶׁיךָ הַיְּעֵפִים לָֽחֶם",
+        "riddle": "הִנֵּה זֶבַח וְצַלְמֻנָּע אֲשֶׁר חֵרַפְתֶּם אוֹתִי לֵאמֹר הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּי נִתֵּן לַאֲנָשֶׁיךָ הַיְּעֵפִים לָֽחֶם",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אַנְשֵׁי סֻכּוֹת",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And caught a young man of the men of Succoth, and inquired of him: and he described unto him the princes of Succoth, and the elders thereof, even threescore and seventeen men.",
+          "15": "And he came unto the men of Succoth, and said, Behold Zebah and Zalmunna, with whom ye did upbraid me, saying, Are the hands of Zebah and Zalmunna now in thine hand, that we should give bread unto thy men that are weary?"
+        },
+        "he": {
+          "14": "וַיִּלְכָּד־נַעַר מֵאַנְשֵׁי סֻכּוֹת וַיִּשְׁאָלֵהוּ וַיִּכְתֹּב אֵלָיו אֶת־שָׂרֵי סֻכּוֹת וְאֶת־זְקֵנֶיהָ שִׁבְעִים וְשִׁבְעָה אִֽישׁ׃",
+          "15": "וַיָּבֹא אֶל־אַנְשֵׁי סֻכּוֹת וַיֹּאמֶר הִנֵּה זֶבַח וְצַלְמֻנָּע אֲשֶׁר חֵרַפְתֶּם אוֹתִי לֵאמֹר הֲכַף זֶבַח וְצַלְמֻנָּע עַתָּה בְּיָדֶךָ כִּי נִתֵּן לַאֲנָשֶׁיךָ הַיְּעֵפִים לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and accusation",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "judges-08-18-18",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king.",
+        "riddle": "What manner of men were they whom ye slew at Tabor?",
+        "speaker": "Gideon",
+        "listener": "Zebah and Zalmunna",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־זֶבַח וְאֶל־צַלְמֻנָּע אֵיפֹה הָאֲנָשִׁים אֲשֶׁר הֲרַגְתֶּם בְּתָבוֹר וַֽיֹּאמרוּ כָּמוֹךָ כְמוֹהֶם אֶחָד כְּתֹאַר בְּנֵי הַמֶּֽלֶךְ",
+        "riddle": "אֵיפֹה הָאֲנָשִׁים אֲשֶׁר הֲרַגְתֶּם בְּתָבוֹר וַֽיֹּאמרוּ כָּמוֹךָ כְמוֹהֶם אֶחָד כְּתֹאַר בְּנֵי",
+        "speaker": "גִּדְעוֹן",
+        "listener": "זֶבַח וְצַלְמֻנָּע",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And he beat down the tower of Penuel, and slew the men of the city.",
+          "18": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king."
+        },
+        "he": {
+          "17": "וְאֶת־מִגְדַּל פְּנוּאֵל נָתָץ וַֽיַּהֲרֹג אֶת־אַנְשֵׁי הָעִֽיר׃",
+          "18": "וַיֹּאמֶר אֶל־זֶבַח וְאֶל־צַלְמֻנָּע אֵיפֹה הָאֲנָשִׁים אֲשֶׁר הֲרַגְתֶּם בְּתָבוֹר וַֽיֹּאמרוּ כָּמוֹךָ כְמוֹהֶם אֶחָד כְּתֹאַר בְּנֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "judges-08-19-19",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And he said, They were my brethren, even the sons of my mother: as the LORD liveth, if ye had saved them alive, I would not slay you.",
+        "riddle": "They were my brethren, even the sons of my mother: as the LORD liveth, if ye had saved them alive, I would not slay you.",
+        "speaker": "Gideon",
+        "listener": "Zebah and Zalmunna",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר אַחַי בְּנֵֽי־אִמִּי הֵם חַי־יְהוָה לוּ הַחֲיִתֶם אוֹתָם לֹא הָרַגְתִּי אֶתְכֶֽם",
+        "riddle": "וַיֹּאמַר אַחַי בְּנֵֽי־אִמִּי הֵם חַי־יְהוָה לוּ הַחֲיִתֶם אוֹתָם לֹא הָרַגְתִּי אֶתְכֶֽם",
+        "speaker": "גִּדְעוֹן",
+        "listener": "זֶבַע וְזַלְמוּנָּה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And he beat down the tower of Penuel, and slew the men of the city.",
+          "19": "And he said, They were my brethren, even the sons of my mother: as the LORD liveth, if ye had saved them alive, I would not slay you."
+        },
+        "he": {
+          "17": "וְאֶת־מִגְדַּל פְּנוּאֵל נָתָץ וַֽיַּהֲרֹג אֶת־אַנְשֵׁי הָעִֽיר׃",
+          "19": "וַיֹּאמַר אַחַי בְּנֵֽי־אִמִּי הֵם חַי־יְהוָה לוּ הַחֲיִתֶם אוֹתָם לֹא הָרַגְתִּי אֶתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "judges-08-20-20",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And he said unto Jether his firstborn, Up, and slay them. But the youth drew not his sword: for he feared, because he was yet a youth.",
+        "riddle": "Up, and slay them.",
+        "speaker": "Gideon",
+        "listener": "Jether",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְיֶתֶר בְּכוֹרוֹ קוּם הֲרֹג אוֹתָם וְלֹא־שָׁלַף הַנַּעַר חַרְבּוֹ כִּי יָרֵא כִּי עוֹדֶנּוּ נָֽעַר",
+        "riddle": "קוּם הֲרֹג אוֹתָם",
+        "speaker": "גִּדְעוֹן",
+        "listener": "יֶתֶר",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And he said unto Jether his firstborn, Up, and slay them. But the youth drew not his sword: for he feared, because he was yet a youth."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר לְיֶתֶר בְּכוֹרוֹ קוּם הֲרֹג אוֹתָם וְלֹא־שָׁלַף הַנַּעַר חַרְבּוֹ כִּי יָרֵא כִּי עוֹדֶנּוּ נָֽעַר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "judges-08-22-22",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son's son also: for thou hast delivered us from the hand of Midian.",
+        "riddle": "Rule thou over us, both thou, and thy son, and thy son's son also: for thou hast delivered us from the hand of Midian.",
+        "speaker": "men of Israel",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אִֽישׁ־יִשְׂרָאֵל אֶל־גִּדְעוֹן מְשָׁל־בָּנוּ גַּם־אַתָּה גַּם־בִּנְךָ גַּם בֶּן־בְּנֶךָ כִּי הוֹשַׁעְתָּנוּ מִיַּד מִדְיָֽן",
+        "riddle": "מְשָׁל־בָּנוּ גַּם־אַתָּה גַּם־בִּנְךָ גַּם בֶּן־בְּנֶךָ כִּי הוֹשַׁעְתָּנוּ מִיַּד מִדְיָֽן",
+        "speaker": "אִֽישׁ־יִשְׂרָאֵל",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Then the men of Israel said unto Gideon, Rule thou over us, both thou, and thy son, and thy son's son also: for thou hast delivered us from the hand of Midian."
+        },
+        "he": {
+          "22": "וַיֹּאמְרוּ אִֽישׁ־יִשְׂרָאֵל אֶל־גִּדְעוֹן מְשָׁל־בָּנוּ גַּם־אַתָּה גַּם־בִּנְךָ גַּם בֶּן־בְּנֶךָ כִּי הוֹשַׁעְתָּנוּ מִיַּד מִדְיָֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "judges-08-23-23",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And Gideon said unto them, I will not rule over you, neither shall my son rule over you: the LORD shall rule over you.",
+        "riddle": "I will not rule over you, neither shall my son rule over you: the LORD shall rule over you.",
+        "speaker": "Gideon",
+        "listener": "men of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם גִּדְעוֹן לֹֽא־אֶמְשֹׁל אֲנִי בָּכֶם וְלֹֽא־יִמְשֹׁל בְּנִי בָּכֶם יְהוָה יִמְשֹׁל בָּכֶֽם",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם גִּדְעוֹן לֹֽא־אֶמְשֹׁל אֲנִי בָּכֶם וְלֹֽא־יִמְשֹׁל בְּנִי בָּכֶם יְהוָה יִמְשֹׁל בָּכֶֽם",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אֲלֵהֶם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Gideon said unto them, I will not rule over you, neither shall my son rule over you: the LORD shall rule over you."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר אֲלֵהֶם גִּדְעוֹן לֹֽא־אֶמְשֹׁל אֲנִי בָּכֶם וְלֹֽא־יִמְשֹׁל בְּנִי בָּכֶם יְהוָה יִמְשֹׁל בָּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "judges-08-24-24",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Gideon said unto them, I would desire a request of you, that ye would give me every man the earrings of his prey. (For they had golden earrings, because they were Ishmaelites.)",
+        "riddle": "I would desire a request of you, that ye would give me every man the earrings of his prey.",
+        "speaker": "Gideon",
+        "listener": "men of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם גִּדְעוֹן אֶשְׁאֲלָה מִכֶּם שְׁאֵלָה וּתְנוּ־לִי אִישׁ נֶזֶם שְׁלָלוֹ כִּֽי־נִזְמֵי זָהָב לָהֶם כִּי יִשְׁמְעֵאלִים הֵֽם",
+        "riddle": "אֶשְׁאֲלָה מִכֶּם שְׁאֵלָה וּתְנוּ־לִי אִישׁ נֶזֶם שְׁלָלוֹ כִּֽי־נִזְמֵי זָהָב לָהֶם כִּי יִשְׁמְעֵאלִים הֵֽם",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אֲלֵהֶם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Gideon said unto them, I would desire a request of you, that ye would give me every man the earrings of his prey. (For they had golden earrings, because they were Ishmaelites.)"
+        },
+        "he": {
+          "24": "וַיֹּאמֶר אֲלֵהֶם גִּדְעוֹן אֶשְׁאֲלָה מִכֶּם שְׁאֵלָה וּתְנוּ־לִי אִישׁ נֶזֶם שְׁלָלוֹ כִּֽי־נִזְמֵי זָהָב לָהֶם כִּי יִשְׁמְעֵאלִים הֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "judges-08-25-25",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 8,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And they answered, We will willingly give them. And they spread a garment, and did cast therein every man the earrings of his prey.",
+        "riddle": "We will willingly give them.",
+        "speaker": "men of Israel",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ נָתוֹן נִתֵּן וַֽיִּפְרְשׂוּ אֶת־הַשִּׂמְלָה וַיַּשְׁלִיכוּ שָׁמָּה אִישׁ נֶזֶם שְׁלָלֽוֹ",
+        "riddle": "נָתוֹן נִתֵּן",
+        "speaker": "בני ישראל",
+        "listener": "גדעון",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And they answered, We will willingly give them. And they spread a garment, and did cast therein every man the earrings of his prey."
+        },
+        "he": {
+          "25": "וַיֹּאמְרוּ נָתוֹן נִתֵּן וַֽיִּפְרְשׂוּ אֶת־הַשִּׂמְלָה וַיַּשְׁלִיכוּ שָׁמָּה אִישׁ נֶזֶם שְׁלָלֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 23,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 23,
-    "kept_count": 0,
-    "issue_count": 23
+    "llm_window_count": 5,
+    "projection_llm_count": 16,
+    "llm_call_count": 21,
+    "spec_count": 16,
+    "kept_count": 14,
+    "issue_count": 2
   }
 }

@@ -6,6 +6,272 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-21-06-06",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And Sarah said, God hath made me to laugh, so that all that hear will laugh with me.",
+        "riddle": "God hath made me to laugh, so that all that hear will laugh with me.",
+        "speaker": "Sarah",
+        "listener": "all",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר שָׂרָה צְחֹק עָשָׂה לִי אֱלֹהִים כָּל־הַשֹּׁמֵעַ יִֽצְחַק־לִֽי",
+        "riddle": "צְחֹק עָשָׂה לִי אֱלֹהִים כָּל־הַשֹּׁמֵעַ יִֽצְחַק־לִֽי",
+        "speaker": "שָׂרָה",
+        "listener": "כָּל־הַשֹּׁמֵעַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Sarah said, God hath made me to laugh, so that all that hear will laugh with me."
+        },
+        "he": {
+          "6": "וַתֹּאמֶר שָׂרָה צְחֹק עָשָׂה לִי אֱלֹהִים כָּל־הַשֹּׁמֵעַ יִֽצְחַק־לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-21-10-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Wherefore she said unto Abraham, Cast out this bondwoman and her son: for the son of this bondwoman shall not be heir with my son, even with Isaac.",
+        "riddle": "Cast out this bondwoman and her son: for the son of this bondwoman shall not be heir with my son, even with Isaac.",
+        "speaker": "Sarah",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לְאַבְרָהָם גָּרֵשׁ הָאָמָה הַזֹּאת וְאֶת־בְּנָהּ כִּי לֹא יִירַשׁ בֶּן־הָאָמָה הַזֹּאת עִם־בְּנִי עִם־יִצְחָֽק",
+        "riddle": "גָּרֵשׁ הָאָמָה הַזֹּאת וְאֶת־בְּנָהּ כִּי לֹא יִירַשׁ בֶּן־הָאָמָה הַזֹּאת עִם־בְּנִי עִם־יִצְחָֽק",
+        "speaker": "שָׂרָה",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "Wherefore she said unto Abraham, Cast out this bondwoman and her son: for the son of this bondwoman shall not be heir with my son, even with Isaac."
+        },
+        "he": {
+          "10": "וַתֹּאמֶר לְאַבְרָהָם גָּרֵשׁ הָאָמָה הַזֹּאת וְאֶת־בְּנָהּ כִּי לֹא יִירַשׁ בֶּן־הָאָמָה הַזֹּאת עִם־בְּנִי עִם־יִצְחָֽק׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "genesis-21-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And God said unto Abraham, Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that Sarah hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called.",
+        "riddle": "Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that Sarah hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם אַל־יֵרַע בְּעֵינֶיךָ עַל־הַנַּעַר וְעַל־אֲמָתֶךָ כֹּל אֲשֶׁר תֹּאמַר אֵלֶיךָ שָׂרָה שְׁמַע בְּקֹלָהּ כִּי בְיִצְחָק יִקָּרֵא לְךָ זָֽרַע",
+        "riddle": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם אַל־יֵרַע בְּעֵינֶיךָ עַל־הַנַּעַר וְעַל־אֲמָתֶךָ כֹּל אֲשֶׁר תֹּאמַר אֵלֶיךָ שָׂרָה שְׁמַע בְּקֹלָהּ כִּי בְיִצְחָק יִקָּרֵא לְךָ זָֽרַע",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And God said unto Abraham, Let it not be grievous in thy sight because of the lad, and because of thy bondwoman; in all that Sarah hath said unto thee, hearken unto her voice; for in Isaac shall thy seed be called."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר אֱלֹהִים אֶל־אַבְרָהָם אַל־יֵרַע בְּעֵינֶיךָ עַל־הַנַּעַר וְעַל־אֲמָתֶךָ כֹּל אֲשֶׁר תֹּאמַר אֵלֶיךָ שָׂרָה שְׁמַע בְּקֹלָהּ כִּי בְיִצְחָק יִקָּרֵא לְךָ זָֽרַע׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command and prophecy",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-21-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Arise, lift up the lad, and hold him in thine hand; for I will make him a great nation.",
+        "riddle": "Arise, lift up the lad, and hold him in thine hand; for I will make him a great nation",
+        "speaker": "angel of God",
+        "listener": "Hagar",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "קוּמִי שְׂאִי אֶת־הַנַּעַר וְהַחֲזִיקִי אֶת־יָדֵךְ בּוֹ כִּֽי־לְגוֹי גָּדוֹל אֲשִׂימֶֽנּוּ",
+        "riddle": "קוּמִי שְׂאִי אֶת־הַנַּעַר וְהַחֲזִיקִי אֶת־יָדֵךְ בּוֹ כִּֽי־לְגוֹי גָּדוֹל אֲשִׂימֶֽנּוּ",
+        "speaker": "מַלְאַךְ אֱלֹהִים",
+        "listener": "הָגָר",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And God heard the voice of the lad; and the angel of God called Hagar out of heaven, and said unto her, What aileth thee, Hagar? fear not; for God hath heard the voice of the lad where he is.",
+          "18": "Arise, lift up the lad, and hold him in thine hand; for I will make him a great nation."
+        },
+        "he": {
+          "17": "וַיִּשְׁמַע אֱלֹהִים אֶת־קוֹל הַנַּעַר וַיִּקְרָא מַלְאַךְ אֱלֹהִים ׀ אֶל־הָגָר מִן־הַשָּׁמַיִם וַיֹּאמֶר לָהּ מַה־לָּךְ הָגָר אַל־תִּירְאִי כִּֽי־שָׁמַע אֱלֹהִים אֶל־קוֹל הַנַּעַר בַּאֲשֶׁר הוּא־שָֽׁם׃",
+          "18": "קוּמִי שְׂאִי אֶת־הַנַּעַר וְהַחֲזִיקִי אֶת־יָדֵךְ בּוֹ כִּֽי־לְגוֹי גָּדוֹל אֲשִׂימֶֽנּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and promise",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-21-22-22",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:",
+        "riddle": "God is with thee in all that thou doest:",
+        "speaker": "Abimelech and Phichol",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַֽיְהִי בָּעֵת הַהִוא וַיֹּאמֶר אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה",
+        "riddle": "אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה",
+        "speaker": "אֲבִימֶלֶךְ וּפִיכֹל",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:"
+        },
+        "he": {
+          "22": "וַֽיְהִי בָּעֵת הַהִוא וַיֹּאמֶר אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "genesis-21-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Now therefore swear unto me here by God that thou wilt not deal falsely with me, nor with my son, nor with my son's son: but according to the kindness that I have done unto thee, thou shalt do unto me, and to the land wherein thou hast sojourned.",
+        "riddle": "Now therefore swear unto me here by God that thou wilt not deal falsely with me, nor with my son, nor with my son's son: but according to the kindness that I have done unto thee, thou shalt do unto me, and to the land wherein thou hast sojourned.",
+        "speaker": "Abimelech and Phichol",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְעַתָּה הִשָּׁבְעָה לִּי בֵֽאלֹהִים הֵנָּה אִם־תִּשְׁקֹר לִי וּלְנִינִי וּלְנֶכְדִּי כַּחֶסֶד אֲשֶׁר־עָשִׂיתִי עִמְּךָ תַּעֲשֶׂה עִמָּדִי וְעִם־הָאָרֶץ אֲשֶׁר־גַּרְתָּה בָּֽהּ",
+        "riddle": "וְעַתָּה הִשָּׁבְעָה לִּי בֵֽאלֹהִים הֵנָּה אִם־תִּשְׁקֹר לִי וּלְנִינִי וּלְנֶכְדִּי כַּחֶסֶד אֲשֶׁר־עָשִׂיתִי עִמְּךָ תַּעֲשֶׂה עִמָּדִי וְעִם־הָאָרֶץ אֲשֶׁר־גַּרְתָּה בָּֽהּ",
+        "speaker": "אֲבִימֶלֶךְ וּפִיכֹל",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:",
+          "23": "Now therefore swear unto me here by God that thou wilt not deal falsely with me, nor with my son, nor with my son's son: but according to the kindness that I have done unto thee, thou shalt do unto me, and to the land wherein thou hast sojourned."
+        },
+        "he": {
+          "22": "וַֽיְהִי בָּעֵת הַהִוא וַיֹּאמֶר אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה׃",
+          "23": "וְעַתָּה הִשָּׁבְעָה לִּי בֵֽאלֹהִים הֵנָּה אִם־תִּשְׁקֹר לִי וּלְנִינִי וּלְנֶכְדִּי כַּחֶסֶד אֲשֶׁר־עָשִׂיתִי עִמְּךָ תַּעֲשֶׂה עִמָּדִי וְעִם־הָאָרֶץ אֲשֶׁר־גַּרְתָּה בָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command and oath request",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
       "id": "genesis-21-24-24",
       "source": {
         "book_code": "GEN",
@@ -13,38 +279,88 @@
         "book_he": "בראשית",
         "chapter": 21,
         "quote_verse_start": 24,
-        "quote_verse_end": 24
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 22
       },
       "en": {
         "quote": "And Abraham said, I will swear.",
         "riddle": "I will swear.",
         "speaker": "Abraham",
-        "listener": "Abimelech",
+        "listener": "Abimelech and Phichol",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמֶר אַבְרָהָם אָנֹכִי אִשָּׁבֵֽעַ",
         "riddle": "אָנֹכִי אִשָּׁבֵֽעַ",
         "speaker": "אַבְרָהָם",
-        "listener": "אבימלך",
+        "listener": "אֲבִימֶלֶךְ וּפִיכֹל",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
+          "22": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:",
           "24": "And Abraham said, I will swear."
         },
         "he": {
+          "22": "וַֽיְהִי בָּעֵת הַהִוא וַיֹּאמֶר אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה׃",
           "24": "וַיֹּאמֶר אַבְרָהָם אָנֹכִי אִשָּׁבֵֽעַ׃"
         }
       },
       "meta": {
-        "reason": "Short, direct speech.",
-        "confidence": 0.9
+        "reason": "direct reply",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 21,
         "start": 24,
         "end": 24
+      }
+    },
+    {
+      "id": "genesis-21-26-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Abimelech said, I wot not who hath done this thing: neither didst thou tell me, neither yet heard I of it, but to day.",
+        "riddle": "I wot not who hath done this thing: neither didst thou tell me, neither yet heard I of it, but to day.",
+        "speaker": "Abimelech",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲבִימֶלֶךְ לֹא יָדַעְתִּי מִי עָשָׂה אֶת־הַדָּבָר הַזֶּה וְגַם־אַתָּה לֹא־הִגַּדְתָּ לִּי וְגַם אָנֹכִי לֹא שָׁמַעְתִּי בִּלְתִּי הַיּֽוֹם",
+        "riddle": "לֹא יָדַעְתִּי מִי עָשָׂה אֶת־הַדָּבָר הַזֶּה וְגַם־אַתָּה לֹא־הִגַּדְתָּ לִּי וְגַם אָנֹכִי לֹא שָׁמַעְתִּי בִּלְתִּי הַיּֽוֹם",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Abraham reproved Abimelech because of a well of water, which Abimelech's servants had violently taken away.",
+          "26": "And Abimelech said, I wot not who hath done this thing: neither didst thou tell me, neither yet heard I of it, but to day."
+        },
+        "he": {
+          "25": "וְהוֹכִחַ אַבְרָהָם אֶת־אֲבִימֶלֶךְ עַל־אֹדוֹת בְּאֵר הַמַּיִם אֲשֶׁר גָּזְלוּ עַבְדֵי אֲבִימֶֽלֶךְ׃",
+          "26": "וַיֹּאמֶר אֲבִימֶלֶךְ לֹא יָדַעְתִּי מִי עָשָׂה אֶת־הַדָּבָר הַזֶּה וְגַם־אַתָּה לֹא־הִגַּדְתָּ לִּי וְגַם אָנֹכִי לֹא שָׁמַעְתִּי בִּלְתִּי הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 26,
+        "end": 26
       }
     },
     {
@@ -55,7 +371,9 @@
         "book_he": "בראשית",
         "chapter": 21,
         "quote_verse_start": 29,
-        "quote_verse_end": 29
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
       },
       "en": {
         "quote": "And Abimelech said unto Abraham, What mean these seven ewe lambs which thou hast set by themselves?",
@@ -80,7 +398,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question with vivid imagery",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -88,13 +406,62 @@
         "start": 29,
         "end": 29
       }
+    },
+    {
+      "id": "genesis-21-30-30",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 21,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And he said, For these seven ewe lambs shalt thou take of my hand, that they may be a witness unto me, that I have digged this well.",
+        "riddle": "For these seven ewe lambs shalt thou take of my hand, that they may be a witness unto me, that I have digged this well.",
+        "speaker": "Abraham",
+        "listener": "Abimelech",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר כִּי אֶת־שֶׁבַע כְּבָשֹׂת תִּקַּח מִיָּדִי בַּעֲבוּר תִּֽהְיֶה־לִּי לְעֵדָה כִּי חָפַרְתִּי אֶת־הַבְּאֵר הַזֹּֽאת",
+        "riddle": "וַיֹּאמֶר כִּי אֶת־שֶׁבַע כְּבָשֹׂת תִּקַּח מִיָּדִי בַּעֲבוּר תִּֽהְיֶה־לִּי לְעֵדָה כִּי חָפַרְתִּי אֶת־הַבְּאֵר הַזֹּֽאת",
+        "speaker": "אַבְרָהָם",
+        "listener": "אֲבִימֶלֶךְ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Abimelech said unto Abraham, What mean these seven ewe lambs which thou hast set by themselves?",
+          "30": "And he said, For these seven ewe lambs shalt thou take of my hand, that they may be a witness unto me, that I have digged this well."
+        },
+        "he": {
+          "29": "וַיֹּאמֶר אֲבִימֶלֶךְ אֶל־אַבְרָהָם מָה הֵנָּה שֶׁבַע כְּבָשֹׂת הָאֵלֶּה אֲשֶׁר הִצַּבְתָּ לְבַדָּֽנָה׃",
+          "30": "וַיֹּאמֶר כִּי אֶת־שֶׁבַע כְּבָשֹׂת תִּקַּח מִיָּדִי בַּעֲבוּר תִּֽהְיֶה־לִּי לְעֵדָה כִּי חָפַרְתִּי אֶת־הַבְּאֵר הַזֹּֽאת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct explanation",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 30,
+        "end": 30
+      }
     }
   ],
   "stats": {
-    "window_count": 27,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 27,
-    "kept_count": 2,
-    "issue_count": 25
+    "llm_window_count": 5,
+    "projection_llm_count": 13,
+    "llm_call_count": 18,
+    "spec_count": 13,
+    "kept_count": 10,
+    "issue_count": 3
   }
 }

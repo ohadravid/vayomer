@@ -6,74 +6,303 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-24-03-03",
+      "id": "2-samuel-24-02-02",
       "source": {
         "method": "llm",
         "book_code": "2SA",
         "book": "2 Samuel",
         "book_he": "שמואל ב",
         "chapter": 24,
-        "quote_verse_start": 1,
-        "quote_verse_end": 3
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
-        "quote": "And again the anger of the LORD was kindled against Israel, and he moved David against them to say, Go, number Israel and Judah. For the king said to Joab the captain of the host, which was with him, Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people. And Joab said unto the king, Now the LORD thy God add unto the people, how many soever they be, an hundredfold, and that the eyes of my lord the king may see it: but why doth my lord the king delight in this thing?",
-        "riddle": "but why doth my lord the king delight in this thing?",
-        "speaker": "Joab",
-        "listener": "King David",
+        "quote": "For the king said to Joab the captain of the host, which was with him, Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people.",
+        "riddle": "Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people.",
+        "speaker": "king",
+        "listener": "Joab",
         "book": "2 Samuel",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "number",
+        "bonus": "captain",
         "bonus_hint": {
-          "quote": "Who can count the dust of Jacob, and the number of the fourth part of Israel? Let me die the death of the righteous, and let my last end be like his!",
+          "quote": "And it came to pass at that time, that Abimelech and Phichol the chief captain of his host spake unto Abraham, saying, God is with thee in all that thou doest:",
           "source": {
-            "book": "Numbers",
-            "chapter": 23,
-            "start": 10,
-            "end": 10
+            "book": "Genesis",
+            "chapter": 21,
+            "start": 22,
+            "end": 22
           }
         }
       },
       "he": {
-        "quote": "וַיֹּסֶף אַף־יְהוָה לַחֲרוֹת בְּיִשְׂרָאֵל וַיָּסֶת אֶת־דָּוִד בָּהֶם לֵאמֹר לֵךְ מְנֵה אֶת־יִשְׂרָאֵל וְאֶת־יְהוּדָֽה וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב שַׂר־הַחַיִל אֲשֶׁר־אִתּוֹ שֽׁוּט־נָא בְּכָל־שִׁבְטֵי יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שֶׁבַע וּפִקְדוּ אֶת־הָעָם וְיָדַעְתִּי אֵת מִסְפַּר הָעָֽם וַיֹּאמֶר יוֹאָב אֶל־הַמֶּלֶךְ וְיוֹסֵף יְהוָה אֱלֹהֶיךָ אֶל־הָעָם כָּהֵם וְכָהֵם מֵאָה פְעָמִים וְעֵינֵי אֲדֹנִֽי־הַמֶּלֶךְ רֹאוֹת וַאדֹנִי הַמֶּלֶךְ לָמָּה חָפֵץ בַּדָּבָר הַזֶּֽה",
-        "riddle": "לָמָּה חָפֵץ בַּדָּבָר הַזֶּֽה",
-        "speaker": "יוֹאָב",
-        "listener": "דָּוִד הַמֶּלֶךְ",
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב שַׂר־הַחַיִל אֲשֶׁר־אִתּוֹ שֽׁוּט־נָא בְּכָל־שִׁבְטֵי יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שֶׁבַע וּפִקְדוּ אֶת־הָעָם וְיָדַעְתִּי אֵת מִסְפַּר הָעָֽם",
+        "riddle": "שֽׁוּט־נָא בְּכָל־שִׁבְטֵי יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שֶׁבַע וּפִקְדוּ אֶת־הָעָם וְיָדַעְתִּי אֵת מִסְפַּר הָעָֽם",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אֶל־יוֹאָב",
         "book": "שמואל ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "מְנֵה",
+        "bonus": "שַׂר",
         "bonus_hint": {
-          "quote": "מִי מָנָה עֲפַר יַעֲקֹב וּמִסְפָּר אֶת־רֹבַע יִשְׂרָאֵל תָּמֹת נַפְשִׁי מוֹת יְשָׁרִים וּתְהִי אַחֲרִיתִי כָּמֹֽהוּ",
+          "quote": "וַֽיְהִי בָּעֵת הַהִוא וַיֹּאמֶר אֲבִימֶלֶךְ וּפִיכֹל שַׂר־צְבָאוֹ אֶל־אַבְרָהָם לֵאמֹר אֱלֹהִים עִמְּךָ בְּכֹל אֲשֶׁר־אַתָּה עֹשֶֽׂה",
           "source": {
-            "book": "במדבר",
-            "chapter": 23,
-            "start": 10,
-            "end": 10
+            "book": "בראשית",
+            "chapter": 21,
+            "start": 22,
+            "end": 22
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "1": "And again the anger of the LORD was kindled against Israel, and he moved David against them to say, Go, number Israel and Judah.",
-          "2": "For the king said to Joab the captain of the host, which was with him, Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people.",
-          "3": "And Joab said unto the king, Now the LORD thy God add unto the people, how many soever they be, an hundredfold, and that the eyes of my lord the king may see it: but why doth my lord the king delight in this thing?"
+          "2": "For the king said to Joab the captain of the host, which was with him, Go now through all the tribes of Israel, from Dan even to Beer-sheba, and number ye the people, that I may know the number of the people."
         },
         "he": {
-          "1": "וַיֹּסֶף אַף־יְהוָה לַחֲרוֹת בְּיִשְׂרָאֵל וַיָּסֶת אֶת־דָּוִד בָּהֶם לֵאמֹר לֵךְ מְנֵה אֶת־יִשְׂרָאֵל וְאֶת־יְהוּדָֽה׃",
-          "2": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב ׀ שַׂר־הַחַיִל אֲשֶׁר־אִתּוֹ שֽׁוּט־נָא בְּכָל־שִׁבְטֵי יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שֶׁבַע וּפִקְדוּ אֶת־הָעָם וְיָדַעְתִּי אֵת מִסְפַּר הָעָֽם׃",
-          "3": "וַיֹּאמֶר יוֹאָב אֶל־הַמֶּלֶךְ וְיוֹסֵף יְהוָה אֱלֹהֶיךָ אֶל־הָעָם כָּהֵם ׀ וְכָהֵם מֵאָה פְעָמִים וְעֵינֵי אֲדֹנִֽי־הַמֶּלֶךְ רֹאוֹת וַאדֹנִי הַמֶּלֶךְ לָמָּה חָפֵץ בַּדָּבָר הַזֶּֽה׃"
+          "2": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב ׀ שַׂר־הַחַיִל אֲשֶׁר־אִתּוֹ שֽׁוּט־נָא בְּכָל־שִׁבְטֵי יִשְׂרָאֵל מִדָּן וְעַד־בְּאֵר שֶׁבַע וּפִקְדוּ אֶת־הָעָם וְיָדַעְתִּי אֵת מִסְפַּר הָעָֽם׃"
         }
       },
       "ref": {
         "chapter": 24,
-        "start": 1,
-        "end": 3
+        "start": 2,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-24-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 24,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And David spake unto the LORD when he saw the angel that smote the people, and said, Lo, I have sinned, and I have done wickedly: but these sheep, what have they done? let thine hand, I pray thee, be against me, and against my father's house.",
+        "riddle": "Lo, I have sinned, and I have done wickedly: but these sheep, what have they done? let thine hand, I pray thee, be against me, and against my father's house.",
+        "speaker": "David",
+        "listener": "LORD",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "angel",
+        "bonus_hint": {
+          "quote": "The Angel which redeemed me from all evil, bless the lads; and let my name be named on them, and the name of my fathers Abraham and Isaac; and let them grow into a multitude in the midst of the earth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 48,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־יְהוָה בִּרְאֹתוֹ אֶֽת־הַמַּלְאָךְ הַמַּכֶּה בָעָם וַיֹּאמֶר הִנֵּה אָנֹכִי חָטָאתִי וְאָנֹכִי הֶעֱוֵיתִי וְאֵלֶּה הַצֹּאן מֶה עָשׂוּ תְּהִי נָא יָדְךָ בִּי וּבְבֵית אָבִֽי",
+        "riddle": "הִנֵּה אָנֹכִי חָטָאתִי וְאָנֹכִי הֶעֱוֵיתִי וְאֵלֶּה הַצֹּאן מֶה עָשׂוּ תְּהִי נָא יָדְךָ בִּי וּבְבֵית אָבִֽי",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַמַּלְאָךְ",
+        "bonus_hint": {
+          "quote": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 48,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And David spake unto the LORD when he saw the angel that smote the people, and said, Lo, I have sinned, and I have done wickedly: but these sheep, what have they done? let thine hand, I pray thee, be against me, and against my father's house."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר דָּוִד אֶל־יְהוָה בִּרְאֹתוֹ ׀ אֶֽת־הַמַּלְאָךְ ׀ הַמַּכֶּה בָעָם וַיֹּאמֶר הִנֵּה אָנֹכִי חָטָאתִי וְאָנֹכִי הֶעֱוֵיתִי וְאֵלֶּה הַצֹּאן מֶה עָשׂוּ תְּהִי נָא יָדְךָ בִּי וּבְבֵית אָבִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 17,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-24-22-22-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 24,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Araunah said unto David, Let my lord the king take and offer up what seemeth good unto him: behold, here be oxen for burnt sacrifice, and threshing instruments and other instruments of the oxen for wood.",
+        "riddle": "Let my lord the king take and offer up what seemeth good unto him",
+        "speaker": "Araunah",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wood",
+        "bonus_hint": {
+          "quote": "And they came to the place which God had told him of; and Abraham built an altar there, and laid the wood in order, and bound Isaac his son, and laid him on the altar upon the wood.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲרַוְנָה אֶל־דָּוִד יִקַּח וְיַעַל אֲדֹנִי הַמֶּלֶךְ הַטּוֹב בְּעֵינָיו רְאֵה הַבָּקָר לָעֹלָה וְהַמֹּרִגִּים וּכְלֵי הַבָּקָר לָעֵצִֽים",
+        "riddle": "יִקַּח וְיַעַל אֲדֹנִי הַמֶּלֶךְ הַטּוֹב בְּעֵינָיו רְאֵה הַבָּקָר לָעֹלָה וְהַמֹּרִגִּים וּכְלֵי הַבָּקָר",
+        "speaker": "אֲרַוְנָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָעֵצִֽים",
+        "bonus_hint": {
+          "quote": "וַיָּבֹאוּ אֶֽל־הַמָּקוֹם אֲשֶׁר אָֽמַר־לוֹ הָאֱלֹהִים וַיִּבֶן שָׁם אַבְרָהָם אֶת־הַמִּזְבֵּחַ וַֽיַּעֲרֹךְ אֶת־הָעֵצִים וַֽיַּעֲקֹד אֶת־יִצְחָק בְּנוֹ וַיָּשֶׂם אֹתוֹ עַל־הַמִּזְבֵּחַ מִמַּעַל לָעֵצִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Araunah said unto David, Let my lord the king take and offer up what seemeth good unto him: behold, here be oxen for burnt sacrifice, and threshing instruments and other instruments of the oxen for wood.",
+          "24": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר אֲרַוְנָה אֶל־דָּוִד יִקַּח וְיַעַל אֲדֹנִי הַמֶּלֶךְ הַטּוֹב בְּעֵינָיו רְאֵה הַבָּקָר לָעֹלָה וְהַמֹּרִגִּים וּכְלֵי הַבָּקָר לָעֵצִֽים׃",
+          "24": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־אֲרַוְנָה לֹא כִּֽי־קָנוֹ אֶקְנֶה מֵאֽוֹתְךָ בִּמְחִיר וְלֹא אַעֲלֶה לַיהוָה אֱלֹהַי עֹלוֹת חִנָּם וַיִּקֶן דָּוִד אֶת־הַגֹּרֶן וְאֶת־הַבָּקָר בְּכֶסֶף שְׁקָלִים חֲמִשִּֽׁים׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 22,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-24-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 24,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver.",
+        "riddle": "Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing",
+        "speaker": "David",
+        "listener": "Araunah",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "silver",
+        "bonus_hint": {
+          "quote": "And he bought the hill Samaria of Shemer for two talents of silver, and built on the hill, and called the name of the city which he built, after the name of Shemer, owner of the hill, Samaria.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 16,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־אֲרַוְנָה לֹא כִּֽי־קָנוֹ אֶקְנֶה מֵאֽוֹתְךָ בִּמְחִיר וְלֹא אַעֲלֶה לַיהוָה אֱלֹהַי עֹלוֹת חִנָּם וַיִּקֶן דָּוִד אֶת־הַגֹּרֶן וְאֶת־הַבָּקָר בְּכֶסֶף שְׁקָלִים חֲמִשִּֽׁים",
+        "riddle": "לֹא כִּֽי־קָנוֹ אֶקְנֶה מֵאֽוֹתְךָ בִּמְחִיר וְלֹא אַעֲלֶה לַיהוָה אֱלֹהַי עֹלוֹת חִנָּם",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אֲרַוְנָה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּקֶן",
+        "bonus_hint": {
+          "quote": "וַיִּקֶן אֶת־הָהָר שֹׁמְרוֹן מֵאֶת שֶׁמֶר בְּכִכְּרַיִם כָּסֶף וַיִּבֶן אֶת־הָהָר וַיִּקְרָא אֶת־שֵׁם הָעִיר אֲשֶׁר בָּנָה עַל שֶׁם־שֶׁמֶר אֲדֹנֵי הָהָר שֹׁמְרֽוֹן",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 16,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Araunah said unto David, Let my lord the king take and offer up what seemeth good unto him: behold, here be oxen for burnt sacrifice, and threshing instruments and other instruments of the oxen for wood.",
+          "24": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר אֲרַוְנָה אֶל־דָּוִד יִקַּח וְיַעַל אֲדֹנִי הַמֶּלֶךְ הַטּוֹב בְּעֵינָיו רְאֵה הַבָּקָר לָעֹלָה וְהַמֹּרִגִּים וּכְלֵי הַבָּקָר לָעֵצִֽים׃",
+          "24": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־אֲרַוְנָה לֹא כִּֽי־קָנוֹ אֶקְנֶה מֵאֽוֹתְךָ בִּמְחִיר וְלֹא אַעֲלֶה לַיהוָה אֱלֹהַי עֹלוֹת חִנָּם וַיִּקֶן דָּוִד אֶת־הַגֹּרֶן וְאֶת־הַבָּקָר בְּכֶסֶף שְׁקָלִים חֲמִשִּֽׁים׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 24,
+        "end": 24
       },
       "meta": {
         "mode": "llm",

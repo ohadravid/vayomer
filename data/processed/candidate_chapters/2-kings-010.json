@@ -6,6 +6,52 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-10-03-03",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Look even out the best and meetest of your master's sons, and set him on his father's throne, and fight for your master's house.",
+        "riddle": "Look even out the best and meetest of your master's sons, and set him on his father's throne, and fight for your master's house.",
+        "speaker": "Jehu",
+        "listener": "rulers of Jezreel",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וּרְאִיתֶם הַטּוֹב וְהַיָּשָׁר מִבְּנֵי אֲדֹנֵיכֶם וְשַׂמְתֶּם עַל־כִּסֵּא אָבִיו וְהִֽלָּחֲמוּ עַל־בֵּית אֲדֹנֵיכֶֽם",
+        "riddle": "וּרְאִיתֶם הַטּוֹב וְהַיָּשָׁר מִבְּנֵי אֲדֹנֵיכֶם וְשַׂמְתֶּם עַל־כִּסֵּא אָבִיו וְהִֽלָּחֲמוּ עַל־בֵּית אֲדֹנֵיכֶֽם",
+        "speaker": "יֵהוּא",
+        "listener": "שָׂרֵי יִזְרְעֶאל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab's children, saying,",
+          "3": "Look even out the best and meetest of your master's sons, and set him on his father's throne, and fight for your master's house."
+        },
+        "he": {
+          "1": "וּלְאַחְאָב שִׁבְעִים בָּנִים בְּשֹׁמְרוֹן וַיִּכְתֹּב יֵהוּא סְפָרִים וַיִּשְׁלַח שֹׁמְרוֹן אֶל־שָׂרֵי יִזְרְעֶאל הַזְּקֵנִים וְאֶל־הָאֹמְנִים אַחְאָב לֵאמֹֽר׃",
+          "3": "וּרְאִיתֶם הַטּוֹב וְהַיָּשָׁר מִבְּנֵי אֲדֹנֵיכֶם וְשַׂמְתֶּם עַל־כִּסֵּא אָבִיו וְהִֽלָּחֲמוּ עַל־בֵּית אֲדֹנֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command in a letter",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
       "id": "2-kings-10-04-04",
       "source": {
         "book_code": "2KI",
@@ -17,16 +63,16 @@
       },
       "en": {
         "quote": "But they were exceedingly afraid, and said, Behold, two kings stood not before him: how then shall we stand?",
-        "riddle": "how then shall we stand?",
-        "speaker": "servants",
-        "listener": "servants",
+        "riddle": "Behold, two kings stood not before him: how then shall we stand?",
+        "speaker": "rulers",
+        "listener": "themselves",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיִּֽרְאוּ מְאֹד מְאֹד וַיֹּאמְרוּ הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנוּ",
-        "riddle": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנוּ",
-        "speaker": "עבדים",
-        "listener": "עבדים",
+        "riddle": "הִנֵּה שְׁנֵי הַמְּלָכִים לֹא עָמְדוּ לְפָנָיו וְאֵיךְ נַעֲמֹד אֲנָֽחְנו",
+        "speaker": "הַמְּלָכִים",
+        "listener": "אֲנָֽחְנוּ",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
@@ -38,13 +84,233 @@
         }
       },
       "meta": {
-        "reason": "Memorable question and direct speech.",
-        "confidence": 0.9
+        "reason": "rhetorical question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 10,
         "start": 4,
         "end": 4
+      }
+    },
+    {
+      "id": "2-kings-10-05-05",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And he that was over the house, and he that was over the city, the elders also, and the bringers up of the children, sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any king: do thou that which is good in thine eyes.",
+        "riddle": "We are thy servants, and will do all that thou shalt bid us; we will not make any king: do thou that which is good in thine eyes.",
+        "speaker": "elders",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אֲשֶׁר־עַל־הַבַּיִת וַאֲשֶׁר עַל־הָעִיר וְהַזְּקֵנִים וְהָאֹמְנִים אֶל־יֵהוּא לֵאמֹר עֲבָדֶיךָ אֲנַחְנוּ וְכֹל אֲשֶׁר־תֹּאמַר אֵלֵינוּ נַעֲשֶׂה לֹֽא־נַמְלִיךְ אִישׁ הַטּוֹב בְּעֵינֶיךָ עֲשֵֽׂה",
+        "riddle": "עֲבָדֶיךָ אֲנַחְנוּ וְכֹל אֲשֶׁר־תֹּאמַר אֵלֵינוּ נַעֲשֶׂה לֹֽא־נַמְלִיךְ אִישׁ הַטּוֹב בְּעֵינֶיךָ עֲשֵֽׂה",
+        "speaker": "הַזְּקֵנִים וְהָאֹמְנִים",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab's children, saying,",
+          "5": "And he that was over the house, and he that was over the city, the elders also, and the bringers up of the children, sent to Jehu, saying, We are thy servants, and will do all that thou shalt bid us; we will not make any king: do thou that which is good in thine eyes."
+        },
+        "he": {
+          "1": "וּלְאַחְאָב שִׁבְעִים בָּנִים בְּשֹׁמְרוֹן וַיִּכְתֹּב יֵהוּא סְפָרִים וַיִּשְׁלַח שֹׁמְרוֹן אֶל־שָׂרֵי יִזְרְעֶאל הַזְּקֵנִים וְאֶל־הָאֹמְנִים אַחְאָב לֵאמֹֽר׃",
+          "5": "וַיִּשְׁלַח אֲשֶׁר־עַל־הַבַּיִת וַאֲשֶׁר עַל־הָעִיר וְהַזְּקֵנִים וְהָאֹמְנִים אֶל־יֵהוּא ׀ לֵאמֹר עֲבָדֶיךָ אֲנַחְנוּ וְכֹל אֲשֶׁר־תֹּאמַר אֵלֵינוּ נַעֲשֶׂה לֹֽא־נַמְלִיךְ אִישׁ הַטּוֹב בְּעֵינֶיךָ עֲשֵֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-kings-10-06-06",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Then he wrote a letter the second time to them, saying, If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master's sons, and come to me to Jezreel by to morrow this time. Now the king's sons, being seventy persons, were with the great men of the city, which brought them up.",
+        "riddle": "If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master's sons, and come to me to Jezreel by to morrow this time.",
+        "speaker": "Jehu",
+        "listener": "rulers of Jezreel",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּכְתֹּב אֲלֵיהֶם סֵפֶר שֵׁנִית לֵאמֹר אִם־לִי אַתֶּם וּלְקֹלִי אַתֶּם שֹׁמְעִים קְחוּ אֶת־רָאשֵׁי אַנְשֵׁי בְנֵֽי־אֲדֹנֵיכֶם וּבֹאוּ אֵלַי כָּעֵת מָחָר יִזְרְעֶאלָה וּבְנֵי הַמֶּלֶךְ שִׁבְעִים אִישׁ אֶת־גְּדֹלֵי הָעִיר מְגַדְּלִים אוֹתָֽם",
+        "riddle": "אִם־לִי אַתֶּם וּלְקֹלִי אַתֶּם שֹׁמְעִים קְחוּ אֶת־רָאשֵׁי אַנְשֵׁי בְנֵֽי־אֲדֹנֵיכֶם וּבֹאוּ אֵלַי כָּעֵת מָחָר יִזְרְעֶאלָה וּבְנֵי הַמֶּלֶךְ שִׁבְעִים אִישׁ אֶת־גְּדֹלֵי הָעִיר מְגַדְּלִים אוֹתָֽם",
+        "speaker": "יֵהוּא",
+        "listener": "שָׂרֵי יִזְרְעֶאל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab's children, saying,",
+          "6": "Then he wrote a letter the second time to them, saying, If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master's sons, and come to me to Jezreel by to morrow this time. Now the king's sons, being seventy persons, were with the great men of the city, which brought them up."
+        },
+        "he": {
+          "1": "וּלְאַחְאָב שִׁבְעִים בָּנִים בְּשֹׁמְרוֹן וַיִּכְתֹּב יֵהוּא סְפָרִים וַיִּשְׁלַח שֹׁמְרוֹן אֶל־שָׂרֵי יִזְרְעֶאל הַזְּקֵנִים וְאֶל־הָאֹמְנִים אַחְאָב לֵאמֹֽר׃",
+          "6": "וַיִּכְתֹּב אֲלֵיהֶם סֵפֶר ׀ שֵׁנִית לֵאמֹר אִם־לִי אַתֶּם וּלְקֹלִי ׀ אַתֶּם שֹׁמְעִים קְחוּ אֶת־רָאשֵׁי אַנְשֵׁי בְנֵֽי־אֲדֹנֵיכֶם וּבֹאוּ אֵלַי כָּעֵת מָחָר יִזְרְעֶאלָה וּבְנֵי הַמֶּלֶךְ שִׁבְעִים אִישׁ אֶת־גְּדֹלֵי הָעִיר מְגַדְּלִים אוֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command in a letter",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-kings-10-08-08-1",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And there came a messenger, and told him, saying, They have brought the heads of the king's sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning.",
+        "riddle": "They have brought the heads of the king's sons.",
+        "speaker": "messenger",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא הַמַּלְאָךְ וַיַּגֶּד־לוֹ לֵאמֹר הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶךְ וַיֹּאמֶר שִׂימוּ אֹתָם שְׁנֵי צִבֻּרִים פֶּתַח הַשַּׁעַר עַד־הַבֹּֽקֶר",
+        "riddle": "הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶך",
+        "speaker": "הַמַּלְאָךְ",
+        "listener": "יהוא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And there came a messenger, and told him, saying, They have brought the heads of the king's sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning."
+        },
+        "he": {
+          "8": "וַיָּבֹא הַמַּלְאָךְ וַיַּגֶּד־לוֹ לֵאמֹר הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶךְ וַיֹּאמֶר שִׂימוּ אֹתָם שְׁנֵי צִבֻּרִים פֶּתַח הַשַּׁעַר עַד־הַבֹּֽקֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-kings-10-08-08-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And there came a messenger, and told him, saying, They have brought the heads of the king's sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning.",
+        "riddle": "Lay ye them in two heaps at the entering in of the gate until the morning.",
+        "speaker": "Jehu",
+        "listener": "messenger",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא הַמַּלְאָךְ וַיַּגֶּד־לוֹ לֵאמֹר הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶךְ וַיֹּאמֶר שִׂימוּ אֹתָם שְׁנֵי צִבֻּרִים פֶּתַח הַשַּׁעַר עַד־הַבֹּֽקֶר",
+        "riddle": "וַיַּגֶּד־לוֹ לֵאמֹר הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶךְ וַיֹּאמֶר שִׂימוּ אֹתָם שְׁנֵי צִבֻּרִים פֶּתַח הַשַּׁעַר עַד־הַבֹּֽקֶר",
+        "speaker": "יהוא",
+        "listener": "מלאך",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And there came a messenger, and told him, saying, They have brought the heads of the king's sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning."
+        },
+        "he": {
+          "8": "וַיָּבֹא הַמַּלְאָךְ וַיַּגֶּד־לוֹ לֵאמֹר הֵבִיאוּ רָאשֵׁי בְנֵֽי־הַמֶּלֶךְ וַיֹּאמֶר שִׂימוּ אֹתָם שְׁנֵי צִבֻּרִים פֶּתַח הַשַּׁעַר עַד־הַבֹּֽקֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-kings-10-09-09",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And it came to pass in the morning, that he went out, and stood, and said to all the people, Ye be righteous: behold, I conspired against my master, and slew him: but who slew all these?",
+        "riddle": "Ye be righteous: behold, I conspired against my master, and slew him: but who slew all these?",
+        "speaker": "Jehu",
+        "listener": "people",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְהִי בַבֹּקֶר וַיֵּצֵא וַֽיַּעֲמֹד וַיֹּאמֶר אֶל־כָּל־הָעָם צַדִּקִים אַתֶּם הִנֵּה אֲנִי קָשַׁרְתִּי עַל־אֲדֹנִי וָאֶהְרְגֵהוּ וּמִי הִכָּה אֶת־כָּל־אֵֽלֶּה",
+        "riddle": "וַיֹּאמֶר אֶל־כָּל־הָעָם צַדִּקִים אַתֶּם הִנֵּה אֲנִי קָשַׁרְתִּי עַל־אֲדֹנִי וָאֶהְרְגֵהוּ וּמִי הִכָּה אֶת־כָּל־אֵֽלֶּה",
+        "speaker": "יהוא",
+        "listener": "כָּל־הָעָם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And it came to pass in the morning, that he went out, and stood, and said to all the people, Ye be righteous: behold, I conspired against my master, and slew him: but who slew all these?"
+        },
+        "he": {
+          "9": "וַיְהִי בַבֹּקֶר וַיֵּצֵא וַֽיַּעֲמֹד וַיֹּאמֶר אֶל־כָּל־הָעָם צַדִּקִים אַתֶּם הִנֵּה אֲנִי קָשַׁרְתִּי עַל־אֲדֹנִי וָאֶהְרְגֵהוּ וּמִי הִכָּה אֶת־כָּל־אֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 9,
+        "end": 9
       }
     },
     {
@@ -55,7 +321,9 @@
         "book_he": "מלכים ב",
         "chapter": 10,
         "quote_verse_start": 13,
-        "quote_verse_end": 13
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
       },
       "en": {
         "quote": "Jehu met with the brethren of Ahaziah king of Judah, and said, Who are ye? And they answered, We are the brethren of Ahaziah; and we go down to salute the children of the king and the children of the queen.",
@@ -80,21 +348,406 @@
         }
       },
       "meta": {
-        "reason": "Contains direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.96
       },
       "ref": {
         "chapter": 10,
         "start": 13,
         "end": 13
       }
+    },
+    {
+      "id": "2-kings-10-14-14",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he said, Take them alive. And they took them alive, and slew them at the pit of the shearing house, even two and forty men; neither left he any of them.",
+        "riddle": "Take them alive.",
+        "speaker": "Jehu",
+        "listener": "men",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר תִּפְשׂוּם חַיִּים וַֽיִּתְפְּשׂוּם חַיִּים וַֽיִּשְׁחָטוּם אֶל־בּוֹר בֵּֽית־עֵקֶד אַרְבָּעִים וּשְׁנַיִם אִישׁ וְלֹֽא־הִשְׁאִיר אִישׁ מֵהֶֽם",
+        "riddle": "תִּפְשׂוּם חַיִּים",
+        "speaker": "יהוא",
+        "listener": "אִישׁ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, Take them alive. And they took them alive, and slew them at the pit of the shearing house, even two and forty men; neither left he any of them."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר תִּפְשׂוּם חַיִּים וַֽיִּתְפְּשׂוּם חַיִּים וַֽיִּשְׁחָטוּם אֶל־בּוֹר בֵּֽית־עֵקֶד אַרְבָּעִים וּשְׁנַיִם אִישׁ וְלֹֽא־הִשְׁאִיר אִישׁ מֵהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-kings-10-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And he said, Come with me, and see my zeal for the LORD. So they made him ride in his chariot.",
+        "riddle": "Come with me, and see my zeal for the LORD.",
+        "speaker": "Jehu",
+        "listener": "Jehonadab",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְכָה אִתִּי וּרְאֵה בְּקִנְאָתִי לַיהוָה וַיַּרְכִּבוּ אֹתוֹ בְּרִכְבּֽוֹ",
+        "riddle": "לְכָה אִתִּי וּרְאֵה בְּקִנְאָתִי לַיהוָה",
+        "speaker": "יהוא",
+        "listener": "יהונדב",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said, Come with me, and see my zeal for the LORD. So they made him ride in his chariot."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר לְכָה אִתִּי וּרְאֵה בְּקִנְאָתִי לַיהוָה וַיַּרְכִּבוּ אֹתוֹ בְּרִכְבּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "command/invitation",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-kings-10-18-18",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And Jehu gathered all the people together, and said unto them, Ahab served Baal a little; but Jehu shall serve him much.",
+        "riddle": "Ahab served Baal a little; but Jehu shall serve him much.",
+        "speaker": "Jehu",
+        "listener": "the people",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּקְבֹּץ יֵהוּא אֶת־כָּל־הָעָם וַיֹּאמֶר אֲלֵהֶם אַחְאָב עָבַד אֶת־הַבַּעַל מְעָט יֵהוּא יַעַבְדֶנּוּ הַרְבֵּֽה",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם אַחְאָב עָבַד אֶת־הַבַּעַל מְעָט יֵהוּא יַעַבְדֶנּוּ הַרְבֵּֽה",
+        "speaker": "יֵהוּא",
+        "listener": "הָעָם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Jehu gathered all the people together, and said unto them, Ahab served Baal a little; but Jehu shall serve him much."
+        },
+        "he": {
+          "18": "וַיִּקְבֹּץ יֵהוּא אֶת־כָּל־הָעָם וַיֹּאמֶר אֲלֵהֶם אַחְאָב עָבַד אֶת־הַבַּעַל מְעָט יֵהוּא יַעַבְדֶנּוּ הַרְבֵּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "2-kings-10-19-19",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Now therefore call unto me all the prophets of Baal, all his servants, and all his priests; let none be wanting: for I have a great sacrifice to do to Baal; whosoever shall be wanting, he shall not live. But Jehu did it in subtilty, to the intent that he might destroy the worshippers of Baal.",
+        "riddle": "call unto me all the prophets of Baal, all his servants, and all his priests; let none be wanting",
+        "speaker": "Jehu",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְעַתָּה כָל־נְבִיאֵי הַבַּעַל כָּל־עֹבְדָיו וְכָל־כֹּהֲנָיו קִרְאוּ אֵלַי אִישׁ אַל־יִפָּקֵד כִּי זֶבַח גָּדוֹל לִי לַבַּעַל כֹּל אֲשֶׁר־יִפָּקֵד לֹא יִֽחְיֶה וְיֵהוּא עָשָׂה בְעָקְבָּה לְמַעַן הַאֲבִיד אֶת־עֹבְדֵי הַבָּֽעַל",
+        "riddle": "כָל־נְבִיאֵי הַבַּעַל כָּל־עֹבְדָיו וְכָל־כֹּהֲנָיו קִרְאוּ אֵלַי אִישׁ אַל־יִפָּקֵד כִּי זֶבַח גָּדוֹל לִי לַבַּעַל",
+        "speaker": "יֵהוּא",
+        "listener": "עֹבְדֵי הַבָּֽעַל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Now therefore call unto me all the prophets of Baal, all his servants, and all his priests; let none be wanting: for I have a great sacrifice to do to Baal; whosoever shall be wanting, he shall not live. But Jehu did it in subtilty, to the intent that he might destroy the worshippers of Baal."
+        },
+        "he": {
+          "19": "וְעַתָּה כָל־נְבִיאֵי הַבַּעַל כָּל־עֹבְדָיו וְכָל־כֹּהֲנָיו קִרְאוּ אֵלַי אִישׁ אַל־יִפָּקֵד כִּי זֶבַח גָּדוֹל לִי לַבַּעַל כֹּל אֲשֶׁר־יִפָּקֵד לֹא יִֽחְיֶה וְיֵהוּא עָשָׂה בְעָקְבָּה לְמַעַן הַאֲבִיד אֶת־עֹבְדֵי הַבָּֽעַל׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-kings-10-20-20",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And Jehu said, Proclaim a solemn assembly for Baal. And they proclaimed it.",
+        "riddle": "Proclaim a solemn assembly for Baal.",
+        "speaker": "Jehu",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יֵהוּא קַדְּשׁוּ עֲצָרָה לַבַּעַל וַיִּקְרָֽאוּ",
+        "riddle": "קַדְּשׁוּ עֲצָרָה לַבַּעַל",
+        "speaker": "יֵהוּא",
+        "listener": "וַיִּקְרָֽאוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Jehu said, Proclaim a solemn assembly for Baal. And they proclaimed it."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר יֵהוּא קַדְּשׁוּ עֲצָרָה לַבַּעַל וַיִּקְרָֽאוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-kings-10-22-22",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And he said unto him that was over the vestry, Bring forth vestments for all the worshippers of Baal. And he brought them forth vestments.",
+        "riddle": "Bring forth vestments for all the worshippers of Baal.",
+        "speaker": "Jehu",
+        "listener": "vestry official",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לַֽאֲשֶׁר עַל־הַמֶּלְתָּחָה הוֹצֵא לְבוּשׁ לְכֹל עֹבְדֵי הַבָּעַל וַיֹּצֵא לָהֶם הַמַּלְבּֽוּשׁ",
+        "riddle": "הוֹצֵא לְבוּשׁ לְכֹל עֹבְדֵי הַבָּעַל",
+        "speaker": "יהוא",
+        "listener": "אֲשֶׁר עַל הַמֶּלְתָּחָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And he said unto him that was over the vestry, Bring forth vestments for all the worshippers of Baal. And he brought them forth vestments."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר לַֽאֲשֶׁר עַל־הַמֶּלְתָּחָה הוֹצֵא לְבוּשׁ לְכֹל עֹבְדֵי הַבָּעַל וַיֹּצֵא לָהֶם הַמַּלְבּֽוּשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-kings-10-23-23",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And Jehu went, and Jehonadab the son of Rechab, into the house of Baal, and said unto the worshippers of Baal, Search, and look that there be here with you none of the servants of the LORD, but the worshippers of Baal only.",
+        "riddle": "Search, and look that there be here with you none of the servants of the LORD, but the worshippers of Baal only.",
+        "speaker": "Jehu",
+        "listener": "worshippers of Baal",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא יֵהוּא וִיהוֹנָדָב בֶּן־רֵכָב בֵּית הַבָּעַל וַיֹּאמֶר לְעֹבְדֵי הַבַּעַל חַפְּשׂוּ וּרְאוּ פֶּן־יֶשׁ־פֹּה עִמָּכֶם מֵעַבְדֵי יְהוָה כִּי אִם־עֹבְדֵי הַבַּעַל לְבַדָּֽם",
+        "riddle": "חַפְּשׂוּ וּרְאוּ פֶּן־יֶשׁ־פֹּה עִמָּכֶם מֵעַבְדֵי יְהוָה כִּי אִם־עֹבְדֵי הַבַּעַל לְבַדָּֽם",
+        "speaker": "יֵהוּא",
+        "listener": "עֹבְדֵי הַבַּעַל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Jehu went, and Jehonadab the son of Rechab, into the house of Baal, and said unto the worshippers of Baal, Search, and look that there be here with you none of the servants of the LORD, but the worshippers of Baal only."
+        },
+        "he": {
+          "23": "וַיָּבֹא יֵהוּא וִיהוֹנָדָב בֶּן־רֵכָב בֵּית הַבָּעַל וַיֹּאמֶר לְעֹבְדֵי הַבַּעַל חַפְּשׂוּ וּרְאוּ פֶּן־יֶשׁ־פֹּה עִמָּכֶם מֵעַבְדֵי יְהוָה כִּי אִם־עֹבְדֵי הַבַּעַל לְבַדָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-kings-10-25-25",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And it came to pass, as soon as he had made an end of offering the burnt offering, that Jehu said to the guard and to the captains, Go in, and slay them; let none come forth. And they smote them with the edge of the sword; and the guard and the captains cast them out, and went to the city of the house of Baal.",
+        "riddle": "Go in, and slay them; let none come forth.",
+        "speaker": "Jehu",
+        "listener": "guard and captains",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְהִי כְּכַלֹּתוֹ לַעֲשׂוֹת הָעֹלָה וַיֹּאמֶר יֵהוּא לָרָצִים וְלַשָּׁלִשִׁים בֹּאוּ הַכּוּם אִישׁ אַל־יֵצֵא וַיַּכּוּם לְפִי־חָרֶב וַיַּשְׁלִכוּ הָֽרָצִים וְהַשָּׁלִשִׁים וַיֵּלְכוּ עַד־עִיר בֵּית־הַבָּֽעַל",
+        "riddle": "וַיֹּאמֶר יֵהוּא לָרָצִים וְלַשָּׁלִשִׁים בֹּאוּ הַכּוּם אִישׁ אַל־יֵצֵא",
+        "speaker": "יֵהוּא",
+        "listener": "לָרָצִים וְלַשָּׁלִשִׁים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, as soon as he had made an end of offering the burnt offering, that Jehu said to the guard and to the captains, Go in, and slay them; let none come forth. And they smote them with the edge of the sword; and the guard and the captains cast them out, and went to the city of the house of Baal."
+        },
+        "he": {
+          "25": "וַיְהִי כְּכַלֹּתוֹ ׀ לַעֲשׂוֹת הָעֹלָה וַיֹּאמֶר יֵהוּא לָרָצִים וְלַשָּׁלִשִׁים בֹּאוּ הַכּוּם אִישׁ אַל־יֵצֵא וַיַּכּוּם לְפִי־חָרֶב וַיַּשְׁלִכוּ הָֽרָצִים וְהַשָּׁלִשִׁים וַיֵּלְכוּ עַד־עִיר בֵּית־הַבָּֽעַל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-kings-10-30-30",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 10,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
+      },
+      "en": {
+        "quote": "And the LORD said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel.",
+        "riddle": "Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel.",
+        "speaker": "the LORD",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יֵהוּא יַעַן אֲשֶׁר־הֱטִיבֹתָ לַעֲשׂוֹת הַיָּשָׁר בְּעֵינַי כְּכֹל אֲשֶׁר בִּלְבָבִי עָשִׂיתָ לְבֵית אַחְאָב בְּנֵי רְבִעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵֽל",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־יֵהוּא יַעַן אֲשֶׁר־הֱטִיבֹתָ לַעֲשׂוֹת הַיָּשָׁר בְּעֵינַי כְּכֹל אֲשֶׁר בִּלְבָבִי עָשִׂיתָ לְבֵית אַחְאָב בְּנֵי רְבִעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵֽל",
+        "speaker": "יְהוָה",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And the LORD said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel."
+        },
+        "he": {
+          "30": "וַיֹּאמֶר יְהוָה אֶל־יֵהוּא יַעַן אֲשֶׁר־הֱטִיבֹתָ לַעֲשׂוֹת הַיָּשָׁר בְּעֵינַי כְּכֹל אֲשֶׁר בִּלְבָבִי עָשִׂיתָ לְבֵית אַחְאָב בְּנֵי רְבִעִים יֵשְׁבוּ לְךָ עַל־כִּסֵּא יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration/promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 30,
+        "end": 30
+      }
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 2,
-    "issue_count": 26
+    "llm_window_count": 6,
+    "projection_llm_count": 21,
+    "llm_call_count": 27,
+    "spec_count": 21,
+    "kept_count": 17,
+    "issue_count": 5
   }
 }

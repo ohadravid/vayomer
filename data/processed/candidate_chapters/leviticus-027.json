@@ -13,33 +13,37 @@
         "book_he": "ויקרא",
         "chapter": 27,
         "quote_verse_start": 2,
-        "quote_verse_end": 2
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.",
-        "riddle": "the persons shall be for the LORD by thy estimation.",
-        "speaker": "God",
-        "listener": "Moses",
+        "riddle": "When a man shall make a singular vow, the persons shall be for the LORD by thy estimation.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
         "book": "Leviticus"
       },
       "he": {
         "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה",
-        "riddle": "וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה",
-        "speaker": "אלוהים",
-        "listener": "משה",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
         "book": "ויקרא"
       },
       "raw_quote_source": {
         "en": {
+          "1": "And the LORD spake unto Moses, saying,",
           "2": "Speak unto the children of Israel, and say unto them, When a man shall make a singular vow, the persons shall be for the LORD by thy estimation."
         },
         "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
           "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ כִּי יַפְלִא נֶדֶר בְּעֶרְכְּךָ נְפָשֹׁת לַֽיהוָֽה׃"
         }
       },
       "meta": {
-        "reason": "Contains a vivid declaration.",
-        "confidence": 0.85
+        "reason": "direct command/instruction",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 27,
@@ -49,10 +53,13 @@
     }
   ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
+    "llm_window_count": 2,
+    "projection_llm_count": 1,
+    "llm_call_count": 3,
+    "spec_count": 1,
     "kept_count": 1,
-    "issue_count": 3
+    "issue_count": 0
   }
 }

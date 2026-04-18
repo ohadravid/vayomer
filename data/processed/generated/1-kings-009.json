@@ -1,0 +1,87 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-09-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Hiram came out from Tyre to see the cities which Solomon had given him; and they pleased him not. And he said, What cities are these which thou hast given me, my brother? And he called them the land of Cabul unto this day.",
+        "riddle": "What cities are these which thou hast given me, my brother?",
+        "speaker": "Hiram",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Tyre",
+        "bonus_hint": {
+          "quote": "Then Huram the king of Tyre answered in writing, which he sent to Solomon, Because the LORD hath loved his people, he hath made thee king over them.",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּצֵא חִירָם מִצֹּר לִרְאוֹת אֶת־הֶעָרִים אֲשֶׁר נָתַן־לוֹ שְׁלֹמֹה וְלֹא יָשְׁרוּ בְּעֵינָֽיו וַיֹּאמֶר מָה הֶעָרִים הָאֵלֶּה אֲשֶׁר־נָתַתָּה לִּי אָחִי וַיִּקְרָא לָהֶם אֶרֶץ כָּבוּל עַד הַיּוֹם הַזֶּֽה",
+        "riddle": "מָה הֶעָרִים הָאֵלֶּה אֲשֶׁר־נָתַתָּה לִּי אָחִי",
+        "speaker": "חִירָם",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "נָתַן",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר חוּרָם בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָשָׂה אֶת־הַשָּׁמַיִם וְאֶת־הָאָרֶץ אֲשֶׁר נָתַן לְדָוִיד הַמֶּלֶךְ בֵּן חָכָם יוֹדֵעַ שֵׂכֶל וּבִינָה אֲשֶׁר יִבְנֶה־בַּיִת לַיהוָה וּבַיִת לְמַלְכוּתֽוֹ",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Hiram came out from Tyre to see the cities which Solomon had given him; and they pleased him not.",
+          "13": "And he said, What cities are these which thou hast given me, my brother? And he called them the land of Cabul unto this day."
+        },
+        "he": {
+          "12": "וַיֵּצֵא חִירָם מִצֹּר לִרְאוֹת אֶת־הֶעָרִים אֲשֶׁר נָתַן־לוֹ שְׁלֹמֹה וְלֹא יָשְׁרוּ בְּעֵינָֽיו׃",
+          "13": "וַיֹּאמֶר מָה הֶעָרִים הָאֵלֶּה אֲשֶׁר־נָתַתָּה לִּי אָחִי וַיִּקְרָא לָהֶם אֶרֶץ כָּבוּל עַד הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

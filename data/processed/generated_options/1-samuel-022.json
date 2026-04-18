@@ -6,86 +6,367 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-22-03-03",
+      "id": "1-samuel-22-09-09",
       "source": {
         "method": "llm",
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 22,
-        "quote_verse_start": 3,
-        "quote_verse_end": 3
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9
       },
       "en": {
-        "quote": "And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me.",
-        "riddle": "till I know what God will do for me.",
-        "speaker": "David",
-        "listener": "King of Moab",
+        "quote": "Then answered Doeg the Edomite, which was set over the servants of Saul, and said, I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+        "riddle": "I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub.",
+        "speaker": "Doeg the Edomite",
+        "listener": "Saul",
         "book": "1 Samuel",
         "options": {
           "speaker": [
-            "Saul",
-            "Samuel",
-            "Solomon"
+            "Philistines",
+            "Philistine",
+            "Shimei"
           ],
           "listener": [
-            "Saul",
-            "Balak",
-            "Prophet"
+            "Samuel",
+            "Eli",
+            "Philistines"
           ]
         },
-        "bonus": "father",
+        "bonus": "servants",
         "bonus_hint": {
-          "quote": "And Adah bare Jabal: he was the father of such as dwell in tents, and of such as have cattle.",
+          "quote": "And Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and wine have I sustained him: and what shall I do now unto thee, my son?",
           "source": {
             "book": "Genesis",
-            "chapter": 4,
-            "start": 20,
-            "end": 20
+            "chapter": 27,
+            "start": 37,
+            "end": 37
           }
         }
       },
       "he": {
-        "quote": "וַיֵּלֶךְ דָּוִד מִשָּׁם מִצְפֵּה מוֹאָב וַיֹּאמֶר אֶל־מֶלֶךְ מוֹאָב יֵֽצֵא־נָא אָבִי וְאִמִּי אִתְּכֶם עַד אֲשֶׁר אֵדַע מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים",
-        "riddle": "מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים",
-        "speaker": "דָּוִד",
-        "listener": "מֶלֶךְ מוֹאָב",
+        "quote": "וַיַּעַן דֹּאֵג הָאֲדֹמִי וְהוּא נִצָּב עַל־עַבְדֵֽי־שָׁאוּל וַיֹּאמַר רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב",
+        "riddle": "רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב",
+        "speaker": "דֹּאֵג הָאֲדֹמִי",
+        "listener": "שָׁאוּל",
         "book": "שמואל א",
         "options": {
           "speaker": [
-            "שָׁאוּל",
-            "שְׁמוּאֵל",
-            "שְׁלֵמָה"
+            "פְּלִשְׁתִּים",
+            "הַפְּלִשְׁתִּי",
+            "שִׁמְעִי"
           ],
           "listener": [
-            "שָׁאוּל",
-            "בָלָק",
-            "הַנָּבִיא"
+            "שְׁמוּאֵל",
+            "עָלַי",
+            "פְּלִשְׁתִּים"
           ]
         },
-        "bonus": "אָבִי",
+        "bonus": "וַיַּעַן",
         "bonus_hint": {
-          "quote": "וַתֵּלֶד עָדָה אֶת־יָבָל הוּא הָיָה אֲבִי יֹשֵׁב אֹהֶל וּמִקְנֶֽה",
+          "quote": "וַיַּעַן יִצְחָק וַיֹּאמֶר לְעֵשָׂו הֵן גְּבִיר שַׂמְתִּיו לָךְ וְאֶת־כָּל־אֶחָיו נָתַתִּי לוֹ לַעֲבָדִים וְדָגָן וְתִירֹשׁ סְמַכְתִּיו וּלְכָה אֵפוֹא מָה אֶֽעֱשֶׂה בְּנִֽי",
           "source": {
             "book": "בראשית",
-            "chapter": 4,
-            "start": 20,
-            "end": 20
+            "chapter": 27,
+            "start": 37,
+            "end": 37
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "3": "And David went thence to Mizpeh of Moab: and he said unto the king of Moab, Let my father and my mother, I pray thee, come forth, and be with you, till I know what God will do for me."
+          "9": "Then answered Doeg the Edomite, which was set over the servants of Saul, and said, I saw the son of Jesse coming to Nob, to Ahimelech the son of Ahitub."
         },
         "he": {
-          "3": "וַיֵּלֶךְ דָּוִד מִשָּׁם מִצְפֵּה מוֹאָב וַיֹּאמֶר ׀ אֶל־מֶלֶךְ מוֹאָב יֵֽצֵא־נָא אָבִי וְאִמִּי אִתְּכֶם עַד אֲשֶׁר אֵדַע מַה־יַּֽעֲשֶׂה־לִּי אֱלֹהִֽים׃"
+          "9": "וַיַּעַן דֹּאֵג הָאֲדֹמִי וְהוּא נִצָּב עַל־עַבְדֵֽי־שָׁאוּל וַיֹּאמַר רָאִיתִי אֶת־בֶּן־יִשַׁי בָּא נֹבֶה אֶל־אֲחִימֶלֶךְ בֶּן־אֲחִטֽוּב׃"
         }
       },
       "ref": {
         "chapter": 22,
-        "start": 3,
-        "end": 3
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-22-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Then the king sent to call Ahimelech the priest, the son of Ahitub, and all his father's house, the priests that were in Nob: and they came all of them to the king. And Saul said, Hear now, thou son of Ahitub. And he answered, Here I am, my lord.",
+        "riddle": "Hear now, thou son of Ahitub.",
+        "speaker": "Saul",
+        "listener": "Ahimelech",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "David",
+            "Samuel",
+            "Eli"
+          ],
+          "listener": [
+            "Eli",
+            "Samuel",
+            "Elkanah"
+          ]
+        },
+        "bonus": "priest",
+        "bonus_hint": {
+          "quote": "And Moses sent them to the war, a thousand of every tribe, them and Phinehas the son of Eleazar the priest, to the war, with the holy instruments, and the trumpets to blow in his hand.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 31,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח הַמֶּלֶךְ לִקְרֹא אֶת־אֲחִימֶלֶךְ בֶּן־אֲחִיטוּב הַכֹּהֵן וְאֵת כָּל־בֵּית אָבִיו הַכֹּהֲנִים אֲשֶׁר בְּנֹב וַיָּבֹאוּ כֻלָּם אֶל־הַמֶּֽלֶךְ וַיֹּאמֶר שָׁאוּל שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב וַיֹּאמֶר הִנְנִי אֲדֹנִֽי",
+        "riddle": "שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב",
+        "speaker": "שָׁאוּל",
+        "listener": "אֲחִימֶלֶךְ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "דּוֹד",
+            "שְׁמוּאֵל",
+            "עָלַי"
+          ],
+          "listener": [
+            "עָלַי",
+            "שְׁמוּאֵל",
+            "אֶלְקָנָה"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח אֹתָם מֹשֶׁה אֶלֶף לַמַּטֶּה לַצָּבָא אֹתָם וְאֶת־פִּינְחָס בֶּן־אֶלְעָזָר הַכֹּהֵן לַצָּבָא וּכְלֵי הַקֹּדֶשׁ וַחֲצֹצְרוֹת הַתְּרוּעָה בְּיָדֽוֹ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 31,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Then the king sent to call Ahimelech the priest, the son of Ahitub, and all his father's house, the priests that were in Nob: and they came all of them to the king.",
+          "12": "And Saul said, Hear now, thou son of Ahitub. And he answered, Here I am, my lord."
+        },
+        "he": {
+          "11": "וַיִּשְׁלַח הַמֶּלֶךְ לִקְרֹא אֶת־אֲחִימֶלֶךְ בֶּן־אֲחִיטוּב הַכֹּהֵן וְאֵת כָּל־בֵּית אָבִיו הַכֹּהֲנִים אֲשֶׁר בְּנֹב וַיָּבֹאוּ כֻלָּם אֶל־הַמֶּֽלֶךְ׃",
+          "12": "וַיֹּאמֶר שָׁאוּל שְֽׁמַֽע־נָא בֶּן־אֲחִיטוּב וַיֹּאמֶר הִנְנִי אֲדֹנִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 11,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-22-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And the king said to Doeg, Turn thou, and fall upon the priests. And Doeg the Edomite turned, and he fell upon the priests, and slew on that day fourscore and five persons that did wear a linen ephod.",
+        "riddle": "Turn thou, and fall upon the priests.",
+        "speaker": "king",
+        "listener": "Doeg",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Samuel",
+            "Abner",
+            "Nathan"
+          ],
+          "listener": [
+            "Samuel",
+            "Eli",
+            "Saul"
+          ]
+        },
+        "bonus": "ephod",
+        "bonus_hint": {
+          "quote": "And Ahiah, the son of Ahitub, I-chabod's brother, the son of Phinehas, the son of Eli, the LORD's priest in Shiloh, wearing an ephod. And the people knew not that Jonathan was gone.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 14,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ לְדוֹאֵג סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים וַיִּסֹּב דּוֹאֵג הָאֲדֹמִי וַיִּפְגַּע־הוּא בַּכֹּהֲנִים וַיָּמֶת בַּיּוֹם הַהוּא שְׁמֹנִים וַחֲמִשָּׁה אִישׁ נֹשֵׂא אֵפוֹד בָּֽד",
+        "riddle": "סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "דּוֹאֵג",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שְׁמוּאֵל",
+            "אַבְנֵר",
+            "נָתַן"
+          ],
+          "listener": [
+            "שְׁמוּאֵל",
+            "עָלַי",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "נֹשֵׂא",
+        "bonus_hint": {
+          "quote": "וַאֲחִיָּה בֶן־אֲחִטוּב אֲחִי אִיכָבוֹד בֶּן־פִּינְחָס בֶּן־עֵלִי כֹּהֵן יְהוָה בְּשִׁלוֹ נֹשֵׂא אֵפוֹד וְהָעָם לֹא יָדַע כִּי הָלַךְ יוֹנָתָֽן",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 14,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the king said to Doeg, Turn thou, and fall upon the priests. And Doeg the Edomite turned, and he fell upon the priests, and slew on that day fourscore and five persons that did wear a linen ephod."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר הַמֶּלֶךְ לְדוֹאֵג סֹב אַתָּה וּפְגַע בַּכֹּהֲנִים וַיִּסֹּב דּוֹאֵג הָאֲדֹמִי וַיִּפְגַּע־הוּא בַּכֹּהֲנִים וַיָּמֶת ׀ בַּיּוֹם הַהוּא שְׁמֹנִים וַחֲמִשָּׁה אִישׁ נֹשֵׂא אֵפוֹד בָּֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 18,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-22-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 22,
+        "quote_verse_start": 22,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house. Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.",
+        "riddle": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard.",
+        "speaker": "David",
+        "listener": "Abiathar",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Jonathan",
+            "Abner"
+          ],
+          "listener": [
+            "Eli",
+            "Jonathan",
+            "Saul"
+          ]
+        },
+        "bonus": "death",
+        "bonus_hint": {
+          "quote": "And he said, Behold now, I am old, I know not the day of my death:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי",
+        "riddle": "שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי",
+        "speaker": "דָּוִד",
+        "listener": "אֶבְיָתָר",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שָׁאוֹל",
+            "יְהוֹנָתָן",
+            "אַבְנֵר"
+          ],
+          "listener": [
+            "עָלַי",
+            "יְהוֹנָתָן",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "יָדַעְתִּי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר הִנֵּה־נָא זָקַנְתִּי לֹא יָדַעְתִּי יוֹם מוֹתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And David said unto Abiathar, I knew it that day, when Doeg the Edomite was there, that he would surely tell Saul: I have occasioned the death of all the persons of thy father's house.",
+          "23": "Abide thou with me, fear not: for he that seeketh my life seeketh thy life: but with me thou shalt be in safeguard."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר דָּוִד לְאֶבְיָתָר יָדַעְתִּי בַּיּוֹם הַהוּא כִּֽי־שָׁם דּוֹאֵג הָאֲדֹמִי כִּֽי־הַגֵּד יַגִּיד לְשָׁאוּל אָנֹכִי סַבֹּתִי בְּכָל־נֶפֶשׁ בֵּית אָבִֽיךָ׃",
+          "23": "שְׁבָה אִתִּי אַל־תִּירָא כִּי אֲשֶׁר־יְבַקֵּשׁ אֶת־נַפְשִׁי יְבַקֵּשׁ אֶת־נַפְשֶׁךָ כִּֽי־מִשְׁמֶרֶת אַתָּה עִמָּדִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 22,
+        "end": 23
       },
       "meta": {
         "mode": "llm",

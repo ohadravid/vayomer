@@ -6,53 +6,273 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-39-12-12",
+      "id": "genesis-39-07-07",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 39,
-        "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
       },
       "en": {
-        "quote": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out.",
-        "riddle": "caught him by his garment, saying, Lie with me",
-        "speaker": "Potiphar's wife",
+        "quote": "And it came to pass after these things, that his master's wife cast her eyes upon Joseph; and she said, Lie with me.",
+        "riddle": "Lie with me.",
+        "speaker": "master's wife",
         "listener": "Joseph",
         "book": "Genesis"
       },
       "he": {
-        "quote": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה",
-        "riddle": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי",
-        "speaker": "אשת פוטיפר",
-        "listener": "יוסף",
+        "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וַתִּשָּׂא אֵֽשֶׁת־אֲדֹנָיו אֶת־עֵינֶיהָ אֶל־יוֹסֵף וַתֹּאמֶר שִׁכְבָה עִמִּֽי",
+        "riddle": "שִׁכְבָה עִמִּֽי",
+        "speaker": "אֵֽשֶׁת־אֲדֹנָיו",
+        "listener": "יוֹסֵף",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
-          "12": "And she caught him by his garment, saying, Lie with me: and he left his garment in her hand, and fled, and got him out."
+          "7": "And it came to pass after these things, that his master's wife cast her eyes upon Joseph; and she said, Lie with me."
         },
         "he": {
-          "12": "וַתִּתְפְּשֵׂהוּ בְּבִגְדוֹ לֵאמֹר שִׁכְבָה עִמִּי וַיַּעֲזֹב בִּגְדוֹ בְּיָדָהּ וַיָּנָס וַיֵּצֵא הַחֽוּצָה׃"
+          "7": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וַתִּשָּׂא אֵֽשֶׁת־אֲדֹנָיו אֶת־עֵינֶיהָ אֶל־יוֹסֵף וַתֹּאמֶר שִׁכְבָה עִמִּֽי׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech command",
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-39-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand;",
+        "riddle": "Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand;",
+        "speaker": "Joseph",
+        "listener": "master's wife",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי",
+        "riddle": "וַיְמָאֵן וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "אֵשֶׁת אֲדֹנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "But he refused, and said unto his master's wife, Behold, my master wotteth not what is with me in the house, and he hath committed all that he hath to my hand;"
+        },
+        "he": {
+          "8": "וַיְמָאֵן ׀ וַיֹּאמֶר אֶל־אֵשֶׁת אֲדֹנָיו הֵן אֲדֹנִי לֹא־יָדַע אִתִּי מַה־בַּבָּיִת וְכֹל אֲשֶׁר־יֶשׁ־לוֹ נָתַן בְּיָדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 39,
-        "start": 12,
-        "end": 12
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-39-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+        "riddle": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?",
+        "speaker": "Joseph",
+        "listener": "master's wife",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים",
+        "riddle": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים",
+        "speaker": "יוֹסֵף",
+        "listener": "אֵשֶׁת שַׂר",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "There is none greater in this house than I; neither hath he kept back any thing from me but thee, because thou art his wife: how then can I do this great wickedness, and sin against God?"
+        },
+        "he": {
+          "9": "אֵינֶנּוּ גָדוֹל בַּבַּיִת הַזֶּה מִמֶּנִּי וְלֹֽא־חָשַׂךְ מִמֶּנִּי מְאוּמָה כִּי אִם־אוֹתָךְ בַּאֲשֶׁר אַתְּ־אִשְׁתּוֹ וְאֵיךְ אֶֽעֱשֶׂה הָרָעָה הַגְּדֹלָה הַזֹּאת וְחָטָאתִי לֵֽאלֹהִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-39-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+        "riddle": "See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:",
+        "speaker": "Potiphar's wife",
+        "listener": "men of her house",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל",
+        "riddle": "רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל",
+        "speaker": "אשת פטיפור",
+        "listener": "אַנְשֵׁי בֵיתָהּ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "That she called unto the men of her house, and spake unto them, saying, See, he hath brought in an Hebrew unto us to mock us; he came in unto me to lie with me, and I cried with a loud voice:"
+        },
+        "he": {
+          "14": "וַתִּקְרָא לְאַנְשֵׁי בֵיתָהּ וַתֹּאמֶר לָהֶם לֵאמֹר רְאוּ הֵבִיא לָנוּ אִישׁ עִבְרִי לְצַחֶק בָּנוּ בָּא אֵלַי לִשְׁכַּב עִמִּי וָאֶקְרָא בְּקוֹל גָּדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-39-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:",
+        "riddle": "The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:",
+        "speaker": "Potiphar's wife",
+        "listener": "Potiphar",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי",
+        "riddle": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי",
+        "speaker": "אשת פ",
+        "listener": "פ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And she spake unto him according to these words, saying, The Hebrew servant, which thou hast brought unto us, came in unto me to mock me:"
+        },
+        "he": {
+          "17": "וַתְּדַבֵּר אֵלָיו כַּדְּבָרִים הָאֵלֶּה לֵאמֹר בָּֽא־אֵלַי הָעֶבֶד הָֽעִבְרִי אֲשֶׁר־הֵבֵאתָ לָּנוּ לְצַחֶק בִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "accusatory statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-39-19-19",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 39,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled.",
+        "riddle": "After this manner did thy servant to me",
+        "speaker": "Potiphar's wife",
+        "listener": "Potiphar",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ",
+        "riddle": "כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּך",
+        "speaker": "אִשְׁתּוֹ",
+        "listener": "אֲדֹנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled."
+        },
+        "he": {
+          "19": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct accusation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 19,
+        "end": 19
       }
     }
   ],
   "stats": {
-    "window_count": 14,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 1,
-    "issue_count": 13
+    "llm_window_count": 3,
+    "projection_llm_count": 7,
+    "llm_call_count": 10,
+    "spec_count": 7,
+    "kept_count": 6,
+    "issue_count": 1
   }
 }

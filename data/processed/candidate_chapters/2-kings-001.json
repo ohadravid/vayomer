@@ -6,6 +6,49 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-01-04-04",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4
+      },
+      "en": {
+        "quote": "Now therefore thus saith the LORD, Thou shalt not come down from that bed on which thou art gone up, but shalt surely die. And Elijah departed.",
+        "riddle": "Thou shalt not come down from that bed on which thou art gone up, but shalt surely die.",
+        "speaker": "the LORD",
+        "listener": "Ahaziah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְלָכֵן כֹּֽה־אָמַר יְהוָה הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּי מוֹת תָּמוּת וַיֵּלֶךְ אֵלִיָּֽה",
+        "riddle": "וְלָכֵן כֹּֽה־אָמַר יְהוָה הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּי מוֹת תָּמוּת",
+        "speaker": "יְהוָה",
+        "listener": "אַחֲזְיָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Now therefore thus saith the LORD, Thou shalt not come down from that bed on which thou art gone up, but shalt surely die. And Elijah departed."
+        },
+        "he": {
+          "4": "וְלָכֵן כֹּֽה־אָמַר יְהוָה הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּי מוֹת תָּמוּת וַיֵּלֶךְ אֵלִיָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic warning",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
       "id": "2-kings-01-05-05",
       "source": {
         "book_code": "2KI",
@@ -18,14 +61,14 @@
       "en": {
         "quote": "And when the messengers turned back unto him, he said unto them, Why are ye now turned back?",
         "riddle": "Why are ye now turned back?",
-        "speaker": "Ahab",
-        "listener": "Messengers",
+        "speaker": "Elijah",
+        "listener": "messengers",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיָּשׁוּבוּ הַמַּלְאָכִים אֵלָיו וַיֹּאמֶר אֲלֵיהֶם מַה־זֶּה שַׁבְתֶּֽם",
         "riddle": "מַה־זֶּה שַׁבְתֶּֽם",
-        "speaker": "אחאב",
+        "speaker": "אליה",
         "listener": "הַמַּלְאָכִים",
         "book": "מלכים ב"
       },
@@ -38,13 +81,97 @@
         }
       },
       "meta": {
-        "reason": "Direct question from king",
+        "reason": "direct question",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 1,
         "start": 5,
         "end": 5
+      }
+    },
+    {
+      "id": "2-kings-01-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he said unto them, What manner of man was he which came up to meet you, and told you these words?",
+        "riddle": "What manner of man was he which came up to meet you, and told you these words?",
+        "speaker": "Elijah",
+        "listener": "messengers",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֲלֵהֶם מֶה מִשְׁפַּט הָאִישׁ אֲשֶׁר עָלָה לִקְרַאתְכֶם וַיְדַבֵּר אֲלֵיכֶם אֶת־הַדְּבָרִים הָאֵֽלֶּה",
+        "riddle": "וַיְדַבֵּר אֲלֵהֶם מֶה מִשְׁפַּט הָאִישׁ אֲשֶׁר עָלָה לִקְרַאתְכֶם וַיְדַבֵּר אֲלֵיכֶם אֶת־הַדְּבָרִים הָאֵֽלֶּה",
+        "speaker": "אליה",
+        "listener": "שליחים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And he said unto them, What manner of man was he which came up to meet you, and told you these words?"
+        },
+        "he": {
+          "7": "וַיְדַבֵּר אֲלֵהֶם מֶה מִשְׁפַּט הָאִישׁ אֲשֶׁר עָלָה לִקְרַאתְכֶם וַיְדַבֵּר אֲלֵיכֶם אֶת־הַדְּבָרִים הָאֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-kings-01-10-10",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty.",
+        "riddle": "If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty.",
+        "speaker": "Elijah",
+        "listener": "captain",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעֲנֶה אֵלִיָּהוּ וַיְדַבֵּר אֶל־שַׂר הַחֲמִשִּׁים וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו",
+        "riddle": "וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "שַׂר הַחֲמִשִּׁים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty."
+        },
+        "he": {
+          "10": "וַיַּעֲנֶה אֵלִיָּהוּ וַיְדַבֵּר אֶל־שַׂר הַחֲמִשִּׁים וְאִם־אִישׁ אֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional threat",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 10,
+        "end": 10
       }
     },
     {
@@ -59,15 +186,15 @@
       },
       "en": {
         "quote": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly.",
-        "riddle": "Come down quickly.",
-        "speaker": "King's messenger",
-        "listener": "Man of God",
+        "riddle": "O man of God, thus hath the king said, Come down quickly.",
+        "speaker": "captain",
+        "listener": "Elijah",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיָּשָׁב וַיִּשְׁלַח אֵלָיו שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה",
-        "riddle": "מְהֵרָה רֵֽדָה",
-        "speaker": "שליח הַמֶּלֶךְ",
+        "riddle": "שַׂר־חֲמִשִּׁים אַחֵר וַחֲמִשָּׁיו וַיַּעַן וַיְדַבֵּר אֵלָיו אִישׁ הָאֱלֹהִים כֹּֽה־אָמַר הַמֶּלֶךְ מְהֵרָה רֵֽדָה",
+        "speaker": "שַׂר־חֲמִשִּׁים",
         "listener": "אִישׁ הָאֱלֹהִים",
         "book": "מלכים ב"
       },
@@ -80,21 +207,152 @@
         }
       },
       "meta": {
-        "reason": "Contains direct command.",
-        "confidence": 1.0
+        "reason": "direct command",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 1,
         "start": 11,
         "end": 11
       }
+    },
+    {
+      "id": "2-kings-01-12-12",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And Elijah answered and said unto them, If I be a man of God, let fire come down from heaven, and consume thee and thy fifty. And the fire of God came down from heaven, and consumed him and his fifty.",
+        "riddle": "If I be a man of God, let fire come down from heaven, and consume thee and thy fifty.",
+        "speaker": "Elijah",
+        "listener": "captain",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעַן אֵלִיָּה וַיְדַבֵּר אֲלֵיהֶם אִם־אִישׁ הָֽאֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ־אֱלֹהִים מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו",
+        "riddle": "אִם־אִישׁ הָֽאֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ־אֱלֹהִים מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו",
+        "speaker": "אֵלִיָּה",
+        "listener": "אֲלֵיהֶם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Elijah answered and said unto them, If I be a man of God, let fire come down from heaven, and consume thee and thy fifty. And the fire of God came down from heaven, and consumed him and his fifty."
+        },
+        "he": {
+          "12": "וַיַּעַן אֵלִיָּה וַיְדַבֵּר אֲלֵיהֶם אִם־אִישׁ הָֽאֱלֹהִים אָנִי תֵּרֶד אֵשׁ מִן־הַשָּׁמַיִם וְתֹאכַל אֹתְךָ וְאֶת־חֲמִשֶּׁיךָ וַתֵּרֶד אֵשׁ־אֱלֹהִים מִן־הַשָּׁמַיִם וַתֹּאכַל אֹתוֹ וְאֶת־חֲמִשָּֽׁיו׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional threat",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-kings-01-15-15",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And the angel of the LORD said unto Elijah, Go down with him: be not afraid of him. And he arose, and went down with him unto the king.",
+        "riddle": "Go down with him: be not afraid of him.",
+        "speaker": "angel of the LORD",
+        "listener": "Elijah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מַלְאַךְ יְהוָה אֶל־אֵלִיָּהוּ רֵד אוֹתוֹ אַל־תִּירָא מִפָּנָיו וַיָּקָם וַיֵּרֶד אוֹתוֹ אֶל־הַמֶּֽלֶךְ",
+        "riddle": "רֵד אוֹתוֹ אַל־תִּירָא מִפָּנָיו וַיָּקָם וַיֵּרֶד אוֹתוֹ אֶל־הַמֶּֽלֶך",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "אֵלִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the angel of the LORD said unto Elijah, Go down with him: be not afraid of him. And he arose, and went down with him unto the king."
+        },
+        "he": {
+          "15": "וַיְדַבֵּר מַלְאַךְ יְהוָה אֶל־אֵלִיָּהוּ רֵד אוֹתוֹ אַל־תִּירָא מִפָּנָיו וַיָּקָם וַיֵּרֶד אוֹתוֹ אֶל־הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.99
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-01-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 1,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And he said unto him, Thus saith the LORD, Forasmuch as thou hast sent messengers to inquire of Baal-zebub the god of Ekron, is it not because there is no God in Israel to inquire of his word? therefore thou shalt not come down off that bed on which thou art gone up, but shalt surely die.",
+        "riddle": "Forasmuch as thou hast sent messengers to inquire of Baal-zebub the god of Ekron, is it not because there is no God in Israel to inquire of his word? therefore thou shalt not come down off that bed on which thou art gone up, but shalt surely die",
+        "speaker": "Elijah",
+        "listener": "king",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֵלָיו כֹּֽה־אָמַר יְהוָה יַעַן אֲשֶׁר־שָׁלַחְתָּ מַלְאָכִים לִדְרֹשׁ בְּבַעַל זְבוּב אֱלֹהֵי עֶקְרוֹן הַֽמִבְּלִי אֵין־אֱלֹהִים בְּיִשְׂרָאֵל לִדְרֹשׁ בִּדְבָרוֹ לָכֵן הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּֽי־מוֹת תָּמֽוּת",
+        "riddle": "וַיְדַבֵּר אֵלָיו כֹּֽה־אָמַר יְהוָה יַעַן אֲשֶׁר־שָׁלַחְתָּ מַלְאָכִים לִדְרֹשׁ בְּבַעַל זְבוּב אֱלֹהֵי עֶקְרוֹן הַֽמִבְּלִי אֵין־אֱלֹהִים בְּיִשְׂרָאֵל לִדְרֹשׁ בִּדְבָרוֹ לָכֵן הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּֽי־מוֹת תָּמֽוּת",
+        "speaker": "אליה",
+        "listener": "מלך",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said unto him, Thus saith the LORD, Forasmuch as thou hast sent messengers to inquire of Baal-zebub the god of Ekron, is it not because there is no God in Israel to inquire of his word? therefore thou shalt not come down off that bed on which thou art gone up, but shalt surely die."
+        },
+        "he": {
+          "16": "וַיְדַבֵּר אֵלָיו כֹּֽה־אָמַר יְהוָה יַעַן אֲשֶׁר־שָׁלַחְתָּ מַלְאָכִים לִדְרֹשׁ בְּבַעַל זְבוּב אֱלֹהֵי עֶקְרוֹן הַֽמִבְּלִי אֵין־אֱלֹהִים בְּיִשְׂרָאֵל לִדְרֹשׁ בִּדְבָרוֹ לָכֵן הַמִּטָּה אֲשֶׁר־עָלִיתָ שָּׁם לֹֽא־תֵרֵד מִמֶּנָּה כִּֽי־מוֹת תָּמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and warning",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 16,
+        "end": 16
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 2,
-    "issue_count": 15
+    "llm_window_count": 3,
+    "projection_llm_count": 14,
+    "llm_call_count": 17,
+    "spec_count": 14,
+    "kept_count": 8,
+    "issue_count": 6
   }
 }

@@ -6,6 +6,49 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-04-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD.",
+        "riddle": "I have gotten a man from the LORD",
+        "speaker": "Eve",
+        "listener": "Adam",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן וַתֹּאמֶר קָנִיתִי אִישׁ אֶת־יְהוָֽה",
+        "riddle": "וַתֵּלֶד אֶת־קַיִן וַתֹּאמֶר קָנִיתִי אִישׁ אֶת־יְהוָֽה",
+        "speaker": "חַוָּה",
+        "listener": "אָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Adam knew Eve his wife; and she conceived, and bare Cain, and said, I have gotten a man from the LORD."
+        },
+        "he": {
+          "1": "וְהָאָדָם יָדַע אֶת־חַוָּה אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־קַיִן וַתֹּאמֶר קָנִיתִי אִישׁ אֶת־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
       "id": "genesis-04-06-06",
       "source": {
         "book_code": "GEN",
@@ -13,12 +56,14 @@
         "book_he": "בראשית",
         "chapter": 4,
         "quote_verse_start": 6,
-        "quote_verse_end": 6
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
       },
       "en": {
         "quote": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
         "riddle": "Why art thou wroth? and why is thy countenance fallen?",
-        "speaker": "LORD",
+        "speaker": "the LORD",
         "listener": "Cain",
         "book": "Genesis"
       },
@@ -38,7 +83,7 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct questions",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -46,13 +91,422 @@
         "start": 6,
         "end": 6
       }
+    },
+    {
+      "id": "genesis-04-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "riddle": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him.",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
+        "riddle": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "קָיִן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said unto Cain, Why art thou wroth? and why is thy countenance fallen?",
+          "7": "If thou doest well, shalt thou not be accepted? and if thou doest not well, sin lieth at the door. And unto thee shall be his desire, and thou shalt rule over him."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה אֶל־קָיִן לָמָּה חָרָה לָךְ וְלָמָּה נָפְלוּ פָנֶֽיךָ׃",
+          "7": "הֲלוֹא אִם־תֵּיטִיב שְׂאֵת וְאִם לֹא תֵיטִיב לַפֶּתַח חַטָּאת רֹבֵץ וְאֵלֶיךָ תְּשׁוּקָתוֹ וְאַתָּה תִּמְשָׁל־בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-04-09-09-1",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+        "riddle": "Where is Abel thy brother?",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+        "riddle": "אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר",
+        "speaker": "יְהוָה",
+        "listener": "קַיִן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?"
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-04-09-09-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+        "riddle": "I know not: Am I my brother's keeper?",
+        "speaker": "Cain",
+        "listener": "the LORD",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+        "riddle": "לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+        "speaker": "קַיִן",
+        "listener": "יְהוָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?"
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-04-10-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground.",
+        "riddle": "What hast thou done? the voice of thy brother's blood crieth unto me from the ground.",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה",
+        "riddle": "מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה",
+        "speaker": "יְהוָה",
+        "listener": "קַיִן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+          "10": "And he said, What hast thou done? the voice of thy brother's blood crieth unto me from the ground."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי׃",
+          "10": "וַיֹּאמֶר מֶה עָשִׂיתָ קוֹל דְּמֵי אָחִיךָ צֹעֲקִים אֵלַי מִן־הָֽאֲדָמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "accusation",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "genesis-04-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Cain said unto the LORD, My punishment is greater than I can bear.",
+        "riddle": "My punishment is greater than I can bear.",
+        "speaker": "Cain",
+        "listener": "the LORD",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא",
+        "riddle": "גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא",
+        "speaker": "קַיִן",
+        "listener": "יְהוָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Cain said unto the LORD, My punishment is greater than I can bear."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "genesis-04-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me.",
+        "riddle": "Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me.",
+        "speaker": "Cain",
+        "listener": "the LORD",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָֽאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כָל־מֹצְאִי יַֽהַרְגֵֽנִי",
+        "riddle": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָֽאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כָל־מֹצְאִי יַֽהַרְגֵֽנִי",
+        "speaker": "קַיִן",
+        "listener": "יְהוָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Cain said unto the LORD, My punishment is greater than I can bear.",
+          "14": "Behold, thou hast driven me out this day from the face of the earth; and from thy face shall I be hid; and I shall be a fugitive and a vagabond in the earth; and it shall come to pass, that every one that findeth me shall slay me."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא׃",
+          "14": "הֵן גֵּרַשְׁתָּ אֹתִי הַיּוֹם מֵעַל פְּנֵי הָֽאֲדָמָה וּמִפָּנֶיךָ אֶסָּתֵר וְהָיִיתִי נָע וָנָד בָּאָרֶץ וְהָיָה כָל־מֹצְאִי יַֽהַרְגֵֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-04-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him.",
+        "riddle": "Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold.",
+        "speaker": "the LORD",
+        "listener": "Cain",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ יְהוָה לָכֵן כָּל־הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם וַיָּשֶׂם יְהוָה לְקַיִן אוֹת לְבִלְתִּי הַכּוֹת־אֹתוֹ כָּל־מֹצְאֽוֹ",
+        "riddle": "וַיֹּאמֶר לוֹ יְהוָה לָכֵן כָּל־הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם",
+        "speaker": "יְהוָה",
+        "listener": "קַיִן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Cain said unto the LORD, My punishment is greater than I can bear.",
+          "15": "And the LORD said unto him, Therefore whosoever slayeth Cain, vengeance shall be taken on him sevenfold. And the LORD set a mark upon Cain, lest any finding him should kill him."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא׃",
+          "15": "וַיֹּאמֶר לוֹ יְהוָה לָכֵן כָּל־הֹרֵג קַיִן שִׁבְעָתַיִם יֻקָּם וַיָּשֶׂם יְהוָה לְקַיִן אוֹת לְבִלְתִּי הַכּוֹת־אֹתוֹ כָּל־מֹצְאֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-04-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech: for I have slain a man to my wounding, and a young man to my hurt.",
+        "riddle": "Hear my voice; ye wives of Lamech, hearken unto my speech",
+        "speaker": "Lamech",
+        "listener": "Adah and Zillah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לֶמֶךְ לְנָשָׁיו עָדָה וְצִלָּה שְׁמַעַן קוֹלִי נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי כִּי אִישׁ הָרַגְתִּי לְפִצְעִי וְיֶלֶד לְחַבֻּרָתִֽי",
+        "riddle": "שְׁמַעַן קוֹלִי נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי כִּי אִישׁ הָרַגְתִּי לְפִצְעִי וְיֶלֶד",
+        "speaker": "לֶמֶךְ",
+        "listener": "עָדָה וְצִלָּה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech: for I have slain a man to my wounding, and a young man to my hurt."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר לֶמֶךְ לְנָשָׁיו עָדָה וְצִלָּה שְׁמַעַן קוֹלִי נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי כִּי אִישׁ הָרַגְתִּי לְפִצְעִי וְיֶלֶד לְחַבֻּרָתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "genesis-04-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 4,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.",
+        "riddle": "If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold.",
+        "speaker": "Lamech",
+        "listener": "Adah and Zillah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כִּי שִׁבְעָתַיִם יֻקַּם־קָיִן וְלֶמֶךְ שִׁבְעִים וְשִׁבְעָֽה",
+        "riddle": "כִּי שִׁבְעָתַיִם יֻקַּם־קָיִן וְלֶמֶךְ שִׁבְעִים וְשִׁבְעָֽה",
+        "speaker": "לֶמֶךְ",
+        "listener": "עָדָה וְצִלָּה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Lamech said unto his wives, Adah and Zillah, Hear my voice; ye wives of Lamech, hearken unto my speech: for I have slain a man to my wounding, and a young man to my hurt.",
+          "24": "If Cain shall be avenged sevenfold, truly Lamech seventy and sevenfold."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר לֶמֶךְ לְנָשָׁיו עָדָה וְצִלָּה שְׁמַעַן קוֹלִי נְשֵׁי לֶמֶךְ הַאְזֵנָּה אִמְרָתִי כִּי אִישׁ הָרַגְתִּי לְפִצְעִי וְיֶלֶד לְחַבֻּרָתִֽי׃",
+          "24": "כִּי שִׁבְעָתַיִם יֻקַּם־קָיִן וְלֶמֶךְ שִׁבְעִים וְשִׁבְעָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 24,
+        "end": 24
+      }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 1,
-    "issue_count": 17
+    "llm_window_count": 4,
+    "projection_llm_count": 11,
+    "llm_call_count": 15,
+    "spec_count": 11,
+    "kept_count": 11,
+    "issue_count": 1
   }
 }

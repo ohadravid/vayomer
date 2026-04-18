@@ -6,6 +6,315 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-samuel-17-01-01",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:",
+        "riddle": "Let me now choose out twelve thousand men, and I will arise and pursue after David this night:",
+        "speaker": "Ahithophel",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה",
+        "riddle": "אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה",
+        "speaker": "אֲחִיתֹפֶל",
+        "listener": "אַבְשָׁלֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-samuel-17-06-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And when Hushai was come to Absalom, Absalom spake unto him, saying, Ahithophel hath spoken after this manner: shall we do after his saying? if not; speak thou.",
+        "riddle": "Ahithophel hath spoken after this manner: shall we do after his saying? if not; speak thou.",
+        "speaker": "Absalom",
+        "listener": "Hushai",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּבֹא חוּשַׁי אֶל־אַבְשָׁלוֹם וַיֹּאמֶר אַבְשָׁלוֹם אֵלָיו לֵאמֹר כַּדָּבָר הַזֶּה דִּבֶּר אֲחִיתֹפֶל הֲנַעֲשֶׂה אֶת־דְּבָרוֹ אִם־אַיִן אַתָּה דַבֵּֽר",
+        "riddle": "אַבְשָׁלוֹם אֵלָיו לֵאמֹר כַּדָּבָר הַזֶּה דִּבֶּר אֲחִיתֹפֶל הֲנַעֲשֶׂה אֶת־דְּבָרוֹ אִם־אַיִן אַתָּה דַבֵּֽר",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "חוּשַׁי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And when Hushai was come to Absalom, Absalom spake unto him, saying, Ahithophel hath spoken after this manner: shall we do after his saying? if not; speak thou."
+        },
+        "he": {
+          "6": "וַיָּבֹא חוּשַׁי אֶל־אַבְשָׁלוֹם וַיֹּאמֶר אַבְשָׁלוֹם אֵלָיו לֵאמֹר כַּדָּבָר הַזֶּה דִּבֶּר אֲחִיתֹפֶל הֲנַעֲשֶׂה אֶת־דְּבָרוֹ אִם־אַיִן אַתָּה דַבֵּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-17-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time.",
+        "riddle": "The counsel that Ahithophel hath given is not good at this time.",
+        "speaker": "Hushai",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלוֹם לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת",
+        "riddle": "לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת",
+        "speaker": "חוּשַׁי",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלוֹם לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-17-08-08",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "For, said Hushai, thou knowest thy father and his men, that they be mighty men, and they be chafed in their minds, as a bear robbed of her whelps in the field: and thy father is a man of war, and will not lodge with the people.",
+        "riddle": "thou knowest thy father and his men, that they be mighty men, and they be chafed in their minds, as a bear robbed of her whelps in the field: and thy father is a man of war, and will not lodge with the people.",
+        "speaker": "Hushai",
+        "listener": "Ahithophel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חוּשַׁי אַתָּה יָדַעְתָּ אֶת־אָבִיךָ וְאֶת־אֲנָשָׁיו כִּי גִבֹּרִים הֵמָּה וּמָרֵי נֶפֶשׁ הֵמָּה כְּדֹב שַׁכּוּל בַּשָּׂדֶה וְאָבִיךָ אִישׁ מִלְחָמָה וְלֹא יָלִין אֶת־הָעָֽם",
+        "riddle": "אַתָּה יָדַעְתָּ אֶת־אָבִיךָ וְאֶת־אֲנָשָׁיו כִּי גִבֹּרִים הֵמָּה וּמָרֵי נֶפֶשׁ הֵמָּה כְּדֹב שַׁכּוּל בַּשָּׂדֶה וְאָבִיךָ אִישׁ מִלְחָמָה וְלֹא יָלִין אֶת־הָעָֽם",
+        "speaker": "חוּשַׁי",
+        "listener": "אַתָּה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "For, said Hushai, thou knowest thy father and his men, that they be mighty men, and they be chafed in their minds, as a bear robbed of her whelps in the field: and thy father is a man of war, and will not lodge with the people."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר חוּשַׁי אַתָּה יָדַעְתָּ אֶת־אָבִיךָ וְאֶת־אֲנָשָׁיו כִּי גִבֹּרִים הֵמָּה וּמָרֵי נֶפֶשׁ הֵמָּה כְּדֹב שַׁכּוּל בַּשָּׂדֶה וְאָבִיךָ אִישׁ מִלְחָמָה וְלֹא יָלִין אֶת־הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-17-14-14",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than the counsel of Ahithophel. For the LORD had appointed to defeat the good counsel of Ahithophel, to the intent that the LORD might bring evil upon Absalom.",
+        "riddle": "The counsel of Hushai the Archite is better than the counsel of Ahithophel",
+        "speaker": "Absalom and men of Israel",
+        "listener": "Absalom and men of Israel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל טוֹבָה עֲצַת חוּשַׁי הָאַרְכִּי מֵעֲצַת אֲחִיתֹפֶל וַיהוָה צִוָּה לְהָפֵר אֶת־עֲצַת אֲחִיתֹפֶל הַטּוֹבָה לְבַעֲבוּר הָבִיא יְהוָה אֶל־אַבְשָׁלוֹם אֶת־הָרָעָֽה",
+        "riddle": "וַיֹּאמֶר אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל טוֹבָה עֲצַת חוּשַׁי הָאַרְכִּי מֵעֲצַת אֲחִיתֹפֶל",
+        "speaker": "אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל",
+        "listener": "אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than the counsel of Ahithophel. For the LORD had appointed to defeat the good counsel of Ahithophel, to the intent that the LORD might bring evil upon Absalom."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל טוֹבָה עֲצַת חוּשַׁי הָאַרְכִּי מֵעֲצַת אֲחִיתֹפֶל וַיהוָה צִוָּה לְהָפֵר אֶת־עֲצַת אֲחִיתֹפֶל הַטּוֹבָה לְבַעֲבוּר הָבִיא יְהוָה אֶל־אַבְשָׁלוֹם אֶת־הָרָעָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-17-15-15",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled.",
+        "riddle": "Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled",
+        "speaker": "Hushai",
+        "listener": "Zadok and Abiathar",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חוּשַׁי אֶל־צָדוֹק וְאֶל־אֶבְיָתָר הַכֹּהֲנִים כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי",
+        "riddle": "כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי",
+        "speaker": "חוּשַׁי",
+        "listener": "צָדוֹק וְאֶבְיָתָר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר חוּשַׁי אֶל־צָדוֹק וְאֶל־אֶבְיָתָר הַכֹּהֲנִים כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report of counsel",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-samuel-17-16-16",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15
+      },
+      "en": {
+        "quote": "Now therefore send quickly, and tell David, saying, Lodge not this night in the plains of the wilderness, but speedily pass over; lest the king be swallowed up, and all the people that are with him.",
+        "riddle": "Now therefore send quickly, and tell David, saying, Lodge not this night in the plains of the wilderness, but speedily pass over; lest the king be swallowed up, and all the people that are with him",
+        "speaker": "Hushai",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה שִׁלְחוּ מְהֵרָה וְהַגִּידוּ לְדָוִד לֵאמֹר אַל־תָּלֶן הַלַּיְלָה בְּעַֽרְבוֹת הַמִּדְבָּר וְגַם עָבוֹר תַּעֲבוֹר פֶּן יְבֻלַּע לַמֶּלֶךְ וּלְכָל־הָעָם אֲשֶׁר אִתּֽוֹ",
+        "riddle": "וְעַתָּה שִׁלְחוּ מְהֵרָה וְהַגִּידוּ לְדָוִד לֵאמֹר אַל־תָּלֶן הַלַּיְלָה בְּעַֽרְבוֹת הַמִּדְבָּר וְגַם עָבוֹר תַּעֲבוֹר פֶּן יְבֻלַּע לַמֶּלֶךְ וּלְכָל־הָעָם אֲשֶׁר אִתּֽוֹ",
+        "speaker": "חוּשַׁי",
+        "listener": "דָוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled.",
+          "16": "Now therefore send quickly, and tell David, saying, Lodge not this night in the plains of the wilderness, but speedily pass over; lest the king be swallowed up, and all the people that are with him."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר חוּשַׁי אֶל־צָדוֹק וְאֶל־אֶבְיָתָר הַכֹּהֲנִים כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי׃",
+          "16": "וְעַתָּה שִׁלְחוּ מְהֵרָה וְהַגִּידוּ לְדָוִד לֵאמֹר אַל־תָּלֶן הַלַּיְלָה בְּעַֽרְבוֹת הַמִּדְבָּר וְגַם עָבוֹר תַּעֲבוֹר פֶּן יְבֻלַּע לַמֶּלֶךְ וּלְכָל־הָעָם אֲשֶׁר אִתּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "urgent command",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
       "id": "2-samuel-17-20-20",
       "source": {
         "book_code": "2SA",
@@ -13,7 +322,9 @@
         "book_he": "שמואל ב",
         "chapter": 17,
         "quote_verse_start": 20,
-        "quote_verse_end": 20
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
       },
       "en": {
         "quote": "And when Absalom's servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find them, they returned to Jerusalem.",
@@ -38,7 +349,7 @@
         }
       },
       "meta": {
-        "reason": "Contains direct question",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -46,13 +357,60 @@
         "start": 20,
         "end": 20
       }
+    },
+    {
+      "id": "2-samuel-17-29-29",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And honey, and butter, and sheep, and cheese of kine, for David, and for the people that were with him, to eat: for they said, The people is hungry, and weary, and thirsty, in the wilderness.",
+        "riddle": "The people is hungry, and weary, and thirsty, in the wilderness.",
+        "speaker": "the men",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וּדְבַשׁ וְחֶמְאָה וְצֹאן וּשְׁפוֹת בָּקָר הִגִּישׁוּ לְדָוִד וְלָעָם אֲשֶׁר־אִתּוֹ לֶאֱכוֹל כִּי אָמְרוּ הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר",
+        "riddle": "הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר",
+        "speaker": "הָעָם",
+        "listener": "דָוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And honey, and butter, and sheep, and cheese of kine, for David, and for the people that were with him, to eat: for they said, The people is hungry, and weary, and thirsty, in the wilderness."
+        },
+        "he": {
+          "29": "וּדְבַשׁ וְחֶמְאָה וְצֹאן וּשְׁפוֹת בָּקָר הִגִּישׁוּ לְדָוִד וְלָעָם אֲשֶׁר־אִתּוֹ לֶאֱכוֹל כִּי אָמְרוּ הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 29,
+        "end": 29
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 1,
-    "issue_count": 16
+    "llm_window_count": 5,
+    "projection_llm_count": 11,
+    "llm_call_count": 16,
+    "spec_count": 11,
+    "kept_count": 9,
+    "issue_count": 3
   }
 }

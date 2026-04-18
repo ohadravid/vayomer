@@ -4,12 +4,110 @@
   "book_he": "ויקרא",
   "chapter": 11,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-11-02-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 11,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.",
+        "riddle": "These are the beasts which ye shall eat among all the beasts that are on the earth.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ",
+        "riddle": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and to Aaron, saying unto them,",
+          "2": "Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹר אֲלֵהֶֽם׃",
+          "2": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "leviticus-11-03-03",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 11,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.",
+        "riddle": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "כֹּל מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ",
+        "riddle": "כֹּל מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and to Aaron, saying unto them,",
+          "2": "Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.",
+          "3": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹר אֲלֵהֶֽם׃",
+          "2": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ׃",
+          "3": "כֹּל ׀ מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 3,
+        "end": 3
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 1,
+    "projection_llm_count": 2,
+    "llm_call_count": 3,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

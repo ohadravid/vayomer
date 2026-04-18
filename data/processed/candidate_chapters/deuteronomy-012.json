@@ -4,12 +4,100 @@
   "book_he": "דברים",
   "chapter": 12,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-12-20-20",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 12,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "When the LORD thy God shall enlarge thy border, as he hath promised thee, and thou shalt say, I will eat flesh, because thy soul longeth to eat flesh; thou mayest eat flesh, whatsoever thy soul lusteth after.",
+        "riddle": "I will eat flesh, because thy soul longeth to eat flesh",
+        "speaker": "Israel",
+        "listener": "God",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כִּֽי־יַרְחִיב יְהוָה אֱלֹהֶיךָ אֶֽת־גְּבֽוּלְךָ כַּאֲשֶׁר דִּבֶּר־לָךְ וְאָמַרְתָּ אֹכְלָה בָשָׂר כִּֽי־תְאַוֶּה נַפְשְׁךָ לֶאֱכֹל בָּשָׂר בְּכָל־אַוַּת נַפְשְׁךָ תֹּאכַל בָּשָֽׂר",
+        "riddle": "אֱלֹהֶיךָ אֶֽת־גְּבֽוּלְךָ כַּאֲשֶׁר דִּבֶּר־לָךְ וְאָמַרְתָּ אֹכְלָה בָשָׂר כִּֽי־תְאַוֶּה נַפְשְׁךָ לֶאֱכֹל",
+        "speaker": "ישראל",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "When the LORD thy God shall enlarge thy border, as he hath promised thee, and thou shalt say, I will eat flesh, because thy soul longeth to eat flesh; thou mayest eat flesh, whatsoever thy soul lusteth after."
+        },
+        "he": {
+          "20": "כִּֽי־יַרְחִיב יְהוָה אֱלֹהֶיךָ אֶֽת־גְּבֽוּלְךָ כַּאֲשֶׁר דִּבֶּר־לָךְ וְאָמַרְתָּ אֹכְלָה בָשָׂר כִּֽי־תְאַוֶּה נַפְשְׁךָ לֶאֱכֹל בָּשָׂר בְּכָל־אַוַּת נַפְשְׁךָ תֹּאכַל בָּשָֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "deuteronomy-12-30-30",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 12,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "Take heed to thyself that thou be not snared by following them, after that they be destroyed from before thee; and that thou inquire not after their gods, saying, How did these nations serve their gods? even so will I do likewise.",
+        "riddle": "How did these nations serve their gods?",
+        "speaker": "the people",
+        "listener": "themselves",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "הִשָּׁמֶר לְךָ פֶּן־תִּנָּקֵשׁ אַחֲרֵיהֶם אַחֲרֵי הִשָּׁמְדָם מִפָּנֶיךָ וּפֶן־תִּדְרֹשׁ לֵֽאלֹהֵיהֶם לֵאמֹר אֵיכָה יַעַבְדוּ הַגּוֹיִם הָאֵלֶּה אֶת־אֱלֹהֵיהֶם וְאֶעֱשֶׂה־כֵּן גַּם־אָֽנִי",
+        "riddle": "אֵיכָה יַעַבְדוּ הַגּוֹיִם הָאֵלֶּה אֶת־אֱלֹהֵיהֶם וְאֶעֱשֶׂה־כֵּן גַּם־אָֽנִי",
+        "speaker": "העם",
+        "listener": "עצמם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "Take heed to thyself that thou be not snared by following them, after that they be destroyed from before thee; and that thou inquire not after their gods, saying, How did these nations serve their gods? even so will I do likewise."
+        },
+        "he": {
+          "30": "הִשָּׁמֶר לְךָ פֶּן־תִּנָּקֵשׁ אַחֲרֵיהֶם אַחֲרֵי הִשָּׁמְדָם מִפָּנֶיךָ וּפֶן־תִּדְרֹשׁ לֵֽאלֹהֵיהֶם לֵאמֹר אֵיכָה יַעַבְדוּ הַגּוֹיִם הָאֵלֶּה אֶת־אֱלֹהֵיהֶם וְאֶעֱשֶׂה־כֵּן גַּם־אָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 30,
+        "end": 30
+      }
+    }
+  ],
   "stats": {
-    "window_count": 5,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 0,
-    "issue_count": 5
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

@@ -1,0 +1,475 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-12-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;",
+        "riddle": "Thou art the man.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And Abram said to the king of Sodom, I have lift up mine hand unto the LORD, the most high God, the possessor of heaven and earth,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 14,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל",
+        "riddle": "אַתָּה הָאִישׁ כֹּה־אָמַר",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אַבְרָם אֶל־מֶלֶךְ סְדֹם הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 14,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 7,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-12-13-13-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+        "riddle": "I have sinned against the LORD.",
+        "speaker": "David",
+        "listener": "Nathan",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sin",
+        "bonus_hint": {
+          "quote": "And the LORD said, Because the cry of Sodom and Gomorrah is great, and because their sin is very grievous;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת",
+        "riddle": "חָטָאתִי לַֽיהוָה",
+        "speaker": "דָּוִד",
+        "listener": "נָתָן",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה זַעֲקַת סְדֹם וַעֲמֹרָה כִּי־רָבָּה וְחַטָּאתָם כִּי כָבְדָה מְאֹֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-12-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die. Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die.",
+        "riddle": "the child also that is born unto thee shall surely die.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sin",
+        "bonus_hint": {
+          "quote": "Then Abimelech called Abraham, and said unto him, What hast thou done unto us? and what have I offended thee, that thou hast brought on me and on my kingdom a great sin? thou hast done deeds unto me that ought not to be done.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת",
+        "riddle": "אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חָטָאתִי",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֲבִימֶלֶךְ לְאַבְרָהָם וַיֹּאמֶר לוֹ מֶֽה־עָשִׂיתָ לָּנוּ וּמֶֽה־חָטָאתִי לָךְ כִּֽי־הֵבֵאתָ עָלַי וְעַל־מַמְלַכְתִּי חֲטָאָה גְדֹלָה מַעֲשִׂים אֲשֶׁר לֹא־יֵֽעָשׂוּ עָשִׂיתָ עִמָּדִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+          "14": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃",
+          "14": "אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-12-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "But when David saw that his servants whispered, David perceived that the child was dead: therefore David said unto his servants, Is the child dead? And they said, He is dead.",
+        "riddle": "He is dead.",
+        "speaker": "servants",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "child",
+        "bonus_hint": {
+          "quote": "And the LORD called Samuel again the third time. And he arose and went to Eli, and said, Here am I; for thou didst call me. And Eli perceived that the LORD had called the child.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא דָּוִד כִּי עֲבָדָיו מִֽתְלַחֲשִׁים וַיָּבֶן דָּוִד כִּי מֵת הַיָּלֶד וַיֹּאמֶר דָּוִד אֶל־עֲבָדָיו הֲמֵת הַיֶּלֶד וַיֹּאמְרוּ מֵֽת",
+        "riddle": "מִֽת",
+        "speaker": "עֲבָדָיו",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֶן",
+        "bonus_hint": {
+          "quote": "וַיֹּסֶף יְהוָה קְרֹא־שְׁמוּאֵל בַּשְּׁלִשִׁית וַיָּקָם וַיֵּלֶךְ אֶל־עֵלִי וַיֹּאמֶר הִנְנִי כִּי קָרָאתָ לִי וַיָּבֶן עֵלִי כִּי יְהוָה קֹרֵא לַנָּֽעַר",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 3,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "But when David saw that his servants whispered, David perceived that the child was dead: therefore David said unto his servants, Is the child dead? And they said, He is dead."
+        },
+        "he": {
+          "19": "וַיַּרְא דָּוִד כִּי עֲבָדָיו מִֽתְלַחֲשִׁים וַיָּבֶן דָּוִד כִּי מֵת הַיָּלֶד וַיֹּאמֶר דָּוִד אֶל־עֲבָדָיו הֲמֵת הַיֶּלֶד וַיֹּאמְרוּ מֵֽת׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 19,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-12-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 20,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Then David arose from the earth, and washed, and anointed himself, and changed his apparel, and came into the house of the LORD, and worshipped: then he came to his own house; and when he required, they set bread before him, and he did eat. Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread. And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell whether GOD will be gracious to me, that the child may live? But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+        "riddle": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+        "speaker": "David",
+        "listener": "servants",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "earth",
+        "bonus_hint": {
+          "quote": "But he refused, and said, I will not eat. But his servants, together with the woman, compelled him; and he hearkened unto their voice. So he arose from the earth, and sat upon the bed.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 28,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקָם דָּוִד מֵהָאָרֶץ וַיִּרְחַץ וַיָּסֶךְ וַיְחַלֵּף שִׂמְלֹתָיו וַיָּבֹא בֵית־יְהוָה וַיִּשְׁתָּחוּ וַיָּבֹא אֶל־בֵּיתוֹ וַיִּשְׁאַל וַיָּשִׂימוּ לוֹ לֶחֶם וַיֹּאכַֽל וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם וַיֹּאמֶר בְּעוֹד הַיֶּלֶד חַי צַמְתִּי וָֽאֶבְכֶּה כִּי אָמַרְתִּי מִי יוֹדֵעַ וְחַנַּנִי יְהוָה וְחַי הַיָּֽלֶד וְעַתָּה מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי",
+        "riddle": "וְעַתָּה מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי",
+        "speaker": "דָּוִד",
+        "listener": "עֲבָדָיו",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּקָם",
+        "bonus_hint": {
+          "quote": "וַיְמָאֵן וַיֹּאמֶר לֹא אֹכַל וַיִּפְרְצוּ־בוֹ עֲבָדָיו וְגַם־הָאִשָּׁה וַיִּשְׁמַע לְקֹלָם וַיָּקָם מֵֽהָאָרֶץ וַיֵּשֶׁב אֶל־הַמִּטָּֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 28,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then David arose from the earth, and washed, and anointed himself, and changed his apparel, and came into the house of the LORD, and worshipped: then he came to his own house; and when he required, they set bread before him, and he did eat.",
+          "21": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread.",
+          "22": "And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell whether GOD will be gracious to me, that the child may live?",
+          "23": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me."
+        },
+        "he": {
+          "20": "וַיָּקָם דָּוִד מֵהָאָרֶץ וַיִּרְחַץ וַיָּסֶךְ וַיְחַלֵּף שִׂמְלֹתָיו וַיָּבֹא בֵית־יְהוָה וַיִּשְׁתָּחוּ וַיָּבֹא אֶל־בֵּיתוֹ וַיִּשְׁאַל וַיָּשִׂימוּ לוֹ לֶחֶם וַיֹּאכַֽל׃",
+          "21": "וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם׃",
+          "22": "וַיֹּאמֶר בְּעוֹד הַיֶּלֶד חַי צַמְתִּי וָֽאֶבְכֶּה כִּי אָמַרְתִּי מִי יוֹדֵעַ וְחַנַּנִי יְהוָה וְחַי הַיָּֽלֶד׃",
+          "23": "וְעַתָּה ׀ מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 20,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-12-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 21,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread. And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell whether GOD will be gracious to me, that the child may live? But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+        "riddle": "What thing is this that thou hast done?",
+        "speaker": "servants",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "child",
+        "bonus_hint": {
+          "quote": "And when I rose in the morning to give my child suck, behold, it was dead: but when I had considered it in the morning, behold, it was not my son, which I did bear.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 3,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם וַיֹּאמֶר בְּעוֹד הַיֶּלֶד חַי צַמְתִּי וָֽאֶבְכֶּה כִּי אָמַרְתִּי מִי יוֹדֵעַ וְחַנַּנִי יְהוָה וְחַי הַיָּֽלֶד וְעַתָּה מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי",
+        "riddle": "מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר",
+        "speaker": "עֲבָדָיו",
+        "listener": "דָוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וָאָקֻם בַּבֹּקֶר לְהֵינִיק אֶת־בְּנִי וְהִנֵּה־מֵת וָאֶתְבּוֹנֵן אֵלָיו בַּבֹּקֶר וְהִנֵּה לֹֽא־הָיָה בְנִי אֲשֶׁר יָלָֽדְתִּי",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 3,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread.",
+          "22": "And he said, While the child was yet alive, I fasted and wept: for I said, Who can tell whether GOD will be gracious to me, that the child may live?",
+          "23": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me."
+        },
+        "he": {
+          "21": "וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם׃",
+          "22": "וַיֹּאמֶר בְּעוֹד הַיֶּלֶד חַי צַמְתִּי וָֽאֶבְכֶּה כִּי אָמַרְתִּי מִי יוֹדֵעַ וְחַנַּנִי יְהוָה וְחַי הַיָּֽלֶד׃",
+          "23": "וְעַתָּה ׀ מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 21,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

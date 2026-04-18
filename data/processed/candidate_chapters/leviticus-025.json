@@ -4,12 +4,104 @@
   "book_he": "ויקרא",
   "chapter": 25,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-25-02-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 25,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.",
+        "riddle": "When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי תָבֹאוּ אֶל־הָאָרֶץ אֲשֶׁר אֲנִי נֹתֵן לָכֶם וְשָׁבְתָה הָאָרֶץ שַׁבָּת לַיהוָֽה",
+        "riddle": "כִּי תָבֹאוּ אֶל־הָאָרֶץ אֲשֶׁר אֲנִי נֹתֵן לָכֶם וְשָׁבְתָה הָאָרֶץ שַׁבָּת לַיהוָֽה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses in mount Sinai, saying,",
+          "2": "Speak unto the children of Israel, and say unto them, When ye come into the land which I give you, then shall the land keep a sabbath unto the LORD."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּהַר סִינַי לֵאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם כִּי תָבֹאוּ אֶל־הָאָרֶץ אֲשֶׁר אֲנִי נֹתֵן לָכֶם וְשָׁבְתָה הָאָרֶץ שַׁבָּת לַיהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "leviticus-25-20-20",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 25,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And if ye shall say, What shall we eat the seventh year? behold, we shall not sow, nor gather in our increase:",
+        "riddle": "What shall we eat the seventh year?",
+        "speaker": "the people",
+        "listener": "God",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וְכִי תֹאמְרוּ מַה־נֹּאכַל בַּשָּׁנָה הַשְּׁבִיעִת הֵן לֹא נִזְרָע וְלֹא נֶאֱסֹף אֶת־תְּבוּאָתֵֽנוּ",
+        "riddle": "מַה־נֹּאכַל בַּשָּׁנָה הַשְּׁבִיעִת הֵן",
+        "speaker": "בני ישראל",
+        "listener": "אל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And if ye shall say, What shall we eat the seventh year? behold, we shall not sow, nor gather in our increase:"
+        },
+        "he": {
+          "20": "וְכִי תֹאמְרוּ מַה־נֹּאכַל בַּשָּׁנָה הַשְּׁבִיעִת הֵן לֹא נִזְרָע וְלֹא נֶאֱסֹף אֶת־תְּבוּאָתֵֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 20,
+        "end": 20
+      }
+    }
+  ],
   "stats": {
-    "window_count": 5,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 0,
-    "issue_count": 5
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

@@ -4,12 +4,411 @@
   "book_he": "יהושע",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "joshua-07-03-03",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And they returned to Joshua, and said unto him, Let not all the people go up; but let about two or three thousand men go up and smite Ai; and make not all the people to labour thither; for they are but few.",
+        "riddle": "Let not all the people go up; but let about two or three thousand men go up and smite Ai; and make not all the people to labour thither; for they are but few",
+        "speaker": "spies",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיָּשֻׁבוּ אֶל־יְהוֹשֻׁעַ וַיֹּאמְרוּ אֵלָיו אַל־יַעַל כָּל־הָעָם כְּאַלְפַּיִם אִישׁ אוֹ כִּשְׁלֹשֶׁת אֲלָפִים אִישׁ יַעֲלוּ וְיַכּוּ אֶת־הָעָי אַל־תְּיַגַּע־שָׁמָּה אֶת־כָּל־הָעָם כִּי מְעַט הֵֽמָּה",
+        "riddle": "וַיָּשֻׁבוּ אֶל־יְהוֹשֻׁעַ וַיֹּאמְרוּ אֵלָיו אַל־יַעַל כָּל־הָעָם כְּאַלְפַּיִם אִישׁ אוֹ כִּשְׁלֹשֶׁת אֲלָפִים אִישׁ יַעֲלוּ וְיַכּוּ אֶת־הָעָי אַל־תְּיַגַּע־שָׁמָּה אֶת־כָּל־הָעָם כִּי מְעַט הֵֽמָּה",
+        "speaker": "הָעָם",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And they returned to Joshua, and said unto him, Let not all the people go up; but let about two or three thousand men go up and smite Ai; and make not all the people to labour thither; for they are but few."
+        },
+        "he": {
+          "3": "וַיָּשֻׁבוּ אֶל־יְהוֹשֻׁעַ וַיֹּאמְרוּ אֵלָיו אַל־יַעַל כָּל־הָעָם כְּאַלְפַּיִם אִישׁ אוֹ כִּשְׁלֹשֶׁת אֲלָפִים אִישׁ יַעֲלוּ וְיַכּוּ אֶת־הָעָי אַל־תְּיַגַּע־שָׁמָּה אֶת־כָּל־הָעָם כִּי מְעַט הֵֽמָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct advice",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "joshua-07-08-08",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "O Lord, what shall I say, when Israel turneth their backs before their enemies!",
+        "riddle": "O Lord, what shall I say, when Israel turneth their backs before their enemies!",
+        "speaker": "Joshua",
+        "listener": "God",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "בִּי אֲדֹנָי מָה אֹמַר אַחֲרֵי אֲשֶׁר הָפַךְ יִשְׂרָאֵל עֹרֶף לִפְנֵי אֹיְבָֽיו",
+        "riddle": "בִּי אֲדֹנָי מָה אֹמַר אַחֲרֵי אֲשֶׁר הָפַךְ יִשְׂרָאֵל עֹרֶף לִפְנֵי אֹיְבָֽיו",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "אֲדֹנָי יְהוִה",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Joshua said, Alas, O Lord GOD, wherefore hast thou at all brought this people over Jordan, to deliver us into the hand of the Amorites, to destroy us? would to God we had been content, and dwelt on the other side Jordan!",
+          "8": "O Lord, what shall I say, when Israel turneth their backs before their enemies!"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְהוֹשֻׁעַ אֲהָהּ ׀ אֲדֹנָי יְהוִה לָמָה הֵעֲבַרְתָּ הַעֲבִיר אֶת־הָעָם הַזֶּה אֶת־הַיַּרְדֵּן לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַאֲבִידֵנוּ וְלוּ הוֹאַלְנוּ וַנֵּשֶׁב בְּעֵבֶר הַיַּרְדֵּֽן׃",
+          "8": "בִּי אֲדֹנָי מָה אֹמַר אַחֲרֵי אֲשֶׁר הָפַךְ יִשְׂרָאֵל עֹרֶף לִפְנֵי אֹיְבָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "joshua-07-10-10",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, Get thee up; wherefore liest thou thus upon thy face?",
+        "riddle": "Get thee up; wherefore liest thou thus upon thy face?",
+        "speaker": "God",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ קֻם לָךְ לָמָּה זֶּה אַתָּה נֹפֵל עַל־פָּנֶֽיךָ",
+        "riddle": "קֻם לָךְ לָמָּה זֶּה אַתָּה נֹפֵל עַל־פָּנֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the LORD said unto Joshua, Get thee up; wherefore liest thou thus upon thy face?"
+        },
+        "he": {
+          "10": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ קֻם לָךְ לָמָּה זֶּה אַתָּה נֹפֵל עַל־פָּנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "command and question",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "joshua-07-13-13-1",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Up, sanctify the people, and say, Sanctify yourselves against to morrow: for thus saith the LORD God of Israel, There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you.",
+        "riddle": "Sanctify yourselves against to morrow",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "קֻם קַדֵּשׁ אֶת־הָעָם וְאָמַרְתָּ הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל חֵרֶם בְּקִרְבְּךָ יִשְׂרָאֵל לֹא תוּכַל לָקוּם לִפְנֵי אֹיְבֶיךָ עַד־הֲסִירְכֶם הַחֵרֶם מִֽקִּרְבְּכֶֽם",
+        "riddle": "הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה",
+        "speaker": "יהושע",
+        "listener": "הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Up, sanctify the people, and say, Sanctify yourselves against to morrow: for thus saith the LORD God of Israel, There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you."
+        },
+        "he": {
+          "13": "קֻם קַדֵּשׁ אֶת־הָעָם וְאָמַרְתָּ הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל חֵרֶם בְּקִרְבְּךָ יִשְׂרָאֵל לֹא תוּכַל לָקוּם לִפְנֵי אֹיְבֶיךָ עַד־הֲסִירְכֶם הַחֵרֶם מִֽקִּרְבְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "joshua-07-13-13-2",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Up, sanctify the people, and say, Sanctify yourselves against to morrow: for thus saith the LORD God of Israel, There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you.",
+        "riddle": "There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you.",
+        "speaker": "the LORD God of Israel",
+        "listener": "Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "קֻם קַדֵּשׁ אֶת־הָעָם וְאָמַרְתָּ הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל חֵרֶם בְּקִרְבְּךָ יִשְׂרָאֵל לֹא תוּכַל לָקוּם לִפְנֵי אֹיְבֶיךָ עַד־הֲסִירְכֶם הַחֵרֶם מִֽקִּרְבְּכֶֽם",
+        "riddle": "קֻם קַדֵּשׁ אֶת־הָעָם וְאָמַרְתָּ הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל חֵרֶם בְּקִרְבְּךָ יִשְׂרָאֵל לֹא תוּכַל לָקוּם לִפְנֵי אֹיְבֶיךָ עַד־הֲסִירְכֶם הַחֵרֶם מִֽקִּרְבְּכֶֽם",
+        "speaker": "יְהוָה אֱלֹהֵי יִשְׂרָאֵל",
+        "listener": "יִשְׂרָאֵל",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Up, sanctify the people, and say, Sanctify yourselves against to morrow: for thus saith the LORD God of Israel, There is an accursed thing in the midst of thee, O Israel: thou canst not stand before thine enemies, until ye take away the accursed thing from among you."
+        },
+        "he": {
+          "13": "קֻם קַדֵּשׁ אֶת־הָעָם וְאָמַרְתָּ הִתְקַדְּשׁוּ לְמָחָר כִּי כֹה אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל חֵרֶם בְּקִרְבְּךָ יִשְׂרָאֵל לֹא תוּכַל לָקוּם לִפְנֵי אֹיְבֶיךָ עַד־הֲסִירְכֶם הַחֵרֶם מִֽקִּרְבְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "joshua-07-19-19",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And Joshua said unto Achan, My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me.",
+        "riddle": "My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me.",
+        "speaker": "Joshua",
+        "listener": "Achan",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי",
+        "riddle": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "עָכָן",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joshua said unto Achan, My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "joshua-07-20-20",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And Achan answered Joshua, and said, Indeed I have sinned against the LORD God of Israel, and thus and thus have I done:",
+        "riddle": "Indeed I have sinned against the LORD God of Israel, and thus and thus have I done:",
+        "speaker": "Achan",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיַּעַן עָכָן אֶת־יְהוֹשֻׁעַ וַיֹּאמַר אָמְנָה אָנֹכִי חָטָאתִי לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת עָשִֽׂיתִי",
+        "riddle": "אָמְנָה אָנֹכִי חָטָאתִי לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת עָשִֽׂיתִי",
+        "speaker": "עָכָן",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joshua said unto Achan, My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me.",
+          "20": "And Achan answered Joshua, and said, Indeed I have sinned against the LORD God of Israel, and thus and thus have I done:"
+        },
+        "he": {
+          "19": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי׃",
+          "20": "וַיַּעַן עָכָן אֶת־יְהוֹשֻׁעַ וַיֹּאמַר אָמְנָה אָנֹכִי חָטָאתִי לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת עָשִֽׂיתִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct confession",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "joshua-07-21-21",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "When I saw among the spoils a goodly Babylonish garment, and two hundred shekels of silver, and a wedge of gold of fifty shekels weight, then I coveted them, and took them; and, behold, they are hid in the earth in the midst of my tent, and the silver under it.",
+        "riddle": "When I saw among the spoils a goodly Babylonish garment, and two hundred shekels of silver, and a wedge of gold of fifty shekels weight, then I coveted them, and took them; and, behold, they are hid in the earth in the midst of my tent, and the silver under it.",
+        "speaker": "Achan",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וָאֵרֶא בַשָּׁלָל אַדֶּרֶת שִׁנְעָר אַחַת טוֹבָה וּמָאתַיִם שְׁקָלִים כֶּסֶף וּלְשׁוֹן זָהָב אֶחָד חֲמִשִּׁים שְׁקָלִים מִשְׁקָלוֹ וָֽאֶחְמְדֵם וָֽאֶקָּחֵם וְהִנָּם טְמוּנִים בָּאָרֶץ בְּתוֹךְ הָאָֽהֳלִי וְהַכֶּסֶף תַּחְתֶּֽיהָ",
+        "riddle": "וָאֵרֶא בַשָּׁלָל אַדֶּרֶת שִׁנְעָר אַחַת טוֹבָה וּמָאתַיִם שְׁקָלִים כֶּסֶף וּלְשׁוֹן זָהָב אֶחָד חֲמִשִּׁים שְׁקָלִים מִשְׁקָלוֹ וָֽאֶחְמְדֵם וָֽאֶקָּחֵם וְהִנָּם טְמוּנִים בָּאָרֶץ בְּתוֹךְ הָאָֽהֳלִי וְהַכֶּסֶף תַּחְתֶּֽיהָ",
+        "speaker": "עָכָן",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "When I saw among the spoils a goodly Babylonish garment, and two hundred shekels of silver, and a wedge of gold of fifty shekels weight, then I coveted them, and took them; and, behold, they are hid in the earth in the midst of my tent, and the silver under it."
+        },
+        "he": {
+          "21": "וָאֵרֶא בַשָּׁלָל אַדֶּרֶת שִׁנְעָר אַחַת טוֹבָה וּמָאתַיִם שְׁקָלִים כֶּסֶף וּלְשׁוֹן זָהָב אֶחָד חֲמִשִּׁים שְׁקָלִים מִשְׁקָלוֹ וָֽאֶחְמְדֵם וָֽאֶקָּחֵם וְהִנָּם טְמוּנִים בָּאָרֶץ בְּתוֹךְ הָאָֽהֳלִי וְהַכֶּסֶף תַּחְתֶּֽיהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of theft",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "joshua-07-25-25",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 7,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Joshua said, Why hast thou troubled us? the LORD shall trouble thee this day. And all Israel stoned him with stones, and burned them with fire, after they had stoned them with stones.",
+        "riddle": "Why hast thou troubled us?",
+        "speaker": "Joshua",
+        "listener": "Achan",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ מֶה עֲכַרְתָּנוּ יַעְכֳּרְךָ יְהוָה בַּיּוֹם הַזֶּה וַיִּרְגְּמוּ אֹתוֹ כָל־יִשְׂרָאֵל אֶבֶן וַיִּשְׂרְפוּ אֹתָם בָּאֵשׁ וַיִּסְקְלוּ אֹתָם בָּאֲבָנִֽים",
+        "riddle": "מֶה עֲכַרְתָּנוּ יַעְכֳּרְךָ יְהוָה",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "עֲכָן",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Joshua said, Why hast thou troubled us? the LORD shall trouble thee this day. And all Israel stoned him with stones, and burned them with fire, after they had stoned them with stones."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר יְהוֹשֻׁעַ מֶה עֲכַרְתָּנוּ יַעְכֳּרְךָ יְהוָה בַּיּוֹם הַזֶּה וַיִּרְגְּמוּ אֹתוֹ כָל־יִשְׂרָאֵל אֶבֶן וַיִּשְׂרְפוּ אֹתָם בָּאֵשׁ וַיִּסְקְלוּ אֹתָם בָּאֲבָנִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 16,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 0,
-    "issue_count": 16
+    "llm_window_count": 5,
+    "projection_llm_count": 13,
+    "llm_call_count": 18,
+    "spec_count": 13,
+    "kept_count": 9,
+    "issue_count": 4
   }
 }

@@ -6,53 +6,98 @@
   "mode": "llm",
   "items": [
     {
-      "id": "deuteronomy-11-30-30",
+      "id": "deuteronomy-11-26-26",
       "source": {
         "book_code": "DEU",
         "book": "Deuteronomy",
         "book_he": "דברים",
         "chapter": 11,
-        "quote_verse_start": 30,
-        "quote_verse_end": 30
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
       },
       "en": {
-        "quote": "Are they not on the other side Jordan, by the way where the sun goeth down, in the land of the Canaanites, which dwell in the champaign over against Gilgal, beside the plains of Moreh?",
-        "riddle": "Are they not on the other side Jordan",
-        "speaker": "Unknown",
-        "listener": "Unknown",
+        "quote": "Behold, I set before you this day a blessing and a curse;",
+        "riddle": "Behold, I set before you this day a blessing and a curse;",
+        "speaker": "the LORD",
+        "listener": "Israel",
         "book": "Deuteronomy"
       },
       "he": {
-        "quote": "הֲלֹא־הֵמָּה בְּעֵבֶר הַיַּרְדֵּן אַֽחֲרֵי דֶּרֶךְ מְבוֹא הַשֶּׁמֶשׁ בְּאֶרֶץ הַֽכְּנַעֲנִי הַיֹּשֵׁב בָּעֲרָבָה מוּל הַגִּלְגָּל אֵצֶל אֵלוֹנֵי מֹרֶֽה",
-        "riddle": "הֵמָּה בְּעֵבֶר הַיַּרְדֵּן אַֽחֲרֵי דֶּרֶךְ מְבוֹא הַשֶּׁמֶשׁ בְּאֶרֶץ הַֽכְּנַעֲנִי הַיֹּשֵׁב בָּעֲרָבָה",
-        "speaker": "Unknown",
-        "listener": "Unknown",
+        "quote": "רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָֽה",
+        "riddle": "רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָֽה",
+        "speaker": "יהוה",
+        "listener": "ישראל",
         "book": "דברים"
       },
       "raw_quote_source": {
         "en": {
-          "30": "Are they not on the other side Jordan, by the way where the sun goeth down, in the land of the Canaanites, which dwell in the champaign over against Gilgal, beside the plains of Moreh?"
+          "26": "Behold, I set before you this day a blessing and a curse;"
         },
         "he": {
-          "30": "הֲלֹא־הֵמָּה בְּעֵבֶר הַיַּרְדֵּן אַֽחֲרֵי דֶּרֶךְ מְבוֹא הַשֶּׁמֶשׁ בְּאֶרֶץ הַֽכְּנַעֲנִי הַיֹּשֵׁב בָּעֲרָבָה מוּל הַגִּלְגָּל אֵצֶל אֵלוֹנֵי מֹרֶֽה׃"
+          "26": "רְאֵה אָנֹכִי נֹתֵן לִפְנֵיכֶם הַיּוֹם בְּרָכָה וּקְלָלָֽה׃"
         }
       },
       "meta": {
-        "reason": "Contains a direct question",
-        "confidence": 0.8
+        "reason": "vivid declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 11,
-        "start": 30,
-        "end": 30
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "deuteronomy-11-29-29",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 11,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And it shall come to pass, when the LORD thy God hath brought thee in unto the land whither thou goest to possess it, that thou shalt put the blessing upon mount Gerizim, and the curse upon mount Ebal.",
+        "riddle": "thou shalt put the blessing upon mount Gerizim, and the curse upon mount Ebal",
+        "speaker": "the LORD",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְהָיָה כִּי יְבִֽיאֲךָ יְהוָה אֱלֹהֶיךָ אֶל־הָאָרֶץ אֲשֶׁר־אַתָּה בָא־שָׁמָּה לְרִשְׁתָּהּ וְנָתַתָּה אֶת־הַבְּרָכָה עַל־הַר גְּרִזִים וְאֶת־הַקְּלָלָה עַל־הַר עֵיבָֽל",
+        "riddle": "וְנָתַתָּה אֶת־הַבְּרָכָה עַל־הַר גְּרִזִים וְאֶת־הַקְּלָלָה עַל־הַר עֵיבָֽל",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And it shall come to pass, when the LORD thy God hath brought thee in unto the land whither thou goest to possess it, that thou shalt put the blessing upon mount Gerizim, and the curse upon mount Ebal."
+        },
+        "he": {
+          "29": "וְהָיָה כִּי יְבִֽיאֲךָ יְהוָה אֱלֹהֶיךָ אֶל־הָאָרֶץ אֲשֶׁר־אַתָּה בָא־שָׁמָּה לְרִשְׁתָּהּ וְנָתַתָּה אֶת־הַבְּרָכָה עַל־הַר גְּרִזִים וְאֶת־הַקְּלָלָה עַל־הַר עֵיבָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 29,
+        "end": 29
       }
     }
   ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 1,
-    "issue_count": 3
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

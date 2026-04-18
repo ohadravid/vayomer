@@ -4,12 +4,108 @@
   "book_he": "במדבר",
   "chapter": 6,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-06-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and say unto them, When either man or woman shall separate themselves to vow a vow of a Nazarite, to separate themselves unto the LORD:",
+        "riddle": "When either man or woman shall separate themselves to vow a vow of a Nazarite, to separate themselves unto the LORD:",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ אֽוֹ־אִשָּׁה כִּי יַפְלִא לִנְדֹּר נֶדֶר נָזִיר לְהַזִּיר לַֽיהוָֽה",
+        "riddle": "אִישׁ אֽוֹ־אִשָּׁה כִּי יַפְלִא לִנְדֹּר נֶדֶר נָזִיר לְהַזִּיר לַֽיהוָֽה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, and say unto them, When either man or woman shall separate themselves to vow a vow of a Nazarite, to separate themselves unto the LORD:"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אִישׁ אֽוֹ־אִשָּׁה כִּי יַפְלִא לִנְדֹּר נֶדֶר נָזִיר לְהַזִּיר לַֽיהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-06-24-24",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 6,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "The LORD bless thee, and keep thee:",
+        "riddle": "The LORD bless thee, and keep thee:",
+        "speaker": "Aaron and his sons",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶֽךָ",
+        "riddle": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶֽךָ",
+        "speaker": "אַהֲרֹן וּבָנָיו",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Speak unto Aaron and unto his sons, saying, On this wise ye shall bless the children of Israel, saying unto them,",
+          "24": "The LORD bless thee, and keep thee:"
+        },
+        "he": {
+          "23": "דַּבֵּר אֶֽל־אַהֲרֹן וְאֶל־בָּנָיו לֵאמֹר כֹּה תְבָרֲכוּ אֶת־בְּנֵי יִשְׂרָאֵל אָמוֹר לָהֶֽם׃",
+          "24": "יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 6,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 6,
-    "kept_count": 0,
-    "issue_count": 6
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

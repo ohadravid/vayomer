@@ -1,0 +1,383 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-03-05-05-2",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 3,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "That the LORD called Samuel: and he answered, Here am I. And he ran unto Eli, and said, Here am I; for thou calledst me. And he said, I called not; lie down again. And he went and lay down.",
+        "riddle": "I called not; lie down again.",
+        "speaker": "Eli",
+        "listener": "Samuel",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Elkanah",
+            "Nathan",
+            "Phinehas"
+          ],
+          "listener": [
+            "Ahiah",
+            "Saul",
+            "Abiathar"
+          ]
+        },
+        "bonus": "lay",
+        "bonus_hint": {
+          "quote": "And he said unto them, This is that which the LORD hath said, To morrow is the rest of the holy sabbath unto the LORD: bake that which ye will bake to day, and seethe that ye will seethe; and that which remaineth over lay up for you to be kept until the morning.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 16,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יְהוָה אֶל־שְׁמוּאֵל וַיֹּאמֶר הִנֵּֽנִי וַיָּרָץ אֶל־עֵלִי וַיֹּאמֶר הִנְנִי כִּֽי־קָרָאתָ לִּי וַיֹּאמֶר לֹֽא־קָרָאתִי שׁוּב שְׁכָב וַיֵּלֶךְ וַיִּשְׁכָּֽב",
+        "riddle": "לֹֽא־קָרָאתִי שׁוּב שְׁכָב",
+        "speaker": "עֵלִי",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "אֶלְקָנָה",
+            "נָתַן",
+            "פִּֽינְחָס"
+          ],
+          "listener": [
+            "אָחִיהָ",
+            "שָׁאוֹל",
+            "אֶבְיָתָר"
+          ]
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֲלֵהֶם הוּא אֲשֶׁר דִּבֶּר יְהוָה שַׁבָּתוֹן שַׁבַּת־קֹדֶשׁ לַֽיהוָה מָחָר אֵת אֲשֶׁר־תֹּאפוּ אֵפוּ וְאֵת אֲשֶֽׁר־תְּבַשְּׁלוּ בַּשֵּׁלוּ וְאֵת כָּל־הָעֹדֵף הַנִּיחוּ לָכֶם לְמִשְׁמֶרֶת עַד־הַבֹּֽקֶר",
+          "source": {
+            "book": "שמות",
+            "chapter": 16,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "That the LORD called Samuel: and he answered, Here am I.",
+          "5": "And he ran unto Eli, and said, Here am I; for thou calledst me. And he said, I called not; lie down again. And he went and lay down."
+        },
+        "he": {
+          "4": "וַיִּקְרָא יְהוָה אֶל־שְׁמוּאֵל וַיֹּאמֶר הִנֵּֽנִי׃",
+          "5": "וַיָּרָץ אֶל־עֵלִי וַיֹּאמֶר הִנְנִי כִּֽי־קָרָאתָ לִּי וַיֹּאמֶר לֹֽא־קָרָאתִי שׁוּב שְׁכָב וַיֵּלֶךְ וַיִּשְׁכָּֽב׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-03-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 3,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Therefore Eli said unto Samuel, Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth. So Samuel went and lay down in his place.",
+        "riddle": "Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth.",
+        "speaker": "Eli",
+        "listener": "Samuel",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "Phinehas",
+            "Saul"
+          ],
+          "listener": [
+            "Ahiah",
+            "Abiathar",
+            "Nathan"
+          ]
+        },
+        "bonus": "place",
+        "bonus_hint": {
+          "quote": "And he went on his journeys from the south even to Bethel, unto the place where his tent had been at the beginning, between Bethel and Hai;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵלִי לִשְׁמוּאֵל לֵךְ שְׁכָב וְהָיָה אִם־יִקְרָא אֵלֶיךָ וְאָֽמַרְתָּ דַּבֵּר יְהוָה כִּי שֹׁמֵעַ עַבְדֶּךָ וַיֵּלֶךְ שְׁמוּאֵל וַיִּשְׁכַּב בִּמְקוֹמֽוֹ",
+        "riddle": "לֵךְ שְׁכָב וְהָיָה אִם־יִקְרָא אֵלֶיךָ וְאָֽמַרְתָּ דַּבֵּר יְהוָה כִּי שֹׁמֵעַ עַבְדֶּך",
+        "speaker": "עֵלִי",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "נָתַן",
+            "פִּֽינְחָס",
+            "שָׁאוֹל"
+          ],
+          "listener": [
+            "אָחִיהָ",
+            "אֶבְיָתָר",
+            "נָתַן"
+          ]
+        },
+        "bonus": "וַיֵּלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיֵּלֶךְ לְמַסָּעָיו מִנֶּגֶב וְעַד־בֵּֽית־אֵל עַד־הַמָּקוֹם אֲשֶׁר־הָיָה שָׁם אָֽהֳלוֹ בַּתְּחִלָּה בֵּין בֵּֽית־אֵל וּבֵין הָעָֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Therefore Eli said unto Samuel, Go, lie down: and it shall be, if he call thee, that thou shalt say, Speak, LORD; for thy servant heareth. So Samuel went and lay down in his place."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר עֵלִי לִשְׁמוּאֵל לֵךְ ׀ שְׁכָב וְהָיָה אִם־יִקְרָא אֵלֶיךָ וְאָֽמַרְתָּ דַּבֵּר יְהוָה כִּי שֹׁמֵעַ עַבְדֶּךָ וַיֵּלֶךְ שְׁמוּאֵל וַיִּשְׁכַּב בִּמְקוֹמֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-03-17-17-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 3,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then Eli called Samuel, and said, Samuel, my son. And he answered, Here am I. And he said, What is the thing that the LORD hath said unto thee? I pray thee hide it not from me: God do so to thee, and more also, if thou hide any thing from me of all the things that he said unto thee.",
+        "riddle": "What is the thing that the LORD hath said unto thee?",
+        "speaker": "Eli",
+        "listener": "Samuel",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Elkanah",
+            "Phinehas",
+            "Nathan"
+          ],
+          "listener": [
+            "Ahiah",
+            "Saul",
+            "Abiathar"
+          ]
+        },
+        "bonus": "hide",
+        "bonus_hint": {
+          "quote": "And Joshua said unto Achan, My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא עֵלִי אֶת־שְׁמוּאֵל וַיֹּאמֶר שְׁמוּאֵל בְּנִי וַיֹּאמֶר הִנֵּֽנִי וַיֹּאמֶר מָה הַדָּבָר אֲשֶׁר דִּבֶּר אֵלֶיךָ אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים וְכֹה יוֹסִיף אִם־תְּכַחֵד מִמֶּנִּי דָּבָר מִכָּל־הַדָּבָר אֲשֶׁר־דִּבֶּר אֵלֶֽיךָ",
+        "riddle": "מָה הַדָּבָר אֲשֶׁר דִּבֶּר אֵלֶיךָ אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים",
+        "speaker": "עֵלִי",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "אֶלְקָנָה",
+            "פִּֽינְחָס",
+            "נָתַן"
+          ],
+          "listener": [
+            "אָחִיהָ",
+            "שָׁאוֹל",
+            "אֶבְיָתָר"
+          ]
+        },
+        "bonus": "בְּנִי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי",
+          "source": {
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then Eli called Samuel, and said, Samuel, my son. And he answered, Here am I.",
+          "17": "And he said, What is the thing that the LORD hath said unto thee? I pray thee hide it not from me: God do so to thee, and more also, if thou hide any thing from me of all the things that he said unto thee."
+        },
+        "he": {
+          "16": "וַיִּקְרָא עֵלִי אֶת־שְׁמוּאֵל וַיֹּאמֶר שְׁמוּאֵל בְּנִי וַיֹּאמֶר הִנֵּֽנִי׃",
+          "17": "וַיֹּאמֶר מָה הַדָּבָר אֲשֶׁר דִּבֶּר אֵלֶיךָ אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים וְכֹה יוֹסִיף אִם־תְּכַחֵד מִמֶּנִּי דָּבָר מִכָּל־הַדָּבָר אֲשֶׁר־דִּבֶּר אֵלֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-03-17-17-2",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 3,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then Eli called Samuel, and said, Samuel, my son. And he answered, Here am I. And he said, What is the thing that the LORD hath said unto thee? I pray thee hide it not from me: God do so to thee, and more also, if thou hide any thing from me of all the things that he said unto thee.",
+        "riddle": "I pray thee hide it not from me",
+        "speaker": "Eli",
+        "listener": "Samuel",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "Phinehas",
+            "Abner"
+          ],
+          "listener": [
+            "David",
+            "Saul",
+            "Jonathan"
+          ]
+        },
+        "bonus": "thing",
+        "bonus_hint": {
+          "quote": "Of fowls after their kind, and of cattle after their kind, of every creeping thing of the earth after his kind, two of every sort shall come unto thee, to keep them alive.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 6,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא עֵלִי אֶת־שְׁמוּאֵל וַיֹּאמֶר שְׁמוּאֵל בְּנִי וַיֹּאמֶר הִנֵּֽנִי וַיֹּאמֶר מָה הַדָּבָר אֲשֶׁר דִּבֶּר אֵלֶיךָ אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים וְכֹה יוֹסִיף אִם־תְּכַחֵד מִמֶּנִּי דָּבָר מִכָּל־הַדָּבָר אֲשֶׁר־דִּבֶּר אֵלֶֽיךָ",
+        "riddle": "אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים וְכֹה יוֹסִיף אִם־תְּכַחֵד מִמֶּנִּי דָּבָר מִכָּל־הַדָּבָר אֲשֶׁר־דִּבֶּר אֵלֶֽיך",
+        "speaker": "עֵלִי",
+        "listener": "שְׁמוּאֵל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "נָתַן",
+            "פִּֽינְחָס",
+            "אַבְנֵר"
+          ],
+          "listener": [
+            "דּוֹד",
+            "שָׁאוֹל",
+            "יְהוֹנָתָן"
+          ]
+        },
+        "bonus": "אֵלֶיךָ",
+        "bonus_hint": {
+          "quote": "מֵהָעוֹף לְמִינֵהוּ וּמִן־הַבְּהֵמָה לְמִינָהּ מִכֹּל רֶמֶשׂ הָֽאֲדָמָה לְמִינֵהוּ שְׁנַיִם מִכֹּל יָבֹאוּ אֵלֶיךָ לְהַֽחֲיֽוֹת",
+          "source": {
+            "book": "בראשית",
+            "chapter": 6,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then Eli called Samuel, and said, Samuel, my son. And he answered, Here am I.",
+          "17": "And he said, What is the thing that the LORD hath said unto thee? I pray thee hide it not from me: God do so to thee, and more also, if thou hide any thing from me of all the things that he said unto thee."
+        },
+        "he": {
+          "16": "וַיִּקְרָא עֵלִי אֶת־שְׁמוּאֵל וַיֹּאמֶר שְׁמוּאֵל בְּנִי וַיֹּאמֶר הִנֵּֽנִי׃",
+          "17": "וַיֹּאמֶר מָה הַדָּבָר אֲשֶׁר דִּבֶּר אֵלֶיךָ אַל־נָא תְכַחֵד מִמֶּנִּי כֹּה יַעֲשֶׂה־לְּךָ אֱלֹהִים וְכֹה יוֹסִיף אִם־תְּכַחֵד מִמֶּנִּי דָּבָר מִכָּל־הַדָּבָר אֲשֶׁר־דִּבֶּר אֵלֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

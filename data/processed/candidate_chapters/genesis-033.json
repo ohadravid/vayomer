@@ -13,20 +13,22 @@
         "book_he": "בראשית",
         "chapter": 33,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
         "quote": "And he lifted up his eyes, and saw the women and the children; and said, Who are those with thee? And he said, The children which God hath graciously given thy servant.",
         "riddle": "Who are those with thee?",
-        "speaker": "Jacob",
-        "listener": "Esau",
+        "speaker": "Esau",
+        "listener": "Jacob",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיִּשָּׂא אֶת־עֵינָיו וַיַּרְא אֶת־הַנָּשִׁים וְאֶת־הַיְלָדִים וַיֹּאמֶר מִי־אֵלֶּה לָּךְ וַיֹּאמַר הַיְלָדִים אֲשֶׁר־חָנַן אֱלֹהִים אֶת־עַבְדֶּֽךָ",
-        "riddle": "מִי־אֵלֶּה לָּךְ",
-        "speaker": "יעקב",
-        "listener": "עשו",
+        "riddle": "מִי־אֵלֶּה לָּך",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -38,7 +40,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -46,13 +48,372 @@
         "start": 5,
         "end": 5
       }
+    },
+    {
+      "id": "genesis-33-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And he said, What meanest thou by all this drove which I met? And he said, These are to find grace in the sight of my lord.",
+        "riddle": "What meanest thou by all this drove which I met?",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מִי לְךָ כָּל־הַמַּחֲנֶה הַזֶּה אֲשֶׁר פָּגָשְׁתִּי וַיֹּאמֶר לִמְצֹא־חֵן בְּעֵינֵי אֲדֹנִֽי",
+        "riddle": "מִי לְךָ כָּל־הַמַּחֲנֶה הַזֶּה אֲשֶׁר פָּגָשְׁתִּי",
+        "speaker": "יעקב",
+        "listener": "עשו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he said, What meanest thou by all this drove which I met? And he said, These are to find grace in the sight of my lord."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר מִי לְךָ כָּל־הַמַּחֲנֶה הַזֶּה אֲשֶׁר פָּגָשְׁתִּי וַיֹּאמֶר לִמְצֹא־חֵן בְּעֵינֵי אֲדֹנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-33-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Esau said, I have enough, my brother; keep that thou hast unto thyself.",
+        "riddle": "I have enough, my brother; keep that thou hast unto thyself.",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵשָׂו יֶשׁ־לִי רָב אָחִי יְהִי לְךָ אֲשֶׁר־לָֽךְ",
+        "riddle": "יֶשׁ־לִי רָב אָחִי יְהִי לְךָ אֲשֶׁר־לָֽך",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Esau said, I have enough, my brother; keep that thou hast unto thyself."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר עֵשָׂו יֶשׁ־לִי רָב אָחִי יְהִי לְךָ אֲשֶׁר־לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-33-10-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Jacob said, Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand: for therefore I have seen thy face, as though I had seen the face of God, and thou wast pleased with me.",
+        "riddle": "Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵֽנִי",
+        "riddle": "אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Jacob said, Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand: for therefore I have seen thy face, as though I had seen the face of God, and thou wast pleased with me."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר יַעֲקֹב אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "genesis-33-11-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Take, I pray thee, my blessing that is brought to thee; because God hath dealt graciously with me, and because I have enough. And he urged him, and he took it.",
+        "riddle": "Take, I pray thee, my blessing that is brought to thee",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "קַח־נָא אֶת־בִּרְכָתִי אֲשֶׁר הֻבָאת לָךְ כִּֽי־חַנַּנִי אֱלֹהִים וְכִי יֶשׁ־לִי־כֹל וַיִּפְצַר־בּוֹ וַיִּקָּֽח",
+        "riddle": "קַח־נָא אֶת־בִּרְכָתִי אֲשֶׁר הֻבָאת לָךְ כִּֽי־חַנַּנִי אֱלֹהִים וְכִי יֶשׁ־לִי",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Jacob said, Nay, I pray thee, if now I have found grace in thy sight, then receive my present at my hand: for therefore I have seen thy face, as though I had seen the face of God, and thou wast pleased with me.",
+          "11": "Take, I pray thee, my blessing that is brought to thee; because God hath dealt graciously with me, and because I have enough. And he urged him, and he took it."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר יַעֲקֹב אַל־נָא אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ וְלָקַחְתָּ מִנְחָתִי מִיָּדִי כִּי עַל־כֵּן רָאִיתִי פָנֶיךָ כִּרְאֹת פְּנֵי אֱלֹהִים וַתִּרְצֵֽנִי׃",
+          "11": "קַח־נָא אֶת־בִּרְכָתִי אֲשֶׁר הֻבָאת לָךְ כִּֽי־חַנַּנִי אֱלֹהִים וְכִי יֶשׁ־לִי־כֹל וַיִּפְצַר־בּוֹ וַיִּקָּֽח׃"
+        }
+      },
+      "meta": {
+        "reason": "command/request",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "genesis-33-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And he said, Let us take our journey, and let us go, and I will go before thee.",
+        "riddle": "Let us take our journey, and let us go, and I will go before thee.",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נִסְעָה וְנֵלֵכָה וְאֵלְכָה לְנֶגְדֶּֽךָ",
+        "riddle": "נִסְעָה וְנֵלֵכָה וְאֵלְכָה לְנֶגְדֶּֽךָ",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And he said, Let us take our journey, and let us go, and I will go before thee."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר נִסְעָה וְנֵלֵכָה וְאֵלְכָה לְנֶגְדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "declaration of intent",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-33-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And he said unto him, My lord knoweth that the children are tender, and the flocks and herds with young are with me: and if men should overdrive them one day, all the flock will die.",
+        "riddle": "My lord knoweth that the children are tender, and the flocks and herds with young are with me",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אֲדֹנִי יֹדֵעַ כִּֽי־הַיְלָדִים רַכִּים וְהַצֹּאן וְהַבָּקָר עָלוֹת עָלָי וּדְפָקוּם יוֹם אֶחָד וָמֵתוּ כָּל־הַצֹּֽאן",
+        "riddle": "אֲדֹנִי יֹדֵעַ כִּֽי־הַיְלָדִים רַכִּים וְהַצֹּאן וְהַבָּקָר עָלוֹת עָלָי וּדְפָקוּם יוֹם אֶחָד וָמֵתוּ כָּל",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he said unto him, My lord knoweth that the children are tender, and the flocks and herds with young are with me: and if men should overdrive them one day, all the flock will die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֵלָיו אֲדֹנִי יֹדֵעַ כִּֽי־הַיְלָדִים רַכִּים וְהַצֹּאן וְהַבָּקָר עָלוֹת עָלָי וּדְפָקוּם יוֹם אֶחָד וָמֵתוּ כָּל־הַצֹּֽאן׃"
+        }
+      },
+      "meta": {
+        "reason": "explanation/warning",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "genesis-33-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Let my lord, I pray thee, pass over before his servant: and I will lead on softly, according as the cattle that goeth before me and the children be able to endure, until I come unto my lord unto Seir.",
+        "riddle": "Let my lord, I pray thee, pass over before his servant",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "יַעֲבָר־נָא אֲדֹנִי לִפְנֵי עַבְדּוֹ וַאֲנִי אֶֽתְנָהֲלָה לְאִטִּי לְרֶגֶל הַמְּלָאכָה אֲשֶׁר־לְפָנַי וּלְרֶגֶל הַיְלָדִים עַד אֲשֶׁר־אָבֹא אֶל־אֲדֹנִי שֵׂעִֽירָה",
+        "riddle": "יַעֲבָר־נָא אֲדֹנִי לִפְנֵי עַבְדּו",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he said unto him, My lord knoweth that the children are tender, and the flocks and herds with young are with me: and if men should overdrive them one day, all the flock will die.",
+          "14": "Let my lord, I pray thee, pass over before his servant: and I will lead on softly, according as the cattle that goeth before me and the children be able to endure, until I come unto my lord unto Seir."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֵלָיו אֲדֹנִי יֹדֵעַ כִּֽי־הַיְלָדִים רַכִּים וְהַצֹּאן וְהַבָּקָר עָלוֹת עָלָי וּדְפָקוּם יוֹם אֶחָד וָמֵתוּ כָּל־הַצֹּֽאן׃",
+          "14": "יַעֲבָר־נָא אֲדֹנִי לִפְנֵי עַבְדּוֹ וַאֲנִי אֶֽתְנָהֲלָה לְאִטִּי לְרֶגֶל הַמְּלָאכָה אֲשֶׁר־לְפָנַי וּלְרֶגֶל הַיְלָדִים עַד אֲשֶׁר־אָבֹא אֶל־אֲדֹנִי שֵׂעִֽירָה׃"
+        }
+      },
+      "meta": {
+        "reason": "request",
+        "confidence": 0.91
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-33-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 33,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Esau said, Let me now leave with thee some of the folk that are with me. And he said, What needeth it? let me find grace in the sight of my lord.",
+        "riddle": "Let me now leave with thee some of the folk that are with me.",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵשָׂו אַצִּֽיגָה־נָּא עִמְּךָ מִן־הָעָם אֲשֶׁר אִתִּי וַיֹּאמֶר לָמָּה זֶּה אֶמְצָא־חֵן בְּעֵינֵי אֲדֹנִֽי",
+        "riddle": "אַצִּֽיגָה־נָּא עִמְּךָ מִן־הָעָם אֲשֶׁר אִתִּי וַיֹּאמֶר לָמָּה זֶּה אֶמְצָא־חֵן בְּעֵינֵי אֲדֹנִֽי",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Esau said, Let me now leave with thee some of the folk that are with me. And he said, What needeth it? let me find grace in the sight of my lord."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר עֵשָׂו אַצִּֽיגָה־נָּא עִמְּךָ מִן־הָעָם אֲשֶׁר אִתִּי וַיֹּאמֶר לָמָּה זֶּה אֶמְצָא־חֵן בְּעֵינֵי אֲדֹנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 15,
+        "end": 15
+      }
     }
   ],
   "stats": {
-    "window_count": 14,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 1,
-    "issue_count": 13
+    "llm_window_count": 3,
+    "projection_llm_count": 12,
+    "llm_call_count": 15,
+    "spec_count": 12,
+    "kept_count": 9,
+    "issue_count": 3
   }
 }

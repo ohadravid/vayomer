@@ -4,12 +4,102 @@
   "book_he": "בראשית",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-07-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 7,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation.",
+        "riddle": "Come thou and all thy house into the ark",
+        "speaker": "the LORD",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה",
+        "riddle": "בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי",
+        "speaker": "יְהוָה",
+        "listener": "נֹחַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Noah, Come thou and all thy house into the ark; for thee have I seen righteous before me in this generation."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה לְנֹחַ בֹּֽא־אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה כִּֽי־אֹתְךָ רָאִיתִי צַדִּיק לְפָנַי בַּדּוֹר הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-07-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 7,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that I have made will I destroy from off the face of the earth.",
+        "riddle": "For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that I have made will I destroy from off the face of the earth.",
+        "speaker": "the LORD",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כִּי לְיָמִים עוֹד שִׁבְעָה אָֽנֹכִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וּמָחִיתִי אֶֽת־כָּל־הַיְקוּם אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָֽאֲדָמָֽה",
+        "riddle": "כִּי לְיָמִים עוֹד שִׁבְעָה אָֽנֹכִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וּמָחִיתִי אֶֽת־כָּל־הַיְקוּם אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָֽאֲדָמָֽה",
+        "speaker": "יהוה",
+        "listener": "נח",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "For yet seven days, and I will cause it to rain upon the earth forty days and forty nights; and every living substance that I have made will I destroy from off the face of the earth."
+        },
+        "he": {
+          "4": "כִּי לְיָמִים עוֹד שִׁבְעָה אָֽנֹכִי מַמְטִיר עַל־הָאָרֶץ אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וּמָחִיתִי אֶֽת־כָּל־הַיְקוּם אֲשֶׁר עָשִׂיתִי מֵעַל פְּנֵי הָֽאֲדָמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
   "stats": {
-    "window_count": 8,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 0,
-    "issue_count": 8
+    "llm_window_count": 4,
+    "projection_llm_count": 2,
+    "llm_call_count": 6,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

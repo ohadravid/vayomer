@@ -1,0 +1,475 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-06-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, and the mighty men of valour. And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days.",
+        "riddle": "See, I have given into thine hand Jericho, and the king thereof, and the mighty men of valour.",
+        "speaker": "LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "angel of the LORD",
+            "Abimelech",
+            "Micah"
+          ],
+          "listener": [
+            "Caleb",
+            "Gideon",
+            "Eglon"
+          ]
+        },
+        "bonus": "city",
+        "bonus_hint": {
+          "quote": "And Cain knew his wife; and she conceived, and bare Enoch: and he builded a city, and called the name of the city, after the name of his son, Enoch.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ רְאֵה נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל וְסַבֹּתֶם אֶת־הָעִיר כֹּל אַנְשֵׁי הַמִּלְחָמָה הַקֵּיף אֶת־הָעִיר פַּעַם אֶחָת כֹּה תַעֲשֶׂה שֵׁשֶׁת יָמִֽים",
+        "riddle": "רְאֵה נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מַלְאַךְ יְהוָה",
+            "אֲבִימֶלֶךְ",
+            "מִיכָה"
+          ],
+          "listener": [
+            "כֶּלֶב",
+            "גִּדְעוֹן",
+            "עֶגְלוֹן"
+          ]
+        },
+        "bonus": "הָעִיר",
+        "bonus_hint": {
+          "quote": "וַיֵּדַע קַיִן אֶת־אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־חֲנוֹךְ וַֽיְהִי בֹּנֶה עִיר וַיִּקְרָא שֵׁם הָעִיר כְּשֵׁם בְּנוֹ חֲנֽוֹךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, and the mighty men of valour.",
+          "3": "And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ רְאֵה נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל׃",
+          "3": "וְסַבֹּתֶם אֶת־הָעִיר כֹּל אַנְשֵׁי הַמִּלְחָמָה הַקֵּיף אֶת־הָעִיר פַּעַם אֶחָת כֹּה תַעֲשֶׂה שֵׁשֶׁת יָמִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-06-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, and the mighty men of valour. And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days.",
+        "riddle": "and go round about the city once. Thus shalt thou do six days.",
+        "speaker": "LORD",
+        "listener": "men of war",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Micah",
+            "Abimelech",
+            "God of Israel"
+          ],
+          "listener": [
+            "Israel",
+            "men of the city",
+            "men of Israel"
+          ]
+        },
+        "bonus": "mighty",
+        "bonus_hint": {
+          "quote": "Thus saith the LORD, which maketh a way in the sea, and a path in the mighty waters;",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 43,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ רְאֵה נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל וְסַבֹּתֶם אֶת־הָעִיר כֹּל אַנְשֵׁי הַמִּלְחָמָה הַקֵּיף אֶת־הָעִיר פַּעַם אֶחָת כֹּה תַעֲשֶׂה שֵׁשֶׁת יָמִֽים",
+        "riddle": "נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל וְסַבֹּתֶם אֶת־הָעִיר כֹּל אַנְשֵׁי הַמִּלְחָמָה הַקֵּיף אֶת־הָעִיר",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מִיכָה",
+            "אֲבִימֶלֶךְ",
+            "אֱלֹהֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "אַנְשֵׁי הָעִיר",
+            "אִישׁ יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "כֹּה",
+        "bonus_hint": {
+          "quote": "כֹּה אָמַר יְהוָה הַנּוֹתֵן בַּיָּם דָּרֶךְ וּבְמַיִם עַזִּים נְתִיבָֽה",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 43,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto Joshua, See, I have given into thine hand Jericho, and the king thereof, and the mighty men of valour.",
+          "3": "And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ רְאֵה נָתַתִּי בְיָֽדְךָ אֶת־יְרִיחוֹ וְאֶת־מַלְכָּהּ גִּבּוֹרֵי הֶחָֽיִל׃",
+          "3": "וְסַבֹּתֶם אֶת־הָעִיר כֹּל אַנְשֵׁי הַמִּלְחָמָה הַקֵּיף אֶת־הָעִיר פַּעַם אֶחָת כֹּה תַעֲשֶׂה שֵׁשֶׁת יָמִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-06-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 6,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams' horns before the ark of the LORD. And he said unto the people, Pass on, and compass the city, and let him that is armed pass on before the ark of the LORD.",
+        "riddle": "Pass on, and compass the city, and let him that is armed pass on before the ark of the LORD.",
+        "speaker": "Joshua",
+        "listener": "people",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Gideon",
+            "heads of the Levites"
+          ],
+          "listener": [
+            "children",
+            "Philistines",
+            "house of Joseph"
+          ]
+        },
+        "bonus": "trumpets",
+        "bonus_hint": {
+          "quote": "And the sons of Aaron, the priests, shall blow with the trumpets; and they shall be to you for an ordinance for ever throughout your generations.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 10,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יְהוֹשֻׁעַ בִּן־נוּן אֶל־הַכֹּהֲנִים וַיֹּאמֶר אֲלֵהֶם שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְשִׁבְעָה כֹֽהֲנִים יִשְׂאוּ שִׁבְעָה שֽׁוֹפְרוֹת יוֹבְלִים לִפְנֵי אֲרוֹן יְהוָֽה וַיֹּאמֶר אֶל־הָעָם עִבְרוּ וְסֹבּוּ אֶת־הָעִיר וְהֶחָלוּץ יַעֲבֹר לִפְנֵי אֲרוֹן יְהוָֽה",
+        "riddle": "עִבְרוּ וְסֹבּוּ אֶת־הָעִיר וְהֶחָלוּץ יַעֲבֹר לִפְנֵי אֲרוֹן יְהוָֽה",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "גִּדְעוֹן",
+            "רָאשֵׁי אֲבוֹת הַלְוִיִּם"
+          ],
+          "listener": [
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים",
+            "בֵּית יוֹסֵף"
+          ]
+        },
+        "bonus": "הַכֹּהֲנִים",
+        "bonus_hint": {
+          "quote": "וּבְנֵי אַהֲרֹן הַכֹּהֲנִים יִתְקְעוּ בַּֽחֲצֹצְרוֹת וְהָיוּ לָכֶם לְחֻקַּת עוֹלָם לְדֹרֹתֵיכֶֽם",
+          "source": {
+            "book": "במדבר",
+            "chapter": 10,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams' horns before the ark of the LORD.",
+          "7": "And he said unto the people, Pass on, and compass the city, and let him that is armed pass on before the ark of the LORD."
+        },
+        "he": {
+          "6": "וַיִּקְרָא יְהוֹשֻׁעַ בִּן־נוּן אֶל־הַכֹּהֲנִים וַיֹּאמֶר אֲלֵהֶם שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְשִׁבְעָה כֹֽהֲנִים יִשְׂאוּ שִׁבְעָה שֽׁוֹפְרוֹת יוֹבְלִים לִפְנֵי אֲרוֹן יְהוָֽה׃",
+          "7": "וַיֹּאמֶר אֶל־הָעָם עִבְרוּ וְסֹבּוּ אֶת־הָעִיר וְהֶחָלוּץ יַעֲבֹר לִפְנֵי אֲרוֹן יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-06-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 6,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Joshua had commanded the people, saying, Ye shall not shout, nor make any noise with your voice, neither shall any word proceed out of your mouth, until the day I bid you shout; then shall ye shout.",
+        "riddle": "Ye shall not shout, nor make any noise with your voice, neither shall any word proceed out of your mouth, until the day I bid you shout; then shall ye shout.",
+        "speaker": "Joshua",
+        "listener": "people",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Gideon"
+          ],
+          "listener": [
+            "children",
+            "Philistines",
+            "congregation"
+          ]
+        },
+        "bonus": "commanded",
+        "bonus_hint": {
+          "quote": "And Pharaoh commanded his men concerning him: and they sent him away, and his wife, and all that he had.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 12,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאֶת־הָעָם צִוָּה יְהוֹשֻׁעַ לֵאמֹר לֹא תָרִיעוּ וְלֹֽא־תַשְׁמִיעוּ אֶת־קוֹלְכֶם וְלֹא־יֵצֵא מִפִּיכֶם דָּבָר עַד יוֹם אָמְרִי אֲלֵיכֶם הָרִיעוּ וַהֲרִיעֹתֶֽם",
+        "riddle": "לֹא תָרִיעוּ וְלֹֽא־תַשְׁמִיעוּ אֶת־קוֹלְכֶם וְלֹא־יֵצֵא מִפִּיכֶם דָּבָר עַד יוֹם אָמְרִי אֲלֵיכֶם הָרִיעוּ וַהֲרִיעֹתֶֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "גִּדְעוֹן"
+          ],
+          "listener": [
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "וְאֶת",
+        "bonus_hint": {
+          "quote": "וַיְצַו עָלָיו פַּרְעֹה אֲנָשִׁים וַֽיְשַׁלְּחוּ אֹתוֹ וְאֶת־אִשְׁתּוֹ וְאֶת־כָּל־אֲשֶׁר־לֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 12,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Joshua had commanded the people, saying, Ye shall not shout, nor make any noise with your voice, neither shall any word proceed out of your mouth, until the day I bid you shout; then shall ye shout."
+        },
+        "he": {
+          "10": "וְאֶת־הָעָם צִוָּה יְהוֹשֻׁעַ לֵאמֹר לֹא תָרִיעוּ וְלֹֽא־תַשְׁמִיעוּ אֶת־קוֹלְכֶם וְלֹא־יֵצֵא מִפִּיכֶם דָּבָר עַד יוֹם אָמְרִי אֲלֵיכֶם הָרִיעוּ וַהֲרִיעֹתֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 10,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-06-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 6,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said unto the people, Shout; for the LORD hath given you the city.",
+        "riddle": "Shout; for the LORD hath given you the city",
+        "speaker": "Joshua",
+        "listener": "people",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Gideon",
+            "Balaam"
+          ],
+          "listener": [
+            "children",
+            "Philistines",
+            "house of Joseph"
+          ]
+        },
+        "bonus": "trumpets",
+        "bonus_hint": {
+          "quote": "It came even to pass, as the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the LORD; and when they lifted up their voice with the trumpets and cymbals and instruments of musick, and praised the LORD, saying, For he is good; for his mercy endureth for ever: that then the house was filled with a cloud, even the house of the LORD;",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 5,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בַּפַּעַם הַשְּׁבִיעִית תָּקְעוּ הַכֹּהֲנִים בַּשּׁוֹפָרוֹת וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הָרִיעוּ כִּֽי־נָתַן יְהוָה לָכֶם אֶת־הָעִֽיר",
+        "riddle": "הָרִיעוּ כִּֽי־נָתַן יְהוָה לָכֶם אֶת־הָעִֽיר",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "גִּדְעוֹן",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים",
+            "בֵּית יוֹסֵף"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כְאֶחָד לַמְחַצְּרִים וְלַמְשֹֽׁרֲרִים לְהַשְׁמִיעַ קוֹל־אֶחָד לְהַלֵּל וּלְהֹדוֹת לַיהוָה וּכְהָרִים קוֹל בַּחֲצֹצְרוֹת וּבִמְצִלְתַּיִם וּבִכְלֵי הַשִּׁיר וּבְהַלֵּל לַיהוָה כִּי טוֹב כִּי לְעוֹלָם חַסְדּוֹ וְהַבַּיִת מָלֵא עָנָן בֵּית יְהוָֽה",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 5,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said unto the people, Shout; for the LORD hath given you the city."
+        },
+        "he": {
+          "16": "וַיְהִי בַּפַּעַם הַשְּׁבִיעִית תָּקְעוּ הַכֹּהֲנִים בַּשּׁוֹפָרוֹת וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם הָרִיעוּ כִּֽי־נָתַן יְהוָה לָכֶם אֶת־הָעִֽיר׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 16,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

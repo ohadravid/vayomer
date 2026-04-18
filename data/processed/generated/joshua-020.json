@@ -1,0 +1,87 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-20-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 20,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "The LORD also spake unto Joshua, saying, Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:",
+        "riddle": "Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses",
+        "speaker": "LORD",
+        "listener": "children of Israel",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Joshua",
+        "bonus_hint": {
+          "quote": "And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+          "source": {
+            "book": "Joshua",
+            "chapter": 9,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר תְּנוּ לָכֶם אֶת־עָרֵי הַמִּקְלָט אֲשֶׁר־דִּבַּרְתִּי אֲלֵיכֶם בְּיַד־מֹשֶֽׁה",
+        "riddle": "תְּנוּ לָכֶם אֶת־עָרֵי הַמִּקְלָט אֲשֶׁר־דִּבַּרְתִּי אֲלֵיכֶם בְּיַד־מֹשֶֽׁה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים",
+          "source": {
+            "book": "יהושע",
+            "chapter": 9,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "The LORD also spake unto Joshua, saying,",
+          "2": "Speak to the children of Israel, saying, Appoint out for you cities of refuge, whereof I spake unto you by the hand of Moses:"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־יְהוֹשֻׁעַ לֵאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר תְּנוּ לָכֶם אֶת־עָרֵי הַמִּקְלָט אֲשֶׁר־דִּבַּרְתִּי אֲלֵיכֶם בְּיַד־מֹשֶֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

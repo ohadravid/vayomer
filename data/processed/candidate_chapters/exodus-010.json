@@ -6,6 +6,140 @@
   "mode": "llm",
   "items": [
     {
+      "id": "exodus-10-03-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the LORD God of the Hebrews, How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me.",
+        "riddle": "How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me.",
+        "speaker": "Moses and Aaron",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים עַד־מָתַי מֵאַנְתָּ לֵעָנֹת מִפָּנָי שַׁלַּח עַמִּי וְיַֽעַבְדֻֽנִי",
+        "riddle": "וַיֹּאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים עַד־מָתַי מֵאַנְתָּ לֵעָנֹת מִפָּנָי שַׁלַּח עַמִּי וְיַֽעַבְדֻֽנִי",
+        "speaker": "מֹשֶׁה וְאַהֲרֹן",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the LORD God of the Hebrews, How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me."
+        },
+        "he": {
+          "3": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים עַד־מָתַי מֵאַנְתָּ לֵעָנֹת מִפָּנָי שַׁלַּח עַמִּי וְיַֽעַבְדֻֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "exodus-10-04-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Else, if thou refuse to let my people go, behold, to morrow will I bring the locusts into thy coast:",
+        "riddle": "Else, if thou refuse to let my people go, behold, to morrow will I bring the locusts into thy coast:",
+        "speaker": "Moses and Aaron",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "כִּי אִם־מָאֵן אַתָּה לְשַׁלֵּחַ אֶת־עַמִּי הִנְנִי מֵבִיא מָחָר אַרְבֶּה בִּגְבֻלֶֽךָ",
+        "riddle": "כִּי אִם־מָאֵן אַתָּה לְשַׁלֵּחַ אֶת־עַמִּי הִנְנִי מֵבִיא מָחָר אַרְבֶּה בִּגְבֻלֶֽךָ",
+        "speaker": "מֹשֶׁה וְאַהֲרֹן",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Moses and Aaron came in unto Pharaoh, and said unto him, Thus saith the LORD God of the Hebrews, How long wilt thou refuse to humble thyself before me? let my people go, that they may serve me.",
+          "4": "Else, if thou refuse to let my people go, behold, to morrow will I bring the locusts into thy coast:"
+        },
+        "he": {
+          "3": "וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים עַד־מָתַי מֵאַנְתָּ לֵעָנֹת מִפָּנָי שַׁלַּח עַמִּי וְיַֽעַבְדֻֽנִי׃",
+          "4": "כִּי אִם־מָאֵן אַתָּה לְשַׁלֵּחַ אֶת־עַמִּי הִנְנִי מֵבִיא מָחָר אַרְבֶּה בִּגְבֻלֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning of consequence",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-10-07-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Pharaoh's servants said unto him, How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God: knowest thou not yet that Egypt is destroyed?",
+        "riddle": "How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God: knowest thou not yet that Egypt is destroyed?",
+        "speaker": "Pharaoh's servants",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ עַבְדֵי פַרְעֹה אֵלָיו עַד־מָתַי יִהְיֶה זֶה לָנוּ לְמוֹקֵשׁ שַׁלַּח אֶת־הָאֲנָשִׁים וְיַֽעַבְדוּ אֶת־יְהוָה אֱלֹהֵיהֶם הֲטֶרֶם תֵּדַע כִּי אָבְדָה מִצְרָֽיִם",
+        "riddle": "וַיֹּאמְרוּ עַבְדֵי פַרְעֹה אֵלָיו עַד־מָתַי יִהְיֶה זֶה לָנוּ לְמוֹקֵשׁ שַׁלַּח אֶת־הָאֲנָשִׁים וְיַֽעַבְדוּ אֶת־יְהוָה אֱלֹהֵיהֶם הֲטֶרֶם תֵּדַע כִּי אָבְדָה מִצְרָֽיִם",
+        "speaker": "עַבְדֵי פַרְעֹה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Pharaoh's servants said unto him, How long shall this man be a snare unto us? let the men go, that they may serve the LORD their God: knowest thou not yet that Egypt is destroyed?"
+        },
+        "he": {
+          "7": "וַיֹּאמְרוּ עַבְדֵי פַרְעֹה אֵלָיו עַד־מָתַי יִהְיֶה זֶה לָנוּ לְמוֹקֵשׁ שַׁלַּח אֶת־הָאֲנָשִׁים וְיַֽעַבְדוּ אֶת־יְהוָה אֱלֹהֵיהֶם הֲטֶרֶם תֵּדַע כִּי אָבְדָה מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
       "id": "exodus-10-08-08",
       "source": {
         "book_code": "EXO",
@@ -13,20 +147,22 @@
         "book_he": "שמות",
         "chapter": 10,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And Moses and Aaron were brought again unto Pharaoh: and he said unto them, Go, serve the LORD your God: but who are they that shall go?",
-        "riddle": "but who are they that shall go?",
+        "riddle": "Go, serve the LORD your God: but who are they that shall go?",
         "speaker": "Pharaoh",
         "listener": "Moses and Aaron",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיּוּשַׁב אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמֶר אֲלֵהֶם לְכוּ עִבְדוּ אֶת־יְהוָה אֱלֹהֵיכֶם מִי וָמִי הַהֹלְכִֽים",
-        "riddle": "מִי וָמִי הַהֹלְכִֽים",
+        "riddle": "לְכוּ עִבְדוּ אֶת־יְהוָה אֱלֹהֵיכֶם מִי וָמִי הַהֹלְכִֽים",
         "speaker": "פַּרְעֹה",
-        "listener": "מֹשֶׁה ואהרון",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -38,13 +174,192 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct question.",
-        "confidence": 1.0
+        "reason": "command and question",
+        "confidence": 0.94
       },
       "ref": {
         "chapter": 10,
         "start": 8,
         "end": 8
+      }
+    },
+    {
+      "id": "exodus-10-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Moses said, We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds will we go; for we must hold a feast unto the LORD.",
+        "riddle": "We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds will we go; for we must hold a feast unto the LORD.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג־יְהוָה לָֽנוּ",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג־יְהוָה לָֽנוּ",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Moses and Aaron were brought again unto Pharaoh: and he said unto them, Go, serve the LORD your God: but who are they that shall go?",
+          "9": "And Moses said, We will go with our young and with our old, with our sons and with our daughters, with our flocks and with our herds will we go; for we must hold a feast unto the LORD."
+        },
+        "he": {
+          "8": "וַיּוּשַׁב אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמֶר אֲלֵהֶם לְכוּ עִבְדוּ אֶת־יְהוָה אֱלֹהֵיכֶם מִי וָמִי הַהֹלְכִֽים׃",
+          "9": "וַיֹּאמֶר מֹשֶׁה בִּנְעָרֵינוּ וּבִזְקֵנֵינוּ נֵלֵךְ בְּבָנֵינוּ וּבִבְנוֹתֵנוּ בְּצֹאנֵנוּ וּבִבְקָרֵנוּ נֵלֵךְ כִּי חַג־יְהוָה לָֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "exodus-10-10-10",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And he said unto them, Let the LORD be so with you, as I will let you go, and your little ones: look to it; for evil is before you.",
+        "riddle": "Let the LORD be so with you, as I will let you go, and your little ones: look to it; for evil is before you.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם יְהִי כֵן יְהוָה עִמָּכֶם כַּאֲשֶׁר אֲשַׁלַּח אֶתְכֶם וְאֶֽת־טַפְּכֶם רְאוּ כִּי רָעָה נֶגֶד פְּנֵיכֶֽם",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם יְהִי כֵן יְהוָה עִמָּכֶם כַּאֲשֶׁר אֲשַׁלַּח אֶתְכֶם וְאֶֽת־טַפְּכֶם רְאוּ כִּי רָעָה נֶגֶד פְּנֵיכֶֽם",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Moses and Aaron were brought again unto Pharaoh: and he said unto them, Go, serve the LORD your God: but who are they that shall go?",
+          "10": "And he said unto them, Let the LORD be so with you, as I will let you go, and your little ones: look to it; for evil is before you."
+        },
+        "he": {
+          "8": "וַיּוּשַׁב אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן אֶל־פַּרְעֹה וַיֹּאמֶר אֲלֵהֶם לְכוּ עִבְדוּ אֶת־יְהוָה אֱלֹהֵיכֶם מִי וָמִי הַהֹלְכִֽים׃",
+          "10": "וַיֹּאמֶר אֲלֵהֶם יְהִי כֵן יְהוָה עִמָּכֶם כַּאֲשֶׁר אֲשַׁלַּח אֶתְכֶם וְאֶֽת־טַפְּכֶם רְאוּ כִּי רָעָה נֶגֶד פְּנֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "warning and conditional statement",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "exodus-10-12-12-1",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left.",
+        "riddle": "Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם וְיֹאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ אֵת כָּל־אֲשֶׁר הִשְׁאִיר הַבָּרָֽד",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם וְיֹאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ אֵת כָּל־אֲשֶׁר הִשְׁאִיר הַבָּרָֽד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the LORD said unto Moses, Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם וְיֹאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ אֵת כָּל־אֲשֶׁר הִשְׁאִיר הַבָּרָֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "exodus-10-12-12-2",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left.",
+        "riddle": "Stretch out thine hand over the land of Egypt for the locusts",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם וְיֹאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ אֵת כָּל־אֲשֶׁר הִשְׁאִיר הַבָּרָֽד",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the LORD said unto Moses, Stretch out thine hand over the land of Egypt for the locusts, that they may come up upon the land of Egypt, and eat every herb of the land, even all that the hail hath left."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָדְךָ עַל־אֶרֶץ מִצְרַיִם בָּֽאַרְבֶּה וְיַעַל עַל־אֶרֶץ מִצְרָיִם וְיֹאכַל אֶת־כָּל־עֵשֶׂב הָאָרֶץ אֵת כָּל־אֲשֶׁר הִשְׁאִיר הַבָּרָֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 12,
+        "end": 12
       }
     },
     {
@@ -55,20 +370,22 @@
         "book_he": "שמות",
         "chapter": 10,
         "quote_verse_start": 16,
-        "quote_verse_end": 16
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
       },
       "en": {
         "quote": "Then Pharaoh called for Moses and Aaron in haste; and he said, I have sinned against the LORD your God, and against you.",
-        "riddle": "and he said, I have sinned against the LORD your God, and against you.",
+        "riddle": "I have sinned against the LORD your God, and against you.",
         "speaker": "Pharaoh",
         "listener": "Moses and Aaron",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיְמַהֵר פַּרְעֹה לִקְרֹא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר חָטָאתִי לַיהוָה אֱלֹֽהֵיכֶם וְלָכֶֽם",
-        "riddle": "וַיְמַהֵר פַּרְעֹה לִקְרֹא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר חָטָאתִי לַיהוָה אֱלֹֽהֵיכֶם וְלָכֶֽם",
+        "riddle": "וַיֹּאמֶר חָטָאתִי לַיהוָה אֱלֹֽהֵיכֶם וְלָכֶֽם",
         "speaker": "פַּרְעֹה",
-        "listener": "מֹשֶׁה ואהרן",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -80,7 +397,7 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct confession.",
+        "reason": "direct confession",
         "confidence": 0.95
       },
       "ref": {
@@ -97,32 +414,36 @@
         "book_he": "שמות",
         "chapter": 10,
         "quote_verse_start": 17,
-        "quote_verse_end": 17
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
       },
       "en": {
         "quote": "Now therefore forgive, I pray thee, my sin only this once, and intreat the LORD your God, that he may take away from me this death only.",
-        "riddle": "Now therefore forgive, I pray thee, my sin only this once",
+        "riddle": "Now therefore forgive, I pray thee, my sin only this once, and intreat the LORD your God, that he may take away from me this death only.",
         "speaker": "Pharaoh",
-        "listener": "Moses",
+        "listener": "Moses and Aaron",
         "book": "Exodus"
       },
       "he": {
         "quote": "וְעַתָּה שָׂא נָא חַטָּאתִי אַךְ הַפַּעַם וְהַעְתִּירוּ לַיהוָה אֱלֹהֵיכֶם וְיָסֵר מֵֽעָלַי רַק אֶת־הַמָּוֶת הַזֶּֽה",
-        "riddle": "וְעַתָּה שָׂא נָא חַטָּאתִי אַךְ הַפַּעַם וְהַעְתִּירוּ לַיהוָה אֱלֹהֵיכֶם",
-        "speaker": "פרעה",
-        "listener": "משה",
+        "riddle": "וְעַתָּה שָׂא נָא חַטָּאתִי אַךְ הַפַּעַם וְהַעְתִּירוּ לַיהוָה אֱלֹהֵיכֶם וְיָסֵר מֵֽעָלַי רַק אֶת־הַמָּוֶת הַזֶּֽה",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
         "book": "שמות"
       },
       "raw_quote_source": {
         "en": {
+          "16": "Then Pharaoh called for Moses and Aaron in haste; and he said, I have sinned against the LORD your God, and against you.",
           "17": "Now therefore forgive, I pray thee, my sin only this once, and intreat the LORD your God, that he may take away from me this death only."
         },
         "he": {
+          "16": "וַיְמַהֵר פַּרְעֹה לִקְרֹא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר חָטָאתִי לַיהוָה אֱלֹֽהֵיכֶם וְלָכֶֽם׃",
           "17": "וְעַתָּה שָׂא נָא חַטָּאתִי אַךְ הַפַּעַם וְהַעְתִּירוּ לַיהוָה אֱלֹהֵיכֶם וְיָסֵר מֵֽעָלַי רַק אֶת־הַמָּוֶת הַזֶּֽה׃"
         }
       },
       "meta": {
-        "reason": "Memorable plea for forgiveness",
+        "reason": "direct plea",
         "confidence": 0.95
       },
       "ref": {
@@ -130,13 +451,274 @@
         "start": 17,
         "end": 17
       }
+    },
+    {
+      "id": "exodus-10-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt.",
+        "riddle": "Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי חֹשֶׁךְ עַל־אֶרֶץ מִצְרָיִם וְיָמֵשׁ חֹֽשֶׁךְ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי חֹשֶׁךְ עַל־אֶרֶץ מִצְרָיִם וְיָמֵשׁ חֹֽשֶׁךְ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the LORD said unto Moses, Stretch out thine hand toward heaven, that there may be darkness over the land of Egypt, even darkness which may be felt."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי חֹשֶׁךְ עַל־אֶרֶץ מִצְרָיִם וְיָמֵשׁ חֹֽשֶׁךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "exodus-10-24-24",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And Pharaoh called unto Moses, and said, Go ye, serve the LORD; only let your flocks and your herds be stayed: let your little ones also go with you.",
+        "riddle": "Go ye, serve the LORD; only let your flocks and your herds be stayed: let your little ones also go with you.",
+        "speaker": "Pharaoh",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא פַרְעֹה אֶל־מֹשֶׁה וַיֹּאמֶר לְכוּ עִבְדוּ אֶת־יְהוָה רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג גַּֽם־טַפְּכֶם יֵלֵך עִמָּכֶֽם",
+        "riddle": "לְכוּ עִבְדוּ אֶת־יְהוָה רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג גַּֽם־טַפְּכֶם יֵלֵך עִמָּכֶֽם",
+        "speaker": "פַרְעֹה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Pharaoh called unto Moses, and said, Go ye, serve the LORD; only let your flocks and your herds be stayed: let your little ones also go with you."
+        },
+        "he": {
+          "24": "וַיִּקְרָא פַרְעֹה אֶל־מֹשֶׁה וַיֹּאמֶר לְכוּ עִבְדוּ אֶת־יְהוָה רַק צֹאנְכֶם וּבְקַרְכֶם יֻצָּג גַּֽם־טַפְּכֶם יֵלֵך עִמָּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "exodus-10-25-25",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And Moses said, Thou must give us also sacrifices and burnt offerings, that we may sacrifice unto the LORD our God.",
+        "riddle": "Thou must give us also sacrifices and burnt offerings, that we may sacrifice unto the LORD our God.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה גַּם־אַתָּה תִּתֵּן בְּיָדֵנוּ זְבָחִים וְעֹלוֹת וְעָשִׂינוּ לַיהוָה אֱלֹהֵֽינוּ",
+        "riddle": "גַּם־אַתָּה תִּתֵּן בְּיָדֵנוּ זְבָחִים וְעֹלוֹת וְעָשִׂינוּ לַיהוָה אֱלֹהֵֽינו",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Moses said, Thou must give us also sacrifices and burnt offerings, that we may sacrifice unto the LORD our God."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר מֹשֶׁה גַּם־אַתָּה תִּתֵּן בְּיָדֵנוּ זְבָחִים וְעֹלוֹת וְעָשִׂינוּ לַיהוָה אֱלֹהֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "exodus-10-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Our cattle also shall go with us; there shall not an hoof be left behind; for thereof must we take to serve the LORD our God; and we know not with what we must serve the LORD, until we come thither.",
+        "riddle": "Our cattle also shall go with us; there shall not an hoof be left behind; for thereof must we take to serve the LORD our God; and we know not with what we must serve the LORD, until we come thither.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְגַם־מִקְנֵנוּ יֵלֵךְ עִמָּנוּ לֹא תִשָּׁאֵר פַּרְסָה כִּי מִמֶּנּוּ נִקַּח לַעֲבֹד אֶת־יְהוָה אֱלֹהֵינוּ וַאֲנַחְנוּ לֹֽא־נֵדַע מַֽה־נַּעֲבֹד אֶת־יְהוָה עַד־בֹּאֵנוּ שָֽׁמָּה",
+        "riddle": "וְגַם־מִקְנֵנוּ יֵלֵךְ עִמָּנוּ לֹא תִשָּׁאֵר פַּרְסָה כִּי מִמֶּנּוּ נִקַּח לַעֲבֹד אֶת־יְהוָה אֱלֹהֵינוּ וַאֲנַחְנוּ לֹֽא־נֵדַע מַֽה־נַּעֲבֹד אֶת־יְהוָה עַד־בֹּאֵנוּ שָֽׁמָּה",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Our cattle also shall go with us; there shall not an hoof be left behind; for thereof must we take to serve the LORD our God; and we know not with what we must serve the LORD, until we come thither."
+        },
+        "he": {
+          "26": "וְגַם־מִקְנֵנוּ יֵלֵךְ עִמָּנוּ לֹא תִשָּׁאֵר פַּרְסָה כִּי מִמֶּנּוּ נִקַּח לַעֲבֹד אֶת־יְהוָה אֱלֹהֵינוּ וַאֲנַחְנוּ לֹֽא־נֵדַע מַֽה־נַּעֲבֹד אֶת־יְהוָה עַד־בֹּאֵנוּ שָֽׁמָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "exodus-10-28-28",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.",
+        "riddle": "Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.",
+        "speaker": "Pharaoh",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לוֹ פַרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אֶל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָנַי תָּמֽוּת",
+        "riddle": "וַיֹּֽאמֶר־לוֹ פַרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אֶל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָנַי תָּמֽוּת",
+        "speaker": "פַרְעֹה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die."
+        },
+        "he": {
+          "28": "וַיֹּֽאמֶר־לוֹ פַרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אֶל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָנַי תָּמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "exodus-10-29-29",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 10,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And Moses said, Thou hast spoken well, I will see thy face again no more.",
+        "riddle": "Thou hast spoken well, I will see thy face again no more.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה כֵּן דִּבַּרְתָּ לֹא־אֹסִף עוֹד רְאוֹת פָּנֶֽיךָ",
+        "riddle": "כֵּן דִּבַּרְתָּ לֹא־אֹסִף עוֹד רְאוֹת פָּנֶֽיך",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Pharaoh said unto him, Get thee from me, take heed to thyself, see my face no more; for in that day thou seest my face thou shalt die.",
+          "29": "And Moses said, Thou hast spoken well, I will see thy face again no more."
+        },
+        "he": {
+          "28": "וַיֹּֽאמֶר־לוֹ פַרְעֹה לֵךְ מֵעָלָי הִשָּׁמֶר לְךָ אֶל־תֹּסֶף רְאוֹת פָּנַי כִּי בְּיוֹם רְאֹתְךָ פָנַי תָּמֽוּת׃",
+          "29": "וַיֹּאמֶר מֹשֶׁה כֵּן דִּבַּרְתָּ לֹא־אֹסִף עוֹד רְאוֹת פָּנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 29,
+        "end": 29
+      }
     }
   ],
   "stats": {
-    "window_count": 21,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 21,
-    "kept_count": 3,
-    "issue_count": 18
+    "llm_window_count": 6,
+    "projection_llm_count": 16,
+    "llm_call_count": 22,
+    "spec_count": 16,
+    "kept_count": 16,
+    "issue_count": 0
   }
 }

@@ -1,0 +1,189 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 5,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-05-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 5,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And the priest shall charge her by an oath, and say unto the woman, If no man have lain with thee, and if thou hast not gone aside to uncleanness with another instead of thy husband, be thou free from this bitter water that causeth the curse:",
+        "riddle": "If no man have lain with thee, and if thou hast not gone aside to uncleanness with another instead of thy husband, be thou free from this bitter water that causeth the curse:",
+        "speaker": "priest",
+        "listener": "woman",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Rahab",
+            "Pharaoh's daughter",
+            "Reuel"
+          ]
+        },
+        "bonus": "oath",
+        "bonus_hint": {
+          "quote": "As the LORD thy God liveth, there is no nation or kingdom, whither my lord hath not sent to seek thee: and when they said, He is not there; he took an oath of the kingdom and nation, that they found thee not.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 18,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהִשְׁבִּיעַ אֹתָהּ הַכֹּהֵן וְאָמַר אֶל־הָֽאִשָּׁה אִם־לֹא שָׁכַב אִישׁ אֹתָךְ וְאִם־לֹא שָׂטִית טֻמְאָה תַּחַת אִישֵׁךְ הִנָּקִי מִמֵּי הַמָּרִים הַֽמְאָרֲרִים הָאֵֽלֶּה",
+        "riddle": "אִם־לֹא שָׁכַב אִישׁ אֹתָךְ וְאִם־לֹא שָׂטִית טֻמְאָה תַּחַת אִישֵׁךְ הִנָּקִי מִמֵּי הַמָּרִים הַֽמְאָרֲרִים הָאֵֽלֶּה",
+        "speaker": "הַכֹּהֵן",
+        "listener": "הָֽאִשָּׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "רְחֹב",
+            "בַּת־פַּרְעֹה",
+            "רְעוּאֵל"
+          ]
+        },
+        "bonus": "וְהִשְׁבִּיעַ",
+        "bonus_hint": {
+          "quote": "חַי יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־גּוֹי וּמַמְלָכָה אֲשֶׁר לֹֽא־שָׁלַח אֲדֹנִי שָׁם לְבַקֶּשְׁךָ וְאָמְרוּ אָיִן וְהִשְׁבִּיעַ אֶת־הַמַּמְלָכָה וְאֶת־הַגּוֹי כִּי לֹא יִמְצָאֶֽכָּה",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 18,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And the priest shall charge her by an oath, and say unto the woman, If no man have lain with thee, and if thou hast not gone aside to uncleanness with another instead of thy husband, be thou free from this bitter water that causeth the curse:"
+        },
+        "he": {
+          "19": "וְהִשְׁבִּיעַ אֹתָהּ הַכֹּהֵן וְאָמַר אֶל־הָֽאִשָּׁה אִם־לֹא שָׁכַב אִישׁ אֹתָךְ וְאִם־לֹא שָׂטִית טֻמְאָה תַּחַת אִישֵׁךְ הִנָּקִי מִמֵּי הַמָּרִים הַֽמְאָרֲרִים הָאֵֽלֶּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 19,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-05-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 5,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Then the priest shall charge the woman with an oath of cursing, and the priest shall say unto the woman, The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;",
+        "riddle": "The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;",
+        "speaker": "priest",
+        "listener": "woman",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Rahab",
+            "Balaam",
+            "Balak"
+          ]
+        },
+        "bonus": "cursing",
+        "bonus_hint": {
+          "quote": "The LORD shall send upon thee cursing, vexation, and rebuke, in all that thou settest thine hand unto for to do, until thou be destroyed, and until thou perish quickly; because of the wickedness of thy doings, whereby thou hast forsaken me.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 28,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהִשְׁבִּיעַ הַכֹּהֵן אֶֽת־הָֽאִשָּׁה בִּשְׁבֻעַת הָאָלָה וְאָמַר הַכֹּהֵן לָֽאִשָּׁה יִתֵּן יְהוָה אוֹתָךְ לְאָלָה וְלִשְׁבֻעָה בְּתוֹךְ עַמֵּךְ בְּתֵת יְהוָה אֶת־יְרֵכֵךְ נֹפֶלֶת וְאֶת־בִּטְנֵךְ צָבָֽה",
+        "riddle": "יִתֵּן יְהוָה אוֹתָךְ לְאָלָה וְלִשְׁבֻעָה בְּתוֹךְ עַמֵּךְ בְּתֵת יְהוָה אֶת־יְרֵכֵךְ נֹפֶלֶת וְאֶת־בִּטְנֵךְ צָבָֽה",
+        "speaker": "הַכֹּהֵן",
+        "listener": "הָֽאִשָּׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "רְחֹב",
+            "בִּלְעָם",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "וְהִשְׁבִּיעַ",
+        "bonus_hint": {
+          "quote": "חַי יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־גּוֹי וּמַמְלָכָה אֲשֶׁר לֹֽא־שָׁלַח אֲדֹנִי שָׁם לְבַקֶּשְׁךָ וְאָמְרוּ אָיִן וְהִשְׁבִּיעַ אֶת־הַמַּמְלָכָה וְאֶת־הַגּוֹי כִּי לֹא יִמְצָאֶֽכָּה",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 18,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Then the priest shall charge the woman with an oath of cursing, and the priest shall say unto the woman, The LORD make thee a curse and an oath among thy people, when the LORD doth make thy thigh to rot, and thy belly to swell;"
+        },
+        "he": {
+          "21": "וְהִשְׁבִּיעַ הַכֹּהֵן אֶֽת־הָֽאִשָּׁה בִּשְׁבֻעַת הָאָלָה וְאָמַר הַכֹּהֵן לָֽאִשָּׁה יִתֵּן יְהוָה אוֹתָךְ לְאָלָה וְלִשְׁבֻעָה בְּתוֹךְ עַמֵּךְ בְּתֵת יְהוָה אֶת־יְרֵכֵךְ נֹפֶלֶת וְאֶת־בִּטְנֵךְ צָבָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 21,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

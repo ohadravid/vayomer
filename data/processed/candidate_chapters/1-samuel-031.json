@@ -4,12 +4,60 @@
   "book_he": "שמואל א",
   "chapter": 31,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-samuel-31-04-04",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 31,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Then said Saul unto his armourbearer, Draw thy sword, and thrust me through therewith; lest these uncircumcised come and thrust me through, and abuse me. But his armourbearer would not; for he was sore afraid. Therefore Saul took a sword, and fell upon it.",
+        "riddle": "Draw thy sword, and thrust me through therewith; lest these uncircumcised come and thrust me through, and abuse me.",
+        "speaker": "Saul",
+        "listener": "armourbearer",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל לְנֹשֵׂא כֵלָיו שְׁלֹף חַרְבְּךָ וְדָקְרֵנִי בָהּ פֶּן־יָבוֹאוּ הָעֲרֵלִים הָאֵלֶּה וּדְקָרֻנִי וְהִתְעַלְּלוּ־בִי וְלֹא אָבָה נֹשֵׂא כֵלָיו כִּי יָרֵא מְאֹד וַיִּקַּח שָׁאוּל אֶת־הַחֶרֶב וַיִּפֹּל עָלֶֽיהָ",
+        "riddle": "שְׁלֹף חַרְבְּךָ וְדָקְרֵנִי בָהּ פֶּן־יָבוֹאוּ הָעֲרֵלִים הָאֵלֶּה וּדְקָרֻנִי וְהִתְעַלְּלוּ־בִי וְלֹא אָבָה נֹשֵׂא כֵלָיו כִּי יָרֵא מְאֹד וַיִּקַּח שָׁאוּל אֶת",
+        "speaker": "שָׁאוּל",
+        "listener": "נֹשֵׂא כֵלָיו",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then said Saul unto his armourbearer, Draw thy sword, and thrust me through therewith; lest these uncircumcised come and thrust me through, and abuse me. But his armourbearer would not; for he was sore afraid. Therefore Saul took a sword, and fell upon it."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר שָׁאוּל לְנֹשֵׂא כֵלָיו שְׁלֹף חַרְבְּךָ ׀ וְדָקְרֵנִי בָהּ פֶּן־יָבוֹאוּ הָעֲרֵלִים הָאֵלֶּה וּדְקָרֻנִי וְהִתְעַלְּלוּ־בִי וְלֹא אָבָה נֹשֵׂא כֵלָיו כִּי יָרֵא מְאֹד וַיִּקַּח שָׁאוּל אֶת־הַחֶרֶב וַיִּפֹּל עָלֶֽיהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 4,
+        "end": 4
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

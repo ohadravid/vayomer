@@ -13,18 +13,20 @@
         "book_he": "שופטים",
         "chapter": 20,
         "quote_verse_start": 3,
-        "quote_verse_end": 3
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
       },
       "en": {
         "quote": "(Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness?",
-        "riddle": "how was this wickedness?",
+        "riddle": "Tell us, how was this wickedness?",
         "speaker": "children of Israel",
-        "listener": "children of Benjamin",
+        "listener": "the people",
         "book": "Judges"
       },
       "he": {
         "quote": "וַֽיִּשְׁמְעוּ בְּנֵי בִנְיָמִן כִּֽי־עָלוּ בְנֵֽי־יִשְׂרָאֵל הַמִּצְפָּה וַיֹּֽאמְרוּ בְּנֵי יִשְׂרָאֵל דַּבְּרוּ אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
-        "riddle": "אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
+        "riddle": "דַּבְּרוּ אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת",
         "speaker": "בְנֵֽי־יִשְׂרָאֵל",
         "listener": "בְּנֵי בִנְיָמִן",
         "book": "שופטים"
@@ -38,13 +40,143 @@
         }
       },
       "meta": {
-        "reason": "Direct question from speech",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 20,
         "start": 3,
         "end": 3
+      }
+    },
+    {
+      "id": "judges-20-04-04",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the Levite, the husband of the woman that was slain, answered and said, I came into Gibeah that belongeth to Benjamin, I and my concubine, to lodge.",
+        "riddle": "I came into Gibeah that belongeth to Benjamin, I and my concubine, to lodge.",
+        "speaker": "the Levite",
+        "listener": "children of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיַּעַן הָאִישׁ הַלֵּוִי אִישׁ הָאִשָּׁה הַנִּרְצָחָה וַיֹּאמַר הַגִּבְעָתָה אֲשֶׁר לְבִנְיָמִן בָּאתִי אֲנִי וּפִֽילַגְשִׁי לָלֽוּן",
+        "riddle": "וַיֹּאמַר הַגִּבְעָתָה אֲשֶׁר לְבִנְיָמִן בָּאתִי אֲנִי וּפִֽילַגְשִׁי לָלֽוּן",
+        "speaker": "הָאִישׁ הַלֵּוִי",
+        "listener": "בְנֵֽי־יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "(Now the children of Benjamin heard that the children of Israel were gone up to Mizpeh.) Then said the children of Israel, Tell us, how was this wickedness?",
+          "4": "And the Levite, the husband of the woman that was slain, answered and said, I came into Gibeah that belongeth to Benjamin, I and my concubine, to lodge."
+        },
+        "he": {
+          "3": "וַֽיִּשְׁמְעוּ בְּנֵי בִנְיָמִן כִּֽי־עָלוּ בְנֵֽי־יִשְׂרָאֵל הַמִּצְפָּה וַיֹּֽאמְרוּ בְּנֵי יִשְׂרָאֵל דַּבְּרוּ אֵיכָה נִהְיְתָה הָרָעָה הַזֹּֽאת׃",
+          "4": "וַיַּעַן הָאִישׁ הַלֵּוִי אִישׁ הָאִשָּׁה הַנִּרְצָחָה וַיֹּאמַר הַגִּבְעָתָה אֲשֶׁר לְבִנְיָמִן בָּאתִי אֲנִי וּפִֽילַגְשִׁי לָלֽוּן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "judges-20-07-07",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Behold, ye are all children of Israel; give here your advice and counsel.",
+        "riddle": "Behold, ye are all children of Israel; give here your advice and counsel.",
+        "speaker": "the man",
+        "listener": "children of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "הִנֵּה כֻלְּכֶם בְּנֵי יִשְׂרָאֵל הָבוּ לָכֶם דָּבָר וְעֵצָה הֲלֹֽם",
+        "riddle": "הִנֵּה כֻלְּכֶם בְּנֵי יִשְׂרָאֵל הָבוּ לָכֶם דָּבָר וְעֵצָה הֲלֹֽם",
+        "speaker": "הָאִישׁ",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Behold, ye are all children of Israel; give here your advice and counsel."
+        },
+        "he": {
+          "7": "הִנֵּה כֻלְּכֶם בְּנֵי יִשְׂרָאֵל הָבוּ לָכֶם דָּבָר וְעֵצָה הֲלֹֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and address",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "judges-20-08-08",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn into his house.",
+        "riddle": "We will not any of us go to his tent, neither will we any of us turn into his house.",
+        "speaker": "all the people",
+        "listener": "the man",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיָּקָם כָּל־הָעָם כְּאִישׁ אֶחָד לֵאמֹר לֹא נֵלֵךְ אִישׁ לְאָהֳלוֹ וְלֹא נָסוּר אִישׁ לְבֵיתֽוֹ",
+        "riddle": "לֹא נֵלֵךְ אִישׁ לְאָהֳלוֹ וְלֹא נָסוּר אִישׁ לְבֵיתֽו",
+        "speaker": "כָּל־הָעָם",
+        "listener": "אִישׁ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn into his house."
+        },
+        "he": {
+          "8": "וַיָּקָם כָּל־הָעָם כְּאִישׁ אֶחָד לֵאמֹר לֹא נֵלֵךְ אִישׁ לְאָהֳלוֹ וְלֹא נָסוּר אִישׁ לְבֵיתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "collective declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 8,
+        "end": 8
       }
     },
     {
@@ -55,13 +187,15 @@
         "book_he": "שופטים",
         "chapter": 20,
         "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
       },
       "en": {
         "quote": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you?",
         "riddle": "What wickedness is this that is done among you?",
-        "speaker": "Tribes of Israel",
-        "listener": "Tribe of Benjamin",
+        "speaker": "tribes of Israel",
+        "listener": "tribe of Benjamin",
         "book": "Judges"
       },
       "he": {
@@ -80,8 +214,8 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 20,
@@ -90,55 +224,102 @@
       }
     },
     {
-      "id": "judges-20-32-33",
+      "id": "judges-20-13-13",
       "source": {
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 20,
-        "quote_verse_start": 32,
-        "quote_verse_end": 33
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
       },
       "en": {
-        "quote": "And the children of Benjamin said, They are smitten down before us, as at the first. But the children of Israel said, Let us flee, and draw them from the city unto the highways. And all the men of Israel rose up out of their place, and put themselves in array at Baal-tamar: and the liers in wait of Israel came forth out of their places, even out of the meadows of Gibeah.",
-        "riddle": "And the children of Benjamin said, They are smitten down before",
-        "speaker": "Children of Benjamin",
-        "listener": "Children of Israel",
+        "quote": "Now therefore deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel. But the children of Benjamin would not hearken to the voice of their brethren the children of Israel:",
+        "riddle": "deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel.",
+        "speaker": "tribes of Israel",
+        "listener": "tribe of Benjamin",
         "book": "Judges"
       },
       "he": {
-        "quote": "וַיֹּֽאמְרוּ בְּנֵי בִנְיָמִן נִגָּפִים הֵם לְפָנֵינוּ כְּבָרִאשֹׁנָה וּבְנֵי יִשְׂרָאֵל אָמְרוּ נָנוּסָה וּֽנְתַקְּנֻהוּ מִן־הָעִיר אֶל־הַֽמְסִלּֽוֹת וְכֹל אִישׁ יִשְׂרָאֵל קָמוּ מִמְּקוֹמוֹ וַיַּעַרְכוּ בְּבַעַל תָּמָר וְאֹרֵב יִשְׂרָאֵל מֵגִיחַ מִמְּקֹמוֹ מִמַּֽעֲרֵה גָֽבַע",
-        "riddle": "וַיֹּֽאמְרוּ בְּנֵי בִנְיָמִן נִגָּפִים הֵם לְפָנֵינוּ כְּבָרִאשֹׁנָה",
-        "speaker": "בְּנֵי בִנְיָמִן",
-        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "quote": "וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל וְלֹא אָבוּ בְנֵי בִּנְיָמִן לִשְׁמֹעַ בְּקוֹל אֲחֵיהֶם בְּנֵֽי־יִשְׂרָאֵֽל",
+        "riddle": "וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל",
+        "speaker": "בְּנֵֽי־יִשְׂרָאֵֽל",
+        "listener": "בְנֵי בִּנְיָמִן",
         "book": "שופטים"
       },
       "raw_quote_source": {
         "en": {
-          "32": "And the children of Benjamin said, They are smitten down before us, as at the first. But the children of Israel said, Let us flee, and draw them from the city unto the highways.",
-          "33": "And all the men of Israel rose up out of their place, and put themselves in array at Baal-tamar: and the liers in wait of Israel came forth out of their places, even out of the meadows of Gibeah."
+          "13": "Now therefore deliver us the men, the children of Belial, which are in Gibeah, that we may put them to death, and put away evil from Israel. But the children of Benjamin would not hearken to the voice of their brethren the children of Israel:"
         },
         "he": {
-          "32": "וַיֹּֽאמְרוּ בְּנֵי בִנְיָמִן נִגָּפִים הֵם לְפָנֵינוּ כְּבָרִאשֹׁנָה וּבְנֵי יִשְׂרָאֵל אָמְרוּ נָנוּסָה וּֽנְתַקְּנֻהוּ מִן־הָעִיר אֶל־הַֽמְסִלּֽוֹת׃",
-          "33": "וְכֹל ׀ אִישׁ יִשְׂרָאֵל קָמוּ מִמְּקוֹמוֹ וַיַּעַרְכוּ בְּבַעַל תָּמָר וְאֹרֵב יִשְׂרָאֵל מֵגִיחַ מִמְּקֹמוֹ מִמַּֽעֲרֵה גָֽבַע׃"
+          "13": "וְעַתָּה תְּנוּ אֶת־הָאֲנָשִׁים בְּנֵֽי־בְלִיַּעַל אֲשֶׁר בַּגִּבְעָה וּנְמִיתֵם וּנְבַעֲרָה רָעָה מִיִּשְׂרָאֵל וְלֹא אָבוּ בְנֵי בִּנְיָמִן לִשְׁמֹעַ בְּקוֹל אֲחֵיהֶם בְּנֵֽי־יִשְׂרָאֵֽל׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech/declaration",
+        "reason": "command/demand",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 20,
-        "start": 32,
-        "end": 33
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "judges-20-28-28",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 20,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And the LORD said, Go up; for to morrow I will deliver them into thine hand.",
+        "riddle": "Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease?",
+        "speaker": "Phinehas",
+        "listener": "the LORD",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וּפִינְחָס בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל וַיֹּאמֶר יְהוָה עֲלוּ כִּי מָחָר אֶתְּנֶנּוּ בְיָדֶֽךָ",
+        "riddle": "בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל",
+        "speaker": "פִינְחָס",
+        "listener": "יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Phinehas, the son of Eleazar, the son of Aaron, stood before it in those days,) saying, Shall I yet again go out to battle against the children of Benjamin my brother, or shall I cease? And the LORD said, Go up; for to morrow I will deliver them into thine hand."
+        },
+        "he": {
+          "28": "וּפִינְחָס בֶּן־אֶלְעָזָר בֶּֽן־אַהֲרֹן עֹמֵד ׀ לְפָנָיו בַּיָּמִים הָהֵם לֵאמֹר הַאוֹסִף עוֹד לָצֵאת לַמִּלְחָמָה עִם־בְּנֵֽי־בִנְיָמִן אָחִי אִם־אֶחְדָּל וַיֹּאמֶר יְהוָה עֲלוּ כִּי מָחָר אֶתְּנֶנּוּ בְיָדֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 28,
+        "end": 28
       }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 8,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 3,
-    "issue_count": 14
+    "llm_window_count": 8,
+    "projection_llm_count": 15,
+    "llm_call_count": 23,
+    "spec_count": 15,
+    "kept_count": 7,
+    "issue_count": 8
   }
 }

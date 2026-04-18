@@ -1,0 +1,473 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 29,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-29-03-03-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Now the Philistines gathered together all their armies to Aphek: and the Israelites pitched by a fountain which is in Jezreel. And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish. Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?",
+        "riddle": "What do these Hebrews here?",
+        "speaker": "Philistine princes",
+        "listener": "Achish",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Israelites",
+            "men of Israel",
+            "Shimei"
+          ],
+          "listener": [
+            "Ben-hadad",
+            "king of Ammon",
+            "Saul"
+          ]
+        },
+        "bonus": "armies",
+        "bonus_hint": {
+          "quote": "And it came to pass in those days, that the Philistines gathered their armies together for warfare, to fight with Israel. And Achish said unto David, Know thou assuredly, that thou shalt go out with me to battle, thou and thy men.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 28,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְבְּצוּ פְלִשְׁתִּים אֶת־כָּל־מַחֲנֵיהֶם אֲפֵקָה וְיִשְׂרָאֵל חֹנִים בַּעַיִן אֲשֶׁר בְּיִזְרְעֶֽאל וְסַרְנֵי פְלִשְׁתִּים עֹֽבְרִים לְמֵאוֹת וְלַאֲלָפִים וְדָוִד וַאֲנָשָׁיו עֹֽבְרִים בָּאַחֲרֹנָה עִם־אָכִֽישׁ וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה",
+        "riddle": "מָה הָעִבְרִים הָאֵלֶּה",
+        "speaker": "שָׂרֵי פְלִשְׁתִּים",
+        "listener": "אָכִֽישׁ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "אִישׁ יִשְׂרָאֵל",
+            "שִׁמְעִי"
+          ],
+          "listener": [
+            "בֶּן־הֲדַד",
+            "מֶלֶךְ בְּנֵֽי־עַמּוֹן",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "וַיִּקְבְּצוּ",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי בַּיָּמִים הָהֵם וַיִּקְבְּצוּ פְלִשְׁתִּים אֶת־מַֽחֲנֵיהֶם לַצָּבָא לְהִלָּחֵם בְּיִשְׂרָאֵל וַיֹּאמֶר אָכִישׁ אֶל־דָּוִד יָדֹעַ תֵּדַע כִּי אִתִּי תֵּצֵא בַֽמַּחֲנֶה אַתָּה וַאֲנָשֶֽׁיךָ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 28,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now the Philistines gathered together all their armies to Aphek: and the Israelites pitched by a fountain which is in Jezreel.",
+          "2": "And the lords of the Philistines passed on by hundreds, and by thousands: but David and his men passed on in the rereward with Achish.",
+          "3": "Then said the princes of the Philistines, What do these Hebrews here? And Achish said unto the princes of the Philistines, Is not this David, the servant of Saul the king of Israel, which hath been with me these days, or these years, and I have found no fault in him since he fell unto me unto this day?"
+        },
+        "he": {
+          "1": "וַיִּקְבְּצוּ פְלִשְׁתִּים אֶת־כָּל־מַחֲנֵיהֶם אֲפֵקָה וְיִשְׂרָאֵל חֹנִים בַּעַיִן אֲשֶׁר בְּיִזְרְעֶֽאל׃",
+          "2": "וְסַרְנֵי פְלִשְׁתִּים עֹֽבְרִים לְמֵאוֹת וְלַאֲלָפִים וְדָוִד וַאֲנָשָׁיו עֹֽבְרִים בָּאַחֲרֹנָה עִם־אָכִֽישׁ׃",
+          "3": "וַיֹּֽאמְרוּ שָׂרֵי פְלִשְׁתִּים מָה הָעִבְרִים הָאֵלֶּה וַיֹּאמֶר אָכִישׁ אֶל־שָׂרֵי פְלִשְׁתִּים הֲלֽוֹא־זֶה דָוִד עֶבֶד ׀ שָׁאוּל מֶֽלֶךְ־יִשְׂרָאֵל אֲשֶׁר הָיָה אִתִּי זֶה יָמִים אוֹ־זֶה שָׁנִים וְלֹֽא־מָצָאתִי בוֹ מְאוּמָה מִיּוֹם נָפְלוֹ עַד־הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-29-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And the princes of the Philistines were wroth with him; and the princes of the Philistines said unto him, Make this fellow return, that he may go again to his place which thou hast appointed him, and let him not go down with us to battle, lest in the battle he be an adversary to us: for wherewith should he reconcile himself unto his master? should it not be with the heads of these men? Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?",
+        "riddle": "Saul slew his thousands, and David his ten thousands?",
+        "speaker": "Princes of the Philistines",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Israelites",
+            "men of Israel",
+            "Philistines"
+          ],
+          "listener": [
+            "Saul",
+            "Samuel",
+            "Jonathan"
+          ]
+        },
+        "bonus": "battle",
+        "bonus_hint": {
+          "quote": "Therefore he hath poured upon him the fury of his anger, and the strength of battle: and it hath set him on fire round about, yet he knew not; and it burned him, yet he laid it not to heart.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 42,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְצְפוּ עָלָיו שָׂרֵי פְלִשְׁתִּים וַיֹּאמְרוּ לוֹ שָׂרֵי פְלִשְׁתִּים הָשֵׁב אֶת־הָאִישׁ וְיָשֹׁב אֶל־מְקוֹמוֹ אֲשֶׁר הִפְקַדְתּוֹ שָׁם וְלֹֽא־יֵרֵד עִמָּנוּ בַּמִּלְחָמָה וְלֹא־יִֽהְיֶה־לָּנוּ לְשָׂטָן בַּמִּלְחָמָה וּבַמֶּה יִתְרַצֶּה זֶה אֶל־אֲדֹנָיו הֲלוֹא בְּרָאשֵׁי הָאֲנָשִׁים הָהֵֽם הֲלוֹא־זֶה דָוִד אֲשֶׁר יַעֲנוּ־לוֹ בַּמְּחֹלוֹת לֵאמֹר הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "riddle": "הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "speaker": "שָׂרֵי פְלִשְׁתִּים",
+        "listener": "דָוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "אִישׁ יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "שְׁמוּאֵל",
+            "יְהוֹנָתָן"
+          ]
+        },
+        "bonus": "עָלָיו",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁפֹּךְ עָלָיו חֵמָה אַפּוֹ וֶעֱזוּז מִלְחָמָה וַתְּלַהֲטֵהוּ מִסָּבִיב וְלֹא יָדָע וַתִּבְעַר־בּוֹ וְלֹא־יָשִׂים עַל־לֵֽב",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 42,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the princes of the Philistines were wroth with him; and the princes of the Philistines said unto him, Make this fellow return, that he may go again to his place which thou hast appointed him, and let him not go down with us to battle, lest in the battle he be an adversary to us: for wherewith should he reconcile himself unto his master? should it not be with the heads of these men?",
+          "5": "Is not this David, of whom they sang one to another in dances, saying, Saul slew his thousands, and David his ten thousands?"
+        },
+        "he": {
+          "4": "וַיִּקְצְפוּ עָלָיו שָׂרֵי פְלִשְׁתִּים וַיֹּאמְרוּ לוֹ שָׂרֵי פְלִשְׁתִּים הָשֵׁב אֶת־הָאִישׁ וְיָשֹׁב אֶל־מְקוֹמוֹ אֲשֶׁר הִפְקַדְתּוֹ שָׁם וְלֹֽא־יֵרֵד עִמָּנוּ בַּמִּלְחָמָה וְלֹא־יִֽהְיֶה־לָּנוּ לְשָׂטָן בַּמִּלְחָמָה וּבַמֶּה יִתְרַצֶּה זֶה אֶל־אֲדֹנָיו הֲלוֹא בְּרָאשֵׁי הָאֲנָשִׁים הָהֵֽם׃",
+          "5": "הֲלוֹא־זֶה דָוִד אֲשֶׁר יַעֲנוּ־לוֹ בַּמְּחֹלוֹת לֵאמֹר הִכָּה שָׁאוּל בַּֽאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-29-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not. Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+        "riddle": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines.",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Ben-hadad",
+            "king of Syria"
+          ],
+          "listener": [
+            "Saul",
+            "Abner",
+            "Samuel"
+          ]
+        },
+        "bonus": "upright",
+        "bonus_hint": {
+          "quote": "I am the LORD your God, which brought you forth out of the land of Egypt, that ye should not be their bondmen; and I have broken the bands of your yoke, and made you go upright.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 26,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אָכִישׁ אֶל־דָּוִד וַיֹּאמֶר אֵלָיו חַי־יְהוָה כִּי־יָשָׁר אַתָּה וְטוֹב בְּעֵינַי צֵאתְךָ וּבֹאֲךָ אִתִּי בַּֽמַּחֲנֶה כִּי לֹֽא־מָצָאתִֽי בְךָ רָעָה מִיּוֹם בֹּאֲךָ אֵלַי עַד־הַיּוֹם הַזֶּה וּבְעֵינֵי הַסְּרָנִים לֹֽא־טוֹב אָֽתָּה וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים",
+        "riddle": "וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים",
+        "speaker": "אָכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שָׁאוֹל",
+            "בֶּן־הֲדַד",
+            "מֶֽלֶךְ־אֲרָם"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "אַבְנֵר",
+            "שְׁמוּאֵל"
+          ]
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "אֲנִי יְהוָה אֱלֹֽהֵיכֶם אֲשֶׁר הוֹצֵאתִי אֶתְכֶם מֵאֶרֶץ מִצְרַיִם מִֽהְיֹת לָהֶם עֲבָדִים וָאֶשְׁבֹּר מֹטֹת עֻלְּכֶם וָאוֹלֵךְ אֶתְכֶם קֽוֹמְמִיּֽוּת",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 26,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then Achish called David, and said unto him, Surely, as the LORD liveth, thou hast been upright, and thy going out and thy coming in with me in the host is good in my sight: for I have not found evil in thee since the day of thy coming unto me unto this day: nevertheless the lords favour thee not.",
+          "7": "Wherefore now return, and go in peace, that thou displease not the lords of the Philistines."
+        },
+        "he": {
+          "6": "וַיִּקְרָא אָכִישׁ אֶל־דָּוִד וַיֹּאמֶר אֵלָיו חַי־יְהוָה כִּי־יָשָׁר אַתָּה וְטוֹב בְּעֵינַי צֵאתְךָ וּבֹאֲךָ אִתִּי בַּֽמַּחֲנֶה כִּי לֹֽא־מָצָאתִֽי בְךָ רָעָה מִיּוֹם בֹּאֲךָ אֵלַי עַד־הַיּוֹם הַזֶּה וּבְעֵינֵי הַסְּרָנִים לֹֽא־טוֹב אָֽתָּה׃",
+          "7": "וְעַתָּה שׁוּב וְלֵךְ בְּשָׁלוֹם וְלֹֽא־תַעֲשֶׂה רָע בְּעֵינֵי סַרְנֵי פְלִשְׁתִּֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-29-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king? And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle.",
+        "riddle": "But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+        "speaker": "David",
+        "listener": "Achish",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Abner",
+            "Saul",
+            "Jonathan"
+          ],
+          "listener": [
+            "Saul",
+            "Ben-hadad",
+            "Nahash"
+          ]
+        },
+        "bonus": "angel",
+        "bonus_hint": {
+          "quote": "And the angel of the LORD said unto Elijah, Go down with him: be not afraid of him. And he arose, and went down with him unto the king.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 1,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ כִּי מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶךְ וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה",
+        "riddle": "מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶך",
+        "speaker": "דָּוִד",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "אַבְנֵר",
+            "שָׁאוֹל",
+            "יְהוֹנָתָן"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "בֶּן־הֲדַד",
+            "נַחֵשׁ"
+          ]
+        },
+        "bonus": "הַמֶּֽלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר מַלְאַךְ יְהוָה אֶל־אֵלִיָּהוּ רֵד אוֹתוֹ אַל־תִּירָא מִפָּנָיו וַיָּקָם וַיֵּרֶד אוֹתוֹ אֶל־הַמֶּֽלֶךְ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 1,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David said unto Achish, But what have I done? and what hast thou found in thy servant so long as I have been with thee unto this day, that I may not go fight against the enemies of my lord the king?",
+          "9": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ כִּי מֶה עָשִׂיתִי וּמַה־מָּצָאתָ בְעַבְדְּךָ מִיּוֹם אֲשֶׁר הָיִיתִי לְפָנֶיךָ עַד הַיּוֹם הַזֶּה כִּי לֹא אָבוֹא וְנִלְחַמְתִּי בְּאֹיְבֵי אֲדֹנִי הַמֶּֽלֶךְ׃",
+          "9": "וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 8,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-29-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 29,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle.",
+        "riddle": "I know that thou art good in my sight, as an angel of God",
+        "speaker": "Achish",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "king of Syria",
+            "Ben-hadad",
+            "Samuel"
+          ],
+          "listener": [
+            "Saul",
+            "Jonathan",
+            "Abner"
+          ]
+        },
+        "bonus": "battle",
+        "bonus_hint": {
+          "quote": "Likewise all the men of Israel which had hid themselves in mount Ephraim, when they heard that the Philistines fled, even they also followed hard after them in the battle.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 14,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה",
+        "riddle": "יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ",
+        "speaker": "אָכִישׁ",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "מֶֽלֶךְ־אֲרָם",
+            "בֶּן־הֲדַד",
+            "שְׁמוּאֵל"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "יְהוֹנָתָן",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "בַּמִּלְחָמָֽה",
+        "bonus_hint": {
+          "quote": "וְכֹל אִישׁ יִשְׂרָאֵל הַמִּֽתְחַבְּאִים בְּהַר־אֶפְרַיִם שָֽׁמְעוּ כִּֽי־נָסוּ פְּלִשְׁתִּים וַֽיַּדְבְּקוּ גַם־הֵמָּה אַחֲרֵיהֶם בַּמִּלְחָמָֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 14,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Achish answered and said to David, I know that thou art good in my sight, as an angel of God: notwithstanding the princes of the Philistines have said, He shall not go up with us to the battle."
+        },
+        "he": {
+          "9": "וַיַּעַן אָכִישׁ וַיֹּאמֶר אֶל־דָּוִד יָדַעְתִּי כִּי טוֹב אַתָּה בְּעֵינַי כְּמַלְאַךְ אֱלֹהִים אַךְ שָׂרֵי פְלִשְׁתִּים אָֽמְרוּ לֹֽא־יַעֲלֶה עִמָּנוּ בַּמִּלְחָמָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

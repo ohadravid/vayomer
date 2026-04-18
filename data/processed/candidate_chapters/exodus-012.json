@@ -4,12 +4,470 @@
   "book_he": "שמות",
   "chapter": 12,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-12-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "This month shall be unto you the beginning of months: it shall be the first month of the year to you.",
+        "riddle": "This month shall be unto you the beginning of months: it shall be the first month of the year to you.",
+        "speaker": "the LORD",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָֽה",
+        "riddle": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָֽה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and Aaron in the land of Egypt, saying,",
+          "2": "This month shall be unto you the beginning of months: it shall be the first month of the year to you.",
+          "3": "Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן בְּאֶרֶץ מִצְרַיִם לֵאמֹֽר׃",
+          "2": "הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָֽה׃",
+          "3": "דַּבְּרוּ אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל לֵאמֹר בֶּעָשֹׂר לַחֹדֶשׁ הַזֶּה וְיִקְחוּ לָהֶם אִישׁ שֶׂה לְבֵית־אָבֹת שֶׂה לַבָּֽיִת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-12-03-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:",
+        "riddle": "In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:",
+        "speaker": "the LORD",
+        "listener": "congregation of Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "דַּבְּרוּ אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל לֵאמֹר בֶּעָשֹׂר לַחֹדֶשׁ הַזֶּה וְיִקְחוּ לָהֶם אִישׁ שֶׂה לְבֵית־אָבֹת שֶׂה לַבָּֽיִת",
+        "riddle": "דַּבְּרוּ אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל לֵאמֹר בֶּעָשֹׂר לַחֹדֶשׁ הַזֶּה וְיִקְחוּ לָהֶם אִישׁ שֶׂה לְבֵית־אָבֹת שֶׂה לַבָּֽיִת",
+        "speaker": "יְהוָה",
+        "listener": "עֲדַת יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and Aaron in the land of Egypt, saying,",
+          "3": "Speak ye unto all the congregation of Israel, saying, In the tenth day of this month they shall take to them every man a lamb, according to the house of their fathers, a lamb for an house:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן בְּאֶרֶץ מִצְרַיִם לֵאמֹֽר׃",
+          "3": "דַּבְּרוּ אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל לֵאמֹר בֶּעָשֹׂר לַחֹדֶשׁ הַזֶּה וְיִקְחוּ לָהֶם אִישׁ שֶׂה לְבֵית־אָבֹת שֶׂה לַבָּֽיִת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "exodus-12-20-20",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Ye shall eat nothing leavened; in all your habitations shall ye eat unleavened bread.",
+        "riddle": "Ye shall eat nothing leavened; in all your habitations shall ye eat unleavened bread.",
+        "speaker": "the LORD",
+        "listener": "Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "כָּל־מַחְמֶצֶת לֹא תֹאכֵלוּ בְּכֹל מוֹשְׁבֹתֵיכֶם תֹּאכְלוּ מַצּֽוֹת",
+        "riddle": "כָּל־מַחְמֶצֶת לֹא תֹאכֵלוּ בְּכֹל מוֹשְׁבֹתֵיכֶם תֹּאכְלוּ מַצּֽוֹת",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Ye shall eat nothing leavened; in all your habitations shall ye eat unleavened bread.",
+          "21": "Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover."
+        },
+        "he": {
+          "20": "כָּל־מַחְמֶצֶת לֹא תֹאכֵלוּ בְּכֹל מוֹשְׁבֹתֵיכֶם תֹּאכְלוּ מַצּֽוֹת׃",
+          "21": "וַיִּקְרָא מֹשֶׁה לְכָל־זִקְנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם מִֽשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם וְשַׁחֲטוּ הַפָּֽסַח׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "exodus-12-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover.",
+        "riddle": "Draw out and take you a lamb according to your families, and kill the passover.",
+        "speaker": "Moses",
+        "listener": "elders of Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא מֹשֶׁה לְכָל־זִקְנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם מִֽשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם וְשַׁחֲטוּ הַפָּֽסַח",
+        "riddle": "מִֽשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם וְשַׁחֲטוּ הַפָּֽסַח",
+        "speaker": "מֹשֶׁה",
+        "listener": "זִקְנֵי יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover."
+        },
+        "he": {
+          "21": "וַיִּקְרָא מֹשֶׁה לְכָל־זִקְנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם מִֽשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם וְשַׁחֲטוּ הַפָּֽסַח׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "exodus-12-22-22",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And ye shall take a bunch of hyssop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.",
+        "riddle": "And ye shall take a bunch of hyssop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning.",
+        "speaker": "Moses",
+        "listener": "elders of Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וּלְקַחְתֶּם אֲגֻדַּת אֵזוֹב וּטְבַלְתֶּם בַּדָּם אֲשֶׁר־בַּסַּף וְהִגַּעְתֶּם אֶל־הַמַּשְׁקוֹף וְאֶל־שְׁתֵּי הַמְּזוּזֹת מִן־הַדָּם אֲשֶׁר בַּסָּף וְאַתֶּם לֹא תֵצְאוּ אִישׁ מִפֶּֽתַח־בֵּיתוֹ עַד־בֹּֽקֶר",
+        "riddle": "וּלְקַחְתֶּם אֲגֻדַּת אֵזוֹב וּטְבַלְתֶּם בַּדָּם אֲשֶׁר־בַּסַּף וְהִגַּעְתֶּם אֶל־הַמַּשְׁקוֹף וְאֶל־שְׁתֵּי הַמְּזוּזֹת מִן־הַדָּם אֲשֶׁר בַּסָּף וְאַתֶּם לֹא תֵצְאוּ אִישׁ מִפֶּֽתַח־בֵּיתוֹ עַד־בֹּֽקֶר",
+        "speaker": "מֹשֶׁה",
+        "listener": "זִקְנֵי יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Then Moses called for all the elders of Israel, and said unto them, Draw out and take you a lamb according to your families, and kill the passover.",
+          "22": "And ye shall take a bunch of hyssop, and dip it in the blood that is in the bason, and strike the lintel and the two side posts with the blood that is in the bason; and none of you shall go out at the door of his house until the morning."
+        },
+        "he": {
+          "21": "וַיִּקְרָא מֹשֶׁה לְכָל־זִקְנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם מִֽשְׁכוּ וּקְחוּ לָכֶם צֹאן לְמִשְׁפְּחֹתֵיכֶם וְשַׁחֲטוּ הַפָּֽסַח׃",
+          "22": "וּלְקַחְתֶּם אֲגֻדַּת אֵזוֹב וּטְבַלְתֶּם בַּדָּם אֲשֶׁר־בַּסַּף וְהִגַּעְתֶּם אֶל־הַמַּשְׁקוֹף וְאֶל־שְׁתֵּי הַמְּזוּזֹת מִן־הַדָּם אֲשֶׁר בַּסָּף וְאַתֶּם לֹא תֵצְאוּ אִישׁ מִפֶּֽתַח־בֵּיתוֹ עַד־בֹּֽקֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "instructional command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "exodus-12-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And it shall come to pass, when your children shall say unto you, What mean ye by this service?",
+        "riddle": "What mean ye by this service?",
+        "speaker": "children",
+        "listener": "parents",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְהָיָה כִּֽי־יֹאמְרוּ אֲלֵיכֶם בְּנֵיכֶם מָה הָעֲבֹדָה הַזֹּאת לָכֶֽם",
+        "riddle": "מָה הָעֲבֹדָה הַזֹּאת לָכֶֽם",
+        "speaker": "בְּנֵיכֶם",
+        "listener": "אֲלֵיכֶם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And it shall come to pass, when your children shall say unto you, What mean ye by this service?"
+        },
+        "he": {
+          "26": "וְהָיָה כִּֽי־יֹאמְרוּ אֲלֵיכֶם בְּנֵיכֶם מָה הָעֲבֹדָה הַזֹּאת לָכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "exodus-12-27-27",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "That ye shall say, It is the sacrifice of the LORD's passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped.",
+        "riddle": "It is the sacrifice of the LORD's passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses.",
+        "speaker": "parents",
+        "listener": "children",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַאֲמַרְתֶּם זֶֽבַח־פֶּסַח הוּא לַֽיהוָה אֲשֶׁר פָּסַח עַל־בָּתֵּי בְנֵֽי־יִשְׂרָאֵל בְּמִצְרַיִם בְּנָגְפּוֹ אֶת־מִצְרַיִם וְאֶת־בָּתֵּינוּ הִצִּיל וַיִּקֹּד הָעָם וַיִּֽשְׁתַּחֲוּֽוּ",
+        "riddle": "וַאֲמַרְתֶּם זֶֽבַח־פֶּסַח הוּא לַֽיהוָה אֲשֶׁר פָּסַח עַל־בָּתֵּי בְנֵֽי־יִשְׂרָאֵל בְּמִצְרַיִם בְּנָגְפּוֹ אֶת־מִצְרַיִם וְאֶת־בָּתֵּינוּ הִצִּיל וַיִּקֹּד הָעָם וַיִּֽשְׁתַּחֲוּֽוּ",
+        "speaker": "בְּנֵיכֶם",
+        "listener": "הָעָם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And it shall come to pass, when your children shall say unto you, What mean ye by this service?",
+          "27": "That ye shall say, It is the sacrifice of the LORD's passover, who passed over the houses of the children of Israel in Egypt, when he smote the Egyptians, and delivered our houses. And the people bowed the head and worshipped."
+        },
+        "he": {
+          "26": "וְהָיָה כִּֽי־יֹאמְרוּ אֲלֵיכֶם בְּנֵיכֶם מָה הָעֲבֹדָה הַזֹּאת לָכֶֽם׃",
+          "27": "וַאֲמַרְתֶּם זֶֽבַח־פֶּסַח הוּא לַֽיהוָה אֲשֶׁר פָּסַח עַל־בָּתֵּי בְנֵֽי־יִשְׂרָאֵל בְּמִצְרַיִם בְּנָגְפּוֹ אֶת־מִצְרַיִם וְאֶת־בָּתֵּינוּ הִצִּיל וַיִּקֹּד הָעָם וַיִּֽשְׁתַּחֲוּֽוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct answer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "exodus-12-31-31",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.",
+        "riddle": "Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן לַיְלָה וַיֹּאמֶר קוּמוּ צְּאוּ מִתּוֹךְ עַמִּי גַּם־אַתֶּם גַּם־בְּנֵי יִשְׂרָאֵל וּלְכוּ עִבְדוּ אֶת־יְהוָה כְּדַבֶּרְכֶֽם",
+        "riddle": "קוּמוּ צְּאוּ מִתּוֹךְ עַמִּי גַּם־אַתֶּם גַּם־בְּנֵי יִשְׂרָאֵל וּלְכוּ עִבְדוּ אֶת־יְהוָה כְּדַבֶּרְכֶֽם",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said."
+        },
+        "he": {
+          "31": "וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן לַיְלָה וַיֹּאמֶר קוּמוּ צְּאוּ מִתּוֹךְ עַמִּי גַּם־אַתֶּם גַּם־בְּנֵי יִשְׂרָאֵל וּלְכוּ עִבְדוּ אֶת־יְהוָה כְּדַבֶּרְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "exodus-12-32-32",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Also take your flocks and your herds, as ye have said, and be gone; and bless me also.",
+        "riddle": "Also take your flocks and your herds, as ye have said, and be gone; and bless me also.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "גַּם־צֹאנְכֶם גַּם־בְּקַרְכֶם קְחוּ כַּאֲשֶׁר דִּבַּרְתֶּם וָלֵכוּ וּבֵֽרַכְתֶּם גַּם־אֹתִֽי",
+        "riddle": "גַּם־צֹאנְכֶם גַּם־בְּקַרְכֶם קְחוּ כַּאֲשֶׁר דִּבַּרְתֶּם וָלֵכוּ וּבֵֽרַכְתֶּם גַּם־אֹתִֽי",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And he called for Moses and Aaron by night, and said, Rise up, and get you forth from among my people, both ye and the children of Israel; and go, serve the LORD, as ye have said.",
+          "32": "Also take your flocks and your herds, as ye have said, and be gone; and bless me also."
+        },
+        "he": {
+          "31": "וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן לַיְלָה וַיֹּאמֶר קוּמוּ צְּאוּ מִתּוֹךְ עַמִּי גַּם־אַתֶּם גַּם־בְּנֵי יִשְׂרָאֵל וּלְכוּ עִבְדוּ אֶת־יְהוָה כְּדַבֶּרְכֶֽם׃",
+          "32": "גַּם־צֹאנְכֶם גַּם־בְּקַרְכֶם קְחוּ כַּאֲשֶׁר דִּבַּרְתֶּם וָלֵכוּ וּבֵֽרַכְתֶּם גַּם־אֹתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "exodus-12-43-43",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 12,
+        "quote_verse_start": 43,
+        "quote_verse_end": 43,
+        "speaker_mention_verse": 43,
+        "listener_mention_verse": 43
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses and Aaron, This is the ordinance of the passover: There shall no stranger eat thereof:",
+        "riddle": "This is the ordinance of the passover: There shall no stranger eat thereof:",
+        "speaker": "the LORD",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאַהֲרֹן זֹאת חֻקַּת הַפָּסַח כָּל־בֶּן־נֵכָר לֹא־יֹאכַל בּֽוֹ",
+        "riddle": "זֹאת חֻקַּת הַפָּסַח כָּל־בֶּן־נֵכָר לֹא־יֹאכַל בּֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "And the LORD said unto Moses and Aaron, This is the ordinance of the passover: There shall no stranger eat thereof:"
+        },
+        "he": {
+          "43": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאַהֲרֹן זֹאת חֻקַּת הַפָּסַח כָּל־בֶּן־נֵכָר לֹא־יֹאכַל בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 43,
+        "end": 43
+      }
+    }
+  ],
   "stats": {
-    "window_count": 18,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 0,
-    "issue_count": 18
+    "llm_window_count": 6,
+    "projection_llm_count": 11,
+    "llm_call_count": 17,
+    "spec_count": 11,
+    "kept_count": 10,
+    "issue_count": 1
   }
 }

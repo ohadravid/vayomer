@@ -6,6 +6,1008 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-05-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 11,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain. Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee. Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou. And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day. Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee.",
+        "riddle": "Honour thy father and thy mother",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Levites"
+          ],
+          "listener": [
+            "people",
+            "children",
+            "Philistines"
+          ]
+        },
+        "bonus": "sabbath",
+        "bonus_hint": {
+          "quote": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶֽיךָ שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ",
+        "riddle": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "הַלְוִיִּֽם"
+          ],
+          "listener": [
+            "הָעָם",
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים"
+          ]
+        },
+        "bonus": "אֱלֹהֶיךָ",
+        "bonus_hint": {
+          "quote": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹֽא־תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ עַבְדְּךָ וַאֲמָֽתְךָ וּבְהֶמְתֶּךָ וְגֵרְךָ אֲשֶׁר בִּשְׁעָרֶֽיךָ",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain.",
+          "12": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.",
+          "13": "Six days thou shalt labour, and do all thy work:",
+          "14": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou.",
+          "15": "And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day.",
+          "16": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee."
+        },
+        "he": {
+          "11": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא׃",
+          "12": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ ׀ יְהוָה אֱלֹהֶֽיךָ",
+          "13": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ׃",
+          "14": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת ׀ לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ׃",
+          "15": "וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ ׀ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת׃",
+          "16": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן ׀ יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 11,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 11,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain. Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee. Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou. And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day. Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee. Thou shalt not kill.",
+        "riddle": "Six days thou shalt labour, and do all thy work",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Israelites"
+          ],
+          "listener": [
+            "people",
+            "congregation",
+            "children"
+          ]
+        },
+        "bonus": "sabbath",
+        "bonus_hint": {
+          "quote": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, thy manservant, nor thy maidservant, nor thy cattle, nor thy stranger that is within thy gates:",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶֽיךָ שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ לֹא תִּֿרְצָח",
+        "riddle": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "בְּנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "הָעָם",
+            "הָעֵדָה",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "אֱלֹהֶיךָ",
+        "bonus_hint": {
+          "quote": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹֽא־תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ עַבְדְּךָ וַאֲמָֽתְךָ וּבְהֶמְתֶּךָ וְגֵרְךָ אֲשֶׁר בִּשְׁעָרֶֽיךָ",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain.",
+          "12": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.",
+          "13": "Six days thou shalt labour, and do all thy work:",
+          "14": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou.",
+          "15": "And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day.",
+          "16": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee.",
+          "17": "Thou shalt not kill."
+        },
+        "he": {
+          "11": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא׃",
+          "12": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ ׀ יְהוָה אֱלֹהֶֽיךָ",
+          "13": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ׃",
+          "14": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת ׀ לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ׃",
+          "15": "וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ ׀ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת׃",
+          "16": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן ׀ יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ׃",
+          "17": "לֹא תִּֿרְצָח׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 11,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 12,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee. Six days thou shalt labour, and do all thy work: But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou. And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day.",
+        "riddle": "in it thou shalt not do any work",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Levites",
+            "Balaam"
+          ],
+          "listener": [
+            "people",
+            "congregation",
+            "children"
+          ]
+        },
+        "bonus": "sabbath",
+        "bonus_hint": {
+          "quote": "Remember the sabbath day, to keep it holy.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶֽיךָ שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת",
+        "riddle": "לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "הַלְוִיִּֽם",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "הָעָם",
+            "הָעֵדָה",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "יוֹם",
+        "bonus_hint": {
+          "quote": "זָכוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשֽׁוֹ",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.",
+          "13": "Six days thou shalt labour, and do all thy work:",
+          "14": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou.",
+          "15": "And remember that thou wast a servant in the land of Egypt, and that the LORD thy God brought thee out thence through a mighty hand and by a stretched out arm: therefore the LORD thy God commanded thee to keep the sabbath day."
+        },
+        "he": {
+          "12": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ ׀ יְהוָה אֱלֹהֶֽיךָ",
+          "13": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ׃",
+          "14": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת ׀ לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ׃",
+          "15": "וְזָכַרְתָּ כִּי־עֶבֶד הָיִיתָ ׀ בְּאֶרֶץ מִצְרַיִם וַיֹּצִאֲךָ יְהוָה אֱלֹהֶיךָ מִשָּׁם בְּיָד חֲזָקָה וּבִזְרֹעַ נְטוּיָה עַל־כֵּן צִוְּךָ יְהוָה אֱלֹהֶיךָ לַעֲשׂוֹת אֶת־יוֹם הַשַׁבָּֽת׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 12,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee. Thou shalt not kill.",
+        "riddle": "Thou shalt not kill",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Levites"
+          ],
+          "listener": [
+            "people",
+            "Philistines",
+            "children"
+          ]
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "Honour thy father and thy mother: that thy days may be long upon the land which the LORD thy God giveth thee.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ לֹא תִּֿרְצָח",
+        "riddle": "לֹא תִּֿרְצָח",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "הַלְוִיִּֽם"
+          ],
+          "listener": [
+            "הָעָם",
+            "פְּלִשְׁתִּים",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "כַּבֵּד",
+        "bonus_hint": {
+          "quote": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ לְמַעַן יַאֲרִכוּן יָמֶיךָ עַל הָאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee.",
+          "17": "Thou shalt not kill."
+        },
+        "he": {
+          "16": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן ׀ יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ׃",
+          "17": "לֹא תִּֿרְצָח׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 18,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "Neither shalt thou commit adultery. Neither shalt thou steal. Neither shalt thou bear false witness against thy neighbour. Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's. These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+        "riddle": "we have seen this day that God doth talk with man, and he liveth.",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "congregation",
+            "Philistines",
+            "children"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "witness",
+        "bonus_hint": {
+          "quote": "And Joshua said unto all the people, Behold, this stone shall be a witness unto us; for it hath heard all the words of the LORD which he spake unto us: it shall be therefore a witness unto you, lest ye deny your God.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 24,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלֹא תִּֿנְאָֽף וְלֹא תִּֿגְנֹֽב וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי",
+        "riddle": "תִּֿנְאָֽף וְלֹא תִּֿגְנֹֽב וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶך",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "הָעֵדָה",
+            "פְּלִשְׁתִּים",
+            "בְּנֵיכֶם"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "דִּבֶּר",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם הִנֵּה הָאֶבֶן הַזֹּאת תִּֽהְיֶה־בָּנוּ לְעֵדָה כִּֽי־הִיא שָׁמְעָה אֵת כָּל־אִמְרֵי יְהוָה אֲשֶׁר דִּבֶּר עִמָּנוּ וְהָיְתָה בָכֶם לְעֵדָה פֶּֽן־תְּכַחֲשׁוּן בֵּאלֹהֵיכֶֽם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 24,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Neither shalt thou commit adultery.",
+          "19": "Neither shalt thou steal.",
+          "20": "Neither shalt thou bear false witness against thy neighbour.",
+          "21": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's.",
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth."
+        },
+        "he": {
+          "18": "וְלֹא תִּֿנְאָֽף׃",
+          "19": "וְלֹא תִּֿגְנֹֽב׃",
+          "20": "וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא׃",
+          "21": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ׃",
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 18,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 19,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Neither shalt thou steal. Neither shalt thou bear false witness against thy neighbour. Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's. These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth. Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+        "riddle": "why should we die? for this great fire will consume us",
+        "speaker": "people",
+        "listener": "God",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Israel",
+            "Philistines",
+            "children"
+          ],
+          "listener": [
+            "Moses",
+            "Balaam",
+            "Israel"
+          ]
+        },
+        "bonus": "steal",
+        "bonus_hint": {
+          "quote": "Wherefore didst thou flee away secretly, and steal away from me; and didst not tell me, that I might have sent thee away with mirth, and with songs, with tabret, and with harp?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלֹא תִּֿגְנֹֽב וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ",
+        "riddle": "לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים",
+        "speaker": "הָעָם",
+        "listener": "יְהוָה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "בְּנֵיכֶם"
+          ],
+          "listener": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "וְלֹא",
+        "bonus_hint": {
+          "quote": "לָמָּה נַחְבֵּאתָ לִבְרֹחַ וַתִּגְנֹב אֹתִי וְלֹא־הִגַּדְתָּ לִּי וָֽאֲשַׁלֵּחֲךָ בְּשִׂמְחָה וּבְשִׁרִים בְּתֹף וּבְכִנּֽוֹר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Neither shalt thou steal.",
+          "20": "Neither shalt thou bear false witness against thy neighbour.",
+          "21": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's.",
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die."
+        },
+        "he": {
+          "19": "וְלֹא תִּֿגְנֹֽב׃",
+          "20": "וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא׃",
+          "21": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ׃",
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃",
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 19,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 20,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Neither shalt thou bear false witness against thy neighbour. Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's. These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth. Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+        "riddle": "who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+        "speaker": "Israelites",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "congregation",
+            "Reuben and Gad"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "witness",
+        "bonus_hint": {
+          "quote": "Thou shalt not bear false witness against thy neighbour.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי",
+        "riddle": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "הָעֵדָה",
+            "בְּנֵי רְאוּבֵן וגד"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "תַעֲנֶה",
+        "bonus_hint": {
+          "quote": "לֹֽא־תַעֲנֶה בְרֵעֲךָ עֵד שָֽׁקֶר",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Neither shalt thou bear false witness against thy neighbour.",
+          "21": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's.",
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?"
+        },
+        "he": {
+          "20": "וְלֹֽא־תַעֲנֶה בְרֵֽעֲךָ עֵד שָֽׁוְא׃",
+          "21": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ׃",
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃",
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃",
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 20,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-27-27-1",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 21,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's. These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth. Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived? Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "riddle": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Reuben and Gad",
+            "Philistines",
+            "congregation"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "house",
+        "bonus_hint": {
+          "quote": "And Pharaoh turned and went into his house, neither did he set his heart to this also.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 7,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "riddle": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "speaker": "עִם־יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "פְּלִשְׁתִּים",
+            "הָעֵדָה"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וְלֹא",
+        "bonus_hint": {
+          "quote": "וַיִּפֶן פַּרְעֹה וַיָּבֹא אֶל־בֵּיתוֹ וְלֹא־שָׁת לִבּוֹ גַּם־לָזֹֽאת",
+          "source": {
+            "book": "שמות",
+            "chapter": 7,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's.",
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it."
+        },
+        "he": {
+          "21": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ׃",
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃",
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃",
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃",
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 21,
+        "end": 27
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-27-27-2",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 21,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's. These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth. Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived? Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "riddle": "speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Reuben and Gad",
+            "Philistines",
+            "congregation"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "house",
+        "bonus_hint": {
+          "quote": "And Pharaoh turned and went into his house, neither did he set his heart to this also.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 7,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "riddle": "וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינו",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "פְּלִשְׁתִּים",
+            "הָעֵדָה"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וְלֹא",
+        "bonus_hint": {
+          "quote": "וַיִּפֶן פַּרְעֹה וַיָּבֹא אֶל־בֵּיתוֹ וְלֹא־שָׁת לִבּוֹ גַּם־לָזֹֽאת",
+          "source": {
+            "book": "שמות",
+            "chapter": 7,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Neither shalt thou desire thy neighbour's wife, neither shalt thou covet thy neighbour's house, his field, or his manservant, or his maidservant, his ox, or his ass, or any thing that is thy neighbour's.",
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it."
+        },
+        "he": {
+          "21": "וְלֹא תַחְמֹד אֵשֶׁת רֵעֶךָ וְלֹא תִתְאַוֶּה בֵּית רֵעֶךָ שָׂדֵהוּ וְעַבְדּוֹ וַאֲמָתוֹ שׁוֹרוֹ וַחֲמֹרוֹ וְכֹל אֲשֶׁר לְרֵעֶֽךָ׃",
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃",
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃",
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃",
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 21,
+        "end": 27
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 22,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me. And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders; And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth. Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived? Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it. And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+        "riddle": "I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Israel"
+          ],
+          "listener": [
+            "Balaam",
+            "Joshua",
+            "Balak"
+          ]
+        },
+        "bonus": "fire",
+        "bonus_hint": {
+          "quote": "And the LORD delivered unto me two tables of stone written with the finger of God; and on them was written according to all the words, which the LORD spake with you in the mount out of the midst of the fire in the day of the assembly.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ",
+        "riddle": "שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרו",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "הַדְּבָרִים",
+        "bonus_hint": {
+          "quote": "וַיִּתֵּן יְהוָה אֵלַי אֶת־שְׁנֵי לוּחֹת הָֽאֲבָנִים כְּתֻבִים בְּאֶצְבַּע אֱלֹהִים וַעֲלֵיהֶם כְּֽכָל־הַדְּבָרִים אֲשֶׁר דִּבֶּר יְהוָה עִמָּכֶם בָּהָר מִתּוֹךְ הָאֵשׁ בְּיוֹם הַקָּהָֽל",
+          "source": {
+            "book": "דברים",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "These words the LORD spake unto all your assembly in the mount out of the midst of the fire, of the cloud, and of the thick darkness, with a great voice: and he added no more. And he wrote them in two tables of stone, and delivered them unto me.",
+          "23": "And it came to pass, when ye heard the voice out of the midst of the darkness, (for the mountain did burn with fire,) that ye came near unto me, even all the heads of your tribes, and your elders;",
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+          "28": "And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken."
+        },
+        "he": {
+          "22": "אֶֽת־הַדְּבָרִים הָאֵלֶּה דִּבֶּר יְהוָה אֶל־כָּל־קְהַלְכֶם בָּהָר מִתּוֹךְ הָאֵשׁ הֶֽעָנָן וְהָֽעֲרָפֶל קוֹל גָּדוֹל וְלֹא יָסָף וַֽיִּכְתְּבֵם עַל־שְׁנֵי לֻחֹת אֲבָנִים וַֽיִּתְּנֵם אֵלָֽי׃",
+          "23": "וַיְהִי כְּשָׁמְעֲכֶם אֶת־הַקּוֹל מִתּוֹךְ הַחֹשֶׁךְ וְהָהָר בֹּעֵר בָּאֵשׁ וַתִּקְרְבוּן אֵלַי כָּל־רָאשֵׁי שִׁבְטֵיכֶם וְזִקְנֵיכֶֽם׃",
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃",
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃",
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃",
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃",
+          "28": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 22,
+        "end": 28
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "deuteronomy-05-30-30",
       "source": {
         "method": "llm",
@@ -19,29 +1021,29 @@
       "en": {
         "quote": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived? Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it. And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken. O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever! Go say to them, Get you into your tents again. But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it.",
         "riddle": "Get you into your tents again.",
-        "speaker": "God",
+        "speaker": "LORD",
         "listener": "Moses",
         "book": "Deuteronomy",
         "options": {
           "speaker": [
             "Balaam",
             "Joshua",
-            "Levites"
+            "Israelites"
           ],
           "listener": [
             "Joshua",
-            "Balaam",
-            "Israel"
+            "people",
+            "Balaam"
           ]
         },
         "bonus": "fire",
         "bonus_hint": {
-          "quote": "And Abraham took the wood of the burnt offering, and laid it upon Isaac his son; and he took the fire in his hand, and a knife; and they went both of them together.",
+          "quote": "Behold, there came fire down from heaven, and burnt up the two captains of the former fifties with their fifties: therefore let my life now be precious in thy sight.",
           "source": {
-            "book": "Genesis",
-            "chapter": 22,
-            "start": 6,
-            "end": 6
+            "book": "2 Kings",
+            "chapter": 1,
+            "start": 14,
+            "end": 14
           }
         }
       },
@@ -54,23 +1056,125 @@
         "options": {
           "speaker": [
             "בִּלְעָם",
-            "יִהוֹשֻֽׁעַ",
-            "הַלְוִיִּם"
+            "יְהוֹשֻׁעַ",
+            "בְּנֵי יִשְׂרָאֵל"
           ],
           "listener": [
-            "יִהוֹשֻֽׁעַ",
-            "בִּלְעָם",
-            "יִשְׂרָאֵל"
+            "יְהוֹשֻׁעַ",
+            "הָעָם",
+            "בִּלְעָם"
           ]
         },
-        "bonus": "הָאֵשׁ",
+        "bonus": "וְעַתָּה",
         "bonus_hint": {
-          "quote": "וַיִּקַּח אַבְרָהָם אֶת־עֲצֵי הָעֹלָה וַיָּשֶׂם עַל־יִצְחָק בְּנוֹ וַיִּקַּח בְּיָדוֹ אֶת־הָאֵשׁ וְאֶת־הַֽמַּאֲכֶלֶת וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּֽו",
+          "quote": "הִנֵּה יָרְדָה אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֶת־שְׁנֵי שָׂרֵי הַחֲמִשִּׁים הָרִאשֹׁנִים וְאֶת־חֲמִשֵּׁיהֶם וְעַתָּה תִּיקַר נַפְשִׁי בְּעֵינֶֽיךָ",
           "source": {
-            "book": "בראשית",
-            "chapter": 22,
-            "start": 6,
-            "end": 6
+            "book": "מלכים ב",
+            "chapter": 1,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+          "28": "And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+          "29": "O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever!",
+          "30": "Go say to them, Get you into your tents again.",
+          "31": "But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it."
+        },
+        "he": {
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃",
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃",
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃",
+          "28": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ׃",
+          "29": "מִֽי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֺתַי כָּל־הַיָּמִים לְמַעַן יִיטַב לָהֶם וְלִבְנֵיהֶם לְעֹלָֽם׃",
+          "30": "לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם׃",
+          "31": "וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ בָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לְרִשְׁתָּֽהּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 25,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-05-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 25,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die. For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived? Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it. And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken. O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever! Go say to them, Get you into your tents again. But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it.",
+        "riddle": "stand thou here by me, and I will speak unto thee all the commandments",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [
+            "angel of the LORD",
+            "Joshua",
+            "Balaam"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "fire",
+        "bonus_hint": {
+          "quote": "Behold, there came fire down from heaven, and burnt up the two captains of the former fifties with their fifties: therefore let my life now be precious in thy sight.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 1,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ מִֽי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֺתַי כָּל־הַיָּמִים לְמַעַן יִיטַב לָהֶם וְלִבְנֵיהֶם לְעֹלָֽם לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ בָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לְרִשְׁתָּֽהּ",
+        "riddle": "וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [
+            "מַלְאַךְ יְהוָה",
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וְעַתָּה",
+        "bonus_hint": {
+          "quote": "הִנֵּה יָרְדָה אֵשׁ מִן־הַשָּׁמַיִם וַתֹּאכַל אֶת־שְׁנֵי שָׂרֵי הַחֲמִשִּׁים הָרִאשֹׁנִים וְאֶת־חֲמִשֵּׁיהֶם וְעַתָּה תִּיקַר נַפְשִׁי בְּעֵינֶֽיךָ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 1,
+            "start": 14,
+            "end": 14
           }
         }
       },

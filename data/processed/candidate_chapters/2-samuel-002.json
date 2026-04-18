@@ -6,55 +6,444 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-02-27-28",
+      "id": "2-samuel-02-01-01-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+        "riddle": "Shall I go up into any of the cities of Judah?",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה",
+        "riddle": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה ׀ לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-samuel-02-01-01-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+        "riddle": "Go up. And David said, Whither shall I go up? And he said, Unto Hebron.",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה",
+        "riddle": "וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass after this, that David inquired of the LORD, saying, Shall I go up into any of the cities of Judah? And the LORD said unto him, Go up. And David said, Whither shall I go up? And he said, Unto Hebron."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי־כֵן וַיִּשְׁאַל דָּוִד בַּֽיהוָה ׀ לֵאמֹר הַאֶעֱלֶה בְּאַחַת עָרֵי יְהוּדָה וַיֹּאמֶר יְהוָה אֵלָיו עֲלֵה וַיֹּאמֶר דָּוִד אָנָה אֶעֱלֶה וַיֹּאמֶר חֶבְרֹֽנָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-samuel-02-14-14-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise.",
+        "riddle": "Let the young men now arise, and play before us.",
+        "speaker": "Abner",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ",
+        "riddle": "יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינו",
+        "speaker": "אַבְנֵר",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-02-14-14-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise.",
+        "riddle": "Let them arise.",
+        "speaker": "Joab",
+        "listener": "Abner",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ",
+        "riddle": "יָקוּמו",
+        "speaker": "יוֹאָב",
+        "listener": "אַבְנֵר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Abner said to Joab, Let the young men now arise, and play before us. And Joab said, Let them arise."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אַבְנֵר אֶל־יוֹאָב יָקוּמוּ נָא הַנְּעָרִים וִֽישַׂחֲקוּ לְפָנֵינוּ וַיֹּאמֶר יוֹאָב יָקֻֽמוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-02-20-20-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am.",
+        "riddle": "Art thou Asahel?",
+        "speaker": "Abner",
+        "listener": "Asahel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַבְנֵר אַֽחֲרָיו וַיֹּאמֶר הַאַתָּה זֶה עֲשָׂהאֵל וַיֹּאמֶר אָנֹֽכִי",
+        "riddle": "הַאַתָּה זֶה עֲשָׂהאֵל",
+        "speaker": "אַבְנֵר",
+        "listener": "עֲשָׂהאֵל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am."
+        },
+        "he": {
+          "20": "וַיִּפֶן אַבְנֵר אַֽחֲרָיו וַיֹּאמֶר הַאַתָּה זֶה עֲשָׂהאֵל וַיֹּאמֶר אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-samuel-02-20-20-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am.",
+        "riddle": "I am.",
+        "speaker": "Asahel",
+        "listener": "Abner",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַבְנֵר אַֽחֲרָיו וַיֹּאמֶר הַאַתָּה זֶה עֲשָׂהאֵל וַיֹּאמֶר אָנֹֽכִי",
+        "riddle": "אָנֹֽכִי",
+        "speaker": "עֲשָׂהאֵל",
+        "listener": "אַבְנֵר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then Abner looked behind him, and said, Art thou Asahel? And he answered, I am."
+        },
+        "he": {
+          "20": "וַיִּפֶן אַבְנֵר אַֽחֲרָיו וַיֹּאמֶר הַאַתָּה זֶה עֲשָׂהאֵל וַיֹּאמֶר אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-samuel-02-21-21",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And Abner said to him, Turn thee aside to thy right hand or to thy left, and lay thee hold on one of the young men, and take thee his armour. But Asahel would not turn aside from following of him.",
+        "riddle": "Turn thee aside to thy right hand or to thy left, and lay thee hold on one of the young men, and take thee his armour.",
+        "speaker": "Abner",
+        "listener": "Asahel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ אַבְנֵר נְטֵה לְךָ עַל־יְמִֽינְךָ אוֹ עַל־שְׂמֹאלֶךָ וֶאֱחֹז לְךָ אֶחָד מֵֽהַנְּעָרִים וְקַח־לְךָ אֶת־חֲלִצָתוֹ וְלֹֽא־אָבָה עֲשָׂהאֵל לָסוּר מֵאַחֲרָֽיו",
+        "riddle": "נְטֵה לְךָ עַל־יְמִֽינְךָ אוֹ עַל־שְׂמֹאלֶךָ וֶאֱחֹז לְךָ אֶחָד מֵֽהַנְּעָרִים וְקַח־לְךָ אֶת־חֲלִצָתו",
+        "speaker": "אַבְנֵר",
+        "listener": "עֲשָׂהאֵל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Abner said to him, Turn thee aside to thy right hand or to thy left, and lay thee hold on one of the young men, and take thee his armour. But Asahel would not turn aside from following of him."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר לוֹ אַבְנֵר נְטֵה לְךָ עַל־יְמִֽינְךָ אוֹ עַל־שְׂמֹאלֶךָ וֶאֱחֹז לְךָ אֶחָד מֵֽהַנְּעָרִים וְקַח־לְךָ אֶת־חֲלִצָתוֹ וְלֹֽא־אָבָה עֲשָׂהאֵל לָסוּר מֵאַחֲרָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-02-22-22",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And Abner said again to Asahel, Turn thee aside from following me: wherefore should I smite thee to the ground? how then should I hold up my face to Joab thy brother?",
+        "riddle": "Turn thee aside from following me: wherefore should I smite thee to the ground? how then should I hold up my face to Joab thy brother?",
+        "speaker": "Abner",
+        "listener": "Asahel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּסֶף עוֹד אַבְנֵר לֵאמֹר אֶל־עֲשָׂהאֵל סוּר לְךָ מֵאַֽחֲרָי לָמָּה אַכֶּכָּה אַרְצָה וְאֵיךְ אֶשָּׂא פָנַי אֶל־יוֹאָב אָחִֽיךָ",
+        "riddle": "וַיֹּסֶף עוֹד אַבְנֵר לֵאמֹר אֶל־עֲשָׂהאֵל סוּר לְךָ מֵאַֽחֲרָי לָמָּה אַכֶּכָּה אַרְצָה וְאֵיךְ אֶשָּׂא פָנַי אֶל־יוֹאָב אָחִֽיךָ",
+        "speaker": "אַבְנֵר",
+        "listener": "עֲשָׂהאֵל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Abner said again to Asahel, Turn thee aside from following me: wherefore should I smite thee to the ground? how then should I hold up my face to Joab thy brother?"
+        },
+        "he": {
+          "22": "וַיֹּסֶף עוֹד אַבְנֵר לֵאמֹר אֶל־עֲשָׂהאֵל סוּר לְךָ מֵאַֽחֲרָי לָמָּה אַכֶּכָּה אַרְצָה וְאֵיךְ אֶשָּׂא פָנַי אֶל־יוֹאָב אָחִֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-samuel-02-26-26",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 2,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Then Abner called to Joab, and said, Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+        "riddle": "Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+        "speaker": "Abner",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אַבְנֵר אֶל־יוֹאָב וַיֹּאמֶר הֲלָנֶצַח תֹּאכַל חֶרֶב הֲלוֹא יָדַעְתָּה כִּֽי־מָרָה תִהְיֶה בָּאַחֲרוֹנָה וְעַד־מָתַי לֹֽא־תֹאמַר לָעָם לָשׁוּב מֵאַחֲרֵי אֲחֵיהֶֽם",
+        "riddle": "הֲלָנֶצַח תֹּאכַל חֶרֶב הֲלוֹא יָדַעְתָּה כִּֽי־מָרָה תִהְיֶה בָּאַחֲרוֹנָה וְעַד־מָתַי לֹֽא־תֹאמַר לָעָם לָשׁוּב מֵאַחֲרֵי אֲחֵיהֶֽם",
+        "speaker": "אַבְנֵר",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then Abner called to Joab, and said, Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?"
+        },
+        "he": {
+          "26": "וַיִּקְרָא אַבְנֵר אֶל־יוֹאָב וַיֹּאמֶר הֲלָנֶצַח תֹּאכַל חֶרֶב הֲלוֹא יָדַעְתָּה כִּֽי־מָרָה תִהְיֶה בָּאַחֲרוֹנָה וְעַד־מָתַי לֹֽא־תֹאמַר לָעָם לָשׁוּב מֵאַחֲרֵי אֲחֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "2-samuel-02-27-27",
       "source": {
         "book_code": "2SA",
         "book": "2 Samuel",
         "book_he": "שמואל ב",
         "chapter": 2,
         "quote_verse_start": 27,
-        "quote_verse_end": 28
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 26
       },
       "en": {
-        "quote": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother. So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more.",
-        "riddle": "Joab said, As God liveth, unless thou hadst spoken",
+        "quote": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
+        "riddle": "As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
         "speaker": "Joab",
         "listener": "Abner",
         "book": "2 Samuel"
       },
       "he": {
-        "quote": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו וַיִּתְקַע יוֹאָב בַּשּׁוֹפָר וַיַּֽעַמְדוּ כָּל־הָעָם וְלֹֽא־יִרְדְּפוּ עוֹד אַחֲרֵי יִשְׂרָאֵל וְלֹֽא־יָסְפוּ עוֹד לְהִלָּחֵֽם",
-        "riddle": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ",
+        "quote": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו",
+        "riddle": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו",
         "speaker": "יוֹאָב",
-        "listener": "אבנר",
+        "listener": "אַבְנֵר",
         "book": "שמואל ב"
       },
       "raw_quote_source": {
         "en": {
-          "27": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother.",
-          "28": "So Joab blew a trumpet, and all the people stood still, and pursued after Israel no more, neither fought they any more."
+          "26": "Then Abner called to Joab, and said, Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+          "27": "And Joab said, As God liveth, unless thou hadst spoken, surely then in the morning the people had gone up every one from following his brother."
         },
         "he": {
-          "27": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו׃",
-          "28": "וַיִּתְקַע יוֹאָב בַּשּׁוֹפָר וַיַּֽעַמְדוּ כָּל־הָעָם וְלֹֽא־יִרְדְּפוּ עוֹד אַחֲרֵי יִשְׂרָאֵל וְלֹֽא־יָסְפוּ עוֹד לְהִלָּחֵֽם׃"
+          "26": "וַיִּקְרָא אַבְנֵר אֶל־יוֹאָב וַיֹּאמֶר הֲלָנֶצַח תֹּאכַל חֶרֶב הֲלוֹא יָדַעְתָּה כִּֽי־מָרָה תִהְיֶה בָּאַחֲרוֹנָה וְעַד־מָתַי לֹֽא־תֹאמַר לָעָם לָשׁוּב מֵאַחֲרֵי אֲחֵיהֶֽם׃",
+          "27": "וַיֹּאמֶר יוֹאָב חַי הָֽאֱלֹהִים כִּי לוּלֵא דִּבַּרְתָּ כִּי אָז מֵֽהַבֹּקֶר נַעֲלָה הָעָם אִישׁ מֵאַחֲרֵי אָחִֽיו׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech and oath",
+        "reason": "vivid declaration",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 2,
         "start": 27,
-        "end": 28
+        "end": 27
       }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 1,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 10,
+    "issue_count": 4
   }
 }

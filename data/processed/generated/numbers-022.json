@@ -6,6 +6,90 @@
   "mode": "llm",
   "items": [
     {
+      "id": "numbers-22-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the children of Israel set forward, and pitched in the plains of Moab on this side Jordan by Jericho. And Balak the son of Zippor saw all that Israel had done to the Amorites. And Moab was sore afraid of the people, because they were many: and Moab was distressed because of the children of Israel. And Moab said unto the elders of Midian, Now shall this company lick up all that are round about us, as the ox licketh up the grass of the field. And Balak the son of Zippor was king of the Moabites at that time. He sent messengers therefore unto Balaam the son of Beor to Pethor, which is by the river of the land of the children of his people, to call him, saying, Behold, there is a people come out from Egypt: behold, they cover the face of the earth, and they abide over against me: Come now therefore, I pray thee, curse me this people; for they are too mighty for me: peradventure I shall prevail, that we may smite them, and that I may drive them out of the land: for I wot that he whom thou blessest is blessed, and he whom thou cursest is cursed.",
+        "riddle": "Come now therefore, I pray thee, curse me this people; for they are too mighty for me",
+        "speaker": "Messengers of Balak",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And they departed from the mountains of Abarim, and pitched in the plains of Moab by Jordan near Jericho.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 33,
+            "start": 48,
+            "end": 48
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּסְעוּ בְּנֵי יִשְׂרָאֵל וַֽיַּחֲנוּ בְּעַֽרְבוֹת מוֹאָב מֵעֵבֶר לְיַרְדֵּן יְרֵחֽוֹ וַיַּרְא בָּלָק בֶּן־צִפּוֹר אֵת כָּל־אֲשֶׁר־עָשָׂה יִשְׂרָאֵל לָֽאֱמֹרִֽי וַיָּגָר מוֹאָב מִפְּנֵי הָעָם מְאֹד כִּי רַב־הוּא וַיָּקָץ מוֹאָב מִפְּנֵי בְּנֵי יִשְׂרָאֵֽל וַיֹּאמֶר מוֹאָב אֶל־זִקְנֵי מִדְיָן עַתָּה יְלַחֲכוּ הַקָּהָל אֶת־כָּל־סְבִיבֹתֵינוּ כִּלְחֹךְ הַשּׁוֹר אֵת יֶרֶק הַשָּׂדֶה וּבָלָק בֶּן־צִפּוֹר מֶלֶךְ לְמוֹאָב בָּעֵת הַהִֽוא וַיִּשְׁלַח מַלְאָכִים אֶל־בִּלְעָם בֶּן־בְּעוֹר פְּתוֹרָה אֲשֶׁר עַל־הַנָּהָר אֶרֶץ בְּנֵי־עַמּוֹ לִקְרֹא־לוֹ לֵאמֹר הִנֵּה עַם יָצָא מִמִּצְרַיִם הִנֵּה כִסָּה אֶת־עֵין הָאָרֶץ וְהוּא יֹשֵׁב מִמֻּלִֽי וְעַתָּה לְכָה־נָּא אָֽרָה־לִּי אֶת־הָעָם הַזֶּה כִּֽי־עָצוּם הוּא מִמֶּנִּי אוּלַי אוּכַל נַכֶּה־בּוֹ וַאֲגָרְשֶׁנּוּ מִן־הָאָרֶץ כִּי יָדַעְתִּי אֵת אֲשֶׁר־תְּבָרֵךְ מְבֹרָךְ וַאֲשֶׁר תָּאֹר יוּאָֽר",
+        "riddle": "וְעַתָּה לְכָה־נָּא אָֽרָה־לִּי אֶת־הָעָם הַזֶּה כִּֽי־עָצוּם הוּא מִמֶּנִּי אוּלַי אוּכַל נַכֶּה",
+        "speaker": "מַלְאָכִים",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּסְעוּ",
+        "bonus_hint": {
+          "quote": "וַיִּסְעוּ מֵהָרֵי הָעֲבָרִים וַֽיַּחֲנוּ בְּעַֽרְבֹת מוֹאָב עַל יַרְדֵּן יְרֵחֽוֹ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 33,
+            "start": 48,
+            "end": 48
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the children of Israel set forward, and pitched in the plains of Moab on this side Jordan by Jericho.",
+          "2": "And Balak the son of Zippor saw all that Israel had done to the Amorites.",
+          "3": "And Moab was sore afraid of the people, because they were many: and Moab was distressed because of the children of Israel.",
+          "4": "And Moab said unto the elders of Midian, Now shall this company lick up all that are round about us, as the ox licketh up the grass of the field. And Balak the son of Zippor was king of the Moabites at that time.",
+          "5": "He sent messengers therefore unto Balaam the son of Beor to Pethor, which is by the river of the land of the children of his people, to call him, saying, Behold, there is a people come out from Egypt: behold, they cover the face of the earth, and they abide over against me:",
+          "6": "Come now therefore, I pray thee, curse me this people; for they are too mighty for me: peradventure I shall prevail, that we may smite them, and that I may drive them out of the land: for I wot that he whom thou blessest is blessed, and he whom thou cursest is cursed."
+        },
+        "he": {
+          "1": "וַיִּסְעוּ בְּנֵי יִשְׂרָאֵל וַֽיַּחֲנוּ בְּעַֽרְבוֹת מוֹאָב מֵעֵבֶר לְיַרְדֵּן יְרֵחֽוֹ׃",
+          "2": "וַיַּרְא בָּלָק בֶּן־צִפּוֹר אֵת כָּל־אֲשֶׁר־עָשָׂה יִשְׂרָאֵל לָֽאֱמֹרִֽי׃",
+          "3": "וַיָּגָר מוֹאָב מִפְּנֵי הָעָם מְאֹד כִּי רַב־הוּא וַיָּקָץ מוֹאָב מִפְּנֵי בְּנֵי יִשְׂרָאֵֽל׃",
+          "4": "וַיֹּאמֶר מוֹאָב אֶל־זִקְנֵי מִדְיָן עַתָּה יְלַחֲכוּ הַקָּהָל אֶת־כָּל־סְבִיבֹתֵינוּ כִּלְחֹךְ הַשּׁוֹר אֵת יֶרֶק הַשָּׂדֶה וּבָלָק בֶּן־צִפּוֹר מֶלֶךְ לְמוֹאָב בָּעֵת הַהִֽוא׃",
+          "5": "וַיִּשְׁלַח מַלְאָכִים אֶל־בִּלְעָם בֶּן־בְּעוֹר פְּתוֹרָה אֲשֶׁר עַל־הַנָּהָר אֶרֶץ בְּנֵי־עַמּוֹ לִקְרֹא־לוֹ לֵאמֹר הִנֵּה עַם יָצָא מִמִּצְרַיִם הִנֵּה כִסָּה אֶת־עֵין הָאָרֶץ וְהוּא יֹשֵׁב מִמֻּלִֽי׃",
+          "6": "וְעַתָּה לְכָה־נָּא אָֽרָה־לִּי אֶת־הָעָם הַזֶּה כִּֽי־עָצוּם הוּא מִמֶּנִּי אוּלַי אוּכַל נַכֶּה־בּוֹ וַאֲגָרְשֶׁנּוּ מִן־הָאָרֶץ כִּי יָדַעְתִּי אֵת אֲשֶׁר־תְּבָרֵךְ מְבֹרָךְ וַאֲשֶׁר תָּאֹר יוּאָֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "numbers-22-09-09",
       "source": {
         "method": "llm",
@@ -28,12 +112,12 @@
         },
         "bonus": "came",
         "bonus_hint": {
-          "quote": "And in process of time it came to pass, that Cain brought of the fruit of the ground an offering unto the LORD.",
+          "quote": "Then Abram removed his tent, and came and dwelt in the plain of Mamre, which is in Hebron, and built there an altar unto the LORD.",
           "source": {
             "book": "Genesis",
-            "chapter": 4,
-            "start": 3,
-            "end": 3
+            "chapter": 13,
+            "start": 18,
+            "end": 18
           }
         }
       },
@@ -49,12 +133,12 @@
         },
         "bonus": "וַיָּבֹא",
         "bonus_hint": {
-          "quote": "וַֽיְהִי מִקֵּץ יָמִים וַיָּבֵא קַיִן מִפְּרִי הָֽאֲדָמָה מִנְחָה לַֽיהוָֽה",
+          "quote": "וַיֶּאֱהַל אַבְרָם וַיָּבֹא וַיֵּשֶׁב בְּאֵלֹנֵי מַמְרֵא אֲשֶׁר בְּחֶבְרוֹן וַיִּֽבֶן־שָׁם מִזְבֵּחַ לַֽיהוָֽה",
           "source": {
             "book": "בראשית",
-            "chapter": 4,
-            "start": 3,
-            "end": 3
+            "chapter": 13,
+            "start": 18,
+            "end": 18
           }
         }
       },
@@ -70,6 +154,698 @@
         "chapter": 22,
         "start": 9,
         "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And God said unto Balaam, Thou shalt not go with them; thou shalt not curse the people: for they are blessed. And Balaam rose up in the morning, and said unto the princes of Balak, Get you into your land: for the LORD refuseth to give me leave to go with you.",
+        "riddle": "Thou shalt not go with them; thou shalt not curse the people: for they are blessed.",
+        "speaker": "God",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "morning",
+        "bonus_hint": {
+          "quote": "And Abraham rose up early in the morning, and saddled his ass, and took two of his young men with him, and Isaac his son, and clave the wood for the burnt offering, and rose up, and went unto the place of which God had told him.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־בִּלְעָם לֹא תֵלֵךְ עִמָּהֶם לֹא תָאֹר אֶת־הָעָם כִּי בָרוּךְ הֽוּא וַיָּקָם בִּלְעָם בַּבֹּקֶר וַיֹּאמֶר אֶל־שָׂרֵי בָלָק לְכוּ אֶֽל־אַרְצְכֶם כִּי מֵאֵן יְהוָה לְתִתִּי לַהֲלֹךְ עִמָּכֶֽם",
+        "riddle": "לֹא תֵלֵךְ עִמָּהֶם לֹא תָאֹר אֶת־הָעָם כִּי בָרוּךְ הֽוּא",
+        "speaker": "אֱלֹהִים",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּקָם",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁכֵּם אַבְרָהָם בַּבֹּקֶר וַֽיַחֲבֹשׁ אֶת־חֲמֹרוֹ וַיִּקַּח אֶת־שְׁנֵי נְעָרָיו אִתּוֹ וְאֵת יִצְחָק בְּנוֹ וַיְבַקַּע עֲצֵי עֹלָה וַיָּקָם וַיֵּלֶךְ אֶל־הַמָּקוֹם אֲשֶׁר־אָֽמַר־לוֹ הָאֱלֹהִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And God said unto Balaam, Thou shalt not go with them; thou shalt not curse the people: for they are blessed.",
+          "13": "And Balaam rose up in the morning, and said unto the princes of Balak, Get you into your land: for the LORD refuseth to give me leave to go with you."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר אֱלֹהִים אֶל־בִּלְעָם לֹא תֵלֵךְ עִמָּהֶם לֹא תָאֹר אֶת־הָעָם כִּי בָרוּךְ הֽוּא׃",
+          "13": "וַיָּקָם בִּלְעָם בַּבֹּקֶר וַיֹּאמֶר אֶל־שָׂרֵי בָלָק לְכוּ אֶֽל־אַרְצְכֶם כִּי מֵאֵן יְהוָה לְתִתִּי לַהֲלֹךְ עִמָּכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 12,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 14,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the princes of Moab rose up, and they went unto Balak, and said, Balaam refuseth to come with us. And Balak sent yet again princes, more, and more honourable than they. And they came to Balaam, and said to him, Thus saith Balak the son of Zippor, Let nothing, I pray thee, hinder thee from coming unto me:",
+        "riddle": "Let nothing, I pray thee, hinder thee from coming unto me:",
+        "speaker": "princes",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "honourable",
+        "bonus_hint": {
+          "quote": "Who hath taken this counsel against Tyre, the crowning city, whose merchants are princes, whose traffickers are the honourable of the earth?",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 23,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקוּמוּ שָׂרֵי מוֹאָב וַיָּבֹאוּ אֶל־בָּלָק וַיֹּאמְרוּ מֵאֵן בִּלְעָם הֲלֹךְ עִמָּֽנוּ וַיֹּסֶף עוֹד בָּלָק שְׁלֹחַ שָׂרִים רַבִּים וְנִכְבָּדִים מֵאֵֽלֶּה וַיָּבֹאוּ אֶל־בִּלְעָם וַיֹּאמְרוּ לוֹ כֹּה אָמַר בָּלָק בֶּן־צִפּוֹר אַל־נָא תִמָּנַע מֵהֲלֹךְ אֵלָֽי",
+        "riddle": "כֹּה אָמַר בָּלָק בֶּן־צִפּוֹר אַל־נָא תִמָּנַע מֵהֲלֹךְ אֵלָֽי",
+        "speaker": "שָׂרֵי מוֹאָב",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שָׂרִים",
+        "bonus_hint": {
+          "quote": "מִי יָעַץ זֹאת עַל־צֹר הַמַּֽעֲטִירָה אֲשֶׁר סֹחֲרֶיה שָׂרִים כִּנְעָנֶיהָ נִכְבַדֵּי־אָֽרֶץ",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 23,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the princes of Moab rose up, and they went unto Balak, and said, Balaam refuseth to come with us.",
+          "15": "And Balak sent yet again princes, more, and more honourable than they.",
+          "16": "And they came to Balaam, and said to him, Thus saith Balak the son of Zippor, Let nothing, I pray thee, hinder thee from coming unto me:"
+        },
+        "he": {
+          "14": "וַיָּקוּמוּ שָׂרֵי מוֹאָב וַיָּבֹאוּ אֶל־בָּלָק וַיֹּאמְרוּ מֵאֵן בִּלְעָם הֲלֹךְ עִמָּֽנוּ׃",
+          "15": "וַיֹּסֶף עוֹד בָּלָק שְׁלֹחַ שָׂרִים רַבִּים וְנִכְבָּדִים מֵאֵֽלֶּה׃",
+          "16": "וַיָּבֹאוּ אֶל־בִּלְעָם וַיֹּאמְרוּ לוֹ כֹּה אָמַר בָּלָק בֶּן־צִפּוֹר אַל־נָא תִמָּנַע מֵהֲלֹךְ אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 14,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And they came to Balaam, and said to him, Thus saith Balak the son of Zippor, Let nothing, I pray thee, hinder thee from coming unto me: For I will promote thee unto very great honour, and I will do whatsoever thou sayest unto me: come therefore, I pray thee, curse me this people.",
+        "riddle": "come therefore, I pray thee, curse me this people.",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "promote",
+        "bonus_hint": {
+          "quote": "Therefore now flee thou to thy place: I thought to promote thee unto great honour; but, lo, the LORD hath kept thee back from honour.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ אֶל־בִּלְעָם וַיֹּאמְרוּ לוֹ כֹּה אָמַר בָּלָק בֶּן־צִפּוֹר אַל־נָא תִמָּנַע מֵהֲלֹךְ אֵלָֽי כִּֽי־כַבֵּד אֲכַבֶּדְךָ מְאֹד וְכֹל אֲשֶׁר־תֹּאמַר אֵלַי אֶֽעֱשֶׂה וּלְכָה־נָּא קָֽבָה־לִּי אֵת הָעָם הַזֶּֽה",
+        "riddle": "וְכֹל אֲשֶׁר־תֹּאמַר אֵלַי אֶֽעֱשֶׂה וּלְכָה־נָּא קָֽבָה־לִּי אֵת הָעָם הַזֶּֽה",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֲכַבֶּדְךָ",
+        "bonus_hint": {
+          "quote": "וְעַתָּה בְּרַח־לְךָ אֶל־מְקוֹמֶךָ אָמַרְתִּי כַּבֵּד אֲכַבֶּדְךָ וְהִנֵּה מְנָעֲךָ יְהוָה מִכָּבֽוֹד",
+          "source": {
+            "book": "במדבר",
+            "chapter": 24,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And they came to Balaam, and said to him, Thus saith Balak the son of Zippor, Let nothing, I pray thee, hinder thee from coming unto me:",
+          "17": "For I will promote thee unto very great honour, and I will do whatsoever thou sayest unto me: come therefore, I pray thee, curse me this people."
+        },
+        "he": {
+          "16": "וַיָּבֹאוּ אֶל־בִּלְעָם וַיֹּאמְרוּ לוֹ כֹּה אָמַר בָּלָק בֶּן־צִפּוֹר אַל־נָא תִמָּנַע מֵהֲלֹךְ אֵלָֽי׃",
+          "17": "כִּֽי־כַבֵּד אֲכַבֶּדְךָ מְאֹד וְכֹל אֲשֶׁר־תֹּאמַר אֵלַי אֶֽעֱשֶׂה וּלְכָה־נָּא קָֽבָה־לִּי אֵת הָעָם הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Balaam answered and said unto the servants of Balak, If Balak would give me his house full of silver and gold, I cannot go beyond the word of the LORD my God, to do less or more. Now therefore, I pray you, tarry ye also here this night, that I may know what the LORD will say unto me more.",
+        "riddle": "Now therefore, I pray you, tarry ye also here this night, that I may know what the LORD will say unto me more.",
+        "speaker": "Balaam",
+        "listener": "servants of Balak",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "silver",
+        "bonus_hint": {
+          "quote": "If the ox shall push a manservant or a maidservant; he shall give unto their master thirty shekels of silver, and the ox shall be stoned.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 21,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל־עַבְדֵי בָלָק אִם־יִתֶּן־לִי בָלָק מְלֹא בֵיתוֹ כֶּסֶף וְזָהָב לֹא אוּכַל לַעֲבֹר אֶת־פִּי יְהוָה אֱלֹהָי לַעֲשׂוֹת קְטַנָּה אוֹ גְדוֹלָֽה וְעַתָּה שְׁבוּ נָא בָזֶה גַּם־אַתֶּם הַלָּיְלָה וְאֵדְעָה מַה־יֹּסֵף יְהוָה דַּבֵּר עִמִּֽי",
+        "riddle": "וְעַתָּה שְׁבוּ נָא בָזֶה גַּם־אַתֶּם הַלָּיְלָה וְאֵדְעָה מַה־יֹּסֵף יְהוָה דַּבֵּר עִמִּֽי",
+        "speaker": "בִּלְעָם",
+        "listener": "עַבְדֵי בָלָק",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "אִם־עֶבֶד יִגַּח הַשּׁוֹר אוֹ אָמָה כֶּסֶף שְׁלֹשִׁים שְׁקָלִים יִתֵּן לַֽאדֹנָיו וְהַשּׁוֹר יִסָּקֵֽל",
+          "source": {
+            "book": "שמות",
+            "chapter": 21,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Balaam answered and said unto the servants of Balak, If Balak would give me his house full of silver and gold, I cannot go beyond the word of the LORD my God, to do less or more.",
+          "19": "Now therefore, I pray you, tarry ye also here this night, that I may know what the LORD will say unto me more."
+        },
+        "he": {
+          "18": "וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל־עַבְדֵי בָלָק אִם־יִתֶּן־לִי בָלָק מְלֹא בֵיתוֹ כֶּסֶף וְזָהָב לֹא אוּכַל לַעֲבֹר אֶת־פִּי יְהוָה אֱלֹהָי לַעֲשׂוֹת קְטַנָּה אוֹ גְדוֹלָֽה׃",
+          "19": "וְעַתָּה שְׁבוּ נָא בָזֶה גַּם־אַתֶּם הַלָּיְלָה וְאֵדְעָה מַה־יֹּסֵף יְהוָה דַּבֵּר עִמִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 18,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And the LORD opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times?",
+        "riddle": "What have I done unto thee, that thou hast smitten me these three times?",
+        "speaker": "ass",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mouth",
+        "bonus_hint": {
+          "quote": "And as one of them opened his sack to give his ass provender in the inn, he espied his money; for, behold, it was in his sack's mouth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפְתַּח יְהוָה אֶת־פִּי הָאָתוֹן וַתֹּאמֶר לְבִלְעָם מֶה־עָשִׂיתִֽי לְךָ כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִֽים",
+        "riddle": "מֶה־עָשִׂיתִֽי לְךָ כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִֽים",
+        "speaker": "הָאָתוֹן",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּפְתַּח",
+        "bonus_hint": {
+          "quote": "וַיִּפְתַּח הָאֶחָד אֶת־שַׂקּוֹ לָתֵת מִסְפּוֹא לַחֲמֹרוֹ בַּמָּלוֹן וַיַּרְא אֶת־כַּסְפּוֹ וְהִנֵּה־הוּא בְּפִי אַמְתַּחְתּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And the LORD opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times?"
+        },
+        "he": {
+          "28": "וַיִּפְתַּח יְהוָה אֶת־פִּי הָאָתוֹן וַתֹּאמֶר לְבִלְעָם מֶה־עָשִׂיתִֽי לְךָ כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 28,
+        "end": 28
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-29-29",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 28,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And the LORD opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times? And Balaam said unto the ass, Because thou hast mocked me: I would there were a sword in mine hand, for now would I kill thee.",
+        "riddle": "Because thou hast mocked me: I would there were a sword in mine hand, for now would I kill thee.",
+        "speaker": "Balaam",
+        "listener": "ass",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mouth",
+        "bonus_hint": {
+          "quote": "And as one of them opened his sack to give his ass provender in the inn, he espied his money; for, behold, it was in his sack's mouth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפְתַּח יְהוָה אֶת־פִּי הָאָתוֹן וַתֹּאמֶר לְבִלְעָם מֶה־עָשִׂיתִֽי לְךָ כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִֽים וַיֹּאמֶר בִּלְעָם לָֽאָתוֹן כִּי הִתְעַלַּלְתְּ בִּי לוּ יֶשׁ־חֶרֶב בְּיָדִי כִּי עַתָּה הֲרַגְתִּֽיךְ",
+        "riddle": "כִּי הִתְעַלַּלְתְּ בִּי לוּ יֶשׁ־חֶרֶב בְּיָדִי כִּי עַתָּה הֲרַגְתִּֽיך",
+        "speaker": "בִּלְעָם",
+        "listener": "אָתוֹן",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּפְתַּח",
+        "bonus_hint": {
+          "quote": "וַיִּפְתַּח הָאֶחָד אֶת־שַׂקּוֹ לָתֵת מִסְפּוֹא לַחֲמֹרוֹ בַּמָּלוֹן וַיַּרְא אֶת־כַּסְפּוֹ וְהִנֵּה־הוּא בְּפִי אַמְתַּחְתּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And the LORD opened the mouth of the ass, and she said unto Balaam, What have I done unto thee, that thou hast smitten me these three times?",
+          "29": "And Balaam said unto the ass, Because thou hast mocked me: I would there were a sword in mine hand, for now would I kill thee."
+        },
+        "he": {
+          "28": "וַיִּפְתַּח יְהוָה אֶת־פִּי הָאָתוֹן וַתֹּאמֶר לְבִלְעָם מֶה־עָשִׂיתִֽי לְךָ כִּי הִכִּיתַנִי זֶה שָׁלֹשׁ רְגָלִֽים׃",
+          "29": "וַיֹּאמֶר בִּלְעָם לָֽאָתוֹן כִּי הִתְעַלַּלְתְּ בִּי לוּ יֶשׁ־חֶרֶב בְּיָדִי כִּי עַתָּה הֲרַגְתִּֽיךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 28,
+        "end": 29
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-30-30-2",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "And the ass said unto Balaam, Am not I thine ass, upon which thou hast ridden ever since I was thine unto this day? was I ever wont to do so unto thee? And he said, Nay.",
+        "riddle": "Nay.",
+        "speaker": "Balaam",
+        "listener": "ass",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "thine",
+        "bonus_hint": {
+          "quote": "Let thine eyes be on the field that they do reap, and go thou after them: have I not charged the young men that they shall not touch thee? and when thou art athirst, go unto the vessels, and drink of that which the young men have drawn.",
+          "source": {
+            "book": "Ruth",
+            "chapter": 2,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָאָתוֹן אֶל־בִּלְעָם הֲלוֹא אָנֹכִי אֲתֹֽנְךָ אֲשֶׁר־רָכַבְתָּ עָלַי מֵעֽוֹדְךָ עַד־הַיּוֹם הַזֶּה הַֽהַסְכֵּן הִסְכַּנְתִּי לַעֲשׂוֹת לְךָ כֹּה וַיֹּאמֶר לֹֽא",
+        "riddle": "לֹֽא",
+        "speaker": "בִּלְעָם",
+        "listener": "הָאָתוֹן",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הֲלוֹא",
+        "bonus_hint": {
+          "quote": "עֵינַיִךְ בַּשָּׂדֶה אֲשֶׁר־יִקְצֹרוּן וְהָלַכְתִּ אַחֲרֵיהֶן הֲלוֹא צִוִּיתִי אֶת־הַנְּעָרִים לְבִלְתִּי נָגְעֵךְ וְצָמִת וְהָלַכְתְּ אֶל־הַכֵּלִים וְשָׁתִית מֵאֲשֶׁר יִשְׁאֲבוּן הַנְּעָרִֽים",
+          "source": {
+            "book": "רות",
+            "chapter": 2,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And the ass said unto Balaam, Am not I thine ass, upon which thou hast ridden ever since I was thine unto this day? was I ever wont to do so unto thee? And he said, Nay."
+        },
+        "he": {
+          "30": "וַתֹּאמֶר הָאָתוֹן אֶל־בִּלְעָם הֲלוֹא אָנֹכִי אֲתֹֽנְךָ אֲשֶׁר־רָכַבְתָּ עָלַי מֵעֽוֹדְךָ עַד־הַיּוֹם הַזֶּה הַֽהַסְכֵּן הִסְכַּנְתִּי לַעֲשׂוֹת לְךָ כֹּה וַיֹּאמֶר לֹֽא׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 30,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 31,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "Then the LORD opened the eyes of Balaam, and he saw the angel of the LORD standing in the way, and his sword drawn in his hand: and he bowed down his head, and fell flat on his face. And the angel of the LORD said unto him, Wherefore hast thou smitten thine ass these three times? behold, I went out to withstand thee, because thy way is perverse before me:",
+        "riddle": "Wherefore hast thou smitten thine ass these three times? behold, I went out to withstand thee, because thy way is perverse before me:",
+        "speaker": "angel of the LORD",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Joshua was by Jericho, that he lifted up his eyes and looked, and, behold, there stood a man over against him with his sword drawn in his hand: and Joshua went unto him, and said unto him, Art thou for us, or for our adversaries?",
+          "source": {
+            "book": "Joshua",
+            "chapter": 5,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְגַל יְהוָה אֶת־עֵינֵי בִלְעָם וַיַּרְא אֶת־מַלְאַךְ יְהוָה נִצָּב בַּדֶּרֶךְ וְחַרְבּוֹ שְׁלֻפָה בְּיָדוֹ וַיִּקֹּד וַיִּשְׁתַּחוּ לְאַפָּֽיו וַיֹּאמֶר אֵלָיו מַלְאַךְ יְהוָה עַל־מָה הִכִּיתָ אֶת־אֲתֹנְךָ זֶה שָׁלוֹשׁ רְגָלִים הִנֵּה אָנֹכִי יָצָאתִי לְשָׂטָן כִּֽי־יָרַט הַדֶּרֶךְ לְנֶגְדִּֽי",
+        "riddle": "עַל־מָה הִכִּיתָ אֶת־אֲתֹנְךָ זֶה שָׁלוֹשׁ רְגָלִים הִנֵּה אָנֹכִי יָצָאתִי לְשָׂטָן כִּֽי־יָרַט הַדֶּרֶךְ לְנֶגְדִּֽי",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "בִלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַיְהִי בִּֽהְיוֹת יְהוֹשֻׁעַ בִּירִיחוֹ וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה־אִישׁ עֹמֵד לְנֶגְדּוֹ וְחַרְבּוֹ שְׁלוּפָה בְּיָדוֹ וַיֵּלֶךְ יְהוֹשֻׁעַ אֵלָיו וַיֹּאמֶר לוֹ הֲלָנוּ אַתָּה אִם־לְצָרֵֽינוּ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 5,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "Then the LORD opened the eyes of Balaam, and he saw the angel of the LORD standing in the way, and his sword drawn in his hand: and he bowed down his head, and fell flat on his face.",
+          "32": "And the angel of the LORD said unto him, Wherefore hast thou smitten thine ass these three times? behold, I went out to withstand thee, because thy way is perverse before me:"
+        },
+        "he": {
+          "31": "וַיְגַל יְהוָה אֶת־עֵינֵי בִלְעָם וַיַּרְא אֶת־מַלְאַךְ יְהוָה נִצָּב בַּדֶּרֶךְ וְחַרְבּוֹ שְׁלֻפָה בְּיָדוֹ וַיִּקֹּד וַיִּשְׁתַּחוּ לְאַפָּֽיו׃",
+          "32": "וַיֹּאמֶר אֵלָיו מַלְאַךְ יְהוָה עַל־מָה הִכִּיתָ אֶת־אֲתֹנְךָ זֶה שָׁלוֹשׁ רְגָלִים הִנֵּה אָנֹכִי יָצָאתִי לְשָׂטָן כִּֽי־יָרַט הַדֶּרֶךְ לְנֶגְדִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 31,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-22-37-37",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 22,
+        "quote_verse_start": 37,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 37
+      },
+      "en": {
+        "quote": "And Balak said unto Balaam, Did I not earnestly send unto thee to call thee? wherefore camest thou not unto me? am I not able indeed to promote thee to honour? And Balaam said unto Balak, Lo, I am come unto thee: have I now any power at all to say any thing? the word that God putteth in my mouth, that shall I speak.",
+        "riddle": "Did I not earnestly send unto thee to call thee? wherefore camest thou not unto me? am I not able indeed to promote thee to honour?",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mouth",
+        "bonus_hint": {
+          "quote": "Then said Zebul unto him, Where is now thy mouth, wherewith thou saidst, Who is Abimelech, that we should serve him? is not this the people that thou hast despised? go out, I pray now, and fight with them.",
+          "source": {
+            "book": "Judges",
+            "chapter": 9,
+            "start": 38,
+            "end": 38
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם הֲלֹא שָׁלֹחַ שָׁלַחְתִּי אֵלֶיךָ לִקְרֹא־לָךְ לָמָּה לֹא־הָלַכְתָּ אֵלָי הַֽאֻמְנָם לֹא אוּכַל כַּבְּדֶֽךָ וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק הִֽנֵּה־בָאתִי אֵלֶיךָ עַתָּה הֲיָכוֹל אוּכַל דַּבֵּר מְאוּמָה הַדָּבָר אֲשֶׁר יָשִׂים אֱלֹהִים בְּפִי אֹתוֹ אֲדַבֵּֽר",
+        "riddle": "הֲלֹא שָׁלֹחַ שָׁלַחְתִּי אֵלֶיךָ לִקְרֹא־לָךְ לָמָּה לֹא־הָלַכְתָּ אֵלָי הַֽאֻמְנָם לֹא אוּכַל כַּבְּדֶֽך",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עַתָּה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלָיו זְבֻל אַיֵּה אֵפוֹא פִיךָ אֲשֶׁר תֹּאמַר מִי אֲבִימֶלֶךְ כִּי נַעַבְדֶנּוּ הֲלֹא זֶה הָעָם אֲשֶׁר מָאַסְתָּה בּוֹ צֵא־נָא עַתָּה וְהִלָּחֶם בּֽוֹ",
+          "source": {
+            "book": "שופטים",
+            "chapter": 9,
+            "start": 38,
+            "end": 38
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "37": "And Balak said unto Balaam, Did I not earnestly send unto thee to call thee? wherefore camest thou not unto me? am I not able indeed to promote thee to honour?",
+          "38": "And Balaam said unto Balak, Lo, I am come unto thee: have I now any power at all to say any thing? the word that God putteth in my mouth, that shall I speak."
+        },
+        "he": {
+          "37": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם הֲלֹא שָׁלֹחַ שָׁלַחְתִּי אֵלֶיךָ לִקְרֹא־לָךְ לָמָּה לֹא־הָלַכְתָּ אֵלָי הַֽאֻמְנָם לֹא אוּכַל כַּבְּדֶֽךָ׃",
+          "38": "וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק הִֽנֵּה־בָאתִי אֵלֶיךָ עַתָּה הֲיָכוֹל אוּכַל דַּבֵּר מְאוּמָה הַדָּבָר אֲשֶׁר יָשִׂים אֱלֹהִים בְּפִי אֹתוֹ אֲדַבֵּֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 37,
+        "end": 38
       },
       "meta": {
         "mode": "llm",

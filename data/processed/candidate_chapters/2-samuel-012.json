@@ -4,12 +4,502 @@
   "book_he": "שמואל ב",
   "chapter": 12,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-12-01-01",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD sent Nathan unto David. And he came unto him, and said unto him, There were two men in one city; the one rich, and the other poor.",
+        "riddle": "There were two men in one city; the one rich, and the other poor.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח יְהוָה אֶת־נָתָן אֶל־דָּוִד וַיָּבֹא אֵלָיו וַיֹּאמֶר לוֹ שְׁנֵי אֲנָשִׁים הָיוּ בְּעִיר אֶחָת אֶחָד עָשִׁיר וְאֶחָד רָֽאשׁ",
+        "riddle": "נָתָן אֶל־דָּוִד וַיָּבֹא אֵלָיו וַיֹּאמֶר לוֹ שְׁנֵי אֲנָשִׁים הָיוּ בְּעִיר אֶחָת אֶחָד עָשִׁיר וְאֶחָד רָֽאשׁ",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD sent Nathan unto David. And he came unto him, and said unto him, There were two men in one city; the one rich, and the other poor."
+        },
+        "he": {
+          "1": "וַיִּשְׁלַח יְהוָה אֶת־נָתָן אֶל־דָּוִד וַיָּבֹא אֵלָיו וַיֹּאמֶר לוֹ שְׁנֵי אֲנָשִׁים הָיוּ בְּעִיר אֶחָת אֶחָד עָשִׁיר וְאֶחָד רָֽאשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/parable",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-samuel-12-05-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And David's anger was greatly kindled against the man; and he said to Nathan, As the LORD liveth, the man that hath done this thing shall surely die: And he shall restore the lamb fourfold, because he did this thing, and because he had no pity.",
+        "riddle": "As the LORD liveth, the man that hath done this thing shall surely die: And he shall restore the lamb fourfold, because he did this thing, and because he had no pity.",
+        "speaker": "David",
+        "listener": "Nathan",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּֽחַר־אַף דָּוִד בָּאִישׁ מְאֹד וַיֹּאמֶר אֶל־נָתָן חַי־יְהוָה כִּי בֶן־מָוֶת הָאִישׁ הָעֹשֶׂה זֹֽאת וְאֶת־הַכִּבְשָׂה יְשַׁלֵּם אַרְבַּעְתָּיִם עֵקֶב אֲשֶׁר עָשָׂה אֶת־הַדָּבָר הַזֶּה וְעַל אֲשֶׁר לֹֽא־חָמָֽל",
+        "riddle": "וַיִּֽחַר־אַף דָּוִד בָּאִישׁ מְאֹד וַיֹּאמֶר אֶל־נָתָן חַי־יְהוָה כִּי בֶן־מָוֶת הָאִישׁ הָעֹשֶׂה זֹֽאת וְאֶת־הַכִּבְשָׂה יְשַׁלֵּם אַרְבַּעְתָּיִם עֵקֶב אֲשֶׁר עָשָׂה אֶת־הַדָּבָר הַזֶּה וְעַל אֲשֶׁר לֹֽא־חָמָֽל",
+        "speaker": "דָּוִד",
+        "listener": "נָתָן",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David's anger was greatly kindled against the man; and he said to Nathan, As the LORD liveth, the man that hath done this thing shall surely die:",
+          "6": "And he shall restore the lamb fourfold, because he did this thing, and because he had no pity."
+        },
+        "he": {
+          "5": "וַיִּֽחַר־אַף דָּוִד בָּאִישׁ מְאֹד וַיֹּאמֶר אֶל־נָתָן חַי־יְהוָה כִּי בֶן־מָוֶת הָאִישׁ הָעֹשֶׂה זֹֽאת׃",
+          "6": "וְאֶת־הַכִּבְשָׂה יְשַׁלֵּם אַרְבַּעְתָּיִם עֵקֶב אֲשֶׁר עָשָׂה אֶת־הַדָּבָר הַזֶּה וְעַל אֲשֶׁר לֹֽא־חָמָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and judgment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 5,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-12-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;",
+        "riddle": "Thou art the man.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל",
+        "riddle": "אַתָּה הָאִישׁ כֹּה־אָמַר",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Nathan said to David, Thou art the man. Thus saith the LORD God of Israel, I anointed thee king over Israel, and I delivered thee out of the hand of Saul;"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר נָתָן אֶל־דָּוִד אַתָּה הָאִישׁ כֹּה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי מְשַׁחְתִּיךָֽ לְמֶלֶךְ עַל־יִשְׂרָאֵל וְאָנֹכִי הִצַּלְתִּיךָ מִיַּד שָׁאֽוּל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct accusation",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-12-13-13-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+        "riddle": "I have sinned against the LORD.",
+        "speaker": "David",
+        "listener": "Nathan",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת",
+        "riddle": "חָטָאתִי לַֽיהוָה",
+        "speaker": "דָּוִד",
+        "listener": "נָתָן",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct confession",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-12-13-13-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+        "riddle": "The LORD also hath put away thy sin; thou shalt not die.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת",
+        "riddle": "וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-12-14-14",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die.",
+        "riddle": "the child also that is born unto thee shall surely die.",
+        "speaker": "Nathan",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת",
+        "riddle": "אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת",
+        "speaker": "נָתָן",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto Nathan, I have sinned against the LORD. And Nathan said unto David, The LORD also hath put away thy sin; thou shalt not die.",
+          "14": "Howbeit, because by this deed thou hast given great occasion to the enemies of the LORD to blaspheme, the child also that is born unto thee shall surely die."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־נָתָן חָטָאתִי לַֽיהוָה וַיֹּאמֶר נָתָן אֶל־דָּוִד גַּם־יְהוָה הֶעֱבִיר חַטָּאתְךָ לֹא תָמֽוּת׃",
+          "14": "אֶפֶס כִּֽי־נִאֵץ נִאַצְתָּ אֶת־אֹיְבֵי יְהוָה בַּדָּבָר הַזֶּה גַּם הַבֵּן הַיִּלּוֹד לְךָ מוֹת יָמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "dire warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-12-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "But when David saw that his servants whispered, David perceived that the child was dead: therefore David said unto his servants, Is the child dead? And they said, He is dead.",
+        "riddle": "He is dead.",
+        "speaker": "servants",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּרְא דָּוִד כִּי עֲבָדָיו מִֽתְלַחֲשִׁים וַיָּבֶן דָּוִד כִּי מֵת הַיָּלֶד וַיֹּאמֶר דָּוִד אֶל־עֲבָדָיו הֲמֵת הַיֶּלֶד וַיֹּאמְרוּ מֵֽת",
+        "riddle": "מִֽת",
+        "speaker": "עֲבָדָיו",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "But when David saw that his servants whispered, David perceived that the child was dead: therefore David said unto his servants, Is the child dead? And they said, He is dead."
+        },
+        "he": {
+          "19": "וַיַּרְא דָּוִד כִּי עֲבָדָיו מִֽתְלַחֲשִׁים וַיָּבֶן דָּוִד כִּי מֵת הַיָּלֶד וַיֹּאמֶר דָּוִד אֶל־עֲבָדָיו הֲמֵת הַיֶּלֶד וַיֹּאמְרוּ מֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-samuel-12-21-21",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread.",
+        "riddle": "What thing is this that thou hast done?",
+        "speaker": "servants",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם",
+        "riddle": "מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר",
+        "speaker": "עֲבָדָיו",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Then said his servants unto him, What thing is this that thou hast done? thou didst fast and weep for the child, while it was alive; but when the child was dead, thou didst rise and eat bread."
+        },
+        "he": {
+          "21": "וַיֹּאמְרוּ עֲבָדָיו אֵלָיו מָֽה־הַדָּבָר הַזֶּה אֲשֶׁר עָשִׂיתָה בַּעֲבוּר הַיֶּלֶד חַי צַמְתָּ וַתֵּבְךְּ וְכַֽאֲשֶׁר מֵת הַיֶּלֶד קַמְתָּ וַתֹּאכַל לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-12-23-23",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+        "riddle": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me.",
+        "speaker": "David",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי",
+        "riddle": "וְעַתָּה מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי",
+        "speaker": "דוד",
+        "listener": "דוד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "But now he is dead, wherefore should I fast? can I bring him back again? I shall go to him, but he shall not return to me."
+        },
+        "he": {
+          "23": "וְעַתָּה ׀ מֵת לָמָּה זֶּה אֲנִי צָם הַאוּכַל לַהֲשִׁיבוֹ עוֹד אֲנִי הֹלֵךְ אֵלָיו וְהוּא לֹֽא־יָשׁוּב אֵלָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/questions",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-samuel-12-27-27",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the city of waters.",
+        "riddle": "I have fought against Rabbah, and have taken the city of waters.",
+        "speaker": "Joab",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח יוֹאָב מַלְאָכִים אֶל־דָּוִד וַיֹּאמֶר נִלְחַמְתִּי בְרַבָּה גַּם־לָכַדְתִּי אֶת־עִיר הַמָּֽיִם",
+        "riddle": "וַיֹּאמֶר נִלְחַמְתִּי בְרַבָּה גַּם־לָכַדְתִּי אֶת־עִיר הַמָּֽיִם",
+        "speaker": "יוֹאָב",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the city of waters."
+        },
+        "he": {
+          "27": "וַיִּשְׁלַח יוֹאָב מַלְאָכִים אֶל־דָּוִד וַיֹּאמֶר נִלְחַמְתִּי בְרַבָּה גַּם־לָכַדְתִּי אֶת־עִיר הַמָּֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "2-samuel-12-28-28",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 12,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "Now therefore gather the rest of the people together, and encamp against the city, and take it: lest I take the city, and it be called after my name.",
+        "riddle": "Now therefore gather the rest of the people together, and encamp against the city, and take it: lest I take the city, and it be called after my name.",
+        "speaker": "Joab",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה אֱסֹף אֶת־יֶתֶר הָעָם וַחֲנֵה עַל־הָעִיר וְלָכְדָהּ פֶּן־אֶלְכֹּד אֲנִי אֶת־הָעִיר וְנִקְרָא שְׁמִי עָלֶֽיהָ",
+        "riddle": "וְעַתָּה אֱסֹף אֶת־יֶתֶר הָעָם וַחֲנֵה עַל־הָעִיר וְלָכְדָהּ פֶּן־אֶלְכֹּד אֲנִי אֶת־הָעִיר וְנִקְרָא שְׁמִי עָלֶֽיהָ",
+        "speaker": "יוֹאָב",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Joab sent messengers to David, and said, I have fought against Rabbah, and have taken the city of waters.",
+          "28": "Now therefore gather the rest of the people together, and encamp against the city, and take it: lest I take the city, and it be called after my name."
+        },
+        "he": {
+          "27": "וַיִּשְׁלַח יוֹאָב מַלְאָכִים אֶל־דָּוִד וַיֹּאמֶר נִלְחַמְתִּי בְרַבָּה גַּם־לָכַדְתִּי אֶת־עִיר הַמָּֽיִם׃",
+          "28": "וְעַתָּה אֱסֹף אֶת־יֶתֶר הָעָם וַחֲנֵה עַל־הָעִיר וְלָכְדָהּ פֶּן־אֶלְכֹּד אֲנִי אֶת־הָעִיר וְנִקְרָא שְׁמִי עָלֶֽיהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 28,
+        "end": 28
+      }
+    }
+  ],
   "stats": {
-    "window_count": 24,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 24,
-    "kept_count": 0,
-    "issue_count": 24
+    "llm_window_count": 5,
+    "projection_llm_count": 15,
+    "llm_call_count": 20,
+    "spec_count": 15,
+    "kept_count": 11,
+    "issue_count": 5
   }
 }

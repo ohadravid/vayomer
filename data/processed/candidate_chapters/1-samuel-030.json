@@ -6,6 +6,224 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-30-08-08-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+        "riddle": "Shall I pursue after this troop? shall I overtake them?",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "riddle": "אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג",
+        "speaker": "דָּוִד",
+        "listener": "יהוָה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all."
+        },
+        "he": {
+          "8": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-30-08-08-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+        "riddle": "Pursue: for thou shalt surely overtake them, and without fail recover all",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "riddle": "רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "speaker": "יהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all."
+        },
+        "he": {
+          "8": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct answer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-30-13-13-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick.",
+        "riddle": "To whom belongest thou? and whence art thou?",
+        "speaker": "David",
+        "listener": "Egyptian man",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה",
+        "riddle": "לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה",
+        "speaker": "דָוִד",
+        "listener": "נַעַר מִצְרִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct questions",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-30-13-13-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick.",
+        "riddle": "I am a young man of Egypt, servant to an Amalekite",
+        "speaker": "Egyptian man",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה",
+        "riddle": "אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי",
+        "speaker": "נַעַר מִצְרִי",
+        "listener": "דָוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-30-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand.",
+        "riddle": "Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand.",
+        "speaker": "David",
+        "listener": "wicked men",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד לֹֽא־תַעֲשׂוּ כֵן אֶחָי אֵת אֲשֶׁר־נָתַן יְהוָה לָנוּ וַיִּשְׁמֹר אֹתָנוּ וַיִּתֵּן אֶֽת־הַגְּדוּד הַבָּא עָלֵינוּ בְּיָדֵֽנוּ",
+        "riddle": "וַיֹּאמֶר דָּוִד לֹֽא־תַעֲשׂוּ כֵן אֶחָי אֵת אֲשֶׁר־נָתַן יְהוָה לָנוּ וַיִּשְׁמֹר אֹתָנוּ וַיִּתֵּן אֶֽת־הַגְּדוּד הַבָּא עָלֵינוּ בְּיָדֵֽנוּ",
+        "speaker": "דָּוִד",
+        "listener": "אֶחָי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר דָּוִד לֹֽא־תַעֲשׂוּ כֵן אֶחָי אֵת אֲשֶׁר־נָתַן יְהוָה לָנוּ וַיִּשְׁמֹר אֹתָנוּ וַיִּתֵּן אֶֽת־הַגְּדוּד הַבָּא עָלֵינוּ בְּיָדֵֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "commanding speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
       "id": "1-samuel-30-24-24",
       "source": {
         "book_code": "1SA",
@@ -17,16 +235,16 @@
       },
       "en": {
         "quote": "For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.",
-        "riddle": "For who will hearken unto you in this matter?",
+        "riddle": "For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.",
         "speaker": "David",
-        "listener": "Men",
+        "listener": "wicked men",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק הַיֹּרֵד בַּמִּלְחָמָה וּֽכְחֵלֶק הַיֹּשֵׁב עַל־הַכֵּלִים יַחְדָּו יַחֲלֹֽקוּ",
-        "riddle": "וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק הַיֹּרֵד בַּמִּלְחָמָה",
-        "speaker": "דוד",
-        "listener": "אנשים",
+        "riddle": "וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק הַיֹּרֵד בַּמִּלְחָמָה וּֽכְחֵלֶק הַיֹּשֵׁב עַל־הַכֵּלִים יַחְדָּו יַחֲלֹֽקוּ",
+        "speaker": "דָּוִד",
+        "listener": "אֲנָשִׁים רָעִים",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -38,21 +256,68 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct question.",
-        "confidence": 0.95
+        "reason": "rhetorical question",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 30,
         "start": 24,
         "end": 24
       }
+    },
+    {
+      "id": "1-samuel-30-26-26",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;",
+        "riddle": "Behold a present for you of the spoil of the enemies of the LORD;",
+        "speaker": "David",
+        "listener": "elders of Judah",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּבֹא דָוִד אֶל־צִקְלַג וַיְשַׁלַּח מֵֽהַשָּׁלָל לְזִקְנֵי יְהוּדָה לְרֵעֵהוּ לֵאמֹר הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה",
+        "riddle": "הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה",
+        "speaker": "דָוִד",
+        "listener": "זִקְנֵי יְהוּדָה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;"
+        },
+        "he": {
+          "26": "וַיָּבֹא דָוִד אֶל־צִקְלַג וַיְשַׁלַּח מֵֽהַשָּׁלָל לְזִקְנֵי יְהוּדָה לְרֵעֵהוּ לֵאמֹר הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 26,
+        "end": 26
+      }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 1,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 12,
+    "llm_call_count": 16,
+    "spec_count": 12,
+    "kept_count": 7,
+    "issue_count": 5
   }
 }

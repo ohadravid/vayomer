@@ -1,0 +1,475 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 13,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-13-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 13,
+        "quote_verse_start": 15,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And Elisha said unto him, Take bow and arrows. And he took unto him bow and arrows. And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands. And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them.",
+        "riddle": "Take bow and arrows.",
+        "speaker": "Elisha",
+        "listener": "King of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Isaiah",
+            "David"
+          ],
+          "listener": [
+            "Jehu",
+            "Hezekiah",
+            "Rab-shakeh"
+          ]
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ אֱלִישָׁע קַח קֶשֶׁת וְחִצִּים וַיִּקַּח אֵלָיו קֶשֶׁת וְחִצִּֽים וַיֹּאמֶר לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה",
+        "riddle": "קַח קֶשֶׁת וְחִצִּים",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "יְשַֽׁעְיָהוּ",
+            "דּוֹד"
+          ],
+          "listener": [
+            "יֵהוּא",
+            "חִזְקִיָּהוּ",
+            "רַב־שָׁקֵה"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 32,
+            "end": 32
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Elisha said unto him, Take bow and arrows. And he took unto him bow and arrows.",
+          "16": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands.",
+          "17": "And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לוֹ אֱלִישָׁע קַח קֶשֶׁת וְחִצִּים וַיִּקַּח אֵלָיו קֶשֶׁת וְחִצִּֽים׃",
+          "16": "וַיֹּאמֶר ׀ לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ׃",
+          "17": "וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 15,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-13-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 13,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands.",
+        "riddle": "Put thine hand upon the bow.",
+        "speaker": "Elisha",
+        "listener": "King of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Jehu",
+            "Isaiah"
+          ],
+          "listener": [
+            "Jehu",
+            "Hezekiah",
+            "Rab-shakeh"
+          ]
+        },
+        "bonus": "hands",
+        "bonus_hint": {
+          "quote": "The gold for things of gold, and the silver for things of silver, and for all manner of work to be made by the hands of artificers. And who then is willing to consecrate his service this day unto the LORD?",
+          "source": {
+            "book": "1 Chronicles",
+            "chapter": 29,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ",
+        "riddle": "הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "יֵהוּא",
+            "יְשַֽׁעְיָהוּ"
+          ],
+          "listener": [
+            "יֵהוּא",
+            "חִזְקִיָּהוּ",
+            "רַב־שָׁקֵה"
+          ]
+        },
+        "bonus": "יָדוֹ",
+        "bonus_hint": {
+          "quote": "לַזָּהָב לַזָּהָב וְלַכֶּסֶף לַכֶּסֶף וּלְכָל־מְלָאכָה בְּיַד חָרָשִׁים וּמִי מִתְנַדֵּב לְמַלֹּאות יָדוֹ הַיּוֹם לַיהוָֽה",
+          "source": {
+            "book": "דברי הימים א",
+            "chapter": 29,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר ׀ לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 16,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-13-17-17-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 13,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands. And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them.",
+        "riddle": "Open the window eastward.",
+        "speaker": "Elisha",
+        "listener": "King of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Isaiah",
+            "Hezekiah"
+          ],
+          "listener": [
+            "Jehu",
+            "Hezekiah",
+            "Rab-shakeh"
+          ]
+        },
+        "bonus": "arrow",
+        "bonus_hint": {
+          "quote": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה",
+        "riddle": "פְּתַח הַחַלּוֹן קֵדְמָה",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "יְשַֽׁעְיָהוּ",
+            "חִזְקִיָּהוּ"
+          ],
+          "listener": [
+            "יֵהוּא",
+            "חִזְקִיָּהוּ",
+            "רַב־שָׁקֵה"
+          ]
+        },
+        "bonus": "יָדוֹ",
+        "bonus_hint": {
+          "quote": "וְיֵהוּא מִלֵּא יָדוֹ בַקֶּשֶׁת וַיַּךְ אֶת־יְהוֹרָם בֵּין זְרֹעָיו וַיֵּצֵא הַחֵצִי מִלִּבּוֹ וַיִּכְרַע בְּרִכְבּֽוֹ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands.",
+          "17": "And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר ׀ לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ׃",
+          "17": "וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-13-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 13,
+        "quote_verse_start": 16,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands. And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them. And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed.",
+        "riddle": "Take the arrows.",
+        "speaker": "Elisha",
+        "listener": "king of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Isaiah",
+            "Hezekiah"
+          ],
+          "listener": [
+            "Jehu",
+            "Hezekiah",
+            "Isaiah"
+          ]
+        },
+        "bonus": "bow",
+        "bonus_hint": {
+          "quote": "And it shall come to pass, when I bring a cloud over the earth, that the bow shall be seen in the cloud:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 9,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה וַיֹּאמֶר קַח הַחִצִּים וַיִּקָּח וַיֹּאמֶר לְמֶֽלֶךְ־יִשְׂרָאֵל הַךְ־אַרְצָה וַיַּךְ שָֽׁלֹשׁ־פְּעָמִים וַֽיַּעֲמֹֽד",
+        "riddle": "קַח הַחִצִּים",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "יְשַֽׁעְיָהוּ",
+            "חִזְקִיָּהוּ"
+          ],
+          "listener": [
+            "יֵהוּא",
+            "חִזְקִיָּהוּ",
+            "יְשַֽׁעְיָהוּ"
+          ]
+        },
+        "bonus": "הַקֶּשֶׁת",
+        "bonus_hint": {
+          "quote": "וְהָיָה בְּעַֽנְנִי עָנָן עַל־הָאָרֶץ וְנִרְאֲתָה הַקֶּשֶׁת בֶּעָנָֽן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 9,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And he said to the king of Israel, Put thine hand upon the bow. And he put his hand upon it: and Elisha put his hands upon the king's hands.",
+          "17": "And he said, Open the window eastward. And he opened it. Then Elisha said, Shoot. And he shot. And he said, The arrow of the LORD's deliverance, and the arrow of deliverance from Syria: for thou shalt smite the Syrians in Aphek, till thou have consumed them.",
+          "18": "And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר ׀ לְמֶלֶךְ יִשְׂרָאֵל הַרְכֵּב יָֽדְךָ עַל־הַקֶּשֶׁת וַיַּרְכֵּב יָדוֹ וַיָּשֶׂם אֱלִישָׁע יָדָיו עַל־יְדֵי הַמֶּֽלֶךְ׃",
+          "17": "וַיֹּאמֶר פְּתַח הַחַלּוֹן קֵדְמָה וַיִּפְתָּח וַיֹּאמֶר אֱלִישָׁע יְרֵה וַיּוֹר וַיֹּאמֶר חֵץ־תְּשׁוּעָה לַֽיהוָה וְחֵץ תְּשׁוּעָה בַֽאֲרָם וְהִכִּיתָ אֶת־אֲרָם בַּאֲפֵק עַד־כַּלֵּֽה׃",
+          "18": "וַיֹּאמֶר קַח הַחִצִּים וַיִּקָּח וַיֹּאמֶר לְמֶֽלֶךְ־יִשְׂרָאֵל הַךְ־אַרְצָה וַיַּךְ שָֽׁלֹשׁ־פְּעָמִים וַֽיַּעֲמֹֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 16,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-13-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 13,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed. And the man of God was wroth with him, and said, Thou shouldest have smitten five or six times; then hadst thou smitten Syria till thou hadst consumed it: whereas now thou shalt smite Syria but thrice.",
+        "riddle": "Thou shouldest have smitten five or six times; then hadst thou smitten Syria till thou hadst consumed it: whereas now thou shalt smite Syria but thrice.",
+        "speaker": "man of God",
+        "listener": "king of Israel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Hezekiah",
+            "Nathan"
+          ],
+          "listener": [
+            "Hezekiah",
+            "Sennacherib",
+            "Elijah"
+          ]
+        },
+        "bonus": "arrows",
+        "bonus_hint": {
+          "quote": "And I will shoot three arrows on the side thereof, as though I shot at a mark.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 20,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר קַח הַחִצִּים וַיִּקָּח וַיֹּאמֶר לְמֶֽלֶךְ־יִשְׂרָאֵל הַךְ־אַרְצָה וַיַּךְ שָֽׁלֹשׁ־פְּעָמִים וַֽיַּעֲמֹֽד וַיִּקְצֹף עָלָיו אִישׁ הָאֱלֹהִים וַיֹּאמֶר לְהַכּוֹת חָמֵשׁ אוֹ־שֵׁשׁ פְּעָמִים אָז הִכִּיתָ אֶת־אֲרָם עַד־כַּלֵּה וְעַתָּה שָׁלֹשׁ פְּעָמִים תַּכֶּה אֶת־אֲרָֽם",
+        "riddle": "לְהַכּוֹת חָמֵשׁ אוֹ־שֵׁשׁ פְּעָמִים אָז הִכִּיתָ אֶת־אֲרָם עַד־כַּלֵּה וְעַתָּה שָׁלֹשׁ פְּעָמִים תַּכֶּה אֶת־אֲרָֽם",
+        "speaker": "אִישׁ הָאֱלֹהִים",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "חִזְקִיָּהוּ",
+            "נָתַן"
+          ],
+          "listener": [
+            "חִזְקִיָּהוּ",
+            "סַנְחֵרִיב",
+            "אֵלִיָּהוּ"
+          ]
+        },
+        "bonus": "הַחִצִּים",
+        "bonus_hint": {
+          "quote": "וַאֲנִי שְׁלֹשֶׁת הַחִצִּים צִדָּה אוֹרֶה לְשַֽׁלַּֽח־לִי לְמַטָּרָֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 20,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed.",
+          "19": "And the man of God was wroth with him, and said, Thou shouldest have smitten five or six times; then hadst thou smitten Syria till thou hadst consumed it: whereas now thou shalt smite Syria but thrice."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר קַח הַחִצִּים וַיִּקָּח וַיֹּאמֶר לְמֶֽלֶךְ־יִשְׂרָאֵל הַךְ־אַרְצָה וַיַּךְ שָֽׁלֹשׁ־פְּעָמִים וַֽיַּעֲמֹֽד׃",
+          "19": "וַיִּקְצֹף עָלָיו אִישׁ הָאֱלֹהִים וַיֹּאמֶר לְהַכּוֹת חָמֵשׁ אוֹ־שֵׁשׁ פְּעָמִים אָז הִכִּיתָ אֶת־אֲרָם עַד־כַּלֵּה וְעַתָּה שָׁלֹשׁ פְּעָמִים תַּכֶּה אֶת־אֲרָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 18,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -6,6 +6,136 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-20-03-03",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "I beseech thee, O LORD, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore.",
+        "riddle": "I beseech thee, O LORD, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight.",
+        "speaker": "Hezekiah",
+        "listener": "the LORD",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אָנָּה יְהוָה זְכָר־נָא אֵת אֲשֶׁר הִתְהַלַּכְתִּי לְפָנֶיךָ בֶּֽאֱמֶת וּבְלֵבָב שָׁלֵם וְהַטּוֹב בְּעֵינֶיךָ עָשִׂיתִי וַיֵּבְךְּ חִזְקִיָּהוּ בְּכִי גָדֽוֹל",
+        "riddle": "אָנָּה יְהוָה זְכָר־נָא אֵת אֲשֶׁר הִתְהַלַּכְתִּי לְפָנֶיךָ בֶּֽאֱמֶת וּבְלֵבָב שָׁלֵם וְהַטּוֹב בְּעֵינֶיךָ עָשִׂיתִי",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְהוָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "I beseech thee, O LORD, remember now how I have walked before thee in truth and with a perfect heart, and have done that which is good in thy sight. And Hezekiah wept sore."
+        },
+        "he": {
+          "3": "אָנָּה יְהוָה זְכָר־נָא אֵת אֲשֶׁר הִתְהַלַּכְתִּי לְפָנֶיךָ בֶּֽאֱמֶת וּבְלֵבָב שָׁלֵם וְהַטּוֹב בְּעֵינֶיךָ עָשִׂיתִי וַיֵּבְךְּ חִזְקִיָּהוּ בְּכִי גָדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-kings-20-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Isaiah said, Take a lump of figs. And they took and laid it on the boil, and he recovered.",
+        "riddle": "Take a lump of figs.",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְשַֽׁעְיָהוּ קְחוּ דְּבֶלֶת תְּאֵנִים וַיִּקְחוּ וַיָּשִׂימוּ עַֽל־הַשְּׁחִין וַיֶּֽחִי",
+        "riddle": "קְחוּ דְּבֶלֶת תְּאֵנִים",
+        "speaker": "יְשַֽׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Isaiah said, Take a lump of figs. And they took and laid it on the boil, and he recovered."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְשַֽׁעְיָהוּ קְחוּ דְּבֶלֶת תְּאֵנִים וַיִּקְחוּ וַיָּשִׂימוּ עַֽל־הַשְּׁחִין וַיֶּֽחִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-kings-20-10-10",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Hezekiah answered, It is a light thing for the shadow to go down ten degrees: nay, but let the shadow return backward ten degrees.",
+        "riddle": "It is a light thing for the shadow to go down ten degrees: nay, but let the shadow return backward ten degrees.",
+        "speaker": "Hezekiah",
+        "listener": "Isaiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְחִזְקִיָּהוּ נָקֵל לַצֵּל לִנְטוֹת עֶשֶׂר מַעֲלוֹת לֹא כִי יָשׁוּב הַצֵּל אֲחֹרַנִּית עֶשֶׂר מַעֲלֽוֹת",
+        "riddle": "וַיֹּאמֶר יְחִזְקִיָּהוּ נָקֵל לַצֵּל לִנְטוֹת עֶשֶׂר מַעֲלוֹת לֹא כִי יָשׁוּב הַצֵּל אֲחֹרַנִּית עֶשֶׂר מַעֲלֽוֹת",
+        "speaker": "יְחִזְקִיָּהוּ",
+        "listener": "יְשַׁעְיָהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Isaiah said, This sign shalt thou have of the LORD, that the LORD will do the thing that he hath spoken: shall the shadow go forth ten degrees, or go back ten degrees?",
+          "10": "And Hezekiah answered, It is a light thing for the shadow to go down ten degrees: nay, but let the shadow return backward ten degrees."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְשַׁעְיָהוּ זֶה־לְּךָ הָאוֹת מֵאֵת יְהוָה כִּי יַעֲשֶׂה יְהוָה אֶת־הַדָּבָר אֲשֶׁר דִּבֵּר הָלַךְ הַצֵּל עֶשֶׂר מַֽעֲלוֹת אִם־יָשׁוּב עֶשֶׂר מַעֲלֽוֹת׃",
+          "10": "וַיֹּאמֶר יְחִזְקִיָּהוּ נָקֵל לַצֵּל לִנְטוֹת עֶשֶׂר מַעֲלוֹת לֹא כִי יָשׁוּב הַצֵּל אֲחֹרַנִּית עֶשֶׂר מַעֲלֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
       "id": "2-kings-20-14-14",
       "source": {
         "book_code": "2KI",
@@ -13,7 +143,9 @@
         "book_he": "מלכים ב",
         "chapter": 20,
         "quote_verse_start": 14,
-        "quote_verse_end": 14
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.",
@@ -25,7 +157,7 @@
       "he": {
         "quote": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל",
         "riddle": "מָה אָמְרוּ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ",
-        "speaker": "יְשַֽׁעְיָהוּ",
+        "speaker": "יְשַֽׁעְיָהוּ הַנָּבִיא",
         "listener": "חִזְקִיָּהוּ",
         "book": "מלכים ב"
       },
@@ -38,7 +170,7 @@
         }
       },
       "meta": {
-        "reason": "Contains direct questions",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -48,27 +180,75 @@
       }
     },
     {
-      "id": "2-kings-20-15-15",
+      "id": "2-kings-20-15-15-1",
       "source": {
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 20,
         "quote_verse_start": 15,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
         "riddle": "What have they seen in thine house?",
-        "speaker": "Prophet",
+        "speaker": "Isaiah",
         "listener": "Hezekiah",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
         "riddle": "מָה רָאוּ בְּבֵיתֶךָ",
-        "speaker": "נביא",
+        "speaker": "יְשַֽׁעְיָהוּ הַנָּבִיא",
         "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Then came Isaiah the prophet unto king Hezekiah, and said unto him, What said these men? and from whence came they unto thee? And Hezekiah said, They are come from a far country, even from Babylon.",
+          "15": "And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them."
+        },
+        "he": {
+          "14": "וַיָּבֹא יְשַֽׁעְיָהוּ הַנָּבִיא אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ וַיֹּאמֶר אֵלָיו מָה אָמְרוּ ׀ הָאֲנָשִׁים הָאֵלֶּה וּמֵאַיִן יָבֹאוּ אֵלֶיךָ וַיֹּאמֶר חִזְקִיָּהוּ מֵאֶרֶץ רְחוֹקָה בָּאוּ מִבָּבֶֽל׃",
+          "15": "וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-20-15-15-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And he said, What have they seen in thine house? And Hezekiah answered, All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+        "riddle": "All the things that are in mine house have they seen: there is nothing among my treasures that I have not shewed them.",
+        "speaker": "Hezekiah",
+        "listener": "Isaiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָה רָאוּ בְּבֵיתֶךָ וַיֹּאמֶר חִזְקִיָּהוּ אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
+        "riddle": "אֵת כָּל־אֲשֶׁר בְּבֵיתִי רָאוּ לֹא־הָיָה דָבָר אֲשֶׁר לֹֽא־הִרְאִיתִם בְּאֹצְרֹתָֽי",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְשַׁעְיָהוּ",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
@@ -80,7 +260,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
+        "reason": "direct reply",
         "confidence": 1.0
       },
       "ref": {
@@ -88,13 +268,148 @@
         "start": 15,
         "end": 15
       }
+    },
+    {
+      "id": "2-kings-20-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Isaiah said unto Hezekiah, Hear the word of the LORD.",
+        "riddle": "Hear the word of the LORD.",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְשַׁעְיָהוּ אֶל־חִזְקִיָּהוּ שְׁמַע דְּבַר־יְהוָֽה",
+        "riddle": "שְׁמַע דְּבַר־יְהוָֽה",
+        "speaker": "יְשַׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Isaiah said unto Hezekiah, Hear the word of the LORD."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יְשַׁעְיָהוּ אֶל־חִזְקִיָּהוּ שְׁמַע דְּבַר־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-kings-20-19-19-1",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?",
+        "riddle": "Good is the word of the LORD which thou hast spoken.",
+        "speaker": "Hezekiah",
+        "listener": "Isaiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי",
+        "riddle": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְשַֽׁעְיָהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?"
+        },
+        "he": {
+          "19": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-kings-20-19-19-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 20,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?",
+        "riddle": "Is it not good, if peace and truth be in my days?",
+        "speaker": "Isaiah",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי",
+        "riddle": "הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי",
+        "speaker": "יְשַֽׁעְיָהוּ",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Then said Hezekiah unto Isaiah, Good is the word of the LORD which thou hast spoken. And he said, Is it not good, if peace and truth be in my days?"
+        },
+        "he": {
+          "19": "וַיֹּאמֶר חִזְקִיָּהוּ אֶֽל־יְשַֽׁעְיָהוּ טוֹב דְּבַר־יְהוָה אֲשֶׁר דִּבַּרְתָּ וַיֹּאמֶר הֲלוֹא אִם־שָׁלוֹם וֶאֱמֶת יִהְיֶה בְיָמָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 19,
+        "end": 19
+      }
     }
   ],
   "stats": {
-    "window_count": 20,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 2,
-    "issue_count": 18
+    "llm_window_count": 3,
+    "projection_llm_count": 14,
+    "llm_call_count": 17,
+    "spec_count": 14,
+    "kept_count": 9,
+    "issue_count": 6
   }
 }

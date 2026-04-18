@@ -13,20 +13,22 @@
         "book_he": "שמות",
         "chapter": 9,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And the LORD said unto Moses and unto Aaron, Take to you handfuls of ashes of the furnace, and let Moses sprinkle it toward the heaven in the sight of Pharaoh.",
-        "riddle": "and let Moses sprinkle it toward the heaven in the sight of Pharaoh.",
-        "speaker": "LORD",
+        "riddle": "Take to you handfuls of ashes of the furnace, and let Moses sprinkle it toward the heaven in the sight of Pharaoh.",
+        "speaker": "the LORD",
         "listener": "Moses and Aaron",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה לְעֵינֵי פַרְעֹֽה",
-        "riddle": "קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן קְחוּ לָכֶם מְלֹא חָפְנֵיכֶם פִּיחַ כִּבְשָׁן וּזְרָקוֹ מֹשֶׁה הַשָּׁמַיְמָה לְעֵינֵי פַרְעֹֽה",
         "speaker": "יְהוָה",
-        "listener": "מֹשֶׁה ואהרן",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -38,13 +40,229 @@
         }
       },
       "meta": {
-        "reason": "Contains a vivid command.",
-        "confidence": 0.9
+        "reason": "divine command",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 9,
         "start": 8,
         "end": 8
+      }
+    },
+    {
+      "id": "exodus-09-14-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth.",
+        "riddle": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth.",
+        "speaker": "the LORD",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "כִּי בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ",
+        "riddle": "כִּי בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ",
+        "speaker": "יְהוָה",
+        "listener": "פַרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.",
+          "14": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי׃",
+          "14": "כִּי ׀ בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "exodus-09-15-15",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+        "riddle": "I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ",
+        "riddle": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ",
+        "speaker": "אל",
+        "listener": "פרעה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth."
+        },
+        "he": {
+          "15": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of judgment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "exodus-09-17-17",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "As yet exaltest thou thyself against my people, that thou wilt not let them go?",
+        "riddle": "As yet exaltest thou thyself against my people, that thou wilt not let them go?",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם",
+        "riddle": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם",
+        "speaker": "אלוהים",
+        "listener": "פרעה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "As yet exaltest thou thyself against my people, that thou wilt not let them go?"
+        },
+        "he": {
+          "17": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "exodus-09-18-18",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "Behold, to morrow about this time I will cause it to rain a very grievous hail, such as hath not been in Egypt since the foundation thereof even until now.",
+        "riddle": "Behold, to morrow about this time I will cause it to rain a very grievous hail",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּמִצְרַיִם לְמִן־הַיּוֹם הִוָּסְדָה וְעַד־עָֽתָּה",
+        "riddle": "הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד",
+        "speaker": "אלוהים",
+        "listener": "פרעה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Behold, to morrow about this time I will cause it to rain a very grievous hail, such as hath not been in Egypt since the foundation thereof even until now."
+        },
+        "he": {
+          "18": "הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּמִצְרַיִם לְמִן־הַיּוֹם הִוָּסְדָה וְעַד־עָֽתָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid warning",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "exodus-09-22-22",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Stretch forth thine hand toward heaven, that there may be hail in all the land of Egypt, upon man, and upon beast, and upon every herb of the field, throughout the land of Egypt.",
+        "riddle": "Stretch forth thine hand toward heaven, that there may be hail in all the land of Egypt, upon man, and upon beast, and upon every herb of the field, throughout the land of Egypt.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי בָרָד בְּכָל־אֶרֶץ מִצְרָיִם עַל־הָאָדָם וְעַל־הַבְּהֵמָה וְעַל כָּל־עֵשֶׂב הַשָּׂדֶה בְּאֶרֶץ מִצְרָֽיִם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי בָרָד בְּכָל־אֶרֶץ מִצְרָיִם עַל־הָאָדָם וְעַל־הַבְּהֵמָה וְעַל כָּל־עֵשֶׂב הַשָּׂדֶה בְּאֶרֶץ מִצְרָֽיִם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the LORD said unto Moses, Stretch forth thine hand toward heaven, that there may be hail in all the land of Egypt, upon man, and upon beast, and upon every herb of the field, throughout the land of Egypt."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָֽדְךָ עַל־הַשָּׁמַיִם וִיהִי בָרָד בְּכָל־אֶרֶץ מִצְרָיִם עַל־הָאָדָם וְעַל־הַבְּהֵמָה וְעַל כָּל־עֵשֶׂב הַשָּׂדֶה בְּאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 22,
+        "end": 22
       }
     },
     {
@@ -55,11 +273,13 @@
         "book_he": "שמות",
         "chapter": 9,
         "quote_verse_start": 27,
-        "quote_verse_end": 27
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
       },
       "en": {
         "quote": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
-        "riddle": "the LORD is righteous, and I and my people are wicked.",
+        "riddle": "I have sinned this time: the LORD is righteous, and I and my people are wicked.",
         "speaker": "Pharaoh",
         "listener": "Moses and Aaron",
         "book": "Exodus"
@@ -68,7 +288,7 @@
         "quote": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים",
         "riddle": "וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים",
         "speaker": "פַּרְעֹה",
-        "listener": "מֹשֶׁה ואהרן",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -80,7 +300,7 @@
         }
       },
       "meta": {
-        "reason": "Contains a vivid confession.",
+        "reason": "direct confession",
         "confidence": 0.95
       },
       "ref": {
@@ -88,13 +308,110 @@
         "start": 27,
         "end": 27
       }
+    },
+    {
+      "id": "exodus-09-28-28",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer.",
+        "riddle": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד",
+        "riddle": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+          "28": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer."
+        },
+        "he": {
+          "27": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים׃",
+          "28": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "command and promise",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "exodus-09-30-30",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "But as for thee and thy servants, I know that ye will not yet fear the LORD God.",
+        "riddle": "But as for thee and thy servants, I know that ye will not yet fear the LORD God.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים",
+        "riddle": "וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+          "29": "And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; and the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth is the LORD's.",
+          "30": "But as for thee and thy servants, I know that ye will not yet fear the LORD God."
+        },
+        "he": {
+          "27": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים׃",
+          "29": "וַיֹּאמֶר אֵלָיו מֹשֶׁה כְּצֵאתִי אֶת־הָעִיר אֶפְרֹשׂ אֶת־כַּפַּי אֶל־יְהוָה הַקֹּלוֹת יֶחְדָּלוּן וְהַבָּרָד לֹא יִֽהְיֶה־עוֹד לְמַעַן תֵּדַע כִּי לַיהוָה הָאָֽרֶץ׃",
+          "30": "וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct accusation",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 30,
+        "end": 30
+      }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 2,
-    "issue_count": 14
+    "llm_window_count": 6,
+    "projection_llm_count": 12,
+    "llm_call_count": 18,
+    "spec_count": 12,
+    "kept_count": 9,
+    "issue_count": 4
   }
 }

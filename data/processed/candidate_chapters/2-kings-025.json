@@ -4,12 +4,60 @@
   "book_he": "מלכים ב",
   "chapter": 25,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-kings-25-24-24",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 25,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Gedaliah sware to them, and to their men, and said unto them, Fear not to be the servants of the Chaldees: dwell in the land, and serve the king of Babylon; and it shall be well with you.",
+        "riddle": "Fear not to be the servants of the Chaldees: dwell in the land, and serve the king of Babylon; and it shall be well with you.",
+        "speaker": "Gedaliah",
+        "listener": "captains and their men",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשָּׁבַע לָהֶם גְּדַלְיָהוּ וּלְאַנְשֵׁיהֶם וַיֹּאמֶר לָהֶם אַל־תִּֽירְאוּ מֵעַבְדֵי הַכַּשְׂדִּים שְׁבוּ בָאָרֶץ וְעִבְדוּ אֶת־מֶלֶךְ בָּבֶל וְיִטַב לָכֶֽם",
+        "riddle": "אַל־תִּֽירְאוּ מֵעַבְדֵי הַכַּשְׂדִּים שְׁבוּ בָאָרֶץ וְעִבְדוּ אֶת־מֶלֶךְ בָּבֶל וְיִטַב לָכֶֽם",
+        "speaker": "גְּדַלְיָהוּ",
+        "listener": "אַנְשֵׁיהֶם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Gedaliah sware to them, and to their men, and said unto them, Fear not to be the servants of the Chaldees: dwell in the land, and serve the king of Babylon; and it shall be well with you."
+        },
+        "he": {
+          "24": "וַיִּשָּׁבַע לָהֶם גְּדַלְיָהוּ וּלְאַנְשֵׁיהֶם וַיֹּאמֶר לָהֶם אַל־תִּֽירְאוּ מֵעַבְדֵי הַכַּשְׂדִּים שְׁבוּ בָאָרֶץ וְעִבְדוּ אֶת־מֶלֶךְ בָּבֶל וְיִטַב לָכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 0,
-    "issue_count": 4
+    "llm_window_count": 2,
+    "projection_llm_count": 1,
+    "llm_call_count": 3,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

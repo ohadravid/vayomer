@@ -1,0 +1,87 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-01-49-49",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 1,
+        "quote_verse_start": 48,
+        "quote_verse_end": 49,
+        "speaker_mention_verse": 48,
+        "listener_mention_verse": 48
+      },
+      "en": {
+        "quote": "For the LORD had spoken unto Moses, saying, Only thou shalt not number the tribe of Levi, neither take the sum of them among the children of Israel:",
+        "riddle": "Only thou shalt not number the tribe of Levi, neither take the sum of them among the children of Israel",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "spoken",
+        "bonus_hint": {
+          "quote": "And Aaron spake all the words which the LORD had spoken unto Moses, and did the signs in the sight of the people.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 4,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר אַךְ אֶת־מַטֵּה לֵוִי לֹא תִפְקֹד וְאֶת־רֹאשָׁם לֹא תִשָּׂא בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל",
+        "riddle": "אַךְ אֶת־מַטֵּה לֵוִי לֹא תִפְקֹד וְאֶת־רֹאשָׁם לֹא תִשָּׂא בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר אַהֲרֹן אֵת כָּל־הַדְּבָרִים אֲשֶׁר־דִּבֶּר יְהוָה אֶל־מֹשֶׁה וַיַּעַשׂ הָאֹתֹת לְעֵינֵי הָעָֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 4,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "48": "For the LORD had spoken unto Moses, saying,",
+          "49": "Only thou shalt not number the tribe of Levi, neither take the sum of them among the children of Israel:"
+        },
+        "he": {
+          "48": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "49": "אַךְ אֶת־מַטֵּה לֵוִי לֹא תִפְקֹד וְאֶת־רֹאשָׁם לֹא תִשָּׂא בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 48,
+        "end": 49
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

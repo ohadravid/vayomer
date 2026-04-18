@@ -6,55 +6,288 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-03-17-18",
+      "id": "1-kings-03-05-05",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+        "riddle": "Ask what I shall give thee",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ",
+        "riddle": "שְׁאַל מָה אֶתֶּן־לָֽך",
+        "speaker": "אֱלֹהִים",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee."
+        },
+        "he": {
+          "5": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-kings-03-06-06",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And Solomon said, Thou hast shewed unto thy servant David my father great mercy, according as he walked before thee in truth, and in righteousness, and in uprightness of heart with thee; and thou hast kept for him this great kindness, that thou hast given him a son to sit on his throne, as it is this day.",
+        "riddle": "Thou hast shewed unto thy servant David my father great mercy",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁלֹמֹה אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה וּבְיִשְׁרַת לֵבָב עִמָּךְ וַתִּשְׁמָר־לוֹ אֶת־הַחֶסֶד הַגָּדוֹל הַזֶּה וַתִּתֶּן־לוֹ בֵן יֹשֵׁב עַל־כִּסְאוֹ כַּיּוֹם הַזֶּֽה",
+        "riddle": "אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "אֱלֹהִים",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+          "6": "And Solomon said, Thou hast shewed unto thy servant David my father great mercy, according as he walked before thee in truth, and in righteousness, and in uprightness of heart with thee; and thou hast kept for him this great kindness, that thou hast given him a son to sit on his throne, as it is this day."
+        },
+        "he": {
+          "5": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ׃",
+          "6": "וַיֹּאמֶר שְׁלֹמֹה אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה וּבְיִשְׁרַת לֵבָב עִמָּךְ וַתִּשְׁמָר־לוֹ אֶת־הַחֶסֶד הַגָּדוֹל הַזֶּה וַתִּתֶּן־לוֹ בֵן יֹשֵׁב עַל־כִּסְאוֹ כַּיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "1-kings-03-14-14",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+        "riddle": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ",
+        "riddle": "וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ",
+        "speaker": "אֱלֹהִים",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And God said unto him, Because thou hast asked this thing, and hast not asked for thyself long life; neither hast asked riches for thyself, nor hast asked the life of thine enemies; but hast asked for thyself understanding to discern judgment;",
+          "14": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר אֱלֹהִים אֵלָיו יַעַן אֲשֶׁר שָׁאַלְתָּ אֶת־הַדָּבָר הַזֶּה וְלֹֽא־שָׁאַלְתָּ לְּךָ יָמִים רַבִּים וְלֹֽא־שָׁאַלְתָּ לְּךָ עֹשֶׁר וְלֹא שָׁאַלְתָּ נֶפֶשׁ אֹיְבֶיךָ וְשָׁאַלְתָּ לְּךָ הָבִין לִשְׁמֹעַ מִשְׁפָּֽט׃",
+          "14": "וְאִם ׀ תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional promise",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-kings-03-17-17",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 3,
         "quote_verse_start": 17,
-        "quote_verse_end": 18
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 16
       },
       "en": {
-        "quote": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house. And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house.",
-        "riddle": "And the one woman said, O my lord, I",
-        "speaker": "woman",
+        "quote": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house.",
+        "riddle": "O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house.",
+        "speaker": "harlot",
         "listener": "Solomon",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי לְלִדְתִּי וַתֵּלֶד גַּם־הָאִשָּׁה הַזֹּאת וַאֲנַחְנוּ יַחְדָּו אֵֽין־זָר אִתָּנוּ בַּבַּיִת זוּלָתִי שְׁתַּֽיִם־אֲנַחְנוּ בַּבָּֽיִת",
-        "riddle": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת",
-        "speaker": "אִשָּׁה",
-        "listener": "שלמה",
+        "quote": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת",
+        "riddle": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת",
+        "speaker": "נָשִׁים זֹנוֹת",
+        "listener": "הַמֶּלֶךְ",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "17": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house.",
-          "18": "And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house."
+          "16": "Then came there two women, that were harlots, unto the king, and stood before him.",
+          "17": "And the one woman said, O my lord, I and this woman dwell in one house; and I was delivered of a child with her in the house."
         },
         "he": {
-          "17": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת׃",
-          "18": "וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי לְלִדְתִּי וַתֵּלֶד גַּם־הָאִשָּׁה הַזֹּאת וַאֲנַחְנוּ יַחְדָּו אֵֽין־זָר אִתָּנוּ בַּבַּיִת זוּלָתִי שְׁתַּֽיִם־אֲנַחְנוּ בַּבָּֽיִת׃"
+          "16": "אָז תָּבֹאנָה שְׁתַּיִם נָשִׁים זֹנוֹת אֶל־הַמֶּלֶךְ וַֽתַּעֲמֹדְנָה לְפָנָֽיו׃",
+          "17": "וַתֹּאמֶר הָאִשָּׁה הָֽאַחַת בִּי אֲדֹנִי אֲנִי וְהָאִשָּׁה הַזֹּאת יֹשְׁבֹת בְּבַיִת אֶחָד וָאֵלֵד עִמָּהּ בַּבָּֽיִת׃"
         }
       },
       "meta": {
-        "reason": "Contains direct address and speech",
-        "confidence": 0.9
+        "reason": "direct speech declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 3,
         "start": 17,
-        "end": 18
+        "end": 17
+      }
+    },
+    {
+      "id": "1-kings-03-25-25",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the king said, Divide the living child in two, and give half to the one, and half to the other.",
+        "riddle": "Divide the living child in two, and give half to the one, and half to the other.",
+        "speaker": "the king",
+        "listener": "the people",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת",
+        "riddle": "גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the king said, Bring me a sword. And they brought a sword before the king.",
+          "25": "And the king said, Divide the living child in two, and give half to the one, and half to the other."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר הַמֶּלֶךְ קְחוּ לִי־חָרֶב וַיָּבִאוּ הַחֶרֶב לִפְנֵי הַמֶּֽלֶךְ׃",
+          "25": "וַיֹּאמֶר הַמֶּלֶךְ גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "1-kings-03-27-27",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof.",
+        "riddle": "Give her the living child, and in no wise slay it: she is the mother thereof.",
+        "speaker": "the king",
+        "listener": "the people",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת לֹא תְמִיתֻהוּ הִיא אִמּֽוֹ",
+        "riddle": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת לֹא תְמִיתֻהוּ הִיא אִמּֽוֹ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָאִשָּׁה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then spake the woman whose the living child was unto the king, for her bowels yearned upon her son, and she said, O my lord, give her the living child, and in no wise slay it. But the other said, Let it be neither mine nor thine, but divide it.",
+          "27": "Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof."
+        },
+        "he": {
+          "26": "וַתֹּאמֶר הָאִשָּׁה אֲשֶׁר־בְּנָהּ הַחַי אֶל־הַמֶּלֶךְ כִּֽי־נִכְמְרוּ רַחֲמֶיהָ עַל־בְּנָהּ וַתֹּאמֶר ׀ בִּי אֲדֹנִי תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת אַל־תְּמִיתֻהוּ וְזֹאת אֹמֶרֶת גַּם־לִי גַם־לָךְ לֹא יִהְיֶה גְּזֹֽרוּ׃",
+          "27": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת לֹא תְמִיתֻהוּ הִיא אִמּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "final verdict",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 27,
+        "end": 27
       }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 1,
-    "issue_count": 17
+    "llm_window_count": 5,
+    "projection_llm_count": 12,
+    "llm_call_count": 17,
+    "spec_count": 12,
+    "kept_count": 6,
+    "issue_count": 7
   }
 }

@@ -1,0 +1,101 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 21,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-21-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 21,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make the atonement, that ye may bless the inheritance of the LORD? And the Gibeonites said unto him, We will have no silver nor gold of Saul, nor of his house; neither for us shalt thou kill any man in Israel. And he said, What ye shall say, that will I do for you.",
+        "riddle": "We will have no silver nor gold of Saul, nor of his house; neither for us shalt thou kill any man in Israel.",
+        "speaker": "Gibeonites",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Absalom's servants",
+            "Philistines",
+            "elders of Israel"
+          ],
+          "listener": [
+            "Saul",
+            "Joab",
+            "Abner"
+          ]
+        },
+        "bonus": "atonement",
+        "bonus_hint": {
+          "quote": "Wherefore have ye not eaten the sin offering in the holy place, seeing it is most holy, and God hath given it you to bear the iniquity of the congregation, to make atonement for them before the LORD?",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 10,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַגִּבְעֹנִים מָה אֶעֱשֶׂה לָכֶם וּבַמָּה אֲכַפֵּר וּבָרְכוּ אֶת־נַחֲלַת יְהוָֽה וַיֹּאמְרוּ לוֹ הַגִּבְעֹנִים אֵֽין־לָנוּ כֶּסֶף וְזָהָב עִם־שָׁאוּל וְעִם־בֵּיתוֹ וְאֵֽין־לָנוּ אִישׁ לְהָמִית בְּיִשְׂרָאֵל וַיֹּאמֶר מָֽה־אַתֶּם אֹמְרִים אֶעֱשֶׂה לָכֶֽם",
+        "riddle": "אֵֽין־לָנוּ כֶּסֶף וְזָהָב עִם־שָׁאוּל וְעִם־בֵּיתוֹ וְאֵֽין־לָנוּ אִישׁ לְהָמִית בְּיִשְׂרָאֵל וַיֹּאמֶר מָֽה־אַתֶּם אֹמְרִים אֶעֱשֶׂה לָכֶֽם",
+        "speaker": "הַגִּבְעֹנִים",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "עַבְדֵי אַבְשָׁלוֹם",
+            "פְּלִשְׁתִּים",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "יוֹאָב",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "לָכֶם",
+        "bonus_hint": {
+          "quote": "מַדּוּעַ לֹֽא־אֲכַלְתֶּם אֶת־הַֽחַטָּאת בִּמְקוֹם הַקֹּדֶשׁ כִּי קֹדֶשׁ קָֽדָשִׁים הִוא וְאֹתָהּ נָתַן לָכֶם לָשֵׂאת אֶת־עֲוֺן הָעֵדָה לְכַפֵּר עֲלֵיהֶם לִפְנֵי יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Wherefore David said unto the Gibeonites, What shall I do for you? and wherewith shall I make the atonement, that ye may bless the inheritance of the LORD?",
+          "4": "And the Gibeonites said unto him, We will have no silver nor gold of Saul, nor of his house; neither for us shalt thou kill any man in Israel. And he said, What ye shall say, that will I do for you."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר דָּוִד אֶל־הַגִּבְעֹנִים מָה אֶעֱשֶׂה לָכֶם וּבַמָּה אֲכַפֵּר וּבָרְכוּ אֶת־נַחֲלַת יְהוָֽה׃",
+          "4": "וַיֹּאמְרוּ לוֹ הַגִּבְעֹנִים אֵֽין־לָנוּ כֶּסֶף וְזָהָב עִם־שָׁאוּל וְעִם־בֵּיתוֹ וְאֵֽין־לָנוּ אִישׁ לְהָמִית בְּיִשְׂרָאֵל וַיֹּאמֶר מָֽה־אַתֶּם אֹמְרִים אֶעֱשֶׂה לָכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

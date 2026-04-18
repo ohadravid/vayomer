@@ -6,53 +6,187 @@
   "mode": "llm",
   "items": [
     {
-      "id": "judges-01-14-14",
+      "id": "judges-01-02-02",
       "source": {
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 1,
-        "quote_verse_start": 14,
-        "quote_verse_end": 14
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
       },
       "en": {
-        "quote": "And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?",
-        "riddle": "What wilt thou?",
-        "speaker": "Caleb",
-        "listener": "Achsah",
+        "quote": "And the LORD said, Judah shall go up: behold, I have delivered the land into his hand.",
+        "riddle": "Judah shall go up: behold, I have delivered the land into his hand.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
         "book": "Judges"
       },
       "he": {
-        "quote": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
-        "riddle": "מַה־לָּֽךְ",
-        "speaker": "כָּלֵב",
-        "listener": "אכסה",
+        "quote": "וַיֹּאמֶר יְהוָה יְהוּדָה יַעֲלֶה הִנֵּה נָתַתִּי אֶת־הָאָרֶץ בְּיָדֽוֹ",
+        "riddle": "יְהוּדָה יַעֲלֶה הִנֵּה נָתַתִּי אֶת־הָאָרֶץ בְּיָדֽו",
+        "speaker": "יְהוָה",
+        "listener": "יְהוּדָה",
         "book": "שופטים"
       },
       "raw_quote_source": {
         "en": {
-          "14": "And it came to pass, when she came to him, that she moved him to ask of her father a field: and she lighted from off her ass; and Caleb said unto her, What wilt thou?"
+          "2": "And the LORD said, Judah shall go up: behold, I have delivered the land into his hand."
         },
         "he": {
-          "14": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ הַשָּׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+          "2": "וַיֹּאמֶר יְהוָה יְהוּדָה יַעֲלֶה הִנֵּה נָתַתִּי אֶת־הָאָרֶץ בְּיָדֽוֹ׃"
         }
       },
       "meta": {
-        "reason": "Contains direct question.",
-        "confidence": 1.0
+        "reason": "divine declaration",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 1,
-        "start": 14,
-        "end": 14
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "judges-01-03-03",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him.",
+        "riddle": "Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot.",
+        "speaker": "Judah",
+        "listener": "Simeon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוּדָה לְשִׁמְעוֹן אָחִיו עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶךָ וַיֵּלֶךְ אִתּוֹ שִׁמְעֽוֹן",
+        "riddle": "עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶך",
+        "speaker": "יְהוּדָה",
+        "listener": "שִׁמְעֽוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Judah said unto Simeon his brother, Come up with me into my lot, that we may fight against the Canaanites; and I likewise will go with thee into thy lot. So Simeon went with him."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר יְהוּדָה לְשִׁמְעוֹן אָחִיו עֲלֵה אִתִּי בְגוֹרָלִי וְנִֽלָּחֲמָה בַּֽכְּנַעֲנִי וְהָלַכְתִּי גַם־אֲנִי אִתְּךָ בְּגוֹרָלֶךָ וַיֵּלֶךְ אִתּוֹ שִׁמְעֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and promise",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "judges-01-15-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 1,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And she said unto him, Give me a blessing: for thou hast given me a south land; give me also springs of water. And Caleb gave her the upper springs and the nether springs.",
+        "riddle": "Give me a blessing: for thou hast given me a south land; give me also springs of water.",
+        "speaker": "Achsah",
+        "listener": "Caleb",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לוֹ הָֽבָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ כָּלֵב אֵת גֻּלֹּת עִלִּית וְאֵת גֻּלֹּת תַּחְתִּֽית",
+        "riddle": "הָֽבָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ כָּלֵב אֵת גֻּלֹּת עִלִּית וְאֵת גֻּלֹּת תַּחְתִּֽית",
+        "speaker": "עַכְשָׁה",
+        "listener": "כָּלֵב",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And she said unto him, Give me a blessing: for thou hast given me a south land; give me also springs of water. And Caleb gave her the upper springs and the nether springs."
+        },
+        "he": {
+          "15": "וַתֹּאמֶר לוֹ הָֽבָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ כָּלֵב אֵת גֻּלֹּת עִלִּית וְאֵת גֻּלֹּת תַּחְתִּֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "judges-01-24-24",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 1,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the spies saw a man come forth out of the city, and they said unto him, Shew us, we pray thee, the entrance into the city, and we will shew thee mercy.",
+        "riddle": "Shew us, we pray thee, the entrance into the city, and we will shew thee mercy.",
+        "speaker": "spies",
+        "listener": "man",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיִּרְאוּ הַשֹּׁמְרִים אִישׁ יוֹצֵא מִן־הָעִיר וַיֹּאמְרוּ לוֹ הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד",
+        "riddle": "הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד",
+        "speaker": "הַשֹּׁמְרִים",
+        "listener": "אִישׁ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the spies saw a man come forth out of the city, and they said unto him, Shew us, we pray thee, the entrance into the city, and we will shew thee mercy."
+        },
+        "he": {
+          "24": "וַיִּרְאוּ הַשֹּׁמְרִים אִישׁ יוֹצֵא מִן־הָעִיר וַיֹּאמְרוּ לוֹ הַרְאֵנוּ נָא אֶת־מְבוֹא הָעִיר וְעָשִׂינוּ עִמְּךָ חָֽסֶד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 24,
+        "end": 24
       }
     }
   ],
   "stats": {
-    "window_count": 19,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 19,
-    "kept_count": 1,
-    "issue_count": 18
+    "llm_window_count": 5,
+    "projection_llm_count": 7,
+    "llm_call_count": 12,
+    "spec_count": 7,
+    "kept_count": 4,
+    "issue_count": 4
   }
 }

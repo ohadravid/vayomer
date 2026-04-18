@@ -6,55 +6,327 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-06-06-07",
+      "id": "exodus-06-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And God spake unto Moses, and said unto him, I am the LORD:",
+        "riddle": "I am the LORD:",
+        "speaker": "God",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר אֱלֹהִים אֶל־מֹשֶׁה וַיֹּאמֶר אֵלָיו אֲנִי יְהוָֽה",
+        "riddle": "אֵלָיו אֲנִי יְהוָֽה",
+        "speaker": "אֱלֹהִים",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And God spake unto Moses, and said unto him, I am the LORD:"
+        },
+        "he": {
+          "2": "וַיְדַבֵּר אֱלֹהִים אֶל־מֹשֶׁה וַיֹּאמֶר אֵלָיו אֲנִי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-06-06-06",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 6,
         "quote_verse_start": 6,
-        "quote_verse_end": 7
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 6
       },
       "en": {
-        "quote": "Wherefore say unto the children of Israel, I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with a stretched out arm, and with great judgments: And I will take you to me for a people, and I will be to you a God: and ye shall know that I am the LORD your God, which bringeth you out from under the burdens of the Egyptians.",
-        "riddle": "and ye shall know that I am the LORD your God, which bringeth you out from under the burdens of the Egyptians.",
-        "speaker": "God",
-        "listener": "Israel",
+        "quote": "Wherefore say unto the children of Israel, I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with a stretched out arm, and with great judgments:",
+        "riddle": "I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with a stretched out arm, and with great judgments:",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
         "book": "Exodus"
       },
       "he": {
-        "quote": "לָכֵן אֱמֹר לִבְנֵֽי־יִשְׂרָאֵל אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה וּבִשְׁפָטִים גְּדֹלִֽים וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵֽאלֹהִים וִֽידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָֽיִם",
-        "riddle": "אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם",
-        "speaker": "אלוהים",
-        "listener": "יִשְׂרָאֵל",
+        "quote": "לָכֵן אֱמֹר לִבְנֵֽי־יִשְׂרָאֵל אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה וּבִשְׁפָטִים גְּדֹלִֽים",
+        "riddle": "לָכֵן אֱמֹר לִבְנֵֽי־יִשְׂרָאֵל אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה וּבִשְׁפָטִים גְּדֹלִֽים",
+        "speaker": "יְהוָה",
+        "listener": "בְנֵֽי יִשְׂרָאֵל",
         "book": "שמות"
       },
       "raw_quote_source": {
         "en": {
           "6": "Wherefore say unto the children of Israel, I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with a stretched out arm, and with great judgments:",
-          "7": "And I will take you to me for a people, and I will be to you a God: and ye shall know that I am the LORD your God, which bringeth you out from under the burdens of the Egyptians."
+          "10": "And the LORD spake unto Moses, saying,"
         },
         "he": {
           "6": "לָכֵן אֱמֹר לִבְנֵֽי־יִשְׂרָאֵל אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה וּבִשְׁפָטִים גְּדֹלִֽים׃",
-          "7": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵֽאלֹהִים וִֽידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָֽיִם׃"
+          "10": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃"
         }
       },
       "meta": {
-        "reason": "Vivid declaration of identity and action.",
+        "reason": "divine promise/command",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 6,
         "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "exodus-06-07-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And I will take you to me for a people, and I will be to you a God: and ye shall know that I am the LORD your God, which bringeth you out from under the burdens of the Egyptians.",
+        "riddle": "I will take you to me for a people, and I will be to you a God: and ye shall know that I am the LORD your God",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵֽאלֹהִים וִֽידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָֽיִם",
+        "riddle": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵֽאלֹהִים וִֽידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָֽיִם",
+        "speaker": "יְהוָה",
+        "listener": "בְנֵֽי יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Wherefore say unto the children of Israel, I am the LORD, and I will bring you out from under the burdens of the Egyptians, and I will rid you out of their bondage, and I will redeem you with a stretched out arm, and with great judgments:",
+          "7": "And I will take you to me for a people, and I will be to you a God: and ye shall know that I am the LORD your God, which bringeth you out from under the burdens of the Egyptians.",
+          "10": "And the LORD spake unto Moses, saying,"
+        },
+        "he": {
+          "6": "לָכֵן אֱמֹר לִבְנֵֽי־יִשְׂרָאֵל אֲנִי יְהוָה וְהוֹצֵאתִי אֶתְכֶם מִתַּחַת סִבְלֹת מִצְרַיִם וְהִצַּלְתִּי אֶתְכֶם מֵעֲבֹדָתָם וְגָאַלְתִּי אֶתְכֶם בִּזְרוֹעַ נְטוּיָה וּבִשְׁפָטִים גְּדֹלִֽים׃",
+          "7": "וְלָקַחְתִּי אֶתְכֶם לִי לְעָם וְהָיִיתִי לָכֶם לֵֽאלֹהִים וִֽידַעְתֶּם כִּי אֲנִי יְהוָה אֱלֹהֵיכֶם הַמּוֹצִיא אֶתְכֶם מִתַּחַת סִבְלוֹת מִצְרָֽיִם׃",
+          "10": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 7,
         "end": 7
+      }
+    },
+    {
+      "id": "exodus-06-11-11",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land.",
+        "riddle": "Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ",
+        "riddle": "בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the LORD spake unto Moses, saying,",
+          "11": "Go in, speak unto Pharaoh king of Egypt, that he let the children of Israel go out of his land."
+        },
+        "he": {
+          "10": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "11": "בֹּא דַבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם וִֽישַׁלַּח אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאַרְצֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "exodus-06-12-12",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Moses spake before the LORD, saying, Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?",
+        "riddle": "Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מֹשֶׁה לִפְנֵי יְהוָה לֵאמֹר הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם",
+        "riddle": "הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses spake before the LORD, saying, Behold, the children of Israel have not hearkened unto me; how then shall Pharaoh hear me, who am of uncircumcised lips?"
+        },
+        "he": {
+          "12": "וַיְדַבֵּר מֹשֶׁה לִפְנֵי יְהוָה לֵאמֹר הֵן בְּנֵֽי־יִשְׂרָאֵל לֹֽא־שָׁמְעוּ אֵלַי וְאֵיךְ יִשְׁמָעֵנִי פַרְעֹה וַאֲנִי עֲרַל שְׂפָתָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "exodus-06-29-29",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "That the LORD spake unto Moses, saying, I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee.",
+        "riddle": "I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר אֲנִי יְהוָה דַּבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרַיִם אֵת כָּל־אֲשֶׁר אֲנִי דֹּבֵר אֵלֶֽיךָ",
+        "riddle": "אֲנִי יְהוָה דַּבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרַיִם אֵת כָּל־אֲשֶׁר אֲנִי דֹּבֵר אֵלֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "That the LORD spake unto Moses, saying, I am the LORD: speak thou unto Pharaoh king of Egypt all that I say unto thee."
+        },
+        "he": {
+          "29": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹר אֲנִי יְהוָה דַּבֵּר אֶל־פַּרְעֹה מֶלֶךְ מִצְרַיִם אֵת כָּל־אֲשֶׁר אֲנִי דֹּבֵר אֵלֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "exodus-06-30-30",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 6,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30
+      },
+      "en": {
+        "quote": "And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?",
+        "riddle": "Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה לִפְנֵי יְהוָה הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה",
+        "riddle": "הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And Moses said before the LORD, Behold, I am of uncircumcised lips, and how shall Pharaoh hearken unto me?"
+        },
+        "he": {
+          "30": "וַיֹּאמֶר מֹשֶׁה לִפְנֵי יְהוָה הֵן אֲנִי עֲרַל שְׂפָתַיִם וְאֵיךְ יִשְׁמַע אֵלַי פַּרְעֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 30,
+        "end": 30
       }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 1,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 7,
+    "llm_call_count": 11,
+    "spec_count": 7,
+    "kept_count": 7,
+    "issue_count": 0
   }
 }

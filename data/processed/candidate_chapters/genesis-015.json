@@ -6,6 +6,226 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-15-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward.",
+        "riddle": "Fear not, Abram: I am thy shield, and thy exceeding great reward.",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אַחַר הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד",
+        "riddle": "דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "After these things the word of the LORD came unto Abram in a vision, saying, Fear not, Abram: I am thy shield, and thy exceeding great reward."
+        },
+        "he": {
+          "1": "אַחַר ׀ הַדְּבָרִים הָאֵלֶּה הָיָה דְבַר־יְהוָה אֶל־אַבְרָם בַּֽמַּחֲזֶה לֵאמֹר אַל־תִּירָא אַבְרָם אָנֹכִי מָגֵן לָךְ שְׂכָרְךָ הַרְבֵּה מְאֹֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-15-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?",
+        "riddle": "Lord GOD, what wilt thou give me, seeing I go childless",
+        "speaker": "Abram",
+        "listener": "LORD",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶּר אַבְרָם אֲדֹנָי יֱהוִה מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּבֶן־מֶשֶׁק בֵּיתִי הוּא דַּמֶּשֶׂק אֱלִיעֶֽזֶר",
+        "riddle": "אֲדֹנָי יֱהוִה מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּבֶן־מֶשֶׁק בֵּיתִי",
+        "speaker": "אַבְרָם",
+        "listener": "אֲדֹנָי יֱהוִה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Abram said, Lord GOD, what wilt thou give me, seeing I go childless, and the steward of my house is this Eliezer of Damascus?"
+        },
+        "he": {
+          "2": "וַיֹּאמֶּר אַבְרָם אֲדֹנָי יֱהוִה מַה־תִּתֶּן־לִי וְאָנֹכִי הוֹלֵךְ עֲרִירִי וּבֶן־מֶשֶׁק בֵּיתִי הוּא דַּמֶּשֶׂק אֱלִיעֶֽזֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-15-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And, behold, the word of the LORD came unto him, saying, This shall not be thine heir; but he that shall come forth out of thine own bowels shall be thine heir.",
+        "riddle": "This shall not be thine heir; but he that shall come forth out of thine own bowels shall be thine heir.",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְהִנֵּה דְבַר־יְהוָה אֵלָיו לֵאמֹר לֹא יִֽירָשְׁךָ זֶה כִּי־אִם אֲשֶׁר יֵצֵא מִמֵּעֶיךָ הוּא יִֽירָשֶֽׁךָ",
+        "riddle": "לֹא יִֽירָשְׁךָ זֶה כִּי־אִם אֲשֶׁר יֵצֵא מִמֵּעֶיךָ הוּא יִֽירָשֶֽׁך",
+        "speaker": "יְהוָה",
+        "listener": "אברם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And, behold, the word of the LORD came unto him, saying, This shall not be thine heir; but he that shall come forth out of thine own bowels shall be thine heir."
+        },
+        "he": {
+          "4": "וְהִנֵּה דְבַר־יְהוָה אֵלָיו לֵאמֹר לֹא יִֽירָשְׁךָ זֶה כִּי־אִם אֲשֶׁר יֵצֵא מִמֵּעֶיךָ הוּא יִֽירָשֶֽׁךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prophecy",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-15-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be.",
+        "riddle": "Look now toward heaven, and tell the stars, if thou be able to number them",
+        "speaker": "Abram",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיּוֹצֵא אֹתוֹ הַחוּצָה וַיֹּאמֶר הַבֶּט־נָא הַשָּׁמַיְמָה וּסְפֹר הַכּוֹכָבִים אִם־תּוּכַל לִסְפֹּר אֹתָם וַיֹּאמֶר לוֹ כֹּה יִהְיֶה זַרְעֶֽךָ",
+        "riddle": "הַבֶּט־נָא הַשָּׁמַיְמָה וּסְפֹר הַכּוֹכָבִים אִם־תּוּכַל לִסְפֹּר אֹתָם וַיֹּאמֶר לוֹ כֹּה יִהְיֶה",
+        "speaker": "אברהם",
+        "listener": "אברהם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And he brought him forth abroad, and said, Look now toward heaven, and tell the stars, if thou be able to number them: and he said unto him, So shall thy seed be."
+        },
+        "he": {
+          "5": "וַיּוֹצֵא אֹתוֹ הַחוּצָה וַיֹּאמֶר הַבֶּט־נָא הַשָּׁמַיְמָה וּסְפֹר הַכּוֹכָבִים אִם־תּוּכַל לִסְפֹּר אֹתָם וַיֹּאמֶר לוֹ כֹּה יִהְיֶה זַרְעֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "command and challenge",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "genesis-15-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And he said unto him, I am the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it.",
+        "riddle": "I am the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it.",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אֲנִי יְהוָה אֲשֶׁר הוֹצֵאתִיךָ מֵאוּר כַּשְׂדִּים לָתֶת לְךָ אֶת־הָאָרֶץ הַזֹּאת לְרִשְׁתָּֽהּ",
+        "riddle": "וַיֹּאמֶר אֵלָיו אֲנִי יְהוָה אֲשֶׁר הוֹצֵאתִיךָ מֵאוּר כַּשְׂדִּים לָתֶת לְךָ אֶת־הָאָרֶץ הַזֹּאת לְרִשְׁתָּֽהּ",
+        "speaker": "יְהוָה",
+        "listener": "אֲבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And he said unto him, I am the LORD that brought thee out of Ur of the Chaldees, to give thee this land to inherit it."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר אֵלָיו אֲנִי יְהוָה אֲשֶׁר הוֹצֵאתִיךָ מֵאוּר כַּשְׂדִּים לָתֶת לְךָ אֶת־הָאָרֶץ הַזֹּאת לְרִשְׁתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
       "id": "genesis-15-08-08",
       "source": {
         "book_code": "GEN",
@@ -13,20 +233,22 @@
         "book_he": "בראשית",
         "chapter": 15,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And he said, Lord GOD, whereby shall I know that I shall inherit it?",
-        "riddle": "whereby shall I know that I shall inherit it?",
-        "speaker": "Abraham",
-        "listener": "God",
+        "riddle": "Lord GOD, whereby shall I know that I shall inherit it?",
+        "speaker": "Abram",
+        "listener": "LORD",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמַר אֲדֹנָי יֱהוִה בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
-        "riddle": "בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
-        "speaker": "אברהם",
-        "listener": "אלוהים",
+        "riddle": "אֲדֹנָי יֱהוִה בַּמָּה אֵדַע כִּי אִֽירָשֶֽׁנָּה",
+        "speaker": "אברם",
+        "listener": "יֱהוִה",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -38,21 +260,158 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
         "start": 8,
         "end": 8
       }
+    },
+    {
+      "id": "genesis-15-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he said unto him, Take me an heifer of three years old, and a she goat of three years old, and a ram of three years old, and a turtledove, and a young pigeon.",
+        "riddle": "Take me an heifer of three years old, and a she goat of three years old, and a ram of three years old, and a turtledove, and a young pigeon.",
+        "speaker": "Lord GOD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו קְחָה לִי עֶגְלָה מְשֻׁלֶּשֶׁת וְעֵז מְשֻׁלֶּשֶׁת וְאַיִל מְשֻׁלָּשׁ וְתֹר וְגוֹזָֽל",
+        "riddle": "וַיֹּאמֶר אֵלָיו קְחָה לִי עֶגְלָה מְשֻׁלֶּשֶׁת וְעֵז מְשֻׁלֶּשֶׁת וְאַיִל מְשֻׁלָּשׁ וְתֹר וְגוֹזָֽל",
+        "speaker": "אלוהים",
+        "listener": "אברם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he said unto him, Take me an heifer of three years old, and a she goat of three years old, and a ram of three years old, and a turtledove, and a young pigeon."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר אֵלָיו קְחָה לִי עֶגְלָה מְשֻׁלֶּשֶׁת וְעֵז מְשֻׁלֶּשֶׁת וְאַיִל מְשֻׁלָּשׁ וְתֹר וְגוֹזָֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-15-13-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And he said unto Abram, Know of a surety that thy seed shall be a stranger in a land that is not theirs, and shall serve them; and they shall afflict them four hundred years; And also that nation, whom they shall serve, will I judge: and afterward shall they come out with great substance.",
+        "riddle": "Know of a surety that thy seed shall be a stranger in a land that is not theirs, and shall serve them; and they shall afflict them four hundred years; And also that nation, whom they shall serve, will I judge: and afterward shall they come out with great substance.",
+        "speaker": "God",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְאַבְרָם יָדֹעַ תֵּדַע כִּי־גֵר יִהְיֶה זַרְעֲךָ בְּאֶרֶץ לֹא לָהֶם וַעֲבָדוּם וְעִנּוּ אֹתָם אַרְבַּע מֵאוֹת שָׁנָֽה וְגַם אֶת־הַגּוֹי אֲשֶׁר יַעֲבֹדוּ דָּן אָנֹכִי וְאַחֲרֵי־כֵן יֵצְאוּ בִּרְכֻשׁ גָּדֽוֹל",
+        "riddle": "וַיֹּאמֶר לְאַבְרָם יָדֹעַ תֵּדַע כִּי־גֵר יִהְיֶה זַרְעֲךָ בְּאֶרֶץ לֹא לָהֶם וַעֲבָדוּם וְעִנּוּ אֹתָם אַרְבַּע מֵאוֹת שָׁנָֽה וְגַם אֶת־הַגּוֹי אֲשֶׁר יַעֲבֹדוּ דָּן אָנֹכִי וְאַחֲרֵי־כֵן יֵצְאוּ בִּרְכֻשׁ גָּדֽוֹל",
+        "speaker": "אל",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he said unto Abram, Know of a surety that thy seed shall be a stranger in a land that is not theirs, and shall serve them; and they shall afflict them four hundred years;",
+          "14": "And also that nation, whom they shall serve, will I judge: and afterward shall they come out with great substance."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר לְאַבְרָם יָדֹעַ תֵּדַע כִּי־גֵר ׀ יִהְיֶה זַרְעֲךָ בְּאֶרֶץ לֹא לָהֶם וַעֲבָדוּם וְעִנּוּ אֹתָם אַרְבַּע מֵאוֹת שָׁנָֽה׃",
+          "14": "וְגַם אֶת־הַגּוֹי אֲשֶׁר יַעֲבֹדוּ דָּן אָנֹכִי וְאַחֲרֵי־כֵן יֵצְאוּ בִּרְכֻשׁ גָּדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-15-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 15,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "In the same day the LORD made a covenant with Abram, saying, Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates:",
+        "riddle": "Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates:",
+        "speaker": "the LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "בַּיּוֹם הַהוּא כָּרַת יְהוָה אֶת־אַבְרָם בְּרִית לֵאמֹר לְזַרְעֲךָ נָתַתִּי אֶת־הָאָרֶץ הַזֹּאת מִנְּהַר מִצְרַיִם עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת",
+        "riddle": "לְזַרְעֲךָ נָתַתִּי אֶת־הָאָרֶץ הַזֹּאת מִנְּהַר מִצְרַיִם עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "In the same day the LORD made a covenant with Abram, saying, Unto thy seed have I given this land, from the river of Egypt unto the great river, the river Euphrates:"
+        },
+        "he": {
+          "18": "בַּיּוֹם הַהוּא כָּרַת יְהוָה אֶת־אַבְרָם בְּרִית לֵאמֹר לְזַרְעֲךָ נָתַתִּי אֶת־הָאָרֶץ הַזֹּאת מִנְּהַר מִצְרַיִם עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 18,
+        "end": 18
+      }
     }
   ],
   "stats": {
-    "window_count": 14,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 1,
-    "issue_count": 13
+    "llm_window_count": 4,
+    "projection_llm_count": 10,
+    "llm_call_count": 14,
+    "spec_count": 10,
+    "kept_count": 9,
+    "issue_count": 2
   }
 }

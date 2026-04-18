@@ -6,6 +6,48 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-19-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And he said, Behold now, my lords, turn in, I pray you, into your servant's house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways. And they said, Nay; but we will abide in the street all night.",
+        "riddle": "Behold now, my lords, turn in, I pray you, into your servant's house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways.",
+        "speaker": "Lot",
+        "listener": "angels",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הִנֶּה נָּא־אֲדֹנַי סוּרוּ נָא אֶל־בֵּית עַבְדְּכֶם וְלִינוּ וְרַחֲצוּ רַגְלֵיכֶם וְהִשְׁכַּמְתֶּם וַהֲלַכְתֶּם לְדַרְכְּכֶם וַיֹּאמְרוּ לֹּא כִּי בָרְחוֹב נָלִֽין",
+        "riddle": "וַיֹּאמֶר הִנֶּה נָּא־אֲדֹנַי סוּרוּ נָא אֶל־בֵּית עַבְדְּכֶם וְלִינוּ וְרַחֲצוּ רַגְלֵיכֶם וְהִשְׁכַּמְתֶּם וַהֲלַכְתֶּם לְדַרְכְּכֶם וַיֹּאמְרוּ לֹּא כִּי בָרְחוֹב נָלִֽין",
+        "speaker": "לוֹט",
+        "listener": "מַלְאָכִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he said, Behold now, my lords, turn in, I pray you, into your servant's house, and tarry all night, and wash your feet, and ye shall rise up early, and go on your ways. And they said, Nay; but we will abide in the street all night."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר הִנֶּה נָּא־אֲדֹנַי סוּרוּ נָא אֶל־בֵּית עַבְדְּכֶם וְלִינוּ וְרַחֲצוּ רַגְלֵיכֶם וְהִשְׁכַּמְתֶּם וַהֲלַכְתֶּם לְדַרְכְּכֶם וַיֹּאמְרוּ לֹּא כִּי בָרְחוֹב נָלִֽין׃"
+        }
+      },
+      "meta": {
+        "reason": "direct invitation",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
       "id": "genesis-19-07-07",
       "source": {
         "book_code": "GEN",
@@ -17,15 +59,15 @@
       },
       "en": {
         "quote": "And said, I pray you, brethren, do not so wickedly.",
-        "riddle": "do not so wickedly.",
+        "riddle": "I pray you, brethren, do not so wickedly.",
         "speaker": "Lot",
         "listener": "men of Sodom",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ",
-        "riddle": "נָא אַחַי תָּרֵֽעוּ",
-        "speaker": "לוט",
+        "riddle": "אַל־נָא אַחַי תָּרֵֽעוּ",
+        "speaker": "לוֹט",
         "listener": "אנשי סדום",
         "book": "בראשית"
       },
@@ -38,8 +80,8 @@
         }
       },
       "meta": {
-        "reason": "Direct command/warning.",
-        "confidence": 0.9
+        "reason": "direct warning",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 19,
@@ -48,55 +90,534 @@
       }
     },
     {
-      "id": "genesis-19-22-23",
+      "id": "genesis-19-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Behold now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore came they under the shadow of my roof.",
+        "riddle": "Behold now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore came they under the shadow of my roof.",
+        "speaker": "Lot",
+        "listener": "men of Sodom",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הִנֵּה־נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא־יָדְעוּ אִישׁ אוֹצִֽיאָה־נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל־תַּעֲשׂוּ דָבָר כִּֽי־עַל־כֵּן בָּאוּ בְּצֵל קֹרָתִֽי",
+        "riddle": "הִנֵּה־נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא־יָדְעוּ אִישׁ אוֹצִֽיאָה־נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל־תַּעֲשׂוּ דָבָר כִּֽי־עַל־כֵּן בָּאוּ בְּצֵל קֹרָתִֽי",
+        "speaker": "לוֹט",
+        "listener": "אֲנָשֵׁי סְדֹם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Behold now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore came they under the shadow of my roof."
+        },
+        "he": {
+          "8": "הִנֵּה־נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא־יָדְעוּ אִישׁ אוֹצִֽיאָה־נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל־תַּעֲשׂוּ דָבָר כִּֽי־עַל־כֵּן בָּאוּ בְּצֵל קֹרָתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and plea",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-19-09-09-1",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door.",
+        "riddle": "Stand back.",
+        "speaker": "men of Sodom",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ גֶּשׁ־הָלְאָה וַיֹּֽאמְרוּ הָאֶחָד בָּֽא־לָגוּר וַיִּשְׁפֹּט שָׁפוֹט עַתָּה נָרַע לְךָ מֵהֶם וַיִּפְצְרוּ בָאִישׁ בְּלוֹט מְאֹד וַֽיִּגְּשׁוּ לִשְׁבֹּר הַדָּֽלֶת",
+        "riddle": "גֶּשׁ־הָלְאָה",
+        "speaker": "אנשי סדום",
+        "listener": "לוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door."
+        },
+        "he": {
+          "9": "וַיֹּאמְרוּ ׀ גֶּשׁ־הָלְאָה וַיֹּֽאמְרוּ הָאֶחָד בָּֽא־לָגוּר וַיִּשְׁפֹּט שָׁפוֹט עַתָּה נָרַע לְךָ מֵהֶם וַיִּפְצְרוּ בָאִישׁ בְּלוֹט מְאֹד וַֽיִּגְּשׁוּ לִשְׁבֹּר הַדָּֽלֶת׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-19-09-09-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door.",
+        "riddle": "This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them.",
+        "speaker": "men of Sodom",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ גֶּשׁ־הָלְאָה וַיֹּֽאמְרוּ הָאֶחָד בָּֽא־לָגוּר וַיִּשְׁפֹּט שָׁפוֹט עַתָּה נָרַע לְךָ מֵהֶם וַיִּפְצְרוּ בָאִישׁ בְּלוֹט מְאֹד וַֽיִּגְּשׁוּ לִשְׁבֹּר הַדָּֽלֶת",
+        "riddle": "הָאֶחָד בָּֽא־לָגוּר וַיִּשְׁפֹּט שָׁפוֹט עַתָּה נָרַע לְךָ מֵהֶם",
+        "speaker": "הָאֶחָד",
+        "listener": "בְּלוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And they said, Stand back. And they said again, This one fellow came in to sojourn, and he will needs be a judge: now will we deal worse with thee, than with them. And they pressed sore upon the man, even Lot, and came near to break the door."
+        },
+        "he": {
+          "9": "וַיֹּאמְרוּ ׀ גֶּשׁ־הָלְאָה וַיֹּֽאמְרוּ הָאֶחָד בָּֽא־לָגוּר וַיִּשְׁפֹּט שָׁפוֹט עַתָּה נָרַע לְךָ מֵהֶם וַיִּפְצְרוּ בָאִישׁ בְּלוֹט מְאֹד וַֽיִּגְּשׁוּ לִשְׁבֹּר הַדָּֽלֶת׃"
+        }
+      },
+      "meta": {
+        "reason": "threat/declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-19-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+        "riddle": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it.",
+        "speaker": "angels",
+        "listener": "Lot",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כִּֽי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּֽי־גָֽדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָֽהּ",
+        "riddle": "כִּֽי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּֽי־גָֽדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָֽהּ",
+        "speaker": "מלאכים",
+        "listener": "לוֹט",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "For we will destroy this place, because the cry of them is waxen great before the face of the LORD; and the LORD hath sent us to destroy it."
+        },
+        "he": {
+          "13": "כִּֽי־מַשְׁחִתִים אֲנַחְנוּ אֶת־הַמָּקוֹם הַזֶּה כִּֽי־גָֽדְלָה צַעֲקָתָם אֶת־פְּנֵי יְהוָה וַיְשַׁלְּחֵנוּ יְהוָה לְשַׁחֲתָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "declaration of purpose",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "genesis-19-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law.",
+        "riddle": "Up, get you out of this place; for the LORD will destroy this city.",
+        "speaker": "Lot",
+        "listener": "sons in law",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֵּצֵא לוֹט וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו",
+        "riddle": "וַיְדַבֵּר אֶל־חֲתָנָיו לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר",
+        "speaker": "לוֹט",
+        "listener": "חֲתָנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Lot went out, and spake unto his sons in law, which married his daughters, and said, Up, get you out of this place; for the LORD will destroy this city. But he seemed as one that mocked unto his sons in law."
+        },
+        "he": {
+          "14": "וַיֵּצֵא לוֹט וַיְדַבֵּר ׀ אֶל־חֲתָנָיו ׀ לֹקְחֵי בְנֹתָיו וַיֹּאמֶר קוּמוּ צְּאוּ מִן־הַמָּקוֹם הַזֶּה כִּֽי־מַשְׁחִית יְהוָה אֶת־הָעִיר וַיְהִי כִמְצַחֵק בְּעֵינֵי חֲתָנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "warning/command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-19-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+        "riddle": "Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed.",
+        "speaker": "Lot",
+        "listener": "his family",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה",
+        "riddle": "הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה",
+        "speaker": "לוֹט",
+        "listener": "מִשְׁפַּחְתּוֹ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And it came to pass, when they had brought them forth abroad, that he said, Escape for thy life; look not behind thee, neither stay thou in all the plain; escape to the mountain, lest thou be consumed."
+        },
+        "he": {
+          "17": "וַיְהִי כְהוֹצִיאָם אֹתָם הַחוּצָה וַיֹּאמֶר הִמָּלֵט עַל־נַפְשֶׁךָ אַל־תַּבִּיט אַחֲרֶיךָ וְאַֽל־תַּעֲמֹד בְּכָל־הַכִּכָּר הָהָרָה הִמָּלֵט פֶּן־תִּסָּפֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "urgent warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-19-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Lot said unto them, Oh, not so, my Lord:",
+        "riddle": "Oh, not so, my Lord:",
+        "speaker": "Lot",
+        "listener": "angels",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָֽי",
+        "riddle": "אַל־נָא אֲדֹנָֽי",
+        "speaker": "לוֹט",
+        "listener": "אֲלֵהֶם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Lot said unto them, Oh, not so, my Lord:"
+        },
+        "he": {
+          "18": "וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-19-20-20",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live.",
+        "riddle": "Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live.",
+        "speaker": "Lot",
+        "listener": "angels",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הִנֵּה־נָא הָעִיר הַזֹּאת קְרֹבָה לָנוּס שָׁמָּה וְהִיא מִצְעָר אִמָּלְטָה נָּא שָׁמָּה הֲלֹא מִצְעָר הִוא וּתְחִי נַפְשִֽׁי",
+        "riddle": "הִנֵּה־נָא הָעִיר הַזֹּאת קְרֹבָה לָנוּס שָׁמָּה וְהִיא מִצְעָר אִמָּלְטָה נָּא שָׁמָּה הֲלֹא מִצְעָר הִוא וּתְחִי נַפְשִֽׁי",
+        "speaker": "לוֹט",
+        "listener": "מַלְאָכִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Behold now, this city is near to flee unto, and it is a little one: Oh, let me escape thither, (is it not a little one?) and my soul shall live."
+        },
+        "he": {
+          "20": "הִנֵּה־נָא הָעִיר הַזֹּאת קְרֹבָה לָנוּס שָׁמָּה וְהִיא מִצְעָר אִמָּלְטָה נָּא שָׁמָּה הֲלֹא מִצְעָר הִוא וּתְחִי נַפְשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "pleading request",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "genesis-19-22-22",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 19,
         "quote_verse_start": 22,
-        "quote_verse_end": 23
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
       },
       "en": {
-        "quote": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar. The sun was risen upon the earth when Lot entered into Zoar.",
-        "riddle": "Haste thee, escape thither; for I cannot do any thing till",
-        "speaker": "Angel",
+        "quote": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar.",
+        "riddle": "Haste thee, escape thither; for I cannot do any thing till thou be come thither.",
+        "speaker": "angel",
         "listener": "Lot",
         "book": "Genesis"
       },
       "he": {
-        "quote": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה",
-        "riddle": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד",
+        "quote": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר",
+        "riddle": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר",
         "speaker": "מלאך",
-        "listener": "לוֹט",
+        "listener": "לוט",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
-          "22": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar.",
-          "23": "The sun was risen upon the earth when Lot entered into Zoar."
+          "21": "And he said unto him, See, I have accepted thee concerning this thing also, that I will not overthrow this city, for the which thou hast spoken.",
+          "22": "Haste thee, escape thither; for I cannot do any thing till thou be come thither. Therefore the name of the city was called Zoar."
         },
         "he": {
-          "22": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר׃",
-          "23": "הַשֶּׁמֶשׁ יָצָא עַל־הָאָרֶץ וְלוֹט בָּא צֹֽעֲרָה׃"
+          "21": "וַיֹּאמֶר אֵלָיו הִנֵּה נָשָׂאתִי פָנֶיךָ גַּם לַדָּבָר הַזֶּה לְבִלְתִּי הָפְכִּי אֶת־הָעִיר אֲשֶׁר דִּבַּֽרְתָּ׃",
+          "22": "מַהֵר הִמָּלֵט שָׁמָּה כִּי לֹא אוּכַל לַעֲשׂוֹת דָּבָר עַד־בֹּאֲךָ שָׁמָּה עַל־כֵּן קָרָא שֵׁם־הָעִיר צֽוֹעַר׃"
         }
       },
       "meta": {
-        "reason": "Contains a direct command and warning",
-        "confidence": 0.95
+        "reason": "direct command",
+        "confidence": 0.93
       },
       "ref": {
         "chapter": 19,
         "start": 22,
-        "end": 23
+        "end": 22
+      }
+    },
+    {
+      "id": "genesis-19-31-31",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And the firstborn said unto the younger, Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:",
+        "riddle": "Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:",
+        "speaker": "firstborn daughter",
+        "listener": "younger daughter",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הַבְּכִירָה אֶל־הַצְּעִירָה אָבִינוּ זָקֵן וְאִישׁ אֵין בָּאָרֶץ לָבוֹא עָלֵינוּ כְּדֶרֶךְ כָּל־הָאָֽרֶץ",
+        "riddle": "אָבִינוּ זָקֵן וְאִישׁ אֵין בָּאָרֶץ לָבוֹא עָלֵינוּ כְּדֶרֶךְ כָּל־הָאָֽרֶץ",
+        "speaker": "הַבְּכִירָה",
+        "listener": "הַצְּעִירָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And the firstborn said unto the younger, Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:"
+        },
+        "he": {
+          "31": "וַתֹּאמֶר הַבְּכִירָה אֶל־הַצְּעִירָה אָבִינוּ זָקֵן וְאִישׁ אֵין בָּאָרֶץ לָבוֹא עָלֵינוּ כְּדֶרֶךְ כָּל־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "genesis-19-32-32",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "Come, let us make our father drink wine, and we will lie with him, that we may preserve seed of our father.",
+        "riddle": "Come, let us make our father drink wine, and we will lie with him, that we may preserve seed of our father.",
+        "speaker": "firstborn daughter",
+        "listener": "younger daughter",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "לְכָה נַשְׁקֶה אֶת־אָבִינוּ יַיִן וְנִשְׁכְּבָה עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע",
+        "riddle": "לְכָה נַשְׁקֶה אֶת־אָבִינוּ יַיִן וְנִשְׁכְּבָה עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע",
+        "speaker": "הַבְּכִירָה",
+        "listener": "הַצְּעִירָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And the firstborn said unto the younger, Our father is old, and there is not a man in the earth to come in unto us after the manner of all the earth:",
+          "32": "Come, let us make our father drink wine, and we will lie with him, that we may preserve seed of our father."
+        },
+        "he": {
+          "31": "וַתֹּאמֶר הַבְּכִירָה אֶל־הַצְּעִירָה אָבִינוּ זָקֵן וְאִישׁ אֵין בָּאָרֶץ לָבוֹא עָלֵינוּ כְּדֶרֶךְ כָּל־הָאָֽרֶץ׃",
+          "32": "לְכָה נַשְׁקֶה אֶת־אָבִינוּ יַיִן וְנִשְׁכְּבָה עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע׃"
+        }
+      },
+      "meta": {
+        "reason": "command/proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "genesis-19-34-34",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 19,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "And it came to pass on the morrow, that the firstborn said unto the younger, Behold, I lay yesternight with my father: let us make him drink wine this night also; and go thou in, and lie with him, that we may preserve seed of our Father.",
+        "riddle": "Behold, I lay yesternight with my father: let us make him drink wine this night also; and go thou in, and lie with him, that we may preserve seed of our Father.",
+        "speaker": "firstborn daughter",
+        "listener": "younger daughter",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַֽיְהִי מִֽמָּחֳרָת וַתֹּאמֶר הַבְּכִירָה אֶל־הַצְּעִירָה הֵן־שָׁכַבְתִּי אֶמֶשׁ אֶת־אָבִי נַשְׁקֶנּוּ יַיִן גַּם־הַלַּיְלָה וּבֹאִי שִׁכְבִי עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע",
+        "riddle": "הֵן־שָׁכַבְתִּי אֶמֶשׁ אֶת־אָבִי נַשְׁקֶנּוּ יַיִן גַּם־הַלַּיְלָה וּבֹאִי שִׁכְבִי עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע",
+        "speaker": "הַבְּכִירָה",
+        "listener": "הַצְּעִירָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And it came to pass on the morrow, that the firstborn said unto the younger, Behold, I lay yesternight with my father: let us make him drink wine this night also; and go thou in, and lie with him, that we may preserve seed of our Father."
+        },
+        "he": {
+          "34": "וַֽיְהִי מִֽמָּחֳרָת וַתֹּאמֶר הַבְּכִירָה אֶל־הַצְּעִירָה הֵן־שָׁכַבְתִּי אֶמֶשׁ אֶת־אָבִי נַשְׁקֶנּוּ יַיִן גַּם־הַלַּיְלָה וּבֹאִי שִׁכְבִי עִמּוֹ וּנְחַיֶּה מֵאָבִינוּ זָֽרַע׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 34,
+        "end": 34
       }
     }
   ],
   "stats": {
-    "window_count": 26,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 26,
-    "kept_count": 2,
-    "issue_count": 24
+    "llm_window_count": 6,
+    "projection_llm_count": 19,
+    "llm_call_count": 25,
+    "spec_count": 19,
+    "kept_count": 14,
+    "issue_count": 5
   }
 }

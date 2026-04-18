@@ -6,53 +6,279 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-25-25-25",
+      "id": "genesis-25-22-22",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 25,
-        "quote_verse_start": 25,
-        "quote_verse_end": 25
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22
       },
       "en": {
-        "quote": "And the first came out red, all over like an hairy garment; and they called his name Esau.",
-        "riddle": "all over like an hairy garment; and they called his name Esau.",
-        "speaker": "Narrator",
-        "listener": "None",
+        "quote": "And the children struggled together within her; and she said, If it be so, why am I thus? And she went to inquire of the LORD.",
+        "riddle": "If it be so, why am I thus?",
+        "speaker": "Rebekah",
+        "listener": "herself",
         "book": "Genesis"
       },
       "he": {
-        "quote": "וַיֵּצֵא הָרִאשׁוֹן אַדְמוֹנִי כֻּלּוֹ כְּאַדֶּרֶת שֵׂעָר וַיִּקְרְאוּ שְׁמוֹ עֵשָֽׂו",
-        "riddle": "אַדְמוֹנִי כֻּלּוֹ כְּאַדֶּרֶת שֵׂעָר וַיִּקְרְאוּ שְׁמוֹ עֵשָֽׂו",
-        "speaker": "מספר",
-        "listener": "אין",
+        "quote": "וַיִּתְרֹֽצֲצוּ הַבָּנִים בְּקִרְבָּהּ וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְהוָֽה",
+        "riddle": "וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי",
+        "speaker": "רבקה",
+        "listener": "רבקה",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
-          "25": "And the first came out red, all over like an hairy garment; and they called his name Esau."
+          "22": "And the children struggled together within her; and she said, If it be so, why am I thus? And she went to inquire of the LORD."
         },
         "he": {
-          "25": "וַיֵּצֵא הָרִאשׁוֹן אַדְמוֹנִי כֻּלּוֹ כְּאַדֶּרֶת שֵׂעָר וַיִּקְרְאוּ שְׁמוֹ עֵשָֽׂו׃"
+          "22": "וַיִּתְרֹֽצֲצוּ הַבָּנִים בְּקִרְבָּהּ וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְהוָֽה׃"
         }
       },
       "meta": {
-        "reason": "Vivid description and naming.",
-        "confidence": 0.9
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 25,
-        "start": 25,
-        "end": 25
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "genesis-25-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 25,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the LORD said unto her, Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger.",
+        "riddle": "Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger.",
+        "speaker": "the LORD",
+        "listener": "Rebekah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לָהּ שְׁנֵי גוֹיִם בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶֽאֱמָץ וְרַב יַעֲבֹד צָעִֽיר",
+        "riddle": "וַיֹּאמֶר יְהוָה לָהּ שְׁנֵי גוֹיִם בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶֽאֱמָץ וְרַב יַעֲבֹד צָעִֽיר",
+        "speaker": "יְהוָה",
+        "listener": "רבקה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the children struggled together within her; and she said, If it be so, why am I thus? And she went to inquire of the LORD.",
+          "23": "And the LORD said unto her, Two nations are in thy womb, and two manner of people shall be separated from thy bowels; and the one people shall be stronger than the other people; and the elder shall serve the younger."
+        },
+        "he": {
+          "22": "וַיִּתְרֹֽצֲצוּ הַבָּנִים בְּקִרְבָּהּ וַתֹּאמֶר אִם־כֵּן לָמָּה זֶּה אָנֹכִי וַתֵּלֶךְ לִדְרֹשׁ אֶת־יְהוָֽה׃",
+          "23": "וַיֹּאמֶר יְהוָה לָהּ שְׁנֵי גוֹיִם בְּבִטְנֵךְ וּשְׁנֵי לְאֻמִּים מִמֵּעַיִךְ יִפָּרֵדוּ וּלְאֹם מִלְאֹם יֶֽאֱמָץ וְרַב יַעֲבֹד צָעִֽיר׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "genesis-25-30-30",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 25,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
+      },
+      "en": {
+        "quote": "And Esau said to Jacob, Feed me, I pray thee, with that same red pottage; for I am faint: therefore was his name called Edom.",
+        "riddle": "Feed me, I pray thee, with that same red pottage; for I am faint",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵשָׂו אֶֽל־יַעֲקֹב הַלְעִיטֵנִי נָא מִן־הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל־כֵּן קָרָֽא־שְׁמוֹ אֱדֽוֹם",
+        "riddle": "הַלְעִיטֵנִי נָא מִן־הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל־כֵּן קָרָֽא־שְׁמוֹ אֱדֽוֹם",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And Esau said to Jacob, Feed me, I pray thee, with that same red pottage; for I am faint: therefore was his name called Edom."
+        },
+        "he": {
+          "30": "וַיֹּאמֶר עֵשָׂו אֶֽל־יַעֲקֹב הַלְעִיטֵנִי נָא מִן־הָאָדֹם הָאָדֹם הַזֶּה כִּי עָיֵף אָנֹכִי עַל־כֵּן קָרָֽא־שְׁמוֹ אֱדֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "genesis-25-31-31",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 25,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And Jacob said, Sell me this day thy birthright.",
+        "riddle": "Sell me this day thy birthright",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב מִכְרָה כַיּוֹם אֶת־בְּכֹֽרָתְךָ לִֽי",
+        "riddle": "מִכְרָה כַיּוֹם אֶת־בְּכֹֽרָתְךָ לִֽי",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Jacob said, Sell me this day thy birthright."
+        },
+        "he": {
+          "31": "וַיֹּאמֶר יַעֲקֹב מִכְרָה כַיּוֹם אֶת־בְּכֹֽרָתְךָ לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "genesis-25-32-32",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 25,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And Esau said, Behold, I am at the point to die: and what profit shall this birthright do to me?",
+        "riddle": "Behold, I am at the point to die: and what profit shall this birthright do to me?",
+        "speaker": "Esau",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר עֵשָׂו הִנֵּה אָנֹכִי הוֹלֵךְ לָמוּת וְלָמָּה־זֶּה לִי בְּכֹרָֽה",
+        "riddle": "הִנֵּה אָנֹכִי הוֹלֵךְ לָמוּת וְלָמָּה־זֶּה לִי בְּכֹרָֽה",
+        "speaker": "עֵשָׂו",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Esau said, Behold, I am at the point to die: and what profit shall this birthright do to me?"
+        },
+        "he": {
+          "32": "וַיֹּאמֶר עֵשָׂו הִנֵּה אָנֹכִי הוֹלֵךְ לָמוּת וְלָמָּה־זֶּה לִי בְּכֹרָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "genesis-25-33-33",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 25,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 33,
+        "listener_mention_verse": 33
+      },
+      "en": {
+        "quote": "And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob.",
+        "riddle": "Swear to me this day",
+        "speaker": "Jacob",
+        "listener": "Esau",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יַעֲקֹב הִשָּׁבְעָה לִּי כַּיּוֹם וַיִּשָּׁבַע לוֹ וַיִּמְכֹּר אֶת־בְּכֹרָתוֹ לְיַעֲקֹֽב",
+        "riddle": "הִשָּׁבְעָה לִּי כַּיּוֹם",
+        "speaker": "יַעֲקֹב",
+        "listener": "עֵשָׂו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "33": "And Jacob said, Swear to me this day; and he sware unto him: and he sold his birthright unto Jacob."
+        },
+        "he": {
+          "33": "וַיֹּאמֶר יַעֲקֹב הִשָּׁבְעָה לִּי כַּיּוֹם וַיִּשָּׁבַע לוֹ וַיִּמְכֹּר אֶת־בְּכֹרָתוֹ לְיַעֲקֹֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 33,
+        "end": 33
       }
     }
   ],
   "stats": {
-    "window_count": 11,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 11,
-    "kept_count": 1,
-    "issue_count": 10
+    "llm_window_count": 2,
+    "projection_llm_count": 6,
+    "llm_call_count": 8,
+    "spec_count": 6,
+    "kept_count": 6,
+    "issue_count": 0
   }
 }

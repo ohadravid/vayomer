@@ -4,99 +4,15 @@
   "book_he": "שמות",
   "chapter": 22,
   "mode": "llm",
-  "items": [
-    {
-      "id": "exodus-22-27-27",
-      "source": {
-        "book_code": "EXO",
-        "book": "Exodus",
-        "book_he": "שמות",
-        "chapter": 22,
-        "quote_verse_start": 27,
-        "quote_verse_end": 27
-      },
-      "en": {
-        "quote": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious.",
-        "riddle": "wherein shall he sleep?",
-        "speaker": "God",
-        "listener": "Moses",
-        "book": "Exodus"
-      },
-      "he": {
-        "quote": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר",
-        "riddle": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר",
-        "speaker": "God",
-        "listener": "Moses",
-        "book": "שמות"
-      },
-      "raw_quote_source": {
-        "en": {
-          "27": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious."
-        },
-        "he": {
-          "27": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר׃"
-        }
-      },
-      "meta": {
-        "reason": "Contains a vivid question and declaration",
-        "confidence": 0.8
-      },
-      "ref": {
-        "chapter": 22,
-        "start": 27,
-        "end": 27
-      }
-    },
-    {
-      "id": "exodus-22-27-28",
-      "source": {
-        "book_code": "EXO",
-        "book": "Exodus",
-        "book_he": "שמות",
-        "chapter": 22,
-        "quote_verse_start": 27,
-        "quote_verse_end": 28
-      },
-      "en": {
-        "quote": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious. Thou shalt not revile the gods, nor curse the ruler of thy people.",
-        "riddle": "wherein shall he sleep?",
-        "speaker": "Narrator",
-        "listener": "Implicit",
-        "book": "Exodus"
-      },
-      "he": {
-        "quote": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר מְלֵאָתְךָ וְדִמְעֲךָ לֹא תְאַחֵר בְּכוֹר בָּנֶיךָ תִּתֶּן־לִּֽי",
-        "riddle": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר מְלֵאָתְךָ וְדִמְעֲךָ",
-        "speaker": "Narrator",
-        "listener": "Implicit",
-        "book": "שמות"
-      },
-      "raw_quote_source": {
-        "en": {
-          "27": "For that is his covering only, it is his raiment for his skin: wherein shall he sleep? and it shall come to pass, when he crieth unto me, that I will hear; for I am gracious.",
-          "28": "Thou shalt not revile the gods, nor curse the ruler of thy people."
-        },
-        "he": {
-          "27": "אֱלֹהִים לֹא תְקַלֵּל וְנָשִׂיא בְעַמְּךָ לֹא תָאֹֽר׃",
-          "28": "מְלֵאָתְךָ וְדִמְעֲךָ לֹא תְאַחֵר בְּכוֹר בָּנֶיךָ תִּתֶּן־לִּֽי׃"
-        }
-      },
-      "meta": {
-        "reason": "Contains a vivid question and command.",
-        "confidence": 0.85
-      },
-      "ref": {
-        "chapter": 22,
-        "start": 27,
-        "end": 28
-      }
-    }
-  ],
+  "items": [],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 2,
-    "issue_count": 0
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 0,
+    "issue_count": 1
   }
 }

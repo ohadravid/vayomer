@@ -4,12 +4,281 @@
   "book_he": "ויקרא",
   "chapter": 8,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-08-01-01",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying,",
+        "riddle": "the LORD spake unto Moses, saying,",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר",
+        "riddle": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "leviticus-08-05-05",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And Moses said unto the congregation, This is the thing which the LORD commanded to be done.",
+        "riddle": "This is the thing which the LORD commanded to be done.",
+        "speaker": "Moses",
+        "listener": "the congregation",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעֵדָה זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לַעֲשֽׂוֹת",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לַעֲשֽׂוֹת",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעֵדָה",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Moses said unto the congregation, This is the thing which the LORD commanded to be done."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעֵדָה זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לַעֲשֽׂוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "leviticus-08-31-31",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.",
+        "riddle": "Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.",
+        "speaker": "Moses",
+        "listener": "Aaron and his sons",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן וְאֶל־בָּנָיו בַּשְּׁלוּ אֶת־הַבָּשָׂר פֶּתַח אֹהֶל מוֹעֵד וְשָׁם תֹּאכְלוּ אֹתוֹ וְאֶת־הַלֶּחֶם אֲשֶׁר בְּסַל הַמִּלֻּאִים כַּאֲשֶׁר צִוֵּיתִי לֵאמֹר אַהֲרֹן וּבָנָיו יֹאכְלֻֽהוּ",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן וְאֶל־בָּנָיו בַּשְּׁלוּ אֶת־הַבָּשָׂר פֶּתַח אֹהֶל מוֹעֵד וְשָׁם תֹּאכְלוּ אֹתוֹ וְאֶת־הַלֶּחֶם אֲשֶׁר בְּסַל הַמִּלֻּאִים כַּאֲשֶׁר צִוֵּיתִי לֵאמֹר אַהֲרֹן וּבָנָיו יֹאכְלֻֽהוּ",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן וְאֶל־בָּנָיו",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it."
+        },
+        "he": {
+          "31": "וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן וְאֶל־בָּנָיו בַּשְּׁלוּ אֶת־הַבָּשָׂר פֶּתַח אֹהֶל מוֹעֵד וְשָׁם תֹּאכְלוּ אֹתוֹ וְאֶת־הַלֶּחֶם אֲשֶׁר בְּסַל הַמִּלֻּאִים כַּאֲשֶׁר צִוֵּיתִי לֵאמֹר אַהֲרֹן וּבָנָיו יֹאכְלֻֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "leviticus-08-32-32",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And that which remaineth of the flesh and of the bread shall ye burn with fire.",
+        "riddle": "And that which remaineth of the flesh and of the bread shall ye burn with fire.",
+        "speaker": "Moses",
+        "listener": "Aaron and his sons",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וְהַנּוֹתָר בַּבָּשָׂר וּבַלָּחֶם בָּאֵשׁ תִּשְׂרֹֽפוּ",
+        "riddle": "וְהַנּוֹתָר בַּבָּשָׂר וּבַלָּחֶם בָּאֵשׁ תִּשְׂרֹֽפוּ",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן וְאֶל־בָּנָיו",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.",
+          "32": "And that which remaineth of the flesh and of the bread shall ye burn with fire."
+        },
+        "he": {
+          "31": "וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן וְאֶל־בָּנָיו בַּשְּׁלוּ אֶת־הַבָּשָׂר פֶּתַח אֹהֶל מוֹעֵד וְשָׁם תֹּאכְלוּ אֹתוֹ וְאֶת־הַלֶּחֶם אֲשֶׁר בְּסַל הַמִּלֻּאִים כַּאֲשֶׁר צִוֵּיתִי לֵאמֹר אַהֲרֹן וּבָנָיו יֹאכְלֻֽהוּ׃",
+          "32": "וְהַנּוֹתָר בַּבָּשָׂר וּבַלָּחֶם בָּאֵשׁ תִּשְׂרֹֽפוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "leviticus-08-33-33",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And ye shall not go out of the door of the tabernacle of the congregation in seven days, until the days of your consecration be at an end: for seven days shall he consecrate you.",
+        "riddle": "And ye shall not go out of the door of the tabernacle of the congregation in seven days, until the days of your consecration be at an end",
+        "speaker": "Moses",
+        "listener": "Aaron and his sons",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵֽצְאוּ שִׁבְעַת יָמִים עַד יוֹם מְלֹאת יְמֵי מִלֻּאֵיכֶם כִּי שִׁבְעַת יָמִים יְמַלֵּא אֶת־יֶדְכֶֽם",
+        "riddle": "וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵֽצְאוּ שִׁבְעַת יָמִים עַד יוֹם מְלֹאת יְמֵי מִלֻּאֵיכֶם כִּי שִׁבְעַת יָמִים יְמַלֵּא אֶת־יֶדְכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן וְאֶל־בָּנָיו",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Moses said unto Aaron and to his sons, Boil the flesh at the door of the tabernacle of the congregation: and there eat it with the bread that is in the basket of consecrations, as I commanded, saying, Aaron and his sons shall eat it.",
+          "33": "And ye shall not go out of the door of the tabernacle of the congregation in seven days, until the days of your consecration be at an end: for seven days shall he consecrate you."
+        },
+        "he": {
+          "31": "וַיֹּאמֶר מֹשֶׁה אֶל־אַהֲרֹן וְאֶל־בָּנָיו בַּשְּׁלוּ אֶת־הַבָּשָׂר פֶּתַח אֹהֶל מוֹעֵד וְשָׁם תֹּאכְלוּ אֹתוֹ וְאֶת־הַלֶּחֶם אֲשֶׁר בְּסַל הַמִּלֻּאִים כַּאֲשֶׁר צִוֵּיתִי לֵאמֹר אַהֲרֹן וּבָנָיו יֹאכְלֻֽהוּ׃",
+          "33": "וּמִפֶּתַח אֹהֶל מוֹעֵד לֹא תֵֽצְאוּ שִׁבְעַת יָמִים עַד יוֹם מְלֹאת יְמֵי מִלֻּאֵיכֶם כִּי שִׁבְעַת יָמִים יְמַלֵּא אֶת־יֶדְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "leviticus-08-35-35",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 8,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35
+      },
+      "en": {
+        "quote": "Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded.",
+        "riddle": "Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not",
+        "speaker": "Moses",
+        "listener": "Aaron and his sons",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וּפֶתַח אֹהֶל מוֹעֵד תֵּשְׁבוּ יוֹמָם וָלַיְלָה שִׁבְעַת יָמִים וּשְׁמַרְתֶּם אֶת־מִשְׁמֶרֶת יְהוָה וְלֹא תָמוּתוּ כִּי־כֵן צֻוֵּֽיתִי",
+        "riddle": "וּפֶתַח אֹהֶל מוֹעֵד תֵּשְׁבוּ יוֹמָם וָלַיְלָה שִׁבְעַת יָמִים וּשְׁמַרְתֶּם אֶת־מִשְׁמֶרֶת יְהוָה וְלֹא תָמוּתוּ כִּי־כֵן צֻוֵּֽיתִי",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן וּבְנָיו",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "Therefore shall ye abide at the door of the tabernacle of the congregation day and night seven days, and keep the charge of the LORD, that ye die not: for so I am commanded."
+        },
+        "he": {
+          "35": "וּפֶתַח אֹהֶל מוֹעֵד תֵּשְׁבוּ יוֹמָם וָלַיְלָה שִׁבְעַת יָמִים וּשְׁמַרְתֶּם אֶת־מִשְׁמֶרֶת יְהוָה וְלֹא תָמוּתוּ כִּי־כֵן צֻוֵּֽיתִי׃"
+        }
+      },
+      "meta": {
+        "reason": "command with warning",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 35,
+        "end": 35
+      }
+    }
+  ],
   "stats": {
-    "window_count": 20,
+    "window_count": 7,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 0,
-    "issue_count": 20
+    "llm_window_count": 7,
+    "projection_llm_count": 6,
+    "llm_call_count": 13,
+    "spec_count": 6,
+    "kept_count": 6,
+    "issue_count": 0
   }
 }

@@ -4,12 +4,362 @@
   "book_he": "בראשית",
   "chapter": 22,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-22-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.",
+        "riddle": "Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר קַח־נָא אֶת־בִּנְךָ אֶת־יְחִֽידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק וְלֶךְ־לְךָ אֶל־אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶֽהָרִים אֲשֶׁר אֹמַר אֵלֶֽיךָ",
+        "riddle": "וַיֹּאמֶר קַח־נָא אֶת־בִּנְךָ אֶת־יְחִֽידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק וְלֶךְ־לְךָ אֶל־אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶֽהָרִים אֲשֶׁר אֹמַר אֵלֶֽיךָ",
+        "speaker": "אֱלֹהִים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass after these things, that God did tempt Abraham, and said unto him, Abraham: and he said, Behold, here I am.",
+          "2": "And he said, Take now thy son, thine only son Isaac, whom thou lovest, and get thee into the land of Moriah; and offer him there for a burnt offering upon one of the mountains which I will tell thee of."
+        },
+        "he": {
+          "1": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי׃",
+          "2": "וַיֹּאמֶר קַח־נָא אֶת־בִּנְךָ אֶת־יְחִֽידְךָ אֲשֶׁר־אָהַבְתָּ אֶת־יִצְחָק וְלֶךְ־לְךָ אֶל־אֶרֶץ הַמֹּרִיָּה וְהַעֲלֵהוּ שָׁם לְעֹלָה עַל אַחַד הֶֽהָרִים אֲשֶׁר אֹמַר אֵלֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-22-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,",
+        "riddle": "Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,",
+        "speaker": "Abraham",
+        "listener": "young men",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־נְעָרָיו שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם",
+        "riddle": "שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם",
+        "speaker": "אַבְרָהָם",
+        "listener": "נְעָרָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Abraham said unto his young men, Abide ye here with the ass; and I and the lad will go yonder and worship, and come again to you,"
+        },
+        "he": {
+          "5": "וַיֹּאמֶר אַבְרָהָם אֶל־נְעָרָיו שְׁבוּ־לָכֶם פֹּה עִֽם־הַחֲמוֹר וַאֲנִי וְהַנַּעַר נֵלְכָה עַד־כֹּה וְנִֽשְׁתַּחֲוֶה וְנָשׁוּבָה אֲלֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "genesis-22-07-07-1",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?",
+        "riddle": "My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?",
+        "speaker": "Isaac",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּֽי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָֽה",
+        "riddle": "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּֽי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָֽה",
+        "speaker": "יִצְחָק",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּֽי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-22-07-07-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?",
+        "riddle": "Here am I, my son.",
+        "speaker": "Abraham",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּֽי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָֽה",
+        "riddle": "וַיֹּאמֶר הִנֶּנִּֽי בְנִי",
+        "speaker": "אַבְרָהָם",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Isaac spake unto Abraham his father, and said, My father: and he said, Here am I, my son. And he said, Behold the fire and the wood: but where is the lamb for a burnt offering?"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יִצְחָק אֶל־אַבְרָהָם אָבִיו וַיֹּאמֶר אָבִי וַיֹּאמֶר הִנֶּנִּֽי בְנִי וַיֹּאמֶר הִנֵּה הָאֵשׁ וְהָעֵצִים וְאַיֵּה הַשֶּׂה לְעֹלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-22-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together.",
+        "riddle": "My son, God will provide himself a lamb for a burnt offering:",
+        "speaker": "Abraham",
+        "listener": "Isaac",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּֽו",
+        "riddle": "אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי",
+        "speaker": "אַבְרָהָם",
+        "listener": "יִצְחָק",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Abraham said, My son, God will provide himself a lamb for a burnt offering: so they went both of them together."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר אַבְרָהָם אֱלֹהִים יִרְאֶה־לּוֹ הַשֶּׂה לְעֹלָה בְּנִי וַיֵּלְכוּ שְׁנֵיהֶם יַחְדָּֽו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-22-11-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the angel of the LORD called unto him out of heaven, and said, Abraham, Abraham: and he said, Here am I.",
+        "riddle": "Abraham, Abraham: and he said, Here am I.",
+        "speaker": "angel of the LORD",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אֵלָיו מַלְאַךְ יְהוָה מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי",
+        "riddle": "אֵלָיו מַלְאַךְ יְהוָה מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the angel of the LORD called unto him out of heaven, and said, Abraham, Abraham: and he said, Here am I."
+        },
+        "he": {
+          "11": "וַיִּקְרָא אֵלָיו מַלְאַךְ יְהוָה מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם ׀ אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct call",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "genesis-22-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me.",
+        "riddle": "Lay not thine hand upon the lad, neither do thou any thing unto him",
+        "speaker": "angel of the LORD",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַל־תִּשְׁלַח יָֽדְךָ אֶל־הַנַּעַר וְאַל־תַּעַשׂ לוֹ מְאוּמָּה כִּי עַתָּה יָדַעְתִּי כִּֽי־יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידְךָ מִמֶּֽנִּי",
+        "riddle": "אַל־תִּשְׁלַח יָֽדְךָ אֶל־הַנַּעַר וְאַל־תַּעַשׂ לוֹ מְאוּמָּה כִּי עַתָּה יָדַעְתִּי",
+        "speaker": "מלאך ה",
+        "listener": "אברהם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And he said, Lay not thine hand upon the lad, neither do thou any thing unto him: for now I know that thou fearest God, seeing thou hast not withheld thy son, thine only son from me."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר אַל־תִּשְׁלַח יָֽדְךָ אֶל־הַנַּעַר וְאַל־תַּעַשׂ לוֹ מְאוּמָּה כִּי ׀ עַתָּה יָדַעְתִּי כִּֽי־יְרֵא אֱלֹהִים אַתָּה וְלֹא חָשַׂכְתָּ אֶת־בִּנְךָ אֶת־יְחִידְךָ מִמֶּֽנִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-22-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 22,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice.",
+        "riddle": "And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice.",
+        "speaker": "God",
+        "listener": "Abraham",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְהִתְבָּרֲכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ עֵקֶב אֲשֶׁר שָׁמַעְתָּ בְּקֹלִֽי",
+        "riddle": "וְהִתְבָּרֲכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ עֵקֶב אֲשֶׁר שָׁמַעְתָּ בְּקֹלִֽי",
+        "speaker": "אלוהים",
+        "listener": "אברהם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And in thy seed shall all the nations of the earth be blessed; because thou hast obeyed my voice."
+        },
+        "he": {
+          "18": "וְהִתְבָּרֲכוּ בְזַרְעֲךָ כֹּל גּוֹיֵי הָאָרֶץ עֵקֶב אֲשֶׁר שָׁמַעְתָּ בְּקֹלִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine blessing and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 18,
+        "end": 18
+      }
+    }
+  ],
   "stats": {
-    "window_count": 17,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 0,
-    "issue_count": 17
+    "llm_window_count": 4,
+    "projection_llm_count": 12,
+    "llm_call_count": 16,
+    "spec_count": 12,
+    "kept_count": 8,
+    "issue_count": 4
   }
 }

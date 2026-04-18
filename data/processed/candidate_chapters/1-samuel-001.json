@@ -13,7 +13,9 @@
         "book_he": "שמואל א",
         "chapter": 1,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "Then said Elkanah her husband to her, Hannah, why weepest thou? and why eatest thou not? and why is thy heart grieved? am not I better to thee than ten sons?",
@@ -38,8 +40,8 @@
         }
       },
       "meta": {
-        "reason": "Memorable series of questions",
-        "confidence": 1.0
+        "reason": "direct questions and declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 1,
@@ -48,53 +50,464 @@
       }
     },
     {
-      "id": "1-samuel-01-13-13",
+      "id": "1-samuel-01-11-11",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 1,
-        "quote_verse_start": 13,
-        "quote_verse_end": 13
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
       },
       "en": {
-        "quote": "Now Hannah, she spake in her heart; only her lips moved, but her voice was not heard: therefore Eli thought she had been drunken.",
-        "riddle": "only her lips moved, but her voice was not heard: therefore Eli thought she had been drunken.",
+        "quote": "And she vowed a vow, and said, O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life, and there shall no rasor come upon his head.",
+        "riddle": "O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life, and there shall no rasor come upon his head",
+        "speaker": "Hannah",
+        "listener": "LORD",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתִּדֹּר נֶדֶר וַתֹּאמַר יְהוָה צְבָאוֹת אִם־רָאֹה תִרְאֶה בָּעֳנִי אֲמָתֶךָ וּזְכַרְתַּנִי וְלֹֽא־תִשְׁכַּח אֶת־אֲמָתֶךָ וְנָתַתָּה לַאֲמָתְךָ זֶרַע אֲנָשִׁים וּנְתַתִּיו לַֽיהוָה כָּל־יְמֵי חַיָּיו וּמוֹרָה לֹא־יַעֲלֶה עַל־רֹאשֽׁוֹ",
+        "riddle": "וַתִּדֹּר נֶדֶר וַתֹּאמַר יְהוָה צְבָאוֹת אִם־רָאֹה תִרְאֶה בָּעֳנִי אֲמָתֶךָ וּזְכַרְתַּנִי וְלֹֽא־תִשְׁכַּח אֶת־אֲמָתֶךָ וְנָתַתָּה לַאֲמָתְךָ זֶרַע אֲנָשִׁים וּנְתַתִּיו לַֽיהוָה כָּל־יְמֵי חַיָּיו וּמוֹרָה לֹא־יַעֲלֶה עַל־רֹאשֽׁוֹ",
+        "speaker": "חנה",
+        "listener": "יְהוָה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And she vowed a vow, and said, O LORD of hosts, if thou wilt indeed look on the affliction of thine handmaid, and remember me, and not forget thine handmaid, but wilt give unto thine handmaid a man child, then I will give him unto the LORD all the days of his life, and there shall no rasor come upon his head."
+        },
+        "he": {
+          "11": "וַתִּדֹּר נֶדֶר וַתֹּאמַר יְהוָה צְבָאוֹת אִם־רָאֹה תִרְאֶה ׀ בָּעֳנִי אֲמָתֶךָ וּזְכַרְתַּנִי וְלֹֽא־תִשְׁכַּח אֶת־אֲמָתֶךָ וְנָתַתָּה לַאֲמָתְךָ זֶרַע אֲנָשִׁים וּנְתַתִּיו לַֽיהוָה כָּל־יְמֵי חַיָּיו וּמוֹרָה לֹא־יַעֲלֶה עַל־רֹאשֽׁוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "vow and petition",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "1-samuel-01-14-14",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Eli said unto her, How long wilt thou be drunken? put away thy wine from thee.",
+        "riddle": "How long wilt thou be drunken? put away thy wine from thee.",
+        "speaker": "Eli",
+        "listener": "Hannah",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלֶיהָ עֵלִי עַד־מָתַי תִּשְׁתַּכָּרִין הָסִירִי אֶת־יֵינֵךְ מֵעָלָֽיִךְ",
+        "riddle": "עֵלִי עַד־מָתַי תִּשְׁתַּכָּרִין הָסִירִי אֶת־יֵינֵךְ מֵעָלָֽיִךְ",
+        "speaker": "עֵלִי",
+        "listener": "חַנָּה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Eli said unto her, How long wilt thou be drunken? put away thy wine from thee."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אֵלֶיהָ עֵלִי עַד־מָתַי תִּשְׁתַּכָּרִין הָסִירִי אֶת־יֵינֵךְ מֵעָלָֽיִךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-samuel-01-15-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Hannah answered and said, No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD.",
+        "riddle": "No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD.",
         "speaker": "Hannah",
         "listener": "Eli",
         "book": "1 Samuel"
       },
       "he": {
-        "quote": "וְחַנָּה הִיא מְדַבֶּרֶת עַל־לִבָּהּ רַק שְׂפָתֶיהָ נָּעוֹת וְקוֹלָהּ לֹא יִשָּׁמֵעַ וַיַּחְשְׁבֶהָ עֵלִי לְשִׁכֹּרָֽה",
-        "riddle": "רַק שְׂפָתֶיהָ נָּעוֹת וְקוֹלָהּ לֹא יִשָּׁמֵעַ וַיַּחְשְׁבֶהָ עֵלִי לְשִׁכֹּרָֽה",
+        "quote": "וַתַּעַן חַנָּה וַתֹּאמֶר לֹא אֲדֹנִי אִשָּׁה קְשַׁת־רוּחַ אָנֹכִי וְיַיִן וְשֵׁכָר לֹא שָׁתִיתִי וָאֶשְׁפֹּךְ אֶת־נַפְשִׁי לִפְנֵי יְהוָֽה",
+        "riddle": "לֹא אֲדֹנִי אִשָּׁה קְשַׁת־רוּחַ אָנֹכִי וְיַיִן וְשֵׁכָר לֹא שָׁתִיתִי וָאֶשְׁפֹּךְ אֶת־נַפְשִׁי לִפְנֵי יְהוָֽה",
         "speaker": "חַנָּה",
         "listener": "עֵלִי",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
-          "13": "Now Hannah, she spake in her heart; only her lips moved, but her voice was not heard: therefore Eli thought she had been drunken."
+          "14": "And Eli said unto her, How long wilt thou be drunken? put away thy wine from thee.",
+          "15": "And Hannah answered and said, No, my lord, I am a woman of a sorrowful spirit: I have drunk neither wine nor strong drink, but have poured out my soul before the LORD."
         },
         "he": {
-          "13": "וְחַנָּה הִיא מְדַבֶּרֶת עַל־לִבָּהּ רַק שְׂפָתֶיהָ נָּעוֹת וְקוֹלָהּ לֹא יִשָּׁמֵעַ וַיַּחְשְׁבֶהָ עֵלִי לְשִׁכֹּרָֽה׃"
+          "14": "וַיֹּאמֶר אֵלֶיהָ עֵלִי עַד־מָתַי תִּשְׁתַּכָּרִין הָסִירִי אֶת־יֵינֵךְ מֵעָלָֽיִךְ׃",
+          "15": "וַתַּעַן חַנָּה וַתֹּאמֶר לֹא אֲדֹנִי אִשָּׁה קְשַׁת־רוּחַ אָנֹכִי וְיַיִן וְשֵׁכָר לֹא שָׁתִיתִי וָאֶשְׁפֹּךְ אֶת־נַפְשִׁי לִפְנֵי יְהוָֽה׃"
         }
       },
       "meta": {
-        "reason": "Vivid description of silent speech",
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-01-16-16",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Count not thine handmaid for a daughter of Belial: for out of the abundance of my complaint and grief have I spoken hitherto.",
+        "riddle": "Count not thine handmaid for a daughter of Belial",
+        "speaker": "Hannah",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "אַל־תִּתֵּן אֶת־אֲמָתְךָ לִפְנֵי בַּת־בְּלִיָּעַל כִּֽי־מֵרֹב שִׂיחִי וְכַעְסִי דִּבַּרְתִּי עַד־הֵֽנָּה",
+        "riddle": "אַל־תִּתֵּן אֶת־אֲמָתְךָ לִפְנֵי בַּת־בְּלִיָּעַל",
+        "speaker": "חנּה",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Eli said unto her, How long wilt thou be drunken? put away thy wine from thee.",
+          "16": "Count not thine handmaid for a daughter of Belial: for out of the abundance of my complaint and grief have I spoken hitherto."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אֵלֶיהָ עֵלִי עַד־מָתַי תִּשְׁתַּכָּרִין הָסִירִי אֶת־יֵינֵךְ מֵעָלָֽיִךְ׃",
+          "16": "אַל־תִּתֵּן אֶת־אֲמָתְךָ לִפְנֵי בַּת־בְּלִיָּעַל כִּֽי־מֵרֹב שִׂיחִי וְכַעְסִי דִּבַּרְתִּי עַד־הֵֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-01-17-17",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then Eli answered and said, Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+        "riddle": "Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+        "speaker": "Eli",
+        "listener": "Hannah",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן עֵלִי וַיֹּאמֶר לְכִי לְשָׁלוֹם וֵאלֹהֵי יִשְׂרָאֵל יִתֵּן אֶת־שֵׁלָתֵךְ אֲשֶׁר שָׁאַלְתְּ מֵעִמּֽוֹ",
+        "riddle": "לְכִי לְשָׁלוֹם וֵאלֹהֵי יִשְׂרָאֵל יִתֵּן אֶת־שֵׁלָתֵךְ אֲשֶׁר שָׁאַלְתְּ מֵעִמּֽו",
+        "speaker": "עֵלִי",
+        "listener": "חַנָּה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Then Eli answered and said, Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him."
+        },
+        "he": {
+          "17": "וַיַּעַן עֵלִי וַיֹּאמֶר לְכִי לְשָׁלוֹם וֵאלֹהֵי יִשְׂרָאֵל יִתֵּן אֶת־שֵׁלָתֵךְ אֲשֶׁר שָׁאַלְתְּ מֵעִמּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing and command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "1-samuel-01-18-18",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And she said, Let thine handmaid find grace in thy sight. So the woman went her way, and did eat, and her countenance was no more sad.",
+        "riddle": "Let thine handmaid find grace in thy sight.",
+        "speaker": "Hannah",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר תִּמְצָא שִׁפְחָתְךָ חֵן בְּעֵינֶיךָ וַתֵּלֶךְ הָאִשָּׁה לְדַרְכָּהּ וַתֹּאכַל וּפָנֶיהָ לֹא־הָיוּ־לָהּ עֽוֹד",
+        "riddle": "תִּמְצָא שִׁפְחָתְךָ חֵן בְּעֵינֶיךָ וַתֵּלֶךְ הָאִשָּׁה לְדַרְכָּהּ וַתֹּאכַל וּפָנֶיהָ לֹא",
+        "speaker": "חנה",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Then Eli answered and said, Go in peace: and the God of Israel grant thee thy petition that thou hast asked of him.",
+          "18": "And she said, Let thine handmaid find grace in thy sight. So the woman went her way, and did eat, and her countenance was no more sad."
+        },
+        "he": {
+          "17": "וַיַּעַן עֵלִי וַיֹּאמֶר לְכִי לְשָׁלוֹם וֵאלֹהֵי יִשְׂרָאֵל יִתֵּן אֶת־שֵׁלָתֵךְ אֲשֶׁר שָׁאַלְתְּ מֵעִמּֽוֹ׃",
+          "18": "וַתֹּאמֶר תִּמְצָא שִׁפְחָתְךָ חֵן בְּעֵינֶיךָ וַתֵּלֶךְ הָאִשָּׁה לְדַרְכָּהּ וַתֹּאכַל וּפָנֶיהָ לֹא־הָיוּ־לָהּ עֽוֹד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "1-samuel-01-22-22",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "But Hannah went not up; for she said unto her husband, I will not go up until the child be weaned, and then I will bring him, that he may appear before the LORD, and there abide for ever.",
+        "riddle": "I will not go up until the child be weaned",
+        "speaker": "Hannah",
+        "listener": "Elkanah",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְחַנָּה לֹא עָלָתָה כִּֽי־אָמְרָה לְאִישָׁהּ עַד יִגָּמֵל הַנַּעַר וַהֲבִאֹתִיו וְנִרְאָה אֶת־פְּנֵי יְהוָה וְיָשַׁב שָׁם עַד־עוֹלָֽם",
+        "riddle": "לֹא עָלָתָה כִּֽי־אָמְרָה לְאִישָׁהּ עַד יִגָּמֵל הַנַּעַר",
+        "speaker": "חַנָּה",
+        "listener": "אֶלְקָנָה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "But Hannah went not up; for she said unto her husband, I will not go up until the child be weaned, and then I will bring him, that he may appear before the LORD, and there abide for ever.",
+          "23": "And Elkanah her husband said unto her, Do what seemeth thee good; tarry until thou have weaned him; only the LORD establish his word. So the woman abode, and gave her son suck until she weaned him."
+        },
+        "he": {
+          "22": "וְחַנָּה לֹא עָלָתָה כִּֽי־אָמְרָה לְאִישָׁהּ עַד יִגָּמֵל הַנַּעַר וַהֲבִאֹתִיו וְנִרְאָה אֶת־פְּנֵי יְהוָה וְיָשַׁב שָׁם עַד־עוֹלָֽם׃",
+          "23": "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ עֲשִׂי הַטּוֹב בְּעֵינַיִךְ שְׁבִי עַד־גָּמְלֵךְ אֹתוֹ אַךְ יָקֵם יְהוָה אֶת־דְּבָרוֹ וַתֵּשֶׁב הָֽאִשָּׁה וַתֵּינֶק אֶת־בְּנָהּ עַד־גָּמְלָהּ אֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 1,
-        "start": 13,
-        "end": 13
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "1-samuel-01-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Elkanah her husband said unto her, Do what seemeth thee good; tarry until thou have weaned him; only the LORD establish his word. So the woman abode, and gave her son suck until she weaned him.",
+        "riddle": "Do what seemeth thee good; tarry until thou have weaned him",
+        "speaker": "Elkanah",
+        "listener": "Hannah",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ עֲשִׂי הַטּוֹב בְּעֵינַיִךְ שְׁבִי עַד־גָּמְלֵךְ אֹתוֹ אַךְ יָקֵם יְהוָה אֶת־דְּבָרוֹ וַתֵּשֶׁב הָֽאִשָּׁה וַתֵּינֶק אֶת־בְּנָהּ עַד־גָּמְלָהּ אֹתֽוֹ",
+        "riddle": "עֲשִׂי הַטּוֹב בְּעֵינַיִךְ שְׁבִי עַד־גָּמְלֵךְ אֹתוֹ אַךְ יָקֵם יְהוָה אֶת־דְּבָרו",
+        "speaker": "אֶלְקָנָה",
+        "listener": "חַנָּה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "But Hannah went not up; for she said unto her husband, I will not go up until the child be weaned, and then I will bring him, that he may appear before the LORD, and there abide for ever.",
+          "23": "And Elkanah her husband said unto her, Do what seemeth thee good; tarry until thou have weaned him; only the LORD establish his word. So the woman abode, and gave her son suck until she weaned him."
+        },
+        "he": {
+          "22": "וְחַנָּה לֹא עָלָתָה כִּֽי־אָמְרָה לְאִישָׁהּ עַד יִגָּמֵל הַנַּעַר וַהֲבִאֹתִיו וְנִרְאָה אֶת־פְּנֵי יְהוָה וְיָשַׁב שָׁם עַד־עוֹלָֽם׃",
+          "23": "וַיֹּאמֶר לָהּ אֶלְקָנָה אִישָׁהּ עֲשִׂי הַטּוֹב בְּעֵינַיִךְ שְׁבִי עַד־גָּמְלֵךְ אֹתוֹ אַךְ יָקֵם יְהוָה אֶת־דְּבָרוֹ וַתֵּשֶׁב הָֽאִשָּׁה וַתֵּינֶק אֶת־בְּנָהּ עַד־גָּמְלָהּ אֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-samuel-01-26-26",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And she said, Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD.",
+        "riddle": "Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD",
+        "speaker": "Hannah",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר בִּי אֲדֹנִי חֵי נַפְשְׁךָ אֲדֹנִי אֲנִי הָאִשָּׁה הַנִּצֶּבֶת עִמְּכָה בָּזֶה לְהִתְפַּלֵּל אֶל־יְהוָֽה",
+        "riddle": "בִּי אֲדֹנִי חֵי נַפְשְׁךָ אֲדֹנִי אֲנִי הָאִשָּׁה הַנִּצֶּבֶת עִמְּכָה בָּזֶה לְהִתְפַּלֵּל אֶל־יְהוָֽה",
+        "speaker": "חנּה",
+        "listener": "עֵלִֽי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And they slew a bullock, and brought the child to Eli.",
+          "26": "And she said, Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD."
+        },
+        "he": {
+          "25": "וַֽיִּשְׁחֲטוּ אֶת־הַפָּר וַיָּבִיאוּ אֶת־הַנַּעַר אֶל־עֵלִֽי׃",
+          "26": "וַתֹּאמֶר בִּי אֲדֹנִי חֵי נַפְשְׁךָ אֲדֹנִי אֲנִי הָאִשָּׁה הַנִּצֶּבֶת עִמְּכָה בָּזֶה לְהִתְפַּלֵּל אֶל־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "1-samuel-01-27-27",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 1,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "For this child I prayed; and the LORD hath given me my petition which I asked of him:",
+        "riddle": "For this child I prayed; and the LORD hath given me my petition which I asked of him",
+        "speaker": "Hannah",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "אֶל־הַנַּעַר הַזֶּה הִתְפַּלָּלְתִּי וַיִּתֵּן יְהוָה לִי אֶת־שְׁאֵלָתִי אֲשֶׁר שָׁאַלְתִּי מֵעִמּֽוֹ",
+        "riddle": "אֶל־הַנַּעַר הַזֶּה הִתְפַּלָּלְתִּי וַיִּתֵּן יְהוָה לִי אֶת־שְׁאֵלָתִי אֲשֶׁר שָׁאַלְתִּי מֵעִמּֽוֹ",
+        "speaker": "חַנָּה",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And she said, Oh my lord, as thy soul liveth, my lord, I am the woman that stood by thee here, praying unto the LORD.",
+          "27": "For this child I prayed; and the LORD hath given me my petition which I asked of him:"
+        },
+        "he": {
+          "26": "וַתֹּאמֶר בִּי אֲדֹנִי חֵי נַפְשְׁךָ אֲדֹנִי אֲנִי הָאִשָּׁה הַנִּצֶּבֶת עִמְּכָה בָּזֶה לְהִתְפַּלֵּל אֶל־יְהוָֽה׃",
+          "27": "אֶל־הַנַּעַר הַזֶּה הִתְפַּלָּלְתִּי וַיִּתֵּן יְהוָה לִי אֶת־שְׁאֵלָתִי אֲשֶׁר שָׁאַלְתִּי מֵעִמּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 27,
+        "end": 27
       }
     }
   ],
   "stats": {
-    "window_count": 19,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 19,
-    "kept_count": 2,
-    "issue_count": 17
+    "llm_window_count": 4,
+    "projection_llm_count": 12,
+    "llm_call_count": 16,
+    "spec_count": 12,
+    "kept_count": 11,
+    "issue_count": 1
   }
 }

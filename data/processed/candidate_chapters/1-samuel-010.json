@@ -6,27 +6,73 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-10-02-02",
+      "id": "1-samuel-10-01-01",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?",
+        "riddle": "Is it not because the LORD hath anointed thee to be captain over his inheritance?",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד",
+        "riddle": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance?"
+        },
+        "he": {
+          "1": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "1-samuel-10-02-02-1",
       "source": {
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 10,
         "quote_verse_start": 2,
-        "quote_verse_end": 2
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
-        "riddle": "What shall I do for my son?",
-        "speaker": "Saul's father",
+        "riddle": "The asses which thou wentest to seek are found",
+        "speaker": "two men",
         "listener": "Saul",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
-        "riddle": "מָה אֶעֱשֶׂה לִבְנִֽי",
-        "speaker": "אביו של שאול",
-        "listener": "שאול",
+        "riddle": "נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּש",
+        "speaker": "שְׁנֵי אֲנָשִׁים",
+        "listener": "שָׁאוּל",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -38,21 +84,417 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct declaration",
+        "confidence": 0.9
       },
       "ref": {
         "chapter": 10,
         "start": 2,
         "end": 2
       }
+    },
+    {
+      "id": "1-samuel-10-02-02-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
+        "riddle": "What shall I do for my son?",
+        "speaker": "Saul's father",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
+        "riddle": "מָה אֶעֱשֶׂה לִבְנִֽי",
+        "speaker": "אָבִיךָ",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?"
+        },
+        "he": {
+          "2": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "1-samuel-10-12-12",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?",
+        "riddle": "But who is their father?",
+        "speaker": "man from Saul's place",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן אִישׁ מִשָּׁם וַיֹּאמֶר וּמִי אֲבִיהֶם עַל־כֵּן הָיְתָה לְמָשָׁל הֲגַם שָׁאוּל בַּנְּבִאִֽים",
+        "riddle": "וּמִי אֲבִיהֶם",
+        "speaker": "אִישׁ מִשָּׁם",
+        "listener": "הָעָם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?"
+        },
+        "he": {
+          "12": "וַיַּעַן אִישׁ מִשָּׁם וַיֹּאמֶר וּמִי אֲבִיהֶם עַל־כֵּן הָיְתָה לְמָשָׁל הֲגַם שָׁאוּל בַּנְּבִאִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-samuel-10-14-14",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel.",
+        "riddle": "Whither went ye?",
+        "speaker": "Saul's uncle",
+        "listener": "Saul and servant",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל",
+        "riddle": "אָן הֲלַכְתֶּם",
+        "speaker": "דּוֹד שָׁאוּל",
+        "listener": "שָׁאוּל וְנַעֲרוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-samuel-10-15-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you.",
+        "riddle": "Tell me, I pray thee, what Samuel said unto you.",
+        "speaker": "Saul's uncle",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל",
+        "riddle": "הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל",
+        "speaker": "דּוֹד שָׁאוּל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "command/request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-10-16-16",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.",
+        "riddle": "He told us plainly that the asses were found.",
+        "speaker": "Saul",
+        "listener": "Saul's uncle",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל",
+        "riddle": "הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד",
+        "speaker": "שָׁאוּל",
+        "listener": "דּוֹדוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "1-samuel-10-18-18",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And said unto the children of Israel, Thus saith the LORD God of Israel, I brought up Israel out of Egypt, and delivered you out of the hand of the Egyptians, and out of the hand of all kingdoms, and of them that oppressed you:",
+        "riddle": "I brought up Israel out of Egypt, and delivered you out of the hand of the Egyptians, and out of the hand of all kingdoms, and of them that oppressed you:",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי הֶעֱלֵיתִי אֶת־יִשְׂרָאֵל מִמִּצְרָיִם וָאַצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד כָּל־הַמַּמְלָכוֹת הַלֹּחֲצִים אֶתְכֶֽם",
+        "riddle": "וַיֹּאמֶר אֶל־בְּנֵי יִשְׂרָאֵל כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי הֶעֱלֵיתִי אֶת־יִשְׂרָאֵל מִמִּצְרָיִם וָאַצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד כָּל־הַמַּמְלָכוֹת הַלֹּחֲצִים אֶתְכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Samuel called the people together unto the LORD to Mizpeh;",
+          "18": "And said unto the children of Israel, Thus saith the LORD God of Israel, I brought up Israel out of Egypt, and delivered you out of the hand of the Egyptians, and out of the hand of all kingdoms, and of them that oppressed you:"
+        },
+        "he": {
+          "17": "וַיַּצְעֵק שְׁמוּאֵל אֶת־הָעָם אֶל־יְהוָה הַמִּצְפָּֽה׃",
+          "18": "וַיֹּאמֶר ׀ אֶל־בְּנֵי יִשְׂרָאֵל כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָנֹכִי הֶעֱלֵיתִי אֶת־יִשְׂרָאֵל מִמִּצְרָיִם וָאַצִּיל אֶתְכֶם מִיַּד מִצְרַיִם וּמִיַּד כָּל־הַמַּמְלָכוֹת הַלֹּחֲצִים אֶתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "1-samuel-10-19-19",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us. Now therefore present yourselves before the LORD by your tribes, and by your thousands.",
+        "riddle": "ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us.",
+        "speaker": "Samuel",
+        "listener": "children of Israel",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְאַתֶּם הַיּוֹם מְאַסְתֶּם אֶת־אֱלֹהֵיכֶם אֲשֶׁר־הוּא מוֹשִׁיעַ לָכֶם מִכָּל־רָעוֹתֵיכֶם וְצָרֹֽתֵיכֶם וַתֹּאמְרוּ לוֹ כִּי־מֶלֶךְ תָּשִׂים עָלֵינוּ וְעַתָּה הִֽתְיַצְּבוּ לִפְנֵי יְהוָה לְשִׁבְטֵיכֶם וּלְאַלְפֵיכֶֽם",
+        "riddle": "וְאַתֶּם הַיּוֹם מְאַסְתֶּם אֶת־אֱלֹהֵיכֶם אֲשֶׁר־הוּא מוֹשִׁיעַ לָכֶם מִכָּל־רָעוֹתֵיכֶם וְצָרֹֽתֵיכֶם וַתֹּאמְרוּ לוֹ כִּי־מֶלֶךְ תָּשִׂים עָלֵינוּ וְעַתָּה הִֽתְיַצְּבוּ לִפְנֵי יְהוָה לְשִׁבְטֵיכֶם וּלְאַלְפֵיכֶֽם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הָעָם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Samuel called the people together unto the LORD to Mizpeh;",
+          "19": "And ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us. Now therefore present yourselves before the LORD by your tribes, and by your thousands."
+        },
+        "he": {
+          "17": "וַיַּצְעֵק שְׁמוּאֵל אֶת־הָעָם אֶל־יְהוָה הַמִּצְפָּֽה׃",
+          "19": "וְאַתֶּם הַיּוֹם מְאַסְתֶּם אֶת־אֱלֹהֵיכֶם אֲשֶׁר־הוּא מוֹשִׁיעַ לָכֶם מִכָּל־רָעוֹתֵיכֶם וְצָרֹֽתֵיכֶם וַתֹּאמְרוּ לוֹ כִּי־מֶלֶךְ תָּשִׂים עָלֵינוּ וְעַתָּה הִֽתְיַצְּבוּ לִפְנֵי יְהוָה לְשִׁבְטֵיכֶם וּלְאַלְפֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "reproachful declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "1-samuel-10-22-22",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "Therefore they inquired of the LORD further, if the man should yet come thither. And the LORD answered, Behold, he hath hid himself among the stuff.",
+        "riddle": "Behold, he hath hid himself among the stuff.",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאֲלוּ־עוֹד בַּֽיהוָה הֲבָא עוֹד הֲלֹם אִישׁ וַיֹּאמֶר יְהוָה הִנֵּה־הוּא נֶחְבָּא אֶל־הַכֵּלִֽים",
+        "riddle": "עוֹד הֲלֹם אִישׁ וַיֹּאמֶר יְהוָה הִנֵּה־הוּא נֶחְבָּא אֶל־הַכֵּלִֽים",
+        "speaker": "יְהוָה",
+        "listener": "עַם",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Therefore they inquired of the LORD further, if the man should yet come thither. And the LORD answered, Behold, he hath hid himself among the stuff."
+        },
+        "he": {
+          "22": "וַיִּשְׁאֲלוּ־עוֹד בַּֽיהוָה הֲבָא עוֹד הֲלֹם אִישׁ וַיֹּאמֶר יְהוָה הִנֵּה־הוּא נֶחְבָּא אֶל־הַכֵּלִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "divine answer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "1-samuel-10-27-27",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace.",
+        "riddle": "How shall this man save us?",
+        "speaker": "children of Belial",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וּבְנֵי בְלִיַּעַל אָמְרוּ מַה־יֹּשִׁעֵנוּ זֶה וַיִּבְזֻהוּ וְלֹֽא־הֵבִיאוּ לוֹ מִנְחָה וַיְהִי כְּמַחֲרִֽישׁ",
+        "riddle": "מַה־יֹּשִׁעֵנוּ זֶה",
+        "speaker": "בְנֵי בְלִיַּעַל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace."
+        },
+        "he": {
+          "27": "וּבְנֵי בְלִיַּעַל אָמְרוּ מַה־יֹּשִׁעֵנוּ זֶה וַיִּבְזֻהוּ וְלֹֽא־הֵבִיאוּ לוֹ מִנְחָה וַיְהִי כְּמַחֲרִֽישׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 27,
+        "end": 27
+      }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 1,
-    "issue_count": 17
+    "llm_window_count": 4,
+    "projection_llm_count": 15,
+    "llm_call_count": 19,
+    "spec_count": 15,
+    "kept_count": 11,
+    "issue_count": 4
   }
 }

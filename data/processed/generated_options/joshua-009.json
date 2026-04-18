@@ -6,98 +6,802 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-09-08-08",
+      "id": "joshua-09-06-06",
       "source": {
         "method": "llm",
         "book_code": "JOS",
         "book": "Joshua",
         "book_he": "יהושע",
         "chapter": 9,
-        "quote_verse_start": 6,
-        "quote_verse_end": 12
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
       },
       "en": {
-        "quote": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us. And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you? And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye? And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt, And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth. Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us. This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:",
+        "quote": "And it came to pass, when all the kings which were on this side Jordan, in the hills, and in the valleys, and in all the coasts of the great sea over against Lebanon, the Hittite, and the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard thereof; That they gathered themselves together, to fight with Joshua and with Israel, with one accord. And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai, They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up; And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy. And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+        "riddle": "We be come from a far country: now therefore make ye a league with us.",
+        "speaker": "Gibeonites",
+        "listener": "Joshua and Israel",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Sisera",
+            "elders of Gilead"
+          ],
+          "listener": [
+            "Judah",
+            "Philistines",
+            "house of Joseph"
+          ]
+        },
+        "bonus": "kings",
+        "bonus_hint": {
+          "quote": "And it came to pass, when all the kings of the Amorites, which were on the side of Jordan westward, and all the kings of the Canaanites, which were by the sea, heard that the LORD had dried up the waters of Jordan from before the children of Israel, until we were passed over, that their heart melted, neither was there spirit in them any more, because of the children of Israel.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כִשְׁמֹעַ כָּֽל־הַמְּלָכִים אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן בָּהָר וּבַשְּׁפֵלָה וּבְכֹל חוֹף הַיָּם הַגָּדוֹל אֶל־מוּל הַלְּבָנוֹן הַֽחִתִּי וְהָאֱמֹרִי הַֽכְּנַעֲנִי הַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי וַיִּֽתְקַבְּצוּ יַחְדָּו לְהִלָּחֵם עִם־יְהוֹשֻׁעַ וְעִם־יִשְׂרָאֵל פֶּה אֶחָֽד וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "riddle": "מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "speaker": "ישיבי גִבְעוֹן",
+        "listener": "יְהוֹשֻׁעַ וְאִישׁ יִשְׂרָאֵל",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "סִֽיסְרָא",
+            "זִקְנֵי גִלְעָד"
+          ],
+          "listener": [
+            "יְהוּדָה",
+            "פְּלִשְׁתִּים",
+            "בֵּית יוֹסֵף"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ כָּל־מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן יָמָּה וְכָל־מַלְכֵי הַֽכְּנַעֲנִי אֲשֶׁר עַל־הַיָּם אֵת אֲשֶׁר־הוֹבִישׁ יְהוָה אֶת־מֵי הַיַּרְדֵּן מִפְּנֵי בְנֵֽי־יִשְׂרָאֵל עַד־עָבְרָם וַיִּמַּס לְבָבָם וְלֹא־הָיָה בָם עוֹד רוּחַ מִפְּנֵי בְּנֵֽי־יִשְׂרָאֵֽל",
+          "source": {
+            "book": "יהושע",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass, when all the kings which were on this side Jordan, in the hills, and in the valleys, and in all the coasts of the great sea over against Lebanon, the Hittite, and the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard thereof;",
+          "2": "That they gathered themselves together, to fight with Joshua and with Israel, with one accord.",
+          "3": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai,",
+          "4": "They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up;",
+          "5": "And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy.",
+          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us."
+        },
+        "he": {
+          "1": "וַיְהִי כִשְׁמֹעַ כָּֽל־הַמְּלָכִים אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן בָּהָר וּבַשְּׁפֵלָה וּבְכֹל חוֹף הַיָּם הַגָּדוֹל אֶל־מוּל הַלְּבָנוֹן הַֽחִתִּי וְהָאֱמֹרִי הַֽכְּנַעֲנִי הַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי׃",
+          "2": "וַיִּֽתְקַבְּצוּ יַחְדָּו לְהִלָּחֵם עִם־יְהוֹשֻׁעַ וְעִם־יִשְׂרָאֵל פֶּה אֶחָֽד׃",
+          "3": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי׃",
+          "4": "וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים׃",
+          "5": "וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים׃",
+          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And it came to pass, when all the kings which were on this side Jordan, in the hills, and in the valleys, and in all the coasts of the great sea over against Lebanon, the Hittite, and the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard thereof; That they gathered themselves together, to fight with Joshua and with Israel, with one accord. And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai, They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up; And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy. And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us. And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
+        "riddle": "Peradventure ye dwell among us; and how shall we make a league with you?",
+        "speaker": "Israelites",
+        "listener": "Hivites",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Judah",
+            "Philistines",
+            "elders of Gilead"
+          ],
+          "listener": [
+            "Philistines",
+            "Judah",
+            "house of Joseph"
+          ]
+        },
+        "bonus": "kings",
+        "bonus_hint": {
+          "quote": "And it came to pass, when all the kings of the Amorites, which were on the side of Jordan westward, and all the kings of the Canaanites, which were by the sea, heard that the LORD had dried up the waters of Jordan from before the children of Israel, until we were passed over, that their heart melted, neither was there spirit in them any more, because of the children of Israel.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כִשְׁמֹעַ כָּֽל־הַמְּלָכִים אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן בָּהָר וּבַשְּׁפֵלָה וּבְכֹל חוֹף הַיָּם הַגָּדוֹל אֶל־מוּל הַלְּבָנוֹן הַֽחִתִּי וְהָאֱמֹרִי הַֽכְּנַעֲנִי הַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי וַיִּֽתְקַבְּצוּ יַחְדָּו לְהִלָּחֵם עִם־יְהוֹשֻׁעַ וְעִם־יִשְׂרָאֵל פֶּה אֶחָֽד וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית",
+        "riddle": "אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית",
+        "speaker": "אַנְשֵׁי יִשְׂרָאֵל",
+        "listener": "הַחִוִּי",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "יְהוּדָה",
+            "פְּלִשְׁתִּים",
+            "זִקְנֵי גִלְעָד"
+          ],
+          "listener": [
+            "פְּלִשְׁתִּים",
+            "יְהוּדָה",
+            "בֵּית יוֹסֵף"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ כָּל־מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן יָמָּה וְכָל־מַלְכֵי הַֽכְּנַעֲנִי אֲשֶׁר עַל־הַיָּם אֵת אֲשֶׁר־הוֹבִישׁ יְהוָה אֶת־מֵי הַיַּרְדֵּן מִפְּנֵי בְנֵֽי־יִשְׂרָאֵל עַד־עָבְרָם וַיִּמַּס לְבָבָם וְלֹא־הָיָה בָם עוֹד רוּחַ מִפְּנֵי בְּנֵֽי־יִשְׂרָאֵֽל",
+          "source": {
+            "book": "יהושע",
+            "chapter": 5,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And it came to pass, when all the kings which were on this side Jordan, in the hills, and in the valleys, and in all the coasts of the great sea over against Lebanon, the Hittite, and the Amorite, the Canaanite, the Perizzite, the Hivite, and the Jebusite, heard thereof;",
+          "2": "That they gathered themselves together, to fight with Joshua and with Israel, with one accord.",
+          "3": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai,",
+          "4": "They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up;",
+          "5": "And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy.",
+          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+          "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?"
+        },
+        "he": {
+          "1": "וַיְהִי כִשְׁמֹעַ כָּֽל־הַמְּלָכִים אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן בָּהָר וּבַשְּׁפֵלָה וּבְכֹל חוֹף הַיָּם הַגָּדוֹל אֶל־מוּל הַלְּבָנוֹן הַֽחִתִּי וְהָאֱמֹרִי הַֽכְּנַעֲנִי הַפְּרִזִּי הַחִוִּי וְהַיְבוּסִֽי׃",
+          "2": "וַיִּֽתְקַבְּצוּ יַחְדָּו לְהִלָּחֵם עִם־יְהוֹשֻׁעַ וְעִם־יִשְׂרָאֵל פֶּה אֶחָֽד׃",
+          "3": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי׃",
+          "4": "וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים׃",
+          "5": "וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים׃",
+          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃",
+          "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-08-08-1",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 3,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai, They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up; And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy. And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us. And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you? And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
+        "riddle": "We are thy servants.",
+        "speaker": "Hivites",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Israel",
+            "men of the city"
+          ],
+          "listener": [
+            "Caleb",
+            "Moses",
+            "Gideon"
+          ]
+        },
+        "bonus": "Gibeon",
+        "bonus_hint": {
+          "quote": "Now it came to pass, when Adoni-zedek king of Jerusalem had heard how Joshua had taken Ai, and had utterly destroyed it; as he had done to Jericho and her king, so he had done to Ai and her king; and how the inhabitants of Gibeon had made peace with Israel, and were among them;",
+          "source": {
+            "book": "Joshua",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
+        "riddle": "עֲבָדֶיךָ אֲנָחְנו",
+        "speaker": "וְיֹשְׁבֵי גִבְעוֹן",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "אַנְשֵׁי הָעִיר"
+          ],
+          "listener": [
+            "כֶּלֶב",
+            "מֹשֶׁה",
+            "גִּדְעוֹן"
+          ]
+        },
+        "bonus": "עָשָׂה",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹֽנִי־צֶדֶק מֶלֶךְ יְרוּשָׁלִַם כִּֽי־לָכַד יְהוֹשֻׁעַ אֶת־הָעַי וַיַּחֲרִימָהּ כַּאֲשֶׁר עָשָׂה לִֽירִיחוֹ וּלְמַלְכָּהּ כֵּן־עָשָׂה לָעַי וּלְמַלְכָּהּ וְכִי הִשְׁלִימוּ יֹשְׁבֵי גִבְעוֹן אֶת־יִשְׂרָאֵל וַיִּֽהְיוּ בְּקִרְבָּֽם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai,",
+          "4": "They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up;",
+          "5": "And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy.",
+          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+          "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
+          "8": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?"
+        },
+        "he": {
+          "3": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי׃",
+          "4": "וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים׃",
+          "5": "וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים׃",
+          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃",
+          "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃",
+          "8": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 3,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 3,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai, They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up; And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy. And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us. And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you? And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye? And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,",
+        "riddle": "From a very far country thy servants are come because of the name of the LORD thy God",
+        "speaker": "Hivites",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Israel",
+            "Sisera"
+          ],
+          "listener": [
+            "Caleb",
+            "king of Jericho",
+            "Gideon"
+          ]
+        },
+        "bonus": "Gibeon",
+        "bonus_hint": {
+          "quote": "Now it came to pass, when Adoni-zedek king of Jerusalem had heard how Joshua had taken Ai, and had utterly destroyed it; as he had done to Jericho and her king, so he had done to Ai and her king; and how the inhabitants of Gibeon had made peace with Israel, and were among them;",
+          "source": {
+            "book": "Joshua",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם",
+        "riddle": "מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם",
+        "speaker": "וְיֹשְׁבֵי גִבְעוֹן",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "סִֽיסְרָא"
+          ],
+          "listener": [
+            "כֶּלֶב",
+            "מֶלֶךְ יְרִיחוֹ",
+            "גִּדְעוֹן"
+          ]
+        },
+        "bonus": "לִֽירִיחוֹ",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹֽנִי־צֶדֶק מֶלֶךְ יְרוּשָׁלִַם כִּֽי־לָכַד יְהוֹשֻׁעַ אֶת־הָעַי וַיַּחֲרִימָהּ כַּאֲשֶׁר עָשָׂה לִֽירִיחוֹ וּלְמַלְכָּהּ כֵּן־עָשָׂה לָעַי וּלְמַלְכָּהּ וְכִי הִשְׁלִימוּ יֹשְׁבֵי גִבְעוֹן אֶת־יִשְׂרָאֵל וַיִּֽהְיוּ בְּקִרְבָּֽם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And when the inhabitants of Gibeon heard what Joshua had done unto Jericho and to Ai,",
+          "4": "They did work wilily, and went and made as if they had been ambassadors, and took old sacks upon their asses, and wine bottles, old, and rent, and bound up;",
+          "5": "And old shoes and clouted upon their feet, and old garments upon them; and all the bread of their provision was dry and mouldy.",
+          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+          "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
+          "8": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
+          "9": "And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,"
+        },
+        "he": {
+          "3": "וְיֹשְׁבֵי גִבְעוֹן שָׁמְעוּ אֵת אֲשֶׁר עָשָׂה יְהוֹשֻׁעַ לִֽירִיחוֹ וְלָעָֽי׃",
+          "4": "וַיַּעֲשׂוּ גַם־הֵמָּה בְּעָרְמָה וַיֵּלְכוּ וַיִּצְטַיָּרוּ וַיִּקְחוּ שַׂקִּים בָּלִים לַחֲמוֹרֵיהֶם וְנֹאדוֹת יַיִן בָּלִים וּמְבֻקָּעִים וּמְצֹרָרִֽים׃",
+          "5": "וּנְעָלוֹת בָּלוֹת וּמְטֻלָּאוֹת בְּרַגְלֵיהֶם וּשְׂלָמוֹת בָּלוֹת עֲלֵיהֶם וְכֹל לֶחֶם צֵידָם יָבֵשׁ הָיָה נִקֻּדִֽים׃",
+          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃",
+          "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃",
+          "8": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ׃",
+          "9": "וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 3,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-08-08-2",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you? And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye? And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt, And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth. Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us.",
         "riddle": "Who are ye? and from whence come ye?",
         "speaker": "Joshua",
         "listener": "Hivites",
         "book": "Joshua",
         "options": {
           "speaker": [
-            "Caleb",
-            "Abimelech",
-            "David"
+            "Moses",
+            "Balaam",
+            "Philistines"
           ],
           "listener": [
             "Philistines",
-            "Israelites",
-            "children of Benjamin"
+            "Israel",
+            "house of Joseph"
           ]
         },
-        "bonus": "camp",
+        "bonus": "servants",
         "bonus_hint": {
-          "quote": "And it came to pass, that at even the quails came up, and covered the camp: and in the morning the dew lay round about the host.",
+          "quote": "And they said unto Moses, Thy servants have taken the sum of the men of war which are under our charge, and there lacketh not one man of us.",
           "source": {
-            "book": "Exodus",
-            "chapter": 16,
-            "start": 13,
-            "end": 13
+            "book": "Numbers",
+            "chapter": 31,
+            "start": 49,
+            "end": 49
           }
         }
       },
       "he": {
-        "quote": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם וְאֵת כָּל־אֲשֶׁר עָשָׂה לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחוֹן מֶלֶךְ חֶשְׁבּוֹן וּלְעוֹג מֶֽלֶךְ־הַבָּשָׁן אֲשֶׁר בְּעַשְׁתָּרֽוֹת וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית זֶה לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים",
+        "quote": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם וְאֵת כָּל־אֲשֶׁר עָשָׂה לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחוֹן מֶלֶךְ חֶשְׁבּוֹן וּלְעוֹג מֶֽלֶךְ־הַבָּשָׁן אֲשֶׁר בְּעַשְׁתָּרֽוֹת וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
         "riddle": "מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
         "speaker": "יְהוֹשֻׁעַ",
-        "listener": "החיוים",
+        "listener": "חִוִּי",
         "book": "יהושע",
         "options": {
           "speaker": [
-            "כָלֵב",
-            "אֲבִימֶלֶךְ",
-            "דָּוִד"
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "פְּלִשְׁתִּים"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "בְּנֵי בִנְיָמִן"
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "בֵּית יוֹסֵף"
           ]
         },
-        "bonus": "הַֽמַּחֲנֶה",
+        "bonus": "אִֽישׁ",
         "bonus_hint": {
-          "quote": "וַיְהִי בָעֶרֶב וַתַּעַל הַשְּׂלָו וַתְּכַס אֶת־הַֽמַּחֲנֶה וּבַבֹּקֶר הָֽיְתָה שִׁכְבַת הַטַּל סָבִיב לַֽמַּחֲנֶֽה",
+          "quote": "וַיֹּֽאמְרוּ אֶל־מֹשֶׁה עֲבָדֶיךָ נָֽשְׂאוּ אֶת־רֹאשׁ אַנְשֵׁי הַמִּלְחָמָה אֲשֶׁר בְּיָדֵנוּ וְלֹא־נִפְקַד מִמֶּנּוּ אִֽישׁ",
           "source": {
-            "book": "שמות",
-            "chapter": 16,
-            "start": 13,
-            "end": 13
+            "book": "במדבר",
+            "chapter": 31,
+            "start": 49,
+            "end": 49
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+          "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
+          "8": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
+          "9": "And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,",
+          "10": "And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth.",
+          "11": "Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃",
+          "8": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ׃",
+          "9": "וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם׃",
+          "10": "וְאֵת ׀ כָּל־אֲשֶׁר עָשָׂה לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחוֹן מֶלֶךְ חֶשְׁבּוֹן וּלְעוֹג מֶֽלֶךְ־הַבָּשָׁן אֲשֶׁר בְּעַשְׁתָּרֽוֹת׃",
+          "11": "וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you? And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye? And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt, And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth. Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us. This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy: And these bottles of wine, which we filled, were new; and, behold, they be rent: and these our garments and our shoes are become old by reason of the very long journey.",
+        "riddle": "Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us.",
+        "speaker": "elders",
+        "listener": "inhabitants of their country",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Moses",
+            "Abimelech"
+          ],
+          "listener": []
+        },
+        "bonus": "Joshua",
+        "bonus_hint": {
+          "quote": "And Moses called unto Joshua, and said unto him in the sight of all Israel, Be strong and of a good courage: for thou must go with this people unto the land which the LORD hath sworn unto their fathers to give them; and thou shalt cause them to inherit it.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם וְאֵת כָּל־אֲשֶׁר עָשָׂה לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחוֹן מֶלֶךְ חֶשְׁבּוֹן וּלְעוֹג מֶֽלֶךְ־הַבָּשָׁן אֲשֶׁר בְּעַשְׁתָּרֽוֹת וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית זֶה לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים וְאֵלֶּה נֹאדוֹת הַיַּיִן אֲשֶׁר מִלֵּאנוּ חֲדָשִׁים וְהִנֵּה הִתְבַּקָּעוּ וְאֵלֶּה שַׂלְמוֹתֵינוּ וּנְעָלֵינוּ בָּלוּ מֵרֹב הַדֶּרֶךְ מְאֹֽד",
+        "riddle": "קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "speaker": "זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ",
+        "listener": "הַחִוִּי",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "מֹשֶׁה",
+            "אֲבִימֶלֶךְ"
+          ],
+          "listener": []
+        },
+        "bonus": "יִשְׂרָאֵל",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא מֹשֶׁה לִֽיהוֹשֻׁעַ וַיֹּאמֶר אֵלָיו לְעֵינֵי כָל־יִשְׂרָאֵל חֲזַק וֶאֱמָץ כִּי אַתָּה תָּבוֹא אֶת־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתָם לָתֵת לָהֶם וְאַתָּה תַּנְחִילֶנָּה אוֹתָֽם",
+          "source": {
+            "book": "דברים",
+            "chapter": 31,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
           "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
           "8": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
           "9": "And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,",
           "10": "And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth.",
           "11": "Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us.",
-          "12": "This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:"
+          "12": "This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:",
+          "13": "And these bottles of wine, which we filled, were new; and, behold, they be rent: and these our garments and our shoes are become old by reason of the very long journey."
         },
         "he": {
-          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃",
           "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃",
           "8": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ׃",
           "9": "וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם׃",
           "10": "וְאֵת ׀ כָּל־אֲשֶׁר עָשָׂה לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחוֹן מֶלֶךְ חֶשְׁבּוֹן וּלְעוֹג מֶֽלֶךְ־הַבָּשָׁן אֲשֶׁר בְּעַשְׁתָּרֽוֹת׃",
           "11": "וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃",
-          "12": "זֶה ׀ לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים׃"
+          "12": "זֶה ׀ לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים׃",
+          "13": "וְאֵלֶּה נֹאדוֹת הַיַּיִן אֲשֶׁר מִלֵּאנוּ חֲדָשִׁים וְהִנֵּה הִתְבַּקָּעוּ וְאֵלֶּה שַׂלְמוֹתֵינוּ וּנְעָלֵינוּ בָּלוּ מֵרֹב הַדֶּרֶךְ מְאֹֽד׃"
         }
       },
       "ref": {
         "chapter": 9,
-        "start": 6,
-        "end": 12
+        "start": 7,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 17,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the children of Israel journeyed, and came unto their cities on the third day. Now their cities were Gibeon, and Chephirah, and Beeroth, and Kirjath-jearim. And the children of Israel smote them not, because the princes of the congregation had sworn unto them by the LORD God of Israel. And all the congregation murmured against the princes. But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them. This we will do to them; we will even let them live, lest wrath be upon us, because of the oath which we sware unto them. And the princes said unto them, Let them live; but let them be hewers of wood and drawers of water unto all the congregation; as the princes had promised them. And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us? Now therefore ye are cursed, and there shall none of you be freed from being bondmen, and hewers of wood and drawers of water for the house of my God.",
+        "riddle": "Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+        "speaker": "Joshua",
+        "listener": "Gibeonites",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Gideon"
+          ],
+          "listener": [
+            "Israel",
+            "Philistines",
+            "Israelites"
+          ]
+        },
+        "bonus": "journeyed",
+        "bonus_hint": {
+          "quote": "And they journeyed from Bethel; and there was but a little way to come to Ephrath: and Rachel travailed, and she had hard labour.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 35,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּסְעוּ בְנֵֽי־יִשְׂרָאֵל וַיָּבֹאוּ אֶל־עָרֵיהֶם בַּיּוֹם הַשְּׁלִישִׁי וְעָרֵיהֶם גִּבְעוֹן וְהַכְּפִירָה וּבְאֵרוֹת וְקִרְיַת יְעָרִֽים וְלֹא הִכּוּם בְּנֵי יִשְׂרָאֵל כִּֽי־נִשְׁבְּעוּ לָהֶם נְשִׂיאֵי הָֽעֵדָה בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וַיִּלֹּנוּ כָל־הָעֵדָה עַל־הַנְּשִׂיאִֽים וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם זֹאת נַעֲשֶׂה לָהֶם וְהַחֲיֵה אוֹתָם וְלֹֽא־יִֽהְיֶה עָלֵינוּ קֶצֶף עַל־הַשְּׁבוּעָה אֲשֶׁר־נִשְׁבַּעְנוּ לָהֶֽם וַיֹּאמְרוּ אֲלֵיהֶם הַנְּשִׂיאִים יִֽחְיוּ וַיִּֽהְיוּ חֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְכָל־הָעֵדָה כַּאֲשֶׁר דִּבְּרוּ לָהֶם הַנְּשִׂיאִֽים וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים וְעַתָּה אֲרוּרִים אַתֶּם וְלֹֽא־יִכָּרֵת מִכֶּם עֶבֶד וְחֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְבֵית אֱלֹהָֽי",
+        "riddle": "וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הגבעונים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "גִּדְעוֹן"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "בְּנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "וַיִּסְעוּ",
+        "bonus_hint": {
+          "quote": "וַיִּסְעוּ מִבֵּית אֵל וַֽיְהִי־עוֹד כִּבְרַת־הָאָרֶץ לָבוֹא אֶפְרָתָה וַתֵּלֶד רָחֵל וַתְּקַשׁ בְּלִדְתָּֽהּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 35,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the children of Israel journeyed, and came unto their cities on the third day. Now their cities were Gibeon, and Chephirah, and Beeroth, and Kirjath-jearim.",
+          "18": "And the children of Israel smote them not, because the princes of the congregation had sworn unto them by the LORD God of Israel. And all the congregation murmured against the princes.",
+          "19": "But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them.",
+          "20": "This we will do to them; we will even let them live, lest wrath be upon us, because of the oath which we sware unto them.",
+          "21": "And the princes said unto them, Let them live; but let them be hewers of wood and drawers of water unto all the congregation; as the princes had promised them.",
+          "22": "And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+          "23": "Now therefore ye are cursed, and there shall none of you be freed from being bondmen, and hewers of wood and drawers of water for the house of my God."
+        },
+        "he": {
+          "17": "וַיִּסְעוּ בְנֵֽי־יִשְׂרָאֵל וַיָּבֹאוּ אֶל־עָרֵיהֶם בַּיּוֹם הַשְּׁלִישִׁי וְעָרֵיהֶם גִּבְעוֹן וְהַכְּפִירָה וּבְאֵרוֹת וְקִרְיַת יְעָרִֽים׃",
+          "18": "וְלֹא הִכּוּם בְּנֵי יִשְׂרָאֵל כִּֽי־נִשְׁבְּעוּ לָהֶם נְשִׂיאֵי הָֽעֵדָה בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וַיִּלֹּנוּ כָל־הָעֵדָה עַל־הַנְּשִׂיאִֽים׃",
+          "19": "וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם׃",
+          "20": "זֹאת נַעֲשֶׂה לָהֶם וְהַחֲיֵה אוֹתָם וְלֹֽא־יִֽהְיֶה עָלֵינוּ קֶצֶף עַל־הַשְּׁבוּעָה אֲשֶׁר־נִשְׁבַּעְנוּ לָהֶֽם׃",
+          "21": "וַיֹּאמְרוּ אֲלֵיהֶם הַנְּשִׂיאִים יִֽחְיוּ וַיִּֽהְיוּ חֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְכָל־הָעֵדָה כַּאֲשֶׁר דִּבְּרוּ לָהֶם הַנְּשִׂיאִֽים׃",
+          "22": "וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים׃",
+          "23": "וְעַתָּה אֲרוּרִים אַתֶּם וְלֹֽא־יִכָּרֵת מִכֶּם עֶבֶד וְחֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְבֵית אֱלֹהָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 17,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-09-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 19,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them. This we will do to them; we will even let them live, lest wrath be upon us, because of the oath which we sware unto them.",
+        "riddle": "We have sworn unto them by the LORD God of Israel: now therefore we may not touch them.",
+        "speaker": "princes",
+        "listener": "congregation",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Moses",
+            "Levites"
+          ],
+          "listener": [
+            "people",
+            "Israel",
+            "children"
+          ]
+        },
+        "bonus": "oath",
+        "bonus_hint": {
+          "quote": "Then said they, We will restore them, and will require nothing of them; so will we do as thou sayest. Then I called the priests, and took an oath of them, that they should do according to this promise.",
+          "source": {
+            "book": "Nehemiah",
+            "chapter": 5,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם זֹאת נַעֲשֶׂה לָהֶם וְהַחֲיֵה אוֹתָם וְלֹֽא־יִֽהְיֶה עָלֵינוּ קֶצֶף עַל־הַשְּׁבוּעָה אֲשֶׁר־נִשְׁבַּעְנוּ לָהֶֽם",
+        "riddle": "אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם",
+        "speaker": "הַנְּשִׂיאִים",
+        "listener": "הָעֵדָה",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "מֹשֶׁה",
+            "הַלְוִיִּֽם"
+          ],
+          "listener": [
+            "הָעָם",
+            "יִשְׂרָאֵל",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "נַעֲשֶׂה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ נָשִׁיב וּמֵהֶם לֹא נְבַקֵּשׁ כֵּן נַעֲשֶׂה כַּאֲשֶׁר אַתָּה אוֹמֵר וָאֶקְרָא אֶת־הַכֹּהֲנִים וָֽאַשְׁבִּיעֵם לַעֲשׂוֹת כַּדָּבָר הַזֶּֽה",
+          "source": {
+            "book": "נחמיה",
+            "chapter": 5,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them.",
+          "20": "This we will do to them; we will even let them live, lest wrath be upon us, because of the oath which we sware unto them."
+        },
+        "he": {
+          "19": "וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם׃",
+          "20": "זֹאת נַעֲשֶׂה לָהֶם וְהַחֲיֵה אוֹתָם וְלֹֽא־יִֽהְיֶה עָלֵינוּ קֶצֶף עַל־הַשְּׁבוּעָה אֲשֶׁר־נִשְׁבַּעְנוּ לָהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 19,
+        "end": 20
       },
       "meta": {
         "mode": "llm",

@@ -6,6 +6,240 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-samuel-17-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night: And I will come upon him while he is weary and weak handed, and will make him afraid: and all the people that are with him shall flee; and I will smite the king only:",
+        "riddle": "Let me now choose out twelve thousand men, and I will arise and pursue after David this night:",
+        "speaker": "Ahithophel",
+        "listener": "Absalom",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "weary",
+        "bonus_hint": {
+          "quote": "And the king, and all the people that were with him, came weary, and refreshed themselves there.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 16,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה וְאָבוֹא עָלָיו וְהוּא יָגֵעַ וּרְפֵה יָדַיִם וְהַֽחֲרַדְתִּי אֹתוֹ וְנָס כָּל־הָעָם אֲשֶׁר־אִתּוֹ וְהִכֵּיתִי אֶת־הַמֶּלֶךְ לְבַדּֽוֹ",
+        "riddle": "אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה",
+        "speaker": "אֲחִיתֹפֶל",
+        "listener": "אַבְשָׁלֹם",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָעָם",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא הַמֶּלֶךְ וְכָל־הָעָם אֲשֶׁר־אִתּוֹ עֲיֵפִים וַיִּנָּפֵשׁ שָֽׁם",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 16,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:",
+          "2": "And I will come upon him while he is weary and weak handed, and will make him afraid: and all the people that are with him shall flee; and I will smite the king only:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם אֶבְחֲרָה נָּא שְׁנֵים־עָשָׂר אֶלֶף אִישׁ וְאָקוּמָה וְאֶרְדְּפָה אַחֲרֵי־דָוִד הַלָּֽיְלָה׃",
+          "2": "וְאָבוֹא עָלָיו וְהוּא יָגֵעַ וּרְפֵה יָדַיִם וְהַֽחֲרַדְתִּי אֹתוֹ וְנָס כָּל־הָעָם אֲשֶׁר־אִתּוֹ וְהִכֵּיתִי אֶת־הַמֶּלֶךְ לְבַדּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-17-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time. For, said Hushai, thou knowest thy father and his men, that they be mighty men, and they be chafed in their minds, as a bear robbed of her whelps in the field: and thy father is a man of war, and will not lodge with the people.",
+        "riddle": "The counsel that Ahithophel hath given is not good at this time.",
+        "speaker": "Hushai",
+        "listener": "Absalom",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bear",
+        "bonus_hint": {
+          "quote": "And thou shalt not uncover the nakedness of thy mother's sister, nor of thy father's sister: for he uncovereth his near kin: they shall bear their iniquity.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 20,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלוֹם לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת וַיֹּאמֶר חוּשַׁי אַתָּה יָדַעְתָּ אֶת־אָבִיךָ וְאֶת־אֲנָשָׁיו כִּי גִבֹּרִים הֵמָּה וּמָרֵי נֶפֶשׁ הֵמָּה כְּדֹב שַׁכּוּל בַּשָּׂדֶה וְאָבִיךָ אִישׁ מִלְחָמָה וְלֹא יָלִין אֶת־הָעָֽם",
+        "riddle": "לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת",
+        "speaker": "חוּשַׁי",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אָבִיךָ",
+        "bonus_hint": {
+          "quote": "וְעֶרְוַת אֲחוֹת אִמְּךָ וַאֲחוֹת אָבִיךָ לֹא תְגַלֵּה כִּי אֶת־שְׁאֵרוֹ הֶעֱרָה עֲוֺנָם יִשָּֽׂאוּ",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 20,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Hushai said unto Absalom, The counsel that Ahithophel hath given is not good at this time.",
+          "8": "For, said Hushai, thou knowest thy father and his men, that they be mighty men, and they be chafed in their minds, as a bear robbed of her whelps in the field: and thy father is a man of war, and will not lodge with the people."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלוֹם לֹֽא־טוֹבָה הָעֵצָה אֲשֶׁר־יָעַץ אֲחִיתֹפֶל בַּפַּעַם הַזֹּֽאת׃",
+          "8": "וַיֹּאמֶר חוּשַׁי אַתָּה יָדַעְתָּ אֶת־אָבִיךָ וְאֶת־אֲנָשָׁיו כִּי גִבֹּרִים הֵמָּה וּמָרֵי נֶפֶשׁ הֵמָּה כְּדֹב שַׁכּוּל בַּשָּׂדֶה וְאָבִיךָ אִישׁ מִלְחָמָה וְלֹא יָלִין אֶת־הָעָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-17-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than the counsel of Ahithophel. For the LORD had appointed to defeat the good counsel of Ahithophel, to the intent that the LORD might bring evil upon Absalom. Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled.",
+        "riddle": "Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled",
+        "speaker": "Hushai",
+        "listener": "Zadok and Abiathar",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "defeat",
+        "bonus_hint": {
+          "quote": "But if thou return to the city, and say unto Absalom, I will be thy servant, O king; as I have been thy father's servant hitherto, so will I now also be thy servant: then mayest thou for me defeat the counsel of Ahithophel.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 15,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל טוֹבָה עֲצַת חוּשַׁי הָאַרְכִּי מֵעֲצַת אֲחִיתֹפֶל וַיהוָה צִוָּה לְהָפֵר אֶת־עֲצַת אֲחִיתֹפֶל הַטּוֹבָה לְבַעֲבוּר הָבִיא יְהוָה אֶל־אַבְשָׁלוֹם אֶת־הָרָעָֽה וַיֹּאמֶר חוּשַׁי אֶל־צָדוֹק וְאֶל־אֶבְיָתָר הַכֹּהֲנִים כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי",
+        "riddle": "כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי",
+        "speaker": "חוּשַׁי",
+        "listener": "צָדוֹק ואביתר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עֲצַת",
+        "bonus_hint": {
+          "quote": "וְאִם־הָעִיר תָּשׁוּב וְאָמַרְתָּ לְאַבְשָׁלוֹם עַבְדְּךָ אֲנִי הַמֶּלֶךְ אֶֽהְיֶה עֶבֶד אָבִיךָ וַֽאֲנִי מֵאָז וְעַתָּה וַאֲנִי עַבְדֶּךָ וְהֵפַרְתָּה לִי אֵת עֲצַת אֲחִיתֹֽפֶל",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 15,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Absalom and all the men of Israel said, The counsel of Hushai the Archite is better than the counsel of Ahithophel. For the LORD had appointed to defeat the good counsel of Ahithophel, to the intent that the LORD might bring evil upon Absalom.",
+          "15": "Then said Hushai unto Zadok and to Abiathar the priests, Thus and thus did Ahithophel counsel Absalom and the elders of Israel; and thus and thus have I counselled."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אַבְשָׁלוֹם וְכָל־אִישׁ יִשְׂרָאֵל טוֹבָה עֲצַת חוּשַׁי הָאַרְכִּי מֵעֲצַת אֲחִיתֹפֶל וַיהוָה צִוָּה לְהָפֵר אֶת־עֲצַת אֲחִיתֹפֶל הַטּוֹבָה לְבַעֲבוּר הָבִיא יְהוָה אֶל־אַבְשָׁלוֹם אֶת־הָרָעָֽה׃",
+          "15": "וַיֹּאמֶר חוּשַׁי אֶל־צָדוֹק וְאֶל־אֶבְיָתָר הַכֹּהֲנִים כָּזֹאת וְכָזֹאת יָעַץ אֲחִיתֹפֶל אֶת־אַבְשָׁלֹם וְאֵת זִקְנֵי יִשְׂרָאֵל וְכָזֹאת וְכָזֹאת יָעַצְתִּי אָֽנִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "2-samuel-17-20-20",
       "source": {
         "method": "llm",
@@ -14,7 +248,9 @@
         "book_he": "שמואל ב",
         "chapter": 17,
         "quote_verse_start": 20,
-        "quote_verse_end": 20
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
       },
       "en": {
         "quote": "And when Absalom's servants came to the woman to the house, they said, Where is Ahimaaz and Jonathan? And the woman said unto them, They be gone over the brook of water. And when they had sought and could not find them, they returned to Jerusalem.",
@@ -26,14 +262,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "house",
+        "bonus": "brook",
         "bonus_hint": {
-          "quote": "But the men put forth their hand, and pulled Lot into the house to them, and shut to the door.",
+          "quote": "And they came unto the brook of Eshcol, and cut down from thence a branch with one cluster of grapes, and they bare it between two upon a staff; and they brought of the pomegranates, and of the figs.",
           "source": {
-            "book": "Genesis",
-            "chapter": 19,
-            "start": 10,
-            "end": 10
+            "book": "Numbers",
+            "chapter": 13,
+            "start": 23,
+            "end": 23
           }
         }
       },
@@ -47,14 +283,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַבַּיְתָה",
+        "bonus": "וַיָּבֹאוּ",
         "bonus_hint": {
-          "quote": "וַיִּשְׁלְחוּ הָֽאֲנָשִׁים אֶת־יָדָם וַיָּבִיאוּ אֶת־לוֹט אֲלֵיהֶם הַבָּיְתָה וְאֶת־הַדֶּלֶת סָגָֽרוּ",
+          "quote": "וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַיִּכְרְתוּ מִשָּׁם זְמוֹרָה וְאֶשְׁכּוֹל עֲנָבִים אֶחָד וַיִּשָּׂאֻהוּ בַמּוֹט בִּשְׁנָיִם וּמִן־הָרִמֹּנִים וּמִן־הַתְּאֵנִֽים",
           "source": {
-            "book": "בראשית",
-            "chapter": 19,
-            "start": 10,
-            "end": 10
+            "book": "במדבר",
+            "chapter": 13,
+            "start": 23,
+            "end": 23
           }
         }
       },
@@ -70,6 +306,94 @@
         "chapter": 17,
         "start": 20,
         "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-17-29-29",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 17,
+        "quote_verse_start": 23,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And when Ahithophel saw that his counsel was not followed, he saddled his ass, and arose, and gat him home to his house, to his city, and put his household in order, and hanged himself, and died, and was buried in the sepulchre of his father. Then David came to Mahanaim. And Absalom passed over Jordan, he and all the men of Israel with him. And Absalom made Amasa captain of the host instead of Joab: which Amasa was a man's son, whose name was Ithra an Israelite, that went in to Abigail the daughter of Nahash, sister to Zeruiah Joab's mother. So Israel and Absalom pitched in the land of Gilead. And it came to pass, when David was come to Mahanaim, that Shobi the son of Nahash of Rabbah of the children of Ammon, and Machir the son of Ammiel of Lo-debar, and Barzillai the Gileadite of Rogelim, Brought beds, and basons, and earthen vessels, and wheat, and barley, and flour, and parched corn, and beans, and lentiles, and parched pulse, And honey, and butter, and sheep, and cheese of kine, for David, and for the people that were with him, to eat: for they said, The people is hungry, and weary, and thirsty, in the wilderness.",
+        "riddle": "The people is hungry, and weary, and thirsty, in the wilderness.",
+        "speaker": "Shobi, Machir, and Barzillai",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "house",
+        "bonus_hint": {
+          "quote": "But when Ahaziah the king of Judah saw this, he fled by the way of the garden house. And Jehu followed after him, and said, Smite him also in the chariot. And they did so at the going up to Gur, which is by Ibleam. And he fled to Megiddo, and died there.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַאֲחִיתֹפֶל רָאָה כִּי לֹא נֶעֶשְׂתָה עֲצָתוֹ וַיַּחֲבֹשׁ אֶֽת־הַחֲמוֹר וַיָּקָם וַיֵּלֶךְ אֶל־בֵּיתוֹ אֶל־עִירוֹ וַיְצַו אֶל־בֵּיתוֹ וַיֵּחָנַק וַיָּמָת וַיִּקָּבֵר בְּקֶבֶר אָבִֽיו וְדָוִד בָּא מַחֲנָיְמָה וְאַבְשָׁלֹם עָבַר אֶת־הַיַּרְדֵּן הוּא וְכָל־אִישׁ יִשְׂרָאֵל עִמּֽוֹ וְאֶת־עֲמָשָׂא שָׂם אַבְשָׁלֹם תַּחַת יוֹאָב עַל־הַצָּבָא וַעֲמָשָׂא בֶן־אִישׁ וּשְׁמוֹ יִתְרָא הַיִּשְׂרְאֵלִי אֲשֶׁר־בָּא אֶל־אֲבִיגַל בַּת־נָחָשׁ אֲחוֹת צְרוּיָה אֵם יוֹאָֽב וַיִּחַן יִשְׂרָאֵל וְאַבְשָׁלֹם אֶרֶץ הַגִּלְעָֽד וַיְהִי כְּבוֹא דָוִד מַחֲנָיְמָה וְשֹׁבִי בֶן־נָחָשׁ מֵרַבַּת בְּנֵֽי־עַמּוֹן וּמָכִיר בֶּן־עַמִּיאֵל מִלֹּא דְבָר וּבַרְזִלַּי הַגִּלְעָדִי מֵרֹגְלִֽים מִשְׁכָּב וְסַפּוֹת וּכְלִי יוֹצֵר וְחִטִּים וּשְׂעֹרִים וְקֶמַח וְקָלִי וּפוֹל וַעֲדָשִׁים וְקָלִֽי וּדְבַשׁ וְחֶמְאָה וְצֹאן וּשְׁפוֹת בָּקָר הִגִּישׁוּ לְדָוִד וְלָעָם אֲשֶׁר־אִתּוֹ לֶאֱכוֹל כִּי אָמְרוּ הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר",
+        "riddle": "הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר",
+        "speaker": "שֹׁבִי בֶן נָחָשׁ מָכִיר בֶן עַמִּיאֵל וּבַרְזִלַּי הַגִּלְעָדִי",
+        "listener": "דָוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "רָאָה",
+        "bonus_hint": {
+          "quote": "וַאֲחַזְיָה מֶֽלֶךְ־יְהוּדָה רָאָה וַיָּנָס דֶּרֶךְ בֵּית הַגָּן וַיִּרְדֹּף אַחֲרָיו יֵהוּא וַיֹּאמֶר גַּם־אֹתוֹ הַכֻּהוּ אֶל־הַמֶּרְכָּבָה בְּמַֽעֲלֵה־גוּר אֲשֶׁר אֶֽת־יִבְלְעָם וַיָּנָס מְגִדּוֹ וַיָּמָת שָֽׁם",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And when Ahithophel saw that his counsel was not followed, he saddled his ass, and arose, and gat him home to his house, to his city, and put his household in order, and hanged himself, and died, and was buried in the sepulchre of his father.",
+          "24": "Then David came to Mahanaim. And Absalom passed over Jordan, he and all the men of Israel with him.",
+          "25": "And Absalom made Amasa captain of the host instead of Joab: which Amasa was a man's son, whose name was Ithra an Israelite, that went in to Abigail the daughter of Nahash, sister to Zeruiah Joab's mother.",
+          "26": "So Israel and Absalom pitched in the land of Gilead.",
+          "27": "And it came to pass, when David was come to Mahanaim, that Shobi the son of Nahash of Rabbah of the children of Ammon, and Machir the son of Ammiel of Lo-debar, and Barzillai the Gileadite of Rogelim,",
+          "28": "Brought beds, and basons, and earthen vessels, and wheat, and barley, and flour, and parched corn, and beans, and lentiles, and parched pulse,",
+          "29": "And honey, and butter, and sheep, and cheese of kine, for David, and for the people that were with him, to eat: for they said, The people is hungry, and weary, and thirsty, in the wilderness."
+        },
+        "he": {
+          "23": "וַאֲחִיתֹפֶל רָאָה כִּי לֹא נֶעֶשְׂתָה עֲצָתוֹ וַיַּחֲבֹשׁ אֶֽת־הַחֲמוֹר וַיָּקָם וַיֵּלֶךְ אֶל־בֵּיתוֹ אֶל־עִירוֹ וַיְצַו אֶל־בֵּיתוֹ וַיֵּחָנַק וַיָּמָת וַיִּקָּבֵר בְּקֶבֶר אָבִֽיו׃",
+          "24": "וְדָוִד בָּא מַחֲנָיְמָה וְאַבְשָׁלֹם עָבַר אֶת־הַיַּרְדֵּן הוּא וְכָל־אִישׁ יִשְׂרָאֵל עִמּֽוֹ׃",
+          "25": "וְאֶת־עֲמָשָׂא שָׂם אַבְשָׁלֹם תַּחַת יוֹאָב עַל־הַצָּבָא וַעֲמָשָׂא בֶן־אִישׁ וּשְׁמוֹ יִתְרָא הַיִּשְׂרְאֵלִי אֲשֶׁר־בָּא אֶל־אֲבִיגַל בַּת־נָחָשׁ אֲחוֹת צְרוּיָה אֵם יוֹאָֽב׃",
+          "26": "וַיִּחַן יִשְׂרָאֵל וְאַבְשָׁלֹם אֶרֶץ הַגִּלְעָֽד׃",
+          "27": "וַיְהִי כְּבוֹא דָוִד מַחֲנָיְמָה וְשֹׁבִי בֶן־נָחָשׁ מֵרַבַּת בְּנֵֽי־עַמּוֹן וּמָכִיר בֶּן־עַמִּיאֵל מִלֹּא דְבָר וּבַרְזִלַּי הַגִּלְעָדִי מֵרֹגְלִֽים׃",
+          "28": "מִשְׁכָּב וְסַפּוֹת וּכְלִי יוֹצֵר וְחִטִּים וּשְׂעֹרִים וְקֶמַח וְקָלִי וּפוֹל וַעֲדָשִׁים וְקָלִֽי׃",
+          "29": "וּדְבַשׁ וְחֶמְאָה וְצֹאן וּשְׁפוֹת בָּקָר הִגִּישׁוּ לְדָוִד וְלָעָם אֲשֶׁר־אִתּוֹ לֶאֱכוֹל כִּי אָמְרוּ הָעָם רָעֵב וְעָיֵף וְצָמֵא בַּמִּדְבָּֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 23,
+        "end": 29
       },
       "meta": {
         "mode": "llm",

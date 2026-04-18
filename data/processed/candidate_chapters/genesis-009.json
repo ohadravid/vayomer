@@ -6,6 +6,277 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-09-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth.",
+        "riddle": "Be fruitful, and multiply, and replenish the earth.",
+        "speaker": "God",
+        "listener": "Noah and his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְבָרֶךְ אֱלֹהִים אֶת־נֹחַ וְאֶת־בָּנָיו וַיֹּאמֶר לָהֶם פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָֽרֶץ",
+        "riddle": "בָּנָיו וַיֹּאמֶר לָהֶם פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָֽרֶץ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ וְאֶת־בָּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And God blessed Noah and his sons, and said unto them, Be fruitful, and multiply, and replenish the earth."
+        },
+        "he": {
+          "1": "וַיְבָרֶךְ אֱלֹהִים אֶת־נֹחַ וְאֶת־בָּנָיו וַיֹּאמֶר לָהֶם פְּרוּ וּרְבוּ וּמִלְאוּ אֶת־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-09-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.",
+        "riddle": "be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.",
+        "speaker": "God",
+        "listener": "Noah and his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְאַתֶּם פְּרוּ וּרְבוּ שִׁרְצוּ בָאָרֶץ וּרְבוּ־בָֽהּ",
+        "riddle": "וְאַתֶּם פְּרוּ וּרְבוּ שִׁרְצוּ בָאָרֶץ וּרְבוּ־בָֽהּ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ וְאֶל־בָּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And you, be ye fruitful, and multiply; bring forth abundantly in the earth, and multiply therein.",
+          "8": "And God spake unto Noah, and to his sons with him, saying,"
+        },
+        "he": {
+          "7": "וְאַתֶּם פְּרוּ וּרְבוּ שִׁרְצוּ בָאָרֶץ וּרְבוּ־בָֽהּ׃",
+          "8": "וַיֹּאמֶר אֱלֹהִים אֶל־נֹחַ וְאֶל־בָּנָיו אִתּוֹ לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-09-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And I, behold, I establish my covenant with you, and with your seed after you;",
+        "riddle": "I establish my covenant with you, and with your seed after you;",
+        "speaker": "God",
+        "listener": "Noah and his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַאֲנִי הִנְנִי מֵקִים אֶת־בְּרִיתִי אִתְּכֶם וְאֶֽת־זַרְעֲכֶם אַֽחֲרֵיכֶֽם",
+        "riddle": "וַאֲנִי הִנְנִי מֵקִים אֶת־בְּרִיתִי אִתְּכֶם וְאֶֽת־זַרְעֲכֶם אַֽחֲרֵיכֶֽם",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ וְאֶל־בָּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And God spake unto Noah, and to his sons with him, saying,",
+          "9": "And I, behold, I establish my covenant with you, and with your seed after you;"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר אֱלֹהִים אֶל־נֹחַ וְאֶל־בָּנָיו אִתּוֹ לֵאמֹֽר׃",
+          "9": "וַאֲנִי הִנְנִי מֵקִים אֶת־בְּרִיתִי אִתְּכֶם וְאֶֽת־זַרְעֲכֶם אַֽחֲרֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "declaration of covenant",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-09-12-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And God said, This is the token of the covenant which I make between me and you and every living creature that is with you, for perpetual generations: I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+        "riddle": "This is the token of the covenant which I make between me and you and every living creature that is with you, for perpetual generations: I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth.",
+        "speaker": "God",
+        "listener": "Noah and all creatures",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר־אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם וּבֵין כָּל־נֶפֶשׁ חַיָּה אֲשֶׁר אִתְּכֶם לְדֹרֹת עוֹלָֽם אֶת־קַשְׁתִּי נָתַתִּי בֶּֽעָנָן וְהָֽיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָֽרֶץ",
+        "riddle": "וַיֹּאמֶר אֱלֹהִים זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר־אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם וּבֵין כָּל־נֶפֶשׁ חַיָּה אֲשֶׁר אִתְּכֶם לְדֹרֹת עוֹלָֽם אֶת־קַשְׁתִּי נָתַתִּי בֶּֽעָנָן וְהָֽיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָֽרֶץ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ וְכָל נֶפֶשׁ חַיָּה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And God said, This is the token of the covenant which I make between me and you and every living creature that is with you, for perpetual generations:",
+          "13": "I do set my bow in the cloud, and it shall be for a token of a covenant between me and the earth."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר אֱלֹהִים זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר־אֲנִי נֹתֵן בֵּינִי וּבֵינֵיכֶם וּבֵין כָּל־נֶפֶשׁ חַיָּה אֲשֶׁר אִתְּכֶם לְדֹרֹת עוֹלָֽם׃",
+          "13": "אֶת־קַשְׁתִּי נָתַתִּי בֶּֽעָנָן וְהָֽיְתָה לְאוֹת בְּרִית בֵּינִי וּבֵין הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of covenant",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 13
+      }
+    },
+    {
+      "id": "genesis-09-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And God said unto Noah, This is the token of the covenant, which I have established between me and all flesh that is upon the earth.",
+        "riddle": "This is the token of the covenant, which I have established between me and all flesh that is upon the earth.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים אֶל־נֹחַ זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר הֲקִמֹתִי בֵּינִי וּבֵין כָּל־בָּשָׂר אֲשֶׁר עַל־הָאָֽרֶץ",
+        "riddle": "זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר הֲקִמֹתִי בֵּינִי וּבֵין כָּל־בָּשָׂר אֲשֶׁר עַל־הָאָֽרֶץ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And God said unto Noah, This is the token of the covenant, which I have established between me and all flesh that is upon the earth."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר אֱלֹהִים אֶל־נֹחַ זֹאת אֽוֹת־הַבְּרִית אֲשֶׁר הֲקִמֹתִי בֵּינִי וּבֵין כָּל־בָּשָׂר אֲשֶׁר עַל־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-09-25-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 24
+      },
+      "en": {
+        "quote": "And he said, Cursed be Canaan; a servant of servants shall he be unto his brethren.",
+        "riddle": "Cursed be Canaan; a servant of servants shall he be unto his brethren.",
+        "speaker": "Noah",
+        "listener": "Canaan",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אָרוּר כְּנָעַן עֶבֶד עֲבָדִים יִֽהְיֶה לְאֶחָֽיו",
+        "riddle": "וַיֹּאמֶר אָרוּר כְּנָעַן עֶבֶד עֲבָדִים יִֽהְיֶה לְאֶחָֽיו",
+        "speaker": "נֹחַ",
+        "listener": "כְּנָעַן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Noah awoke from his wine, and knew what his younger son had done unto him.",
+          "25": "And he said, Cursed be Canaan; a servant of servants shall he be unto his brethren."
+        },
+        "he": {
+          "24": "וַיִּיקֶץ נֹחַ מִיֵּינוֹ וַיֵּדַע אֵת אֲשֶׁר־עָשָׂה־לוֹ בְּנוֹ הַקָּטָֽן׃",
+          "25": "וַיֹּאמֶר אָרוּר כְּנָעַן עֶבֶד עֲבָדִים יִֽהְיֶה לְאֶחָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
       "id": "genesis-09-26-26",
       "source": {
         "book_code": "GEN",
@@ -13,46 +284,97 @@
         "book_he": "בראשית",
         "chapter": 9,
         "quote_verse_start": 26,
-        "quote_verse_end": 26
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 24
       },
       "en": {
         "quote": "And he said, Blessed be the LORD God of Shem; and Canaan shall be his servant.",
         "riddle": "Blessed be the LORD God of Shem; and Canaan shall be his servant.",
         "speaker": "Noah",
-        "listener": "God and Shem",
+        "listener": "Shem",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
         "riddle": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
-        "speaker": "נח",
-        "listener": "אלוהים ושם",
+        "speaker": "נֹחַ",
+        "listener": "שֵׁם",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
+          "24": "And Noah awoke from his wine, and knew what his younger son had done unto him.",
           "26": "And he said, Blessed be the LORD God of Shem; and Canaan shall be his servant."
         },
         "he": {
+          "24": "וַיִּיקֶץ נֹחַ מִיֵּינוֹ וַיֵּדַע אֵת אֲשֶׁר־עָשָׂה־לוֹ בְּנוֹ הַקָּטָֽן׃",
           "26": "וַיֹּאמֶר בָּרוּךְ יְהֹוָה אֱלֹהֵי שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ׃"
         }
       },
       "meta": {
-        "reason": "Contains a memorable blessing.",
-        "confidence": 1.0
+        "reason": "direct blessing",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 9,
         "start": 26,
         "end": 26
       }
+    },
+    {
+      "id": "genesis-09-27-27",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 9,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 24
+      },
+      "en": {
+        "quote": "God shall enlarge Japheth, and he shall dwell in the tents of Shem; and Canaan shall be his servant.",
+        "riddle": "God shall enlarge Japheth, and he shall dwell in the tents of Shem; and Canaan shall be his servant.",
+        "speaker": "Noah",
+        "listener": "Japheth",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "יַפְתְּ אֱלֹהִים לְיֶפֶת וְיִשְׁכֹּן בְּאָֽהֳלֵי־שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
+        "riddle": "יַפְתְּ אֱלֹהִים לְיֶפֶת וְיִשְׁכֹּן בְּאָֽהֳלֵי־שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ",
+        "speaker": "נֹחַ",
+        "listener": "יַפְתְּ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Noah awoke from his wine, and knew what his younger son had done unto him.",
+          "27": "God shall enlarge Japheth, and he shall dwell in the tents of Shem; and Canaan shall be his servant."
+        },
+        "he": {
+          "24": "וַיִּיקֶץ נֹחַ מִיֵּינוֹ וַיֵּדַע אֵת אֲשֶׁר־עָשָׂה־לוֹ בְּנוֹ הַקָּטָֽן׃",
+          "27": "יַפְתְּ אֱלֹהִים לְיֶפֶת וְיִשְׁכֹּן בְּאָֽהֳלֵי־שֵׁם וִיהִי כְנַעַן עֶבֶד לָֽמוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 27,
+        "end": 27
+      }
     }
   ],
   "stats": {
-    "window_count": 11,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 11,
-    "kept_count": 1,
-    "issue_count": 10
+    "llm_window_count": 5,
+    "projection_llm_count": 8,
+    "llm_call_count": 13,
+    "spec_count": 8,
+    "kept_count": 8,
+    "issue_count": 0
   }
 }

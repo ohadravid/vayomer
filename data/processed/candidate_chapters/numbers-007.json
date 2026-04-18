@@ -4,12 +4,106 @@
   "book_he": "במדבר",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-07-05-05",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 7,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Take it of them, that they may be to do the service of the tabernacle of the congregation; and thou shalt give them unto the Levites, to every man according to his service.",
+        "riddle": "Take it of them, that they may be to do the service of the tabernacle of the congregation; and thou shalt give them unto the Levites, to every man according to his service.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "קַח מֵֽאִתָּם וְהָיוּ לַעֲבֹד אֶת־עֲבֹדַת אֹהֶל מוֹעֵד וְנָתַתָּה אוֹתָם אֶל־הַלְוִיִּם אִישׁ כְּפִי עֲבֹדָתֽוֹ",
+        "riddle": "קַח מֵֽאִתָּם וְהָיוּ לַעֲבֹד אֶת־עֲבֹדַת אֹהֶל מוֹעֵד וְנָתַתָּה אוֹתָם אֶל־הַלְוִיִּם אִישׁ כְּפִי עֲבֹדָתֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the LORD spake unto Moses, saying,",
+          "5": "Take it of them, that they may be to do the service of the tabernacle of the congregation; and thou shalt give them unto the Levites, to every man according to his service."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "5": "קַח מֵֽאִתָּם וְהָיוּ לַעֲבֹד אֶת־עֲבֹדַת אֹהֶל מוֹעֵד וְנָתַתָּה אוֹתָם אֶל־הַלְוִיִּם אִישׁ כְּפִי עֲבֹדָתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "numbers-07-11-11",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 7,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, They shall offer their offering, each prince on his day, for the dedicating of the altar.",
+        "riddle": "They shall offer their offering, each prince on his day, for the dedicating of the altar.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נָשִׂיא אֶחָד לַיּוֹם נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ אֶת־קָרְבָּנָם לַחֲנֻכַּת הַמִּזְבֵּֽחַ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נָשִׂיא אֶחָד לַיּוֹם נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ אֶת־קָרְבָּנָם לַחֲנֻכַּת הַמִּזְבֵּֽחַ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD said unto Moses, They shall offer their offering, each prince on his day, for the dedicating of the altar."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נָשִׂיא אֶחָד לַיּוֹם נָשִׂיא אֶחָד לַיּוֹם יַקְרִיבוּ אֶת־קָרְבָּנָם לַחֲנֻכַּת הַמִּזְבֵּֽחַ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 11,
+        "end": 11
+      }
+    }
+  ],
   "stats": {
-    "window_count": 5,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 0,
-    "issue_count": 5
+    "llm_window_count": 3,
+    "projection_llm_count": 3,
+    "llm_call_count": 6,
+    "spec_count": 3,
+    "kept_count": 2,
+    "issue_count": 1
   }
 }

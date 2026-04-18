@@ -13,7 +13,9 @@
         "book_he": "יהושע",
         "chapter": 3,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
         "quote": "And Joshua said unto the people, Sanctify yourselves: for to morrow the LORD will do wonders among you.",
@@ -38,13 +40,101 @@
         }
       },
       "meta": {
-        "reason": "Memorable command and promise.",
-        "confidence": 0.95
+        "reason": "direct command",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 3,
         "start": 5,
         "end": 5
+      }
+    },
+    {
+      "id": "joshua-03-06-06",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
+        "riddle": "Take up the ark of the covenant, and pass over before the people.",
+        "speaker": "Joshua",
+        "listener": "priests",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם",
+        "riddle": "לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הַכֹּהֲנִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "joshua-03-07-07",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
+        "riddle": "This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee.",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ",
+        "riddle": "הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽך",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD said unto Joshua, This day will I begin to magnify thee in the sight of all Israel, that they may know that, as I was with Moses, so I will be with thee."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם הַזֶּה אָחֵל גַּדֶּלְךָ בְּעֵינֵי כָּל־יִשְׂרָאֵל אֲשֶׁר יֵֽדְעוּן כִּי כַּאֲשֶׁר הָיִיתִי עִם־מֹשֶׁה אֶהְיֶה עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 7,
+        "end": 7
       }
     },
     {
@@ -55,20 +145,22 @@
         "book_he": "יהושע",
         "chapter": 3,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And thou shalt command the priests that bear the ark of the covenant, saying, When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
-        "riddle": "ye shall stand still in Jordan.",
-        "speaker": "God",
-        "listener": "Joshua",
+        "riddle": "When ye are come to the brink of the water of Jordan, ye shall stand still in Jordan.",
+        "speaker": "the LORD",
+        "listener": "priests",
         "book": "Joshua"
       },
       "he": {
         "quote": "וְאַתָּה תְּצַוֶּה אֶת־הַכֹּהֲנִים נֹשְׂאֵי אֲרֽוֹן־הַבְּרִית לֵאמֹר כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
-        "riddle": "מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדוּ",
-        "speaker": "אלוהים",
-        "listener": "יהושע",
+        "riddle": "כְּבֹאֲכֶם עַד־קְצֵה מֵי הַיַּרְדֵּן בַּיַּרְדֵּן תַּעֲמֹֽדו",
+        "speaker": "יהוה",
+        "listener": "הַכֹּהֲנִים",
         "book": "יהושע"
       },
       "raw_quote_source": {
@@ -80,13 +172,57 @@
         }
       },
       "meta": {
-        "reason": "Contains a clear command.",
-        "confidence": 0.9
+        "reason": "commanded instruction",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 3,
         "start": 8,
         "end": 8
+      }
+    },
+    {
+      "id": "joshua-03-09-09",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 3,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God.",
+        "riddle": "Come hither, and hear the words of the LORD your God.",
+        "speaker": "Joshua",
+        "listener": "children of Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם",
+        "riddle": "גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 9,
+        "end": 9
       }
     },
     {
@@ -97,33 +233,37 @@
         "book_he": "יהושע",
         "chapter": 3,
         "quote_verse_start": 10,
-        "quote_verse_end": 10
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
       },
       "en": {
         "quote": "And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites.",
-        "riddle": "And Joshua said, Hereby ye shall know",
+        "riddle": "Hereby ye shall know that the living God is among you",
         "speaker": "Joshua",
-        "listener": "Israelites",
+        "listener": "children of Israel",
         "book": "Joshua"
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי",
-        "riddle": "וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי",
+        "riddle": "בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם",
         "speaker": "יְהוֹשֻׁעַ",
-        "listener": "בני ישראל",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
         "book": "יהושע"
       },
       "raw_quote_source": {
         "en": {
+          "9": "And Joshua said unto the children of Israel, Come hither, and hear the words of the LORD your God.",
           "10": "And Joshua said, Hereby ye shall know that the living God is among you, and that he will without fail drive out from before you the Canaanites, and the Hittites, and the Hivites, and the Perizzites, and the Girgashites, and the Amorites, and the Jebusites."
         },
         "he": {
+          "9": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל גֹּשׁוּ הֵנָּה וְשִׁמְעוּ אֶת־דִּבְרֵי יְהוָה אֱלֹֽהֵיכֶֽם׃",
           "10": "וַיֹּאמֶר יְהוֹשֻׁעַ בְּזֹאת תֵּֽדְעוּן כִּי אֵל חַי בְּקִרְבְּכֶם וְהוֹרֵשׁ יוֹרִישׁ מִפְּנֵיכֶם אֶת־הַכְּנַעֲנִי וְאֶת־הַחִתִּי וְאֶת־הַחִוִּי וְאֶת־הַפְּרִזִּי וְאֶת־הַגִּרְגָּשִׁי וְהָאֱמֹרִי וְהַיְבוּסִֽי׃"
         }
       },
       "meta": {
-        "reason": "Memorable declaration of God's presence",
-        "confidence": 0.9
+        "reason": "vivid declaration",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 3,
@@ -133,10 +273,13 @@
     }
   ],
   "stats": {
-    "window_count": 9,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 3,
-    "issue_count": 6
+    "llm_window_count": 2,
+    "projection_llm_count": 7,
+    "llm_call_count": 9,
+    "spec_count": 7,
+    "kept_count": 6,
+    "issue_count": 1
   }
 }

@@ -1,0 +1,103 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 11,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-11-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 11,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire. So Joshua came, and all the people of war with him, against them by the waters of Merom suddenly; and they fell upon them.",
+        "riddle": "Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire.",
+        "speaker": "LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "angel of the LORD",
+            "Abimelech",
+            "Micah"
+          ],
+          "listener": [
+            "Caleb",
+            "Gideon",
+            "Moses"
+          ]
+        },
+        "bonus": "war",
+        "bonus_hint": {
+          "quote": "And when Uriah was come unto him, David demanded of him how Joab did, and how the people did, and how the war prospered.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 11,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽשׁ וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַֽיִּפְּלוּ בָּהֶֽם",
+        "riddle": "אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽש",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מַלְאַךְ יְהוָה",
+            "אֲבִימֶלֶךְ",
+            "מִיכָה"
+          ],
+          "listener": [
+            "כֶּלֶב",
+            "גִּדְעוֹן",
+            "מֹשֶׁה"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אוּרִיָּה אֵלָיו וַיִּשְׁאַל דָּוִד לִשְׁלוֹם יוֹאָב וְלִשְׁלוֹם הָעָם וְלִשְׁלוֹם הַמִּלְחָמָֽה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 11,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said unto Joshua, Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire.",
+          "7": "So Joshua came, and all the people of war with him, against them by the waters of Merom suddenly; and they fell upon them."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽשׁ׃",
+          "7": "וַיָּבֹא יְהוֹשֻׁעַ וְכָל־עַם הַמִּלְחָמָה עִמּוֹ עֲלֵיהֶם עַל־מֵי מֵרוֹם פִּתְאֹם וַֽיִּפְּלוּ בָּהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -6,6 +6,445 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-30-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?",
+        "riddle": "Am I in God's stead, who hath withheld from thee the fruit of the womb?",
+        "speaker": "Jacob",
+        "listener": "Rachel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּֽחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן",
+        "riddle": "הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן",
+        "speaker": "יַעֲקֹב",
+        "listener": "רָחֵל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and said unto Jacob, Give me children, or else I die.",
+          "2": "And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?"
+        },
+        "he": {
+          "1": "וַתֵּרֶא רָחֵל כִּי לֹא יָֽלְדָה לְיַעֲקֹב וַתְּקַנֵּא רָחֵל בַּאֲחֹתָהּ וַתֹּאמֶר אֶֽל־יַעֲקֹב הָֽבָה־לִּי בָנִים וְאִם־אַיִן מֵתָה אָנֹֽכִי׃",
+          "2": "וַיִּֽחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-30-03-03",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And she said, Behold my maid Bilhah, go in unto her; and she shall bear upon my knees that I may also have children by her.",
+        "riddle": "Behold my maid Bilhah, go in unto her; and she shall bear upon my knees that I may also have children by her.",
+        "speaker": "Rachel",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הִנֵּה אֲמָתִי בִלְהָה בֹּא אֵלֶיהָ וְתֵלֵד עַל־בִּרְכַּי וְאִבָּנֶה גַם־אָנֹכִי מִמֶּֽנָּה",
+        "riddle": "וַתֹּאמֶר הִנֵּה אֲמָתִי בִלְהָה בֹּא אֵלֶיהָ וְתֵלֵד עַל־בִּרְכַּי וְאִבָּנֶה גַם־אָנֹכִי מִמֶּֽנָּה",
+        "speaker": "רָחֵל",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and said unto Jacob, Give me children, or else I die.",
+          "3": "And she said, Behold my maid Bilhah, go in unto her; and she shall bear upon my knees that I may also have children by her."
+        },
+        "he": {
+          "1": "וַתֵּרֶא רָחֵל כִּי לֹא יָֽלְדָה לְיַעֲקֹב וַתְּקַנֵּא רָחֵל בַּאֲחֹתָהּ וַתֹּאמֶר אֶֽל־יַעֲקֹב הָֽבָה־לִּי בָנִים וְאִם־אַיִן מֵתָה אָנֹֽכִי׃",
+          "3": "וַתֹּאמֶר הִנֵּה אֲמָתִי בִלְהָה בֹּא אֵלֶיהָ וְתֵלֵד עַל־בִּרְכַּי וְאִבָּנֶה גַם־אָנֹכִי מִמֶּֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-30-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Rachel said, With great wrestlings have I wrestled with my sister, and I have prevailed: and she called his name Naphtali.",
+        "riddle": "With great wrestlings have I wrestled with my sister, and I have prevailed",
+        "speaker": "Rachel",
+        "listener": "Leah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר רָחֵל נַפְתּוּלֵי אֱלֹהִים נִפְתַּלְתִּי עִם־אֲחֹתִי גַּם־יָכֹלְתִּי וַתִּקְרָא שְׁמוֹ נַפְתָּלִֽי",
+        "riddle": "נִפְתַּלְתִּי עִם־אֲחֹתִי גַּם־יָכֹלְתִּי",
+        "speaker": "רָחֵל",
+        "listener": "לֵאָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Rachel said, With great wrestlings have I wrestled with my sister, and I have prevailed: and she called his name Naphtali."
+        },
+        "he": {
+          "8": "וַתֹּאמֶר רָחֵל נַפְתּוּלֵי אֱלֹהִים ׀ נִפְתַּלְתִּי עִם־אֲחֹתִי גַּם־יָכֹלְתִּי וַתִּקְרָא שְׁמוֹ נַפְתָּלִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-30-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And she said unto her, Is it a small matter that thou hast taken my husband? and wouldest thou take away my son's mandrakes also? And Rachel said, Therefore he shall lie with thee to night for thy son's mandrakes.",
+        "riddle": "Is it a small matter that thou hast taken my husband? and wouldest thou take away my son's mandrakes also?",
+        "speaker": "Leah",
+        "listener": "Rachel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהּ הַמְעַט קַחְתֵּךְ אֶת־אִישִׁי וְלָקַחַת גַּם אֶת־דּוּדָאֵי בְּנִי וַתֹּאמֶר רָחֵל לָכֵן יִשְׁכַּב עִמָּךְ הַלַּיְלָה תַּחַת דּוּדָאֵי בְנֵֽךְ",
+        "riddle": "הַמְעַט קַחְתֵּךְ אֶת־אִישִׁי וְלָקַחַת גַּם אֶת־דּוּדָאֵי בְּנִי וַתֹּאמֶר רָחֵל לָכֵן יִשְׁכַּב עִמָּךְ הַלַּיְלָה תַּחַת דּוּדָאֵי בְנֵֽךְ",
+        "speaker": "לֵאָה",
+        "listener": "רָחֵל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And she said unto her, Is it a small matter that thou hast taken my husband? and wouldest thou take away my son's mandrakes also? And Rachel said, Therefore he shall lie with thee to night for thy son's mandrakes."
+        },
+        "he": {
+          "15": "וַתֹּאמֶר לָהּ הַמְעַט קַחְתֵּךְ אֶת־אִישִׁי וְלָקַחַת גַּם אֶת־דּוּדָאֵי בְּנִי וַתֹּאמֶר רָחֵל לָכֵן יִשְׁכַּב עִמָּךְ הַלַּיְלָה תַּחַת דּוּדָאֵי בְנֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-30-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Jacob came out of the field in the evening, and Leah went out to meet him, and said, Thou must come in unto me; for surely I have hired thee with my son's mandrakes. And he lay with her that night.",
+        "riddle": "Thou must come in unto me; for surely I have hired thee with my son's mandrakes.",
+        "speaker": "Leah",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיָּבֹא יַעֲקֹב מִן־הַשָּׂדֶה בָּעֶרֶב וַתֵּצֵא לֵאָה לִקְרָאתוֹ וַתֹּאמֶר אֵלַי תָּבוֹא כִּי שָׂכֹר שְׂכַרְתִּיךָ בְּדוּדָאֵי בְּנִי וַיִּשְׁכַּב עִמָּהּ בַּלַּיְלָה הֽוּא",
+        "riddle": "וַתֹּאמֶר אֵלַי תָּבוֹא כִּי שָׂכֹר שְׂכַרְתִּיךָ בְּדוּדָאֵי בְּנִי",
+        "speaker": "לֵאָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Jacob came out of the field in the evening, and Leah went out to meet him, and said, Thou must come in unto me; for surely I have hired thee with my son's mandrakes. And he lay with her that night."
+        },
+        "he": {
+          "16": "וַיָּבֹא יַעֲקֹב מִן־הַשָּׂדֶה בָּעֶרֶב וַתֵּצֵא לֵאָה לִקְרָאתוֹ וַתֹּאמֶר אֵלַי תָּבוֹא כִּי שָׂכֹר שְׂכַרְתִּיךָ בְּדוּדָאֵי בְּנִי וַיִּשְׁכַּב עִמָּהּ בַּלַּיְלָה הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-30-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And she conceived, and bare a son; and said, God hath taken away my reproach:",
+        "riddle": "God hath taken away my reproach:",
+        "speaker": "Rachel",
+        "listener": "none",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתַּהַר וַתֵּלֶד בֵּן וַתֹּאמֶר אָסַף אֱלֹהִים אֶת־חֶרְפָּתִֽי",
+        "riddle": "אָסַף אֱלֹהִים אֶת־חֶרְפָּתִֽי",
+        "speaker": "רחל",
+        "listener": "none",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And she conceived, and bare a son; and said, God hath taken away my reproach:"
+        },
+        "he": {
+          "23": "וַתַּהַר וַתֵּלֶד בֵּן וַתֹּאמֶר אָסַף אֱלֹהִים אֶת־חֶרְפָּתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "genesis-30-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And she called his name Joseph; and said, The LORD shall add to me another son.",
+        "riddle": "The LORD shall add to me another son.",
+        "speaker": "Rachel",
+        "listener": "none",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהוָה לִי בֵּן אַחֵֽר",
+        "riddle": "יֹסֵף יְהוָה לִי בֵּן אַחֵֽר",
+        "speaker": "רחל",
+        "listener": "none",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And she called his name Joseph; and said, The LORD shall add to me another son."
+        },
+        "he": {
+          "24": "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהוָה לִי בֵּן אַחֵֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-30-25-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+        "riddle": "Send me away, that I may go unto mine own place, and to my country.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי",
+        "riddle": "וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country."
+        },
+        "he": {
+          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "genesis-30-26-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
+        "riddle": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ",
+        "riddle": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "26": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee."
+        },
+        "he": {
+          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃",
+          "26": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "genesis-30-27-27",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
+        "riddle": "I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ",
+        "riddle": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "27": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake."
+        },
+        "he": {
+          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃",
+          "27": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
       "id": "genesis-30-28-28",
       "source": {
         "book_code": "GEN",
@@ -13,33 +452,36 @@
         "book_he": "בראשית",
         "chapter": 30,
         "quote_verse_start": 28,
-        "quote_verse_end": 28
+        "quote_verse_end": 28,
+        "listener_mention_verse": 27
       },
       "en": {
         "quote": "And he said, Appoint me thy wages, and I will give it.",
-        "riddle": "Appoint me thy wages, and I will give it",
-        "speaker": "Laban",
-        "listener": "Jacob",
+        "riddle": "Appoint me thy wages, and I will give it.",
+        "speaker": "Jacob",
+        "listener": "Laban",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה",
-        "riddle": "נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה",
-        "speaker": "לבן",
-        "listener": "יעקב",
+        "riddle": "וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
+          "27": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
           "28": "And he said, Appoint me thy wages, and I will give it."
         },
         "he": {
+          "27": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ׃",
           "28": "וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה׃"
         }
       },
       "meta": {
-        "reason": "Direct command and promise",
-        "confidence": 0.95
+        "reason": "direct command",
+        "confidence": 0.9
       },
       "ref": {
         "chapter": 30,
@@ -48,14 +490,107 @@
       }
     },
     {
-      "id": "genesis-30-31-31",
+      "id": "genesis-30-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me.",
+        "riddle": "Thou knowest how I have served thee, and how thy cattle was with me.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי",
+        "riddle": "אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
+          "29": "And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ׃",
+          "29": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "genesis-30-29-30",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 29,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me. For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?",
+        "riddle": "Thou knowest how I have served thee, and how thy cattle was with me. For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי",
+        "riddle": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי",
+        "speaker": "יעקב",
+        "listener": "לבן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me.",
+          "30": "For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?"
+        },
+        "he": {
+          "29": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי׃",
+          "30": "כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech and question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 29,
+        "end": 30
+      }
+    },
+    {
+      "id": "genesis-30-31-31-1",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 30,
         "quote_verse_start": 31,
-        "quote_verse_end": 31
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
       },
       "en": {
         "quote": "And he said, What shall I give thee? And Jacob said, Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:",
@@ -66,8 +601,8 @@
       },
       "he": {
         "quote": "וַיֹּאמֶר מָה אֶתֶּן־לָךְ וַיֹּאמֶר יַעֲקֹב לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר",
-        "riddle": "מָה אֶתֶּן־לָךְ",
-        "speaker": "לבן",
+        "riddle": "וַיֹּאמֶר מָה אֶתֶּן־לָךְ",
+        "speaker": "לָבָן",
         "listener": "יַעֲקֹב",
         "book": "בראשית"
       },
@@ -80,8 +615,52 @@
         }
       },
       "meta": {
-        "reason": "Direct question and response.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "genesis-30-31-31-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And he said, What shall I give thee? And Jacob said, Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:",
+        "riddle": "Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָה אֶתֶּן־לָךְ וַיֹּאמֶר יַעֲקֹב לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר",
+        "riddle": "לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And he said, What shall I give thee? And Jacob said, Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:"
+        },
+        "he": {
+          "31": "וַיֹּאמֶר מָה אֶתֶּן־לָךְ וַיֹּאמֶר יַעֲקֹב לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 30,
@@ -97,11 +676,13 @@
         "book_he": "בראשית",
         "chapter": 30,
         "quote_verse_start": 34,
-        "quote_verse_end": 34
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
       },
       "en": {
         "quote": "And Laban said, Behold, I would it might be according to thy word.",
-        "riddle": "I would it might be according to thy word.",
+        "riddle": "Behold, I would it might be according to thy word.",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis"
@@ -110,7 +691,7 @@
         "quote": "וַיֹּאמֶר לָבָן הֵן לוּ יְהִי כִדְבָרֶֽךָ",
         "riddle": "הֵן לוּ יְהִי כִדְבָרֶֽךָ",
         "speaker": "לָבָן",
-        "listener": "יעקב",
+        "listener": "יַעֲקֹב",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -122,7 +703,7 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct speech",
+        "reason": "direct speech",
         "confidence": 0.95
       },
       "ref": {
@@ -130,57 +711,16 @@
         "start": 34,
         "end": 34
       }
-    },
-    {
-      "id": "genesis-30-34-35",
-      "source": {
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 30,
-        "quote_verse_start": 34,
-        "quote_verse_end": 35
-      },
-      "en": {
-        "quote": "And Laban said, Behold, I would it might be according to thy word. And he removed that day the he goats that were ringstraked and spotted, and all the she goats that were speckled and spotted, and every one that had some white in it, and all the brown among the sheep, and gave them into the hand of his sons.",
-        "riddle": "And Laban said, Behold, I would it might be",
-        "speaker": "Laban",
-        "listener": "Jacob",
-        "book": "Genesis"
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר לָבָן הֵן לוּ יְהִי כִדְבָרֶֽךָ וַיָּסַר בַּיּוֹם הַהוּא אֶת־הַתְּיָשִׁים הָֽעֲקֻדִּים וְהַטְּלֻאִים וְאֵת כָּל־הָֽעִזִּים הַנְּקֻדּוֹת וְהַטְּלֻאֹת כֹּל אֲשֶׁר־לָבָן בּוֹ וְכָל־חוּם בַּכְּשָׂבִים וַיִּתֵּן בְּיַד־בָּנָֽיו",
-        "riddle": "וַיֹּאמֶר לָבָן הֵן לוּ יְהִי כִדְבָרֶֽךָ וַיָּסַר בַּיּוֹם הַהוּא",
-        "speaker": "לָבָן",
-        "listener": "יעקב",
-        "book": "בראשית"
-      },
-      "raw_quote_source": {
-        "en": {
-          "34": "And Laban said, Behold, I would it might be according to thy word.",
-          "35": "And he removed that day the he goats that were ringstraked and spotted, and all the she goats that were speckled and spotted, and every one that had some white in it, and all the brown among the sheep, and gave them into the hand of his sons."
-        },
-        "he": {
-          "34": "וַיֹּאמֶר לָבָן הֵן לוּ יְהִי כִדְבָרֶֽךָ׃",
-          "35": "וַיָּסַר בַּיּוֹם הַהוּא אֶת־הַתְּיָשִׁים הָֽעֲקֻדִּים וְהַטְּלֻאִים וְאֵת כָּל־הָֽעִזִּים הַנְּקֻדּוֹת וְהַטְּלֻאֹת כֹּל אֲשֶׁר־לָבָן בּוֹ וְכָל־חוּם בַּכְּשָׂבִים וַיִּתֵּן בְּיַד־בָּנָֽיו׃"
-        }
-      },
-      "meta": {
-        "reason": "Contains direct speech from Laban",
-        "confidence": 0.9
-      },
-      "ref": {
-        "chapter": 30,
-        "start": 34,
-        "end": 35
-      }
     }
   ],
   "stats": {
-    "window_count": 32,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 32,
-    "kept_count": 4,
-    "issue_count": 28
+    "llm_window_count": 5,
+    "projection_llm_count": 20,
+    "llm_call_count": 25,
+    "spec_count": 20,
+    "kept_count": 16,
+    "issue_count": 7
   }
 }

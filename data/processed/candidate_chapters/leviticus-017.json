@@ -4,12 +4,196 @@
   "book_he": "ויקרא",
   "chapter": 17,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-17-02-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 17,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the LORD hath commanded, saying,",
+        "riddle": "This is the thing which the LORD hath commanded, saying,",
+        "speaker": "the LORD",
+        "listener": "Israelites",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶֽל־אַהֲרֹן וְאֶל־בָּנָיו וְאֶל כָּל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵיהֶם זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לֵאמֹֽר",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לֵאמֹֽר",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto Aaron, and unto his sons, and unto all the children of Israel, and say unto them; This is the thing which the LORD hath commanded, saying,"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶֽל־אַהֲרֹן וְאֶל־בָּנָיו וְאֶל כָּל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵיהֶם זֶה הַדָּבָר אֲשֶׁר־צִוָּה יְהוָה לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "leviticus-17-08-09",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 17,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers which sojourn among you, that offereth a burnt offering of sacrifice, And bringeth it not unto the door of the tabernacle of the congregation, to offer it unto the LORD; even that man shall be cut off from among his people.",
+        "riddle": "Whatsoever man there be of the house of Israel, or of the strangers which sojourn among you, that offereth a burnt offering of sacrifice, And bringeth it not unto the door of the tabernacle of the congregation, to offer it unto the LORD; even that man shall be cut off from among his people.",
+        "speaker": "priest",
+        "listener": "Israelites and strangers",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וַאֲלֵהֶם תֹּאמַר אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר אֲשֶׁר־יָגוּר בְּתוֹכָם אֲשֶׁר־יַעֲלֶה עֹלָה אוֹ־זָֽבַח וְאֶל־פֶּתַח אֹהֶל מוֹעֵד לֹא יְבִיאֶנּוּ לַעֲשׂוֹת אֹתוֹ לַיהוָה וְנִכְרַת הָאִישׁ הַהוּא מֵעַמָּֽיו",
+        "riddle": "וַאֲלֵהֶם תֹּאמַר אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר אֲשֶׁר־יָגוּר בְּתוֹכָם אֲשֶׁר־יַעֲלֶה עֹלָה אוֹ־זָֽבַח וְאֶל־פֶּתַח אֹהֶל מוֹעֵד לֹא יְבִיאֶנּוּ לַעֲשׂוֹת אֹתוֹ לַיהוָה וְנִכְרַת הָאִישׁ הַהוּא מֵעַמָּֽיו",
+        "speaker": "כֹּהן",
+        "listener": "בֵּית יִשְׂרָאֵל וְהַגֵּר",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers which sojourn among you, that offereth a burnt offering of sacrifice,",
+          "9": "And bringeth it not unto the door of the tabernacle of the congregation, to offer it unto the LORD; even that man shall be cut off from among his people."
+        },
+        "he": {
+          "8": "וַאֲלֵהֶם תֹּאמַר אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר אֲשֶׁר־יָגוּר בְּתוֹכָם אֲשֶׁר־יַעֲלֶה עֹלָה אוֹ־זָֽבַח׃",
+          "9": "וְאֶל־פֶּתַח אֹהֶל מוֹעֵד לֹא יְבִיאֶנּוּ לַעֲשׂוֹת אֹתוֹ לַיהוָה וְנִכְרַת הָאִישׁ הַהוּא מֵעַמָּֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "commanded warning",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 8,
+        "end": 9
+      }
+    },
+    {
+      "id": "leviticus-17-12-12",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 17,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Therefore I said unto the children of Israel, No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood.",
+        "riddle": "No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood.",
+        "speaker": "God",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "עַל־כֵּן אָמַרְתִּי לִבְנֵי יִשְׂרָאֵל כָּל־נֶפֶשׁ מִכֶּם לֹא־תֹאכַל דָּם וְהַגֵּר הַגָּר בְּתוֹכְכֶם לֹא־יֹאכַל דָּֽם",
+        "riddle": "עַל־כֵּן אָמַרְתִּי לִבְנֵי יִשְׂרָאֵל כָּל־נֶפֶשׁ מִכֶּם לֹא־תֹאכַל דָּם וְהַגֵּר הַגָּר בְּתוֹכְכֶם לֹא־יֹאכַל דָּֽם",
+        "speaker": "אל",
+        "listener": "בְנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Therefore I said unto the children of Israel, No soul of you shall eat blood, neither shall any stranger that sojourneth among you eat blood."
+        },
+        "he": {
+          "12": "עַל־כֵּן אָמַרְתִּי לִבְנֵי יִשְׂרָאֵל כָּל־נֶפֶשׁ מִכֶּם לֹא־תֹאכַל דָּם וְהַגֵּר הַגָּר בְּתוֹכְכֶם לֹא־יֹאכַל דָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "leviticus-17-14-14",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 17,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "For it is the life of all flesh; the blood of it is for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off.",
+        "riddle": "Ye shall eat the blood of no manner of flesh",
+        "speaker": "God",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "כִּֽי־נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ בְנַפְשׁוֹ הוּא וָֽאֹמַר לִבְנֵי יִשְׂרָאֵל דַּם כָּל־בָּשָׂר לֹא תֹאכֵלוּ כִּי נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ הִוא כָּל־אֹכְלָיו יִכָּרֵֽת",
+        "riddle": "דָּמוֹ בְנַפְשׁוֹ הוּא וָֽאֹמַר לִבְנֵי יִשְׂרָאֵל דַּם כָּל־בָּשָׂר לֹא תֹאכֵלוּ כִּי",
+        "speaker": "אל",
+        "listener": "בְנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "For it is the life of all flesh; the blood of it is for the life thereof: therefore I said unto the children of Israel, Ye shall eat the blood of no manner of flesh: for the life of all flesh is the blood thereof: whosoever eateth it shall be cut off."
+        },
+        "he": {
+          "14": "כִּֽי־נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ בְנַפְשׁוֹ הוּא וָֽאֹמַר לִבְנֵי יִשְׂרָאֵל דַּם כָּל־בָּשָׂר לֹא תֹאכֵלוּ כִּי נֶפֶשׁ כָּל־בָּשָׂר דָּמוֹ הִוא כָּל־אֹכְלָיו יִכָּרֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ],
   "stats": {
-    "window_count": 9,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 0,
-    "issue_count": 9
+    "llm_window_count": 3,
+    "projection_llm_count": 4,
+    "llm_call_count": 7,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

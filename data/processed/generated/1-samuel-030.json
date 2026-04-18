@@ -6,53 +6,287 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-30-24-24",
+      "id": "1-samuel-30-08-08-1",
       "source": {
         "method": "llm",
         "book_code": "1SA",
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 30,
-        "quote_verse_start": 22,
-        "quote_verse_end": 24
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
-        "quote": "Then answered all the wicked men and men of Belial, of those that went with David, and said, Because they went not with us, we will not give them ought of the spoil that we have recovered, save to every man his wife and his children, that they may lead them away, and depart. Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand. For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike.",
-        "riddle": "For who will hearken unto you in this matter?",
+        "quote": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+        "riddle": "Shall I pursue after this troop? shall I overtake them?",
         "speaker": "David",
-        "listener": "Wicked men",
+        "listener": "LORD",
         "book": "1 Samuel",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "Belial",
+        "bonus": "recover",
         "bonus_hint": {
-          "quote": "But the sons of Belial shall be all of them as thorns thrust away, because they cannot be taken with hands:",
+          "quote": "While Israel dwelt in Heshbon and her towns, and in Aroer and her towns, and in all the cities that be along by the coasts of Arnon, three hundred years? why therefore did ye not recover them within that time?",
+          "source": {
+            "book": "Judges",
+            "chapter": 11,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "riddle": "אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג",
+        "speaker": "דָּוִד",
+        "listener": "יהוָה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁאַל",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁאַל יַעֲקֹב וַיֹּאמֶר הַגִּֽידָה־נָּא שְׁמֶךָ וַיֹּאמֶר לָמָּה זֶּה תִּשְׁאַל לִשְׁמִי וַיְבָרֶךְ אֹתוֹ שָֽׁם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 32,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all."
+        },
+        "he": {
+          "8": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל׃"
+        }
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-30-08-08-2",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all.",
+        "riddle": "Pursue: for thou shalt surely overtake them, and without fail recover all",
+        "speaker": "LORD",
+        "listener": "David",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "troop",
+        "bonus_hint": {
+          "quote": "And the children of Benjamin gathered themselves together after Abner, and became one troop, and stood on the top of an hill.",
           "source": {
             "book": "2 Samuel",
-            "chapter": 23,
+            "chapter": 2,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "riddle": "רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל",
+        "speaker": "יהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אַחֲרֵי",
+        "bonus_hint": {
+          "quote": "וַיִּֽתְקַבְּצוּ בְנֵֽי־בִנְיָמִן אַחֲרֵי אַבְנֵר וַיִּהְיוּ לַאֲגֻדָּה אֶחָת וַיַּעַמְדוּ עַל רֹאשׁ־גִּבְעָה אֶחָֽת",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 2,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And David inquired at the LORD, saying, Shall I pursue after this troop? shall I overtake them? And he answered him, Pursue: for thou shalt surely overtake them, and without fail recover all."
+        },
+        "he": {
+          "8": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר אֶרְדֹּף אַחֲרֵי הַגְּדוּד־הַזֶּה הַֽאַשִּׂגֶנּוּ וַיֹּאמֶר לוֹ רְדֹף כִּֽי־הַשֵּׂג תַּשִּׂיג וְהַצֵּל תַּצִּֽיל׃"
+        }
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-30-13-13-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 11,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And they found an Egyptian in the field, and brought him to David, and gave him bread, and he did eat; and they made him drink water; And they gave him a piece of a cake of figs, and two clusters of raisins: and when he had eaten, his spirit came again to him: for he had eaten no bread, nor drunk any water, three days and three nights. And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick.",
+        "riddle": "To whom belongest thou? and whence art thou?",
+        "speaker": "David",
+        "listener": "Egyptian man",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bread",
+        "bonus_hint": {
+          "quote": "And when the children of Israel saw it, they said one to another, It is manna: for they wist not what it was. And Moses said unto them, This is the bread which the LORD hath given you to eat.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 16,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּמְצְאוּ אִישׁ־מִצְרִי בַּשָּׂדֶה וַיִּקְחוּ אֹתוֹ אֶל־דָּוִד וַיִּתְּנוּ־לוֹ לֶחֶם וַיֹּאכַל וַיַּשְׁקֻהוּ מָֽיִם וַיִּתְּנוּ־לוֹ פֶלַח דְּבֵלָה וּשְׁנֵי צִמֻּקִים וַיֹּאכַל וַתָּשָׁב רוּחוֹ אֵלָיו כִּי לֹֽא־אָכַל לֶחֶם וְלֹא־שָׁתָה מַיִם שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילֽוֹת וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה",
+        "riddle": "לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה",
+        "speaker": "דָּוִד",
+        "listener": "נַעַר מִצְרִי",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִישׁ",
+        "bonus_hint": {
+          "quote": "וַיִּרְאוּ בְנֵֽי־יִשְׂרָאֵל וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו מָן הוּא כִּי לֹא יָדְעוּ מַה־הוּא וַיֹּאמֶר מֹשֶׁה אֲלֵהֶם הוּא הַלֶּחֶם אֲשֶׁר נָתַן יְהוָה לָכֶם לְאָכְלָֽה",
+          "source": {
+            "book": "שמות",
+            "chapter": 16,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And they found an Egyptian in the field, and brought him to David, and gave him bread, and he did eat; and they made him drink water;",
+          "12": "And they gave him a piece of a cake of figs, and two clusters of raisins: and when he had eaten, his spirit came again to him: for he had eaten no bread, nor drunk any water, three days and three nights.",
+          "13": "And David said unto him, To whom belongest thou? and whence art thou? And he said, I am a young man of Egypt, servant to an Amalekite; and my master left me, because three days agone I fell sick."
+        },
+        "he": {
+          "11": "וַֽיִּמְצְאוּ אִישׁ־מִצְרִי בַּשָּׂדֶה וַיִּקְחוּ אֹתוֹ אֶל־דָּוִד וַיִּתְּנוּ־לוֹ לֶחֶם וַיֹּאכַל וַיַּשְׁקֻהוּ מָֽיִם׃",
+          "12": "וַיִּתְּנוּ־לוֹ פֶלַח דְּבֵלָה וּשְׁנֵי צִמֻּקִים וַיֹּאכַל וַתָּשָׁב רוּחוֹ אֵלָיו כִּי לֹֽא־אָכַל לֶחֶם וְלֹא־שָׁתָה מַיִם שְׁלֹשָׁה יָמִים וּשְׁלֹשָׁה לֵילֽוֹת׃",
+          "13": "וַיֹּאמֶר לוֹ דָוִד לְֽמִי־אַתָּה וְאֵי מִזֶּה אָתָּה וַיֹּאמֶר נַעַר מִצְרִי אָנֹכִי עֶבֶד לְאִישׁ עֲמָֽלֵקִי וַיַּעַזְבֵנִי אֲדֹנִי כִּי חָלִיתִי הַיּוֹם שְׁלֹשָֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 11,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-30-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 30,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;",
+        "riddle": "Behold a present for you of the spoil of the enemies of the LORD;",
+        "speaker": "David",
+        "listener": "elders of Judah",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "friends",
+        "bonus_hint": {
+          "quote": "In that thou lovest thine enemies, and hatest thy friends. For thou hast declared this day, that thou regardest neither princes nor servants: for this day I perceive, that if Absalom had lived, and all we had died this day, then it had pleased thee well.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 19,
             "start": 6,
             "end": 6
           }
         }
       },
       "he": {
-        "quote": "וַיַּעַן כָּל־אִֽישׁ־רָע וּבְלִיַּעַל מֵֽהָאֲנָשִׁים אֲשֶׁר הָלְכוּ עִם־דָּוִד וַיֹּאמְרוּ יַעַן אֲשֶׁר לֹֽא־הָלְכוּ עִמִּי לֹֽא־נִתֵּן לָהֶם מֵהַשָּׁלָל אֲשֶׁר הִצַּלְנוּ כִּֽי־אִם־אִישׁ אֶת־אִשְׁתּוֹ וְאֶת־בָּנָיו וְיִנְהֲגוּ וְיֵלֵֽכוּ וַיֹּאמֶר דָּוִד לֹֽא־תַעֲשׂוּ כֵן אֶחָי אֵת אֲשֶׁר־נָתַן יְהוָה לָנוּ וַיִּשְׁמֹר אֹתָנוּ וַיִּתֵּן אֶֽת־הַגְּדוּד הַבָּא עָלֵינוּ בְּיָדֵֽנוּ וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק הַיֹּרֵד בַּמִּלְחָמָה וּֽכְחֵלֶק הַיֹּשֵׁב עַל־הַכֵּלִים יַחְדָּו יַחֲלֹֽקוּ",
-        "riddle": "וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק הַיֹּרֵד בַּמִּלְחָמָה",
-        "speaker": "דָּוִד",
-        "listener": "אֶחָי",
+        "quote": "וַיָּבֹא דָוִד אֶל־צִקְלַג וַיְשַׁלַּח מֵֽהַשָּׁלָל לְזִקְנֵי יְהוּדָה לְרֵעֵהוּ לֵאמֹר הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה",
+        "riddle": "הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה",
+        "speaker": "דָוִד",
+        "listener": "זִקְנֵי יְהוּדָה",
         "book": "שמואל א",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "וּבְלִיַּעַל",
+        "bonus": "וַיָּבֹא",
         "bonus_hint": {
-          "quote": "וּבְלִיַּעַל כְּקוֹץ מֻנָד כֻּלָּהַם כִּֽי־לֹא בְיָד יִקָּֽחוּ",
+          "quote": "וַיָּבֹא יוֹאָב אֶל־הַמֶּלֶךְ הַבָּיִת וַיֹּאמֶר הֹבַשְׁתָּ הַיּוֹם אֶת־פְּנֵי כָל־עֲבָדֶיךָ הַֽמְמַלְּטִים אֶֽת־נַפְשְׁךָ הַיּוֹם וְאֵת נֶפֶשׁ בָּנֶיךָ וּבְנֹתֶיךָ וְנֶפֶשׁ נָשֶׁיךָ וְנֶפֶשׁ פִּלַגְשֶֽׁיךָ",
           "source": {
             "book": "שמואל ב",
-            "chapter": 23,
+            "chapter": 19,
             "start": 6,
             "end": 6
           }
@@ -60,20 +294,16 @@
       },
       "raw_quote_source": {
         "en": {
-          "22": "Then answered all the wicked men and men of Belial, of those that went with David, and said, Because they went not with us, we will not give them ought of the spoil that we have recovered, save to every man his wife and his children, that they may lead them away, and depart.",
-          "23": "Then said David, Ye shall not do so, my brethren, with that which the LORD hath given us, who hath preserved us, and delivered the company that came against us into our hand.",
-          "24": "For who will hearken unto you in this matter? but as his part is that goeth down to the battle, so shall his part be that tarrieth by the stuff: they shall part alike."
+          "26": "And when David came to Ziklag, he sent of the spoil unto the elders of Judah, even to his friends, saying, Behold a present for you of the spoil of the enemies of the LORD;"
         },
         "he": {
-          "22": "וַיַּעַן כָּל־אִֽישׁ־רָע וּבְלִיַּעַל מֵֽהָאֲנָשִׁים אֲשֶׁר הָלְכוּ עִם־דָּוִד וַיֹּאמְרוּ יַעַן אֲשֶׁר לֹֽא־הָלְכוּ עִמִּי לֹֽא־נִתֵּן לָהֶם מֵהַשָּׁלָל אֲשֶׁר הִצַּלְנוּ כִּֽי־אִם־אִישׁ אֶת־אִשְׁתּוֹ וְאֶת־בָּנָיו וְיִנְהֲגוּ וְיֵלֵֽכוּ׃",
-          "23": "וַיֹּאמֶר דָּוִד לֹֽא־תַעֲשׂוּ כֵן אֶחָי אֵת אֲשֶׁר־נָתַן יְהוָה לָנוּ וַיִּשְׁמֹר אֹתָנוּ וַיִּתֵּן אֶֽת־הַגְּדוּד הַבָּא עָלֵינוּ בְּיָדֵֽנוּ׃",
-          "24": "וּמִי יִשְׁמַע לָכֶם לַדָּבָר הַזֶּה כִּי כְּחֵלֶק ׀ הַיֹּרֵד בַּמִּלְחָמָה וּֽכְחֵלֶק הַיֹּשֵׁב עַל־הַכֵּלִים יַחְדָּו יַחֲלֹֽקוּ׃"
+          "26": "וַיָּבֹא דָוִד אֶל־צִקְלַג וַיְשַׁלַּח מֵֽהַשָּׁלָל לְזִקְנֵי יְהוּדָה לְרֵעֵהוּ לֵאמֹר הִנֵּה לָכֶם בְּרָכָה מִשְּׁלַל אֹיְבֵי יְהוָֽה׃"
         }
       },
       "ref": {
         "chapter": 30,
-        "start": 22,
-        "end": 24
+        "start": 26,
+        "end": 26
       },
       "meta": {
         "mode": "llm",

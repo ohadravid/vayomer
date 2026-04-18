@@ -11,7 +11,7 @@ from click.testing import CliRunner
 
 from data_proc.candidates_pipeline import build_candidates_command
 from data_proc.candidates_pipeline import CandidateStrategyEvaluation, _candidate_prompt_system, select_best_candidate_strategy
-from data_proc.corpus import BibleCorpus
+from data_proc.corpus import BibleCorpus, VerseRecord
 from data_proc.llm import JsonResponseError, OllamaJsonClient, _parse_json_object
 from data_proc.options_pipeline import (
     OptionsBuilder,
@@ -47,6 +47,7 @@ from data_proc.utils.text_cleanup import (
     clean_text,
     cleanup_hebrew_quote,
     restore_hebrew_surface,
+    whole_bonus_word_occurs,
     whole_word_occurs,
 )
 
@@ -98,6 +99,11 @@ def test_hebrew_cleanup_and_bonus_word_helpers() -> None:
     )
     assert "לָאִשָּׁה" not in hebrew_candidates
     assert "הָֽאִשָּׁה" not in hebrew_candidates
+    assert candidate_bonus_words("דֶרֶךְ דָרַךְ", "", "he") == ["דֶרֶךְ", "דָרַךְ"]
+    assert candidate_bonus_words("דֶרֶךְ דָרַךְ", "דֶרֶךְ", "he") == ["דָרַךְ"]
+    assert whole_bonus_word_occurs("דֶרֶךְ דָרַךְ", "דֶרֶךְ", "he")
+    assert whole_bonus_word_occurs("דֶרֶךְ דָרַךְ", "דָרַךְ", "he")
+    assert not whole_bonus_word_occurs("דֶרֶךְ", "דָרַךְ", "he")
 
 
 def test_candidate_riddle_spans_include_exact_inner_clause() -> None:
@@ -171,6 +177,38 @@ def test_aligned_external_hint_lookup_returns_same_reference(bible_corpus: Bible
     assert hint.en_source.chapter != 6
     assert whole_word_occurs(hint.en_quote, "Noah", "en")
     assert whole_word_occurs(hint.he_quote, "נֹחַ", "he")
+
+
+def test_hebrew_hint_lookup_preserves_niqqud_when_same_consonants_collide() -> None:
+    corpus = object.__new__(BibleCorpus)
+    path_record = VerseRecord("GEN", "Genesis", "בראשית", 2, 1, "path", "דֶרֶךְ")
+    trod_record = VerseRecord("GEN", "Genesis", "בראשית", 3, 1, "path", "דָרַךְ")
+    corpus._en_index = {"path": [path_record, trod_record]}
+    corpus._he_index = {"דרך": [path_record, trod_record]}
+    corpus._he_bonus_index = {"דֶרֶךְ": [path_record], "דָרַךְ": [trod_record]}
+
+    aligned_hint = corpus.find_first_aligned_hint(
+        "path",
+        "דָרַךְ",
+        source_book_code="EXO",
+        source_chapter=1,
+        source_start=1,
+        source_end=1,
+    )
+    hebrew_hint = corpus.find_first_hebrew_hint(
+        "דָרַךְ",
+        source_book_code="EXO",
+        source_chapter=1,
+        source_start=1,
+        source_end=1,
+    )
+
+    assert aligned_hint is not None
+    assert aligned_hint.he_quote == "דָרַךְ"
+    assert aligned_hint.he_source.chapter == 3
+    assert hebrew_hint is not None
+    assert hebrew_hint.quote == "דָרַךְ"
+    assert hebrew_hint.source.chapter == 3
 
 
 def test_prepare_bonus_candidate_expands_one_verse_when_needed(candidate_map, seeded_live_pipeline: CandidatePipeline) -> None:
@@ -426,9 +464,63 @@ def test_select_bonus_with_live_llm_returns_valid_pair(candidate_map, seeded_liv
     assert bonus.en_word
     assert bonus.he_word
     assert not whole_word_occurs(prepared.candidate.en.riddle, bonus.en_word, "en")
-    assert not whole_word_occurs(prepared.candidate.he.riddle, bonus.he_word, "he")
-    assert bonus.hint.en_source.chapter == bonus.hint.he_source.chapter
-    assert bonus.hint.en_source.chapter != prepared.candidate.source.chapter
+    assert not whole_bonus_word_occurs(prepared.candidate.he.riddle, bonus.he_word, "he")
+    assert bonus.en_hint.source.chapter != prepared.candidate.source.chapter
+    assert bonus.he_hint.source.chapter != prepared.candidate.source.chapter
+    assert whole_word_occurs(bonus.en_hint.quote, bonus.en_word, "en")
+    assert whole_bonus_word_occurs(bonus.he_hint.quote, bonus.he_word, "he")
+
+
+def test_select_bonus_falls_back_to_independent_language_hints(candidate_map) -> None:
+    candidate = candidate_map["genesis-03-13-13"]
+    prepared = SimpleNamespace(
+        candidate=candidate,
+        en_words=["serpent", "eat"],
+        he_words=["הִשִּׁיאַנִי", "וָאֹכֵֽל"],
+    )
+
+    class StubLLM:
+        def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
+            if prompt_name == "english-bonus-words":
+                return {"words": ["serpent"]}
+            assert prompt_name == "bonus-word-alignment"
+            return {"pairs": []}
+
+    class StubCorpus:
+        def find_first_aligned_hint(self, *args, **kwargs):
+            return None
+
+        def find_first_english_hint(self, word: str, **kwargs):
+            assert word == "serpent"
+            return BonusHint(
+                quote="Now the serpent was more subtil than any beast of the field.",
+                source=HintSourceRef(book="Genesis", chapter=4, start=1, end=1),
+            )
+
+        def find_first_hebrew_hint(self, word: str, **kwargs):
+            assert word == "הִשִּׁיאַנִי"
+            return BonusHint(
+                quote="הַנָּחָשׁ הִשִּׁיאַנִי וָאֹכֵל",
+                source=HintSourceRef(book="בראשית", chapter=5, start=13, end=13),
+            )
+
+    pipeline = CandidatePipeline(corpus=StubCorpus(), llm=StubLLM())
+
+    bonus = pipeline.select_bonus(prepared)
+    item = pipeline.build_final_item(candidate, bonus)
+
+    assert bonus.en_word == "serpent"
+    assert bonus.he_word == "הִשִּׁיאַנִי"
+    assert bonus.en_hint.source.chapter == 4
+    assert bonus.he_hint.source.chapter == 5
+    assert bonus.en_hint.source.start == 1
+    assert bonus.he_hint.source.start == 13
+    assert item.en.bonus == "serpent"
+    assert item.he.bonus == "הִשִּׁיאַנִי"
+    assert item.en.bonus_hint.source.start == 1
+    assert item.he.bonus_hint.source.start == 13
+    assert item.en.bonus_hint.quote == "Now the serpent was more subtil than any beast of the field."
+    assert item.he.bonus_hint.quote == "הַנָּחָשׁ הִשִּׁיאַנִי וָאֹכֵל"
 
 
 def test_strict_json_retry_logic(monkeypatch) -> None:
@@ -476,6 +568,41 @@ def test_ollama_client_raises_token_budget_for_candidate_chapter_extraction(monk
 
     assert client.chat_json("candidate-chapter-extract", "system", "user") == {"ok": True}
     assert captured["options"] == {"temperature": 0, "num_predict": 1024, "seed": TEST_SEED}
+
+
+def test_ollama_client_raises_token_budget_for_role_validation(monkeypatch) -> None:
+    captured: dict[str, object] = {}
+
+    def fake_chat(*, model: str, messages, format: str, timeout: float, think, options=None):
+        captured["options"] = options
+        return SimpleNamespace(
+            message=SimpleNamespace(
+                content=(
+                    '{"speaker":"Moses","listener":"Israel","speaker_is_speaking":true,'
+                    '"listener_is_addressed":true,"speaker_is_character":true,'
+                    '"listener_is_character":true,"reason":"direct address"}'
+                )
+            )
+        )
+
+    monkeypatch.setattr("data_proc.llm._ollama_chat", fake_chat)
+    client = OllamaJsonClient(model="gemma4:26b", max_retries=1, request_options={"seed": TEST_SEED})
+
+    assert client.chat_json(
+        "he-role-validation",
+        "system",
+        "user",
+        required_keys=(
+            "speaker",
+            "listener",
+            "speaker_is_speaking",
+            "listener_is_addressed",
+            "speaker_is_character",
+            "listener_is_character",
+            "reason",
+        ),
+    )["speaker"] == "Moses"
+    assert captured["options"] == {"temperature": 0, "num_predict": 256, "seed": TEST_SEED}
 
 
 def test_candidate_prompt_keeps_json_output_short() -> None:
@@ -541,6 +668,66 @@ def test_strict_json_parser_salvages_inner_quotes_and_newlines_in_string_values(
 
     assert payload["speaker_is_speaking"] is False
     assert payload["reason"] == 'The riddle "וימתו הצפרדעים"\nlooks narrative.'
+
+
+def test_strict_json_parser_balances_truncated_object_with_required_fields() -> None:
+    payload = _parse_json_object(
+        '{\n'
+        '  "speaker": "בני ראובן וגדי וחצי שבט מנשה",\n'
+        '  "listener": "אתראשי אלפי ישראל",\n'
+        '  "speaker_is_speaking": true,\n'
+        '  "listener_is_addressed": false,\n'
+        '  "speaker_is_character": true,\n'
+        '  "listener_is_character": true,\n'
+        '  "reason": "The speaker is describing a future dialogue."\n'
+    )
+
+    assert payload["speaker"] == "בני ראובן וגדי וחצי שבט מנשה"
+    assert payload["listener_is_addressed"] is False
+
+
+def test_strict_json_repair_accepts_truncated_top_level_object(monkeypatch) -> None:
+    responses = iter(
+        [
+            SimpleNamespace(message=SimpleNamespace(content="not json")),
+            SimpleNamespace(message=SimpleNamespace(content="still not json")),
+            SimpleNamespace(
+                message=SimpleNamespace(
+                    content=(
+                        '{'
+                        '"speaker":"בני ראובן וגדי וחצי שבט מנשה",'
+                        '"listener":"אתראשי אלפי ישראל",'
+                        '"speaker_is_speaking":true,'
+                        '"listener_is_addressed":false,'
+                        '"speaker_is_character":true,'
+                        '"listener_is_character":true,'
+                        '"reason":"future dialogue"'
+                    )
+                )
+            ),
+        ]
+    )
+
+    monkeypatch.setattr("data_proc.llm._ollama_chat", lambda **_: next(responses))
+    client = OllamaJsonClient(model="gemma4:26b", max_retries=2)
+
+    payload = client.chat_json(
+        "he-role-validation",
+        "system",
+        "user",
+        required_keys=(
+            "speaker",
+            "listener",
+            "speaker_is_speaking",
+            "listener_is_addressed",
+            "speaker_is_character",
+            "listener_is_character",
+            "reason",
+        ),
+    )
+
+    assert payload["speaker"] == "בני ראובן וגדי וחצי שבט מנשה"
+    assert payload["reason"] == "future dialogue"
 
 
 def test_strict_json_escalates_to_fallback_model_for_missing_required_keys(monkeypatch) -> None:

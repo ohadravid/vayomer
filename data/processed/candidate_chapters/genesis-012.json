@@ -6,6 +6,222 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-12-01-01",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:",
+        "riddle": "Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:",
+        "speaker": "the LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָם לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽךָּ",
+        "riddle": "לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽך",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָם לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽךָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "genesis-12-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him.",
+        "riddle": "Unto thy seed will I give this land",
+        "speaker": "the LORD",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ לַיהוָה הַנִּרְאֶה אֵלָֽיו",
+        "riddle": "לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him."
+        },
+        "he": {
+          "7": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ לַיהוָה הַנִּרְאֶה אֵלָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "divine promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-12-11-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon:",
+        "riddle": "Behold now, I know that thou art a fair woman to look upon",
+        "speaker": "Abram",
+        "listener": "Sarai",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ",
+        "riddle": "הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽת",
+        "speaker": "אֶל־שָׂרַי",
+        "listener": "שָׂרַי",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon:"
+        },
+        "he": {
+          "11": "וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "genesis-12-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "Therefore it shall come to pass, when the Egyptians shall see thee, that they shall say, This is his wife: and they will kill me, but they will save thee alive.",
+        "riddle": "This is his wife",
+        "speaker": "Egyptians",
+        "listener": "Abram",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְהָיָה כִּֽי־יִרְאוּ אֹתָךְ הַמִּצְרִים וְאָמְרוּ אִשְׁתּוֹ זֹאת וְהָרְגוּ אֹתִי וְאֹתָךְ יְחַיּֽוּ",
+        "riddle": "אִשְׁתּוֹ זֹאת",
+        "speaker": "הַמִּצְרִים",
+        "listener": "אַבְרָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Therefore it shall come to pass, when the Egyptians shall see thee, that they shall say, This is his wife: and they will kill me, but they will save thee alive."
+        },
+        "he": {
+          "12": "וְהָיָה כִּֽי־יִרְאוּ אֹתָךְ הַמִּצְרִים וְאָמְרוּ אִשְׁתּוֹ זֹאת וְהָרְגוּ אֹתִי וְאֹתָךְ יְחַיּֽוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech prediction",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-12-13-13",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee.",
+        "riddle": "Say, I pray thee, thou art my sister",
+        "speaker": "Abram",
+        "listener": "Sarai",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ",
+        "riddle": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ",
+        "speaker": "אברם",
+        "listener": "שרי",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee."
+        },
+        "he": {
+          "13": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
       "id": "genesis-12-19-19",
       "source": {
         "book_code": "GEN",
@@ -13,33 +229,37 @@
         "book_he": "בראשית",
         "chapter": 12,
         "quote_verse_start": 19,
-        "quote_verse_end": 19
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
-        "riddle": "Why saidst thou, She is my sister",
+        "riddle": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
         "speaker": "Pharaoh",
         "listener": "Abram",
         "book": "Genesis"
       },
       "he": {
         "quote": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
-        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי",
-        "speaker": "פרעה",
-        "listener": "אברם",
+        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
+        "speaker": "פַרְעֹה",
+        "listener": "אַבְרָם",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
+          "18": "And Pharaoh called Abram, and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife?",
           "19": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way."
         },
         "he": {
+          "18": "וַיִּקְרָא פַרְעֹה לְאַבְרָם וַיֹּאמֶר מַה־זֹּאת עָשִׂיתָ לִּי לָמָּה לֹא־הִגַּדְתָּ לִּי כִּי אִשְׁתְּךָ הִֽוא׃",
           "19": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ׃"
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 0.95
+        "reason": "direct question and command",
+        "confidence": 1.0
       },
       "ref": {
         "chapter": 12,
@@ -49,10 +269,13 @@
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 1,
-    "issue_count": 11
+    "llm_window_count": 4,
+    "projection_llm_count": 7,
+    "llm_call_count": 11,
+    "spec_count": 7,
+    "kept_count": 6,
+    "issue_count": 1
   }
 }

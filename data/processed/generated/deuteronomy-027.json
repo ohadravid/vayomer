@@ -6,7 +6,161 @@
   "mode": "llm",
   "items": [
     {
-      "id": "deuteronomy-27-15-15",
+      "id": "deuteronomy-27-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day.",
+        "riddle": "Keep all the commandments which I command you this day.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "elders",
+        "bonus_hint": {
+          "quote": "And they shall hearken to thy voice: and thou shalt come, thou and the elders of Israel, unto the king of Egypt, and ye shall say unto him, The LORD God of the Hebrews hath met with us: and now let us go, we beseech thee, three days' journey into the wilderness, that we may sacrifice to the LORD our God.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְצַו מֹשֶׁה וְזִקְנֵי יִשְׂרָאֵל אֶת־הָעָם לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם",
+        "riddle": "לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְזִקְנֵי",
+        "bonus_hint": {
+          "quote": "וְשָׁמְעוּ לְקֹלֶךָ וּבָאתָ אַתָּה וְזִקְנֵי יִשְׂרָאֵל אֶל־מֶלֶךְ מִצְרַיִם וַאֲמַרְתֶּם אֵלָיו יְהוָה אֱלֹהֵי הָֽעִבְרִיִּים נִקְרָה עָלֵינוּ וְעַתָּה נֵֽלֲכָה־נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים בַּמִּדְבָּר וְנִזְבְּחָה לַֽיהוָה אֱלֹהֵֽינוּ",
+          "source": {
+            "book": "שמות",
+            "chapter": 3,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day."
+        },
+        "he": {
+          "1": "וַיְצַו מֹשֶׁה וְזִקְנֵי יִשְׂרָאֵל אֶת־הָעָם לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם׃"
+        }
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 1,
+        "end": 1
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-27-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Moses and the priests the Levites spake unto all Israel, saying, Take heed, and hearken, O Israel; this day thou art become the people of the LORD thy God. Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day.",
+        "riddle": "Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day.",
+        "speaker": "Moses",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "priests",
+        "bonus_hint": {
+          "quote": "And he said unto me, This chamber, whose prospect is toward the south, is for the priests, the keepers of the charge of the house.",
+          "source": {
+            "book": "Ezekiel",
+            "chapter": 40,
+            "start": 45,
+            "end": 45
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מֹשֶׁה וְהַכֹּהֲנִים הַלְוִיִּם אֶל כָּל־יִשְׂרָאֵל לֵאמֹר הַסְכֵּת וּשְׁמַע יִשְׂרָאֵל הַיּוֹם הַזֶּה נִהְיֵיתָֽ לְעָם לַיהוָה אֱלֹהֶֽיךָ וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם",
+        "riddle": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם",
+        "speaker": "מֹשֶׁה וְהַכֹּהֲנִים הַלְוִיִּם",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר אֵלָי זֹה הַלִּשְׁכָּה אֲשֶׁר פָּנֶיהָ דֶּרֶךְ הַדָּרוֹם לַכֹּהֲנִים שֹׁמְרֵי מִשְׁמֶרֶת הַבָּֽיִת",
+          "source": {
+            "book": "יחזקאל",
+            "chapter": 40,
+            "start": 45,
+            "end": 45
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Moses and the priests the Levites spake unto all Israel, saying, Take heed, and hearken, O Israel; this day thou art become the people of the LORD thy God.",
+          "10": "Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day."
+        },
+        "he": {
+          "9": "וַיְדַבֵּר מֹשֶׁה וְהַכֹּהֲנִים הַלְוִיִּם אֶל כָּל־יִשְׂרָאֵל לֵאמֹר הַסְכֵּת ׀ וּשְׁמַע יִשְׂרָאֵל הַיּוֹם הַזֶּה נִהְיֵיתָֽ לְעָם לַיהוָה אֱלֹהֶֽיךָ׃",
+          "10": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם׃"
+        }
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-27-17-17",
       "source": {
         "method": "llm",
         "book_code": "DEU",
@@ -14,64 +168,68 @@
         "book_he": "דברים",
         "chapter": 27,
         "quote_verse_start": 14,
-        "quote_verse_end": 15
+        "quote_verse_end": 17
       },
       "en": {
-        "quote": "And the Levites shall speak, and say unto all the men of Israel with a loud voice, Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen.",
-        "riddle": "Cursed be the man that maketh any graven or molten image",
+        "quote": "And the Levites shall speak, and say unto all the men of Israel with a loud voice, Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen. Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen. Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that removeth his neighbour's landmark.",
         "speaker": "Levites",
-        "listener": "Men of Israel",
+        "listener": "people",
         "book": "Deuteronomy",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "secret",
+        "bonus": "voice",
         "bonus_hint": {
-          "quote": "But Jonathan Saul's son delighted much in David: and Jonathan told David, saying, Saul my father seeketh to kill thee: now therefore, I pray thee, take heed to thyself until the morning, and abide in a secret place, and hide thyself:",
+          "quote": "And they shall say unto the elders of his city, This our son is stubborn and rebellious, he will not obey our voice; he is a glutton, and a drunkard.",
           "source": {
-            "book": "1 Samuel",
-            "chapter": 19,
-            "start": 2,
-            "end": 2
+            "book": "Deuteronomy",
+            "chapter": 21,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "he": {
-        "quote": "וְעָנוּ הַלְוִיִּם וְאָמְרוּ אֶל־כָּל־אִישׁ יִשְׂרָאֵל קוֹל רָֽם אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן",
-        "riddle": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ",
+        "quote": "וְעָנוּ הַלְוִיִּם וְאָמְרוּ אֶל־כָּל־אִישׁ יִשְׂרָאֵל קוֹל רָֽם אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ",
         "speaker": "הַלְוִיִּם",
-        "listener": "יִשְׂרָאֵל",
+        "listener": "הָעָם",
         "book": "דברים",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "בַּסָּתֶר",
+        "bonus": "וְאָמְרוּ",
         "bonus_hint": {
-          "quote": "וַיַּגֵּד יְהוֹנָתָן לְדָוִד לֵאמֹר מְבַקֵּשׁ שָׁאוּל אָבִי לַהֲמִיתֶךָ וְעַתָּה הִשָּֽׁמֶר־נָא בַבֹּקֶר וְיָשַׁבְתָּ בַסֵּתֶר וְנַחְבֵּֽאתָ",
+          "quote": "וְאָמְרוּ אֶל־זִקְנֵי עִירוֹ בְּנֵנוּ זֶה סוֹרֵר וּמֹרֶה אֵינֶנּוּ שֹׁמֵעַ בְּקֹלֵנוּ זוֹלֵל וְסֹבֵֽא",
           "source": {
-            "book": "שמואל א",
-            "chapter": 19,
-            "start": 2,
-            "end": 2
+            "book": "דברים",
+            "chapter": 21,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "raw_quote_source": {
         "en": {
           "14": "And the Levites shall speak, and say unto all the men of Israel with a loud voice,",
-          "15": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen."
+          "15": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen.",
+          "16": "Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen.",
+          "17": "Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen."
         },
         "he": {
           "14": "וְעָנוּ הַלְוִיִּם וְאָמְרוּ אֶל־כָּל־אִישׁ יִשְׂרָאֵל קוֹל רָֽם׃",
-          "15": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן׃"
+          "15": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן׃",
+          "16": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
+          "17": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
         }
       },
       "ref": {
         "chapter": 27,
         "start": 14,
-        "end": 15
+        "end": 17
       },
       "meta": {
         "mode": "llm",
@@ -94,9 +252,9 @@
       },
       "en": {
         "quote": "And the Levites shall speak, and say unto all the men of Israel with a loud voice, Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen. Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen. Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen. Cursed be he that maketh the blind to wander out of the way. And all the people shall say, Amen.",
-        "riddle": "Cursed be he that maketh the blind to wander",
+        "riddle": "Cursed be he that maketh the blind to wander out of the way.",
         "speaker": "Levites",
-        "listener": "People",
+        "listener": "people",
         "book": "Deuteronomy",
         "options": {
           "speaker": [],
@@ -104,12 +262,12 @@
         },
         "bonus": "voice",
         "bonus_hint": {
-          "quote": "And they heard the voice of the LORD God walking in the garden in the cool of the day: and Adam and his wife hid themselves from the presence of the LORD God amongst the trees of the garden.",
+          "quote": "And they shall say unto the elders of his city, This our son is stubborn and rebellious, he will not obey our voice; he is a glutton, and a drunkard.",
           "source": {
-            "book": "Genesis",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
+            "book": "Deuteronomy",
+            "chapter": 21,
+            "start": 20,
+            "end": 20
           }
         }
       },
@@ -123,14 +281,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "קוֹל",
+        "bonus": "וְאָמְרוּ",
         "bonus_hint": {
-          "quote": "וַֽיִּשְׁמְעוּ אֶת־קוֹל יְהוָה אֱלֹהִים מִתְהַלֵּךְ בַּגָּן לְרוּחַ הַיּוֹם וַיִּתְחַבֵּא הָֽאָדָם וְאִשְׁתּוֹ מִפְּנֵי יְהוָה אֱלֹהִים בְּתוֹךְ עֵץ הַגָּֽן",
+          "quote": "וְאָמְרוּ אֶל־זִקְנֵי עִירוֹ בְּנֵנוּ זֶה סוֹרֵר וּמֹרֶה אֵינֶנּוּ שֹׁמֵעַ בְּקֹלֵנוּ זוֹלֵל וְסֹבֵֽא",
           "source": {
-            "book": "בראשית",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
+            "book": "דברים",
+            "chapter": 21,
+            "start": 20,
+            "end": 20
           }
         }
       },
@@ -164,40 +322,116 @@
       }
     },
     {
-      "id": "deuteronomy-27-25-25",
+      "id": "deuteronomy-27-16-16",
       "source": {
         "method": "llm",
         "book_code": "DEU",
         "book": "Deuteronomy",
         "book_he": "דברים",
         "chapter": 27,
-        "quote_verse_start": 19,
-        "quote_verse_end": 25
+        "quote_verse_start": 15,
+        "quote_verse_end": 16
       },
       "en": {
-        "quote": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen. Cursed be he that lieth with his father's wife; because he uncovereth his father's skirt. And all the people shall say, Amen. Cursed be he that lieth with any manner of beast. And all the people shall say, Amen. Cursed be he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen. Cursed be he that lieth with his mother in law. And all the people shall say, Amen. Cursed be he that smiteth his neighbour secretly. And all the people shall say, Amen. Cursed be he that taketh reward to slay an innocent person. And all the people shall say, Amen.",
-        "riddle": "Cursed be he that taketh reward to slay an innocent person",
-        "speaker": "Moses",
-        "listener": "People",
+        "quote": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen. Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that setteth light by his father or his mother.",
+        "speaker": "LORD",
+        "listener": "people",
         "book": "Deuteronomy",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "judgment",
+        "bonus": "image",
         "bonus_hint": {
-          "quote": "Thou shalt not wrest the judgment of thy poor in his cause.",
+          "quote": "Thou shalt not make unto thee any graven image, or any likeness of any thing that is in heaven above, or that is in the earth beneath, or that is in the water under the earth:",
           "source": {
             "book": "Exodus",
-            "chapter": 23,
-            "start": 6,
-            "end": 6
+            "chapter": 20,
+            "start": 4,
+            "end": 4
           }
         }
       },
       "he": {
-        "quote": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר שֹׁכֵב עִם־אֵשֶׁת אָבִיו כִּי גִלָּה כְּנַף אָבִיו וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר שֹׁכֵב עִם־אֲחֹתוֹ בַּת־אָבִיו אוֹ בַת־אִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר שֹׁכֵב עִם־חֹֽתַנְתּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר מַכֵּה רֵעֵהוּ בַּסָּתֶר וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי וְאָמַר כָּל־הָעָם אָמֵֽן",
-        "riddle": "אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי",
+        "quote": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ",
+        "speaker": "הָאִישׁ",
+        "listener": "הָעָם",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "פֶסֶל",
+        "bonus_hint": {
+          "quote": "לֹֽא תַֽעֲשֶׂה־לְךָ פֶסֶל וְכָל־תְּמוּנָה אֲשֶׁר בַּשָּׁמַיִם מִמַּעַל וַֽאֲשֶׁר בָּאָרֶץ מִתַָּחַת וַאֲשֶׁר בַּמַּיִם מִתַּחַת לָאָֽרֶץ",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen.",
+          "16": "Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen."
+        },
+        "he": {
+          "15": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן׃",
+          "16": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 15,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-27-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 15,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen. Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen. Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen. Cursed be he that maketh the blind to wander out of the way. And all the people shall say, Amen. Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "image",
+        "bonus_hint": {
+          "quote": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war.",
+          "source": {
+            "book": "Judges",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר מַשְׁגֶּה עִוֵּר בַּדָּרֶךְ וְאָמַר כָּל־הָעָם אָמֵֽן אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה",
         "speaker": "משה",
         "listener": "הָעָם",
         "book": "דברים",
@@ -205,41 +439,37 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "מִשְׁפַּט",
+        "bonus": "הָאִישׁ",
         "bonus_hint": {
-          "quote": "לֹא תַטֶּה מִשְׁפַּט אֶבְיֹנְךָ בְּרִיבֽוֹ",
+          "quote": "וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה",
           "source": {
-            "book": "שמות",
-            "chapter": 23,
-            "start": 6,
-            "end": 6
+            "book": "שופטים",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "19": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen.",
-          "20": "Cursed be he that lieth with his father's wife; because he uncovereth his father's skirt. And all the people shall say, Amen.",
-          "21": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen.",
-          "22": "Cursed be he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen.",
-          "23": "Cursed be he that lieth with his mother in law. And all the people shall say, Amen.",
-          "24": "Cursed be he that smiteth his neighbour secretly. And all the people shall say, Amen.",
-          "25": "Cursed be he that taketh reward to slay an innocent person. And all the people shall say, Amen."
+          "15": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen.",
+          "16": "Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen.",
+          "17": "Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen.",
+          "18": "Cursed be he that maketh the blind to wander out of the way. And all the people shall say, Amen.",
+          "19": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen."
         },
         "he": {
-          "19": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "20": "אָרוּר שֹׁכֵב עִם־אֵשֶׁת אָבִיו כִּי גִלָּה כְּנַף אָבִיו וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "21": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "22": "אָרוּר שֹׁכֵב עִם־אֲחֹתוֹ בַּת־אָבִיו אוֹ בַת־אִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "23": "אָרוּר שֹׁכֵב עִם־חֹֽתַנְתּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "24": "אָרוּר מַכֵּה רֵעֵהוּ בַּסָּתֶר וְאָמַר כָּל־הָעָם אָמֵֽן׃",
-          "25": "אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+          "15": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן׃",
+          "16": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
+          "17": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
+          "18": "אָרוּר מַשְׁגֶּה עִוֵּר בַּדָּרֶךְ וְאָמַר כָּל־הָעָם אָמֵֽן׃",
+          "19": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן׃"
         }
       },
       "ref": {
         "chapter": 27,
-        "start": 19,
-        "end": 25
+        "start": 15,
+        "end": 19
       },
       "meta": {
         "mode": "llm",
