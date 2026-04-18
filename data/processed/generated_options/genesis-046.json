@@ -194,97 +194,6 @@
       }
     },
     {
-      "id": "genesis-46-31-31",
-      "source": {
-        "method": "llm",
-        "book_code": "GEN",
-        "book": "Genesis",
-        "book_he": "בראשית",
-        "chapter": 46,
-        "quote_verse_start": 31,
-        "quote_verse_end": 31,
-        "listener_mention_verse": 31
-      },
-      "en": {
-        "quote": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
-        "riddle": "My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
-        "speaker": "Joseph",
-        "listener": "Pharaoh",
-        "book": "Genesis",
-        "options": {
-          "speaker": [
-            "Abraham",
-            "Jacob",
-            "Isaac"
-          ],
-          "listener": [
-            "Abimelech and Phichol",
-            "Balak",
-            "Abraham"
-          ]
-        },
-        "bonus": "shew",
-        "bonus_hint": {
-          "quote": "Then was Abner very wroth for the words of Ish-bosheth, and said, Am I a dog's head, which against Judah do shew kindness this day unto the house of Saul thy father, to his brethren, and to his friends, and have not delivered thee into the hand of David, that thou chargest me to day with a fault concerning this woman?",
-          "source": {
-            "book": "2 Samuel",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
-          }
-        }
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי",
-        "riddle": "אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי",
-        "speaker": "יוֹסֵף",
-        "listener": "פַרְעֹה",
-        "book": "בראשית",
-        "options": {
-          "speaker": [
-            "אַבְרָהָם",
-            "יַעֲקֹב",
-            "יִצְחָק"
-          ],
-          "listener": [
-            "אֲבִימֶלֶךְ וּפִיכֹל",
-            "בָּלָק",
-            "אַבְרָהָם"
-          ]
-        },
-        "bonus": "אֶחָיו",
-        "bonus_hint": {
-          "quote": "וַיִּחַר לְאַבְנֵר מְאֹד עַל־דִּבְרֵי אִֽישׁ־בֹּשֶׁת וַיֹּאמֶר הֲרֹאשׁ כֶּלֶב אָנֹכִי אֲשֶׁר לִֽיהוּדָה הַיּוֹם אֶֽעֱשֶׂה־חֶסֶד עִם־בֵּית שָׁאוּל אָבִיךָ אֶל־אֶחָיו וְאֶל־מֵרֵעֵהוּ וְלֹא הִמְצִיתִךָ בְּיַד־דָּוִד וַתִּפְקֹד עָלַי עֲוֺן הָאִשָּׁה הַיּֽוֹם",
-          "source": {
-            "book": "שמואל ב",
-            "chapter": 3,
-            "start": 8,
-            "end": 8
-          }
-        }
-      },
-      "raw_quote_source": {
-        "en": {
-          "31": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;"
-        },
-        "he": {
-          "31": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי׃"
-        }
-      },
-      "ref": {
-        "chapter": 46,
-        "start": 31,
-        "end": 31
-      },
-      "meta": {
-        "mode": "llm",
-        "source": "data-proc",
-        "template_item_id": "",
-        "bonus_source": "llm",
-        "bonus_hint_source": "aligned-bible-search"
-      }
-    },
-    {
       "id": "genesis-46-33-33",
       "source": {
         "method": "llm",
@@ -325,10 +234,10 @@
         }
       },
       "he": {
-        "quote": "וְהָאֲנָשִׁים רֹעֵי צֹאן כִּֽי־אַנְשֵׁי מִקְנֶה הָיוּ וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם הֵבִֽיאוּ וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם",
-        "riddle": "וְאָמַר מַה־מַּעֲשֵׂיכֶֽם",
-        "speaker": "פַּרְעֹה",
-        "listener": "אַנְשֵׁי מִקְנֶה",
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי וְהָאֲנָשִׁים רֹעֵי צֹאן כִּֽי־אַנְשֵׁי מִקְנֶה הָיוּ וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם הֵבִֽיאוּ וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם וַאֲמַרְתֶּם אַנְשֵׁי מִקְנֶה הָיוּ עֲבָדֶיךָ מִנְּעוּרֵינוּ וְעַד־עַתָּה גַּם־אֲנַחְנוּ גַּם־אֲבֹתֵינוּ בַּעֲבוּר תֵּשְׁבוּ בְּאֶרֶץ גֹּשֶׁן כִּֽי־תוֹעֲבַת מִצְרַיִם כָּל־רֹעֵה צֹֽאן",
+        "riddle": "וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם וַאֲמַרְתֶּם אַנְשֵׁי מִקְנֶה הָיוּ עֲבָדֶיךָ מִנְּעוּרֵינוּ",
+        "speaker": "יוֹסֵף",
+        "listener": "אָחִיו וְבֵּית אָבִיו",
         "book": "בראשית",
         "options": {
           "speaker": [
@@ -337,7 +246,7 @@
             "בָּלָק"
           ],
           "listener": [
-            "אָחִיו",
+            "בֵּית לוֹט",
             "בְּנֵי יוֹסֵף",
             "הַנֹּגְשִׂים"
           ]
@@ -355,12 +264,15 @@
       },
       "raw_quote_source": {
         "en": {
+          "31": "And Joseph said unto his brethren, and unto his father's house, I will go up, and shew Pharaoh, and say unto him, My brethren, and my father's house, which were in the land of Canaan, are come unto me;",
           "32": "And the men are shepherds, for their trade hath been to feed cattle; and they have brought their flocks, and their herds, and all that they have.",
           "33": "And it shall come to pass, when Pharaoh shall call you, and shall say, What is your occupation?"
         },
         "he": {
+          "31": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו וְאֶל־בֵּית אָבִיו אֶעֱלֶה וְאַגִּידָה לְפַרְעֹה וְאֹֽמְרָה אֵלָיו אַחַי וּבֵית־אָבִי אֲשֶׁר בְּאֶֽרֶץ־כְּנַעַן בָּאוּ אֵלָֽי׃",
           "32": "וְהָאֲנָשִׁים רֹעֵי צֹאן כִּֽי־אַנְשֵׁי מִקְנֶה הָיוּ וְצֹאנָם וּבְקָרָם וְכָל־אֲשֶׁר לָהֶם הֵבִֽיאוּ׃",
-          "33": "וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם׃"
+          "33": "וְהָיָה כִּֽי־יִקְרָא לָכֶם פַּרְעֹה וְאָמַר מַה־מַּעֲשֵׂיכֶֽם׃",
+          "34": "וַאֲמַרְתֶּם אַנְשֵׁי מִקְנֶה הָיוּ עֲבָדֶיךָ מִנְּעוּרֵינוּ וְעַד־עַתָּה גַּם־אֲנַחְנוּ גַּם־אֲבֹתֵינוּ בַּעֲבוּר תֵּשְׁבוּ בְּאֶרֶץ גֹּשֶׁן כִּֽי־תוֹעֲבַת מִצְרַיִם כָּל־רֹעֵה צֹֽאן"
         }
       },
       "ref": {
