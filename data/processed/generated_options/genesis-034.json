@@ -1,0 +1,403 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 34,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-34-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 34,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And Shechem spake unto his father Hamor, saying, Get me this damsel to wife.",
+        "riddle": "Get me this damsel to wife",
+        "speaker": "Shechem",
+        "listener": "Hamor",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Pharaoh",
+            "Jacob"
+          ],
+          "listener": [
+            "Jacob",
+            "Isaac",
+            "Abraham"
+          ]
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁכֶם אֶל־חֲמוֹר אָבִיו לֵאמֹר קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה",
+        "riddle": "קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה",
+        "speaker": "שְׁכֶם",
+        "listener": "חֲמוֹר",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יַעֲקֹב"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "אָבִיו",
+        "bonus_hint": {
+          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Shechem spake unto his father Hamor, saying, Get me this damsel to wife."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר שְׁכֶם אֶל־חֲמוֹר אָבִיו לֵאמֹר קַֽח־לִי אֶת־הַיַּלְדָּה הַזֹּאת לְאִשָּֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 4,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-34-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 34,
+        "quote_verse_start": 13,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And the sons of Jacob answered Shechem and Hamor his father deceitfully, and said, because he had defiled Dinah their sister: And they said unto them, We cannot do this thing, to give our sister to one that is uncircumcised; for that were a reproach unto us: But in this will we consent unto you: If ye will be as we be, that every male of you be circumcised; Then will we give our daughters unto you, and we will take your daughters to us, and we will dwell with you, and we will become one people. But if ye will not hearken unto us, to be circumcised; then will we take our daughter, and we will be gone. And their words pleased Hamor, and Shechem Hamor's son.",
+        "riddle": "If ye will be as we be, that every male of you be circumcised;",
+        "speaker": "sons of Jacob",
+        "listener": "Shechem and Hamor",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Israel",
+            "Israelites",
+            "Philistines"
+          ],
+          "listener": [
+            "Israel",
+            "Joseph's sons",
+            "Korah and his company"
+          ]
+        },
+        "bonus": "sister",
+        "bonus_hint": {
+          "quote": "And they sent away Rebekah their sister, and her nurse, and Abraham's servant, and his men.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 59,
+            "end": 59
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעֲנוּ בְנֵֽי־יַעֲקֹב אֶת־שְׁכֶם וְאֶת־חֲמוֹר אָבִיו בְּמִרְמָה וַיְדַבֵּרוּ אֲשֶׁר טִמֵּא אֵת דִּינָה אֲחֹתָֽם וַיֹּאמְרוּ אֲלֵיהֶם לֹא נוּכַל לַעֲשׂוֹת הַדָּבָר הַזֶּה לָתֵת אֶת־אֲחֹתֵנוּ לְאִישׁ אֲשֶׁר־לוֹ עָרְלָה כִּֽי־חֶרְפָּה הִוא לָֽנוּ אַךְ־בְּזֹאת נֵאוֹת לָכֶם אִם תִּהְיוּ כָמֹנוּ לְהִמֹּל לָכֶם כָּל־זָכָֽר וְנָתַנּוּ אֶת־בְּנֹתֵינוּ לָכֶם וְאֶת־בְּנֹתֵיכֶם נִֽקַּֽח־לָנוּ וְיָשַׁבְנוּ אִתְּכֶם וְהָיִינוּ לְעַם אֶחָֽד וְאִם־לֹא תִשְׁמְעוּ אֵלֵינוּ לְהִמּוֹל וְלָקַחְנוּ אֶת־בִּתֵּנוּ וְהָלָֽכְנוּ וַיִּֽיטְבוּ דִבְרֵיהֶם בְּעֵינֵי חֲמוֹר וּבְעֵינֵי שְׁכֶם בֶּן־חֲמֽוֹר",
+        "riddle": "אַךְ־בְּזֹאת נֵאוֹת לָכֶם אִם תִּהְיוּ כָמֹנוּ לְהִמֹּל לָכֶם כָּל־זָכָֽר",
+        "speaker": "בְנֵֽי־יַעֲקֹב",
+        "listener": "שְׁכֶם וַחֲמוֹר",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִשְׂרָאֵל",
+            "בְּנֵי יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "בְּנֵי יוֹסֵף",
+            "קֹרַח ועדתו"
+          ]
+        },
+        "bonus": "וְאֶת",
+        "bonus_hint": {
+          "quote": "וַֽיְשַׁלְּחוּ אֶת־רִבְקָה אֲחֹתָם וְאֶת־מֵנִקְתָּהּ וְאֶת־עֶבֶד אַבְרָהָם וְאֶת־אֲנָשָֽׁיו",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 59,
+            "end": 59
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the sons of Jacob answered Shechem and Hamor his father deceitfully, and said, because he had defiled Dinah their sister:",
+          "14": "And they said unto them, We cannot do this thing, to give our sister to one that is uncircumcised; for that were a reproach unto us:",
+          "15": "But in this will we consent unto you: If ye will be as we be, that every male of you be circumcised;",
+          "16": "Then will we give our daughters unto you, and we will take your daughters to us, and we will dwell with you, and we will become one people.",
+          "17": "But if ye will not hearken unto us, to be circumcised; then will we take our daughter, and we will be gone.",
+          "18": "And their words pleased Hamor, and Shechem Hamor's son."
+        },
+        "he": {
+          "13": "וַיַּעֲנוּ בְנֵֽי־יַעֲקֹב אֶת־שְׁכֶם וְאֶת־חֲמוֹר אָבִיו בְּמִרְמָה וַיְדַבֵּרוּ אֲשֶׁר טִמֵּא אֵת דִּינָה אֲחֹתָֽם׃",
+          "14": "וַיֹּאמְרוּ אֲלֵיהֶם לֹא נוּכַל לַעֲשׂוֹת הַדָּבָר הַזֶּה לָתֵת אֶת־אֲחֹתֵנוּ לְאִישׁ אֲשֶׁר־לוֹ עָרְלָה כִּֽי־חֶרְפָּה הִוא לָֽנוּ׃",
+          "15": "אַךְ־בְּזֹאת נֵאוֹת לָכֶם אִם תִּהְיוּ כָמֹנוּ לְהִמֹּל לָכֶם כָּל־זָכָֽר׃",
+          "16": "וְנָתַנּוּ אֶת־בְּנֹתֵינוּ לָכֶם וְאֶת־בְּנֹתֵיכֶם נִֽקַּֽח־לָנוּ וְיָשַׁבְנוּ אִתְּכֶם וְהָיִינוּ לְעַם אֶחָֽד׃",
+          "17": "וְאִם־לֹא תִשְׁמְעוּ אֵלֵינוּ לְהִמּוֹל וְלָקַחְנוּ אֶת־בִּתֵּנוּ וְהָלָֽכְנוּ׃",
+          "18": "וַיִּֽיטְבוּ דִבְרֵיהֶם בְּעֵינֵי חֲמוֹר וּבְעֵינֵי שְׁכֶם בֶּן־חֲמֽוֹר׃"
+        }
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 13,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-34-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 34,
+        "quote_verse_start": 20,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Hamor and Shechem his son came unto the gate of their city, and communed with the men of their city, saying, These men are peaceable with us; therefore let them dwell in the land, and trade therein; for the land, behold, it is large enough for them; let us take their daughters to us for wives, and let us give them our daughters. Only herein will the men consent unto us for to dwell with us, to be one people, if every male among us be circumcised, as they are circumcised. Shall not their cattle and their substance and every beast of theirs be ours? only let us consent unto them, and they will dwell with us. And unto Hamor and unto Shechem his son hearkened all that went out of the gate of his city; and every male was circumcised, all that went out of the gate of his city.",
+        "riddle": "Only herein will the men consent unto us for to dwell with us, to be one people, if every male among us be circumcised, as they are circumcised.",
+        "speaker": "Hamor",
+        "listener": "Men of the city",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Pharaoh",
+            "Moses"
+          ],
+          "listener": [
+            "Israel",
+            "brethren",
+            "Israelites"
+          ]
+        },
+        "bonus": "gate",
+        "bonus_hint": {
+          "quote": "So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא חֲמוֹר וּשְׁכֶם בְּנוֹ אֶל־שַׁעַר עִירָם וַֽיְדַבְּרוּ אֶל־אַנְשֵׁי עִירָם לֵאמֹֽר הָאֲנָשִׁים הָאֵלֶּה שְֽׁלֵמִים הֵם אִתָּנוּ וְיֵשְׁבוּ בָאָרֶץ וְיִסְחֲרוּ אֹתָהּ וְהָאָרֶץ הִנֵּה רַֽחֲבַת־יָדַיִם לִפְנֵיהֶם אֶת־בְּנֹתָם נִקַּֽח־לָנוּ לְנָשִׁים וְאֶת־בְּנֹתֵינוּ נִתֵּן לָהֶֽם אַךְ־בְּזֹאת יֵאֹתוּ לָנוּ הָאֲנָשִׁים לָשֶׁבֶת אִתָּנוּ לִהְיוֹת לְעַם אֶחָד בְּהִמּוֹל לָנוּ כָּל־זָכָר כַּאֲשֶׁר הֵם נִמֹּלִֽים מִקְנֵהֶם וְקִנְיָנָם וְכָל־בְּהֶמְתָּם הֲלוֹא לָנוּ הֵם אַךְ נֵאוֹתָה לָהֶם וְיֵשְׁבוּ אִתָּֽנוּ וַיִּשְׁמְעוּ אֶל־חֲמוֹר וְאֶל־שְׁכֶם בְּנוֹ כָּל־יֹצְאֵי שַׁעַר עִירוֹ וַיִּמֹּלוּ כָּל־זָכָר כָּל־יֹצְאֵי שַׁעַר עִירֽוֹ",
+        "riddle": "אַךְ־בְּזֹאת יֵאֹתוּ לָנוּ הָאֲנָשִׁים לָשֶׁבֶת אִתָּנוּ לִהְיוֹת לְעַם אֶחָד בְּהִמּוֹל לָנוּ כָּל־זָכָר כַּאֲשֶׁר הֵם נִמֹּלִֽים",
+        "speaker": "חֲמוֹר וּשְׁכֶם",
+        "listener": "אַנְשֵׁי עִירָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "פַרְעֹה",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "אָחִיו",
+            "בְּנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּקָם וַיֵּלֶךְ צָרְפַתָה וַיָּבֹא אֶל־פֶּתַח הָעִיר וְהִנֵּֽה־שָׁם אִשָּׁה אַלְמָנָה מְקֹשֶׁשֶׁת עֵצִים וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר קְחִי־נָא לִי מְעַט־מַיִם בַּכְּלִי וְאֶשְׁתֶּֽה",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Hamor and Shechem his son came unto the gate of their city, and communed with the men of their city, saying,",
+          "21": "These men are peaceable with us; therefore let them dwell in the land, and trade therein; for the land, behold, it is large enough for them; let us take their daughters to us for wives, and let us give them our daughters.",
+          "22": "Only herein will the men consent unto us for to dwell with us, to be one people, if every male among us be circumcised, as they are circumcised.",
+          "23": "Shall not their cattle and their substance and every beast of theirs be ours? only let us consent unto them, and they will dwell with us.",
+          "24": "And unto Hamor and unto Shechem his son hearkened all that went out of the gate of his city; and every male was circumcised, all that went out of the gate of his city."
+        },
+        "he": {
+          "20": "וַיָּבֹא חֲמוֹר וּשְׁכֶם בְּנוֹ אֶל־שַׁעַר עִירָם וַֽיְדַבְּרוּ אֶל־אַנְשֵׁי עִירָם לֵאמֹֽר׃",
+          "21": "הָאֲנָשִׁים הָאֵלֶּה שְֽׁלֵמִים הֵם אִתָּנוּ וְיֵשְׁבוּ בָאָרֶץ וְיִסְחֲרוּ אֹתָהּ וְהָאָרֶץ הִנֵּה רַֽחֲבַת־יָדַיִם לִפְנֵיהֶם אֶת־בְּנֹתָם נִקַּֽח־לָנוּ לְנָשִׁים וְאֶת־בְּנֹתֵינוּ נִתֵּן לָהֶֽם׃",
+          "22": "אַךְ־בְּזֹאת יֵאֹתוּ לָנוּ הָאֲנָשִׁים לָשֶׁבֶת אִתָּנוּ לִהְיוֹת לְעַם אֶחָד בְּהִמּוֹל לָנוּ כָּל־זָכָר כַּאֲשֶׁר הֵם נִמֹּלִֽים׃",
+          "23": "מִקְנֵהֶם וְקִנְיָנָם וְכָל־בְּהֶמְתָּם הֲלוֹא לָנוּ הֵם אַךְ נֵאוֹתָה לָהֶם וְיֵשְׁבוּ אִתָּֽנוּ׃",
+          "24": "וַיִּשְׁמְעוּ אֶל־חֲמוֹר וְאֶל־שְׁכֶם בְּנוֹ כָּל־יֹצְאֵי שַׁעַר עִירוֹ וַיִּמֹּלוּ כָּל־זָכָר כָּל־יֹצְאֵי שַׁעַר עִירֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 20,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-34-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 34,
+        "quote_verse_start": 20,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Hamor and Shechem his son came unto the gate of their city, and communed with the men of their city, saying, These men are peaceable with us; therefore let them dwell in the land, and trade therein; for the land, behold, it is large enough for them; let us take their daughters to us for wives, and let us give them our daughters. Only herein will the men consent unto us for to dwell with us, to be one people, if every male among us be circumcised, as they are circumcised. Shall not their cattle and their substance and every beast of theirs be ours? only let us consent unto them, and they will dwell with us. And unto Hamor and unto Shechem his son hearkened all that went out of the gate of his city; and every male was circumcised, all that went out of the gate of his city.",
+        "riddle": "Shall not their cattle and their substance and every beast of theirs be ours? only let us consent unto them, and they will dwell with us.",
+        "speaker": "Hamor",
+        "listener": "men of the city",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "brethren",
+            "Israel",
+            "servants"
+          ]
+        },
+        "bonus": "gate",
+        "bonus_hint": {
+          "quote": "So he arose and went to Zarephath. And when he came to the gate of the city, behold, the widow woman was there gathering of sticks: and he called to her, and said, Fetch me, I pray thee, a little water in a vessel, that I may drink.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא חֲמוֹר וּשְׁכֶם בְּנוֹ אֶל־שַׁעַר עִירָם וַֽיְדַבְּרוּ אֶל־אַנְשֵׁי עִירָם לֵאמֹֽר הָאֲנָשִׁים הָאֵלֶּה שְֽׁלֵמִים הֵם אִתָּנוּ וְיֵשְׁבוּ בָאָרֶץ וְיִסְחֲרוּ אֹתָהּ וְהָאָרֶץ הִנֵּה רַֽחֲבַת־יָדַיִם לִפְנֵיהֶם אֶת־בְּנֹתָם נִקַּֽח־לָנוּ לְנָשִׁים וְאֶת־בְּנֹתֵינוּ נִתֵּן לָהֶֽם אַךְ־בְּזֹאת יֵאֹתוּ לָנוּ הָאֲנָשִׁים לָשֶׁבֶת אִתָּנוּ לִהְיוֹת לְעַם אֶחָד בְּהִמּוֹל לָנוּ כָּל־זָכָר כַּאֲשֶׁר הֵם נִמֹּלִֽים מִקְנֵהֶם וְקִנְיָנָם וְכָל־בְּהֶמְתָּם הֲלוֹא לָנוּ הֵם אַךְ נֵאוֹתָה לָהֶם וְיֵשְׁבוּ אִתָּֽנוּ וַיִּשְׁמְעוּ אֶל־חֲמוֹר וְאֶל־שְׁכֶם בְּנוֹ כָּל־יֹצְאֵי שַׁעַר עִירוֹ וַיִּמֹּלוּ כָּל־זָכָר כָּל־יֹצְאֵי שַׁעַר עִירֽוֹ",
+        "riddle": "מִקְנֵהֶם וְקִנְיָנָם וְכָל־בְּהֶמְתָּם הֲלוֹא לָנוּ הֵם אַךְ נֵאוֹתָה לָהֶם וְיֵשְׁבוּ אִתָּֽנוּ",
+        "speaker": "אַנְשֵׁי עִירָם",
+        "listener": "חֲמוֹר וּשְׁכֶם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "אָחִיו",
+            "יִשְׂרָאֵל",
+            "עֲבָדָיו"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּקָם וַיֵּלֶךְ צָרְפַתָה וַיָּבֹא אֶל־פֶּתַח הָעִיר וְהִנֵּֽה־שָׁם אִשָּׁה אַלְמָנָה מְקֹשֶׁשֶׁת עֵצִים וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר קְחִי־נָא לִי מְעַט־מַיִם בַּכְּלִי וְאֶשְׁתֶּֽה",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 17,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Hamor and Shechem his son came unto the gate of their city, and communed with the men of their city, saying,",
+          "21": "These men are peaceable with us; therefore let them dwell in the land, and trade therein; for the land, behold, it is large enough for them; let us take their daughters to us for wives, and let us give them our daughters.",
+          "22": "Only herein will the men consent unto us for to dwell with us, to be one people, if every male among us be circumcised, as they are circumcised.",
+          "23": "Shall not their cattle and their substance and every beast of theirs be ours? only let us consent unto them, and they will dwell with us.",
+          "24": "And unto Hamor and unto Shechem his son hearkened all that went out of the gate of his city; and every male was circumcised, all that went out of the gate of his city."
+        },
+        "he": {
+          "20": "וַיָּבֹא חֲמוֹר וּשְׁכֶם בְּנוֹ אֶל־שַׁעַר עִירָם וַֽיְדַבְּרוּ אֶל־אַנְשֵׁי עִירָם לֵאמֹֽר׃",
+          "21": "הָאֲנָשִׁים הָאֵלֶּה שְֽׁלֵמִים הֵם אִתָּנוּ וְיֵשְׁבוּ בָאָרֶץ וְיִסְחֲרוּ אֹתָהּ וְהָאָרֶץ הִנֵּה רַֽחֲבַת־יָדַיִם לִפְנֵיהֶם אֶת־בְּנֹתָם נִקַּֽח־לָנוּ לְנָשִׁים וְאֶת־בְּנֹתֵינוּ נִתֵּן לָהֶֽם׃",
+          "22": "אַךְ־בְּזֹאת יֵאֹתוּ לָנוּ הָאֲנָשִׁים לָשֶׁבֶת אִתָּנוּ לִהְיוֹת לְעַם אֶחָד בְּהִמּוֹל לָנוּ כָּל־זָכָר כַּאֲשֶׁר הֵם נִמֹּלִֽים׃",
+          "23": "מִקְנֵהֶם וְקִנְיָנָם וְכָל־בְּהֶמְתָּם הֲלוֹא לָנוּ הֵם אַךְ נֵאוֹתָה לָהֶם וְיֵשְׁבוּ אִתָּֽנוּ׃",
+          "24": "וַיִּשְׁמְעוּ אֶל־חֲמוֹר וְאֶל־שְׁכֶם בְּנוֹ כָּל־יֹצְאֵי שַׁעַר עִירוֹ וַיִּמֹּלוּ כָּל־זָכָר כָּל־יֹצְאֵי שַׁעַר עִירֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 34,
+        "start": 20,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -6,27 +6,380 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-50-19-20",
+      "id": "genesis-50-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And when the days of his mourning were past, Joseph spake unto the house of Pharaoh, saying, If now I have found grace in your eyes, speak, I pray you, in the ears of Pharaoh, saying,",
+        "riddle": "If now I have found grace in your eyes, speak, I pray you, in the ears of Pharaoh, saying,",
+        "speaker": "Joseph",
+        "listener": "house of Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּֽעַבְרוּ יְמֵי בְכִיתוֹ וַיְדַבֵּר יוֹסֵף אֶל־בֵּית פַּרְעֹה לֵאמֹר אִם־נָא מָצָאתִי חֵן בְּעֵינֵיכֶם דַּבְּרוּ־נָא בְּאָזְנֵי פַרְעֹה לֵאמֹֽר",
+        "riddle": "וַיְדַבֵּר יוֹסֵף אֶל־בֵּית פַּרְעֹה לֵאמֹר אִם־נָא מָצָאתִי חֵן בְּעֵינֵיכֶם דַּבְּרוּ־נָא בְּאָזְנֵי פַרְעֹה",
+        "speaker": "יוֹסֵף",
+        "listener": "בֵּית פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And when the days of his mourning were past, Joseph spake unto the house of Pharaoh, saying, If now I have found grace in your eyes, speak, I pray you, in the ears of Pharaoh, saying,"
+        },
+        "he": {
+          "4": "וַיַּֽעַבְרוּ יְמֵי בְכִיתוֹ וַיְדַבֵּר יוֹסֵף אֶל־בֵּית פַּרְעֹה לֵאמֹר אִם־נָא מָצָאתִי חֵן בְּעֵינֵיכֶם דַּבְּרוּ־נָא בְּאָזְנֵי פַרְעֹה לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-50-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "My father made me swear, saying, Lo, I die: in my grave which I have digged for me in the land of Canaan, there shalt thou bury me. Now therefore let me go up, I pray thee, and bury my father, and I will come again.",
+        "riddle": "My father made me swear, saying, Lo, I die: in my grave which I have digged for me in the land of Canaan, there shalt thou bury me. Now therefore let me go up, I pray thee, and bury my father, and I will come again.",
+        "speaker": "Joseph",
+        "listener": "house of Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אָבִי הִשְׁבִּיעַנִי לֵאמֹר הִנֵּה אָנֹכִי מֵת בְּקִבְרִי אֲשֶׁר כָּרִיתִי לִי בְּאֶרֶץ כְּנַעַן שָׁמָּה תִּקְבְּרֵנִי וְעַתָּה אֶֽעֱלֶה־נָּא וְאֶקְבְּרָה אֶת־אָבִי וְאָשֽׁוּבָה",
+        "riddle": "אָבִי הִשְׁבִּיעַנִי לֵאמֹר הִנֵּה אָנֹכִי מֵת בְּקִבְרִי אֲשֶׁר כָּרִיתִי לִי בְּאֶרֶץ כְּנַעַן שָׁמָּה תִּקְבְּרֵנִי וְעַתָּה אֶֽעֱלֶה־נָּא וְאֶקְבְּרָה אֶת־אָבִי וְאָשֽׁוּבָה",
+        "speaker": "יוֹסֵף",
+        "listener": "בֵּית פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And when the days of his mourning were past, Joseph spake unto the house of Pharaoh, saying, If now I have found grace in your eyes, speak, I pray you, in the ears of Pharaoh, saying,",
+          "5": "My father made me swear, saying, Lo, I die: in my grave which I have digged for me in the land of Canaan, there shalt thou bury me. Now therefore let me go up, I pray thee, and bury my father, and I will come again."
+        },
+        "he": {
+          "4": "וַיַּֽעַבְרוּ יְמֵי בְכִיתוֹ וַיְדַבֵּר יוֹסֵף אֶל־בֵּית פַּרְעֹה לֵאמֹר אִם־נָא מָצָאתִי חֵן בְּעֵינֵיכֶם דַּבְּרוּ־נָא בְּאָזְנֵי פַרְעֹה לֵאמֹֽר׃",
+          "5": "אָבִי הִשְׁבִּיעַנִי לֵאמֹר הִנֵּה אָנֹכִי מֵת בְּקִבְרִי אֲשֶׁר כָּרִיתִי לִי בְּאֶרֶץ כְּנַעַן שָׁמָּה תִּקְבְּרֵנִי וְעַתָּה אֶֽעֱלֶה־נָּא וְאֶקְבְּרָה אֶת־אָבִי וְאָשֽׁוּבָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "genesis-50-06-06",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Pharaoh said, Go up, and bury thy father, according as he made thee swear.",
+        "riddle": "Go up, and bury thy father, according as he made thee swear.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה עֲלֵה וּקְבֹר אֶת־אָבִיךָ כַּאֲשֶׁר הִשְׁבִּיעֶֽךָ",
+        "riddle": "וַיֹּאמֶר פַּרְעֹה עֲלֵה וּקְבֹר אֶת־אָבִיךָ כַּאֲשֶׁר הִשְׁבִּיעֶֽךָ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Pharaoh said, Go up, and bury thy father, according as he made thee swear."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר פַּרְעֹה עֲלֵה וּקְבֹר אֶת־אָבִיךָ כַּאֲשֶׁר הִשְׁבִּיעֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-50-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him.",
+        "riddle": "Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him",
+        "speaker": "Joseph's brethren",
+        "listener": "themselves",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ",
+        "riddle": "לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽו",
+        "speaker": "אֲחֵֽי־יוֹסֵף",
+        "listener": "עַצְמָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him."
+        },
+        "he": {
+          "15": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-50-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,",
+        "riddle": "Thy father did command before he died, saying,",
+        "speaker": "messenger",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר",
+        "riddle": "אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר",
+        "speaker": "שליחים",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,"
+        },
+        "he": {
+          "16": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "indirect report of command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-50-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him.",
+        "riddle": "I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father.",
+        "speaker": "messengers",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו",
+        "riddle": "כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו",
+        "speaker": "אֲחֵי יוֹסֵף",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,",
+          "17": "So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him."
+        },
+        "he": {
+          "16": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר׃",
+          "17": "כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-50-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And his brethren also went and fell down before his face; and they said, Behold, we be thy servants.",
+        "riddle": "Behold, we be thy servants.",
+        "speaker": "brethren",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים",
+        "riddle": "וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים",
+        "speaker": "אֶחָיו",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And his brethren also went and fell down before his face; and they said, Behold, we be thy servants."
+        },
+        "he": {
+          "18": "וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-50-19-19",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 50,
         "quote_verse_start": 19,
-        "quote_verse_end": 20
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
       },
       "en": {
-        "quote": "And Joseph said unto them, Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
-        "riddle": "for am I in the place of God?",
+        "quote": "And Joseph said unto them, Fear not: for am I in the place of God?",
+        "riddle": "Fear not: for am I in the place of God?",
         "speaker": "Joseph",
-        "listener": "brothers",
+        "listener": "brethren",
         "book": "Genesis"
       },
       "he": {
-        "quote": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
-        "riddle": "הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ",
+        "quote": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי",
+        "riddle": "אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי",
         "speaker": "יוֹסֵף",
-        "listener": "אחים",
+        "listener": "אֲלֵהֶם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joseph said unto them, Fear not: for am I in the place of God?"
+        },
+        "he": {
+          "19": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "genesis-50-20-20",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+        "riddle": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+        "speaker": "Joseph",
+        "listener": "brethren",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
+        "riddle": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
+        "speaker": "יוֹסֵף",
+        "listener": "אַלֵּיהֶם",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -40,21 +393,158 @@
         }
       },
       "meta": {
-        "reason": "Memorable rhetorical question and declaration",
-        "confidence": 0.9
+        "reason": "vivid declaration",
+        "confidence": 0.94
       },
       "ref": {
         "chapter": 50,
-        "start": 19,
+        "start": 20,
         "end": 20
+      }
+    },
+    {
+      "id": "genesis-50-21-21",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "Now therefore fear ye not: I will nourish you, and your little ones. And he comforted them, and spake kindly unto them.",
+        "riddle": "Now therefore fear ye not: I will nourish you, and your little ones.",
+        "speaker": "Joseph",
+        "listener": "brethren",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם וַיְנַחֵם אוֹתָם וַיְדַבֵּר עַל־לִבָּֽם",
+        "riddle": "וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם",
+        "speaker": "יוֹסֵף",
+        "listener": "אֲלֵהֶם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joseph said unto them, Fear not: for am I in the place of God?",
+          "21": "Now therefore fear ye not: I will nourish you, and your little ones. And he comforted them, and spake kindly unto them."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי׃",
+          "21": "וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם וַיְנַחֵם אוֹתָם וַיְדַבֵּר עַל־לִבָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/promise",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "genesis-50-24-24",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.",
+        "riddle": "I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.",
+        "speaker": "Joseph",
+        "listener": "his brethren",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב",
+        "riddle": "אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב",
+        "speaker": "יוֹסֵף",
+        "listener": "אֶחָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/prophecy",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "genesis-50-25-25",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence.",
+        "riddle": "God will surely visit you, and ye shall carry up my bones from hence.",
+        "speaker": "Joseph",
+        "listener": "children of Israel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה",
+        "riddle": "פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה",
+        "speaker": "יוֹסֵף",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence."
+        },
+        "he": {
+          "25": "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "oath/command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 25,
+        "end": 25
       }
     }
   ],
   "stats": {
-    "window_count": 20,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 1,
-    "issue_count": 19
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 12,
+    "issue_count": 1
   }
 }

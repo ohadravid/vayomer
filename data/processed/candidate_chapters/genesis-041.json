@@ -4,12 +4,548 @@
   "book_he": "בראשית",
   "chapter": 41,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-41-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Then spake the chief butler unto Pharaoh, saying, I do remember my faults this day:",
+        "riddle": "I do remember my faults this day:",
+        "speaker": "chief butler",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר שַׂר הַמַּשְׁקִים אֶת־פַּרְעֹה לֵאמֹר אֶת־חֲטָאַי אֲנִי מַזְכִּיר הַיּֽוֹם",
+        "riddle": "אֶת־חֲטָאַי אֲנִי מַזְכִּיר הַיּֽוֹם",
+        "speaker": "שַׂר הַמַּשְׁקִים",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Then spake the chief butler unto Pharaoh, saying, I do remember my faults this day:"
+        },
+        "he": {
+          "9": "וַיְדַבֵּר שַׂר הַמַּשְׁקִים אֶת־פַּרְעֹה לֵאמֹר אֶת־חֲטָאַי אֲנִי מַזְכִּיר הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech confession",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-41-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+        "riddle": "I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתֽוֹ",
+        "riddle": "חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתֽו",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-41-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Joseph answered Pharaoh, saying, It is not in me: God shall give Pharaoh an answer of peace.",
+        "riddle": "It is not in me: God shall give Pharaoh an answer of peace.",
+        "speaker": "Joseph",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּעַן יוֹסֵף אֶת־פַּרְעֹה לֵאמֹר בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹֽה",
+        "riddle": "בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹֽה",
+        "speaker": "יוֹסֵף",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+          "16": "And Joseph answered Pharaoh, saying, It is not in me: God shall give Pharaoh an answer of peace."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתֽוֹ׃",
+          "16": "וַיַּעַן יוֹסֵף אֶת־פַּרְעֹה לֵאמֹר בִּלְעָדָי אֱלֹהִים יַעֲנֶה אֶת־שְׁלוֹם פַּרְעֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-41-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Joseph, In my dream, behold, I stood upon the bank of the river:",
+        "riddle": "In my dream, behold, I stood upon the bank of the river:",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר פַּרְעֹה אֶל־יוֹסֵף בַּחֲלֹמִי הִנְנִי עֹמֵד עַל־שְׂפַת הַיְאֹֽר",
+        "riddle": "בַּחֲלֹמִי הִנְנִי עֹמֵד עַל־שְׂפַת הַיְאֹֽר",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Pharaoh said unto Joseph, I have dreamed a dream, and there is none that can interpret it: and I have heard say of thee, that thou canst understand a dream to interpret it.",
+          "17": "And Pharaoh said unto Joseph, In my dream, behold, I stood upon the bank of the river:"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף חֲלוֹם חָלַמְתִּי וּפֹתֵר אֵין אֹתוֹ וַאֲנִי שָׁמַעְתִּי עָלֶיךָ לֵאמֹר תִּשְׁמַע חֲלוֹם לִפְתֹּר אֹתֽוֹ׃",
+          "17": "וַיְדַבֵּר פַּרְעֹה אֶל־יוֹסֵף בַּחֲלֹמִי הִנְנִי עֹמֵד עַל־שְׂפַת הַיְאֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-41-25-26",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 25,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Joseph said unto Pharaoh, The dream of Pharaoh is one: God hath shewed Pharaoh what he is about to do. The seven good kine are seven years; and the seven good ears are seven years: the dream is one.",
+        "riddle": "The dream of Pharaoh is one: God hath shewed Pharaoh what he is about to do. The seven good kine are seven years; and the seven good ears are seven years: the dream is one.",
+        "speaker": "Joseph",
+        "listener": "Pharaoh",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־פַּרְעֹה חֲלוֹם פַּרְעֹה אֶחָד הוּא אֵת אֲשֶׁר הָאֱלֹהִים עֹשֶׂה הִגִּיד לְפַרְעֹֽה שֶׁבַע פָּרֹת הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה וְשֶׁבַע הַֽשִּׁבֳּלִים הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה חֲלוֹם אֶחָד הֽוּא",
+        "riddle": "וַיֹּאמֶר יוֹסֵף אֶל־פַּרְעֹה חֲלוֹם פַּרְעֹה אֶחָד הוּא אֵת אֲשֶׁר הָאֱלֹהִים עֹשֶׂה הִגִּיד לְפַרְעֹֽה שֶׁבַע פָּרֹת הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה וְשֶׁבַע הַֽשִּׁבֳּלִים הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה חֲלוֹם אֶחָד הֽוּא",
+        "speaker": "יוֹסֵף",
+        "listener": "פַּרְעֹה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Joseph said unto Pharaoh, The dream of Pharaoh is one: God hath shewed Pharaoh what he is about to do.",
+          "26": "The seven good kine are seven years; and the seven good ears are seven years: the dream is one."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר יוֹסֵף אֶל־פַּרְעֹה חֲלוֹם פַּרְעֹה אֶחָד הוּא אֵת אֲשֶׁר הָאֱלֹהִים עֹשֶׂה הִגִּיד לְפַרְעֹֽה׃",
+          "26": "שֶׁבַע פָּרֹת הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה וְשֶׁבַע הַֽשִּׁבֳּלִים הַטֹּבֹת שֶׁבַע שָׁנִים הֵנָּה חֲלוֹם אֶחָד הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and interpretation",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 25,
+        "end": 26
+      }
+    },
+    {
+      "id": "genesis-41-38-38",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 38,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?",
+        "riddle": "Can we find such a one as this is, a man in whom the Spirit of God is?",
+        "speaker": "Pharaoh",
+        "listener": "servants",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־עֲבָדָיו הֲנִמְצָא כָזֶה אִישׁ אֲשֶׁר רוּחַ אֱלֹהִים בּֽוֹ",
+        "riddle": "הֲנִמְצָא כָזֶה אִישׁ אֲשֶׁר רוּחַ אֱלֹהִים בּֽו",
+        "speaker": "פַּרְעֹה",
+        "listener": "עֲבָדָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "And Pharaoh said unto his servants, Can we find such a one as this is, a man in whom the Spirit of God is?"
+        },
+        "he": {
+          "38": "וַיֹּאמֶר פַּרְעֹה אֶל־עֲבָדָיו הֲנִמְצָא כָזֶה אִישׁ אֲשֶׁר רוּחַ אֱלֹהִים בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 38,
+        "end": 38
+      }
+    },
+    {
+      "id": "genesis-41-39-39",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 39,
+        "quote_verse_end": 39,
+        "speaker_mention_verse": 39,
+        "listener_mention_verse": 39
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Joseph, Forasmuch as God hath shewed thee all this, there is none so discreet and wise as thou art:",
+        "riddle": "Forasmuch as God hath shewed thee all this, there is none so discreet and wise as thou art:",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף אַחֲרֵי הוֹדִיעַ אֱלֹהִים אוֹתְךָ אֶת־כָּל־זֹאת אֵין־נָבוֹן וְחָכָם כָּמֽוֹךָ",
+        "riddle": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף אַחֲרֵי הוֹדִיעַ אֱלֹהִים אוֹתְךָ אֶת־כָּל־זֹאת אֵין־נָבוֹן וְחָכָם כָּמֽוֹךָ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "39": "And Pharaoh said unto Joseph, Forasmuch as God hath shewed thee all this, there is none so discreet and wise as thou art:"
+        },
+        "he": {
+          "39": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף אַחֲרֵי הוֹדִיעַ אֱלֹהִים אוֹתְךָ אֶת־כָּל־זֹאת אֵין־נָבוֹן וְחָכָם כָּמֽוֹךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 39,
+        "end": 39
+      }
+    },
+    {
+      "id": "genesis-41-40-40",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 40,
+        "quote_verse_end": 40,
+        "speaker_mention_verse": 40,
+        "listener_mention_verse": 40
+      },
+      "en": {
+        "quote": "Thou shalt be over my house, and according unto thy word shall all my people be ruled: only in the throne will I be greater than thou.",
+        "riddle": "Thou shalt be over my house, and according unto thy word shall all my people be ruled: only in the throne will I be greater than thou.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אַתָּה תִּהְיֶה עַל־בֵּיתִי וְעַל־פִּיךָ יִשַּׁק כָּל־עַמִּי רַק הַכִּסֵּא אֶגְדַּל מִמֶּֽךָּ",
+        "riddle": "אַתָּה תִּהְיֶה עַל־בֵּיתִי וְעַל־פִּיךָ יִשַּׁק כָּל־עַמִּי רַק הַכִּסֵּא אֶגְדַּל מִמֶּֽךָּ",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "Thou shalt be over my house, and according unto thy word shall all my people be ruled: only in the throne will I be greater than thou."
+        },
+        "he": {
+          "40": "אַתָּה תִּהְיֶה עַל־בֵּיתִי וְעַל־פִּיךָ יִשַּׁק כָּל־עַמִּי רַק הַכִּסֵּא אֶגְדַּל מִמֶּֽךָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command and declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 40,
+        "end": 40
+      }
+    },
+    {
+      "id": "genesis-41-41-41",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 41,
+        "quote_verse_end": 41,
+        "speaker_mention_verse": 41,
+        "listener_mention_verse": 41
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Joseph, See, I have set thee over all the land of Egypt.",
+        "riddle": "See, I have set thee over all the land of Egypt.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף רְאֵה נָתַתִּי אֹֽתְךָ עַל כָּל־אֶרֶץ מִצְרָֽיִם",
+        "riddle": "רְאֵה נָתַתִּי אֹֽתְךָ עַל כָּל־אֶרֶץ מִצְרָֽיִם",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "41": "And Pharaoh said unto Joseph, See, I have set thee over all the land of Egypt."
+        },
+        "he": {
+          "41": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף רְאֵה נָתַתִּי אֹֽתְךָ עַל כָּל־אֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 41,
+        "end": 41
+      }
+    },
+    {
+      "id": "genesis-41-44-44",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 44,
+        "quote_verse_end": 44,
+        "speaker_mention_verse": 44,
+        "listener_mention_verse": 44
+      },
+      "en": {
+        "quote": "And Pharaoh said unto Joseph, I am Pharaoh, and without thee shall no man lift up his hand or foot in all the land of Egypt.",
+        "riddle": "I am Pharaoh, and without thee shall no man lift up his hand or foot in all the land of Egypt.",
+        "speaker": "Pharaoh",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף אֲנִי פַרְעֹה וּבִלְעָדֶיךָ לֹֽא־יָרִים אִישׁ אֶת־יָדוֹ וְאֶת־רַגְלוֹ בְּכָל־אֶרֶץ מִצְרָֽיִם",
+        "riddle": "אֲנִי פַרְעֹה וּבִלְעָדֶיךָ לֹֽא־יָרִים אִישׁ אֶת־יָדוֹ וְאֶת־רַגְלוֹ בְּכָל־אֶרֶץ מִצְרָֽיִם",
+        "speaker": "פַּרְעֹה",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "44": "And Pharaoh said unto Joseph, I am Pharaoh, and without thee shall no man lift up his hand or foot in all the land of Egypt."
+        },
+        "he": {
+          "44": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף אֲנִי פַרְעֹה וּבִלְעָדֶיךָ לֹֽא־יָרִים אִישׁ אֶת־יָדוֹ וְאֶת־רַגְלוֹ בְּכָל־אֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 44,
+        "end": 44
+      }
+    },
+    {
+      "id": "genesis-41-51-51",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 51,
+        "quote_verse_end": 51,
+        "speaker_mention_verse": 51
+      },
+      "en": {
+        "quote": "And Joseph called the name of the firstborn Manasseh: For God, said he, hath made me forget all my toil, and all my father's house.",
+        "riddle": "For God, said he, hath made me forget all my toil, and all my father's house.",
+        "speaker": "Joseph",
+        "listener": "none",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא יוֹסֵף אֶת־שֵׁם הַבְּכוֹר מְנַשֶּׁה כִּֽי־נַשַּׁנִי אֱלֹהִים אֶת־כָּל־עֲמָלִי וְאֵת כָּל־בֵּית אָבִֽי",
+        "riddle": "כִּֽי־נַשַּׁנִי אֱלֹהִים אֶת־כָּל־עֲמָלִי וְאֵת כָּל־בֵּית אָבִֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "none",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "51": "And Joseph called the name of the firstborn Manasseh: For God, said he, hath made me forget all my toil, and all my father's house."
+        },
+        "he": {
+          "51": "וַיִּקְרָא יוֹסֵף אֶת־שֵׁם הַבְּכוֹר מְנַשֶּׁה כִּֽי־נַשַּׁנִי אֱלֹהִים אֶת־כָּל־עֲמָלִי וְאֵת כָּל־בֵּית אָבִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 51,
+        "end": 51
+      }
+    },
+    {
+      "id": "genesis-41-52-52",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 41,
+        "quote_verse_start": 52,
+        "quote_verse_end": 52,
+        "speaker_mention_verse": 52
+      },
+      "en": {
+        "quote": "And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction.",
+        "riddle": "For God hath caused me to be fruitful in the land of my affliction.",
+        "speaker": "Joseph",
+        "listener": "none",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְאֵת שֵׁם הַשֵּׁנִי קָרָא אֶפְרָיִם כִּֽי־הִפְרַנִי אֱלֹהִים בְּאֶרֶץ עָנְיִֽי",
+        "riddle": "כִּֽי־הִפְרַנִי אֱלֹהִים בְּאֶרֶץ עָנְיִֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "none",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "52": "And the name of the second called he Ephraim: For God hath caused me to be fruitful in the land of my affliction."
+        },
+        "he": {
+          "52": "וְאֵת שֵׁם הַשֵּׁנִי קָרָא אֶפְרָיִם כִּֽי־הִפְרַנִי אֱלֹהִים בְּאֶרֶץ עָנְיִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 41,
+        "start": 52,
+        "end": 52
+      }
+    }
+  ],
   "stats": {
-    "window_count": 25,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 25,
-    "kept_count": 0,
-    "issue_count": 25
+    "llm_window_count": 6,
+    "projection_llm_count": 13,
+    "llm_call_count": 19,
+    "spec_count": 13,
+    "kept_count": 12,
+    "issue_count": 1
   }
 }

@@ -4,12 +4,59 @@
   "book_he": "שמות",
   "chapter": 39,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-39-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 39,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26
+      },
+      "en": {
+        "quote": "A bell and a pomegranate, a bell and a pomegranate, round about the hem of the robe to minister in; as the LORD commanded Moses.",
+        "riddle": "A bell and a pomegranate, a bell and a pomegranate, round about the hem of the robe to minister in",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "פַּעֲמֹן וְרִמֹּן פַּעֲמֹן וְרִמֹּן עַל־שׁוּלֵי הַמְּעִיל סָבִיב לְשָׁרֵת כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "riddle": "פַּעֲמֹן וְרִמֹּן פַּעֲמֹן וְרִמֹּן עַל־שׁוּלֵי הַמְּעִיל סָבִיב לְשָׁרֵת כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶֽׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "A bell and a pomegranate, a bell and a pomegranate, round about the hem of the robe to minister in; as the LORD commanded Moses."
+        },
+        "he": {
+          "26": "פַּעֲמֹן וְרִמֹּן פַּעֲמֹן וְרִמֹּן עַל־שׁוּלֵי הַמְּעִיל סָבִיב לְשָׁרֵת כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command description",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 39,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ],
   "stats": {
-    "window_count": 17,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 0,
-    "issue_count": 17
+    "llm_window_count": 6,
+    "projection_llm_count": 2,
+    "llm_call_count": 8,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

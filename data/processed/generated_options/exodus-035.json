@@ -1,0 +1,301 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 35,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-35-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 35,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.",
+        "riddle": "These are the words which the LORD hath commanded, that ye should do them.",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Aaron",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Taskmasters",
+            "Judah",
+            "children"
+          ]
+        },
+        "bonus": "congregation",
+        "bonus_hint": {
+          "quote": "And Korah gathered all the congregation against them unto the door of the tabernacle of the congregation: and the glory of the LORD appeared unto all the congregation.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 16,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּקְהֵל מֹשֶׁה אֶֽת־כָּל־עֲדַת בְּנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם אֵלֶּה הַדְּבָרִים אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽם",
+        "riddle": "אֵלֶּה הַדְּבָרִים אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "עֲדַת בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "הַנֹּגְשִׂים",
+            "יְהוּדָה",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "וַיַּקְהֵל",
+        "bonus_hint": {
+          "quote": "וַיַּקְהֵל עֲלֵיהֶם קֹרַח אֶת־כָּל־הָעֵדָה אֶל־פֶּתַח אֹהֶל מוֹעֵד וַיֵּרָא כְבוֹד־יְהוָה אֶל־כָּל־הָעֵדָֽה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 16,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them."
+        },
+        "he": {
+          "1": "וַיַּקְהֵל מֹשֶׁה אֶֽת־כָּל־עֲדַת בְּנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם אֵלֶּה הַדְּבָרִים אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 35,
+        "start": 1,
+        "end": 1
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-35-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 35,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them. Six days shall work be done, but on the seventh day there shall be to you an holy day, a sabbath of rest to the LORD: whosoever doeth work therein shall be put to death. Ye shall kindle no fire throughout your habitations upon the sabbath day.",
+        "riddle": "Ye shall kindle no fire throughout your habitations upon the sabbath day.",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Aaron",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Taskmasters",
+            "Judah",
+            "congregation"
+          ]
+        },
+        "bonus": "words",
+        "bonus_hint": {
+          "quote": "And he overtook them, and he spake unto them these same words.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 44,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּקְהֵל מֹשֶׁה אֶֽת־כָּל־עֲדַת בְּנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם אֵלֶּה הַדְּבָרִים אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽם שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה וּבַיּוֹם הַשְּׁבִיעִי יִהְיֶה לָכֶם קֹדֶשׁ שַׁבַּת שַׁבָּתוֹן לַיהוָה כָּל־הָעֹשֶׂה בוֹ מְלָאכָה יוּמָֽת לֹא־תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹֽתֵיכֶם בְּיוֹם הַשַׁבָּֽת",
+        "riddle": "לֹא־תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹֽתֵיכֶם בְּיוֹם הַשַׁבָּֽת",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "הַנֹּגְשִׂים",
+            "יְהוּדָה",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "אֲלֵהֶם",
+        "bonus_hint": {
+          "quote": "וַֽיַּשִּׂגֵם וַיְדַבֵּר אֲלֵהֶם אֶת־הַדְּבָרִים הָאֵֽלֶּה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 44,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses gathered all the congregation of the children of Israel together, and said unto them, These are the words which the LORD hath commanded, that ye should do them.",
+          "2": "Six days shall work be done, but on the seventh day there shall be to you an holy day, a sabbath of rest to the LORD: whosoever doeth work therein shall be put to death.",
+          "3": "Ye shall kindle no fire throughout your habitations upon the sabbath day."
+        },
+        "he": {
+          "1": "וַיַּקְהֵל מֹשֶׁה אֶֽת־כָּל־עֲדַת בְּנֵי יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם אֵלֶּה הַדְּבָרִים אֲשֶׁר־צִוָּה יְהוָה לַעֲשֹׂת אֹתָֽם׃",
+          "2": "שֵׁשֶׁת יָמִים תֵּעָשֶׂה מְלָאכָה וּבַיּוֹם הַשְּׁבִיעִי יִהְיֶה לָכֶם קֹדֶשׁ שַׁבַּת שַׁבָּתוֹן לַיהוָה כָּל־הָעֹשֶׂה בוֹ מְלָאכָה יוּמָֽת׃",
+          "3": "לֹא־תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹֽתֵיכֶם בְּיוֹם הַשַׁבָּֽת׃"
+        }
+      },
+      "ref": {
+        "chapter": 35,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-35-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 35,
+        "quote_verse_start": 25,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
+      },
+      "en": {
+        "quote": "And all the women that were wise hearted did spin with their hands, and brought that which they had spun, both of blue, and of purple, and of scarlet, and of fine linen. And all the women whose heart stirred them up in wisdom spun goats' hair. And the rulers brought onyx stones, and stones to be set, for the ephod, and for the breastplate; And spice, and oil for the light, and for the anointing oil, and for the sweet incense. The children of Israel brought a willing offering unto the LORD, every man and woman, whose heart made them willing to bring for all manner of work, which the LORD had commanded to be made by the hand of Moses. And Moses said unto the children of Israel, See, the LORD hath called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah; And he hath filled him with the spirit of God, in wisdom, in understanding, and in knowledge, and in all manner of workmanship;",
+        "riddle": "See, the LORD hath called by name Bezaleel",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Aaron",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Taskmasters",
+            "elders of Israel",
+            "children"
+          ]
+        },
+        "bonus": "purple",
+        "bonus_hint": {
+          "quote": "And every wise hearted man among them that wrought the work of the tabernacle made ten curtains of fine twined linen, and blue, and purple, and scarlet: with cherubims of cunning work made he them.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 36,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וְכָל־אִשָּׁה חַכְמַת־לֵב בְּיָדֶיהָ טָווּ וַיָּבִיאוּ מַטְוֶה אֶֽת־הַתְּכֵלֶת וְאֶת־הָֽאַרְגָּמָן אֶת־תּוֹלַעַת הַשָּׁנִי וְאֶת־הַשֵּֽׁשׁ וְכָל־הַנָּשִׁים אֲשֶׁר נָשָׂא לִבָּן אֹתָנָה בְּחָכְמָה טָוּוּ אֶת־הָעִזִּֽים וְהַנְּשִׂאִם הֵבִיאוּ אֵת אַבְנֵי הַשֹּׁהַם וְאֵת אַבְנֵי הַמִּלֻּאִים לָאֵפוֹד וְלַחֹֽשֶׁן וְאֶת־הַבֹּשֶׂם וְאֶת־הַשָּׁמֶן לְמָאוֹר וּלְשֶׁמֶן הַמִּשְׁחָה וְלִקְטֹרֶת הַסַּמִּֽים כָּל־אִישׁ וְאִשָּׁה אֲשֶׁר נָדַב לִבָּם אֹתָם לְהָבִיא לְכָל־הַמְּלָאכָה אֲשֶׁר צִוָּה יְהוָה לַעֲשׂוֹת בְּיַד־מֹשֶׁה הֵבִיאוּ בְנֵי־יִשְׂרָאֵל נְדָבָה לַיהוָֽה וַיֹּאמֶר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל רְאוּ קָרָא יְהוָה בְּשֵׁם בְּצַלְאֵל בֶּן־אוּרִי בֶן־חוּר לְמַטֵּה יְהוּדָֽה וַיְמַלֵּא אֹתוֹ רוּחַ אֱלֹהִים בְּחָכְמָה בִּתְבוּנָה וּבְדַעַת וּבְכָל־מְלָאכָֽה",
+        "riddle": "רְאוּ קָרָא יְהוָה בְּשֵׁם בְּצַלְאֵל בֶּן־אוּרִי בֶן־חוּר",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְנֵי־יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "הַנֹּגְשִׂים",
+            "זִקְנֵי יִשְׂרָאֵל",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "לֵב",
+        "bonus_hint": {
+          "quote": "וַיַּעֲשׂוּ כָל־חֲכַם־לֵב בְּעֹשֵׂי הַמְּלָאכָה אֶת־הַמִּשְׁכָּן עֶשֶׂר יְרִיעֹת שֵׁשׁ מָשְׁזָר וּתְכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי כְּרֻבִים מַעֲשֵׂה חֹשֵׁב עָשָׂה אֹתָֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 36,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And all the women that were wise hearted did spin with their hands, and brought that which they had spun, both of blue, and of purple, and of scarlet, and of fine linen.",
+          "26": "And all the women whose heart stirred them up in wisdom spun goats' hair.",
+          "27": "And the rulers brought onyx stones, and stones to be set, for the ephod, and for the breastplate;",
+          "28": "And spice, and oil for the light, and for the anointing oil, and for the sweet incense.",
+          "29": "The children of Israel brought a willing offering unto the LORD, every man and woman, whose heart made them willing to bring for all manner of work, which the LORD had commanded to be made by the hand of Moses.",
+          "30": "And Moses said unto the children of Israel, See, the LORD hath called by name Bezaleel the son of Uri, the son of Hur, of the tribe of Judah;",
+          "31": "And he hath filled him with the spirit of God, in wisdom, in understanding, and in knowledge, and in all manner of workmanship;"
+        },
+        "he": {
+          "25": "וְכָל־אִשָּׁה חַכְמַת־לֵב בְּיָדֶיהָ טָווּ וַיָּבִיאוּ מַטְוֶה אֶֽת־הַתְּכֵלֶת וְאֶת־הָֽאַרְגָּמָן אֶת־תּוֹלַעַת הַשָּׁנִי וְאֶת־הַשֵּֽׁשׁ׃",
+          "26": "וְכָל־הַנָּשִׁים אֲשֶׁר נָשָׂא לִבָּן אֹתָנָה בְּחָכְמָה טָוּוּ אֶת־הָעִזִּֽים׃",
+          "27": "וְהַנְּשִׂאִם הֵבִיאוּ אֵת אַבְנֵי הַשֹּׁהַם וְאֵת אַבְנֵי הַמִּלֻּאִים לָאֵפוֹד וְלַחֹֽשֶׁן׃",
+          "28": "וְאֶת־הַבֹּשֶׂם וְאֶת־הַשָּׁמֶן לְמָאוֹר וּלְשֶׁמֶן הַמִּשְׁחָה וְלִקְטֹרֶת הַסַּמִּֽים׃",
+          "29": "כָּל־אִישׁ וְאִשָּׁה אֲשֶׁר נָדַב לִבָּם אֹתָם לְהָבִיא לְכָל־הַמְּלָאכָה אֲשֶׁר צִוָּה יְהוָה לַעֲשׂוֹת בְּיַד־מֹשֶׁה הֵבִיאוּ בְנֵי־יִשְׂרָאֵל נְדָבָה לַיהוָֽה׃",
+          "30": "וַיֹּאמֶר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל רְאוּ קָרָא יְהוָה בְּשֵׁם בְּצַלְאֵל בֶּן־אוּרִי בֶן־חוּר לְמַטֵּה יְהוּדָֽה׃",
+          "31": "וַיְמַלֵּא אֹתוֹ רוּחַ אֱלֹהִים בְּחָכְמָה בִּתְבוּנָה וּבְדַעַת וּבְכָל־מְלָאכָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 35,
+        "start": 25,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

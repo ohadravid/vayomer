@@ -1,0 +1,104 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 8,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-08-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 8,
+        "quote_verse_start": 5,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Take the Levites from among the children of Israel, and cleanse them. And thus shalt thou do unto them, to cleanse them: Sprinkle water of purifying upon them, and let them shave all their flesh, and let them wash their clothes, and so make themselves clean.",
+        "riddle": "Take the Levites from among the children of Israel, and cleanse them.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Aaron",
+            "Joshua"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "water",
+        "bonus_hint": {
+          "quote": "And the people spake against God, and against Moses, Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 21,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם וְכֹֽה־תַעֲשֶׂה לָהֶם לְטַֽהֲרָם הַזֵּה עֲלֵיהֶם מֵי חַטָּאת וְהֶעֱבִירוּ תַעַר עַל־כָּל־בְּשָׂרָם וְכִבְּסוּ בִגְדֵיהֶם וְהִטֶּהָֽרוּ",
+        "riddle": "קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "אַהֲרֹן",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר הָעָם בֵּֽאלֹהִים וּבְמֹשֶׁה לָמָה הֶֽעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵֽל",
+          "source": {
+            "book": "במדבר",
+            "chapter": 21,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD spake unto Moses, saying,",
+          "6": "Take the Levites from among the children of Israel, and cleanse them.",
+          "7": "And thus shalt thou do unto them, to cleanse them: Sprinkle water of purifying upon them, and let them shave all their flesh, and let them wash their clothes, and so make themselves clean."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "6": "קַח אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל וְטִהַרְתָּ אֹתָֽם׃",
+          "7": "וְכֹֽה־תַעֲשֶׂה לָהֶם לְטַֽהֲרָם הַזֵּה עֲלֵיהֶם מֵי חַטָּאת וְהֶעֱבִירוּ תַעַר עַל־כָּל־בְּשָׂרָם וְכִבְּסוּ בִגְדֵיהֶם וְהִטֶּהָֽרוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 5,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -4,12 +4,335 @@
   "book_he": "במדבר",
   "chapter": 3,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-03-06-06",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him.",
+        "riddle": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ",
+        "riddle": "הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD spake unto Moses, saying,",
+          "6": "Bring the tribe of Levi near, and present them before Aaron the priest, that they may minister unto him."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "6": "הַקְרֵב אֶת־מַטֵּה לֵוִי וְהַֽעֲמַדְתָּ אֹתוֹ לִפְנֵי אַהֲרֹן הַכֹּהֵן וְשֵׁרְתוּ אֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "numbers-03-12-12",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And I, behold, I have taken the Levites from among the children of Israel instead of all the firstborn that openeth the matrix among the children of Israel: therefore the Levites shall be mine;",
+        "riddle": "I have taken the Levites from among the children of Israel instead of all the firstborn that openeth the matrix among the children of Israel: therefore the Levites shall be mine",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל תַּחַת כָּל־בְּכוֹר פֶּטֶר רֶחֶם מִבְּנֵי יִשְׂרָאֵל וְהָיוּ לִי הַלְוִיִּֽם",
+        "riddle": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל תַּחַת כָּל־בְּכוֹר פֶּטֶר רֶחֶם מִבְּנֵי יִשְׂרָאֵל וְהָיוּ לִי הַלְוִיִּֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD spake unto Moses, saying,",
+          "12": "And I, behold, I have taken the Levites from among the children of Israel instead of all the firstborn that openeth the matrix among the children of Israel: therefore the Levites shall be mine;"
+        },
+        "he": {
+          "11": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "12": "וַאֲנִי הִנֵּה לָקַחְתִּי אֶת־הַלְוִיִּם מִתּוֹךְ בְּנֵי יִשְׂרָאֵל תַּחַת כָּל־בְּכוֹר פֶּטֶר רֶחֶם מִבְּנֵי יִשְׂרָאֵל וְהָיוּ לִי הַלְוִיִּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "numbers-03-13-13",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Because all the firstborn are mine; for on the day that I smote all the firstborn in the land of Egypt I hallowed unto me all the firstborn in Israel, both man and beast: mine shall they be: I am the LORD.",
+        "riddle": "all the firstborn are mine; for on the day that I smote all the firstborn in the land of Egypt I hallowed unto me all the firstborn in Israel, both man and beast: mine shall they be: I am the LORD",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "כִּי לִי כָּל־בְּכוֹר בְּיוֹם הַכֹּתִי כָל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם הִקְדַּשְׁתִּי לִי כָל־בְּכוֹר בְּיִשְׂרָאֵל מֵאָדָם עַד־בְּהֵמָה לִי יִהְיוּ אֲנִי יְהוָֽה",
+        "riddle": "כִּי לִי כָּל־בְּכוֹר בְּיוֹם הַכֹּתִי כָל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם הִקְדַּשְׁתִּי לִי כָל־בְּכוֹר בְּיִשְׂרָאֵל מֵאָדָם עַד־בְּהֵמָה לִי יִהְיוּ אֲנִי יְהוָֽה",
+        "speaker": "יְהוָֽה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD spake unto Moses, saying,",
+          "13": "Because all the firstborn are mine; for on the day that I smote all the firstborn in the land of Egypt I hallowed unto me all the firstborn in Israel, both man and beast: mine shall they be: I am the LORD."
+        },
+        "he": {
+          "11": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "13": "כִּי לִי כָּל־בְּכוֹר בְּיוֹם הַכֹּתִי כָל־בְּכוֹר בְּאֶרֶץ מִצְרַיִם הִקְדַּשְׁתִּי לִי כָל־בְּכוֹר בְּיִשְׂרָאֵל מֵאָדָם עַד־בְּהֵמָה לִי יִהְיוּ אֲנִי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "numbers-03-15-15",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them.",
+        "riddle": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם",
+        "riddle": "פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD spake unto Moses in the wilderness of Sinai, saying,",
+          "15": "Number the children of Levi after the house of their fathers, by their families: every male from a month old and upward shalt thou number them."
+        },
+        "he": {
+          "14": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּמִדְבַּר סִינַי לֵאמֹֽר׃",
+          "15": "פְּקֹד אֶת־בְּנֵי לֵוִי לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָם כָּל־זָכָר מִבֶּן־חֹדֶשׁ וָמַעְלָה תִּפְקְדֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "numbers-03-40-40",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 40,
+        "quote_verse_end": 40,
+        "speaker_mention_verse": 40,
+        "listener_mention_verse": 40
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.",
+        "riddle": "Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names."
+        },
+        "he": {
+          "40": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 40,
+        "end": 40
+      }
+    },
+    {
+      "id": "numbers-03-41-41",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 41,
+        "quote_verse_end": 41,
+        "speaker_mention_verse": 40,
+        "listener_mention_verse": 40
+      },
+      "en": {
+        "quote": "And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel.",
+        "riddle": "And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וְלָקַחְתָּ אֶת־הַלְוִיִּם לִי אֲנִי יְהוָה תַּחַת כָּל־בְּכֹר בִּבְנֵי יִשְׂרָאֵל וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵֽל",
+        "riddle": "וְלָקַחְתָּ אֶת־הַלְוִיִּם לִי אֲנִי יְהוָה תַּחַת כָּל־בְּכֹר בִּבְנֵי יִשְׂרָאֵל וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵֽל",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "40": "And the LORD said unto Moses, Number all the firstborn of the males of the children of Israel from a month old and upward, and take the number of their names.",
+          "41": "And thou shalt take the Levites for me (I am the LORD) instead of all the firstborn among the children of Israel; and the cattle of the Levites instead of all the firstlings among the cattle of the children of Israel."
+        },
+        "he": {
+          "40": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה פְּקֹד כָּל־בְּכֹר זָכָר לִבְנֵי יִשְׂרָאֵל מִבֶּן־חֹדֶשׁ וָמָעְלָה וְשָׂא אֵת מִסְפַּר שְׁמֹתָֽם׃",
+          "41": "וְלָקַחְתָּ אֶת־הַלְוִיִּם לִי אֲנִי יְהוָה תַּחַת כָּל־בְּכֹר בִּבְנֵי יִשְׂרָאֵל וְאֵת בֶּהֱמַת הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בְּבֶהֱמַת בְּנֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 41,
+        "end": 41
+      }
+    },
+    {
+      "id": "numbers-03-45-45",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 3,
+        "quote_verse_start": 45,
+        "quote_verse_end": 45,
+        "speaker_mention_verse": 44,
+        "listener_mention_verse": 44
+      },
+      "en": {
+        "quote": "Take the Levites instead of all the firstborn among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I am the LORD.",
+        "riddle": "Take the Levites instead of all the firstborn among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I am the LORD.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "קַח אֶת־הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בִּבְנֵי יִשְׂרָאֵל וְאֶת־בֶּהֱמַת הַלְוִיִּם תַּחַת בְּהֶמְתָּם וְהָיוּ־לִי הַלְוִיִּם אֲנִי יְהוָֽה",
+        "riddle": "קַח אֶת־הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בִּבְנֵי יִשְׂרָאֵל וְאֶת־בֶּהֱמַת הַלְוִיִּם תַּחַת בְּהֶמְתָּם וְהָיוּ־לִי הַלְוִיִּם אֲנִי יְהוָֽה",
+        "speaker": "יְהוָֽה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "44": "And the LORD spake unto Moses, saying,",
+          "45": "Take the Levites instead of all the firstborn among the children of Israel, and the cattle of the Levites instead of their cattle; and the Levites shall be mine: I am the LORD."
+        },
+        "he": {
+          "44": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "45": "קַח אֶת־הַלְוִיִּם תַּחַת כָּל־בְּכוֹר בִּבְנֵי יִשְׂרָאֵל וְאֶת־בֶּהֱמַת הַלְוִיִּם תַּחַת בְּהֶמְתָּם וְהָיוּ־לִי הַלְוִיִּם אֲנִי יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 45,
+        "end": 45
+      }
+    }
+  ],
   "stats": {
-    "window_count": 17,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 0,
-    "issue_count": 17
+    "llm_window_count": 6,
+    "projection_llm_count": 7,
+    "llm_call_count": 13,
+    "spec_count": 7,
+    "kept_count": 7,
+    "issue_count": 0
   }
 }

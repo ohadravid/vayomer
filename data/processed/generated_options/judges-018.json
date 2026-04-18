@@ -6,6 +6,104 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-18-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 18,
+        "quote_verse_start": 2,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the children of Dan sent of their family five men from their coasts, men of valour, from Zorah, and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to mount Ephraim, to the house of Micah, they lodged there. When they were by the house of Micah, they knew the voice of the young man the Levite: and they turned in thither, and said unto him, Who brought thee hither? and what makest thou in this place? and what hast thou here? And he said unto them, Thus and thus dealeth Micah with me, and hath hired me, and I am his priest. And they said unto him, Ask counsel, we pray thee, of God, that we may know whether our way which we go shall be prosperous. And the priest said unto them, Go in peace: before the LORD is your way wherein ye go.",
+        "riddle": "Go in peace: before the LORD is your way wherein ye go.",
+        "speaker": "Priest",
+        "listener": "Men",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Gideon",
+            "Micah",
+            "Samuel"
+          ],
+          "listener": [
+            "Israel",
+            "Philistines",
+            "children"
+          ]
+        },
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And the children of Israel sent unto the children of Reuben, and to the children of Gad, and to the half tribe of Manasseh, into the land of Gilead, Phinehas the son of Eleazar the priest,",
+          "source": {
+            "book": "Joshua",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלְחוּ בְנֵי־דָן מִֽמִּשְׁפַּחְתָּם חֲמִשָּׁה אֲנָשִׁים מִקְצוֹתָם אֲנָשִׁים בְּנֵי־חַיִל מִצָּרְעָה וּמֵֽאֶשְׁתָּאֹל לְרַגֵּל אֶת־הָאָרֶץ וּלְחָקְרָהּ וַיֹּאמְרוּ אֲלֵהֶם לְכוּ חִקְרוּ אֶת־הָאָרֶץ וַיָּבֹאוּ הַר־אֶפְרַיִם עַד־בֵּית מִיכָה וַיָּלִינוּ שָֽׁם הֵמָּה עִם־בֵּית מִיכָה וְהֵמָּה הִכִּירוּ אֶת־קוֹל הַנַּעַר הַלֵּוִי וַיָּסוּרוּ שָׁם וַיֹּאמְרוּ לוֹ מִֽי־הֱבִיאֲךָ הֲלֹם וּמָֽה־אַתָּה עֹשֶׂה בָּזֶה וּמַה־לְּךָ פֹֽה וַיֹּאמֶר אֲלֵהֶם כָּזֹה וְכָזֶה עָשָׂה לִי מִיכָה וַיִּשְׂכְּרֵנִי וָאֱהִי־לוֹ לְכֹהֵֽן וַיֹּאמְרוּ לוֹ שְׁאַל־נָא בֵאלֹהִים וְנֵדְעָה הֲתַצְלִיחַ דַּרְכֵּנוּ אֲשֶׁר אֲנַחְנוּ הֹלְכִים עָלֶֽיהָ וַיֹּאמֶר לָהֶם הַכֹּהֵן לְכוּ לְשָׁלוֹם נֹכַח יְהוָה דַּרְכְּכֶם אֲשֶׁר תֵּֽלְכוּ־בָֽהּ",
+        "riddle": "לְכוּ לְשָׁלוֹם נֹכַח יְהוָה דַּרְכְּכֶם אֲשֶׁר תֵּֽלְכוּ־בָֽהּ",
+        "speaker": "הַכֹּהֵן",
+        "listener": "אַנְשֵׁי דָן",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "גִּדְעוֹן",
+            "מִיכָה",
+            "שְׁמוּאֵל"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "בְּנֵיכֶם"
+          ]
+        },
+        "bonus": "וַיִּשְׁלְחוּ",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלְחוּ בְנֵֽי־יִשְׂרָאֵל אֶל־בְּנֵי־רְאוּבֵן וְאֶל־בְּנֵי־גָד וְאֶל־חֲצִי שֵֽׁבֶט־מְנַשֶּׁה אֶל־אֶרֶץ הַגִּלְעָד אֶת־פִּינְחָס בֶּן־אֶלְעָזָר הַכֹּהֵֽן",
+          "source": {
+            "book": "יהושע",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the children of Dan sent of their family five men from their coasts, men of valour, from Zorah, and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to mount Ephraim, to the house of Micah, they lodged there.",
+          "3": "When they were by the house of Micah, they knew the voice of the young man the Levite: and they turned in thither, and said unto him, Who brought thee hither? and what makest thou in this place? and what hast thou here?",
+          "4": "And he said unto them, Thus and thus dealeth Micah with me, and hath hired me, and I am his priest.",
+          "5": "And they said unto him, Ask counsel, we pray thee, of God, that we may know whether our way which we go shall be prosperous.",
+          "6": "And the priest said unto them, Go in peace: before the LORD is your way wherein ye go."
+        },
+        "he": {
+          "2": "וַיִּשְׁלְחוּ בְנֵי־דָן ׀ מִֽמִּשְׁפַּחְתָּם חֲמִשָּׁה אֲנָשִׁים מִקְצוֹתָם אֲנָשִׁים בְּנֵי־חַיִל מִצָּרְעָה וּמֵֽאֶשְׁתָּאֹל לְרַגֵּל אֶת־הָאָרֶץ וּלְחָקְרָהּ וַיֹּאמְרוּ אֲלֵהֶם לְכוּ חִקְרוּ אֶת־הָאָרֶץ וַיָּבֹאוּ הַר־אֶפְרַיִם עַד־בֵּית מִיכָה וַיָּלִינוּ שָֽׁם׃",
+          "3": "הֵמָּה עִם־בֵּית מִיכָה וְהֵמָּה הִכִּירוּ אֶת־קוֹל הַנַּעַר הַלֵּוִי וַיָּסוּרוּ שָׁם וַיֹּאמְרוּ לוֹ מִֽי־הֱבִיאֲךָ הֲלֹם וּמָֽה־אַתָּה עֹשֶׂה בָּזֶה וּמַה־לְּךָ פֹֽה׃",
+          "4": "וַיֹּאמֶר אֲלֵהֶם כָּזֹה וְכָזֶה עָשָׂה לִי מִיכָה וַיִּשְׂכְּרֵנִי וָאֱהִי־לוֹ לְכֹהֵֽן׃",
+          "5": "וַיֹּאמְרוּ לוֹ שְׁאַל־נָא בֵאלֹהִים וְנֵדְעָה הֲתַצְלִיחַ דַּרְכֵּנוּ אֲשֶׁר אֲנַחְנוּ הֹלְכִים עָלֶֽיהָ׃",
+          "6": "וַיֹּאמֶר לָהֶם הַכֹּהֵן לְכוּ לְשָׁלוֹם נֹכַח יְהוָה דַּרְכְּכֶם אֲשֶׁר תֵּֽלְכוּ־בָֽהּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 2,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "judges-18-08-08",
       "source": {
         "method": "llm",
@@ -14,10 +112,10 @@
         "book_he": "שופטים",
         "chapter": 18,
         "quote_verse_start": 7,
-        "quote_verse_end": 8
+        "quote_verse_end": 9
       },
       "en": {
-        "quote": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt careless, after the manner of the Zidonians, quiet and secure; and there was no magistrate in the land, that might put them to shame in any thing; and they were far from the Zidonians, and had no business with any man. And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What say ye?",
+        "quote": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt careless, after the manner of the Zidonians, quiet and secure; and there was no magistrate in the land, that might put them to shame in any thing; and they were far from the Zidonians, and had no business with any man. And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What say ye? And they said, Arise, that we may go up against them: for we have seen the land, and, behold, it is very good: and are ye still? be not slothful to go, and to enter to possess the land.",
         "riddle": "What say ye?",
         "speaker": "brethren",
         "listener": "five men",
@@ -25,69 +123,71 @@
         "options": {
           "speaker": [
             "Philistines",
-            "Rab-shakeh",
-            "congregation of the LORD"
+            "Israel",
+            "men of the city"
           ],
           "listener": [
+            "Israel",
             "Philistines",
-            "Israelites",
-            "children of Benjamin"
+            "men of the city"
           ]
         },
         "bonus": "people",
         "bonus_hint": {
-          "quote": "And he brought back all the goods, and also brought again his brother Lot, and his goods, and the women also, and the people.",
+          "quote": "And Joshua spake unto the priests, saying, Take up the ark of the covenant, and pass over before the people. And they took up the ark of the covenant, and went before the people.",
           "source": {
-            "book": "Genesis",
-            "chapter": 14,
-            "start": 16,
-            "end": 16
+            "book": "Joshua",
+            "chapter": 3,
+            "start": 6,
+            "end": 6
           }
         }
       },
       "he": {
-        "quote": "וַיֵּלְכוּ חֲמֵשֶׁת הָאֲנָשִׁים וַיָּבֹאוּ לָיְשָׁה וַיִּרְאוּ אֶת־הָעָם אֲשֶׁר־בְּקִרְבָּהּ יוֹשֶֽׁבֶת־לָבֶטַח כְּמִשְׁפַּט צִדֹנִים שֹׁקֵט וּבֹטֵחַ וְאֵין־מַכְלִים דָּבָר בָּאָרֶץ יוֹרֵשׁ עֶצֶר וּרְחֹקִים הֵמָּה מִצִּדֹנִים וְדָבָר אֵין־לָהֶם עִם־אָדָֽם וַיָּבֹאוּ אֶל־אֲחֵיהֶם צָרְעָה וְאֶשְׁתָּאֹל וַיֹּאמְרוּ לָהֶם אֲחֵיהֶם מָה אַתֶּֽם",
+        "quote": "וַיֵּלְכוּ חֲמֵשֶׁת הָאֲנָשִׁים וַיָּבֹאוּ לָיְשָׁה וַיִּרְאוּ אֶת־הָעָם אֲשֶׁר־בְּקִרְבָּהּ יוֹשֶֽׁבֶת־לָבֶטַח כְּמִשְׁפַּט צִדֹנִים שֹׁקֵט וּבֹטֵחַ וְאֵין־מַכְלִים דָּבָר בָּאָרֶץ יוֹרֵשׁ עֶצֶר וּרְחֹקִים הֵמָּה מִצִּדֹנִים וְדָבָר אֵין־לָהֶם עִם־אָדָֽם וַיָּבֹאוּ אֶל־אֲחֵיהֶם צָרְעָה וְאֶשְׁתָּאֹל וַיֹּאמְרוּ לָהֶם אֲחֵיהֶם מָה אַתֶּֽם וַיֹּאמְרוּ קוּמָה וְנַעֲלֶה עֲלֵיהֶם כִּי רָאִינוּ אֶת־הָאָרֶץ וְהִנֵּה טוֹבָה מְאֹד וְאַתֶּם מַחְשִׁים אַל־תֵּעָצְלוּ לָלֶכֶת לָבֹא לָרֶשֶׁת אֶת־הָאָֽרֶץ",
         "riddle": "מָה אַתֶּֽם",
         "speaker": "אֲחֵיהֶם",
         "listener": "חֲמֵשֶׁת הָאֲנָשִׁים",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "רַב־שָׁקֵה",
-            "עֲדַת יְהוָה"
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "אַנְשֵׁי הָעִיר"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "בְּנֵי בִנְיָמִן"
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "אַנְשֵׁי הָעִיר"
           ]
         },
-        "bonus": "הָעָם",
+        "bonus": "וַיֵּלְכוּ",
         "bonus_hint": {
-          "quote": "וַיָּשֶׁב אֵת כָּל־הָרְכֻשׁ וְגַם אֶת־לוֹט אָחִיו וּרְכֻשׁוֹ הֵשִׁיב וְגַם אֶת־הַנָּשִׁים וְאֶת־הָעָֽם",
+          "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הַכֹּהֲנִים לֵאמֹר שְׂאוּ אֶת־אֲרוֹן הַבְּרִית וְעִבְרוּ לִפְנֵי הָעָם וַיִּשְׂאוּ אֶת־אֲרוֹן הַבְּרִית וַיֵּלְכוּ לִפְנֵי הָעָֽם",
           "source": {
-            "book": "בראשית",
-            "chapter": 14,
-            "start": 16,
-            "end": 16
+            "book": "יהושע",
+            "chapter": 3,
+            "start": 6,
+            "end": 6
           }
         }
       },
       "raw_quote_source": {
         "en": {
           "7": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt careless, after the manner of the Zidonians, quiet and secure; and there was no magistrate in the land, that might put them to shame in any thing; and they were far from the Zidonians, and had no business with any man.",
-          "8": "And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What say ye?"
+          "8": "And they came unto their brethren to Zorah and Eshtaol: and their brethren said unto them, What say ye?",
+          "9": "And they said, Arise, that we may go up against them: for we have seen the land, and, behold, it is very good: and are ye still? be not slothful to go, and to enter to possess the land."
         },
         "he": {
           "7": "וַיֵּלְכוּ חֲמֵשֶׁת הָאֲנָשִׁים וַיָּבֹאוּ לָיְשָׁה וַיִּרְאוּ אֶת־הָעָם אֲשֶׁר־בְּקִרְבָּהּ יוֹשֶֽׁבֶת־לָבֶטַח כְּמִשְׁפַּט צִדֹנִים שֹׁקֵט ׀ וּבֹטֵחַ וְאֵין־מַכְלִים דָּבָר בָּאָרֶץ יוֹרֵשׁ עֶצֶר וּרְחֹקִים הֵמָּה מִצִּדֹנִים וְדָבָר אֵין־לָהֶם עִם־אָדָֽם׃",
-          "8": "וַיָּבֹאוּ אֶל־אֲחֵיהֶם צָרְעָה וְאֶשְׁתָּאֹל וַיֹּאמְרוּ לָהֶם אֲחֵיהֶם מָה אַתֶּֽם׃"
+          "8": "וַיָּבֹאוּ אֶל־אֲחֵיהֶם צָרְעָה וְאֶשְׁתָּאֹל וַיֹּאמְרוּ לָהֶם אֲחֵיהֶם מָה אַתֶּֽם׃",
+          "9": "וַיֹּאמְרוּ קוּמָה וְנַעֲלֶה עֲלֵיהֶם כִּי רָאִינוּ אֶת־הָאָרֶץ וְהִנֵּה טוֹבָה מְאֹד וְאַתֶּם מַחְשִׁים אַל־תֵּעָצְלוּ לָלֶכֶת לָבֹא לָרֶשֶׁת אֶת־הָאָֽרֶץ׃"
         }
       },
       "ref": {
         "chapter": 18,
         "start": 7,
-        "end": 8
+        "end": 9
       },
       "meta": {
         "mode": "llm",
@@ -105,80 +205,90 @@
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 18,
-        "quote_verse_start": 17,
+        "quote_verse_start": 12,
         "quote_verse_end": 18
       },
       "en": {
-        "quote": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war. And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?",
+        "quote": "And they went up, and pitched in Kirjath-jearim, in Judah: wherefore they called that place Mahaneh-dan unto this day: behold, it is behind Kirjath-jearim. And they passed thence unto mount Ephraim, and came unto the house of Micah. Then answered the five men that went to spy out the country of Laish, and said unto their brethren, Do ye know that there is in these houses an ephod, and teraphim, and a graven image, and a molten image? now therefore consider what ye have to do. And they turned thitherward, and came to the house of the young man the Levite, even unto the house of Micah, and saluted him. And the six hundred men appointed with their weapons of war, which were of the children of Dan, stood by the entering of the gate. And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war. And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?",
         "riddle": "What do ye?",
         "speaker": "priest",
-        "listener": "men",
+        "listener": "spies",
         "book": "Judges",
         "options": {
           "speaker": [
-            "Samson",
-            "Abimelech",
+            "Gideon",
+            "Micah",
             "Samuel"
           ],
           "listener": [
-            "Philistines",
-            "Israelites",
-            "children of Benjamin"
+            "Gideon",
+            "Samson",
+            "Samuel"
           ]
         },
-        "bonus": "ephod",
+        "bonus": "place",
         "bonus_hint": {
-          "quote": "And two other rings of gold thou shalt make, and shalt put them on the two sides of the ephod underneath, toward the forepart thereof, over against the other coupling thereof, above the curious girdle of the ephod.",
+          "quote": "Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the burying place of Manoah his father. And he judged Israel twenty years.",
           "source": {
-            "book": "Exodus",
-            "chapter": 28,
-            "start": 27,
-            "end": 27
+            "book": "Judges",
+            "chapter": 16,
+            "start": 31,
+            "end": 31
           }
         }
       },
       "he": {
-        "quote": "וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה וְאֵלֶּה בָּאוּ בֵּית מִיכָה וַיִּקְחוּ אֶת־פֶּסֶל הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וַיֹּאמֶר אֲלֵיהֶם הַכֹּהֵן מָה אַתֶּם עֹשִֽׂים",
+        "quote": "וַֽיַּעֲלוּ וַֽיַּחֲנוּ בְּקִרְיַת יְעָרִים בִּֽיהוּדָה עַל־כֵּן קָרְאוּ לַמָּקוֹם הַהוּא מַחֲנֵה־דָן עַד הַיּוֹם הַזֶּה הִנֵּה אַחֲרֵי קִרְיַת יְעָרִֽים וַיַּעַבְרוּ מִשָּׁם הַר־אֶפְרָיִם וַיָּבֹאוּ עַד־בֵּית מִיכָֽה וַֽיַּעֲנוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ לַיִשׁ וַיֹּֽאמְרוּ אֶל־אֲחֵיהֶם הַיְדַעְתֶּם כִּי יֵשׁ בַּבָּתִּים הָאֵלֶּה אֵפוֹד וּתְרָפִים וּפֶסֶל וּמַסֵּכָה וְעַתָּה דְּעוּ מַֽה־תַּעֲשֽׂוּ וַיָּסוּרוּ שָׁמָּה וַיָּבֹאוּ אֶל־בֵּֽית־הַנַּעַר הַלֵּוִי בֵּית מִיכָה וַיִּשְׁאֲלוּ־לוֹ לְשָׁלֽוֹם וְשֵׁשׁ־מֵאוֹת אִישׁ חֲגוּרִים כְּלֵי מִלְחַמְתָּם נִצָּבִים פֶּתַח הַשָּׁעַר אֲשֶׁר מִבְּנֵי־דָֽן וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה וְאֵלֶּה בָּאוּ בֵּית מִיכָה וַיִּקְחוּ אֶת־פֶּסֶל הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וַיֹּאמֶר אֲלֵיהֶם הַכֹּהֵן מָה אַתֶּם עֹשִֽׂים",
         "riddle": "מָה אַתֶּם עֹשִֽׂים",
         "speaker": "הַכֹּהֵן",
-        "listener": "אֲנָשִׁים",
+        "listener": "חֲמֵשֶׁת הָאֲנָשִׁים",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "שִׁמְשׁוֹן",
-            "אֲבִימֶלֶךְ",
+            "גִּדְעוֹן",
+            "מִיכָה",
             "שְׁמוּאֵל"
           ],
           "listener": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "בְּנֵי בִנְיָמִן"
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן",
+            "שְׁמוּאֵל"
           ]
         },
-        "bonus": "הָאֵפוֹד",
+        "bonus": "וַֽיַּעֲלוּ",
         "bonus_hint": {
-          "quote": "וְעָשִׂיתָ שְׁתֵּי טַבְּעוֹת זָהָב וְנָתַתָּה אֹתָם עַל־שְׁתֵּי כִתְפוֹת הָאֵפוֹד מִלְּמַטָּה מִמּוּל פָּנָיו לְעֻמַּת מֶחְבַּרְתּוֹ מִמַּעַל לְחֵשֶׁב הָאֵפֽוֹד",
+          "quote": "וַיֵּרְדוּ אֶחָיו וְכָל־בֵּית אָבִיהוּ וַיִּשְׂאוּ אֹתוֹ וַֽיַּעֲלוּ וַיִּקְבְּרוּ אוֹתוֹ בֵּין צָרְעָה וּבֵין אֶשְׁתָּאֹל בְּקֶבֶר מָנוֹחַ אָבִיו וְהוּא שָׁפַט אֶת־יִשְׂרָאֵל עֶשְׂרִים שָׁנָֽה",
           "source": {
-            "book": "שמות",
-            "chapter": 28,
-            "start": 27,
-            "end": 27
+            "book": "שופטים",
+            "chapter": 16,
+            "start": 31,
+            "end": 31
           }
         }
       },
       "raw_quote_source": {
         "en": {
+          "12": "And they went up, and pitched in Kirjath-jearim, in Judah: wherefore they called that place Mahaneh-dan unto this day: behold, it is behind Kirjath-jearim.",
+          "13": "And they passed thence unto mount Ephraim, and came unto the house of Micah.",
+          "14": "Then answered the five men that went to spy out the country of Laish, and said unto their brethren, Do ye know that there is in these houses an ephod, and teraphim, and a graven image, and a molten image? now therefore consider what ye have to do.",
+          "15": "And they turned thitherward, and came to the house of the young man the Levite, even unto the house of Micah, and saluted him.",
+          "16": "And the six hundred men appointed with their weapons of war, which were of the children of Dan, stood by the entering of the gate.",
           "17": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war.",
           "18": "And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?"
         },
         "he": {
+          "12": "וַֽיַּעֲלוּ וַֽיַּחֲנוּ בְּקִרְיַת יְעָרִים בִּֽיהוּדָה עַל־כֵּן קָרְאוּ לַמָּקוֹם הַהוּא מַחֲנֵה־דָן עַד הַיּוֹם הַזֶּה הִנֵּה אַחֲרֵי קִרְיַת יְעָרִֽים׃",
+          "13": "וַיַּעַבְרוּ מִשָּׁם הַר־אֶפְרָיִם וַיָּבֹאוּ עַד־בֵּית מִיכָֽה׃",
+          "14": "וַֽיַּעֲנוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ לַיִשׁ וַיֹּֽאמְרוּ אֶל־אֲחֵיהֶם הַיְדַעְתֶּם כִּי יֵשׁ בַּבָּתִּים הָאֵלֶּה אֵפוֹד וּתְרָפִים וּפֶסֶל וּמַסֵּכָה וְעַתָּה דְּעוּ מַֽה־תַּעֲשֽׂוּ׃",
+          "15": "וַיָּסוּרוּ שָׁמָּה וַיָּבֹאוּ אֶל־בֵּֽית־הַנַּעַר הַלֵּוִי בֵּית מִיכָה וַיִּשְׁאֲלוּ־לוֹ לְשָׁלֽוֹם׃",
+          "16": "וְשֵׁשׁ־מֵאוֹת אִישׁ חֲגוּרִים כְּלֵי מִלְחַמְתָּם נִצָּבִים פֶּתַח הַשָּׁעַר אֲשֶׁר מִבְּנֵי־דָֽן׃",
           "17": "וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה׃",
           "18": "וְאֵלֶּה בָּאוּ בֵּית מִיכָה וַיִּקְחוּ אֶת־פֶּסֶל הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וַיֹּאמֶר אֲלֵיהֶם הַכֹּהֵן מָה אַתֶּם עֹשִֽׂים׃"
         }
       },
       "ref": {
         "chapter": 18,
-        "start": 17,
+        "start": 12,
         "end": 18
       },
       "meta": {
@@ -190,98 +300,91 @@
       }
     },
     {
-      "id": "judges-18-23-23",
+      "id": "judges-18-25-25",
       "source": {
         "method": "llm",
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 18,
-        "quote_verse_start": 17,
-        "quote_verse_end": 23
+        "quote_verse_start": 23,
+        "quote_verse_end": 25,
+        "listener_mention_verse": 24
       },
       "en": {
-        "quote": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war. And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye? And they said unto him, Hold thy peace, lay thine hand upon thy mouth, and go with us, and be to us a father and a priest: is it better for thee to be a priest unto the house of one man, or that thou be a priest unto a tribe and a family in Israel? And the priest's heart was glad, and he took the ephod, and the teraphim, and the graven image, and went in the midst of the people. So they turned and departed, and put the little ones and the cattle and the carriage before them. And when they were a good way from the house of Micah, the men that were in the houses near to Micah's house were gathered together, and overtook the children of Dan. And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company?",
-        "riddle": "that thou comest with such a company?",
-        "speaker": "Men near Micah's house",
+        "quote": "And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company? And he said, Ye have taken away my gods which I made, and the priest, and ye are gone away: and what have I more? and what is this that ye say unto me, What aileth thee? And the children of Dan said unto him, Let not thy voice be heard among us, lest angry fellows run upon thee, and thou lose thy life, with the lives of thy household.",
+        "riddle": "Let not thy voice be heard among us, lest angry fellows run upon thee, and thou lose thy life, with the lives of thy household.",
+        "speaker": "children of Dan",
         "listener": "Micah",
         "book": "Judges",
         "options": {
           "speaker": [
             "Philistines",
-            "Israelites",
-            "Tribes of Israel"
+            "Israel",
+            "men of the city"
           ],
           "listener": [
-            "Balaam",
-            "Abimelech",
-            "Philistines"
+            "Gideon",
+            "Manoah",
+            "Samuel"
           ]
         },
-        "bonus": "ephod",
+        "bonus": "priest",
         "bonus_hint": {
-          "quote": "And two other rings of gold thou shalt make, and shalt put them on the two sides of the ephod underneath, toward the forepart thereof, over against the other coupling thereof, above the curious girdle of the ephod.",
+          "quote": "And king Ahaz commanded Urijah the priest, saying, Upon the great altar burn the morning burnt offering, and the evening meat offering, and the king's burnt sacrifice, and his meat offering, with the burnt offering of all the people of the land, and their meat offering, and their drink offerings; and sprinkle upon it all the blood of the burnt offering, and all the blood of the sacrifice: and the brasen altar shall be for me to inquire by.",
           "source": {
-            "book": "Exodus",
-            "chapter": 28,
-            "start": 27,
-            "end": 27
+            "book": "2 Kings",
+            "chapter": 16,
+            "start": 15,
+            "end": 15
           }
         }
       },
       "he": {
-        "quote": "וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה וְאֵלֶּה בָּאוּ בֵּית מִיכָה וַיִּקְחוּ אֶת־פֶּסֶל הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וַיֹּאמֶר אֲלֵיהֶם הַכֹּהֵן מָה אַתֶּם עֹשִֽׂים וַיֹּאמְרוּ לוֹ הַחֲרֵשׁ שִֽׂים־יָדְךָ עַל־פִּיךָ וְלֵךְ עִמָּנוּ וֶֽהְיֵה־לָנוּ לְאָב וּלְכֹהֵן הֲטוֹב הֱיוֹתְךָ כֹהֵן לְבֵית אִישׁ אֶחָד אוֹ הֱיוֹתְךָ כֹהֵן לְשֵׁבֶט וּלְמִשְׁפָּחָה בְּיִשְׂרָאֵֽל וַיִּיטַב לֵב הַכֹּהֵן וַיִּקַּח אֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַפָּסֶל וַיָּבֹא בְּקֶרֶב הָעָֽם וַיִּפְנוּ וַיֵּלֵכוּ וַיָּשִׂימוּ אֶת־הַטַּף וְאֶת־הַמִּקְנֶה וְאֶת־הַכְּבוּדָּה לִפְנֵיהֶֽם הֵמָּה הִרְחִיקוּ מִבֵּית מִיכָה וְהָאֲנָשִׁים אֲשֶׁר בַּבָּתִּים אֲשֶׁר עִם־בֵּית מִיכָה נִֽזְעֲקוּ וַיַּדְבִּיקוּ אֶת־בְּנֵי־דָֽן וַֽיִּקְרְאוּ אֶל־בְּנֵי־דָן וַיַּסֵּבּוּ פְּנֵיהֶם וַיֹּאמְרוּ לְמִיכָה מַה־לְּךָ כִּי נִזְעָֽקְתָּ",
-        "riddle": "מַה־לְּךָ כִּי נִזְעָֽקְתָּ",
-        "speaker": "הָאֲנָשִׁים אֲשֶׁר בַּבָּתִּים",
+        "quote": "וַֽיִּקְרְאוּ אֶל־בְּנֵי־דָן וַיַּסֵּבּוּ פְּנֵיהֶם וַיֹּאמְרוּ לְמִיכָה מַה־לְּךָ כִּי נִזְעָֽקְתָּ וַיֹּאמֶר אֶת־אֱלֹהַי אֲשֶׁר־עָשִׂיתִי לְקַחְתֶּם וְֽאֶת־הַכֹּהֵן וַתֵּלְכוּ וּמַה־לִּי עוֹד וּמַה־זֶּה תֹּאמְרוּ אֵלַי מַה־לָּֽךְ וַיֹּאמְרוּ אֵלָיו בְּנֵי־דָן אַל־תַּשְׁמַע קוֹלְךָ עִמָּנוּ פֶּֽן־יִפְגְּעוּ בָכֶם אֲנָשִׁים מָרֵי נֶפֶשׁ וְאָסַפְתָּה נַפְשְׁךָ וְנֶפֶשׁ בֵּיתֶֽךָ",
+        "riddle": "אַל־תַּשְׁמַע קוֹלְךָ עִמָּנוּ פֶּֽן־יִפְגְּעוּ בָכֶם אֲנָשִׁים מָרֵי נֶפֶשׁ וְאָסַפְתָּה נַפְשְׁךָ וְנֶפֶשׁ בֵּיתֶֽך",
+        "speaker": "בְּנֵי־דָן",
         "listener": "מִיכָה",
         "book": "שופטים",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "בְּנֵי יִשְׂרָאֵל",
-            "שִׁבְטֵי יִשְׂרָאֵל"
+            "פְּלִשְׁתִּים",
+            "יִשְׂרָאֵל",
+            "אַנְשֵׁי הָעִיר"
           ],
           "listener": [
-            "בִּלְעָם",
-            "אֲבִימֶלֶךְ",
-            "פְּלִשְׁתִּֽים"
+            "גִּדְעוֹן",
+            "מָנוֹחַ",
+            "שְׁמוּאֵל"
           ]
         },
-        "bonus": "הָאֵפוֹד",
+        "bonus": "וְֽאֶת",
         "bonus_hint": {
-          "quote": "וְעָשִׂיתָ שְׁתֵּי טַבְּעוֹת זָהָב וְנָתַתָּה אֹתָם עַל־שְׁתֵּי כִתְפוֹת הָאֵפוֹד מִלְּמַטָּה מִמּוּל פָּנָיו לְעֻמַּת מֶחְבַּרְתּוֹ מִמַּעַל לְחֵשֶׁב הָאֵפֽוֹד",
+          "quote": "וַיְצַוֶּה הַמֶּֽלֶךְ־אָחָז אֶת־אוּרִיָּה הַכֹּהֵן לֵאמֹר עַל הַמִּזְבֵּחַ הַגָּדוֹל הַקְטֵר אֶת־עֹֽלַת־הַבֹּקֶר וְאֶת־מִנְחַת הָעֶרֶב וְֽאֶת־עֹלַת הַמֶּלֶךְ וְאֶת־מִנְחָתוֹ וְאֵת עֹלַת כָּל־עַם הָאָרֶץ וּמִנְחָתָם וְנִסְכֵּיהֶם וְכָל־דַּם עֹלָה וְכָל־דַּם־זֶבַח עָלָיו תִּזְרֹק וּמִזְבַּח הַנְּחֹשֶׁת יִֽהְיֶה־לִּי לְבַקֵּֽר",
           "source": {
-            "book": "שמות",
-            "chapter": 28,
-            "start": 27,
-            "end": 27
+            "book": "מלכים ב",
+            "chapter": 16,
+            "start": 15,
+            "end": 15
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "17": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war.",
-          "18": "And these went into Micah's house, and fetched the carved image, the ephod, and the teraphim, and the molten image. Then said the priest unto them, What do ye?",
-          "19": "And they said unto him, Hold thy peace, lay thine hand upon thy mouth, and go with us, and be to us a father and a priest: is it better for thee to be a priest unto the house of one man, or that thou be a priest unto a tribe and a family in Israel?",
-          "20": "And the priest's heart was glad, and he took the ephod, and the teraphim, and the graven image, and went in the midst of the people.",
-          "21": "So they turned and departed, and put the little ones and the cattle and the carriage before them.",
-          "22": "And when they were a good way from the house of Micah, the men that were in the houses near to Micah's house were gathered together, and overtook the children of Dan.",
-          "23": "And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company?"
+          "23": "And they cried unto the children of Dan. And they turned their faces, and said unto Micah, What aileth thee, that thou comest with such a company?",
+          "24": "And he said, Ye have taken away my gods which I made, and the priest, and ye are gone away: and what have I more? and what is this that ye say unto me, What aileth thee?",
+          "25": "And the children of Dan said unto him, Let not thy voice be heard among us, lest angry fellows run upon thee, and thou lose thy life, with the lives of thy household."
         },
         "he": {
-          "17": "וַֽיַּעֲלוּ חֲמֵשֶׁת הָאֲנָשִׁים הַהֹלְכִים לְרַגֵּל אֶת־הָאָרֶץ בָּאוּ שָׁמָּה לָקְחוּ אֶת־הַפֶּסֶל וְאֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וְהַכֹּהֵן נִצָּב פֶּתַח הַשַּׁעַר וְשֵׁשׁ־מֵאוֹת הָאִישׁ הֶחָגוּר כְּלֵי הַמִּלְחָמָֽה׃",
-          "18": "וְאֵלֶּה בָּאוּ בֵּית מִיכָה וַיִּקְחוּ אֶת־פֶּסֶל הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַמַּסֵּכָה וַיֹּאמֶר אֲלֵיהֶם הַכֹּהֵן מָה אַתֶּם עֹשִֽׂים׃",
-          "19": "וַיֹּאמְרוּ לוֹ הַחֲרֵשׁ שִֽׂים־יָדְךָ עַל־פִּיךָ וְלֵךְ עִמָּנוּ וֶֽהְיֵה־לָנוּ לְאָב וּלְכֹהֵן הֲטוֹב ׀ הֱיוֹתְךָ כֹהֵן לְבֵית אִישׁ אֶחָד אוֹ הֱיוֹתְךָ כֹהֵן לְשֵׁבֶט וּלְמִשְׁפָּחָה בְּיִשְׂרָאֵֽל׃",
-          "20": "וַיִּיטַב לֵב הַכֹּהֵן וַיִּקַּח אֶת־הָאֵפוֹד וְאֶת־הַתְּרָפִים וְאֶת־הַפָּסֶל וַיָּבֹא בְּקֶרֶב הָעָֽם׃",
-          "21": "וַיִּפְנוּ וַיֵּלֵכוּ וַיָּשִׂימוּ אֶת־הַטַּף וְאֶת־הַמִּקְנֶה וְאֶת־הַכְּבוּדָּה לִפְנֵיהֶֽם׃",
-          "22": "הֵמָּה הִרְחִיקוּ מִבֵּית מִיכָה וְהָאֲנָשִׁים אֲשֶׁר בַּבָּתִּים אֲשֶׁר עִם־בֵּית מִיכָה נִֽזְעֲקוּ וַיַּדְבִּיקוּ אֶת־בְּנֵי־דָֽן׃",
-          "23": "וַֽיִּקְרְאוּ אֶל־בְּנֵי־דָן וַיַּסֵּבּוּ פְּנֵיהֶם וַיֹּאמְרוּ לְמִיכָה מַה־לְּךָ כִּי נִזְעָֽקְתָּ׃"
+          "23": "וַֽיִּקְרְאוּ אֶל־בְּנֵי־דָן וַיַּסֵּבּוּ פְּנֵיהֶם וַיֹּאמְרוּ לְמִיכָה מַה־לְּךָ כִּי נִזְעָֽקְתָּ׃",
+          "24": "וַיֹּאמֶר אֶת־אֱלֹהַי אֲשֶׁר־עָשִׂיתִי לְקַחְתֶּם וְֽאֶת־הַכֹּהֵן וַתֵּלְכוּ וּמַה־לִּי עוֹד וּמַה־זֶּה תֹּאמְרוּ אֵלַי מַה־לָּֽךְ׃",
+          "25": "וַיֹּאמְרוּ אֵלָיו בְּנֵי־דָן אַל־תַּשְׁמַע קוֹלְךָ עִמָּנוּ פֶּֽן־יִפְגְּעוּ בָכֶם אֲנָשִׁים מָרֵי נֶפֶשׁ וְאָסַפְתָּה נַפְשְׁךָ וְנֶפֶשׁ בֵּיתֶֽךָ׃"
         }
       },
       "ref": {
         "chapter": 18,
-        "start": 17,
-        "end": 23
+        "start": 23,
+        "end": 25
       },
       "meta": {
         "mode": "llm",

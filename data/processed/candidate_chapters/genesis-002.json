@@ -6,55 +6,193 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-02-23-24",
+      "id": "genesis-02-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
+        "riddle": "Of every tree of the garden thou mayest freely eat:",
+        "speaker": "LORD God",
+        "listener": "the man",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְצַו יְהוָה אֱלֹהִים עַל־הָֽאָדָם לֵאמֹר מִכֹּל עֵֽץ־הַגָּן אָכֹל תֹּאכֵֽל",
+        "riddle": "לֵאמֹר מִכֹּל עֵֽץ־הַגָּן אָכֹל תֹּאכֵֽל",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:"
+        },
+        "he": {
+          "16": "וַיְצַו יְהוָה אֱלֹהִים עַל־הָֽאָדָם לֵאמֹר מִכֹּל עֵֽץ־הַגָּן אָכֹל תֹּאכֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-02-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+        "riddle": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die.",
+        "speaker": "LORD God",
+        "listener": "the man",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת",
+        "riddle": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the LORD God commanded the man, saying, Of every tree of the garden thou mayest freely eat:",
+          "17": "But of the tree of the knowledge of good and evil, thou shalt not eat of it: for in the day that thou eatest thereof thou shalt surely die."
+        },
+        "he": {
+          "16": "וַיְצַו יְהוָה אֱלֹהִים עַל־הָֽאָדָם לֵאמֹר מִכֹּל עֵֽץ־הַגָּן אָכֹל תֹּאכֵֽל׃",
+          "17": "וּמֵעֵץ הַדַּעַת טוֹב וָרָע לֹא תֹאכַל מִמֶּנּוּ כִּי בְּיוֹם אֲכָלְךָ מִמֶּנּוּ מוֹת תָּמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "divine warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-02-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 2,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18
+      },
+      "en": {
+        "quote": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him.",
+        "riddle": "It is not good that the man should be alone; I will make him an help meet for him.",
+        "speaker": "LORD God",
+        "listener": "null",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ",
+        "riddle": "לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽו",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the LORD God said, It is not good that the man should be alone; I will make him an help meet for him."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר יְהוָה אֱלֹהִים לֹא־טוֹב הֱיוֹת הָֽאָדָם לְבַדּוֹ אֶֽעֱשֶׂהּ־לּוֹ עֵזֶר כְּנֶגְדּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-02-23-23",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 2,
         "quote_verse_start": 23,
-        "quote_verse_end": 24
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 22
       },
       "en": {
-        "quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man. Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
-        "riddle": "And Adam said, This is now bone of my bones",
+        "quote": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
+        "riddle": "This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
         "speaker": "Adam",
-        "listener": "Eve",
+        "listener": "Adam",
         "book": "Genesis"
       },
       "he": {
-        "quote": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
-        "riddle": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת",
-        "speaker": "אדם",
-        "listener": "חוה",
+        "quote": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת",
+        "riddle": "זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת",
+        "speaker": "הָֽאָדָם",
+        "listener": "הָֽאָדָם",
         "book": "בראשית"
       },
       "raw_quote_source": {
         "en": {
-          "23": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man.",
-          "24": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh."
+          "22": "And the rib, which the LORD God had taken from man, made he a woman, and brought her unto the man.",
+          "23": "And Adam said, This is now bone of my bones, and flesh of my flesh: she shall be called Woman, because she was taken out of Man."
         },
         "he": {
-          "23": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת׃",
-          "24": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד׃"
+          "22": "וַיִּבֶן יְהוָה אֱלֹהִים ׀ אֶֽת־הַצֵּלָע אֲשֶׁר־לָקַח מִן־הָֽאָדָם לְאִשָּׁה וַיְבִאֶהָ אֶל־הָֽאָדָֽם׃",
+          "23": "וַיֹּאמֶר הָֽאָדָם זֹאת הַפַּעַם עֶצֶם מֵֽעֲצָמַי וּבָשָׂר מִבְּשָׂרִי לְזֹאת יִקָּרֵא אִשָּׁה כִּי מֵאִישׁ לֻֽקֳחָה־זֹּֽאת׃"
         }
       },
       "meta": {
-        "reason": "Memorable declaration of identity",
+        "reason": "vivid declaration",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 2,
         "start": 23,
-        "end": 24
+        "end": 23
       }
     }
   ],
   "stats": {
-    "window_count": 8,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 1,
-    "issue_count": 7
+    "llm_window_count": 2,
+    "projection_llm_count": 4,
+    "llm_call_count": 6,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

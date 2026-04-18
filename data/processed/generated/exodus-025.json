@@ -1,0 +1,89 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 25,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-25-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 25,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering. And this is the offering which ye shall take of them; gold, and silver, and brass,",
+        "riddle": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "gold",
+        "bonus_hint": {
+          "quote": "And all the gold of the offering that they offered up to the LORD, of the captains of thousands, and of the captains of hundreds, was sixteen thousand seven hundred and fifty shekels.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 31,
+            "start": 52,
+            "end": 52
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי וְזֹאת הַתְּרוּמָה אֲשֶׁר תִּקְחוּ מֵאִתָּם זָהָב וָכֶסֶף וּנְחֹֽשֶׁת",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַתְּרוּמָה",
+        "bonus_hint": {
+          "quote": "וַיְהִי כָּל־זְהַב הַתְּרוּמָה אֲשֶׁר הֵרִימוּ לַֽיהוָה שִׁשָּׁה עָשָׂר אֶלֶף שְׁבַע־מֵאוֹת וַחֲמִשִּׁים שָׁקֶל מֵאֵת שָׂרֵי הָֽאֲלָפִים וּמֵאֵת שָׂרֵי הַמֵּאֽוֹת",
+          "source": {
+            "book": "במדבר",
+            "chapter": 31,
+            "start": 52,
+            "end": 52
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+          "3": "And this is the offering which ye shall take of them; gold, and silver, and brass,"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי׃",
+          "3": "וְזֹאת הַתְּרוּמָה אֲשֶׁר תִּקְחוּ מֵאִתָּם זָהָב וָכֶסֶף וּנְחֹֽשֶׁת׃"
+        }
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

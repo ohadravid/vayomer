@@ -6,45 +6,48 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-08-12-12",
+      "id": "1-kings-08-12-13",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 8,
         "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 12
       },
       "en": {
-        "quote": "Then spake Solomon, The LORD said that he would dwell in thick darkness.",
-        "riddle": "The LORD said that he would dwell in thick darkness.",
+        "quote": "Then spake Solomon, The LORD said that he would dwell in thick darkness. I have surely built thee an house to dwell in, a settled place for thee to abide in for ever.",
+        "riddle": "The LORD said that he would dwell in thick darkness. I have surely built thee an house to dwell in, a settled place for thee to abide in for ever.",
         "speaker": "Solomon",
-        "listener": "People",
+        "listener": "the LORD",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "אָז אָמַר שְׁלֹמֹה יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל",
-        "riddle": "יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל",
+        "quote": "אָז אָמַר שְׁלֹמֹה יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל בָּנֹה בָנִיתִי בֵּית זְבֻל לָךְ מָכוֹן לְשִׁבְתְּךָ עוֹלָמִֽים",
+        "riddle": "יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל בָּנֹה בָנִיתִי בֵּית זְבֻל לָךְ מָכוֹן לְשִׁבְתְּךָ עוֹלָמִֽים",
         "speaker": "שְׁלֹמֹה",
-        "listener": "עם",
+        "listener": "יְהוָה",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "12": "Then spake Solomon, The LORD said that he would dwell in thick darkness."
+          "12": "Then spake Solomon, The LORD said that he would dwell in thick darkness.",
+          "13": "I have surely built thee an house to dwell in, a settled place for thee to abide in for ever."
         },
         "he": {
-          "12": "אָז אָמַר שְׁלֹמֹה יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל׃"
+          "12": "אָז אָמַר שְׁלֹמֹה יְהוָה אָמַר לִשְׁכֹּן בָּעֲרָפֶֽל׃",
+          "13": "בָּנֹה בָנִיתִי בֵּית זְבֻל לָךְ מָכוֹן לְשִׁבְתְּךָ עוֹלָמִֽים׃"
         }
       },
       "meta": {
-        "reason": "Vivid declaration of divine dwelling.",
-        "confidence": 0.9
+        "reason": "direct speech declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 8,
         "start": 12,
-        "end": 12
+        "end": 13
       }
     },
     {
@@ -55,32 +58,36 @@
         "book_he": "מלכים א",
         "chapter": 8,
         "quote_verse_start": 15,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "And he said, Blessed be the LORD God of Israel, which spake with his mouth unto David my father, and hath with his hand fulfilled it, saying,",
-        "riddle": "And he said, Blessed be the LORD God of Israel",
+        "riddle": "Blessed be the LORD God of Israel, which spake with his mouth unto David my father, and hath with his hand fulfilled it, saying,",
         "speaker": "Solomon",
-        "listener": "People",
+        "listener": "Israel",
         "book": "1 Kings"
       },
       "he": {
         "quote": "וַיֹּאמֶר בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר דִּבֶּר בְּפִיו אֵת דָּוִד אָבִי וּבְיָדוֹ מִלֵּא לֵאמֹֽר",
-        "riddle": "וַיֹּאמֶר בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר דִּבֶּר בְּפִיו אֵת דָּוִד אָבִי",
-        "speaker": "שלמה",
-        "listener": "העם",
+        "riddle": "וַיֹּאמֶר בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר דִּבֶּר בְּפִיו אֵת דָּוִד אָבִי וּבְיָדוֹ מִלֵּא לֵאמֹֽר",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יִשְׂרָאֵל",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
+          "14": "And the king turned his face about, and blessed all the congregation of Israel: (and all the congregation of Israel stood;)",
           "15": "And he said, Blessed be the LORD God of Israel, which spake with his mouth unto David my father, and hath with his hand fulfilled it, saying,"
         },
         "he": {
+          "14": "וַיַּסֵּב הַמֶּלֶךְ אֶת־פָּנָיו וַיְבָרֶךְ אֵת כָּל־קְהַל יִשְׂרָאֵל וְכָל־קְהַל יִשְׂרָאֵל עֹמֵֽד׃",
           "15": "וַיֹּאמֶר בָּרוּךְ יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר דִּבֶּר בְּפִיו אֵת דָּוִד אָבִי וּבְיָדוֹ מִלֵּא לֵאמֹֽר׃"
         }
       },
       "meta": {
-        "reason": "Contains a memorable blessing",
+        "reason": "blessing and declaration",
         "confidence": 0.9
       },
       "ref": {
@@ -88,13 +95,638 @@
         "start": 15,
         "end": 15
       }
+    },
+    {
+      "id": "1-kings-08-18-18",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And the LORD said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
+        "riddle": "Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־דָּוִד אָבִי יַעַן אֲשֶׁר הָיָה עִם־לְבָבְךָ לִבְנוֹת בַּיִת לִשְׁמִי הֱטִיבֹתָ כִּי הָיָה עִם־לְבָבֶֽךָ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־דָּוִד אָבִי יַעַן אֲשֶׁר הָיָה עִם־לְבָבְךָ לִבְנוֹת בַּיִת לִשְׁמִי הֱטִיבֹתָ כִּי הָיָה עִם־לְבָבֶֽךָ",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the LORD said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר יְהוָה אֶל־דָּוִד אָבִי יַעַן אֲשֶׁר הָיָה עִם־לְבָבְךָ לִבְנוֹת בַּיִת לִשְׁמִי הֱטִיבֹתָ כִּי הָיָה עִם־לְבָבֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "1-kings-08-19-19",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Nevertheless thou shalt not build the house; but thy son that shall come forth out of thy loins, he shall build the house unto my name.",
+        "riddle": "Nevertheless thou shalt not build the house; but thy son that shall come forth out of thy loins, he shall build the house unto my name.",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "רַק אַתָּה לֹא תִבְנֶה הַבָּיִת כִּי אִם־בִּנְךָ הַיֹּצֵא מֵחֲלָצֶיךָ הֽוּא־יִבְנֶה הַבַּיִת לִשְׁמִֽי",
+        "riddle": "רַק אַתָּה לֹא תִבְנֶה הַבָּיִת כִּי אִם־בִּנְךָ הַיֹּצֵא מֵחֲלָצֶיךָ הֽוּא־יִבְנֶה הַבַּיִת לִשְׁמִֽי",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the LORD said unto David my father, Whereas it was in thine heart to build an house unto my name, thou didst well that it was in thine heart.",
+          "19": "Nevertheless thou shalt not build the house; but thy son that shall come forth out of thy loins, he shall build the house unto my name."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר יְהוָה אֶל־דָּוִד אָבִי יַעַן אֲשֶׁר הָיָה עִם־לְבָבְךָ לִבְנוֹת בַּיִת לִשְׁמִי הֱטִיבֹתָ כִּי הָיָה עִם־לְבָבֶֽךָ׃",
+          "19": "רַק אַתָּה לֹא תִבְנֶה הַבָּיִת כִּי אִם־בִּנְךָ הַיֹּצֵא מֵחֲלָצֶיךָ הֽוּא־יִבְנֶה הַבַּיִת לִשְׁמִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "1-kings-08-23-23",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And he said, LORD God of Israel, there is no God like thee, in heaven above, or on earth beneath, who keepest covenant and mercy with thy servants that walk before thee with all their heart:",
+        "riddle": "LORD God of Israel, there is no God like thee, in heaven above, or on earth beneath, who keepest covenant and mercy with thy servants that walk before thee with all their heart:",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֵין־כָּמוֹךָ אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּחַת שֹׁמֵר הַבְּרִית וְֽהַחֶסֶד לַעֲבָדֶיךָ הַהֹלְכִים לְפָנֶיךָ בְּכָל־לִבָּֽם",
+        "riddle": "וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֵין־כָּמוֹךָ אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּחַת שֹׁמֵר הַבְּרִית וְֽהַחֶסֶד לַעֲבָדֶיךָ הַהֹלְכִים לְפָנֶיךָ בְּכָל־לִבָּֽם",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Solomon stood before the altar of the LORD in the presence of all the congregation of Israel, and spread forth his hands toward heaven:",
+          "23": "And he said, LORD God of Israel, there is no God like thee, in heaven above, or on earth beneath, who keepest covenant and mercy with thy servants that walk before thee with all their heart:"
+        },
+        "he": {
+          "22": "וַיַּעֲמֹד שְׁלֹמֹה לִפְנֵי מִזְבַּח יְהוָה נֶגֶד כָּל־קְהַל יִשְׂרָאֵל וַיִּפְרֹשׂ כַּפָּיו הַשָּׁמָֽיִם׃",
+          "23": "וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֵין־כָּמוֹךָ אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּחַת שֹׁמֵר הַבְּרִית וְֽהַחֶסֶד לַעֲבָדֶיךָ הַהֹלְכִים לְפָנֶיךָ בְּכָל־לִבָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration/prayer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-kings-08-24-24",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Who hast kept with thy servant David my father that thou promisedst him: thou spakest also with thy mouth, and hast fulfilled it with thine hand, as it is this day.",
+        "riddle": "Who hast kept with thy servant David my father that thou promisedst him: thou spakest also with thy mouth, and hast fulfilled it with thine hand, as it is this day.",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "אֲשֶׁר שָׁמַרְתָּ לְעַבְדְּךָ דָּוִד אָבִי אֵת אֲשֶׁר־דִּבַּרְתָּ לוֹ וַתְּדַבֵּר בְּפִיךָ וּבְיָדְךָ מִלֵּאתָ כַּיּוֹם הַזֶּֽה",
+        "riddle": "אֲשֶׁר שָׁמַרְתָּ לְעַבְדְּךָ דָּוִד אָבִי אֵת אֲשֶׁר־דִּבַּרְתָּ לוֹ וַתְּדַבֵּר בְּפִיךָ וּבְיָדְךָ מִלֵּאתָ כַּיּוֹם הַזֶּֽה",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Solomon stood before the altar of the LORD in the presence of all the congregation of Israel, and spread forth his hands toward heaven:",
+          "24": "Who hast kept with thy servant David my father that thou promisedst him: thou spakest also with thy mouth, and hast fulfilled it with thine hand, as it is this day."
+        },
+        "he": {
+          "22": "וַיַּעֲמֹד שְׁלֹמֹה לִפְנֵי מִזְבַּח יְהוָה נֶגֶד כָּל־קְהַל יִשְׂרָאֵל וַיִּפְרֹשׂ כַּפָּיו הַשָּׁמָֽיִם׃",
+          "24": "אֲשֶׁר שָׁמַרְתָּ לְעַבְדְּךָ דָּוִד אָבִי אֵת אֲשֶׁר־דִּבַּרְתָּ לוֹ וַתְּדַבֵּר בְּפִיךָ וּבְיָדְךָ מִלֵּאתָ כַּיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration/prayer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "1-kings-08-27-27",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?",
+        "riddle": "But will God indeed dwell on the earth?",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "כִּי הַֽאֻמְנָם יֵשֵׁב אֱלֹהִים עַל־הָאָרֶץ הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ אַף כִּֽי־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי",
+        "riddle": "כִּי הַֽאֻמְנָם יֵשֵׁב אֱלֹהִים עַל־הָאָרֶץ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "אֱלֹהִים",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "But will God indeed dwell on the earth? behold, the heaven and heaven of heavens cannot contain thee; how much less this house that I have builded?"
+        },
+        "he": {
+          "27": "כִּי הַֽאֻמְנָם יֵשֵׁב אֱלֹהִים עַל־הָאָרֶץ הִנֵּה הַשָּׁמַיִם וּשְׁמֵי הַשָּׁמַיִם לֹא יְכַלְכְּלוּךָ אַף כִּֽי־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "1-kings-08-32-32",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "Then hear thou in heaven, and do, and judge thy servants, condemning the wicked, to bring his way upon his head; and justifying the righteous, to give him according to his righteousness.",
+        "riddle": "Then hear thou in heaven, and do, and judge thy servants, condemning the wicked, to bring his way upon his head; and justifying the righteous, to give him according to his righteousness.",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְעָשִׂיתָ וְשָׁפַטְתָּ אֶת־עֲבָדֶיךָ לְהַרְשִׁיעַ רָשָׁע לָתֵת דַּרְכּוֹ בְּרֹאשׁוֹ וּלְהַצְדִּיק צַדִּיק לָתֶת לוֹ כְּצִדְקָתֽוֹ",
+        "riddle": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְעָשִׂיתָ וְשָׁפַטְתָּ אֶת־עֲבָדֶיךָ לְהַרְשִׁיעַ רָשָׁע לָתֵת דַּרְכּוֹ בְּרֹאשׁוֹ וּלְהַצְדִּיק צַדִּיק לָתֶת לוֹ כְּצִדְקָתֽוֹ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "Then hear thou in heaven, and do, and judge thy servants, condemning the wicked, to bring his way upon his head; and justifying the righteous, to give him according to his righteousness."
+        },
+        "he": {
+          "32": "וְאַתָּה ׀ תִּשְׁמַע הַשָּׁמַיִם וְעָשִׂיתָ וְשָׁפַטְתָּ אֶת־עֲבָדֶיךָ לְהַרְשִׁיעַ רָשָׁע לָתֵת דַּרְכּוֹ בְּרֹאשׁוֹ וּלְהַצְדִּיק צַדִּיק לָתֶת לוֹ כְּצִדְקָתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "1-kings-08-34-34",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34
+      },
+      "en": {
+        "quote": "Then hear thou in heaven, and forgive the sin of thy people Israel, and bring them again unto the land which thou gavest unto their fathers.",
+        "riddle": "Then hear thou in heaven, and forgive the sin of thy people Israel, and bring them again unto the land which thou gavest unto their fathers.",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עַמְּךָ יִשְׂרָאֵל וַהֲשֵֽׁבֹתָם אֶל־הָאֲדָמָה אֲשֶׁר נָתַתָּ לַאֲבוֹתָֽם",
+        "riddle": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עַמְּךָ יִשְׂרָאֵל וַהֲשֵֽׁבֹתָם אֶל־הָאֲדָמָה אֲשֶׁר נָתַתָּ לַאֲבוֹתָֽם",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "Then hear thou in heaven, and forgive the sin of thy people Israel, and bring them again unto the land which thou gavest unto their fathers."
+        },
+        "he": {
+          "34": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עַמְּךָ יִשְׂרָאֵל וַהֲשֵֽׁבֹתָם אֶל־הָאֲדָמָה אֲשֶׁר נָתַתָּ לַאֲבוֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 34,
+        "end": 34
+      }
+    },
+    {
+      "id": "1-kings-08-36-36",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36
+      },
+      "en": {
+        "quote": "Then hear thou in heaven, and forgive the sin of thy servants, and of thy people Israel, that thou teach them the good way wherein they should walk, and give rain upon thy land, which thou hast given to thy people for an inheritance.",
+        "riddle": "Then hear thou in heaven, and forgive the sin of thy servants, and of thy people Israel, that thou teach them the good way wherein they should walk, and give rain upon thy land, which thou hast given to thy people for an inheritance.",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עֲבָדֶיךָ וְעַמְּךָ יִשְׂרָאֵל כִּי תוֹרֵם אֶת־הַדֶּרֶךְ הַטּוֹבָה אֲשֶׁר יֵֽלְכוּ־בָהּ וְנָתַתָּה מָטָר עַל־אַרְצְךָ אֲשֶׁר־נָתַתָּה לְעַמְּךָ לְנַחֲלָֽה",
+        "riddle": "וְאַתָּה תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עֲבָדֶיךָ וְעַמְּךָ יִשְׂרָאֵל כִּי תוֹרֵם אֶת־הַדֶּרֶךְ הַטּוֹבָה אֲשֶׁר יֵֽלְכוּ־בָהּ וְנָתַתָּה מָטָר עַל־אַרְצְךָ אֲשֶׁר־נָתַתָּה לְעַמְּךָ לְנַחֲלָֽה",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "Then hear thou in heaven, and forgive the sin of thy servants, and of thy people Israel, that thou teach them the good way wherein they should walk, and give rain upon thy land, which thou hast given to thy people for an inheritance."
+        },
+        "he": {
+          "36": "וְאַתָּה ׀ תִּשְׁמַע הַשָּׁמַיִם וְסָלַחְתָּ לְחַטַּאת עֲבָדֶיךָ וְעַמְּךָ יִשְׂרָאֵל כִּי תוֹרֵם אֶת־הַדֶּרֶךְ הַטּוֹבָה אֲשֶׁר יֵֽלְכוּ־בָהּ וְנָתַתָּה מָטָר עַל־אַרְצְךָ אֲשֶׁר־נָתַתָּה לְעַמְּךָ לְנַחֲלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 36,
+        "end": 36
+      }
+    },
+    {
+      "id": "1-kings-08-43-43",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 43,
+        "quote_verse_end": 43,
+        "speaker_mention_verse": 43
+      },
+      "en": {
+        "quote": "Hear thou in heaven thy dwelling place, and do according to all that the stranger calleth to thee for: that all people of the earth may know thy name, to fear thee, as do thy people Israel; and that they may know that this house, which I have builded, is called by thy name.",
+        "riddle": "Hear thou in heaven thy dwelling place, and do according to all that the stranger calleth to thee for",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "אַתָּה תִּשְׁמַע הַשָּׁמַיִם מְכוֹן שִׁבְתֶּךָ וְעָשִׂיתָ כְּכֹל אֲשֶׁר־יִקְרָא אֵלֶיךָ הַנָּכְרִי לְמַעַן יֵדְעוּן כָּל־עַמֵּי הָאָרֶץ אֶת־שְׁמֶךָ לְיִרְאָה אֹֽתְךָ כְּעַמְּךָ יִשְׂרָאֵל וְלָדַעַת כִּי־שִׁמְךָ נִקְרָא עַל־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי",
+        "riddle": "אַתָּה תִּשְׁמַע הַשָּׁמַיִם מְכוֹן שִׁבְתֶּךָ וְעָשִׂיתָ כְּכֹל אֲשֶׁר־יִקְרָא אֵלֶיךָ הַנָּכְרִי לְמַעַן יֵדְעוּן כָּל־עַמֵּי הָאָרֶץ אֶת־שְׁמֶךָ לְיִרְאָה אֹֽתְךָ כְּעַמְּךָ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "אלוקים",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "Hear thou in heaven thy dwelling place, and do according to all that the stranger calleth to thee for: that all people of the earth may know thy name, to fear thee, as do thy people Israel; and that they may know that this house, which I have builded, is called by thy name."
+        },
+        "he": {
+          "43": "אַתָּה תִּשְׁמַע הַשָּׁמַיִם מְכוֹן שִׁבְתֶּךָ וְעָשִׂיתָ כְּכֹל אֲשֶׁר־יִקְרָא אֵלֶיךָ הַנָּכְרִי לְמַעַן יֵדְעוּן כָּל־עַמֵּי הָאָרֶץ אֶת־שְׁמֶךָ לְיִרְאָה אֹֽתְךָ כְּעַמְּךָ יִשְׂרָאֵל וְלָדַעַת כִּי־שִׁמְךָ נִקְרָא עַל־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command in prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 43,
+        "end": 43
+      }
+    },
+    {
+      "id": "1-kings-08-45-45",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 45,
+        "quote_verse_end": 45,
+        "speaker_mention_verse": 43
+      },
+      "en": {
+        "quote": "Then hear thou in heaven their prayer and their supplication, and maintain their cause.",
+        "riddle": "Then hear thou in heaven their prayer and their supplication, and maintain their cause",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְשָׁמַעְתָּ הַשָּׁמַיִם אֶת־תְּפִלָּתָם וְאֶת־תְּחִנָּתָם וְעָשִׂיתָ מִשְׁפָּטָֽם",
+        "riddle": "וְשָׁמַעְתָּ הַשָּׁמַיִם אֶת־תְּפִלָּתָם וְאֶת־תְּחִנָּתָם וְעָשִׂיתָ מִשְׁפָּטָֽם",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "43": "Hear thou in heaven thy dwelling place, and do according to all that the stranger calleth to thee for: that all people of the earth may know thy name, to fear thee, as do thy people Israel; and that they may know that this house, which I have builded, is called by thy name.",
+          "45": "Then hear thou in heaven their prayer and their supplication, and maintain their cause."
+        },
+        "he": {
+          "43": "אַתָּה תִּשְׁמַע הַשָּׁמַיִם מְכוֹן שִׁבְתֶּךָ וְעָשִׂיתָ כְּכֹל אֲשֶׁר־יִקְרָא אֵלֶיךָ הַנָּכְרִי לְמַעַן יֵדְעוּן כָּל־עַמֵּי הָאָרֶץ אֶת־שְׁמֶךָ לְיִרְאָה אֹֽתְךָ כְּעַמְּךָ יִשְׂרָאֵל וְלָדַעַת כִּי־שִׁמְךָ נִקְרָא עַל־הַבַּיִת הַזֶּה אֲשֶׁר בָּנִֽיתִי׃",
+          "45": "וְשָׁמַעְתָּ הַשָּׁמַיִם אֶת־תְּפִלָּתָם וְאֶת־תְּחִנָּתָם וְעָשִׂיתָ מִשְׁפָּטָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "petition in prayer",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 45,
+        "end": 45
+      }
+    },
+    {
+      "id": "1-kings-08-56-56",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 56,
+        "quote_verse_end": 56,
+        "speaker_mention_verse": 55,
+        "listener_mention_verse": 55
+      },
+      "en": {
+        "quote": "Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant.",
+        "riddle": "Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant.",
+        "speaker": "Solomon",
+        "listener": "Israel",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "בָּרוּךְ יְהוָה אֲשֶׁר נָתַן מְנוּחָה לְעַמּוֹ יִשְׂרָאֵל כְּכֹל אֲשֶׁר דִּבֵּר לֹֽא־נָפַל דָּבָר אֶחָד מִכֹּל דְּבָרוֹ הַטּוֹב אֲשֶׁר דִּבֶּר בְּיַד מֹשֶׁה עַבְדּֽוֹ",
+        "riddle": "בָּרוּךְ יְהוָה אֲשֶׁר נָתַן מְנוּחָה לְעַמּוֹ יִשְׂרָאֵל כְּכֹל אֲשֶׁר דִּבֵּר לֹֽא־נָפַל דָּבָר אֶחָד מִכֹּל דְּבָרוֹ הַטּוֹב אֲשֶׁר דִּבֶּר בְּיַד מֹשֶׁה עַבְדּֽוֹ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "55": "And he stood, and blessed all the congregation of Israel with a loud voice, saying,",
+          "56": "Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant."
+        },
+        "he": {
+          "55": "וַֽיַּעְמֹד וַיְבָרֶךְ אֵת כָּל־קְהַל יִשְׂרָאֵל קוֹל גָּדוֹל לֵאמֹֽר׃",
+          "56": "בָּרוּךְ יְהוָה אֲשֶׁר נָתַן מְנוּחָה לְעַמּוֹ יִשְׂרָאֵל כְּכֹל אֲשֶׁר דִּבֵּר לֹֽא־נָפַל דָּבָר אֶחָד מִכֹּל דְּבָרוֹ הַטּוֹב אֲשֶׁר דִּבֶּר בְּיַד מֹשֶׁה עַבְדּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 56,
+        "end": 56
+      }
+    },
+    {
+      "id": "1-kings-08-57-57",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 57,
+        "quote_verse_end": 57,
+        "speaker_mention_verse": 55,
+        "listener_mention_verse": 55
+      },
+      "en": {
+        "quote": "The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us:",
+        "riddle": "The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us:",
+        "speaker": "Solomon",
+        "listener": "Israel",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "יְהִי יְהוָה אֱלֹהֵינוּ עִמָּנוּ כַּאֲשֶׁר הָיָה עִם־אֲבֹתֵינוּ אַל־יַעַזְבֵנוּ וְאַֽל־יִטְּשֵֽׁנוּ",
+        "riddle": "יְהִי יְהוָה אֱלֹהֵינוּ עִמָּנוּ כַּאֲשֶׁר הָיָה עִם־אֲבֹתֵינוּ אַל־יַעַזְבֵנוּ וְאַֽל־יִטְּשֵֽׁנוּ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "55": "And he stood, and blessed all the congregation of Israel with a loud voice, saying,",
+          "57": "The LORD our God be with us, as he was with our fathers: let him not leave us, nor forsake us:"
+        },
+        "he": {
+          "55": "וַֽיַּעְמֹד וַיְבָרֶךְ אֵת כָּל־קְהַל יִשְׂרָאֵל קוֹל גָּדוֹל לֵאמֹֽר׃",
+          "57": "יְהִי יְהוָה אֱלֹהֵינוּ עִמָּנוּ כַּאֲשֶׁר הָיָה עִם־אֲבֹתֵינוּ אַל־יַעַזְבֵנוּ וְאַֽל־יִטְּשֵֽׁנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer/command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 57,
+        "end": 57
+      }
+    },
+    {
+      "id": "1-kings-08-58-58",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 58,
+        "quote_verse_end": 58,
+        "speaker_mention_verse": 55,
+        "listener_mention_verse": 55
+      },
+      "en": {
+        "quote": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers.",
+        "riddle": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers.",
+        "speaker": "Solomon",
+        "listener": "Israel",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "לְהַטּוֹת לְבָבֵנוּ אֵלָיו לָלֶכֶת בְּכָל־דְּרָכָיו וְלִשְׁמֹר מִצְוֺתָיו וְחֻקָּיו וּמִשְׁפָּטָיו אֲשֶׁר צִוָּה אֶת־אֲבֹתֵֽינוּ",
+        "riddle": "לְהַטּוֹת לְבָבֵנוּ אֵלָיו לָלֶכֶת בְּכָל־דְּרָכָיו וְלִשְׁמֹר מִצְוֺתָיו וְחֻקָּיו וּמִשְׁפָּטָיו אֲשֶׁר צִוָּה אֶת־אֲבֹתֵֽינוּ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "55": "And he stood, and blessed all the congregation of Israel with a loud voice, saying,",
+          "58": "That he may incline our hearts unto him, to walk in all his ways, and to keep his commandments, and his statutes, and his judgments, which he commanded our fathers."
+        },
+        "he": {
+          "55": "וַֽיַּעְמֹד וַיְבָרֶךְ אֵת כָּל־קְהַל יִשְׂרָאֵל קוֹל גָּדוֹל לֵאמֹֽר׃",
+          "58": "לְהַטּוֹת לְבָבֵנוּ אֵלָיו לָלֶכֶת בְּכָל־דְּרָכָיו וְלִשְׁמֹר מִצְוֺתָיו וְחֻקָּיו וּמִשְׁפָּטָיו אֲשֶׁר צִוָּה אֶת־אֲבֹתֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer/command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 58,
+        "end": 58
+      }
+    },
+    {
+      "id": "1-kings-08-59-59",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 8,
+        "quote_verse_start": 59,
+        "quote_verse_end": 59,
+        "speaker_mention_verse": 55,
+        "listener_mention_verse": 55
+      },
+      "en": {
+        "quote": "And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require:",
+        "riddle": "And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require:",
+        "speaker": "Solomon",
+        "listener": "Israel",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְיִֽהְיוּ דְבָרַי אֵלֶּה אֲשֶׁר הִתְחַנַּנְתִּי לִפְנֵי יְהוָה קְרֹבִים אֶל־יְהוָה אֱלֹהֵינוּ יוֹמָם וָלָיְלָה לַעֲשׂוֹת מִשְׁפַּט עַבְדּוֹ וּמִשְׁפַּט עַמּוֹ יִשְׂרָאֵל דְּבַר־יוֹם בְּיוֹמֽוֹ",
+        "riddle": "וְיִֽהְיוּ דְבָרַי אֵלֶּה אֲשֶׁר הִתְחַנַּנְתִּי לִפְנֵי יְהוָה קְרֹבִים אֶל־יְהוָה אֱלֹהֵינוּ יוֹמָם וָלָיְלָה לַעֲשׂוֹת מִשְׁפַּט עַבְדּוֹ וּמִשְׁפַּט עַמּוֹ יִשְׂרָאֵל דְּבַר־יוֹם בְּיוֹמֽוֹ",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "55": "And he stood, and blessed all the congregation of Israel with a loud voice, saying,",
+          "59": "And let these my words, wherewith I have made supplication before the LORD, be nigh unto the LORD our God day and night, that he maintain the cause of his servant, and the cause of his people Israel at all times, as the matter shall require:"
+        },
+        "he": {
+          "55": "וַֽיַּעְמֹד וַיְבָרֶךְ אֵת כָּל־קְהַל יִשְׂרָאֵל קוֹל גָּדוֹל לֵאמֹֽר׃",
+          "59": "וְיִֽהְיוּ דְבָרַי אֵלֶּה אֲשֶׁר הִתְחַנַּנְתִּי לִפְנֵי יְהוָה קְרֹבִים אֶל־יְהוָה אֱלֹהֵינוּ יוֹמָם וָלָיְלָה לַעֲשׂוֹת ׀ מִשְׁפַּט עַבְדּוֹ וּמִשְׁפַּט עַמּוֹ יִשְׂרָאֵל דְּבַר־יוֹם בְּיוֹמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer/command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 59,
+        "end": 59
+      }
     }
   ],
   "stats": {
-    "window_count": 32,
+    "window_count": 7,
     "prefiltered_count": 0,
-    "llm_window_count": 32,
-    "kept_count": 2,
-    "issue_count": 30
+    "llm_window_count": 7,
+    "projection_llm_count": 18,
+    "llm_call_count": 25,
+    "spec_count": 18,
+    "kept_count": 16,
+    "issue_count": 2
   }
 }

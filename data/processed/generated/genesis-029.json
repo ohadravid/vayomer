@@ -6,19 +6,695 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-29-15-15",
+      "id": "genesis-29-04-04-2",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 29,
-        "quote_verse_start": 15,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Then Jacob went on his journey, and came into the land of the people of the east. And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+        "riddle": "Of Haran are we.",
+        "speaker": "shepherds",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ",
+        "riddle": "מֵחָרָן אֲנָֽחְנו",
+        "speaker": "הצאנים",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשָּׂא",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Jacob went on his journey, and came into the land of the people of the east.",
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם׃",
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-05-05-2",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Then Jacob went on his journey, and came into the land of the people of the east. And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+        "riddle": "We know him.",
+        "speaker": "shepherds",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ",
+        "riddle": "יָדָֽעְנו",
+        "speaker": "הרועים",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשָּׂא",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Jacob went on his journey, and came into the land of the people of the east.",
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם׃",
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-04-04-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Then Jacob went on his journey, and came into the land of the people of the east. And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+        "riddle": "My brethren, whence be ye?",
+        "speaker": "Jacob",
+        "listener": "shepherds",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+        "riddle": "אַחַי מֵאַיִן אַתֶּם",
+        "speaker": "יַעֲקֹב",
+        "listener": "רועים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשָּׂא",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Jacob went on his journey, and came into the land of the people of the east.",
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם׃",
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-05-05-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Then Jacob went on his journey, and came into the land of the people of the east. And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+        "riddle": "Know ye Laban the son of Nahor?",
+        "speaker": "Jacob",
+        "listener": "shepherds",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+        "riddle": "הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר",
+        "speaker": "יַעֲקֹב",
+        "listener": "הרועים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשָּׂא",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 13,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Jacob went on his journey, and came into the land of the people of the east.",
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם׃",
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-06-06-2",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "Then Jacob went on his journey, and came into the land of the people of the east. And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+        "riddle": "He is well",
+        "speaker": "shepherds",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sheep",
+        "bonus_hint": {
+          "quote": "And David rose up early in the morning, and left the sheep with a keeper, and took, and went, as Jesse had commanded him; and he came to the trench, as the host was going forth to the fight, and shouted for the battle.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+        "riddle": "שָׁלוֹם",
+        "speaker": "הרועים",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשָּׂא",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁכֵּם דָּוִד בַּבֹּקֶר וַיִּטֹּשׁ אֶת־הַצֹּאן עַל־שֹׁמֵר וַיִּשָּׂא וַיֵּלֶךְ כַּאֲשֶׁר צִוָּהוּ יִשָׁי וַיָּבֹא הַמַּעְגָּלָה וְהַחַיִל הַיֹּצֵא אֶל־הַמַּעֲרָכָה וְהֵרֵעוּ בַּמִּלְחָמָֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then Jacob went on his journey, and came into the land of the people of the east.",
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep."
+        },
+        "he": {
+          "1": "וַיִּשָּׂא יַעֲקֹב רַגְלָיו וַיֵּלֶךְ אַרְצָה בְנֵי־קֶֽדֶם׃",
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 2,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth. And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place. And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep. And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water ye the sheep, and go and feed them. And they said, We cannot, until all the flocks be gathered together, and till they roll the stone from the well's mouth; then we water the sheep.",
+        "riddle": "We cannot, until all the flocks be gathered together",
+        "speaker": "shepherds",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sheep",
+        "bonus_hint": {
+          "quote": "They took their sheep, and their oxen, and their asses, and that which was in the city, and that which was in the field,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 34,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן וַיֹּאמֶר הֵן עוֹד הַיּוֹם גָּדוֹל לֹא־עֵת הֵאָסֵף הַמִּקְנֶה הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽוּ וַיֹּאמְרוּ לֹא נוּכַל עַד אֲשֶׁר יֵאָֽסְפוּ כָּל־הָעֲדָרִים וְגָֽלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקִינוּ הַצֹּֽאן",
+        "riddle": "לֹא נוּכַל עַד אֲשֶׁר יֵאָֽסְפוּ כָּל־הָעֲדָרִים",
+        "speaker": "הרועים",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּשָּׂדֶה",
+        "bonus_hint": {
+          "quote": "אֶת־צֹאנָם וְאֶת־בְּקָרָם וְאֶת־חֲמֹרֵיהֶם וְאֵת אֲשֶׁר־בָּעִיר וְאֶת־אֲשֶׁר בַּשָּׂדֶה לָקָֽחוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 34,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he looked, and behold a well in the field, and, lo, there were three flocks of sheep lying by it; for out of that well they watered the flocks: and a great stone was upon the well's mouth.",
+          "3": "And thither were all the flocks gathered: and they rolled the stone from the well's mouth, and watered the sheep, and put the stone again upon the well's mouth in his place.",
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+          "7": "And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water ye the sheep, and go and feed them.",
+          "8": "And they said, We cannot, until all the flocks be gathered together, and till they roll the stone from the well's mouth; then we water the sheep."
+        },
+        "he": {
+          "2": "וַיַּרְא וְהִנֵּה בְאֵר בַּשָּׂדֶה וְהִנֵּה־שָׁם שְׁלֹשָׁה עֶדְרֵי־צֹאן רֹבְצִים עָלֶיהָ כִּי מִן־הַבְּאֵר הַהִוא יַשְׁקוּ הָעֲדָרִים וְהָאֶבֶן גְּדֹלָה עַל־פִּי הַבְּאֵֽר׃",
+          "3": "וְנֶאֶסְפוּ־שָׁמָּה כָל־הָעֲדָרִים וְגָלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקוּ אֶת־הַצֹּאן וְהֵשִׁיבוּ אֶת־הָאֶבֶן עַל־פִּי הַבְּאֵר לִמְקֹמָֽהּ׃",
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃",
+          "7": "וַיֹּאמֶר הֵן עוֹד הַיּוֹם גָּדוֹל לֹא־עֵת הֵאָסֵף הַמִּקְנֶה הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽוּ׃",
+          "8": "וַיֹּאמְרוּ לֹא נוּכַל עַד אֲשֶׁר יֵאָֽסְפוּ כָּל־הָעֲדָרִים וְגָֽלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקִינוּ הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 2,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-06-06-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 4,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+        "riddle": "Is he well?",
+        "speaker": "Jacob",
+        "listener": "shepherds",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Laban",
+        "bonus_hint": {
+          "quote": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן",
+        "riddle": "הֲשָׁלוֹם לוֹ",
+        "speaker": "יַעֲקֹב",
+        "listener": "רועים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָבָן",
+        "bonus_hint": {
+          "quote": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 4,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 4,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we. And he said unto them, Know ye Laban the son of Nahor? And they said, We know him. And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep. And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water ye the sheep, and go and feed them. And they said, We cannot, until all the flocks be gathered together, and till they roll the stone from the well's mouth; then we water the sheep.",
+        "riddle": "water ye the sheep, and go and feed them.",
+        "speaker": "Jacob",
+        "listener": "shepherds",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Rachel",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 30,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן וַיֹּאמֶר הֵן עוֹד הַיּוֹם גָּדוֹל לֹא־עֵת הֵאָסֵף הַמִּקְנֶה הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽוּ וַיֹּאמְרוּ לֹא נוּכַל עַד אֲשֶׁר יֵאָֽסְפוּ כָּל־הָעֲדָרִים וְגָֽלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקִינוּ הַצֹּֽאן",
+        "riddle": "הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽו",
+        "speaker": "יַעֲקֹב",
+        "listener": "הרועים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָבָן",
+        "bonus_hint": {
+          "quote": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 30,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Jacob said unto them, My brethren, whence be ye? And they said, Of Haran are we.",
+          "5": "And he said unto them, Know ye Laban the son of Nahor? And they said, We know him.",
+          "6": "And he said unto them, Is he well? And they said, He is well: and, behold, Rachel his daughter cometh with the sheep.",
+          "7": "And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water ye the sheep, and go and feed them.",
+          "8": "And they said, We cannot, until all the flocks be gathered together, and till they roll the stone from the well's mouth; then we water the sheep."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר לָהֶם יַעֲקֹב אַחַי מֵאַיִן אַתֶּם וַיֹּאמְרוּ מֵחָרָן אֲנָֽחְנוּ׃",
+          "5": "וַיֹּאמֶר לָהֶם הַיְדַעְתֶּם אֶת־לָבָן בֶּן־נָחוֹר וַיֹּאמְרוּ יָדָֽעְנוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם הֲשָׁלוֹם לוֹ וַיֹּאמְרוּ שָׁלוֹם וְהִנֵּה רָחֵל בִּתּוֹ בָּאָה עִם־הַצֹּֽאן׃",
+          "7": "וַיֹּאמֶר הֵן עוֹד הַיּוֹם גָּדוֹל לֹא־עֵת הֵאָסֵף הַמִּקְנֶה הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽוּ׃",
+          "8": "וַיֹּאמְרוּ לֹא נוּכַל עַד אֲשֶׁר יֵאָֽסְפוּ כָּל־הָעֲדָרִים וְגָֽלֲלוּ אֶת־הָאֶבֶן מֵעַל פִּי הַבְּאֵר וְהִשְׁקִינוּ הַצֹּֽאן׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 4,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 14,
         "quote_verse_end": 15
       },
       "en": {
-        "quote": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
-        "riddle": "what shall thy wages be?",
+        "quote": "And Laban said to him, Surely thou art my bone and my flesh. And he abode with him the space of a month. And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
+        "riddle": "Surely thou art my bone and my flesh.",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis",
@@ -28,18 +704,18 @@
         },
         "bonus": "brother",
         "bonus_hint": {
-          "quote": "And the LORD said unto Cain, Where is Abel thy brother? And he said, I know not: Am I my brother's keeper?",
+          "quote": "And if a sojourner or stranger wax rich by thee, and thy brother that dwelleth by him wax poor, and sell himself unto the stranger or sojourner by thee, or to the stock of the stranger's family:",
           "source": {
-            "book": "Genesis",
-            "chapter": 4,
-            "start": 9,
-            "end": 9
+            "book": "Leviticus",
+            "chapter": 25,
+            "start": 47,
+            "end": 47
           }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ",
-        "riddle": "מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "quote": "וַיֹּאמֶר לוֹ לָבָן אַךְ עַצְמִי וּבְשָׂרִי אָתָּה וַיֵּשֶׁב עִמּוֹ חֹדֶשׁ יָמִֽים וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ",
+        "riddle": "אַךְ עַצְמִי וּבְשָׂרִי אָתָּה וַיֵּשֶׁב עִמּו",
         "speaker": "לָבָן",
         "listener": "יַעֲקֹב",
         "book": "בראשית",
@@ -47,29 +723,183 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "אָחִי",
+        "bonus": "עִמּוֹ",
         "bonus_hint": {
-          "quote": "וַיֹּאמֶר יְהוָה אֶל־קַיִן אֵי הֶבֶל אָחִיךָ וַיֹּאמֶר לֹא יָדַעְתִּי הֲשֹׁמֵר אָחִי אָנֹֽכִי",
+          "quote": "וְכִי תַשִּׂיג יַד גֵּר וְתוֹשָׁב עִמָּךְ וּמָךְ אָחִיךָ עִמּוֹ וְנִמְכַּר לְגֵר תּוֹשָׁב עִמָּךְ אוֹ לְעֵקֶר מִשְׁפַּחַת גֵּֽר",
           "source": {
-            "book": "בראשית",
-            "chapter": 4,
-            "start": 9,
-            "end": 9
+            "book": "ויקרא",
+            "chapter": 25,
+            "start": 47,
+            "end": 47
           }
         }
       },
       "raw_quote_source": {
         "en": {
+          "14": "And Laban said to him, Surely thou art my bone and my flesh. And he abode with him the space of a month.",
           "15": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?"
         },
         "he": {
+          "14": "וַיֹּאמֶר לוֹ לָבָן אַךְ עַצְמִי וּבְשָׂרִי אָתָּה וַיֵּשֶׁב עִמּוֹ חֹדֶשׁ יָמִֽים׃",
           "15": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ׃"
         }
       },
       "ref": {
         "chapter": 29,
-        "start": 15,
+        "start": 14,
         "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 15,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be? And Laban had two daughters: the name of the elder was Leah, and the name of the younger was Rachel.",
+        "riddle": "Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "daughters",
+        "bonus_hint": {
+          "quote": "Behold now, I have two daughters which have not known man; let me, I pray you, bring them out unto you, and do ye to them as is good in your eyes: only unto these men do nothing; for therefore came they under the shadow of my roof.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 19,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ וּלְלָבָן שְׁתֵּי בָנוֹת שֵׁם הַגְּדֹלָה לֵאָה וְשֵׁם הַקְּטַנָּה רָחֵֽל",
+        "riddle": "הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽך",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שְׁתֵּי",
+        "bonus_hint": {
+          "quote": "הִנֵּה־נָא לִי שְׁתֵּי בָנוֹת אֲשֶׁר לֹֽא־יָדְעוּ אִישׁ אוֹצִֽיאָה־נָּא אֶתְהֶן אֲלֵיכֶם וַעֲשׂוּ לָהֶן כַּטּוֹב בְּעֵינֵיכֶם רַק לָֽאֲנָשִׁים הָאֵל אַל־תַּעֲשׂוּ דָבָר כִּֽי־עַל־כֵּן בָּאוּ בְּצֵל קֹרָתִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 19,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Laban said unto Jacob, Because thou art my brother, shouldest thou therefore serve me for nought? tell me, what shall thy wages be?",
+          "16": "And Laban had two daughters: the name of the elder was Leah, and the name of the younger was Rachel."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הֲכִי־אָחִי אַתָּה וַעֲבַדְתַּנִי חִנָּם הַגִּידָה לִּי מַה־מַּשְׂכֻּרְתֶּֽךָ׃",
+          "16": "וּלְלָבָן שְׁתֵּי בָנוֹת שֵׁם הַגְּדֹלָה לֵאָה וְשֵׁם הַקְּטַנָּה רָחֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 15,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-29-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 29,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And Jacob loved Rachel; and said, I will serve thee seven years for Rachel thy younger daughter. And Laban said, It is better that I give her to thee, than that I should give her to another man: abide with me.",
+        "riddle": "I will serve thee seven years for Rachel thy younger daughter.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "loved",
+        "bonus_hint": {
+          "quote": "And Isaac loved Esau, because he did eat of his venison: but Rebekah loved Jacob.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֶּאֱהַב יַעֲקֹב אֶת־רָחֵל וַיֹּאמֶר אֶֽעֱבָדְךָ שֶׁבַע שָׁנִים בְּרָחֵל בִּתְּךָ הַקְּטַנָּֽה וַיֹּאמֶר לָבָן טוֹב תִּתִּי אֹתָהּ לָךְ מִתִּתִּי אֹתָהּ לְאִישׁ אַחֵר שְׁבָה עִמָּדִֽי",
+        "riddle": "אֶֽעֱבָדְךָ שֶׁבַע שָׁנִים בְּרָחֵל בִּתְּךָ הַקְּטַנָּֽה",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֶּאֱהַב",
+        "bonus_hint": {
+          "quote": "וַיֶּאֱהַב יִצְחָק אֶת־עֵשָׂו כִּי־צַיִד בְּפִיו וְרִבְקָה אֹהֶבֶת אֶֽת־יַעֲקֹֽב",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Jacob loved Rachel; and said, I will serve thee seven years for Rachel thy younger daughter.",
+          "19": "And Laban said, It is better that I give her to thee, than that I should give her to another man: abide with me."
+        },
+        "he": {
+          "18": "וַיֶּאֱהַב יַעֲקֹב אֶת־רָחֵל וַיֹּאמֶר אֶֽעֱבָדְךָ שֶׁבַע שָׁנִים בְּרָחֵל בִּתְּךָ הַקְּטַנָּֽה׃",
+          "19": "וַיֹּאמֶר לָבָן טוֹב תִּתִּי אֹתָהּ לָךְ מִתִּתִּי אֹתָהּ לְאִישׁ אַחֵר שְׁבָה עִמָּדִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 29,
+        "start": 18,
+        "end": 19
       },
       "meta": {
         "mode": "llm",

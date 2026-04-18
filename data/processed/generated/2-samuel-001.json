@@ -1,0 +1,825 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-01-03-03-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag; It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance. And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+        "riddle": "From whence comest thou?",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "death",
+        "bonus_hint": {
+          "quote": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי",
+        "riddle": "אֵי מִזֶּה תָּבוֹא",
+        "speaker": "דָּוִד",
+        "listener": "אִישׁ",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת־יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם־בְּאֵר לַחַי רֹאִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag;",
+          "2": "It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance.",
+          "3": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם׃",
+          "2": "וַיְהִי ׀ בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ׃",
+          "3": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag; It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance. And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped. And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also.",
+        "riddle": "How went the matter? I pray thee, tell me.",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "death",
+        "bonus_hint": {
+          "quote": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ",
+        "riddle": "מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי",
+        "speaker": "דָּוִד",
+        "listener": "אִישׁ",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת־יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם־בְּאֵר לַחַי רֹאִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag;",
+          "2": "It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance.",
+          "3": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+          "4": "And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם׃",
+          "2": "וַיְהִי ׀ בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ׃",
+          "3": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי׃",
+          "4": "וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag; It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance. And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped. And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also. And David said unto the young man that told him, How knowest thou that Saul and Jonathan his son be dead? And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him.",
+        "riddle": "How knowest thou that Saul and Jonathan his son be dead?",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "death",
+        "bonus_hint": {
+          "quote": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם וַיְהִי בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ וַיֹּאמֶר הַנַּעַר הַמַּגִּיד לוֹ נִקְרֹא נִקְרֵיתִי בְּהַר הַגִּלְבֹּעַ וְהִנֵּה שָׁאוּל נִשְׁעָן עַל־חֲנִיתוֹ וְהִנֵּה הָרֶכֶב וּבַעֲלֵי הַפָּרָשִׁים הִדְבִּקֻֽהוּ",
+        "riddle": "אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ",
+        "speaker": "דָּוִד",
+        "listener": "הַנַּעַר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת־יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם־בְּאֵר לַחַי רֹאִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now it came to pass after the death of Saul, when David was returned from the slaughter of the Amalekites, and David had abode two days in Ziklag;",
+          "2": "It came even to pass on the third day, that, behold, a man came out of the camp from Saul with his clothes rent, and earth upon his head: and so it was, when he came to David, that he fell to the earth, and did obeisance.",
+          "3": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+          "4": "And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also.",
+          "5": "And David said unto the young man that told him, How knowest thou that Saul and Jonathan his son be dead?",
+          "6": "And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him."
+        },
+        "he": {
+          "1": "וַיְהִי אַֽחֲרֵי מוֹת שָׁאוּל וְדָוִד שָׁב מֵהַכּוֹת אֶת־הָעֲמָלֵק וַיֵּשֶׁב דָּוִד בְּצִקְלָג יָמִים שְׁנָֽיִם׃",
+          "2": "וַיְהִי ׀ בַּיּוֹם הַשְּׁלִישִׁי וְהִנֵּה אִישׁ בָּא מִן־הַֽמַּחֲנֶה מֵעִם שָׁאוּל וּבְגָדָיו קְרֻעִים וַאֲדָמָה עַל־רֹאשׁוֹ וַיְהִי בְּבֹאוֹ אֶל־דָּוִד וַיִּפֹּל אַרְצָה וַיִּשְׁתָּֽחוּ׃",
+          "3": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי׃",
+          "4": "וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ׃",
+          "5": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ׃",
+          "6": "וַיֹּאמֶר הַנַּעַר ׀ הַמַּגִּיד לוֹ נִקְרֹא נִקְרֵיתִי בְּהַר הַגִּלְבֹּעַ וְהִנֵּה שָׁאוּל נִשְׁעָן עַל־חֲנִיתוֹ וְהִנֵּה הָרֶכֶב וּבַעֲלֵי הַפָּרָשִׁים הִדְבִּקֻֽהוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him. And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+        "riddle": "Here am I.",
+        "speaker": "young man",
+        "listener": "Saul",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "spear",
+        "bonus_hint": {
+          "quote": "And the staff of his spear was like a weaver's beam; and his spear's head weighed six hundred shekels of iron: and one bearing a shield went before him.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַנַּעַר הַמַּגִּיד לוֹ נִקְרֹא נִקְרֵיתִי בְּהַר הַגִּלְבֹּעַ וְהִנֵּה שָׁאוּל נִשְׁעָן עַל־חֲנִיתוֹ וְהִנֵּה הָרֶכֶב וּבַעֲלֵי הַפָּרָשִׁים הִדְבִּקֻֽהוּ וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי",
+        "riddle": "וָאֹמַר הִנֵּֽנִי",
+        "speaker": "הַנַּעַר",
+        "listener": "שָׁאוּל",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "חֲנִיתוֹ",
+        "bonus_hint": {
+          "quote": "וְעֵץ חֲנִיתוֹ כִּמְנוֹר אֹֽרְגִים וְלַהֶבֶת חֲנִיתוֹ שֵׁשׁ־מֵאוֹת שְׁקָלִים בַּרְזֶל וְנֹשֵׂא הַצִּנָּה הֹלֵךְ לְפָנָֽיו",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the young man that told him said, As I happened by chance upon mount Gilboa, behold, Saul leaned upon his spear; and, lo, the chariots and horsemen followed hard after him.",
+          "7": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר הַנַּעַר ׀ הַמַּגִּיד לוֹ נִקְרֹא נִקְרֵיתִי בְּהַר הַגִּלְבֹּעַ וְהִנֵּה שָׁאוּל נִשְׁעָן עַל־חֲנִיתוֹ וְהִנֵּה הָרֶכֶב וּבַעֲלֵי הַפָּרָשִׁים הִדְבִּקֻֽהוּ׃",
+          "7": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-08-08-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I. And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+        "riddle": "Who art thou?",
+        "speaker": "Amalekite",
+        "listener": "God",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "behind",
+        "bonus_hint": {
+          "quote": "But when the flame began to arise up out of the city with a pillar of smoke, the Benjamites looked behind them, and, behold, the flame of the city ascended up to heaven.",
+          "source": {
+            "book": "Judges",
+            "chapter": 20,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "מִי־אָתָּה",
+        "speaker": "עֲמָלֵקִי",
+        "listener": "אלוהים",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּפֶן",
+        "bonus_hint": {
+          "quote": "וְהַמַּשְׂאֵת הֵחֵלָּה לַעֲלוֹת מִן־הָעִיר עַמּוּד עָשָׁן וַיִּפֶן בִּנְיָמִן אַחֲרָיו וְהִנֵּה עָלָה כְלִיל־הָעִיר הַשָּׁמָֽיְמָה",
+          "source": {
+            "book": "שופטים",
+            "chapter": 20,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite."
+        },
+        "he": {
+          "7": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי׃",
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I. And he said unto me, Who art thou? And I answered him, I am an Amalekite. And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me.",
+        "riddle": "Stand, I pray thee, upon me, and slay me",
+        "speaker": "Amalekite",
+        "listener": "Samuel",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "anguish",
+        "bonus_hint": {
+          "quote": "For I have heard a voice as of a woman in travail, and the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, that bewaileth herself, that spreadeth her hands, saying, Woe is me now! for my soul is wearied because of murderers.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 4,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי",
+        "riddle": "עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ",
+        "speaker": "עֲמָלֵקִי",
+        "listener": "אֵלָי",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "נַפְשִׁי",
+        "bonus_hint": {
+          "quote": "כִּי קוֹל כְּחוֹלָה שָׁמַעְתִּי צָרָה כְּמַבְכִּירָה קוֹל בַּת־צִיּוֹן תִּתְיַפֵּחַ תְּפָרֵשׂ כַּפֶּיהָ אֽוֹי־נָא לִי כִּֽי־עָיְפָה נַפְשִׁי לְהֹרְגִֽים",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 4,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+          "9": "And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me."
+        },
+        "he": {
+          "7": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי׃",
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃",
+          "9": "וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-13-13-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I. And he said unto me, Who art thou? And I answered him, I am an Amalekite. And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me. So I stood upon him, and slew him, because I was sure that he could not live after that he was fallen: and I took the crown that was upon his head, and the bracelet that was on his arm, and have brought them hither unto my lord. Then David took hold on his clothes, and rent them; and likewise all the men that were with him: And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and for the people of the LORD, and for the house of Israel; because they were fallen by the sword. And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+        "riddle": "I am the son of a stranger, an Amalekite.",
+        "speaker": "Amalekite young man",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "slay",
+        "bonus_hint": {
+          "quote": "And I say unto thee, Let my son go, that he may serve me: and if thou refuse to let him go, behold, I will slay thy son, even thy firstborn.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי וָאֶעֱמֹד עָלָיו וַאֲמֹתְתֵהוּ כִּי יָדַעְתִּי כִּי לֹא יִֽחְיֶה אַחֲרֵי נִפְלוֹ וָאֶקַּח הַנֵּזֶר אֲשֶׁר עַל־רֹאשׁוֹ וְאֶצְעָדָה אֲשֶׁר עַל־זְרֹעוֹ וָאֲבִיאֵם אֶל־אֲדֹנִי הֵֽנָּה וַיַּחֲזֵק דָּוִד בִּבְגָדָיו וַיִּקְרָעֵם וְגַם כָּל־הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ וַֽיִּסְפְּדוּ וַיִּבְכּוּ וַיָּצֻמוּ עַד־הָעָרֶב עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנוֹ וְעַל־עַם יְהוָה וְעַל־בֵּית יִשְׂרָאֵל כִּי נָפְלוּ בֶּחָֽרֶב וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי",
+        "speaker": "הַנַּעַר",
+        "listener": "דָּוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וָאֹמַר",
+        "bonus_hint": {
+          "quote": "וָאֹמַר אֵלֶיךָ שַׁלַּח אֶת־בְּנִי וְיַֽעַבְדֵנִי וַתְּמָאֵן לְשַׁלְּחוֹ הִנֵּה אָנֹכִי הֹרֵג אֶת־בִּנְךָ בְּכֹרֶֽךָ",
+          "source": {
+            "book": "שמות",
+            "chapter": 4,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+          "9": "And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me.",
+          "10": "So I stood upon him, and slew him, because I was sure that he could not live after that he was fallen: and I took the crown that was upon his head, and the bracelet that was on his arm, and have brought them hither unto my lord.",
+          "11": "Then David took hold on his clothes, and rent them; and likewise all the men that were with him:",
+          "12": "And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and for the people of the LORD, and for the house of Israel; because they were fallen by the sword.",
+          "13": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite."
+        },
+        "he": {
+          "7": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי׃",
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃",
+          "9": "וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי׃",
+          "10": "וָאֶעֱמֹד עָלָיו וַאֲמֹתְתֵהוּ כִּי יָדַעְתִּי כִּי לֹא יִֽחְיֶה אַחֲרֵי נִפְלוֹ וָאֶקַּח הַנֵּזֶר ׀ אֲשֶׁר עַל־רֹאשׁוֹ וְאֶצְעָדָה אֲשֶׁר עַל־זְרֹעוֹ וָאֲבִיאֵם אֶל־אֲדֹנִי הֵֽנָּה׃",
+          "11": "וַיַּחֲזֵק דָּוִד בִּבְגָדָיו וַיִּקְרָעֵם וְגַם כָּל־הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ׃",
+          "12": "וַֽיִּסְפְּדוּ וַיִּבְכּוּ וַיָּצֻמוּ עַד־הָעָרֶב עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנוֹ וְעַל־עַם יְהוָה וְעַל־בֵּית יִשְׂרָאֵל כִּי נָפְלוּ בֶּחָֽרֶב׃",
+          "13": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-13-13-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And he said unto me, Who art thou? And I answered him, I am an Amalekite. And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me. So I stood upon him, and slew him, because I was sure that he could not live after that he was fallen: and I took the crown that was upon his head, and the bracelet that was on his arm, and have brought them hither unto my lord. Then David took hold on his clothes, and rent them; and likewise all the men that were with him: And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and for the people of the LORD, and for the house of Israel; because they were fallen by the sword. And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite. And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?",
+        "riddle": "Whence art thou?",
+        "speaker": "David",
+        "listener": "Amalekite young man",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "anguish",
+        "bonus_hint": {
+          "quote": "For I have heard a voice as of a woman in travail, and the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, that bewaileth herself, that spreadeth her hands, saying, Woe is me now! for my soul is wearied because of murderers.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 4,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי וָאֶעֱמֹד עָלָיו וַאֲמֹתְתֵהוּ כִּי יָדַעְתִּי כִּי לֹא יִֽחְיֶה אַחֲרֵי נִפְלוֹ וָאֶקַּח הַנֵּזֶר אֲשֶׁר עַל־רֹאשׁוֹ וְאֶצְעָדָה אֲשֶׁר עַל־זְרֹעוֹ וָאֲבִיאֵם אֶל־אֲדֹנִי הֵֽנָּה וַיַּחֲזֵק דָּוִד בִּבְגָדָיו וַיִּקְרָעֵם וְגַם כָּל־הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ וַֽיִּסְפְּדוּ וַיִּבְכּוּ וַיָּצֻמוּ עַד־הָעָרֶב עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנוֹ וְעַל־עַם יְהוָה וְעַל־בֵּית יִשְׂרָאֵל כִּי נָפְלוּ בֶּחָֽרֶב וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה",
+        "riddle": "אֵי מִזֶּה אָתָּה",
+        "speaker": "דָּוִד",
+        "listener": "הַנַּעַר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "נַפְשִׁי",
+        "bonus_hint": {
+          "quote": "כִּי קוֹל כְּחוֹלָה שָׁמַעְתִּי צָרָה כְּמַבְכִּירָה קוֹל בַּת־צִיּוֹן תִּתְיַפֵּחַ תְּפָרֵשׂ כַּפֶּיהָ אֽוֹי־נָא לִי כִּֽי־עָיְפָה נַפְשִׁי לְהֹרְגִֽים",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 4,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+          "9": "And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me.",
+          "10": "So I stood upon him, and slew him, because I was sure that he could not live after that he was fallen: and I took the crown that was upon his head, and the bracelet that was on his arm, and have brought them hither unto my lord.",
+          "11": "Then David took hold on his clothes, and rent them; and likewise all the men that were with him:",
+          "12": "And they mourned, and wept, and fasted until even, for Saul, and for Jonathan his son, and for the people of the LORD, and for the house of Israel; because they were fallen by the sword.",
+          "13": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+          "14": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃",
+          "9": "וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי׃",
+          "10": "וָאֶעֱמֹד עָלָיו וַאֲמֹתְתֵהוּ כִּי יָדַעְתִּי כִּי לֹא יִֽחְיֶה אַחֲרֵי נִפְלוֹ וָאֶקַּח הַנֵּזֶר ׀ אֲשֶׁר עַל־רֹאשׁוֹ וְאֶצְעָדָה אֲשֶׁר עַל־זְרֹעוֹ וָאֲבִיאֵם אֶל־אֲדֹנִי הֵֽנָּה׃",
+          "11": "וַיַּחֲזֵק דָּוִד בִּבְגָדָיו וַיִּקְרָעֵם וְגַם כָּל־הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ׃",
+          "12": "וַֽיִּסְפְּדוּ וַיִּבְכּוּ וַיָּצֻמוּ עַד־הָעָרֶב עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנוֹ וְעַל־עַם יְהוָה וְעַל־בֵּית יִשְׂרָאֵל כִּי נָפְלוּ בֶּחָֽרֶב׃",
+          "13": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי׃",
+          "14": "וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite. And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?",
+        "riddle": "How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?",
+        "speaker": "David",
+        "listener": "young man",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "stranger",
+        "bonus_hint": {
+          "quote": "And all Israel, and their elders, and officers, and their judges, stood on this side the ark and on that side before the priests the Levites, which bare the ark of the covenant of the LORD, as well the stranger, as he that was born among them; half of them over against mount Gerizim, and half of them over against mount Ebal; as Moses the servant of the LORD had commanded before, that they should bless the people of Israel.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 8,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה",
+        "riddle": "אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה",
+        "speaker": "דָּוִד",
+        "listener": "הַנַּעַר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מִזֶּה",
+        "bonus_hint": {
+          "quote": "וְכָל־יִשְׂרָאֵל וּזְקֵנָיו וְשֹׁטְרִים וְשֹׁפְטָיו עֹמְדִים מִזֶּה וּמִזֶּה לָאָרוֹן נֶגֶד הַכֹּהֲנִים הַלְוִיִּם נֹשְׂאֵי אֲרוֹן בְּרִית־יְהוָה כַּגֵּר כָּֽאֶזְרָח חֶצְיוֹ אֶל־מוּל הַר־גְּרִזִים וְהַֽחֶצְיוֹ אֶל־מוּל הַר־עֵיבָל כַּאֲשֶׁר צִוָּה מֹשֶׁה עֶֽבֶד־יְהוָה לְבָרֵךְ אֶת־הָעָם יִשְׂרָאֵל בָּרִאשֹׁנָֽה",
+          "source": {
+            "book": "יהושע",
+            "chapter": 8,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+          "14": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי׃",
+          "14": "וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-01-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 17,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And David lamented with this lamentation over Saul and over Jonathan his son: (Also he bade them teach the children of Judah the use of the bow: behold, it is written in the book of Jasher.) The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+        "riddle": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+        "speaker": "David",
+        "listener": "Saul and Jonathan",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bow",
+        "bonus_hint": {
+          "quote": "Thou shalt not bow down thyself to them, nor serve them: for I the LORD thy God am a jealous God, visiting the iniquity of the fathers upon the children unto the third and fourth generation of them that hate me;",
+          "source": {
+            "book": "Exodus",
+            "chapter": 20,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְקֹנֵן דָּוִד אֶת־הַקִּינָה הַזֹּאת עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנֽוֹ וַיֹּאמֶר לְלַמֵּד בְּנֵֽי־יְהוּדָה קָשֶׁת הִנֵּה כְתוּבָה עַל־סֵפֶר הַיָּשָֽׁר הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים",
+        "riddle": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים",
+        "speaker": "דָּוִד",
+        "listener": "שָׁאוּל ויהונתן",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְעַל",
+        "bonus_hint": {
+          "quote": "לֹֽא־תִשְׁתַּחְוֶה לָהֶם וְלֹא תָעָבְדֵם כִּי אָֽנֹכִי יְהוָה אֱלֹהֶיךָ אֵל קַנָּא פֹּקֵד עֲוֺן אָבֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִים לְשֹׂנְאָֽי",
+          "source": {
+            "book": "שמות",
+            "chapter": 20,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And David lamented with this lamentation over Saul and over Jonathan his son:",
+          "18": "(Also he bade them teach the children of Judah the use of the bow: behold, it is written in the book of Jasher.)",
+          "19": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!"
+        },
+        "he": {
+          "17": "וַיְקֹנֵן דָּוִד אֶת־הַקִּינָה הַזֹּאת עַל־שָׁאוּל וְעַל־יְהוֹנָתָן בְּנֽוֹ׃",
+          "18": "וַיֹּאמֶר לְלַמֵּד בְּנֵֽי־יְהוּדָה קָשֶׁת הִנֵּה כְתוּבָה עַל־סֵפֶר הַיָּשָֽׁר׃",
+          "19": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 17,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

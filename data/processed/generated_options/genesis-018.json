@@ -6,7 +6,107 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-18-09-09",
+      "id": "genesis-18-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 1,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the LORD appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day; And he lift up his eyes and looked, and, lo, three men stood by him: and when he saw them, he ran to meet them from the tent door, and bowed himself toward the ground, And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant: Let a little water, I pray you, be fetched, and wash your feet, and rest yourselves under the tree: And I will fetch a morsel of bread, and comfort ye your hearts; after that ye shall pass on: for therefore are ye come to your servant. And they said, So do, as thou hast said.",
+        "riddle": "So do, as thou hast said.",
+        "speaker": "three men",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "sons of Jacob",
+            "Israelites",
+            "elders of Israel"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Isaac"
+          ]
+        },
+        "bonus": "tent",
+        "bonus_hint": {
+          "quote": "And Jael went out to meet Sisera, and said unto him, Turn in, my lord, turn in to me; fear not. And when he had turned in unto her into the tent, she covered him with a mantle.",
+          "source": {
+            "book": "Judges",
+            "chapter": 4,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּרָא אֵלָיו יְהוָה בְּאֵלֹנֵי מַמְרֵא וְהוּא יֹשֵׁב פֶּֽתַח־הָאֹהֶל כְּחֹם הַיּֽוֹם וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה שְׁלֹשָׁה אֲנָשִׁים נִצָּבִים עָלָיו וַיַּרְא וַיָּרָץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל וַיִּשְׁתַּחוּ אָֽרְצָה וַיֹּאמַר אֲדֹנָי אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּֽךָ יֻקַּֽח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִֽשָּׁעֲנוּ תַּחַת הָעֵֽץ וְאֶקְחָה פַת־לֶחֶם וְסַעֲדוּ לִבְּכֶם אַחַר תַּעֲבֹרוּ כִּֽי־עַל־כֵּן עֲבַרְתֶּם עַֽל־עַבְדְּכֶם וַיֹּאמְרוּ כֵּן תַּעֲשֶׂה כַּאֲשֶׁר דִּבַּֽרְתָּ",
+        "riddle": "כֵּן תַּעֲשֶׂה כַּאֲשֶׁר דִּבַּֽרְת",
+        "speaker": "שְׁלֹשָׁה אֲנָשִׁים",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בְנֵֽי־יַעֲקֹב",
+            "בְּנֵי יִשְׂרָאֵל",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַתֵּצֵא יָעֵל לִקְרַאת סִֽיסְרָא וַתֹּאמֶר אֵלָיו סוּרָה אֲדֹנִי סוּרָה אֵלַי אַל־תִּירָא וַיָּסַר אֵלֶיהָ הָאֹהֱלָה וַתְּכַסֵּהוּ בַּשְּׂמִיכָֽה",
+          "source": {
+            "book": "שופטים",
+            "chapter": 4,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD appeared unto him in the plains of Mamre: and he sat in the tent door in the heat of the day;",
+          "2": "And he lift up his eyes and looked, and, lo, three men stood by him: and when he saw them, he ran to meet them from the tent door, and bowed himself toward the ground,",
+          "3": "And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant:",
+          "4": "Let a little water, I pray you, be fetched, and wash your feet, and rest yourselves under the tree:",
+          "5": "And I will fetch a morsel of bread, and comfort ye your hearts; after that ye shall pass on: for therefore are ye come to your servant. And they said, So do, as thou hast said."
+        },
+        "he": {
+          "1": "וַיֵּרָא אֵלָיו יְהוָה בְּאֵלֹנֵי מַמְרֵא וְהוּא יֹשֵׁב פֶּֽתַח־הָאֹהֶל כְּחֹם הַיּֽוֹם׃",
+          "2": "וַיִּשָּׂא עֵינָיו וַיַּרְא וְהִנֵּה שְׁלֹשָׁה אֲנָשִׁים נִצָּבִים עָלָיו וַיַּרְא וַיָּרָץ לִקְרָאתָם מִפֶּתַח הָאֹהֶל וַיִּשְׁתַּחוּ אָֽרְצָה׃",
+          "3": "וַיֹּאמַר אֲדֹנָי אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּֽךָ׃",
+          "4": "יֻקַּֽח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִֽשָּׁעֲנוּ תַּחַת הָעֵֽץ׃",
+          "5": "וְאֶקְחָה פַת־לֶחֶם וְסַעֲדוּ לִבְּכֶם אַחַר תַּעֲבֹרוּ כִּֽי־עַל־כֵּן עֲבַרְתֶּם עַֽל־עַבְדְּכֶם וַיֹּאמְרוּ כֵּן תַּעֲשֶׂה כַּאֲשֶׁר דִּבַּֽרְתָּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 1,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-09-09-1",
       "source": {
         "method": "llm",
         "book_code": "GEN",
@@ -19,29 +119,29 @@
       "en": {
         "quote": "And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant: Let a little water, I pray you, be fetched, and wash your feet, and rest yourselves under the tree: And I will fetch a morsel of bread, and comfort ye your hearts; after that ye shall pass on: for therefore are ye come to your servant. And they said, So do, as thou hast said. And Abraham hastened into the tent unto Sarah, and said, Make ready quickly three measures of fine meal, knead it, and make cakes upon the hearth. And Abraham ran unto the herd, and fetcht a calf tender and good, and gave it unto a young man; and he hasted to dress it. And he took butter, and milk, and the calf which he had dressed, and set it before them; and he stood by them under the tree, and they did eat. And they said unto him, Where is Sarah thy wife? And he said, Behold, in the tent.",
         "riddle": "Where is Sarah thy wife?",
-        "speaker": "Visitors",
+        "speaker": "visitors",
         "listener": "Abraham",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Abimelech",
-            "Laban",
-            "Balaam"
+            "Joseph",
+            "Pharaoh",
+            "Abimelech"
           ],
           "listener": [
-            "Jacob",
             "Joseph",
-            "Lot"
+            "Pharaoh",
+            "Isaac"
           ]
         },
         "bonus": "water",
         "bonus_hint": {
-          "quote": "And Abraham rose up early in the morning, and took bread, and a bottle of water, and gave it unto Hagar, putting it on her shoulder, and the child, and sent her away: and she departed, and wandered in the wilderness of Beer-sheba.",
+          "quote": "And though the Lord give you the bread of adversity, and the water of affliction, yet shall not thy teachers be removed into a corner any more, but thine eyes shall see thy teachers:",
           "source": {
-            "book": "Genesis",
-            "chapter": 21,
-            "start": 14,
-            "end": 14
+            "book": "Isaiah",
+            "chapter": 30,
+            "start": 20,
+            "end": 20
           }
         }
       },
@@ -53,24 +153,24 @@
         "book": "בראשית",
         "options": {
           "speaker": [
-            "אֲבִימֶלֶךְ",
-            "לָבָן",
-            "בִּלְעָם"
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "אֲבִימֶלֶךְ"
           ],
           "listener": [
-            "יַעֲקֹב",
             "יוֹסֵף",
-            "לוֹט"
+            "פַרְעֹה",
+            "יִצְחָק"
           ]
         },
-        "bonus": "מַיִם",
+        "bonus": "אֲדֹנָי",
         "bonus_hint": {
-          "quote": "וַיַּשְׁכֵּם אַבְרָהָם בַּבֹּקֶר וַיִּֽקַּֽח־לֶחֶם וְחֵמַת מַיִם וַיִּתֵּן אֶל־הָגָר שָׂם עַל־שִׁכְמָהּ וְאֶת־הַיֶּלֶד וַֽיְשַׁלְּחֶהָ וַתֵּלֶךְ וַתֵּתַע בְּמִדְבַּר בְּאֵר שָֽׁבַע",
+          "quote": "וְנָתַן לָכֶם אֲדֹנָי לֶחֶם צָר וּמַיִם לָחַץ וְלֹֽא־יִכָּנֵף עוֹד מוֹרֶיךָ וְהָיוּ עֵינֶיךָ רֹאוֹת אֶת־מוֹרֶֽיךָ",
           "source": {
-            "book": "בראשית",
-            "chapter": 21,
-            "start": 14,
-            "end": 14
+            "book": "ישעיהו",
+            "chapter": 30,
+            "start": 20,
+            "end": 20
           }
         }
       },
@@ -98,6 +198,752 @@
         "chapter": 18,
         "start": 3,
         "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Abraham hastened into the tent unto Sarah, and said, Make ready quickly three measures of fine meal, knead it, and make cakes upon the hearth.",
+        "riddle": "Make ready quickly three measures of fine meal, knead it, and make cakes upon the hearth.",
+        "speaker": "Abraham",
+        "listener": "Sarah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Isaac",
+            "Moses"
+          ],
+          "listener": [
+            "Rebekah",
+            "Jacob",
+            "Joseph"
+          ]
+        },
+        "bonus": "tent",
+        "bonus_hint": {
+          "quote": "And Isaac brought her into his mother Sarah's tent, and took Rebekah, and she became his wife; and he loved her: and Isaac was comforted after his mother's death.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 67,
+            "end": 67
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְמַהֵר אַבְרָהָם הָאֹהֱלָה אֶל־שָׂרָה וַיֹּאמֶר מַהֲרִי שְׁלֹשׁ סְאִים קֶמַח סֹלֶת לוּשִׁי וַעֲשִׂי עֻגֽוֹת",
+        "riddle": "מַהֲרִי שְׁלֹשׁ סְאִים קֶמַח סֹלֶת לוּשִׁי וַעֲשִׂי עֻגֽוֹת",
+        "speaker": "אַבְרָהָם",
+        "listener": "שָׂרָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "רִבְקָה",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "הָאֹהֱלָה",
+        "bonus_hint": {
+          "quote": "וַיְבִאֶהָ יִצְחָק הָאֹהֱלָה שָׂרָה אִמּוֹ וַיִּקַּח אֶת־רִבְקָה וַתְּהִי־לוֹ לְאִשָּׁה וַיֶּאֱהָבֶהָ וַיִּנָּחֵם יִצְחָק אַחֲרֵי אִמּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 67,
+            "end": 67
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Abraham hastened into the tent unto Sarah, and said, Make ready quickly three measures of fine meal, knead it, and make cakes upon the hearth."
+        },
+        "he": {
+          "6": "וַיְמַהֵר אַבְרָהָם הָאֹהֱלָה אֶל־שָׂרָה וַיֹּאמֶר מַהֲרִי שְׁלֹשׁ סְאִים קֶמַח סֹלֶת לוּשִׁי וַעֲשִׂי עֻגֽוֹת׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 6,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 7,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And Abraham ran unto the herd, and fetcht a calf tender and good, and gave it unto a young man; and he hasted to dress it. And he took butter, and milk, and the calf which he had dressed, and set it before them; and he stood by them under the tree, and they did eat. And they said unto him, Where is Sarah thy wife? And he said, Behold, in the tent. And he said, I will certainly return unto thee according to the time of life; and, lo, Sarah thy wife shall have a son. And Sarah heard it in the tent door, which was behind him.",
+        "riddle": "I will certainly return unto thee according to the time of life; and, lo, Sarah thy wife shall have a son.",
+        "speaker": "young man",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ],
+          "listener": [
+            "Joseph",
+            "Isaac",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "calf",
+        "bonus_hint": {
+          "quote": "And unto the children of Israel thou shalt speak, saying, Take ye a kid of the goats for a sin offering; and a calf and a lamb, both of the first year, without blemish, for a burnt offering;",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 9,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאֶל־הַבָּקָר רָץ אַבְרָהָם וַיִּקַּח בֶּן־בָּקָר רַךְ וָטוֹב וַיִּתֵּן אֶל־הַנַּעַר וַיְמַהֵר לַעֲשׂוֹת אֹתֽוֹ וַיִּקַּח חֶמְאָה וְחָלָב וּבֶן־הַבָּקָר אֲשֶׁר עָשָׂה וַיִּתֵּן לִפְנֵיהֶם וְהֽוּא־עֹמֵד עֲלֵיהֶם תַּחַת הָעֵץ וַיֹּאכֵֽלוּ וַיֹּאמְרוּ אֵׄלָׄיׄוׄ אַיֵּה שָׂרָה אִשְׁתֶּךָ וַיֹּאמֶר הִנֵּה בָאֹֽהֶל וַיֹּאמֶר שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּךָ וְשָׂרָה שֹׁמַעַת פֶּתַח הָאֹהֶל וְהוּא אַחֲרָֽיו",
+        "riddle": "שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּך",
+        "speaker": "הַנַּעַר",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "וְאֶל",
+        "bonus_hint": {
+          "quote": "וְאֶל־בְּנֵי יִשְׂרָאֵל תְּדַבֵּר לֵאמֹר קְחוּ שְׂעִיר־עִזִּים לְחַטָּאת וְעֵגֶל וָכֶבֶשׂ בְּנֵי־שָׁנָה תְּמִימִם לְעֹלָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 9,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Abraham ran unto the herd, and fetcht a calf tender and good, and gave it unto a young man; and he hasted to dress it.",
+          "8": "And he took butter, and milk, and the calf which he had dressed, and set it before them; and he stood by them under the tree, and they did eat.",
+          "9": "And they said unto him, Where is Sarah thy wife? And he said, Behold, in the tent.",
+          "10": "And he said, I will certainly return unto thee according to the time of life; and, lo, Sarah thy wife shall have a son. And Sarah heard it in the tent door, which was behind him."
+        },
+        "he": {
+          "7": "וְאֶל־הַבָּקָר רָץ אַבְרָהָם וַיִּקַּח בֶּן־בָּקָר רַךְ וָטוֹב וַיִּתֵּן אֶל־הַנַּעַר וַיְמַהֵר לַעֲשׂוֹת אֹתֽוֹ׃",
+          "8": "וַיִּקַּח חֶמְאָה וְחָלָב וּבֶן־הַבָּקָר אֲשֶׁר עָשָׂה וַיִּתֵּן לִפְנֵיהֶם וְהֽוּא־עֹמֵד עֲלֵיהֶם תַּחַת הָעֵץ וַיֹּאכֵֽלוּ׃",
+          "9": "וַיֹּאמְרוּ אֵׄלָׄיׄוׄ אַיֵּה שָׂרָה אִשְׁתֶּךָ וַיֹּאמֶר הִנֵּה בָאֹֽהֶל׃",
+          "10": "וַיֹּאמֶר שׁוֹב אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וְהִנֵּה־בֵן לְשָׂרָה אִשְׁתֶּךָ וְשָׂרָה שֹׁמַעַת פֶּתַח הָאֹהֶל וְהוּא אַחֲרָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 7,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And the LORD said unto Abraham, Wherefore did Sarah laugh, saying, Shall I of a surety bear a child, which am old? Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.",
+        "riddle": "Wherefore did Sarah laugh, saying, Shall I of a surety bear a child, which am old?",
+        "speaker": "LORD",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "woman",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Isaac",
+            "Rebekah",
+            "Jacob"
+          ]
+        },
+        "bonus": "son",
+        "bonus_hint": {
+          "quote": "Then answered one of the servants, and said, Behold, I have seen a son of Jesse the Bethlehemite, that is cunning in playing, and a mighty valiant man, and a man of war, and prudent in matters, and a comely person, and the LORD is with him.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 16,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַֽנְתִּי הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן",
+        "riddle": "לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַֽנְתִּי",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "הָֽאִשָּׁה",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יִצְחָק",
+            "רִבְקָה",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "דָּבָר",
+        "bonus_hint": {
+          "quote": "וַיַּעַן אֶחָד מֵהַנְּעָרִים וַיֹּאמֶר הִנֵּה רָאִיתִי בֵּן לְיִשַׁי בֵּית הַלַּחְמִי יֹדֵעַ נַגֵּן וְגִבּוֹר חַיִל וְאִישׁ מִלְחָמָה וּנְבוֹן דָּבָר וְאִישׁ תֹּאַר וַיהוָה עִמּֽוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 16,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the LORD said unto Abraham, Wherefore did Sarah laugh, saying, Shall I of a surety bear a child, which am old?",
+          "14": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָהָם לָמָּה זֶּה צָחֲקָה שָׂרָה לֵאמֹר הַאַף אֻמְנָם אֵלֵד וַאֲנִי זָקַֽנְתִּי׃",
+          "14": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-15-15-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son. Then Sarah denied, saying, I laughed not; for she was afraid. And he said, Nay; but thou didst laugh.",
+        "riddle": "I laughed not;",
+        "speaker": "Sarah",
+        "listener": "LORD",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Rebekah",
+            "Isaac",
+            "Balaam"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "woman"
+          ]
+        },
+        "bonus": "afraid",
+        "bonus_hint": {
+          "quote": "In God have I put my trust: I will not be afraid what man can do unto me.",
+          "source": {
+            "book": "Psalms",
+            "chapter": 56,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן וַתְּכַחֵשׁ שָׂרָה לֵאמֹר לֹא צָחַקְתִּי כִּי יָרֵאָה וַיֹּאמֶר לֹא כִּי צָחָֽקְתְּ",
+        "riddle": "לֹא צָחַקְתִּי",
+        "speaker": "שָׂרָה",
+        "listener": "יְהוָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "רִבְקָה",
+            "יִצְחָק",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "הָֽאִשָּׁה"
+          ]
+        },
+        "bonus": "דָּבָר",
+        "bonus_hint": {
+          "quote": "בֵּֽאלֹהִים אֲהַלֵּל דָּבָר בַּיהוָה אֲהַלֵּל דָּבָֽר",
+          "source": {
+            "book": "תהילים",
+            "chapter": 56,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.",
+          "15": "Then Sarah denied, saying, I laughed not; for she was afraid. And he said, Nay; but thou didst laugh."
+        },
+        "he": {
+          "14": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן׃",
+          "15": "וַתְּכַחֵשׁ שָׂרָה ׀ לֵאמֹר לֹא צָחַקְתִּי כִּי ׀ יָרֵאָה וַיֹּאמֶר ׀ לֹא כִּי צָחָֽקְתְּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-15-15-2",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son. Then Sarah denied, saying, I laughed not; for she was afraid. And he said, Nay; but thou didst laugh.",
+        "riddle": "Nay; but thou didst laugh.",
+        "speaker": "LORD",
+        "listener": "Sarah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Balaam"
+          ],
+          "listener": [
+            "Rebekah",
+            "Jacob",
+            "Isaac"
+          ]
+        },
+        "bonus": "son",
+        "bonus_hint": {
+          "quote": "Then answered one of the servants, and said, Behold, I have seen a son of Jesse the Bethlehemite, that is cunning in playing, and a mighty valiant man, and a man of war, and prudent in matters, and a comely person, and the LORD is with him.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 16,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן וַתְּכַחֵשׁ שָׂרָה לֵאמֹר לֹא צָחַקְתִּי כִּי יָרֵאָה וַיֹּאמֶר לֹא כִּי צָחָֽקְתְּ",
+        "riddle": "לֹא כִּי צָחָֽקְת",
+        "speaker": "יְהוָה",
+        "listener": "שָׂרָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "רִבְקָה",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "דָּבָר",
+        "bonus_hint": {
+          "quote": "וַיַּעַן אֶחָד מֵהַנְּעָרִים וַיֹּאמֶר הִנֵּה רָאִיתִי בֵּן לְיִשַׁי בֵּית הַלַּחְמִי יֹדֵעַ נַגֵּן וְגִבּוֹר חַיִל וְאִישׁ מִלְחָמָה וּנְבוֹן דָּבָר וְאִישׁ תֹּאַר וַיהוָה עִמּֽוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 16,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Is any thing too hard for the LORD? At the time appointed I will return unto thee, according to the time of life, and Sarah shall have a son.",
+          "15": "Then Sarah denied, saying, I laughed not; for she was afraid. And he said, Nay; but thou didst laugh."
+        },
+        "he": {
+          "14": "הֲיִפָּלֵא מֵיְהוָה דָּבָר לַמּוֹעֵד אָשׁוּב אֵלֶיךָ כָּעֵת חַיָּה וּלְשָׂרָה בֵֽן׃",
+          "15": "וַתְּכַחֵשׁ שָׂרָה ׀ לֵאמֹר לֹא צָחַקְתִּי כִּי ׀ יָרֵאָה וַיֹּאמֶר ׀ לֹא כִּי צָחָֽקְתְּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 22,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And the men turned their faces from thence, and went toward Sodom: but Abraham stood yet before the LORD. And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?",
+        "riddle": "Wilt thou also destroy the righteous with the wicked?",
+        "speaker": "Abraham",
+        "listener": "LORD",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Pharaoh",
+            "Noah"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "Joseph"
+          ]
+        },
+        "bonus": "Sodom",
+        "bonus_hint": {
+          "quote": "And the border of the Canaanites was from Sidon, as thou comest to Gerar, unto Gaza; as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim, even unto Lasha.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפְנוּ מִשָּׁם הָֽאֲנָשִׁים וַיֵּלְכוּ סְדֹמָה וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָֽה וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע",
+        "riddle": "הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע",
+        "speaker": "אַבְרָהָם",
+        "listener": "יְהוָֽה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "נֹחַ"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "סְדֹמָה",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי גְּבוּל הַֽכְּנַעֲנִי מִצִּידֹן בֹּאֲכָה גְרָרָה עַד־עַזָּה בֹּאֲכָה סְדֹמָה וַעֲמֹרָה וְאַדְמָה וּצְבֹיִם עַד־לָֽשַׁע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the men turned their faces from thence, and went toward Sodom: but Abraham stood yet before the LORD.",
+          "23": "And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?"
+        },
+        "he": {
+          "22": "וַיִּפְנוּ מִשָּׁם הָֽאֲנָשִׁים וַיֵּלְכוּ סְדֹמָה וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָֽה׃",
+          "23": "וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 22,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 22,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And the men turned their faces from thence, and went toward Sodom: but Abraham stood yet before the LORD. And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked? Peradventure there be fifty righteous within the city: wilt thou also destroy and not spare the place for the fifty righteous that are therein? That be far from thee to do after this manner, to slay the righteous with the wicked: and that the righteous should be as the wicked, that be far from thee: Shall not the Judge of all the earth do right?",
+        "riddle": "wilt thou also destroy and not spare the place for the fifty righteous that are therein?",
+        "speaker": "Abraham",
+        "listener": "LORD",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Pharaoh",
+            "Noah"
+          ],
+          "listener": [
+            "Joseph",
+            "Jacob",
+            "Balaam"
+          ]
+        },
+        "bonus": "Sodom",
+        "bonus_hint": {
+          "quote": "And the border of the Canaanites was from Sidon, as thou comest to Gerar, unto Gaza; as thou goest, unto Sodom, and Gomorrah, and Admah, and Zeboim, even unto Lasha.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּפְנוּ מִשָּׁם הָֽאֲנָשִׁים וַיֵּלְכוּ סְדֹמָה וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָֽה וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּֽהּ חָלִלָה לְּךָ מֵעֲשֹׂת כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע וְהָיָה כַצַדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כָּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּֽט",
+        "riddle": "אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּֽהּ",
+        "speaker": "אַבְרָהָם",
+        "listener": "יְהוָֽה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "נֹחַ"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "סְדֹמָה",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי גְּבוּל הַֽכְּנַעֲנִי מִצִּידֹן בֹּאֲכָה גְרָרָה עַד־עַזָּה בֹּאֲכָה סְדֹמָה וַעֲמֹרָה וְאַדְמָה וּצְבֹיִם עַד־לָֽשַׁע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 10,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the men turned their faces from thence, and went toward Sodom: but Abraham stood yet before the LORD.",
+          "23": "And Abraham drew near, and said, Wilt thou also destroy the righteous with the wicked?",
+          "24": "Peradventure there be fifty righteous within the city: wilt thou also destroy and not spare the place for the fifty righteous that are therein?",
+          "25": "That be far from thee to do after this manner, to slay the righteous with the wicked: and that the righteous should be as the wicked, that be far from thee: Shall not the Judge of all the earth do right?"
+        },
+        "he": {
+          "22": "וַיִּפְנוּ מִשָּׁם הָֽאֲנָשִׁים וַיֵּלְכוּ סְדֹמָה וְאַבְרָהָם עוֹדֶנּוּ עֹמֵד לִפְנֵי יְהוָֽה׃",
+          "23": "וַיִּגַּשׁ אַבְרָהָם וַיֹּאמַר הַאַף תִּסְפֶּה צַדִּיק עִם־רָשָֽׁע׃",
+          "24": "אוּלַי יֵשׁ חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר הַאַף תִּסְפֶּה וְלֹא־תִשָּׂא לַמָּקוֹם לְמַעַן חֲמִשִּׁים הַצַּדִּיקִם אֲשֶׁר בְּקִרְבָּֽהּ׃",
+          "25": "חָלִלָה לְּךָ מֵעֲשֹׂת ׀ כַּדָּבָר הַזֶּה לְהָמִית צַדִּיק עִם־רָשָׁע וְהָיָה כַצַדִּיק כָּרָשָׁע חָלִלָה לָּךְ הֲשֹׁפֵט כָּל־הָאָרֶץ לֹא יַעֲשֶׂה מִשְׁפָּֽט׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 22,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-18-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 18,
+        "quote_verse_start": 26,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And the LORD said, If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes. And Abraham answered and said, Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes: Peradventure there shall lack five of the fifty righteous: wilt thou destroy all the city for lack of five? And he said, If I find there forty and five, I will not destroy it.",
+        "riddle": "wilt thou destroy all the city for lack of five?",
+        "speaker": "Abraham",
+        "listener": "LORD",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "Joseph",
+            "Moses"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "Sodom",
+        "bonus_hint": {
+          "quote": "As I live, saith the Lord GOD, Sodom thy sister hath not done, she nor her daughters, as thou hast done, thou and thy daughters.",
+          "source": {
+            "book": "Ezekiel",
+            "chapter": 16,
+            "start": 48,
+            "end": 48
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אִם־אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר וְנָשָׂאתִי לְכָל־הַמָּקוֹם בַּעֲבוּרָֽם וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּֽׁה",
+        "riddle": "אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר",
+        "speaker": "אַבְרָהָם",
+        "listener": "יְהוָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַרְעֹה",
+            "יוֹסֵף",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "חַי־אָנִי נְאֻם אֲדֹנָי יְהוִה אִם־עָֽשְׂתָה סְדֹם אֲחוֹתֵךְ הִיא וּבְנוֹתֶיהָ כַּאֲשֶׁר עָשִׂית אַתְּ וּבְנוֹתָֽיִךְ",
+          "source": {
+            "book": "יחזקאל",
+            "chapter": 16,
+            "start": 48,
+            "end": 48
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And the LORD said, If I find in Sodom fifty righteous within the city, then I will spare all the place for their sakes.",
+          "27": "And Abraham answered and said, Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes:",
+          "28": "Peradventure there shall lack five of the fifty righteous: wilt thou destroy all the city for lack of five? And he said, If I find there forty and five, I will not destroy it."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר יְהוָה אִם־אֶמְצָא בִסְדֹם חֲמִשִּׁים צַדִּיקִם בְּתוֹךְ הָעִיר וְנָשָׂאתִי לְכָל־הַמָּקוֹם בַּעֲבוּרָֽם׃",
+          "27": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר׃",
+          "28": "אוּלַי יַחְסְרוּן חֲמִשִּׁים הַצַּדִּיקִם חֲמִשָּׁה הֲתַשְׁחִית בַּחֲמִשָּׁה אֶת־כָּל־הָעִיר וַיֹּאמֶר לֹא אַשְׁחִית אִם־אֶמְצָא שָׁם אַרְבָּעִים וַחֲמִשָּֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 26,
+        "end": 28
       },
       "meta": {
         "mode": "llm",

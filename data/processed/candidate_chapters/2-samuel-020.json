@@ -6,6 +6,354 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-samuel-20-04-04",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present.",
+        "riddle": "Assemble me the men of Judah within three days, and be thou here present.",
+        "speaker": "David",
+        "listener": "Amasa",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲמָשָׂא הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד",
+        "riddle": "הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "עֲמָשָׂא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲמָשָׂא הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-samuel-20-06-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And David said to Abishai, Now shall Sheba the son of Bichri do us more harm than did Absalom: take thou thy lord's servants, and pursue after him, lest he get him fenced cities, and escape us.",
+        "riddle": "Now shall Sheba the son of Bichri do us more harm than did Absalom: take thou thy lord's servants, and pursue after him, lest he get him fenced cities, and escape us.",
+        "speaker": "David",
+        "listener": "Abishai",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי עַתָּה יֵרַֽע לָנוּ שֶׁבַע בֶּן־בִּכְרִי מִן־אַבְשָׁלוֹם אַתָּה קַח אֶת־עַבְדֵי אֲדֹנֶיךָ וּרְדֹף אַחֲרָיו פֶּן־מָצָא לוֹ עָרִים בְּצֻרוֹת וְהִצִּיל עֵינֵֽנוּ",
+        "riddle": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי עַתָּה יֵרַֽע לָנוּ שֶׁבַע בֶּן־בִּכְרִי מִן־אַבְשָׁלוֹם אַתָּה קַח אֶת־עַבְדֵי אֲדֹנֶיךָ וּרְדֹף אַחֲרָיו פֶּן־מָצָא לוֹ עָרִים בְּצֻרוֹת וְהִצִּיל עֵינֵֽנוּ",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִישַׁי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And David said to Abishai, Now shall Sheba the son of Bichri do us more harm than did Absalom: take thou thy lord's servants, and pursue after him, lest he get him fenced cities, and escape us."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי עַתָּה יֵרַֽע לָנוּ שֶׁבַע בֶּן־בִּכְרִי מִן־אַבְשָׁלוֹם אַתָּה קַח אֶת־עַבְדֵי אֲדֹנֶיךָ וּרְדֹף אַחֲרָיו פֶּן־מָצָא לוֹ עָרִים בְּצֻרוֹת וְהִצִּיל עֵינֵֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and warning",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-20-09-09",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Joab said to Amasa, Art thou in health, my brother? And Joab took Amasa by the beard with the right hand to kiss him.",
+        "riddle": "Art thou in health, my brother?",
+        "speaker": "Joab",
+        "listener": "Amasa",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹאָב לַעֲמָשָׂא הֲשָׁלוֹם אַתָּה אָחִי וַתֹּחֶז יַד־יְמִין יוֹאָב בִּזְקַן עֲמָשָׂא לִנְשָׁק־לֽוֹ",
+        "riddle": "הֲשָׁלוֹם אַתָּה אָחִי",
+        "speaker": "יוֹאָב",
+        "listener": "עֲמָשָׂא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Joab said to Amasa, Art thou in health, my brother? And Joab took Amasa by the beard with the right hand to kiss him."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יוֹאָב לַעֲמָשָׂא הֲשָׁלוֹם אַתָּה אָחִי וַתֹּחֶז יַד־יְמִין יוֹאָב בִּזְקַן עֲמָשָׂא לִנְשָׁק־לֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "2-samuel-20-16-16",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+        "riddle": "Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+        "speaker": "wise woman",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ",
+        "riddle": "שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיך",
+        "speaker": "אִשָּׁה חֲכָמָה",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee."
+        },
+        "he": {
+          "16": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "Art thou Joab?",
+        "speaker": "wise woman",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "הַאַתָּה יוֹאָב",
+        "speaker": "הָאִשָּׁה",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "I am he.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "אָנִי",
+        "speaker": "יוֹאָב",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-3",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "Hear the words of thine handmaid.",
+        "speaker": "wise woman",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי",
+        "speaker": "הָאִשָּׁה",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-4",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "I do hear.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "שֹׁמֵעַ אָנֹֽכִי",
+        "speaker": "יוֹאָב",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
       "id": "2-samuel-20-19-19",
       "source": {
         "book_code": "2SA",
@@ -13,20 +361,22 @@
         "book_he": "שמואל ב",
         "chapter": 20,
         "quote_verse_start": 19,
-        "quote_verse_end": 19
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
       },
       "en": {
         "quote": "I am one of them that are peaceable and faithful in Israel: thou seekest to destroy a city and a mother in Israel: why wilt thou swallow up the inheritance of the LORD?",
         "riddle": "why wilt thou swallow up the inheritance of the LORD?",
-        "speaker": "Sheba",
+        "speaker": "wise woman",
         "listener": "Joab",
         "book": "2 Samuel"
       },
       "he": {
         "quote": "אָנֹכִי שְׁלֻמֵי אֱמוּנֵי יִשְׂרָאֵל אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
-        "riddle": "מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
-        "speaker": "שבע",
-        "listener": "יוואב",
+        "riddle": "אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
+        "speaker": "אִשָּׁה חַכְמָה",
+        "listener": "יוֹאָב",
         "book": "שמואל ב"
       },
       "raw_quote_source": {
@@ -38,21 +388,68 @@
         }
       },
       "meta": {
-        "reason": "Powerful rhetorical question",
-        "confidence": 0.95
+        "reason": "direct question",
+        "confidence": 0.96
       },
       "ref": {
         "chapter": 20,
         "start": 19,
         "end": 19
       }
+    },
+    {
+      "id": "2-samuel-20-20-20",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Joab answered and said, Far be it, far be it from me, that I should swallow up or destroy.",
+        "riddle": "Far be it, far be it from me, that I should swallow up or destroy.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן יוֹאָב וַיֹּאמַר חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית",
+        "riddle": "חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית",
+        "speaker": "יוֹאָב",
+        "listener": "אישה חכמה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Joab answered and said, Far be it, far be it from me, that I should swallow up or destroy."
+        },
+        "he": {
+          "20": "וַיַּעַן יוֹאָב וַיֹּאמַר חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 20,
+        "end": 20
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 1,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 10,
+    "issue_count": 3
   }
 }

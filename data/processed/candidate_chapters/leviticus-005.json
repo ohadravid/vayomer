@@ -4,12 +4,62 @@
   "book_he": "ויקרא",
   "chapter": 5,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-05-15-15",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then he shall bring for his trespass unto the LORD a ram without blemish out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering:",
+        "riddle": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then he shall bring for his trespass unto the LORD a ram without blemish out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "נֶפֶשׁ כִּֽי־תִמְעֹל מַעַל וְחָֽטְאָה בִּשְׁגָגָה מִקָּדְשֵׁי יְהוָה וְהֵבִיא אֶת־אֲשָׁמוֹ לַֽיהוָה אַיִל תָּמִים מִן־הַצֹּאן בְּעֶרְכְּךָ כֶּֽסֶף־שְׁקָלִים בְּשֶֽׁקֶל־הַקֹּדֶשׁ לְאָשָֽׁם",
+        "riddle": "נֶפֶשׁ כִּֽי־תִמְעֹל מַעַל וְחָֽטְאָה בִּשְׁגָגָה מִקָּדְשֵׁי יְהוָה וְהֵבִיא אֶת־אֲשָׁמוֹ לַֽיהוָה אַיִל תָּמִים מִן־הַצֹּאן בְּעֶרְכְּךָ כֶּֽסֶף־שְׁקָלִים בְּשֶֽׁקֶל־הַקֹּדֶשׁ לְאָשָֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD spake unto Moses, saying,",
+          "15": "If a soul commit a trespass, and sin through ignorance, in the holy things of the LORD; then he shall bring for his trespass unto the LORD a ram without blemish out of the flocks, with thy estimation by shekels of silver, after the shekel of the sanctuary, for a trespass offering:"
+        },
+        "he": {
+          "14": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "15": "נֶפֶשׁ כִּֽי־תִמְעֹל מַעַל וְחָֽטְאָה בִּשְׁגָגָה מִקָּדְשֵׁי יְהוָה וְהֵבִיא אֶת־אֲשָׁמוֹ לַֽיהוָה אַיִל תָּמִים מִן־הַצֹּאן בְּעֶרְכְּךָ כֶּֽסֶף־שְׁקָלִים בְּשֶֽׁקֶל־הַקֹּדֶשׁ לְאָשָֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/instruction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

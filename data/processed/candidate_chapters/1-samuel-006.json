@@ -6,6 +6,96 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-06-02-02",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place.",
+        "riddle": "What shall we do to the ark of the LORD?",
+        "speaker": "Philistines",
+        "listener": "priests and diviners",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ",
+        "riddle": "מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ",
+        "speaker": "פְלִשְׁתִּים",
+        "listener": "כֹּהֲנִים וְלַקֹּֽסְמִים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place."
+        },
+        "he": {
+          "2": "וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "1-samuel-06-03-03",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you.",
+        "riddle": "If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering",
+        "speaker": "priests and diviners",
+        "listener": "Philistines",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם",
+        "riddle": "אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם",
+        "speaker": "כֹּהֲנִים וְלַקֹּֽסְמִים",
+        "listener": "פְלִשְׁתִּים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place.",
+          "3": "And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you."
+        },
+        "he": {
+          "2": "וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ׃",
+          "3": "וַיֹּאמְרוּ אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
       "id": "1-samuel-06-04-04",
       "source": {
         "book_code": "1SA",
@@ -13,32 +103,36 @@
         "book_he": "שמואל א",
         "chapter": 6,
         "quote_verse_start": 4,
-        "quote_verse_end": 4
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 3
       },
       "en": {
         "quote": "Then said they, What shall be the trespass offering which we shall return to him? They answered, Five golden emerods, and five golden mice, according to the number of the lords of the Philistines: for one plague was on you all, and on your lords.",
         "riddle": "What shall be the trespass offering which we shall return to him?",
         "speaker": "Philistines",
-        "listener": "Philistines",
+        "listener": "priests and diviners",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמְרוּ מָה הָאָשָׁם אֲשֶׁר נָשִׁיב לוֹ וַיֹּאמְרוּ מִסְפַּר סַרְנֵי פְלִשְׁתִּים חֲמִשָּׁה טְחֹרֵי זָהָב וַחֲמִשָּׁה עַכְבְּרֵי זָהָב כִּֽי־מַגֵּפָה אַחַת לְכֻלָּם וּלְסַרְנֵיכֶֽם",
         "riddle": "מָה הָאָשָׁם אֲשֶׁר נָשִׁיב לוֹ",
         "speaker": "פְלִשְׁתִּים",
-        "listener": "פְלִשְׁתִּים",
+        "listener": "כֹּהֲנִים וְקֹסְמִים",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
+          "3": "And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you.",
           "4": "Then said they, What shall be the trespass offering which we shall return to him? They answered, Five golden emerods, and five golden mice, according to the number of the lords of the Philistines: for one plague was on you all, and on your lords."
         },
         "he": {
+          "3": "וַיֹּאמְרוּ אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם׃",
           "4": "וַיֹּאמְרוּ מָה הָאָשָׁם אֲשֶׁר נָשִׁיב לוֹ וַיֹּאמְרוּ מִסְפַּר סַרְנֵי פְלִשְׁתִּים חֲמִשָּׁה טְחֹרֵי זָהָב וַחֲמִשָּׁה עַכְבְּרֵי זָהָב כִּֽי־מַגֵּפָה אַחַת לְכֻלָּם וּלְסַרְנֵיכֶֽם׃"
         }
       },
       "meta": {
-        "reason": "Direct question about offering",
+        "reason": "direct question",
         "confidence": 0.95
       },
       "ref": {
@@ -46,13 +140,60 @@
         "start": 4,
         "end": 4
       }
+    },
+    {
+      "id": "1-samuel-06-21-21",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And they sent messengers to the inhabitants of Kirjath-jearim, saying, The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.",
+        "riddle": "The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.",
+        "speaker": "messengers",
+        "listener": "inhabitants of Kirjath-jearim",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ מַלְאָכִים אֶל־יוֹשְׁבֵי קִרְיַת־יְעָרִים לֵאמֹר הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם",
+        "riddle": "הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם",
+        "speaker": "מַלְאָכִים",
+        "listener": "יוֹשְׁבֵי קִרְיַת־יְעָרִים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And they sent messengers to the inhabitants of Kirjath-jearim, saying, The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you."
+        },
+        "he": {
+          "21": "וַֽיִּשְׁלְחוּ מַלְאָכִים אֶל־יוֹשְׁבֵי קִרְיַת־יְעָרִים לֵאמֹר הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 21,
+        "end": 21
+      }
     }
   ],
   "stats": {
-    "window_count": 8,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 1,
-    "issue_count": 7
+    "llm_window_count": 2,
+    "projection_llm_count": 5,
+    "llm_call_count": 7,
+    "spec_count": 5,
+    "kept_count": 4,
+    "issue_count": 1
   }
 }

@@ -4,12 +4,235 @@
   "book_he": "שמות",
   "chapter": 17,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-17-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Wherefore the people did chide with Moses, and said, Give us water that we may drink. And Moses said unto them, Why chide ye with me? wherefore do ye tempt the LORD?",
+        "riddle": "Give us water that we may drink",
+        "speaker": "the people",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ תְּנוּ־לָנוּ מַיִם וְנִשְׁתֶּה וַיֹּאמֶר לָהֶם מֹשֶׁה מַה־תְּרִיבוּן עִמָּדִי מַה־תְּנַסּוּן אֶת־יְהוָֽה",
+        "riddle": "תְּנוּ־לָנוּ מַיִם וְנִשְׁתֶּה",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Wherefore the people did chide with Moses, and said, Give us water that we may drink. And Moses said unto them, Why chide ye with me? wherefore do ye tempt the LORD?"
+        },
+        "he": {
+          "2": "וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ תְּנוּ־לָנוּ מַיִם וְנִשְׁתֶּה וַיֹּאמֶר לָהֶם מֹשֶׁה מַה־תְּרִיבוּן עִמָּדִי מַה־תְּנַסּוּן אֶת־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-17-04-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4
+      },
+      "en": {
+        "quote": "And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me.",
+        "riddle": "What shall I do unto this people?",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר מָה אֶעֱשֶׂה לָעָם הַזֶּה עוֹד מְעַט וּסְקָלֻֽנִי",
+        "riddle": "מָה אֶעֱשֶׂה לָעָם הַזֶּה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And Moses cried unto the LORD, saying, What shall I do unto this people? they be almost ready to stone me."
+        },
+        "he": {
+          "4": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר מָה אֶעֱשֶׂה לָעָם הַזֶּה עוֹד מְעַט וּסְקָלֻֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-17-05-05",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.",
+        "riddle": "Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD said unto Moses, Go on before the people, and take with thee of the elders of Israel; and thy rod, wherewith thou smotest the river, take in thine hand, and go."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲבֹר לִפְנֵי הָעָם וְקַח אִתְּךָ מִזִּקְנֵי יִשְׂרָאֵל וּמַטְּךָ אֲשֶׁר הִכִּיתָ בּוֹ אֶת־הַיְאֹר קַח בְּיָדְךָ וְהָלָֽכְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "exodus-17-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Moses said unto Joshua, Choose us out men, and go out, fight with Amalek: to morrow I will stand on the top of the hill with the rod of God in mine hand.",
+        "riddle": "Choose us out men, and go out, fight with Amalek: to morrow I will stand on the top of the hill with the rod of God in mine hand.",
+        "speaker": "Moses",
+        "listener": "Joshua",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוֹשֻׁעַ בְּחַר־לָנוּ אֲנָשִׁים וְצֵא הִלָּחֵם בַּעֲמָלֵק מָחָר אָנֹכִי נִצָּב עַל־רֹאשׁ הַגִּבְעָה וּמַטֵּה הָאֱלֹהִים בְּיָדִֽי",
+        "riddle": "בְּחַר־לָנוּ אֲנָשִׁים וְצֵא הִלָּחֵם בַּעֲמָלֵק מָחָר אָנֹכִי נִצָּב עַל־רֹאשׁ הַגִּבְעָה וּמַטֵּה הָאֱלֹהִים בְּיָדִֽי",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Moses said unto Joshua, Choose us out men, and go out, fight with Amalek: to morrow I will stand on the top of the hill with the rod of God in mine hand."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוֹשֻׁעַ בְּחַר־לָנוּ אֲנָשִׁים וְצֵא הִלָּחֵם בַּעֲמָלֵק מָחָר אָנֹכִי נִצָּב עַל־רֹאשׁ הַגִּבְעָה וּמַטֵּה הָאֱלֹהִים בְּיָדִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "exodus-17-14-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 17,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven.",
+        "riddle": "Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD said unto Moses, Write this for a memorial in a book, and rehearse it in the ears of Joshua: for I will utterly put out the remembrance of Amalek from under heaven."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה כְּתֹב זֹאת זִכָּרוֹן בַּסֵּפֶר וְשִׂים בְּאָזְנֵי יְהוֹשֻׁעַ כִּֽי־מָחֹה אֶמְחֶה אֶת־זֵכֶר עֲמָלֵק מִתַּחַת הַשָּׁמָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ],
   "stats": {
-    "window_count": 13,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 13,
-    "kept_count": 0,
-    "issue_count": 13
+    "llm_window_count": 3,
+    "projection_llm_count": 7,
+    "llm_call_count": 10,
+    "spec_count": 7,
+    "kept_count": 5,
+    "issue_count": 4
   }
 }

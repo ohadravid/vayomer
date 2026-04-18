@@ -17,16 +17,16 @@
       },
       "en": {
         "quote": "Male and female created he them; and blessed them, and called their name Adam, in the day when they were created.",
-        "riddle": "Male and female created he them; and blessed them",
+        "riddle": "and blessed them, and called their name Adam",
         "speaker": "God",
-        "listener": "Adam and Eve",
+        "listener": "Adam and his wife",
         "book": "Genesis"
       },
       "he": {
         "quote": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם בְּיוֹם הִבָּֽרְאָֽם",
-        "riddle": "זָכָר וּנְקֵבָה בְּרָאָם וַיְבָרֶךְ אֹתָם",
-        "speaker": "אלוהים",
-        "listener": "אָדָם וחוה",
+        "riddle": "וַיְבָרֶךְ אֹתָם וַיִּקְרָא אֶת־שְׁמָם אָדָם",
+        "speaker": "אֱלֹהִים",
+        "listener": "אָדָם וְאִשְׁתּוֹ",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -38,21 +38,70 @@
         }
       },
       "meta": {
-        "reason": "Contains a vivid divine action",
-        "confidence": 0.9
+        "reason": "vivid declaration and blessing",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 5,
         "start": 2,
         "end": 2
       }
+    },
+    {
+      "id": "genesis-05-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 5,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And he called his name Noah, saying, This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed.",
+        "riddle": "This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed",
+        "speaker": "Lamech",
+        "listener": "none",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אֶת־שְׁמוֹ נֹחַ לֵאמֹר זֶה יְנַחֲמֵנוּ מִֽמַּעֲשֵׂנוּ וּמֵעִצְּבוֹן יָדֵינוּ מִן־הָאֲדָמָה אֲשֶׁר אֵֽרְרָהּ יְהוָֽה",
+        "riddle": "זֶה יְנַחֲמֵנוּ מִֽמַּעֲשֵׂנוּ וּמֵעִצְּבוֹן יָדֵינוּ מִן־הָאֲדָמָה אֲשֶׁר אֵֽרְרָהּ יְהוָֽה",
+        "speaker": "לֶמֶךְ",
+        "listener": "none",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Lamech lived an hundred eighty and two years, and begat a son:",
+          "29": "And he called his name Noah, saying, This same shall comfort us concerning our work and toil of our hands, because of the ground which the LORD hath cursed."
+        },
+        "he": {
+          "28": "וַֽיְחִי־לֶמֶךְ שְׁתַּיִם וּשְׁמֹנִים שָׁנָה וּמְאַת שָׁנָה וַיּוֹלֶד בֵּֽן׃",
+          "29": "וַיִּקְרָא אֶת־שְׁמוֹ נֹחַ לֵאמֹר זֶה יְנַחֲמֵנוּ מִֽמַּעֲשֵׂנוּ וּמֵעִצְּבוֹן יָדֵינוּ מִן־הָאֲדָמָה אֲשֶׁר אֵֽרְרָהּ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 29,
+        "end": 29
+      }
     }
   ],
   "stats": {
-    "window_count": 5,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 5,
-    "kept_count": 1,
-    "issue_count": 4
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

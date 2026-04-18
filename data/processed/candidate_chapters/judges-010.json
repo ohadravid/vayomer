@@ -6,53 +6,240 @@
   "mode": "llm",
   "items": [
     {
-      "id": "judges-10-12-12",
+      "id": "judges-10-10-10",
       "source": {
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 10,
-        "quote_verse_start": 12,
-        "quote_verse_end": 12
+        "quote_verse_start": 10,
+        "quote_verse_end": 10
       },
       "en": {
-        "quote": "The Zidonians also, and the Amalekites, and the Maonites, did oppress you; and ye cried to me, and I delivered you out of their hand.",
-        "riddle": "and ye cried to me, and I delivered you out of their hand.",
-        "speaker": "God",
-        "listener": "Israelites",
+        "quote": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+        "riddle": "We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+        "speaker": "children of Israel",
+        "listener": "the LORD",
         "book": "Judges"
       },
       "he": {
-        "quote": "וְצִידוֹנִים וַֽעֲמָלֵק וּמָעוֹן לָחֲצוּ אֶתְכֶם וַתִּצְעֲקוּ אֵלַי וָאוֹשִׁיעָה אֶתְכֶם מִיָּדָֽם",
-        "riddle": "וְצִידוֹנִים וַֽעֲמָלֵק וּמָעוֹן לָחֲצוּ אֶתְכֶם וַתִּצְעֲקוּ אֵלַי וָאוֹשִׁיעָה אֶתְכֶם מִיָּדָֽם",
-        "speaker": "אלוהים",
-        "listener": "בני ישראל",
+        "quote": "וַֽיִּזְעֲקוּ בְּנֵי יִשְׂרָאֵל אֶל־יְהוָה לֵאמֹר חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים",
+        "riddle": "חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים",
+        "speaker": "בְּנֵי יִשְׂרָאֵל",
+        "listener": "יְהוָה",
         "book": "שופטים"
       },
       "raw_quote_source": {
         "en": {
-          "12": "The Zidonians also, and the Amalekites, and the Maonites, did oppress you; and ye cried to me, and I delivered you out of their hand."
+          "10": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim."
         },
         "he": {
-          "12": "וְצִידוֹנִים וַֽעֲמָלֵק וּמָעוֹן לָחֲצוּ אֶתְכֶם וַתִּצְעֲקוּ אֵלַי וָאוֹשִׁיעָה אֶתְכֶם מִיָּדָֽם׃"
+          "10": "וַֽיִּזְעֲקוּ בְּנֵי יִשְׂרָאֵל אֶל־יְהוָה לֵאמֹר חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים׃"
         }
       },
       "meta": {
-        "reason": "Vivid declaration of deliverance.",
+        "reason": "direct confession",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 10,
-        "start": 12,
-        "end": 12
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "judges-10-11-11",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 10,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+        "riddle": "Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל הֲלֹא מִמִּצְרַיִם וּמִן־הָאֱמֹרִי וּמִן־בְּנֵי עַמּוֹן וּמִן־פְּלִשְׁתִּֽים",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל הֲלֹא מִמִּצְרַיִם וּמִן־הָאֱמֹרִי וּמִן־בְּנֵי עַמּוֹן וּמִן־פְּלִשְׁתִּֽים",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+          "11": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?"
+        },
+        "he": {
+          "10": "וַֽיִּזְעֲקוּ בְּנֵי יִשְׂרָאֵל אֶל־יְהוָה לֵאמֹר חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים׃",
+          "11": "וַיֹּאמֶר יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל הֲלֹא מִמִּצְרַיִם וּמִן־הָאֱמֹרִי וּמִן־בְּנֵי עַמּוֹן וּמִן־פְּלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "judges-10-13-13",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 10,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Yet ye have forsaken me, and served other gods: wherefore I will deliver you no more.",
+        "riddle": "Yet ye have forsaken me, and served other gods: wherefore I will deliver you no more.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וְאַתֶּם עֲזַבְתֶּם אוֹתִי וַתַּעַבְדוּ אֱלֹהִים אֲחֵרִים לָכֵן לֹֽא־אוֹסִיף לְהוֹשִׁיעַ אֶתְכֶֽם",
+        "riddle": "וְאַתֶּם עֲזַבְתֶּם אוֹתִי וַתַּעַבְדוּ אֱלֹהִים אֲחֵרִים לָכֵן לֹֽא־אוֹסִיף לְהוֹשִׁיעַ אֶתְכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+          "11": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+          "13": "Yet ye have forsaken me, and served other gods: wherefore I will deliver you no more."
+        },
+        "he": {
+          "10": "וַֽיִּזְעֲקוּ בְּנֵי יִשְׂרָאֵל אֶל־יְהוָה לֵאמֹר חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים׃",
+          "11": "וַיֹּאמֶר יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל הֲלֹא מִמִּצְרַיִם וּמִן־הָאֱמֹרִי וּמִן־בְּנֵי עַמּוֹן וּמִן־פְּלִשְׁתִּֽים׃",
+          "13": "וְאַתֶּם עֲזַבְתֶּם אוֹתִי וַתַּעַבְדוּ אֱלֹהִים אֲחֵרִים לָכֵן לֹֽא־אוֹסִיף לְהוֹשִׁיעַ אֶתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "declaration of judgment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "judges-10-14-14",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 10,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Go and cry unto the gods which ye have chosen; let them deliver you in the time of your tribulation.",
+        "riddle": "Go and cry unto the gods which ye have chosen; let them deliver you in the time of your tribulation.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "לְכוּ וְזַֽעֲקוּ אֶל־הָאֱלֹהִים אֲשֶׁר בְּחַרְתֶּם בָּם הֵמָּה יוֹשִׁיעוּ לָכֶם בְּעֵת צָרַתְכֶֽם",
+        "riddle": "לְכוּ וְזַֽעֲקוּ אֶל־הָאֱלֹהִים אֲשֶׁר בְּחַרְתֶּם בָּם הֵמָּה יוֹשִׁיעוּ לָכֶם בְּעֵת צָרַתְכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the children of Israel cried unto the LORD, saying, We have sinned against thee, both because we have forsaken our God, and also served Baalim.",
+          "11": "And the LORD said unto the children of Israel, Did not I deliver you from the Egyptians, and from the Amorites, from the children of Ammon, and from the Philistines?",
+          "14": "Go and cry unto the gods which ye have chosen; let them deliver you in the time of your tribulation."
+        },
+        "he": {
+          "10": "וַֽיִּזְעֲקוּ בְּנֵי יִשְׂרָאֵל אֶל־יְהוָה לֵאמֹר חָטָאנוּ לָךְ וְכִי עָזַבְנוּ אֶת־אֱלֹהֵינוּ וַֽנַּעֲבֹד אֶת־הַבְּעָלִֽים׃",
+          "11": "וַיֹּאמֶר יְהוָה אֶל־בְּנֵי יִשְׂרָאֵל הֲלֹא מִמִּצְרַיִם וּמִן־הָאֱמֹרִי וּמִן־בְּנֵי עַמּוֹן וּמִן־פְּלִשְׁתִּֽים׃",
+          "14": "לְכוּ וְזַֽעֲקוּ אֶל־הָאֱלֹהִים אֲשֶׁר בְּחַרְתֶּם בָּם הֵמָּה יוֹשִׁיעוּ לָכֶם בְּעֵת צָרַתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command/ironic rebuke",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "judges-10-15-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 10,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And the children of Israel said unto the LORD, We have sinned: do thou unto us whatsoever seemeth good unto thee; deliver us only, we pray thee, this day.",
+        "riddle": "We have sinned: do thou unto us whatsoever seemeth good unto thee; deliver us only, we pray thee, this day.",
+        "speaker": "children of Israel",
+        "listener": "the LORD",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵי־יִשְׂרָאֵל אֶל־יְהוָה חָטָאנוּ עֲשֵׂה־אַתָּה לָנוּ כְּכָל־הַטּוֹב בְּעֵינֶיךָ אַךְ הַצִּילֵנוּ נָא הַיּוֹם הַזֶּֽה",
+        "riddle": "חָטָאנוּ עֲשֵׂה־אַתָּה לָנוּ כְּכָל־הַטּוֹב בְּעֵינֶיךָ אַךְ הַצִּילֵנוּ נָא הַיּוֹם הַזֶּֽה",
+        "speaker": "בְנֵי־יִשְׂרָאֵל",
+        "listener": "יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the children of Israel said unto the LORD, We have sinned: do thou unto us whatsoever seemeth good unto thee; deliver us only, we pray thee, this day."
+        },
+        "he": {
+          "15": "וַיֹּאמְרוּ בְנֵי־יִשְׂרָאֵל אֶל־יְהוָה חָטָאנוּ עֲשֵׂה־אַתָּה לָנוּ כְּכָל־הַטּוֹב בְּעֵינֶיךָ אַךְ הַצִּילֵנוּ נָא הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "plea/prayer",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 15,
+        "end": 15
       }
     }
   ],
   "stats": {
-    "window_count": 9,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 1,
-    "issue_count": 8
+    "llm_window_count": 3,
+    "projection_llm_count": 6,
+    "llm_call_count": 9,
+    "spec_count": 6,
+    "kept_count": 5,
+    "issue_count": 1
   }
 }

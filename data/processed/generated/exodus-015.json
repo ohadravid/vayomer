@@ -6,70 +6,74 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-15-24-24",
+      "id": "exodus-15-21-21",
       "source": {
         "method": "llm",
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 15,
-        "quote_verse_start": 24,
-        "quote_verse_end": 24
+        "quote_verse_start": 20,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
       },
       "en": {
-        "quote": "And the people murmured against Moses, saying, What shall we drink?",
-        "riddle": "What shall we drink?",
-        "speaker": "people",
-        "listener": "Moses",
+        "quote": "And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand; and all the women went out after her with timbrels and with dances. And Miriam answered them, Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.",
+        "riddle": "Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.",
+        "speaker": "Miriam",
+        "listener": "women",
         "book": "Exodus",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "murmured",
+        "bonus": "prophetess",
         "bonus_hint": {
-          "quote": "And all the children of Israel murmured against Moses and against Aaron: and the whole congregation said unto them, Would God that we had died in the land of Egypt! or would God we had died in this wilderness!",
+          "quote": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
           "source": {
-            "book": "Numbers",
-            "chapter": 14,
-            "start": 2,
-            "end": 2
+            "book": "2 Kings",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
           }
         }
       },
       "he": {
-        "quote": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה",
-        "riddle": "מַה־נִּשְׁתֶּֽה",
-        "speaker": "הָעָם",
-        "listener": "מֹשֶׁה",
+        "quote": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת־הַתֹּף בְּיָדָהּ וַתֵּצֶאןָ כָֽל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹֽת וַתַּעַן לָהֶם מִרְיָם שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "riddle": "שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "speaker": "מִרְיָם",
+        "listener": "הַנָּשִׁים",
         "book": "שמות",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "וַיִּלֹּנוּ",
+        "bonus": "הַנְּבִיאָה",
         "bonus_hint": {
-          "quote": "וַיִּלֹּנוּ עַל־מֹשֶׁה וְעַֽל־אַהֲרֹן כֹּל בְּנֵי יִשְׂרָאֵל וַֽיֹּאמְרוּ אֲלֵהֶם כָּל־הָעֵדָה לוּ־מַתְנוּ בְּאֶרֶץ מִצְרַיִם אוֹ בַּמִּדְבָּר הַזֶּה לוּ־מָֽתְנוּ",
+          "quote": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ",
           "source": {
-            "book": "במדבר",
-            "chapter": 14,
-            "start": 2,
-            "end": 2
+            "book": "מלכים ב",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "24": "And the people murmured against Moses, saying, What shall we drink?"
+          "20": "And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand; and all the women went out after her with timbrels and with dances.",
+          "21": "And Miriam answered them, Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea."
         },
         "he": {
-          "24": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה׃"
+          "20": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת־הַתֹּף בְּיָדָהּ וַתֵּצֶאןָ כָֽל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹֽת׃",
+          "21": "וַתַּעַן לָהֶם מִרְיָם שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם׃"
         }
       },
       "ref": {
         "chapter": 15,
-        "start": 24,
-        "end": 24
+        "start": 20,
+        "end": 21
       },
       "meta": {
         "mode": "llm",

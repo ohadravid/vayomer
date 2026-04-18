@@ -6,6 +6,132 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-03-02-02",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:",
+        "riddle": "We may eat of the fruit of the trees of the garden:",
+        "speaker": "woman",
+        "listener": "serpent",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה אֶל־הַנָּחָשׁ מִפְּרִי עֵֽץ־הַגָּן נֹאכֵֽל",
+        "riddle": "מִפְּרִי עֵֽץ־הַגָּן נֹאכֵֽל",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "הַנָּחָשׁ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the woman said unto the serpent, We may eat of the fruit of the trees of the garden:"
+        },
+        "he": {
+          "2": "וַתֹּאמֶר הָֽאִשָּׁה אֶל־הַנָּחָשׁ מִפְּרִי עֵֽץ־הַגָּן נֹאכֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "genesis-03-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And the serpent said unto the woman, Ye shall not surely die:",
+        "riddle": "Ye shall not surely die:",
+        "speaker": "serpent",
+        "listener": "woman",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַנָּחָשׁ אֶל־הָֽאִשָּׁה לֹֽא־מוֹת תְּמֻתֽוּן",
+        "riddle": "לֹֽא־מוֹת תְּמֻתֽוּן",
+        "speaker": "הַנָּחָשׁ",
+        "listener": "הָֽאִשָּׁה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the serpent said unto the woman, Ye shall not surely die:"
+        },
+        "he": {
+          "4": "וַיֹּאמֶר הַנָּחָשׁ אֶל־הָֽאִשָּׁה לֹֽא־מוֹת תְּמֻתֽוּן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-03-05-05",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+        "riddle": "then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+        "speaker": "serpent",
+        "listener": "woman",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+        "riddle": "וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+        "speaker": "נָחָשׁ",
+        "listener": "אִשָּׁה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil."
+        },
+        "he": {
+          "5": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
       "id": "genesis-03-09-09",
       "source": {
         "book_code": "GEN",
@@ -13,7 +139,9 @@
         "book_he": "בראשית",
         "chapter": 3,
         "quote_verse_start": 9,
-        "quote_verse_end": 9
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
       },
       "en": {
         "quote": "And the LORD God called unto Adam, and said unto him, Where art thou?",
@@ -26,7 +154,7 @@
         "quote": "וַיִּקְרָא יְהוָה אֱלֹהִים אֶל־הָֽאָדָם וַיֹּאמֶר לוֹ אַיֶּֽכָּה",
         "riddle": "אַיֶּֽכָּה",
         "speaker": "יְהוָה אֱלֹהִים",
-        "listener": "אדם",
+        "listener": "הָֽאָדָם",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -38,13 +166,151 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question.",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
         "chapter": 3,
         "start": 9,
         "end": 9
+      }
+    },
+    {
+      "id": "genesis-03-10-10",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.",
+        "riddle": "I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.",
+        "speaker": "Adam",
+        "listener": "LORD God",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶת־קֹלְךָ שָׁמַעְתִּי בַּגָּן וָאִירָא כִּֽי־עֵירֹם אָנֹכִי וָאֵחָבֵֽא",
+        "riddle": "וַיֹּאמֶר אֶת־קֹלְךָ שָׁמַעְתִּי בַּגָּן וָאִירָא כִּֽי־עֵירֹם אָנֹכִי וָאֵחָבֵֽא",
+        "speaker": "הָֽאָדָם",
+        "listener": "יְהוָה אֱלֹהִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD God called unto Adam, and said unto him, Where art thou?",
+          "10": "And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself."
+        },
+        "he": {
+          "9": "וַיִּקְרָא יְהוָה אֱלֹהִים אֶל־הָֽאָדָם וַיֹּאמֶר לוֹ אַיֶּֽכָּה׃",
+          "10": "וַיֹּאמֶר אֶת־קֹלְךָ שָׁמַעְתִּי בַּגָּן וָאִירָא כִּֽי־עֵירֹם אָנֹכִי וָאֵחָבֵֽא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "genesis-03-11-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?",
+        "riddle": "Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?",
+        "speaker": "LORD God",
+        "listener": "Adam",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל־מִמֶּנּוּ אָכָֽלְתָּ",
+        "riddle": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל־מִמֶּנּוּ אָכָֽלְתָּ",
+        "speaker": "אלוהים",
+        "listener": "אדם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And he said, I heard thy voice in the garden, and I was afraid, because I was naked; and I hid myself.",
+          "11": "And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?"
+        },
+        "he": {
+          "10": "וַיֹּאמֶר אֶת־קֹלְךָ שָׁמַעְתִּי בַּגָּן וָאִירָא כִּֽי־עֵירֹם אָנֹכִי וָאֵחָבֵֽא׃",
+          "11": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל־מִמֶּנּוּ אָכָֽלְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "interrogative speech",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "genesis-03-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.",
+        "riddle": "The woman whom thou gavest to be with me, she gave me of the tree, and I did eat.",
+        "speaker": "Adam",
+        "listener": "LORD God",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָֽאָדָם הָֽאִשָּׁה אֲשֶׁר נָתַתָּה עִמָּדִי הִוא נָֽתְנָה־לִּי מִן־הָעֵץ וָאֹכֵֽל",
+        "riddle": "וַיֹּאמֶר הָֽאָדָם הָֽאִשָּׁה אֲשֶׁר נָתַתָּה עִמָּדִי הִוא נָֽתְנָה־לִּי מִן־הָעֵץ וָאֹכֵֽל",
+        "speaker": "הָֽאָדָם",
+        "listener": "הַלֹּהַּ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And he said, Who told thee that thou wast naked? Hast thou eaten of the tree, whereof I commanded thee that thou shouldest not eat?",
+          "12": "And the man said, The woman whom thou gavest to be with me, she gave me of the tree, and I did eat."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר מִי הִגִּיד לְךָ כִּי עֵירֹם אָתָּה הֲמִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לְבִלְתִּי אֲכָל־מִמֶּנּוּ אָכָֽלְתָּ׃",
+          "12": "וַיֹּאמֶר הָֽאָדָם הָֽאִשָּׁה אֲשֶׁר נָתַתָּה עִמָּדִי הִוא נָֽתְנָה־לִּי מִן־הָעֵץ וָאֹכֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 12,
+        "end": 12
       }
     },
     {
@@ -55,20 +321,22 @@
         "book_he": "בראשית",
         "chapter": 3,
         "quote_verse_start": 13,
-        "quote_verse_end": 13
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
       },
       "en": {
         "quote": "And the LORD God said unto the woman, What is this that thou hast done? And the woman said, The serpent beguiled me, and I did eat.",
         "riddle": "What is this that thou hast done?",
-        "speaker": "God",
-        "listener": "Woman",
+        "speaker": "LORD God",
+        "listener": "woman",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים לָאִשָּׁה מַה־זֹּאת עָשִׂית וַתֹּאמֶר הָֽאִשָּׁה הַנָּחָשׁ הִשִּׁיאַנִי וָאֹכֵֽל",
         "riddle": "מַה־זֹּאת עָשִׂית",
-        "speaker": "אֱלֹהִים",
-        "listener": "אִשָּׁה",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאִשָּׁה",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -80,7 +348,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question and response.",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -88,13 +356,238 @@
         "start": 13,
         "end": 13
       }
+    },
+    {
+      "id": "genesis-03-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+        "riddle": "Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+        "speaker": "LORD God",
+        "listener": "serpent",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהֹוָה אֱלֹהִים אֶֽל־הַנָּחָשׁ כִּי עָשִׂיתָ זֹּאת אָרוּר אַתָּה מִכָּל־הַבְּהֵמָה וּמִכֹּל חַיַּת הַשָּׂדֶה עַל־גְּחֹנְךָ תֵלֵךְ וְעָפָר תֹּאכַל כָּל־יְמֵי חַיֶּֽיךָ",
+        "riddle": "כִּי עָשִׂיתָ זֹּאת אָרוּר אַתָּה מִכָּל־הַבְּהֵמָה וּמִכֹּל חַיַּת הַשָּׂדֶה עַל־גְּחֹנְךָ תֵלֵךְ וְעָפָר תֹּאכַל כָּל־יְמֵי חַיֶּֽיך",
+        "speaker": "יְהֹוָה אֱלֹהִים",
+        "listener": "הַנָּחָשׁ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:"
+        },
+        "he": {
+          "14": "וַיֹּאמֶר יְהֹוָה אֱלֹהִים ׀ אֶֽל־הַנָּחָשׁ כִּי עָשִׂיתָ זֹּאת אָרוּר אַתָּה מִכָּל־הַבְּהֵמָה וּמִכֹּל חַיַּת הַשָּׂדֶה עַל־גְּחֹנְךָ תֵלֵךְ וְעָפָר תֹּאכַל כָּל־יְמֵי חַיֶּֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct curse",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-03-15-15",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+        "riddle": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel.",
+        "speaker": "LORD God",
+        "listener": "serpent",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְאֵיבָה אָשִׁית בֵּֽינְךָ וּבֵין הָֽאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ הוּא יְשׁוּפְךָ רֹאשׁ וְאַתָּה תְּשׁוּפֶנּוּ עָקֵֽב",
+        "riddle": "וְאֵיבָה אָשִׁית בֵּֽינְךָ וּבֵין הָֽאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ הוּא יְשׁוּפְךָ רֹאשׁ וְאַתָּה תְּשׁוּפֶנּוּ עָקֵֽב",
+        "speaker": "יְהֹוָה אֱלֹהִים",
+        "listener": "הַנָּחָשׁ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD God said unto the serpent, Because thou hast done this, thou art cursed above all cattle, and above every beast of the field; upon thy belly shalt thou go, and dust shalt thou eat all the days of thy life:",
+          "15": "And I will put enmity between thee and the woman, and between thy seed and her seed; it shall bruise thy head, and thou shalt bruise his heel."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר יְהֹוָה אֱלֹהִים ׀ אֶֽל־הַנָּחָשׁ כִּי עָשִׂיתָ זֹּאת אָרוּר אַתָּה מִכָּל־הַבְּהֵמָה וּמִכֹּל חַיַּת הַשָּׂדֶה עַל־גְּחֹנְךָ תֵלֵךְ וְעָפָר תֹּאכַל כָּל־יְמֵי חַיֶּֽיךָ׃",
+          "15": "וְאֵיבָה ׀ אָשִׁית בֵּֽינְךָ וּבֵין הָֽאִשָּׁה וּבֵין זַרְעֲךָ וּבֵין זַרְעָהּ הוּא יְשׁוּפְךָ רֹאשׁ וְאַתָּה תְּשׁוּפֶנּוּ עָקֵֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "genesis-03-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+        "riddle": "I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
+        "speaker": "LORD God",
+        "listener": "woman",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אֶֽל־הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל־בָּֽךְ",
+        "riddle": "אֶֽל־הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל־בָּֽךְ",
+        "speaker": "הַשֵּׁם",
+        "listener": "הָאִשָּׁה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee."
+        },
+        "he": {
+          "16": "אֶֽל־הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל־בָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-03-17-17",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;",
+        "riddle": "Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;",
+        "speaker": "LORD God",
+        "listener": "Adam",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וּלְאָדָם אָמַר כִּֽי־שָׁמַעְתָּ לְקוֹל אִשְׁתֶּךָ וַתֹּאכַל מִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לֵאמֹר לֹא תֹאכַל מִמֶּנּוּ אֲרוּרָה הָֽאֲדָמָה בַּֽעֲבוּרֶךָ בְּעִצָּבוֹן תֹּֽאכֲלֶנָּה כֹּל יְמֵי חַיֶּֽיךָ",
+        "riddle": "וּלְאָדָם אָמַר כִּֽי־שָׁמַעְתָּ לְקוֹל אִשְׁתֶּךָ וַתֹּאכַל מִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לֵאמֹר לֹא תֹאכַל מִמֶּנּוּ אֲרוּרָה הָֽאֲדָמָה בַּֽעֲבוּרֶךָ בְּעִצָּבוֹן תֹּֽאכֲלֶנָּה כֹּל יְמֵי חַיֶּֽיךָ",
+        "speaker": "אֲדֹנָי",
+        "listener": "אָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And unto Adam he said, Because thou hast hearkened unto the voice of thy wife, and hast eaten of the tree, of which I commanded thee, saying, Thou shalt not eat of it: cursed is the ground for thy sake; in sorrow shalt thou eat of it all the days of thy life;"
+        },
+        "he": {
+          "17": "וּלְאָדָם אָמַר כִּֽי־שָׁמַעְתָּ לְקוֹל אִשְׁתֶּךָ וַתֹּאכַל מִן־הָעֵץ אֲשֶׁר צִוִּיתִיךָ לֵאמֹר לֹא תֹאכַל מִמֶּנּוּ אֲרוּרָה הָֽאֲדָמָה בַּֽעֲבוּרֶךָ בְּעִצָּבוֹן תֹּֽאכֲלֶנָּה כֹּל יְמֵי חַיֶּֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct rebuke/declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "genesis-03-22-22",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 3,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
+        "riddle": "Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:",
+        "speaker": "LORD God",
+        "listener": "man",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֱלֹהִים הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע וְעַתָּה פֶּן־יִשְׁלַח יָדוֹ וְלָקַח גַּם מֵעֵץ הַֽחַיִּים וְאָכַל וָחַי לְעֹלָֽם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֱלֹהִים הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע וְעַתָּה פֶּן־יִשְׁלַח יָדוֹ וְלָקַח גַּם מֵעֵץ הַֽחַיִּים וְאָכַל וָחַי לְעֹלָֽם",
+        "speaker": "יְהוָה אֱלֹהִים",
+        "listener": "הָֽאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the LORD God said, Behold, the man is become as one of us, to know good and evil: and now, lest he put forth his hand, and take also of the tree of life, and eat, and live for ever:"
+        },
+        "he": {
+          "22": "וַיֹּאמֶר ׀ יְהוָה אֱלֹהִים הֵן הָֽאָדָם הָיָה כְּאַחַד מִמֶּנּוּ לָדַעַת טוֹב וָרָע וְעַתָּה ׀ פֶּן־יִשְׁלַח יָדוֹ וְלָקַח גַּם מֵעֵץ הַֽחַיִּים וְאָכַל וָחַי לְעֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 22,
+        "end": 22
+      }
     }
   ],
   "stats": {
-    "window_count": 19,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 19,
-    "kept_count": 2,
-    "issue_count": 17
+    "llm_window_count": 4,
+    "projection_llm_count": 16,
+    "llm_call_count": 20,
+    "spec_count": 16,
+    "kept_count": 13,
+    "issue_count": 3
   }
 }

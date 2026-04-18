@@ -4,12 +4,106 @@
   "book_he": "שמות",
   "chapter": 40,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-40-01-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 40,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.",
+        "riddle": "On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד",
+        "riddle": "בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-40-14-15",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 40,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And thou shalt bring his sons, and clothe them with coats: And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest's office: for their anointing shall surely be an everlasting priesthood throughout their generations.",
+        "riddle": "And thou shalt bring his sons, and clothe them with coats: And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest's office",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְאֶת־בָּנָיו תַּקְרִיב וְהִלְבַּשְׁתָּ אֹתָם כֻּתֳּנֹֽת וּמָשַׁחְתָּ אֹתָם כַּאֲשֶׁר מָשַׁחְתָּ אֶת־אֲבִיהֶם וְכִהֲנוּ לִי וְהָיְתָה לִהְיֹת לָהֶם מָשְׁחָתָם לִכְהֻנַּת עוֹלָם לְדֹרֹתָֽם",
+        "riddle": "וְאֶת־בָּנָיו תַּקְרִיב וְהִלְבַּשְׁתָּ אֹתָם כֻּתֳּנֹֽת וּמָשַׁחְתָּ אֹתָם כַּאֲשֶׁר מָשַׁחְתָּ אֶת־אֲבִיהֶם וְכִהֲנוּ לִי וְהָיְתָה לִהְיֹת לָהֶם מָשְׁחָתָם לִכְהֻנַּת עוֹלָם לְדֹרֹתָֽם",
+        "speaker": "ה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And thou shalt bring his sons, and clothe them with coats:",
+          "15": "And thou shalt anoint them, as thou didst anoint their father, that they may minister unto me in the priest's office: for their anointing shall surely be an everlasting priesthood throughout their generations."
+        },
+        "he": {
+          "14": "וְאֶת־בָּנָיו תַּקְרִיב וְהִלְבַּשְׁתָּ אֹתָם כֻּתֳּנֹֽת׃",
+          "15": "וּמָשַׁחְתָּ אֹתָם כַּאֲשֶׁר מָשַׁחְתָּ אֶת־אֲבִיהֶם וְכִהֲנוּ לִי וְהָיְתָה לִהְיֹת לָהֶם מָשְׁחָתָם לִכְהֻנַּת עוֹלָם לְדֹרֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 14,
+        "end": 15
+      }
+    }
+  ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 0,
-    "issue_count": 18
+    "llm_window_count": 4,
+    "projection_llm_count": 2,
+    "llm_call_count": 6,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

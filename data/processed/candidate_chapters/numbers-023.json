@@ -6,6 +6,352 @@
   "mode": "llm",
   "items": [
     {
+      "id": "numbers-23-01-01",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Balaam said unto Balak, Build me here seven altars, and prepare me here seven oxen and seven rams.",
+        "riddle": "Build me here seven altars, and prepare me here seven oxen and seven rams.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים",
+        "riddle": "בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Balaam said unto Balak, Build me here seven altars, and prepare me here seven oxen and seven rams."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "numbers-23-03-03",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And Balaam said unto Balak, Stand by thy burnt offering, and I will go: peradventure the LORD will come to meet me: and whatsoever he sheweth me I will tell thee. And he went to an high place.",
+        "riddle": "Stand by thy burnt offering, and I will go: peradventure the LORD will come to meet me: and whatsoever he sheweth me I will tell thee.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בִּלְעָם לְבָלָק הִתְיַצֵּב עַל־עֹלָתֶךָ וְאֵֽלְכָה אוּלַי יִקָּרֵה יְהוָה לִקְרָאתִי וּדְבַר מַה־יַּרְאֵנִי וְהִגַּדְתִּי לָךְ וַיֵּלֶךְ שֶֽׁפִי",
+        "riddle": "הִתְיַצֵּב עַל־עֹלָתֶךָ וְאֵֽלְכָה אוּלַי",
+        "speaker": "בִּלְעָם",
+        "listener": "בָלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Balaam said unto Balak, Stand by thy burnt offering, and I will go: peradventure the LORD will come to meet me: and whatsoever he sheweth me I will tell thee. And he went to an high place."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר בִּלְעָם לְבָלָק הִתְיַצֵּב עַל־עֹלָתֶךָ וְאֵֽלְכָה אוּלַי יִקָּרֵה יְהוָה לִקְרָאתִי וּדְבַר מַה־יַּרְאֵנִי וְהִגַּדְתִּי לָךְ וַיֵּלֶךְ שֶֽׁפִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "numbers-23-04-04",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And God met Balaam: and he said unto him, I have prepared seven altars, and I have offered upon every altar a bullock and a ram.",
+        "riddle": "I have prepared seven altars, and I have offered upon every altar a bullock and a ram.",
+        "speaker": "God",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיִּקָּר אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר אֵלָיו אֶת־שִׁבְעַת הַֽמִּזְבְּחֹת עָרַכְתִּי וָאַעַל פָּר וָאַיִל בַּמִּזְבֵּֽחַ",
+        "riddle": "אֶת־שִׁבְעַת הַֽמִּזְבְּחֹת עָרַכְתִּי וָאַעַל פָּר וָאַיִל בַּמִּזְבֵּֽח",
+        "speaker": "אֱלֹהִים",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And God met Balaam: and he said unto him, I have prepared seven altars, and I have offered upon every altar a bullock and a ram."
+        },
+        "he": {
+          "4": "וַיִּקָּר אֱלֹהִים אֶל־בִּלְעָם וַיֹּאמֶר אֵלָיו אֶת־שִׁבְעַת הַֽמִּזְבְּחֹת עָרַכְתִּי וָאַעַל פָּר וָאַיִל בַּמִּזְבֵּֽחַ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "numbers-23-05-05",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the LORD put a word in Balaam's mouth, and said, Return unto Balak, and thus thou shalt speak.",
+        "riddle": "Return unto Balak, and thus thou shalt speak.",
+        "speaker": "God",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיָּשֶׂם יְהוָה דָּבָר בְּפִי בִלְעָם וַיֹּאמֶר שׁוּב אֶל־בָּלָק וְכֹה תְדַבֵּֽר",
+        "riddle": "וַיֹּאמֶר שׁוּב אֶל־בָּלָק וְכֹה תְדַבֵּֽר",
+        "speaker": "יְהוָה",
+        "listener": "בִלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD put a word in Balaam's mouth, and said, Return unto Balak, and thus thou shalt speak."
+        },
+        "he": {
+          "5": "וַיָּשֶׂם יְהוָה דָּבָר בְּפִי בִלְעָם וַיֹּאמֶר שׁוּב אֶל־בָּלָק וְכֹה תְדַבֵּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "numbers-23-07-07",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7
+      },
+      "en": {
+        "quote": "And he took up his parable, and said, Balak the king of Moab hath brought me from Aram, out of the mountains of the east, saying, Come, curse me Jacob, and come, defy Israel.",
+        "riddle": "Balak the king of Moab hath brought me from Aram, out of the mountains of the east, saying, Come, curse me Jacob, and come, defy Israel.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא מְשָׁלוֹ וַיֹּאמַר מִן־אֲרָם יַנְחֵנִי בָלָק מֶֽלֶךְ־מוֹאָב מֵֽהַרְרֵי־קֶדֶם לְכָה אָֽרָה־לִּי יַעֲקֹב וּלְכָה זֹעֲמָה יִשְׂרָאֵֽל",
+        "riddle": "וַיִּשָּׂא מְשָׁלוֹ וַיֹּאמַר מִן־אֲרָם יַנְחֵנִי בָלָק מֶֽלֶךְ־מוֹאָב מֵֽהַרְרֵי־קֶדֶם לְכָה אָֽרָה־לִּי יַעֲקֹב וּלְכָה זֹעֲמָה יִשְׂרָאֵֽל",
+        "speaker": "בִּלְעָם",
+        "listener": "בָלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And he took up his parable, and said, Balak the king of Moab hath brought me from Aram, out of the mountains of the east, saying, Come, curse me Jacob, and come, defy Israel."
+        },
+        "he": {
+          "7": "וַיִּשָּׂא מְשָׁלוֹ וַיֹּאמַר מִן־אֲרָם יַנְחֵנִי בָלָק מֶֽלֶךְ־מוֹאָב מֵֽהַרְרֵי־קֶדֶם לְכָה אָֽרָה־לִּי יַעֲקֹב וּלְכָה זֹעֲמָה יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "numbers-23-08-08",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "How shall I curse, whom God hath not cursed? or how shall I defy, whom the LORD hath not defied?",
+        "riddle": "How shall I curse, whom God hath not cursed? or how shall I defy, whom the LORD hath not defied?",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "מָה אֶקֹּב לֹא קַבֹּה אֵל וּמָה אֶזְעֹם לֹא זָעַם יְהוָֽה",
+        "riddle": "מָה אֶקֹּב לֹא קַבֹּה אֵל וּמָה אֶזְעֹם לֹא זָעַם יְהוָֽה",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "How shall I curse, whom God hath not cursed? or how shall I defy, whom the LORD hath not defied?"
+        },
+        "he": {
+          "8": "מָה אֶקֹּב לֹא קַבֹּה אֵל וּמָה אֶזְעֹם לֹא זָעַם יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "numbers-23-10-10",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "Who can count the dust of Jacob, and the number of the fourth part of Israel? Let me die the death of the righteous, and let my last end be like his!",
+        "riddle": "Who can count the dust of Jacob, and the number of the fourth part of Israel?",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "מִי מָנָה עֲפַר יַעֲקֹב וּמִסְפָּר אֶת־רֹבַע יִשְׂרָאֵל תָּמֹת נַפְשִׁי מוֹת יְשָׁרִים וּתְהִי אַחֲרִיתִי כָּמֹֽהוּ",
+        "riddle": "מִי מָנָה עֲפַר יַעֲקֹב וּמִסְפָּר אֶת־רֹבַע יִשְׂרָאֵל",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "Who can count the dust of Jacob, and the number of the fourth part of Israel? Let me die the death of the righteous, and let my last end be like his!"
+        },
+        "he": {
+          "10": "מִי מָנָה עֲפַר יַעֲקֹב וּמִסְפָּר אֶת־רֹבַע יִשְׂרָאֵל תָּמֹת נַפְשִׁי מוֹת יְשָׁרִים וּתְהִי אַחֲרִיתִי כָּמֹֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "numbers-23-11-11",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Balak said unto Balaam, What hast thou done unto me? I took thee to curse mine enemies, and, behold, thou hast blessed them altogether.",
+        "riddle": "What hast thou done unto me? I took thee to curse mine enemies, and, behold, thou hast blessed them altogether.",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם מֶה עָשִׂיתָ לִי לָקֹב אֹיְבַי לְקַחְתִּיךָ וְהִנֵּה בֵּרַכְתָּ בָרֵֽךְ",
+        "riddle": "מֶה עָשִׂיתָ לִי לָקֹב אֹיְבַי לְקַחְתִּיךָ וְהִנֵּה בֵּרַכְתָּ בָרֵֽךְ",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Balak said unto Balaam, What hast thou done unto me? I took thee to curse mine enemies, and, behold, thou hast blessed them altogether."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם מֶה עָשִׂיתָ לִי לָקֹב אֹיְבַי לְקַחְתִּיךָ וְהִנֵּה בֵּרַכְתָּ בָרֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and accusation",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
       "id": "numbers-23-12-12",
       "source": {
         "book_code": "NUM",
@@ -19,14 +365,14 @@
         "quote": "And he answered and said, Must I not take heed to speak that which the LORD hath put in my mouth?",
         "riddle": "Must I not take heed to speak that which the LORD hath put in my mouth?",
         "speaker": "Balaam",
-        "listener": "Implicit",
+        "listener": "Balak",
         "book": "Numbers"
       },
       "he": {
         "quote": "וַיַּעַן וַיֹּאמַר הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר",
-        "riddle": "הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר",
-        "speaker": "בלאעם",
-        "listener": "לא ידוע",
+        "riddle": "וַיַּעַן וַיֹּאמַר הֲלֹא אֵת אֲשֶׁר יָשִׂים יְהוָה בְּפִי אֹתוֹ אֶשְׁמֹר לְדַבֵּֽר",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
         "book": "במדבר"
       },
       "raw_quote_source": {
@@ -38,13 +384,141 @@
         }
       },
       "meta": {
-        "reason": "Memorable rhetorical question",
-        "confidence": 0.95
+        "reason": "rhetorical question",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 23,
         "start": 12,
         "end": 12
+      }
+    },
+    {
+      "id": "numbers-23-13-13",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Balak said unto him, Come, I pray thee, with me unto another place, from whence thou mayest see them: thou shalt see but the utmost part of them, and shalt not see them all: and curse me them from thence.",
+        "riddle": "Come, I pray thee, with me unto another place, from whence thou mayest see them",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו בָּלָק לְכָה־נָּא אִתִּי אֶל־מָקוֹם אַחֵר אֲשֶׁר תִּרְאֶנּוּ מִשָּׁם אֶפֶס קָצֵהוּ תִרְאֶה וְכֻלּוֹ לֹא תִרְאֶה וְקָבְנוֹ־לִי מִשָּֽׁם",
+        "riddle": "לְכָה־נָּא אִתִּי אֶל־מָקוֹם אַחֵר אֲשֶׁר תִּרְאֶנּוּ מִשָּׁם אֶפֶס קָצֵהוּ תִרְאֶה וְכֻלּוֹ לֹא תִרְאֶה",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Balak said unto him, Come, I pray thee, with me unto another place, from whence thou mayest see them: thou shalt see but the utmost part of them, and shalt not see them all: and curse me them from thence."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֵלָיו בָּלָק לְכָה־נָּא אִתִּי אֶל־מָקוֹם אַחֵר אֲשֶׁר תִּרְאֶנּוּ מִשָּׁם אֶפֶס קָצֵהוּ תִרְאֶה וְכֻלּוֹ לֹא תִרְאֶה וְקָבְנוֹ־לִי מִשָּֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "command/request",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "numbers-23-15-15-1",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And he said unto Balak, Stand here by thy burnt offering, while I meet the LORD yonder.",
+        "riddle": "Stand here by thy burnt offering, while I meet the LORD yonder.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בָּלָק הִתְיַצֵּב כֹּה עַל־עֹלָתֶךָ וְאָנֹכִי אִקָּרֶה כֹּֽה",
+        "riddle": "הִתְיַצֵּב כֹּה עַל־עֹלָתֶךָ וְאָנֹכִי אִקָּרֶה כֹּֽה",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And he said unto Balak, Stand here by thy burnt offering, while I meet the LORD yonder."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר אֶל־בָּלָק הִתְיַצֵּב כֹּה עַל־עֹלָתֶךָ וְאָנֹכִי אִקָּרֶה כֹּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "numbers-23-15-15-2",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And he said unto Balak, Stand here by thy burnt offering, while I meet the LORD yonder.",
+        "riddle": "Stand here by thy burnt offering",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בָּלָק הִתְיַצֵּב כֹּה עַל־עֹלָתֶךָ וְאָנֹכִי אִקָּרֶה כֹּֽה",
+        "riddle": "הִתְיַצֵּב כֹּה עַל־עֹלָתֶך",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And he said unto Balak, Stand here by thy burnt offering, while I meet the LORD yonder."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר אֶל־בָּלָק הִתְיַצֵּב כֹּה עַל־עֹלָתֶךָ וְאָנֹכִי אִקָּרֶה כֹּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 15,
+        "end": 15
       }
     },
     {
@@ -68,7 +542,7 @@
         "quote": "וַיָּבֹא אֵלָיו וְהִנּוֹ נִצָּב עַל־עֹלָתוֹ וְשָׂרֵי מוֹאָב אִתּוֹ וַיֹּאמֶר לוֹ בָּלָק מַה־דִּבֶּר יְהוָֽה",
         "riddle": "מַה־דִּבֶּר יְהוָֽה",
         "speaker": "בָּלָק",
-        "listener": "בלעם",
+        "listener": "בִּלְעָם",
         "book": "במדבר"
       },
       "raw_quote_source": {
@@ -80,21 +554,326 @@
         }
       },
       "meta": {
-        "reason": "Direct question from Balak",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 23,
         "start": 17,
         "end": 17
       }
+    },
+    {
+      "id": "numbers-23-18-18",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And he took up his parable, and said, Rise up, Balak, and hear; hearken unto me, thou son of Zippor:",
+        "riddle": "Rise up, Balak, and hear; hearken unto me, thou son of Zippor:",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא מְשָׁלוֹ וַיֹּאמַר קוּם בָּלָק וּֽשֲׁמָע הַאֲזִינָה עָדַי בְּנוֹ צִפֹּֽר",
+        "riddle": "קוּם בָּלָק וּֽשֲׁמָע הַאֲזִינָה עָדַי בְּנוֹ צִפֹּֽר",
+        "speaker": "בִּעְלָעַם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he took up his parable, and said, Rise up, Balak, and hear; hearken unto me, thou son of Zippor:"
+        },
+        "he": {
+          "18": "וַיִּשָּׂא מְשָׁלוֹ וַיֹּאמַר קוּם בָּלָק וּֽשֲׁמָע הַאֲזִינָה עָדַי בְּנוֹ צִפֹּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "numbers-23-19-19",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "God is not a man, that he should lie; neither the son of man, that he should repent: hath he said, and shall he not do it? or hath he spoken, and shall he not make it good?",
+        "riddle": "God is not a man, that he should lie; neither the son of man, that he should repent",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "לֹא אִישׁ אֵל וִֽיכַזֵּב וּבֶן־אָדָם וְיִתְנֶחָם הַהוּא אָמַר וְלֹא יַעֲשֶׂה וְדִבֶּר וְלֹא יְקִימֶֽנָּה",
+        "riddle": "לֹא אִישׁ אֵל וִֽיכַזֵּב וּבֶן־אָדָם וְיִתְנֶחָם",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "God is not a man, that he should lie; neither the son of man, that he should repent: hath he said, and shall he not do it? or hath he spoken, and shall he not make it good?"
+        },
+        "he": {
+          "19": "לֹא אִישׁ אֵל וִֽיכַזֵּב וּבֶן־אָדָם וְיִתְנֶחָם הַהוּא אָמַר וְלֹא יַעֲשֶׂה וְדִבֶּר וְלֹא יְקִימֶֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "numbers-23-20-20",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "Behold, I have received commandment to bless: and he hath blessed; and I cannot reverse it.",
+        "riddle": "I have received commandment to bless: and he hath blessed; and I cannot reverse it.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "הִנֵּה בָרֵךְ לָקָחְתִּי וּבֵרֵךְ וְלֹא אֲשִׁיבֶֽנָּה",
+        "riddle": "הִנֵּה בָרֵךְ לָקָחְתִּי וּבֵרֵךְ וְלֹא אֲשִׁיבֶֽנָּה",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Behold, I have received commandment to bless: and he hath blessed; and I cannot reverse it."
+        },
+        "he": {
+          "20": "הִנֵּה בָרֵךְ לָקָחְתִּי וּבֵרֵךְ וְלֹא אֲשִׁיבֶֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "numbers-23-25-25",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Balak said unto Balaam, Neither curse them at all, nor bless them at all.",
+        "riddle": "Neither curse them at all, nor bless them at all.",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם גַּם־קֹב לֹא תִקֳּבֶנּוּ גַּם־בָּרֵךְ לֹא תְבָרֲכֶֽנּוּ",
+        "riddle": "גַּם־קֹב לֹא תִקֳּבֶנּוּ גַּם־בָּרֵךְ לֹא תְבָרֲכֶֽנּוּ",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Balak said unto Balaam, Neither curse them at all, nor bless them at all."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם גַּם־קֹב לֹא תִקֳּבֶנּוּ גַּם־בָּרֵךְ לֹא תְבָרֲכֶֽנּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "numbers-23-26-26",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "But Balaam answered and said unto Balak, Told not I thee, saying, All that the LORD speaketh, that I must do?",
+        "riddle": "Told not I thee, saying, All that the LORD speaketh, that I must do?",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל־בָּלָק הֲלֹא דִּבַּרְתִּי אֵלֶיךָ לֵאמֹר כֹּל אֲשֶׁר־יְדַבֵּר יְהוָה אֹתוֹ אֶֽעֱשֶֽׂה",
+        "riddle": "הֲלֹא דִּבַּרְתִּי אֵלֶיךָ לֵאמֹר כֹּל אֲשֶׁר־יְדַבֵּר יְהוָה אֹתוֹ אֶֽעֱשֶֽׂה",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "But Balaam answered and said unto Balak, Told not I thee, saying, All that the LORD speaketh, that I must do?"
+        },
+        "he": {
+          "26": "וַיַּעַן בִּלְעָם וַיֹּאמֶר אֶל־בָּלָק הֲלֹא דִּבַּרְתִּי אֵלֶיךָ לֵאמֹר כֹּל אֲשֶׁר־יְדַבֵּר יְהוָה אֹתוֹ אֶֽעֱשֶֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "numbers-23-27-27",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Balak said unto Balaam, Come, I pray thee, I will bring thee unto another place; peradventure it will please God that thou mayest curse me them from thence.",
+        "riddle": "Come, I pray thee, I will bring thee unto another place",
+        "speaker": "Balak",
+        "listener": "Balaam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם לְכָה־נָּא אֶקָּחֲךָ אֶל־מָקוֹם אַחֵר אוּלַי יִישַׁר בְּעֵינֵי הָאֱלֹהִים וְקַבֹּתוֹ לִי מִשָּֽׁם",
+        "riddle": "לְכָה־נָּא אֶקָּחֲךָ אֶל־מָקוֹם אַחֵר אוּלַי יִישַׁר בְּעֵינֵי הָאֱלֹהִים וְקַבֹּתוֹ לִי מִשָּֽׁם",
+        "speaker": "בָּלָק",
+        "listener": "בִּלְעָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Balak said unto Balaam, Come, I pray thee, I will bring thee unto another place; peradventure it will please God that thou mayest curse me them from thence."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר בָּלָק אֶל־בִּלְעָם לְכָה־נָּא אֶקָּחֲךָ אֶל־מָקוֹם אַחֵר אוּלַי יִישַׁר בְּעֵינֵי הָאֱלֹהִים וְקַבֹּתוֹ לִי מִשָּֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct invitation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "numbers-23-29-29",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 23,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And Balaam said unto Balak, Build me here seven altars, and prepare me here seven bullocks and seven rams.",
+        "riddle": "Build me here seven altars, and prepare me here seven bullocks and seven rams.",
+        "speaker": "Balaam",
+        "listener": "Balak",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים",
+        "riddle": "בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים",
+        "speaker": "בִּלְעָם",
+        "listener": "בָּלָק",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Balaam said unto Balak, Build me here seven altars, and prepare me here seven bullocks and seven rams."
+        },
+        "he": {
+          "29": "וַיֹּאמֶר בִּלְעָם אֶל־בָּלָק בְּנֵה־לִי בָזֶה שִׁבְעָה מִזְבְּחֹת וְהָכֵן לִי בָּזֶה שִׁבְעָה פָרִים וְשִׁבְעָה אֵילִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 29,
+        "end": 29
+      }
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 2,
-    "issue_count": 26
+    "llm_window_count": 5,
+    "projection_llm_count": 20,
+    "llm_call_count": 25,
+    "spec_count": 20,
+    "kept_count": 20,
+    "issue_count": 0
   }
 }

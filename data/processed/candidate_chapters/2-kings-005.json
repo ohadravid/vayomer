@@ -6,53 +6,652 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-kings-05-04-04",
+      "id": "2-kings-05-03-03",
       "source": {
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 5,
-        "quote_verse_start": 4,
-        "quote_verse_end": 4
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
       },
       "en": {
-        "quote": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel.",
-        "riddle": "Thus and thus said the maid that is of the land of Israel.",
-        "speaker": "maid",
-        "listener": "lord",
+        "quote": "And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.",
+        "riddle": "Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy.",
+        "speaker": "little maid",
+        "listener": "Naaman's wife",
         "book": "2 Kings"
       },
       "he": {
-        "quote": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
-        "riddle": "כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל",
-        "speaker": "הַֽנַּעֲרָה",
-        "listener": "אדֹנָיו",
+        "quote": "וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ",
+        "riddle": "וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ",
+        "speaker": "נְעָרָה",
+        "listener": "גְּבִרְתָּהּ",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
         "en": {
-          "4": "And one went in, and told his lord, saying, Thus and thus said the maid that is of the land of Israel."
+          "3": "And she said unto her mistress, Would God my lord were with the prophet that is in Samaria! for he would recover him of his leprosy."
         },
         "he": {
-          "4": "וַיָּבֹא וַיַּגֵּד לַאדֹנָיו לֵאמֹר כָּזֹאת וְכָזֹאת דִּבְּרָה הַֽנַּעֲרָה אֲשֶׁר מֵאֶרֶץ יִשְׂרָאֵֽל׃"
+          "3": "וַתֹּאמֶר אֶל־גְּבִרְתָּהּ אַחֲלֵי אֲדֹנִי לִפְנֵי הַנָּבִיא אֲשֶׁר בְּשֹׁמְרוֹן אָז יֶאֱסֹף אֹתוֹ מִצָּרַעְתּֽוֹ׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech/report",
+        "reason": "direct speech/wish",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 5,
-        "start": 4,
-        "end": 4
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-kings-05-06-06",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy.",
+        "riddle": "Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy.",
+        "speaker": "king of Syria",
+        "listener": "king of Israel",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ",
+        "riddle": "וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽו",
+        "speaker": "מֶלֶךְ סוּר",
+        "listener": "מֶלֶךְ יִשְׂרָאֵל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he brought the letter to the king of Israel, saying, Now when this letter is come unto thee, behold, I have therewith sent Naaman my servant to thee, that thou mayest recover him of his leprosy."
+        },
+        "he": {
+          "6": "וַיָּבֵא הַסֵּפֶר אֶל־מֶלֶךְ יִשְׂרָאֵל לֵאמֹר וְעַתָּה כְּבוֹא הַסֵּפֶר הַזֶּה אֵלֶיךָ הִנֵּה שָׁלַחְתִּי אֵלֶיךָ אֶת־נַעֲמָן עַבְדִּי וַאֲסַפְתּוֹ מִצָּרַעְתּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct message",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-kings-05-08-08",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel.",
+        "riddle": "Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel.",
+        "speaker": "Elisha",
+        "listener": "king of Israel",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְהִי כִּשְׁמֹעַ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל",
+        "riddle": "לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And it was so, when Elisha the man of God had heard that the king of Israel had rent his clothes, that he sent to the king, saying, Wherefore hast thou rent thy clothes? let him come now to me, and he shall know that there is a prophet in Israel."
+        },
+        "he": {
+          "8": "וַיְהִי כִּשְׁמֹעַ ׀ אֱלִישָׁע אִישׁ־הָאֱלֹהִים כִּֽי־קָרַע מֶֽלֶךְ־יִשְׂרָאֵל אֶת־בְּגָדָיו וַיִּשְׁלַח אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה קָרַעְתָּ בְּגָדֶיךָ יָבֹֽא־נָא אֵלַי וְיֵדַע כִּי יֵשׁ נָבִיא בְּיִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question and command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-kings-05-10-10",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+        "riddle": "Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+        "speaker": "messenger of Elisha",
+        "listener": "Naaman",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר",
+        "riddle": "הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר",
+        "speaker": "מַלְאָךְ",
+        "listener": "נַעֲמָן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Elisha sent a messenger unto him, saying, Go and wash in the Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean."
+        },
+        "he": {
+          "10": "וַיִּשְׁלַח אֵלָיו אֱלִישָׁע מַלְאָךְ לֵאמֹר הָלוֹךְ וְרָחַצְתָּ שֶֽׁבַע־פְּעָמִים בַּיַּרְדֵּן וְיָשֹׁב בְּשָׂרְךָ לְךָ וּטְהָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "command and promise",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "2-kings-05-13-13",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+        "riddle": "My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?",
+        "speaker": "servants",
+        "listener": "Naaman",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר",
+        "riddle": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר",
+        "speaker": "עֲבָדָיו",
+        "listener": "נַעֲמָן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And his servants came near, and spake unto him, and said, My father, if the prophet had bid thee do some great thing, wouldest thou not have done it? how much rather then, when he saith to thee, Wash, and be clean?"
+        },
+        "he": {
+          "13": "וַיִּגְּשׁוּ עֲבָדָיו וַיְדַבְּרוּ אֵלָיו וַיֹּאמְרוּ אָבִי דָּבָר גָּדוֹל הַנָּבִיא דִּבֶּר אֵלֶיךָ הֲלוֹא תַעֲשֶׂה וְאַף כִּֽי־אָמַר אֵלֶיךָ רְחַץ וּטְהָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "persuasive question",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-kings-05-15-15-1",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "riddle": "Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "riddle": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant."
+        },
+        "he": {
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-05-15-15-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant.",
+        "riddle": "Behold, now I know that there is no God in all earth, but in Israel",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ",
+        "riddle": "הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And he returned to the man of God, he and all his company, and came, and stood before him: and he said, Behold, now I know that there is no God in all earth, but in Israel: now therefore, I pray thee, take a blessing of thy servant."
+        },
+        "he": {
+          "15": "וַיָּשָׁב אֶל־אִישׁ הָאֱלֹהִים הוּא וְכָֽל־מַחֲנֵהוּ וַיָּבֹא וַיַּעֲמֹד לְפָנָיו וַיֹּאמֶר הִנֵּה־נָא יָדַעְתִּי כִּי אֵין אֱלֹהִים בְּכָל־הָאָרֶץ כִּי אִם־בְּיִשְׂרָאֵל וְעַתָּה קַח־נָא בְרָכָה מֵאֵת עַבְדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-05-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused.",
+        "riddle": "As the LORD liveth, before whom I stand, I will receive none",
+        "speaker": "Elisha",
+        "listener": "Naaman",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן",
+        "riddle": "חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח",
+        "speaker": "אלישע",
+        "listener": "נעמן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "But he said, As the LORD liveth, before whom I stand, I will receive none. And he urged him to take it; but he refused."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר חַי־יְהוָה אֲשֶׁר־עָמַדְתִּי לְפָנָיו אִם־אֶקָּח וַיִּפְצַר־בּוֹ לָקַחַת וַיְמָאֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct refusal",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-kings-05-17-17",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD.",
+        "riddle": "Shall there not then, I pray thee, be given to thy servant two mules' burden of earth?",
+        "speaker": "Naaman",
+        "listener": "Elisha",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה",
+        "riddle": "וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח",
+        "speaker": "נַעֲמָן",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules' burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר נַעֲמָן וָלֹא יֻתַּן־נָא לְעַבְדְּךָ מַשָּׂא צֶֽמֶד־פְּרָדִים אֲדָמָה כִּי לֽוֹא־יַעֲשֶׂה עוֹד עַבְדְּךָ עֹלָה וָזֶבַח לֵאלֹהִים אֲחֵרִים כִּי אִם־לַיהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-kings-05-19-19",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And he said unto him, Go in peace. So he departed from him a little way.",
+        "riddle": "Go in peace",
+        "speaker": "Elisha",
+        "listener": "Naaman",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ לֵךְ לְשָׁלוֹם וַיֵּלֶךְ מֵאִתּוֹ כִּבְרַת־אָֽרֶץ",
+        "riddle": "לֵךְ לְשָׁלוֹם",
+        "speaker": "אלישע",
+        "listener": "נעמן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And he said unto him, Go in peace. So he departed from him a little way."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר לוֹ לֵךְ לְשָׁלוֹם וַיֵּלֶךְ מֵאִתּוֹ כִּבְרַת־אָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "blessing/command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-kings-05-22-22",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments.",
+        "riddle": "All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments",
+        "speaker": "Gehazi",
+        "listener": "Naaman",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁלוֹם אֲדֹנִי שְׁלָחַנִי לֵאמֹר הִנֵּה עַתָּה זֶה בָּאוּ אֵלַי שְׁנֵֽי־נְעָרִים מֵהַר אֶפְרַיִם מִבְּנֵי הַנְּבִיאִים תְּנָה־נָּא לָהֶם כִּכַּר־כֶּסֶף וּשְׁתֵּי חֲלִפוֹת בְּגָדִֽים",
+        "riddle": "וַיֹּאמֶר שָׁלוֹם אֲדֹנִי שְׁלָחַנִי לֵאמֹר הִנֵּה עַתָּה זֶה בָּאוּ אֵלַי שְׁנֵֽי־נְעָרִים מֵהַר אֶפְרַיִם מִבְּנֵי הַנְּבִיאִים תְּנָה־נָּא לָהֶם כִּכַּר־כֶּסֶף וּשְׁתֵּי חֲלִפוֹת בְּגָדִֽים",
+        "speaker": "גֵחֲזִי",
+        "listener": "נַעֲמָן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר ׀ שָׁלוֹם אֲדֹנִי שְׁלָחַנִי לֵאמֹר הִנֵּה עַתָּה זֶה בָּאוּ אֵלַי שְׁנֵֽי־נְעָרִים מֵהַר אֶפְרַיִם מִבְּנֵי הַנְּבִיאִים תְּנָה־נָּא לָהֶם כִּכַּר־כֶּסֶף וּשְׁתֵּי חֲלִפוֹת בְּגָדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-kings-05-23-23",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him.",
+        "riddle": "Be content, take two talents.",
+        "speaker": "Naaman",
+        "listener": "servant",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נַעֲמָן הוֹאֵל קַח כִּכָּרָיִם וַיִּפְרָץ־בּוֹ וַיָּצַר כִּכְּרַיִם כֶּסֶף בִּשְׁנֵי חֲרִטִים וּשְׁתֵּי חֲלִפוֹת בְּגָדִים וַיִּתֵּן אֶל־שְׁנֵי נְעָרָיו וַיִּשְׂאוּ לְפָנָֽיו",
+        "riddle": "קַח כִּכָּרָיִם",
+        "speaker": "נַעֲמָן",
+        "listener": "נְעָרָיו",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר נַעֲמָן הוֹאֵל קַח כִּכָּרָיִם וַיִּפְרָץ־בּוֹ וַיָּצַר כִּכְּרַיִם כֶּסֶף בִּשְׁנֵי חֲרִטִים וּשְׁתֵּי חֲלִפוֹת בְּגָדִים וַיִּתֵּן אֶל־שְׁנֵי נְעָרָיו וַיִּשְׂאוּ לְפָנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-kings-05-25-25",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "But he went in, and stood before his master. And Elisha said unto him, Whence comest thou, Gehazi? And he said, Thy servant went no whither.",
+        "riddle": "Whence comest thou, Gehazi?",
+        "speaker": "Elisha",
+        "listener": "Gehazi",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְהוּא־בָא וַיַּעֲמֹד אֶל־אֲדֹנָיו וַיֹּאמֶר אֵלָיו אֱלִישָׁע מֵאַיִן גֵּחֲזִי וַיֹּאמֶר לֹֽא־הָלַךְ עַבְדְּךָ אָנֶה וָאָֽנָה",
+        "riddle": "אֵלָיו אֱלִישָׁע מֵאַיִן גֵּחֲזִי",
+        "speaker": "אֱלִישָׁע",
+        "listener": "גֵּחֲזִי",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "But he went in, and stood before his master. And Elisha said unto him, Whence comest thou, Gehazi? And he said, Thy servant went no whither."
+        },
+        "he": {
+          "25": "וְהוּא־בָא וַיַּעֲמֹד אֶל־אֲדֹנָיו וַיֹּאמֶר אֵלָיו אֱלִישָׁע מֵאַיִן גֵּחֲזִי וַיֹּאמֶר לֹֽא־הָלַךְ עַבְדְּךָ אָנֶה וָאָֽנָה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-kings-05-26-26",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?",
+        "riddle": "Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?",
+        "speaker": "Elisha",
+        "listener": "Gehazi",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו לֹא־לִבִּי הָלַךְ כַּאֲשֶׁר הָֽפַךְ־אִישׁ מֵעַל מֶרְכַּבְתּוֹ לִקְרָאתֶךָ הַעֵת לָקַחַת אֶת־הַכֶּסֶף וְלָקַחַת בְּגָדִים וְזֵיתִים וּכְרָמִים וְצֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֽוֹת",
+        "riddle": "וַיֹּאמֶר אֵלָיו לֹא־לִבִּי הָלַךְ כַּאֲשֶׁר הָֽפַךְ־אִישׁ מֵעַל מֶרְכַּבְתּוֹ לִקְרָאתֶךָ הַעֵת לָקַחַת אֶת־הַכֶּסֶף וְלָקַחַת בְּגָדִים וְזֵיתִים וּכְרָמִים וְצֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֽוֹת",
+        "speaker": "אלישע",
+        "listener": "גחזי",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And he said unto him, Went not mine heart with thee, when the man turned again from his chariot to meet thee? Is it a time to receive money, and to receive garments, and oliveyards, and vineyards, and sheep, and oxen, and menservants, and maidservants?"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אֵלָיו לֹא־לִבִּי הָלַךְ כַּאֲשֶׁר הָֽפַךְ־אִישׁ מֵעַל מֶרְכַּבְתּוֹ לִקְרָאתֶךָ הַעֵת לָקַחַת אֶת־הַכֶּסֶף וְלָקַחַת בְּגָדִים וְזֵיתִים וּכְרָמִים וְצֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.97
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "2-kings-05-27-27",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 5,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow.",
+        "riddle": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever.",
+        "speaker": "Elisha",
+        "listener": "Gehazi",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם וַיֵּצֵא מִלְּפָנָיו מְצֹרָע כַּשָּֽׁלֶג",
+        "riddle": "וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם",
+        "speaker": "אֱלִישָׁע",
+        "listener": "גֵהֲזִי",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "The leprosy therefore of Naaman shall cleave unto thee, and unto thy seed for ever. And he went out from his presence a leper as white as snow."
+        },
+        "he": {
+          "27": "וְצָרַעַת נַֽעֲמָן תִּֽדְבַּק־בְּךָ וּֽבְזַרְעֲךָ לְעוֹלָם וַיֵּצֵא מִלְּפָנָיו מְצֹרָע כַּשָּֽׁלֶג׃"
+        }
+      },
+      "meta": {
+        "reason": "direct curse/declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 27,
+        "end": 27
       }
     }
   ],
   "stats": {
-    "window_count": 25,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 25,
-    "kept_count": 1,
-    "issue_count": 24
+    "llm_window_count": 4,
+    "projection_llm_count": 20,
+    "llm_call_count": 24,
+    "spec_count": 20,
+    "kept_count": 15,
+    "issue_count": 7
   }
 }

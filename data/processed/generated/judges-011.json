@@ -6,53 +6,133 @@
   "mode": "llm",
   "items": [
     {
-      "id": "judges-11-24-24",
+      "id": "judges-11-06-06",
       "source": {
         "method": "llm",
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 11,
-        "quote_verse_start": 18,
-        "quote_verse_end": 24
+        "quote_verse_start": 5,
+        "quote_verse_end": 6,
+        "listener_mention_verse": 7
       },
       "en": {
-        "quote": "Then they went along through the wilderness, and compassed the land of Edom, and the land of Moab, and came by the east side of the land of Moab, and pitched on the other side of Arnon, but came not within the border of Moab: for Arnon was the border of Moab. And Israel sent messengers unto Sihon king of the Amorites, the king of Heshbon; and Israel said unto him, Let us pass, we pray thee, through thy land into my place. But Sihon trusted not Israel to pass through his coast: but Sihon gathered all his people together, and pitched in Jahaz, and fought against Israel. And the LORD God of Israel delivered Sihon and all his people into the hand of Israel, and they smote them: so Israel possessed all the land of the Amorites, the inhabitants of that country. And they possessed all the coasts of the Amorites, from Arnon even unto Jabbok, and from the wilderness even unto Jordan. So now the LORD God of Israel hath dispossessed the Amorites from before his people Israel, and shouldest thou possess it? Wilt not thou possess that which Chemosh thy god giveth thee to possess? So whomsoever the LORD our God shall drive out from before us, them will we possess.",
-        "riddle": "Wilt not thou possess that which Chemosh thy god giveth thee to possess?",
-        "speaker": "Israel",
-        "listener": "King of Moab",
+        "quote": "And it was so, that when the children of Ammon made war against Israel, the elders of Gilead went to fetch Jephthah out of the land of Tob: And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.",
+        "riddle": "Come, and be our captain, that we may fight with the children of Ammon.",
+        "speaker": "elders of Gilead",
+        "listener": "Jephthah",
         "book": "Judges",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "land",
+        "bonus": "war",
         "bonus_hint": {
-          "quote": "And God called the dry land Earth; and the gathering together of the waters called he Seas: and God saw that it was good.",
+          "quote": "And it came to pass, when Pharaoh had let the people go, that God led them not through the way of the land of the Philistines, although that was near; for God said, Lest peradventure the people repent when they see war, and they return to Egypt:",
           "source": {
-            "book": "Genesis",
-            "chapter": 1,
+            "book": "Exodus",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר־נִלְחֲמוּ בְנֵֽי־עַמּוֹן עִם־יִשְׂרָאֵל וַיֵּֽלְכוּ זִקְנֵי גִלְעָד לָקַחַת אֶת־יִפְתָּח מֵאֶרֶץ טֽוֹב וַיֹּאמְרוּ לְיִפְתָּח לְכָה וְהָיִיתָה לָּנוּ לְקָצִין וְנִֽלָּחֲמָה בִּבְנֵי עַמּֽוֹן",
+        "riddle": "לְכָה וְהָיִיתָה לָּנוּ לְקָצִין וְנִֽלָּחֲמָה בִּבְנֵי עַמּֽוֹן",
+        "speaker": "זִקְנֵי גִלְעָד",
+        "listener": "יִפְתָּח",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי בְּשַׁלַּח פַּרְעֹה אֶת־הָעָם וְלֹא־נָחָם אֱלֹהִים דֶּרֶךְ אֶרֶץ פְּלִשְׁתִּים כִּי קָרוֹב הוּא כִּי אָמַר אֱלֹהִים פֶּֽן־יִנָּחֵם הָעָם בִּרְאֹתָם מִלְחָמָה וְשָׁבוּ מִצְרָֽיְמָה",
+          "source": {
+            "book": "שמות",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And it was so, that when the children of Ammon made war against Israel, the elders of Gilead went to fetch Jephthah out of the land of Tob:",
+          "6": "And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.",
+          "7": "And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?"
+        },
+        "he": {
+          "5": "וַיְהִי כַּאֲשֶׁר־נִלְחֲמוּ בְנֵֽי־עַמּוֹן עִם־יִשְׂרָאֵל וַיֵּֽלְכוּ זִקְנֵי גִלְעָד לָקַחַת אֶת־יִפְתָּח מֵאֶרֶץ טֽוֹב׃",
+          "6": "וַיֹּאמְרוּ לְיִפְתָּח לְכָה וְהָיִיתָה לָּנוּ לְקָצִין וְנִֽלָּחֲמָה בִּבְנֵי עַמּֽוֹן׃",
+          "7": "וַיֹּאמֶר יִפְתָּח לְזִקְנֵי גִלְעָד הֲלֹא אַתֶּם שְׂנֵאתֶם אוֹתִי וַתְּגָרְשׁוּנִי מִבֵּית אָבִי וּמַדּוּעַ בָּאתֶם אֵלַי עַתָּה כַּאֲשֶׁר צַר לָכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 5,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-11-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 11,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon. And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?",
+        "riddle": "Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?",
+        "speaker": "Jephthah",
+        "listener": "elders of Gilead",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "captain",
+        "bonus_hint": {
+          "quote": "Then Ishmael carried away captive all the residue of the people that were in Mizpah, even the king's daughters, and all the people that remained in Mizpah, whom Nebuzar-adan the captain of the guard had committed to Gedaliah the son of Ahikam: and Ishmael the son of Nethaniah carried them away captive, and departed to go over to the Ammonites.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 41,
             "start": 10,
             "end": 10
           }
         }
       },
       "he": {
-        "quote": "וַיֵּלֶךְ בַּמִּדְבָּר וַיָּסָב אֶת־אֶרֶץ אֱדוֹם וְאֶת־אֶרֶץ מוֹאָב וַיָּבֹא מִמִּזְרַח־שֶׁמֶשׁ לְאֶרֶץ מוֹאָב וַֽיַּחֲנון בְּעֵבֶר אַרְנוֹן וְלֹא־בָאוּ בִּגְבוּל מוֹאָב כִּי אַרְנוֹן גְּבוּל מוֹאָֽב וַיִּשְׁלַח יִשְׂרָאֵל מַלְאָכִים אֶל־סִיחוֹן מֶֽלֶךְ־הָאֱמֹרִי מֶלֶךְ חֶשְׁבּוֹן וַיֹּאמֶר לוֹ יִשְׂרָאֵל נַעְבְּרָה־נָּא בְאַרְצְךָ עַד־מְקוֹמִֽי וְלֹא־הֶאֱמִין סִיחוֹן אֶת־יִשְׂרָאֵל עֲבֹר בִּגְבֻלוֹ וַיֶּאֱסֹף סִיחוֹן אֶת־כָּל־עַמּוֹ וַֽיַּחֲנוּ בְּיָהְצָה וַיִלָּחֶם עִם־יִשְׂרָאֵֽל וַיִּתֵּן יְהוָה אֱלֹהֵֽי־יִשְׂרָאֵל אֶת־סִיחוֹן וְאֶת־כָּל־עַמּוֹ בְּיַד יִשְׂרָאֵל וַיַּכּוּם וַיִּירַשׁ יִשְׂרָאֵל אֵת כָּל־אֶרֶץ הָאֱמֹרִי יוֹשֵׁב הָאָרֶץ הַהִֽיא וַיִּירְשׁוּ אֵת כָּל־גְּבוּל הָאֱמֹרִי מֵֽאַרְנוֹן וְעַד־הַיַּבֹּק וּמִן־הַמִּדְבָּר וְעַד־הַיַּרְדֵּֽן וְעַתָּה יְהוָה אֱלֹהֵי יִשְׂרָאֵל הוֹרִישׁ אֶת־הָאֱמֹרִי מִפְּנֵי עַמּוֹ יִשְׂרָאֵל וְאַתָּה תִּירָשֶֽׁנּוּ הֲלֹא אֵת אֲשֶׁר יוֹרִֽישְׁךָ כְּמוֹשׁ אֱלֹהֶיךָ אוֹתוֹ תִירָשׁ וְאֵת כָּל־אֲשֶׁר הוֹרִישׁ יְהוָה אֱלֹהֵינוּ מִפָּנֵינוּ אוֹתוֹ נִירָֽשׁ",
-        "riddle": "הֲלֹא אֵת אֲשֶׁר יוֹרִֽישְׁךָ כְּמוֹשׁ אֱלֹהֶיךָ אוֹתוֹ תִירָשׁ וְאֵת",
-        "speaker": "יִשְׂרָאֵל",
-        "listener": "אמרי",
+        "quote": "וַיֹּאמְרוּ לְיִפְתָּח לְכָה וְהָיִיתָה לָּנוּ לְקָצִין וְנִֽלָּחֲמָה בִּבְנֵי עַמּֽוֹן וַיֹּאמֶר יִפְתָּח לְזִקְנֵי גִלְעָד הֲלֹא אַתֶּם שְׂנֵאתֶם אוֹתִי וַתְּגָרְשׁוּנִי מִבֵּית אָבִי וּמַדּוּעַ בָּאתֶם אֵלַי עַתָּה כַּאֲשֶׁר צַר לָכֶֽם",
+        "riddle": "הֲלֹא אַתֶּם שְׂנֵאתֶם אוֹתִי וַתְּגָרְשׁוּנִי מִבֵּית אָבִי וּמַדּוּעַ בָּאתֶם אֵלַי עַתָּה כַּאֲשֶׁר צַר לָכֶֽם",
+        "speaker": "יִפְתָּח",
+        "listener": "זִקְנֵי גִלְעָד",
         "book": "שופטים",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "אֶרֶץ",
+        "bonus": "עַמּֽוֹן",
         "bonus_hint": {
-          "quote": "וַיִּקְרָא אֱלֹהִים לַיַּבָּשָׁה אֶרֶץ וּלְמִקְוֵה הַמַּיִם קָרָא יַמִּים וַיַּרְא אֱלֹהִים כִּי־טֽוֹב",
+          "quote": "וַיִּשְׁבְּ יִשְׁמָעֵאל אֶת־כָּל־שְׁאֵרִית הָעָם אֲשֶׁר בַּמִּצְפָּה אֶת־בְּנוֹת הַמֶּלֶךְ וְאֶת־כָּל־הָעָם הַנִּשְׁאָרִים בַּמִּצְפָּה אֲשֶׁר הִפְקִיד נְבֽוּזַרְאֲדָן רַב־טַבָּחִים אֶת־גְּדַלְיָהוּ בֶּן־אֲחִיקָם וַיִּשְׁבֵּם יִשְׁמָעֵאל בֶּן־נְתַנְיָה וַיֵּלֶךְ לַעֲבֹר אֶל־בְּנֵי עַמּֽוֹן",
           "source": {
-            "book": "בראשית",
-            "chapter": 1,
+            "book": "ירמיהו",
+            "chapter": 41,
             "start": 10,
             "end": 10
           }
@@ -60,28 +140,185 @@
       },
       "raw_quote_source": {
         "en": {
-          "18": "Then they went along through the wilderness, and compassed the land of Edom, and the land of Moab, and came by the east side of the land of Moab, and pitched on the other side of Arnon, but came not within the border of Moab: for Arnon was the border of Moab.",
-          "19": "And Israel sent messengers unto Sihon king of the Amorites, the king of Heshbon; and Israel said unto him, Let us pass, we pray thee, through thy land into my place.",
-          "20": "But Sihon trusted not Israel to pass through his coast: but Sihon gathered all his people together, and pitched in Jahaz, and fought against Israel.",
-          "21": "And the LORD God of Israel delivered Sihon and all his people into the hand of Israel, and they smote them: so Israel possessed all the land of the Amorites, the inhabitants of that country.",
-          "22": "And they possessed all the coasts of the Amorites, from Arnon even unto Jabbok, and from the wilderness even unto Jordan.",
-          "23": "So now the LORD God of Israel hath dispossessed the Amorites from before his people Israel, and shouldest thou possess it?",
-          "24": "Wilt not thou possess that which Chemosh thy god giveth thee to possess? So whomsoever the LORD our God shall drive out from before us, them will we possess."
+          "6": "And they said unto Jephthah, Come, and be our captain, that we may fight with the children of Ammon.",
+          "7": "And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?"
         },
         "he": {
-          "18": "וַיֵּלֶךְ בַּמִּדְבָּר וַיָּסָב אֶת־אֶרֶץ אֱדוֹם וְאֶת־אֶרֶץ מוֹאָב וַיָּבֹא מִמִּזְרַח־שֶׁמֶשׁ לְאֶרֶץ מוֹאָב וַֽיַּחֲנון בְּעֵבֶר אַרְנוֹן וְלֹא־בָאוּ בִּגְבוּל מוֹאָב כִּי אַרְנוֹן גְּבוּל מוֹאָֽב׃",
-          "19": "וַיִּשְׁלַח יִשְׂרָאֵל מַלְאָכִים אֶל־סִיחוֹן מֶֽלֶךְ־הָאֱמֹרִי מֶלֶךְ חֶשְׁבּוֹן וַיֹּאמֶר לוֹ יִשְׂרָאֵל נַעְבְּרָה־נָּא בְאַרְצְךָ עַד־מְקוֹמִֽי׃",
-          "20": "וְלֹא־הֶאֱמִין סִיחוֹן אֶת־יִשְׂרָאֵל עֲבֹר בִּגְבֻלוֹ וַיֶּאֱסֹף סִיחוֹן אֶת־כָּל־עַמּוֹ וַֽיַּחֲנוּ בְּיָהְצָה וַיִלָּחֶם עִם־יִשְׂרָאֵֽל׃",
-          "21": "וַיִּתֵּן יְהוָה אֱלֹהֵֽי־יִשְׂרָאֵל אֶת־סִיחוֹן וְאֶת־כָּל־עַמּוֹ בְּיַד יִשְׂרָאֵל וַיַּכּוּם וַיִּירַשׁ יִשְׂרָאֵל אֵת כָּל־אֶרֶץ הָאֱמֹרִי יוֹשֵׁב הָאָרֶץ הַהִֽיא׃",
-          "22": "וַיִּירְשׁוּ אֵת כָּל־גְּבוּל הָאֱמֹרִי מֵֽאַרְנוֹן וְעַד־הַיַּבֹּק וּמִן־הַמִּדְבָּר וְעַד־הַיַּרְדֵּֽן׃",
-          "23": "וְעַתָּה יְהוָה ׀ אֱלֹהֵי יִשְׂרָאֵל הוֹרִישׁ אֶת־הָאֱמֹרִי מִפְּנֵי עַמּוֹ יִשְׂרָאֵל וְאַתָּה תִּירָשֶֽׁנּוּ׃",
-          "24": "הֲלֹא אֵת אֲשֶׁר יוֹרִֽישְׁךָ כְּמוֹשׁ אֱלֹהֶיךָ אוֹתוֹ תִירָשׁ וְאֵת כָּל־אֲשֶׁר הוֹרִישׁ יְהוָה אֱלֹהֵינוּ מִפָּנֵינוּ אוֹתוֹ נִירָֽשׁ׃"
+          "6": "וַיֹּאמְרוּ לְיִפְתָּח לְכָה וְהָיִיתָה לָּנוּ לְקָצִין וְנִֽלָּחֲמָה בִּבְנֵי עַמּֽוֹן׃",
+          "7": "וַיֹּאמֶר יִפְתָּח לְזִקְנֵי גִלְעָד הֲלֹא אַתֶּם שְׂנֵאתֶם אוֹתִי וַתְּגָרְשׁוּנִי מִבֵּית אָבִי וּמַדּוּעַ בָּאתֶם אֵלַי עַתָּה כַּאֲשֶׁר צַר לָכֶֽם׃"
         }
       },
       "ref": {
         "chapter": 11,
-        "start": 18,
-        "end": 24
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-11-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 11,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead. And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head?",
+        "riddle": "Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead.",
+        "speaker": "elders of Gilead",
+        "listener": "Jephthah",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bring",
+        "bonus_hint": {
+          "quote": "And, behold, I am with thee, and will keep thee in all places whither thou goest, and will bring thee again into this land; for I will not leave thee, until I have done that which I have spoken to thee of.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 28,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ זִקְנֵי גִלְעָד אֶל־יִפְתָּח לָכֵן עַתָּה שַׁבְנוּ אֵלֶיךָ וְהָלַכְתָּ עִמָּנוּ וְנִלְחַמְתָּ בִּבְנֵי עַמּוֹן וְהָיִיתָ לָּנוּ לְרֹאשׁ לְכֹל יֹשְׁבֵי גִלְעָֽד וַיֹּאמֶר יִפְתָּח אֶל־זִקְנֵי גִלְעָד אִם־מְשִׁיבִים אַתֶּם אוֹתִי לְהִלָּחֵם בִּבְנֵי עַמּוֹן וְנָתַן יְהוָה אוֹתָם לְפָנָי אָנֹכִי אֶהְיֶה לָכֶם לְרֹֽאשׁ",
+        "riddle": "לָכֵן עַתָּה שַׁבְנוּ אֵלֶיךָ וְהָלַכְתָּ עִמָּנוּ וְנִלְחַמְתָּ בִּבְנֵי עַמּוֹן וְהָיִיתָ לָּנוּ לְרֹאשׁ לְכֹל יֹשְׁבֵי גִלְעָֽד",
+        "speaker": "זִקְנֵי גִלְעָד",
+        "listener": "יִפְתָּח",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "וְהִנֵּה אָנֹכִי עִמָּךְ וּשְׁמַרְתִּיךָ בְּכֹל אֲשֶׁר־תֵּלֵךְ וַהֲשִׁבֹתִיךָ אֶל־הָאֲדָמָה הַזֹּאת כִּי לֹא אֶֽעֱזָבְךָ עַד אֲשֶׁר אִם־עָשִׂיתִי אֵת אֲשֶׁר־דִּבַּרְתִּי לָֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 28,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Jephthah said unto the elders of Gilead, Did not ye hate me, and expel me out of my father's house? and why are ye come unto me now when ye are in distress?",
+          "8": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead.",
+          "9": "And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head?"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יִפְתָּח לְזִקְנֵי גִלְעָד הֲלֹא אַתֶּם שְׂנֵאתֶם אוֹתִי וַתְּגָרְשׁוּנִי מִבֵּית אָבִי וּמַדּוּעַ בָּאתֶם אֵלַי עַתָּה כַּאֲשֶׁר צַר לָכֶֽם׃",
+          "8": "וַיֹּאמְרוּ זִקְנֵי גִלְעָד אֶל־יִפְתָּח לָכֵן עַתָּה שַׁבְנוּ אֵלֶיךָ וְהָלַכְתָּ עִמָּנוּ וְנִלְחַמְתָּ בִּבְנֵי עַמּוֹן וְהָיִיתָ לָּנוּ לְרֹאשׁ לְכֹל יֹשְׁבֵי גִלְעָֽד׃",
+          "9": "וַיֹּאמֶר יִפְתָּח אֶל־זִקְנֵי גִלְעָד אִם־מְשִׁיבִים אַתֶּם אוֹתִי לְהִלָּחֵם בִּבְנֵי עַמּוֹן וְנָתַן יְהוָה אוֹתָם לְפָנָי אָנֹכִי אֶהְיֶה לָכֶם לְרֹֽאשׁ׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 8,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-11-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 11,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead. And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head? And the elders of Gilead said unto Jephthah, The LORD be witness between us, if we do not so according to thy words. Then Jephthah went with the elders of Gilead, and the people made him head and captain over them: and Jephthah uttered all his words before the LORD in Mizpeh. And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come against me to fight in my land? And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when they came up out of Egypt, from Arnon even unto Jabbok, and unto Jordan: now therefore restore those lands again peaceably. And Jephthah sent messengers again unto the king of the children of Ammon:",
+        "riddle": "What hast thou to do with me, that thou art come against me to fight in my land?",
+        "speaker": "Jephthah",
+        "listener": "king of Ammon",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "head",
+        "bonus_hint": {
+          "quote": "And the elders of the congregation shall lay their hands upon the head of the bullock before the LORD: and the bullock shall be killed before the LORD.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 4,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ זִקְנֵי גִלְעָד אֶל־יִפְתָּח לָכֵן עַתָּה שַׁבְנוּ אֵלֶיךָ וְהָלַכְתָּ עִמָּנוּ וְנִלְחַמְתָּ בִּבְנֵי עַמּוֹן וְהָיִיתָ לָּנוּ לְרֹאשׁ לְכֹל יֹשְׁבֵי גִלְעָֽד וַיֹּאמֶר יִפְתָּח אֶל־זִקְנֵי גִלְעָד אִם־מְשִׁיבִים אַתֶּם אוֹתִי לְהִלָּחֵם בִּבְנֵי עַמּוֹן וְנָתַן יְהוָה אוֹתָם לְפָנָי אָנֹכִי אֶהְיֶה לָכֶם לְרֹֽאשׁ וַיֹּאמְרוּ זִקְנֵֽי־גִלְעָד אֶל־יִפְתָּח יְהוָה יִהְיֶה שֹׁמֵעַ בֵּֽינוֹתֵינוּ אִם־לֹא כִדְבָרְךָ כֵּן נַעֲשֶֽׂה וַיֵּלֶךְ יִפְתָּח עִם־זִקְנֵי גִלְעָד וַיָּשִׂימוּ הָעָם אוֹתוֹ עֲלֵיהֶם לְרֹאשׁ וּלְקָצִין וַיְדַבֵּר יִפְתָּח אֶת־כָּל־דְּבָרָיו לִפְנֵי יְהוָה בַּמִּצְפָּֽה וַיִּשְׁלַח יִפְתָּח מַלְאָכִים אֶל־מֶלֶךְ בְּנֵֽי־עַמּוֹן לֵאמֹר מַה־לִּי וָלָךְ כִּֽי־בָאתָ אֵלַי לְהִלָּחֵם בְּאַרְצִֽי וַיֹּאמֶר מֶלֶךְ בְּנֵי־עַמּוֹן אֶל־מַלְאֲכֵי יִפְתָּח כִּֽי־לָקַח יִשְׂרָאֵל אֶת־אַרְצִי בַּעֲלוֹתוֹ מִמִּצְרַיִם מֵאַרְנוֹן וְעַד־הַיַּבֹּק וְעַד־הַיַּרְדֵּן וְעַתָּה הָשִׁיבָה אֶתְהֶן בְּשָׁלֽוֹם וַיּוֹסֶף עוֹד יִפְתָּח וַיִּשְׁלַח מַלְאָכִים אֶל־מֶלֶךְ בְּנֵי עַמּֽוֹן",
+        "riddle": "מַה־לִּי וָלָךְ כִּֽי־בָאתָ אֵלַי לְהִלָּחֵם בְּאַרְצִֽי",
+        "speaker": "יִפְתָּח",
+        "listener": "מֶלֶךְ בְּנֵֽי־עַמּוֹן",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "זִקְנֵי",
+        "bonus_hint": {
+          "quote": "וְסָמְכוּ זִקְנֵי הָעֵדָה אֶת־יְדֵיהֶם עַל־רֹאשׁ הַפָּר לִפְנֵי יְהוָה וְשָׁחַט אֶת־הַפָּר לִפְנֵי יְהוָֽה",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 4,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the elders of Gilead said unto Jephthah, Therefore we turn again to thee now, that thou mayest go with us, and fight against the children of Ammon, and be our head over all the inhabitants of Gilead.",
+          "9": "And Jephthah said unto the elders of Gilead, If ye bring me home again to fight against the children of Ammon, and the LORD deliver them before me, shall I be your head?",
+          "10": "And the elders of Gilead said unto Jephthah, The LORD be witness between us, if we do not so according to thy words.",
+          "11": "Then Jephthah went with the elders of Gilead, and the people made him head and captain over them: and Jephthah uttered all his words before the LORD in Mizpeh.",
+          "12": "And Jephthah sent messengers unto the king of the children of Ammon, saying, What hast thou to do with me, that thou art come against me to fight in my land?",
+          "13": "And the king of the children of Ammon answered unto the messengers of Jephthah, Because Israel took away my land, when they came up out of Egypt, from Arnon even unto Jabbok, and unto Jordan: now therefore restore those lands again peaceably.",
+          "14": "And Jephthah sent messengers again unto the king of the children of Ammon:"
+        },
+        "he": {
+          "8": "וַיֹּאמְרוּ זִקְנֵי גִלְעָד אֶל־יִפְתָּח לָכֵן עַתָּה שַׁבְנוּ אֵלֶיךָ וְהָלַכְתָּ עִמָּנוּ וְנִלְחַמְתָּ בִּבְנֵי עַמּוֹן וְהָיִיתָ לָּנוּ לְרֹאשׁ לְכֹל יֹשְׁבֵי גִלְעָֽד׃",
+          "9": "וַיֹּאמֶר יִפְתָּח אֶל־זִקְנֵי גִלְעָד אִם־מְשִׁיבִים אַתֶּם אוֹתִי לְהִלָּחֵם בִּבְנֵי עַמּוֹן וְנָתַן יְהוָה אוֹתָם לְפָנָי אָנֹכִי אֶהְיֶה לָכֶם לְרֹֽאשׁ׃",
+          "10": "וַיֹּאמְרוּ זִקְנֵֽי־גִלְעָד אֶל־יִפְתָּח יְהוָה יִהְיֶה שֹׁמֵעַ בֵּֽינוֹתֵינוּ אִם־לֹא כִדְבָרְךָ כֵּן נַעֲשֶֽׂה׃",
+          "11": "וַיֵּלֶךְ יִפְתָּח עִם־זִקְנֵי גִלְעָד וַיָּשִׂימוּ הָעָם אוֹתוֹ עֲלֵיהֶם לְרֹאשׁ וּלְקָצִין וַיְדַבֵּר יִפְתָּח אֶת־כָּל־דְּבָרָיו לִפְנֵי יְהוָה בַּמִּצְפָּֽה׃",
+          "12": "וַיִּשְׁלַח יִפְתָּח מַלְאָכִים אֶל־מֶלֶךְ בְּנֵֽי־עַמּוֹן לֵאמֹר מַה־לִּי וָלָךְ כִּֽי־בָאתָ אֵלַי לְהִלָּחֵם בְּאַרְצִֽי׃",
+          "13": "וַיֹּאמֶר מֶלֶךְ בְּנֵי־עַמּוֹן אֶל־מַלְאֲכֵי יִפְתָּח כִּֽי־לָקַח יִשְׂרָאֵל אֶת־אַרְצִי בַּעֲלוֹתוֹ מִמִּצְרַיִם מֵאַרְנוֹן וְעַד־הַיַּבֹּק וְעַד־הַיַּרְדֵּן וְעַתָּה הָשִׁיבָה אֶתְהֶן בְּשָׁלֽוֹם׃",
+          "14": "וַיּוֹסֶף עוֹד יִפְתָּח וַיִּשְׁלַח מַלְאָכִים אֶל־מֶלֶךְ בְּנֵי עַמּֽוֹן׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 8,
+        "end": 14
       },
       "meta": {
         "mode": "llm",

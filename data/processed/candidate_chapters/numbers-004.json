@@ -4,12 +4,153 @@
   "book_he": "במדבר",
   "chapter": 4,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-04-01-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 4,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses and unto Aaron, saying, Take the sum of the sons of Kohath from among the sons of Levi, after their families, by the house of their fathers,",
+        "riddle": "Take the sum of the sons of Kohath from among the sons of Levi, after their families, by the house of their fathers,",
+        "speaker": "the LORD",
+        "listener": "Moses and Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר נָשֹׂא אֶת־רֹאשׁ בְּנֵי קְהָת מִתּוֹךְ בְּנֵי לֵוִי לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָֽם",
+        "riddle": "נָשֹׂא אֶת־רֹאשׁ בְּנֵי קְהָת מִתּוֹךְ בְּנֵי לֵוִי לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and unto Aaron, saying,",
+          "2": "Take the sum of the sons of Kohath from among the sons of Levi, after their families, by the house of their fathers,"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "2": "נָשֹׂא אֶת־רֹאשׁ בְּנֵי קְהָת מִתּוֹךְ בְּנֵי לֵוִי לְמִשְׁפְּחֹתָם לְבֵית אֲבֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 1,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-04-18-18",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 4,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Cut ye not off the tribe of the families of the Kohathites from among the Levites:",
+        "riddle": "Cut ye not off the tribe of the families of the Kohathites from among the Levites:",
+        "speaker": "the LORD",
+        "listener": "Moses and Aaron",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אַל־תַּכְרִיתוּ אֶת־שֵׁבֶט מִשְׁפְּחֹת הַקְּהָתִי מִתּוֹךְ הַלְוִיִּֽם",
+        "riddle": "אַל־תַּכְרִיתוּ אֶת־שֵׁבֶט מִשְׁפְּחֹת הַקְּהָתִי מִתּוֹךְ הַלְוִיִּֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאֶֽל־אַהֲרֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the LORD spake unto Moses and unto Aaron, saying,",
+          "18": "Cut ye not off the tribe of the families of the Kohathites from among the Levites:"
+        },
+        "he": {
+          "17": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "18": "אַל־תַּכְרִיתוּ אֶת־שֵׁבֶט מִשְׁפְּחֹת הַקְּהָתִי מִתּוֹךְ הַלְוִיִּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "numbers-04-22-22",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 4,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21
+      },
+      "en": {
+        "quote": "Take also the sum of the sons of Gershon, throughout the houses of their fathers, by their families;",
+        "riddle": "Take also the sum of the sons of Gershon, throughout the houses of their fathers, by their families;",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "נָשֹׂא אֶת־רֹאשׁ בְּנֵי גֵרְשׁוֹן גַּם־הֵם לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָֽם",
+        "riddle": "נָשֹׂא אֶת־רֹאשׁ בְּנֵי גֵרְשׁוֹן גַּם־הֵם לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the LORD spake unto Moses, saying,",
+          "22": "Take also the sum of the sons of Gershon, throughout the houses of their fathers, by their families;"
+        },
+        "he": {
+          "21": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "22": "נָשֹׂא אֶת־רֹאשׁ בְּנֵי גֵרְשׁוֹן גַּם־הֵם לְבֵית אֲבֹתָם לְמִשְׁפְּחֹתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 22,
+        "end": 22
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 4,
+    "projection_llm_count": 3,
+    "llm_call_count": 7,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

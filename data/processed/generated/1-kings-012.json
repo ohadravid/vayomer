@@ -1,0 +1,242 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-12-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 12,
+        "quote_verse_start": 3,
+        "quote_verse_end": 6,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying, Thy father made our yoke grievous: now therefore make thou the grievous service of thy father, and his heavy yoke which he put upon us, lighter, and we will serve thee. And he said unto them, Depart yet for three days, then come again to me. And the people departed. And king Rehoboam consulted with the old men, that stood before Solomon his father while he yet lived, and said, How do ye advise that I may answer this people?",
+        "riddle": "Depart yet for three days, then come again to me.",
+        "speaker": "Rehoboam",
+        "listener": "Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "yoke",
+        "bonus_hint": {
+          "quote": "Is not this the fast that I have chosen? to loose the bands of wickedness, to undo the heavy burdens, and to let the oppressed go free, and that ye break every yoke?",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 58,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־קְהַל יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְאַתָּה עַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַעַבְדֶֽךָּ וַיֹּאמֶר אֲלֵיהֶם לְכוּ עֹד שְׁלֹשָׁה יָמִים וְשׁוּבוּ אֵלָי וַיֵּלְכוּ הָעָֽם וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹמְדִים אֶת־פְּנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב אֶת־הָֽעָם־הַזֶּה דָּבָֽר",
+        "riddle": "לְכוּ עֹד שְׁלֹשָׁה יָמִים וְשׁוּבוּ אֵלָי",
+        "speaker": "רְחַבְעָם",
+        "listener": "עָם יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְכָל",
+        "bonus_hint": {
+          "quote": "הֲלוֹא זֶה צוֹם אֶבְחָרֵהוּ פַּתֵּחַ חַרְצֻבּוֹת רֶשַׁע הַתֵּר אֲגֻדּוֹת מוֹטָה וְשַׁלַּח רְצוּצִים חָפְשִׁים וְכָל־מוֹטָה תְּנַתֵּֽקוּ",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 58,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "That they sent and called him. And Jeroboam and all the congregation of Israel came, and spake unto Rehoboam, saying,",
+          "4": "Thy father made our yoke grievous: now therefore make thou the grievous service of thy father, and his heavy yoke which he put upon us, lighter, and we will serve thee.",
+          "5": "And he said unto them, Depart yet for three days, then come again to me. And the people departed.",
+          "6": "And king Rehoboam consulted with the old men, that stood before Solomon his father while he yet lived, and said, How do ye advise that I may answer this people?"
+        },
+        "he": {
+          "3": "וַֽיִּשְׁלְחוּ וַיִּקְרְאוּ־לוֹ וַיָּבֹא יָרָבְעָם וְכָל־קְהַל יִשְׂרָאֵל וַֽיְדַבְּרוּ אֶל־רְחַבְעָם לֵאמֹֽר׃",
+          "4": "אָבִיךָ הִקְשָׁה אֶת־עֻלֵּנוּ וְאַתָּה עַתָּה הָקֵל מֵעֲבֹדַת אָבִיךָ הַקָּשָׁה וּמֵעֻלּוֹ הַכָּבֵד אֲשֶׁר־נָתַן עָלֵינוּ וְנַעַבְדֶֽךָּ׃",
+          "5": "וַיֹּאמֶר אֲלֵיהֶם לְכוּ עֹד שְׁלֹשָׁה יָמִים וְשׁוּבוּ אֵלָי וַיֵּלְכוּ הָעָֽם׃",
+          "6": "וַיִּוָּעַץ הַמֶּלֶךְ רְחַבְעָם אֶת־הַזְּקֵנִים אֲשֶׁר־הָיוּ עֹמְדִים אֶת־פְּנֵי שְׁלֹמֹה אָבִיו בִּֽהְיֹתוֹ חַי לֵאמֹר אֵיךְ אַתֶּם נֽוֹעָצִים לְהָשִׁיב אֶת־הָֽעָם־הַזֶּה דָּבָֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 3,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-12-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "And the king answered the people roughly, and forsook the old men's counsel that they gave him; And spake to them after the counsel of the young men, saying, My father made your yoke heavy, and I will add to your yoke: my father also chastised you with whips, but I will chastise you with scorpions.",
+        "riddle": "My father made your yoke heavy, and I will add to your yoke: my father also chastised you with whips, but I will chastise you with scorpions.",
+        "speaker": "king",
+        "listener": "people",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "counsel",
+        "bonus_hint": {
+          "quote": "And the king answered them roughly; and king Rehoboam forsook the counsel of the old men,",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן הַמֶּלֶךְ אֶת־הָעָם קָשָׁה וַֽיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻֽהוּ וַיְדַבֵּר אֲלֵיהֶם כַּעֲצַת הַיְלָדִים לֵאמֹר אָבִי הִכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי אֲיַסֵּר אֶתְכֶם בָּעַקְרַבִּֽים",
+        "riddle": "וַיְדַבֵּר אֲלֵיהֶם כַּעֲצַת הַיְלָדִים לֵאמֹר אָבִי הִכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי אֲיַסֵּר אֶתְכֶם בָּעַקְרַבִּֽים",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הַזְּקֵנִים",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "קָשָׁה",
+        "bonus_hint": {
+          "quote": "וַיַּעֲנֵם הַמֶּלֶךְ קָשָׁה וַֽיַּעֲזֹב הַמֶּלֶךְ רְחַבְעָם אֵת עֲצַת הַזְּקֵנִֽים",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the king answered the people roughly, and forsook the old men's counsel that they gave him;",
+          "14": "And spake to them after the counsel of the young men, saying, My father made your yoke heavy, and I will add to your yoke: my father also chastised you with whips, but I will chastise you with scorpions."
+        },
+        "he": {
+          "13": "וַיַּעַן הַמֶּלֶךְ אֶת־הָעָם קָשָׁה וַֽיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻֽהוּ׃",
+          "14": "וַיְדַבֵּר אֲלֵיהֶם כַּעֲצַת הַיְלָדִים לֵאמֹר אָבִי הִכְבִּיד אֶֽת־עֻלְּכֶם וַאֲנִי אֹסִיף עַֽל־עֻלְּכֶם אָבִי יִסַּר אֶתְכֶם בַּשּׁוֹטִים וַאֲנִי אֲיַסֵּר אֶתְכֶם בָּעַקְרַבִּֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-12-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 12,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "So when all Israel saw that the king hearkened not unto them, the people answered the king, saying, What portion have we in David? neither have we inheritance in the son of Jesse: to your tents, O Israel: now see to thine own house, David. So Israel departed unto their tents.",
+        "riddle": "What portion have we in David? neither have we inheritance in the son of Jesse: to your tents, O Israel: now see to thine own house, David.",
+        "speaker": "people",
+        "listener": "king",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "departed",
+        "bonus_hint": {
+          "quote": "So Rab-shakeh returned, and found the king of Assyria warring against Libnah: for he had heard that he was departed from Lachish.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 19,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא כָּל־יִשְׂרָאֵל כִּי לֹֽא־שָׁמַע הַמֶּלֶךְ אֲלֵיהֶם וַיָּשִׁבוּ הָעָם אֶת־הַמֶּלֶך דָּבָר לֵאמֹר מַה־לָּנוּ חֵלֶק בְּדָוִד וְלֹֽא־נַחֲלָה בְּבֶן־יִשַׁי לְאֹהָלֶיךָ יִשְׂרָאֵל עַתָּה רְאֵה בֵיתְךָ דָּוִד וַיֵּלֶךְ יִשְׂרָאֵל לְאֹהָלָֽיו",
+        "riddle": "מַה־לָּנוּ חֵלֶק בְּדָוִד וְלֹֽא־נַחֲלָה בְּבֶן־יִשַׁי לְאֹהָלֶיךָ יִשְׂרָאֵל עַתָּה רְאֵה בֵיתְךָ דָּוִד",
+        "speaker": "הָעָם",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שָׁמַע",
+        "bonus_hint": {
+          "quote": "וַיָּשָׁב רַב־שָׁקֵה וַיִּמְצָא אֶת־מֶלֶךְ אַשּׁוּר נִלְחָם עַל־לִבְנָה כִּי שָׁמַע כִּי נָסַע מִלָּכִֽישׁ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 19,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "So when all Israel saw that the king hearkened not unto them, the people answered the king, saying, What portion have we in David? neither have we inheritance in the son of Jesse: to your tents, O Israel: now see to thine own house, David. So Israel departed unto their tents."
+        },
+        "he": {
+          "16": "וַיַּרְא כָּל־יִשְׂרָאֵל כִּי לֹֽא־שָׁמַע הַמֶּלֶךְ אֲלֵיהֶם וַיָּשִׁבוּ הָעָם אֶת־הַמֶּלֶך דָּבָר ׀ לֵאמֹר מַה־לָּנוּ חֵלֶק בְּדָוִד וְלֹֽא־נַחֲלָה בְּבֶן־יִשַׁי לְאֹהָלֶיךָ יִשְׂרָאֵל עַתָּה רְאֵה בֵיתְךָ דָּוִד וַיֵּלֶךְ יִשְׂרָאֵל לְאֹהָלָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 16,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

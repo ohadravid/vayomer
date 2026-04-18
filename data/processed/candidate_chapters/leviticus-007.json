@@ -4,12 +4,156 @@
   "book_he": "ויקרא",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-07-23-23",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 7,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, saying, Ye shall eat no manner of fat, of ox, or of sheep, or of goat.",
+        "riddle": "Ye shall eat no manner of fat, of ox, or of sheep, or of goat.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר כָּל־חֵלֶב שׁוֹר וְכֶשֶׂב וָעֵז לֹא תֹאכֵֽלוּ",
+        "riddle": "כָּל־חֵלֶב שׁוֹר וְכֶשֶׂב וָעֵז לֹא תֹאכֵֽלו",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the LORD spake unto Moses, saying,",
+          "23": "Speak unto the children of Israel, saying, Ye shall eat no manner of fat, of ox, or of sheep, or of goat."
+        },
+        "he": {
+          "22": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "23": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר כָּל־חֵלֶב שׁוֹר וְכֶשֶׂב וָעֵז לֹא תֹאכֵֽלוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "leviticus-07-24-24",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 7,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And the fat of the beast that dieth of itself, and the fat of that which is torn with beasts, may be used in any other use: but ye shall in no wise eat of it.",
+        "riddle": "but ye shall in no wise eat of it.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "וְחֵלֶב נְבֵלָה וְחֵלֶב טְרֵפָה יֵעָשֶׂה לְכָל־מְלָאכָה וְאָכֹל לֹא תֹאכְלֻֽהוּ",
+        "riddle": "וְחֵלֶב נְבֵלָה וְחֵלֶב טְרֵפָה יֵעָשֶׂה לְכָל־מְלָאכָה וְאָכֹל לֹא תֹאכְלֻֽהוּ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the LORD spake unto Moses, saying,",
+          "23": "Speak unto the children of Israel, saying, Ye shall eat no manner of fat, of ox, or of sheep, or of goat.",
+          "24": "And the fat of the beast that dieth of itself, and the fat of that which is torn with beasts, may be used in any other use: but ye shall in no wise eat of it."
+        },
+        "he": {
+          "22": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "23": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר כָּל־חֵלֶב שׁוֹר וְכֶשֶׂב וָעֵז לֹא תֹאכֵֽלוּ׃",
+          "24": "וְחֵלֶב נְבֵלָה וְחֵלֶב טְרֵפָה יֵעָשֶׂה לְכָל־מְלָאכָה וְאָכֹל לֹא תֹאכְלֻֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prohibition",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "leviticus-07-29-29",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 7,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, saying, He that offereth the sacrifice of his peace offerings unto the LORD shall bring his oblation unto the LORD of the sacrifice of his peace offerings.",
+        "riddle": "He that offereth the sacrifice of his peace offerings unto the LORD shall bring his oblation unto the LORD of the sacrifice of his peace offerings.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר הַמַּקְרִיב אֶת־זֶבַח שְׁלָמָיו לַיהוָה יָבִיא אֶת־קָרְבָּנוֹ לַיהוָה מִזֶּבַח שְׁלָמָֽיו",
+        "riddle": "הַמַּקְרִיב אֶת־זֶבַח שְׁלָמָיו לַיהוָה יָבִיא אֶת־קָרְבָּנוֹ לַיהוָה מִזֶּבַח שְׁלָמָֽיו",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And the LORD spake unto Moses, saying,",
+          "29": "Speak unto the children of Israel, saying, He that offereth the sacrifice of his peace offerings unto the LORD shall bring his oblation unto the LORD of the sacrifice of his peace offerings."
+        },
+        "he": {
+          "28": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "29": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר הַמַּקְרִיב אֶת־זֶבַח שְׁלָמָיו לַיהוָה יָבִיא אֶת־קָרְבָּנוֹ לַיהוָה מִזֶּבַח שְׁלָמָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 29,
+        "end": 29
+      }
+    }
+  ],
   "stats": {
-    "window_count": 9,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 0,
-    "issue_count": 9
+    "llm_window_count": 3,
+    "projection_llm_count": 3,
+    "llm_call_count": 6,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

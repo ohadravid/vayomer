@@ -4,12 +4,58 @@
   "book_he": "דברים",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-07-17-17",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 7,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "If thou shalt say in thine heart, These nations are more than I; how can I dispossess them?",
+        "riddle": "These nations are more than I; how can I dispossess them?",
+        "speaker": "Israel",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כִּי תֹאמַר בִּלְבָבְךָ רַבִּים הַגּוֹיִם הָאֵלֶּה מִמֶּנִּי אֵיכָה אוּכַל לְהוֹרִישָֽׁם",
+        "riddle": "רַבִּים הַגּוֹיִם הָאֵלֶּה מִמֶּנִּי אֵיכָה אוּכַל לְהוֹרִישָֽׁם",
+        "speaker": "ישראל",
+        "listener": "ישראל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "If thou shalt say in thine heart, These nations are more than I; how can I dispossess them?"
+        },
+        "he": {
+          "17": "כִּי תֹאמַר בִּלְבָבְךָ רַבִּים הַגּוֹיִם הָאֵלֶּה מִמֶּנִּי אֵיכָה אוּכַל לְהוֹרִישָֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "internal question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

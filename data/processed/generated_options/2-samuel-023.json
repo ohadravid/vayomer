@@ -1,0 +1,103 @@
+{
+  "book_code": "2SA",
+  "book": "2 Samuel",
+  "book_he": "שמואל ב",
+  "chapter": 23,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-samuel-23-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 23,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Now these be the last words of David. David the son of Jesse said, and the man who was raised up on high, the anointed of the God of Jacob, and the sweet psalmist of Israel, said, The Spirit of the LORD spake by me, and his word was in my tongue. The God of Israel said, the Rock of Israel spake to me, He that ruleth over men must be just, ruling in the fear of God.",
+        "riddle": "He that ruleth over men must be just, ruling in the fear of God.",
+        "speaker": "God of Israel",
+        "listener": "David",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "Saul",
+            "Joab"
+          ],
+          "listener": [
+            "Saul",
+            "Nathan",
+            "Abner"
+          ]
+        },
+        "bonus": "anointed",
+        "bonus_hint": {
+          "quote": "Behold, this day thine eyes have seen how that the LORD had delivered thee to day into mine hand in the cave: and some bade me kill thee: but mine eye spared thee; and I said, I will not put forth mine hand against my lord; for he is the LORD's anointed.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 24,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאֵלֶּה דִּבְרֵי דָוִד הָאַֽחֲרֹנִים נְאֻם דָּוִד בֶּן־יִשַׁי וּנְאֻם הַגֶּבֶר הֻקַם עָל מְשִׁיחַ אֱלֹהֵי יַֽעֲקֹב וּנְעִים זְמִרוֹת יִשְׂרָאֵֽל רוּחַ יְהוָה דִּבֶּר־בִּי וּמִלָּתוֹ עַל־לְשׁוֹנִֽי אָמַר אֱלֹהֵי יִשְׂרָאֵל לִי דִבֶּר צוּר יִשְׂרָאֵל מוֹשֵׁל בָּאָדָם צַדִּיק מוֹשֵׁל יִרְאַת אֱלֹהִֽים",
+        "riddle": "מוֹשֵׁל בָּאָדָם צַדִּיק מוֹשֵׁל יִרְאַת אֱלֹהִֽים",
+        "speaker": "אֱלֹהֵי יִשְׂרָאֵל",
+        "listener": "דָוִד",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "נָתַן",
+            "שָׁאוֹל",
+            "יוֹאָב"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "נָתַן",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "דִּבְרֵי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר דָּוִד לְשָׁאוּל לָמָּה תִשְׁמַע אֶת־דִּבְרֵי אָדָם לֵאמֹר הִנֵּה דָוִד מְבַקֵּשׁ רָעָתֶֽךָ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 24,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now these be the last words of David. David the son of Jesse said, and the man who was raised up on high, the anointed of the God of Jacob, and the sweet psalmist of Israel, said,",
+          "2": "The Spirit of the LORD spake by me, and his word was in my tongue.",
+          "3": "The God of Israel said, the Rock of Israel spake to me, He that ruleth over men must be just, ruling in the fear of God."
+        },
+        "he": {
+          "1": "וְאֵלֶּה דִּבְרֵי דָוִד הָאַֽחֲרֹנִים נְאֻם דָּוִד בֶּן־יִשַׁי וּנְאֻם הַגֶּבֶר הֻקַם עָל מְשִׁיחַ אֱלֹהֵי יַֽעֲקֹב וּנְעִים זְמִרוֹת יִשְׂרָאֵֽל׃",
+          "2": "רוּחַ יְהוָה דִּבֶּר־בִּי וּמִלָּתוֹ עַל־לְשׁוֹנִֽי׃",
+          "3": "אָמַר אֱלֹהֵי יִשְׂרָאֵל לִי דִבֶּר צוּר יִשְׂרָאֵל מוֹשֵׁל בָּאָדָם צַדִּיק מוֹשֵׁל יִרְאַת אֱלֹהִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

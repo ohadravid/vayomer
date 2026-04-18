@@ -6,7 +6,161 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-kings-09-05-05",
+      "id": "2-kings-09-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:",
+        "riddle": "Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:",
+        "speaker": "Elisha",
+        "listener": "prophet's disciple",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "prophet",
+        "bonus_hint": {
+          "quote": "Now therefore restore the man his wife; for he is a prophet, and he shall pray for thee, and thou shalt live: and if thou restore her not, know thou that thou shalt surely die, thou, and all that are thine.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וֶאֱלִישָׁע הַנָּבִיא קָרָא לְאַחַד מִבְּנֵי הַנְּבִיאִים וַיֹּאמֶר לוֹ חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד",
+        "riddle": "חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד",
+        "speaker": "אֱלִישָׁע הַנָּבִיא",
+        "listener": "אַחַד מִבְּנֵי הַנְּבִיאִים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "קָרָא",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:"
+        },
+        "he": {
+          "1": "וֶאֱלִישָׁע הַנָּבִיא קָרָא לְאַחַד מִבְּנֵי הַנְּבִיאִים וַיֹּאמֶר לוֹ חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 1
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-05-05-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "So the young man, even the young man the prophet, went to Ramoth-gilead. And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+        "riddle": "Unto which of all us?",
+        "speaker": "Jehu",
+        "listener": "young prophet",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "captain",
+        "bonus_hint": {
+          "quote": "Then Jephthah went with the elders of Gilead, and the people made him head and captain over them: and Jephthah uttered all his words before the LORD in Mizpeh.",
+          "source": {
+            "book": "Judges",
+            "chapter": 11,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּלֶךְ הַנַּעַר הַנַּעַר הַנָּבִיא רָמֹת גִּלְעָֽד וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר",
+        "riddle": "אֶל־מִי מִכֻּלָּנו",
+        "speaker": "יֵהוּא",
+        "listener": "הַנָּבִיא",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֵּלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיֵּלֶךְ יִפְתָּח עִם־זִקְנֵי גִלְעָד וַיָּשִׂימוּ הָעָם אוֹתוֹ עֲלֵיהֶם לְרֹאשׁ וּלְקָצִין וַיְדַבֵּר יִפְתָּח אֶת־כָּל־דְּבָרָיו לִפְנֵי יְהוָה בַּמִּצְפָּֽה",
+          "source": {
+            "book": "שופטים",
+            "chapter": 11,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "So the young man, even the young man the prophet, went to Ramoth-gilead.",
+          "5": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain."
+        },
+        "he": {
+          "4": "וַיֵּלֶךְ הַנַּעַר הַנַּעַר הַנָּבִיא רָמֹת גִּלְעָֽד׃",
+          "5": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-07-07",
       "source": {
         "method": "llm",
         "book_code": "2KI",
@@ -14,62 +168,557 @@
         "book_he": "מלכים ב",
         "chapter": 9,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 7
       },
       "en": {
-        "quote": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
-        "riddle": "Unto which of all us?",
-        "speaker": "Jehu",
-        "listener": "Captain",
+        "quote": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain. And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel. And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel.",
+        "riddle": "And thou shalt smite the house of Ahab thy master",
+        "speaker": "LORD",
+        "listener": "Jehu",
         "book": "2 Kings",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "captains",
+        "bonus": "oil",
         "bonus_hint": {
-          "quote": "And Moses was wroth with the officers of the host, with the captains over thousands, and captains over hundreds, which came from the battle.",
+          "quote": "And thou shalt command the children of Israel, that they bring thee pure oil olive beaten for the light, to cause the lamp to burn always.",
           "source": {
-            "book": "Numbers",
-            "chapter": 31,
-            "start": 14,
-            "end": 14
+            "book": "Exodus",
+            "chapter": 27,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "he": {
-        "quote": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר",
-        "riddle": "מִי מִכֻּלָּנוּ",
-        "speaker": "יֵהוּא",
-        "listener": "הַשָּׂר",
+        "quote": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר וַיָּקָם וַיָּבֹא הַבַּיְתָה וַיִּצֹק הַשֶּׁמֶן אֶל־רֹאשׁוֹ וַיֹּאמֶר לוֹ כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־עַם יְהוָה אֶל־יִשְׂרָאֵֽל וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל",
+        "riddle": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיך",
+        "speaker": "יְהוָה",
+        "listener": "יֵהוּא",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "שָׂרֵי",
+        "bonus": "אֵלֶיךָ",
         "bonus_hint": {
-          "quote": "וַיִּקְצֹף מֹשֶׁה עַל פְּקוּדֵי הֶחָיִל שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת הַבָּאִים מִצְּבָא הַמִּלְחָמָֽה",
+          "quote": "וְאַתָּה תְּצַוֶּה אֶת־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ אֵלֶיךָ שֶׁמֶן זַיִת זָךְ כָּתִית לַמָּאוֹר לְהַעֲלֹת נֵר תָּמִֽיד",
           "source": {
-            "book": "במדבר",
-            "chapter": 31,
-            "start": 14,
-            "end": 14
+            "book": "שמות",
+            "chapter": 27,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "5": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain."
+          "5": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+          "6": "And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel.",
+          "7": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel."
         },
         "he": {
-          "5": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר׃"
+          "5": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר׃",
+          "6": "וַיָּקָם וַיָּבֹא הַבַּיְתָה וַיִּצֹק הַשֶּׁמֶן אֶל־רֹאשׁוֹ וַיֹּאמֶר לוֹ כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־עַם יְהוָה אֶל־יִשְׂרָאֵֽל׃",
+          "7": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי ׀ עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל׃"
         }
       },
       "ref": {
         "chapter": 9,
         "start": 5,
-        "end": 5
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 6,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel. And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel. For the whole house of Ahab shall perish: and I will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel: And I will make the house of Ahab like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah: And the dogs shall eat Jezebel in the portion of Jezreel, and there shall be none to bury her. And he opened the door, and fled. Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication. And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel.",
+        "riddle": "Is all well? wherefore came this mad fellow to thee?",
+        "speaker": "servant",
+        "listener": "Jehu",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "Now there arose up a new king over Egypt, which knew not Joseph.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 1,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקָם וַיָּבֹא הַבַּיְתָה וַיִּצֹק הַשֶּׁמֶן אֶל־רֹאשׁוֹ וַיֹּאמֶר לוֹ כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־עַם יְהוָה אֶל־יִשְׂרָאֵֽל וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל וְאָבַד כָּל־בֵּית אַחְאָב וְהִכְרַתִּי לְאַחְאָב מַשְׁתִּין בְּקִיר וְעָצוּר וְעָזוּב בְּיִשְׂרָאֵֽל וְנָֽתַתִּי אֶת־בֵּית אַחְאָב כְּבֵית יָרָבְעָם בֶּן־נְבָט וּכְבֵית בַּעְשָׁא בֶן־אֲחִיָּֽה וְאֶת־אִיזֶבֶל יֹאכְלוּ הַכְּלָבִים בְּחֵלֶק יִזְרְעֶאל וְאֵין קֹבֵר וַיִּפְתַּח הַדֶּלֶת וַיָּנֹֽס וְיֵהוּא יָצָא אֶל־עַבְדֵי אֲדֹנָיו וַיֹּאמֶר לוֹ הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיךָ וַיֹּאמֶר אֲלֵיהֶם אַתֶּם יְדַעְתֶּם אֶת־הָאִישׁ וְאֶת־שִׂיחֽוֹ וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל",
+        "riddle": "הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיך",
+        "speaker": "עבד",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּקָם",
+        "bonus_hint": {
+          "quote": "וַיָּקָם מֶֽלֶךְ־חָדָשׁ עַל־מִצְרָיִם אֲשֶׁר לֹֽא־יָדַע אֶת־יוֹסֵֽף",
+          "source": {
+            "book": "שמות",
+            "chapter": 1,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he arose, and went into the house; and he poured the oil on his head, and said unto him, Thus saith the LORD God of Israel, I have anointed thee king over the people of the LORD, even over Israel.",
+          "7": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel.",
+          "8": "For the whole house of Ahab shall perish: and I will cut off from Ahab him that pisseth against the wall, and him that is shut up and left in Israel:",
+          "9": "And I will make the house of Ahab like the house of Jeroboam the son of Nebat, and like the house of Baasha the son of Ahijah:",
+          "10": "And the dogs shall eat Jezebel in the portion of Jezreel, and there shall be none to bury her. And he opened the door, and fled.",
+          "11": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication.",
+          "12": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel."
+        },
+        "he": {
+          "6": "וַיָּקָם וַיָּבֹא הַבַּיְתָה וַיִּצֹק הַשֶּׁמֶן אֶל־רֹאשׁוֹ וַיֹּאמֶר לוֹ כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־עַם יְהוָה אֶל־יִשְׂרָאֵֽל׃",
+          "7": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי ׀ עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל׃",
+          "8": "וְאָבַד כָּל־בֵּית אַחְאָב וְהִכְרַתִּי לְאַחְאָב מַשְׁתִּין בְּקִיר וְעָצוּר וְעָזוּב בְּיִשְׂרָאֵֽל׃",
+          "9": "וְנָֽתַתִּי אֶת־בֵּית אַחְאָב כְּבֵית יָרָבְעָם בֶּן־נְבָט וּכְבֵית בַּעְשָׁא בֶן־אֲחִיָּֽה׃",
+          "10": "וְאֶת־אִיזֶבֶל יֹאכְלוּ הַכְּלָבִים בְּחֵלֶק יִזְרְעֶאל וְאֵין קֹבֵר וַיִּפְתַּח הַדֶּלֶת וַיָּנֹֽס׃",
+          "11": "וְיֵהוּא יָצָא אֶל־עַבְדֵי אֲדֹנָיו וַיֹּאמֶר לוֹ הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיךָ וַיֹּאמֶר אֲלֵיהֶם אַתֶּם יְדַעְתֶּם אֶת־הָאִישׁ וְאֶת־שִׂיחֽוֹ׃",
+          "12": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 6,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 24,
+        "quote_verse_end": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot. Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;",
+        "riddle": "Take up, and cast him in the portion of the field of Naboth the",
+        "speaker": "Jehu",
+        "listener": "Bidkar",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "arrow",
+        "bonus_hint": {
+          "quote": "And he said unto his lad, Run, find out now the arrows which I shoot. And as the lad ran, he shot an arrow beyond him.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 20,
+            "start": 36,
+            "end": 36
+          }
+        }
+      },
+      "he": {
+        "quote": "וְיֵהוּא מִלֵּא יָדוֹ בַקֶּשֶׁת וַיַּךְ אֶת־יְהוֹרָם בֵּין זְרֹעָיו וַיֵּצֵא הַחֵצִי מִלִּבּוֹ וַיִּכְרַע בְּרִכְבּֽוֹ וַיֹּאמֶר אֶל־בִּדְקַר שָֽׁלִשׁוֹ שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו וַֽיהוָה נָשָׂא עָלָיו אֶת־הַמַּשָּׂא הַזֶּֽה",
+        "riddle": "שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו",
+        "speaker": "יֵהוּא",
+        "listener": "בִּדְקַר",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַחֵצִי",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר לְנַעֲרוֹ רֻץ מְצָא נָא אֶת־הַחִצִּים אֲשֶׁר אָנֹכִי מוֹרֶה הַנַּעַר רָץ וְהֽוּא־יָרָה הַחֵצִי לְהַעֲבִרֽוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 20,
+            "start": 36,
+            "end": 36
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Jehu drew a bow with his full strength, and smote Jehoram between his arms, and the arrow went out at his heart, and he sunk down in his chariot.",
+          "25": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;"
+        },
+        "he": {
+          "24": "וְיֵהוּא מִלֵּא יָדוֹ בַקֶּשֶׁת וַיַּךְ אֶת־יְהוֹרָם בֵּין זְרֹעָיו וַיֵּצֵא הַחֵצִי מִלִּבּוֹ וַיִּכְרַע בְּרִכְבּֽוֹ׃",
+          "25": "וַיֹּאמֶר אֶל־בִּדְקַר שָֽׁלִשׁוֹ שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו וַֽיהוָה נָשָׂא עָלָיו אֶת־הַמַּשָּׂא הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 24,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 30,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window. And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+        "riddle": "Had Zimri peace, who slew his master?",
+        "speaker": "Jezebel",
+        "listener": "Jehu",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And it came to pass, when he had been there a long time, that Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was sporting with Rebekah his wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבוֹא יֵהוּא יִזְרְעֶאלָה וְאִיזֶבֶל שָׁמְעָה וַתָּשֶׂם בַּפּוּךְ עֵינֶיהָ וַתֵּיטֶב אֶת־רֹאשָׁהּ וַתַּשְׁקֵף בְּעַד הַחַלּֽוֹן וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו",
+        "riddle": "הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו",
+        "speaker": "אִיזֶבֶל",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּעַד",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִּי אָֽרְכוּ־לוֹ שָׁם הַיָּמִים וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן וַיַּרְא וְהִנֵּה יִצְחָק מְצַחֵק אֵת רִבְקָה אִשְׁתּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window.",
+          "31": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs."
+        },
+        "he": {
+          "30": "וַיָּבוֹא יֵהוּא יִזְרְעֶאלָה וְאִיזֶבֶל שָׁמְעָה וַתָּשֶׂם בַּפּוּךְ עֵינֶיהָ וַתֵּיטֶב אֶת־רֹאשָׁהּ וַתַּשְׁקֵף בְּעַד הַחַלּֽוֹן׃",
+          "31": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו׃",
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 30,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-36-36",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 30,
+        "quote_verse_end": 36,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window. And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master? And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs. And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot. And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king's daughter. And they went to bury her: but they found no more of her than the skull, and the feet, and the palms of her hands. Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
+        "riddle": "Who is on my side? who?",
+        "speaker": "Jehu",
+        "listener": "Jezebel",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And it came to pass, when he had been there a long time, that Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was sporting with Rebekah his wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבוֹא יֵהוּא יִזְרְעֶאלָה וְאִיזֶבֶל שָׁמְעָה וַתָּשֶׂם בַּפּוּךְ עֵינֶיהָ וַתֵּיטֶב אֶת־רֹאשָׁהּ וַתַּשְׁקֵף בְּעַד הַחַלּֽוֹן וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה וַיָּבֹא וַיֹּאכַל וַיֵּשְׁתְּ וַיֹּאמֶר פִּקְדוּ־נָא אֶת־הָאֲרוּרָה הַזֹּאת וְקִבְרוּהָ כִּי בַת־מֶלֶךְ הִֽיא וַיֵּלְכוּ לְקָבְרָהּ וְלֹא־מָצְאוּ בָהּ כִּי אִם־הַגֻּלְגֹּלֶת וְהָרַגְלַיִם וְכַפּוֹת הַיָּדָֽיִם וַיָּשֻׁבוּ וַיַּגִּידוּ לוֹ וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל",
+        "riddle": "מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים",
+        "speaker": "יֵהוּא",
+        "listener": "אִיזָֽבֶל",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּעַד",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִּי אָֽרְכוּ־לוֹ שָׁם הַיָּמִים וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן וַיַּרְא וְהִנֵּה יִצְחָק מְצַחֵק אֵת רִבְקָה אִשְׁתּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window.",
+          "31": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+          "33": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.",
+          "34": "And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king's daughter.",
+          "35": "And they went to bury her: but they found no more of her than the skull, and the feet, and the palms of her hands.",
+          "36": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:"
+        },
+        "he": {
+          "30": "וַיָּבוֹא יֵהוּא יִזְרְעֶאלָה וְאִיזֶבֶל שָׁמְעָה וַתָּשֶׂם בַּפּוּךְ עֵינֶיהָ וַתֵּיטֶב אֶת־רֹאשָׁהּ וַתַּשְׁקֵף בְּעַד הַחַלּֽוֹן׃",
+          "31": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו׃",
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃",
+          "33": "וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה׃",
+          "34": "וַיָּבֹא וַיֹּאכַל וַיֵּשְׁתְּ וַיֹּאמֶר פִּקְדוּ־נָא אֶת־הָאֲרוּרָה הַזֹּאת וְקִבְרוּהָ כִּי בַת־מֶלֶךְ הִֽיא׃",
+          "35": "וַיֵּלְכוּ לְקָבְרָהּ וְלֹא־מָצְאוּ בָהּ כִּי אִם־הַגֻּלְגֹּלֶת וְהָרַגְלַיִם וְכַפּוֹת הַיָּדָֽיִם׃",
+          "36": "וַיָּשֻׁבוּ וַיַּגִּידוּ לוֹ וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 30,
+        "end": 36
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 31,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master? And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+        "riddle": "Who is on my side? who?",
+        "speaker": "Jehu",
+        "listener": "eunuchs",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And as the ark of the LORD came into the city of David, Michal Saul's daughter looked through a window, and saw king David leaping and dancing before the LORD; and she despised him in her heart.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 6,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים",
+        "riddle": "מִי אִתִּי מִי",
+        "speaker": "יֵהוּא",
+        "listener": "סָרִיסִֽים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בָּא",
+        "bonus_hint": {
+          "quote": "וְהָיָה אֲרוֹן יְהוָה בָּא עִיר דָּוִד וּמִיכַל בַּת־שָׁאוּל נִשְׁקְפָה בְּעַד הַחַלּוֹן וַתֵּרֶא אֶת־הַמֶּלֶךְ דָּוִד מְפַזֵּז וּמְכַרְכֵּר לִפְנֵי יְהוָה וַתִּבֶז לוֹ בְּלִבָּֽהּ",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 6,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs."
+        },
+        "he": {
+          "31": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו׃",
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 31,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-09-33-33",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 31,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master? And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs. And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.",
+        "riddle": "Throw her down.",
+        "speaker": "Jehu",
+        "listener": "eunuchs",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And as the ark of the LORD came into the city of David, Michal Saul's daughter looked through a window, and saw king David leaping and dancing before the LORD; and she despised him in her heart.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 6,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה",
+        "riddle": "שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ",
+        "speaker": "יֵהוּא",
+        "listener": "סָרִיסִֽים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בָּא",
+        "bonus_hint": {
+          "quote": "וְהָיָה אֲרוֹן יְהוָה בָּא עִיר דָּוִד וּמִיכַל בַּת־שָׁאוּל נִשְׁקְפָה בְּעַד הַחַלּוֹן וַתֵּרֶא אֶת־הַמֶּלֶךְ דָּוִד מְפַזֵּז וּמְכַרְכֵּר לִפְנֵי יְהוָה וַתִּבֶז לוֹ בְּלִבָּֽהּ",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 6,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+          "33": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot."
+        },
+        "he": {
+          "31": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו׃",
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃",
+          "33": "וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 31,
+        "end": 33
       },
       "meta": {
         "mode": "llm",

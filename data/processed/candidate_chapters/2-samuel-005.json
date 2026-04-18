@@ -4,12 +4,234 @@
   "book_he": "שמואל ב",
   "chapter": 5,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-05-06-06",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 5,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And the king and his men went to Jerusalem unto the Jebusites, the inhabitants of the land: which spake unto David, saying, Except thou take away the blind and the lame, thou shalt not come in hither: thinking, David cannot come in hither.",
+        "riddle": "Except thou take away the blind and the lame, thou shalt not come in hither",
+        "speaker": "Jebusites",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֵּלֶךְ הַמֶּלֶךְ וַֽאֲנָשָׁיו יְרוּשָׁלִַם אֶל־הַיְבֻסִי יוֹשֵׁב הָאָרֶץ וַיֹּאמֶר לְדָוִד לֵאמֹר לֹא־תָבוֹא הֵנָּה כִּי אִם־הֱסִֽירְךָ הַעִוְרִים וְהַפִּסְחִים לֵאמֹר לֹֽא־יָבוֹא דָוִד הֵֽנָּה",
+        "riddle": "אֶל־הַיְבֻסִי יוֹשֵׁב הָאָרֶץ וַיֹּאמֶר לְדָוִד לֵאמֹר לֹא־תָבוֹא הֵנָּה כִּי אִם־הֱסִֽירְךָ הַעִוְרִים וְהַפִּסְחִים לֵאמֹר לֹֽא",
+        "speaker": "הַיְבֻסִי",
+        "listener": "דָוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the king and his men went to Jerusalem unto the Jebusites, the inhabitants of the land: which spake unto David, saying, Except thou take away the blind and the lame, thou shalt not come in hither: thinking, David cannot come in hither."
+        },
+        "he": {
+          "6": "וַיֵּלֶךְ הַמֶּלֶךְ וַֽאֲנָשָׁיו יְרוּשָׁלִַם אֶל־הַיְבֻסִי יוֹשֵׁב הָאָרֶץ וַיֹּאמֶר לְדָוִד לֵאמֹר לֹא־תָבוֹא הֵנָּה כִּי אִם־הֱסִֽירְךָ הַעִוְרִים וְהַפִּסְחִים לֵאמֹר לֹֽא־יָבוֹא דָוִד הֵֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct challenge",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-samuel-05-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 5,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And David inquired of the LORD, saying, Shall I go up to the Philistines? wilt thou deliver them into mine hand? And the LORD said unto David, Go up: for I will doubtless deliver the Philistines into thine hand.",
+        "riddle": "Shall I go up to the Philistines? wilt thou deliver them into mine hand?",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶֽעֱלֶה אֶל־פְּלִשְׁתִּים הֲתִתְּנֵם בְּיָדִי וַיֹּאמֶר יְהוָה אֶל־דָּוִד עֲלֵה כִּֽי־נָתֹן אֶתֵּן אֶת־הַפְּלִשְׁתִּים בְּיָדֶֽךָ",
+        "riddle": "הַאֶֽעֱלֶה אֶל־פְּלִשְׁתִּים הֲתִתְּנֵם בְּיָדִי וַיֹּאמֶר יְהוָה אֶל־דָּוִד עֲלֵה כִּֽי־נָתֹן אֶתֵּן אֶת־הַפְּלִשְׁתִּים בְּיָדֶֽךָ",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And David inquired of the LORD, saying, Shall I go up to the Philistines? wilt thou deliver them into mine hand? And the LORD said unto David, Go up: for I will doubtless deliver the Philistines into thine hand."
+        },
+        "he": {
+          "19": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה לֵאמֹר הַאֶֽעֱלֶה אֶל־פְּלִשְׁתִּים הֲתִתְּנֵם בְּיָדִי וַיֹּאמֶר יְהוָה אֶל־דָּוִד עֲלֵה כִּֽי־נָתֹן אֶתֵּן אֶת־הַפְּלִשְׁתִּים בְּיָדֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question to God",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-samuel-05-23-23",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 5,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And when David inquired of the LORD, he said, Thou shalt not go up; but fetch a compass behind them, and come upon them over against the mulberry trees.",
+        "riddle": "Thou shalt not go up; but fetch a compass behind them, and come upon them over against the mulberry trees.",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה וַיֹּאמֶר לֹא תַעֲלֶה הָסֵב אֶל־אַחֲרֵיהֶם וּבָאתָ לָהֶם מִמּוּל בְּכָאִֽים",
+        "riddle": "לֹא תַעֲלֶה הָסֵב אֶל־אַחֲרֵיהֶם וּבָאתָ לָהֶם מִמּוּל בְּכָאִֽים",
+        "speaker": "יהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And when David inquired of the LORD, he said, Thou shalt not go up; but fetch a compass behind them, and come upon them over against the mulberry trees."
+        },
+        "he": {
+          "23": "וַיִּשְׁאַל דָּוִד בַּֽיהוָה וַיֹּאמֶר לֹא תַעֲלֶה הָסֵב אֶל־אַחֲרֵיהֶם וּבָאתָ לָהֶם מִמּוּל בְּכָאִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "divine instruction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-samuel-05-24-24-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 5,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines.",
+        "riddle": "let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ כִּי אָז יָצָא יְהוָה לְפָנֶיךָ לְהַכּוֹת בְּמַחֲנֵה פְלִשְׁתִּֽים",
+        "riddle": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ כִּי אָז יָצָא יְהוָה לְפָנֶיךָ לְהַכּוֹת בְּמַחֲנֵה פְלִשְׁתִּֽים",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines."
+        },
+        "he": {
+          "24": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ כִּי אָז יָצָא יְהוָה לְפָנֶיךָ לְהַכּוֹת בְּמַחֲנֵה פְלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "2-samuel-05-24-24-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 5,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines.",
+        "riddle": "when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself",
+        "speaker": "the LORD",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ כִּי אָז יָצָא יְהוָה לְפָנֶיךָ לְהַכּוֹת בְּמַחֲנֵה פְלִשְׁתִּֽים",
+        "riddle": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And let it be, when thou hearest the sound of a going in the tops of the mulberry trees, that then thou shalt bestir thyself: for then shall the LORD go out before thee, to smite the host of the Philistines."
+        },
+        "he": {
+          "24": "וִיהִי כְּֽשָׁמְעֲךָ אֶת־קוֹל צְעָדָה בְּרָאשֵׁי הַבְּכָאִים אָז תֶּחֱרָץ כִּי אָז יָצָא יְהוָה לְפָנֶיךָ לְהַכּוֹת בְּמַחֲנֵה פְלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command/instruction",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 14,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 0,
-    "issue_count": 14
+    "llm_window_count": 4,
+    "projection_llm_count": 8,
+    "llm_call_count": 12,
+    "spec_count": 8,
+    "kept_count": 5,
+    "issue_count": 4
   }
 }

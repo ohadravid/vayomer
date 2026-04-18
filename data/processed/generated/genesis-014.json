@@ -1,0 +1,87 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 14,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-14-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 14,
+        "quote_verse_start": 21,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the king of Sodom said unto Abram, Give me the persons, and take the goods to thyself. And Abram said to the king of Sodom, I have lift up mine hand unto the LORD, the most high God, the possessor of heaven and earth,",
+        "riddle": "Give me the persons, and take the goods to thyself.",
+        "speaker": "king of Sodom",
+        "listener": "Abram",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "It is in the power of my hand to do you hurt: but the God of your father spake unto me yesternight, saying, Take thou heed that thou speak not to Jacob either good or bad.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶֽלֶךְ־סְדֹם אֶל־אַבְרָם תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ וַיֹּאמֶר אַבְרָם אֶל־מֶלֶךְ סְדֹם הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ",
+        "riddle": "תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ",
+        "speaker": "מֶֽלֶךְ־סְדֹם",
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יָדִי",
+        "bonus_hint": {
+          "quote": "יֶשׁ־לְאֵל יָדִי לַעֲשׂוֹת עִמָּכֶם רָע וֵֽאלֹהֵי אֲבִיכֶם אֶמֶשׁ אָמַר אֵלַי לֵאמֹר הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the king of Sodom said unto Abram, Give me the persons, and take the goods to thyself.",
+          "22": "And Abram said to the king of Sodom, I have lift up mine hand unto the LORD, the most high God, the possessor of heaven and earth,"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר מֶֽלֶךְ־סְדֹם אֶל־אַבְרָם תֶּן־לִי הַנֶּפֶשׁ וְהָרְכֻשׁ קַֽח־לָֽךְ׃",
+          "22": "וַיֹּאמֶר אַבְרָם אֶל־מֶלֶךְ סְדֹם הֲרִימֹתִי יָדִי אֶל־יְהוָה אֵל עֶלְיוֹן קֹנֵה שָׁמַיִם וָאָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 21,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

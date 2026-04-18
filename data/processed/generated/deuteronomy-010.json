@@ -1,0 +1,87 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 10,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "deuteronomy-10-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 10,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And I stayed in the mount, according to the first time, forty days and forty nights; and the LORD hearkened unto me at that time also, and the LORD would not destroy thee. And the LORD said unto me, Arise, take thy journey before the people, that they may go in and possess the land, which I sware unto their fathers to give unto them.",
+        "riddle": "Arise, take thy journey before the people",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mount",
+        "bonus_hint": {
+          "quote": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 1,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאָנֹכִי עָמַדְתִּי בָהָר כַּיָּמִים הָרִאשֹׁנִים אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וַיִּשְׁמַע יְהוָה אֵלַי גַּם בַּפַּעַם הַהִוא לֹא־אָבָה יְהוָה הַשְׁחִיתֶֽךָ וַיֹּאמֶר יְהוָה אֵלַי קוּם לֵךְ לְמַסַּע לִפְנֵי הָעָם וְיָבֹאוּ וְיִֽרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר־נִשְׁבַּעְתִּי לַאֲבֹתָם לָתֵת לָהֶֽם",
+        "riddle": "קוּם לֵךְ לְמַסַּע לִפְנֵי הָעָם",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בָהָר",
+        "bonus_hint": {
+          "quote": "פְּנוּ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת",
+          "source": {
+            "book": "דברים",
+            "chapter": 1,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And I stayed in the mount, according to the first time, forty days and forty nights; and the LORD hearkened unto me at that time also, and the LORD would not destroy thee.",
+          "11": "And the LORD said unto me, Arise, take thy journey before the people, that they may go in and possess the land, which I sware unto their fathers to give unto them."
+        },
+        "he": {
+          "10": "וְאָנֹכִי עָמַדְתִּי בָהָר כַּיָּמִים הָרִאשֹׁנִים אַרְבָּעִים יוֹם וְאַרְבָּעִים לָיְלָה וַיִּשְׁמַע יְהוָה אֵלַי גַּם בַּפַּעַם הַהִוא לֹא־אָבָה יְהוָה הַשְׁחִיתֶֽךָ׃",
+          "11": "וַיֹּאמֶר יְהוָה אֵלַי קוּם לֵךְ לְמַסַּע לִפְנֵי הָעָם וְיָבֹאוּ וְיִֽרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר־נִשְׁבַּעְתִּי לַאֲבֹתָם לָתֵת לָהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

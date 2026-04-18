@@ -4,12 +4,536 @@
   "book_he": "יהושע",
   "chapter": 24,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "joshua-24-02-02",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And Joshua said unto all the people, Thus saith the LORD God of Israel, Your fathers dwelt on the other side of the flood in old time, even Terah, the father of Abraham, and the father of Nachor: and they served other gods.",
+        "riddle": "Thus saith the LORD God of Israel, Your fathers dwelt on the other side of the flood in old time, even Terah, the father of Abraham, and the father of Nachor: and they served other gods.",
+        "speaker": "Joshua",
+        "listener": "Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל בְּעֵבֶר הַנָּהָר יָשְׁבוּ אֲבֽוֹתֵיכֶם מֵֽעוֹלָם תֶּרַח אֲבִי אַבְרָהָם וַאֲבִי נָחוֹר וַיַּעַבְדוּ אֱלֹהִים אֲחֵרִֽים",
+        "riddle": "כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל בְּעֵבֶר הַנָּהָר יָשְׁבוּ אֲבֽוֹתֵיכֶם מֵֽעוֹלָם תֶּרַח אֲבִי אַבְרָהָם וַאֲבִי נָחוֹר וַיַּעַבְדוּ אֱלֹהִים אֲחֵרִֽים",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "כָּל־הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Joshua said unto all the people, Thus saith the LORD God of Israel, Your fathers dwelt on the other side of the flood in old time, even Terah, the father of Abraham, and the father of Nachor: and they served other gods."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל בְּעֵבֶר הַנָּהָר יָשְׁבוּ אֲבֽוֹתֵיכֶם מֵֽעוֹלָם תֶּרַח אֲבִי אַבְרָהָם וַאֲבִי נָחוֹר וַיַּעַבְדוּ אֱלֹהִים אֲחֵרִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "joshua-24-03-03",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And I took your father Abraham from the other side of the flood, and led him throughout all the land of Canaan, and multiplied his seed, and gave him Isaac.",
+        "riddle": "And I took your father Abraham from the other side of the flood, and led him throughout all the land of Canaan, and multiplied his seed, and gave him Isaac.",
+        "speaker": "Joshua",
+        "listener": "Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וָאֶקַּח אֶת־אֲבִיכֶם אֶת־אַבְרָהָם מֵעֵבֶר הַנָּהָר וָאוֹלֵךְ אוֹתוֹ בְּכָל־אֶרֶץ כְּנָעַן וָאַרְבֶּה אֶת־זַרְעוֹ וָֽאֶתֶּן־לוֹ אֶת־יִצְחָֽק",
+        "riddle": "וָאֶקַּח אֶת־אֲבִיכֶם אֶת־אַבְרָהָם מֵעֵבֶר הַנָּהָר וָאוֹלֵךְ אוֹתוֹ בְּכָל־אֶרֶץ כְּנָעַן וָאַרְבֶּה אֶת־זַרְעוֹ וָֽאֶתֶּן־לוֹ אֶת־יִצְחָֽק",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Joshua said unto all the people, Thus saith the LORD God of Israel, Your fathers dwelt on the other side of the flood in old time, even Terah, the father of Abraham, and the father of Nachor: and they served other gods.",
+          "3": "And I took your father Abraham from the other side of the flood, and led him throughout all the land of Canaan, and multiplied his seed, and gave him Isaac."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל בְּעֵבֶר הַנָּהָר יָשְׁבוּ אֲבֽוֹתֵיכֶם מֵֽעוֹלָם תֶּרַח אֲבִי אַבְרָהָם וַאֲבִי נָחוֹר וַיַּעַבְדוּ אֱלֹהִים אֲחֵרִֽים׃",
+          "3": "וָאֶקַּח אֶת־אֲבִיכֶם אֶת־אַבְרָהָם מֵעֵבֶר הַנָּהָר וָאוֹלֵךְ אוֹתוֹ בְּכָל־אֶרֶץ כְּנָעַן וָאַרְבֶּה אֶת־זַרְעוֹ וָֽאֶתֶּן־לוֹ אֶת־יִצְחָֽק׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "joshua-24-14-14",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "Now therefore fear the LORD, and serve him in sincerity and in truth: and put away the gods which your fathers served on the other side of the flood, and in Egypt; and serve ye the LORD.",
+        "riddle": "fear the LORD, and serve him in sincerity and in truth: and put away the gods which your fathers served on the other side of the flood, and in Egypt; and serve ye the LORD.",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְעַתָּה יְראוּ אֶת־יְהוָה וְעִבְדוּ אֹתוֹ בְּתָמִים וּבֶֽאֱמֶת וְהָסִירוּ אֶת־אֱלֹהִים אֲשֶׁר עָבְדוּ אֲבוֹתֵיכֶם בְּעֵבֶר הַנָּהָר וּבְמִצְרַיִם וְעִבְדוּ אֶת־יְהוָֽה",
+        "riddle": "וְעַתָּה יְראוּ אֶת־יְהוָה וְעִבְדוּ אֹתוֹ בְּתָמִים וּבֶֽאֱמֶת וְהָסִירוּ אֶת־אֱלֹהִים אֲשֶׁר עָבְדוּ אֲבוֹתֵיכֶם בְּעֵבֶר הַנָּהָר וּבְמִצְרַיִם וְעִבְדוּ אֶת־יְהוָֽה",
+        "speaker": "יהושע",
+        "listener": "העם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Now therefore fear the LORD, and serve him in sincerity and in truth: and put away the gods which your fathers served on the other side of the flood, and in Egypt; and serve ye the LORD."
+        },
+        "he": {
+          "14": "וְעַתָּה יְראוּ אֶת־יְהוָה וְעִבְדוּ אֹתוֹ בְּתָמִים וּבֶֽאֱמֶת וְהָסִירוּ אֶת־אֱלֹהִים אֲשֶׁר עָבְדוּ אֲבוֹתֵיכֶם בְּעֵבֶר הַנָּהָר וּבְמִצְרַיִם וְעִבְדוּ אֶת־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command and warning",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "joshua-24-15-15",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the LORD.",
+        "riddle": "choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the LORD.",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְאִם רַע בְּֽעֵינֵיכֶם לַעֲבֹד אֶת־יְהוָה בַּחֲרוּ לָכֶם הַיּוֹם אֶת־מִי תַעֲבֹדוּן אִם אֶת־אֱלֹהִים אֲשֶׁר־עָבְדוּ אֲבוֹתֵיכֶם אֲשֶׁר מֵּעֵבֶר הַנָּהָר וְאִם אֶת־אֱלֹהֵי הָאֱמֹרִי אֲשֶׁר אַתֶּם יֹשְׁבִים בְּאַרְצָם וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת־יְהוָֽה",
+        "riddle": "וְאִם רַע בְּֽעֵינֵיכֶם לַעֲבֹד אֶת־יְהוָה בַּחֲרוּ לָכֶם הַיּוֹם אֶת־מִי תַעֲבֹדוּן אִם אֶת־אֱלֹהִים אֲשֶׁר־עָבְדוּ אֲבוֹתֵיכֶם אֲשֶׁר מֵּעֵבֶר הַנָּהָר וְאִם אֶת־אֱלֹהֵי הָאֱמֹרִי אֲשֶׁר אַתֶּם יֹשְׁבִים בְּאַרְצָם וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת־יְהוָֽה",
+        "speaker": "יהושע",
+        "listener": "העם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And if it seem evil unto you to serve the LORD, choose you this day whom ye will serve; whether the gods which your fathers served that were on the other side of the flood, or the gods of the Amorites, in whose land ye dwell: but as for me and my house, we will serve the LORD."
+        },
+        "he": {
+          "15": "וְאִם רַע בְּֽעֵינֵיכֶם לַעֲבֹד אֶת־יְהוָה בַּחֲרוּ לָכֶם הַיּוֹם אֶת־מִי תַעֲבֹדוּן אִם אֶת־אֱלֹהִים אֲשֶׁר־עָבְדוּ אֲבוֹתֵיכֶם אֲשֶׁר מֵּעֵבֶר הַנָּהָר וְאִם אֶת־אֱלֹהֵי הָאֱמֹרִי אֲשֶׁר אַתֶּם יֹשְׁבִים בְּאַרְצָם וְאָנֹכִי וּבֵיתִי נַעֲבֹד אֶת־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct challenge and declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "joshua-24-16-16",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And the people answered and said, God forbid that we should forsake the LORD, to serve other gods;",
+        "riddle": "God forbid that we should forsake the LORD, to serve other gods;",
+        "speaker": "the people",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיַּעַן הָעָם וַיֹּאמֶר חָלִילָה לָּנוּ מֵעֲזֹב אֶת־יְהוָה לַעֲבֹד אֱלֹהִים אֲחֵרִֽים",
+        "riddle": "חָלִילָה לָּנוּ מֵעֲזֹב אֶת־יְהוָה לַעֲבֹד אֱלֹהִים אֲחֵרִֽים",
+        "speaker": "הָעָם",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the people answered and said, God forbid that we should forsake the LORD, to serve other gods;"
+        },
+        "he": {
+          "16": "וַיַּעַן הָעָם וַיֹּאמֶר חָלִילָה לָּנוּ מֵעֲזֹב אֶת־יְהוָה לַעֲבֹד אֱלֹהִים אֲחֵרִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "joshua-24-19-19",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And Joshua said unto the people, Ye cannot serve the LORD: for he is an holy God; he is a jealous God; he will not forgive your transgressions nor your sins.",
+        "riddle": "Ye cannot serve the LORD: for he is an holy God; he is a jealous God; he will not forgive your transgressions nor your sins.",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם לֹא תֽוּכְלוּ לַעֲבֹד אֶת־יְהוָה כִּֽי־אֱלֹהִים קְדֹשִׁים הוּא אֵֽל־קַנּוֹא הוּא לֹֽא־יִשָּׂא לְפִשְׁעֲכֶם וּלְחַטֹּאותֵיכֶֽם",
+        "riddle": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם לֹא תֽוּכְלוּ לַעֲבֹד אֶת־יְהוָה כִּֽי־אֱלֹהִים קְדֹשִׁים הוּא אֵֽל־קַנּוֹא הוּא לֹֽא־יִשָּׂא לְפִשְׁעֲכֶם וּלְחַטֹּאותֵיכֶֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And Joshua said unto the people, Ye cannot serve the LORD: for he is an holy God; he is a jealous God; he will not forgive your transgressions nor your sins."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם לֹא תֽוּכְלוּ לַעֲבֹד אֶת־יְהוָה כִּֽי־אֱלֹהִים קְדֹשִׁים הוּא אֵֽל־קַנּוֹא הוּא לֹֽא־יִשָּׂא לְפִשְׁעֲכֶם וּלְחַטֹּאותֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct warning",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "joshua-24-21-21",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And the people said unto Joshua, Nay; but we will serve the LORD.",
+        "riddle": "Nay; but we will serve the LORD.",
+        "speaker": "the people",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָעָם אֶל־יְהוֹשֻׁעַ לֹא כִּי אֶת־יְהוָה נַעֲבֹֽד",
+        "riddle": "לֹא כִּי אֶת־יְהוָה נַעֲבֹֽד",
+        "speaker": "הָעָם",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the people said unto Joshua, Nay; but we will serve the LORD."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר הָעָם אֶל־יְהוֹשֻׁעַ לֹא כִּי אֶת־יְהוָה נַעֲבֹֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "joshua-24-22-22-1",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Joshua said unto the people, Ye are witnesses against yourselves that ye have chosen you the LORD, to serve him. And they said, We are witnesses.",
+        "riddle": "Ye are witnesses against yourselves that ye have chosen you the LORD, to serve him.",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם עֵדִים אַתֶּם בָּכֶם כִּֽי־אַתֶּם בְּחַרְתֶּם לָכֶם אֶת־יְהוָה לַעֲבֹד אוֹתוֹ וַיֹּאמְרוּ עֵדִֽים",
+        "riddle": "עֵדִים אַתֶּם בָּכֶם כִּֽי־אַתֶּם בְּחַרְתֶּם לָכֶם אֶת־יְהוָה לַעֲבֹד אוֹתוֹ וַיֹּאמְרוּ עֵדִֽים",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Joshua said unto the people, Ye are witnesses against yourselves that ye have chosen you the LORD, to serve him. And they said, We are witnesses."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם עֵדִים אַתֶּם בָּכֶם כִּֽי־אַתֶּם בְּחַרְתֶּם לָכֶם אֶת־יְהוָה לַעֲבֹד אוֹתוֹ וַיֹּאמְרוּ עֵדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "joshua-24-22-22-2",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Joshua said unto the people, Ye are witnesses against yourselves that ye have chosen you the LORD, to serve him. And they said, We are witnesses.",
+        "riddle": "We are witnesses.",
+        "speaker": "the people",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם עֵדִים אַתֶּם בָּכֶם כִּֽי־אַתֶּם בְּחַרְתֶּם לָכֶם אֶת־יְהוָה לַעֲבֹד אוֹתוֹ וַיֹּאמְרוּ עֵדִֽים",
+        "riddle": "עֵדִים",
+        "speaker": "הָעָם",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Joshua said unto the people, Ye are witnesses against yourselves that ye have chosen you the LORD, to serve him. And they said, We are witnesses."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־הָעָם עֵדִים אַתֶּם בָּכֶם כִּֽי־אַתֶּם בְּחַרְתֶּם לָכֶם אֶת־יְהוָה לַעֲבֹד אוֹתוֹ וַיֹּאמְרוּ עֵדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "joshua-24-23-23",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "Now therefore put away, said he, the strange gods which are among you, and incline your heart unto the LORD God of Israel.",
+        "riddle": "Now therefore put away, said he, the strange gods which are among you, and incline your heart unto the LORD God of Israel.",
+        "speaker": "Joshua",
+        "listener": "the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְעַתָּה הָסִירוּ אֶת־אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּקִרְבְּכֶם וְהַטּוּ אֶת־לְבַבְכֶם אֶל־יְהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+        "riddle": "וְעַתָּה הָסִירוּ אֶת־אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּקִרְבְּכֶם וְהַטּוּ אֶת־לְבַבְכֶם אֶל־יְהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+        "speaker": "יהושע",
+        "listener": "בני יִשְׂרָאֵֽל",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Now therefore put away, said he, the strange gods which are among you, and incline your heart unto the LORD God of Israel."
+        },
+        "he": {
+          "23": "וְעַתָּה הָסִירוּ אֶת־אֱלֹהֵי הַנֵּכָר אֲשֶׁר בְּקִרְבְּכֶם וְהַטּוּ אֶת־לְבַבְכֶם אֶל־יְהוָה אֱלֹהֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "joshua-24-24-24",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the people said unto Joshua, The LORD our God will we serve, and his voice will we obey.",
+        "riddle": "The LORD our God will we serve, and his voice will we obey.",
+        "speaker": "the people",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הָעָם אֶל־יְהוֹשֻׁעַ אֶת־יְהוָה אֱלֹהֵינוּ נַעֲבֹד וּבְקוֹלוֹ נִשְׁמָֽע",
+        "riddle": "יְהוָה אֱלֹהֵינוּ נַעֲבֹד וּבְקוֹלוֹ נִשְׁמָֽע",
+        "speaker": "הָעָם",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the people said unto Joshua, The LORD our God will we serve, and his voice will we obey."
+        },
+        "he": {
+          "24": "וַיֹּאמְרוּ הָעָם אֶל־יְהוֹשֻׁעַ אֶת־יְהוָה אֱלֹהֵינוּ נַעֲבֹד וּבְקוֹלוֹ נִשְׁמָֽע׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "joshua-24-27-27",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 24,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Joshua said unto all the people, Behold, this stone shall be a witness unto us; for it hath heard all the words of the LORD which he spake unto us: it shall be therefore a witness unto you, lest ye deny your God.",
+        "riddle": "Behold, this stone shall be a witness unto us; for it hath heard all the words of the LORD which he spake unto us: it shall be therefore a witness unto you, lest ye deny your God.",
+        "speaker": "Joshua",
+        "listener": "all the people",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם הִנֵּה הָאֶבֶן הַזֹּאת תִּֽהְיֶה־בָּנוּ לְעֵדָה כִּֽי־הִיא שָׁמְעָה אֵת כָּל־אִמְרֵי יְהוָה אֲשֶׁר דִּבֶּר עִמָּנוּ וְהָיְתָה בָכֶם לְעֵדָה פֶּֽן־תְּכַחֲשׁוּן בֵּאלֹהֵיכֶֽם",
+        "riddle": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם הִנֵּה הָאֶבֶן הַזֹּאת תִּֽהְיֶה־בָּנוּ לְעֵדָה כִּֽי־הִיא שָׁמְעָה אֵת כָּל־אִמְרֵי יְהוָה אֲשֶׁר דִּבֶּר עִמָּנוּ וְהָיְתָה בָכֶם לְעֵדָה פֶּֽן־תְּכַחֲשׁוּן בֵּאלֹהֵיכֶֽם",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "כָּל־הָעָם",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And Joshua said unto all the people, Behold, this stone shall be a witness unto us; for it hath heard all the words of the LORD which he spake unto us: it shall be therefore a witness unto you, lest ye deny your God."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־כָּל־הָעָם הִנֵּה הָאֶבֶן הַזֹּאת תִּֽהְיֶה־בָּנוּ לְעֵדָה כִּֽי־הִיא שָׁמְעָה אֵת כָּל־אִמְרֵי יְהוָה אֲשֶׁר דִּבֶּר עִמָּנוּ וְהָיְתָה בָכֶם לְעֵדָה פֶּֽן־תְּכַחֲשׁוּן בֵּאלֹהֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 27,
+        "end": 27
+      }
+    }
+  ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 0,
-    "issue_count": 18
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 12,
+    "issue_count": 1
   }
 }

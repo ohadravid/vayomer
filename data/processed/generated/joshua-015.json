@@ -6,7 +6,7 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-15-18-18",
+      "id": "joshua-15-19-19",
       "source": {
         "method": "llm",
         "book_code": "JOS",
@@ -14,64 +14,68 @@
         "book_he": "יהושע",
         "chapter": 15,
         "quote_verse_start": 17,
-        "quote_verse_end": 18
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 18
       },
       "en": {
-        "quote": "And Othniel the son of Kenaz, the brother of Caleb, took it: and he gave him Achsah his daughter to wife. And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?",
-        "riddle": "What wouldest thou?",
-        "speaker": "Caleb",
-        "listener": "Achsah",
+        "quote": "And Othniel the son of Kenaz, the brother of Caleb, took it: and he gave him Achsah his daughter to wife. And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou? Who answered, Give me a blessing; for thou hast given me a south land; give me also springs of water. And he gave her the upper springs, and the nether springs.",
+        "riddle": "Give me a blessing; for thou hast given me a south land; give me also springs of water.",
+        "speaker": "Achsah",
+        "listener": "Caleb",
         "book": "Joshua",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "son",
+        "bonus": "daughter",
         "bonus_hint": {
-          "quote": "And Adam knew his wife again; and she bare a son, and called his name Seth: For God, said she, hath appointed me another seed instead of Abel, whom Cain slew.",
+          "quote": "And Othniel the son of Kenaz, Caleb's younger brother, took it: and he gave him Achsah his daughter to wife.",
           "source": {
-            "book": "Genesis",
-            "chapter": 4,
-            "start": 25,
-            "end": 25
+            "book": "Judges",
+            "chapter": 1,
+            "start": 13,
+            "end": 13
           }
         }
       },
       "he": {
-        "quote": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ",
-        "riddle": "מַה־לָּֽךְ",
-        "speaker": "כָלֵב",
-        "listener": "עַכְסָה",
+        "quote": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ וַתֹּאמֶר תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת תַּחְתִּיּֽוֹת",
+        "riddle": "תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת",
+        "speaker": "עַכְסָה",
+        "listener": "כָלֵב",
         "book": "יהושע",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "בֶּן",
+        "bonus": "וַֽיִּלְכְּדָהּ",
         "bonus_hint": {
-          "quote": "וַיֵּדַע אָדָם עוֹד אֶת־אִשְׁתּוֹ וַתֵּלֶד בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שֵׁת כִּי שָֽׁת־לִי אֱלֹהִים זֶרַע אַחֵר תַּחַת הֶבֶל כִּי הֲרָגוֹ קָֽיִן",
+          "quote": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב הַקָּטֹן מִמֶּנּוּ וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה",
           "source": {
-            "book": "בראשית",
-            "chapter": 4,
-            "start": 25,
-            "end": 25
+            "book": "שופטים",
+            "chapter": 1,
+            "start": 13,
+            "end": 13
           }
         }
       },
       "raw_quote_source": {
         "en": {
           "17": "And Othniel the son of Kenaz, the brother of Caleb, took it: and he gave him Achsah his daughter to wife.",
-          "18": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?"
+          "18": "And it came to pass, as she came unto him, that she moved him to ask of her father a field: and she lighted off her ass; and Caleb said unto her, What wouldest thou?",
+          "19": "Who answered, Give me a blessing; for thou hast given me a south land; give me also springs of water. And he gave her the upper springs, and the nether springs."
         },
         "he": {
           "17": "וַֽיִּלְכְּדָהּ עָתְנִיאֵל בֶּן־קְנַז אֲחִי כָלֵב וַיִּתֶּן־לוֹ אֶת־עַכְסָה בִתּוֹ לְאִשָּֽׁה׃",
-          "18": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃"
+          "18": "וַיְהִי בְּבוֹאָהּ וַתְּסִיתֵהוּ לִשְׁאוֹל מֵֽאֵת־אָבִיהָ שָׂדֶה וַתִּצְנַח מֵעַל הַחֲמוֹר וַיֹּֽאמֶר־לָהּ כָּלֵב מַה־לָּֽךְ׃",
+          "19": "וַתֹּאמֶר תְּנָה־לִּי בְרָכָה כִּי אֶרֶץ הַנֶּגֶב נְתַתָּנִי וְנָתַתָּה לִי גֻּלֹּת מָיִם וַיִּתֶּן־לָהּ אֵת גֻּלֹּת עִלִּיּוֹת וְאֵת גֻּלֹּת תַּחְתִּיּֽוֹת׃"
         }
       },
       "ref": {
         "chapter": 15,
         "start": 17,
-        "end": 18
+        "end": 19
       },
       "meta": {
         "mode": "llm",

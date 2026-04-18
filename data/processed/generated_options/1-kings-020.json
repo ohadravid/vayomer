@@ -6,88 +6,1161 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-20-14-14",
+      "id": "1-kings-20-04-04",
       "source": {
         "method": "llm",
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 20,
-        "quote_verse_start": 13,
-        "quote_verse_end": 14
+        "quote_verse_start": 1,
+        "quote_verse_end": 4,
+        "listener_mention_verse": 2
       },
       "en": {
-        "quote": "And, behold, there came a prophet unto Ahab king of Israel, saying, Thus saith the LORD, Hast thou seen all this great multitude? behold, I will deliver it in to thine hand this day; and thou shalt know that I am the LORD. And Ahab said, By whom? And he said, Thus saith the LORD, Even by the young men of the princes of the provinces. Then he said, Who shall order the battle? And he answered, Thou.",
-        "riddle": "Who shall order the battle?",
+        "quote": "And Ben-hadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots: and he went up and besieged Samaria, and warred against it. And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad, Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine. And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.",
+        "riddle": "My lord, O king, according to thy saying, I am thine, and all that I have.",
         "speaker": "Ahab",
-        "listener": "Prophet",
+        "listener": "Ben-hadad",
         "book": "1 Kings",
         "options": {
           "speaker": [
+            "David",
             "Solomon",
-            "Joab",
-            "Rab-shakeh"
+            "Saul"
           ],
           "listener": [
-            "Elisha",
-            "Solomon",
-            "Isaiah"
+            "Sennacherib",
+            "Tiglath-pileser",
+            "Shimei"
           ]
         },
-        "bonus": "king",
+        "bonus": "kings",
         "bonus_hint": {
-          "quote": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;",
+          "quote": "And the LORD stirred up an adversary unto Solomon, Hadad the Edomite: he was of the king's seed in Edom.",
           "source": {
-            "book": "Genesis",
-            "chapter": 14,
-            "start": 1,
-            "end": 1
+            "book": "1 Kings",
+            "chapter": 11,
+            "start": 14,
+            "end": 14
           }
         }
       },
       "he": {
-        "quote": "וְהִנֵּה נָבִיא אֶחָד נִגַּשׁ אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כֹּה אָמַר יְהוָה הְֽרָאִיתָ אֵת כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה הִנְנִי נֹתְנוֹ בְיָֽדְךָ הַיּוֹם וְיָדַעְתָּ כִּֽי־אֲנִי יְהוָֽה וַיֹּאמֶר אַחְאָב בְּמִי וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּנַעֲרֵי שָׂרֵי הַמְּדִינוֹת וַיֹּאמֶר מִֽי־יֶאְסֹר הַמִּלְחָמָה וַיֹּאמֶר אָֽתָּה",
-        "riddle": "מִֽי־יֶאְסֹר הַמִּלְחָמָה",
+        "quote": "וּבֶן־הֲדַד מֶֽלֶךְ־אֲרָם קָבַץ אֶת־כָּל־חֵילוֹ וּשְׁלֹשִׁים וּשְׁנַיִם מֶלֶךְ אִתּוֹ וְסוּס וָרָכֶב וַיַּעַל וַיָּצַר עַל־שֹׁמְרוֹן וַיִלָּחֶם בָּֽהּ וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי",
+        "riddle": "כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי",
         "speaker": "אַחְאָב",
-        "listener": "נָבִיא",
+        "listener": "בנהדד",
         "book": "מלכים א",
         "options": {
           "speaker": [
-            "שְׁלֵמָה",
-            "יוֹאָב",
-            "רַב־שָׁקֵה"
+            "דּוֹד",
+            "שְׁלֹמֹה",
+            "שָׁאוֹל"
           ],
           "listener": [
-            "אֱלִישָׁע",
-            "שְׁלֵמָה",
-            "יְשַֽׁעְיָהוּ"
+            "סַנְחֵרִיב",
+            "תִּגְלַת פְּלֶסֶר",
+            "שִׁמְעִי"
           ]
         },
-        "bonus": "מֶֽלֶךְ",
+        "bonus": "הֲדַד",
         "bonus_hint": {
-          "quote": "וַיְהִי בִּימֵי אַמְרָפֶל מֶֽלֶךְ־שִׁנְעָר אַרְיוֹךְ מֶלֶךְ אֶלָּסָר כְּדָרְלָעֹמֶר מֶלֶךְ עֵילָם וְתִדְעָל מֶלֶךְ גּוֹיִֽם",
+          "quote": "וַיָּקֶם יְהוָה שָׂטָן לִשְׁלֹמֹה אֵת הֲדַד הָאֲדֹמִי מִזֶּרַע הַמֶּלֶךְ הוּא בֶּאֱדֽוֹם",
           "source": {
-            "book": "בראשית",
-            "chapter": 14,
-            "start": 1,
-            "end": 1
+            "book": "מלכים א",
+            "chapter": 11,
+            "start": 14,
+            "end": 14
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "13": "And, behold, there came a prophet unto Ahab king of Israel, saying, Thus saith the LORD, Hast thou seen all this great multitude? behold, I will deliver it in to thine hand this day; and thou shalt know that I am the LORD.",
-          "14": "And Ahab said, By whom? And he said, Thus saith the LORD, Even by the young men of the princes of the provinces. Then he said, Who shall order the battle? And he answered, Thou."
+          "1": "And Ben-hadad the king of Syria gathered all his host together: and there were thirty and two kings with him, and horses, and chariots: and he went up and besieged Samaria, and warred against it.",
+          "2": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad,",
+          "3": "Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.",
+          "4": "And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have."
         },
         "he": {
-          "13": "וְהִנֵּה ׀ נָבִיא אֶחָד נִגַּשׁ אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כֹּה אָמַר יְהוָה הְֽרָאִיתָ אֵת כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה הִנְנִי נֹתְנוֹ בְיָֽדְךָ הַיּוֹם וְיָדַעְתָּ כִּֽי־אֲנִי יְהוָֽה׃",
-          "14": "וַיֹּאמֶר אַחְאָב בְּמִי וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה בְּנַעֲרֵי שָׂרֵי הַמְּדִינוֹת וַיֹּאמֶר מִֽי־יֶאְסֹר הַמִּלְחָמָה וַיֹּאמֶר אָֽתָּה׃"
+          "1": "וּבֶן־הֲדַד מֶֽלֶךְ־אֲרָם קָבַץ אֶת־כָּל־חֵילוֹ וּשְׁלֹשִׁים וּשְׁנַיִם מֶלֶךְ אִתּוֹ וְסוּס וָרָכֶב וַיַּעַל וַיָּצַר עַל־שֹׁמְרוֹן וַיִלָּחֶם בָּֽהּ׃",
+          "2": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה׃",
+          "3": "וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם׃",
+          "4": "וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי׃"
         }
       },
       "ref": {
         "chapter": 20,
-        "start": 13,
-        "end": 14
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 2,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad, Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine. And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have. And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;",
+        "riddle": "Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;",
+        "speaker": "Ben-hadad",
+        "listener": "Ahab",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "David",
+            "Saul"
+          ],
+          "listener": [
+            "David",
+            "Saul",
+            "Solomon"
+          ]
+        },
+        "bonus": "messengers",
+        "bonus_hint": {
+          "quote": "And Moses sent messengers from Kadesh unto the king of Edom, Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:",
+          "source": {
+            "book": "Numbers",
+            "chapter": 20,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן",
+        "riddle": "כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן",
+        "speaker": "הַמַּלְאָכִים",
+        "listener": "אַחְאָב",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "דּוֹד",
+            "שָׁאוֹל"
+          ],
+          "listener": [
+            "דּוֹד",
+            "שָׁאוֹל",
+            "שְׁלֹמֹה"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח מֹשֶׁה מַלְאָכִים מִקָּדֵשׁ אֶל־מֶלֶךְ אֱדוֹם כֹּה אָמַר אָחִיךָ יִשְׂרָאֵל אַתָּה יָדַעְתָּ אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָֽתְנוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 20,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad,",
+          "3": "Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.",
+          "4": "And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.",
+          "5": "And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;"
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה׃",
+          "3": "וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם׃",
+          "4": "וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי׃",
+          "5": "וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 2,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 2,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad, Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine. And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have. And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children; Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away. Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not.",
+        "riddle": "Mark, I pray you, and see how this man seeketh mischief",
+        "speaker": "Ahab",
+        "listener": "elders",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Solomon",
+            "Nathan"
+          ],
+          "listener": [
+            "people",
+            "servants",
+            "men of the city"
+          ]
+        },
+        "bonus": "silver",
+        "bonus_hint": {
+          "quote": "So Joshua sent messengers, and they ran unto the tent; and, behold, it was hid in his tent, and the silver under it.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 7,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן כִּי אִם־כָּעֵת מָחָר אֶשְׁלַח אֶת־עֲבָדַי אֵלֶיךָ וְחִפְּשׂוּ אֶת־בֵּיתְךָ וְאֵת בָּתֵּי עֲבָדֶיךָ וְהָיָה כָּל־מַחְמַד עֵינֶיךָ יָשִׂימוּ בְיָדָם וְלָקָֽחוּ וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ",
+        "riddle": "דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּש",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "זִקְנֵי הָאָרֶץ",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "שְׁלֹמֹה",
+            "נָתַן"
+          ],
+          "listener": [
+            "הָעָם",
+            "עֲבָדָיו",
+            "אַנְשֵׁי הָעִיר"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח יְהוֹשֻׁעַ מַלְאָכִים וַיָּרֻצוּ הָאֹהֱלָה וְהִנֵּה טְמוּנָה בְּאָהֳלוֹ וְהַכֶּסֶף תַּחְתֶּֽיהָ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad,",
+          "3": "Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.",
+          "4": "And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.",
+          "5": "And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;",
+          "6": "Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away.",
+          "7": "Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not."
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה׃",
+          "3": "וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם׃",
+          "4": "וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי׃",
+          "5": "וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן׃",
+          "6": "כִּי ׀ אִם־כָּעֵת מָחָר אֶשְׁלַח אֶת־עֲבָדַי אֵלֶיךָ וְחִפְּשׂוּ אֶת־בֵּיתְךָ וְאֵת בָּתֵּי עֲבָדֶיךָ וְהָיָה כָּל־מַחְמַד עֵינֶיךָ יָשִׂימוּ בְיָדָם וְלָקָֽחוּ׃",
+          "7": "וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 2,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 2,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad, Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine. And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have. And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children; Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away. Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not. And all the elders and all the people said unto him, Hearken not unto him, nor consent.",
+        "riddle": "Hearken not unto him, nor consent.",
+        "speaker": "elders and people",
+        "listener": "king of Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "servants",
+            "men of the city",
+            "Shimei"
+          ],
+          "listener": [
+            "Elijah",
+            "Ben-hadad",
+            "Nathan"
+          ]
+        },
+        "bonus": "silver",
+        "bonus_hint": {
+          "quote": "So Joshua sent messengers, and they ran unto the tent; and, behold, it was hid in his tent, and the silver under it.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 7,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן כִּי אִם־כָּעֵת מָחָר אֶשְׁלַח אֶת־עֲבָדַי אֵלֶיךָ וְחִפְּשׂוּ אֶת־בֵּיתְךָ וְאֵת בָּתֵּי עֲבָדֶיךָ וְהָיָה כָּל־מַחְמַד עֵינֶיךָ יָשִׂימוּ בְיָדָם וְלָקָֽחוּ וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ וַיֹּאמְרוּ אֵלָיו כָּל־הַזְּקֵנִים וְכָל־הָעָם אַל־תִּשְׁמַע וְלוֹא תֹאבֶֽה",
+        "riddle": "אַל־תִּשְׁמַע וְלוֹא תֹאבֶֽה",
+        "speaker": "הַזְּקֵנִים וְהָעָם",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "עֲבָדָיו",
+            "אַנְשֵׁי הָעִיר",
+            "שִׁמְעִי"
+          ],
+          "listener": [
+            "אֵלִיָּהוּ",
+            "בֶּן־הֲדַד",
+            "נָתַן"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח יְהוֹשֻׁעַ מַלְאָכִים וַיָּרֻצוּ הָאֹהֱלָה וְהִנֵּה טְמוּנָה בְּאָהֳלוֹ וְהַכֶּסֶף תַּחְתֶּֽיהָ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he sent messengers to Ahab king of Israel into the city, and said unto him, Thus saith Ben-hadad,",
+          "3": "Thy silver and thy gold is mine; thy wives also and thy children, even the goodliest, are mine.",
+          "4": "And the king of Israel answered and said, My lord, O king, according to thy saying, I am thine, and all that I have.",
+          "5": "And the messengers came again, and said, Thus speaketh Ben-hadad, saying, Although I have sent unto thee, saying, Thou shalt deliver me thy silver, and thy gold, and thy wives, and thy children;",
+          "6": "Yet I will send my servants unto thee to morrow about this time, and they shall search thine house, and the houses of thy servants; and it shall be, that whatsoever is pleasant in thine eyes, they shall put it in their hand, and take it away.",
+          "7": "Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not.",
+          "8": "And all the elders and all the people said unto him, Hearken not unto him, nor consent.",
+          "9": "Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again."
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח מַלְאָכִים אֶל־אַחְאָב מֶֽלֶךְ־יִשְׂרָאֵל הָעִֽירָה׃",
+          "3": "וַיֹּאמֶר לוֹ כֹּה אָמַר בֶּן־הֲדַד כַּסְפְּךָ וּֽזְהָבְךָ לִֽי־הוּא וְנָשֶׁיךָ וּבָנֶיךָ הַטּוֹבִים לִי־הֵֽם׃",
+          "4": "וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר כִּדְבָרְךָ אֲדֹנִי הַמֶּלֶךְ לְךָ אֲנִי וְכָל־אֲשֶׁר־לִֽי׃",
+          "5": "וַיָּשֻׁבוּ הַמַּלְאָכִים וַיֹּאמְרוּ כֹּֽה־אָמַר בֶּן־הֲדַד לֵאמֹר כִּֽי־שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר כַּסְפְּךָ וּזְהָבְךָ וְנָשֶׁיךָ וּבָנֶיךָ לִי תִתֵּֽן׃",
+          "6": "כִּי ׀ אִם־כָּעֵת מָחָר אֶשְׁלַח אֶת־עֲבָדַי אֵלֶיךָ וְחִפְּשׂוּ אֶת־בֵּיתְךָ וְאֵת בָּתֵּי עֲבָדֶיךָ וְהָיָה כָּל־מַחְמַד עֵינֶיךָ יָשִׂימוּ בְיָדָם וְלָקָֽחוּ׃",
+          "7": "וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ׃",
+          "8": "וַיֹּאמְרוּ אֵלָיו כָּל־הַזְּקֵנִים וְכָל־הָעָם אַל־תִּשְׁמַע וְלוֹא תֹאבֶֽה׃",
+          "9": "וַיֹּאמֶר לְמַלְאֲכֵי בֶן־הֲדַד אִמְרוּ לַֽאדֹנִי הַמֶּלֶךְ כֹּל אֲשֶׁר־שָׁלַחְתָּ אֶל־עַבְדְּךָ בָרִֽאשֹׁנָה אֶעֱשֶׂה וְהַדָּבָר הַזֶּה לֹא אוּכַל לַעֲשׂוֹת וַיֵּֽלְכוּ הַמַּלְאָכִים וַיְשִׁבֻהוּ דָּבָֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 2,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 7,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not. And all the elders and all the people said unto him, Hearken not unto him, nor consent. Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again. And Ben-hadad sent unto him, and said, The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me.",
+        "riddle": "The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me.",
+        "speaker": "Ben-hadad",
+        "listener": "king of Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "king of Syria",
+            "King of Assyria",
+            "Shimei"
+          ],
+          "listener": [
+            "Elijah",
+            "Solomon",
+            "Saul"
+          ]
+        },
+        "bonus": "mischief",
+        "bonus_hint": {
+          "quote": "He that diligently seeketh good procureth favour: but he that seeketh mischief, it shall come unto him.",
+          "source": {
+            "book": "Proverbs",
+            "chapter": 11,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ וַיֹּאמְרוּ אֵלָיו כָּל־הַזְּקֵנִים וְכָל־הָעָם אַל־תִּשְׁמַע וְלוֹא תֹאבֶֽה וַיֹּאמֶר לְמַלְאֲכֵי בֶן־הֲדַד אִמְרוּ לַֽאדֹנִי הַמֶּלֶךְ כֹּל אֲשֶׁר־שָׁלַחְתָּ אֶל־עַבְדְּךָ בָרִֽאשֹׁנָה אֶעֱשֶׂה וְהַדָּבָר הַזֶּה לֹא אוּכַל לַעֲשׂוֹת וַיֵּֽלְכוּ הַמַּלְאָכִים וַיְשִׁבֻהוּ דָּבָֽר וַיִּשְׁלַח אֵלָיו בֶּן־הֲדַד וַיֹּאמֶר כֹּֽה־יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם־יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכָל־הָעָם אֲשֶׁר בְּרַגְלָֽי",
+        "riddle": "כֹּֽה־יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם־יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכָל־הָעָם אֲשֶׁר בְּרַגְלָֽי",
+        "speaker": "בֶן־הֲדַד",
+        "listener": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "מֶֽלֶךְ־אֲרָם",
+            "מֶֽלֶךְ־אַשּׁוּר",
+            "שִׁמְעִי"
+          ],
+          "listener": [
+            "אֵלִיָּהוּ",
+            "שְׁלֹמֹה",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "רָעָה",
+        "bonus_hint": {
+          "quote": "שֹׁחֵֽר טוֹב יְבַקֵּשׁ רָצוֹן וְדֹרֵשׁ רָעָה תְבוֹאֶֽנּוּ",
+          "source": {
+            "book": "משלי",
+            "chapter": 11,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Then the king of Israel called all the elders of the land, and said, Mark, I pray you, and see how this man seeketh mischief: for he sent unto me for my wives, and for my children, and for my silver, and for my gold; and I denied him not.",
+          "8": "And all the elders and all the people said unto him, Hearken not unto him, nor consent.",
+          "9": "Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again.",
+          "10": "And Ben-hadad sent unto him, and said, The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me."
+        },
+        "he": {
+          "7": "וַיִּקְרָא מֶֽלֶךְ־יִשְׂרָאֵל לְכָל־זִקְנֵי הָאָרֶץ וַיֹּאמֶר דְּעֽוּ־נָא וּרְאוּ כִּי רָעָה זֶה מְבַקֵּשׁ כִּֽי־שָׁלַח אֵלַי לְנָשַׁי וּלְבָנַי וּלְכַסְפִּי וְלִזְהָבִי וְלֹא מָנַעְתִּי מִמֶּֽנּוּ׃",
+          "8": "וַיֹּאמְרוּ אֵלָיו כָּל־הַזְּקֵנִים וְכָל־הָעָם אַל־תִּשְׁמַע וְלוֹא תֹאבֶֽה׃",
+          "9": "וַיֹּאמֶר לְמַלְאֲכֵי בֶן־הֲדַד אִמְרוּ לַֽאדֹנִי הַמֶּלֶךְ כֹּל אֲשֶׁר־שָׁלַחְתָּ אֶל־עַבְדְּךָ בָרִֽאשֹׁנָה אֶעֱשֶׂה וְהַדָּבָר הַזֶּה לֹא אוּכַל לַעֲשׂוֹת וַיֵּֽלְכוּ הַמַּלְאָכִים וַיְשִׁבֻהוּ דָּבָֽר׃",
+          "10": "וַיִּשְׁלַח אֵלָיו בֶּן־הֲדַד וַיֹּאמֶר כֹּֽה־יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם־יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכָל־הָעָם אֲשֶׁר בְּרַגְלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 7,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 9,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again. And Ben-hadad sent unto him, and said, The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me. And the king of Israel answered and said, Tell him, Let not him that girdeth on his harness boast himself as he that putteth it off.",
+        "riddle": "Let not him that girdeth on his harness boast himself as he that putteth it off.",
+        "speaker": "king of Israel",
+        "listener": "messengers of Ben-hadad",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Solomon",
+            "Saul"
+          ],
+          "listener": [
+            "servants",
+            "Rab-shakeh",
+            "Syrians"
+          ]
+        },
+        "bonus": "servant",
+        "bonus_hint": {
+          "quote": "Go ye forth of Babylon, flee ye from the Chaldeans, with a voice of singing declare ye, tell this, utter it even to the end of the earth; say ye, The LORD hath redeemed his servant Jacob.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 48,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לְמַלְאֲכֵי בֶן־הֲדַד אִמְרוּ לַֽאדֹנִי הַמֶּלֶךְ כֹּל אֲשֶׁר־שָׁלַחְתָּ אֶל־עַבְדְּךָ בָרִֽאשֹׁנָה אֶעֱשֶׂה וְהַדָּבָר הַזֶּה לֹא אוּכַל לַעֲשׂוֹת וַיֵּֽלְכוּ הַמַּלְאָכִים וַיְשִׁבֻהוּ דָּבָֽר וַיִּשְׁלַח אֵלָיו בֶּן־הֲדַד וַיֹּאמֶר כֹּֽה־יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם־יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכָל־הָעָם אֲשֶׁר בְּרַגְלָֽי וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר דַּבְּרוּ אַל־יִתְהַלֵּל חֹגֵר כִּמְפַתֵּֽחַ",
+        "riddle": "דַּבְּרוּ אַל־יִתְהַלֵּל חֹגֵר כִּמְפַתֵּֽחַ",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "מַלְאֲכֵי בֶן הֲדַד",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "שְׁלֹמֹה",
+            "שָׁאוֹל"
+          ],
+          "listener": [
+            "עֲבָדָיו",
+            "רַב־שָׁקֵה",
+            "אֲרָם"
+          ]
+        },
+        "bonus": "אִמְרוּ",
+        "bonus_hint": {
+          "quote": "צְאוּ מִבָּבֶל בִּרְחוּ מִכַּשְׂדִּים בְּקוֹל רִנָּה הַגִּידוּ הַשְׁמִיעוּ זֹאת הוֹצִיאוּהָ עַד־קְצֵה הָאָרֶץ אִמְרוּ גָּאַל יְהוָה עַבְדּוֹ יַעֲקֹֽב",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 48,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Wherefore he said unto the messengers of Ben-hadad, Tell my lord the king, All that thou didst send for to thy servant at the first I will do: but this thing I may not do. And the messengers departed, and brought him word again.",
+          "10": "And Ben-hadad sent unto him, and said, The gods do so unto me, and more also, if the dust of Samaria shall suffice for handfuls for all the people that follow me.",
+          "11": "And the king of Israel answered and said, Tell him, Let not him that girdeth on his harness boast himself as he that putteth it off."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר לְמַלְאֲכֵי בֶן־הֲדַד אִמְרוּ לַֽאדֹנִי הַמֶּלֶךְ כֹּל אֲשֶׁר־שָׁלַחְתָּ אֶל־עַבְדְּךָ בָרִֽאשֹׁנָה אֶעֱשֶׂה וְהַדָּבָר הַזֶּה לֹא אוּכַל לַעֲשׂוֹת וַיֵּֽלְכוּ הַמַּלְאָכִים וַיְשִׁבֻהוּ דָּבָֽר׃",
+          "10": "וַיִּשְׁלַח אֵלָיו בֶּן־הֲדַד וַיֹּאמֶר כֹּֽה־יַעֲשׂוּן לִי אֱלֹהִים וְכֹה יוֹסִפוּ אִם־יִשְׂפֹּק עֲפַר שֹׁמְרוֹן לִשְׁעָלִים לְכָל־הָעָם אֲשֶׁר בְּרַגְלָֽי׃",
+          "11": "וַיַּעַן מֶֽלֶךְ־יִשְׂרָאֵל וַיֹּאמֶר דַּבְּרוּ אַל־יִתְהַלֵּל חֹגֵר כִּמְפַתֵּֽחַ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 9,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 17,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And the young men of the princes of the provinces went out first; and Ben-hadad sent out, and they told him, saying, There are men come out of Samaria. And he said, Whether they be come out for peace, take them alive; or whether they be come out for war, take them alive.",
+        "riddle": "Whether they be come out for peace, take them alive; or whether they be come out for war, take them alive",
+        "speaker": "Ben-hadad",
+        "listener": "young men",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "king of Israel",
+            "King of Assyria",
+            "Solomon"
+          ],
+          "listener": [
+            "servants",
+            "men of the city",
+            "elders"
+          ]
+        },
+        "bonus": "Samaria",
+        "bonus_hint": {
+          "quote": "And Ahaziah fell down through a lattice in his upper chamber that was in Samaria, and was sick: and he sent messengers, and said unto them, Go, inquire of Baal-zebub the god of Ekron whether I shall recover of this disease.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 1,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּצְאוּ נַעֲרֵי שָׂרֵי הַמְּדִינוֹת בָּרִֽאשֹׁנָה וַיִּשְׁלַח בֶּן־הֲדַד וַיַּגִּידוּ לוֹ לֵאמֹר אֲנָשִׁים יָצְאוּ מִשֹּׁמְרֽוֹן וַיֹּאמֶר אִם־לְשָׁלוֹם יָצָאוּ תִּפְשׂוּם חַיִּים וְאִם לְמִלְחָמָה יָצָאוּ חַיִּים תִּפְשֽׂוּם",
+        "riddle": "אִם־לְשָׁלוֹם יָצָאוּ תִּפְשׂוּם חַיִּים וְאִם לְמִלְחָמָה יָצָאוּ חַיִּים תִּפְשֽׂוּם",
+        "speaker": "בֶּן־הֲדַד",
+        "listener": "נַעֲרֵי שָׂרֵי הַמְּדִינוֹת",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "מֶֽלֶךְ־יִשְׂרָאֵל",
+            "מֶֽלֶךְ־אַשּׁוּר",
+            "שְׁלֹמֹה"
+          ],
+          "listener": [
+            "עֲבָדָיו",
+            "אַנְשֵׁי הָעִיר",
+            "זִקְנֵי הָאָרֶץ"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּפֹּל אֲחַזְיָה בְּעַד הַשְּׂבָכָה בַּעֲלִיָּתוֹ אֲשֶׁר בְּשֹׁמְרוֹן וַיָּחַל וַיִּשְׁלַח מַלְאָכִים וַיֹּאמֶר אֲלֵהֶם לְכוּ דִרְשׁוּ בְּבַעַל זְבוּב אֱלֹהֵי עֶקְרוֹן אִם־אֶחְיֶה מֵחֳלִי זֶֽה",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 1,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the young men of the princes of the provinces went out first; and Ben-hadad sent out, and they told him, saying, There are men come out of Samaria.",
+          "18": "And he said, Whether they be come out for peace, take them alive; or whether they be come out for war, take them alive."
+        },
+        "he": {
+          "17": "וַיֵּצְאוּ נַעֲרֵי שָׂרֵי הַמְּדִינוֹת בָּרִֽאשֹׁנָה וַיִּשְׁלַח בֶּן־הֲדַד וַיַּגִּידוּ לוֹ לֵאמֹר אֲנָשִׁים יָצְאוּ מִשֹּׁמְרֽוֹן׃",
+          "18": "וַיֹּאמֶר אִם־לְשָׁלוֹם יָצָאוּ תִּפְשׂוּם חַיִּים וְאִם לְמִלְחָמָה יָצָאוּ חַיִּים תִּפְשֽׂוּם׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 17,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And the prophet came to the king of Israel, and said unto him, Go, strengthen thy self, and mark, and see what thou doest: for at the return of the year the king of Syria will come up against thee.",
+        "riddle": "Go, strengthen thy self, and mark, and see what thou doest: for at the return of the year the king of Syria will come up against thee.",
+        "speaker": "prophet",
+        "listener": "king of Israel",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Nathan",
+            "Solomon",
+            "Elisha"
+          ],
+          "listener": [
+            "Solomon",
+            "Ahab",
+            "Saul"
+          ]
+        },
+        "bonus": "came",
+        "bonus_hint": {
+          "quote": "And he came near, and kissed him: and he smelled the smell of his raiment, and blessed him, and said, See, the smell of my son is as the smell of a field which the LORD hath blessed:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּגַּשׁ הַנָּבִיא אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמֶר לוֹ לֵךְ הִתְחַזַּק וְדַע וּרְאֵה אֵת אֲשֶֽׁר־תַּעֲשֶׂה כִּי לִתְשׁוּבַת הַשָּׁנָה מֶלֶךְ אֲרָם עֹלֶה עָלֶֽיךָ",
+        "riddle": "לֵךְ הִתְחַזַּק וְדַע וּרְאֵה אֵת אֲשֶֽׁר־תַּעֲשֶׂה כִּי לִתְשׁוּבַת הַשָּׁנָה מֶלֶךְ אֲרָם עֹלֶה עָלֶֽיך",
+        "speaker": "הַנָּבִיא",
+        "listener": "מֶלֶךְ יִשְׂרָאֵל",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "נָתַן",
+            "שְׁלֹמֹה",
+            "אֱלִישָׁע"
+          ],
+          "listener": [
+            "שְׁלֹמֹה",
+            "אַחְאָב",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "וַיִּגַּשׁ",
+        "bonus_hint": {
+          "quote": "וַיִּגַּשׁ וַיִּשַּׁק־לוֹ וַיָּרַח אֶת־רֵיחַ בְּגָדָיו וַֽיְבָרֲכֵהוּ וַיֹּאמֶר רְאֵה רֵיחַ בְּנִי כְּרֵיחַ שָׂדֶה אֲשֶׁר בֵּרֲכוֹ יְהוָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the prophet came to the king of Israel, and said unto him, Go, strengthen thy self, and mark, and see what thou doest: for at the return of the year the king of Syria will come up against thee."
+        },
+        "he": {
+          "22": "וַיִּגַּשׁ הַנָּבִיא אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמֶר לוֹ לֵךְ הִתְחַזַּק וְדַע וּרְאֵה אֵת אֲשֶֽׁר־תַּעֲשֶׂה כִּי לִתְשׁוּבַת הַשָּׁנָה מֶלֶךְ אֲרָם עֹלֶה עָלֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 22,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-34-34",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 28,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "And there came a man of God, and spake unto the king of Israel, and said, Thus saith the LORD, Because the Syrians have said, The LORD is God of the hills, but he is not God of the valleys, therefore will I deliver all this great multitude into thine hand, and ye shall know that I am the LORD. And they pitched one over against the other seven days. And so it was, that in the seventh day the battle was joined: and the children of Israel slew of the Syrians an hundred thousand footmen in one day. But the rest fled to Aphek, into the city; and there a wall fell upon twenty and seven thousand of the men that were left. And Ben-hadad fled, and came into the city, into an inner chamber. And his servants said unto him, Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and ropes upon our heads, and go out to the king of Israel: peradventure he will save thy life. So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother. Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot. And Ben-hadad said unto him, The cities, which my father took from thy father, I will restore; and thou shalt make streets for thee in Damascus, as my father made in Samaria. Then said Ahab, I will send thee away with this covenant. So he made a covenant with him, and sent him away.",
+        "riddle": "The cities, which my father took from thy father, I will restore; and thou shalt make streets for thee in Damascus, as my father made in Samaria.",
+        "speaker": "Ben-hadad",
+        "listener": "Ahab",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "King of Assyria",
+            "king of Israel",
+            "Jehu"
+          ],
+          "listener": [
+            "Saul",
+            "Solomon",
+            "Jehu"
+          ]
+        },
+        "bonus": "hills",
+        "bonus_hint": {
+          "quote": "And he said, I saw all Israel scattered upon the hills, as sheep that have not a shepherd: and the LORD said, These have no master: let them return every man to his house in peace.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 22,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּגַּשׁ אִישׁ הָאֱלֹהִים וַיֹּאמֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה יַעַן אֲשֶׁר אָמְרוּ אֲרָם אֱלֹהֵי הָרִים יְהוָה וְלֹֽא־אֱלֹהֵי עֲמָקִים הוּא וְנָתַתִּי אֶת־כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה בְּיָדֶךָ וִֽידַעְתֶּם כִּֽי־אֲנִי יְהוָֽה וַֽיַּחֲנוּ אֵלֶּה נֹֽכַח־אֵלֶּה שִׁבְעַת יָמִים וַיְהִי בַּיּוֹם הַשְּׁבִיעִי וַתִּקְרַב הַמִּלְחָמָה וַיַּכּוּ בְנֵֽי־יִשְׂרָאֵל אֶת־אֲרָם מֵאָה־אֶלֶף רַגְלִי בְּיוֹם אֶחָֽד וַיָּנֻסוּ הַנּוֹתָרִים אֲפֵקָה אֶל־הָעִיר וַתִּפֹּל הַחוֹמָה עַל־עֶשְׂרִים וְשִׁבְעָה אֶלֶף אִישׁ הַנּוֹתָרִים וּבֶן־הֲדַד נָס וַיָּבֹא אֶל־הָעִיר חֶדֶר בְּחָֽדֶר וַיֹּאמְרוּ אֵלָיו עֲבָדָיו הִנֵּֽה־נָא שָׁמַעְנוּ כִּי מַלְכֵי בֵּית יִשְׂרָאֵל כִּֽי־מַלְכֵי חֶסֶד הֵם נָשִׂימָה נָּא שַׂקִּים בְּמָתְנֵינוּ וַחֲבָלִים בְּרֹאשֵׁנוּ וְנֵצֵא אֶל־מֶלֶךְ יִשְׂרָאֵל אוּלַי יְחַיֶּה אֶת־נַפְשֶֽׁךָ וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה וַיֹּאמֶר אֵלָיו הֶעָרִים אֲשֶׁר־לָֽקַח־אָבִי מֵאֵת אָבִיךָ אָשִׁיב וְחוּצוֹת תָּשִׂים לְךָ בְדַמֶּשֶׂק כַּאֲשֶׁר־שָׂם אָבִי בְּשֹׁמְרוֹן וַאֲנִי בַּבְּרִית אֲשַׁלְּחֶךָּ וַיִּכְרָת־לוֹ בְרִית וַֽיְשַׁלְּחֵֽהוּ",
+        "riddle": "הֶעָרִים אֲשֶׁר־לָֽקַח־אָבִי מֵאֵת אָבִיךָ אָשִׁיב וְחוּצוֹת תָּשִׂים לְךָ בְדַמֶּשֶׂק כַּאֲשֶׁר־שָׂם אָבִי בְּשֹׁמְרוֹן",
+        "speaker": "בֶן־הֲדַד",
+        "listener": "אַחְאָב",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "מֶֽלֶךְ־אַשּׁוּר",
+            "מֶֽלֶךְ־יִשְׂרָאֵל",
+            "יֵהוּא"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "שְׁלֹמֹה",
+            "יֵהוּא"
+          ]
+        },
+        "bonus": "אִישׁ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר רָאִיתִי אֶת־כָּל־יִשְׂרָאֵל נְפֹצִים אֶל־הֶהָרִים כַּצֹּאן אֲשֶׁר אֵין־לָהֶם רֹעֶה וַיֹּאמֶר יְהוָה לֹֽא־אֲדֹנִים לָאֵלֶּה יָשׁוּבוּ אִישׁ־לְבֵיתוֹ בְּשָׁלֽוֹם",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 22,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And there came a man of God, and spake unto the king of Israel, and said, Thus saith the LORD, Because the Syrians have said, The LORD is God of the hills, but he is not God of the valleys, therefore will I deliver all this great multitude into thine hand, and ye shall know that I am the LORD.",
+          "29": "And they pitched one over against the other seven days. And so it was, that in the seventh day the battle was joined: and the children of Israel slew of the Syrians an hundred thousand footmen in one day.",
+          "30": "But the rest fled to Aphek, into the city; and there a wall fell upon twenty and seven thousand of the men that were left. And Ben-hadad fled, and came into the city, into an inner chamber.",
+          "31": "And his servants said unto him, Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and ropes upon our heads, and go out to the king of Israel: peradventure he will save thy life.",
+          "32": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother.",
+          "33": "Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot.",
+          "34": "And Ben-hadad said unto him, The cities, which my father took from thy father, I will restore; and thou shalt make streets for thee in Damascus, as my father made in Samaria. Then said Ahab, I will send thee away with this covenant. So he made a covenant with him, and sent him away."
+        },
+        "he": {
+          "28": "וַיִּגַּשׁ אִישׁ הָאֱלֹהִים וַיֹּאמֶר אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמֶר כֹּֽה־אָמַר יְהוָה יַעַן אֲשֶׁר אָמְרוּ אֲרָם אֱלֹהֵי הָרִים יְהוָה וְלֹֽא־אֱלֹהֵי עֲמָקִים הוּא וְנָתַתִּי אֶת־כָּל־הֶהָמוֹן הַגָּדוֹל הַזֶּה בְּיָדֶךָ וִֽידַעְתֶּם כִּֽי־אֲנִי יְהוָֽה׃",
+          "29": "וַֽיַּחֲנוּ אֵלֶּה נֹֽכַח־אֵלֶּה שִׁבְעַת יָמִים וַיְהִי ׀ בַּיּוֹם הַשְּׁבִיעִי וַתִּקְרַב הַמִּלְחָמָה וַיַּכּוּ בְנֵֽי־יִשְׂרָאֵל אֶת־אֲרָם מֵאָה־אֶלֶף רַגְלִי בְּיוֹם אֶחָֽד׃",
+          "30": "וַיָּנֻסוּ הַנּוֹתָרִים ׀ אֲפֵקָה אֶל־הָעִיר וַתִּפֹּל הַחוֹמָה עַל־עֶשְׂרִים וְשִׁבְעָה אֶלֶף אִישׁ הַנּוֹתָרִים וּבֶן־הֲדַד נָס וַיָּבֹא אֶל־הָעִיר חֶדֶר בְּחָֽדֶר׃",
+          "31": "וַיֹּאמְרוּ אֵלָיו עֲבָדָיו הִנֵּֽה־נָא שָׁמַעְנוּ כִּי מַלְכֵי בֵּית יִשְׂרָאֵל כִּֽי־מַלְכֵי חֶסֶד הֵם נָשִׂימָה נָּא שַׂקִּים בְּמָתְנֵינוּ וַחֲבָלִים בְּרֹאשֵׁנוּ וְנֵצֵא אֶל־מֶלֶךְ יִשְׂרָאֵל אוּלַי יְחַיֶּה אֶת־נַפְשֶֽׁךָ׃",
+          "32": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא׃",
+          "33": "וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה׃",
+          "34": "וַיֹּאמֶר אֵלָיו הֶעָרִים אֲשֶׁר־לָֽקַח־אָבִי מֵאֵת אָבִיךָ אָשִׁיב וְחוּצוֹת תָּשִׂים לְךָ בְדַמֶּשֶׂק כַּאֲשֶׁר־שָׂם אָבִי בְּשֹׁמְרוֹן וַאֲנִי בַּבְּרִית אֲשַׁלְּחֶךָּ וַיִּכְרָת־לוֹ בְרִית וַֽיְשַׁלְּחֵֽהוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 28,
+        "end": 34
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 31,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And his servants said unto him, Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and ropes upon our heads, and go out to the king of Israel: peradventure he will save thy life. So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother.",
+        "riddle": "Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and",
+        "speaker": "servants",
+        "listener": "Ben-hadad",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "people",
+            "men of the city",
+            "sons of the prophets"
+          ],
+          "listener": [
+            "Sennacherib",
+            "Tiglath-pileser",
+            "Jehu"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And they shall hearken to thy voice: and thou shalt come, thou and the elders of Israel, unto the king of Egypt, and ye shall say unto him, The LORD God of the Hebrews hath met with us: and now let us go, we beseech thee, three days' journey into the wilderness, that we may sacrifice to the LORD our God.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו עֲבָדָיו הִנֵּֽה־נָא שָׁמַעְנוּ כִּי מַלְכֵי בֵּית יִשְׂרָאֵל כִּֽי־מַלְכֵי חֶסֶד הֵם נָשִׂימָה נָּא שַׂקִּים בְּמָתְנֵינוּ וַחֲבָלִים בְּרֹאשֵׁנוּ וְנֵצֵא אֶל־מֶלֶךְ יִשְׂרָאֵל אוּלַי יְחַיֶּה אֶת־נַפְשֶֽׁךָ וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא",
+        "riddle": "הִנֵּֽה־נָא שָׁמַעְנוּ כִּי מַלְכֵי בֵּית יִשְׂרָאֵל כִּֽי־מַלְכֵי חֶסֶד הֵם נָשִׂימָה נָּא שַׂקִּים בְּמָתְנֵינוּ וַחֲבָלִים בְּרֹאשֵׁנוּ וְנֵצֵא אֶל־מֶלֶךְ יִשְׂרָאֵל אוּלַי יְחַיֶּה אֶת־נַפְשֶֽׁך",
+        "speaker": "עֲבָדָיו",
+        "listener": "בֶן־הֲדַד",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "הָעָם",
+            "אַנְשֵׁי הָעִיר",
+            "בְנֵֽי־הַנְּבִיאִים"
+          ],
+          "listener": [
+            "סַנְחֵרִיב",
+            "תִּגְלַת פְּלֶסֶר",
+            "יֵהוּא"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וְשָׁמְעוּ לְקֹלֶךָ וּבָאתָ אַתָּה וְזִקְנֵי יִשְׂרָאֵל אֶל־מֶלֶךְ מִצְרַיִם וַאֲמַרְתֶּם אֵלָיו יְהוָה אֱלֹהֵי הָֽעִבְרִיִּים נִקְרָה עָלֵינוּ וְעַתָּה נֵֽלֲכָה־נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים בַּמִּדְבָּר וְנִזְבְּחָה לַֽיהוָה אֱלֹהֵֽינוּ",
+          "source": {
+            "book": "שמות",
+            "chapter": 3,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And his servants said unto him, Behold now, we have heard that the kings of the house of Israel are merciful kings: let us, I pray thee, put sackcloth on our loins, and ropes upon our heads, and go out to the king of Israel: peradventure he will save thy life.",
+          "32": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother."
+        },
+        "he": {
+          "31": "וַיֹּאמְרוּ אֵלָיו עֲבָדָיו הִנֵּֽה־נָא שָׁמַעְנוּ כִּי מַלְכֵי בֵּית יִשְׂרָאֵל כִּֽי־מַלְכֵי חֶסֶד הֵם נָשִׂימָה נָּא שַׂקִּים בְּמָתְנֵינוּ וַחֲבָלִים בְּרֹאשֵׁנוּ וְנֵצֵא אֶל־מֶלֶךְ יִשְׂרָאֵל אוּלַי יְחַיֶּה אֶת־נַפְשֶֽׁךָ׃",
+          "32": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 31,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-33-33-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 32,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 33,
+        "listener_mention_verse": 33
+      },
+      "en": {
+        "quote": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother. Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot.",
+        "riddle": "Go ye, bring him.",
+        "speaker": "king of Israel",
+        "listener": "men",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Solomon",
+            "Nathan"
+          ],
+          "listener": [
+            "people",
+            "brethren of Ahaziah",
+            "Shimei"
+          ]
+        },
+        "bonus": "sackcloth",
+        "bonus_hint": {
+          "quote": "And David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth, and mourn before Abner. And king David himself followed the bier.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 3,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה",
+        "riddle": "בֹּאוּ קָחֻהו",
+        "speaker": "מֶלֶךְ יִשְׂרָאֵל",
+        "listener": "הָאֲנָשִׁים",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "שְׁלֹמֹה",
+            "נָתַן"
+          ],
+          "listener": [
+            "הָעָם",
+            "אֲחֵי אֲחַזְיָהוּ",
+            "שִׁמְעִי"
+          ]
+        },
+        "bonus": "שַׂקִּים",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר דָּוִד אֶל־יוֹאָב וְאֶל־כָּל־הָעָם אֲשֶׁר־אִתּוֹ קִרְעוּ בִגְדֵיכֶם וְחִגְרוּ שַׂקִּים וְסִפְדוּ לִפְנֵי אַבְנֵר וְהַמֶּלֶךְ דָּוִד הֹלֵךְ אַחֲרֵי הַמִּטָּֽה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother.",
+          "33": "Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot."
+        },
+        "he": {
+          "32": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא׃",
+          "33": "וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 32,
+        "end": 33
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-20-33-33-2",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 20,
+        "quote_verse_start": 32,
+        "quote_verse_end": 33
+      },
+      "en": {
+        "quote": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother. Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot.",
+        "riddle": "Thy brother Ben-hadad.",
+        "speaker": "men",
+        "listener": "king",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [
+            "servants",
+            "men of the city",
+            "Rab-shakeh"
+          ],
+          "listener": [
+            "Elijah",
+            "Nathan",
+            "Saul"
+          ]
+        },
+        "bonus": "sackcloth",
+        "bonus_hint": {
+          "quote": "And David said to Joab, and to all the people that were with him, Rend your clothes, and gird you with sackcloth, and mourn before Abner. And king David himself followed the bier.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 3,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה",
+        "riddle": "אָחִיךָ בֶן־הֲדַד",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "הֲמָלֹךְ",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [
+            "עֲבָדָיו",
+            "אַנְשֵׁי הָעִיר",
+            "רַב־שָׁקֵה"
+          ],
+          "listener": [
+            "אֵלִיָּהוּ",
+            "נָתַן",
+            "שָׁאוֹל"
+          ]
+        },
+        "bonus": "שַׂקִּים",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר דָּוִד אֶל־יוֹאָב וְאֶל־כָּל־הָעָם אֲשֶׁר־אִתּוֹ קִרְעוּ בִגְדֵיכֶם וְחִגְרוּ שַׂקִּים וְסִפְדוּ לִפְנֵי אַבְנֵר וְהַמֶּלֶךְ דָּוִד הֹלֵךְ אַחֲרֵי הַמִּטָּֽה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 31,
+            "end": 31
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "So they girded sackcloth on their loins, and put ropes on their heads, and came to the king of Israel, and said, Thy servant Ben-hadad saith, I pray thee, let me live. And he said, Is he yet alive? he is my brother.",
+          "33": "Now the men did diligently observe whether any thing would come from him, and did hastily catch it: and they said, Thy brother Ben-hadad. Then he said, Go ye, bring him. Then Ben-hadad came forth to him; and he caused him to come up into the chariot."
+        },
+        "he": {
+          "32": "וַיַּחְגְּרוּ שַׂקִּים בְּמָתְנֵיהֶם וַחֲבָלִים בְּרָאשֵׁיהֶם וַיָּבֹאוּ אֶל־מֶלֶךְ יִשְׂרָאֵל וַיֹּאמְרוּ עַבְדְּךָ בֶן־הֲדַד אָמַר תְּחִֽי־נָא נַפְשִׁי וַיֹּאמֶר הַעוֹדֶנּוּ חַי אָחִי הֽוּא׃",
+          "33": "וְהָאֲנָשִׁים יְנַחֲשׁוּ וַֽיְמַהֲרוּ וַיַּחְלְטוּ הֲמִמֶּנּוּ וַיֹּֽאמְרוּ אָחִיךָ בֶן־הֲדַד וַיֹּאמֶר בֹּאוּ קָחֻהוּ וַיֵּצֵא אֵלָיו בֶּן־הֲדַד וַֽיַּעֲלֵהוּ עַל־הַמֶּרְכָּבָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 32,
+        "end": 33
       },
       "meta": {
         "mode": "llm",

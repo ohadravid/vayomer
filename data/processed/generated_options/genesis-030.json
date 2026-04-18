@@ -6,94 +6,90 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-30-28-28",
+      "id": "genesis-30-02-02",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 30,
-        "quote_verse_start": 24,
-        "quote_verse_end": 28
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 1
       },
       "en": {
-        "quote": "And she called his name Joseph; and said, The LORD shall add to me another son. And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country. Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee. And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake. And he said, Appoint me thy wages, and I will give it.",
-        "riddle": "Appoint me thy wages, and I will give it",
+        "quote": "And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and said unto Jacob, Give me children, or else I die. And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?",
+        "riddle": "Am I in God's stead, who hath withheld from thee the fruit of the womb?",
         "speaker": "Jacob",
-        "listener": "Laban",
+        "listener": "Rachel",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Joseph",
-            "Abraham",
-            "Isaac"
+            "Isaac",
+            "Laban",
+            "Joseph"
           ],
           "listener": [
-            "Joseph",
-            "Abraham",
-            "Lot"
+            "Rebekah",
+            "Laban",
+            "Balaam"
           ]
         },
-        "bonus": "Joseph",
+        "bonus": "children",
         "bonus_hint": {
-          "quote": "And he put the handmaids and their children foremost, and Leah and her children after, and Rachel and Joseph hindermost.",
+          "quote": "Unto the woman he said, I will greatly multiply thy sorrow and thy conception; in sorrow thou shalt bring forth children; and thy desire shall be to thy husband, and he shall rule over thee.",
           "source": {
             "book": "Genesis",
-            "chapter": 33,
-            "start": 2,
-            "end": 2
+            "chapter": 3,
+            "start": 16,
+            "end": 16
           }
         }
       },
       "he": {
-        "quote": "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהוָה לִי בֵּן אַחֵֽר וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה",
-        "riddle": "נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה",
-        "speaker": "לָבָן",
-        "listener": "יַעֲקֹב",
+        "quote": "וַתֵּרֶא רָחֵל כִּי לֹא יָֽלְדָה לְיַעֲקֹב וַתְּקַנֵּא רָחֵל בַּאֲחֹתָהּ וַתֹּאמֶר אֶֽל־יַעֲקֹב הָֽבָה־לִּי בָנִים וְאִם־אַיִן מֵתָה אָנֹֽכִי וַיִּֽחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן",
+        "riddle": "הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן",
+        "speaker": "יַעֲקֹב",
+        "listener": "רָחֵל",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "יוֹסֵף",
-            "אַבְרָהָם",
-            "יִצְחָק"
+            "יִצְחָק",
+            "לָבָן",
+            "יוֹסֵף"
           ],
           "listener": [
-            "יוֹסֵף",
-            "אַבְרָהָם",
-            "לוֹט"
+            "רִבְקָה",
+            "לָבָן",
+            "בִּלְעָם"
           ]
         },
-        "bonus": "יוֹסֵף",
+        "bonus": "בָנִים",
         "bonus_hint": {
-          "quote": "וַיָּשֶׂם אֶת־הַשְּׁפָחוֹת וְאֶת־יַלְדֵיהֶן רִֽאשֹׁנָה וְאֶת־לֵאָה וִֽילָדֶיהָ אַחֲרֹנִים וְאֶת־רָחֵל וְאֶת־יוֹסֵף אַחֲרֹנִֽים",
+          "quote": "אֶֽל־הָאִשָּׁה אָמַר הַרְבָּה אַרְבֶּה עִצְּבוֹנֵךְ וְהֵֽרֹנֵךְ בְּעֶצֶב תֵּֽלְדִי בָנִים וְאֶל־אִישֵׁךְ תְּשׁוּקָתֵךְ וְהוּא יִמְשָׁל־בָּֽךְ",
           "source": {
             "book": "בראשית",
-            "chapter": 33,
-            "start": 2,
-            "end": 2
+            "chapter": 3,
+            "start": 16,
+            "end": 16
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "24": "And she called his name Joseph; and said, The LORD shall add to me another son.",
-          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
-          "26": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
-          "27": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
-          "28": "And he said, Appoint me thy wages, and I will give it."
+          "1": "And when Rachel saw that she bare Jacob no children, Rachel envied her sister; and said unto Jacob, Give me children, or else I die.",
+          "2": "And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?"
         },
         "he": {
-          "24": "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהוָה לִי בֵּן אַחֵֽר׃",
-          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃",
-          "26": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ׃",
-          "27": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ׃",
-          "28": "וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה׃"
+          "1": "וַתֵּרֶא רָחֵל כִּי לֹא יָֽלְדָה לְיַעֲקֹב וַתְּקַנֵּא רָחֵל בַּאֲחֹתָהּ וַתֹּאמֶר אֶֽל־יַעֲקֹב הָֽבָה־לִּי בָנִים וְאִם־אַיִן מֵתָה אָנֹֽכִי׃",
+          "2": "וַיִּֽחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן׃"
         }
       },
       "ref": {
         "chapter": 30,
-        "start": 24,
-        "end": 28
+        "start": 1,
+        "end": 2
       },
       "meta": {
         "mode": "llm",
@@ -104,7 +100,201 @@
       }
     },
     {
-      "id": "genesis-30-31-31",
+      "id": "genesis-30-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 25,
+        "quote_verse_end": 26,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country. Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
+        "riddle": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Isaac",
+            "Abraham"
+          ],
+          "listener": [
+            "Isaac",
+            "Joseph",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "Joseph",
+        "bonus_hint": {
+          "quote": "And the LORD was with Joseph, and he was a prosperous man; and he was in the house of his master the Egyptian.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ",
+        "riddle": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "אַבְרָהָם"
+          ],
+          "listener": [
+            "יִצְחָק",
+            "יוֹסֵף",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי יְהוָה אֶת־יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ וַיְהִי בְּבֵית אֲדֹנָיו הַמִּצְרִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "26": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee."
+        },
+        "he": {
+          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃",
+          "26": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 25,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-30-29-29",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 30,
+        "quote_verse_start": 25,
+        "quote_verse_end": 30,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country. Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee. And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake. And he said, Appoint me thy wages, and I will give it. And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me. For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?",
+        "riddle": "Thou knowest how I have served thee, and how thy cattle was with me.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Isaac",
+            "Esau"
+          ],
+          "listener": [
+            "Isaac",
+            "Esau",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "Joseph",
+        "bonus_hint": {
+          "quote": "And the LORD was with Joseph, and he was a prosperous man; and he was in the house of his master the Egyptian.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי",
+        "riddle": "אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי",
+        "speaker": "יַעֲקֹב",
+        "listener": "לבין",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "עֵשָׂו"
+          ],
+          "listener": [
+            "יִצְחָק",
+            "עֵשָׂו",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי יְהוָה אֶת־יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ וַיְהִי בְּבֵית אֲדֹנָיו הַמִּצְרִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And it came to pass, when Rachel had born Joseph, that Jacob said unto Laban, Send me away, that I may go unto mine own place, and to my country.",
+          "26": "Give me my wives and my children, for whom I have served thee, and let me go: for thou knowest my service which I have done thee.",
+          "27": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake.",
+          "28": "And he said, Appoint me thy wages, and I will give it.",
+          "29": "And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me.",
+          "30": "For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also?"
+        },
+        "he": {
+          "25": "וַיְהִי כַּאֲשֶׁר יָלְדָה רָחֵל אֶת־יוֹסֵף וַיֹּאמֶר יַעֲקֹב אֶל־לָבָן שַׁלְּחֵנִי וְאֵלְכָה אֶל־מְקוֹמִי וּלְאַרְצִֽי׃",
+          "26": "תְּנָה אֶת־נָשַׁי וְאֶת־יְלָדַי אֲשֶׁר עָבַדְתִּי אֹֽתְךָ בָּהֵן וְאֵלֵכָה כִּי אַתָּה יָדַעְתָּ אֶת־עֲבֹדָתִי אֲשֶׁר עֲבַדְתִּֽיךָ׃",
+          "27": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ׃",
+          "28": "וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה׃",
+          "29": "וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי׃",
+          "30": "כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 25,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-30-31-31-2",
       "source": {
         "method": "llm",
         "book_code": "GEN",
@@ -112,63 +302,65 @@
         "book_he": "בראשית",
         "chapter": 30,
         "quote_verse_start": 27,
-        "quote_verse_end": 31
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
       },
       "en": {
         "quote": "And Laban said unto him, I pray thee, if I have found favour in thine eyes, tarry: for I have learned by experience that the LORD hath blessed me for thy sake. And he said, Appoint me thy wages, and I will give it. And he said unto him, Thou knowest how I have served thee, and how thy cattle was with me. For it was little which thou hadst before I came, and it is now increased unto a multitude; and the LORD hath blessed thee since my coming: and now when shall I provide for mine own house also? And he said, What shall I give thee? And Jacob said, Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:",
-        "riddle": "What shall I give thee?",
-        "speaker": "Laban",
-        "listener": "Jacob",
+        "riddle": "Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock:",
+        "speaker": "Jacob",
+        "listener": "Laban",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Joseph",
-            "Abraham",
-            "Isaac"
+            "Isaac",
+            "Esau",
+            "Joseph"
           ],
           "listener": [
-            "Abraham",
-            "Joseph",
-            "Rebekah"
+            "Isaac",
+            "Esau",
+            "Pharaoh"
           ]
         },
         "bonus": "favour",
         "bonus_hint": {
-          "quote": "And said, My Lord, if now I have found favour in thy sight, pass not away, I pray thee, from thy servant:",
+          "quote": "But the LORD was with Joseph, and shewed him mercy, and gave him favour in the sight of the keeper of the prison.",
           "source": {
             "book": "Genesis",
-            "chapter": 18,
-            "start": 3,
-            "end": 3
+            "chapter": 39,
+            "start": 21,
+            "end": 21
           }
         }
       },
       "he": {
         "quote": "וַיֹּאמֶר אֵלָיו לָבָן אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ נִחַשְׁתִּי וַיְבָרֲכֵנִי יְהוָה בִּגְלָלֶֽךָ וַיֹּאמַר נָקְבָה שְׂכָרְךָ עָלַי וְאֶתֵּֽנָה וַיֹּאמֶר אֵלָיו אַתָּה יָדַעְתָּ אֵת אֲשֶׁר עֲבַדְתִּיךָ וְאֵת אֲשֶׁר־הָיָה מִקְנְךָ אִתִּֽי כִּי מְעַט אֲשֶׁר־הָיָה לְךָ לְפָנַי וַיִּפְרֹץ לָרֹב וַיְבָרֶךְ יְהוָה אֹתְךָ לְרַגְלִי וְעַתָּה מָתַי אֶֽעֱשֶׂה גַם־אָנֹכִי לְבֵיתִֽי וַיֹּאמֶר מָה אֶתֶּן־לָךְ וַיֹּאמֶר יַעֲקֹב לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר",
-        "riddle": "מָה אֶתֶּן־לָךְ",
-        "speaker": "לָבָן",
-        "listener": "יַעֲקֹב",
+        "riddle": "לֹא־תִתֶּן־לִי מְאוּמָה אִם־תַּֽעֲשֶׂה־לִּי הַדָּבָר הַזֶּה אָשׁוּבָה אֶרְעֶה צֹֽאנְךָ אֶשְׁמֹֽר",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "יוֹסֵף",
-            "אַבְרָהָם",
-            "יִצְחָק"
+            "יִצְחָק",
+            "עֵשָׂו",
+            "יוֹסֵף"
           ],
           "listener": [
-            "אַבְרָהָם",
-            "יוֹסֵף",
-            "רִבְקָה"
+            "יִצְחָק",
+            "עֵשָׂו",
+            "פַרְעֹה"
           ]
         },
-        "bonus": "חֵן",
+        "bonus": "אֵלָיו",
         "bonus_hint": {
-          "quote": "וַיֹּאמַר אֲדֹנָי אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ אַל־נָא תַעֲבֹר מֵעַל עַבְדֶּֽךָ",
+          "quote": "וַיְהִי יְהוָה אֶת־יוֹסֵף וַיֵּט אֵלָיו חָסֶד וַיִּתֵּן חִנּוֹ בְּעֵינֵי שַׂר בֵּית־הַסֹּֽהַר",
           "source": {
             "book": "בראשית",
-            "chapter": 18,
-            "start": 3,
-            "end": 3
+            "chapter": 39,
+            "start": 21,
+            "end": 21
           }
         }
       },
@@ -210,34 +402,36 @@
         "book_he": "בראשית",
         "chapter": 30,
         "quote_verse_start": 31,
-        "quote_verse_end": 34
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
       },
       "en": {
         "quote": "And he said, What shall I give thee? And Jacob said, Thou shalt not give me any thing: if thou wilt do this thing for me, I will again feed and keep thy flock: I will pass through all thy flock to day, removing from thence all the speckled and spotted cattle, and all the brown cattle among the sheep, and the spotted and speckled among the goats: and of such shall be my hire. So shall my righteousness answer for me in time to come, when it shall come for my hire before thy face: every one that is not speckled and spotted among the goats, and brown among the sheep, that shall be counted stolen with me. And Laban said, Behold, I would it might be according to thy word.",
-        "riddle": "I would it might be according to thy word.",
+        "riddle": "Behold, I would it might be according to thy word.",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Joseph",
             "Isaac",
-            "Abraham"
+            "Joseph",
+            "Pharaoh"
           ],
           "listener": [
-            "Abraham",
+            "Isaac",
             "Joseph",
-            "Lot"
+            "Esau"
           ]
         },
-        "bonus": "feed",
+        "bonus": "flock",
         "bonus_hint": {
-          "quote": "I will feed them in a good pasture, and upon the high mountains of Israel shall their fold be: there shall they lie in a good fold, and in a fat pasture shall they feed upon the mountains of Israel.",
+          "quote": "If thou know not, O thou fairest among women, go thy way forth by the footsteps of the flock, and feed thy kids beside the shepherds' tents.",
           "source": {
-            "book": "Ezekiel",
-            "chapter": 34,
-            "start": 14,
-            "end": 14
+            "book": "Song of Songs",
+            "chapter": 1,
+            "start": 8,
+            "end": 8
           }
         }
       },
@@ -249,24 +443,24 @@
         "book": "בראשית",
         "options": {
           "speaker": [
-            "יוֹסֵף",
             "יִצְחָק",
-            "אַבְרָהָם"
+            "יוֹסֵף",
+            "פַרְעֹה"
           ],
           "listener": [
-            "אַבְרָהָם",
+            "יִצְחָק",
             "יוֹסֵף",
-            "לוֹט"
+            "עֵשָׂו"
           ]
         },
-        "bonus": "אֶרְעֶה",
+        "bonus": "לָךְ",
         "bonus_hint": {
-          "quote": "בְּמִרְעֶה־טּוֹב אֶרְעֶה אֹתָם וּבְהָרֵי מְרֽוֹם־יִשְׂרָאֵל יִהְיֶה נְוֵהֶם שָׁם תִּרְבַּצְנָה בְּנָוֶה טּוֹב וּמִרְעֶה שָׁמֵן תִּרְעֶינָה אֶל־הָרֵי יִשְׂרָאֵֽל",
+          "quote": "אִם־לֹא תֵדְעִי לָךְ הַיָּפָה בַּנָּשִׁים צְֽאִי־לָךְ בְּעִקְבֵי הַצֹּאן וּרְעִי אֶת־גְּדִיֹּתַיִךְ עַל מִשְׁכְּנוֹת הָרֹעִֽים",
           "source": {
-            "book": "יחזקאל",
-            "chapter": 34,
-            "start": 14,
-            "end": 14
+            "book": "שיר השירים",
+            "chapter": 1,
+            "start": 8,
+            "end": 8
           }
         }
       },

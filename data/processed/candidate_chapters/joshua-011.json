@@ -4,12 +4,60 @@
   "book_he": "יהושע",
   "chapter": 11,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "joshua-11-06-06",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 11,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire.",
+        "riddle": "Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire.",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽשׁ",
+        "riddle": "אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽש",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said unto Joshua, Be not afraid because of them: for to morrow about this time will I deliver them up all slain before Israel: thou shalt hough their horses, and burn their chariots with fire."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ אַל־תִּירָא מִפְּנֵיהֶם כִּֽי־מָחָר כָּעֵת הַזֹּאת אָנֹכִי נֹתֵן אֶת־כֻּלָּם חֲלָלִים לִפְנֵי יִשְׂרָאֵל אֶת־סוּסֵיהֶם תְּעַקֵּר וְאֶת־מַרְכְּבֹתֵיהֶם תִּשְׂרֹף בָּאֵֽשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command and promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 6,
+        "end": 6
+      }
+    }
+  ],
   "stats": {
-    "window_count": 9,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 0,
-    "issue_count": 9
+    "llm_window_count": 3,
+    "projection_llm_count": 2,
+    "llm_call_count": 5,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

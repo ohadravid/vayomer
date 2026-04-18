@@ -4,12 +4,62 @@
   "book_he": "ויקרא",
   "chapter": 12,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-12-02-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 12,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean.",
+        "riddle": "If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר וְטָֽמְאָה שִׁבְעַת יָמִים כִּימֵי נִדַּת דְּוֺתָהּ תִּטְמָֽא",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר וְטָֽמְאָה שִׁבְעַת יָמִים כִּימֵי נִדַּת דְּוֺתָהּ תִּטְמָֽא",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, saying, If a woman have conceived seed, and born a man child: then she shall be unclean seven days; according to the days of the separation for her infirmity shall she be unclean."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר אִשָּׁה כִּי תַזְרִיעַ וְיָלְדָה זָכָר וְטָֽמְאָה שִׁבְעַת יָמִים כִּימֵי נִדַּת דְּוֺתָהּ תִּטְמָֽא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/instruction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

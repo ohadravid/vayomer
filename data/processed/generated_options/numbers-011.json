@@ -6,7 +6,7 @@
   "mode": "llm",
   "items": [
     {
-      "id": "numbers-11-04-04",
+      "id": "numbers-11-05-05",
       "source": {
         "method": "llm",
         "book_code": "NUM",
@@ -14,78 +14,80 @@
         "book_he": "במדבר",
         "chapter": 11,
         "quote_verse_start": 4,
-        "quote_verse_end": 4
+        "quote_verse_end": 5
       },
       "en": {
-        "quote": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?",
-        "riddle": "Who shall give us flesh to eat?",
-        "speaker": "Children of Israel",
-        "listener": "God",
+        "quote": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat? We remember the fish, which we did eat in Egypt freely; the cucumbers, and the melons, and the leeks, and the onions, and the garlick:",
+        "riddle": "We remember the fish, which we did eat in Egypt freely; the cucumbers, and the melons, and the leeks, and the onions, and the garlick:",
+        "speaker": "children of Israel",
+        "listener": "children of Israel",
         "book": "Numbers",
         "options": {
           "speaker": [
-            "Philistines",
-            "Israelite officers",
-            "Tribes of Israel"
+            "people",
+            "Taskmasters",
+            "Philistines"
           ],
           "listener": [
-            "Moses",
-            "Balaam",
-            "Balak"
+            "people",
+            "Korah and his company",
+            "congregation"
           ]
         },
-        "bonus": "wept",
+        "bonus": "flesh",
         "bonus_hint": {
-          "quote": "And Esau ran to meet him, and embraced him, and fell on his neck, and kissed him: and they wept.",
+          "quote": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
           "source": {
-            "book": "Genesis",
-            "chapter": 33,
-            "start": 4,
-            "end": 4
+            "book": "2 Kings",
+            "chapter": 9,
+            "start": 36,
+            "end": 36
           }
         }
       },
       "he": {
-        "quote": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר",
-        "riddle": "מִי יַאֲכִלֵנוּ בָּשָֽׂר",
+        "quote": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר זָכַרְנוּ אֶת־הַדָּגָה אֲשֶׁר־נֹאכַל בְּמִצְרַיִם חִנָּם אֵת הַקִּשֻּׁאִים וְאֵת הָֽאֲבַטִּחִים וְאֶת־הֶחָצִיר וְאֶת־הַבְּצָלִים וְאֶת־הַשּׁוּמִֽים",
+        "riddle": "זָכַרְנוּ אֶת־הַדָּגָה אֲשֶׁר־נֹאכַל בְּמִצְרַיִם חִנָּם אֵת הַקִּשֻּׁאִים וְאֵת הָֽאֲבַטִּחִים וְאֶת־הֶחָצִיר וְאֶת־הַבְּצָלִים וְאֶת־הַשּׁוּמִֽים",
         "speaker": "בְּנֵי יִשְׂרָאֵל",
-        "listener": "אֶל",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
         "book": "במדבר",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
-            "שִׁבְטֵי יִשְׂרָאֵל"
+            "הָעָם",
+            "הַנֹּגְשִׂים",
+            "פְּלִשְׁתִּים"
           ],
           "listener": [
-            "מֹשֶׁה",
-            "בִּלְעָם",
-            "בָלָק"
+            "הָעָם",
+            "קֹרַח ועדתו",
+            "הָעֵדָה"
           ]
         },
-        "bonus": "וַיִּבְכּוּ",
+        "bonus": "וַיָּשֻׁבוּ",
         "bonus_hint": {
-          "quote": "וַיָּרָץ עֵשָׂו לִקְרָאתוֹ וַֽיְחַבְּקֵהוּ וַיִּפֹּל עַל־צַוָּארָו וַׄיִּׄשָּׁׄקֵׄהׄוּׄ וַיִּבְכּֽוּ",
+          "quote": "וַיָּשֻׁבוּ וַיַּגִּידוּ לוֹ וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל",
           "source": {
-            "book": "בראשית",
-            "chapter": 33,
-            "start": 4,
-            "end": 4
+            "book": "מלכים ב",
+            "chapter": 9,
+            "start": 36,
+            "end": 36
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "4": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?"
+          "4": "And the mixt multitude that was among them fell a lusting: and the children of Israel also wept again, and said, Who shall give us flesh to eat?",
+          "5": "We remember the fish, which we did eat in Egypt freely; the cucumbers, and the melons, and the leeks, and the onions, and the garlick:"
         },
         "he": {
-          "4": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר׃"
+          "4": "וְהָֽאסַפְסֻף אֲשֶׁר בְּקִרְבּוֹ הִתְאַוּוּ תַּאֲוָה וַיָּשֻׁבוּ וַיִּבְכּוּ גַּם בְּנֵי יִשְׂרָאֵל וַיֹּאמְרוּ מִי יַאֲכִלֵנוּ בָּשָֽׂר׃",
+          "5": "זָכַרְנוּ אֶת־הַדָּגָה אֲשֶׁר־נֹאכַל בְּמִצְרַיִם חִנָּם אֵת הַקִּשֻּׁאִים וְאֵת הָֽאֲבַטִּחִים וְאֶת־הֶחָצִיר וְאֶת־הַבְּצָלִים וְאֶת־הַשּׁוּמִֽים׃"
         }
       },
       "ref": {
         "chapter": 11,
         "start": 4,
-        "end": 4
+        "end": 5
       },
       "meta": {
         "mode": "llm",
@@ -96,98 +98,566 @@
       }
     },
     {
-      "id": "numbers-11-20-20",
+      "id": "numbers-11-13-13",
       "source": {
         "method": "llm",
         "book_code": "NUM",
         "book": "Numbers",
         "book_he": "במדבר",
         "chapter": 11,
-        "quote_verse_start": 14,
-        "quote_verse_end": 20
+        "quote_verse_start": 11,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
       },
       "en": {
-        "quote": "I am not able to bear all this people alone, because it is too heavy for me. And if thou deal thus with me, kill me, I pray thee, out of hand, if I have found favour in thy sight; and let me not see my wretchedness. And the LORD said unto Moses, Gather unto me seventy men of the elders of Israel, whom thou knowest to be the elders of the people, and officers over them; and bring them unto the tabernacle of the congregation, that they may stand there with thee. And I will come down and talk with thee there: and I will take of the spirit which is upon thee, and will put it upon them; and they shall bear the burden of the people with thee, that thou bear it not thyself alone. And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for it was well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat. Ye shall not eat one day, nor two days, nor five days, neither ten days, nor twenty days; But even a whole month, until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which is among you, and have wept before him, saying, Why came we forth out of Egypt?",
-        "riddle": "Why came we forth out of Egypt?",
-        "speaker": "Israelites",
-        "listener": "God",
+        "quote": "And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me? Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers? Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat.",
+        "riddle": "Give us flesh, that we may eat.",
+        "speaker": "people",
+        "listener": "Moses",
         "book": "Numbers",
         "options": {
           "speaker": [
-            "Philistines",
-            "Israelite officers",
-            "Tribes of Israel"
+            "Israel",
+            "congregation",
+            "Philistines"
           ],
           "listener": [
-            "Moses",
+            "Joshua",
             "Balaam",
-            "Balak"
+            "Aaron"
           ]
         },
-        "bonus": "heavy",
+        "bonus": "burden",
         "bonus_hint": {
-          "quote": "Thou wilt surely wear away, both thou, and this people that is with thee: for this thing is too heavy for thee; thou art not able to perform it thyself alone.",
+          "quote": "According to the commandment of the LORD they were numbered by the hand of Moses, every one according to his service, and according to his burden: thus were they numbered of him, as the LORD commanded Moses.",
           "source": {
-            "book": "Exodus",
-            "chapter": 18,
-            "start": 18,
-            "end": 18
+            "book": "Numbers",
+            "chapter": 4,
+            "start": 49,
+            "end": 49
           }
         }
       },
       "he": {
-        "quote": "לֹֽא־אוּכַל אָנֹכִי לְבַדִּי לָשֵׂאת אֶת־כָּל־הָעָם הַזֶּה כִּי כָבֵד מִמֶּֽנִּי וְאִם־כָּכָה אַתְּ־עֹשֶׂה לִּי הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל־אֶרְאֶה בְּרָעָתִֽי וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִֽתְיַצְּבוּ שָׁם עִמָּֽךְ וְיָרַדְתִּי וְדִבַּרְתִּי עִמְּךָ שָׁם וְאָצַלְתִּי מִן־הָרוּחַ אֲשֶׁר עָלֶיךָ וְשַׂמְתִּי עֲלֵיהֶם וְנָשְׂאוּ אִתְּךָ בְּמַשָּׂא הָעָם וְלֹא־תִשָּׂא אַתָּה לְבַדֶּֽךָ וְאֶל־הָעָם תֹּאמַר הִתְקַדְּשׁוּ לְמָחָר וַאֲכַלְתֶּם בָּשָׂר כִּי בְּכִיתֶם בְּאָזְנֵי יְהוָה לֵאמֹר מִי יַאֲכִלֵנוּ בָּשָׂר כִּי־טוֹב לָנוּ בְּמִצְרָיִם וְנָתַן יְהוָה לָכֶם בָּשָׂר וַאֲכַלְתֶּֽם לֹא יוֹם אֶחָד תֹּאכְלוּן וְלֹא יוֹמָיִם וְלֹא חֲמִשָּׁה יָמִים וְלֹא עֲשָׂרָה יָמִים וְלֹא עֶשְׂרִים יֽוֹם עַד חֹדֶשׁ יָמִים עַד אֲשֶׁר־יֵצֵא מֵֽאַפְּכֶם וְהָיָה לָכֶם לְזָרָא יַעַן כִּֽי־מְאַסְתֶּם אֶת־יְהוָה אֲשֶׁר בְּקִרְבְּכֶם וַתִּבְכּוּ לְפָנָיו לֵאמֹר לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם",
-        "riddle": "לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם",
-        "speaker": "בְּנֵי יִשְׂרָאֵל",
-        "listener": "יְהוָה",
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה לָמָה הֲרֵעֹתָ לְעַבְדֶּךָ וְלָמָּה לֹא־מָצָתִי חֵן בְּעֵינֶיךָ לָשׂוּם אֶת־מַשָּׂא כָּל־הָעָם הַזֶּה עָלָֽי הֶאָנֹכִי הָרִיתִי אֵת כָּל־הָעָם הַזֶּה אִם־אָנֹכִי יְלִדְתִּיהוּ כִּֽי־תֹאמַר אֵלַי שָׂאֵהוּ בְחֵיקֶךָ כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק עַל הָֽאֲדָמָה אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתָֽיו מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל־הָעָם הַזֶּה כִּֽי־יִבְכּוּ עָלַי לֵאמֹר תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵֽלָה",
+        "riddle": "תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵֽלָה",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
         "book": "במדבר",
         "options": {
           "speaker": [
-            "פְּלִשְׁתִּֽים",
-            "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
-            "שִׁבְטֵי יִשְׂרָאֵל"
+            "יִשְׂרָאֵל",
+            "הָעֵדָה",
+            "פְּלִשְׁתִּים"
           ],
           "listener": [
-            "מֹשֶׁה",
+            "יְהוֹשֻׁעַ",
             "בִּלְעָם",
-            "בָלָק"
+            "אַהֲרֹן"
           ]
         },
-        "bonus": "כָבֵד",
+        "bonus": "יְהוָה",
         "bonus_hint": {
-          "quote": "נָבֹל תִּבֹּל גַּם־אַתָּה גַּם־הָעָם הַזֶּה אֲשֶׁר עִמָּךְ כִּֽי־כָבֵד מִמְּךָ הַדָּבָר לֹא־תוּכַל עֲשֹׂהוּ לְבַדֶּֽךָ",
+          "quote": "עַל־פִּי יְהוָה פָּקַד אוֹתָם בְּיַד מֹשֶׁה אִישׁ אִישׁ עַל־עֲבֹדָתוֹ וְעַל־מַשָּׂאוֹ וּפְקֻדָיו אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
           "source": {
-            "book": "שמות",
-            "chapter": 18,
-            "start": 18,
-            "end": 18
+            "book": "במדבר",
+            "chapter": 4,
+            "start": 49,
+            "end": 49
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "14": "I am not able to bear all this people alone, because it is too heavy for me.",
-          "15": "And if thou deal thus with me, kill me, I pray thee, out of hand, if I have found favour in thy sight; and let me not see my wretchedness.",
-          "16": "And the LORD said unto Moses, Gather unto me seventy men of the elders of Israel, whom thou knowest to be the elders of the people, and officers over them; and bring them unto the tabernacle of the congregation, that they may stand there with thee.",
-          "17": "And I will come down and talk with thee there: and I will take of the spirit which is upon thee, and will put it upon them; and they shall bear the burden of the people with thee, that thou bear it not thyself alone.",
-          "18": "And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for it was well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat.",
-          "19": "Ye shall not eat one day, nor two days, nor five days, neither ten days, nor twenty days;",
-          "20": "But even a whole month, until it come out at your nostrils, and it be loathsome unto you: because that ye have despised the LORD which is among you, and have wept before him, saying, Why came we forth out of Egypt?"
+          "11": "And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me?",
+          "12": "Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers?",
+          "13": "Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat."
         },
         "he": {
-          "14": "לֹֽא־אוּכַל אָנֹכִי לְבַדִּי לָשֵׂאת אֶת־כָּל־הָעָם הַזֶּה כִּי כָבֵד מִמֶּֽנִּי׃",
-          "15": "וְאִם־כָּכָה ׀ אַתְּ־עֹשֶׂה לִּי הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל־אֶרְאֶה בְּרָעָתִֽי׃",
-          "16": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִֽתְיַצְּבוּ שָׁם עִמָּֽךְ׃",
-          "17": "וְיָרַדְתִּי וְדִבַּרְתִּי עִמְּךָ שָׁם וְאָצַלְתִּי מִן־הָרוּחַ אֲשֶׁר עָלֶיךָ וְשַׂמְתִּי עֲלֵיהֶם וְנָשְׂאוּ אִתְּךָ בְּמַשָּׂא הָעָם וְלֹא־תִשָּׂא אַתָּה לְבַדֶּֽךָ׃",
-          "18": "וְאֶל־הָעָם תֹּאמַר הִתְקַדְּשׁוּ לְמָחָר וַאֲכַלְתֶּם בָּשָׂר כִּי בְּכִיתֶם בְּאָזְנֵי יְהוָה לֵאמֹר מִי יַאֲכִלֵנוּ בָּשָׂר כִּי־טוֹב לָנוּ בְּמִצְרָיִם וְנָתַן יְהוָה לָכֶם בָּשָׂר וַאֲכַלְתֶּֽם׃",
-          "19": "לֹא יוֹם אֶחָד תֹּאכְלוּן וְלֹא יוֹמָיִם וְלֹא ׀ חֲמִשָּׁה יָמִים וְלֹא עֲשָׂרָה יָמִים וְלֹא עֶשְׂרִים יֽוֹם׃",
-          "20": "עַד ׀ חֹדֶשׁ יָמִים עַד אֲשֶׁר־יֵצֵא מֵֽאַפְּכֶם וְהָיָה לָכֶם לְזָרָא יַעַן כִּֽי־מְאַסְתֶּם אֶת־יְהוָה אֲשֶׁר בְּקִרְבְּכֶם וַתִּבְכּוּ לְפָנָיו לֵאמֹר לָמָּה זֶּה יָצָאנוּ מִמִּצְרָֽיִם׃"
+          "11": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה לָמָה הֲרֵעֹתָ לְעַבְדֶּךָ וְלָמָּה לֹא־מָצָתִי חֵן בְּעֵינֶיךָ לָשׂוּם אֶת־מַשָּׂא כָּל־הָעָם הַזֶּה עָלָֽי׃",
+          "12": "הֶאָנֹכִי הָרִיתִי אֵת כָּל־הָעָם הַזֶּה אִם־אָנֹכִי יְלִדְתִּיהוּ כִּֽי־תֹאמַר אֵלַי שָׂאֵהוּ בְחֵיקֶךָ כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק עַל הָֽאֲדָמָה אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתָֽיו׃",
+          "13": "מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל־הָעָם הַזֶּה כִּֽי־יִבְכּוּ עָלַי לֵאמֹר תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵֽלָה׃"
         }
       },
       "ref": {
         "chapter": 11,
-        "start": 14,
-        "end": 20
+        "start": 11,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-11-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 11,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me? Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers? Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat. I am not able to bear all this people alone, because it is too heavy for me. And if thou deal thus with me, kill me, I pray thee, out of hand, if I have found favour in thy sight; and let me not see my wretchedness.",
+        "riddle": "kill me, I pray thee, out of hand",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "Balak"
+          ]
+        },
+        "bonus": "burden",
+        "bonus_hint": {
+          "quote": "I have sinned; what shall I do unto thee, O thou preserver of men? why hast thou set me as a mark against thee, so that I am a burden to myself?",
+          "source": {
+            "book": "Job",
+            "chapter": 7,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה לָמָה הֲרֵעֹתָ לְעַבְדֶּךָ וְלָמָּה לֹא־מָצָתִי חֵן בְּעֵינֶיךָ לָשׂוּם אֶת־מַשָּׂא כָּל־הָעָם הַזֶּה עָלָֽי הֶאָנֹכִי הָרִיתִי אֵת כָּל־הָעָם הַזֶּה אִם־אָנֹכִי יְלִדְתִּיהוּ כִּֽי־תֹאמַר אֵלַי שָׂאֵהוּ בְחֵיקֶךָ כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק עַל הָֽאֲדָמָה אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתָֽיו מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל־הָעָם הַזֶּה כִּֽי־יִבְכּוּ עָלַי לֵאמֹר תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵֽלָה לֹֽא־אוּכַל אָנֹכִי לְבַדִּי לָשֵׂאת אֶת־כָּל־הָעָם הַזֶּה כִּי כָבֵד מִמֶּֽנִּי וְאִם־כָּכָה אַתְּ־עֹשֶׂה לִּי הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל־אֶרְאֶה בְּרָעָתִֽי",
+        "riddle": "הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "לָמָה",
+        "bonus_hint": {
+          "quote": "חָטָאתִי מָה אֶפְעַל לָךְ נֹצֵר הָאָדָם לָמָה שַׂמְתַּנִי לְמִפְגָּע לָךְ וָאֶהְיֶה עָלַי לְמַשָּֽׂא",
+          "source": {
+            "book": "איוב",
+            "chapter": 7,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Moses said unto the LORD, Wherefore hast thou afflicted thy servant? and wherefore have I not found favour in thy sight, that thou layest the burden of all this people upon me?",
+          "12": "Have I conceived all this people? have I begotten them, that thou shouldest say unto me, Carry them in thy bosom, as a nursing father beareth the sucking child, unto the land which thou swarest unto their fathers?",
+          "13": "Whence should I have flesh to give unto all this people? for they weep unto me, saying, Give us flesh, that we may eat.",
+          "14": "I am not able to bear all this people alone, because it is too heavy for me.",
+          "15": "And if thou deal thus with me, kill me, I pray thee, out of hand, if I have found favour in thy sight; and let me not see my wretchedness."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה לָמָה הֲרֵעֹתָ לְעַבְדֶּךָ וְלָמָּה לֹא־מָצָתִי חֵן בְּעֵינֶיךָ לָשׂוּם אֶת־מַשָּׂא כָּל־הָעָם הַזֶּה עָלָֽי׃",
+          "12": "הֶאָנֹכִי הָרִיתִי אֵת כָּל־הָעָם הַזֶּה אִם־אָנֹכִי יְלִדְתִּיהוּ כִּֽי־תֹאמַר אֵלַי שָׂאֵהוּ בְחֵיקֶךָ כַּאֲשֶׁר יִשָּׂא הָאֹמֵן אֶת־הַיֹּנֵק עַל הָֽאֲדָמָה אֲשֶׁר נִשְׁבַּעְתָּ לַאֲבֹתָֽיו׃",
+          "13": "מֵאַיִן לִי בָּשָׂר לָתֵת לְכָל־הָעָם הַזֶּה כִּֽי־יִבְכּוּ עָלַי לֵאמֹר תְּנָה־לָּנוּ בָשָׂר וְנֹאכֵֽלָה׃",
+          "14": "לֹֽא־אוּכַל אָנֹכִי לְבַדִּי לָשֵׂאת אֶת־כָּל־הָעָם הַזֶּה כִּי כָבֵד מִמֶּֽנִּי׃",
+          "15": "וְאִם־כָּכָה ׀ אַתְּ־עֹשֶׂה לִּי הָרְגֵנִי נָא הָרֹג אִם־מָצָאתִי חֵן בְּעֵינֶיךָ וְאַל־אֶרְאֶה בְּרָעָתִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 11,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-11-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Gather unto me seventy men of the elders of Israel, whom thou knowest to be the elders of the people, and officers over them; and bring them unto the tabernacle of the congregation, that they may stand there with thee.",
+        "riddle": "Gather unto me seventy men of the elders of Israel",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "tabernacle",
+        "bonus_hint": {
+          "quote": "And it came to pass, when Moses went out unto the tabernacle, that all the people rose up, and stood every man at his tent door, and looked after Moses, until he was gone into the tabernacle.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 33,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִֽתְיַצְּבוּ שָׁם עִמָּֽךְ",
+        "riddle": "אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "הָעָם",
+        "bonus_hint": {
+          "quote": "וְהָיָה כְּצֵאת מֹשֶׁה אֶל־הָאֹהֶל יָקוּמוּ כָּל־הָעָם וְנִצְּבוּ אִישׁ פֶּתַח אָהֳלוֹ וְהִבִּיטוּ אַחֲרֵי מֹשֶׁה עַד־בֹּאוֹ הָאֹֽהֱלָה",
+          "source": {
+            "book": "שמות",
+            "chapter": 33,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the LORD said unto Moses, Gather unto me seventy men of the elders of Israel, whom thou knowest to be the elders of the people, and officers over them; and bring them unto the tabernacle of the congregation, that they may stand there with thee."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִֽתְיַצְּבוּ שָׁם עִמָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 16,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-11-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for it was well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat.",
+        "riddle": "Sanctify yourselves against to morrow, and ye shall eat flesh",
+        "speaker": "LORD",
+        "listener": "people",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Moses",
+            "Aaron"
+          ],
+          "listener": [
+            "Reuben and Gad",
+            "Korah and his company",
+            "congregation"
+          ]
+        },
+        "bonus": "Egypt",
+        "bonus_hint": {
+          "quote": "And the LORD spake unto Moses and unto Aaron, and gave them a charge unto the children of Israel, and unto Pharaoh king of Egypt, to bring the children of Israel out of the land of Egypt.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 6,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאֶל־הָעָם תֹּאמַר הִתְקַדְּשׁוּ לְמָחָר וַאֲכַלְתֶּם בָּשָׂר כִּי בְּכִיתֶם בְּאָזְנֵי יְהוָה לֵאמֹר מִי יַאֲכִלֵנוּ בָּשָׂר כִּי־טוֹב לָנוּ בְּמִצְרָיִם וְנָתַן יְהוָה לָכֶם בָּשָׂר וַאֲכַלְתֶּֽם",
+        "riddle": "תֹּאמַר הִתְקַדְּשׁוּ לְמָחָר וַאֲכַלְתֶּם בָּשָׂר כִּי בְּכִיתֶם בְּאָזְנֵי",
+        "speaker": "יְהוָה",
+        "listener": "הָעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "מֹשֶׁה",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "קֹרַח ועדתו",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "וְאֶל",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן וַיְצַוֵּם אֶל־בְּנֵי יִשְׂרָאֵל וְאֶל־פַּרְעֹה מֶלֶךְ מִצְרָיִם לְהוֹצִיא אֶת־בְּנֵֽי־יִשְׂרָאֵל מֵאֶרֶץ מִצְרָֽיִם",
+          "source": {
+            "book": "שמות",
+            "chapter": 6,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the LORD said unto Moses, Gather unto me seventy men of the elders of Israel, whom thou knowest to be the elders of the people, and officers over them; and bring them unto the tabernacle of the congregation, that they may stand there with thee.",
+          "18": "And say thou unto the people, Sanctify yourselves against to morrow, and ye shall eat flesh: for ye have wept in the ears of the LORD, saying, Who shall give us flesh to eat? for it was well with us in Egypt: therefore the LORD will give you flesh, and ye shall eat."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֶסְפָה־לִּי שִׁבְעִים אִישׁ מִזִּקְנֵי יִשְׂרָאֵל אֲשֶׁר יָדַעְתָּ כִּי־הֵם זִקְנֵי הָעָם וְשֹׁטְרָיו וְלָקַחְתָּ אֹתָם אֶל־אֹהֶל מוֹעֵד וְהִֽתְיַצְּבוּ שָׁם עִמָּֽךְ׃",
+          "18": "וְאֶל־הָעָם תֹּאמַר הִתְקַדְּשׁוּ לְמָחָר וַאֲכַלְתֶּם בָּשָׂר כִּי בְּכִיתֶם בְּאָזְנֵי יְהוָה לֵאמֹר מִי יַאֲכִלֵנוּ בָּשָׂר כִּי־טוֹב לָנוּ בְּמִצְרָיִם וְנָתַן יְהוָה לָכֶם בָּשָׂר וַאֲכַלְתֶּֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 18,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-11-29-29-1",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 28,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And Joshua the son of Nun, the servant of Moses, one of his young men, answered and said, My lord Moses, forbid them. And Moses said unto him, Enviest thou for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!",
+        "riddle": "Enviest thou for my sake?",
+        "speaker": "Moses",
+        "listener": "Joshua",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Aaron",
+            "Balak"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "Abraham's servant"
+          ]
+        },
+        "bonus": "lord",
+        "bonus_hint": {
+          "quote": "And Abraham answered and said, Behold now, I have taken upon me to speak unto the Lord, which am but dust and ashes:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה מִבְּחֻרָיו וַיֹּאמַר אֲדֹנִי מֹשֶׁה כְּלָאֵֽם וַיֹּאמֶר לוֹ מֹשֶׁה הַֽמְקַנֵּא אַתָּה לִי וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים כִּי־יִתֵּן יְהוָה אֶת־רוּחוֹ עֲלֵיהֶֽם",
+        "riddle": "הַֽמְקַנֵּא אַתָּה לִי",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "אַהֲרֹן",
+            "בָּלָק"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "עֶבֶד אַבְרָהָם"
+          ]
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן אַבְרָהָם וַיֹּאמַר הִנֵּה־נָא הוֹאַלְתִּי לְדַבֵּר אֶל־אֲדֹנָי וְאָנֹכִי עָפָר וָאֵֽפֶר",
+          "source": {
+            "book": "בראשית",
+            "chapter": 18,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Joshua the son of Nun, the servant of Moses, one of his young men, answered and said, My lord Moses, forbid them.",
+          "29": "And Moses said unto him, Enviest thou for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!"
+        },
+        "he": {
+          "28": "וַיַּעַן יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה מִבְּחֻרָיו וַיֹּאמַר אֲדֹנִי מֹשֶׁה כְּלָאֵֽם׃",
+          "29": "וַיֹּאמֶר לוֹ מֹשֶׁה הַֽמְקַנֵּא אַתָּה לִי וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים כִּי־יִתֵּן יְהוָה אֶת־רוּחוֹ עֲלֵיהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 28,
+        "end": 29
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-11-29-29-2",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 11,
+        "quote_verse_start": 28,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And Joshua the son of Nun, the servant of Moses, one of his young men, answered and said, My lord Moses, forbid them. And Moses said unto him, Enviest thou for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!",
+        "riddle": "would God that all the LORD's people were prophets",
+        "speaker": "Moses",
+        "listener": "Joshua",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Aaron",
+            "Balak"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "officers of the host"
+          ]
+        },
+        "bonus": "servant",
+        "bonus_hint": {
+          "quote": "And the servant that was set over the reapers answered and said, It is the Moabitish damsel that came back with Naomi out of the country of Moab:",
+          "source": {
+            "book": "Ruth",
+            "chapter": 2,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה מִבְּחֻרָיו וַיֹּאמַר אֲדֹנִי מֹשֶׁה כְּלָאֵֽם וַיֹּאמֶר לוֹ מֹשֶׁה הַֽמְקַנֵּא אַתָּה לִי וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים כִּי־יִתֵּן יְהוָה אֶת־רוּחוֹ עֲלֵיהֶֽם",
+        "riddle": "וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים כִּי־יִתֵּן יְהוָה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "אַהֲרֹן",
+            "בָּלָק"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "שָׂרֵי הָאֲלָפִים וְשָׂרֵי הַמֵּאוֹת"
+          ]
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן הַנַּעַר הַנִּצָּב עַל־הַקּוֹצְרִים וַיֹּאמַר נַעֲרָה מֽוֹאֲבִיָּה הִיא הַשָּׁבָה עִֽם־נָעֳמִי מִשְּׂדֵה מוֹאָֽב",
+          "source": {
+            "book": "רות",
+            "chapter": 2,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And Joshua the son of Nun, the servant of Moses, one of his young men, answered and said, My lord Moses, forbid them.",
+          "29": "And Moses said unto him, Enviest thou for my sake? would God that all the LORD's people were prophets, and that the LORD would put his spirit upon them!"
+        },
+        "he": {
+          "28": "וַיַּעַן יְהוֹשֻׁעַ בִּן־נוּן מְשָׁרֵת מֹשֶׁה מִבְּחֻרָיו וַיֹּאמַר אֲדֹנִי מֹשֶׁה כְּלָאֵֽם׃",
+          "29": "וַיֹּאמֶר לוֹ מֹשֶׁה הַֽמְקַנֵּא אַתָּה לִי וּמִי יִתֵּן כָּל־עַם יְהוָה נְבִיאִים כִּי־יִתֵּן יְהוָה אֶת־רוּחוֹ עֲלֵיהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 28,
+        "end": 29
       },
       "meta": {
         "mode": "llm",

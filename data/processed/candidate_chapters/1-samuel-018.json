@@ -4,12 +4,365 @@
   "book_he": "שמואל א",
   "chapter": 18,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-samuel-18-07-07",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands.",
+        "riddle": "Saul hath slain his thousands, and David his ten thousands.",
+        "speaker": "women",
+        "listener": "women",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַֽתַּעֲנֶינָה הַנָּשִׁים הַֽמְשַׂחֲקוֹת וַתֹּאמַרְןָ הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "riddle": "הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "speaker": "הַנָּשִׁים",
+        "listener": "הַנָּשִׁים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands."
+        },
+        "he": {
+          "7": "וַֽתַּעֲנֶינָה הַנָּשִׁים הַֽמְשַׂחֲקוֹת וַתֹּאמַרְןָ הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "song/chant",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "1-samuel-18-08-08",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto David ten thousands, and to me they have ascribed but thousands: and what can he have more but the kingdom?",
+        "riddle": "They have ascribed unto David ten thousands, and to me they have ascribed but thousands: and what can he have more but the kingdom?",
+        "speaker": "Saul",
+        "listener": "Saul's servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּחַר לְשָׁאוּל מְאֹד וַיֵּרַע בְּעֵינָיו הַדָּבָר הַזֶּה וַיֹּאמֶר נָתְנוּ לְדָוִד רְבָבוֹת וְלִי נָתְנוּ הָאֲלָפִים וְעוֹד לוֹ אַךְ הַמְּלוּכָֽה",
+        "riddle": "וַיִּחַר לְשָׁאוּל מְאֹד וַיֵּרַע בְּעֵינָיו הַדָּבָר הַזֶּה וַיֹּאמֶר נָתְנוּ לְדָוִד רְבָבוֹת וְלִי נָתְנוּ הָאֲלָפִים וְעוֹד לוֹ אַךְ הַמְּלוּכָֽה",
+        "speaker": "שָׁאוּל",
+        "listener": "עַמּוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Saul was very wroth, and the saying displeased him; and he said, They have ascribed unto David ten thousands, and to me they have ascribed but thousands: and what can he have more but the kingdom?"
+        },
+        "he": {
+          "8": "וַיִּחַר לְשָׁאוּל מְאֹד וַיֵּרַע בְּעֵינָיו הַדָּבָר הַזֶּה וַיֹּאמֶר נָתְנוּ לְדָוִד רְבָבוֹת וְלִי נָתְנוּ הָאֲלָפִים וְעוֹד לוֹ אַךְ הַמְּלוּכָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "1-samuel-18-17-17",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Saul said to David, Behold my elder daughter Merab, her will I give thee to wife: only be thou valiant for me, and fight the LORD's battles. For Saul said, Let not mine hand be upon him, but let the hand of the Philistines be upon him.",
+        "riddle": "Behold my elder daughter Merab, her will I give thee to wife: only be thou valiant for me, and fight the LORD's battles.",
+        "speaker": "Saul",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד הִנֵּה בִתִּי הַגְּדוֹלָה מֵרַב אֹתָהּ אֶתֶּן־לְךָ לְאִשָּׁה אַךְ הֱיֵה־לִּי לְבֶן־חַיִל וְהִלָּחֵם מִלְחֲמוֹת יְהוָה וְשָׁאוּל אָמַר אַל־תְּהִי יָדִי בּוֹ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּֽים",
+        "riddle": "הִנֵּה בִתִּי הַגְּדוֹלָה מֵרַב אֹתָהּ אֶתֶּן־לְךָ לְאִשָּׁה אַךְ הֱיֵה־לִּי לְבֶן־חַיִל וְהִלָּחֵם מִלְחֲמוֹת יְהוָה וְשָׁאוּל אָמַר אַל־תְּהִי יָדִי בּוֹ וּתְהִי־בוֹ יַד",
+        "speaker": "שָׁאוּל",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Saul said to David, Behold my elder daughter Merab, her will I give thee to wife: only be thou valiant for me, and fight the LORD's battles. For Saul said, Let not mine hand be upon him, but let the hand of the Philistines be upon him."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד הִנֵּה בִתִּי הַגְּדוֹלָה מֵרַב אֹתָהּ אֶתֶּן־לְךָ לְאִשָּׁה אַךְ הֱיֵה־לִּי לְבֶן־חַיִל וְהִלָּחֵם מִלְחֲמוֹת יְהוָה וְשָׁאוּל אָמַר אַל־תְּהִי יָדִי בּוֹ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and offer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "1-samuel-18-21-21-1",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain.",
+        "riddle": "I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him.",
+        "speaker": "Saul",
+        "listener": "Saul's servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּֽוֹם",
+        "riddle": "אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים",
+        "speaker": "שָׁאוּל",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר שָׁאוּל אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of intent",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "1-samuel-18-21-21-2",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain.",
+        "riddle": "Thou shalt this day be my son in law in the one of the twain.",
+        "speaker": "Saul",
+        "listener": "David",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּֽוֹם",
+        "riddle": "וַיֹּאמֶר שָׁאוּל אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּֽוֹם",
+        "speaker": "שָׁאוּל",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Saul said, I will give him her, that she may be a snare to him, and that the hand of the Philistines may be against him. Wherefore Saul said to David, Thou shalt this day be my son in law in the one of the twain."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר שָׁאוּל אֶתְּנֶנָּה לּוֹ וּתְהִי־לוֹ לְמוֹקֵשׁ וּתְהִי־בוֹ יַד־פְּלִשְׁתִּים וַיֹּאמֶר שָׁאוּל אֶל־דָּוִד בִּשְׁתַּיִם תִּתְחַתֵּן בִּי הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "1-samuel-18-22-22",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Saul commanded his servants, saying, Commune with David secretly, and say, Behold, the king hath delight in thee, and all his servants love thee: now therefore be the king's son in law.",
+        "riddle": "Commune with David secretly, and say, Behold, the king hath delight in thee, and all his servants love thee: now therefore be the king's son in law.",
+        "speaker": "Saul",
+        "listener": "servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיְצַו שָׁאוּל אֶת־עֲבָדָו דַּבְּרוּ אֶל־דָּוִד בַּלָּט לֵאמֹר הִנֵּה חָפֵץ בְּךָ הַמֶּלֶךְ וְכָל־עֲבָדָיו אֲהֵבוּךָ וְעַתָּה הִתְחַתֵּן בַּמֶּֽלֶךְ",
+        "riddle": "וַיְצַו שָׁאוּל אֶת־עֲבָדָו דַּבְּרוּ אֶל־דָּוִד בַּלָּט לֵאמֹר הִנֵּה חָפֵץ בְּךָ הַמֶּלֶךְ וְכָל־עֲבָדָיו אֲהֵבוּךָ וְעַתָּה הִתְחַתֵּן בַּמֶּֽלֶךְ",
+        "speaker": "שָׁאוּל",
+        "listener": "עֲבָדָיו",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Saul commanded his servants, saying, Commune with David secretly, and say, Behold, the king hath delight in thee, and all his servants love thee: now therefore be the king's son in law."
+        },
+        "he": {
+          "22": "וַיְצַו שָׁאוּל אֶת־עֲבָדָו דַּבְּרוּ אֶל־דָּוִד בַּלָּט לֵאמֹר הִנֵּה חָפֵץ בְּךָ הַמֶּלֶךְ וְכָל־עֲבָדָיו אֲהֵבוּךָ וְעַתָּה הִתְחַתֵּן בַּמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "1-samuel-18-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And Saul's servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?",
+        "riddle": "Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?",
+        "speaker": "David",
+        "listener": "servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַֽיְדַבְּרוּ עַבְדֵי שָׁאוּל בְּאָזְנֵי דָוִד אֶת־הַדְּבָרִים הָאֵלֶּה וַיֹּאמֶר דָּוִד הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה",
+        "riddle": "הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה",
+        "speaker": "דָוִד",
+        "listener": "עַבְדֵי שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Saul's servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?"
+        },
+        "he": {
+          "23": "וַֽיְדַבְּרוּ עַבְדֵי שָׁאוּל בְּאָזְנֵי דָוִד אֶת־הַדְּבָרִים הָאֵלֶּה וַיֹּאמֶר דָּוִד הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-samuel-18-25-25",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Saul said, Thus shall ye say to David, The king desireth not any dowry, but an hundred foreskins of the Philistines, to be avenged of the king's enemies. But Saul thought to make David fall by the hand of the Philistines.",
+        "riddle": "The king desireth not any dowry, but an hundred foreskins of the Philistines, to be avenged of the king's enemies.",
+        "speaker": "Saul",
+        "listener": "servants",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁאוּל כֹּֽה־תֹאמְרוּ לְדָוִד אֵֽין־חֵפֶץ לַמֶּלֶךְ בְּמֹהַר כִּי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּים לְהִנָּקֵם בְּאֹיְבֵי הַמֶּלֶךְ וְשָׁאוּל חָשַׁב לְהַפִּיל אֶת־דָּוִד בְּיַד־פְּלִשְׁתִּֽים",
+        "riddle": "כֹּֽה־תֹאמְרוּ לְדָוִד אֵֽין־חֵפֶץ לַמֶּלֶךְ בְּמֹהַר כִּי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּים לְהִנָּקֵם בְּאֹיְבֵי הַמֶּלֶךְ וְשָׁאוּל חָשַׁב",
+        "speaker": "שָׁאוּל",
+        "listener": "דָּוִד",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Saul said, Thus shall ye say to David, The king desireth not any dowry, but an hundred foreskins of the Philistines, to be avenged of the king's enemies. But Saul thought to make David fall by the hand of the Philistines."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר שָׁאוּל כֹּֽה־תֹאמְרוּ לְדָוִד אֵֽין־חֵפֶץ לַמֶּלֶךְ בְּמֹהַר כִּי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּים לְהִנָּקֵם בְּאֹיְבֵי הַמֶּלֶךְ וְשָׁאוּל חָשַׁב לְהַפִּיל אֶת־דָּוִד בְּיַד־פְּלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct instruction",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 14,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 0,
-    "issue_count": 14
+    "llm_window_count": 3,
+    "projection_llm_count": 10,
+    "llm_call_count": 13,
+    "spec_count": 10,
+    "kept_count": 8,
+    "issue_count": 2
   }
 }

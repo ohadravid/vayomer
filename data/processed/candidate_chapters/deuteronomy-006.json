@@ -6,45 +6,129 @@
   "mode": "llm",
   "items": [
     {
-      "id": "deuteronomy-06-01-01",
+      "id": "deuteronomy-06-02-02",
       "source": {
         "book_code": "DEU",
         "book": "Deuteronomy",
         "book_he": "דברים",
         "chapter": 6,
-        "quote_verse_start": 1,
-        "quote_verse_end": 1
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
       },
       "en": {
-        "quote": "Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it:",
-        "riddle": "Now these are the commandments, the statutes, and the judgments",
-        "speaker": "LORD",
+        "quote": "That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged.",
+        "riddle": "to keep all his statutes and his commandments, which I command thee",
+        "speaker": "the LORD",
         "listener": "Israel",
         "book": "Deuteronomy"
       },
       "he": {
-        "quote": "וְזֹאת הַמִּצְוָה הַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם לְלַמֵּד אֶתְכֶם לַעֲשׂוֹת בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּֽהּ",
-        "riddle": "וְזֹאת הַמִּצְוָה הַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה",
+        "quote": "לְמַעַן תִּירָא אֶת־יְהוָה אֱלֹהֶיךָ לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ כֹּל יְמֵי חַיֶּיךָ וּלְמַעַן יַאֲרִכֻן יָמֶֽיךָ",
+        "riddle": "לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ",
         "speaker": "יְהוָה",
-        "listener": "ישראל",
+        "listener": "יִשְׂרָאֵל",
         "book": "דברים"
       },
       "raw_quote_source": {
         "en": {
-          "1": "Now these are the commandments, the statutes, and the judgments, which the LORD your God commanded to teach you, that ye might do them in the land whither ye go to possess it:"
+          "2": "That thou mightest fear the LORD thy God, to keep all his statutes and his commandments, which I command thee, thou, and thy son, and thy son's son, all the days of thy life; and that thy days may be prolonged."
         },
         "he": {
-          "1": "וְזֹאת הַמִּצְוָה הַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם לְלַמֵּד אֶתְכֶם לַעֲשׂוֹת בָּאָרֶץ אֲשֶׁר אַתֶּם עֹבְרִים שָׁמָּה לְרִשְׁתָּֽהּ׃"
+          "2": "לְמַעַן תִּירָא אֶת־יְהוָה אֱלֹהֶיךָ לִשְׁמֹר אֶת־כָּל־חֻקֹּתָיו וּמִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוֶּךָ אַתָּה וּבִנְךָ וּבֶן־בִּנְךָ כֹּל יְמֵי חַיֶּיךָ וּלְמַעַן יַאֲרִכֻן יָמֶֽיךָ׃"
         }
       },
       "meta": {
-        "reason": "Contains a vivid declaration",
-        "confidence": 0.9
+        "reason": "direct command",
+        "confidence": 0.85
       },
       "ref": {
         "chapter": 6,
-        "start": 1,
-        "end": 1
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "deuteronomy-06-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 6,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "Ye shall not tempt the LORD your God, as ye tempted him in Massah.",
+        "riddle": "Ye shall not tempt the LORD your God",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "לֹא תְנַסּוּ אֶת־יְהוָה אֱלֹהֵיכֶם כַּאֲשֶׁר נִסִּיתֶם בַּמַּסָּֽה",
+        "riddle": "לֹא תְנַסּוּ אֶת־יְהוָה אֱלֹהֵיכֶם",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Ye shall not tempt the LORD your God, as ye tempted him in Massah."
+        },
+        "he": {
+          "16": "לֹא תְנַסּוּ אֶת־יְהוָה אֱלֹהֵיכֶם כַּאֲשֶׁר נִסִּיתֶם בַּמַּסָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "deuteronomy-06-20-20",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 6,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?",
+        "riddle": "What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?",
+        "speaker": "son",
+        "listener": "parent",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם",
+        "riddle": "מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם",
+        "speaker": "בִנְךָ",
+        "listener": "אַתָּה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And when thy son asketh thee in time to come, saying, What mean the testimonies, and the statutes, and the judgments, which the LORD our God hath commanded you?"
+        },
+        "he": {
+          "20": "כִּֽי־יִשְׁאָלְךָ בִנְךָ מָחָר לֵאמֹר מָה הָעֵדֹת וְהַֽחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֶתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 20,
+        "end": 20
       }
     },
     {
@@ -60,14 +144,14 @@
       "en": {
         "quote": "Then thou shalt say unto thy son, We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
         "riddle": "We were Pharaoh's bondmen in Egypt; and the LORD brought us out of Egypt with a mighty hand:",
-        "speaker": "Parent",
-        "listener": "Son",
+        "speaker": "parent",
+        "listener": "son",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "וְאָמַרְתָּ לְבִנְךָ עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה",
-        "riddle": "עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ יְהוָה מִמִּצְרַיִם בְּיָד חֲזָקָֽה",
-        "speaker": "הורה",
+        "riddle": "עֲבָדִים הָיִינוּ לְפַרְעֹה בְּמִצְרָיִם וַיּוֹצִיאֵנוּ",
+        "speaker": "אב",
         "listener": "בן",
         "book": "דברים"
       },
@@ -80,8 +164,8 @@
         }
       },
       "meta": {
-        "reason": "Vivid historical declaration",
-        "confidence": 0.95
+        "reason": "direct reply",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 6,
@@ -91,10 +175,13 @@
     }
   ],
   "stats": {
-    "window_count": 9,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 2,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 4,
+    "llm_call_count": 7,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

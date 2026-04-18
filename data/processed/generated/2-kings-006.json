@@ -6,6 +6,804 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-kings-06-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+        "riddle": "the place where we dwell with thee is too strait for us",
+        "speaker": "sons of the prophets",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "beam",
+        "bonus_hint": {
+          "quote": "And he slew an Egyptian, a man of great stature, five cubits high; and in the Egyptian's hand was a spear like a weaver's beam; and he went down to him with a staff, and plucked the spear out of the Egyptian's hand, and slew him with his own spear.",
+          "source": {
+            "book": "1 Chronicles",
+            "chapter": 11,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ",
+        "riddle": "הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ",
+        "speaker": "בְנֵֽי־הַנְּבִיאִים",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִישׁ",
+        "bonus_hint": {
+          "quote": "וְהֽוּא־הִכָּה אֶת־הָאִישׁ הַמִּצְרִי אִישׁ מִדָּה חָמֵשׁ בָּאַמָּה וּבְיַד הַמִּצְרִי חֲנִית כִּמְנוֹר אֹרְגִים וַיֵּרֶד אֵלָיו בַּשָּׁבֶט וַיִּגְזֹל אֶֽת־הַחֲנִית מִיַּד הַמִּצְרִי וַיַּהַרְגֵהוּ בַּחֲנִיתֽוֹ",
+          "source": {
+            "book": "דברי הימים א",
+            "chapter": 11,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-02-02-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+        "riddle": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell",
+        "speaker": "sons of the prophets",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "strait",
+        "bonus_hint": {
+          "quote": "The children which thou shalt have, after thou hast lost the other, shall say again in thine ears, The place is too strait for me: give place to me that I may dwell.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 49,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ",
+        "riddle": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ",
+        "speaker": "בְנֵֽי־הַנְּבִיאִים",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַמָּקוֹם",
+        "bonus_hint": {
+          "quote": "עוֹד יֹאמְרוּ בְאָזְנַיִךְ בְּנֵי שִׁכֻּלָיִךְ צַר־לִי הַמָּקוֹם גְּשָׁה־לִּי וְאֵשֵֽׁבָה",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 49,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-02-02-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+        "riddle": "Go ye.",
+        "speaker": "Elisha",
+        "listener": "sons of the prophets",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ",
+        "riddle": "לֵֽכו",
+        "speaker": "אֱלִישָׁע",
+        "listener": "בניה הַנְּבִיאִים",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְנֵֽי",
+        "bonus_hint": {
+          "quote": "וַיַּעֲשׂוּ־כֵן בְּנֵי־יִשְׂרָאֵל כַּאֲשֶׁר צִוָּה יְהוֹשֻׁעַ וַיִּשְׂאוּ שְׁתֵּֽי־עֶשְׂרֵה אֲבָנִים מִתּוֹךְ הַיַּרְדֵּן כַּאֲשֶׁר דִּבֶּר יְהוָה אֶל־יְהוֹשֻׁעַ לְמִסְפַּר שִׁבְטֵי בְנֵֽי־יִשְׂרָאֵל וַיַּעֲבִרוּם עִמָּם אֶל־הַמָּלוֹן וַיַּנִּחוּם שָֽׁם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-03-03-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye. And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.",
+        "riddle": "Be content, I pray thee, and go with thy servants",
+        "speaker": "one of the prophets",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ",
+        "riddle": "הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ",
+        "speaker": "הָֽאֶחָד",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְנֵֽי",
+        "bonus_hint": {
+          "quote": "וַיַּעֲשׂוּ־כֵן בְּנֵי־יִשְׂרָאֵל כַּאֲשֶׁר צִוָּה יְהוֹשֻׁעַ וַיִּשְׂאוּ שְׁתֵּֽי־עֶשְׂרֵה אֲבָנִים מִתּוֹךְ הַיַּרְדֵּן כַּאֲשֶׁר דִּבֶּר יְהוָה אֶל־יְהוֹשֻׁעַ לְמִסְפַּר שִׁבְטֵי בְנֵֽי־יִשְׂרָאֵל וַיַּעֲבִרוּם עִמָּם אֶל־הַמָּלוֹן וַיַּנִּחוּם שָֽׁם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+          "3": "And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃",
+          "3": "וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye. And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go. So he went with them. And when they came to Jordan, they cut down wood. But as one was felling a beam, the axe head fell into the water: and he cried, and said, Alas, master! for it was borrowed. And the man of God said, Where fell it? And he shewed him the place. And he cut down a stick, and cast it in thither; and the iron did swim.",
+        "riddle": "Where fell it?",
+        "speaker": "man of God",
+        "listener": "man of the beam",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ וַיֵּלֶךְ אִתָּם וַיָּבֹאוּ הַיַּרְדֵּנָה וַֽיִּגְזְרוּ הָעֵצִֽים וַיְהִי הָֽאֶחָד מַפִּיל הַקּוֹרָה וְאֶת־הַבַּרְזֶל נָפַל אֶל־הַמָּיִם וַיִּצְעַק וַיֹּאמֶר אֲהָהּ אֲדֹנִי וְהוּא שָׁאֽוּל וַיֹּאמֶר אִישׁ־הָאֱלֹהִים אָנָה נָפָל וַיַּרְאֵהוּ אֶת־הַמָּקוֹם וַיִּקְצָב־עֵץ וַיַּשְׁלֶךְ־שָׁמָּה וַיָּצֶף הַבַּרְזֶֽל",
+        "riddle": "אָנָה נָפָל",
+        "speaker": "אִישׁ האלוהים",
+        "listener": "הָֽאֶחָד מַפִּיל הַקּוֹרָה",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְנֵֽי",
+        "bonus_hint": {
+          "quote": "וַיַּעֲשׂוּ־כֵן בְּנֵי־יִשְׂרָאֵל כַּאֲשֶׁר צִוָּה יְהוֹשֻׁעַ וַיִּשְׂאוּ שְׁתֵּֽי־עֶשְׂרֵה אֲבָנִים מִתּוֹךְ הַיַּרְדֵּן כַּאֲשֶׁר דִּבֶּר יְהוָה אֶל־יְהוֹשֻׁעַ לְמִסְפַּר שִׁבְטֵי בְנֵֽי־יִשְׂרָאֵל וַיַּעֲבִרוּם עִמָּם אֶל־הַמָּלוֹן וַיַּנִּחוּם שָֽׁם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+          "3": "And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.",
+          "4": "So he went with them. And when they came to Jordan, they cut down wood.",
+          "5": "But as one was felling a beam, the axe head fell into the water: and he cried, and said, Alas, master! for it was borrowed.",
+          "6": "And the man of God said, Where fell it? And he shewed him the place. And he cut down a stick, and cast it in thither; and the iron did swim."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃",
+          "3": "וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ׃",
+          "4": "וַיֵּלֶךְ אִתָּם וַיָּבֹאוּ הַיַּרְדֵּנָה וַֽיִּגְזְרוּ הָעֵצִֽים׃",
+          "5": "וַיְהִי הָֽאֶחָד מַפִּיל הַקּוֹרָה וְאֶת־הַבַּרְזֶל נָפַל אֶל־הַמָּיִם וַיִּצְעַק וַיֹּאמֶר אֲהָהּ אֲדֹנִי וְהוּא שָׁאֽוּל׃",
+          "6": "וַיֹּאמֶר אִישׁ־הָאֱלֹהִים אָנָה נָפָל וַיַּרְאֵהוּ אֶת־הַמָּקוֹם וַיִּקְצָב־עֵץ וַיַּשְׁלֶךְ־שָׁמָּה וַיָּצֶף הַבַּרְזֶֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us. Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye. And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go. So he went with them. And when they came to Jordan, they cut down wood. But as one was felling a beam, the axe head fell into the water: and he cried, and said, Alas, master! for it was borrowed. And the man of God said, Where fell it? And he shewed him the place. And he cut down a stick, and cast it in thither; and the iron did swim. Therefore said he, Take it up to thee. And he put out his hand, and took it.",
+        "riddle": "Take it up to thee",
+        "speaker": "Elisha",
+        "listener": "man felling wood",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ וַיֵּלֶךְ אִתָּם וַיָּבֹאוּ הַיַּרְדֵּנָה וַֽיִּגְזְרוּ הָעֵצִֽים וַיְהִי הָֽאֶחָד מַפִּיל הַקּוֹרָה וְאֶת־הַבַּרְזֶל נָפַל אֶל־הַמָּיִם וַיִּצְעַק וַיֹּאמֶר אֲהָהּ אֲדֹנִי וְהוּא שָׁאֽוּל וַיֹּאמֶר אִישׁ־הָאֱלֹהִים אָנָה נָפָל וַיַּרְאֵהוּ אֶת־הַמָּקוֹם וַיִּקְצָב־עֵץ וַיַּשְׁלֶךְ־שָׁמָּה וַיָּצֶף הַבַּרְזֶֽל וַיֹּאמֶר הָרֶם לָךְ וַיִּשְׁלַח יָדוֹ וַיִּקָּחֵֽהוּ",
+        "riddle": "הָרֶם לָךְ",
+        "speaker": "אֱלִישָׁע",
+        "listener": "מַפִּיל הַקּוֹרָה",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְנֵֽי",
+        "bonus_hint": {
+          "quote": "וַיַּעֲשׂוּ־כֵן בְּנֵי־יִשְׂרָאֵל כַּאֲשֶׁר צִוָּה יְהוֹשֻׁעַ וַיִּשְׂאוּ שְׁתֵּֽי־עֶשְׂרֵה אֲבָנִים מִתּוֹךְ הַיַּרְדֵּן כַּאֲשֶׁר דִּבֶּר יְהוָה אֶל־יְהוֹשֻׁעַ לְמִסְפַּר שִׁבְטֵי בְנֵֽי־יִשְׂרָאֵל וַיַּעֲבִרוּם עִמָּם אֶל־הַמָּלוֹן וַיַּנִּחוּם שָֽׁם",
+          "source": {
+            "book": "יהושע",
+            "chapter": 4,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the sons of the prophets said unto Elisha, Behold now, the place where we dwell with thee is too strait for us.",
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+          "3": "And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.",
+          "4": "So he went with them. And when they came to Jordan, they cut down wood.",
+          "5": "But as one was felling a beam, the axe head fell into the water: and he cried, and said, Alas, master! for it was borrowed.",
+          "6": "And the man of God said, Where fell it? And he shewed him the place. And he cut down a stick, and cast it in thither; and the iron did swim.",
+          "7": "Therefore said he, Take it up to thee. And he put out his hand, and took it."
+        },
+        "he": {
+          "1": "וַיֹּאמְרוּ בְנֵֽי־הַנְּבִיאִים אֶל־אֱלִישָׁע הִנֵּֽה־נָא הַמָּקוֹם אֲשֶׁר אֲנַחְנוּ יֹשְׁבִים שָׁם לְפָנֶיךָ צַר מִמֶּֽנּוּ׃",
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃",
+          "3": "וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ׃",
+          "4": "וַיֵּלֶךְ אִתָּם וַיָּבֹאוּ הַיַּרְדֵּנָה וַֽיִּגְזְרוּ הָעֵצִֽים׃",
+          "5": "וַיְהִי הָֽאֶחָד מַפִּיל הַקּוֹרָה וְאֶת־הַבַּרְזֶל נָפַל אֶל־הַמָּיִם וַיִּצְעַק וַיֹּאמֶר אֲהָהּ אֲדֹנִי וְהוּא שָׁאֽוּל׃",
+          "6": "וַיֹּאמֶר אִישׁ־הָאֱלֹהִים אָנָה נָפָל וַיַּרְאֵהוּ אֶת־הַמָּקוֹם וַיִּקְצָב־עֵץ וַיַּשְׁלֶךְ־שָׁמָּה וַיָּצֶף הַבַּרְזֶֽל׃",
+          "7": "וַיֹּאמֶר הָרֶם לָךְ וַיִּשְׁלַח יָדוֹ וַיִּקָּחֵֽהוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-03-03-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye. And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go.",
+        "riddle": "I will go",
+        "speaker": "man",
+        "listener": "man",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Jordan",
+        "bonus_hint": {
+          "quote": "And they came to the threshingfloor of Atad, which is beyond Jordan, and there they mourned with a great and very sore lamentation: and he made a mourning for his father seven days.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 50,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ",
+        "riddle": "אֲנִי אֵלֵֽך",
+        "speaker": "הָֽאֶחָד",
+        "listener": "העדה",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "עַד",
+        "bonus_hint": {
+          "quote": "וַיָּבֹאוּ עַד־גֹּרֶן הָאָטָד אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן וַיִּסְפְּדוּ־שָׁם מִסְפֵּד גָּדוֹל וְכָבֵד מְאֹד וַיַּעַשׂ לְאָבִיו אֵבֶל שִׁבְעַת יָמִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 50,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "Let us go, we pray thee, unto Jordan, and take thence every man a beam, and let us make us a place there, where we may dwell. And he answered, Go ye.",
+          "3": "And one said, Be content, I pray thee, and go with thy servants. And he answered, I will go."
+        },
+        "he": {
+          "2": "נֵֽלְכָה־נָּא עַד־הַיַּרְדֵּן וְנִקְחָה מִשָּׁם אִישׁ קוֹרָה אֶחָת וְנַעֲשֶׂה־לָּנוּ שָׁם מָקוֹם לָשֶׁבֶת שָׁם וַיֹּאמֶר לֵֽכוּ׃",
+          "3": "וַיֹּאמֶר הָֽאֶחָד הוֹאֶל נָא וְלֵךְ אֶת־עֲבָדֶיךָ וַיֹּאמֶר אֲנִי אֵלֵֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "Then the king of Syria warred against Israel, and took counsel with his servants, saying, In such and such a place shall be my camp.",
+        "riddle": "In such and such a place shall be my camp",
+        "speaker": "king of Syria",
+        "listener": "servants",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "counsel",
+        "bonus_hint": {
+          "quote": "But he forsook the counsel of the old men, which they had given him, and consulted with the young men that were grown up with him, and which stood before him:",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 12,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וּמֶלֶךְ אֲרָם הָיָה נִלְחָם בְּיִשְׂרָאֵל וַיִּוָּעַץ אֶל־עֲבָדָיו לֵאמֹר אֶל־מְקוֹם פְּלֹנִי אַלְמֹנִי תַּחֲנֹתִֽי",
+        "riddle": "אֶל־מְקוֹם פְּלֹנִי אַלְמֹנִי תַּחֲנֹתִֽי",
+        "speaker": "מֶֽלֶךְ־אֲרָם",
+        "listener": "עֲבָדָיו",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּוָּעַץ",
+        "bonus_hint": {
+          "quote": "וַֽיַּעֲזֹב אֶת־עֲצַת הַזְּקֵנִים אֲשֶׁר יְעָצֻהוּ וַיִּוָּעַץ אֶת־הַיְלָדִים אֲשֶׁר גָּדְלוּ אִתּוֹ אֲשֶׁר הָעֹמְדִים לְפָנָֽיו",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 12,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Then the king of Syria warred against Israel, and took counsel with his servants, saying, In such and such a place shall be my camp."
+        },
+        "he": {
+          "8": "וּמֶלֶךְ אֲרָם הָיָה נִלְחָם בְּיִשְׂרָאֵל וַיִּוָּעַץ אֶל־עֲבָדָיו לֵאמֹר אֶל־מְקוֹם פְּלֹנִי אַלְמֹנִי תַּחֲנֹתִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel?",
+        "riddle": "Will ye not shew me which of us is for the king of Israel?",
+        "speaker": "king of Syria",
+        "listener": "servants",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "heart",
+        "bonus_hint": {
+          "quote": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּסָּעֵר לֵב מֶֽלֶךְ־אֲרָם עַל־הַדָּבָר הַזֶּה וַיִּקְרָא אֶל־עֲבָדָיו וַיֹּאמֶר אֲלֵיהֶם הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל",
+        "riddle": "הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל",
+        "speaker": "מֶֽלֶךְ־אֲרָם",
+        "listener": "עֲבָדָיו",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לֵב",
+        "bonus_hint": {
+          "quote": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel?"
+        },
+        "he": {
+          "11": "וַיִּסָּעֵר לֵב מֶֽלֶךְ־אֲרָם עַל־הַדָּבָר הַזֶּה וַיִּקְרָא אֶל־עֲבָדָיו וַיֹּאמֶר אֲלֵיהֶם הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 11,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 11,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel? And one of his servants said, None, my lord, O king: but Elisha, the prophet that is in Israel, telleth the king of Israel the words that thou speakest in thy bedchamber. And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan.",
+        "riddle": "Go and spy where he is, that I may send and fetch him.",
+        "speaker": "king of Syria",
+        "listener": "servants",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "heart",
+        "bonus_hint": {
+          "quote": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּסָּעֵר לֵב מֶֽלֶךְ־אֲרָם עַל־הַדָּבָר הַזֶּה וַיִּקְרָא אֶל־עֲבָדָיו וַיֹּאמֶר אֲלֵיהֶם הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל וַיֹּאמֶר אַחַד מֵֽעֲבָדָיו לוֹא אֲדֹנִי הַמֶּלֶךְ כִּֽי־אֱלִישָׁע הַנָּבִיא אֲשֶׁר בְּיִשְׂרָאֵל יַגִּיד לְמֶלֶךְ יִשְׂרָאֵל אֶת־הַדְּבָרִים אֲשֶׁר תְּדַבֵּר בַּחֲדַר מִשְׁכָּבֶֽךָ וַיֹּאמֶר לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן",
+        "riddle": "לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן",
+        "speaker": "מֶֽלֶךְ־אֲרָם",
+        "listener": "עֲבָדָיו",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לֵב",
+        "bonus_hint": {
+          "quote": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel?",
+          "12": "And one of his servants said, None, my lord, O king: but Elisha, the prophet that is in Israel, telleth the king of Israel the words that thou speakest in thy bedchamber.",
+          "13": "And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan."
+        },
+        "he": {
+          "11": "וַיִּסָּעֵר לֵב מֶֽלֶךְ־אֲרָם עַל־הַדָּבָר הַזֶּה וַיִּקְרָא אֶל־עֲבָדָיו וַיֹּאמֶר אֲלֵיהֶם הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל׃",
+          "12": "וַיֹּאמֶר אַחַד מֵֽעֲבָדָיו לוֹא אֲדֹנִי הַמֶּלֶךְ כִּֽי־אֱלִישָׁע הַנָּבִיא אֲשֶׁר בְּיִשְׂרָאֵל יַגִּיד לְמֶלֶךְ יִשְׂרָאֵל אֶת־הַדְּבָרִים אֲשֶׁר תְּדַבֵּר בַּחֲדַר מִשְׁכָּבֶֽךָ׃",
+          "13": "וַיֹּאמֶר לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 11,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "2-kings-06-15-15",
       "source": {
         "method": "llm",
@@ -14,11 +812,13 @@
         "book_he": "מלכים ב",
         "chapter": 6,
         "quote_verse_start": 11,
-        "quote_verse_end": 17
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
       },
       "en": {
         "quote": "Therefore the heart of the king of Syria was sore troubled for this thing; and he called his servants, and said unto them, Will ye not shew me which of us is for the king of Israel? And one of his servants said, None, my lord, O king: but Elisha, the prophet that is in Israel, telleth the king of Israel the words that thou speakest in thy bedchamber. And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan. Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about. And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do? And he answered, Fear not: for they that be with us are more than they that be with them. And Elisha prayed, and said, LORD, I pray thee, open his eyes, that he may see. And the LORD opened the eyes of the young man; and he saw: and, behold, the mountain was full of horses and chariots of fire round about Elisha.",
-        "riddle": "my master! how shall we do?",
+        "riddle": "Alas, my master! how shall we do?",
         "speaker": "servant",
         "listener": "man of God",
         "book": "2 Kings",
@@ -28,33 +828,33 @@
         },
         "bonus": "king",
         "bonus_hint": {
-          "quote": "And it came to pass in the days of Amraphel king of Shinar, Arioch king of Ellasar, Chedorlaomer king of Elam, and Tidal king of nations;",
+          "quote": "And the LORD hardened the heart of Pharaoh king of Egypt, and he pursued after the children of Israel: and the children of Israel went out with an high hand.",
           "source": {
-            "book": "Genesis",
+            "book": "Exodus",
             "chapter": 14,
-            "start": 1,
-            "end": 1
+            "start": 8,
+            "end": 8
           }
         }
       },
       "he": {
         "quote": "וַיִּסָּעֵר לֵב מֶֽלֶךְ־אֲרָם עַל־הַדָּבָר הַזֶּה וַיִּקְרָא אֶל־עֲבָדָיו וַיֹּאמֶר אֲלֵיהֶם הֲלוֹא תַּגִּידוּ לִי מִי מִשֶּׁלָנוּ אֶל־מֶלֶךְ יִשְׂרָאֵֽל וַיֹּאמֶר אַחַד מֵֽעֲבָדָיו לוֹא אֲדֹנִי הַמֶּלֶךְ כִּֽי־אֱלִישָׁע הַנָּבִיא אֲשֶׁר בְּיִשְׂרָאֵל יַגִּיד לְמֶלֶךְ יִשְׂרָאֵל אֶת־הַדְּבָרִים אֲשֶׁר תְּדַבֵּר בַּחֲדַר מִשְׁכָּבֶֽךָ וַיֹּאמֶר לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן וַיִּשְׁלַח־שָׁמָּה סוּסִים וְרֶכֶב וְחַיִל כָּבֵד וַיָּבֹאוּ לַיְלָה וַיַּקִּפוּ עַל־הָעִֽיר וַיַּשְׁכֵּם מְשָׁרֵת אִישׁ הָֽאֱלֹהִים לָקוּם וַיֵּצֵא וְהִנֵּה־חַיִל סוֹבֵב אֶת־הָעִיר וְסוּס וָרָכֶב וַיֹּאמֶר נַעֲרוֹ אֵלָיו אֲהָהּ אֲדֹנִי אֵיכָה נַֽעֲשֶֽׂה וַיֹּאמֶר אַל־תִּירָא כִּי רַבִּים אֲשֶׁר אִתָּנוּ מֵאֲשֶׁר אוֹתָֽם וַיִּתְפַּלֵּל אֱלִישָׁע וַיֹּאמַר יְהוָה פְּקַח־נָא אֶת־עֵינָיו וְיִרְאֶה וַיִּפְקַח יְהוָה אֶת־עֵינֵי הַנַּעַר וַיַּרַא וְהִנֵּה הָהָר מָלֵא סוּסִים וְרֶכֶב אֵשׁ סְבִיבֹת אֱלִישָֽׁע",
         "riddle": "אֵיכָה נַֽעֲשֶֽׂה",
-        "speaker": "מְשָׁרֵת",
-        "listener": "אִישׁ הָֽאֱלֹהִים",
+        "speaker": "מְשָׁרֵת אִישׁ הָֽאֱלֹהִים",
+        "listener": "אֱלִישָׁע",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "מֶֽלֶךְ",
+        "bonus": "לֵב",
         "bonus_hint": {
-          "quote": "וַיְהִי בִּימֵי אַמְרָפֶל מֶֽלֶךְ־שִׁנְעָר אַרְיוֹךְ מֶלֶךְ אֶלָּסָר כְּדָרְלָעֹמֶר מֶלֶךְ עֵילָם וְתִדְעָל מֶלֶךְ גּוֹיִֽם",
+          "quote": "וַיְחַזֵּק יְהֹוָה אֶת־לֵב פַּרְעֹה מֶלֶךְ מִצְרַיִם וַיִּרְדֹּף אַחֲרֵי בְּנֵי יִשְׂרָאֵל וּבְנֵי יִשְׂרָאֵל יֹצְאִים בְּיָד רָמָֽה",
           "source": {
-            "book": "בראשית",
+            "book": "שמות",
             "chapter": 14,
-            "start": 1,
-            "end": 1
+            "start": 8,
+            "end": 8
           }
         }
       },
@@ -92,70 +892,246 @@
       }
     },
     {
-      "id": "2-kings-06-33-33",
+      "id": "2-kings-06-19-19",
       "source": {
         "method": "llm",
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 6,
-        "quote_verse_start": 33,
-        "quote_verse_end": 33
+        "quote_verse_start": 13,
+        "quote_verse_end": 19
       },
       "en": {
-        "quote": "And while he yet talked with them, behold, the messenger came down unto him: and he said, Behold, this evil is of the LORD; what should I wait for the LORD any longer?",
-        "riddle": "what should I wait for the LORD any longer?",
-        "speaker": "messenger",
-        "listener": "king",
+        "quote": "And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan. Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about. And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do? And he answered, Fear not: for they that be with us are more than they that be with them. And Elisha prayed, and said, LORD, I pray thee, open his eyes, that he may see. And the LORD opened the eyes of the young man; and he saw: and, behold, the mountain was full of horses and chariots of fire round about Elisha. And when they came down to him, Elisha prayed unto the LORD, and said, Smite this people, I pray thee, with blindness. And he smote them with blindness according to the word of Elisha. And Elisha said unto them, This is not the way, neither is this the city: follow me, and I will bring you to the man whom ye seek. But he led them to Samaria.",
+        "riddle": "This is not the way, neither is this the city: follow me, and I will bring you to the man whom ye seek.",
+        "speaker": "Elisha",
+        "listener": "Syrian army",
         "book": "2 Kings",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "evil",
+        "bonus": "chariots",
         "bonus_hint": {
-          "quote": "Behold now, thy servant hath found grace in thy sight, and thou hast magnified thy mercy, which thou hast shewed unto me in saving my life; and I cannot escape to the mountain, lest some evil take me, and I die:",
+          "quote": "But the Syrians fled before Israel; and David slew of the Syrians seven thousand men which fought in chariots, and forty thousand footmen, and killed Shophach the captain of the host.",
           "source": {
-            "book": "Genesis",
+            "book": "1 Chronicles",
             "chapter": 19,
-            "start": 19,
-            "end": 19
+            "start": 17,
+            "end": 17
           }
         }
       },
       "he": {
-        "quote": "עוֹדֶנּוּ מְדַבֵּר עִמָּם וְהִנֵּה הַמַּלְאָךְ יֹרֵד אֵלָיו וַיֹּאמֶר הִנֵּֽה־זֹאת הָֽרָעָה מֵאֵת יְהוָה מָֽה־אוֹחִיל לַיהוָה עֽוֹד",
-        "riddle": "מָֽה־אוֹחִיל לַיהוָה עֽוֹד",
-        "speaker": "הַמַּלְאָךְ",
-        "listener": "הַמֶּלֶךְ",
+        "quote": "וַיֹּאמֶר לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן וַיִּשְׁלַח־שָׁמָּה סוּסִים וְרֶכֶב וְחַיִל כָּבֵד וַיָּבֹאוּ לַיְלָה וַיַּקִּפוּ עַל־הָעִֽיר וַיַּשְׁכֵּם מְשָׁרֵת אִישׁ הָֽאֱלֹהִים לָקוּם וַיֵּצֵא וְהִנֵּה־חַיִל סוֹבֵב אֶת־הָעִיר וְסוּס וָרָכֶב וַיֹּאמֶר נַעֲרוֹ אֵלָיו אֲהָהּ אֲדֹנִי אֵיכָה נַֽעֲשֶֽׂה וַיֹּאמֶר אַל־תִּירָא כִּי רַבִּים אֲשֶׁר אִתָּנוּ מֵאֲשֶׁר אוֹתָֽם וַיִּתְפַּלֵּל אֱלִישָׁע וַיֹּאמַר יְהוָה פְּקַח־נָא אֶת־עֵינָיו וְיִרְאֶה וַיִּפְקַח יְהוָה אֶת־עֵינֵי הַנַּעַר וַיַּרַא וְהִנֵּה הָהָר מָלֵא סוּסִים וְרֶכֶב אֵשׁ סְבִיבֹת אֱלִישָֽׁע וַיֵּרְדוּ אֵלָיו וַיִּתְפַּלֵּל אֱלִישָׁע אֶל־יְהוָה וַיֹּאמַר הַךְ־נָא אֶת־הַגּוֹי־הַזֶּה בַּסַּנְוֵרִים וַיַּכֵּם בַּסַּנְוֵרִים כִּדְבַר אֱלִישָֽׁע וַיֹּאמֶר אֲלֵהֶם אֱלִישָׁע לֹא זֶה הַדֶּרֶךְ וְלֹא זֹה הָעִיר לְכוּ אַחֲרַי וְאוֹלִיכָה אֶתְכֶם אֶל־הָאִישׁ אֲשֶׁר תְּבַקֵּשׁוּן וַיֹּלֶךְ אוֹתָם שֹׁמְרֽוֹנָה",
+        "riddle": "לֹא זֶה הַדֶּרֶךְ וְלֹא זֹה הָעִיר לְכוּ אַחֲרַי וְאוֹלִיכָה אֶתְכֶם אֶל־הָאִישׁ אֲשֶׁר תְּבַקֵּשׁוּן",
+        "speaker": "אֱלִישָׁע",
+        "listener": "הסורים",
         "book": "מלכים ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הָֽרָעָה",
+        "bonus": "וַיֻּגַּד",
         "bonus_hint": {
-          "quote": "הִנֵּה־נָא מָצָא עַבְדְּךָ חֵן בְּעֵינֶיךָ וַתַּגְדֵּל חַסְדְּךָ אֲשֶׁר עָשִׂיתָ עִמָּדִי לְהַחֲיוֹת אֶת־נַפְשִׁי וְאָנֹכִי לֹא אוּכַל לְהִמָּלֵט הָהָרָה פֶּן־תִּדְבָּקַנִי הָרָעָה וָמַֽתִּי",
+          "quote": "וַיֻּגַּד לְדָוִיד וַיֶּאֱסֹף אֶת־כָּל־יִשְׂרָאֵל וַיַּעֲבֹר הַיַּרְדֵּן וַיָּבֹא אֲלֵהֶם וַֽיַּעֲרֹךְ אֲלֵהֶם וַיַּעֲרֹךְ דָּוִיד לִקְרַאת אֲרָם מִלְחָמָה וַיִּֽלָּחֲמוּ עִמּֽוֹ",
           "source": {
-            "book": "בראשית",
+            "book": "דברי הימים א",
             "chapter": 19,
-            "start": 19,
-            "end": 19
+            "start": 17,
+            "end": 17
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "33": "And while he yet talked with them, behold, the messenger came down unto him: and he said, Behold, this evil is of the LORD; what should I wait for the LORD any longer?"
+          "13": "And he said, Go and spy where he is, that I may send and fetch him. And it was told him, saying, Behold, he is in Dothan.",
+          "14": "Therefore sent he thither horses, and chariots, and a great host: and they came by night, and compassed the city about.",
+          "15": "And when the servant of the man of God was risen early, and gone forth, behold, an host compassed the city both with horses and chariots. And his servant said unto him, Alas, my master! how shall we do?",
+          "16": "And he answered, Fear not: for they that be with us are more than they that be with them.",
+          "17": "And Elisha prayed, and said, LORD, I pray thee, open his eyes, that he may see. And the LORD opened the eyes of the young man; and he saw: and, behold, the mountain was full of horses and chariots of fire round about Elisha.",
+          "18": "And when they came down to him, Elisha prayed unto the LORD, and said, Smite this people, I pray thee, with blindness. And he smote them with blindness according to the word of Elisha.",
+          "19": "And Elisha said unto them, This is not the way, neither is this the city: follow me, and I will bring you to the man whom ye seek. But he led them to Samaria."
         },
         "he": {
-          "33": "עוֹדֶנּוּ מְדַבֵּר עִמָּם וְהִנֵּה הַמַּלְאָךְ יֹרֵד אֵלָיו וַיֹּאמֶר הִנֵּֽה־זֹאת הָֽרָעָה מֵאֵת יְהוָה מָֽה־אוֹחִיל לַיהוָה עֽוֹד׃"
+          "13": "וַיֹּאמֶר לְכוּ וּרְאוּ אֵיכֹה הוּא וְאֶשְׁלַח וְאֶקָּחֵהוּ וַיֻּגַּד־לוֹ לֵאמֹר הִנֵּה בְדֹתָֽן׃",
+          "14": "וַיִּשְׁלַח־שָׁמָּה סוּסִים וְרֶכֶב וְחַיִל כָּבֵד וַיָּבֹאוּ לַיְלָה וַיַּקִּפוּ עַל־הָעִֽיר׃",
+          "15": "וַיַּשְׁכֵּם מְשָׁרֵת אִישׁ הָֽאֱלֹהִים לָקוּם וַיֵּצֵא וְהִנֵּה־חַיִל סוֹבֵב אֶת־הָעִיר וְסוּס וָרָכֶב וַיֹּאמֶר נַעֲרוֹ אֵלָיו אֲהָהּ אֲדֹנִי אֵיכָה נַֽעֲשֶֽׂה׃",
+          "16": "וַיֹּאמֶר אַל־תִּירָא כִּי רַבִּים אֲשֶׁר אִתָּנוּ מֵאֲשֶׁר אוֹתָֽם׃",
+          "17": "וַיִּתְפַּלֵּל אֱלִישָׁע וַיֹּאמַר יְהוָה פְּקַח־נָא אֶת־עֵינָיו וְיִרְאֶה וַיִּפְקַח יְהוָה אֶת־עֵינֵי הַנַּעַר וַיַּרַא וְהִנֵּה הָהָר מָלֵא סוּסִים וְרֶכֶב אֵשׁ סְבִיבֹת אֱלִישָֽׁע׃",
+          "18": "וַיֵּרְדוּ אֵלָיו וַיִּתְפַּלֵּל אֱלִישָׁע אֶל־יְהוָה וַיֹּאמַר הַךְ־נָא אֶת־הַגּוֹי־הַזֶּה בַּסַּנְוֵרִים וַיַּכֵּם בַּסַּנְוֵרִים כִּדְבַר אֱלִישָֽׁע׃",
+          "19": "וַיֹּאמֶר אֲלֵהֶם אֱלִישָׁע לֹא זֶה הַדֶּרֶךְ וְלֹא זֹה הָעִיר לְכוּ אַחֲרַי וְאוֹלִיכָה אֶתְכֶם אֶל־הָאִישׁ אֲשֶׁר תְּבַקֵּשׁוּן וַיֹּלֶךְ אוֹתָם שֹׁמְרֽוֹנָה׃"
         }
       },
       "ref": {
         "chapter": 6,
-        "start": 33,
-        "end": 33
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 21,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And the king of Israel said unto Elisha, when he saw them, My father, shall I smite them? shall I smite them? And he answered, Thou shalt not smite them: wouldest thou smite those whom thou hast taken captive with thy sword and with thy bow? set bread and water before them, that they may eat and drink, and go to their master.",
+        "riddle": "My father, shall I smite them? shall I smite them?",
+        "speaker": "king of Israel",
+        "listener": "Elisha",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "And Saul said unto him, Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast inquired of God for him, that he should rise against me, to lie in wait, as at this day?",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־אֱלִישָׁע כִּרְאֹתוֹ אוֹתָם הַאַכֶּה אַכֶּה אָבִֽי וַיֹּאמֶר לֹא תַכֶּה הַאֲשֶׁר שָׁבִיתָ בְּחַרְבְּךָ וּֽבְקַשְׁתְּךָ אַתָּה מַכֶּה שִׂים לֶחֶם וָמַיִם לִפְנֵיהֶם וְיֹֽאכְלוּ וְיִשְׁתּוּ וְיֵלְכוּ אֶל־אֲדֹנֵיהֶֽם",
+        "riddle": "כִּרְאֹתוֹ אוֹתָם הַאַכֶּה אַכֶּה אָבִֽי",
+        "speaker": "מֶֽלֶךְ־יִשְׂרָאֵל",
+        "listener": "אֱלִישָׁע",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לֶחֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלָיו שָׁאוּל לָמָּה קְשַׁרְתֶּם עָלַי אַתָּה וּבֶן־יִשָׁי בְּתִתְּךָ לוֹ לֶחֶם וְחֶרֶב וְשָׁאוֹל לוֹ בֵּֽאלֹהִים לָקוּם אֵלַי לְאֹרֵב כַּיּוֹם הַזֶּֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the king of Israel said unto Elisha, when he saw them, My father, shall I smite them? shall I smite them?",
+          "22": "And he answered, Thou shalt not smite them: wouldest thou smite those whom thou hast taken captive with thy sword and with thy bow? set bread and water before them, that they may eat and drink, and go to their master."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר מֶֽלֶךְ־יִשְׂרָאֵל אֶל־אֱלִישָׁע כִּרְאֹתוֹ אוֹתָם הַאַכֶּה אַכֶּה אָבִֽי׃",
+          "22": "וַיֹּאמֶר לֹא תַכֶּה הַאֲשֶׁר שָׁבִיתָ בְּחַרְבְּךָ וּֽבְקַשְׁתְּךָ אַתָּה מַכֶּה שִׂים לֶחֶם וָמַיִם לִפְנֵיהֶם וְיֹֽאכְלוּ וְיִשְׁתּוּ וְיֵלְכוּ אֶל־אֲדֹנֵיהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 21,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-kings-06-28-28-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 6,
+        "quote_verse_start": 22,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28,
+        "listener_mention_verse": 28
+      },
+      "en": {
+        "quote": "And he answered, Thou shalt not smite them: wouldest thou smite those whom thou hast taken captive with thy sword and with thy bow? set bread and water before them, that they may eat and drink, and go to their master. And he prepared great provision for them: and when they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria came no more into the land of Israel. And it came to pass after this, that Ben-hadad king of Syria gathered all his host, and went up, and besieged Samaria. And there was a great famine in Samaria: and, behold, they besieged it, until an ass's head was sold for fourscore pieces of silver, and the fourth part of a cab of dove's dung for five pieces of silver. And as the king of Israel was passing by upon the wall, there cried a woman unto him, saying, Help, my lord, O king. And he said, If the LORD do not help thee, whence shall I help thee? out of the barnfloor, or out of the winepress? And the king said unto her, What aileth thee? And she answered, This woman said unto me, Give thy son, that we may eat him to day, and we will eat my son to morrow.",
+        "riddle": "Give thy son, that we may eat him to day, and we will eat my son to morrow",
+        "speaker": "rival wife",
+        "listener": "woman",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "And Saul said unto him, Why have ye conspired against me, thou and the son of Jesse, in that thou hast given him bread, and a sword, and hast inquired of God for him, that he should rise against me, to lie in wait, as at this day?",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לֹא תַכֶּה הַאֲשֶׁר שָׁבִיתָ בְּחַרְבְּךָ וּֽבְקַשְׁתְּךָ אַתָּה מַכֶּה שִׂים לֶחֶם וָמַיִם לִפְנֵיהֶם וְיֹֽאכְלוּ וְיִשְׁתּוּ וְיֵלְכוּ אֶל־אֲדֹנֵיהֶֽם וַיִּכְרֶה לָהֶם כֵּרָה גְדוֹלָה וַיֹּֽאכְלוּ וַיִּשְׁתּוּ וַֽיְשַׁלְּחֵם וַיֵּלְכוּ אֶל־אֲדֹֽנֵיהֶם וְלֹֽא־יָסְפוּ עוֹד גְּדוּדֵי אֲרָם לָבוֹא בְּאֶרֶץ יִשְׂרָאֵֽל וַֽיְהִי אַחֲרֵי־כֵן וַיִּקְבֹּץ בֶּן־הֲדַד מֶֽלֶךְ־אֲרָם אֶת־כָּל־מַחֲנֵהוּ וַיַּעַל וַיָּצַר עַל־שֹׁמְרֽוֹן וַיְהִי רָעָב גָּדוֹל בְּשֹׁמְרוֹן וְהִנֵּה צָרִים עָלֶיהָ עַד הֱיוֹת רֹאשׁ־חֲמוֹר בִּשְׁמֹנִים כֶּסֶף וְרֹבַע הַקַּב דִבְיוֹנִים בַּחֲמִשָּׁה־כָֽסֶף וַֽיְהִי מֶלֶךְ יִשְׂרָאֵל עֹבֵר עַל־הַחֹמָה וְאִשָּׁה צָעֲקָה אֵלָיו לֵאמֹר הוֹשִׁיעָה אֲדֹנִי הַמֶּֽלֶךְ וַיֹּאמֶר אַל־יוֹשִׁעֵךְ יְהוָה מֵאַיִן אֽוֹשִׁיעֵךְ הֲמִן־הַגֹּרֶן אוֹ מִן־הַיָּֽקֶב וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר הָאִשָּׁה הַזֹּאת אָמְרָה אֵלַי תְּנִי אֶת־בְּנֵךְ וְנֹאכְלֶנּוּ הַיּוֹם וְאֶת־בְּנִי נֹאכַל מָחָֽר",
+        "riddle": "תְּנִי אֶת־בְּנֵךְ וְנֹאכְלֶנּוּ הַיּוֹם וְאֶת־בְּנִי נֹאכַל מָחָֽר",
+        "speaker": "הָאִשָּׁה",
+        "listener": "הַמֶּֽלֶךְ",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לֶחֶם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלָיו שָׁאוּל לָמָּה קְשַׁרְתֶּם עָלַי אַתָּה וּבֶן־יִשָׁי בְּתִתְּךָ לוֹ לֶחֶם וְחֶרֶב וְשָׁאוֹל לוֹ בֵּֽאלֹהִים לָקוּם אֵלַי לְאֹרֵב כַּיּוֹם הַזֶּֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 22,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And he answered, Thou shalt not smite them: wouldest thou smite those whom thou hast taken captive with thy sword and with thy bow? set bread and water before them, that they may eat and drink, and go to their master.",
+          "23": "And he prepared great provision for them: and when they had eaten and drunk, he sent them away, and they went to their master. So the bands of Syria came no more into the land of Israel.",
+          "24": "And it came to pass after this, that Ben-hadad king of Syria gathered all his host, and went up, and besieged Samaria.",
+          "25": "And there was a great famine in Samaria: and, behold, they besieged it, until an ass's head was sold for fourscore pieces of silver, and the fourth part of a cab of dove's dung for five pieces of silver.",
+          "26": "And as the king of Israel was passing by upon the wall, there cried a woman unto him, saying, Help, my lord, O king.",
+          "27": "And he said, If the LORD do not help thee, whence shall I help thee? out of the barnfloor, or out of the winepress?",
+          "28": "And the king said unto her, What aileth thee? And she answered, This woman said unto me, Give thy son, that we may eat him to day, and we will eat my son to morrow."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר לֹא תַכֶּה הַאֲשֶׁר שָׁבִיתָ בְּחַרְבְּךָ וּֽבְקַשְׁתְּךָ אַתָּה מַכֶּה שִׂים לֶחֶם וָמַיִם לִפְנֵיהֶם וְיֹֽאכְלוּ וְיִשְׁתּוּ וְיֵלְכוּ אֶל־אֲדֹנֵיהֶֽם׃",
+          "23": "וַיִּכְרֶה לָהֶם כֵּרָה גְדוֹלָה וַיֹּֽאכְלוּ וַיִּשְׁתּוּ וַֽיְשַׁלְּחֵם וַיֵּלְכוּ אֶל־אֲדֹֽנֵיהֶם וְלֹֽא־יָסְפוּ עוֹד גְּדוּדֵי אֲרָם לָבוֹא בְּאֶרֶץ יִשְׂרָאֵֽל׃",
+          "24": "וַֽיְהִי אַחֲרֵי־כֵן וַיִּקְבֹּץ בֶּן־הֲדַד מֶֽלֶךְ־אֲרָם אֶת־כָּל־מַחֲנֵהוּ וַיַּעַל וַיָּצַר עַל־שֹׁמְרֽוֹן׃",
+          "25": "וַיְהִי רָעָב גָּדוֹל בְּשֹׁמְרוֹן וְהִנֵּה צָרִים עָלֶיהָ עַד הֱיוֹת רֹאשׁ־חֲמוֹר בִּשְׁמֹנִים כֶּסֶף וְרֹבַע הַקַּב דִבְיוֹנִים בַּחֲמִשָּׁה־כָֽסֶף׃",
+          "26": "וַֽיְהִי מֶלֶךְ יִשְׂרָאֵל עֹבֵר עַל־הַחֹמָה וְאִשָּׁה צָעֲקָה אֵלָיו לֵאמֹר הוֹשִׁיעָה אֲדֹנִי הַמֶּֽלֶךְ׃",
+          "27": "וַיֹּאמֶר אַל־יוֹשִׁעֵךְ יְהוָה מֵאַיִן אֽוֹשִׁיעֵךְ הֲמִן־הַגֹּרֶן אוֹ מִן־הַיָּֽקֶב׃",
+          "28": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר הָאִשָּׁה הַזֹּאת אָמְרָה אֵלַי תְּנִי אֶת־בְּנֵךְ וְנֹאכְלֶנּוּ הַיּוֹם וְאֶת־בְּנִי נֹאכַל מָחָֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 22,
+        "end": 28
       },
       "meta": {
         "mode": "llm",

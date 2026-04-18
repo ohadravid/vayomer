@@ -1,0 +1,195 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 18,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-18-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 18,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And Joshua said unto the children of Israel, How long are ye slack to go to possess the land, which the LORD God of your fathers hath given you? Give out from among you three men for each tribe: and I will send them, and they shall rise, and go through the land, and describe it according to the inheritance of them; and they shall come again to me.",
+        "riddle": "Give out from among you three men for each tribe",
+        "speaker": "Joshua",
+        "listener": "Children of Israel",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Gideon",
+            "Balaam"
+          ],
+          "listener": [
+            "Israel",
+            "house of Joseph",
+            "Philistines"
+          ]
+        },
+        "bonus": "slack",
+        "bonus_hint": {
+          "quote": "When thou shalt vow a vow unto the LORD thy God, thou shalt not slack to pay it: for the LORD thy God will surely require it of thee; and it would be sin in thee.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 23,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל עַד־אָנָה אַתֶּם מִתְרַפִּים לָבוֹא לָרֶשֶׁת אֶת־הָאָרֶץ אֲשֶׁר נָתַן לָכֶם יְהוָה אֱלֹהֵי אֲבֽוֹתֵיכֶֽם הָבוּ לָכֶם שְׁלֹשָׁה אֲנָשִׁים לַשָּׁבֶט וְאֶשְׁלָחֵם וְיָקֻמוּ וְיִֽתְהַלְּכוּ בָאָרֶץ וְיִכְתְּבוּ אוֹתָהּ לְפִי נַֽחֲלָתָם וְיָבֹאוּ אֵלָֽי",
+        "riddle": "הָבוּ לָכֶם שְׁלֹשָׁה אֲנָשִׁים לַשָּׁבֶט וְאֶשְׁלָחֵם וְיָקֻמוּ וְיִֽתְהַלְּכוּ בָאָרֶץ וְיִכְתְּבוּ אוֹתָהּ לְפִי",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "גִּדְעוֹן",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "בֵּית יוֹסֵף",
+            "פְּלִשְׁתִּים"
+          ]
+        },
+        "bonus": "הָאָרֶץ",
+        "bonus_hint": {
+          "quote": "לַנָּכְרִי תַשִּׁיךְ וּלְאָחִיךָ לֹא תַשִּׁיךְ לְמַעַן יְבָרֶכְךָ יְהוָה אֱלֹהֶיךָ בְּכֹל מִשְׁלַח יָדֶךָ עַל־הָאָרֶץ אֲשֶׁר־אַתָּה בָא־שָׁמָּה לְרִשְׁתָּֽהּ",
+          "source": {
+            "book": "דברים",
+            "chapter": 23,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Joshua said unto the children of Israel, How long are ye slack to go to possess the land, which the LORD God of your fathers hath given you?",
+          "4": "Give out from among you three men for each tribe: and I will send them, and they shall rise, and go through the land, and describe it according to the inheritance of them; and they shall come again to me."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־בְּנֵי יִשְׂרָאֵל עַד־אָנָה אַתֶּם מִתְרַפִּים לָבוֹא לָרֶשֶׁת אֶת־הָאָרֶץ אֲשֶׁר נָתַן לָכֶם יְהוָה אֱלֹהֵי אֲבֽוֹתֵיכֶֽם׃",
+          "4": "הָבוּ לָכֶם שְׁלֹשָׁה אֲנָשִׁים לַשָּׁבֶט וְאֶשְׁלָחֵם וְיָקֻמוּ וְיִֽתְהַלְּכוּ בָאָרֶץ וְיִכְתְּבוּ אוֹתָהּ לְפִי נַֽחֲלָתָם וְיָבֹאוּ אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-18-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 18,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the men arose, and went away: and Joshua charged them that went to describe the land, saying, Go and walk through the land, and describe it, and come again to me, that I may here cast lots for you before the LORD in Shiloh.",
+        "riddle": "Go and walk through the land, and describe it, and come again to me",
+        "speaker": "Joshua",
+        "listener": "men",
+        "book": "Joshua",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Gideon",
+            "Abimelech"
+          ],
+          "listener": [
+            "Israel",
+            "children",
+            "Philistines"
+          ]
+        },
+        "bonus": "Shiloh",
+        "bonus_hint": {
+          "quote": "And see, and, behold, if the daughters of Shiloh come out to dance in dances, then come ye out of the vineyards, and catch you every man his wife of the daughters of Shiloh, and go to the land of Benjamin.",
+          "source": {
+            "book": "Judges",
+            "chapter": 21,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּקֻמוּ הָאֲנָשִׁים וַיֵּלֵכוּ וַיְצַו יְהוֹשֻׁעַ אֶת־הַהֹלְכִים לִכְתֹּב אֶת־הָאָרֶץ לֵאמֹר לְכוּ וְהִתְהַלְּכוּ בָאָרֶץ וְכִתְבוּ אוֹתָהּ וְשׁוּבוּ אֵלַי וּפֹה אַשְׁלִיךְ לָכֶם גּוֹרָל לִפְנֵי יְהוָה בְּשִׁלֹֽה",
+        "riddle": "לְכוּ וְהִתְהַלְּכוּ בָאָרֶץ וְכִתְבוּ אוֹתָהּ וְשׁוּבוּ אֵלַי",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הָאֲנָשִׁים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "גִּדְעוֹן",
+            "אֲבִימֶלֶךְ"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים"
+          ]
+        },
+        "bonus": "לָכֶם",
+        "bonus_hint": {
+          "quote": "וּרְאִיתֶם וְהִנֵּה אִם־יֵצְאוּ בְנוֹת־שִׁילוֹ לָחוּל בַּמְּחֹלוֹת וִֽיצָאתֶם מִן־הַכְּרָמִים וַחֲטַפְתֶּם לָכֶם אִישׁ אִשְׁתּוֹ מִבְּנוֹת שִׁילוֹ וַהֲלַכְתֶּם אֶרֶץ בִּנְיָמִֽן",
+          "source": {
+            "book": "שופטים",
+            "chapter": 21,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the men arose, and went away: and Joshua charged them that went to describe the land, saying, Go and walk through the land, and describe it, and come again to me, that I may here cast lots for you before the LORD in Shiloh."
+        },
+        "he": {
+          "8": "וַיָּקֻמוּ הָאֲנָשִׁים וַיֵּלֵכוּ וַיְצַו יְהוֹשֻׁעַ אֶת־הַהֹלְכִים לִכְתֹּב אֶת־הָאָרֶץ לֵאמֹר לְכוּ וְהִתְהַלְּכוּ בָאָרֶץ וְכִתְבוּ אוֹתָהּ וְשׁוּבוּ אֵלַי וּפֹה אַשְׁלִיךְ לָכֶם גּוֹרָל לִפְנֵי יְהוָה בְּשִׁלֹֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 8,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

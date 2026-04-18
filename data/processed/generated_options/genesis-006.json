@@ -1,0 +1,103 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 6,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-06-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 6,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth. Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+        "riddle": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Balaam"
+          ],
+          "listener": [
+            "Joseph",
+            "Abraham",
+            "Jacob"
+          ]
+        },
+        "bonus": "earth",
+        "bonus_hint": {
+          "quote": "And all flesh died that moved upon the earth, both of fowl, and of cattle, and of beast, and of every creeping thing that creepeth upon the earth, and every man:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 7,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר",
+        "riddle": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "בָּשָׂר",
+        "bonus_hint": {
+          "quote": "וַיִּגְוַע כָּל־בָּשָׂר הָרֹמֵשׂ עַל־הָאָרֶץ בָּעוֹף וּבַבְּהֵמָה וּבַחַיָּה וּבְכָל־הַשֶּׁרֶץ הַשֹּׁרֵץ עַל־הָאָרֶץ וְכֹל הָאָדָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 7,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And God said unto Noah, The end of all flesh is come before me; for the earth is filled with violence through them; and, behold, I will destroy them with the earth.",
+          "14": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֱלֹהִים לְנֹחַ קֵץ כָּל־בָּשָׂר בָּא לְפָנַי כִּֽי־מָלְאָה הָאָרֶץ חָמָס מִפְּנֵיהֶם וְהִנְנִי מַשְׁחִיתָם אֶת־הָאָֽרֶץ׃",
+          "14": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 13,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

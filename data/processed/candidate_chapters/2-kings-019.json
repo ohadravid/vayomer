@@ -4,12 +4,775 @@
   "book_he": "מלכים ב",
   "chapter": 19,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-kings-19-03-03",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth.",
+        "riddle": "This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth.",
+        "speaker": "elders of the priests",
+        "listener": "Isaiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו כֹּה אָמַר חִזְקִיָּהוּ יוֹם־צָרָה וְתוֹכֵחָה וּנְאָצָה הַיּוֹם הַזֶּה כִּי בָאוּ בָנִים עַד־מַשְׁבֵּר וְכֹחַ אַיִן לְלֵדָֽה",
+        "riddle": "וַיֹּאמְרוּ אֵלָיו כֹּה אָמַר חִזְקִיָּהוּ יוֹם־צָרָה וְתוֹכֵחָה וּנְאָצָה הַיּוֹם הַזֶּה כִּי בָאוּ בָנִים עַד־מַשְׁבֵּר וְכֹחַ אַיִן לְלֵדָֽה",
+        "speaker": "זִקְנֵי הַכֹּֽהֲנִים",
+        "listener": "יְשַֽׁעְיָהוּ הַנָּבִיא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And he sent Eliakim, which was over the household, and Shebna the scribe, and the elders of the priests, covered with sackcloth, to Isaiah the prophet the son of Amoz.",
+          "3": "And they said unto him, Thus saith Hezekiah, This day is a day of trouble, and of rebuke, and blasphemy: for the children are come to the birth, and there is not strength to bring forth."
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח אֶת־אֶלְיָקִים אֲשֶׁר־עַל־הַבַּיִת וְשֶׁבְנָא הַסֹּפֵר וְאֵת זִקְנֵי הַכֹּֽהֲנִים מִתְכַּסִּים בַּשַּׂקִּים אֶל־יְשַֽׁעְיָהוּ הַנָּבִיא בֶּן־אָמֽוֹץ׃",
+          "3": "וַיֹּאמְרוּ אֵלָיו כֹּה אָמַר חִזְקִיָּהוּ יוֹם־צָרָה וְתוֹכֵחָה וּנְאָצָה הַיּוֹם הַזֶּה כִּי בָאוּ בָנִים עַד־מַשְׁבֵּר וְכֹחַ אַיִן לְלֵדָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report of speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-kings-19-06-06",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And Isaiah said unto them, Thus shall ye say to your master, Thus saith the LORD, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.",
+        "riddle": "Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.",
+        "speaker": "Isaiah",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם יְשַֽׁעְיָהוּ כֹּה תֹאמְרוּן אֶל־אֲדֹֽנֵיכֶם כֹּה אָמַר יְהוָה אַל־תִּירָא מִפְּנֵי הַדְּבָרִים אֲשֶׁר שָׁמַעְתָּ אֲשֶׁר גִּדְּפוּ נַעֲרֵי מֶֽלֶךְ־אַשּׁוּר אֹתִֽי",
+        "riddle": "כֹּה תֹאמְרוּן אֶל־אֲדֹֽנֵיכֶם כֹּה אָמַר יְהוָה אַל־תִּירָא מִפְּנֵי הַדְּבָרִים אֲשֶׁר שָׁמַעְתָּ אֲשֶׁר גִּדְּפוּ נַעֲרֵי מֶֽלֶךְ־אַשּׁוּר",
+        "speaker": "יְשַֽׁעְיָהוּ",
+        "listener": "עַבְדֵי הַמֶּלֶךְ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "So the servants of king Hezekiah came to Isaiah.",
+          "6": "And Isaiah said unto them, Thus shall ye say to your master, Thus saith the LORD, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me."
+        },
+        "he": {
+          "5": "וַיָּבֹאוּ עַבְדֵי הַמֶּלֶךְ חִזְקִיָּהוּ אֶל־יְשַֽׁעַיָֽהוּ׃",
+          "6": "וַיֹּאמֶר לָהֶם יְשַֽׁעְיָהוּ כֹּה תֹאמְרוּן אֶל־אֲדֹֽנֵיכֶם כֹּה ׀ אָמַר יְהוָה אַל־תִּירָא מִפְּנֵי הַדְּבָרִים אֲשֶׁר שָׁמַעְתָּ אֲשֶׁר גִּדְּפוּ נַעֲרֵי מֶֽלֶךְ־אַשּׁוּר אֹתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "2-kings-19-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 6
+      },
+      "en": {
+        "quote": "Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land.",
+        "riddle": "Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land.",
+        "speaker": "the LORD",
+        "listener": "king of Assyria",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הִנְנִי נֹתֵן בּוֹ רוּחַ וְשָׁמַע שְׁמוּעָה וְשָׁב לְאַרְצוֹ וְהִפַּלְתִּיו בַּחֶרֶב בְּאַרְצֽוֹ",
+        "riddle": "הִנְנִי נֹתֵן בּוֹ רוּחַ וְשָׁמַע שְׁמוּעָה וְשָׁב לְאַרְצוֹ וְהִפַּלְתִּיו בַּחֶרֶב בְּאַרְצֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֶֽלֶךְ־אַשּׁוּר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Isaiah said unto them, Thus shall ye say to your master, Thus saith the LORD, Be not afraid of the words which thou hast heard, with which the servants of the king of Assyria have blasphemed me.",
+          "7": "Behold, I will send a blast upon him, and he shall hear a rumour, and shall return to his own land; and I will cause him to fall by the sword in his own land."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר לָהֶם יְשַֽׁעְיָהוּ כֹּה תֹאמְרוּן אֶל־אֲדֹֽנֵיכֶם כֹּה ׀ אָמַר יְהוָה אַל־תִּירָא מִפְּנֵי הַדְּבָרִים אֲשֶׁר שָׁמַעְתָּ אֲשֶׁר גִּדְּפוּ נַעֲרֵי מֶֽלֶךְ־אַשּׁוּר אֹתִֽי׃",
+          "7": "הִנְנִי נֹתֵן בּוֹ רוּחַ וְשָׁמַע שְׁמוּעָה וְשָׁב לְאַרְצוֹ וְהִפַּלְתִּיו בַּחֶרֶב בְּאַרְצֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-kings-19-10-10",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+        "riddle": "Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+        "speaker": "messengers",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר",
+        "riddle": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר",
+        "speaker": "מַלְאָכִים",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And when he heard say of Tirhakah king of Ethiopia, Behold, he is come out to fight against thee: he sent messengers again unto Hezekiah, saying,",
+          "10": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria."
+        },
+        "he": {
+          "9": "וַיִּשְׁמַע אֶל־תִּרְהָקָה מֶֽלֶך־כּוּשׁ לֵאמֹר הִנֵּה יָצָא לְהִלָּחֵם אִתָּךְ וַיָּשָׁב וַיִּשְׁלַח מַלְאָכִים אֶל־חִזְקִיָּהוּ לֵאמֹֽר׃",
+          "10": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "2-kings-19-11-11",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shalt thou be delivered?",
+        "riddle": "Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shalt thou be delivered?",
+        "speaker": "messengers",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הִנֵּה אַתָּה שָׁמַעְתָּ אֵת אֲשֶׁר עָשׂוּ מַלְכֵי אַשּׁוּר לְכָל־הָאֲרָצוֹת לְהַֽחֲרִימָם וְאַתָּה תִּנָּצֵֽל",
+        "riddle": "הִנֵּה אַתָּה שָׁמַעְתָּ אֵת אֲשֶׁר עָשׂוּ מַלְכֵי אַשּׁוּר לְכָל־הָאֲרָצוֹת לְהַֽחֲרִימָם וְאַתָּה תִּנָּצֵֽל",
+        "speaker": "מַלְאָכִים",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And when he heard say of Tirhakah king of Ethiopia, Behold, he is come out to fight against thee: he sent messengers again unto Hezekiah, saying,",
+          "10": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+          "11": "Behold, thou hast heard what the kings of Assyria have done to all lands, by destroying them utterly: and shalt thou be delivered?"
+        },
+        "he": {
+          "9": "וַיִּשְׁמַע אֶל־תִּרְהָקָה מֶֽלֶך־כּוּשׁ לֵאמֹר הִנֵּה יָצָא לְהִלָּחֵם אִתָּךְ וַיָּשָׁב וַיִּשְׁלַח מַלְאָכִים אֶל־חִזְקִיָּהוּ לֵאמֹֽר׃",
+          "10": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר׃",
+          "11": "הִנֵּה ׀ אַתָּה שָׁמַעְתָּ אֵת אֲשֶׁר עָשׂוּ מַלְכֵי אַשּׁוּר לְכָל־הָאֲרָצוֹת לְהַֽחֲרִימָם וְאַתָּה תִּנָּצֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "2-kings-19-12-12",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Have the gods of the nations delivered them which my fathers have destroyed; as Gozan, and Haran, and Rezeph, and the children of Eden which were in Thelasar?",
+        "riddle": "Have the gods of the nations delivered them which my fathers have destroyed",
+        "speaker": "messengers",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הַהִצִּילוּ אֹתָם אֱלֹהֵי הַגּוֹיִם אֲשֶׁר שִׁחֲתוּ אֲבוֹתַי אֶת־גּוֹזָן וְאֶת־חָרָן וְרֶצֶף וּבְנֵי־עֶדֶן אֲשֶׁר בִּתְלַאשָּֽׂר",
+        "riddle": "הַהִצִּילוּ אֹתָם אֱלֹהֵי הַגּוֹיִם אֲשֶׁר שִׁחֲתוּ אֲבוֹתַי אֶת־גּוֹזָן וְאֶת־חָרָן וְרֶצֶף וּבְנֵי־עֶדֶן אֲשֶׁר בִּתְלַאשָּֽׂר",
+        "speaker": "מַלְאָכִים",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And when he heard say of Tirhakah king of Ethiopia, Behold, he is come out to fight against thee: he sent messengers again unto Hezekiah, saying,",
+          "10": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+          "12": "Have the gods of the nations delivered them which my fathers have destroyed; as Gozan, and Haran, and Rezeph, and the children of Eden which were in Thelasar?"
+        },
+        "he": {
+          "9": "וַיִּשְׁמַע אֶל־תִּרְהָקָה מֶֽלֶך־כּוּשׁ לֵאמֹר הִנֵּה יָצָא לְהִלָּחֵם אִתָּךְ וַיָּשָׁב וַיִּשְׁלַח מַלְאָכִים אֶל־חִזְקִיָּהוּ לֵאמֹֽר׃",
+          "10": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר׃",
+          "12": "הַהִצִּילוּ אֹתָם אֱלֹהֵי הַגּוֹיִם אֲשֶׁר שִׁחֲתוּ אֲבוֹתַי אֶת־גּוֹזָן וְאֶת־חָרָן וְרֶצֶף וּבְנֵי־עֶדֶן אֲשֶׁר בִּתְלַאשָּֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-kings-19-13-13",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivah?",
+        "riddle": "Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim",
+        "speaker": "messengers",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אַיּוֹ מֶֽלֶךְ־חֲמָת וּמֶלֶךְ אַרְפָּד וּמֶלֶךְ לָעִיר סְפַרְוָיִם הֵנַע וְעִוָּֽה",
+        "riddle": "אַיּוֹ מֶֽלֶךְ־חֲמָת וּמֶלֶךְ אַרְפָּד וּמֶלֶךְ לָעִיר סְפַרְוָיִם",
+        "speaker": "מַלְאָכִים",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And when he heard say of Tirhakah king of Ethiopia, Behold, he is come out to fight against thee: he sent messengers again unto Hezekiah, saying,",
+          "10": "Thus shall ye speak to Hezekiah king of Judah, saying, Let not thy God in whom thou trustest deceive thee, saying, Jerusalem shall not be delivered into the hand of the king of Assyria.",
+          "13": "Where is the king of Hamath, and the king of Arpad, and the king of the city of Sepharvaim, of Hena, and Ivah?"
+        },
+        "he": {
+          "9": "וַיִּשְׁמַע אֶל־תִּרְהָקָה מֶֽלֶך־כּוּשׁ לֵאמֹר הִנֵּה יָצָא לְהִלָּחֵם אִתָּךְ וַיָּשָׁב וַיִּשְׁלַח מַלְאָכִים אֶל־חִזְקִיָּהוּ לֵאמֹֽר׃",
+          "10": "כֹּה תֹאמְרוּן אֶל־חִזְקִיָּהוּ מֶֽלֶךְ־יְהוּדָה לֵאמֹר אַל־יַשִּׁאֲךָ אֱלֹהֶיךָ אֲשֶׁר אַתָּה בֹּטֵחַ בּוֹ לֵאמֹר לֹא תִנָּתֵן יְרוּשָׁלִַם בְּיַד מֶלֶךְ אַשּֽׁוּר׃",
+          "13": "אַיּוֹ מֶֽלֶךְ־חֲמָת וּמֶלֶךְ אַרְפָּד וּמֶלֶךְ לָעִיר סְפַרְוָיִם הֵנַע וְעִוָּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-kings-19-15-15",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Hezekiah prayed before the LORD, and said, O LORD God of Israel, which dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth: thou hast made heaven and earth.",
+        "riddle": "O LORD God of Israel, which dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth: thou hast made heaven and earth.",
+        "speaker": "Hezekiah",
+        "listener": "LORD",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּתְפַּלֵּל חִזְקִיָּהוּ לִפְנֵי יְהוָה וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל יֹשֵׁב הַכְּרֻבִים אַתָּה־הוּא הָֽאֱלֹהִים לְבַדְּךָ לְכֹל מַמְלְכוֹת הָאָרֶץ אַתָּה עָשִׂיתָ אֶת־הַשָּׁמַיִם וְאֶת־הָאָֽרֶץ",
+        "riddle": "וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל יֹשֵׁב הַכְּרֻבִים אַתָּה־הוּא הָֽאֱלֹהִים לְבַדְּךָ לְכֹל מַמְלְכוֹת הָאָרֶץ אַתָּה עָשִׂיתָ אֶת־הַשָּׁמַיִם וְאֶת־הָאָֽרֶץ",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְהוָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Hezekiah received the letter of the hand of the messengers, and read it: and Hezekiah went up into the house of the LORD, and spread it before the LORD.",
+          "15": "And Hezekiah prayed before the LORD, and said, O LORD God of Israel, which dwellest between the cherubims, thou art the God, even thou alone, of all the kingdoms of the earth: thou hast made heaven and earth."
+        },
+        "he": {
+          "14": "וַיִּקַּח חִזְקִיָּהוּ אֶת־הַסְּפָרִים מִיַּד הַמַּלְאָכִים וַיִּקְרָאֵם וַיַּעַל בֵּית יְהוָה וַיִּפְרְשֵׂהוּ חִזְקִיָּהוּ לִפְנֵי יְהוָֽה׃",
+          "15": "וַיִּתְפַּלֵּל חִזְקִיָּהוּ לִפְנֵי יְהוָה וַיֹּאמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל יֹשֵׁב הַכְּרֻבִים אַתָּה־הוּא הָֽאֱלֹהִים לְבַדְּךָ לְכֹל מַמְלְכוֹת הָאָרֶץ אַתָּה עָשִׂיתָ אֶת־הַשָּׁמַיִם וְאֶת־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-19-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "LORD, bow down thine ear, and hear: open, LORD, thine eyes, and see: and hear the words of Sennacherib, which hath sent him to reproach the living God.",
+        "riddle": "LORD, bow down thine ear, and hear: open, LORD, thine eyes, and see: and hear the words of Sennacherib",
+        "speaker": "Hezekiah",
+        "listener": "LORD",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הַטֵּה יְהוָה אָזְנְךָ וּֽשֲׁמָע פְּקַח יְהוָה עֵינֶיךָ וּרְאֵה וּשְׁמַע אֵת דִּבְרֵי סַנְחֵרִיב אֲשֶׁר שְׁלָחוֹ לְחָרֵף אֱלֹהִים חָֽי",
+        "riddle": "הַטֵּה יְהוָה אָזְנְךָ וּֽשֲׁמָע פְּקַח יְהוָה עֵינֶיךָ וּרְאֵה וּשְׁמַע אֵת דִּבְרֵי סַנְחֵרִיב אֲשֶׁר שְׁלָחוֹ לְחָרֵף אֱלֹהִים חָֽי",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְהוָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "LORD, bow down thine ear, and hear: open, LORD, thine eyes, and see: and hear the words of Sennacherib, which hath sent him to reproach the living God."
+        },
+        "he": {
+          "16": "הַטֵּה יְהוָה ׀ אָזְנְךָ וּֽשֲׁמָע פְּקַח יְהוָה עֵינֶיךָ וּרְאֵה וּשְׁמַע אֵת דִּבְרֵי סַנְחֵרִיב אֲשֶׁר שְׁלָחוֹ לְחָרֵף אֱלֹהִים חָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command in prayer",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-kings-19-19-19",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Now therefore, O LORD our God, I beseech thee, save thou us out of his hand, that all the kingdoms of the earth may know that thou art the LORD God, even thou only.",
+        "riddle": "save thou us out of his hand, that all the kingdoms of the earth may know that thou art the LORD God, even thou only",
+        "speaker": "Hezekiah",
+        "listener": "LORD God",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְעַתָּה יְהוָה אֱלֹהֵינוּ הוֹשִׁיעֵנוּ נָא מִיָּדוֹ וְיֵֽדְעוּ כָּל־מַמְלְכוֹת הָאָרֶץ כִּי אַתָּה יְהוָה אֱלֹהִים לְבַדֶּֽךָ",
+        "riddle": "וְעַתָּה יְהוָה אֱלֹהֵינוּ הוֹשִׁיעֵנוּ נָא מִיָּדוֹ וְיֵֽדְעוּ כָּל־מַמְלְכוֹת הָאָרֶץ כִּי אַתָּה יְהוָה אֱלֹהִים לְבַדֶּֽךָ",
+        "speaker": "חִזְקִיָּהוּ",
+        "listener": "יְהוָה אֱלֹהִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Now therefore, O LORD our God, I beseech thee, save thou us out of his hand, that all the kingdoms of the earth may know that thou art the LORD God, even thou only."
+        },
+        "he": {
+          "19": "וְעַתָּה יְהוָה אֱלֹהֵינוּ הוֹשִׁיעֵנוּ נָא מִיָּדוֹ וְיֵֽדְעוּ כָּל־מַמְלְכוֹת הָאָרֶץ כִּי אַתָּה יְהוָה אֱלֹהִים לְבַדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-kings-19-20-20",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith the LORD God of Israel, That which thou hast prayed to me against Sennacherib king of Assyria I have heard.",
+        "riddle": "That which thou hast prayed to me against Sennacherib king of Assyria I have heard",
+        "speaker": "LORD God",
+        "listener": "Hezekiah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח יְשַֽׁעְיָהוּ בֶן־אָמוֹץ אֶל־חִזְקִיָּהוּ לֵאמֹר כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶֽלֶךְ־אַשּׁוּר שָׁמָֽעְתִּי",
+        "riddle": "חִזְקִיָּהוּ לֵאמֹר כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶֽלֶךְ־אַשּׁוּר שָׁמָֽעְתִּי",
+        "speaker": "יְהוָה אֱלֹהֵי יִשְׂרָאֵל",
+        "listener": "חִזְקִיָּהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith the LORD God of Israel, That which thou hast prayed to me against Sennacherib king of Assyria I have heard."
+        },
+        "he": {
+          "20": "וַיִּשְׁלַח יְשַֽׁעְיָהוּ בֶן־אָמוֹץ אֶל־חִזְקִיָּהוּ לֵאמֹר כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶֽלֶךְ־אַשּׁוּר שָׁמָֽעְתִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-kings-19-21-21",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "This is the word that the LORD hath spoken concerning him; The virgin the daughter of Zion hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee.",
+        "riddle": "The virgin the daughter of Zion hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee",
+        "speaker": "LORD God",
+        "listener": "Sennacherib",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "זֶה הַדָּבָר אֲשֶׁר־דִּבֶּר יְהוָה עָלָיו בָּזָה לְךָ לָעֲגָה לְךָ בְּתוּלַת בַּת־צִיּוֹן אַחֲרֶיךָ רֹאשׁ הֵנִיעָה בַּת יְרוּשָׁלִָֽם",
+        "riddle": "זֶה הַדָּבָר אֲשֶׁר־דִּבֶּר יְהוָה עָלָיו בָּזָה לְךָ לָעֲגָה לְךָ בְּתוּלַת בַּת־צִיּוֹן אַחֲרֶיךָ רֹאשׁ הֵנִיעָה בַּת יְרוּשָׁלִָֽם",
+        "speaker": "יְהוָה",
+        "listener": "סַנְחֵרִב",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith the LORD God of Israel, That which thou hast prayed to me against Sennacherib king of Assyria I have heard.",
+          "21": "This is the word that the LORD hath spoken concerning him; The virgin the daughter of Zion hath despised thee, and laughed thee to scorn; the daughter of Jerusalem hath shaken her head at thee."
+        },
+        "he": {
+          "20": "וַיִּשְׁלַח יְשַֽׁעְיָהוּ בֶן־אָמוֹץ אֶל־חִזְקִיָּהוּ לֵאמֹר כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶֽלֶךְ־אַשּׁוּר שָׁמָֽעְתִּי׃",
+          "21": "זֶה הַדָּבָר אֲשֶׁר־דִּבֶּר יְהוָה עָלָיו בָּזָה לְךָ לָעֲגָה לְךָ בְּתוּלַת בַּת־צִיּוֹן אַחֲרֶיךָ רֹאשׁ הֵנִיעָה בַּת יְרוּשָׁלִָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic warning",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-kings-19-22-22",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel.",
+        "riddle": "Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel",
+        "speaker": "LORD God",
+        "listener": "Sennacherib",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אֶת־מִי חֵרַפְתָּ וְגִדַּפְתָּ וְעַל־מִי הֲרִימוֹתָ קּוֹל וַתִּשָּׂא מָרוֹם עֵינֶיךָ עַל־קְדוֹשׁ יִשְׂרָאֵֽל",
+        "riddle": "אֶת־מִי חֵרַפְתָּ וְגִדַּפְתָּ וְעַל־מִי הֲרִימוֹתָ קּוֹל וַתִּשָּׂא מָרוֹם עֵינֶיךָ עַל־קְדוֹשׁ יִשְׂרָאֵֽל",
+        "speaker": "יְהוָה אֱלֹהֵי יִשְׂרָאֵל",
+        "listener": "סַנְחֵרִב",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then Isaiah the son of Amoz sent to Hezekiah, saying, Thus saith the LORD God of Israel, That which thou hast prayed to me against Sennacherib king of Assyria I have heard.",
+          "22": "Whom hast thou reproached and blasphemed? and against whom hast thou exalted thy voice, and lifted up thine eyes on high? even against the Holy One of Israel."
+        },
+        "he": {
+          "20": "וַיִּשְׁלַח יְשַֽׁעְיָהוּ בֶן־אָמוֹץ אֶל־חִזְקִיָּהוּ לֵאמֹר כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר הִתְפַּלַּלְתָּ אֵלַי אֶל־סַנְחֵרִב מֶֽלֶךְ־אַשּׁוּר שָׁמָֽעְתִּי׃",
+          "22": "אֶת־מִי חֵרַפְתָּ וְגִדַּפְתָּ וְעַל־מִי הֲרִימוֹתָ קּוֹל וַתִּשָּׂא מָרוֹם עֵינֶיךָ עַל־קְדוֹשׁ יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-kings-19-23-23",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "By the messengers thou hast reproached the Lord, and hast said, With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar trees thereof, and the choice fir trees thereof: and I will enter into the lodgings of his borders, and into the forest of his Carmel.",
+        "riddle": "With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar trees thereof, and the choice fir trees thereof: and I will enter into the lodgings of his borders, and into the forest of his Carmel",
+        "speaker": "Sennacherib",
+        "listener": "the Lord",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "בְּיַד מַלְאָכֶיךָ חֵרַפְתָּ אֲדֹנָי וַתֹּאמֶר בְּרֹב רִכְבִּי אֲנִי עָלִיתִי מְרוֹם הָרִים יַרְכְּתֵי לְבָנוֹן וְאֶכְרֹת קוֹמַת אֲרָזָיו מִבְחוֹר בְּרֹשָׁיו וְאָבוֹאָה מְלוֹן קִצֹּה יַעַר כַּרְמִלּֽוֹ",
+        "riddle": "בְּרֹב רִכְבִּי אֲנִי עָלִיתִי מְרוֹם הָרִים יַרְכְּתֵי לְבָנוֹן וְאֶכְרֹת קוֹמַת אֲרָזָיו מִבְחוֹר בְּרֹשָׁיו וְאָבוֹאָה מְלוֹן קִצֹּה יַעַר כַּרְמִלּֽו",
+        "speaker": "סנחריב",
+        "listener": "אֲדֹנָי",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "By the messengers thou hast reproached the Lord, and hast said, With the multitude of my chariots I am come up to the height of the mountains, to the sides of Lebanon, and will cut down the tall cedar trees thereof, and the choice fir trees thereof: and I will enter into the lodgings of his borders, and into the forest of his Carmel."
+        },
+        "he": {
+          "23": "בְּיַד מַלְאָכֶיךָ חֵרַפְתָּ ׀ אֲדֹנָי וַתֹּאמֶר בְּרֹב רִכְבִּי אֲנִי עָלִיתִי מְרוֹם הָרִים יַרְכְּתֵי לְבָנוֹן וְאֶכְרֹת קוֹמַת אֲרָזָיו מִבְחוֹר בְּרֹשָׁיו וְאָבוֹאָה מְלוֹן קִצֹּה יַעַר כַּרְמִלּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "boastful speech",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-kings-19-24-24",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of besieged places.",
+        "riddle": "I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of besieged places",
+        "speaker": "Sennacherib",
+        "listener": "the Lord",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "אֲנִי קַרְתִּי וְשָׁתִיתִי מַיִם זָרִים וְאַחְרִב בְּכַף־פְּעָמַי כֹּל יְאֹרֵי מָצֽוֹר",
+        "riddle": "אֲנִי קַרְתִּי וְשָׁתִיתִי מַיִם זָרִים וְאַחְרִב בְּכַף־פְּעָמַי כֹּל יְאֹרֵי מָצֽוֹר",
+        "speaker": "סנחריב",
+        "listener": "יהוה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "I have digged and drunk strange waters, and with the sole of my feet have I dried up all the rivers of besieged places."
+        },
+        "he": {
+          "24": "אֲנִי קַרְתִּי וְשָׁתִיתִי מַיִם זָרִים וְאַחְרִב בְּכַף־פְּעָמַי כֹּל יְאֹרֵי מָצֽוֹר׃"
+        }
+      },
+      "meta": {
+        "reason": "boastful speech",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "2-kings-19-25-25-1",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps.",
+        "riddle": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps",
+        "speaker": "Sennacherib",
+        "listener": "the Lord",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיהָ עַתָּה הֲבֵיאתִיהָ וּתְהִי לַהְשׁוֹת גַּלִּים נִצִּים עָרִים בְּצֻרֽוֹת",
+        "riddle": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיהָ עַתָּה הֲבֵיאתִיהָ וּתְהִי לַהְשׁוֹת גַּלִּים נִצִּים עָרִים בְּצֻרֽוֹת",
+        "speaker": "סנחריב",
+        "listener": "יהוה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps."
+        },
+        "he": {
+          "25": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיהָ עַתָּה הֲבֵיאתִיהָ וּתְהִי לַהְשׁוֹת גַּלִּים נִצִּים עָרִים בְּצֻרֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "boastful question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-kings-19-25-25-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 19,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps.",
+        "riddle": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it?",
+        "speaker": "God",
+        "listener": "Sennacherib",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיהָ עַתָּה הֲבֵיאתִיהָ וּתְהִי לַהְשׁוֹת גַּלִּים נִצִּים עָרִים בְּצֻרֽוֹת",
+        "riddle": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיה",
+        "speaker": "אלוהים",
+        "listener": "רבשאה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Hast thou not heard long ago how I have done it, and of ancient times that I have formed it? now have I brought it to pass, that thou shouldest be to lay waste fenced cities into ruinous heaps."
+        },
+        "he": {
+          "25": "הֲלֹֽא־שָׁמַעְתָּ לְמֵֽרָחוֹק אֹתָהּ עָשִׂיתִי לְמִימֵי קֶדֶם וִֽיצַרְתִּיהָ עַתָּה הֲבֵיאתִיהָ וּתְהִי לַהְשׁוֹת גַּלִּים נִצִּים עָרִים בְּצֻרֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 19,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 22,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 22,
-    "kept_count": 0,
-    "issue_count": 22
+    "llm_window_count": 6,
+    "projection_llm_count": 18,
+    "llm_call_count": 24,
+    "spec_count": 18,
+    "kept_count": 17,
+    "issue_count": 2
   }
 }

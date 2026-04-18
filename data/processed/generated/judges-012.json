@@ -1,0 +1,87 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 12,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "judges-12-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire. And Jephthah said unto them, I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands.",
+        "riddle": "I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands.",
+        "speaker": "Jephthah",
+        "listener": "men of Ephraim",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "fight",
+        "bonus_hint": {
+          "quote": "And if so be that the king's wrath arise, and he say unto thee, Wherefore approached ye so nigh unto the city when ye did fight? knew ye not that they would shoot from the wall?",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 11,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּצָּעֵק אִישׁ אֶפְרַיִם וַֽיַּעֲבֹר צָפוֹנָה וַיֹּאמְרוּ לְיִפְתָּח מַדּוּעַ עָבַרְתָּ לְהִלָּחֵם בִּבְנֵי־עַמּוֹן וְלָנוּ לֹא קָרָאתָ לָלֶכֶת עִמָּךְ בֵּיתְךָ נִשְׂרֹף עָלֶיךָ בָּאֵֽשׁ וַיֹּאמֶר יִפְתָּח אֲלֵיהֶם אִישׁ רִיב הָיִיתִי אֲנִי וְעַמִּי וּבְנֵֽי־עַמּוֹן מְאֹד וָאֶזְעַק אֶתְכֶם וְלֹֽא־הוֹשַׁעְתֶּם אוֹתִי מִיָּדָֽם",
+        "riddle": "אִישׁ רִיב הָיִיתִי אֲנִי וְעַמִּי וּבְנֵֽי־עַמּוֹן מְאֹד וָאֶזְעַק אֶתְכֶם וְלֹֽא־הוֹשַׁעְתֶּם אוֹתִי מִיָּדָֽם",
+        "speaker": "יִפְתָּח",
+        "listener": "אַנְשֵׁי אֶפְרַיִם",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מַדּוּעַ",
+        "bonus_hint": {
+          "quote": "וְהָיָה אִֽם־תַּעֲלֶה חֲמַת הַמֶּלֶךְ וְאָמַר לְךָ מַדּוּעַ נִגַּשְׁתֶּם אֶל־הָעִיר לְהִלָּחֵם הֲלוֹא יְדַעְתֶּם אֵת אֲשֶׁר־יֹרוּ מֵעַל הַחוֹמָֽה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 11,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the men of Ephraim gathered themselves together, and went northward, and said unto Jephthah, Wherefore passedst thou over to fight against the children of Ammon, and didst not call us to go with thee? we will burn thine house upon thee with fire.",
+          "2": "And Jephthah said unto them, I and my people were at great strife with the children of Ammon; and when I called you, ye delivered me not out of their hands."
+        },
+        "he": {
+          "1": "וַיִּצָּעֵק אִישׁ אֶפְרַיִם וַֽיַּעֲבֹר צָפוֹנָה וַיֹּאמְרוּ לְיִפְתָּח מַדּוּעַ ׀ עָבַרְתָּ ׀ לְהִלָּחֵם בִּבְנֵי־עַמּוֹן וְלָנוּ לֹא קָרָאתָ לָלֶכֶת עִמָּךְ בֵּיתְךָ נִשְׂרֹף עָלֶיךָ בָּאֵֽשׁ׃",
+          "2": "וַיֹּאמֶר יִפְתָּח אֲלֵיהֶם אִישׁ רִיב הָיִיתִי אֲנִי וְעַמִּי וּבְנֵֽי־עַמּוֹן מְאֹד וָאֶזְעַק אֶתְכֶם וְלֹֽא־הוֹשַׁעְתֶּם אוֹתִי מִיָּדָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

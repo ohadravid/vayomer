@@ -1,0 +1,505 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-09-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 13,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me. For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth. For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+        "riddle": "I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Moses",
+            "angel of the LORD"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Joshua",
+            "Taskmasters"
+          ]
+        },
+        "bonus": "morning",
+        "bonus_hint": {
+          "quote": "And Moses stretched forth his rod over the land of Egypt, and the LORD brought an east wind upon the land all that day, and all that night; and when it was morning, the east wind brought the locusts.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי כִּי בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ",
+        "riddle": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ",
+        "speaker": "יְהוָה",
+        "listener": "פַרְעֹה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "מֹשֶׁה",
+            "מַלְאַךְ יְהוָה"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "יְהוֹשֻׁעַ",
+            "הַנֹּגְשִׂים"
+          ]
+        },
+        "bonus": "מֹשֶׁה",
+        "bonus_hint": {
+          "quote": "וַיֵּט מֹשֶׁה אֶת־מַטֵּהוּ עַל־אֶרֶץ מִצְרַיִם וַֽיהוָה נִהַג רֽוּחַ־קָדִים בָּאָרֶץ כָּל־הַיּוֹם הַהוּא וְכָל־הַלָּיְלָה הַבֹּקֶר הָיָה וְרוּחַ הַקָּדִים נָשָׂא אֶת־הָאַרְבֶּֽה",
+          "source": {
+            "book": "שמות",
+            "chapter": 10,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.",
+          "14": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth.",
+          "15": "For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי׃",
+          "14": "כִּי ׀ בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ׃",
+          "15": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 13,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-09-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 13,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me. For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth. For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth. And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth. As yet exaltest thou thyself against my people, that thou wilt not let them go?",
+        "riddle": "As yet exaltest thou thyself against my people, that thou wilt not let them go?",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Balak",
+            "Joshua"
+          ]
+        },
+        "bonus": "Moses",
+        "bonus_hint": {
+          "quote": "And the child grew, and she brought him unto Pharaoh's daughter, and he became her son. And she called his name Moses: and she said, Because I drew him out of the water.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 2,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי כִּי בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ וְאוּלָם בַּעֲבוּר זֹאת הֶעֱמַדְתִּיךָ בַּעֲבוּר הַרְאֹתְךָ אֶת־כֹּחִי וּלְמַעַן סַפֵּר שְׁמִי בְּכָל־הָאָֽרֶץ עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם",
+        "riddle": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם",
+        "speaker": "יְהוָה",
+        "listener": "פַרְעֹה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "בָּלָק",
+            "יְהוֹשֻׁעַ"
+          ]
+        },
+        "bonus": "מֹשֶׁה",
+        "bonus_hint": {
+          "quote": "וַיִגְדַּל הַיֶּלֶד וַתְּבִאֵהוּ לְבַת־פַּרְעֹה וַֽיְהִי־לָהּ לְבֵן וַתִּקְרָא שְׁמוֹ מֹשֶׁה וַתֹּאמֶר כִּי מִן־הַמַּיִם מְשִׁיתִֽהוּ",
+          "source": {
+            "book": "שמות",
+            "chapter": 2,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.",
+          "14": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth.",
+          "15": "For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+          "16": "And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth.",
+          "17": "As yet exaltest thou thyself against my people, that thou wilt not let them go?"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי׃",
+          "14": "כִּי ׀ בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ׃",
+          "15": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ׃",
+          "16": "וְאוּלָם בַּעֲבוּר זֹאת הֶעֱמַדְתִּיךָ בַּעֲבוּר הַרְאֹתְךָ אֶת־כֹּחִי וּלְמַעַן סַפֵּר שְׁמִי בְּכָל־הָאָֽרֶץ׃",
+          "17": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 13,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-09-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 13,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me. For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth. For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth. And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth. As yet exaltest thou thyself against my people, that thou wilt not let them go? Behold, to morrow about this time I will cause it to rain a very grievous hail, such as hath not been in Egypt since the foundation thereof even until now.",
+        "riddle": "Behold, to morrow about this time I will cause it to rain a very grievous hail",
+        "speaker": "God",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Aaron"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Joshua",
+            "Balaam"
+          ]
+        },
+        "bonus": "morning",
+        "bonus_hint": {
+          "quote": "And the Philistine drew near morning and evening, and presented himself forty days.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי כִּי בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ וְאוּלָם בַּעֲבוּר זֹאת הֶעֱמַדְתִּיךָ בַּעֲבוּר הַרְאֹתְךָ אֶת־כֹּחִי וּלְמַעַן סַפֵּר שְׁמִי בְּכָל־הָאָֽרֶץ עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּמִצְרַיִם לְמִן־הַיּוֹם הִוָּסְדָה וְעַד־עָֽתָּה",
+        "riddle": "הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "הַשְׁכֵּם",
+        "bonus_hint": {
+          "quote": "וַיִּגַּשׁ הַפְּלִשְׁתִּי הַשְׁכֵּם וְהַעֲרֵב וַיִּתְיַצֵּב אַרְבָּעִים יֽוֹם",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the LORD said unto Moses, Rise up early in the morning, and stand before Pharaoh, and say unto him, Thus saith the LORD God of the Hebrews, Let my people go, that they may serve me.",
+          "14": "For I will at this time send all my plagues upon thine heart, and upon thy servants, and upon thy people; that thou mayest know that there is none like me in all the earth.",
+          "15": "For now I will stretch out my hand, that I may smite thee and thy people with pestilence; and thou shalt be cut off from the earth.",
+          "16": "And in very deed for this cause have I raised thee up, for to shew in thee my power; and that my name may be declared throughout all the earth.",
+          "17": "As yet exaltest thou thyself against my people, that thou wilt not let them go?",
+          "18": "Behold, to morrow about this time I will cause it to rain a very grievous hail, such as hath not been in Egypt since the foundation thereof even until now."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה הַשְׁכֵּם בַּבֹּקֶר וְהִתְיַצֵּב לִפְנֵי פַרְעֹה וְאָמַרְתָּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי הָֽעִבְרִים שַׁלַּח אֶת־עַמִּי וְיַֽעַבְדֻֽנִי׃",
+          "14": "כִּי ׀ בַּפַּעַם הַזֹּאת אֲנִי שֹׁלֵחַ אֶת־כָּל־מַגֵּפֹתַי אֶֽל־לִבְּךָ וּבַעֲבָדֶיךָ וּבְעַמֶּךָ בַּעֲבוּר תֵּדַע כִּי אֵין כָּמֹנִי בְּכָל־הָאָֽרֶץ׃",
+          "15": "כִּי עַתָּה שָׁלַחְתִּי אֶת־יָדִי וָאַךְ אוֹתְךָ וְאֶֽת־עַמְּךָ בַּדָּבֶר וַתִּכָּחֵד מִן־הָאָֽרֶץ׃",
+          "16": "וְאוּלָם בַּעֲבוּר זֹאת הֶעֱמַדְתִּיךָ בַּעֲבוּר הַרְאֹתְךָ אֶת־כֹּחִי וּלְמַעַן סַפֵּר שְׁמִי בְּכָל־הָאָֽרֶץ׃",
+          "17": "עוֹדְךָ מִסְתּוֹלֵל בְּעַמִּי לְבִלְתִּי שַׁלְּחָֽם׃",
+          "18": "הִנְנִי מַמְטִיר כָּעֵת מָחָר בָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹא־הָיָה כָמֹהוּ בְּמִצְרַיִם לְמִן־הַיּוֹם הִוָּסְדָה וְעַד־עָֽתָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 13,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-09-28-28",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 23,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Moses stretched forth his rod toward heaven: and the LORD sent thunder and hail, and the fire ran along upon the ground; and the LORD rained hail upon the land of Egypt. So there was hail, and fire mingled with the hail, very grievous, such as there was none like it in all the land of Egypt since it became a nation. And the hail smote throughout all the land of Egypt all that was in the field, both man and beast; and the hail smote every herb of the field, and brake every tree of the field. Only in the land of Goshen, where the children of Israel were, was there no hail. And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked. Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer. And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; and the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth is the LORD's.",
+        "riddle": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Jacob"
+          ]
+        },
+        "bonus": "thunder",
+        "bonus_hint": {
+          "quote": "Thou shalt be visited of the LORD of hosts with thunder, and with earthquake, and great noise, with storm and tempest, and the flame of devouring fire.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 29,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּט מֹשֶׁה אֶת־מַטֵּהוּ עַל־הַשָּׁמַיִם וַֽיהוָה נָתַן קֹלֹת וּבָרָד וַתִּהֲלַךְ אֵשׁ אָרְצָה וַיַּמְטֵר יְהוָה בָּרָד עַל־אֶרֶץ מִצְרָֽיִם וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹֽא־הָיָה כָמֹהוּ בְּכָל־אֶרֶץ מִצְרַיִם מֵאָז הָיְתָה לְגֽוֹי וַיַּךְ הַבָּרָד בְּכָל־אֶרֶץ מִצְרַיִם אֵת כָּל־אֲשֶׁר בַּשָּׂדֶה מֵאָדָם וְעַד־בְּהֵמָה וְאֵת כָּל־עֵשֶׂב הַשָּׂדֶה הִכָּה הַבָּרָד וְאֶת־כָּל־עֵץ הַשָּׂדֶה שִׁבֵּֽר רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָֽד וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד וַיֹּאמֶר אֵלָיו מֹשֶׁה כְּצֵאתִי אֶת־הָעִיר אֶפְרֹשׂ אֶת־כַּפַּי אֶל־יְהוָה הַקֹּלוֹת יֶחְדָּלוּן וְהַבָּרָד לֹא יִֽהְיֶה־עוֹד לְמַעַן תֵּדַע כִּי לַיהוָה הָאָֽרֶץ",
+        "riddle": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "אֵשׁ",
+        "bonus_hint": {
+          "quote": "מֵעִם יְהוָה צְבָאוֹת תִּפָּקֵד בְּרַעַם וּבְרַעַשׁ וְקוֹל גָּדוֹל סוּפָה וּסְעָרָה וְלַהַב אֵשׁ אוֹכֵלָֽה",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 29,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Moses stretched forth his rod toward heaven: and the LORD sent thunder and hail, and the fire ran along upon the ground; and the LORD rained hail upon the land of Egypt.",
+          "24": "So there was hail, and fire mingled with the hail, very grievous, such as there was none like it in all the land of Egypt since it became a nation.",
+          "25": "And the hail smote throughout all the land of Egypt all that was in the field, both man and beast; and the hail smote every herb of the field, and brake every tree of the field.",
+          "26": "Only in the land of Goshen, where the children of Israel were, was there no hail.",
+          "27": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+          "28": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer.",
+          "29": "And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; and the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth is the LORD's."
+        },
+        "he": {
+          "23": "וַיֵּט מֹשֶׁה אֶת־מַטֵּהוּ עַל־הַשָּׁמַיִם וַֽיהוָה נָתַן קֹלֹת וּבָרָד וַתִּהֲלַךְ אֵשׁ אָרְצָה וַיַּמְטֵר יְהוָה בָּרָד עַל־אֶרֶץ מִצְרָֽיִם׃",
+          "24": "וַיְהִי בָרָד וְאֵשׁ מִתְלַקַּחַת בְּתוֹךְ הַבָּרָד כָּבֵד מְאֹד אֲשֶׁר לֹֽא־הָיָה כָמֹהוּ בְּכָל־אֶרֶץ מִצְרַיִם מֵאָז הָיְתָה לְגֽוֹי׃",
+          "25": "וַיַּךְ הַבָּרָד בְּכָל־אֶרֶץ מִצְרַיִם אֵת כָּל־אֲשֶׁר בַּשָּׂדֶה מֵאָדָם וְעַד־בְּהֵמָה וְאֵת כָּל־עֵשֶׂב הַשָּׂדֶה הִכָּה הַבָּרָד וְאֶת־כָּל־עֵץ הַשָּׂדֶה שִׁבֵּֽר׃",
+          "26": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָֽד׃",
+          "27": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים׃",
+          "28": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד׃",
+          "29": "וַיֹּאמֶר אֵלָיו מֹשֶׁה כְּצֵאתִי אֶת־הָעִיר אֶפְרֹשׂ אֶת־כַּפַּי אֶל־יְהוָה הַקֹּלוֹת יֶחְדָּלוּן וְהַבָּרָד לֹא יִֽהְיֶה־עוֹד לְמַעַן תֵּדַע כִּי לַיהוָה הָאָֽרֶץ׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 23,
+        "end": 29
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-09-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 9,
+        "quote_verse_start": 26,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "Only in the land of Goshen, where the children of Israel were, was there no hail. And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked. Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer. And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; and the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth is the LORD's. But as for thee and thy servants, I know that ye will not yet fear the LORD God.",
+        "riddle": "But as for thee and thy servants, I know that ye will not yet fear the LORD God.",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Aaron",
+            "Balaam"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Joshua",
+            "Taskmasters"
+          ]
+        },
+        "bonus": "Goshen",
+        "bonus_hint": {
+          "quote": "And all the house of Joseph, and his brethren, and his father's house: only their little ones, and their flocks, and their herds, they left in the land of Goshen.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 50,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָֽד וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד וַיֹּאמֶר אֵלָיו מֹשֶׁה כְּצֵאתִי אֶת־הָעִיר אֶפְרֹשׂ אֶת־כַּפַּי אֶל־יְהוָה הַקֹּלוֹת יֶחְדָּלוּן וְהַבָּרָד לֹא יִֽהְיֶה־עוֹד לְמַעַן תֵּדַע כִּי לַיהוָה הָאָֽרֶץ וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים",
+        "riddle": "וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "יְהוֹשֻׁעַ",
+            "הַנֹּגְשִׂים"
+          ]
+        },
+        "bonus": "רַק",
+        "bonus_hint": {
+          "quote": "וְכֹל בֵּית יוֹסֵף וְאֶחָיו וּבֵית אָבִיו רַק טַפָּם וְצֹאנָם וּבְקָרָם עָזְבוּ בְּאֶרֶץ גֹּֽשֶׁן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 50,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Only in the land of Goshen, where the children of Israel were, was there no hail.",
+          "27": "And Pharaoh sent, and called for Moses and Aaron, and said unto them, I have sinned this time: the LORD is righteous, and I and my people are wicked.",
+          "28": "Intreat the LORD (for it is enough) that there be no more mighty thunderings and hail; and I will let you go, and ye shall stay no longer.",
+          "29": "And Moses said unto him, As soon as I am gone out of the city, I will spread abroad my hands unto the LORD; and the thunder shall cease, neither shall there be any more hail; that thou mayest know how that the earth is the LORD's.",
+          "30": "But as for thee and thy servants, I know that ye will not yet fear the LORD God."
+        },
+        "he": {
+          "26": "רַק בְּאֶרֶץ גֹּשֶׁן אֲשֶׁר־שָׁם בְּנֵי יִשְׂרָאֵל לֹא הָיָה בָּרָֽד׃",
+          "27": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא לְמֹשֶׁה וּֽלְאַהֲרֹן וַיֹּאמֶר אֲלֵהֶם חָטָאתִי הַפָּעַם יְהוָה הַצַּדִּיק וַאֲנִי וְעַמִּי הָרְשָׁעִֽים׃",
+          "28": "הַעְתִּירוּ אֶל־יְהוָה וְרַב מִֽהְיֹת קֹלֹת אֱלֹהִים וּבָרָד וַאֲשַׁלְּחָה אֶתְכֶם וְלֹא תֹסִפוּן לַעֲמֹֽד׃",
+          "29": "וַיֹּאמֶר אֵלָיו מֹשֶׁה כְּצֵאתִי אֶת־הָעִיר אֶפְרֹשׂ אֶת־כַּפַּי אֶל־יְהוָה הַקֹּלוֹת יֶחְדָּלוּן וְהַבָּרָד לֹא יִֽהְיֶה־עוֹד לְמַעַן תֵּדַע כִּי לַיהוָה הָאָֽרֶץ׃",
+          "30": "וְאַתָּה וַעֲבָדֶיךָ יָדַעְתִּי כִּי טֶרֶם תִּֽירְאוּן מִפְּנֵי יְהוָה אֱלֹהִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 26,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 36,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-36-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 36,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And Moses commanded the children of Israel according to the word of the LORD, saying, The tribe of the sons of Joseph hath said well.",
+        "riddle": "The tribe of the sons of Joseph hath said well.",
+        "speaker": "Moses",
+        "listener": "children of Israel",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ],
+          "listener": [
+            "Reuben and Gad",
+            "Korah and his company",
+            "congregation"
+          ]
+        },
+        "bonus": "word",
+        "bonus_hint": {
+          "quote": "And Moses numbered them according to the word of the LORD, as he was commanded.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 3,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְצַו מֹשֶׁה אֶת־בְּנֵי יִשְׂרָאֵל עַל־פִּי יְהוָה לֵאמֹר כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים",
+        "riddle": "כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "קֹרַח ועדתו",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "פִּי",
+        "bonus_hint": {
+          "quote": "וַיִּפְקֹד אֹתָם מֹשֶׁה עַל־פִּי יְהוָה כַּאֲשֶׁר צֻוָּֽה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 3,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Moses commanded the children of Israel according to the word of the LORD, saying, The tribe of the sons of Joseph hath said well."
+        },
+        "he": {
+          "5": "וַיְצַו מֹשֶׁה אֶת־בְּנֵי יִשְׂרָאֵל עַל־פִּי יְהוָה לֵאמֹר כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 36,
+        "start": 5,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

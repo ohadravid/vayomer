@@ -6,6 +6,164 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-06-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the ark of the LORD was in the country of the Philistines seven months. And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place.",
+        "riddle": "What shall we do to the ark of the LORD?",
+        "speaker": "Philistines",
+        "listener": "priests and diviners",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "seven",
+        "bonus_hint": {
+          "quote": "And the seven years of dearth began to come, according as Joseph had said: and the dearth was in all lands; but in all the land of Egypt there was bread.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 54,
+            "end": 54
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אֲרוֹן־יְהוָה בִּשְׂדֵה פְלִשְׁתִּים שִׁבְעָה חֳדָשִֽׁים וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ",
+        "riddle": "מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ",
+        "speaker": "פְלִשְׁתִּים",
+        "listener": "כֹּהֲנִים וְלַקֹּֽסְמִים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַתְּחִלֶּינָה שֶׁבַע שְׁנֵי הָרָעָב לָבוֹא כַּאֲשֶׁר אָמַר יוֹסֵף וַיְהִי רָעָב בְּכָל־הָאֲרָצוֹת וּבְכָל־אֶרֶץ מִצְרַיִם הָיָה לָֽחֶם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 41,
+            "start": 54,
+            "end": 54
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the ark of the LORD was in the country of the Philistines seven months.",
+          "2": "And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place."
+        },
+        "he": {
+          "1": "וַיְהִי אֲרוֹן־יְהוָה בִּשְׂדֵה פְלִשְׁתִּים שִׁבְעָה חֳדָשִֽׁים׃",
+          "2": "וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-06-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the ark of the LORD was in the country of the Philistines seven months. And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place. And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you.",
+        "riddle": "If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering",
+        "speaker": "priests and diviners",
+        "listener": "Philistines",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "And it came to pass, when she travailed, that the one put out his hand: and the midwife took and bound upon his hand a scarlet thread, saying, This came out first,",
+          "source": {
+            "book": "Genesis",
+            "chapter": 38,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי אֲרוֹן־יְהוָה בִּשְׂדֵה פְלִשְׁתִּים שִׁבְעָה חֳדָשִֽׁים וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ וַיֹּאמְרוּ אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם",
+        "riddle": "אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם",
+        "speaker": "כֹּהֲנִים וְלַקֹּֽסְמִים",
+        "listener": "פְלִשְׁתִּים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי בְלִדְתָּהּ וַיִּתֶּן־יָד וַתִּקַּח הַמְיַלֶּדֶת וַתִּקְשֹׁר עַל־יָדוֹ שָׁנִי לֵאמֹר זֶה יָצָא רִאשֹׁנָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 38,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the ark of the LORD was in the country of the Philistines seven months.",
+          "2": "And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place.",
+          "3": "And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you."
+        },
+        "he": {
+          "1": "וַיְהִי אֲרוֹן־יְהוָה בִּשְׂדֵה פְלִשְׁתִּים שִׁבְעָה חֳדָשִֽׁים׃",
+          "2": "וַיִּקְרְאוּ פְלִשְׁתִּים לַכֹּהֲנִים וְלַקֹּֽסְמִים לֵאמֹר מַֽה־נַּעֲשֶׂה לַאֲרוֹן יְהוָה הוֹדִעֻנוּ בַּמֶּה נְשַׁלְּחֶנּוּ לִמְקוֹמֽוֹ׃",
+          "3": "וַיֹּאמְרוּ אִֽם־מְשַׁלְּחִים אֶת־אֲרוֹן אֱלֹהֵי יִשְׂרָאֵל אַל־תְּשַׁלְּחוּ אֹתוֹ רֵיקָם כִּֽי־הָשֵׁב תָּשִׁיבוּ לוֹ אָשָׁם אָז תֵּרָֽפְאוּ וְנוֹדַע לָכֶם לָמָּה לֹא־תָסוּר יָדוֹ מִכֶּֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "1-samuel-06-04-04",
       "source": {
         "method": "llm",
@@ -14,7 +172,9 @@
         "book_he": "שמואל א",
         "chapter": 6,
         "quote_verse_start": 1,
-        "quote_verse_end": 4
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 3
       },
       "en": {
         "quote": "And the ark of the LORD was in the country of the Philistines seven months. And the Philistines called for the priests and the diviners, saying, What shall we do to the ark of the LORD? tell us wherewith we shall send it to his place. And they said, If ye send away the ark of the God of Israel, send it not empty; but in any wise return him a trespass offering: then ye shall be healed, and it shall be known to you why his hand is not removed from you. Then said they, What shall be the trespass offering which we shall return to him? They answered, Five golden emerods, and five golden mice, according to the number of the lords of the Philistines: for one plague was on you all, and on your lords.",
@@ -28,12 +188,12 @@
         },
         "bonus": "ark",
         "bonus_hint": {
-          "quote": "And they shall make an ark of shittim wood: two cubits and a half shall be the length thereof, and a cubit and a half the breadth thereof, and a cubit and a half the height thereof.",
+          "quote": "And it came to pass, when the ark set forward, that Moses said, Rise up, LORD, and let thine enemies be scattered; and let them that hate thee flee before thee.",
           "source": {
-            "book": "Exodus",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
+            "book": "Numbers",
+            "chapter": 10,
+            "start": 35,
+            "end": 35
           }
         }
       },
@@ -47,14 +207,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "אֲרוֹן",
+        "bonus": "וַיְהִי",
         "bonus_hint": {
-          "quote": "וְעָשׂוּ אֲרוֹן עֲצֵי שִׁטִּים אַמָּתַיִם וָחֵצִי אָרְכּוֹ וְאַמָּה וָחֵצִי רָחְבּוֹ וְאַמָּה וָחֵצִי קֹמָתֽוֹ",
+          "quote": "וַיְהִי בִּנְסֹעַ הָאָרֹן וַיֹּאמֶר מֹשֶׁה קוּמָה יְהוָה וְיָפֻצוּ אֹֽיְבֶיךָ וְיָנֻסוּ מְשַׂנְאֶיךָ מִפָּנֶֽיךָ",
           "source": {
-            "book": "שמות",
-            "chapter": 25,
-            "start": 10,
-            "end": 10
+            "book": "במדבר",
+            "chapter": 10,
+            "start": 35,
+            "end": 35
           }
         }
       },
@@ -76,6 +236,82 @@
         "chapter": 6,
         "start": 1,
         "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-06-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 6,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And they sent messengers to the inhabitants of Kirjath-jearim, saying, The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.",
+        "riddle": "The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you.",
+        "speaker": "messengers",
+        "listener": "inhabitants of Kirjath-jearim",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sent",
+        "bonus_hint": {
+          "quote": "And the tribes of Israel sent men through all the tribe of Benjamin, saying, What wickedness is this that is done among you?",
+          "source": {
+            "book": "Judges",
+            "chapter": 20,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיִּשְׁלְחוּ מַלְאָכִים אֶל־יוֹשְׁבֵי קִרְיַת־יְעָרִים לֵאמֹר הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם",
+        "riddle": "הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם",
+        "speaker": "מַלְאָכִים",
+        "listener": "יוֹשְׁבֵי קִרְיַת־יְעָרִים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַֽיִּשְׁלְחוּ",
+        "bonus_hint": {
+          "quote": "וַֽיִּשְׁלְחוּ שִׁבְטֵי יִשְׂרָאֵל אֲנָשִׁים בְּכָל־שִׁבְטֵי בִנְיָמִן לֵאמֹר מָה הָרָעָה הַזֹּאת אֲשֶׁר נִהְיְתָה בָּכֶֽם",
+          "source": {
+            "book": "שופטים",
+            "chapter": 20,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And they sent messengers to the inhabitants of Kirjath-jearim, saying, The Philistines have brought again the ark of the LORD; come ye down, and fetch it up to you."
+        },
+        "he": {
+          "21": "וַֽיִּשְׁלְחוּ מַלְאָכִים אֶל־יוֹשְׁבֵי קִרְיַת־יְעָרִים לֵאמֹר הֵשִׁבוּ פְלִשְׁתִּים אֶת־אֲרוֹן יְהוָה רְדוּ הַעֲלוּ אֹתוֹ אֲלֵיכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 6,
+        "start": 21,
+        "end": 21
       },
       "meta": {
         "mode": "llm",

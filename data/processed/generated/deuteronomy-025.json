@@ -1,0 +1,85 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 25,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "deuteronomy-25-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 25,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And if the man like not to take his brother's wife, then let his brother's wife go up to the gate unto the elders, and say, My husband's brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband's brother. Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;",
+        "riddle": "I like not to take her",
+        "speaker": "man",
+        "listener": "elders",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "wife",
+        "bonus_hint": {
+          "quote": "Now therefore restore the man his wife; for he is a prophet, and he shall pray for thee, and thou shalt live: and if thou restore her not, know thou that thou shalt surely die, thou, and all that are thine.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאִם־לֹא יַחְפֹּץ הָאִישׁ לָקַחַת אֶת־יְבִמְתּוֹ וְעָלְתָה יְבִמְתּוֹ הַשַּׁעְרָה אֶל־הַזְּקֵנִים וְאָֽמְרָה מֵאֵין יְבָמִי לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל לֹא אָבָה יַבְּמִֽי וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ",
+        "riddle": "לֹא חָפַצְתִּי לְקַחְתָּֽה",
+        "speaker": "אִישׁ",
+        "listener": "זִקְנֵי־עִירוֹ",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְאִם",
+        "bonus_hint": {
+          "quote": "וְעַתָּה הָשֵׁב אֵֽשֶׁת־הָאִישׁ כִּֽי־נָבִיא הוּא וְיִתְפַּלֵּל בַּֽעַדְךָ וֶֽחְיֵה וְאִם־אֵֽינְךָ מֵשִׁיב דַּע כִּי־מוֹת תָּמוּת אַתָּה וְכָל־אֲשֶׁר־לָֽךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And if the man like not to take his brother's wife, then let his brother's wife go up to the gate unto the elders, and say, My husband's brother refuseth to raise up unto his brother a name in Israel, he will not perform the duty of my husband's brother.",
+          "8": "Then the elders of his city shall call him, and speak unto him: and if he stand to it, and say, I like not to take her;"
+        },
+        "he": {
+          "7": "וְאִם־לֹא יַחְפֹּץ הָאִישׁ לָקַחַת אֶת־יְבִמְתּוֹ וְעָלְתָה יְבִמְתּוֹ הַשַּׁעְרָה אֶל־הַזְּקֵנִים וְאָֽמְרָה מֵאֵין יְבָמִי לְהָקִים לְאָחִיו שֵׁם בְּיִשְׂרָאֵל לֹא אָבָה יַבְּמִֽי׃",
+          "8": "וְקָֽרְאוּ־לוֹ זִקְנֵי־עִירוֹ וְדִבְּרוּ אֵלָיו וְעָמַד וְאָמַר לֹא חָפַצְתִּי לְקַחְתָּֽהּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

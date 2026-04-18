@@ -13,20 +13,22 @@
         "book_he": "שמואל א",
         "chapter": 13,
         "quote_verse_start": 9,
-        "quote_verse_end": 9
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
       },
       "en": {
         "quote": "And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering.",
-        "riddle": "Bring hither a burnt offering to me, and peace",
+        "riddle": "Bring hither a burnt offering to me, and peace offerings.",
         "speaker": "Saul",
-        "listener": "servants",
+        "listener": "people",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה",
         "riddle": "הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים",
         "speaker": "שָׁאוּל",
-        "listener": "עבדים",
+        "listener": "עַם",
         "book": "שמואל א"
       },
       "raw_quote_source": {
@@ -38,57 +40,13 @@
         }
       },
       "meta": {
-        "reason": "Contains direct command",
-        "confidence": 0.9
+        "reason": "direct command",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 13,
         "start": 9,
         "end": 9
-      }
-    },
-    {
-      "id": "1-samuel-13-09-10",
-      "source": {
-        "book_code": "1SA",
-        "book": "1 Samuel",
-        "book_he": "שמואל א",
-        "chapter": 13,
-        "quote_verse_start": 9,
-        "quote_verse_end": 10
-      },
-      "en": {
-        "quote": "And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering. And it came to pass, that as soon as he had made an end of offering the burnt offering, behold, Samuel came; and Saul went out to meet him, that he might salute him.",
-        "riddle": "And Saul said, Bring hither a burnt offering to me",
-        "speaker": "Saul",
-        "listener": "servants",
-        "book": "1 Samuel"
-      },
-      "he": {
-        "quote": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה וַיְהִי כְּכַלֹּתוֹ לְהַעֲלוֹת הָעֹלָה וְהִנֵּה שְׁמוּאֵל בָּא וַיֵּצֵא שָׁאוּל לִקְרָאתוֹ לְבָרֲכֽוֹ",
-        "riddle": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל",
-        "speaker": "שָׁאוּל",
-        "listener": "עבדים",
-        "book": "שמואל א"
-      },
-      "raw_quote_source": {
-        "en": {
-          "9": "And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering.",
-          "10": "And it came to pass, that as soon as he had made an end of offering the burnt offering, behold, Samuel came; and Saul went out to meet him, that he might salute him."
-        },
-        "he": {
-          "9": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה׃",
-          "10": "וַיְהִי כְּכַלֹּתוֹ לְהַעֲלוֹת הָעֹלָה וְהִנֵּה שְׁמוּאֵל בָּא וַיֵּצֵא שָׁאוּל לִקְרָאתוֹ לְבָרֲכֽוֹ׃"
-        }
-      },
-      "meta": {
-        "reason": "Contains direct command",
-        "confidence": 0.9
-      },
-      "ref": {
-        "chapter": 13,
-        "start": 9,
-        "end": 10
       }
     },
     {
@@ -99,7 +57,9 @@
         "book_he": "שמואל א",
         "chapter": 13,
         "quote_verse_start": 11,
-        "quote_verse_end": 11
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
       },
       "en": {
         "quote": "And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash;",
@@ -124,21 +84,152 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 13,
         "start": 11,
         "end": 11
       }
+    },
+    {
+      "id": "1-samuel-13-13-13",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 13,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Samuel said to Saul, Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee: for now would the LORD have established thy kingdom upon Israel for ever.",
+        "riddle": "Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "riddle": "נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Samuel said to Saul, Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee: for now would the LORD have established thy kingdom upon Israel for ever."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct rebuke",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-samuel-13-14-14",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 13,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "But now thy kingdom shall not continue: the LORD hath sought him a man after his own heart, and the LORD hath commanded him to be captain over his people, because thou hast not kept that which the LORD commanded thee.",
+        "riddle": "But now thy kingdom shall not continue: the LORD hath sought him a man after his own heart, and the LORD hath commanded him to be captain over his people, because thou hast not kept that which the LORD commanded thee.",
+        "speaker": "the LORD",
+        "listener": "Saul",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה מַמְלַכְתְּךָ לֹא־תָקוּם בִּקֵּשׁ יְהוָה לוֹ אִישׁ כִּלְבָבוֹ וַיְצַוֵּהוּ יְהוָה לְנָגִיד עַל־עַמּוֹ כִּי לֹא שָׁמַרְתָּ אֵת אֲשֶֽׁר־צִוְּךָ יְהוָֽה",
+        "riddle": "וְעַתָּה מַמְלַכְתְּךָ לֹא־תָקוּם בִּקֵּשׁ יְהוָה לוֹ אִישׁ כִּלְבָבוֹ וַיְצַוֵּהוּ יְהוָה לְנָגִיד עַל־עַמּוֹ כִּי לֹא שָׁמַרְתָּ אֵת אֲשֶֽׁר־צִוְּךָ יְהוָֽה",
+        "speaker": "יְהוָה",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "But now thy kingdom shall not continue: the LORD hath sought him a man after his own heart, and the LORD hath commanded him to be captain over his people, because thou hast not kept that which the LORD commanded thee."
+        },
+        "he": {
+          "14": "וְעַתָּה מַמְלַכְתְּךָ לֹא־תָקוּם בִּקֵּשׁ יְהוָה לוֹ אִישׁ כִּלְבָבוֹ וַיְצַוֵּהוּ יְהוָה לְנָגִיד עַל־עַמּוֹ כִּי לֹא שָׁמַרְתָּ אֵת אֲשֶֽׁר־צִוְּךָ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and warning",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "1-samuel-13-19-19",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 13,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Now there was no smith found throughout all the land of Israel: for the Philistines said, Lest the Hebrews make them swords or spears:",
+        "riddle": "Lest the Hebrews make them swords or spears",
+        "speaker": "Philistines",
+        "listener": "Hebrews",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וְחָרָשׁ לֹא יִמָּצֵא בְּכֹל אֶרֶץ יִשְׂרָאֵל כִּֽי־אָמְרֻו פְלִשְׁתִּים פֶּן יַעֲשׂוּ הָעִבְרִים חֶרֶב אוֹ חֲנִֽית",
+        "riddle": "פֶּן יַעֲשׂוּ הָעִבְרִים חֶרֶב אוֹ חֲנִֽית",
+        "speaker": "פְלִשְׁתִּים",
+        "listener": "הָעִבְרִים",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Now there was no smith found throughout all the land of Israel: for the Philistines said, Lest the Hebrews make them swords or spears:"
+        },
+        "he": {
+          "19": "וְחָרָשׁ לֹא יִמָּצֵא בְּכֹל אֶרֶץ יִשְׂרָאֵל כִּֽי־אָמְרֻו פְלִשְׁתִּים פֶּן יַעֲשׂוּ הָעִבְרִים חֶרֶב אוֹ חֲנִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 19,
+        "end": 19
+      }
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 3,
-    "issue_count": 9
+    "llm_window_count": 4,
+    "projection_llm_count": 7,
+    "llm_call_count": 11,
+    "spec_count": 7,
+    "kept_count": 5,
+    "issue_count": 2
   }
 }

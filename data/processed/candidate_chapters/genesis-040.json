@@ -25,7 +25,7 @@
       "he": {
         "quote": "וַיִּשְׁאַל אֶת־סְרִיסֵי פַרְעֹה אֲשֶׁר אִתּוֹ בְמִשְׁמַר בֵּית אֲדֹנָיו לֵאמֹר מַדּוּעַ פְּנֵיכֶם רָעִים הַיּֽוֹם",
         "riddle": "מַדּוּעַ פְּנֵיכֶם רָעִים הַיּֽוֹם",
-        "speaker": "יוסף",
+        "speaker": "יוֹסֵף",
         "listener": "סְרִיסֵי פַרְעֹה",
         "book": "בראשית"
       },
@@ -38,8 +38,8 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct question.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 40,
@@ -48,7 +48,133 @@
       }
     },
     {
-      "id": "genesis-40-12-12",
+      "id": "genesis-40-08-08-1",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you.",
+        "riddle": "We have dreamed a dream, and there is no interpreter of it.",
+        "speaker": "butler and baker",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי",
+        "riddle": "חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי",
+        "speaker": "מַשְׂכֵּחַ וְאֹכֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you."
+        },
+        "he": {
+          "8": "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-40-08-08-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you.",
+        "riddle": "Do not interpretations belong to God? tell me them, I pray you.",
+        "speaker": "Joseph",
+        "listener": "butler and baker",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי",
+        "riddle": "חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "הַמְמֵלֵא וְהַאֹכֵל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And they said unto him, We have dreamed a dream, and there is no interpreter of it. And Joseph said unto them, Do not interpretations belong to God? tell me them, I pray you."
+        },
+        "he": {
+          "8": "וַיֹּאמְרוּ אֵלָיו חֲלוֹם חָלַמְנוּ וּפֹתֵר אֵין אֹתוֹ וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הֲלוֹא לֵֽאלֹהִים פִּתְרֹנִים סַפְּרוּ־נָא לִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-40-09-09",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And the chief butler told his dream to Joseph, and said to him, In my dream, behold, a vine was before me;",
+        "riddle": "In my dream, behold, a vine was before me;",
+        "speaker": "chief butler",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיְסַפֵּר שַֽׂר־הַמַּשְׁקִים אֶת־חֲלֹמוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ בַּחֲלוֹמִי וְהִנֵּה־גֶפֶן לְפָנָֽי",
+        "riddle": "בַּחֲלוֹמִי וְהִנֵּה־גֶפֶן לְפָנָֽי",
+        "speaker": "שַֽׂר־הַמַּשְׁקִים",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the chief butler told his dream to Joseph, and said to him, In my dream, behold, a vine was before me;"
+        },
+        "he": {
+          "9": "וַיְסַפֵּר שַֽׂר־הַמַּשְׁקִים אֶת־חֲלֹמוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ בַּחֲלוֹמִי וְהִנֵּה־גֶפֶן לְפָנָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "genesis-40-12-12-1",
       "source": {
         "book_code": "GEN",
         "book": "Genesis",
@@ -59,16 +185,16 @@
       },
       "en": {
         "quote": "And Joseph said unto him, This is the interpretation of it: The three branches are three days:",
-        "riddle": "This is the interpretation of it: The three branches are three days:",
+        "riddle": "The three branches are three days:",
         "speaker": "Joseph",
-        "listener": "Cupbearer",
+        "listener": "chief butler",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיֹּאמֶר לוֹ יוֹסֵף זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם",
-        "riddle": "זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם",
+        "riddle": "שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם",
         "speaker": "יוֹסֵף",
-        "listener": "נמרץ",
+        "listener": "מְכַסֵּחַ",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -80,13 +206,147 @@
         }
       },
       "meta": {
-        "reason": "Contains a clear, vivid declaration.",
+        "reason": "direct interpretation",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 40,
         "start": 12,
         "end": 12
+      }
+    },
+    {
+      "id": "genesis-40-12-12-2",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Joseph said unto him, This is the interpretation of it: The three branches are three days:",
+        "riddle": "This is the interpretation of it: The three branches are three days:",
+        "speaker": "Joseph",
+        "listener": "cupbearer",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ יוֹסֵף זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם",
+        "riddle": "זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם",
+        "speaker": "יוֹסֵף",
+        "listener": "לוֹ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Joseph said unto him, This is the interpretation of it: The three branches are three days:"
+        },
+        "he": {
+          "12": "וַיֹּאמֶר לוֹ יוֹסֵף זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-40-14-14",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "But think on me when it shall be well with thee, and shew kindness, I pray thee, unto me, and make mention of me unto Pharaoh, and bring me out of this house:",
+        "riddle": "But think on me when it shall be well with thee, and shew kindness, I pray thee, unto me, and make mention of me unto Pharaoh, and bring me out of this house:",
+        "speaker": "cupbearer",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "כִּי אִם־זְכַרְתַּנִי אִתְּךָ כַּאֲשֶׁר יִיטַב לָךְ וְעָשִֽׂיתָ־נָּא עִמָּדִי חָסֶד וְהִזְכַּרְתַּנִי אֶל־פַּרְעֹה וְהוֹצֵאתַנִי מִן־הַבַּיִת הַזֶּֽה",
+        "riddle": "כִּי אִם־זְכַרְתַּנִי אִתְּךָ כַּאֲשֶׁר יִיטַב לָךְ וְעָשִֽׂיתָ־נָּא עִמָּדִי חָסֶד וְהִזְכַּרְתַּנִי אֶל־פַּרְעֹה וְהוֹצֵאתַנִי מִן־הַבַּיִת הַזֶּֽה",
+        "speaker": "מְשַׁקֵּם",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Joseph said unto him, This is the interpretation of it: The three branches are three days:",
+          "14": "But think on me when it shall be well with thee, and shew kindness, I pray thee, unto me, and make mention of me unto Pharaoh, and bring me out of this house:"
+        },
+        "he": {
+          "12": "וַיֹּאמֶר לוֹ יוֹסֵף זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַשָּׂרִגִים שְׁלֹשֶׁת יָמִים הֵֽם׃",
+          "14": "כִּי אִם־זְכַרְתַּנִי אִתְּךָ כַּאֲשֶׁר יִיטַב לָךְ וְעָשִֽׂיתָ־נָּא עִמָּדִי חָסֶד וְהִזְכַּרְתַּנִי אֶל־פַּרְעֹה וְהוֹצֵאתַנִי מִן־הַבַּיִת הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "genesis-40-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 40,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "When the chief baker saw that the interpretation was good, he said unto Joseph, I also was in my dream, and, behold, I had three white baskets on my head:",
+        "riddle": "I also was in my dream, and, behold, I had three white baskets on my head:",
+        "speaker": "chief baker",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּרְא שַׂר־הָאֹפִים כִּי טוֹב פָּתָר וַיֹּאמֶר אֶל־יוֹסֵף אַף־אֲנִי בַּחֲלוֹמִי וְהִנֵּה שְׁלֹשָׁה סַלֵּי חֹרִי עַל־רֹאשִֽׁי",
+        "riddle": "וַיֹּאמֶר אֶל־יוֹסֵף אַף־אֲנִי בַּחֲלוֹמִי וְהִנֵּה שְׁלֹשָׁה סַלֵּי חֹרִי עַל־רֹאשִֽׁי",
+        "speaker": "שַׂר־הָאֹפִים",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "When the chief baker saw that the interpretation was good, he said unto Joseph, I also was in my dream, and, behold, I had three white baskets on my head:"
+        },
+        "he": {
+          "16": "וַיַּרְא שַׂר־הָאֹפִים כִּי טוֹב פָּתָר וַיֹּאמֶר אֶל־יוֹסֵף אַף־אֲנִי בַּחֲלוֹמִי וְהִנֵּה שְׁלֹשָׁה סַלֵּי חֹרִי עַל־רֹאשִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 16,
+        "end": 16
       }
     },
     {
@@ -97,20 +357,22 @@
         "book_he": "בראשית",
         "chapter": 40,
         "quote_verse_start": 18,
-        "quote_verse_end": 18
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And Joseph answered and said, This is the interpretation thereof: The three baskets are three days:",
         "riddle": "This is the interpretation thereof: The three baskets are three days:",
         "speaker": "Joseph",
-        "listener": "Cupbearer",
+        "listener": "chief baker",
         "book": "Genesis"
       },
       "he": {
         "quote": "וַיַּעַן יוֹסֵף וַיֹּאמֶר זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַסַּלִּים שְׁלֹשֶׁת יָמִים הֵֽם",
         "riddle": "זֶה פִּתְרֹנוֹ שְׁלֹשֶׁת הַסַּלִּים שְׁלֹשֶׁת יָמִים הֵֽם",
         "speaker": "יוֹסֵף",
-        "listener": "כוסיק",
+        "listener": "מְכַבֵּס",
         "book": "בראשית"
       },
       "raw_quote_source": {
@@ -122,7 +384,7 @@
         }
       },
       "meta": {
-        "reason": "Contains a clear, symbolic declaration.",
+        "reason": "direct declaration",
         "confidence": 0.95
       },
       "ref": {
@@ -133,10 +395,13 @@
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 3,
-    "issue_count": 9
+    "llm_window_count": 2,
+    "projection_llm_count": 9,
+    "llm_call_count": 11,
+    "spec_count": 9,
+    "kept_count": 9,
+    "issue_count": 0
   }
 }

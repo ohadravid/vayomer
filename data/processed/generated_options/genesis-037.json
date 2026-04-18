@@ -6,7 +6,109 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-37-10-10",
+      "id": "genesis-37-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 2,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "These are the generations of Jacob. Joseph, being seventeen years old, was feeding the flock with his brethren; and the lad was with the sons of Bilhah, and with the sons of Zilpah, his father's wives: and Joseph brought unto his father their evil report. Now Israel loved Joseph more than all his children, because he was the son of his old age: and he made him a coat of many colours. And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him. And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more. And he said unto them, Hear, I pray you, this dream which I have dreamed: For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also stood upright; and, behold, your sheaves stood round about, and made obeisance to my sheaf. And his brethren said to him, Shalt thou indeed reign over us? or shalt thou indeed have dominion over us? And they hated him yet the more for his dreams, and for his words.",
+        "riddle": "Shalt thou indeed reign over us? or shalt thou indeed have dominion over us?",
+        "speaker": "Joseph's brothers",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Pharaoh",
+            "Jacob"
+          ],
+          "listener": [
+            "Pharaoh",
+            "Jacob",
+            "Abraham"
+          ]
+        },
+        "bonus": "Jacob",
+        "bonus_hint": {
+          "quote": "And the sons of Zilpah, Leah's handmaid; Gad, and Asher: these are the sons of Jacob, which were born to him in Padan-aram.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 35,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "he": {
+        "quote": "אֵלֶּה תֹּלְדוֹת יַעֲקֹב יוֹסֵף בֶּן־שְׁבַֽע־עֶשְׂרֵה שָׁנָה הָיָה רֹעֶה אֶת־אֶחָיו בַּצֹּאן וְהוּא נַעַר אֶת־בְּנֵי בִלְהָה וְאֶת־בְּנֵי זִלְפָּה נְשֵׁי אָבִיו וַיָּבֵא יוֹסֵף אֶת־דִּבָּתָם רָעָה אֶל־אֲבִיהֶֽם וְיִשְׂרָאֵל אָהַב אֶת־יוֹסֵף מִכָּל־בָּנָיו כִּֽי־בֶן־זְקֻנִים הוּא לוֹ וְעָשָׂה לוֹ כְּתֹנֶת פַּסִּֽים וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתֽוֹ וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָֽמְתִּי וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּֽשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִֽי וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָֽיו",
+        "riddle": "הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל",
+        "speaker": "אֶחָיו",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "פַרְעֹה",
+            "יַעֲקֹב"
+          ],
+          "listener": [
+            "פַרְעֹה",
+            "יַעֲקֹב",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "אֵלֶּה",
+        "bonus_hint": {
+          "quote": "וּבְנֵי זִלְפָּה שִׁפְחַת לֵאָה גָּד וְאָשֵׁר אֵלֶּה בְּנֵי יַעֲקֹב אֲשֶׁר יֻלַּד־לוֹ בְּפַדַּן אֲרָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 35,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "These are the generations of Jacob. Joseph, being seventeen years old, was feeding the flock with his brethren; and the lad was with the sons of Bilhah, and with the sons of Zilpah, his father's wives: and Joseph brought unto his father their evil report.",
+          "3": "Now Israel loved Joseph more than all his children, because he was the son of his old age: and he made him a coat of many colours.",
+          "4": "And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him.",
+          "5": "And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more.",
+          "6": "And he said unto them, Hear, I pray you, this dream which I have dreamed:",
+          "7": "For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also stood upright; and, behold, your sheaves stood round about, and made obeisance to my sheaf.",
+          "8": "And his brethren said to him, Shalt thou indeed reign over us? or shalt thou indeed have dominion over us? And they hated him yet the more for his dreams, and for his words."
+        },
+        "he": {
+          "2": "אֵלֶּה ׀ תֹּלְדוֹת יַעֲקֹב יוֹסֵף בֶּן־שְׁבַֽע־עֶשְׂרֵה שָׁנָה הָיָה רֹעֶה אֶת־אֶחָיו בַּצֹּאן וְהוּא נַעַר אֶת־בְּנֵי בִלְהָה וְאֶת־בְּנֵי זִלְפָּה נְשֵׁי אָבִיו וַיָּבֵא יוֹסֵף אֶת־דִּבָּתָם רָעָה אֶל־אֲבִיהֶֽם׃",
+          "3": "וְיִשְׂרָאֵל אָהַב אֶת־יוֹסֵף מִכָּל־בָּנָיו כִּֽי־בֶן־זְקֻנִים הוּא לוֹ וְעָשָׂה לוֹ כְּתֹנֶת פַּסִּֽים׃",
+          "4": "וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם׃",
+          "5": "וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתֽוֹ׃",
+          "6": "וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָֽמְתִּי׃",
+          "7": "וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּֽשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִֽי׃",
+          "8": "וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 2,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-09-09",
       "source": {
         "method": "llm",
         "book_code": "GEN",
@@ -14,63 +116,64 @@
         "book_he": "בראשית",
         "chapter": 37,
         "quote_verse_start": 4,
-        "quote_verse_end": 10
+        "quote_verse_end": 10,
+        "listener_mention_verse": 10
       },
       "en": {
         "quote": "And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him. And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more. And he said unto them, Hear, I pray you, this dream which I have dreamed: For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also stood upright; and, behold, your sheaves stood round about, and made obeisance to my sheaf. And his brethren said to him, Shalt thou indeed reign over us? or shalt thou indeed have dominion over us? And they hated him yet the more for his dreams, and for his words. And he dreamed yet another dream, and told it his brethren, and said, Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me. And he told it to his father, and to his brethren: and his father rebuked him, and said unto him, What is this dream that thou hast dreamed? Shall I and thy mother and thy brethren indeed come to bow down ourselves to thee to the earth?",
-        "riddle": "What is this dream that thou hast dreamed? Shall I and thy mother and thy brethren indeed come to bow down ourselves to thee to the earth?",
-        "speaker": "Jacob",
-        "listener": "Joseph",
+        "riddle": "Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me.",
+        "speaker": "Joseph",
+        "listener": "his brethren",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Laban",
             "Abraham",
-            "Pharaoh"
+            "Pharaoh",
+            "Jacob"
           ],
           "listener": [
-            "Abraham",
-            "Lot",
-            "Abimelech"
+            "Jacob's sons",
+            "Israel",
+            "servants"
           ]
         },
-        "bonus": "told",
+        "bonus": "father",
         "bonus_hint": {
-          "quote": "For the idols have spoken vanity, and the diviners have seen a lie, and have told false dreams; they comfort in vain: therefore they went their way as a flock, they were troubled, because there was no shepherd.",
+          "quote": "And it came to pass as they emptied their sacks, that, behold, every man's bundle of money was in his sack: and when both they and their father saw the bundles of money, they were afraid.",
           "source": {
-            "book": "Zechariah",
-            "chapter": 10,
-            "start": 2,
-            "end": 2
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 35,
+            "end": 35
           }
         }
       },
       "he": {
         "quote": "וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתֽוֹ וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָֽמְתִּי וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּֽשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִֽי וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָֽיו וַיַּחֲלֹם עוֹד חֲלוֹם אַחֵר וַיְסַפֵּר אֹתוֹ לְאֶחָיו וַיֹּאמֶר הִנֵּה חָלַמְתִּֽי חֲלוֹם עוֹד וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּֽוֹכָבִים מִֽשְׁתַּחֲוִים לִֽי וַיְסַפֵּר אֶל־אָבִיו וְאֶל־אֶחָיו וַיִּגְעַר־בּוֹ אָבִיו וַיֹּאמֶר לוֹ מָה הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתָּ הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֺת לְךָ אָֽרְצָה",
-        "riddle": "מָה הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתָּ הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֺת לְךָ אָֽרְצָה",
-        "speaker": "יַעֲקֹב",
-        "listener": "יוֹסֵף",
+        "riddle": "הִנֵּה חָלַמְתִּֽי חֲלוֹם עוֹד וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּֽוֹכָבִים מִֽשְׁתַּחֲוִים לִֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "אֶחָיו",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "לָבָן",
             "אַבְרָהָם",
-            "פַרְעֹה"
+            "פַרְעֹה",
+            "יַעֲקֹב"
           ],
           "listener": [
-            "אַבְרָהָם",
-            "לוֹט",
-            "אֲבִימֶלֶךְ"
+            "בְנֵֽי־יַעֲקֹב",
+            "יִשְׂרָאֵל",
+            "עֲבָדָיו"
           ]
         },
-        "bonus": "דַּבְּרוֹ",
+        "bonus": "וַיִּרְאוּ",
         "bonus_hint": {
-          "quote": "כִּי הַתְּרָפִים דִּבְּרוּ־אָוֶן וְהַקּֽוֹסְמִים חָזוּ שֶׁקֶר וַֽחֲלֹמוֹת הַשָּׁוא יְדַבֵּרוּ הֶבֶל יְנַֽחֵמוּן עַל־כֵּן נָסְעוּ כְמוֹ־צֹאן יַעֲנוּ כִּֽי־אֵין רֹעֶֽה",
+          "quote": "וַיְהִי הֵם מְרִיקִים שַׂקֵּיהֶם וְהִנֵּה־אִישׁ צְרוֹר־כַּסְפּוֹ בְּשַׂקּוֹ וַיִּרְאוּ אֶת־צְרֹרוֹת כַּסְפֵּיהֶם הֵמָּה וַאֲבִיהֶם וַיִּירָֽאוּ",
           "source": {
-            "book": "זכריה",
-            "chapter": 10,
-            "start": 2,
-            "end": 2
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 35,
+            "end": 35
           }
         }
       },
@@ -108,6 +211,298 @@
       }
     },
     {
+      "id": "genesis-37-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 4,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him. And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more. And he said unto them, Hear, I pray you, this dream which I have dreamed: For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also stood upright; and, behold, your sheaves stood round about, and made obeisance to my sheaf. And his brethren said to him, Shalt thou indeed reign over us? or shalt thou indeed have dominion over us? And they hated him yet the more for his dreams, and for his words. And he dreamed yet another dream, and told it his brethren, and said, Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me. And he told it to his father, and to his brethren: and his father rebuked him, and said unto him, What is this dream that thou hast dreamed? Shall I and thy mother and thy brethren indeed come to bow down ourselves to thee to the earth?",
+        "riddle": "What is this dream that thou hast dreamed? Shall I and thy mother and thy brethren indeed come to bow down ourselves to thee to the earth?",
+        "speaker": "his father",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Jacob",
+            "Isaac",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "loved",
+        "bonus_hint": {
+          "quote": "Then Jonathan and David made a covenant, because he loved him as his own soul.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתֽוֹ וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָֽמְתִּי וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּֽשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִֽי וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָֽיו וַיַּחֲלֹם עוֹד חֲלוֹם אַחֵר וַיְסַפֵּר אֹתוֹ לְאֶחָיו וַיֹּאמֶר הִנֵּה חָלַמְתִּֽי חֲלוֹם עוֹד וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּֽוֹכָבִים מִֽשְׁתַּחֲוִים לִֽי וַיְסַפֵּר אֶל־אָבִיו וְאֶל־אֶחָיו וַיִּגְעַר־בּוֹ אָבִיו וַיֹּאמֶר לוֹ מָה הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתָּ הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֺת לְךָ אָֽרְצָה",
+        "riddle": "מָה הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתָּ הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֺת לְךָ אָֽרְצָה",
+        "speaker": "אָבִיו",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "אֹתוֹ",
+        "bonus_hint": {
+          "quote": "וַיִּכְרֹת יְהוֹנָתָן וְדָוִד בְּרִית בְּאַהֲבָתוֹ אֹתוֹ כְּנַפְשֽׁוֹ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 18,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him.",
+          "5": "And Joseph dreamed a dream, and he told it his brethren: and they hated him yet the more.",
+          "6": "And he said unto them, Hear, I pray you, this dream which I have dreamed:",
+          "7": "For, behold, we were binding sheaves in the field, and, lo, my sheaf arose, and also stood upright; and, behold, your sheaves stood round about, and made obeisance to my sheaf.",
+          "8": "And his brethren said to him, Shalt thou indeed reign over us? or shalt thou indeed have dominion over us? And they hated him yet the more for his dreams, and for his words.",
+          "9": "And he dreamed yet another dream, and told it his brethren, and said, Behold, I have dreamed a dream more; and, behold, the sun and the moon and the eleven stars made obeisance to me.",
+          "10": "And he told it to his father, and to his brethren: and his father rebuked him, and said unto him, What is this dream that thou hast dreamed? Shall I and thy mother and thy brethren indeed come to bow down ourselves to thee to the earth?"
+        },
+        "he": {
+          "4": "וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם׃",
+          "5": "וַיַּחֲלֹם יוֹסֵף חֲלוֹם וַיַּגֵּד לְאֶחָיו וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתֽוֹ׃",
+          "6": "וַיֹּאמֶר אֲלֵיהֶם שִׁמְעוּ־נָא הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָֽמְתִּי׃",
+          "7": "וְהִנֵּה אֲנַחְנוּ מְאַלְּמִים אֲלֻמִּים בְּתוֹךְ הַשָּׂדֶה וְהִנֵּה קָמָה אֲלֻמָּתִי וְגַם־נִצָּבָה וְהִנֵּה תְסֻבֶּינָה אֲלֻמֹּתֵיכֶם וַתִּֽשְׁתַּחֲוֶיןָ לַאֲלֻמָּתִֽי׃",
+          "8": "וַיֹּאמְרוּ לוֹ אֶחָיו הֲמָלֹךְ תִּמְלֹךְ עָלֵינוּ אִם־מָשׁוֹל תִּמְשֹׁל בָּנוּ וַיּוֹסִפוּ עוֹד שְׂנֹא אֹתוֹ עַל־חֲלֹמֹתָיו וְעַל־דְּבָרָֽיו׃",
+          "9": "וַיַּחֲלֹם עוֹד חֲלוֹם אַחֵר וַיְסַפֵּר אֹתוֹ לְאֶחָיו וַיֹּאמֶר הִנֵּה חָלַמְתִּֽי חֲלוֹם עוֹד וְהִנֵּה הַשֶּׁמֶשׁ וְהַיָּרֵחַ וְאַחַד עָשָׂר כּֽוֹכָבִים מִֽשְׁתַּחֲוִים לִֽי׃",
+          "10": "וַיְסַפֵּר אֶל־אָבִיו וְאֶל־אֶחָיו וַיִּגְעַר־בּוֹ אָבִיו וַיֹּאמֶר לוֹ מָה הַחֲלוֹם הַזֶּה אֲשֶׁר חָלָמְתָּ הֲבוֹא נָבוֹא אֲנִי וְאִמְּךָ וְאַחֶיךָ לְהִשְׁתַּחֲוֺת לְךָ אָֽרְצָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 4,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, Do not thy brethren feed the flock in Shechem? come, and I will send thee unto them. And he said to him, Here am I.",
+        "riddle": "Do not thy brethren feed the flock in Shechem?",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "sons of Jacob",
+            "children of Israel",
+            "elders of Israel"
+          ],
+          "listener": [
+            "Jacob",
+            "Balaam",
+            "Abraham"
+          ]
+        },
+        "bonus": "send",
+        "bonus_hint": {
+          "quote": "The LORD God of heaven, which took me from my father's house, and from the land of my kindred, and which spake unto me, and that sware unto me, saying, Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם וַיֹּאמֶר לוֹ הִנֵּֽנִי",
+        "riddle": "הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בְנֵֽי־יַעֲקֹב",
+            "בְּנֵי יִשְׂרָאֵל",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "בִּלְעָם",
+            "אַבְרָהָם"
+          ]
+        },
+        "bonus": "הִנֵּֽנִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה וְהָאֱלֹהִים נִסָּה אֶת־אַבְרָהָם וַיֹּאמֶר אֵלָיו אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Israel said unto Joseph, Do not thy brethren feed the flock in Shechem? come, and I will send thee unto them. And he said to him, Here am I."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם וַיֹּאמֶר לוֹ הִנֵּֽנִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 13,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 13,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, Do not thy brethren feed the flock in Shechem? come, and I will send thee unto them. And he said to him, Here am I. And he said to him, Go, I pray thee, see whether it be well with thy brethren, and well with the flocks; and bring me word again. So he sent him out of the vale of Hebron, and he came to Shechem. And a certain man found him, and, behold, he was wandering in the field: and the man asked him, saying, What seekest thou? And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks.",
+        "riddle": "I seek my brethren: tell me, I pray thee, where they feed their flocks.",
+        "speaker": "Joseph",
+        "listener": "man",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Abraham",
+            "Jacob",
+            "Isaac"
+          ],
+          "listener": [
+            "Abraham",
+            "Pharaoh",
+            "Isaac"
+          ]
+        },
+        "bonus": "flock",
+        "bonus_hint": {
+          "quote": "Speak unto the children of Israel, and say unto them, If any man of you bring an offering unto the LORD, ye shall bring your offering of the cattle, even of the herd, and of the flock.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 1,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם וַיֹּאמֶר לוֹ הִנֵּֽנִי וַיֹּאמֶר לוֹ לֶךְ־נָא רְאֵה אֶת־שְׁלוֹם אַחֶיךָ וְאֶת־שְׁלוֹם הַצֹּאן וַהֲשִׁבֵנִי דָּבָר וַיִּשְׁלָחֵהוּ מֵעֵמֶק חֶבְרוֹן וַיָּבֹא שְׁכֶֽמָה וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּֽשׁ וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים",
+        "riddle": "אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים",
+        "speaker": "יוֹסֵף",
+        "listener": "אִישׁ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "אַבְרָהָם",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ],
+          "listener": [
+            "אַבְרָהָם",
+            "פַרְעֹה",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "יִשְׂרָאֵל",
+        "bonus_hint": {
+          "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אָדָם כִּֽי־יַקְרִיב מִכֶּם קָרְבָּן לַֽיהוָה מִן־הַבְּהֵמָה מִן־הַבָּקָר וּמִן־הַצֹּאן תַּקְרִיבוּ אֶת־קָרְבַּנְכֶֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 1,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Israel said unto Joseph, Do not thy brethren feed the flock in Shechem? come, and I will send thee unto them. And he said to him, Here am I.",
+          "14": "And he said to him, Go, I pray thee, see whether it be well with thy brethren, and well with the flocks; and bring me word again. So he sent him out of the vale of Hebron, and he came to Shechem.",
+          "15": "And a certain man found him, and, behold, he was wandering in the field: and the man asked him, saying, What seekest thou?",
+          "16": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם וַיֹּאמֶר לוֹ הִנֵּֽנִי׃",
+          "14": "וַיֹּאמֶר לוֹ לֶךְ־נָא רְאֵה אֶת־שְׁלוֹם אַחֶיךָ וְאֶת־שְׁלוֹם הַצֹּאן וַהֲשִׁבֵנִי דָּבָר וַיִּשְׁלָחֵהוּ מֵעֵמֶק חֶבְרוֹן וַיָּבֹא שְׁכֶֽמָה׃",
+          "15": "וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּֽשׁ׃",
+          "16": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 13,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "genesis-37-19-19",
       "source": {
         "method": "llm",
@@ -120,15 +515,15 @@
       },
       "en": {
         "quote": "And Israel said unto Joseph, Do not thy brethren feed the flock in Shechem? come, and I will send thee unto them. And he said to him, Here am I. And he said to him, Go, I pray thee, see whether it be well with thy brethren, and well with the flocks; and bring me word again. So he sent him out of the vale of Hebron, and he came to Shechem. And a certain man found him, and, behold, he was wandering in the field: and the man asked him, saying, What seekest thou? And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks. And the man said, They are departed hence; for I heard them say, Let us go to Dothan. And Joseph went after his brethren, and found them in Dothan. And when they saw him afar off, even before he came near unto them, they conspired against him to slay him. And they said one to another, Behold, this dreamer cometh.",
-        "riddle": "this dreamer cometh.",
+        "riddle": "Behold, this dreamer cometh.",
         "speaker": "brothers",
         "listener": "brothers",
         "book": "Genesis",
         "options": {
           "speaker": [
             "Jacob",
-            "Laban",
-            "Pharaoh"
+            "Abraham",
+            "Moses"
           ],
           "listener": [
             "Jacob",
@@ -138,26 +533,26 @@
         },
         "bonus": "Joseph",
         "bonus_hint": {
-          "quote": "And she called his name Joseph; and said, The LORD shall add to me another son.",
+          "quote": "And the children of Israel did so: and Joseph gave them wagons, according to the commandment of Pharaoh, and gave them provision for the way.",
           "source": {
             "book": "Genesis",
-            "chapter": 30,
-            "start": 24,
-            "end": 24
+            "chapter": 45,
+            "start": 21,
+            "end": 21
           }
         }
       },
       "he": {
         "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הֲלוֹא אַחֶיךָ רֹעִים בִּשְׁכֶם לְכָה וְאֶשְׁלָחֲךָ אֲלֵיהֶם וַיֹּאמֶר לוֹ הִנֵּֽנִי וַיֹּאמֶר לוֹ לֶךְ־נָא רְאֵה אֶת־שְׁלוֹם אַחֶיךָ וְאֶת־שְׁלוֹם הַצֹּאן וַהֲשִׁבֵנִי דָּבָר וַיִּשְׁלָחֵהוּ מֵעֵמֶק חֶבְרוֹן וַיָּבֹא שְׁכֶֽמָה וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּֽשׁ וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹֽמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָֽן וַיִּרְאוּ אֹתוֹ מֵרָחֹק וּבְטֶרֶם יִקְרַב אֲלֵיהֶם וַיִּֽתְנַכְּלוּ אֹתוֹ לַהֲמִיתֽוֹ וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו הִנֵּה בַּעַל הַחֲלֹמוֹת הַלָּזֶה בָּֽא",
         "riddle": "הִנֵּה בַּעַל הַחֲלֹמוֹת הַלָּזֶה בָּֽא",
-        "speaker": "אחים",
-        "listener": "אחים",
+        "speaker": "אַחִים",
+        "listener": "אַחִים",
         "book": "בראשית",
         "options": {
           "speaker": [
             "יַעֲקֹב",
-            "לָבָן",
-            "פַרְעֹה"
+            "אַבְרָהָם",
+            "מֹשֶׁה"
           ],
           "listener": [
             "יַעֲקֹב",
@@ -165,14 +560,14 @@
             "פַרְעֹה"
           ]
         },
-        "bonus": "יוֹסֵף",
+        "bonus": "יִשְׂרָאֵל",
         "bonus_hint": {
-          "quote": "וַתִּקְרָא אֶת־שְׁמוֹ יוֹסֵף לֵאמֹר יֹסֵף יְהוָה לִי בֵּן אַחֵֽר",
+          "quote": "וַיַּֽעֲשׂוּ־כֵן בְּנֵי יִשְׂרָאֵל וַיִּתֵּן לָהֶם יוֹסֵף עֲגָלוֹת עַל־פִּי פַרְעֹה וַיִּתֵּן לָהֶם צֵדָה לַדָּֽרֶךְ",
           "source": {
             "book": "בראשית",
-            "chapter": 30,
-            "start": 24,
-            "end": 24
+            "chapter": 45,
+            "start": 21,
+            "end": 21
           }
         }
       },
@@ -210,88 +605,514 @@
       }
     },
     {
-      "id": "genesis-37-15-15",
+      "id": "genesis-37-22-22",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 37,
-        "quote_verse_start": 15,
-        "quote_verse_end": 16
+        "quote_verse_start": 16,
+        "quote_verse_end": 22
       },
       "en": {
-        "quote": "And a certain man found him, and, behold, he was wandering in the field: and the man asked him, saying, What seekest thou? And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks.",
-        "riddle": "What seekest thou?",
-        "speaker": "man",
-        "listener": "wanderer",
+        "quote": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks. And the man said, They are departed hence; for I heard them say, Let us go to Dothan. And Joseph went after his brethren, and found them in Dothan. And when they saw him afar off, even before he came near unto them, they conspired against him to slay him. And they said one to another, Behold, this dreamer cometh. Come now therefore, and let us slay him, and cast him into some pit, and we will say, Some evil beast hath devoured him: and we shall see what will become of his dreams. And Reuben heard it, and he delivered him out of their hands; and said, Let us not kill him. And Reuben said unto them, Shed no blood, but cast him into this pit that is in the wilderness, and lay no hand upon him; that he might rid him out of their hands, to deliver him to his father again.",
+        "riddle": "Shed no blood, but cast him into this pit that is in the wilderness, and lay no hand upon him",
+        "speaker": "Reuben",
+        "listener": "brothers",
         "book": "Genesis",
         "options": {
           "speaker": [
-            "Joseph",
             "Jacob",
-            "Abimelech"
+            "Joseph",
+            "Abraham"
           ],
           "listener": [
-            "Joseph",
             "Jacob",
-            "Abimelech"
+            "Isaac",
+            "Abraham"
           ]
         },
-        "bonus": "field",
+        "bonus": "brethren",
         "bonus_hint": {
-          "quote": "And Cain talked with Abel his brother: and it came to pass, when they were in the field, that Cain rose up against Abel his brother, and slew him.",
+          "quote": "And said, I pray you, brethren, do not so wickedly.",
           "source": {
             "book": "Genesis",
-            "chapter": 4,
-            "start": 8,
-            "end": 8
+            "chapter": 19,
+            "start": 7,
+            "end": 7
           }
         }
       },
       "he": {
-        "quote": "וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּֽשׁ וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים",
-        "riddle": "מַה־תְּבַקֵּֽשׁ",
-        "speaker": "אִישׁ",
-        "listener": "תּוֹעָֽה",
+        "quote": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹֽמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָֽן וַיִּרְאוּ אֹתוֹ מֵרָחֹק וּבְטֶרֶם יִקְרַב אֲלֵיהֶם וַיִּֽתְנַכְּלוּ אֹתוֹ לַהֲמִיתֽוֹ וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו הִנֵּה בַּעַל הַחֲלֹמוֹת הַלָּזֶה בָּֽא וְעַתָּה לְכוּ וְנַֽהַרְגֵהוּ וְנַשְׁלִכֵהוּ בְּאַחַד הַבֹּרוֹת וְאָמַרְנוּ חַיָּה רָעָה אֲכָלָתְהוּ וְנִרְאֶה מַה־יִּהְיוּ חֲלֹמֹתָֽיו וַיִּשְׁמַע רְאוּבֵן וַיַּצִּלֵהוּ מִיָּדָם וַיֹּאמֶר לֹא נַכֶּנּוּ נָֽפֶשׁ וַיֹּאמֶר אֲלֵהֶם רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וְיָד אַל־תִּשְׁלְחוּ־בוֹ לְמַעַן הַצִּיל אֹתוֹ מִיָּדָם לַהֲשִׁיבוֹ אֶל־אָבִֽיו",
+        "riddle": "אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וְיָד אַל־תִּשְׁלְחוּ־בוֹ לְמַעַן הַצִּיל אֹתוֹ מִיָּדָם",
+        "speaker": "רְאוּבֵן",
+        "listener": "אֶחָיו",
         "book": "בראשית",
         "options": {
           "speaker": [
-            "יוֹסֵף",
             "יַעֲקֹב",
-            "אֲבִימֶלֶךְ"
+            "יוֹסֵף",
+            "אַבְרָהָם"
           ],
           "listener": [
-            "יוֹסֵף",
             "יַעֲקֹב",
-            "אֲבִימֶלֶךְ"
+            "יִצְחָק",
+            "אַבְרָהָם"
           ]
         },
-        "bonus": "בַּשָּׂדֶה",
+        "bonus": "אַחַי",
         "bonus_hint": {
-          "quote": "וַיֹּאמֶר קַיִן אֶל־הֶבֶל אָחִיו וַֽיְהִי בִּהְיוֹתָם בַּשָּׂדֶה וַיָּקָם קַיִן אֶל־הֶבֶל אָחִיו וַיַּהַרְגֵֽהוּ",
+          "quote": "וַיֹּאמַר אַל־נָא אַחַי תָּרֵֽעוּ",
           "source": {
             "book": "בראשית",
-            "chapter": 4,
-            "start": 8,
-            "end": 8
+            "chapter": 19,
+            "start": 7,
+            "end": 7
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "15": "And a certain man found him, and, behold, he was wandering in the field: and the man asked him, saying, What seekest thou?",
-          "16": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks."
+          "16": "And he said, I seek my brethren: tell me, I pray thee, where they feed their flocks.",
+          "17": "And the man said, They are departed hence; for I heard them say, Let us go to Dothan. And Joseph went after his brethren, and found them in Dothan.",
+          "18": "And when they saw him afar off, even before he came near unto them, they conspired against him to slay him.",
+          "19": "And they said one to another, Behold, this dreamer cometh.",
+          "20": "Come now therefore, and let us slay him, and cast him into some pit, and we will say, Some evil beast hath devoured him: and we shall see what will become of his dreams.",
+          "21": "And Reuben heard it, and he delivered him out of their hands; and said, Let us not kill him.",
+          "22": "And Reuben said unto them, Shed no blood, but cast him into this pit that is in the wilderness, and lay no hand upon him; that he might rid him out of their hands, to deliver him to his father again."
         },
         "he": {
-          "15": "וַיִּמְצָאֵהוּ אִישׁ וְהִנֵּה תֹעֶה בַּשָּׂדֶה וַיִּשְׁאָלֵהוּ הָאִישׁ לֵאמֹר מַה־תְּבַקֵּֽשׁ׃",
-          "16": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים׃"
+          "16": "וַיֹּאמֶר אֶת־אַחַי אָנֹכִי מְבַקֵּשׁ הַגִּֽידָה־נָּא לִי אֵיפֹה הֵם רֹעִֽים׃",
+          "17": "וַיֹּאמֶר הָאִישׁ נָסְעוּ מִזֶּה כִּי שָׁמַעְתִּי אֹֽמְרִים נֵלְכָה דֹּתָיְנָה וַיֵּלֶךְ יוֹסֵף אַחַר אֶחָיו וַיִּמְצָאֵם בְּדֹתָֽן׃",
+          "18": "וַיִּרְאוּ אֹתוֹ מֵרָחֹק וּבְטֶרֶם יִקְרַב אֲלֵיהֶם וַיִּֽתְנַכְּלוּ אֹתוֹ לַהֲמִיתֽוֹ׃",
+          "19": "וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו הִנֵּה בַּעַל הַחֲלֹמוֹת הַלָּזֶה בָּֽא׃",
+          "20": "וְעַתָּה ׀ לְכוּ וְנַֽהַרְגֵהוּ וְנַשְׁלִכֵהוּ בְּאַחַד הַבֹּרוֹת וְאָמַרְנוּ חַיָּה רָעָה אֲכָלָתְהוּ וְנִרְאֶה מַה־יִּהְיוּ חֲלֹמֹתָֽיו׃",
+          "21": "וַיִּשְׁמַע רְאוּבֵן וַיַּצִּלֵהוּ מִיָּדָם וַיֹּאמֶר לֹא נַכֶּנּוּ נָֽפֶשׁ׃",
+          "22": "וַיֹּאמֶר אֲלֵהֶם ׀ רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וְיָד אַל־תִּשְׁלְחוּ־בוֹ לְמַעַן הַצִּיל אֹתוֹ מִיָּדָם לַהֲשִׁיבוֹ אֶל־אָבִֽיו׃"
         }
       },
       "ref": {
         "chapter": 37,
-        "start": 15,
-        "end": 16
+        "start": 16,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 20,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Come now therefore, and let us slay him, and cast him into some pit, and we will say, Some evil beast hath devoured him: and we shall see what will become of his dreams. And Reuben heard it, and he delivered him out of their hands; and said, Let us not kill him. And Reuben said unto them, Shed no blood, but cast him into this pit that is in the wilderness, and lay no hand upon him; that he might rid him out of their hands, to deliver him to his father again. And it came to pass, when Joseph was come unto his brethren, that they stript Joseph out of his coat, his coat of many colours that was on him; And they took him, and cast him into a pit: and the pit was empty, there was no water in it. And they sat down to eat bread: and they lifted up their eyes and looked, and, behold, a company of Ishmeelites came from Gilead with their camels bearing spicery and balm and myrrh, going to carry it down to Egypt. And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?",
+        "riddle": "What profit is it if we slay our brother, and conceal his blood?",
+        "speaker": "Judah",
+        "listener": "brethren",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "sons of Jacob",
+            "Israel",
+            "servants"
+          ],
+          "listener": [
+            "Jacob's sons",
+            "Israel",
+            "servants"
+          ]
+        },
+        "bonus": "pit",
+        "bonus_hint": {
+          "quote": "Behold, he is hid now in some pit, or in some other place: and it will come to pass, when some of them be overthrown at the first, that whosoever heareth it will say, There is a slaughter among the people that follow Absalom.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 17,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וְעַתָּה לְכוּ וְנַֽהַרְגֵהוּ וְנַשְׁלִכֵהוּ בְּאַחַד הַבֹּרוֹת וְאָמַרְנוּ חַיָּה רָעָה אֲכָלָתְהוּ וְנִרְאֶה מַה־יִּהְיוּ חֲלֹמֹתָֽיו וַיִּשְׁמַע רְאוּבֵן וַיַּצִּלֵהוּ מִיָּדָם וַיֹּאמֶר לֹא נַכֶּנּוּ נָֽפֶשׁ וַיֹּאמֶר אֲלֵהֶם רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וְיָד אַל־תִּשְׁלְחוּ־בוֹ לְמַעַן הַצִּיל אֹתוֹ מִיָּדָם לַהֲשִׁיבוֹ אֶל־אָבִֽיו וַֽיְהִי כַּֽאֲשֶׁר־בָּא יוֹסֵף אֶל־אֶחָיו וַיַּפְשִׁיטוּ אֶת־יוֹסֵף אֶת־כֻּתָּנְתּוֹ אֶת־כְּתֹנֶת הַפַּסִּים אֲשֶׁר עָלָֽיו וַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָֽיִם וַיֵּשְׁבוּ לֶֽאֱכָל־לֶחֶם וַיִּשְׂאוּ עֵֽינֵיהֶם וַיִּרְאוּ וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים בָּאָה מִגִּלְעָד וּגְמַלֵּיהֶם נֹֽשְׂאִים נְכֹאת וּצְרִי וָלֹט הוֹלְכִים לְהוֹרִיד מִצְרָֽיְמָה וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ",
+        "riddle": "מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ",
+        "speaker": "יְהוּדָה",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בְנֵֽי־יַעֲקֹב",
+            "יִשְׂרָאֵל",
+            "עֲבָדָיו"
+          ],
+          "listener": [
+            "בְנֵֽי־יַעֲקֹב",
+            "יִשְׂרָאֵל",
+            "עֲבָדָיו"
+          ]
+        },
+        "bonus": "בְּאַחַד",
+        "bonus_hint": {
+          "quote": "הִנֵּה עַתָּה הֽוּא־נֶחְבָּא בְּאַחַת הַפְּחָתִים אוֹ בְּאַחַד הַמְּקוֹמֹת וְהָיָה כִּנְפֹל בָּהֶם בַּתְּחִלָּה וְשָׁמַע הַשֹּׁמֵעַ וְאָמַר הָֽיְתָה מַגֵּפָה בָּעָם אֲשֶׁר אַחֲרֵי אַבְשָׁלֹֽם",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 17,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Come now therefore, and let us slay him, and cast him into some pit, and we will say, Some evil beast hath devoured him: and we shall see what will become of his dreams.",
+          "21": "And Reuben heard it, and he delivered him out of their hands; and said, Let us not kill him.",
+          "22": "And Reuben said unto them, Shed no blood, but cast him into this pit that is in the wilderness, and lay no hand upon him; that he might rid him out of their hands, to deliver him to his father again.",
+          "23": "And it came to pass, when Joseph was come unto his brethren, that they stript Joseph out of his coat, his coat of many colours that was on him;",
+          "24": "And they took him, and cast him into a pit: and the pit was empty, there was no water in it.",
+          "25": "And they sat down to eat bread: and they lifted up their eyes and looked, and, behold, a company of Ishmeelites came from Gilead with their camels bearing spicery and balm and myrrh, going to carry it down to Egypt.",
+          "26": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?"
+        },
+        "he": {
+          "20": "וְעַתָּה ׀ לְכוּ וְנַֽהַרְגֵהוּ וְנַשְׁלִכֵהוּ בְּאַחַד הַבֹּרוֹת וְאָמַרְנוּ חַיָּה רָעָה אֲכָלָתְהוּ וְנִרְאֶה מַה־יִּהְיוּ חֲלֹמֹתָֽיו׃",
+          "21": "וַיִּשְׁמַע רְאוּבֵן וַיַּצִּלֵהוּ מִיָּדָם וַיֹּאמֶר לֹא נַכֶּנּוּ נָֽפֶשׁ׃",
+          "22": "וַיֹּאמֶר אֲלֵהֶם ׀ רְאוּבֵן אַל־תִּשְׁפְּכוּ־דָם הַשְׁלִיכוּ אֹתוֹ אֶל־הַבּוֹר הַזֶּה אֲשֶׁר בַּמִּדְבָּר וְיָד אַל־תִּשְׁלְחוּ־בוֹ לְמַעַן הַצִּיל אֹתוֹ מִיָּדָם לַהֲשִׁיבוֹ אֶל־אָבִֽיו׃",
+          "23": "וַֽיְהִי כַּֽאֲשֶׁר־בָּא יוֹסֵף אֶל־אֶחָיו וַיַּפְשִׁיטוּ אֶת־יוֹסֵף אֶת־כֻּתָּנְתּוֹ אֶת־כְּתֹנֶת הַפַּסִּים אֲשֶׁר עָלָֽיו׃",
+          "24": "וַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָֽיִם׃",
+          "25": "וַיֵּשְׁבוּ לֶֽאֱכָל־לֶחֶם וַיִּשְׂאוּ עֵֽינֵיהֶם וַיִּרְאוּ וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים בָּאָה מִגִּלְעָד וּגְמַלֵּיהֶם נֹֽשְׂאִים נְכֹאת וּצְרִי וָלֹט הוֹלְכִים לְהוֹרִיד מִצְרָֽיְמָה׃",
+          "26": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 20,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 24,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
+      },
+      "en": {
+        "quote": "And they took him, and cast him into a pit: and the pit was empty, there was no water in it. And they sat down to eat bread: and they lifted up their eyes and looked, and, behold, a company of Ishmeelites came from Gilead with their camels bearing spicery and balm and myrrh, going to carry it down to Egypt. And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood? Come, and let us sell him to the Ishmeelites, and let not our hand be upon him; for he is our brother and our flesh. And his brethren were content. Then there passed by Midianites merchantmen; and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt. And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes. And he returned unto his brethren, and said, The child is not; and I, whither shall I go?",
+        "riddle": "The child is not; and I, whither shall I go?",
+        "speaker": "Reuben",
+        "listener": "his brethren",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Jacob",
+            "Laban"
+          ],
+          "listener": [
+            "Jacob's sons",
+            "Judah",
+            "elders of Israel"
+          ]
+        },
+        "bonus": "pit",
+        "bonus_hint": {
+          "quote": "And they took Absalom, and cast him into a great pit in the wood, and laid a very great heap of stones upon him: and all Israel fled every one to his tent.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָֽיִם וַיֵּשְׁבוּ לֶֽאֱכָל־לֶחֶם וַיִּשְׂאוּ עֵֽינֵיהֶם וַיִּרְאוּ וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים בָּאָה מִגִּלְעָד וּגְמַלֵּיהֶם נֹֽשְׂאִים נְכֹאת וּצְרִי וָלֹט הוֹלְכִים לְהוֹרִיד מִצְרָֽיְמָה וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ לְכוּ וְנִמְכְּרֶנּוּ לַיִּשְׁמְעֵאלִים וְיָדֵנוּ אַל־תְּהִי־בוֹ כִּֽי־אָחִינוּ בְשָׂרֵנוּ הוּא וַֽיִּשְׁמְעוּ אֶחָֽיו וַיַּֽעַבְרוּ אֲנָשִׁים מִדְיָנִים סֹֽחֲרִים וַֽיִּמְשְׁכוּ וַיַּֽעֲלוּ אֶת־יוֹסֵף מִן־הַבּוֹר וַיִּמְכְּרוּ אֶת־יוֹסֵף לַיִּשְׁמְעֵאלִים בְּעֶשְׂרִים כָּסֶף וַיָּבִיאוּ אֶת־יוֹסֵף מִצְרָֽיְמָה וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא",
+        "riddle": "הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא",
+        "speaker": "רְאוּבֵן",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "לָבָן"
+          ],
+          "listener": [
+            "בְנֵֽי־יַעֲקֹב",
+            "יְהוּדָה",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "אֹתוֹ",
+        "bonus_hint": {
+          "quote": "וַיִּקְחוּ אֶת־אַבְשָׁלוֹם וַיַּשְׁלִיכוּ אֹתוֹ בַיַּעַר אֶל־הַפַּחַת הַגָּדוֹל וַיַּצִּבוּ עָלָיו גַּל־אֲבָנִים גָּדוֹל מְאֹד וְכָל־יִשְׂרָאֵל נָסוּ אִישׁ לְאֹהָלָֽיו",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And they took him, and cast him into a pit: and the pit was empty, there was no water in it.",
+          "25": "And they sat down to eat bread: and they lifted up their eyes and looked, and, behold, a company of Ishmeelites came from Gilead with their camels bearing spicery and balm and myrrh, going to carry it down to Egypt.",
+          "26": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?",
+          "27": "Come, and let us sell him to the Ishmeelites, and let not our hand be upon him; for he is our brother and our flesh. And his brethren were content.",
+          "28": "Then there passed by Midianites merchantmen; and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt.",
+          "29": "And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes.",
+          "30": "And he returned unto his brethren, and said, The child is not; and I, whither shall I go?"
+        },
+        "he": {
+          "24": "וַיִּקָּחֻהוּ וַיַּשְׁלִכוּ אֹתוֹ הַבֹּרָה וְהַבּוֹר רֵק אֵין בּוֹ מָֽיִם׃",
+          "25": "וַיֵּשְׁבוּ לֶֽאֱכָל־לֶחֶם וַיִּשְׂאוּ עֵֽינֵיהֶם וַיִּרְאוּ וְהִנֵּה אֹרְחַת יִשְׁמְעֵאלִים בָּאָה מִגִּלְעָד וּגְמַלֵּיהֶם נֹֽשְׂאִים נְכֹאת וּצְרִי וָלֹט הוֹלְכִים לְהוֹרִיד מִצְרָֽיְמָה׃",
+          "26": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ׃",
+          "27": "לְכוּ וְנִמְכְּרֶנּוּ לַיִּשְׁמְעֵאלִים וְיָדֵנוּ אַל־תְּהִי־בוֹ כִּֽי־אָחִינוּ בְשָׂרֵנוּ הוּא וַֽיִּשְׁמְעוּ אֶחָֽיו׃",
+          "28": "וַיַּֽעַבְרוּ אֲנָשִׁים מִדְיָנִים סֹֽחֲרִים וַֽיִּמְשְׁכוּ וַיַּֽעֲלוּ אֶת־יוֹסֵף מִן־הַבּוֹר וַיִּמְכְּרוּ אֶת־יוֹסֵף לַיִּשְׁמְעֵאלִים בְּעֶשְׂרִים כָּסֶף וַיָּבִיאוּ אֶת־יוֹסֵף מִצְרָֽיְמָה׃",
+          "29": "וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו׃",
+          "30": "וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 24,
+        "end": 30
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 26,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood? Come, and let us sell him to the Ishmeelites, and let not our hand be upon him; for he is our brother and our flesh. And his brethren were content. Then there passed by Midianites merchantmen; and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt. And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes. And he returned unto his brethren, and said, The child is not; and I, whither shall I go? And they took Joseph's coat, and killed a kid of the goats, and dipped the coat in the blood; And they sent the coat of many colours, and they brought it to their father; and said, This have we found: know now whether it be thy son's coat or no.",
+        "riddle": "This have we found: know now whether it be thy son's coat or no.",
+        "speaker": "Joseph's brothers",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Esau",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Isaac",
+            "Abraham",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "blood",
+        "bonus_hint": {
+          "quote": "Moreover Manasseh shed innocent blood very much, till he had filled Jerusalem from one end to another; beside his sin wherewith he made Judah to sin, in doing that which was evil in the sight of the LORD.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 21,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ לְכוּ וְנִמְכְּרֶנּוּ לַיִּשְׁמְעֵאלִים וְיָדֵנוּ אַל־תְּהִי־בוֹ כִּֽי־אָחִינוּ בְשָׂרֵנוּ הוּא וַֽיִּשְׁמְעוּ אֶחָֽיו וַיַּֽעַבְרוּ אֲנָשִׁים מִדְיָנִים סֹֽחֲרִים וַֽיִּמְשְׁכוּ וַיַּֽעֲלוּ אֶת־יוֹסֵף מִן־הַבּוֹר וַיִּמְכְּרוּ אֶת־יוֹסֵף לַיִּשְׁמְעֵאלִים בְּעֶשְׂרִים כָּסֶף וַיָּבִיאוּ אֶת־יוֹסֵף מִצְרָֽיְמָה וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא וַיִּקְחוּ אֶת־כְּתֹנֶת יוֹסֵף וַֽיִּשְׁחֲטוּ שְׂעִיר עִזִּים וַיִּטְבְּלוּ אֶת־הַכֻּתֹּנֶת בַּדָּֽם וַֽיְשַׁלְּחוּ אֶת־כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל־אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹֽא",
+        "riddle": "אֶת־כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל־אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹֽא",
+        "speaker": "אֲחֵי יוֹסֵף",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "עֵשָׂו",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יִצְחָק",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "יְהוּדָה",
+        "bonus_hint": {
+          "quote": "וְגַם דָּם נָקִי שָׁפַךְ מְנַשֶּׁה הַרְבֵּה מְאֹד עַד אֲשֶׁר־מִלֵּא אֶת־יְרוּשָׁלִַם פֶּה לָפֶה לְבַד מֵֽחַטָּאתוֹ אֲשֶׁר הֶחֱטִיא אֶת־יְהוּדָה לַעֲשׂוֹת הָרַע בְּעֵינֵי יְהוָֽה",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 21,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And Judah said unto his brethren, What profit is it if we slay our brother, and conceal his blood?",
+          "27": "Come, and let us sell him to the Ishmeelites, and let not our hand be upon him; for he is our brother and our flesh. And his brethren were content.",
+          "28": "Then there passed by Midianites merchantmen; and they drew and lifted up Joseph out of the pit, and sold Joseph to the Ishmeelites for twenty pieces of silver: and they brought Joseph into Egypt.",
+          "29": "And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes.",
+          "30": "And he returned unto his brethren, and said, The child is not; and I, whither shall I go?",
+          "31": "And they took Joseph's coat, and killed a kid of the goats, and dipped the coat in the blood;",
+          "32": "And they sent the coat of many colours, and they brought it to their father; and said, This have we found: know now whether it be thy son's coat or no."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר יְהוּדָה אֶל־אֶחָיו מַה־בֶּצַע כִּי נַהֲרֹג אֶת־אָחִינוּ וְכִסִּינוּ אֶת־דָּמֽוֹ׃",
+          "27": "לְכוּ וְנִמְכְּרֶנּוּ לַיִּשְׁמְעֵאלִים וְיָדֵנוּ אַל־תְּהִי־בוֹ כִּֽי־אָחִינוּ בְשָׂרֵנוּ הוּא וַֽיִּשְׁמְעוּ אֶחָֽיו׃",
+          "28": "וַיַּֽעַבְרוּ אֲנָשִׁים מִדְיָנִים סֹֽחֲרִים וַֽיִּמְשְׁכוּ וַיַּֽעֲלוּ אֶת־יוֹסֵף מִן־הַבּוֹר וַיִּמְכְּרוּ אֶת־יוֹסֵף לַיִּשְׁמְעֵאלִים בְּעֶשְׂרִים כָּסֶף וַיָּבִיאוּ אֶת־יוֹסֵף מִצְרָֽיְמָה׃",
+          "29": "וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו׃",
+          "30": "וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא׃",
+          "31": "וַיִּקְחוּ אֶת־כְּתֹנֶת יוֹסֵף וַֽיִּשְׁחֲטוּ שְׂעִיר עִזִּים וַיִּטְבְּלוּ אֶת־הַכֻּתֹּנֶת בַּדָּֽם׃",
+          "32": "וַֽיְשַׁלְּחוּ אֶת־כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל־אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹֽא׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 26,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-37-35-35",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 37,
+        "quote_verse_start": 29,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 35,
+        "listener_mention_verse": 35
+      },
+      "en": {
+        "quote": "And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes. And he returned unto his brethren, and said, The child is not; and I, whither shall I go? And they took Joseph's coat, and killed a kid of the goats, and dipped the coat in the blood; And they sent the coat of many colours, and they brought it to their father; and said, This have we found: know now whether it be thy son's coat or no. And he knew it, and said, It is my son's coat; an evil beast hath devoured him; Joseph is without doubt rent in pieces. And Jacob rent his clothes, and put sackcloth upon his loins, and mourned for his son many days. And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him.",
+        "riddle": "For I will go down into the grave unto my son mourning",
+        "speaker": "Jacob",
+        "listener": "his sons and daughters",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Abraham",
+            "Joseph"
+          ],
+          "listener": [
+            "brethren",
+            "Joseph's sons",
+            "Israel"
+          ]
+        },
+        "bonus": "pit",
+        "bonus_hint": {
+          "quote": "The owner of the pit shall make it good, and give money unto the owner of them; and the dead beast shall be his.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 21,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא וַיִּקְחוּ אֶת־כְּתֹנֶת יוֹסֵף וַֽיִּשְׁחֲטוּ שְׂעִיר עִזִּים וַיִּטְבְּלוּ אֶת־הַכֻּתֹּנֶת בַּדָּֽם וַֽיְשַׁלְּחוּ אֶת־כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל־אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹֽא וַיַּכִּירָהּ וַיֹּאמֶר כְּתֹנֶת בְּנִי חַיָּה רָעָה אֲכָלָתְהוּ טָרֹף טֹרַף יוֹסֵֽף וַיִּקְרַע יַעֲקֹב שִׂמְלֹתָיו וַיָּשֶׂם שַׂק בְּמָתְנָיו וַיִּתְאַבֵּל עַל־בְּנוֹ יָמִים רַבִּֽים וַיָּקֻמוּ כָל־בָּנָיו וְכָל־בְּנֹתָיו לְנַחֲמוֹ וַיְמָאֵן לְהִתְנַחֵם וַיֹּאמֶר כִּֽי־אֵרֵד אֶל־בְּנִי אָבֵל שְׁאֹלָה וַיֵּבְךְּ אֹתוֹ אָבִֽיו",
+        "riddle": "וַיְמָאֵן לְהִתְנַחֵם וַיֹּאמֶר כִּֽי־אֵרֵד אֶל־בְּנִי אָבֵל שְׁאֹלָה וַיֵּבְךְּ אֹתוֹ אָבִֽיו",
+        "speaker": "יַעֲקֹב",
+        "listener": "בָּנָיו ובנותיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "אַבְרָהָם",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "אָחִיו",
+            "בְּנֵי יוֹסֵף",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "הַבּוֹר",
+        "bonus_hint": {
+          "quote": "בַּעַל הַבּוֹר יְשַׁלֵּם כֶּסֶף יָשִׁיב לִבְעָלָיו וְהַמֵּת יִֽהְיֶה־לּֽוֹ",
+          "source": {
+            "book": "שמות",
+            "chapter": 21,
+            "start": 34,
+            "end": 34
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Reuben returned unto the pit; and, behold, Joseph was not in the pit; and he rent his clothes.",
+          "30": "And he returned unto his brethren, and said, The child is not; and I, whither shall I go?",
+          "31": "And they took Joseph's coat, and killed a kid of the goats, and dipped the coat in the blood;",
+          "32": "And they sent the coat of many colours, and they brought it to their father; and said, This have we found: know now whether it be thy son's coat or no.",
+          "33": "And he knew it, and said, It is my son's coat; an evil beast hath devoured him; Joseph is without doubt rent in pieces.",
+          "34": "And Jacob rent his clothes, and put sackcloth upon his loins, and mourned for his son many days.",
+          "35": "And all his sons and all his daughters rose up to comfort him; but he refused to be comforted; and he said, For I will go down into the grave unto my son mourning. Thus his father wept for him."
+        },
+        "he": {
+          "29": "וַיָּשָׁב רְאוּבֵן אֶל־הַבּוֹר וְהִנֵּה אֵין־יוֹסֵף בַּבּוֹר וַיִּקְרַע אֶת־בְּגָדָֽיו׃",
+          "30": "וַיָּשָׁב אֶל־אֶחָיו וַיֹּאמַר הַיֶּלֶד אֵינֶנּוּ וַאֲנִי אָנָה אֲנִי־בָֽא׃",
+          "31": "וַיִּקְחוּ אֶת־כְּתֹנֶת יוֹסֵף וַֽיִּשְׁחֲטוּ שְׂעִיר עִזִּים וַיִּטְבְּלוּ אֶת־הַכֻּתֹּנֶת בַּדָּֽם׃",
+          "32": "וַֽיְשַׁלְּחוּ אֶת־כְּתֹנֶת הַפַּסִּים וַיָּבִיאוּ אֶל־אֲבִיהֶם וַיֹּאמְרוּ זֹאת מָצָאנוּ הַכֶּר־נָא הַכְּתֹנֶת בִּנְךָ הִוא אִם־לֹֽא׃",
+          "33": "וַיַּכִּירָהּ וַיֹּאמֶר כְּתֹנֶת בְּנִי חַיָּה רָעָה אֲכָלָתְהוּ טָרֹף טֹרַף יוֹסֵֽף׃",
+          "34": "וַיִּקְרַע יַעֲקֹב שִׂמְלֹתָיו וַיָּשֶׂם שַׂק בְּמָתְנָיו וַיִּתְאַבֵּל עַל־בְּנוֹ יָמִים רַבִּֽים׃",
+          "35": "וַיָּקֻמוּ כָל־בָּנָיו וְכָל־בְּנֹתָיו לְנַחֲמוֹ וַיְמָאֵן לְהִתְנַחֵם וַיֹּאמֶר כִּֽי־אֵרֵד אֶל־בְּנִי אָבֵל שְׁאֹלָה וַיֵּבְךְּ אֹתוֹ אָבִֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 37,
+        "start": 29,
+        "end": 35
       },
       "meta": {
         "mode": "llm",

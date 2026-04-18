@@ -6,27 +6,117 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-09-08-08",
+      "id": "joshua-09-06-06",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us.",
+        "riddle": "We be come from a far country: now therefore make ye a league with us.",
+        "speaker": "Hivites",
+        "listener": "Joshua and Israel",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "riddle": "מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "speaker": "הַחִוִּים",
+        "listener": "יְהוֹשֻׁעַ וְאִישׁ יִשְׂרָאֵל",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And they went to Joshua unto the camp at Gilgal, and said unto him, and to the men of Israel, We be come from a far country: now therefore make ye a league with us."
+        },
+        "he": {
+          "6": "וַיֵּלְכוּ אֶל־יְהוֹשֻׁעַ אֶל־הַֽמַּחֲנֶה הַגִּלְגָּל וַיֹּאמְרוּ אֵלָיו וְאֶל־אִישׁ יִשְׂרָאֵל מֵאֶרֶץ רְחוֹקָה בָּאנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "joshua-09-07-07",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?",
+        "riddle": "Peradventure ye dwell among us; and how shall we make a league with you?",
+        "speaker": "Israelites",
+        "listener": "Hivites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית",
+        "riddle": "אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית",
+        "speaker": "אִֽישׁ־יִשְׂרָאֵל",
+        "listener": "הַחִוִּי",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the men of Israel said unto the Hivites, Peradventure ye dwell among us; and how shall we make a league with you?"
+        },
+        "he": {
+          "7": "וַיֹּאמֶר אִֽישׁ־יִשְׂרָאֵל אֶל־הַחִוִּי אוּלַי בְּקִרְבִּי אַתָּה יוֹשֵׁב וְאֵיךְ אֶֽכְרָת־לְךָ בְרִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "joshua-09-08-08-1",
       "source": {
         "book_code": "JOS",
         "book": "Joshua",
         "book_he": "יהושע",
         "chapter": 9,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
-        "riddle": "Who are ye? and from whence come ye?",
-        "speaker": "Joshua",
-        "listener": "Gibeonites",
+        "riddle": "We are thy servants.",
+        "speaker": "Hivites",
+        "listener": "Joshua",
         "book": "Joshua"
       },
       "he": {
         "quote": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
-        "riddle": "מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
-        "speaker": "יְהוֹשֻׁעַ",
-        "listener": "גבעוניים",
+        "riddle": "עֲבָדֶיךָ אֲנָחְנו",
+        "speaker": "הַחִוִּים",
+        "listener": "יְהוֹשֻׁעַ",
         "book": "יהושע"
       },
       "raw_quote_source": {
@@ -38,21 +128,376 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct questions",
-        "confidence": 1.0
+        "reason": "direct declaration",
+        "confidence": 0.9
       },
       "ref": {
         "chapter": 9,
         "start": 8,
         "end": 8
       }
+    },
+    {
+      "id": "joshua-09-08-08-2",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?",
+        "riddle": "Who are ye? and from whence come ye?",
+        "speaker": "Joshua",
+        "listener": "Hivites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
+        "riddle": "מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "עֲבָדֶיךָ אֲנָחְנוּ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And they said unto Joshua, We are thy servants. And Joshua said unto them, Who are ye? and from whence come ye?"
+        },
+        "he": {
+          "8": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ עֲבָדֶיךָ אֲנָחְנוּ וַיֹּאמֶר אֲלֵהֶם יְהוֹשֻׁעַ מִי אַתֶּם וּמֵאַיִן תָּבֹֽאוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "joshua-09-09-09",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,",
+        "riddle": "From a very far country thy servants are come because of the name of the LORD thy God",
+        "speaker": "Hivites",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם",
+        "riddle": "מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם",
+        "speaker": "עֲבָדֶיךָ",
+        "listener": "יְהוָה",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And they said unto him, From a very far country thy servants are come because of the name of the LORD thy God: for we have heard the fame of him, and all that he did in Egypt,"
+        },
+        "he": {
+          "9": "וַיֹּאמְרוּ אֵלָיו מֵאֶרֶץ רְחוֹקָה מְאֹד בָּאוּ עֲבָדֶיךָ לְשֵׁם יְהוָה אֱלֹהֶיךָ כִּֽי־שָׁמַעְנוּ שָׁמְעוֹ וְאֵת כָּל־אֲשֶׁר עָשָׂה בְּמִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct explanation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "joshua-09-11-11",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us.",
+        "riddle": "Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us.",
+        "speaker": "elders",
+        "listener": "men of Gibeon",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "riddle": "קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית",
+        "speaker": "זְֽקֵינֵינוּ",
+        "listener": "אֲנַחְנוּ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Wherefore our elders and all the inhabitants of our country spake to us, saying, Take victuals with you for the journey, and go to meet them, and say unto them, We are your servants: therefore now make ye a league with us."
+        },
+        "he": {
+          "11": "וַיֹּאמְרוּ אֵלֵינוּ זְֽקֵינֵינוּ וְכָל־יֹשְׁבֵי אַרְצֵנוּ לֵאמֹר קְחוּ בְיֶדְכֶם צֵידָה לַדֶּרֶךְ וּלְכוּ לִקְרָאתָם וַאֲמַרְתֶּם אֲלֵיהֶם עַבְדֵיכֶם אֲנַחְנוּ וְעַתָּה כִּרְתוּ־לָנוּ בְרִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "joshua-09-12-12",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:",
+        "riddle": "This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:",
+        "speaker": "men of Gibeon",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "זֶה לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים",
+        "riddle": "זֶה לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים",
+        "speaker": "גִּבְעוֹנִים",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "This our bread we took hot for our provision out of our houses on the day we came forth to go unto you; but now, behold, it is dry, and it is mouldy:"
+        },
+        "he": {
+          "12": "זֶה ׀ לַחְמֵנוּ חָם הִצְטַיַּדְנוּ אֹתוֹ מִבָּתֵּינוּ בְּיוֹם צֵאתֵנוּ לָלֶכֶת אֲלֵיכֶם וְעַתָּה הִנֵּה יָבֵשׁ וְהָיָה נִקֻּדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "joshua-09-19-19",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them.",
+        "riddle": "We have sworn unto them by the LORD God of Israel: now therefore we may not touch them.",
+        "speaker": "princes",
+        "listener": "congregation",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם",
+        "riddle": "אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם",
+        "speaker": "הַנְּשִׂיאִים",
+        "listener": "הָעֵדָה",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "But all the princes said unto all the congregation, We have sworn unto them by the LORD God of Israel: now therefore we may not touch them."
+        },
+        "he": {
+          "19": "וַיֹּאמְרוּ כָל־הַנְּשִׂיאִים אֶל־כָּל־הָעֵדָה אֲנַחְנוּ נִשְׁבַּעְנוּ לָהֶם בַּֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְעַתָּה לֹא נוּכַל לִנְגֹּעַ בָּהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "joshua-09-21-21",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the princes said unto them, Let them live; but let them be hewers of wood and drawers of water unto all the congregation; as the princes had promised them.",
+        "riddle": "Let them live; but let them be hewers of wood and drawers of water unto all the congregation",
+        "speaker": "princes",
+        "listener": "Gibeonites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֲלֵיהֶם הַנְּשִׂיאִים יִֽחְיוּ וַיִּֽהְיוּ חֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְכָל־הָעֵדָה כַּאֲשֶׁר דִּבְּרוּ לָהֶם הַנְּשִׂיאִֽים",
+        "riddle": "וַיֹּאמְרוּ אֲלֵיהֶם הַנְּשִׂיאִים יִֽחְיוּ וַיִּֽהְיוּ חֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְכָל־הָעֵדָה כַּאֲשֶׁר דִּבְּרוּ לָהֶם הַנְּשִׂיאִֽים",
+        "speaker": "הַנְּשִׂיאִים",
+        "listener": "הַגִּבְעוֹנִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the princes said unto them, Let them live; but let them be hewers of wood and drawers of water unto all the congregation; as the princes had promised them."
+        },
+        "he": {
+          "21": "וַיֹּאמְרוּ אֲלֵיהֶם הַנְּשִׂיאִים יִֽחְיוּ וַיִּֽהְיוּ חֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְכָל־הָעֵדָה כַּאֲשֶׁר דִּבְּרוּ לָהֶם הַנְּשִׂיאִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "joshua-09-22-22",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+        "riddle": "Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+        "speaker": "Joshua",
+        "listener": "Gibeonites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים",
+        "riddle": "וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "הַגִּבְעוֹנִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?"
+        },
+        "he": {
+          "22": "וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "joshua-09-23-23",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 9,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Now therefore ye are cursed, and there shall none of you be freed from being bondmen, and hewers of wood and drawers of water for the house of my God.",
+        "riddle": "Now therefore ye are cursed, and there shall none of you be freed from being bondmen, and hewers of wood and drawers of water for the house of my God.",
+        "speaker": "Joshua",
+        "listener": "Gibeonites",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְעַתָּה אֲרוּרִים אַתֶּם וְלֹֽא־יִכָּרֵת מִכֶּם עֶבֶד וְחֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְבֵית אֱלֹהָֽי",
+        "riddle": "וְעַתָּה אֲרוּרִים אַתֶּם וְלֹֽא־יִכָּרֵת מִכֶּם עֶבֶד וְחֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְבֵית אֱלֹהָֽי",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "גִּבְעוֹנִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Joshua called for them, and he spake unto them, saying, Wherefore have ye beguiled us, saying, We are very far from you; when ye dwell among us?",
+          "23": "Now therefore ye are cursed, and there shall none of you be freed from being bondmen, and hewers of wood and drawers of water for the house of my God."
+        },
+        "he": {
+          "22": "וַיִּקְרָא לָהֶם יְהוֹשֻׁעַ וַיְדַבֵּר אֲלֵיהֶם לֵאמֹר לָמָּה רִמִּיתֶם אֹתָנוּ לֵאמֹר רְחוֹקִים אֲנַחְנוּ מִכֶּם מְאֹד וְאַתֶּם בְּקִרְבֵּנוּ יֹשְׁבִֽים׃",
+          "23": "וְעַתָּה אֲרוּרִים אַתֶּם וְלֹֽא־יִכָּרֵת מִכֶּם עֶבֶד וְחֹטְבֵי עֵצִים וְשֹֽׁאֲבֵי־מַיִם לְבֵית אֱלֹהָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct curse",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 23,
+        "end": 23
+      }
     }
   ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 1,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 11,
+    "issue_count": 3
   }
 }

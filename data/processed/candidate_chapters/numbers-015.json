@@ -4,12 +4,154 @@
   "book_he": "במדבר",
   "chapter": 15,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-15-18-19",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 15,
+        "quote_verse_start": 18,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and say unto them, When ye come into the land whither I bring you, Then it shall be, that, when ye eat of the bread of the land, ye shall offer up an heave offering unto the LORD.",
+        "riddle": "When ye come into the land whither I bring you, Then it shall be, that, when ye eat of the bread of the land, ye shall offer up an heave offering unto the LORD.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם בְּבֹֽאֲכֶם אֶל־הָאָרֶץ אֲשֶׁר אֲנִי מֵבִיא אֶתְכֶם שָֽׁמָּה וְהָיָה בַּאֲכָלְכֶם מִלֶּחֶם הָאָרֶץ תָּרִימוּ תְרוּמָה לַיהוָֽה",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם בְּבֹֽאֲכֶם אֶל־הָאָרֶץ אֲשֶׁר אֲנִי מֵבִיא אֶתְכֶם שָֽׁמָּה וְהָיָה בַּאֲכָלְכֶם מִלֶּחֶם הָאָרֶץ תָּרִימוּ תְרוּמָה לַיהוָֽה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the LORD spake unto Moses, saying,",
+          "18": "Speak unto the children of Israel, and say unto them, When ye come into the land whither I bring you,",
+          "19": "Then it shall be, that, when ye eat of the bread of the land, ye shall offer up an heave offering unto the LORD."
+        },
+        "he": {
+          "17": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "18": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם בְּבֹֽאֲכֶם אֶל־הָאָרֶץ אֲשֶׁר אֲנִי מֵבִיא אֶתְכֶם שָֽׁמָּה׃",
+          "19": "וְהָיָה בַּאֲכָלְכֶם מִלֶּחֶם הָאָרֶץ תָּרִימוּ תְרוּמָה לַיהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 18,
+        "end": 19
+      }
+    },
+    {
+      "id": "numbers-15-35-35",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 15,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 35,
+        "listener_mention_verse": 35
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, The man shall be surely put to death: all the congregation shall stone him with stones without the camp.",
+        "riddle": "The man shall be surely put to death: all the congregation shall stone him with stones without the camp.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מוֹת יוּמַת הָאִישׁ רָגוֹם אֹתוֹ בָֽאֲבָנִים כָּל־הָעֵדָה מִחוּץ לַֽמַּחֲנֶֽה",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מוֹת יוּמַת הָאִישׁ רָגוֹם אֹתוֹ בָֽאֲבָנִים כָּל־הָעֵדָה מִחוּץ לַֽמַּחֲנֶֽה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "And the LORD said unto Moses, The man shall be surely put to death: all the congregation shall stone him with stones without the camp."
+        },
+        "he": {
+          "35": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מוֹת יוּמַת הָאִישׁ רָגוֹם אֹתוֹ בָֽאֲבָנִים כָּל־הָעֵדָה מִחוּץ לַֽמַּחֲנֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 35,
+        "end": 35
+      }
+    },
+    {
+      "id": "numbers-15-38-38",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 15,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:",
+        "riddle": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם וְעָשׂוּ לָהֶם צִיצִת עַל־כַּנְפֵי בִגְדֵיהֶם לְדֹרֹתָם וְנָֽתְנוּ עַל־צִיצִת הַכָּנָף פְּתִיל תְּכֵֽלֶת",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם וְעָשׂוּ לָהֶם צִיצִת עַל־כַּנְפֵי בִגְדֵיהֶם לְדֹרֹתָם וְנָֽתְנוּ עַל־צִיצִת הַכָּנָף פְּתִיל תְּכֵֽלֶת",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "37": "And the LORD spake unto Moses, saying,",
+          "38": "Speak unto the children of Israel, and bid them that they make them fringes in the borders of their garments throughout their generations, and that they put upon the fringe of the borders a ribband of blue:"
+        },
+        "he": {
+          "37": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "38": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם וְעָשׂוּ לָהֶם צִיצִת עַל־כַּנְפֵי בִגְדֵיהֶם לְדֹרֹתָם וְנָֽתְנוּ עַל־צִיצִת הַכָּנָף פְּתִיל תְּכֵֽלֶת׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 38,
+        "end": 38
+      }
+    }
+  ],
   "stats": {
-    "window_count": 12,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 0,
-    "issue_count": 12
+    "llm_window_count": 4,
+    "projection_llm_count": 4,
+    "llm_call_count": 8,
+    "spec_count": 4,
+    "kept_count": 3,
+    "issue_count": 1
   }
 }

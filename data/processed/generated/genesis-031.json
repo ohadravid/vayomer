@@ -6,6 +6,242 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-31-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the LORD said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee. And Jacob sent and called Rachel and Leah to the field unto his flock,",
+        "riddle": "Return unto the land of thy fathers, and to thy kindred; and I will be with thee.",
+        "speaker": "LORD",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "field",
+        "bonus_hint": {
+          "quote": "And the king of Assyria sent Tartan and Rabsaris and Rab-shakeh from Lachish to king Hezekiah with a great host against Jerusalem. And they went up and came to Jerusalem. And when they were come up, they came and stood by the conduit of the upper pool, which is in the highway of the fuller's field.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶֽל־יַעֲקֹב שׁוּב אֶל־אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ וְאֶֽהְיֶה עִמָּֽךְ וַיִּשְׁלַח יַעֲקֹב וַיִּקְרָא לְרָחֵל וּלְלֵאָה הַשָּׂדֶה אֶל־צֹאנֽוֹ",
+        "riddle": "שׁוּב אֶל־אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ וְאֶֽהְיֶה עִמָּֽך",
+        "speaker": "יְהוָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח מֶֽלֶךְ־אַשּׁוּר אֶת־תַּרְתָּן וְאֶת־רַב־סָרִיס וְאֶת־רַב־שָׁקֵה מִן־לָכִישׁ אֶל־הַמֶּלֶךְ חִזְקִיָּהוּ בְּחֵיל כָּבֵד יְרוּשָׁלִָם וַֽיַּעֲלוּ וַיָּבֹאוּ יְרוּשָׁלִַם וַיַּעֲלוּ וַיָּבֹאוּ וַיַּֽעַמְדוּ בִּתְעָלַת הַבְּרֵכָה הָֽעֶלְיוֹנָה אֲשֶׁר בִּמְסִלַּת שְׂדֵה כוֹבֵֽס",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 18,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the LORD said unto Jacob, Return unto the land of thy fathers, and to thy kindred; and I will be with thee.",
+          "4": "And Jacob sent and called Rachel and Leah to the field unto his flock,"
+        },
+        "he": {
+          "3": "וַיֹּאמֶר יְהוָה אֶֽל־יַעֲקֹב שׁוּב אֶל־אֶרֶץ אֲבוֹתֶיךָ וּלְמוֹלַדְתֶּךָ וְאֶֽהְיֶה עִמָּֽךְ׃",
+          "4": "וַיִּשְׁלַח יַעֲקֹב וַיִּקְרָא לְרָחֵל וּלְלֵאָה הַשָּׂדֶה אֶל־צֹאנֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-15-15-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 14,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Rachel and Leah answered and said unto him, Is there yet any portion or inheritance for us in our father's house? Are we not counted of him strangers? for he hath sold us, and hath quite devoured also our money. For all the riches which God hath taken from our father, that is ours, and our children's: now then, whatsoever God hath said unto thee, do. Then Jacob rose up, and set his sons and his wives upon camels;",
+        "riddle": "Are we not counted of him strangers? for he hath sold us, and hath quite devoured also our money.",
+        "speaker": "Rachel and Leah",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "inheritance",
+        "bonus_hint": {
+          "quote": "Moreover thou hast not brought us into a land that floweth with milk and honey, or given us inheritance of fields and vineyards: wilt thou put out the eyes of these men? we will not come up.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 16,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתַּעַן רָחֵל וְלֵאָה וַתֹּאמַרְנָה לוֹ הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִֽינוּ הֲלוֹא נָכְרִיּוֹת נֶחְשַׁבְנוּ לוֹ כִּי מְכָרָנוּ וַיֹּאכַל גַּם־אָכוֹל אֶת־כַּסְפֵּֽנוּ כִּי כָל־הָעֹשֶׁר אֲשֶׁר הִצִּיל אֱלֹהִים מֵֽאָבִינוּ לָנוּ הוּא וּלְבָנֵינוּ וְעַתָּה כֹּל אֲשֶׁר אָמַר אֱלֹהִים אֵלֶיךָ עֲשֵֽׂה וַיָּקָם יַעֲקֹב וַיִּשָּׂא אֶת־בָּנָיו וְאֶת־נָשָׁיו עַל־הַגְּמַלִּֽים",
+        "riddle": "הֲלוֹא נָכְרִיּוֹת נֶחְשַׁבְנוּ לוֹ כִּי מְכָרָנוּ וַיֹּאכַל גַּם־אָכוֹל אֶת־כַּסְפֵּֽנוּ",
+        "speaker": "רָחֵל וְלֵאָה",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָנוּ",
+        "bonus_hint": {
+          "quote": "אַף לֹא אֶל־אֶרֶץ זָבַת חָלָב וּדְבַשׁ הֲבִיאֹתָנוּ וַתִּתֶּן־לָנוּ נַחֲלַת שָׂדֶה וָכָרֶם הַעֵינֵי הָאֲנָשִׁים הָהֵם תְּנַקֵּר לֹא נַעֲלֶֽה",
+          "source": {
+            "book": "במדבר",
+            "chapter": 16,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Rachel and Leah answered and said unto him, Is there yet any portion or inheritance for us in our father's house?",
+          "15": "Are we not counted of him strangers? for he hath sold us, and hath quite devoured also our money.",
+          "16": "For all the riches which God hath taken from our father, that is ours, and our children's: now then, whatsoever God hath said unto thee, do.",
+          "17": "Then Jacob rose up, and set his sons and his wives upon camels;"
+        },
+        "he": {
+          "14": "וַתַּעַן רָחֵל וְלֵאָה וַתֹּאמַרְנָה לוֹ הַעוֹד לָנוּ חֵלֶק וְנַחֲלָה בְּבֵית אָבִֽינוּ׃",
+          "15": "הֲלוֹא נָכְרִיּוֹת נֶחְשַׁבְנוּ לוֹ כִּי מְכָרָנוּ וַיֹּאכַל גַּם־אָכוֹל אֶת־כַּסְפֵּֽנוּ׃",
+          "16": "כִּי כָל־הָעֹשֶׁר אֲשֶׁר הִצִּיל אֱלֹהִים מֵֽאָבִינוּ לָנוּ הוּא וּלְבָנֵינוּ וְעַתָּה כֹּל אֲשֶׁר אָמַר אֱלֹהִים אֵלֶיךָ עֲשֵֽׂה׃",
+          "17": "וַיָּקָם יַעֲקֹב וַיִּשָּׂא אֶת־בָּנָיו וְאֶת־נָשָׁיו עַל־הַגְּמַלִּֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 14,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And God came to Laban the Syrian in a dream by night, and said unto him, Take heed that thou speak not to Jacob either good or bad.",
+        "riddle": "Take heed that thou speak not to Jacob either good or bad.",
+        "speaker": "God",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "dream",
+        "bonus_hint": {
+          "quote": "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֱלֹהִים אֶל־לָבָן הָאֲרַמִּי בַּחֲלֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִשָּׁמֶר לְךָ פֶּן־תְּדַבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+        "riddle": "הַלָּיְלָה וַיֹּאמֶר לוֹ הִשָּׁמֶר לְךָ פֶּן־תְּדַבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+        "speaker": "אֱלֹהִים",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִנְּךָ מֵת עַל־הָאִשָּׁה אֲשֶׁר־לָקַחְתָּ וְהִוא בְּעֻלַת בָּֽעַל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And God came to Laban the Syrian in a dream by night, and said unto him, Take heed that thou speak not to Jacob either good or bad."
+        },
+        "he": {
+          "24": "וַיָּבֹא אֱלֹהִים אֶל־לָבָן הָאֲרַמִּי בַּחֲלֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִשָּׁמֶר לְךָ פֶּן־תְּדַבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 24,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "genesis-31-28-28",
       "source": {
         "method": "llm",
@@ -14,11 +250,13 @@
         "book_he": "בראשית",
         "chapter": 31,
         "quote_verse_start": 26,
-        "quote_verse_end": 28
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
       },
       "en": {
         "quote": "And Laban said to Jacob, What hast thou done, that thou hast stolen away unawares to me, and carried away my daughters, as captives taken with the sword? Wherefore didst thou flee away secretly, and steal away from me; and didst not tell me, that I might have sent thee away with mirth, and with songs, with tabret, and with harp? And hast not suffered me to kiss my sons and my daughters? thou hast now done foolishly in so doing.",
-        "riddle": "And hast not suffered me to kiss my sons and my daughters?",
+        "riddle": "And hast not suffered me to kiss my sons and my daughters? thou hast now done foolishly in so doing.",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis",
@@ -26,20 +264,20 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "sword",
+        "bonus": "secretly",
         "bonus_hint": {
-          "quote": "And they slew Hamor and Shechem his son with the edge of the sword, and took Dinah out of Shechem's house, and went out.",
+          "quote": "For thou didst it secretly: but I will do this thing before all Israel, and before the sun.",
           "source": {
-            "book": "Genesis",
-            "chapter": 34,
-            "start": 26,
-            "end": 26
+            "book": "2 Samuel",
+            "chapter": 12,
+            "start": 12,
+            "end": 12
           }
         }
       },
       "he": {
         "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב מֶה עָשִׂיתָ וַתִּגְנֹב אֶת־לְבָבִי וַתְּנַהֵג אֶת־בְּנֹתַי כִּשְׁבֻיוֹת חָֽרֶב לָמָּה נַחְבֵּאתָ לִבְרֹחַ וַתִּגְנֹב אֹתִי וְלֹא־הִגַּדְתָּ לִּי וָֽאֲשַׁלֵּחֲךָ בְּשִׂמְחָה וּבְשִׁרִים בְּתֹף וּבְכִנּֽוֹר וְלֹא נְטַשְׁתַּנִי לְנַשֵּׁק לְבָנַי וְלִבְנֹתָי עַתָּה הִסְכַּלְתָּֽ עֲשֽׂוֹ",
-        "riddle": "וְלֹא נְטַשְׁתַּנִי לְנַשֵּׁק לְבָנַי וְלִבְנֹתָי",
+        "riddle": "וְלֹא נְטַשְׁתַּנִי לְנַשֵּׁק לְבָנַי וְלִבְנֹתָי עַתָּה הִסְכַּלְתָּֽ עֲשֽׂוֹ",
         "speaker": "לָבָן",
         "listener": "יַעֲקֹב",
         "book": "בראשית",
@@ -47,14 +285,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "חָֽרֶב",
+        "bonus": "עָשִׂיתָ",
         "bonus_hint": {
-          "quote": "וְאֶת־חֲמוֹר וְאֶת־שְׁכֶם בְּנוֹ הָרְגוּ לְפִי־חָרֶב וַיִּקְחוּ אֶת־דִּינָה מִבֵּית שְׁכֶם וַיֵּצֵֽאוּ",
+          "quote": "כִּי אַתָּה עָשִׂיתָ בַסָּתֶר וַאֲנִי אֶעֱשֶׂה אֶת־הַדָּבָר הַזֶּה נֶגֶד כָּל־יִשְׂרָאֵל וְנֶגֶד הַשָּֽׁמֶשׁ",
           "source": {
-            "book": "בראשית",
-            "chapter": 34,
-            "start": 26,
-            "end": 26
+            "book": "שמואל ב",
+            "chapter": 12,
+            "start": 12,
+            "end": 12
           }
         }
       },
@@ -84,19 +322,21 @@
       }
     },
     {
-      "id": "genesis-31-51-51",
+      "id": "genesis-31-30-30",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 31,
-        "quote_verse_start": 51,
-        "quote_verse_end": 51
+        "quote_verse_start": 26,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 30
       },
       "en": {
-        "quote": "And Laban said to Jacob, Behold this heap, and behold this pillar, which I have cast betwixt me and thee;",
-        "riddle": "Behold this heap, and behold this pillar, which I",
+        "quote": "And Laban said to Jacob, What hast thou done, that thou hast stolen away unawares to me, and carried away my daughters, as captives taken with the sword? Wherefore didst thou flee away secretly, and steal away from me; and didst not tell me, that I might have sent thee away with mirth, and with songs, with tabret, and with harp? And hast not suffered me to kiss my sons and my daughters? thou hast now done foolishly in so doing. It is in the power of my hand to do you hurt: but the God of your father spake unto me yesternight, saying, Take thou heed that thou speak not to Jacob either good or bad. And now, though thou wouldest needs be gone, because thou sore longedst after thy father's house, yet wherefore hast thou stolen my gods?",
+        "riddle": "wherefore hast thou stolen my gods?",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis",
@@ -104,20 +344,20 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "betwixt",
+        "bonus": "sword",
         "bonus_hint": {
-          "quote": "And ye shall circumcise the flesh of your foreskin; and it shall be a token of the covenant betwixt me and you.",
+          "quote": "And Joshua discomfited Amalek and his people with the edge of the sword.",
           "source": {
-            "book": "Genesis",
+            "book": "Exodus",
             "chapter": 17,
-            "start": 11,
-            "end": 11
+            "start": 13,
+            "end": 13
           }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הִנֵּה הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי בֵּינִי וּבֵינֶֽךָ",
-        "riddle": "הִנֵּה הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי",
+        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב מֶה עָשִׂיתָ וַתִּגְנֹב אֶת־לְבָבִי וַתְּנַהֵג אֶת־בְּנֹתַי כִּשְׁבֻיוֹת חָֽרֶב לָמָּה נַחְבֵּאתָ לִבְרֹחַ וַתִּגְנֹב אֹתִי וְלֹא־הִגַּדְתָּ לִּי וָֽאֲשַׁלֵּחֲךָ בְּשִׂמְחָה וּבְשִׁרִים בְּתֹף וּבְכִנּֽוֹר וְלֹא נְטַשְׁתַּנִי לְנַשֵּׁק לְבָנַי וְלִבְנֹתָי עַתָּה הִסְכַּלְתָּֽ עֲשֽׂוֹ יֶשׁ־לְאֵל יָדִי לַעֲשׂוֹת עִמָּכֶם רָע וֵֽאלֹהֵי אֲבִיכֶם אֶמֶשׁ אָמַר אֵלַי לֵאמֹר הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע וְעַתָּה הָלֹךְ הָלַכְתָּ כִּֽי־נִכְסֹף נִכְסַפְתָּה לְבֵית אָבִיךָ לָמָּה גָנַבְתָּ אֶת־אֱלֹהָֽי",
+        "riddle": "נִכְסַפְתָּה לְבֵית אָבִיךָ לָמָּה גָנַבְתָּ אֶת־אֱלֹהָֽי",
         "speaker": "לָבָן",
         "listener": "יַעֲקֹב",
         "book": "בראשית",
@@ -125,29 +365,37 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "בֵּינִי",
+        "bonus": "חָֽרֶב",
         "bonus_hint": {
-          "quote": "וּנְמַלְתֶּם אֵת בְּשַׂר עָרְלַתְכֶם וְהָיָה לְאוֹת בְּרִית בֵּינִי וּבֵינֵיכֶֽם",
+          "quote": "וַיַּחֲלֹשׁ יְהוֹשֻׁעַ אֶת־עֲמָלֵק וְאֶת־עַמּוֹ לְפִי־חָֽרֶב",
           "source": {
-            "book": "בראשית",
+            "book": "שמות",
             "chapter": 17,
-            "start": 11,
-            "end": 11
+            "start": 13,
+            "end": 13
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "51": "And Laban said to Jacob, Behold this heap, and behold this pillar, which I have cast betwixt me and thee;"
+          "26": "And Laban said to Jacob, What hast thou done, that thou hast stolen away unawares to me, and carried away my daughters, as captives taken with the sword?",
+          "27": "Wherefore didst thou flee away secretly, and steal away from me; and didst not tell me, that I might have sent thee away with mirth, and with songs, with tabret, and with harp?",
+          "28": "And hast not suffered me to kiss my sons and my daughters? thou hast now done foolishly in so doing.",
+          "29": "It is in the power of my hand to do you hurt: but the God of your father spake unto me yesternight, saying, Take thou heed that thou speak not to Jacob either good or bad.",
+          "30": "And now, though thou wouldest needs be gone, because thou sore longedst after thy father's house, yet wherefore hast thou stolen my gods?"
         },
         "he": {
-          "51": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הִנֵּה ׀ הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי בֵּינִי וּבֵינֶֽךָ׃"
+          "26": "וַיֹּאמֶר לָבָן לְיַעֲקֹב מֶה עָשִׂיתָ וַתִּגְנֹב אֶת־לְבָבִי וַתְּנַהֵג אֶת־בְּנֹתַי כִּשְׁבֻיוֹת חָֽרֶב׃",
+          "27": "לָמָּה נַחְבֵּאתָ לִבְרֹחַ וַתִּגְנֹב אֹתִי וְלֹא־הִגַּדְתָּ לִּי וָֽאֲשַׁלֵּחֲךָ בְּשִׂמְחָה וּבְשִׁרִים בְּתֹף וּבְכִנּֽוֹר׃",
+          "28": "וְלֹא נְטַשְׁתַּנִי לְנַשֵּׁק לְבָנַי וְלִבְנֹתָי עַתָּה הִסְכַּלְתָּֽ עֲשֽׂוֹ׃",
+          "29": "יֶשׁ־לְאֵל יָדִי לַעֲשׂוֹת עִמָּכֶם רָע וֵֽאלֹהֵי אֲבִיכֶם אֶמֶשׁ ׀ אָמַר אֵלַי לֵאמֹר הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע׃",
+          "30": "וְעַתָּה הָלֹךְ הָלַכְתָּ כִּֽי־נִכְסֹף נִכְסַפְתָּה לְבֵית אָבִיךָ לָמָּה גָנַבְתָּ אֶת־אֱלֹהָֽי׃"
         }
       },
       "ref": {
         "chapter": 31,
-        "start": 51,
-        "end": 51
+        "start": 26,
+        "end": 30
       },
       "meta": {
         "mode": "llm",
@@ -158,19 +406,567 @@
       }
     },
     {
-      "id": "genesis-31-51-52",
+      "id": "genesis-31-29-29",
       "source": {
         "method": "llm",
         "book_code": "GEN",
         "book": "Genesis",
         "book_he": "בראשית",
         "chapter": 31,
-        "quote_verse_start": 51,
-        "quote_verse_end": 52
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
       },
       "en": {
-        "quote": "And Laban said to Jacob, Behold this heap, and behold this pillar, which I have cast betwixt me and thee; This heap be witness, and this pillar be witness, that I will not pass over this heap to thee, and that thou shalt not pass over this heap and this pillar unto me, for harm.",
-        "riddle": "Behold this heap, and behold this pillar, which I",
+        "quote": "It is in the power of my hand to do you hurt: but the God of your father spake unto me yesternight, saying, Take thou heed that thou speak not to Jacob either good or bad.",
+        "riddle": "Take thou heed that thou speak not to Jacob either good or bad.",
+        "speaker": "God",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "And Joseph found grace in his sight, and he served him: and he made him overseer over his house, and all that he had he put into his hand.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "יֶשׁ־לְאֵל יָדִי לַעֲשׂוֹת עִמָּכֶם רָע וֵֽאלֹהֵי אֲבִיכֶם אֶמֶשׁ אָמַר אֵלַי לֵאמֹר הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+        "riddle": "הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+        "speaker": "אֱלֹהָֽי אֲבִיכֶם",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יֶשׁ",
+        "bonus_hint": {
+          "quote": "וַיִּמְצָא יוֹסֵף חֵן בְּעֵינָיו וַיְשָׁרֶת אֹתוֹ וַיַּפְקִדֵהוּ עַל־בֵּיתוֹ וְכָל־יֶשׁ־לוֹ נָתַן בְּיָדֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "It is in the power of my hand to do you hurt: but the God of your father spake unto me yesternight, saying, Take thou heed that thou speak not to Jacob either good or bad."
+        },
+        "he": {
+          "29": "יֶשׁ־לְאֵל יָדִי לַעֲשׂוֹת עִמָּכֶם רָע וֵֽאלֹהֵי אֲבִיכֶם אֶמֶשׁ ׀ אָמַר אֵלַי לֵאמֹר הִשָּׁמֶר לְךָ מִדַּבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 29,
+        "end": 29
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 31,
+        "listener_mention_verse": 31
+      },
+      "en": {
+        "quote": "And Jacob answered and said to Laban, Because I was afraid: for I said, Peradventure thou wouldest take by force thy daughters from me.",
+        "riddle": "Peradventure thou wouldest take by force thy daughters from me.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "afraid",
+        "bonus_hint": {
+          "quote": "And Elihu the son of Barachel the Buzite answered and said, I am young, and ye are very old; wherefore I was afraid, and durst not shew you mine opinion.",
+          "source": {
+            "book": "Job",
+            "chapter": 32,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן כִּי יָרֵאתִי כִּי אָמַרְתִּי פֶּן־תִּגְזֹל אֶת־בְּנוֹתֶיךָ מֵעִמִּֽי",
+        "riddle": "כִּי יָרֵאתִי כִּי אָמַרְתִּי פֶּן־תִּגְזֹל אֶת־בְּנוֹתֶיךָ",
+        "speaker": "יַעֲקֹב",
+        "listener": "לְלָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן אֱלִיהוּא בֶן־בַּֽרַכְאֵל הַבּוּזִי וַיֹּאמַֽר צָעִיר אֲנִי לְיָמִים וְאַתֶּם יְשִׁישׁ‍ִים עַל־כֵּן זָחַלְתִּי וָֽאִירָא מֵחַוֺּת דֵּעִי אֶתְכֶֽם",
+          "source": {
+            "book": "איוב",
+            "chapter": 32,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Jacob answered and said to Laban, Because I was afraid: for I said, Peradventure thou wouldest take by force thy daughters from me."
+        },
+        "he": {
+          "31": "וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן כִּי יָרֵאתִי כִּי אָמַרְתִּי פֶּן־תִּגְזֹל אֶת־בְּנוֹתֶיךָ מֵעִמִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 31,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-32-32",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 31,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Jacob answered and said to Laban, Because I was afraid: for I said, Peradventure thou wouldest take by force thy daughters from me. With whomsoever thou findest thy gods, let him not live: before our brethren discern thou what is thine with me, and take it to thee. For Jacob knew not that Rachel had stolen them.",
+        "riddle": "With whomsoever thou findest thy gods, let him not live",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "brethren",
+        "bonus_hint": {
+          "quote": "And Isaac answered and said unto Esau, Behold, I have made him thy lord, and all his brethren have I given to him for servants; and with corn and wine have I sustained him: and what shall I do now unto thee, my son?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן כִּי יָרֵאתִי כִּי אָמַרְתִּי פֶּן־תִּגְזֹל אֶת־בְּנוֹתֶיךָ מֵעִמִּֽי עִם אֲשֶׁר תִּמְצָא אֶת־אֱלֹהֶיךָ לֹא יִֽחְיֶה נֶגֶד אַחֵינוּ הַֽכֶּר־לְךָ מָה עִמָּדִי וְקַֽח־לָךְ וְלֹֽא־יָדַע יַעֲקֹב כִּי רָחֵל גְּנָבָֽתַם",
+        "riddle": "עִם אֲשֶׁר תִּמְצָא אֶת־אֱלֹהֶיךָ לֹא יִֽחְיֶה",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּעַן",
+        "bonus_hint": {
+          "quote": "וַיַּעַן יִצְחָק וַיֹּאמֶר לְעֵשָׂו הֵן גְּבִיר שַׂמְתִּיו לָךְ וְאֶת־כָּל־אֶחָיו נָתַתִּי לוֹ לַעֲבָדִים וְדָגָן וְתִירֹשׁ סְמַכְתִּיו וּלְכָה אֵפוֹא מָה אֶֽעֱשֶׂה בְּנִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Jacob answered and said to Laban, Because I was afraid: for I said, Peradventure thou wouldest take by force thy daughters from me.",
+          "32": "With whomsoever thou findest thy gods, let him not live: before our brethren discern thou what is thine with me, and take it to thee. For Jacob knew not that Rachel had stolen them."
+        },
+        "he": {
+          "31": "וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן כִּי יָרֵאתִי כִּי אָמַרְתִּי פֶּן־תִּגְזֹל אֶת־בְּנוֹתֶיךָ מֵעִמִּֽי׃",
+          "32": "עִם אֲשֶׁר תִּמְצָא אֶת־אֱלֹהֶיךָ לֹא יִֽחְיֶה נֶגֶד אַחֵינוּ הַֽכֶּר־לְךָ מָה עִמָּדִי וְקַֽח־לָךְ וְלֹֽא־יָדַע יַעֲקֹב כִּי רָחֵל גְּנָבָֽתַם׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 31,
+        "end": 32
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-35-35",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 34,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 35,
+        "listener_mention_verse": 35
+      },
+      "en": {
+        "quote": "Now Rachel had taken the images, and put them in the camel's furniture, and sat upon them. And Laban searched all the tent, but found them not. And she said to her father, Let it not displease my lord that I cannot rise up before thee; for the custom of women is upon me. And he searched, but found not the images.",
+        "riddle": "Let it not displease my lord that I cannot rise up before thee; for the custom of women is upon me.",
+        "speaker": "Rachel",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "images",
+        "bonus_hint": {
+          "quote": "Moreover the workers with familiar spirits, and the wizards, and the images, and the idols, and all the abominations that were spied in the land of Judah and in Jerusalem, did Josiah put away, that he might perform the words of the law which were written in the book that Hilkiah the priest found in the house of the LORD.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 23,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וְרָחֵל לָקְחָה אֶת־הַתְּרָפִים וַתְּשִׂמֵם בְּכַר הַגָּמָל וַתֵּשֶׁב עֲלֵיהֶם וַיְמַשֵּׁשׁ לָבָן אֶת־כָּל־הָאֹהֶל וְלֹא מָצָֽא וַתֹּאמֶר אֶל־אָבִיהָ אַל־יִחַר בְּעֵינֵי אֲדֹנִי כִּי לוֹא אוּכַל לָקוּם מִפָּנֶיךָ כִּי־דֶרֶךְ נָשִׁים לִי וַיְחַפֵּשׂ וְלֹא מָצָא אֶת־הַתְּרָפִֽים",
+        "riddle": "אַל־יִחַר בְּעֵינֵי אֲדֹנִי כִּי לוֹא אוּכַל לָקוּם מִפָּנֶיךָ כִּי־דֶרֶךְ נָשִׁים לִי וַיְחַפֵּשׂ וְלֹא מָצָא אֶת",
+        "speaker": "רָחֵל",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַתְּרָפִים",
+        "bonus_hint": {
+          "quote": "וְגַם אֶת־הָאֹבוֹת וְאֶת־הַיִּדְּעֹנִים וְאֶת־הַתְּרָפִים וְאֶת־הַגִּלֻּלִים וְאֵת כָּל־הַשִּׁקֻּצִים אֲשֶׁר נִרְאוּ בְּאֶרֶץ יְהוּדָה וּבִירוּשָׁלִַם בִּעֵר יֹֽאשִׁיָּהוּ לְמַעַן הָקִים אֶת־דִּבְרֵי הַתּוֹרָה הַכְּתֻבִים עַל־הַסֵּפֶר אֲשֶׁר מָצָא חִלְקִיָּהוּ הַכֹּהֵן בֵּית יְהוָֽה",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 23,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "Now Rachel had taken the images, and put them in the camel's furniture, and sat upon them. And Laban searched all the tent, but found them not.",
+          "35": "And she said to her father, Let it not displease my lord that I cannot rise up before thee; for the custom of women is upon me. And he searched, but found not the images."
+        },
+        "he": {
+          "34": "וְרָחֵל לָקְחָה אֶת־הַתְּרָפִים וַתְּשִׂמֵם בְּכַר הַגָּמָל וַתֵּשֶׁב עֲלֵיהֶם וַיְמַשֵּׁשׁ לָבָן אֶת־כָּל־הָאֹהֶל וְלֹא מָצָֽא׃",
+          "35": "וַתֹּאמֶר אֶל־אָבִיהָ אַל־יִחַר בְּעֵינֵי אֲדֹנִי כִּי לוֹא אוּכַל לָקוּם מִפָּנֶיךָ כִּי־דֶרֶךְ נָשִׁים לִי וַיְחַפֵּשׂ וְלֹא מָצָא אֶת־הַתְּרָפִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 34,
+        "end": 35
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-42-42",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 36,
+        "quote_verse_end": 42
+      },
+      "en": {
+        "quote": "And Jacob was wroth, and chode with Laban: and Jacob answered and said to Laban, What is my trespass? what is my sin, that thou hast so hotly pursued after me? Whereas thou hast searched all my stuff, what hast thou found of all thy household stuff? set it here before my brethren and thy brethren, that they may judge betwixt us both. This twenty years have I been with thee; thy ewes and thy she goats have not cast their young, and the rams of thy flock have I not eaten. That which was torn of beasts I brought not unto thee; I bare the loss of it; of my hand didst thou require it, whether stolen by day, or stolen by night. Thus I was; in the day the drought consumed me, and the frost by night; and my sleep departed from mine eyes. Thus have I been twenty years in thy house; I served thee fourteen years for thy two daughters, and six years for thy cattle: and thou hast changed my wages ten times. Except the God of my father, the God of Abraham, and the fear of Isaac, had been with me, surely thou hadst sent me away now empty. God hath seen mine affliction and the labour of my hands, and rebuked thee yesternight.",
+        "riddle": "Except the God of my father, the God of Abraham, and the fear of Isaac, had been with me, surely thou hadst sent me away now empty.",
+        "speaker": "Jacob",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "trespass",
+        "bonus_hint": {
+          "quote": "And take the ark of the LORD, and lay it upon the cart; and put the jewels of gold, which ye return him for a trespass offering, in a coffer by the side thereof; and send it away, that it may go.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 6,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּחַר לְיַעֲקֹב וַיָּרֶב בְּלָבָן וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן מַה־פִּשְׁעִי מַה חַטָּאתִי כִּי דָלַקְתָּ אַחֲרָֽי כִּֽי־מִשַּׁשְׁתָּ אֶת־כָּל־כֵּלַי מַה־מָּצָאתָ מִכֹּל כְּלֵי־בֵיתֶךָ שִׂים כֹּה נֶגֶד אַחַי וְאַחֶיךָ וְיוֹכִיחוּ בֵּין שְׁנֵֽינוּ זֶה עֶשְׂרִים שָׁנָה אָנֹכִי עִמָּךְ רְחֵלֶיךָ וְעִזֶּיךָ לֹא שִׁכֵּלוּ וְאֵילֵי צֹאנְךָ לֹא אָכָֽלְתִּי טְרֵפָה לֹא־הֵבֵאתִי אֵלֶיךָ אָנֹכִי אֲחַטֶּנָּה מִיָּדִי תְּבַקְשֶׁנָּה גְּנֻֽבְתִי יוֹם וּגְנֻֽבְתִי לָֽיְלָה הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב וְקֶרַח בַּלָּיְלָה וַתִּדַּד שְׁנָתִי מֵֽעֵינָֽי זֶה־לִּי עֶשְׂרִים שָׁנָה בְּבֵיתֶךָ עֲבַדְתִּיךָ אַרְבַּֽע־עֶשְׂרֵה שָׁנָה בִּשְׁתֵּי בְנֹתֶיךָ וְשֵׁשׁ שָׁנִים בְּצֹאנֶךָ וַתַּחֲלֵף אֶת־מַשְׂכֻּרְתִּי עֲשֶׂרֶת מֹנִֽים לוּלֵי אֱלֹהֵי אָבִי אֱלֹהֵי אַבְרָהָם וּפַחַד יִצְחָק הָיָה לִי כִּי עַתָּה רֵיקָם שִׁלַּחְתָּנִי אֶת־עָנְיִי וְאֶת־יְגִיעַ כַּפַּי רָאָה אֱלֹהִים וַיּוֹכַח אָֽמֶשׁ",
+        "riddle": "לוּלֵי אֱלֹהֵי אָבִי אֱלֹהֵי אַבְרָהָם וּפַחַד יִצְחָק הָיָה לִי כִּי עַתָּה רֵיקָם שִׁלַּחְתָּנִי אֶת־עָנְיִי וְאֶת־יְגִיעַ כַּפַּי רָאָה אֱלֹהִים וַיּוֹכַח אָֽמֶשׁ",
+        "speaker": "יַעֲקֹב",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "כְּלֵי",
+        "bonus_hint": {
+          "quote": "וּלְקַחְתֶּם אֶת־אֲרוֹן יְהוָה וּנְתַתֶּם אֹתוֹ אֶל־הָעֲגָלָה וְאֵת כְּלֵי הַזָּהָב אֲשֶׁר הֲשֵׁבֹתֶם לוֹ אָשָׁם תָּשִׂימוּ בָאַרְגַּז מִצִּדּוֹ וְשִׁלַּחְתֶּם אֹתוֹ וְהָלָֽךְ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 6,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "And Jacob was wroth, and chode with Laban: and Jacob answered and said to Laban, What is my trespass? what is my sin, that thou hast so hotly pursued after me?",
+          "37": "Whereas thou hast searched all my stuff, what hast thou found of all thy household stuff? set it here before my brethren and thy brethren, that they may judge betwixt us both.",
+          "38": "This twenty years have I been with thee; thy ewes and thy she goats have not cast their young, and the rams of thy flock have I not eaten.",
+          "39": "That which was torn of beasts I brought not unto thee; I bare the loss of it; of my hand didst thou require it, whether stolen by day, or stolen by night.",
+          "40": "Thus I was; in the day the drought consumed me, and the frost by night; and my sleep departed from mine eyes.",
+          "41": "Thus have I been twenty years in thy house; I served thee fourteen years for thy two daughters, and six years for thy cattle: and thou hast changed my wages ten times.",
+          "42": "Except the God of my father, the God of Abraham, and the fear of Isaac, had been with me, surely thou hadst sent me away now empty. God hath seen mine affliction and the labour of my hands, and rebuked thee yesternight."
+        },
+        "he": {
+          "36": "וַיִּחַר לְיַעֲקֹב וַיָּרֶב בְּלָבָן וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן מַה־פִּשְׁעִי מַה חַטָּאתִי כִּי דָלַקְתָּ אַחֲרָֽי׃",
+          "37": "כִּֽי־מִשַּׁשְׁתָּ אֶת־כָּל־כֵּלַי מַה־מָּצָאתָ מִכֹּל כְּלֵי־בֵיתֶךָ שִׂים כֹּה נֶגֶד אַחַי וְאַחֶיךָ וְיוֹכִיחוּ בֵּין שְׁנֵֽינוּ׃",
+          "38": "זֶה עֶשְׂרִים שָׁנָה אָנֹכִי עִמָּךְ רְחֵלֶיךָ וְעִזֶּיךָ לֹא שִׁכֵּלוּ וְאֵילֵי צֹאנְךָ לֹא אָכָֽלְתִּי׃",
+          "39": "טְרֵפָה לֹא־הֵבֵאתִי אֵלֶיךָ אָנֹכִי אֲחַטֶּנָּה מִיָּדִי תְּבַקְשֶׁנָּה גְּנֻֽבְתִי יוֹם וּגְנֻֽבְתִי לָֽיְלָה׃",
+          "40": "הָיִיתִי בַיּוֹם אֲכָלַנִי חֹרֶב וְקֶרַח בַּלָּיְלָה וַתִּדַּד שְׁנָתִי מֵֽעֵינָֽי׃",
+          "41": "זֶה־לִּי עֶשְׂרִים שָׁנָה בְּבֵיתֶךָ עֲבַדְתִּיךָ אַרְבַּֽע־עֶשְׂרֵה שָׁנָה בִּשְׁתֵּי בְנֹתֶיךָ וְשֵׁשׁ שָׁנִים בְּצֹאנֶךָ וַתַּחֲלֵף אֶת־מַשְׂכֻּרְתִּי עֲשֶׂרֶת מֹנִֽים׃",
+          "42": "לוּלֵי אֱלֹהֵי אָבִי אֱלֹהֵי אַבְרָהָם וּפַחַד יִצְחָק הָיָה לִי כִּי עַתָּה רֵיקָם שִׁלַּחְתָּנִי אֶת־עָנְיִי וְאֶת־יְגִיעַ כַּפַּי רָאָה אֱלֹהִים וַיּוֹכַח אָֽמֶשׁ׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 36,
+        "end": 42
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-48-48-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 47,
+        "quote_verse_end": 48
+      },
+      "en": {
+        "quote": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed. And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed;",
+        "riddle": "This heap is a witness between me and thee this",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "day",
+        "bonus_hint": {
+          "quote": "And God called the light Day, and the darkness he called Night. And the evening and the morning were the first day.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד",
+        "riddle": "הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "קָרָא",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַֽיְהִי־עֶרֶב וַֽיְהִי־בֹקֶר יוֹם אֶחָֽד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 1,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "47": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed.",
+          "48": "And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed;"
+        },
+        "he": {
+          "47": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד׃",
+          "48": "וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 47,
+        "end": 48
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-48-48-2",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 47,
+        "quote_verse_end": 48,
+        "speaker_mention_verse": 48,
+        "listener_mention_verse": 48
+      },
+      "en": {
+        "quote": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed. And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed;",
+        "riddle": "This heap is a witness between me and thee this day",
+        "speaker": "Laban",
+        "listener": "Jacob",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "name",
+        "bonus_hint": {
+          "quote": "Therefore is the name of it called Babel; because the LORD did there confound the language of all the earth: and from thence did the LORD scatter them abroad upon the face of all the earth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 11,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד",
+        "riddle": "הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד",
+        "speaker": "לָבָן",
+        "listener": "יַעֲקֹב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "קָרָא",
+        "bonus_hint": {
+          "quote": "עַל־כֵּן קָרָא שְׁמָהּ בָּבֶל כִּי־שָׁם בָּלַל יְהוָה שְׂפַת כָּל־הָאָרֶץ וּמִשָּׁם הֱפִיצָם יְהוָה עַל־פְּנֵי כָּל־הָאָֽרֶץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 11,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "47": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed.",
+          "48": "And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed;"
+        },
+        "he": {
+          "47": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד׃",
+          "48": "וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 47,
+        "end": 48
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-31-49-49",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 31,
+        "quote_verse_start": 47,
+        "quote_verse_end": 49,
+        "speaker_mention_verse": 48,
+        "listener_mention_verse": 48
+      },
+      "en": {
+        "quote": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed. And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed; And Mizpah; for he said, The LORD watch between me and thee, when we are absent one from another.",
+        "riddle": "The LORD watch between me and thee, when we are absent one from another",
         "speaker": "Laban",
         "listener": "Jacob",
         "book": "Genesis",
@@ -180,18 +976,18 @@
         },
         "bonus": "witness",
         "bonus_hint": {
-          "quote": "Thou shalt not bear false witness against thy neighbour.",
+          "quote": "Take this book of the law, and put it in the side of the ark of the covenant of the LORD your God, that it may be there for a witness against thee.",
           "source": {
-            "book": "Exodus",
-            "chapter": 20,
-            "start": 16,
-            "end": 16
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 26,
+            "end": 26
           }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הִנֵּה הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי בֵּינִי וּבֵינֶֽךָ עֵד הַגַּל הַזֶּה וְעֵדָה הַמַּצֵּבָה אִם־אָנִי לֹֽא־אֶֽעֱבֹר אֵלֶיךָ אֶת־הַגַּל הַזֶּה וְאִם־אַתָּה לֹא־תַעֲבֹר אֵלַי אֶת־הַגַּל הַזֶּה וְאֶת־הַמַּצֵּבָה הַזֹּאת לְרָעָֽה",
-        "riddle": "הִנֵּה הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי בֵּינִי וּבֵינֶֽךָ",
+        "quote": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד וְהַמִּצְפָּה אֲשֶׁר אָמַר יִצֶף יְהוָה בֵּינִי וּבֵינֶךָ כִּי נִסָּתֵר אִישׁ מֵרֵעֵֽהוּ",
+        "riddle": "וְהַמִּצְפָּה אֲשֶׁר אָמַר יִצֶף יְהוָה בֵּינִי וּבֵינֶךָ כִּי נִסָּתֵר אִישׁ מֵרֵעֵֽהוּ",
         "speaker": "לָבָן",
         "listener": "יַעֲקֹב",
         "book": "בראשית",
@@ -199,31 +995,33 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "עֵד",
+        "bonus": "הַזֶּה",
         "bonus_hint": {
-          "quote": "לֹֽא־תַעֲנֶה בְרֵעֲךָ עֵד שָֽׁקֶר",
+          "quote": "לָקֹחַ אֵת סֵפֶר הַתּוֹרָה הַזֶּה וְשַׂמְתֶּם אֹתוֹ מִצַּד אֲרוֹן בְּרִית־יְהוָה אֱלֹהֵיכֶם וְהָֽיָה־שָׁם בְּךָ לְעֵֽד",
           "source": {
-            "book": "שמות",
-            "chapter": 20,
-            "start": 16,
-            "end": 16
+            "book": "דברים",
+            "chapter": 31,
+            "start": 26,
+            "end": 26
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "51": "And Laban said to Jacob, Behold this heap, and behold this pillar, which I have cast betwixt me and thee;",
-          "52": "This heap be witness, and this pillar be witness, that I will not pass over this heap to thee, and that thou shalt not pass over this heap and this pillar unto me, for harm."
+          "47": "And Laban called it Jegar-sahadutha: but Jacob called it Galeed.",
+          "48": "And Laban said, This heap is a witness between me and thee this day. Therefore was the name of it called Galeed;",
+          "49": "And Mizpah; for he said, The LORD watch between me and thee, when we are absent one from another."
         },
         "he": {
-          "51": "וַיֹּאמֶר לָבָן לְיַעֲקֹב הִנֵּה ׀ הַגַּל הַזֶּה וְהִנֵּה הַמַצֵּבָה אֲשֶׁר יָרִיתִי בֵּינִי וּבֵינֶֽךָ׃",
-          "52": "עֵד הַגַּל הַזֶּה וְעֵדָה הַמַּצֵּבָה אִם־אָנִי לֹֽא־אֶֽעֱבֹר אֵלֶיךָ אֶת־הַגַּל הַזֶּה וְאִם־אַתָּה לֹא־תַעֲבֹר אֵלַי אֶת־הַגַּל הַזֶּה וְאֶת־הַמַּצֵּבָה הַזֹּאת לְרָעָֽה׃"
+          "47": "וַיִּקְרָא־לוֹ לָבָן יְגַר שָׂהֲדוּתָא וְיַֽעֲקֹב קָרָא לוֹ גַּלְעֵֽד׃",
+          "48": "וַיֹּאמֶר לָבָן הַגַּל הַזֶּה עֵד בֵּינִי וּבֵינְךָ הַיּוֹם עַל־כֵּן קָרָֽא־שְׁמוֹ גַּלְעֵֽד׃",
+          "49": "וְהַמִּצְפָּה אֲשֶׁר אָמַר יִצֶף יְהוָה בֵּינִי וּבֵינֶךָ כִּי נִסָּתֵר אִישׁ מֵרֵעֵֽהוּ׃"
         }
       },
       "ref": {
         "chapter": 31,
-        "start": 51,
-        "end": 52
+        "start": 47,
+        "end": 49
       },
       "meta": {
         "mode": "llm",

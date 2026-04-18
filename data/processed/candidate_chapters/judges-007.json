@@ -4,12 +4,594 @@
   "book_he": "שופטים",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "judges-07-02-02",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.",
+        "riddle": "The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן רַב הָעָם אֲשֶׁר אִתָּךְ מִתִּתִּי אֶת־מִדְיָן בְּיָדָם פֶּן־יִתְפָּאֵר עָלַי יִשְׂרָאֵל לֵאמֹר יָדִי הוֹשִׁיעָה לִּֽי",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן רַב הָעָם אֲשֶׁר אִתָּךְ מִתִּתִּי אֶת־מִדְיָן בְּיָדָם פֶּן־יִתְפָּאֵר עָלַי יִשְׂרָאֵל לֵאמֹר יָדִי הוֹשִׁיעָה לִּֽי",
+        "speaker": "יְהוָה",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן רַב הָעָם אֲשֶׁר אִתָּךְ מִתִּתִּי אֶת־מִדְיָן בְּיָדָם פֶּן־יִתְפָּאֵר עָלַי יִשְׂרָאֵל לֵאמֹר יָדִי הוֹשִׁיעָה לִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "judges-07-03-03",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand.",
+        "riddle": "Whosoever is fearful and afraid, let him return and depart early from mount Gilead.",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וְעַתָּה קְרָא נָא בְּאָזְנֵי הָעָם לֵאמֹר מִֽי־יָרֵא וְחָרֵד יָשֹׁב וְיִצְפֹּר מֵהַר הַגִּלְעָד וַיָּשָׁב מִן־הָעָם עֶשְׂרִים וּשְׁנַיִם אֶלֶף וַעֲשֶׂרֶת אֲלָפִים נִשְׁאָֽרוּ",
+        "riddle": "מִֽי־יָרֵא וְחָרֵד יָשֹׁב וְיִצְפֹּר מֵהַר הַגִּלְעָד וַיָּשָׁב מִן־הָעָם עֶשְׂרִים וּשְׁנַיִם אֶלֶף וַעֲשֶׂרֶת",
+        "speaker": "יְהוָה",
+        "listener": "הָעָם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto Gideon, The people that are with thee are too many for me to give the Midianites into their hands, lest Israel vaunt themselves against me, saying, Mine own hand hath saved me.",
+          "3": "Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן רַב הָעָם אֲשֶׁר אִתָּךְ מִתִּתִּי אֶת־מִדְיָן בְּיָדָם פֶּן־יִתְפָּאֵר עָלַי יִשְׂרָאֵל לֵאמֹר יָדִי הוֹשִׁיעָה לִּֽי׃",
+          "3": "וְעַתָּה קְרָא נָא בְּאָזְנֵי הָעָם לֵאמֹר מִֽי־יָרֵא וְחָרֵד יָשֹׁב וְיִצְפֹּר מֵהַר הַגִּלְעָד וַיָּשָׁב מִן־הָעָם עֶשְׂרִים וּשְׁנַיִם אֶלֶף וַעֲשֶׂרֶת אֲלָפִים נִשְׁאָֽרוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command to people",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "judges-07-04-04",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And the LORD said unto Gideon, The people are yet too many; bring them down unto the water, and I will try them for thee there: and it shall be, that of whom I say unto thee, This shall go with thee, the same shall go with thee; and of whomsoever I say unto thee, This shall not go with thee, the same shall not go.",
+        "riddle": "The people are yet too many; bring them down unto the water, and I will try them for thee there",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן עוֹד הָעָם רָב הוֹרֵד אוֹתָם אֶל־הַמַּיִם וְאֶצְרְפֶנּוּ לְךָ שָׁם וְהָיָה אֲשֶׁר אֹמַר אֵלֶיךָ זֶה יֵלֵךְ אִתָּךְ הוּא יֵלֵךְ אִתָּךְ וְכֹל אֲשֶׁר־אֹמַר אֵלֶיךָ זֶה לֹא־יֵלֵךְ עִמָּךְ הוּא לֹא יֵלֵֽךְ",
+        "riddle": "עוֹד הָעָם רָב הוֹרֵד אוֹתָם אֶל־הַמַּיִם וְאֶצְרְפֶנּוּ לְךָ שָׁם וְהָיָה אֲשֶׁר אֹמַר אֵלֶיךָ זֶה יֵלֵךְ אִתָּךְ הוּא יֵלֵךְ אִתָּךְ וְכֹל אֲשֶׁר",
+        "speaker": "יְהוָה",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the LORD said unto Gideon, The people are yet too many; bring them down unto the water, and I will try them for thee there: and it shall be, that of whom I say unto thee, This shall go with thee, the same shall go with thee; and of whomsoever I say unto thee, This shall not go with thee, the same shall not go."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן עוֹד הָעָם רָב הוֹרֵד אוֹתָם אֶל־הַמַּיִם וְאֶצְרְפֶנּוּ לְךָ שָׁם וְהָיָה אֲשֶׁר אֹמַר אֵלֶיךָ זֶה ׀ יֵלֵךְ אִתָּךְ הוּא יֵלֵךְ אִתָּךְ וְכֹל אֲשֶׁר־אֹמַר אֵלֶיךָ זֶה לֹא־יֵלֵךְ עִמָּךְ הוּא לֹא יֵלֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "judges-07-05-05",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "So he brought down the people unto the water: and the LORD said unto Gideon, Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink.",
+        "riddle": "Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink.",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיּוֹרֶד אֶת־הָעָם אֶל־הַמָּיִם וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד וְכֹל אֲשֶׁר־יִכְרַע עַל־בִּרְכָּיו לִשְׁתּֽוֹת",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד וְכֹל אֲשֶׁר־יִכְרַע עַל־בִּרְכָּיו לִשְׁתּֽוֹת",
+        "speaker": "יְהוָה",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "So he brought down the people unto the water: and the LORD said unto Gideon, Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink."
+        },
+        "he": {
+          "5": "וַיּוֹרֶד אֶת־הָעָם אֶל־הַמָּיִם וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד וְכֹל אֲשֶׁר־יִכְרַע עַל־בִּרְכָּיו לִשְׁתּֽוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "instruction for testing",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "judges-07-07-07",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD said unto Gideon, By the three hundred men that lapped will I save you, and deliver the Midianites into thine hand: and let all the other people go every man unto his place.",
+        "riddle": "By the three hundred men that lapped will I save you, and deliver the Midianites into thine hand: and let all the other people go every man unto his place.",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן בִּשְׁלֹשׁ מֵאוֹת הָאִישׁ הַֽמֲלַקְקִים אוֹשִׁיעַ אֶתְכֶם וְנָתַתִּי אֶת־מִדְיָן בְּיָדֶךָ וְכָל־הָעָם יֵלְכוּ אִישׁ לִמְקֹמֽוֹ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן בִּשְׁלֹשׁ מֵאוֹת הָאִישׁ הַֽמֲלַקְקִים אוֹשִׁיעַ אֶתְכֶם וְנָתַתִּי אֶת־מִדְיָן בְּיָדֶךָ וְכָל־הָעָם יֵלְכוּ אִישׁ לִמְקֹמֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD said unto Gideon, By the three hundred men that lapped will I save you, and deliver the Midianites into thine hand: and let all the other people go every man unto his place."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן בִּשְׁלֹשׁ מֵאוֹת הָאִישׁ הַֽמֲלַקְקִים אוֹשִׁיעַ אֶתְכֶם וְנָתַתִּי אֶת־מִדְיָן בְּיָדֶךָ וְכָל־הָעָם יֵלְכוּ אִישׁ לִמְקֹמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "judges-07-09-09",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And it came to pass the same night, that the LORD said unto him, Arise, get thee down unto the host; for I have delivered it into thine hand.",
+        "riddle": "Arise, get thee down unto the host; for I have delivered it into thine hand.",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַֽיְהִי בַּלַּיְלָה הַהוּא וַיֹּאמֶר אֵלָיו יְהוָה קוּם רֵד בַּֽמַּחֲנֶה כִּי נְתַתִּיו בְּיָדֶֽךָ",
+        "riddle": "קוּם רֵד בַּֽמַּחֲנֶה כִּי נְתַתִּיו בְּיָדֶֽך",
+        "speaker": "יְהוָה",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And it came to pass the same night, that the LORD said unto him, Arise, get thee down unto the host; for I have delivered it into thine hand."
+        },
+        "he": {
+          "9": "וַֽיְהִי בַּלַּיְלָה הַהוּא וַיֹּאמֶר אֵלָיו יְהוָה קוּם רֵד בַּֽמַּחֲנֶה כִּי נְתַתִּיו בְּיָדֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "judges-07-10-10",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "But if thou fear to go down, go thou with Phurah thy servant down to the host:",
+        "riddle": "But if thou fear to go down, go thou with Phurah thy servant down to the host:",
+        "speaker": "the LORD",
+        "listener": "Gideon",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וְאִם־יָרֵא אַתָּה לָרֶדֶת רֵד אַתָּה וּפֻרָה נַעַרְךָ אֶל־הַֽמַּחֲנֶֽה",
+        "riddle": "וְאִם־יָרֵא אַתָּה לָרֶדֶת רֵד אַתָּה וּפֻרָה נַעַרְךָ אֶל־הַֽמַּחֲנֶֽה",
+        "speaker": "יְהוָה",
+        "listener": "גדעון",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And it came to pass the same night, that the LORD said unto him, Arise, get thee down unto the host; for I have delivered it into thine hand.",
+          "10": "But if thou fear to go down, go thou with Phurah thy servant down to the host:"
+        },
+        "he": {
+          "9": "וַֽיְהִי בַּלַּיְלָה הַהוּא וַיֹּאמֶר אֵלָיו יְהוָה קוּם רֵד בַּֽמַּחֲנֶה כִּי נְתַתִּיו בְּיָדֶֽךָ׃",
+          "10": "וְאִם־יָרֵא אַתָּה לָרֶדֶת רֵד אַתָּה וּפֻרָה נַעַרְךָ אֶל־הַֽמַּחֲנֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "judges-07-13-13",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And when Gideon was come, behold, there was a man that told a dream unto his fellow, and said, Behold, I dreamed a dream, and, lo, a cake of barley bread tumbled into the host of Midian, and came unto a tent, and smote it that it fell, and overturned it, that the tent lay along.",
+        "riddle": "Behold, I dreamed a dream, and, lo, a cake of barley bread tumbled into the host of Midian, and came unto a tent, and smote it that it fell, and overturned it, that the tent lay along.",
+        "speaker": "a man",
+        "listener": "his fellow",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיָּבֹא גִדְעוֹן וְהִנֵּה־אִישׁ מְסַפֵּר לְרֵעֵהוּ חֲלוֹם וַיֹּאמֶר הִנֵּה חֲלוֹם חָלַמְתִּי וְהִנֵּה צְלִיל לֶחֶם שְׂעֹרִים מִתְהַפֵּךְ בְּמַחֲנֵה מִדְיָן וַיָּבֹא עַד־הָאֹהֶל וַיַּכֵּהוּ וַיִּפֹּל וַיַּהַפְכֵהוּ לְמַעְלָה וְנָפַל הָאֹֽהֶל",
+        "riddle": "וַיָּבֹא גִדְעוֹן וְהִנֵּה־אִישׁ מְסַפֵּר לְרֵעֵהוּ חֲלוֹם וַיֹּאמֶר הִנֵּה חֲלוֹם חָלַמְתִּי וְהִנֵּה צְלִיל לֶחֶם שְׂעֹרִים מִתְהַפֵּךְ בְּמַחֲנֵה מִדְיָן וַיָּבֹא עַד־הָאֹהֶל וַיַּכֵּהוּ וַיִּפֹּל וַיַּהַפְכֵהוּ לְמַעְלָה וְנָפַל הָאֹֽהֶל",
+        "speaker": "אִישׁ",
+        "listener": "רֵעֵהוּ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And when Gideon was come, behold, there was a man that told a dream unto his fellow, and said, Behold, I dreamed a dream, and, lo, a cake of barley bread tumbled into the host of Midian, and came unto a tent, and smote it that it fell, and overturned it, that the tent lay along."
+        },
+        "he": {
+          "13": "וַיָּבֹא גִדְעוֹן וְהִנֵּה־אִישׁ מְסַפֵּר לְרֵעֵהוּ חֲלוֹם וַיֹּאמֶר הִנֵּה חֲלוֹם חָלַמְתִּי וְהִנֵּה צְלִיל לֶחֶם שְׂעֹרִים מִתְהַפֵּךְ בְּמַחֲנֵה מִדְיָן וַיָּבֹא עַד־הָאֹהֶל וַיַּכֵּהוּ וַיִּפֹּל וַיַּהַפְכֵהוּ לְמַעְלָה וְנָפַל הָאֹֽהֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid dream description",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "judges-07-14-14",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And his fellow answered and said, This is nothing else save the sword of Gideon the son of Joash, a man of Israel: for into his hand hath God delivered Midian, and all the host.",
+        "riddle": "This is nothing else save the sword of Gideon the son of Joash, a man of Israel: for into his hand hath God delivered Midian, and all the host.",
+        "speaker": "his fellow",
+        "listener": "a man",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיַּעַן רֵעֵהוּ וַיֹּאמֶר אֵין זֹאת בִּלְתִּי אִם־חֶרֶב גִּדְעוֹן בֶּן־יוֹאָשׁ אִישׁ יִשְׂרָאֵל נָתַן הָֽאֱלֹהִים בְּיָדוֹ אֶת־מִדְיָן וְאֶת־כָּל־הַֽמַּחֲנֶֽה",
+        "riddle": "אֵין זֹאת בִּלְתִּי אִם־חֶרֶב גִּדְעוֹן בֶּן־יוֹאָשׁ אִישׁ יִשְׂרָאֵל נָתַן הָֽאֱלֹהִים בְּיָדוֹ אֶת־מִדְיָן וְאֶת־כָּל־הַֽמַּחֲנֶֽה",
+        "speaker": "רֵעֵהוּ",
+        "listener": "גִּדְעוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And when Gideon was come, behold, there was a man that told a dream unto his fellow, and said, Behold, I dreamed a dream, and, lo, a cake of barley bread tumbled into the host of Midian, and came unto a tent, and smote it that it fell, and overturned it, that the tent lay along.",
+          "14": "And his fellow answered and said, This is nothing else save the sword of Gideon the son of Joash, a man of Israel: for into his hand hath God delivered Midian, and all the host."
+        },
+        "he": {
+          "13": "וַיָּבֹא גִדְעוֹן וְהִנֵּה־אִישׁ מְסַפֵּר לְרֵעֵהוּ חֲלוֹם וַיֹּאמֶר הִנֵּה חֲלוֹם חָלַמְתִּי וְהִנֵּה צְלִיל לֶחֶם שְׂעֹרִים מִתְהַפֵּךְ בְּמַחֲנֵה מִדְיָן וַיָּבֹא עַד־הָאֹהֶל וַיַּכֵּהוּ וַיִּפֹּל וַיַּהַפְכֵהוּ לְמַעְלָה וְנָפַל הָאֹֽהֶל׃",
+          "14": "וַיַּעַן רֵעֵהוּ וַיֹּאמֶר אֵין זֹאת בִּלְתִּי אִם־חֶרֶב גִּדְעוֹן בֶּן־יוֹאָשׁ אִישׁ יִשְׂרָאֵל נָתַן הָֽאֱלֹהִים בְּיָדוֹ אֶת־מִדְיָן וְאֶת־כָּל־הַֽמַּחֲנֶֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct interpretation",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "judges-07-15-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And it was so, when Gideon heard the telling of the dream, and the interpretation thereof, that he worshipped, and returned into the host of Israel, and said, Arise; for the LORD hath delivered into your hand the host of Midian.",
+        "riddle": "Arise; for the LORD hath delivered into your hand the host of Midian.",
+        "speaker": "Gideon",
+        "listener": "Israel",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיְהִי כִשְׁמֹעַ גִּדְעוֹן אֶת־מִסְפַּר הַחֲלוֹם וְאֶת־שִׁבְרוֹ וַיִּשְׁתָּחוּ וַיָּשָׁב אֶל־מַחֲנֵה יִשְׂרָאֵל וַיֹּאמֶר קוּמוּ כִּֽי־נָתַן יְהוָה בְּיֶדְכֶם אֶת־מַחֲנֵה מִדְיָֽן",
+        "riddle": "קוּמוּ כִּֽי־נָתַן יְהוָה בְּיֶדְכֶם אֶת־מַחֲנֵה מִדְיָֽן",
+        "speaker": "גִּדְעוֹן",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And it was so, when Gideon heard the telling of the dream, and the interpretation thereof, that he worshipped, and returned into the host of Israel, and said, Arise; for the LORD hath delivered into your hand the host of Midian."
+        },
+        "he": {
+          "15": "וַיְהִי כִשְׁמֹעַ גִּדְעוֹן אֶת־מִסְפַּר הַחֲלוֹם וְאֶת־שִׁבְרוֹ וַיִּשְׁתָּחוּ וַיָּשָׁב אֶל־מַחֲנֵה יִשְׂרָאֵל וַיֹּאמֶר קוּמוּ כִּֽי־נָתַן יְהוָה בְּיֶדְכֶם אֶת־מַחֲנֵה מִדְיָֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "exhortation to troops",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "judges-07-17-17",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And he said unto them, Look on me, and do likewise: and, behold, when I come to the outside of the camp, it shall be that, as I do, so shall ye do.",
+        "riddle": "Look on me, and do likewise: and, behold, when I come to the outside of the camp, it shall be that, as I do, so shall ye do.",
+        "speaker": "Gideon",
+        "listener": "the three hundred men",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם מִמֶּנִּי תִרְאוּ וְכֵן תַּעֲשׂוּ וְהִנֵּה אָנֹכִי בָא בִּקְצֵה הַֽמַּחֲנֶה וְהָיָה כַאֲשֶׁר־אֶעֱשֶׂה כֵּן תַּעֲשֽׂוּן",
+        "riddle": "מִמֶּנִּי תִרְאוּ וְכֵן תַּעֲשׂוּ וְהִנֵּה אָנֹכִי בָא בִּקְצֵה הַֽמַּחֲנֶה וְהָיָה כַאֲשֶׁר־אֶעֱשֶׂה כֵּן תַּעֲשֽׂו",
+        "speaker": "גִּדְעוֹן",
+        "listener": "שְׁלוֹשׁ מֵאוֹת הָאֲנָשִׁים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And he said unto them, Look on me, and do likewise: and, behold, when I come to the outside of the camp, it shall be that, as I do, so shall ye do."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר אֲלֵיהֶם מִמֶּנִּי תִרְאוּ וְכֵן תַּעֲשׂוּ וְהִנֵּה אָנֹכִי בָא בִּקְצֵה הַֽמַּחֲנֶה וְהָיָה כַאֲשֶׁר־אֶעֱשֶׂה כֵּן תַּעֲשֽׂוּן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "judges-07-18-18",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "When I blow with a trumpet, I and all that are with me, then blow ye the trumpets also on every side of all the camp, and say, The sword of the LORD, and of Gideon.",
+        "riddle": "When I blow with a trumpet, I and all that are with me, then blow ye the trumpets also on every side of all the camp, and say, The sword of the LORD, and of Gideon.",
+        "speaker": "Gideon",
+        "listener": "the three hundred men",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וְתָקַעְתִּי בַּשּׁוֹפָר אָנֹכִי וְכָל־אֲשֶׁר אִתִּי וּתְקַעְתֶּם בַּשּׁוֹפָרוֹת גַּם־אַתֶּם סְבִיבוֹת כָּל־הַֽמַּחֲנֶה וַאֲמַרְתֶּם לַיהוָה וּלְגִדְעֽוֹן",
+        "riddle": "וְתָקַעְתִּי בַּשּׁוֹפָר אָנֹכִי וְכָל־אֲשֶׁר אִתִּי וּתְקַעְתֶּם בַּשּׁוֹפָרוֹת גַּם־אַתֶּם סְבִיבוֹת כָּל־הַֽמַּחֲנֶה וַאֲמַרְתֶּם לַיהוָה וּלְגִדְעֽוֹן",
+        "speaker": "גִדְעוֹן",
+        "listener": "הַֽמַּחֲנֶה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "When I blow with a trumpet, I and all that are with me, then blow ye the trumpets also on every side of all the camp, and say, The sword of the LORD, and of Gideon."
+        },
+        "he": {
+          "18": "וְתָקַעְתִּי בַּשּׁוֹפָר אָנֹכִי וְכָל־אֲשֶׁר אִתִּי וּתְקַעְתֶּם בַּשּׁוֹפָרוֹת גַּם־אַתֶּם סְבִיבוֹת כָּל־הַֽמַּחֲנֶה וַאֲמַרְתֶּם לַיהוָה וּלְגִדְעֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "instructional command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "judges-07-24-24",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 7,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Gideon sent messengers throughout all mount Ephraim, saying, Come down against the Midianites, and take before them the waters unto Beth-barah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Beth-barah and Jordan.",
+        "riddle": "Come down against the Midianites, and take before them the waters unto Beth-barah and Jordan.",
+        "speaker": "Gideon",
+        "listener": "men of Ephraim",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וּמַלְאָכִים שָׁלַח גִּדְעוֹן בְּכָל־הַר אֶפְרַיִם לֵאמֹר רְדוּ לִקְרַאת מִדְיָן וְלִכְדוּ לָהֶם אֶת־הַמַּיִם עַד בֵּית בָּרָה וְאֶת־הַיַּרְדֵּן וַיִּצָּעֵק כָּל־אִישׁ אֶפְרַיִם וַיִּלְכְּדוּ אֶת־הַמַּיִם עַד בֵּית בָּרָה וְאֶת־הַיַּרְדֵּֽן",
+        "riddle": "לֵאמֹר רְדוּ לִקְרַאת מִדְיָן וְלִכְדוּ לָהֶם אֶת־הַמַּיִם עַד בֵּית בָּרָה וְאֶת־הַיַּרְדֵּן וַיִּצָּעֵק כָּל",
+        "speaker": "גִּדְעוֹן",
+        "listener": "אִישׁ אֶפְרַיִם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Gideon sent messengers throughout all mount Ephraim, saying, Come down against the Midianites, and take before them the waters unto Beth-barah and Jordan. Then all the men of Ephraim gathered themselves together, and took the waters unto Beth-barah and Jordan."
+        },
+        "he": {
+          "24": "וּמַלְאָכִים שָׁלַח גִּדְעוֹן בְּכָל־הַר אֶפְרַיִם לֵאמֹר רְדוּ לִקְרַאת מִדְיָן וְלִכְדוּ לָהֶם אֶת־הַמַּיִם עַד בֵּית בָּרָה וְאֶת־הַיַּרְדֵּן וַיִּצָּעֵק כָּל־אִישׁ אֶפְרַיִם וַיִּלְכְּדוּ אֶת־הַמַּיִם עַד בֵּית בָּרָה וְאֶת־הַיַּרְדֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 23,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 23,
-    "kept_count": 0,
-    "issue_count": 23
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 13,
+    "issue_count": 1
   }
 }

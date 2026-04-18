@@ -6,6 +6,318 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-12-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee: And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:",
+        "riddle": "Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "nation",
+        "bonus_hint": {
+          "quote": "And as for Ishmael, I have heard thee: Behold, I have blessed him, and will make him fruitful, and will multiply him exceedingly; twelve princes shall he beget, and I will make him a great nation.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָם לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽךָּ וְאֶֽעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וֶהְיֵה בְּרָכָֽה",
+        "riddle": "לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽך",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לְגוֹי",
+        "bonus_hint": {
+          "quote": "וּֽלְיִשְׁמָעֵאל שְׁמַעְתִּיךָ הִנֵּה בֵּרַכְתִּי אֹתוֹ וְהִפְרֵיתִי אֹתוֹ וְהִרְבֵּיתִי אֹתוֹ בִּמְאֹד מְאֹד שְׁנֵים־עָשָׂר נְשִׂיאִם יוֹלִיד וּנְתַתִּיו לְגוֹי גָּדֽוֹל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now the LORD had said unto Abram, Get thee out of thy country, and from thy kindred, and from thy father's house, unto a land that I will shew thee:",
+          "2": "And I will make of thee a great nation, and I will bless thee, and make thy name great; and thou shalt be a blessing:"
+        },
+        "he": {
+          "1": "וַיֹּאמֶר יְהוָה אֶל־אַבְרָם לֶךְ־לְךָ מֵאַרְצְךָ וּמִמּֽוֹלַדְתְּךָ וּמִבֵּית אָבִיךָ אֶל־הָאָרֶץ אֲשֶׁר אַרְאֶֽךָּ׃",
+          "2": "וְאֶֽעֶשְׂךָ לְגוֹי גָּדוֹל וַאֲבָרֶכְךָ וַאֲגַדְּלָה שְׁמֶךָ וֶהְיֵה בְּרָכָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-12-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him.",
+        "riddle": "Unto thy seed will I give this land",
+        "speaker": "LORD",
+        "listener": "Abram",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "altar",
+        "bonus_hint": {
+          "quote": "And God said unto Jacob, Arise, go up to Bethel, and dwell there: and make there an altar unto God, that appeared unto thee when thou fleddest from the face of Esau thy brother.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 35,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ לַיהוָה הַנִּרְאֶה אֵלָֽיו",
+        "riddle": "לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַנִּרְאֶה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֱלֹהִים אֶֽל־יַעֲקֹב קוּם עֲלֵה בֵֽית־אֵל וְשֶׁב־שָׁם וַעֲשֵׂה־שָׁם מִזְבֵּחַ לָאֵל הַנִּרְאֶה אֵלֶיךָ בְּבָרְחֲךָ מִפְּנֵי עֵשָׂו אָחִֽיךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 35,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD appeared unto Abram, and said, Unto thy seed will I give this land: and there builded he an altar unto the LORD, who appeared unto him."
+        },
+        "he": {
+          "7": "וַיֵּרָא יְהוָה אֶל־אַבְרָם וַיֹּאמֶר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת וַיִּבֶן שָׁם מִזְבֵּחַ לַיהוָה הַנִּרְאֶה אֵלָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 7,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-12-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land. And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon:",
+        "riddle": "Behold now, I know that thou art a fair woman to look upon",
+        "speaker": "Abram",
+        "listener": "Sarai",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Egypt",
+        "bonus_hint": {
+          "quote": "And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי רָעָב בָּאָרֶץ וַיֵּרֶד אַבְרָם מִצְרַיְמָה לָגוּר שָׁם כִּֽי־כָבֵד הָרָעָב בָּאָֽרֶץ וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ",
+        "riddle": "הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽת",
+        "speaker": "אַבְרָם",
+        "listener": "שָׂרַי",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה חָטְאוּ מַשְׁקֵה מֶֽלֶךְ־מִצְרַיִם וְהָאֹפֶה לַאֲדֹנֵיהֶם לְמֶלֶךְ מִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land.",
+          "11": "And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon:"
+        },
+        "he": {
+          "10": "וַיְהִי רָעָב בָּאָרֶץ וַיֵּרֶד אַבְרָם מִצְרַיְמָה לָגוּר שָׁם כִּֽי־כָבֵד הָרָעָב בָּאָֽרֶץ׃",
+          "11": "וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-12-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 12,
+        "quote_verse_start": 10,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land. And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon: Therefore it shall come to pass, when the Egyptians shall see thee, that they shall say, This is his wife: and they will kill me, but they will save thee alive. Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee.",
+        "riddle": "Say, I pray thee, thou art my sister",
+        "speaker": "Abram",
+        "listener": "Sarai",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Egypt",
+        "bonus_hint": {
+          "quote": "And it came to pass after these things, that the butler of the king of Egypt and his baker had offended their lord the king of Egypt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי רָעָב בָּאָרֶץ וַיֵּרֶד אַבְרָם מִצְרַיְמָה לָגוּר שָׁם כִּֽי־כָבֵד הָרָעָב בָּאָֽרֶץ וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ וְהָיָה כִּֽי־יִרְאוּ אֹתָךְ הַמִּצְרִים וְאָמְרוּ אִשְׁתּוֹ זֹאת וְהָרְגוּ אֹתִי וְאֹתָךְ יְחַיּֽוּ אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ",
+        "riddle": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ",
+        "speaker": "אַבְרָם",
+        "listener": "שָׂרַי",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחַר הַדְּבָרִים הָאֵלֶּה חָטְאוּ מַשְׁקֵה מֶֽלֶךְ־מִצְרַיִם וְהָאֹפֶה לַאֲדֹנֵיהֶם לְמֶלֶךְ מִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 40,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And there was a famine in the land: and Abram went down into Egypt to sojourn there; for the famine was grievous in the land.",
+          "11": "And it came to pass, when he was come near to enter into Egypt, that he said unto Sarai his wife, Behold now, I know that thou art a fair woman to look upon:",
+          "12": "Therefore it shall come to pass, when the Egyptians shall see thee, that they shall say, This is his wife: and they will kill me, but they will save thee alive.",
+          "13": "Say, I pray thee, thou art my sister: that it may be well with me for thy sake; and my soul shall live because of thee."
+        },
+        "he": {
+          "10": "וַיְהִי רָעָב בָּאָרֶץ וַיֵּרֶד אַבְרָם מִצְרַיְמָה לָגוּר שָׁם כִּֽי־כָבֵד הָרָעָב בָּאָֽרֶץ׃",
+          "11": "וַיְהִי כַּאֲשֶׁר הִקְרִיב לָבוֹא מִצְרָיְמָה וַיֹּאמֶר אֶל־שָׂרַי אִשְׁתּוֹ הִנֵּה־נָא יָדַעְתִּי כִּי אִשָּׁה יְפַת־מַרְאֶה אָֽתְּ׃",
+          "12": "וְהָיָה כִּֽי־יִרְאוּ אֹתָךְ הַמִּצְרִים וְאָמְרוּ אִשְׁתּוֹ זֹאת וְהָרְגוּ אֹתִי וְאֹתָךְ יְחַיּֽוּ׃",
+          "13": "אִמְרִי־נָא אֲחֹתִי אָתְּ לְמַעַן יִֽיטַב־לִי בַעֲבוּרֵךְ וְחָיְתָה נַפְשִׁי בִּגְלָלֵֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 10,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "genesis-12-19-19",
       "source": {
         "method": "llm",
@@ -14,11 +326,13 @@
         "book_he": "בראשית",
         "chapter": 12,
         "quote_verse_start": 18,
-        "quote_verse_end": 19
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
       },
       "en": {
         "quote": "And Pharaoh called Abram, and said, What is this that thou hast done unto me? why didst thou not tell me that she was thy wife? Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
-        "riddle": "Why saidst thou, She is my sister",
+        "riddle": "Why saidst thou, She is my sister? so I might have taken her to me to wife: now therefore behold thy wife, take her, and go thy way.",
         "speaker": "Pharaoh",
         "listener": "Abram",
         "book": "Genesis",
@@ -26,20 +340,20 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "take",
+        "bonus": "tell",
         "bonus_hint": {
-          "quote": "And take thou unto thee of all food that is eaten, and thou shalt gather it to thee; and it shall be for food for thee, and for them.",
+          "quote": "And Joshua said unto Achan, My son, give, I pray thee, glory to the LORD God of Israel, and make confession unto him; and tell me now what thou hast done; hide it not from me.",
           "source": {
-            "book": "Genesis",
-            "chapter": 6,
-            "start": 21,
-            "end": 21
+            "book": "Joshua",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
           }
         }
       },
       "he": {
         "quote": "וַיִּקְרָא פַרְעֹה לְאַבְרָם וַיֹּאמֶר מַה־זֹּאת עָשִׂיתָ לִּי לָמָּה לֹא־הִגַּדְתָּ לִּי כִּי אִשְׁתְּךָ הִֽוא לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
-        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי",
+        "riddle": "לָמָה אָמַרְתָּ אֲחֹתִי הִוא וָאֶקַּח אֹתָהּ לִי לְאִשָּׁה וְעַתָּה הִנֵּה אִשְׁתְּךָ קַח וָלֵֽךְ",
         "speaker": "פַרְעֹה",
         "listener": "אַבְרָֽם",
         "book": "בראשית",
@@ -47,14 +361,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "קַח",
+        "bonus": "עָשִׂיתָ",
         "bonus_hint": {
-          "quote": "וְאַתָּה קַח־לְךָ מִכָּל־מַֽאֲכָל אֲשֶׁר יֵֽאָכֵל וְאָסַפְתָּ אֵלֶיךָ וְהָיָה לְךָ וְלָהֶם לְאָכְלָֽה",
+          "quote": "וַיֹּאמֶר יְהוֹשֻׁעַ אֶל־עָכָן בְּנִי שִֽׂים־נָא כָבוֹד לַֽיהוָה אֱלֹהֵי יִשְׂרָאֵל וְתֶן־לוֹ תוֹדָה וְהַגֶּד־נָא לִי מֶה עָשִׂיתָ אַל־תְּכַחֵד מִמֶּֽנִּי",
           "source": {
-            "book": "בראשית",
-            "chapter": 6,
-            "start": 21,
-            "end": 21
+            "book": "יהושע",
+            "chapter": 7,
+            "start": 19,
+            "end": 19
           }
         }
       },

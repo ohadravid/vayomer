@@ -1,0 +1,191 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 18,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-18-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands.",
+        "riddle": "Saul hath slain his thousands, and David his ten thousands.",
+        "speaker": "women",
+        "listener": "women",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Abner",
+            "people",
+            "Tamar"
+          ],
+          "listener": [
+            "Philistines",
+            "Abner",
+            "Hannah"
+          ]
+        },
+        "bonus": "played",
+        "bonus_hint": {
+          "quote": "And it came to pass about three months after, that it was told Judah, saying, Tamar thy daughter in law hath played the harlot; and also, behold, she is with child by whoredom. And Judah said, Bring her forth, and let her be burnt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 38,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽתַּעֲנֶינָה הַנָּשִׁים הַֽמְשַׂחֲקוֹת וַתֹּאמַרְןָ הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "riddle": "הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו",
+        "speaker": "הַנָּשִׁים",
+        "listener": "הַנָּשִׁים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "אַבְנֵר",
+            "הָעָם",
+            "תָּמָר"
+          ],
+          "listener": [
+            "פְּלִשְׁתִּים",
+            "אַבְנֵר",
+            "חַנָּה"
+          ]
+        },
+        "bonus": "וַתֹּאמַרְןָ",
+        "bonus_hint": {
+          "quote": "וַתֹּאמַרְןָ הַֽמְיַלְּדֹת אֶל־פַּרְעֹה כִּי לֹא כַנָּשִׁים הַמִּצְרִיֹּת הָֽעִבְרִיֹּת כִּֽי־חָיוֹת הֵנָּה בְּטֶרֶם תָּבוֹא אֲלֵהֶן הַמְיַלֶּדֶת וְיָלָֽדוּ",
+          "source": {
+            "book": "שמות",
+            "chapter": 1,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the women answered one another as they played, and said, Saul hath slain his thousands, and David his ten thousands."
+        },
+        "he": {
+          "7": "וַֽתַּעֲנֶינָה הַנָּשִׁים הַֽמְשַׂחֲקוֹת וַתֹּאמַרְןָ הִכָּה שָׁאוּל בַּאֲלָפָיו וְדָוִד בְּרִבְבֹתָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 7,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-18-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 18,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And Saul's servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?",
+        "riddle": "Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?",
+        "speaker": "David",
+        "listener": "servants",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Abner",
+            "Elkanah"
+          ],
+          "listener": [
+            "Eli's sons",
+            "Philistines",
+            "elders of Israel"
+          ]
+        },
+        "bonus": "words",
+        "bonus_hint": {
+          "quote": "And Moses spake in the ears of all the congregation of Israel the words of this song, until they were ended.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 31,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽיְדַבְּרוּ עַבְדֵי שָׁאוּל בְּאָזְנֵי דָוִד אֶת־הַדְּבָרִים הָאֵלֶּה וַיֹּאמֶר דָּוִד הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה",
+        "riddle": "הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה",
+        "speaker": "דָוִד",
+        "listener": "עַבְדֵי שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שָׁאוֹל",
+            "אַבְנֵר",
+            "אֶלְקָנָה"
+          ],
+          "listener": [
+            "בְּנֵי עָלַי",
+            "פְּלִשְׁתִּים",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "בְּאָזְנֵי",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר מֹשֶׁה בְּאָזְנֵי כָּל־קְהַל יִשְׂרָאֵל אֶת־דִּבְרֵי הַשִּׁירָה הַזֹּאת עַד תֻּמָּֽם",
+          "source": {
+            "book": "דברים",
+            "chapter": 31,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Saul's servants spake those words in the ears of David. And David said, Seemeth it to you a light thing to be a king's son in law, seeing that I am a poor man, and lightly esteemed?"
+        },
+        "he": {
+          "23": "וַֽיְדַבְּרוּ עַבְדֵי שָׁאוּל בְּאָזְנֵי דָוִד אֶת־הַדְּבָרִים הָאֵלֶּה וַיֹּאמֶר דָּוִד הַֽנְקַלָּה בְעֵֽינֵיכֶם הִתְחַתֵּן בַּמֶּלֶךְ וְאָנֹכִי אִֽישׁ־רָשׁ וְנִקְלֶֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 23,
+        "end": 23
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

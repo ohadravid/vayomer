@@ -6,7 +6,672 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-13-26-26",
+      "id": "2-samuel-13-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "But Amnon had a friend, whose name was Jonadab, the son of Shimeah David's brother: and Jonadab was a very subtil man. And he said unto him, Why art thou, being the king's son, lean from day to day? wilt thou not tell me? And Amnon said unto him, I love Tamar, my brother Absalom's sister.",
+        "riddle": "Why art thou, being the king's son, lean from day to day? wilt thou not tell me?",
+        "speaker": "Jonadab",
+        "listener": "Amnon",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Absalom",
+            "Joab",
+            "Ahithophel"
+          ],
+          "listener": [
+            "Absalom",
+            "Saul",
+            "Joab"
+          ]
+        },
+        "bonus": "brother",
+        "bonus_hint": {
+          "quote": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "he": {
+        "quote": "וּלְאַמְנוֹן רֵעַ וּשְׁמוֹ יֽוֹנָדָב בֶּן־שִׁמְעָה אֲחִי דָוִד וְיוֹנָדָב אִישׁ חָכָם מְאֹֽד וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה כָּכָה דַּל בֶּן־הַמֶּלֶךְ בַּבֹּקֶר בַּבֹּקֶר הֲלוֹא תַּגִּיד לִי וַיֹּאמֶר לוֹ אַמְנוֹן אֶת־תָּמָר אֲחוֹת אַבְשָׁלֹם אָחִי אֲנִי אֹהֵֽב",
+        "riddle": "מַדּוּעַ אַתָּה כָּכָה דַּל בֶּן־הַמֶּלֶךְ בַּבֹּקֶר בַּבֹּקֶר הֲלוֹא תַּגִּיד לִי",
+        "speaker": "יֽוֹנָדָב",
+        "listener": "אַמְנוֹן",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "אַבְשָׁלוֹם",
+            "יוֹאָב",
+            "אֲחִיתֹֽפֶל"
+          ],
+          "listener": [
+            "אַבְשָׁלוֹם",
+            "שָׁאוֹל",
+            "יוֹאָב"
+          ]
+        },
+        "bonus": "וּשְׁמוֹ",
+        "bonus_hint": {
+          "quote": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "But Amnon had a friend, whose name was Jonadab, the son of Shimeah David's brother: and Jonadab was a very subtil man.",
+          "4": "And he said unto him, Why art thou, being the king's son, lean from day to day? wilt thou not tell me? And Amnon said unto him, I love Tamar, my brother Absalom's sister."
+        },
+        "he": {
+          "3": "וּלְאַמְנוֹן רֵעַ וּשְׁמוֹ יֽוֹנָדָב בֶּן־שִׁמְעָה אֲחִי דָוִד וְיוֹנָדָב אִישׁ חָכָם מְאֹֽד׃",
+          "4": "וַיֹּאמֶר לוֹ מַדּוּעַ אַתָּה כָּכָה דַּל בֶּן־הַמֶּלֶךְ בַּבֹּקֶר בַּבֹּקֶר הֲלוֹא תַּגִּיד לִי וַיֹּאמֶר לוֹ אַמְנוֹן אֶת־תָּמָר אֲחוֹת אַבְשָׁלֹם אָחִי אֲנִי אֹהֵֽב׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "Then David sent home to Tamar, saying, Go now to thy brother Amnon's house, and dress him meat.",
+        "riddle": "Go now to thy brother Amnon's house, and dress him meat.",
+        "speaker": "David",
+        "listener": "Tamar",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Absalom",
+            "Joab"
+          ],
+          "listener": [
+            "Absalom",
+            "Michal",
+            "Hushai"
+          ]
+        },
+        "bonus": "home",
+        "bonus_hint": {
+          "quote": "Nevertheless Haman refrained himself: and when he came home, he sent and called for his friends, and Zeresh his wife.",
+          "source": {
+            "book": "Esther",
+            "chapter": 5,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח דָּוִד אֶל־תָּמָר הַבַּיְתָה לֵאמֹר לְכִי נָא בֵּית אַמְנוֹן אָחִיךְ וַעֲשִׂי־לוֹ הַבִּרְיָֽה",
+        "riddle": "לְכִי נָא בֵּית אַמְנוֹן אָחִיךְ וַעֲשִׂי־לוֹ הַבִּרְיָֽה",
+        "speaker": "דָּוִד",
+        "listener": "תָּמָר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "שָׁאוֹל",
+            "אַבְשָׁלוֹם",
+            "יוֹאָב"
+          ],
+          "listener": [
+            "אַבְשָׁלוֹם",
+            "מִיכַל",
+            "חוּשַׁי"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּתְאַפַּק הָמָן וַיָּבוֹא אֶל־בֵּיתוֹ וַיִּשְׁלַח וַיָּבֵא אֶת־אֹהֲבָיו וְאֶת־זֶרֶשׁ אִשְׁתּֽוֹ",
+          "source": {
+            "book": "אסתר",
+            "chapter": 5,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Then David sent home to Tamar, saying, Go now to thy brother Amnon's house, and dress him meat."
+        },
+        "he": {
+          "7": "וַיִּשְׁלַח דָּוִד אֶל־תָּמָר הַבַּיְתָה לֵאמֹר לְכִי נָא בֵּית אַמְנוֹן אָחִיךְ וַעֲשִׂי־לוֹ הַבִּרְיָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 7,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Amnon said unto Tamar, Bring the meat into the chamber, that I may eat of thine hand. And Tamar took the cakes which she had made, and brought them into the chamber to Amnon her brother.",
+        "riddle": "Bring the meat into the chamber, that I may eat of thine hand",
+        "speaker": "Amnon",
+        "listener": "Tamar",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Absalom",
+            "David",
+            "Saul"
+          ],
+          "listener": [
+            "Absalom",
+            "Michal",
+            "Samuel"
+          ]
+        },
+        "bonus": "cakes",
+        "bonus_hint": {
+          "quote": "Then Abigail made haste, and took two hundred loaves, and two bottles of wine, and five sheep ready dressed, and five measures of parched corn, and an hundred clusters of raisins, and two hundred cakes of figs, and laid them on asses.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 25,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַמְנוֹן אֶל־תָּמָר הָבִיאִי הַבִּרְיָה הַחֶדֶר וְאֶבְרֶה מִיָּדֵךְ וַתִּקַּח תָּמָר אֶת־הַלְּבִבוֹת אֲשֶׁר עָשָׂתָה וַתָּבֵא לְאַמְנוֹן אָחִיהָ הֶחָֽדְרָה",
+        "riddle": "הָבִיאִי הַבִּרְיָה הַחֶדֶר וְאֶבְרֶה מִיָּדֵך",
+        "speaker": "אַמְנוֹן",
+        "listener": "תָּמָר",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "אַבְשָׁלוֹם",
+            "דּוֹד",
+            "שָׁאוֹל"
+          ],
+          "listener": [
+            "אַבְשָׁלוֹם",
+            "מִיכַל",
+            "שְׁמוּאֵל"
+          ]
+        },
+        "bonus": "וַתִּקַּח",
+        "bonus_hint": {
+          "quote": "וַתְּמַהֵר אֲבִיגַיִל וַתִּקַּח מָאתַיִם לֶחֶם וּשְׁנַיִם נִבְלֵי־יַיִן וְחָמֵשׁ צֹאן עֲשׂוּיֹת וְחָמֵשׁ סְאִים קָלִי וּמֵאָה צִמֻּקִים וּמָאתַיִם דְּבֵלִים וַתָּשֶׂם עַל־הַחֲמֹרִֽים",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 25,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Amnon said unto Tamar, Bring the meat into the chamber, that I may eat of thine hand. And Tamar took the cakes which she had made, and brought them into the chamber to Amnon her brother."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר אַמְנוֹן אֶל־תָּמָר הָבִיאִי הַבִּרְיָה הַחֶדֶר וְאֶבְרֶה מִיָּדֵךְ וַתִּקַּח תָּמָר אֶת־הַלְּבִבוֹת אֲשֶׁר עָשָׂתָה וַתָּבֵא לְאַמְנוֹן אָחִיהָ הֶחָֽדְרָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 10,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-16-16-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 10,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Amnon said unto Tamar, Bring the meat into the chamber, that I may eat of thine hand. And Tamar took the cakes which she had made, and brought them into the chamber to Amnon her brother. And when she had brought them unto him to eat, he took hold of her, and said unto her, Come lie with me, my sister. And she answered him, Nay, my brother, do not force me; for no such thing ought to be done in Israel: do not thou this folly. And I, whither shall I cause my shame to go? and as for thee, thou shalt be as one of the fools in Israel. Now therefore, I pray thee, speak unto the king; for he will not withhold me from thee. Howbeit he would not hearken unto her voice: but, being stronger than she, forced her, and lay with her. Then Amnon hated her exceedingly; so that the hatred wherewith he hated her was greater than the love wherewith he had loved her. And Amnon said unto her, Arise, be gone. And she said unto him, There is no cause: this evil in sending me away is greater than the other that thou didst unto me. But he would not hearken unto her.",
+        "riddle": "this evil in sending me away is greater than the other that thou didst unto me",
+        "speaker": "Tamar",
+        "listener": "Amnon",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Michal",
+            "Absalom",
+            "Abner"
+          ],
+          "listener": [
+            "Absalom",
+            "Joab",
+            "David"
+          ]
+        },
+        "bonus": "meat",
+        "bonus_hint": {
+          "quote": "And she gave the savoury meat and the bread, which she had prepared, into the hand of her son Jacob.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַמְנוֹן אֶל־תָּמָר הָבִיאִי הַבִּרְיָה הַחֶדֶר וְאֶבְרֶה מִיָּדֵךְ וַתִּקַּח תָּמָר אֶת־הַלְּבִבוֹת אֲשֶׁר עָשָׂתָה וַתָּבֵא לְאַמְנוֹן אָחִיהָ הֶחָֽדְרָה וַתַּגֵּשׁ אֵלָיו לֶֽאֱכֹל וַיַּֽחֲזֶק־בָּהּ וַיֹּאמֶר לָהּ בּוֹאִי שִׁכְבִי עִמִּי אֲחוֹתִֽי וַתֹּאמֶר לוֹ אַל־אָחִי אַל־תְּעַנֵּנִי כִּי לֹא־יֵֽעָשֶׂה כֵן בְּיִשְׂרָאֵל אַֽל־תַּעֲשֵׂה אֶת־הַנְּבָלָה הַזֹּֽאת וַאֲנִי אָנָה אוֹלִיךְ אֶת־חֶרְפָּתִי וְאַתָּה תִּהְיֶה כְּאַחַד הַנְּבָלִים בְּיִשְׂרָאֵל וְעַתָּה דַּבֶּר־נָא אֶל־הַמֶּלֶךְ כִּי לֹא יִמְנָעֵנִי מִמֶּֽךָּ וְלֹא אָבָה לִשְׁמֹעַ בְּקוֹלָהּ וַיֶּחֱזַק מִמֶּנָּה וַיְעַנֶּהָ וַיִּשְׁכַּב אֹתָֽהּ וַיִּשְׂנָאֶהָ אַמְנוֹן שִׂנְאָה גְּדוֹלָה מְאֹד כִּי גְדוֹלָה הַשִּׂנְאָה אֲשֶׁר שְׂנֵאָהּ מֵאַהֲבָה אֲשֶׁר אֲהֵבָהּ וַֽיֹּאמֶר־לָהּ אַמְנוֹן קוּמִי לֵֽכִי וַתֹּאמֶר לוֹ אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי וְלֹא אָבָה לִשְׁמֹעַֽ לָֽהּ",
+        "riddle": "אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי וְלֹא אָבָה לִשְׁמֹעַֽ לָֽהּ",
+        "speaker": "תָּמָר",
+        "listener": "אַמְנוֹן",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "מִיכַל",
+            "אַבְשָׁלוֹם",
+            "אַבְנֵר"
+          ],
+          "listener": [
+            "אַבְשָׁלוֹם",
+            "יוֹאָב",
+            "דּוֹד"
+          ]
+        },
+        "bonus": "עָשָׂתָה",
+        "bonus_hint": {
+          "quote": "וַתִּתֵּן אֶת־הַמַּטְעַמִּים וְאֶת־הַלֶּחֶם אֲשֶׁר עָשָׂתָה בְּיַד יַעֲקֹב בְּנָֽהּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Amnon said unto Tamar, Bring the meat into the chamber, that I may eat of thine hand. And Tamar took the cakes which she had made, and brought them into the chamber to Amnon her brother.",
+          "11": "And when she had brought them unto him to eat, he took hold of her, and said unto her, Come lie with me, my sister.",
+          "12": "And she answered him, Nay, my brother, do not force me; for no such thing ought to be done in Israel: do not thou this folly.",
+          "13": "And I, whither shall I cause my shame to go? and as for thee, thou shalt be as one of the fools in Israel. Now therefore, I pray thee, speak unto the king; for he will not withhold me from thee.",
+          "14": "Howbeit he would not hearken unto her voice: but, being stronger than she, forced her, and lay with her.",
+          "15": "Then Amnon hated her exceedingly; so that the hatred wherewith he hated her was greater than the love wherewith he had loved her. And Amnon said unto her, Arise, be gone.",
+          "16": "And she said unto him, There is no cause: this evil in sending me away is greater than the other that thou didst unto me. But he would not hearken unto her."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר אַמְנוֹן אֶל־תָּמָר הָבִיאִי הַבִּרְיָה הַחֶדֶר וְאֶבְרֶה מִיָּדֵךְ וַתִּקַּח תָּמָר אֶת־הַלְּבִבוֹת אֲשֶׁר עָשָׂתָה וַתָּבֵא לְאַמְנוֹן אָחִיהָ הֶחָֽדְרָה׃",
+          "11": "וַתַּגֵּשׁ אֵלָיו לֶֽאֱכֹל וַיַּֽחֲזֶק־בָּהּ וַיֹּאמֶר לָהּ בּוֹאִי שִׁכְבִי עִמִּי אֲחוֹתִֽי׃",
+          "12": "וַתֹּאמֶר לוֹ אַל־אָחִי אַל־תְּעַנֵּנִי כִּי לֹא־יֵֽעָשֶׂה כֵן בְּיִשְׂרָאֵל אַֽל־תַּעֲשֵׂה אֶת־הַנְּבָלָה הַזֹּֽאת׃",
+          "13": "וַאֲנִי אָנָה אוֹלִיךְ אֶת־חֶרְפָּתִי וְאַתָּה תִּהְיֶה כְּאַחַד הַנְּבָלִים בְּיִשְׂרָאֵל וְעַתָּה דַּבֶּר־נָא אֶל־הַמֶּלֶךְ כִּי לֹא יִמְנָעֵנִי מִמֶּֽךָּ׃",
+          "14": "וְלֹא אָבָה לִשְׁמֹעַ בְּקוֹלָהּ וַיֶּחֱזַק מִמֶּנָּה וַיְעַנֶּהָ וַיִּשְׁכַּב אֹתָֽהּ׃",
+          "15": "וַיִּשְׂנָאֶהָ אַמְנוֹן שִׂנְאָה גְּדוֹלָה מְאֹד כִּי גְדוֹלָה הַשִּׂנְאָה אֲשֶׁר שְׂנֵאָהּ מֵאַהֲבָה אֲשֶׁר אֲהֵבָהּ וַֽיֹּאמֶר־לָהּ אַמְנוֹן קוּמִי לֵֽכִי׃",
+          "16": "וַתֹּאמֶר לוֹ אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי וְלֹא אָבָה לִשְׁמֹעַֽ לָֽהּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 10,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 11,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when she had brought them unto him to eat, he took hold of her, and said unto her, Come lie with me, my sister. And she answered him, Nay, my brother, do not force me; for no such thing ought to be done in Israel: do not thou this folly. And I, whither shall I cause my shame to go? and as for thee, thou shalt be as one of the fools in Israel. Now therefore, I pray thee, speak unto the king; for he will not withhold me from thee. Howbeit he would not hearken unto her voice: but, being stronger than she, forced her, and lay with her. Then Amnon hated her exceedingly; so that the hatred wherewith he hated her was greater than the love wherewith he had loved her. And Amnon said unto her, Arise, be gone. And she said unto him, There is no cause: this evil in sending me away is greater than the other that thou didst unto me. But he would not hearken unto her. Then he called his servant that ministered unto him, and said, Put now this woman out from me, and bolt the door after her.",
+        "riddle": "Put now this woman out from me, and bolt the door after her",
+        "speaker": "Amnon",
+        "listener": "servant",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Absalom",
+            "David",
+            "Joab"
+          ],
+          "listener": [
+            "Joab",
+            "Nathan",
+            "Absalom"
+          ]
+        },
+        "bonus": "sister",
+        "bonus_hint": {
+          "quote": "And Abimelech called Isaac, and said, Behold, of a surety she is thy wife: and how saidst thou, She is my sister? And Isaac said unto him, Because I said, Lest I die for her.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 26,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתַּגֵּשׁ אֵלָיו לֶֽאֱכֹל וַיַּֽחֲזֶק־בָּהּ וַיֹּאמֶר לָהּ בּוֹאִי שִׁכְבִי עִמִּי אֲחוֹתִֽי וַתֹּאמֶר לוֹ אַל־אָחִי אַל־תְּעַנֵּנִי כִּי לֹא־יֵֽעָשֶׂה כֵן בְּיִשְׂרָאֵל אַֽל־תַּעֲשֵׂה אֶת־הַנְּבָלָה הַזֹּֽאת וַאֲנִי אָנָה אוֹלִיךְ אֶת־חֶרְפָּתִי וְאַתָּה תִּהְיֶה כְּאַחַד הַנְּבָלִים בְּיִשְׂרָאֵל וְעַתָּה דַּבֶּר־נָא אֶל־הַמֶּלֶךְ כִּי לֹא יִמְנָעֵנִי מִמֶּֽךָּ וְלֹא אָבָה לִשְׁמֹעַ בְּקוֹלָהּ וַיֶּחֱזַק מִמֶּנָּה וַיְעַנֶּהָ וַיִּשְׁכַּב אֹתָֽהּ וַיִּשְׂנָאֶהָ אַמְנוֹן שִׂנְאָה גְּדוֹלָה מְאֹד כִּי גְדוֹלָה הַשִּׂנְאָה אֲשֶׁר שְׂנֵאָהּ מֵאַהֲבָה אֲשֶׁר אֲהֵבָהּ וַֽיֹּאמֶר־לָהּ אַמְנוֹן קוּמִי לֵֽכִי וַתֹּאמֶר לוֹ אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי וְלֹא אָבָה לִשְׁמֹעַֽ לָֽהּ וַיִּקְרָא אֶֽת־נַעֲרוֹ מְשָׁרְתוֹ וַיֹּאמֶר שִׁלְחוּ־נָא אֶת־זֹאת מֵעָלַי הַחוּצָה וּנְעֹל הַדֶּלֶת אַחֲרֶֽיהָ",
+        "riddle": "שִׁלְחוּ־נָא אֶת־זֹאת מֵעָלַי הַחוּצָה וּנְעֹל הַדֶּלֶת אַחֲרֶֽיהָ",
+        "speaker": "אַמְנוֹן",
+        "listener": "מְשָׁרְתוֹ",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "אַבְשָׁלוֹם",
+            "דּוֹד",
+            "יוֹאָב"
+          ],
+          "listener": [
+            "יוֹאָב",
+            "נָתַן",
+            "אַבְשָׁלוֹם"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֲבִימֶלֶךְ לְיִצְחָק וַיֹּאמֶר אַךְ הִנֵּה אִשְׁתְּךָ הִוא וְאֵיךְ אָמַרְתָּ אֲחֹתִי הִוא וַיֹּאמֶר אֵלָיו יִצְחָק כִּי אָמַרְתִּי פֶּן־אָמוּת עָלֶֽיהָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 26,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And when she had brought them unto him to eat, he took hold of her, and said unto her, Come lie with me, my sister.",
+          "12": "And she answered him, Nay, my brother, do not force me; for no such thing ought to be done in Israel: do not thou this folly.",
+          "13": "And I, whither shall I cause my shame to go? and as for thee, thou shalt be as one of the fools in Israel. Now therefore, I pray thee, speak unto the king; for he will not withhold me from thee.",
+          "14": "Howbeit he would not hearken unto her voice: but, being stronger than she, forced her, and lay with her.",
+          "15": "Then Amnon hated her exceedingly; so that the hatred wherewith he hated her was greater than the love wherewith he had loved her. And Amnon said unto her, Arise, be gone.",
+          "16": "And she said unto him, There is no cause: this evil in sending me away is greater than the other that thou didst unto me. But he would not hearken unto her.",
+          "17": "Then he called his servant that ministered unto him, and said, Put now this woman out from me, and bolt the door after her."
+        },
+        "he": {
+          "11": "וַתַּגֵּשׁ אֵלָיו לֶֽאֱכֹל וַיַּֽחֲזֶק־בָּהּ וַיֹּאמֶר לָהּ בּוֹאִי שִׁכְבִי עִמִּי אֲחוֹתִֽי׃",
+          "12": "וַתֹּאמֶר לוֹ אַל־אָחִי אַל־תְּעַנֵּנִי כִּי לֹא־יֵֽעָשֶׂה כֵן בְּיִשְׂרָאֵל אַֽל־תַּעֲשֵׂה אֶת־הַנְּבָלָה הַזֹּֽאת׃",
+          "13": "וַאֲנִי אָנָה אוֹלִיךְ אֶת־חֶרְפָּתִי וְאַתָּה תִּהְיֶה כְּאַחַד הַנְּבָלִים בְּיִשְׂרָאֵל וְעַתָּה דַּבֶּר־נָא אֶל־הַמֶּלֶךְ כִּי לֹא יִמְנָעֵנִי מִמֶּֽךָּ׃",
+          "14": "וְלֹא אָבָה לִשְׁמֹעַ בְּקוֹלָהּ וַיֶּחֱזַק מִמֶּנָּה וַיְעַנֶּהָ וַיִּשְׁכַּב אֹתָֽהּ׃",
+          "15": "וַיִּשְׂנָאֶהָ אַמְנוֹן שִׂנְאָה גְּדוֹלָה מְאֹד כִּי גְדוֹלָה הַשִּׂנְאָה אֲשֶׁר שְׂנֵאָהּ מֵאַהֲבָה אֲשֶׁר אֲהֵבָהּ וַֽיֹּאמֶר־לָהּ אַמְנוֹן קוּמִי לֵֽכִי׃",
+          "16": "וַתֹּאמֶר לוֹ אַל־אוֹדֹת הָרָעָה הַגְּדוֹלָה הַזֹּאת מֵאַחֶרֶת אֲשֶׁר־עָשִׂיתָ עִמִּי לְשַׁלְּחֵנִי וְלֹא אָבָה לִשְׁמֹעַֽ לָֽהּ׃",
+          "17": "וַיִּקְרָא אֶֽת־נַעֲרוֹ מְשָׁרְתוֹ וַיֹּאמֶר שִׁלְחוּ־נָא אֶת־זֹאת מֵעָלַי הַחוּצָה וּנְעֹל הַדֶּלֶת אַחֲרֶֽיהָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 11,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And the king said to Absalom, Nay, my son, let us not all now go, lest we be chargeable unto thee. And he pressed him: howbeit he would not go, but blessed him.",
+        "riddle": "Nay, my son, let us not all now go, lest we be chargeable unto thee.",
+        "speaker": "king",
+        "listener": "Absalom",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Joab",
+            "Nathan",
+            "Abner"
+          ],
+          "listener": [
+            "Amnon",
+            "Joab",
+            "Asahel"
+          ]
+        },
+        "bonus": "blessed",
+        "bonus_hint": {
+          "quote": "And God blessed them, saying, Be fruitful, and multiply, and fill the waters in the seas, and let fowl multiply in the earth.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 1,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־אַבְשָׁלוֹם אַל־בְּנִי אַל־נָא נֵלֵךְ כֻּלָּנוּ וְלֹא נִכְבַּד עָלֶיךָ וַיִּפְרָץ־בּוֹ וְלֹֽא־אָבָה לָלֶכֶת וַֽיְבָרֲכֵֽהוּ",
+        "riddle": "אַל־בְּנִי אַל־נָא נֵלֵךְ כֻּלָּנוּ וְלֹא נִכְבַּד עָלֶיך",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "יוֹאָב",
+            "נָתַן",
+            "אַבְנֵר"
+          ],
+          "listener": [
+            "אַמְנוֹן",
+            "יוֹאָב",
+            "עֲשָׂהאֵל"
+          ]
+        },
+        "bonus": "עָלֶיךָ",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם חֲמָסִי עָלֶיךָ אָנֹכִי נָתַתִּי שִׁפְחָתִי בְּחֵיקֶךָ וַתֵּרֶא כִּי הָרָתָה וָאֵקַל בְּעֵינֶיהָ יִשְׁפֹּט יְהוָה בֵּינִי וּבֵינֶֽיׄךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And the king said to Absalom, Nay, my son, let us not all now go, lest we be chargeable unto thee. And he pressed him: howbeit he would not go, but blessed him."
+        },
+        "he": {
+          "25": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־אַבְשָׁלוֹם אַל־בְּנִי אַל־נָא נֵלֵךְ כֻּלָּנוּ וְלֹא נִכְבַּד עָלֶיךָ וַיִּפְרָץ־בּוֹ וְלֹֽא־אָבָה לָלֶכֶת וַֽיְבָרֲכֵֽהוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 25,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-26-26-1",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 13,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?",
+        "riddle": "If not, I pray thee, let my brother Amnon go with us.",
+        "speaker": "Absalom",
+        "listener": "king",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [
+            "Amnon",
+            "Joab",
+            "Asahel"
+          ],
+          "listener": [
+            "Joab",
+            "Nathan",
+            "Abner"
+          ]
+        },
+        "bonus": "should",
+        "bonus_hint": {
+          "quote": "And they said unto him, Wherefore saith my lord these words? God forbid that thy servants should do according to this thing:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 44,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ",
+        "riddle": "וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [
+            "אַמְנוֹן",
+            "יוֹאָב",
+            "עֲשָׂהאֵל"
+          ],
+          "listener": [
+            "יוֹאָב",
+            "נָתַן",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "לָמָּה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ אֵלָיו לָמָּה יְדַבֵּר אֲדֹנִי כַּדְּבָרִים הָאֵלֶּה חָלִילָה לַעֲבָדֶיךָ מֵעֲשׂוֹת כַּדָּבָר הַזֶּֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 44,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?"
+        },
+        "he": {
+          "26": "וַיֹּאמֶר אַבְשָׁלוֹם וָלֹא יֵֽלֶךְ־נָא אִתָּנוּ אַמְנוֹן אָחִי וַיֹּאמֶר לוֹ הַמֶּלֶךְ לָמָּה יֵלֵךְ עִמָּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 26,
+        "end": 26
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-13-26-26-2",
       "source": {
         "method": "llm",
         "book_code": "2SA",
@@ -19,29 +684,29 @@
       "en": {
         "quote": "Then said Absalom, If not, I pray thee, let my brother Amnon go with us. And the king said unto him, Why should he go with thee?",
         "riddle": "Why should he go with thee?",
-        "speaker": "King",
+        "speaker": "king",
         "listener": "Absalom",
         "book": "2 Samuel",
         "options": {
           "speaker": [
             "Joab",
-            "Prophet",
-            "Saul"
+            "Nathan",
+            "Abner"
           ],
           "listener": [
+            "Amnon",
             "Joab",
-            "Philistines",
-            "Orpah and Ruth"
+            "Hushai"
           ]
         },
-        "bonus": "Amnon",
+        "bonus": "brother",
         "bonus_hint": {
-          "quote": "And unto David were sons born in Hebron: and his firstborn was Amnon, of Ahinoam the Jezreelitess;",
+          "quote": "And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go.",
           "source": {
-            "book": "2 Samuel",
-            "chapter": 3,
-            "start": 2,
-            "end": 2
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 55,
+            "end": 55
           }
         }
       },
@@ -54,23 +719,23 @@
         "options": {
           "speaker": [
             "יוֹאָב",
-            "הַנָּבִיא",
-            "שָׁאוּל"
+            "נָתַן",
+            "אַבְנֵר"
           ],
           "listener": [
+            "אַמְנוֹן",
             "יוֹאָב",
-            "פְּלִשְׁתִּֽים",
-            "כַלֹּתֶיהָ"
+            "חוּשַׁי"
           ]
         },
-        "bonus": "אַמְנוֹן",
+        "bonus": "אִתָּנוּ",
         "bonus_hint": {
-          "quote": "וַיִּוָלְדוּ לְדָוִד בָּנִים בְּחֶבְרוֹן וַיְהִי בְכוֹרוֹ אַמְנוֹן לַאֲחִינֹעַם הַיִּזְרְעֵאלִֽת",
+          "quote": "וַיֹּאמֶר אָחִיהָ וְאִמָּהּ תֵּשֵׁב הַנַּעֲרָ אִתָּנוּ יָמִים אוֹ עָשׂוֹר אַחַר תֵּלֵֽךְ",
           "source": {
-            "book": "שמואל ב",
-            "chapter": 3,
-            "start": 2,
-            "end": 2
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 55,
+            "end": 55
           }
         }
       },

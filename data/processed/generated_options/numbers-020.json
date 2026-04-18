@@ -1,0 +1,299 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-20-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 20,
+        "quote_verse_start": 1,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "Then came the children of Israel, even the whole congregation, into the desert of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there. And there was no water for the congregation: and they gathered themselves together against Moses and against Aaron. And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD! And why have ye brought up the congregation of the LORD into this wilderness, that we and our cattle should die there?",
+        "riddle": "And why have ye brought up the congregation of the LORD into this wilderness, that we and our cattle should die there?",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Reuben and Gad",
+            "Philistines",
+            "spies"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Balak"
+          ]
+        },
+        "bonus": "desert",
+        "bonus_hint": {
+          "quote": "For they were departed from Rephidim, and were come to the desert of Sinai, and had pitched in the wilderness; and there Israel camped before the mount.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 19,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ בְנֵֽי־יִשְׂרָאֵל כָּל־הָעֵדָה מִדְבַּר־צִן בַּחֹדֶשׁ הָֽרִאשׁוֹן וַיֵּשֶׁב הָעָם בְּקָדֵשׁ וַתָּמָת שָׁם מִרְיָם וַתִּקָּבֵר שָֽׁם וְלֹא־הָיָה מַיִם לָעֵדָה וַיִּקָּהֲלוּ עַל־מֹשֶׁה וְעַֽל־אַהֲרֹֽן וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ לֵאמֹר וְלוּ גָוַעְנוּ בִּגְוַע אַחֵינוּ לִפְנֵי יְהוָֽה וְלָמָה הֲבֵאתֶם אֶת־קְהַל יְהוָה אֶל־הַמִּדְבָּר הַזֶּה לָמוּת שָׁם אֲנַחְנוּ וּבְעִירֵֽנוּ",
+        "riddle": "וְלָמָה הֲבֵאתֶם אֶת־קְהַל יְהוָה אֶל־הַמִּדְבָּר הַזֶּה לָמוּת שָׁם אֲנַחְנוּ וּבְעִירֵֽנוּ",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "פְּלִשְׁתִּים",
+            "המרגלים"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "וַיָּבֹאוּ",
+        "bonus_hint": {
+          "quote": "וַיִּסְעוּ מֵרְפִידִים וַיָּבֹאוּ מִדְבַּר סִינַי וַֽיַּחֲנוּ בַּמִּדְבָּר וַיִּֽחַן־שָׁם יִשְׂרָאֵל נֶגֶד הָהָֽר",
+          "source": {
+            "book": "שמות",
+            "chapter": 19,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then came the children of Israel, even the whole congregation, into the desert of Zin in the first month: and the people abode in Kadesh; and Miriam died there, and was buried there.",
+          "2": "And there was no water for the congregation: and they gathered themselves together against Moses and against Aaron.",
+          "3": "And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD!",
+          "4": "And why have ye brought up the congregation of the LORD into this wilderness, that we and our cattle should die there?"
+        },
+        "he": {
+          "1": "וַיָּבֹאוּ בְנֵֽי־יִשְׂרָאֵל כָּל־הָעֵדָה מִדְבַּר־צִן בַּחֹדֶשׁ הָֽרִאשׁוֹן וַיֵּשֶׁב הָעָם בְּקָדֵשׁ וַתָּמָת שָׁם מִרְיָם וַתִּקָּבֵר שָֽׁם׃",
+          "2": "וְלֹא־הָיָה מַיִם לָעֵדָה וַיִּקָּהֲלוּ עַל־מֹשֶׁה וְעַֽל־אַהֲרֹֽן׃",
+          "3": "וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ לֵאמֹר וְלוּ גָוַעְנוּ בִּגְוַע אַחֵינוּ לִפְנֵי יְהוָֽה׃",
+          "4": "וְלָמָה הֲבֵאתֶם אֶת־קְהַל יְהוָה אֶל־הַמִּדְבָּר הַזֶּה לָמוּת שָׁם אֲנַחְנוּ וּבְעִירֵֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 1,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-20-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 20,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD!",
+        "riddle": "Would God that we had died when our brethren died before the LORD!",
+        "speaker": "people",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Israel",
+            "Reuben and Gad",
+            "Philistines"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "chode",
+        "bonus_hint": {
+          "quote": "And Jacob was wroth, and chode with Laban: and Jacob answered and said to Laban, What is my trespass? what is my sin, that thou hast so hotly pursued after me?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 36,
+            "end": 36
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ לֵאמֹר וְלוּ גָוַעְנוּ בִּגְוַע אַחֵינוּ לִפְנֵי יְהוָֽה",
+        "riddle": "וְלוּ גָוַעְנוּ בִּגְוַע אַחֵינוּ לִפְנֵי יְהוָֽה",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יִשְׂרָאֵל",
+            "בְּנֵי רְאוּבֵן וגד",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וַיָּרֶב",
+        "bonus_hint": {
+          "quote": "וַיִּחַר לְיַעֲקֹב וַיָּרֶב בְּלָבָן וַיַּעַן יַעֲקֹב וַיֹּאמֶר לְלָבָן מַה־פִּשְׁעִי מַה חַטָּאתִי כִּי דָלַקְתָּ אַחֲרָֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 36,
+            "end": 36
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the people chode with Moses, and spake, saying, Would God that we had died when our brethren died before the LORD!"
+        },
+        "he": {
+          "3": "וַיָּרֶב הָעָם עִם־מֹשֶׁה וַיֹּאמְרוּ לֵאמֹר וְלוּ גָוַעְנוּ בִּגְוַע אַחֵינוּ לִפְנֵי יְהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 3,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-20-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 20,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Take the rod, and gather thou the assembly together, thou, and Aaron thy brother, and speak ye unto the rock before their eyes; and it shall give forth his water, and thou shalt bring forth to them water out of the rock: so thou shalt give the congregation and their beasts drink. And Moses took the rod from before the LORD, as he commanded him. And Moses and Aaron gathered the congregation together before the rock, and he said unto them, Hear now, ye rebels; must we fetch you water out of this rock? And Moses lifted up his hand, and with his rod he smote the rock twice: and the water came out abundantly, and the congregation drank, and their beasts also. And the LORD spake unto Moses and Aaron, Because ye believed me not, to sanctify me in the eyes of the children of Israel, therefore ye shall not bring this congregation into the land which I have given them. This is the water of Meribah; because the children of Israel strove with the LORD, and he was sanctified in them. And Moses sent messengers from Kadesh unto the king of Edom, Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:",
+        "riddle": "Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:",
+        "speaker": "Moses' messengers",
+        "listener": "king of Edom",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Moses",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Balak",
+            "Pharaoh",
+            "Sihon"
+          ]
+        },
+        "bonus": "rock",
+        "bonus_hint": {
+          "quote": "And the angel of God said unto him, Take the flesh and the unleavened cakes, and lay them upon this rock, and pour out the broth. And he did so.",
+          "source": {
+            "book": "Judges",
+            "chapter": 6,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "קַח אֶת־הַמַּטֶּה וְהַקְהֵל אֶת־הָעֵדָה אַתָּה וְאַהֲרֹן אָחִיךָ וְדִבַּרְתֶּם אֶל־הַסֶּלַע לְעֵינֵיהֶם וְנָתַן מֵימָיו וְהוֹצֵאתָ לָהֶם מַיִם מִן־הַסֶּלַע וְהִשְׁקִיתָ אֶת־הָעֵדָה וְאֶת־בְּעִירָֽם וַיִּקַּח מֹשֶׁה אֶת־הַמַּטֶּה מִלִּפְנֵי יְהוָה כַּאֲשֶׁר צִוָּֽהוּ וַיַּקְהִלוּ מֹשֶׁה וְאַהֲרֹן אֶת־הַקָּהָל אֶל־פְּנֵי הַסָּלַע וַיֹּאמֶר לָהֶם שִׁמְעוּ־נָא הַמֹּרִים הֲמִן־הַסֶּלַע הַזֶּה נוֹצִיא לָכֶם מָֽיִם וַיָּרֶם מֹשֶׁה אֶת־יָדוֹ וַיַּךְ אֶת־הַסֶּלַע בְּמַטֵּהוּ פַּעֲמָיִם וַיֵּצְאוּ מַיִם רַבִּים וַתֵּשְׁתְּ הָעֵדָה וּבְעִירָֽם וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן יַעַן לֹא־הֶאֱמַנְתֶּם בִּי לְהַקְדִּישֵׁנִי לְעֵינֵי בְּנֵי יִשְׂרָאֵל לָכֵן לֹא תָבִיאוּ אֶת־הַקָּהָל הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נָתַתִּי לָהֶֽם הֵמָּה מֵי מְרִיבָה אֲשֶׁר־רָבוּ בְנֵֽי־יִשְׂרָאֵל אֶת־יְהוָה וַיִּקָּדֵשׁ בָּֽם וַיִּשְׁלַח מֹשֶׁה מַלְאָכִים מִקָּדֵשׁ אֶל־מֶלֶךְ אֱדוֹם כֹּה אָמַר אָחִיךָ יִשְׂרָאֵל אַתָּה יָדַעְתָּ אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָֽתְנוּ",
+        "riddle": "כֹּה אָמַר אָחִיךָ יִשְׂרָאֵל אַתָּה יָדַעְתָּ אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָֽתְנו",
+        "speaker": "מַלְאָכִים",
+        "listener": "מֶלֶךְ אֱדוֹם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "מֹשֶׁה",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "בָּלָק",
+            "פַרְעֹה",
+            "סִיחוֹן"
+          ]
+        },
+        "bonus": "קַח",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלָיו מַלְאַךְ הָאֱלֹהִים קַח אֶת־הַבָּשָׂר וְאֶת־הַמַּצּוֹת וְהַנַּח אֶל־הַסֶּלַע הַלָּז וְאֶת־הַמָּרַק שְׁפוֹךְ וַיַּעַשׂ כֵּֽן",
+          "source": {
+            "book": "שופטים",
+            "chapter": 6,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Take the rod, and gather thou the assembly together, thou, and Aaron thy brother, and speak ye unto the rock before their eyes; and it shall give forth his water, and thou shalt bring forth to them water out of the rock: so thou shalt give the congregation and their beasts drink.",
+          "9": "And Moses took the rod from before the LORD, as he commanded him.",
+          "10": "And Moses and Aaron gathered the congregation together before the rock, and he said unto them, Hear now, ye rebels; must we fetch you water out of this rock?",
+          "11": "And Moses lifted up his hand, and with his rod he smote the rock twice: and the water came out abundantly, and the congregation drank, and their beasts also.",
+          "12": "And the LORD spake unto Moses and Aaron, Because ye believed me not, to sanctify me in the eyes of the children of Israel, therefore ye shall not bring this congregation into the land which I have given them.",
+          "13": "This is the water of Meribah; because the children of Israel strove with the LORD, and he was sanctified in them.",
+          "14": "And Moses sent messengers from Kadesh unto the king of Edom, Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:"
+        },
+        "he": {
+          "8": "קַח אֶת־הַמַּטֶּה וְהַקְהֵל אֶת־הָעֵדָה אַתָּה וְאַהֲרֹן אָחִיךָ וְדִבַּרְתֶּם אֶל־הַסֶּלַע לְעֵינֵיהֶם וְנָתַן מֵימָיו וְהוֹצֵאתָ לָהֶם מַיִם מִן־הַסֶּלַע וְהִשְׁקִיתָ אֶת־הָעֵדָה וְאֶת־בְּעִירָֽם׃",
+          "9": "וַיִּקַּח מֹשֶׁה אֶת־הַמַּטֶּה מִלִּפְנֵי יְהוָה כַּאֲשֶׁר צִוָּֽהוּ׃",
+          "10": "וַיַּקְהִלוּ מֹשֶׁה וְאַהֲרֹן אֶת־הַקָּהָל אֶל־פְּנֵי הַסָּלַע וַיֹּאמֶר לָהֶם שִׁמְעוּ־נָא הַמֹּרִים הֲמִן־הַסֶּלַע הַזֶּה נוֹצִיא לָכֶם מָֽיִם׃",
+          "11": "וַיָּרֶם מֹשֶׁה אֶת־יָדוֹ וַיַּךְ אֶת־הַסֶּלַע בְּמַטֵּהוּ פַּעֲמָיִם וַיֵּצְאוּ מַיִם רַבִּים וַתֵּשְׁתְּ הָעֵדָה וּבְעִירָֽם׃",
+          "12": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן יַעַן לֹא־הֶאֱמַנְתֶּם בִּי לְהַקְדִּישֵׁנִי לְעֵינֵי בְּנֵי יִשְׂרָאֵל לָכֵן לֹא תָבִיאוּ אֶת־הַקָּהָל הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נָתַתִּי לָהֶֽם׃",
+          "13": "הֵמָּה מֵי מְרִיבָה אֲשֶׁר־רָבוּ בְנֵֽי־יִשְׂרָאֵל אֶת־יְהוָה וַיִּקָּדֵשׁ בָּֽם׃",
+          "14": "וַיִּשְׁלַח מֹשֶׁה מַלְאָכִים מִקָּדֵשׁ אֶל־מֶלֶךְ אֱדוֹם כֹּה אָמַר אָחִיךָ יִשְׂרָאֵל אַתָּה יָדַעְתָּ אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָֽתְנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 8,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

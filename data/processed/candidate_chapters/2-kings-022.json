@@ -6,55 +6,386 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-kings-22-10-11",
+      "id": "2-kings-22-04-04",
       "source": {
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 22,
-        "quote_verse_start": 10,
-        "quote_verse_end": 11
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 4
       },
       "en": {
-        "quote": "And Shaphan the scribe shewed the king, saying, Hilkiah the priest hath delivered me a book. And Shaphan read it before the king. And it came to pass, when the king had heard the words of the book of the law, that he rent his clothes.",
-        "riddle": "And Shaphan the scribe shewed the king, saying, Hilkiah",
-        "speaker": "Shaphan",
-        "listener": "King",
+        "quote": "Go up to Hilkiah the high priest, that he may sum the silver which is brought into the house of the LORD, which the keepers of the door have gathered of the people:",
+        "riddle": "Go up to Hilkiah the high priest, that he may sum the silver which is brought into the house of the LORD",
+        "speaker": "King Josiah",
+        "listener": "Shaphan",
         "book": "2 Kings"
       },
       "he": {
-        "quote": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה הַכֹּהֵן וַיִּקְרָאֵהוּ שָׁפָן לִפְנֵי הַמֶּֽלֶךְ וַֽיְהִי כִּשְׁמֹעַ הַמֶּלֶךְ אֶת־דִּבְרֵי סֵפֶר הַתּוֹרָה וַיִּקְרַע אֶת־בְּגָדָֽיו",
-        "riddle": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה",
-        "speaker": "שָׁפָן",
-        "listener": "הַמֶּֽלֶךְ",
+        "quote": "עֲלֵה אֶל־חִלְקִיָּהוּ הַכֹּהֵן הַגָּדוֹל וְיַתֵּם אֶת־הַכֶּסֶף הַמּוּבָא בֵּית יְהוָה אֲשֶׁר אָסְפוּ שֹׁמְרֵי הַסַּף מֵאֵת הָעָֽם",
+        "riddle": "עֲלֵה אֶל־חִלְקִיָּהוּ הַכֹּהֵן הַגָּדוֹל וְיַתֵּם אֶת־הַכֶּסֶף הַמּוּבָא בֵּית יְהוָה אֲשֶׁר אָסְפוּ שֹׁמְרֵי הַסַּף מֵאֵת הָעָֽם",
+        "speaker": "יֹאשִׁיָּהוּ",
+        "listener": "שָׁפָן",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
         "en": {
-          "10": "And Shaphan the scribe shewed the king, saying, Hilkiah the priest hath delivered me a book. And Shaphan read it before the king.",
-          "11": "And it came to pass, when the king had heard the words of the book of the law, that he rent his clothes."
+          "3": "And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan the son of Azaliah, the son of Meshullam, the scribe, to the house of the LORD, saying,",
+          "4": "Go up to Hilkiah the high priest, that he may sum the silver which is brought into the house of the LORD, which the keepers of the door have gathered of the people:"
         },
         "he": {
-          "10": "וַיַּגֵּד שָׁפָן הַסֹּפֵר לַמֶּלֶךְ לֵאמֹר סֵפֶר נָתַן לִי חִלְקִיָּה הַכֹּהֵן וַיִּקְרָאֵהוּ שָׁפָן לִפְנֵי הַמֶּֽלֶךְ׃",
-          "11": "וַֽיְהִי כִּשְׁמֹעַ הַמֶּלֶךְ אֶת־דִּבְרֵי סֵפֶר הַתּוֹרָה וַיִּקְרַע אֶת־בְּגָדָֽיו׃"
+          "3": "וַיְהִי בִּשְׁמֹנֶה עֶשְׂרֵה שָׁנָה לַמֶּלֶךְ יֹאשִׁיָּהוּ שָׁלַח הַמֶּלֶךְ אֶת־שָׁפָן בֶּן־אֲצַלְיָהוּ בֶן־מְשֻׁלָּם הַסֹּפֵר בֵּית יְהוָה לֵאמֹֽר׃",
+          "4": "עֲלֵה אֶל־חִלְקִיָּהוּ הַכֹּהֵן הַגָּדוֹל וְיַתֵּם אֶת־הַכֶּסֶף הַמּוּבָא בֵּית יְהוָה אֲשֶׁר אָסְפוּ שֹׁמְרֵי הַסַּף מֵאֵת הָעָֽם׃"
         }
       },
       "meta": {
-        "reason": "Contains direct speech/announcement",
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-kings-22-08-08",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Hilkiah the high priest said unto Shaphan the scribe, I have found the book of the law in the house of the LORD. And Hilkiah gave the book to Shaphan, and he read it.",
+        "riddle": "I have found the book of the law in the house of the LORD",
+        "speaker": "Hilkiah",
+        "listener": "Shaphan",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חִלְקִיָּהוּ הַכֹּהֵן הַגָּדוֹל עַל־שָׁפָן הַסֹּפֵר סֵפֶר הַתּוֹרָה מָצָאתִי בְּבֵית יְהוָה וַיִּתֵּן חִלְקִיָּה אֶת־הַסֵּפֶר אֶל־שָׁפָן וַיִּקְרָאֵֽהוּ",
+        "riddle": "סֵפֶר הַתּוֹרָה מָצָאתִי בְּבֵית יְהוָה",
+        "speaker": "חִלְקִיָּהוּ",
+        "listener": "שָׁפָן",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Hilkiah the high priest said unto Shaphan the scribe, I have found the book of the law in the house of the LORD. And Hilkiah gave the book to Shaphan, and he read it."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר חִלְקִיָּהוּ הַכֹּהֵן הַגָּדוֹל עַל־שָׁפָן הַסֹּפֵר סֵפֶר הַתּוֹרָה מָצָאתִי בְּבֵית יְהוָה וַיִּתֵּן חִלְקִיָּה אֶת־הַסֵּפֶר אֶל־שָׁפָן וַיִּקְרָאֵֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-kings-22-09-09",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Shaphan the scribe came to the king, and brought the king word again, and said, Thy servants have gathered the money that was found in the house, and have delivered it into the hand of them that do the work, that have the oversight of the house of the LORD.",
+        "riddle": "Thy servants have gathered the money that was found in the house, and have delivered it into the hand of them that do the work, that have the oversight of the house of the LORD",
+        "speaker": "Shaphan",
+        "listener": "the king",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא שָׁפָן הַסֹּפֵר אֶל־הַמֶּלֶךְ וַיָּשֶׁב אֶת־הַמֶּלֶךְ דָּבָר וַיֹּאמֶר הִתִּיכוּ עֲבָדֶיךָ אֶת־הַכֶּסֶף הַנִּמְצָא בַבַּיִת וַֽיִּתְּנֻהוּ עַל־יַד עֹשֵׂי הַמְּלָאכָה הַמֻּפְקָדִים בֵּית יְהוָֽה",
+        "riddle": "וַיָּבֹא שָׁפָן הַסֹּפֵר אֶל־הַמֶּלֶךְ וַיָּשֶׁב אֶת־הַמֶּלֶךְ דָּבָר וַיֹּאמֶר הִתִּיכוּ עֲבָדֶיךָ אֶת־הַכֶּסֶף הַנִּמְצָא בַבַּיִת וַֽיִּתְּנֻהוּ עַל־יַד עֹשֵׂי הַמְּלָאכָה הַמֻּפְקָדִים בֵּית יְהוָֽה",
+        "speaker": "שָׁפָן הַסֹּפֵר",
+        "listener": "הַמֶּלֶךְ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Shaphan the scribe came to the king, and brought the king word again, and said, Thy servants have gathered the money that was found in the house, and have delivered it into the hand of them that do the work, that have the oversight of the house of the LORD."
+        },
+        "he": {
+          "9": "וַיָּבֹא שָׁפָן הַסֹּפֵר אֶל־הַמֶּלֶךְ וַיָּשֶׁב אֶת־הַמֶּלֶךְ דָּבָר וַיֹּאמֶר הִתִּיכוּ עֲבָדֶיךָ אֶת־הַכֶּסֶף הַנִּמְצָא בַבַּיִת וַֽיִּתְּנֻהוּ עַל־יַד עֹשֵׂי הַמְּלָאכָה הַמֻּפְקָדִים בֵּית יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct report",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 22,
-        "start": 10,
-        "end": 11
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "2-kings-22-15-15",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+        "riddle": "Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+        "speaker": "Huldah",
+        "listener": "priests",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי",
+        "riddle": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי",
+        "speaker": "חֻלְדָּה",
+        "listener": "כֹּהֵנִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
+          "15": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,"
+        },
+        "he": {
+          "14": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת ׀ שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ׃",
+          "15": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-22-16-16",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Thus saith the LORD, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the words of the book which the king of Judah hath read:",
+        "riddle": "Thus saith the LORD, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the words of the book which the king of Judah hath read:",
+        "speaker": "Huldah",
+        "listener": "priests",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "כֹּה אָמַר יְהוָה הִנְנִי מֵבִיא רָעָה אֶל־הַמָּקוֹם הַזֶּה וְעַל־יֹֽשְׁבָיו אֵת כָּל־דִּבְרֵי הַסֵּפֶר אֲשֶׁר קָרָא מֶלֶךְ יְהוּדָֽה",
+        "riddle": "כֹּה אָמַר יְהוָה הִנְנִי מֵבִיא רָעָה אֶל־הַמָּקוֹם הַזֶּה וְעַל־יֹֽשְׁבָיו אֵת כָּל־דִּבְרֵי הַסֵּפֶר אֲשֶׁר קָרָא מֶלֶךְ יְהוּדָֽה",
+        "speaker": "חֻלְדָּה",
+        "listener": "כֹּהֵנִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
+          "15": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+          "16": "Thus saith the LORD, Behold, I will bring evil upon this place, and upon the inhabitants thereof, even all the words of the book which the king of Judah hath read:"
+        },
+        "he": {
+          "14": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת ׀ שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ׃",
+          "15": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי׃",
+          "16": "כֹּה אָמַר יְהוָה הִנְנִי מֵבִיא רָעָה אֶל־הַמָּקוֹם הַזֶּה וְעַל־יֹֽשְׁבָיו אֵת כָּל־דִּבְרֵי הַסֵּפֶר אֲשֶׁר קָרָא מֶלֶךְ יְהוּדָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-kings-22-17-17",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Because they have forsaken me, and have burned incense unto other gods, that they might provoke me to anger with all the works of their hands; therefore my wrath shall be kindled against this place, and shall not be quenched.",
+        "riddle": "Because they have forsaken me, and have burned incense unto other gods, that they might provoke me to anger with all the works of their hands; therefore my wrath shall be kindled against this place, and shall not be quenched.",
+        "speaker": "Huldah",
+        "listener": "priests",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "תַּחַת אֲשֶׁר עֲזָבוּנִי וַֽיְקַטְּרוּ לֵאלֹהִים אֲחֵרִים לְמַעַן הַכְעִיסֵנִי בְּכֹל מַעֲשֵׂה יְדֵיהֶם וְנִצְּתָה חֲמָתִי בַּמָּקוֹם הַזֶּה וְלֹא תִכְבֶּֽה",
+        "riddle": "תַּחַת אֲשֶׁר עֲזָבוּנִי וַֽיְקַטְּרוּ לֵאלֹהִים אֲחֵרִים לְמַעַן הַכְעִיסֵנִי בְּכֹל מַעֲשֵׂה יְדֵיהֶם וְנִצְּתָה חֲמָתִי בַּמָּקוֹם הַזֶּה וְלֹא תִכְבֶּֽה",
+        "speaker": "חֻלְדָּה",
+        "listener": "כֹּהֲנִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
+          "15": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+          "17": "Because they have forsaken me, and have burned incense unto other gods, that they might provoke me to anger with all the works of their hands; therefore my wrath shall be kindled against this place, and shall not be quenched."
+        },
+        "he": {
+          "14": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת ׀ שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ׃",
+          "15": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי׃",
+          "17": "תַּחַת ׀ אֲשֶׁר עֲזָבוּנִי וַֽיְקַטְּרוּ לֵאלֹהִים אֲחֵרִים לְמַעַן הַכְעִיסֵנִי בְּכֹל מַעֲשֵׂה יְדֵיהֶם וְנִצְּתָה חֲמָתִי בַּמָּקוֹם הַזֶּה וְלֹא תִכְבֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "explanation of wrath",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-kings-22-18-18",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "But to the king of Judah which sent you to inquire of the LORD, thus shall ye say to him, Thus saith the LORD God of Israel, As touching the words which thou hast heard;",
+        "riddle": "But to the king of Judah which sent you to inquire of the LORD, thus shall ye say to him, Thus saith the LORD God of Israel, As touching the words which thou hast heard;",
+        "speaker": "Huldah",
+        "listener": "priests",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְאֶל־מֶלֶךְ יְהוּדָה הַשֹּׁלֵחַ אֶתְכֶם לִדְרֹשׁ אֶת־יְהוָה כֹּה תֹאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הַדְּבָרִים אֲשֶׁר שָׁמָֽעְתָּ",
+        "riddle": "וְאֶל־מֶלֶךְ יְהוּדָה הַשֹּׁלֵחַ אֶתְכֶם לִדְרֹשׁ אֶת־יְהוָה כֹּה תֹאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הַדְּבָרִים אֲשֶׁר שָׁמָֽעְתָּ",
+        "speaker": "חֻלְדָּה",
+        "listener": "כֹּהֲנִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
+          "15": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+          "18": "But to the king of Judah which sent you to inquire of the LORD, thus shall ye say to him, Thus saith the LORD God of Israel, As touching the words which thou hast heard;"
+        },
+        "he": {
+          "14": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת ׀ שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ׃",
+          "15": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי׃",
+          "18": "וְאֶל־מֶלֶךְ יְהוּדָה הַשֹּׁלֵחַ אֶתְכֶם לִדְרֹשׁ אֶת־יְהוָה כֹּה תֹאמְרוּ אֵלָיו כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל הַדְּבָרִים אֲשֶׁר שָׁמָֽעְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "instruction for message",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "2-kings-22-20-20",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 22,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "Behold therefore, I will gather thee unto thy fathers, and thou shalt be gathered into thy grave in peace; and thine eyes shall not see all the evil which I will bring upon this place. And they brought the king word again.",
+        "riddle": "Behold therefore, I will gather thee unto thy fathers, and thou shalt be gathered into thy grave in peace; and thine eyes shall not see all the evil which I will bring upon this place.",
+        "speaker": "Huldah",
+        "listener": "priests",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "לָכֵן הִנְנִי אֹֽסִפְךָ עַל־אֲבֹתֶיךָ וְנֶאֱסַפְתָּ אֶל־קִבְרֹתֶיךָ בְּשָׁלוֹם וְלֹא־תִרְאֶינָה עֵינֶיךָ בְּכֹל הָֽרָעָה אֲשֶׁר־אֲנִי מֵבִיא עַל־הַמָּקוֹם הַזֶּה וַיָּשִׁיבוּ אֶת־הַמֶּלֶךְ דָּבָֽר",
+        "riddle": "לָכֵן הִנְנִי אֹֽסִפְךָ עַל־אֲבֹתֶיךָ וְנֶאֱסַפְתָּ אֶל־קִבְרֹתֶיךָ בְּשָׁלוֹם וְלֹא־תִרְאֶינָה עֵינֶיךָ בְּכֹל הָֽרָעָה אֲשֶׁר־אֲנִי מֵבִיא עַל־הַמָּקוֹם הַזֶּה וַיָּשִׁיבוּ אֶת־הַמֶּלֶךְ דָּבָֽר",
+        "speaker": "חֻלְדָּה הַנְּבִיאָה",
+        "listener": "הַכֹּהֲנִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "So Hilkiah the priest, and Ahikam, and Achbor, and Shaphan, and Asahiah, went unto Huldah the prophetess, the wife of Shallum the son of Tikvah, the son of Harhas, keeper of the wardrobe; (now she dwelt in Jerusalem in the college;) and they communed with her.",
+          "15": "And she said unto them, Thus saith the LORD God of Israel, Tell the man that sent you to me,",
+          "20": "Behold therefore, I will gather thee unto thy fathers, and thou shalt be gathered into thy grave in peace; and thine eyes shall not see all the evil which I will bring upon this place. And they brought the king word again."
+        },
+        "he": {
+          "14": "וַיֵּלֶךְ חִלְקִיָּהוּ הַכֹּהֵן וַאֲחִיקָם וְעַכְבּוֹר וְשָׁפָן וַעֲשָׂיָה אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת ׀ שַׁלֻּם בֶּן־תִּקְוָה בֶּן־חַרְחַס שֹׁמֵר הַבְּגָדִים וְהִיא יֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַֽיְדַבְּרוּ אֵלֶֽיהָ׃",
+          "15": "וַתֹּאמֶר אֲלֵיהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל אִמְרוּ לָאִישׁ אֲשֶׁר־שָׁלַח אֶתְכֶם אֵלָֽי׃",
+          "20": "לָכֵן הִנְנִי אֹֽסִפְךָ עַל־אֲבֹתֶיךָ וְנֶאֱסַפְתָּ אֶל־קִבְרֹתֶיךָ בְּשָׁלוֹם וְלֹא־תִרְאֶינָה עֵינֶיךָ בְּכֹל הָֽרָעָה אֲשֶׁר־אֲנִי מֵבִיא עַל־הַמָּקוֹם הַזֶּה וַיָּשִׁיבוּ אֶת־הַמֶּלֶךְ דָּבָֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic promise",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 22,
+        "start": 20,
+        "end": 20
       }
     }
   ],
   "stats": {
-    "window_count": 14,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 1,
-    "issue_count": 13
+    "llm_window_count": 3,
+    "projection_llm_count": 10,
+    "llm_call_count": 13,
+    "spec_count": 10,
+    "kept_count": 8,
+    "issue_count": 2
   }
 }

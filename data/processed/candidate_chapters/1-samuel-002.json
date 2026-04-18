@@ -6,6 +6,317 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-02-01-01",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
+        "riddle": "My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation.",
+        "speaker": "Hannah",
+        "listener": "the LORD",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַתִּתְפַּלֵּל חַנָּה וַתֹּאמַר עָלַץ לִבִּי בַּֽיהוָה רָמָה קַרְנִי בַּֽיהוָה רָחַב פִּי עַל־אוֹיְבַי כִּי שָׂמַחְתִּי בִּישׁוּעָתֶֽךָ",
+        "riddle": "עָלַץ לִבִּי בַּֽיהוָה רָמָה קַרְנִי בַּֽיהוָה רָחַב פִּי עַל־אוֹיְבַי כִּי שָׂמַחְתִּי בִּישׁוּעָתֶֽך",
+        "speaker": "חַנָּה",
+        "listener": "יהוָה",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Hannah prayed, and said, My heart rejoiceth in the LORD, mine horn is exalted in the LORD: my mouth is enlarged over mine enemies; because I rejoice in thy salvation."
+        },
+        "he": {
+          "1": "וַתִּתְפַּלֵּל חַנָּה וַתֹּאמַר עָלַץ לִבִּי בַּֽיהוָה רָמָה קַרְנִי בַּֽיהוָה רָחַב פִּי עַל־אוֹיְבַי כִּי שָׂמַחְתִּי בִּישׁוּעָתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "1-samuel-02-15-15",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Also before they burnt the fat, the priest's servant came, and said to the man that sacrificed, Give flesh to roast for the priest; for he will not have sodden flesh of thee, but raw.",
+        "riddle": "Give flesh to roast for the priest; for he will not have sodden flesh of thee, but raw.",
+        "speaker": "priest's servant",
+        "listener": "the man that sacrificed",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "גַּם בְּטֶרֶם יַקְטִרוּן אֶת־הַחֵלֶב וּבָא נַעַר הַכֹּהֵן וְאָמַר לָאִישׁ הַזֹּבֵחַ תְּנָה בָשָׂר לִצְלוֹת לַכֹּהֵן וְלֹֽא־יִקַּח מִמְּךָ בָּשָׂר מְבֻשָּׁל כִּי אִם־חָֽי",
+        "riddle": "וּבָא נַעַר הַכֹּהֵן וְאָמַר לָאִישׁ הַזֹּבֵחַ תְּנָה בָשָׂר לִצְלוֹת לַכֹּהֵן וְלֹֽא־יִקַּח מִמְּךָ בָּשָׂר מְבֻשָּׁל כִּי אִם־חָֽי",
+        "speaker": "נַעַר הַכֹּהֵן",
+        "listener": "הָאִישׁ הַזֹּבֵחַ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Also before they burnt the fat, the priest's servant came, and said to the man that sacrificed, Give flesh to roast for the priest; for he will not have sodden flesh of thee, but raw."
+        },
+        "he": {
+          "15": "גַּם בְּטֶרֶם יַקְטִרוּן אֶת־הַחֵלֶב וּבָא ׀ נַעַר הַכֹּהֵן וְאָמַר לָאִישׁ הַזֹּבֵחַ תְּנָה בָשָׂר לִצְלוֹת לַכֹּהֵן וְלֹֽא־יִקַּח מִמְּךָ בָּשָׂר מְבֻשָּׁל כִּי אִם־חָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "1-samuel-02-20-20",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Eli blessed Elkanah and his wife, and said, The LORD give thee seed of this woman for the loan which is lent to the LORD. And they went unto their own home.",
+        "riddle": "The LORD give thee seed of this woman for the loan which is lent to the LORD",
+        "speaker": "Eli",
+        "listener": "Elkanah and his wife",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וּבֵרַךְ עֵלִי אֶת־אֶלְקָנָה וְאֶת־אִשְׁתּוֹ וְאָמַר יָשֵׂם יְהוָה לְךָ זֶרַע מִן־הָאִשָּׁה הַזֹּאת תַּחַת הַשְּׁאֵלָה אֲשֶׁר שָׁאַל לַֽיהוָה וְהָלְכוּ לִמְקֹמֽוֹ",
+        "riddle": "וְאָמַר יָשֵׂם יְהוָה לְךָ זֶרַע מִן־הָאִשָּׁה הַזֹּאת תַּחַת הַשְּׁאֵלָה אֲשֶׁר שָׁאַל לַֽיהוָה וְהָלְכוּ לִמְקֹמֽוֹ",
+        "speaker": "עֵלִי",
+        "listener": "אֶלְקָנָה וְאִשְׁתּוֹ",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Eli blessed Elkanah and his wife, and said, The LORD give thee seed of this woman for the loan which is lent to the LORD. And they went unto their own home."
+        },
+        "he": {
+          "20": "וּבֵרַךְ עֵלִי אֶת־אֶלְקָנָה וְאֶת־אִשְׁתּוֹ וְאָמַר יָשֵׂם יְהוָה לְךָ זֶרַע מִן־הָאִשָּׁה הַזֹּאת תַּחַת הַשְּׁאֵלָה אֲשֶׁר שָׁאַל לַֽיהוָה וְהָלְכוּ לִמְקֹמֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "1-samuel-02-23-23",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And he said unto them, Why do ye such things? for I hear of your evil dealings by all this people.",
+        "riddle": "Why do ye such things?",
+        "speaker": "Eli",
+        "listener": "Eli's sons",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם לָמָּה תַעֲשׂוּן כַּדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי שֹׁמֵעַ אֶת־דִּבְרֵיכֶם רָעִים מֵאֵת כָּל־הָעָם אֵֽלֶּה",
+        "riddle": "לָמָּה תַעֲשׂוּן כַּדְּבָרִים הָאֵלֶּה",
+        "speaker": "עֵלִי",
+        "listener": "בְּנֵי עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Now Eli was very old, and heard all that his sons did unto all Israel; and how they lay with the women that assembled at the door of the tabernacle of the congregation.",
+          "23": "And he said unto them, Why do ye such things? for I hear of your evil dealings by all this people."
+        },
+        "he": {
+          "22": "וְעֵלִי זָקֵן מְאֹד וְשָׁמַע אֵת כָּל־אֲשֶׁר יַעֲשׂוּן בָּנָיו לְכָל־יִשְׂרָאֵל וְאֵת אֲשֶֽׁר־יִשְׁכְּבוּן אֶת־הַנָּשִׁים הַצֹּבְאוֹת פֶּתַח אֹהֶל מוֹעֵֽד׃",
+          "23": "וַיֹּאמֶר לָהֶם לָמָּה תַעֲשׂוּן כַּדְּבָרִים הָאֵלֶּה אֲשֶׁר אָנֹכִי שֹׁמֵעַ אֶת־דִּבְרֵיכֶם רָעִים מֵאֵת כָּל־הָעָם אֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "1-samuel-02-24-24",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "Nay, my sons; for it is no good report that I hear: ye make the LORD's people to transgress.",
+        "riddle": "Nay, my sons; for it is no good report that I hear: ye make the LORD's people to transgress",
+        "speaker": "Eli",
+        "listener": "Eli's sons",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "אַל בָּנָי כִּי לֽוֹא־טוֹבָה הַשְּׁמֻעָה אֲשֶׁר אָנֹכִי שֹׁמֵעַ מַעֲבִרִים עַם־יְהוָֽה",
+        "riddle": "אַל בָּנָי כִּי לֽוֹא־טוֹבָה הַשְּׁמֻעָה אֲשֶׁר אָנֹכִי שֹׁמֵעַ מַעֲבִרִים עַם־יְהוָֽה",
+        "speaker": "עֵלִי",
+        "listener": "בָּנָי עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Now Eli was very old, and heard all that his sons did unto all Israel; and how they lay with the women that assembled at the door of the tabernacle of the congregation.",
+          "24": "Nay, my sons; for it is no good report that I hear: ye make the LORD's people to transgress."
+        },
+        "he": {
+          "22": "וְעֵלִי זָקֵן מְאֹד וְשָׁמַע אֵת כָּל־אֲשֶׁר יַעֲשׂוּן בָּנָיו לְכָל־יִשְׂרָאֵל וְאֵת אֲשֶֽׁר־יִשְׁכְּבוּן אֶת־הַנָּשִׁים הַצֹּבְאוֹת פֶּתַח אֹהֶל מוֹעֵֽד׃",
+          "24": "אַל בָּנָי כִּי לֽוֹא־טוֹבָה הַשְּׁמֻעָה אֲשֶׁר אָנֹכִי שֹׁמֵעַ מַעֲבִרִים עַם־יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "1-samuel-02-27-27",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+        "riddle": "Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+        "speaker": "man of God",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה",
+        "riddle": "וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה",
+        "speaker": "אִישׁ־אֱלֹהִים",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?"
+        },
+        "he": {
+          "27": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "1-samuel-02-28-28",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And did I choose him out of all the tribes of Israel to be my priest, to offer upon mine altar, to burn incense, to wear an ephod before me? and did I give unto the house of thy father all the offerings made by fire of the children of Israel?",
+        "riddle": "And did I choose him out of all the tribes of Israel to be my priest, to offer upon mine altar, to burn incense, to wear an ephod before me? and did I give unto the house of thy father all the offerings made by fire of the children of Israel?",
+        "speaker": "man of God",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "וּבָחֹר אֹתוֹ מִכָּל־שִׁבְטֵי יִשְׂרָאֵל לִי לְכֹהֵן לַעֲלוֹת עַֽל־מִזְבְּחִי לְהַקְטִיר קְטֹרֶת לָשֵׂאת אֵפוֹד לְפָנָי וָֽאֶתְּנָה לְבֵית אָבִיךָ אֶת־כָּל־אִשֵּׁי בְּנֵי יִשְׂרָאֵֽל",
+        "riddle": "וּבָחֹר אֹתוֹ מִכָּל־שִׁבְטֵי יִשְׂרָאֵל לִי לְכֹהֵן לַעֲלוֹת עַֽל־מִזְבְּחִי לְהַקְטִיר קְטֹרֶת לָשֵׂאת אֵפוֹד לְפָנָי וָֽאֶתְּנָה לְבֵית אָבִיךָ אֶת־כָּל־אִשֵּׁי בְּנֵי יִשְׂרָאֵֽל",
+        "speaker": "אִישׁ־אֱלֹהִים",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+          "28": "And did I choose him out of all the tribes of Israel to be my priest, to offer upon mine altar, to burn incense, to wear an ephod before me? and did I give unto the house of thy father all the offerings made by fire of the children of Israel?"
+        },
+        "he": {
+          "27": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה׃",
+          "28": "וּבָחֹר אֹתוֹ מִכָּל־שִׁבְטֵי יִשְׂרָאֵל לִי לְכֹהֵן לַעֲלוֹת עַֽל־מִזְבְּחִי לְהַקְטִיר קְטֹרֶת לָשֵׂאת אֵפוֹד לְפָנָי וָֽאֶתְּנָה לְבֵית אָבִיךָ אֶת־כָּל־אִשֵּׁי בְּנֵי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "series of questions",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
       "id": "1-samuel-02-29-29",
       "source": {
         "book_code": "1SA",
@@ -13,46 +324,147 @@
         "book_he": "שמואל א",
         "chapter": 2,
         "quote_verse_start": 29,
-        "quote_verse_end": 29
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
       },
       "en": {
         "quote": "Wherefore kick ye at my sacrifice and at mine offering, which I have commanded in my habitation; and honourest thy sons above me, to make yourselves fat with the chiefest of all the offerings of Israel my people?",
-        "riddle": "Wherefore kick ye at my sacrifice and at mine offering",
-        "speaker": "God",
-        "listener": "Israelite priests",
+        "riddle": "Wherefore kick ye at my sacrifice and at mine offering, which I have commanded in my habitation; and honourest thy sons above me, to make yourselves fat with the chiefest of all the offerings of Israel my people?",
+        "speaker": "man of God",
+        "listener": "Eli",
         "book": "1 Samuel"
       },
       "he": {
         "quote": "לָמָּה תִבְעֲטוּ בְּזִבְחִי וּבְמִנְחָתִי אֲשֶׁר צִוִּיתִי מָעוֹן וַתְּכַבֵּד אֶת־בָּנֶיךָ מִמֶּנִּי לְהַבְרִֽיאֲכֶם מֵרֵאשִׁית כָּל־מִנְחַת יִשְׂרָאֵל לְעַמִּֽי",
-        "riddle": "לָמָּה תִבְעֲטוּ בְּזִבְחִי וּבְמִנְחָתִי אֲשֶׁר צִוִּיתִי מָעוֹן",
-        "speaker": "אלוהים",
-        "listener": "כהנים",
+        "riddle": "לָמָּה תִבְעֲטוּ בְּזִבְחִי וּבְמִנְחָתִי אֲשֶׁר צִוִּיתִי מָעוֹן וַתְּכַבֵּד אֶת־בָּנֶיךָ מִמֶּנִּי לְהַבְרִֽיאֲכֶם מֵרֵאשִׁית כָּל־מִנְחַת יִשְׂרָאֵל לְעַמִּֽי",
+        "speaker": "אִישׁ־אֱלֹהִים",
+        "listener": "עֵלִי",
         "book": "שמואל א"
       },
       "raw_quote_source": {
         "en": {
+          "27": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
           "29": "Wherefore kick ye at my sacrifice and at mine offering, which I have commanded in my habitation; and honourest thy sons above me, to make yourselves fat with the chiefest of all the offerings of Israel my people?"
         },
         "he": {
+          "27": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה׃",
           "29": "לָמָּה תִבְעֲטוּ בְּזִבְחִי וּבְמִנְחָתִי אֲשֶׁר צִוִּיתִי מָעוֹן וַתְּכַבֵּד אֶת־בָּנֶיךָ מִמֶּנִּי לְהַבְרִֽיאֲכֶם מֵרֵאשִׁית כָּל־מִנְחַת יִשְׂרָאֵל לְעַמִּֽי׃"
         }
       },
       "meta": {
-        "reason": "Strong accusatory question",
-        "confidence": 0.95
+        "reason": "reproachful question",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 2,
         "start": 29,
         "end": 29
       }
+    },
+    {
+      "id": "1-samuel-02-30-30",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.",
+        "riddle": "I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.",
+        "speaker": "LORD",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "לָכֵן נְאֻם־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָמוֹר אָמַרְתִּי בֵּֽיתְךָ וּבֵית אָבִיךָ יִתְהַלְּכוּ לְפָנַי עַד־עוֹלָם וְעַתָּה נְאֻם־יְהוָה חָלִילָה לִּי כִּֽי־מְכַבְּדַי אֲכַבֵּד וּבֹזַי יֵקָֽלּוּ",
+        "riddle": "לָכֵן נְאֻם־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָמוֹר אָמַרְתִּי בֵּֽיתְךָ וּבֵית אָבִיךָ יִתְהַלְּכוּ לְפָנַי עַד־עוֹלָם וְעַתָּה נְאֻם־יְהוָה חָלִילָה לִּי כִּֽי־מְכַבְּדַי אֲכַבֵּד וּבֹזַי יֵקָֽלּוּ",
+        "speaker": "יְהוָה",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+          "30": "Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed."
+        },
+        "he": {
+          "27": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה׃",
+          "30": "לָכֵן נְאֻם־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָמוֹר אָמַרְתִּי בֵּֽיתְךָ וּבֵית אָבִיךָ יִתְהַלְּכוּ לְפָנַי עַד־עוֹלָם וְעַתָּה נְאֻם־יְהוָה חָלִילָה לִּי כִּֽי־מְכַבְּדַי אֲכַבֵּד וּבֹזַי יֵקָֽלּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "1-samuel-02-31-31",
+      "source": {
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 2,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "Behold, the days come, that I will cut off thine arm, and the arm of thy father's house, that there shall not be an old man in thine house.",
+        "riddle": "Behold, the days come, that I will cut off thine arm, and the arm of thy father's house, that there shall not be an old man in thine house.",
+        "speaker": "LORD",
+        "listener": "Eli",
+        "book": "1 Samuel"
+      },
+      "he": {
+        "quote": "הִנֵּה יָמִים בָּאִים וְגָֽדַעְתִּי אֶת־זְרֹעֲךָ וְאֶת־זְרֹעַ בֵּית אָבִיךָ מִֽהְיוֹת זָקֵן בְּבֵיתֶֽךָ",
+        "riddle": "הִנֵּה יָמִים בָּאִים וְגָֽדַעְתִּי אֶת־זְרֹעֲךָ וְאֶת־זְרֹעַ בֵּית אָבִיךָ מִֽהְיוֹת זָקֵן בְּבֵיתֶֽךָ",
+        "speaker": "יְהוָה",
+        "listener": "עֵלִי",
+        "book": "שמואל א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And there came a man of God unto Eli, and said unto him, Thus saith the LORD, Did I plainly appear unto the house of thy father, when they were in Egypt in Pharaoh's house?",
+          "30": "Wherefore the LORD God of Israel saith, I said indeed that thy house, and the house of thy father, should walk before me for ever: but now the LORD saith, Be it far from me; for them that honour me I will honour, and they that despise me shall be lightly esteemed.",
+          "31": "Behold, the days come, that I will cut off thine arm, and the arm of thy father's house, that there shall not be an old man in thine house."
+        },
+        "he": {
+          "27": "וַיָּבֹא אִישׁ־אֱלֹהִים אֶל־עֵלִי וַיֹּאמֶר אֵלָיו כֹּה אָמַר יְהוָה הֲנִגְלֹה נִגְלֵיתִי אֶל־בֵּית אָבִיךָ בִּֽהְיוֹתָם בְּמִצְרַיִם לְבֵית פַּרְעֹֽה׃",
+          "30": "לָכֵן נְאֻם־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אָמוֹר אָמַרְתִּי בֵּֽיתְךָ וּבֵית אָבִיךָ יִתְהַלְּכוּ לְפָנַי עַד־עוֹלָם וְעַתָּה נְאֻם־יְהוָה חָלִילָה לִּי כִּֽי־מְכַבְּדַי אֲכַבֵּד וּבֹזַי יֵקָֽלּוּ׃",
+          "31": "הִנֵּה יָמִים בָּאִים וְגָֽדַעְתִּי אֶת־זְרֹעֲךָ וְאֶת־זְרֹעַ בֵּית אָבִיךָ מִֽהְיוֹת זָקֵן בְּבֵיתֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic warning",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 31,
+        "end": 31
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 1,
-    "issue_count": 16
+    "llm_window_count": 5,
+    "projection_llm_count": 13,
+    "llm_call_count": 18,
+    "spec_count": 13,
+    "kept_count": 10,
+    "issue_count": 3
   }
 }

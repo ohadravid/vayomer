@@ -4,12 +4,60 @@
   "book_he": "במדבר",
   "chapter": 30,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-30-01-01",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 30,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded.",
+        "riddle": "This is the thing which the LORD hath commanded.",
+        "speaker": "Moses",
+        "listener": "heads of the tribes",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses spake unto the heads of the tribes concerning the children of Israel, saying, This is the thing which the LORD hath commanded."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 1,
+        "end": 1
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 2,
+    "projection_llm_count": 1,
+    "llm_call_count": 3,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

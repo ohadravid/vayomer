@@ -1,0 +1,1201 @@
+{
+  "book_code": "DEU",
+  "book": "Deuteronomy",
+  "book_he": "דברים",
+  "chapter": 1,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "deuteronomy-01-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them; After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei: On this side Jordan, in the land of Moab, began Moses to declare this law, saying, The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:",
+        "riddle": "Ye have dwelt long enough in this mount:",
+        "speaker": "LORD",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Moses",
+        "bonus_hint": {
+          "quote": "And it came to pass in those days, when Moses was grown, that he went out unto his brethren, and looked on their burdens: and he spied an Egyptian smiting an Hebrew, one of his brethren.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה",
+        "riddle": "לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי בַּיָּמִים הָהֵם וַיִּגְדַּל מֹשֶׁה וַיֵּצֵא אֶל־אֶחָיו וַיַּרְא בְּסִבְלֹתָם וַיַּרְא אִישׁ מִצְרִי מַכֶּה אִישׁ־עִבְרִי מֵאֶחָֽיו",
+          "source": {
+            "book": "שמות",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;",
+          "4": "After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei:",
+          "5": "On this side Jordan, in the land of Moab, began Moses to declare this law, saying,",
+          "6": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:"
+        },
+        "he": {
+          "3": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם׃",
+          "4": "אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי׃",
+          "5": "בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר׃",
+          "6": "יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them; After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei: On this side Jordan, in the land of Moab, began Moses to declare this law, saying, The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount: Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates. Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+        "riddle": "Behold, I have set the land before you: go in and possess the land",
+        "speaker": "Moses",
+        "listener": "Israel",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "month",
+        "bonus_hint": {
+          "quote": "And it came to pass in the first month in the second year, on the first day of the month, that the tabernacle was reared up.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 40,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה פְּנוּ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם",
+        "riddle": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי בַּחֹדֶשׁ הָרִאשׁוֹן בַּשָּׁנָה הַשֵּׁנִית בְּאֶחָד לַחֹדֶשׁ הוּקַם הַמִּשְׁכָּֽן",
+          "source": {
+            "book": "שמות",
+            "chapter": 40,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;",
+          "4": "After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei:",
+          "5": "On this side Jordan, in the land of Moab, began Moses to declare this law, saying,",
+          "6": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:",
+          "7": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+          "8": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them."
+        },
+        "he": {
+          "3": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם׃",
+          "4": "אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי׃",
+          "5": "בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר׃",
+          "6": "יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה׃",
+          "7": "פְּנוּ ׀ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת׃",
+          "8": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them; After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei: On this side Jordan, in the land of Moab, began Moses to declare this law, saying, The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount: Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates. Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them. And I spake unto you at that time, saying, I am not able to bear you myself alone:",
+        "riddle": "I am not able to bear you myself alone:",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "children",
+        "bonus_hint": {
+          "quote": "And it came to pass after these things, that it was told Abraham, saying, Behold, Milcah, she hath also born children unto thy brother Nahor;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה פְּנוּ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם",
+        "riddle": "לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי הַדְּבָרִים הָאֵלֶּה וַיֻּגַּד לְאַבְרָהָם לֵאמֹר הִנֵּה יָלְדָה מִלְכָּה גַם־הִוא בָּנִים לְנָחוֹר אָחִֽיךָ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And it came to pass in the fortieth year, in the eleventh month, on the first day of the month, that Moses spake unto the children of Israel, according unto all that the LORD had given him in commandment unto them;",
+          "4": "After he had slain Sihon the king of the Amorites, which dwelt in Heshbon, and Og the king of Bashan, which dwelt at Astaroth in Edrei:",
+          "5": "On this side Jordan, in the land of Moab, began Moses to declare this law, saying,",
+          "6": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:",
+          "7": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+          "8": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+          "9": "And I spake unto you at that time, saying, I am not able to bear you myself alone:"
+        },
+        "he": {
+          "3": "וַיְהִי בְּאַרְבָּעִים שָׁנָה בְּעַשְׁתֵּֽי־עָשָׂר חֹדֶשׁ בְּאֶחָד לַחֹדֶשׁ דִּבֶּר מֹשֶׁה אֶל־בְּנֵי יִשְׂרָאֵל כְּכֹל אֲשֶׁר צִוָּה יְהוָה אֹתוֹ אֲלֵהֶֽם׃",
+          "4": "אַחֲרֵי הַכֹּתוֹ אֵת סִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּוֹן וְאֵת עוֹג מֶלֶךְ הַבָּשָׁן אֲשֶׁר־יוֹשֵׁב בְּעַשְׁתָּרֹת בְּאֶדְרֶֽעִי׃",
+          "5": "בְּעֵבֶר הַיַּרְדֵּן בְּאֶרֶץ מוֹאָב הוֹאִיל מֹשֶׁה בֵּאֵר אֶת־הַתּוֹרָה הַזֹּאת לֵאמֹֽר׃",
+          "6": "יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה׃",
+          "7": "פְּנוּ ׀ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת׃",
+          "8": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם׃",
+          "9": "וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 6,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount: Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates. Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them. And I spake unto you at that time, saying, I am not able to bear you myself alone: The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude. (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!) How can I myself alone bear your cumbrance, and your burden, and your strife?",
+        "riddle": "How can I myself alone bear your cumbrance, and your burden, and your strife?",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mount",
+        "bonus_hint": {
+          "quote": "And Abraham called the name of that place Jehovah-jireh: as it is said to this day, In the mount of the LORD it shall be seen.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה פְּנוּ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם",
+        "riddle": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אַבְרָהָם שֵֽׁם־הַמָּקוֹם הַהוּא יְהוָה יִרְאֶה אֲשֶׁר יֵאָמֵר הַיּוֹם בְּהַר יְהוָה יֵרָאֶֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "The LORD our God spake unto us in Horeb, saying, Ye have dwelt long enough in this mount:",
+          "7": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+          "8": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+          "9": "And I spake unto you at that time, saying, I am not able to bear you myself alone:",
+          "10": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude.",
+          "11": "(The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)",
+          "12": "How can I myself alone bear your cumbrance, and your burden, and your strife?"
+        },
+        "he": {
+          "6": "יְהוָה אֱלֹהֵינוּ דִּבֶּר אֵלֵינוּ בְּחֹרֵב לֵאמֹר רַב־לָכֶם שֶׁבֶת בָּהָר הַזֶּֽה׃",
+          "7": "פְּנוּ ׀ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת׃",
+          "8": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם׃",
+          "9": "וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם׃",
+          "10": "יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב׃",
+          "11": "יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם׃",
+          "12": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 6,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates. Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them. And I spake unto you at that time, saying, I am not able to bear you myself alone: The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude. (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!) How can I myself alone bear your cumbrance, and your burden, and your strife? Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you.",
+        "riddle": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you.",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mount",
+        "bonus_hint": {
+          "quote": "And their dwelling was from Mesha, as thou goest unto Sephar a mount of the east.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 10,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "פְּנוּ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם",
+        "riddle": "הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "בני ישראל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַר",
+        "bonus_hint": {
+          "quote": "וַֽיְהִי מוֹשָׁבָם מִמֵּשָׁא בֹּאֲכָה סְפָרָה הַר הַקֶּֽדֶם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 10,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Turn you, and take your journey, and go to the mount of the Amorites, and unto all the places nigh thereunto, in the plain, in the hills, and in the vale, and in the south, and by the sea side, to the land of the Canaanites, and unto Lebanon, unto the great river, the river Euphrates.",
+          "8": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+          "9": "And I spake unto you at that time, saying, I am not able to bear you myself alone:",
+          "10": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude.",
+          "11": "(The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)",
+          "12": "How can I myself alone bear your cumbrance, and your burden, and your strife?",
+          "13": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you."
+        },
+        "he": {
+          "7": "פְּנוּ ׀ וּסְעוּ לָכֶם וּבֹאוּ הַר הָֽאֱמֹרִי וְאֶל־כָּל־שְׁכֵנָיו בָּעֲרָבָה בָהָר וּבַשְּׁפֵלָה וּבַנֶּגֶב וּבְחוֹף הַיָּם אֶרֶץ הַֽכְּנַעֲנִי וְהַלְּבָנוֹן עַד־הַנָּהָר הַגָּדֹל נְהַר־פְּרָֽת׃",
+          "8": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם׃",
+          "9": "וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם׃",
+          "10": "יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב׃",
+          "11": "יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם׃",
+          "12": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם׃",
+          "13": "הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them. And I spake unto you at that time, saying, I am not able to bear you myself alone: The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude. (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!) How can I myself alone bear your cumbrance, and your burden, and your strife? Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you. And ye answered me, and said, The thing which thou hast spoken is good for us to do.",
+        "riddle": "The thing which thou hast spoken is good for us to do.",
+        "speaker": "Israelites",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And Pharaoh said unto Joseph, See, I have set thee over all the land of Egypt.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 41,
+            "end": 41
+          }
+        }
+      },
+      "he": {
+        "quote": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת",
+        "riddle": "טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת",
+        "speaker": "בני ישראל",
+        "listener": "מֹשֶׁה",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "רְאֵה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר פַּרְעֹה אֶל־יוֹסֵף רְאֵה נָתַתִּי אֹֽתְךָ עַל כָּל־אֶרֶץ מִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 41,
+            "start": 41,
+            "end": 41
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Behold, I have set the land before you: go in and possess the land which the LORD sware unto your fathers, Abraham, Isaac, and Jacob, to give unto them and to their seed after them.",
+          "9": "And I spake unto you at that time, saying, I am not able to bear you myself alone:",
+          "10": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude.",
+          "11": "(The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)",
+          "12": "How can I myself alone bear your cumbrance, and your burden, and your strife?",
+          "13": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you.",
+          "14": "And ye answered me, and said, The thing which thou hast spoken is good for us to do."
+        },
+        "he": {
+          "8": "רְאֵה נָתַתִּי לִפְנֵיכֶם אֶת־הָאָרֶץ בֹּאוּ וּרְשׁוּ אֶת־הָאָרֶץ אֲשֶׁר נִשְׁבַּע יְהוָה לַאֲבֹתֵיכֶם לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לָתֵת לָהֶם וּלְזַרְעָם אַחֲרֵיהֶֽם׃",
+          "9": "וָאֹמַר אֲלֵכֶם בָּעֵת הַהִוא לֵאמֹר לֹא־אוּכַל לְבַדִּי שְׂאֵת אֶתְכֶֽם׃",
+          "10": "יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב׃",
+          "11": "יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם׃",
+          "12": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם׃",
+          "13": "הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם׃",
+          "14": "וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 10,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude. (The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!) How can I myself alone bear your cumbrance, and your burden, and your strife? Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you. And ye answered me, and said, The thing which thou hast spoken is good for us to do. So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes. And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him.",
+        "riddle": "Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him.",
+        "speaker": "Moses",
+        "listener": "judges",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "stars",
+        "bonus_hint": {
+          "quote": "And lest thou lift up thine eyes unto heaven, and when thou seest the sun, and the moon, and the stars, even all the host of heaven, shouldest be driven to worship them, and serve them, which the LORD thy God hath divided unto all nations under the whole heaven.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 4,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת וָאֶקַּח אֶת־רָאשֵׁי שִׁבְטֵיכֶם אֲנָשִׁים חֲכָמִים וִֽידֻעִים וָאֶתֵּן אֹתָם רָאשִׁים עֲלֵיכֶם שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאוֹת וְשָׂרֵי חֲמִשִּׁים וְשָׂרֵי עֲשָׂרֹת וְשֹׁטְרִים לְשִׁבְטֵיכֶֽם וָאֲצַוֶּה אֶת־שֹׁפְטֵיכֶם בָּעֵת הַהִוא לֵאמֹר שָׁמֹעַ בֵּין־אֲחֵיכֶם וּשְׁפַטְתֶּם צֶדֶק בֵּֽין־אִישׁ וּבֵין־אָחִיו וּבֵין גֵּרֽוֹ",
+        "riddle": "שָׁמֹעַ בֵּין־אֲחֵיכֶם וּשְׁפַטְתֶּם צֶדֶק בֵּֽין־אִישׁ וּבֵין־אָחִיו וּבֵין גֵּרֽו",
+        "speaker": "משה",
+        "listener": "שופטים",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וּפֶן־תִּשָּׂא עֵינֶיךָ הַשָּׁמַיְמָה וְֽרָאִיתָ אֶת־הַשֶּׁמֶשׁ וְאֶת־הַיָּרֵחַ וְאֶת־הַכּֽוֹכָבִים כֹּל צְבָא הַשָּׁמַיִם וְנִדַּחְתָּ וְהִשְׁתַּחֲוִיתָ לָהֶם וַעֲבַדְתָּם אֲשֶׁר חָלַק יְהוָה אֱלֹהֶיךָ אֹתָם לְכֹל הָֽעַמִּים תַּחַת כָּל־הַשָּׁמָֽיִם",
+          "source": {
+            "book": "דברים",
+            "chapter": 4,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "The LORD your God hath multiplied you, and, behold, ye are this day as the stars of heaven for multitude.",
+          "11": "(The LORD God of your fathers make you a thousand times so many more as ye are, and bless you, as he hath promised you!)",
+          "12": "How can I myself alone bear your cumbrance, and your burden, and your strife?",
+          "13": "Take you wise men, and understanding, and known among your tribes, and I will make them rulers over you.",
+          "14": "And ye answered me, and said, The thing which thou hast spoken is good for us to do.",
+          "15": "So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes.",
+          "16": "And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him."
+        },
+        "he": {
+          "10": "יְהוָה אֱלֹהֵיכֶם הִרְבָּה אֶתְכֶם וְהִנְּכֶם הַיּוֹם כְּכוֹכְבֵי הַשָּׁמַיִם לָרֹֽב׃",
+          "11": "יְהוָה אֱלֹהֵי אֲבֽוֹתֵכֶם יֹסֵף עֲלֵיכֶם כָּכֶם אֶלֶף פְּעָמִים וִיבָרֵךְ אֶתְכֶם כַּאֲשֶׁר דִּבֶּר לָכֶֽם׃",
+          "12": "אֵיכָה אֶשָּׂא לְבַדִּי טָרְחֲכֶם וּמַֽשַּׂאֲכֶם וְרִֽיבְכֶֽם׃",
+          "13": "הָבוּ לָכֶם אֲנָשִׁים חֲכָמִים וּנְבֹנִים וִידֻעִים לְשִׁבְטֵיכֶם וַאֲשִׂימֵם בְּרָאשֵׁיכֶֽם׃",
+          "14": "וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת׃",
+          "15": "וָאֶקַּח אֶת־רָאשֵׁי שִׁבְטֵיכֶם אֲנָשִׁים חֲכָמִים וִֽידֻעִים וָאֶתֵּן אֹתָם רָאשִׁים עֲלֵיכֶם שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאוֹת וְשָׂרֵי חֲמִשִּׁים וְשָׂרֵי עֲשָׂרֹת וְשֹׁטְרִים לְשִׁבְטֵיכֶֽם׃",
+          "16": "וָאֲצַוֶּה אֶת־שֹׁפְטֵיכֶם בָּעֵת הַהִוא לֵאמֹר שָׁמֹעַ בֵּין־אֲחֵיכֶם וּשְׁפַטְתֶּם צֶדֶק בֵּֽין־אִישׁ וּבֵין־אָחִיו וּבֵין גֵּרֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 10,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 14,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And ye answered me, and said, The thing which thou hast spoken is good for us to do. So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes. And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him. Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God's: and the cause that is too hard for you, bring it unto me, and I will hear it. And I commanded you at that time all the things which ye should do. And when we departed from Horeb, we went through all that great and terrible wilderness, which ye saw by the way of the mountain of the Amorites, as the LORD our God commanded us; and we came to Kadesh-barnea. And I said unto you, Ye are come unto the mountain of the Amorites, which the LORD our God doth give unto us.",
+        "riddle": "Ye are come unto the mountain of the Amorites, which the LORD our God doth give unto us.",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "chief",
+        "bonus_hint": {
+          "quote": "Pharaoh was wroth with his servants, and put me in ward in the captain of the guard's house, both me and the chief baker:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת וָאֶקַּח אֶת־רָאשֵׁי שִׁבְטֵיכֶם אֲנָשִׁים חֲכָמִים וִֽידֻעִים וָאֶתֵּן אֹתָם רָאשִׁים עֲלֵיכֶם שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאוֹת וְשָׂרֵי חֲמִשִּׁים וְשָׂרֵי עֲשָׂרֹת וְשֹׁטְרִים לְשִׁבְטֵיכֶֽם וָאֲצַוֶּה אֶת־שֹׁפְטֵיכֶם בָּעֵת הַהִוא לֵאמֹר שָׁמֹעַ בֵּין־אֲחֵיכֶם וּשְׁפַטְתֶּם צֶדֶק בֵּֽין־אִישׁ וּבֵין־אָחִיו וּבֵין גֵּרֽוֹ לֹֽא־תַכִּירוּ פָנִים בַּמִּשְׁפָּט כַּקָּטֹן כַּגָּדֹל תִּשְׁמָעוּן לֹא תָגוּרוּ מִפְּנֵי־אִישׁ כִּי הַמִּשְׁפָּט לֵאלֹהִים הוּא וְהַדָּבָר אֲשֶׁר יִקְשֶׁה מִכֶּם תַּקְרִבוּן אֵלַי וּשְׁמַעְתִּֽיו וָאֲצַוֶּה אֶתְכֶם בָּעֵת הַהִוא אֵת כָּל־הַדְּבָרִים אֲשֶׁר תַּעֲשֽׂוּן וַנִּסַּע מֵחֹרֵב וַנֵּלֶךְ אֵת כָּל־הַמִּדְבָּר הַגָּדוֹל וְהַנּוֹרָא הַהוּא אֲשֶׁר רְאִיתֶם דֶּרֶךְ הַר הָֽאֱמֹרִי כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֹתָנוּ וַנָּבֹא עַד קָדֵשׁ בַּרְנֵֽעַ וָאֹמַר אֲלֵכֶם בָּאתֶם עַד־הַר הָאֱמֹרִי אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ",
+        "riddle": "וָאֹמַר אֲלֵכֶם בָּאתֶם עַד־הַר הָאֱמֹרִי אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ",
+        "speaker": "משה",
+        "listener": "בני ישראל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֹתִי",
+        "bonus_hint": {
+          "quote": "פַּרְעֹה קָצַף עַל־עֲבָדָיו וַיִּתֵּן אֹתִי בְּמִשְׁמַר בֵּית שַׂר הַטַּבָּחִים אֹתִי וְאֵת שַׂר הָאֹפִֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 41,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And ye answered me, and said, The thing which thou hast spoken is good for us to do.",
+          "15": "So I took the chief of your tribes, wise men, and known, and made them heads over you, captains over thousands, and captains over hundreds, and captains over fifties, and captains over tens, and officers among your tribes.",
+          "16": "And I charged your judges at that time, saying, Hear the causes between your brethren, and judge righteously between every man and his brother, and the stranger that is with him.",
+          "17": "Ye shall not respect persons in judgment; but ye shall hear the small as well as the great; ye shall not be afraid of the face of man; for the judgment is God's: and the cause that is too hard for you, bring it unto me, and I will hear it.",
+          "18": "And I commanded you at that time all the things which ye should do.",
+          "19": "And when we departed from Horeb, we went through all that great and terrible wilderness, which ye saw by the way of the mountain of the Amorites, as the LORD our God commanded us; and we came to Kadesh-barnea.",
+          "20": "And I said unto you, Ye are come unto the mountain of the Amorites, which the LORD our God doth give unto us."
+        },
+        "he": {
+          "14": "וַֽתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טֽוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשֽׂוֹת׃",
+          "15": "וָאֶקַּח אֶת־רָאשֵׁי שִׁבְטֵיכֶם אֲנָשִׁים חֲכָמִים וִֽידֻעִים וָאֶתֵּן אֹתָם רָאשִׁים עֲלֵיכֶם שָׂרֵי אֲלָפִים וְשָׂרֵי מֵאוֹת וְשָׂרֵי חֲמִשִּׁים וְשָׂרֵי עֲשָׂרֹת וְשֹׁטְרִים לְשִׁבְטֵיכֶֽם׃",
+          "16": "וָאֲצַוֶּה אֶת־שֹׁפְטֵיכֶם בָּעֵת הַהִוא לֵאמֹר שָׁמֹעַ בֵּין־אֲחֵיכֶם וּשְׁפַטְתֶּם צֶדֶק בֵּֽין־אִישׁ וּבֵין־אָחִיו וּבֵין גֵּרֽוֹ׃",
+          "17": "לֹֽא־תַכִּירוּ פָנִים בַּמִּשְׁפָּט כַּקָּטֹן כַּגָּדֹל תִּשְׁמָעוּן לֹא תָגוּרוּ מִפְּנֵי־אִישׁ כִּי הַמִּשְׁפָּט לֵאלֹהִים הוּא וְהַדָּבָר אֲשֶׁר יִקְשֶׁה מִכֶּם תַּקְרִבוּן אֵלַי וּשְׁמַעְתִּֽיו׃",
+          "18": "וָאֲצַוֶּה אֶתְכֶם בָּעֵת הַהִוא אֵת כָּל־הַדְּבָרִים אֲשֶׁר תַּעֲשֽׂוּן׃",
+          "19": "וַנִּסַּע מֵחֹרֵב וַנֵּלֶךְ אֵת כָּל־הַמִּדְבָּר הַגָּדוֹל וְהַנּוֹרָא הַהוּא אֲשֶׁר רְאִיתֶם דֶּרֶךְ הַר הָֽאֱמֹרִי כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵינוּ אֹתָנוּ וַנָּבֹא עַד קָדֵשׁ בַּרְנֵֽעַ׃",
+          "20": "וָאֹמַר אֲלֵכֶם בָּאתֶם עַד־הַר הָאֱמֹרִי אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 14,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-27-27",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 21,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Behold, the LORD thy God hath set the land before thee: go up and possess it, as the LORD God of thy fathers hath said unto thee; fear not, neither be discouraged. And ye came near unto me every one of you, and said, We will send men before us, and they shall search us out the land, and bring us word again by what way we must go up, and into what cities we shall come. And the saying pleased me well: and I took twelve men of you, one of a tribe: And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out. And they took of the fruit of the land in their hands, and brought it down unto us, and brought us word again, and said, It is a good land which the LORD our God doth give us. Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God: And ye murmured in your tents, and said, Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us.",
+        "riddle": "Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us.",
+        "speaker": "Israelites",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "fear",
+        "bonus_hint": {
+          "quote": "And the LORD said unto Joshua, Fear not, neither be thou dismayed: take all the people of war with thee, and arise, go up to Ai: see, I have given into thy hand the king of Ai, and his people, and his city, and his land:",
+          "source": {
+            "book": "Joshua",
+            "chapter": 8,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "רְאֵה נָתַן יְהוָה אֱלֹהֶיךָ לְפָנֶיךָ אֶת־הָאָרֶץ עֲלֵה רֵשׁ כַּאֲשֶׁר דִּבֶּר יְהוָה אֱלֹהֵי אֲבֹתֶיךָ לָךְ אַל־תִּירָא וְאַל־תֵּחָֽת וַתִּקְרְבוּן אֵלַי כֻּלְּכֶם וַתֹּאמְרוּ נִשְׁלְחָה אֲנָשִׁים לְפָנֵינוּ וְיַחְפְּרוּ־לָנוּ אֶת־הָאָרֶץ וְיָשִׁבוּ אֹתָנוּ דָּבָר אֶת־הַדֶּרֶךְ אֲשֶׁר נַעֲלֶה־בָּהּ וְאֵת הֶֽעָרִים אֲשֶׁר נָבֹא אֲלֵיהֶֽן וַיִּיטַב בְּעֵינַי הַדָּבָר וָאֶקַּח מִכֶּם שְׁנֵים עָשָׂר אֲנָשִׁים אִישׁ אֶחָד לַשָּֽׁבֶט וַיִּפְנוּ וַיַּעֲלוּ הָהָרָה וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַֽיְרַגְּלוּ אֹתָֽהּ וַיִּקְחוּ בְיָדָם מִפְּרִי הָאָרֶץ וַיּוֹרִדוּ אֵלֵינוּ וַיָּשִׁבוּ אֹתָנוּ דָבָר וַיֹּאמְרוּ טוֹבָה הָאָרֶץ אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ וְלֹא אֲבִיתֶם לַעֲלֹת וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶֽם וַתֵּרָגְנוּ בְאָהֳלֵיכֶם וַתֹּאמְרוּ בְּשִׂנְאַת יְהוָה אֹתָנוּ הוֹצִיאָנוּ מֵאֶרֶץ מִצְרָיִם לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַשְׁמִידֵֽנוּ",
+        "riddle": "וַתֵּרָגְנוּ בְאָהֳלֵיכֶם וַתֹּאמְרוּ בְּשִׂנְאַת יְהוָה אֹתָנוּ הוֹצִיאָנוּ מֵאֶרֶץ מִצְרָיִם לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַשְׁמִידֵֽנוּ",
+        "speaker": "העם",
+        "listener": "העם",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "רְאֵה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ אַל־תִּירָא וְאַל־תֵּחָת קַח עִמְּךָ אֵת כָּל־עַם הַמִּלְחָמָה וְקוּם עֲלֵה הָעָי רְאֵה נָתַתִּי בְיָדְךָ אֶת־מֶלֶךְ הָעַי וְאֶת־עַמּוֹ וְאֶת־עִירוֹ וְאֶת־אַרְצֽוֹ",
+          "source": {
+            "book": "יהושע",
+            "chapter": 8,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Behold, the LORD thy God hath set the land before thee: go up and possess it, as the LORD God of thy fathers hath said unto thee; fear not, neither be discouraged.",
+          "22": "And ye came near unto me every one of you, and said, We will send men before us, and they shall search us out the land, and bring us word again by what way we must go up, and into what cities we shall come.",
+          "23": "And the saying pleased me well: and I took twelve men of you, one of a tribe:",
+          "24": "And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out.",
+          "25": "And they took of the fruit of the land in their hands, and brought it down unto us, and brought us word again, and said, It is a good land which the LORD our God doth give us.",
+          "26": "Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God:",
+          "27": "And ye murmured in your tents, and said, Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us."
+        },
+        "he": {
+          "21": "רְאֵה נָתַן יְהוָה אֱלֹהֶיךָ לְפָנֶיךָ אֶת־הָאָרֶץ עֲלֵה רֵשׁ כַּאֲשֶׁר דִּבֶּר יְהוָה אֱלֹהֵי אֲבֹתֶיךָ לָךְ אַל־תִּירָא וְאַל־תֵּחָֽת׃",
+          "22": "וַתִּקְרְבוּן אֵלַי כֻּלְּכֶם וַתֹּאמְרוּ נִשְׁלְחָה אֲנָשִׁים לְפָנֵינוּ וְיַחְפְּרוּ־לָנוּ אֶת־הָאָרֶץ וְיָשִׁבוּ אֹתָנוּ דָּבָר אֶת־הַדֶּרֶךְ אֲשֶׁר נַעֲלֶה־בָּהּ וְאֵת הֶֽעָרִים אֲשֶׁר נָבֹא אֲלֵיהֶֽן׃",
+          "23": "וַיִּיטַב בְּעֵינַי הַדָּבָר וָאֶקַּח מִכֶּם שְׁנֵים עָשָׂר אֲנָשִׁים אִישׁ אֶחָד לַשָּֽׁבֶט׃",
+          "24": "וַיִּפְנוּ וַיַּעֲלוּ הָהָרָה וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַֽיְרַגְּלוּ אֹתָֽהּ׃",
+          "25": "וַיִּקְחוּ בְיָדָם מִפְּרִי הָאָרֶץ וַיּוֹרִדוּ אֵלֵינוּ וַיָּשִׁבוּ אֹתָנוּ דָבָר וַיֹּאמְרוּ טוֹבָה הָאָרֶץ אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ׃",
+          "26": "וְלֹא אֲבִיתֶם לַעֲלֹת וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶֽם׃",
+          "27": "וַתֵּרָגְנוּ בְאָהֳלֵיכֶם וַתֹּאמְרוּ בְּשִׂנְאַת יְהוָה אֹתָנוּ הוֹצִיאָנוּ מֵאֶרֶץ מִצְרָיִם לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַשְׁמִידֵֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 21,
+        "end": 27
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-29-29",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 23,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And the saying pleased me well: and I took twelve men of you, one of a tribe: And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out. And they took of the fruit of the land in their hands, and brought it down unto us, and brought us word again, and said, It is a good land which the LORD our God doth give us. Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God: And ye murmured in your tents, and said, Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us. Whither shall we go up? our brethren have discouraged our heart, saying, The people is greater and taller than we; the cities are great and walled up to heaven; and moreover we have seen the sons of the Anakims there. Then I said unto you, Dread not, neither be afraid of them.",
+        "riddle": "Dread not, neither be afraid of them.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mountain",
+        "bonus_hint": {
+          "quote": "Thus saith the LORD of hosts, the God of Israel; As yet they shall use this speech in the land of Judah and in the cities thereof, when I shall bring again their captivity; The LORD bless thee, O habitation of justice, and mountain of holiness.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 31,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּיטַב בְּעֵינַי הַדָּבָר וָאֶקַּח מִכֶּם שְׁנֵים עָשָׂר אֲנָשִׁים אִישׁ אֶחָד לַשָּֽׁבֶט וַיִּפְנוּ וַיַּעֲלוּ הָהָרָה וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַֽיְרַגְּלוּ אֹתָֽהּ וַיִּקְחוּ בְיָדָם מִפְּרִי הָאָרֶץ וַיּוֹרִדוּ אֵלֵינוּ וַיָּשִׁבוּ אֹתָנוּ דָבָר וַיֹּאמְרוּ טוֹבָה הָאָרֶץ אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ וְלֹא אֲבִיתֶם לַעֲלֹת וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶֽם וַתֵּרָגְנוּ בְאָהֳלֵיכֶם וַתֹּאמְרוּ בְּשִׂנְאַת יְהוָה אֹתָנוּ הוֹצִיאָנוּ מֵאֶרֶץ מִצְרָיִם לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַשְׁמִידֵֽנוּ אָנָה אֲנַחְנוּ עֹלִים אַחֵינוּ הֵמַסּוּ אֶת־לְבָבֵנוּ לֵאמֹר עַם גָּדוֹל וָרָם מִמֶּנּוּ עָרִים גְּדֹלֹת וּבְצוּרֹת בַּשָּׁמָיִם וְגַם־בְּנֵי עֲנָקִים רָאִינוּ שָֽׁם וָאֹמַר אֲלֵכֶם לֹא־תַֽעַרְצוּן וְֽלֹא־תִֽירְאוּן מֵהֶֽם",
+        "riddle": "לֹא־תַֽעַרְצוּן וְֽלֹא־תִֽירְאוּן מֵהֶֽם",
+        "speaker": "משה",
+        "listener": "העם",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַדָּבָר",
+        "bonus_hint": {
+          "quote": "כֹּֽה־אָמַר יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל עוֹד יֹאמְרוּ אֶת־הַדָּבָר הַזֶּה בְּאֶרֶץ יְהוּדָה וּבְעָרָיו בְּשׁוּבִי אֶת־שְׁבוּתָם יְבָרֶכְךָ יְהוָה נְוֵה־צֶדֶק הַר הַקֹּֽדֶשׁ",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 31,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And the saying pleased me well: and I took twelve men of you, one of a tribe:",
+          "24": "And they turned and went up into the mountain, and came unto the valley of Eshcol, and searched it out.",
+          "25": "And they took of the fruit of the land in their hands, and brought it down unto us, and brought us word again, and said, It is a good land which the LORD our God doth give us.",
+          "26": "Notwithstanding ye would not go up, but rebelled against the commandment of the LORD your God:",
+          "27": "And ye murmured in your tents, and said, Because the LORD hated us, he hath brought us forth out of the land of Egypt, to deliver us into the hand of the Amorites, to destroy us.",
+          "28": "Whither shall we go up? our brethren have discouraged our heart, saying, The people is greater and taller than we; the cities are great and walled up to heaven; and moreover we have seen the sons of the Anakims there.",
+          "29": "Then I said unto you, Dread not, neither be afraid of them."
+        },
+        "he": {
+          "23": "וַיִּיטַב בְּעֵינַי הַדָּבָר וָאֶקַּח מִכֶּם שְׁנֵים עָשָׂר אֲנָשִׁים אִישׁ אֶחָד לַשָּֽׁבֶט׃",
+          "24": "וַיִּפְנוּ וַיַּעֲלוּ הָהָרָה וַיָּבֹאוּ עַד־נַחַל אֶשְׁכֹּל וַֽיְרַגְּלוּ אֹתָֽהּ׃",
+          "25": "וַיִּקְחוּ בְיָדָם מִפְּרִי הָאָרֶץ וַיּוֹרִדוּ אֵלֵינוּ וַיָּשִׁבוּ אֹתָנוּ דָבָר וַיֹּאמְרוּ טוֹבָה הָאָרֶץ אֲשֶׁר־יְהוָה אֱלֹהֵינוּ נֹתֵן לָֽנוּ׃",
+          "26": "וְלֹא אֲבִיתֶם לַעֲלֹת וַתַּמְרוּ אֶת־פִּי יְהוָה אֱלֹהֵיכֶֽם׃",
+          "27": "וַתֵּרָגְנוּ בְאָהֳלֵיכֶם וַתֹּאמְרוּ בְּשִׂנְאַת יְהוָה אֹתָנוּ הוֹצִיאָנוּ מֵאֶרֶץ מִצְרָיִם לָתֵת אֹתָנוּ בְּיַד הָאֱמֹרִי לְהַשְׁמִידֵֽנוּ׃",
+          "28": "אָנָה ׀ אֲנַחְנוּ עֹלִים אַחֵינוּ הֵמַסּוּ אֶת־לְבָבֵנוּ לֵאמֹר עַם גָּדוֹל וָרָם מִמֶּנּוּ עָרִים גְּדֹלֹת וּבְצוּרֹת בַּשָּׁמָיִם וְגַם־בְּנֵי עֲנָקִים רָאִינוּ שָֽׁם׃",
+          "29": "וָאֹמַר אֲלֵכֶם לֹא־תַֽעַרְצוּן וְֽלֹא־תִֽירְאוּן מֵהֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 23,
+        "end": 29
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-28-28-1",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "Whither shall we go up? our brethren have discouraged our heart, saying, The people is greater and taller than we; the cities are great and walled up to heaven; and moreover we have seen the sons of the Anakims there.",
+        "riddle": "Whither shall we go up?",
+        "speaker": "spies",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "cities",
+        "bonus_hint": {
+          "quote": "And David said unto all the congregation of Israel, If it seem good unto you, and that it be of the LORD our God, let us send abroad unto our brethren every where, that are left in all the land of Israel, and with them also to the priests and Levites which are in their cities and suburbs, that they may gather themselves unto us:",
+          "source": {
+            "book": "1 Chronicles",
+            "chapter": 13,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "אָנָה אֲנַחְנוּ עֹלִים אַחֵינוּ הֵמַסּוּ אֶת־לְבָבֵנוּ לֵאמֹר עַם גָּדוֹל וָרָם מִמֶּנּוּ עָרִים גְּדֹלֹת וּבְצוּרֹת בַּשָּׁמָיִם וְגַם־בְּנֵי עֲנָקִים רָאִינוּ שָֽׁם",
+        "riddle": "אָנָה אֲנַחְנוּ עֹלִים",
+        "speaker": "המרגלים",
+        "listener": "בְּנֵי ישראל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אַחֵינוּ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר דָּוִיד לְכֹל קְהַל יִשְׂרָאֵל אִם־עֲלֵיכֶם טוֹב וּמִן־יְהוָה אֱלֹהֵינוּ נִפְרְצָה נִשְׁלְחָה עַל־אַחֵינוּ הַנִּשְׁאָרִים בְּכֹל אַרְצוֹת יִשְׂרָאֵל וְעִמָּהֶם הַכֹּהֲנִים וְהַלְוִיִּם בְּעָרֵי מִגְרְשֵׁיהֶם וְיִקָּבְצוּ אֵלֵֽינוּ",
+          "source": {
+            "book": "דברי הימים א",
+            "chapter": 13,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "Whither shall we go up? our brethren have discouraged our heart, saying, The people is greater and taller than we; the cities are great and walled up to heaven; and moreover we have seen the sons of the Anakims there."
+        },
+        "he": {
+          "28": "אָנָה ׀ אֲנַחְנוּ עֹלִים אַחֵינוּ הֵמַסּוּ אֶת־לְבָבֵנוּ לֵאמֹר עַם גָּדוֹל וָרָם מִמֶּנּוּ עָרִים גְּדֹלֹת וּבְצוּרֹת בַּשָּׁמָיִם וְגַם־בְּנֵי עֲנָקִים רָאִינוּ שָֽׁם׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 28,
+        "end": 28
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-35-35",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 34,
+        "quote_verse_end": 39,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "And the LORD heard the voice of your words, and was wroth, and sware, saying, Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers, Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD. Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither. But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it. Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it.",
+        "riddle": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers",
+        "speaker": "LORD",
+        "listener": "Israelites",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "voice",
+        "bonus_hint": {
+          "quote": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 16,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם וַיִּקְצֹף וַיִּשָּׁבַע לֵאמֹֽר אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ",
+        "riddle": "אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "בני יִשְׂרָאֵֽל",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁמַע",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And the LORD heard the voice of your words, and was wroth, and sware, saying,",
+          "35": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers,",
+          "36": "Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD.",
+          "37": "Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither.",
+          "38": "But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it.",
+          "39": "Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it."
+        },
+        "he": {
+          "34": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם וַיִּקְצֹף וַיִּשָּׁבַע לֵאמֹֽר׃",
+          "35": "אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם׃",
+          "36": "זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה׃",
+          "37": "גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם׃",
+          "38": "יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל׃",
+          "39": "וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 34,
+        "end": 39
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-37-37",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 34,
+        "quote_verse_end": 40,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 37
+      },
+      "en": {
+        "quote": "And the LORD heard the voice of your words, and was wroth, and sware, saying, Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers, Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD. Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither. But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it. Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it. But as for you, turn you, and take your journey into the wilderness by the way of the Red sea.",
+        "riddle": "Thou also shalt not go in thither",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "voice",
+        "bonus_hint": {
+          "quote": "And Sarai said unto Abram, Behold now, the LORD hath restrained me from bearing: I pray thee, go in unto my maid; it may be that I may obtain children by her. And Abram hearkened to the voice of Sarai.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 16,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם וַיִּקְצֹף וַיִּשָּׁבַע לֵאמֹֽר אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ וְאַתֶּם פְּנוּ לָכֶם וּסְעוּ הַמִּדְבָּרָה דֶּרֶךְ יַם־סֽוּף",
+        "riddle": "גַּם־אַתָּה לֹא־תָבֹא שָֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁמַע",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר שָׂרַי אֶל־אַבְרָם הִנֵּה־נָא עֲצָרַנִי יְהוָה מִלֶּדֶת בֹּא־נָא אֶל־שִׁפְחָתִי אוּלַי אִבָּנֶה מִמֵּנָּה וַיִּשְׁמַע אַבְרָם לְקוֹל שָׂרָֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 16,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And the LORD heard the voice of your words, and was wroth, and sware, saying,",
+          "35": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers,",
+          "36": "Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD.",
+          "37": "Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither.",
+          "38": "But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it.",
+          "39": "Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it.",
+          "40": "But as for you, turn you, and take your journey into the wilderness by the way of the Red sea."
+        },
+        "he": {
+          "34": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם וַיִּקְצֹף וַיִּשָּׁבַע לֵאמֹֽר׃",
+          "35": "אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם׃",
+          "36": "זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה׃",
+          "37": "גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם׃",
+          "38": "יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל׃",
+          "39": "וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ׃",
+          "40": "וְאַתֶּם פְּנוּ לָכֶם וּסְעוּ הַמִּדְבָּרָה דֶּרֶךְ יַם־סֽוּף׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 34,
+        "end": 40
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "deuteronomy-01-41-41",
+      "source": {
+        "method": "llm",
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 1,
+        "quote_verse_start": 35,
+        "quote_verse_end": 41,
+        "speaker_mention_verse": 41,
+        "listener_mention_verse": 39
+      },
+      "en": {
+        "quote": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers, Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD. Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither. But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it. Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it. But as for you, turn you, and take your journey into the wilderness by the way of the Red sea. Then ye answered and said unto me, We have sinned against the LORD, we will go up and fight, according to all that the LORD our God commanded us. And when ye had girded on every man his weapons of war, ye were ready to go up into the hill.",
+        "riddle": "We have sinned against the LORD, we will go up and fight",
+        "speaker": "Israelites",
+        "listener": "Moses",
+        "book": "Deuteronomy",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "evil",
+        "bonus_hint": {
+          "quote": "I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 14,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "he": {
+        "quote": "אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ וְאַתֶּם פְּנוּ לָכֶם וּסְעוּ הַמִּדְבָּרָה דֶּרֶךְ יַם־סֽוּף וַֽתַּעֲנוּ וַתֹּאמְרוּ אֵלַי חָטָאנוּ לַֽיהוָה אֲנַחְנוּ נַעֲלֶה וְנִלְחַמְנוּ כְּכֹל אֲשֶׁר־צִוָּנוּ יְהוָה אֱלֹהֵינוּ וַֽתַּחְגְּרוּ אִישׁ אֶת־כְּלֵי מִלְחַמְתּוֹ וַתָּהִינוּ לַעֲלֹת הָהָֽרָה",
+        "riddle": "חָטָאנוּ לַֽיהוָה אֲנַחְנוּ נַעֲלֶה וְנִלְחַמְנוּ כְּכֹל אֲשֶׁר־צִוָּנוּ יְהוָה אֱלֹהֵינוּ",
+        "speaker": "בני יִשְׂרָאֵֽל",
+        "listener": "משה",
+        "book": "דברים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא זֹאת אֶֽעֱשֶׂה לְכָל־הָעֵדָה הָֽרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻֽתוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 14,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "Surely there shall not one of these men of this evil generation see that good land, which I sware to give unto your fathers,",
+          "36": "Save Caleb the son of Jephunneh; he shall see it, and to him will I give the land that he hath trodden upon, and to his children, because he hath wholly followed the LORD.",
+          "37": "Also the LORD was angry with me for your sakes, saying, Thou also shalt not go in thither.",
+          "38": "But Joshua the son of Nun, which standeth before thee, he shall go in thither: encourage him: for he shall cause Israel to inherit it.",
+          "39": "Moreover your little ones, which ye said should be a prey, and your children, which in that day had no knowledge between good and evil, they shall go in thither, and unto them will I give it, and they shall possess it.",
+          "40": "But as for you, turn you, and take your journey into the wilderness by the way of the Red sea.",
+          "41": "Then ye answered and said unto me, We have sinned against the LORD, we will go up and fight, according to all that the LORD our God commanded us. And when ye had girded on every man his weapons of war, ye were ready to go up into the hill."
+        },
+        "he": {
+          "35": "אִם־יִרְאֶה אִישׁ בָּאֲנָשִׁים הָאֵלֶּה הַדּוֹר הָרָע הַזֶּה אֵת הָאָרֶץ הַטּוֹבָה אֲשֶׁר נִשְׁבַּעְתִּי לָתֵת לַאֲבֹתֵיכֶֽם׃",
+          "36": "זֽוּלָתִי כָּלֵב בֶּן־יְפֻנֶּה הוּא יִרְאֶנָּה וְלֽוֹ־אֶתֵּן אֶת־הָאָרֶץ אֲשֶׁר דָּֽרַךְ־בָּהּ וּלְבָנָיו יַעַן אֲשֶׁר מִלֵּא אַחֲרֵי יְהוָֽה׃",
+          "37": "גַּם־בִּי הִתְאַנַּף יְהוָה בִּגְלַלְכֶם לֵאמֹר גַּם־אַתָּה לֹא־תָבֹא שָֽׁם׃",
+          "38": "יְהוֹשֻׁעַ בִּן נוּן הָעֹמֵד לְפָנֶיךָ הוּא יָבֹא שָׁמָּה אֹתוֹ חַזֵּק כִּי־הוּא יַנְחִלֶנָּה אֶת־יִשְׂרָאֵֽל׃",
+          "39": "וְטַפְּכֶם אֲשֶׁר אֲמַרְתֶּם לָבַז יִהְיֶה וּבְנֵיכֶם אֲשֶׁר לֹא־יָדְעוּ הַיּוֹם טוֹב וָרָע הֵמָּה יָבֹאוּ שָׁמָּה וְלָהֶם אֶתְּנֶנָּה וְהֵם יִירָשֽׁוּהָּ׃",
+          "40": "וְאַתֶּם פְּנוּ לָכֶם וּסְעוּ הַמִּדְבָּרָה דֶּרֶךְ יַם־סֽוּף׃",
+          "41": "וַֽתַּעֲנוּ ׀ וַתֹּאמְרוּ אֵלַי חָטָאנוּ לַֽיהוָה אֲנַחְנוּ נַעֲלֶה וְנִלְחַמְנוּ כְּכֹל אֲשֶׁר־צִוָּנוּ יְהוָה אֱלֹהֵינוּ וַֽתַּחְגְּרוּ אִישׁ אֶת־כְּלֵי מִלְחַמְתּוֹ וַתָּהִינוּ לַעֲלֹת הָהָֽרָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 35,
+        "end": 41
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

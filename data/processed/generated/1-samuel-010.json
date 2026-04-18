@@ -6,7 +6,7 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-samuel-10-02-02",
+      "id": "1-samuel-10-02-02-2",
       "source": {
         "method": "llm",
         "book_code": "1SA",
@@ -14,7 +14,9 @@
         "book_he": "שמואל א",
         "chapter": 10,
         "quote_verse_start": 1,
-        "quote_verse_end": 2
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "Then Samuel took a vial of oil, and poured it upon his head, and kissed him, and said, Is it not because the LORD hath anointed thee to be captain over his inheritance? When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
@@ -28,33 +30,33 @@
         },
         "bonus": "oil",
         "bonus_hint": {
-          "quote": "And spice, and oil for the light, and for the anointing oil, and for the sweet incense.",
+          "quote": "And Jacob rose up early in the morning, and took the stone that he had put for his pillows, and set it up for a pillar, and poured oil upon the top of it.",
           "source": {
-            "book": "Exodus",
-            "chapter": 35,
-            "start": 28,
-            "end": 28
+            "book": "Genesis",
+            "chapter": 28,
+            "start": 18,
+            "end": 18
           }
         }
       },
       "he": {
         "quote": "וַיִּקַּח שְׁמוּאֵל אֶת־פַּךְ הַשֶּׁמֶן וַיִּצֹק עַל־רֹאשׁוֹ וַיִּשָּׁקֵהוּ וַיֹּאמֶר הֲלוֹא כִּֽי־מְשָׁחֲךָ יְהוָה עַל־נַחֲלָתוֹ לְנָגִֽיד בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
         "riddle": "מָה אֶעֱשֶׂה לִבְנִֽי",
-        "speaker": "אבי שאול",
+        "speaker": "אָבִיךָ",
         "listener": "שאול",
         "book": "שמואל א",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַשֶּׁמֶן",
+        "bonus": "וַיִּקַּח",
         "bonus_hint": {
-          "quote": "וְאֶת־הַבֹּשֶׂם וְאֶת־הַשָּׁמֶן לְמָאוֹר וּלְשֶׁמֶן הַמִּשְׁחָה וְלִקְטֹרֶת הַסַּמִּֽים",
+          "quote": "וַיַּשְׁכֵּם יַעֲקֹב בַּבֹּקֶר וַיִּקַּח אֶת־הָאֶבֶן אֲשֶׁר־שָׂם מְרַֽאֲשֹׁתָיו וַיָּשֶׂם אֹתָהּ מַצֵּבָה וַיִּצֹק שֶׁמֶן עַל־רֹאשָֽׁהּ",
           "source": {
-            "book": "שמות",
-            "chapter": 35,
-            "start": 28,
-            "end": 28
+            "book": "בראשית",
+            "chapter": 28,
+            "start": 18,
+            "end": 18
           }
         }
       },
@@ -72,6 +74,481 @@
         "chapter": 10,
         "start": 1,
         "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-02-02-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
+        "riddle": "The asses which thou wentest to seek are found",
+        "speaker": "two men",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "And they said, Thy servants are twelve brethren, the sons of one man in the land of Canaan; and, behold, the youngest is this day with our father, and one is not.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 42,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי",
+        "riddle": "נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּש",
+        "speaker": "שְׁנֵי אֲנָשִׁים",
+        "listener": "שאול",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַיּוֹם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמְרוּ שְׁנֵים עָשָׂר עֲבָדֶיךָ אַחִים אֲנַחְנוּ בְּנֵי אִישׁ־אֶחָד בְּאֶרֶץ כְּנָעַן וְהִנֵּה הַקָּטֹן אֶת־אָבִינוּ הַיּוֹם וְהָאֶחָד אֵינֶֽנּוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 42,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "When thou art departed from me to day, then thou shalt find two men by Rachel's sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?"
+        },
+        "he": {
+          "2": "בְּלֶכְתְּךָ הַיּוֹם מֵעִמָּדִי וּמָצָאתָ שְׁנֵי אֲנָשִׁים עִם־קְבֻרַת רָחֵל בִּגְבוּל בִּנְיָמִן בְּצֶלְצַח וְאָמְרוּ אֵלֶיךָ נִמְצְאוּ הָאֲתֹנוֹת אֲשֶׁר הָלַכְתָּ לְבַקֵּשׁ וְהִנֵּה נָטַשׁ אָבִיךָ אֶת־דִּבְרֵי הָאֲתֹנוֹת וְדָאַג לָכֶם לֵאמֹר מָה אֶעֱשֶׂה לִבְנִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 2,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-12-12",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 6,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And the Spirit of the LORD will come upon thee, and thou shalt prophesy with them, and shalt be turned into another man. And let it be, when these signs are come unto thee, that thou do as occasion serve thee; for God is with thee. And thou shalt go down before me to Gilgal; and, behold, I will come down unto thee, to offer burnt offerings, and to sacrifice sacrifices of peace offerings: seven days shalt thou tarry, till I come to thee, and shew thee what thou shalt do. And it was so, that when he had turned his back to go from Samuel, God gave him another heart: and all those signs came to pass that day. And when they came thither to the hill, behold, a company of prophets met him; and the Spirit of God came upon him, and he prophesied among them. And it came to pass, when all that knew him beforetime saw that, behold, he prophesied among the prophets, then the people said one to another, What is this that is come unto the son of Kish? Is Saul also among the prophets? And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?",
+        "riddle": "But who is their father?",
+        "speaker": "man from Saul's place",
+        "listener": "people",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "prophesy",
+        "bonus_hint": {
+          "quote": "If a man walking in the spirit and falsehood do lie, saying, I will prophesy unto thee of wine and of strong drink; he shall even be the prophet of this people.",
+          "source": {
+            "book": "Micah",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וְצָלְחָה עָלֶיךָ רוּחַ יְהוָה וְהִתְנַבִּיתָ עִמָּם וְנֶהְפַּכְתָּ לְאִישׁ אַחֵֽר וְהָיָה כִּי תָבֹאנָה הָאֹתוֹת הָאֵלֶּה לָךְ עֲשֵׂה לְךָ אֲשֶׁר תִּמְצָא יָדֶךָ כִּי הָאֱלֹהִים עִמָּֽךְ וְיָרַדְתָּ לְפָנַי הַגִּלְגָּל וְהִנֵּה אָֽנֹכִי יֹרֵד אֵלֶיךָ לְהַעֲלוֹת עֹלוֹת לִזְבֹּחַ זִבְחֵי שְׁלָמִים שִׁבְעַת יָמִים תּוֹחֵל עַד־בּוֹאִי אֵלֶיךָ וְהוֹדַעְתִּי לְךָ אֵת אֲשֶׁר תַּעֲשֶֽׂה וְהָיָה כְּהַפְנֹתוֹ שִׁכְמוֹ לָלֶכֶת מֵעִם שְׁמוּאֵל וַיַּהֲפָךְ־לוֹ אֱלֹהִים לֵב אַחֵר וַיָּבֹאוּ כָּל־הָאֹתוֹת הָאֵלֶּה בַּיּוֹם הַהֽוּא וַיָּבֹאוּ שָׁם הַגִּבְעָתָה וְהִנֵּה חֶֽבֶל־נְבִאִים לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ אֱלֹהִים וַיִּתְנַבֵּא בְּתוֹכָֽם וַיְהִי כָּל־יֽוֹדְעוֹ מֵאִתְּמוֹל שִׁלְשׁוֹם וַיִּרְאוּ וְהִנֵּה עִם־נְבִאִים נִבָּא וַיֹּאמֶר הָעָם אִישׁ אֶל־רֵעֵהוּ מַה־זֶּה הָיָה לְבֶן־קִישׁ הֲגַם שָׁאוּל בַּנְּבִיאִֽים וַיַּעַן אִישׁ מִשָּׁם וַיֹּאמֶר וּמִי אֲבִיהֶם עַל־כֵּן הָיְתָה לְמָשָׁל הֲגַם שָׁאוּל בַּנְּבִאִֽים",
+        "riddle": "וּמִי אֲבִיהֶם",
+        "speaker": "אִישׁ מִשָּׁם",
+        "listener": "הָעָם",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "רוּחַ",
+        "bonus_hint": {
+          "quote": "לוּ־אִישׁ הֹלֵךְ רוּחַ וָשֶׁקֶר כִּזֵּב אַטִּף לְךָ לַיַּיִן וְלַשֵּׁכָר וְהָיָה מַטִּיף הָעָם הַזֶּֽה",
+          "source": {
+            "book": "מיכה",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the Spirit of the LORD will come upon thee, and thou shalt prophesy with them, and shalt be turned into another man.",
+          "7": "And let it be, when these signs are come unto thee, that thou do as occasion serve thee; for God is with thee.",
+          "8": "And thou shalt go down before me to Gilgal; and, behold, I will come down unto thee, to offer burnt offerings, and to sacrifice sacrifices of peace offerings: seven days shalt thou tarry, till I come to thee, and shew thee what thou shalt do.",
+          "9": "And it was so, that when he had turned his back to go from Samuel, God gave him another heart: and all those signs came to pass that day.",
+          "10": "And when they came thither to the hill, behold, a company of prophets met him; and the Spirit of God came upon him, and he prophesied among them.",
+          "11": "And it came to pass, when all that knew him beforetime saw that, behold, he prophesied among the prophets, then the people said one to another, What is this that is come unto the son of Kish? Is Saul also among the prophets?",
+          "12": "And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?"
+        },
+        "he": {
+          "6": "וְצָלְחָה עָלֶיךָ רוּחַ יְהוָה וְהִתְנַבִּיתָ עִמָּם וְנֶהְפַּכְתָּ לְאִישׁ אַחֵֽר׃",
+          "7": "וְהָיָה כִּי תָבֹאנָה הָאֹתוֹת הָאֵלֶּה לָךְ עֲשֵׂה לְךָ אֲשֶׁר תִּמְצָא יָדֶךָ כִּי הָאֱלֹהִים עִמָּֽךְ׃",
+          "8": "וְיָרַדְתָּ לְפָנַי הַגִּלְגָּל וְהִנֵּה אָֽנֹכִי יֹרֵד אֵלֶיךָ לְהַעֲלוֹת עֹלוֹת לִזְבֹּחַ זִבְחֵי שְׁלָמִים שִׁבְעַת יָמִים תּוֹחֵל עַד־בּוֹאִי אֵלֶיךָ וְהוֹדַעְתִּי לְךָ אֵת אֲשֶׁר תַּעֲשֶֽׂה׃",
+          "9": "וְהָיָה כְּהַפְנֹתוֹ שִׁכְמוֹ לָלֶכֶת מֵעִם שְׁמוּאֵל וַיַּהֲפָךְ־לוֹ אֱלֹהִים לֵב אַחֵר וַיָּבֹאוּ כָּל־הָאֹתוֹת הָאֵלֶּה בַּיּוֹם הַהֽוּא׃",
+          "10": "וַיָּבֹאוּ שָׁם הַגִּבְעָתָה וְהִנֵּה חֶֽבֶל־נְבִאִים לִקְרָאתוֹ וַתִּצְלַח עָלָיו רוּחַ אֱלֹהִים וַיִּתְנַבֵּא בְּתוֹכָֽם׃",
+          "11": "וַיְהִי כָּל־יֽוֹדְעוֹ מֵאִתְּמוֹל שִׁלְשׁוֹם וַיִּרְאוּ וְהִנֵּה עִם־נְבִאִים נִבָּא וַיֹּאמֶר הָעָם אִישׁ אֶל־רֵעֵהוּ מַה־זֶּה הָיָה לְבֶן־קִישׁ הֲגַם שָׁאוּל בַּנְּבִיאִֽים׃",
+          "12": "וַיַּעַן אִישׁ מִשָּׁם וַיֹּאמֶר וּמִי אֲבִיהֶם עַל־כֵּן הָיְתָה לְמָשָׁל הֲגַם שָׁאוּל בַּנְּבִאִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 6,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 14,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel. And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you. And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.",
+        "riddle": "Whither went ye?",
+        "speaker": "Saul's uncle",
+        "listener": "Saul and servant",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "asses",
+        "bonus_hint": {
+          "quote": "And the asses of Kish Saul's father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 9,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל",
+        "riddle": "אָן הֲלַכְתֶּם",
+        "speaker": "שָׁאוּל",
+        "listener": "דּוֹד ונערו",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָאֲתֹנוֹת",
+        "bonus_hint": {
+          "quote": "וַתֹּאבַדְנָה הָאֲתֹנוֹת לְקִישׁ אֲבִי שָׁאוּל וַיֹּאמֶר קִישׁ אֶל־שָׁאוּל בְּנוֹ קַח־נָא אִתְּךָ אֶת־אַחַד מֵֽהַנְּעָרִים וְקוּם לֵךְ בַּקֵּשׁ אֶת־הָאֲתֹנֹֽת",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 9,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel.",
+          "15": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you.",
+          "16": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל׃",
+          "15": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל׃",
+          "16": "וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 14,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 14,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel. And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you. And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.",
+        "riddle": "Tell me, I pray thee, what Samuel said unto you.",
+        "speaker": "Saul's uncle",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "servant",
+        "bonus_hint": {
+          "quote": "And the servant said unto him, Peradventure the woman will not be willing to follow me unto this land: must I needs bring thy son again unto the land from whence thou camest?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל",
+        "riddle": "הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל",
+        "speaker": "שָׁאוּל",
+        "listener": "דּוֹד",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אֵלָיו הָעֶבֶד אוּלַי לֹא־תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרַי אֶל־הָאָרֶץ הַזֹּאת הֶֽהָשֵׁב אָשִׁיב אֶת־בִּנְךָ אֶל־הָאָרֶץ אֲשֶׁר־יָצָאתָ מִשָּֽׁם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Saul's uncle said unto him and to his servant, Whither went ye? And he said, To seek the asses: and when we saw that they were no where, we came to Samuel.",
+          "15": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you.",
+          "16": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר דּוֹד שָׁאוּל אֵלָיו וְאֶֽל־נַעֲרוֹ אָן הֲלַכְתֶּם וַיֹּאמֶר לְבַקֵּשׁ אֶת־הָאֲתֹנוֹת וַנִּרְאֶה כִי־אַיִן וַנָּבוֹא אֶל־שְׁמוּאֵֽל׃",
+          "15": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל׃",
+          "16": "וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 14,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 15,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you. And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not.",
+        "riddle": "He told us plainly that the asses were found.",
+        "speaker": "Saul",
+        "listener": "Saul's uncle",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "kingdom",
+        "bonus_hint": {
+          "quote": "Ought ye not to know that the LORD God of Israel gave the kingdom over Israel to David for ever, even to him and to his sons by a covenant of salt?",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 13,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל",
+        "riddle": "הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד",
+        "speaker": "שָׁאוּל",
+        "listener": "דּוֹדוֹ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָכֶם",
+        "bonus_hint": {
+          "quote": "הֲלֹא לָכֶם לָדַעַת כִּי יְהוָה אֱלֹהֵי יִשְׂרָאֵל נָתַן מַמְלָכָה לְדָוִיד עַל־יִשְׂרָאֵל לְעוֹלָם לוֹ וּלְבָנָיו בְּרִית מֶֽלַח",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 13,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Saul's uncle said, Tell me, I pray thee, what Samuel said unto you.",
+          "16": "And Saul said unto his uncle, He told us plainly that the asses were found. But of the matter of the kingdom, whereof Samuel spake, he told him not."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר דּוֹד שָׁאוּל הַגִּֽידָה־נָּא לִי מָֽה־אָמַר לָכֶם שְׁמוּאֵֽל׃",
+          "16": "וַיֹּאמֶר שָׁאוּל אֶל־דּוֹדוֹ הַגֵּד הִגִּיד לָנוּ כִּי נִמְצְאוּ הָאֲתֹנוֹת וְאֶת־דְּבַר הַמְּלוּכָה לֹֽא־הִגִּיד לוֹ אֲשֶׁר אָמַר שְׁמוּאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 15,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-10-27-27",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 10,
+        "quote_verse_start": 26,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And Saul also went home to Gibeah; and there went with him a band of men, whose hearts God had touched. But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace.",
+        "riddle": "How shall this man save us?",
+        "speaker": "children of Belial",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hearts",
+        "bonus_hint": {
+          "quote": "And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the LORD your God, he is God in heaven above, and in earth beneath.",
+          "source": {
+            "book": "Joshua",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וְגַם־שָׁאוּל הָלַךְ לְבֵיתוֹ גִּבְעָתָה וַיֵּלְכוּ עִמּוֹ הַחַיִל אֲשֶׁר־נָגַע אֱלֹהִים בְּלִבָּֽם וּבְנֵי בְלִיַּעַל אָמְרוּ מַה־יֹּשִׁעֵנוּ זֶה וַיִּבְזֻהוּ וְלֹֽא־הֵבִיאוּ לוֹ מִנְחָה וַיְהִי כְּמַחֲרִֽישׁ",
+        "riddle": "מַה־יֹּשִׁעֵנוּ זֶה",
+        "speaker": "בְנֵי בְלִיַּעַל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֱלֹהִים",
+        "bonus_hint": {
+          "quote": "וַנִּשְׁמַע וַיִּמַּס לְבָבֵנוּ וְלֹא־קָמָה עוֹד רוּחַ בְּאִישׁ מִפְּנֵיכֶם כִּי יְהוָה אֱלֹֽהֵיכֶם הוּא אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּֽחַת",
+          "source": {
+            "book": "יהושע",
+            "chapter": 2,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And Saul also went home to Gibeah; and there went with him a band of men, whose hearts God had touched.",
+          "27": "But the children of Belial said, How shall this man save us? And they despised him, and brought him no presents. But he held his peace."
+        },
+        "he": {
+          "26": "וְגַם־שָׁאוּל הָלַךְ לְבֵיתוֹ גִּבְעָתָה וַיֵּלְכוּ עִמּוֹ הַחַיִל אֲשֶׁר־נָגַע אֱלֹהִים בְּלִבָּֽם׃",
+          "27": "וּבְנֵי בְלִיַּעַל אָמְרוּ מַה־יֹּשִׁעֵנוּ זֶה וַיִּבְזֻהוּ וְלֹֽא־הֵבִיאוּ לוֹ מִנְחָה וַיְהִי כְּמַחֲרִֽישׁ׃"
+        }
+      },
+      "ref": {
+        "chapter": 10,
+        "start": 26,
+        "end": 27
       },
       "meta": {
         "mode": "llm",

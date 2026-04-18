@@ -6,6 +6,96 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-27-01-01",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day.",
+        "riddle": "Keep all the commandments which I command you this day.",
+        "speaker": "Moses",
+        "listener": "the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיְצַו מֹשֶׁה וְזִקְנֵי יִשְׂרָאֵל אֶת־הָעָם לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם",
+        "riddle": "לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses with the elders of Israel commanded the people, saying, Keep all the commandments which I command you this day."
+        },
+        "he": {
+          "1": "וַיְצַו מֹשֶׁה וְזִקְנֵי יִשְׂרָאֵל אֶת־הָעָם לֵאמֹר שָׁמֹר אֶת־כָּל־הַמִּצְוָה אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "deuteronomy-27-10-10",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day.",
+        "riddle": "Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day.",
+        "speaker": "Moses and the priests the Levites",
+        "listener": "all Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם",
+        "riddle": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם",
+        "speaker": "מֹשֶׁה וְהַכֹּהֲנִים הַלְוִיִּם",
+        "listener": "כָּל־יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Moses and the priests the Levites spake unto all Israel, saying, Take heed, and hearken, O Israel; this day thou art become the people of the LORD thy God.",
+          "10": "Thou shalt therefore obey the voice of the LORD thy God, and do his commandments and his statutes, which I command thee this day."
+        },
+        "he": {
+          "9": "וַיְדַבֵּר מֹשֶׁה וְהַכֹּהֲנִים הַלְוִיִּם אֶל כָּל־יִשְׂרָאֵל לֵאמֹר הַסְכֵּת ׀ וּשְׁמַע יִשְׂרָאֵל הַיּוֹם הַזֶּה נִהְיֵיתָֽ לְעָם לַיהוָה אֱלֹהֶֽיךָ׃",
+          "10": "וְשָׁמַעְתָּ בְּקוֹל יְהוָה אֱלֹהֶיךָ וְעָשִׂיתָ אֶת־מִצְוֺתָו וְאֶת־חֻקָּיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
       "id": "deuteronomy-27-15-15",
       "source": {
         "book_code": "DEU",
@@ -13,38 +103,126 @@
         "book_he": "דברים",
         "chapter": 27,
         "quote_verse_start": 15,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen.",
-        "riddle": "Cursed be the man that maketh any graven or molten image",
-        "speaker": "Law/God",
-        "listener": "People",
+        "riddle": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place.",
+        "speaker": "Levites",
+        "listener": "men of Israel",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן",
-        "riddle": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ",
-        "speaker": "התורה",
-        "listener": "הָעָם",
+        "riddle": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן",
+        "speaker": "הַלְוִיִּם",
+        "listener": "כָּל־אִישׁ יִשְׂרָאֵל",
         "book": "דברים"
       },
       "raw_quote_source": {
         "en": {
+          "14": "And the Levites shall speak, and say unto all the men of Israel with a loud voice,",
           "15": "Cursed be the man that maketh any graven or molten image, an abomination unto the LORD, the work of the hands of the craftsman, and putteth it in a secret place. And all the people shall answer and say, Amen."
         },
         "he": {
+          "14": "וְעָנוּ הַלְוִיִּם וְאָמְרוּ אֶל־כָּל־אִישׁ יִשְׂרָאֵל קוֹל רָֽם׃",
           "15": "אָרוּר הָאִישׁ אֲשֶׁר יַעֲשֶׂה פֶסֶל וּמַסֵּכָה תּוֹעֲבַת יְהוָה מַעֲשֵׂה יְדֵי חָרָשׁ וְשָׂם בַּסָּתֶר וְעָנוּ כָל־הָעָם וְאָמְרוּ אָמֵֽן׃"
         }
       },
       "meta": {
-        "reason": "Strongly memorable curse/warning",
+        "reason": "direct declaration",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 27,
         "start": 15,
         "end": 15
+      }
+    },
+    {
+      "id": "deuteronomy-27-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that setteth light by his father or his mother.",
+        "speaker": "people",
+        "listener": "people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Cursed be he that setteth light by his father or his mother. And all the people shall say, Amen."
+        },
+        "he": {
+          "16": "אָרוּר מַקְלֶה אָבִיו וְאִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "deuteronomy-27-17-17",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that removeth his neighbour's landmark.",
+        "speaker": "people",
+        "listener": "people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Cursed be he that removeth his neighbour's landmark. And all the people shall say, Amen."
+        },
+        "he": {
+          "17": "אָרוּר מַסִּיג גְּבוּל רֵעֵהוּ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 17,
+        "end": 17
       }
     },
     {
@@ -59,15 +237,15 @@
       },
       "en": {
         "quote": "Cursed be he that maketh the blind to wander out of the way. And all the people shall say, Amen.",
-        "riddle": "Cursed be he that maketh the blind to wander",
-        "speaker": "Law",
-        "listener": "People",
+        "riddle": "Cursed be he that maketh the blind to wander out of the way.",
+        "speaker": "people",
+        "listener": "people",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "אָרוּר מַשְׁגֶּה עִוֵּר בַּדָּרֶךְ וְאָמַר כָּל־הָעָם אָמֵֽן",
         "riddle": "אָרוּר מַשְׁגֶּה עִוֵּר בַּדָּרֶךְ",
-        "speaker": "התורה",
+        "speaker": "הָעָם",
         "listener": "הָעָם",
         "book": "דברים"
       },
@@ -80,13 +258,307 @@
         }
       },
       "meta": {
-        "reason": "Contains a vivid curse.",
+        "reason": "direct declaration",
         "confidence": 0.9
       },
       "ref": {
         "chapter": 27,
         "start": 18,
         "end": 18
+      }
+    },
+    {
+      "id": "deuteronomy-27-19-19",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow.",
+        "speaker": "people",
+        "listener": "people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "Cursed be he that perverteth the judgment of the stranger, fatherless, and widow. And all the people shall say, Amen."
+        },
+        "he": {
+          "19": "אָרוּר מַטֶּה מִשְׁפַּט גֵּר־יָתוֹם וְאַלְמָנָה וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "deuteronomy-27-20-20",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "Cursed be he that lieth with his father's wife; because he uncovereth his father's skirt. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that lieth with his father's wife; because he uncovereth his father's skirt.",
+        "speaker": "people",
+        "listener": "people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר שֹׁכֵב עִם־אֵשֶׁת אָבִיו כִּי גִלָּה כְּנַף אָבִיו וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר שֹׁכֵב עִם־אֵשֶׁת אָבִיו כִּי גִלָּה כְּנַף אָבִיו",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Cursed be he that lieth with his father's wife; because he uncovereth his father's skirt. And all the people shall say, Amen."
+        },
+        "he": {
+          "20": "אָרוּר שֹׁכֵב עִם־אֵשֶׁת אָבִיו כִּי גִלָּה כְּנַף אָבִיו וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "deuteronomy-27-21-21-1",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that lieth with any manner of beast.",
+        "speaker": "people",
+        "listener": "people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen."
+        },
+        "he": {
+          "21": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "deuteronomy-27-21-21-2",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "Cursed be he that lieth with any manner of beast. And all the people shall say, Amen."
+        },
+        "he": {
+          "21": "אָרוּר שֹׁכֵב עִם־כָּל־בְּהֵמָה וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and response",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "deuteronomy-27-22-22",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "Cursed be he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר שֹׁכֵב עִם־אֲחֹתוֹ בַּת־אָבִיו אוֹ בַת־אִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר שֹׁכֵב עִם־אֲחֹתוֹ בַּת־אָבִיו אוֹ בַת־אִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "Cursed be he that lieth with his sister, the daughter of his father, or the daughter of his mother. And all the people shall say, Amen."
+        },
+        "he": {
+          "22": "אָרוּר שֹׁכֵב עִם־אֲחֹתוֹ בַּת־אָבִיו אוֹ בַת־אִמּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and response",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "deuteronomy-27-23-23",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "Cursed be he that lieth with his mother in law. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that lieth with his mother in law. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר שֹׁכֵב עִם־חֹֽתַנְתּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר שֹׁכֵב עִם־חֹֽתַנְתּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "Cursed be he that lieth with his mother in law. And all the people shall say, Amen."
+        },
+        "he": {
+          "23": "אָרוּר שֹׁכֵב עִם־חֹֽתַנְתּוֹ וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and response",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "deuteronomy-27-24-24",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "Cursed be he that smiteth his neighbour secretly. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that smiteth his neighbour secretly. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר מַכֵּה רֵעֵהוּ בַּסָּתֶר וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר מַכֵּה רֵעֵהוּ בַּסָּתֶר וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "Cursed be he that smiteth his neighbour secretly. And all the people shall say, Amen."
+        },
+        "he": {
+          "24": "אָרוּר מַכֵּה רֵעֵהוּ בַּסָּתֶר וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and response",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 24,
+        "end": 24
       }
     },
     {
@@ -101,16 +573,16 @@
       },
       "en": {
         "quote": "Cursed be he that taketh reward to slay an innocent person. And all the people shall say, Amen.",
-        "riddle": "Cursed be he that taketh reward to slay an innocent person",
-        "speaker": "Law/Moses",
-        "listener": "People",
+        "riddle": "Cursed be he that taketh reward to slay an innocent person. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי וְאָמַר כָּל־הָעָם אָמֵֽן",
-        "riddle": "אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי",
-        "speaker": "משה",
-        "listener": "הָעָם",
+        "riddle": "אָרוּר לֹקֵחַ שֹׁחַד לְהַכּוֹת נֶפֶשׁ דָּם נָקִי וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
         "book": "דברים"
       },
       "raw_quote_source": {
@@ -122,7 +594,7 @@
         }
       },
       "meta": {
-        "reason": "Memorable curse and declaration",
+        "reason": "vivid declaration and response",
         "confidence": 0.95
       },
       "ref": {
@@ -130,13 +602,58 @@
         "start": 25,
         "end": 25
       }
+    },
+    {
+      "id": "deuteronomy-27-26-26",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 27,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "Cursed be he that confirmeth not all the words of this law to do them. And all the people shall say, Amen.",
+        "riddle": "Cursed be he that confirmeth not all the words of this law to do them. And all the people shall say, Amen.",
+        "speaker": "the people",
+        "listener": "all the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָרוּר אֲשֶׁר לֹא־יָקִים אֶת־דִּבְרֵי הַתּוֹרָֽה־הַזֹּאת לַעֲשׂוֹת אוֹתָם וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "riddle": "אָרוּר אֲשֶׁר לֹא־יָקִים אֶת־דִּבְרֵי הַתּוֹרָֽה־הַזֹּאת לַעֲשׂוֹת אוֹתָם וְאָמַר כָּל־הָעָם אָמֵֽן",
+        "speaker": "כָּל־הָעָם",
+        "listener": "כָּל־הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Cursed be he that confirmeth not all the words of this law to do them. And all the people shall say, Amen."
+        },
+        "he": {
+          "26": "אָרוּר אֲשֶׁר לֹא־יָקִים אֶת־דִּבְרֵי הַתּוֹרָֽה־הַזֹּאת לַעֲשׂוֹת אוֹתָם וְאָמַר כָּל־הָעָם אָמֵֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration and response",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 27,
+        "start": 26,
+        "end": 26
+      }
     }
   ],
   "stats": {
-    "window_count": 19,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 19,
-    "kept_count": 3,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 16,
+    "llm_call_count": 20,
+    "spec_count": 16,
+    "kept_count": 15,
+    "issue_count": 1
   }
 }

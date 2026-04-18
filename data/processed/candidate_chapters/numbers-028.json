@@ -4,12 +4,110 @@
   "book_he": "במדבר",
   "chapter": 28,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-28-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 28,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Command the children of Israel, and say unto them, My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season.",
+        "riddle": "My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "צַו אֶת־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אֶת־קָרְבָּנִי לַחְמִי לְאִשַּׁי רֵיחַ נִֽיחֹחִי תִּשְׁמְרוּ לְהַקְרִיב לִי בְּמוֹעֲדֽוֹ",
+        "riddle": "צַו אֶת־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אֶת־קָרְבָּנִי לַחְמִי לְאִשַּׁי רֵיחַ נִֽיחֹחִי תִּשְׁמְרוּ לְהַקְרִיב לִי בְּמוֹעֲדֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Command the children of Israel, and say unto them, My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "צַו אֶת־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אֶת־קָרְבָּנִי לַחְמִי לְאִשַּׁי רֵיחַ נִֽיחֹחִי תִּשְׁמְרוּ לְהַקְרִיב לִי בְּמוֹעֲדֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-28-03-03",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 28,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And thou shalt say unto them, This is the offering made by fire which ye shall offer unto the LORD; two lambs of the first year without spot day by day, for a continual burnt offering.",
+        "riddle": "This is the offering made by fire which ye shall offer unto the LORD; two lambs of the first year without spot day by day, for a continual burnt offering.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וְאָמַרְתָּ לָהֶם זֶה הָֽאִשֶּׁה אֲשֶׁר תַּקְרִיבוּ לַיהוָה כְּבָשִׂים בְּנֵֽי־שָׁנָה תְמִימִם שְׁנַיִם לַיּוֹם עֹלָה תָמִֽיד",
+        "riddle": "וְאָמַרְתָּ לָהֶם זֶה הָֽאִשֶּׁה אֲשֶׁר תַּקְרִיבוּ לַיהוָה כְּבָשִׂים בְּנֵֽי־שָׁנָה תְמִימִם שְׁנַיִם לַיּוֹם עֹלָה תָמִֽיד",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Command the children of Israel, and say unto them, My offering, and my bread for my sacrifices made by fire, for a sweet savour unto me, shall ye observe to offer unto me in their due season.",
+          "3": "And thou shalt say unto them, This is the offering made by fire which ye shall offer unto the LORD; two lambs of the first year without spot day by day, for a continual burnt offering."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "צַו אֶת־בְּנֵי יִשְׂרָאֵל וְאָמַרְתָּ אֲלֵהֶם אֶת־קָרְבָּנִי לַחְמִי לְאִשַּׁי רֵיחַ נִֽיחֹחִי תִּשְׁמְרוּ לְהַקְרִיב לִי בְּמוֹעֲדֽוֹ׃",
+          "3": "וְאָמַרְתָּ לָהֶם זֶה הָֽאִשֶּׁה אֲשֶׁר תַּקְרִיבוּ לַיהוָה כְּבָשִׂים בְּנֵֽי־שָׁנָה תְמִימִם שְׁנַיִם לַיּוֹם עֹלָה תָמִֽיד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct instruction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 3,
+        "end": 3
+      }
+    }
+  ],
   "stats": {
-    "window_count": 4,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 0,
-    "issue_count": 4
+    "llm_window_count": 1,
+    "projection_llm_count": 2,
+    "llm_call_count": 3,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

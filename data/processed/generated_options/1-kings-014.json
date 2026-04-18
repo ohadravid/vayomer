@@ -6,90 +6,98 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-14-02-03",
+      "id": "1-kings-14-12-12",
       "source": {
         "method": "llm",
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 14,
-        "quote_verse_start": 2,
-        "quote_verse_end": 4
+        "quote_verse_start": 6,
+        "quote_verse_end": 12
       },
       "en": {
-        "quote": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people. And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child. And Jeroboam's wife did so, and arose, and went to Shiloh, and came to the house of Ahijah. But Ahijah could not see; for his eyes were set by reason of his age.",
-        "riddle": "he shall tell thee what shall become of the child.",
-        "speaker": "Jeroboam",
-        "listener": "Jeroboam's wife",
+        "quote": "And it was so, when Ahijah heard the sound of her feet as she came in at the door, that he said, Come in, thou wife of Jeroboam; why feignest thou thyself to be another? for I am sent to thee with heavy tidings. Go, tell Jeroboam, Thus saith the LORD God of Israel, Forasmuch as I exalted thee from among the people, and made thee prince over my people Israel, And rent the kingdom away from the house of David, and gave it thee: and yet thou hast not been as my servant David, who kept my commandments, and who followed me with all his heart, to do that only which was right in mine eyes; But hast done evil above all that were before thee: for thou hast gone and made thee other gods, and molten images, to provoke me to anger, and hast cast me behind thy back: Therefore, behold, I will bring evil upon the house of Jeroboam, and will cut off from Jeroboam him that pisseth against the wall, and him that is shut up and left in Israel, and will take away the remnant of the house of Jeroboam, as a man taketh away dung, till it be all gone. Him that dieth of Jeroboam in the city shall the dogs eat; and him that dieth in the field shall the fowls of the air eat: for the LORD hath spoken it. Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die.",
+        "riddle": "Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die.",
+        "speaker": "Ahijah",
+        "listener": "Wife of Jeroboam",
         "book": "1 Kings",
         "options": {
           "speaker": [
-            "Solomon",
-            "Micaiah",
-            "Isaiah"
+            "Elijah",
+            "Nathan",
+            "Solomon"
           ],
           "listener": [
-            "Solomon",
-            "Micaiah",
-            "Hannah"
+            "Jezebel",
+            "Ahab",
+            "Elijah"
           ]
         },
-        "bonus": "prophet",
+        "bonus": "heavy",
         "bonus_hint": {
-          "quote": "If there arise among you a prophet, or a dreamer of dreams, and giveth thee a sign or a wonder,",
+          "quote": "But Moses' hands were heavy; and they took a stone, and put it under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun.",
           "source": {
-            "book": "Deuteronomy",
-            "chapter": 13,
-            "start": 1,
-            "end": 1
+            "book": "Exodus",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
           }
         }
       },
       "he": {
-        "quote": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר וַתַּעַשׂ כֵּן אֵשֶׁת יָרָבְעָם וַתָּקָם וַתֵּלֶךְ שִׁלֹה וַתָּבֹא בֵּית אֲחִיָּה וַאֲחִיָּהוּ לֹֽא־יָכֹל לִרְאוֹת כִּי קָמוּ עֵינָיו מִשֵּׂיבֽוֹ",
-        "riddle": "מַה־יִּֽהְיֶה לַנָּֽעַר",
-        "speaker": "אֲחִיָּה הַנָּבִיא",
+        "quote": "וַיְהִי כִשְׁמֹעַ אֲחִיָּהוּ אֶת־קוֹל רַגְלֶיהָ בָּאָה בַפֶּתַח וַיֹּאמֶר בֹּאִי אֵשֶׁת יָרָבְעָם לָמָּה זֶּה אַתְּ מִתְנַכֵּרָה וְאָנֹכִי שָׁלוּחַ אֵלַיִךְ קָשָֽׁה לְכִי אִמְרִי לְיָרָבְעָם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל יַעַן אֲשֶׁר הֲרִימֹתִיךָ מִתּוֹךְ הָעָם וָאֶתֶּנְךָ נָגִיד עַל עַמִּי יִשְׂרָאֵֽל וָאֶקְרַע אֶת־הַמַּמְלָכָה מִבֵּית דָּוִד וָאֶתְּנֶהָ לָךְ וְלֹֽא־הָיִיתָ כְּעַבְדִּי דָוִד אֲשֶׁר שָׁמַר מִצְוֺתַי וַאֲשֶׁר־הָלַךְ אַחֲרַי בְּכָל־לְבָבוֹ לַעֲשׂוֹת רַק הַיָּשָׁר בְּעֵינָֽי וַתָּרַע לַעֲשׂוֹת מִכֹּל אֲשֶׁר־הָיוּ לְפָנֶיךָ וַתֵּלֶךְ וַתַּעֲשֶׂה־לְּךָ אֱלֹהִים אֲחֵרִים וּמַסֵּכוֹת לְהַכְעִיסֵנִי וְאֹתִי הִשְׁלַכְתָּ אַחֲרֵי גַוֶּֽךָ לָכֵן הִנְנִי מֵבִיא רָעָה אֶל־בֵּית יָרָבְעָם וְהִכְרַתִּי לְיָֽרָבְעָם מַשְׁתִּין בְּקִיר עָצוּר וְעָזוּב בְּיִשְׂרָאֵל וּבִֽעַרְתִּי אַחֲרֵי בֵית־יָרָבְעָם כַּאֲשֶׁר יְבַעֵר הַגָּלָל עַד־תֻּמּֽוֹ הַמֵּת לְיָֽרָבְעָם בָּעִיר יֹאכְלוּ הַכְּלָבִים וְהַמֵּת בַּשָּׂדֶה יֹאכְלוּ עוֹף הַשָּׁמָיִם כִּי יְהוָה דִּבֵּֽר וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד",
+        "riddle": "וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד",
+        "speaker": "אָחִיהָ",
         "listener": "אֵשֶׁת יָרָבְעָם",
         "book": "מלכים א",
         "options": {
           "speaker": [
-            "שְׁלֵמָה",
-            "מִיכָֽיְהוּ",
-            "יְשַֽׁעְיָהוּ"
+            "אֵלִיָּהוּ",
+            "נָתַן",
+            "שְׁלֹמֹה"
           ],
           "listener": [
-            "שְׁלֵמָה",
-            "מִיכָֽיְהוּ",
-            "חַנָּה"
+            "אִיזֶבֶל",
+            "אַחְאָב",
+            "אֵלִיָּהוּ"
           ]
         },
-        "bonus": "וְלֹא",
+        "bonus": "וַיְהִי",
         "bonus_hint": {
-          "quote": "אֵת כָּל־הַדָּבָר אֲשֶׁר אָנֹכִי מְצַוֶּה אֶתְכֶם אֹתוֹ תִשְׁמְרוּ לַעֲשׂוֹת לֹא־תֹסֵף עָלָיו וְלֹא תִגְרַע מִמֶּֽנּוּ",
+          "quote": "וִידֵי מֹשֶׁה כְּבֵדִים וַיִּקְחוּ־אֶבֶן וַיָּשִׂימוּ תַחְתָּיו וַיֵּשֶׁב עָלֶיהָ וְאַהֲרֹן וְחוּר תָּֽמְכוּ בְיָדָיו מִזֶּה אֶחָד וּמִזֶּה אֶחָד וַיְהִי יָדָיו אֱמוּנָה עַד־בֹּא הַשָּֽׁמֶשׁ",
           "source": {
-            "book": "דברים",
-            "chapter": 13,
-            "start": 1,
-            "end": 1
+            "book": "שמות",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "2": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people.",
-          "3": "And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child.",
-          "4": "And Jeroboam's wife did so, and arose, and went to Shiloh, and came to the house of Ahijah. But Ahijah could not see; for his eyes were set by reason of his age."
+          "6": "And it was so, when Ahijah heard the sound of her feet as she came in at the door, that he said, Come in, thou wife of Jeroboam; why feignest thou thyself to be another? for I am sent to thee with heavy tidings.",
+          "7": "Go, tell Jeroboam, Thus saith the LORD God of Israel, Forasmuch as I exalted thee from among the people, and made thee prince over my people Israel,",
+          "8": "And rent the kingdom away from the house of David, and gave it thee: and yet thou hast not been as my servant David, who kept my commandments, and who followed me with all his heart, to do that only which was right in mine eyes;",
+          "9": "But hast done evil above all that were before thee: for thou hast gone and made thee other gods, and molten images, to provoke me to anger, and hast cast me behind thy back:",
+          "10": "Therefore, behold, I will bring evil upon the house of Jeroboam, and will cut off from Jeroboam him that pisseth against the wall, and him that is shut up and left in Israel, and will take away the remnant of the house of Jeroboam, as a man taketh away dung, till it be all gone.",
+          "11": "Him that dieth of Jeroboam in the city shall the dogs eat; and him that dieth in the field shall the fowls of the air eat: for the LORD hath spoken it.",
+          "12": "Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die."
         },
         "he": {
-          "2": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה׃",
-          "3": "וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר׃",
-          "4": "וַתַּעַשׂ כֵּן אֵשֶׁת יָרָבְעָם וַתָּקָם וַתֵּלֶךְ שִׁלֹה וַתָּבֹא בֵּית אֲחִיָּה וַאֲחִיָּהוּ לֹֽא־יָכֹל לִרְאוֹת כִּי קָמוּ עֵינָיו מִשֵּׂיבֽוֹ׃"
+          "6": "וַיְהִי כִשְׁמֹעַ אֲחִיָּהוּ אֶת־קוֹל רַגְלֶיהָ בָּאָה בַפֶּתַח וַיֹּאמֶר בֹּאִי אֵשֶׁת יָרָבְעָם לָמָּה זֶּה אַתְּ מִתְנַכֵּרָה וְאָנֹכִי שָׁלוּחַ אֵלַיִךְ קָשָֽׁה׃",
+          "7": "לְכִי אִמְרִי לְיָרָבְעָם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל יַעַן אֲשֶׁר הֲרִימֹתִיךָ מִתּוֹךְ הָעָם וָאֶתֶּנְךָ נָגִיד עַל עַמִּי יִשְׂרָאֵֽל׃",
+          "8": "וָאֶקְרַע אֶת־הַמַּמְלָכָה מִבֵּית דָּוִד וָאֶתְּנֶהָ לָךְ וְלֹֽא־הָיִיתָ כְּעַבְדִּי דָוִד אֲשֶׁר שָׁמַר מִצְוֺתַי וַאֲשֶׁר־הָלַךְ אַחֲרַי בְּכָל־לְבָבוֹ לַעֲשׂוֹת רַק הַיָּשָׁר בְּעֵינָֽי׃",
+          "9": "וַתָּרַע לַעֲשׂוֹת מִכֹּל אֲשֶׁר־הָיוּ לְפָנֶיךָ וַתֵּלֶךְ וַתַּעֲשֶׂה־לְּךָ אֱלֹהִים אֲחֵרִים וּמַסֵּכוֹת לְהַכְעִיסֵנִי וְאֹתִי הִשְׁלַכְתָּ אַחֲרֵי גַוֶּֽךָ׃",
+          "10": "לָכֵן הִנְנִי מֵבִיא רָעָה אֶל־בֵּית יָרָבְעָם וְהִכְרַתִּי לְיָֽרָבְעָם מַשְׁתִּין בְּקִיר עָצוּר וְעָזוּב בְּיִשְׂרָאֵל וּבִֽעַרְתִּי אַחֲרֵי בֵית־יָרָבְעָם כַּאֲשֶׁר יְבַעֵר הַגָּלָל עַד־תֻּמּֽוֹ׃",
+          "11": "הַמֵּת לְיָֽרָבְעָם בָּעִיר יֹאכְלוּ הַכְּלָבִים וְהַמֵּת בַּשָּׂדֶה יֹאכְלוּ עוֹף הַשָּׁמָיִם כִּי יְהוָה דִּבֵּֽר׃",
+          "12": "וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד׃"
         }
       },
       "ref": {
         "chapter": 14,
-        "start": 2,
-        "end": 4
+        "start": 6,
+        "end": 12
       },
       "meta": {
         "mode": "llm",

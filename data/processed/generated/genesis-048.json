@@ -14,7 +14,9 @@
         "book_he": "בראשית",
         "chapter": 48,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
       },
       "en": {
         "quote": "And Israel beheld Joseph's sons, and said, Who are these?",
@@ -70,6 +72,482 @@
         "chapter": 48,
         "start": 8,
         "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Israel beheld Joseph's sons, and said, Who are these? And Joseph said unto his father, They are my sons, whom God hath given me in this place. And he said, Bring them, I pray thee, unto me, and I will bless them.",
+        "riddle": "Bring them, I pray thee, unto me, and I will bless them.",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "father",
+        "bonus_hint": {
+          "quote": "And Ham, the father of Canaan, saw the nakedness of his father, and told his two brethren without.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 9,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו בָּנַי הֵם אֲשֶׁר־נָֽתַן־לִי אֱלֹהִים בָּזֶה וַיֹּאמַר קָֽחֶם־נָא אֵלַי וַאֲבָרֲכֵֽם",
+        "riddle": "קָֽחֶם־נָא אֵלַי וַאֲבָרֲכֵֽם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַיַּרְא חָם אֲבִי כְנַעַן אֵת עֶרְוַת אָבִיו וַיַּגֵּד לִשְׁנֵֽי־אֶחָיו בַּחֽוּץ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 9,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Israel beheld Joseph's sons, and said, Who are these?",
+          "9": "And Joseph said unto his father, They are my sons, whom God hath given me in this place. And he said, Bring them, I pray thee, unto me, and I will bless them."
+        },
+        "he": {
+          "8": "וַיַּרְא יִשְׂרָאֵל אֶת־בְּנֵי יוֹסֵף וַיֹּאמֶר מִי־אֵֽלֶּה׃",
+          "9": "וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו בָּנַי הֵם אֲשֶׁר־נָֽתַן־לִי אֱלֹהִים בָּזֶה וַיֹּאמַר קָֽחֶם־נָא אֵלַי וַאֲבָרֲכֵֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 8,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, I had not thought to see thy face: and, lo, God hath shewed me also thy seed. And Joseph brought them out from between his knees, and he bowed himself with his face to the earth.",
+        "riddle": "I had not thought to see thy face: and, lo, God hath shewed me also thy seed.",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "knees",
+        "bonus_hint": {
+          "quote": "So he brought down the people unto the water: and the LORD said unto Gideon, Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink.",
+          "source": {
+            "book": "Judges",
+            "chapter": 7,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף רְאֹה פָנֶיךָ לֹא פִלָּלְתִּי וְהִנֵּה הֶרְאָה אֹתִי אֱלֹהִים גַּם אֶת־זַרְעֶֽךָ וַיּוֹצֵא יוֹסֵף אֹתָם מֵעִם בִּרְכָּיו וַיִּשְׁתַּחוּ לְאַפָּיו אָֽרְצָה",
+        "riddle": "רְאֹה פָנֶיךָ לֹא פִלָּלְתִּי וְהִנֵּה הֶרְאָה אֹתִי אֱלֹהִים גַּם אֶת־זַרְעֶֽך",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בִּרְכָּיו",
+        "bonus_hint": {
+          "quote": "וַיּוֹרֶד אֶת־הָעָם אֶל־הַמָּיִם וַיֹּאמֶר יְהוָה אֶל־גִּדְעוֹן כֹּל אֲשֶׁר־יָלֹק בִּלְשׁוֹנוֹ מִן־הַמַּיִם כַּאֲשֶׁר יָלֹק הַכֶּלֶב תַּצִּיג אוֹתוֹ לְבָד וְכֹל אֲשֶׁר־יִכְרַע עַל־בִּרְכָּיו לִשְׁתּֽוֹת",
+          "source": {
+            "book": "שופטים",
+            "chapter": 7,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Israel said unto Joseph, I had not thought to see thy face: and, lo, God hath shewed me also thy seed.",
+          "12": "And Joseph brought them out from between his knees, and he bowed himself with his face to the earth."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף רְאֹה פָנֶיךָ לֹא פִלָּלְתִּי וְהִנֵּה הֶרְאָה אֹתִי אֱלֹהִים גַּם אֶת־זַרְעֶֽךָ׃",
+          "12": "וַיּוֹצֵא יוֹסֵף אֹתָם מֵעִם בִּרְכָּיו וַיִּשְׁתַּחוּ לְאַפָּיו אָֽרְצָה׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 11,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 14,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And Israel stretched out his right hand, and laid it upon Ephraim's head, who was the younger, and his left hand upon Manasseh's head, guiding his hands wittingly; for Manasseh was the firstborn. And he blessed Joseph, and said, God, before whom my fathers Abraham and Isaac did walk, the God which fed me all my life long unto this day, The Angel which redeemed me from all evil, bless the lads; and let my name be named on them, and the name of my fathers Abraham and Isaac; and let them grow into a multitude in the midst of the earth. And when Joseph saw that his father laid his right hand upon the head of Ephraim, it displeased him: and he held up his father's hand, to remove it from Ephraim's head unto Manasseh's head. And Joseph said unto his father, Not so, my father: for this is the firstborn; put thy right hand upon his head. And his father refused, and said, I know it, my son, I know it: he also shall become a people, and he also shall be great: but truly his younger brother shall be greater than he, and his seed shall become a multitude of nations. And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh.",
+        "riddle": "In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh",
+        "speaker": "Jacob",
+        "listener": "Joseph's sons",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "But the dove found no rest for the sole of her foot, and she returned unto him into the ark, for the waters were on the face of the whole earth: then he put forth his hand, and took her, and pulled her in unto him into the ark.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח יִשְׂרָאֵל אֶת־יְמִינוֹ וַיָּשֶׁת עַל־רֹאשׁ אֶפְרַיִם וְהוּא הַצָּעִיר וְאֶת־שְׂמֹאלוֹ עַל־רֹאשׁ מְנַשֶּׁה שִׂכֵּל אֶת־יָדָיו כִּי מְנַשֶּׁה הַבְּכֽוֹר וַיְבָרֶךְ אֶת־יוֹסֵף וַיֹּאמַר הָֽאֱלֹהִים אֲשֶׁר הִתְהַלְּכוּ אֲבֹתַי לְפָנָיו אַבְרָהָם וְיִצְחָק הָֽאֱלֹהִים הָרֹעֶה אֹתִי מֵעוֹדִי עַד־הַיּוֹם הַזֶּֽה הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָֽרֶץ וַיַּרְא יוֹסֵף כִּי־יָשִׁית אָבִיו יַד־יְמִינוֹ עַל־רֹאשׁ אֶפְרַיִם וַיֵּרַע בְּעֵינָיו וַיִּתְמֹךְ יַד־אָבִיו לְהָסִיר אֹתָהּ מֵעַל רֹאשׁ־אֶפְרַיִם עַל־רֹאשׁ מְנַשֶּֽׁה וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו לֹא־כֵן אָבִי כִּי־זֶה הַבְּכֹר שִׂים יְמִינְךָ עַל־רֹאשֽׁוֹ וַיְמָאֵן אָבִיו וַיֹּאמֶר יָדַעְתִּֽי בְנִי יָדַעְתִּי גַּם־הוּא יִֽהְיֶה־לְּעָם וְגַם־הוּא יִגְדָּל וְאוּלָם אָחִיו הַקָּטֹן יִגְדַּל מִמֶּנּוּ וְזַרְעוֹ יִהְיֶה מְלֹֽא־הַגּוֹיִֽם וַיְבָרֲכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִֽׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּֽׁה",
+        "riddle": "בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִֽׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי",
+        "speaker": "יעקב",
+        "listener": "אֶפְרַיִם ומנשה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וְלֹֽא־מָצְאָה הַיּוֹנָה מָנוֹחַ לְכַף־רַגְלָהּ וַתָּשָׁב אֵלָיו אֶל־הַתֵּבָה כִּי־מַיִם עַל־פְּנֵי כָל־הָאָרֶץ וַיִּשְׁלַח יָדוֹ וַיִּקָּחֶהָ וַיָּבֵא אֹתָהּ אֵלָיו אֶל־הַתֵּבָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Israel stretched out his right hand, and laid it upon Ephraim's head, who was the younger, and his left hand upon Manasseh's head, guiding his hands wittingly; for Manasseh was the firstborn.",
+          "15": "And he blessed Joseph, and said, God, before whom my fathers Abraham and Isaac did walk, the God which fed me all my life long unto this day,",
+          "16": "The Angel which redeemed me from all evil, bless the lads; and let my name be named on them, and the name of my fathers Abraham and Isaac; and let them grow into a multitude in the midst of the earth.",
+          "17": "And when Joseph saw that his father laid his right hand upon the head of Ephraim, it displeased him: and he held up his father's hand, to remove it from Ephraim's head unto Manasseh's head.",
+          "18": "And Joseph said unto his father, Not so, my father: for this is the firstborn; put thy right hand upon his head.",
+          "19": "And his father refused, and said, I know it, my son, I know it: he also shall become a people, and he also shall be great: but truly his younger brother shall be greater than he, and his seed shall become a multitude of nations.",
+          "20": "And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh."
+        },
+        "he": {
+          "14": "וַיִּשְׁלַח יִשְׂרָאֵל אֶת־יְמִינוֹ וַיָּשֶׁת עַל־רֹאשׁ אֶפְרַיִם וְהוּא הַצָּעִיר וְאֶת־שְׂמֹאלוֹ עַל־רֹאשׁ מְנַשֶּׁה שִׂכֵּל אֶת־יָדָיו כִּי מְנַשֶּׁה הַבְּכֽוֹר׃",
+          "15": "וַיְבָרֶךְ אֶת־יוֹסֵף וַיֹּאמַר הָֽאֱלֹהִים אֲשֶׁר הִתְהַלְּכוּ אֲבֹתַי לְפָנָיו אַבְרָהָם וְיִצְחָק הָֽאֱלֹהִים הָרֹעֶה אֹתִי מֵעוֹדִי עַד־הַיּוֹם הַזֶּֽה׃",
+          "16": "הַמַּלְאָךְ הַגֹּאֵל אֹתִי מִכָּל־רָע יְבָרֵךְ אֶת־הַנְּעָרִים וְיִקָּרֵא בָהֶם שְׁמִי וְשֵׁם אֲבֹתַי אַבְרָהָם וְיִצְחָק וְיִדְגּוּ לָרֹב בְּקֶרֶב הָאָֽרֶץ׃",
+          "17": "וַיַּרְא יוֹסֵף כִּי־יָשִׁית אָבִיו יַד־יְמִינוֹ עַל־רֹאשׁ אֶפְרַיִם וַיֵּרַע בְּעֵינָיו וַיִּתְמֹךְ יַד־אָבִיו לְהָסִיר אֹתָהּ מֵעַל רֹאשׁ־אֶפְרַיִם עַל־רֹאשׁ מְנַשֶּֽׁה׃",
+          "18": "וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו לֹא־כֵן אָבִי כִּי־זֶה הַבְּכֹר שִׂים יְמִינְךָ עַל־רֹאשֽׁוֹ׃",
+          "19": "וַיְמָאֵן אָבִיו וַיֹּאמֶר יָדַעְתִּֽי בְנִי יָדַעְתִּי גַּם־הוּא יִֽהְיֶה־לְּעָם וְגַם־הוּא יִגְדָּל וְאוּלָם אָחִיו הַקָּטֹן יִגְדַּל מִמֶּנּוּ וְזַרְעוֹ יִהְיֶה מְלֹֽא־הַגּוֹיִֽם׃",
+          "20": "וַיְבָרֲכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִֽׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 14,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 17,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And when Joseph saw that his father laid his right hand upon the head of Ephraim, it displeased him: and he held up his father's hand, to remove it from Ephraim's head unto Manasseh's head. And Joseph said unto his father, Not so, my father: for this is the firstborn; put thy right hand upon his head. And his father refused, and said, I know it, my son, I know it: he also shall become a people, and he also shall be great: but truly his younger brother shall be greater than he, and his seed shall become a multitude of nations. And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh.",
+        "riddle": "Not so, my father: for this is the firstborn; put thy right hand upon his head.",
+        "speaker": "Joseph",
+        "listener": "Israel",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "displeased",
+        "bonus_hint": {
+          "quote": "Yea, truth faileth; and he that departeth from evil maketh himself a prey: and the LORD saw it, and it displeased him that there was no judgment.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 59,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּרְא יוֹסֵף כִּי־יָשִׁית אָבִיו יַד־יְמִינוֹ עַל־רֹאשׁ אֶפְרַיִם וַיֵּרַע בְּעֵינָיו וַיִּתְמֹךְ יַד־אָבִיו לְהָסִיר אֹתָהּ מֵעַל רֹאשׁ־אֶפְרַיִם עַל־רֹאשׁ מְנַשֶּֽׁה וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו לֹא־כֵן אָבִי כִּי־זֶה הַבְּכֹר שִׂים יְמִינְךָ עַל־רֹאשֽׁוֹ וַיְמָאֵן אָבִיו וַיֹּאמֶר יָדַעְתִּֽי בְנִי יָדַעְתִּי גַּם־הוּא יִֽהְיֶה־לְּעָם וְגַם־הוּא יִגְדָּל וְאוּלָם אָחִיו הַקָּטֹן יִגְדַּל מִמֶּנּוּ וְזַרְעוֹ יִהְיֶה מְלֹֽא־הַגּוֹיִֽם וַיְבָרֲכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִֽׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּֽׁה",
+        "riddle": "לֹא־כֵן אָבִי כִּי־זֶה הַבְּכֹר שִׂים יְמִינְךָ עַל־רֹאשֽׁו",
+        "speaker": "יוֹסֵף",
+        "listener": "יעקב",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּרְא",
+        "bonus_hint": {
+          "quote": "וַתְּהִי הָֽאֱמֶת נֶעְדֶּרֶת וְסָר מֵרָע מִשְׁתּוֹלֵל וַיַּרְא יְהוָה וַיֵּרַע בְּעֵינָיו כִּֽי־אֵין מִשְׁפָּֽט",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 59,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when Joseph saw that his father laid his right hand upon the head of Ephraim, it displeased him: and he held up his father's hand, to remove it from Ephraim's head unto Manasseh's head.",
+          "18": "And Joseph said unto his father, Not so, my father: for this is the firstborn; put thy right hand upon his head.",
+          "19": "And his father refused, and said, I know it, my son, I know it: he also shall become a people, and he also shall be great: but truly his younger brother shall be greater than he, and his seed shall become a multitude of nations.",
+          "20": "And he blessed them that day, saying, In thee shall Israel bless, saying, God make thee as Ephraim and as Manasseh: and he set Ephraim before Manasseh."
+        },
+        "he": {
+          "17": "וַיַּרְא יוֹסֵף כִּי־יָשִׁית אָבִיו יַד־יְמִינוֹ עַל־רֹאשׁ אֶפְרַיִם וַיֵּרַע בְּעֵינָיו וַיִּתְמֹךְ יַד־אָבִיו לְהָסִיר אֹתָהּ מֵעַל רֹאשׁ־אֶפְרַיִם עַל־רֹאשׁ מְנַשֶּֽׁה׃",
+          "18": "וַיֹּאמֶר יוֹסֵף אֶל־אָבִיו לֹא־כֵן אָבִי כִּי־זֶה הַבְּכֹר שִׂים יְמִינְךָ עַל־רֹאשֽׁוֹ׃",
+          "19": "וַיְמָאֵן אָבִיו וַיֹּאמֶר יָדַעְתִּֽי בְנִי יָדַעְתִּי גַּם־הוּא יִֽהְיֶה־לְּעָם וְגַם־הוּא יִגְדָּל וְאוּלָם אָחִיו הַקָּטֹן יִגְדַּל מִמֶּנּוּ וְזַרְעוֹ יִהְיֶה מְלֹֽא־הַגּוֹיִֽם׃",
+          "20": "וַיְבָרֲכֵם בַּיּוֹם הַהוּא לֵאמוֹר בְּךָ יְבָרֵךְ יִשְׂרָאֵל לֵאמֹר יְשִֽׂמְךָ אֱלֹהִים כְּאֶפְרַיִם וְכִמְנַשֶּׁה וַיָּשֶׂם אֶת־אֶפְרַיִם לִפְנֵי מְנַשֶּֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 17,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 21,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers. Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow.",
+        "riddle": "Behold, I die: but God shall be with you, and bring you again unto the land of your fathers",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "Therefore thus saith the LORD concerning the prophets that prophesy in my name, and I sent them not, yet they say, Sword and famine shall not be in this land; By sword and famine shall those prophets be consumed.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 14,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶֽם וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי",
+        "riddle": "הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶֽם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַאֲנִי",
+        "bonus_hint": {
+          "quote": "לָכֵן כֹּֽה־אָמַר יְהוָה עַֽל־הַנְּבִאִים הַנִּבְּאִים בִּשְׁמִי וַאֲנִי לֹֽא־שְׁלַחְתִּים וְהֵמָּה אֹֽמְרִים חֶרֶב וְרָעָב לֹא יִהְיֶה בָּאָרֶץ הַזֹּאת בַּחֶרֶב וּבָֽרָעָב יִתַּמּוּ הַנְּבִאִים הָהֵֽמָּה",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 14,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers.",
+          "22": "Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶֽם׃",
+          "22": "וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 21,
+        "end": 22
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-48-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 48,
+        "quote_verse_start": 21,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers. Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow.",
+        "riddle": "I have given to thee one portion above thy brethren",
+        "speaker": "Israel",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And my master made me swear, saying, Thou shalt not take a wife to my son of the daughters of the Canaanites, in whose land I dwell:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶֽם וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי",
+        "riddle": "וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אָנֹכִי",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁבִּעֵנִי אֲדֹנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Israel said unto Joseph, Behold, I die: but God shall be with you, and bring you again unto the land of your fathers.",
+          "22": "Moreover I have given to thee one portion above thy brethren, which I took out of the hand of the Amorite with my sword and with my bow."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יִשְׂרָאֵל אֶל־יוֹסֵף הִנֵּה אָנֹכִי מֵת וְהָיָה אֱלֹהִים עִמָּכֶם וְהֵשִׁיב אֶתְכֶם אֶל־אֶרֶץ אֲבֹתֵיכֶֽם׃",
+          "22": "וַאֲנִי נָתַתִּֽי לְךָ שְׁכֶם אַחַד עַל־אַחֶיךָ אֲשֶׁר לָקַחְתִּי מִיַּד הָֽאֱמֹרִי בְּחַרְבִּי וּבְקַשְׁתִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 48,
+        "start": 21,
+        "end": 22
       },
       "meta": {
         "mode": "llm",

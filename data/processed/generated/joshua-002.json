@@ -6,7 +6,7 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-02-04-05",
+      "id": "joshua-02-02-02",
       "source": {
         "method": "llm",
         "book_code": "JOS",
@@ -14,70 +14,566 @@
         "book_he": "יהושע",
         "chapter": 2,
         "quote_verse_start": 1,
-        "quote_verse_end": 5
+        "quote_verse_end": 2
       },
       "en": {
-        "quote": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot's house, named Rahab, and lodged there. And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country. And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country. And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were: And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them.",
-        "riddle": "pursue after them quickly; for ye shall overtake them.",
-        "speaker": "Rahab",
-        "listener": "king of Jericho's messengers",
+        "quote": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot's house, named Rahab, and lodged there. And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.",
+        "riddle": "Behold, there came men in hither to night of the children of Israel to search out the country.",
+        "speaker": "informant",
+        "listener": "king of Jericho",
         "book": "Joshua",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "men",
+        "bonus": "spy",
         "bonus_hint": {
-          "quote": "And Pharaoh commanded his men concerning him: and they sent him away, and his wife, and all that he had.",
+          "quote": "And Moses sent them to spy out the land of Canaan, and said unto them, Get you up this way southward, and go up into the mountain:",
           "source": {
-            "book": "Genesis",
-            "chapter": 12,
-            "start": 20,
-            "end": 20
+            "book": "Numbers",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
           }
         }
       },
       "he": {
-        "quote": "וַיִּשְׁלַח יִהוֹשֻֽׁעַ־בִּן נוּן מִֽן־הַשִּׁטִּים שְׁנַֽיִם־אֲנָשִׁים מְרַגְּלִים חֶרֶשׁ לֵאמֹר לְכוּ רְאוּ אֶת־הָאָרֶץ וְאֶת־יְרִיחוֹ וַיֵּלְכוּ וַיָּבֹאוּ בֵּית־אִשָּׁה זוֹנָה וּשְׁמָהּ רָחָב וַיִּשְׁכְּבוּ־שָֽׁמָּה וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
-        "riddle": "מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
-        "speaker": "רָחָב",
+        "quote": "וַיִּשְׁלַח יִהוֹשֻֽׁעַ־בִּן נוּן מִֽן־הַשִּׁטִּים שְׁנַֽיִם־אֲנָשִׁים מְרַגְּלִים חֶרֶשׁ לֵאמֹר לְכוּ רְאוּ אֶת־הָאָרֶץ וְאֶת־יְרִיחוֹ וַיֵּלְכוּ וַיָּבֹאוּ בֵּית־אִשָּׁה זוֹנָה וּשְׁמָהּ רָחָב וַיִּשְׁכְּבוּ־שָֽׁמָּה וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ",
+        "riddle": "הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ",
+        "speaker": "מְרַגְּלִים",
         "listener": "מֶלֶךְ יְרִיחוֹ",
         "book": "יהושע",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "אֲנָשִׁים",
+        "bonus": "וַיִּשְׁלַח",
         "bonus_hint": {
-          "quote": "וַיְצַו עָלָיו פַּרְעֹה אֲנָשִׁים וַֽיְשַׁלְּחוּ אֹתוֹ וְאֶת־אִשְׁתּוֹ וְאֶת־כָּל־אֲשֶׁר־לֽוֹ",
+          "quote": "וַיִּשְׁלַח אֹתָם מֹשֶׁה לָתוּר אֶת־אֶרֶץ כְּנָעַן וַיֹּאמֶר אֲלֵהֶם עֲלוּ זֶה בַּנֶּגֶב וַעֲלִיתֶם אֶת־הָהָֽר",
           "source": {
-            "book": "בראשית",
-            "chapter": 12,
-            "start": 20,
-            "end": 20
+            "book": "במדבר",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
           }
         }
       },
       "raw_quote_source": {
         "en": {
           "1": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot's house, named Rahab, and lodged there.",
-          "2": "And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.",
-          "3": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
-          "4": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
-          "5": "And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them."
+          "2": "And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country."
         },
         "he": {
           "1": "וַיִּשְׁלַח יִהוֹשֻֽׁעַ־בִּן נוּן מִֽן־הַשִּׁטִּים שְׁנַֽיִם־אֲנָשִׁים מְרַגְּלִים חֶרֶשׁ לֵאמֹר לְכוּ רְאוּ אֶת־הָאָרֶץ וְאֶת־יְרִיחוֹ וַיֵּלְכוּ וַיָּבֹאוּ בֵּית־אִשָּׁה זוֹנָה וּשְׁמָהּ רָחָב וַיִּשְׁכְּבוּ־שָֽׁמָּה׃",
-          "2": "וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ׃",
-          "3": "וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ׃",
-          "4": "וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר ׀ כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה׃",
-          "5": "וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם׃"
+          "2": "וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ׃"
         }
       },
       "ref": {
         "chapter": 2,
         "start": 1,
-        "end": 5
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
+        "riddle": "Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
+        "speaker": "king of Jericho",
+        "listener": "Rahab",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sent",
+        "bonus_hint": {
+          "quote": "And Abraham said of Sarah his wife, She is my sister: and Abimelech king of Gerar sent, and took Sarah.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ",
+        "riddle": "הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאו",
+        "speaker": "מֶלֶךְ יְרִיחוֹ",
+        "listener": "רָחָב",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־שָׂרָה אִשְׁתּוֹ אֲחֹתִי הִוא וַיִּשְׁלַח אֲבִימֶלֶךְ מֶלֶךְ גְּרָר וַיִּקַּח אֶת־שָׂרָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country."
+        },
+        "he": {
+          "3": "וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 3,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-14-14-2",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 8,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And before they were laid down, she came up unto them upon the roof; And she said unto the men, I know that the LORD hath given you the land, and that your terror is fallen upon us, and that all the inhabitants of the land faint because of you. For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed. And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the LORD your God, he is God in heaven above, and in earth beneath. Now therefore, I pray you, swear unto me by the LORD, since I have shewed you kindness, that ye will also shew kindness unto my father's house, and give me a true token: And that ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death. And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+        "riddle": "Our life for yours, if ye utter not this our business.",
+        "speaker": "men",
+        "listener": "Rahab",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "land",
+        "bonus_hint": {
+          "quote": "And it came to pass, as he was worshipping in the house of Nisroch his god, that Adrammelech and Sharezer his sons smote him with the sword: and they escaped into the land of Armenia. And Esar-haddon his son reigned in his stead.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 19,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהֵמָּה טֶרֶם יִשְׁכָּבוּן וְהִיא עָלְתָה עֲלֵיהֶם עַל־הַגָּֽג וַתֹּאמֶר אֶל־הָאֲנָשִׁים יָדַעְתִּי כִּֽי־נָתַן יְהוָה לָכֶם אֶת־הָאָרֶץ וְכִֽי־נָפְלָה אֵֽימַתְכֶם עָלֵינוּ וְכִי נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶֽם כִּי שָׁמַעְנוּ אֵת אֲשֶׁר־הוֹבִישׁ יְהוָה אֶת־מֵי יַם־סוּף מִפְּנֵיכֶם בְּצֵאתְכֶם מִמִּצְרָיִם וַאֲשֶׁר עֲשִׂיתֶם לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחֹן וּלְעוֹג אֲשֶׁר הֶחֱרַמְתֶּם אוֹתָֽם וַנִּשְׁמַע וַיִּמַּס לְבָבֵנוּ וְלֹא־קָמָה עוֹד רוּחַ בְּאִישׁ מִפְּנֵיכֶם כִּי יְהוָה אֱלֹֽהֵיכֶם הוּא אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּֽחַת וְעַתָּה הִשָּֽׁבְעוּ־נָא לִי בַּֽיהוָה כִּי־עָשִׂיתִי עִמָּכֶם חָסֶד וַעֲשִׂיתֶם גַּם־אַתֶּם עִם־בֵּית אָבִי חֶסֶד וּנְתַתֶּם לִי אוֹת אֱמֶֽת וְהַחֲיִתֶם אֶת־אָבִי וְאֶת־אִמִּי וְאֶת־אַחַי וְאֶת־אַחְיוֹתַי וְאֵת כָּל־אֲשֶׁר לָהֶם וְהִצַּלְתֶּם אֶת־נַפְשֹׁתֵינוּ מִמָּֽוֶת וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת",
+        "riddle": "נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רחב",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וְהֵמָּה",
+        "bonus_hint": {
+          "quote": "וַיְהִי הוּא מִֽשְׁתַּחֲוֶה בֵּית נִסְרֹךְ אֱלֹהָיו וְֽאַדְרַמֶּלֶךְ וְשַׂרְאֶצֶר בָנָיו הִכֻּהוּ בַחֶרֶב וְהֵמָּה נִמְלְטוּ אֶרֶץ אֲרָרָט וַיִּמְלֹךְ אֵֽסַר־חַדֹּן בְּנוֹ תַּחְתָּֽיו",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 19,
+            "start": 37,
+            "end": 37
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And before they were laid down, she came up unto them upon the roof;",
+          "9": "And she said unto the men, I know that the LORD hath given you the land, and that your terror is fallen upon us, and that all the inhabitants of the land faint because of you.",
+          "10": "For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed.",
+          "11": "And as soon as we had heard these things, our hearts did melt, neither did there remain any more courage in any man, because of you: for the LORD your God, he is God in heaven above, and in earth beneath.",
+          "12": "Now therefore, I pray you, swear unto me by the LORD, since I have shewed you kindness, that ye will also shew kindness unto my father's house, and give me a true token:",
+          "13": "And that ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death.",
+          "14": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee."
+        },
+        "he": {
+          "8": "וְהֵמָּה טֶרֶם יִשְׁכָּבוּן וְהִיא עָלְתָה עֲלֵיהֶם עַל־הַגָּֽג׃",
+          "9": "וַתֹּאמֶר אֶל־הָאֲנָשִׁים יָדַעְתִּי כִּֽי־נָתַן יְהוָה לָכֶם אֶת־הָאָרֶץ וְכִֽי־נָפְלָה אֵֽימַתְכֶם עָלֵינוּ וְכִי נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפְּנֵיכֶֽם׃",
+          "10": "כִּי שָׁמַעְנוּ אֵת אֲשֶׁר־הוֹבִישׁ יְהוָה אֶת־מֵי יַם־סוּף מִפְּנֵיכֶם בְּצֵאתְכֶם מִמִּצְרָיִם וַאֲשֶׁר עֲשִׂיתֶם לִשְׁנֵי מַלְכֵי הָאֱמֹרִי אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן לְסִיחֹן וּלְעוֹג אֲשֶׁר הֶחֱרַמְתֶּם אוֹתָֽם׃",
+          "11": "וַנִּשְׁמַע וַיִּמַּס לְבָבֵנוּ וְלֹא־קָמָה עוֹד רוּחַ בְּאִישׁ מִפְּנֵיכֶם כִּי יְהוָה אֱלֹֽהֵיכֶם הוּא אֱלֹהִים בַּשָּׁמַיִם מִמַּעַל וְעַל־הָאָרֶץ מִתָּֽחַת׃",
+          "12": "וְעַתָּה הִשָּֽׁבְעוּ־נָא לִי בַּֽיהוָה כִּי־עָשִׂיתִי עִמָּכֶם חָסֶד וַעֲשִׂיתֶם גַּם־אַתֶּם עִם־בֵּית אָבִי חֶסֶד וּנְתַתֶּם לִי אוֹת אֱמֶֽת׃",
+          "13": "וְהַחֲיִתֶם אֶת־אָבִי וְאֶת־אִמִּי וְאֶת־אַחַי וְאֶת־אַחְיוֹתַי וְאֵת כָּל־אֲשֶׁר לָהֶם וְהִצַּלְתֶּם אֶת־נַפְשֹׁתֵינוּ מִמָּֽוֶת׃",
+          "14": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 8,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And that ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death. And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee. Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall. And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way. And the men said unto her, We will be blameless of this thine oath which thou hast made us swear. Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee. And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him.",
+        "riddle": "whosoever shall be with thee in the house, his blood shall be on our head",
+        "speaker": "spies",
+        "listener": "Rahab",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "death",
+        "bonus_hint": {
+          "quote": "Now therefore, as the LORD liveth, which hath established me, and set me on the throne of David my father, and who hath made me an house, as he promised, Adonijah shall be put to death this day.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהַחֲיִתֶם אֶת־אָבִי וְאֶת־אִמִּי וְאֶת־אַחַי וְאֶת־אַחְיוֹתַי וְאֵת כָּל־אֲשֶׁר לָהֶם וְהִצַּלְתֶּם אֶת־נַפְשֹׁתֵינוּ מִמָּֽוֶת וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת וַתּוֹרִדֵם בַּחֶבֶל בְּעַד הַֽחַלּוֹן כִּי בֵיתָהּ בְּקִיר הַֽחוֹמָה וּבַֽחוֹמָה הִיא יוֹשָֽׁבֶת וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ",
+        "riddle": "כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רחב",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אָבִי",
+        "bonus_hint": {
+          "quote": "וְעַתָּה חַי־יְהוָה אֲשֶׁר הֱכִינַנִי וַיּֽוֹשִׁיבַנִי עַל־כִּסֵּא דָּוִד אָבִי וַאֲשֶׁר עָֽשָׂה־לִי בַּיִת כַּאֲשֶׁר דִּבֵּר כִּי הַיּוֹם יוּמַת אֲדֹנִיָּֽהוּ",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 2,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And that ye will save alive my father, and my mother, and my brethren, and my sisters, and all that they have, and deliver our lives from death.",
+          "14": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+          "15": "Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall.",
+          "16": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+          "17": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
+          "18": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.",
+          "19": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him."
+        },
+        "he": {
+          "13": "וְהַחֲיִתֶם אֶת־אָבִי וְאֶת־אִמִּי וְאֶת־אַחַי וְאֶת־אַחְיוֹתַי וְאֵת כָּל־אֲשֶׁר לָהֶם וְהִצַּלְתֶּם אֶת־נַפְשֹׁתֵינוּ מִמָּֽוֶת׃",
+          "14": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת׃",
+          "15": "וַתּוֹרִדֵם בַּחֶבֶל בְּעַד הַֽחַלּוֹן כִּי בֵיתָהּ בְּקִיר הַֽחוֹמָה וּבַֽחוֹמָה הִיא יוֹשָֽׁבֶת׃",
+          "16": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם׃",
+          "17": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃",
+          "18": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה׃",
+          "19": "וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ ׀ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 15,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall. And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way. And the men said unto her, We will be blameless of this thine oath which thou hast made us swear. Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee. And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him. And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear. And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window.",
+        "riddle": "According unto your words, so be it.",
+        "speaker": "Rahab",
+        "listener": "spies",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "window",
+        "bonus_hint": {
+          "quote": "And it came to pass, when he had been there a long time, that Abimelech king of the Philistines looked out at a window, and saw, and, behold, Isaac was sporting with Rebekah his wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתּוֹרִדֵם בַּחֶבֶל בְּעַד הַֽחַלּוֹן כִּי בֵיתָהּ בְּקִיר הַֽחוֹמָה וּבַֽחוֹמָה הִיא יוֹשָֽׁבֶת וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ וְאִם־תַּגִּידִי אֶת־דְּבָרֵנוּ זֶה וְהָיִינוּ נְקִיִּם מִשְּׁבֻעָתֵךְ אֲשֶׁר הִשְׁבַּעְתָּֽנוּ וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן",
+        "riddle": "כְּדִבְרֵיכֶם כֶּן־הוּא",
+        "speaker": "רחב",
+        "listener": "הָאֲנָשִׁים",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּעַד",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִּי אָֽרְכוּ־לוֹ שָׁם הַיָּמִים וַיַּשְׁקֵף אֲבִימֶלֶךְ מֶלֶךְ פְּלִשְׁתִּים בְּעַד הַֽחַלּוֹן וַיַּרְא וְהִנֵּה יִצְחָק מְצַחֵק אֵת רִבְקָה אִשְׁתּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 26,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Then she let them down by a cord through the window: for her house was upon the town wall, and she dwelt upon the wall.",
+          "16": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+          "17": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
+          "18": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.",
+          "19": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him.",
+          "20": "And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear.",
+          "21": "And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window."
+        },
+        "he": {
+          "15": "וַתּוֹרִדֵם בַּחֶבֶל בְּעַד הַֽחַלּוֹן כִּי בֵיתָהּ בְּקִיר הַֽחוֹמָה וּבַֽחוֹמָה הִיא יוֹשָֽׁבֶת׃",
+          "16": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם׃",
+          "17": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃",
+          "18": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה׃",
+          "19": "וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ ׀ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ׃",
+          "20": "וְאִם־תַּגִּידִי אֶת־דְּבָרֵנוּ זֶה וְהָיִינוּ נְקִיִּם מִשְּׁבֻעָתֵךְ אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃",
+          "21": "וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 15,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way. And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
+        "riddle": "We will be blameless of this thine oath which thou hast made us swear.",
+        "speaker": "men",
+        "listener": "Rahab",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "mountain",
+        "bonus_hint": {
+          "quote": "And he removed from thence unto a mountain on the east of Bethel, and pitched his tent, having Bethel on the west, and Hai on the east: and there he builded an altar unto the LORD, and called upon the name of the LORD.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 12,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ",
+        "riddle": "נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנו",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רחב",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָהָרָה",
+        "bonus_hint": {
+          "quote": "וַיַּעְתֵּק מִשָּׁם הָהָרָה מִקֶּדֶם לְבֵֽית־אֵל וַיֵּט אָהֳלֹה בֵּֽית־אֵל מִיָּם וְהָעַי מִקֶּדֶם וַיִּֽבֶן־שָׁם מִזְבֵּחַ לַֽיהוָה וַיִּקְרָא בְּשֵׁם יְהוָֽה",
+          "source": {
+            "book": "בראשית",
+            "chapter": 12,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+          "17": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear."
+        },
+        "he": {
+          "16": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם׃",
+          "17": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "joshua-02-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 18,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee. And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him. And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear. And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window. And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not. So the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun, and told him all things that befell them: And they said unto Joshua, Truly the LORD hath delivered into our hands all the land; for even all the inhabitants of the country do faint because of us.",
+        "riddle": "Truly the LORD hath delivered into our hands all the land",
+        "speaker": "spies",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "scarlet",
+        "bonus_hint": {
+          "quote": "And afterward came out his brother, that had the scarlet thread upon his hand: and his name was called Zarah.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 38,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ וְאִם־תַּגִּידִי אֶת־דְּבָרֵנוּ זֶה וְהָיִינוּ נְקִיִּם מִשְּׁבֻעָתֵךְ אֲשֶׁר הִשְׁבַּעְתָּֽנוּ וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן וַיֵּלְכוּ וַיָּבֹאוּ הָהָרָה וַיֵּשְׁבוּ שָׁם שְׁלֹשֶׁת יָמִים עַד־שָׁבוּ הָרֹדְפִים וַיְבַקְשׁוּ הָרֹדְפִים בְּכָל־הַדֶּרֶךְ וְלֹא מָצָֽאוּ וַיָּשֻׁבוּ שְׁנֵי הָֽאֲנָשִׁים וַיֵּרְדוּ מֵֽהָהָר וַיַּעַבְרוּ וַיָּבֹאוּ אֶל־יְהוֹשֻׁעַ בִּן־נוּן וַיְסַפְּרוּ־לוֹ אֵת כָּל־הַמֹּצְאוֹת אוֹתָֽם וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפָּנֵֽינוּ",
+        "riddle": "כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ",
+        "speaker": "המרגלים",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַשָּׁנִי",
+        "bonus_hint": {
+          "quote": "וְאַחַר יָצָא אָחִיו אֲשֶׁר עַל־יָדוֹ הַשָּׁנִי וַיִּקְרָא שְׁמוֹ זָֽרַח",
+          "source": {
+            "book": "בראשית",
+            "chapter": 38,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.",
+          "19": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him.",
+          "20": "And if thou utter this our business, then we will be quit of thine oath which thou hast made us to swear.",
+          "21": "And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window.",
+          "22": "And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not.",
+          "23": "So the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun, and told him all things that befell them:",
+          "24": "And they said unto Joshua, Truly the LORD hath delivered into our hands all the land; for even all the inhabitants of the country do faint because of us."
+        },
+        "he": {
+          "18": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה׃",
+          "19": "וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ ׀ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ׃",
+          "20": "וְאִם־תַּגִּידִי אֶת־דְּבָרֵנוּ זֶה וְהָיִינוּ נְקִיִּם מִשְּׁבֻעָתֵךְ אֲשֶׁר הִשְׁבַּעְתָּֽנוּ׃",
+          "21": "וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן׃",
+          "22": "וַיֵּלְכוּ וַיָּבֹאוּ הָהָרָה וַיֵּשְׁבוּ שָׁם שְׁלֹשֶׁת יָמִים עַד־שָׁבוּ הָרֹדְפִים וַיְבַקְשׁוּ הָרֹדְפִים בְּכָל־הַדֶּרֶךְ וְלֹא מָצָֽאוּ׃",
+          "23": "וַיָּשֻׁבוּ שְׁנֵי הָֽאֲנָשִׁים וַיֵּרְדוּ מֵֽהָהָר וַיַּעַבְרוּ וַיָּבֹאוּ אֶל־יְהוֹשֻׁעַ בִּן־נוּן וַיְסַפְּרוּ־לוֹ אֵת כָּל־הַמֹּצְאוֹת אוֹתָֽם׃",
+          "24": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפָּנֵֽינוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 18,
+        "end": 24
       },
       "meta": {
         "mode": "llm",

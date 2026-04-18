@@ -1,0 +1,101 @@
+{
+  "book_code": "JDG",
+  "book": "Judges",
+  "book_he": "שופטים",
+  "chapter": 2,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "judges-02-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 2,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And the anger of the LORD was hot against Israel; and he said, Because that this people hath transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice;",
+        "riddle": "Because that this people hath transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice;",
+        "speaker": "LORD",
+        "listener": "Israel",
+        "book": "Judges",
+        "options": {
+          "speaker": [
+            "Micah",
+            "Gideon",
+            "Samson"
+          ],
+          "listener": [
+            "children of Israel",
+            "Philistines",
+            "Judah"
+          ]
+        },
+        "bonus": "anger",
+        "bonus_hint": {
+          "quote": "And Jacob's anger was kindled against Rachel: and he said, Am I in God's stead, who hath withheld from thee the fruit of the womb?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 30,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּֽחַר־אַף יְהוָה בְּיִשְׂרָאֵל וַיֹּאמֶר יַעַן אֲשֶׁר עָבְרוּ הַגּוֹי הַזֶּה אֶת־בְּרִיתִי אֲשֶׁר צִוִּיתִי אֶת־אֲבוֹתָם וְלֹא שָׁמְעוּ לְקוֹלִֽי",
+        "riddle": "יַעַן אֲשֶׁר עָבְרוּ הַגּוֹי הַזֶּה אֶת־בְּרִיתִי אֲשֶׁר צִוִּיתִי אֶת־אֲבוֹתָם וְלֹא שָׁמְעוּ לְקוֹלִֽי",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שופטים",
+        "options": {
+          "speaker": [
+            "מִיכָה",
+            "גִּדְעוֹן",
+            "שִׁמְשׁוֹן"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים",
+            "יְהוּדָה"
+          ]
+        },
+        "bonus": "וַיִּֽחַר",
+        "bonus_hint": {
+          "quote": "וַיִּֽחַר־אַף יַעֲקֹב בְּרָחֵל וַיֹּאמֶר הֲתַחַת אֱלֹהִים אָנֹכִי אֲשֶׁר־מָנַע מִמֵּךְ פְּרִי־בָֽטֶן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 30,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And the anger of the LORD was hot against Israel; and he said, Because that this people hath transgressed my covenant which I commanded their fathers, and have not hearkened unto my voice;"
+        },
+        "he": {
+          "20": "וַיִּֽחַר־אַף יְהוָה בְּיִשְׂרָאֵל וַיֹּאמֶר יַעַן אֲשֶׁר עָבְרוּ הַגּוֹי הַזֶּה אֶת־בְּרִיתִי אֲשֶׁר צִוִּיתִי אֶת־אֲבוֹתָם וְלֹא שָׁמְעוּ לְקוֹלִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 20,
+        "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

@@ -4,12 +4,455 @@
   "book_he": "במדבר",
   "chapter": 21,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-21-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And Israel vowed a vow unto the LORD, and said, If thou wilt indeed deliver this people into my hand, then I will utterly destroy their cities.",
+        "riddle": "If thou wilt indeed deliver this people into my hand, then I will utterly destroy their cities.",
+        "speaker": "Israel",
+        "listener": "the LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיִּדַּר יִשְׂרָאֵל נֶדֶר לַֽיהוָה וַיֹּאמַר אִם־נָתֹן תִּתֵּן אֶת־הָעָם הַזֶּה בְּיָדִי וְהַֽחֲרַמְתִּי אֶת־עָרֵיהֶֽם",
+        "riddle": "אִם־נָתֹן תִּתֵּן אֶת־הָעָם הַזֶּה בְּיָדִי וְהַֽחֲרַמְתִּי אֶת־עָרֵיהֶֽם",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "יהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Israel vowed a vow unto the LORD, and said, If thou wilt indeed deliver this people into my hand, then I will utterly destroy their cities."
+        },
+        "he": {
+          "2": "וַיִּדַּר יִשְׂרָאֵל נֶדֶר לַֽיהוָה וַיֹּאמַר אִם־נָתֹן תִּתֵּן אֶת־הָעָם הַזֶּה בְּיָדִי וְהַֽחֲרַמְתִּי אֶת־עָרֵיהֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vow/conditional statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-21-05-05",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the people spake against God, and against Moses, Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread.",
+        "riddle": "Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread.",
+        "speaker": "the people",
+        "listener": "God and Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר הָעָם בֵּֽאלֹהִים וּבְמֹשֶׁה לָמָה הֶֽעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵֽל",
+        "riddle": "לָמָה הֶֽעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵֽל",
+        "speaker": "הָעָם",
+        "listener": "אלֹהִים וּבְמֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the people spake against God, and against Moses, Wherefore have ye brought us up out of Egypt to die in the wilderness? for there is no bread, neither is there any water; and our soul loatheth this light bread."
+        },
+        "he": {
+          "5": "וַיְדַבֵּר הָעָם בֵּֽאלֹהִים וּבְמֹשֶׁה לָמָה הֶֽעֱלִיתֻנוּ מִמִּצְרַיִם לָמוּת בַּמִּדְבָּר כִּי אֵין לֶחֶם וְאֵין מַיִם וְנַפְשֵׁנוּ קָצָה בַּלֶּחֶם הַקְּלֹקֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "complaint/question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "numbers-21-07-07",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "Therefore the people came to Moses, and said, We have sinned, for we have spoken against the LORD, and against thee; pray unto the LORD, that he take away the serpents from us. And Moses prayed for the people.",
+        "riddle": "We have sinned, for we have spoken against the LORD, and against thee; pray unto the LORD, that he take away the serpents from us.",
+        "speaker": "the people",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיָּבֹא הָעָם אֶל־מֹשֶׁה וַיֹּאמְרוּ חָטָאנוּ כִּֽי־דִבַּרְנוּ בַֽיהוָה וָבָךְ הִתְפַּלֵּל אֶל־יְהוָה וְיָסֵר מֵעָלֵינוּ אֶת־הַנָּחָשׁ וַיִּתְפַּלֵּל מֹשֶׁה בְּעַד הָעָֽם",
+        "riddle": "חָטָאנוּ כִּֽי־דִבַּרְנוּ בַֽיהוָה וָבָךְ הִתְפַּלֵּל אֶל־יְהוָה וְיָסֵר מֵעָלֵינוּ אֶת־הַנָּחָש",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Therefore the people came to Moses, and said, We have sinned, for we have spoken against the LORD, and against thee; pray unto the LORD, that he take away the serpents from us. And Moses prayed for the people."
+        },
+        "he": {
+          "7": "וַיָּבֹא הָעָם אֶל־מֹשֶׁה וַיֹּאמְרוּ חָטָאנוּ כִּֽי־דִבַּרְנוּ בַֽיהוָה וָבָךְ הִתְפַּלֵּל אֶל־יְהוָה וְיָסֵר מֵעָלֵינוּ אֶת־הַנָּחָשׁ וַיִּתְפַּלֵּל מֹשֶׁה בְּעַד הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "confession and plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "numbers-21-08-08-1",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+        "riddle": "LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "numbers-21-08-08-2",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+        "riddle": "Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the LORD said unto Moses, Make thee a fiery serpent, and set it upon a pole: and it shall come to pass, that every one that is bitten, when he looketh upon it, shall live."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עֲשֵׂה לְךָ שָׂרָף וְשִׂים אֹתוֹ עַל־נֵס וְהָיָה כָּל־הַנָּשׁוּךְ וְרָאָה אֹתוֹ וָחָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "numbers-21-16-16",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And from thence they went to Beer: that is the well whereof the LORD spake unto Moses, Gather the people together, and I will give them water.",
+        "riddle": "Gather the people together, and I will give them water.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וּמִשָּׁם בְּאֵרָה הִוא הַבְּאֵר אֲשֶׁר אָמַר יְהוָה לְמֹשֶׁה אֱסֹף אֶת־הָעָם וְאֶתְּנָה לָהֶם מָֽיִם",
+        "riddle": "אֱסֹף אֶת־הָעָם וְאֶתְּנָה לָהֶם מָֽיִם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And from thence they went to Beer: that is the well whereof the LORD spake unto Moses, Gather the people together, and I will give them water."
+        },
+        "he": {
+          "16": "וּמִשָּׁם בְּאֵרָה הִוא הַבְּאֵר אֲשֶׁר אָמַר יְהוָה לְמֹשֶׁה אֱסֹף אֶת־הָעָם וְאֶתְּנָה לָהֶם מָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "numbers-21-17-17",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then Israel sang this song, Spring up, O well; sing ye unto it:",
+        "riddle": "Spring up, O well; sing ye unto it:",
+        "speaker": "Israel",
+        "listener": "the well",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אָז יָשִׁיר יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת עֲלִי בְאֵר עֱנוּ־לָֽהּ",
+        "riddle": "עֲלִי בְאֵר עֱנוּ־לָֽה",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "בְאֵר",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Then Israel sang this song, Spring up, O well; sing ye unto it:"
+        },
+        "he": {
+          "17": "אָז יָשִׁיר יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת עֲלִי בְאֵר עֱנוּ־לָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "song lyrics",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "numbers-21-22-22",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "Let me pass through thy land: we will not turn into the fields, or into the vineyards; we will not drink of the waters of the well: but we will go along by the king's high way, until we be past thy borders.",
+        "riddle": "Let me pass through thy land: we will not turn into the fields, or into the vineyards; we will not drink of the waters of the well: but we will go along by the king's high way, until we be past thy borders.",
+        "speaker": "Israel",
+        "listener": "Sihon",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אֶעְבְּרָה בְאַרְצֶךָ לֹא נִטֶּה בְּשָׂדֶה וּבְכֶרֶם לֹא נִשְׁתֶּה מֵי בְאֵר בְּדֶרֶךְ הַמֶּלֶךְ נֵלֵךְ עַד אֲשֶֽׁר־נַעֲבֹר גְּבֻלֶֽךָ",
+        "riddle": "אֶעְבְּרָה בְאַרְצֶךָ לֹא נִטֶּה בְּשָׂדֶה וּבְכֶרֶם לֹא נִשְׁתֶּה מֵי בְאֵר בְּדֶרֶךְ הַמֶּלֶךְ נֵלֵךְ עַד אֲשֶֽׁר־נַעֲבֹר גְּבֻלֶֽךָ",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "סִיחֹן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Israel sent messengers unto Sihon king of the Amorites, saying,",
+          "22": "Let me pass through thy land: we will not turn into the fields, or into the vineyards; we will not drink of the waters of the well: but we will go along by the king's high way, until we be past thy borders."
+        },
+        "he": {
+          "21": "וַיִּשְׁלַח יִשְׂרָאֵל מַלְאָכִים אֶל־סִיחֹן מֶֽלֶךְ־הָאֱמֹרִי לֵאמֹֽר׃",
+          "22": "אֶעְבְּרָה בְאַרְצֶךָ לֹא נִטֶּה בְּשָׂדֶה וּבְכֶרֶם לֹא נִשְׁתֶּה מֵי בְאֵר בְּדֶרֶךְ הַמֶּלֶךְ נֵלֵךְ עַד אֲשֶֽׁר־נַעֲבֹר גְּבֻלֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "numbers-21-27-27",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Wherefore they that speak in proverbs say, Come into Heshbon, let the city of Sihon be built and prepared:",
+        "riddle": "Come into Heshbon, let the city of Sihon be built and prepared:",
+        "speaker": "those that speak in proverbs",
+        "listener": "people",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "עַל־כֵּן יֹאמְרוּ הַמֹּשְׁלִים בֹּאוּ חֶשְׁבּוֹן תִּבָּנֶה וְתִכּוֹנֵן עִיר סִיחֽוֹן",
+        "riddle": "בֹּאוּ חֶשְׁבּוֹן תִּבָּנֶה וְתִכּוֹנֵן עִיר סִיחֽוֹן",
+        "speaker": "הַמֹּשְׁלִים",
+        "listener": "עַל־כֵּן",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "Wherefore they that speak in proverbs say, Come into Heshbon, let the city of Sihon be built and prepared:"
+        },
+        "he": {
+          "27": "עַל־כֵּן יֹאמְרוּ הַמֹּשְׁלִים בֹּאוּ חֶשְׁבּוֹן תִּבָּנֶה וְתִכּוֹנֵן עִיר סִיחֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "proverbial command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "numbers-21-34-34",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 21,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.",
+        "riddle": "Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אַל־תִּירָא אֹתוֹ כִּי בְיָדְךָ נָתַתִּי אֹתוֹ וְאֶת־כָּל־עַמּוֹ וְאֶת־אַרְצוֹ וְעָשִׂיתָ לּוֹ כַּאֲשֶׁר עָשִׂיתָ לְסִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּֽוֹן",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אַל־תִּירָא אֹתוֹ כִּי בְיָדְךָ נָתַתִּי אֹתוֹ וְאֶת־כָּל־עַמּוֹ וְאֶת־אַרְצוֹ וְעָשִׂיתָ לּוֹ כַּאֲשֶׁר עָשִׂיתָ לְסִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּֽוֹן",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And the LORD said unto Moses, Fear him not: for I have delivered him into thy hand, and all his people, and his land; and thou shalt do to him as thou didst unto Sihon king of the Amorites, which dwelt at Heshbon."
+        },
+        "he": {
+          "34": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אַל־תִּירָא אֹתוֹ כִּי בְיָדְךָ נָתַתִּי אֹתוֹ וְאֶת־כָּל־עַמּוֹ וְאֶת־אַרְצוֹ וְעָשִׂיתָ לּוֹ כַּאֲשֶׁר עָשִׂיתָ לְסִיחֹן מֶלֶךְ הָֽאֱמֹרִי אֲשֶׁר יוֹשֵׁב בְּחֶשְׁבּֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command and promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 34,
+        "end": 34
+      }
+    }
+  ],
   "stats": {
-    "window_count": 18,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 0,
-    "issue_count": 18
+    "llm_window_count": 6,
+    "projection_llm_count": 10,
+    "llm_call_count": 16,
+    "spec_count": 10,
+    "kept_count": 10,
+    "issue_count": 0
   }
 }

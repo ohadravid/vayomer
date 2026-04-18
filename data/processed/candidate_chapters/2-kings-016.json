@@ -4,12 +4,60 @@
   "book_he": "מלכים ב",
   "chapter": 16,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-kings-16-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 16,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me.",
+        "riddle": "I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me.",
+        "speaker": "Ahaz",
+        "listener": "Tiglath-pileser",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אָחָז מַלְאָכִים אֶל־תִּגְלַת פְּלֶסֶר מֶֽלֶךְ־אַשּׁוּר לֵאמֹר עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי",
+        "riddle": "עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי",
+        "speaker": "אָחָז",
+        "listener": "תִּגְלַת פְּלֶסֶר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me."
+        },
+        "he": {
+          "7": "וַיִּשְׁלַח אָחָז מַלְאָכִים אֶל־תִּגְלַת פְּלֶסֶר מֶֽלֶךְ־אַשּׁוּר לֵאמֹר עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

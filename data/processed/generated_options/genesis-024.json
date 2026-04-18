@@ -6,6 +6,394 @@
   "mode": "llm",
   "items": [
     {
+      "id": "genesis-24-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And Abraham was old, and well stricken in age: and the LORD had blessed Abraham in all things. And Abraham said unto his eldest servant of his house, that ruled over all that he had, Put, I pray thee, thy hand under my thigh:",
+        "riddle": "Put, I pray thee, thy hand under my thigh:",
+        "speaker": "Abraham",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Joseph",
+            "Moses"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Isaac"
+          ]
+        },
+        "bonus": "blessed",
+        "bonus_hint": {
+          "quote": "All these are the twelve tribes of Israel: and this is it that their father spake unto them, and blessed them; every one according to his blessing he blessed them.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 49,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאַבְרָהָם זָקֵן בָּא בַּיָּמִים וַֽיהוָה בֵּרַךְ אֶת־אַבְרָהָם בַּכֹּֽל וַיֹּאמֶר אַבְרָהָם אֶל־עַבְדּוֹ זְקַן בֵּיתוֹ הַמֹּשֵׁל בְּכָל־אֲשֶׁר־לוֹ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִֽי",
+        "riddle": "שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִֽי",
+        "speaker": "אַבְרָהָם",
+        "listener": "עַבְדּוֹ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "יוֹסֵף",
+            "מֹשֶׁה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "בֵּרַךְ",
+        "bonus_hint": {
+          "quote": "כָּל־אֵלֶּה שִׁבְטֵי יִשְׂרָאֵל שְׁנֵים עָשָׂר וְזֹאת אֲשֶׁר־דִּבֶּר לָהֶם אֲבִיהֶם וַיְבָרֶךְ אוֹתָם אִישׁ אֲשֶׁר כְּבִרְכָתוֹ בֵּרַךְ אֹתָֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 49,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Abraham was old, and well stricken in age: and the LORD had blessed Abraham in all things.",
+          "2": "And Abraham said unto his eldest servant of his house, that ruled over all that he had, Put, I pray thee, thy hand under my thigh:"
+        },
+        "he": {
+          "1": "וְאַבְרָהָם זָקֵן בָּא בַּיָּמִים וַֽיהוָה בֵּרַךְ אֶת־אַבְרָהָם בַּכֹּֽל׃",
+          "2": "וַיֹּאמֶר אַבְרָהָם אֶל־עַבְדּוֹ זְקַן בֵּיתוֹ הַמֹּשֵׁל בְּכָל־אֲשֶׁר־לוֹ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 2,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Abraham said unto his eldest servant of his house, that ruled over all that he had, Put, I pray thee, thy hand under my thigh: And I will make thee swear by the LORD, the God of heaven, and the God of the earth, that thou shalt not take a wife unto my son of the daughters of the Canaanites, among whom I dwell: But thou shalt go unto my country, and to my kindred, and take a wife unto my son Isaac. And the servant said unto him, Peradventure the woman will not be willing to follow me unto this land: must I needs bring thy son again unto the land from whence thou camest? And Abraham said unto him, Beware thou that thou bring not my son thither again. The LORD God of heaven, which took me from my father's house, and from the land of my kindred, and which spake unto me, and that sware unto me, saying, Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence. And if the woman will not be willing to follow thee, then thou shalt be clear from this my oath: only bring not my son thither again.",
+        "riddle": "if the woman will not be willing to follow thee, then thou shalt be clear from this my oath: only bring not my son thither again.",
+        "speaker": "Abraham",
+        "listener": "Abraham's servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Isaac",
+            "Jacob",
+            "Joseph"
+          ],
+          "listener": [
+            "Rebekah",
+            "Isaac",
+            "Joseph"
+          ]
+        },
+        "bonus": "thigh",
+        "bonus_hint": {
+          "quote": "And the time drew nigh that Israel must die: and he called his son Joseph, and said unto him, If now I have found grace in thy sight, put, I pray thee, thy hand under my thigh, and deal kindly and truly with me; bury me not, I pray thee, in Egypt:",
+          "source": {
+            "book": "Genesis",
+            "chapter": 47,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְרָהָם אֶל־עַבְדּוֹ זְקַן בֵּיתוֹ הַמֹּשֵׁל בְּכָל־אֲשֶׁר־לוֹ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִֽי וְאַשְׁבִּיעֲךָ בַּֽיהוָה אֱלֹהֵי הַשָּׁמַיִם וֵֽאלֹהֵי הָאָרֶץ אֲשֶׁר לֹֽא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יוֹשֵׁב בְּקִרְבּֽוֹ כִּי אֶל־אַרְצִי וְאֶל־מוֹלַדְתִּי תֵּלֵךְ וְלָקַחְתָּ אִשָּׁה לִבְנִי לְיִצְחָֽק וַיֹּאמֶר אֵלָיו הָעֶבֶד אוּלַי לֹא־תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרַי אֶל־הָאָרֶץ הַזֹּאת הֶֽהָשֵׁב אָשִׁיב אֶת־בִּנְךָ אֶל־הָאָרֶץ אֲשֶׁר־יָצָאתָ מִשָּֽׁם וַיֹּאמֶר אֵלָיו אַבְרָהָם הִשָּׁמֶר לְךָ פֶּן־תָּשִׁיב אֶת־בְּנִי שָֽׁמָּה יְהוָה אֱלֹהֵי הַשָּׁמַיִם אֲשֶׁר לְקָחַנִי מִבֵּית אָבִי וּמֵאֶרֶץ מֽוֹלַדְתִּי וַאֲשֶׁר דִּבֶּר־לִי וַאֲשֶׁר נִֽשְׁבַּֽע־לִי לֵאמֹר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת הוּא יִשְׁלַח מַלְאָכוֹ לְפָנֶיךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִשָּֽׁם וְאִם־לֹא תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרֶיךָ וְנִקִּיתָ מִשְּׁבֻעָתִי זֹאת רַק אֶת־בְּנִי לֹא תָשֵׁב שָֽׁמָּה",
+        "riddle": "וְאִם־לֹא תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרֶיךָ וְנִקִּיתָ מִשְּׁבֻעָתִי זֹאת רַק אֶת־בְּנִי לֹא תָשֵׁב שָֽׁמָּה",
+        "speaker": "אַבְרָהָם",
+        "listener": "עֶבֶד אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יִצְחָק",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "רִבְקָה",
+            "יִצְחָק",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "שִֽׂים",
+        "bonus_hint": {
+          "quote": "וַיִּקְרְבוּ יְמֵֽי־יִשְׂרָאֵל לָמוּת וַיִּקְרָא לִבְנוֹ לְיוֹסֵף וַיֹּאמֶר לוֹ אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִי וְעָשִׂיתָ עִמָּדִי חֶסֶד וֶאֱמֶת אַל־נָא תִקְבְּרֵנִי בְּמִצְרָֽיִם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 47,
+            "start": 29,
+            "end": 29
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Abraham said unto his eldest servant of his house, that ruled over all that he had, Put, I pray thee, thy hand under my thigh:",
+          "3": "And I will make thee swear by the LORD, the God of heaven, and the God of the earth, that thou shalt not take a wife unto my son of the daughters of the Canaanites, among whom I dwell:",
+          "4": "But thou shalt go unto my country, and to my kindred, and take a wife unto my son Isaac.",
+          "5": "And the servant said unto him, Peradventure the woman will not be willing to follow me unto this land: must I needs bring thy son again unto the land from whence thou camest?",
+          "6": "And Abraham said unto him, Beware thou that thou bring not my son thither again.",
+          "7": "The LORD God of heaven, which took me from my father's house, and from the land of my kindred, and which spake unto me, and that sware unto me, saying, Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence.",
+          "8": "And if the woman will not be willing to follow thee, then thou shalt be clear from this my oath: only bring not my son thither again."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אַבְרָהָם אֶל־עַבְדּוֹ זְקַן בֵּיתוֹ הַמֹּשֵׁל בְּכָל־אֲשֶׁר־לוֹ שִֽׂים־נָא יָדְךָ תַּחַת יְרֵכִֽי׃",
+          "3": "וְאַשְׁבִּיעֲךָ בַּֽיהוָה אֱלֹהֵי הַשָּׁמַיִם וֵֽאלֹהֵי הָאָרֶץ אֲשֶׁר לֹֽא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יוֹשֵׁב בְּקִרְבּֽוֹ׃",
+          "4": "כִּי אֶל־אַרְצִי וְאֶל־מוֹלַדְתִּי תֵּלֵךְ וְלָקַחְתָּ אִשָּׁה לִבְנִי לְיִצְחָֽק׃",
+          "5": "וַיֹּאמֶר אֵלָיו הָעֶבֶד אוּלַי לֹא־תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרַי אֶל־הָאָרֶץ הַזֹּאת הֶֽהָשֵׁב אָשִׁיב אֶת־בִּנְךָ אֶל־הָאָרֶץ אֲשֶׁר־יָצָאתָ מִשָּֽׁם׃",
+          "6": "וַיֹּאמֶר אֵלָיו אַבְרָהָם הִשָּׁמֶר לְךָ פֶּן־תָּשִׁיב אֶת־בְּנִי שָֽׁמָּה׃",
+          "7": "יְהוָה ׀ אֱלֹהֵי הַשָּׁמַיִם אֲשֶׁר לְקָחַנִי מִבֵּית אָבִי וּמֵאֶרֶץ מֽוֹלַדְתִּי וַאֲשֶׁר דִּבֶּר־לִי וַאֲשֶׁר נִֽשְׁבַּֽע־לִי לֵאמֹר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת הוּא יִשְׁלַח מַלְאָכוֹ לְפָנֶיךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִשָּֽׁם׃",
+          "8": "וְאִם־לֹא תֹאבֶה הָֽאִשָּׁה לָלֶכֶת אַחֲרֶיךָ וְנִקִּיתָ מִשְּׁבֻעָתִי זֹאת רַק אֶת־בְּנִי לֹא תָשֵׁב שָֽׁמָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 2,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 6,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Abraham said unto him, Beware thou that thou bring not my son thither again. The LORD God of heaven, which took me from my father's house, and from the land of my kindred, and which spake unto me, and that sware unto me, saying, Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence.",
+        "riddle": "Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence.",
+        "speaker": "LORD",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Jacob",
+            "Balaam"
+          ],
+          "listener": [
+            "Joseph",
+            "Isaac",
+            "Moses"
+          ]
+        },
+        "bonus": "heaven",
+        "bonus_hint": {
+          "quote": "And the angel of the LORD called unto him out of heaven, and said, Abraham, Abraham: and he said, Here am I.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אַבְרָהָם הִשָּׁמֶר לְךָ פֶּן־תָּשִׁיב אֶת־בְּנִי שָֽׁמָּה יְהוָה אֱלֹהֵי הַשָּׁמַיִם אֲשֶׁר לְקָחַנִי מִבֵּית אָבִי וּמֵאֶרֶץ מֽוֹלַדְתִּי וַאֲשֶׁר דִּבֶּר־לִי וַאֲשֶׁר נִֽשְׁבַּֽע־לִי לֵאמֹר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת הוּא יִשְׁלַח מַלְאָכוֹ לְפָנֶיךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִשָּֽׁם",
+        "riddle": "אֲשֶׁר לְקָחַנִי מִבֵּית אָבִי וּמֵאֶרֶץ מֽוֹלַדְתִּי וַאֲשֶׁר דִּבֶּר־לִי וַאֲשֶׁר נִֽשְׁבַּֽע־לִי לֵאמֹר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת הוּא יִשְׁלַח מַלְאָכוֹ לְפָנֶיךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִשָּֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "מֹשֶׁה"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא אֵלָיו מַלְאַךְ יְהוָה מִן־הַשָּׁמַיִם וַיֹּאמֶר אַבְרָהָם אַבְרָהָם וַיֹּאמֶר הִנֵּֽנִי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Abraham said unto him, Beware thou that thou bring not my son thither again.",
+          "7": "The LORD God of heaven, which took me from my father's house, and from the land of my kindred, and which spake unto me, and that sware unto me, saying, Unto thy seed will I give this land; he shall send his angel before thee, and thou shalt take a wife unto my son from thence."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר אֵלָיו אַבְרָהָם הִשָּׁמֶר לְךָ פֶּן־תָּשִׁיב אֶת־בְּנִי שָֽׁמָּה׃",
+          "7": "יְהוָה ׀ אֱלֹהֵי הַשָּׁמַיִם אֲשֶׁר לְקָחַנִי מִבֵּית אָבִי וּמֵאֶרֶץ מֽוֹלַדְתִּי וַאֲשֶׁר דִּבֶּר־לִי וַאֲשֶׁר נִֽשְׁבַּֽע־לִי לֵאמֹר לְזַרְעֲךָ אֶתֵּן אֶת־הָאָרֶץ הַזֹּאת הוּא יִשְׁלַח מַלְאָכוֹ לְפָנֶיךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִשָּֽׁם׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 6,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 12,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And he said, O LORD God of my master Abraham, I pray thee, send me good speed this day, and shew kindness unto my master Abraham. Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water: And let it come to pass, that the damsel to whom I shall say, Let down thy pitcher, I pray thee, that I may drink; and she shall say, Drink, and I will give thy camels drink also: let the same be she that thou hast appointed for thy servant Isaac; and thereby shall I know that thou hast shewed kindness unto my master. And it came to pass, before he had done speaking, that, behold, Rebekah came out, who was born to Bethuel, son of Milcah, the wife of Nahor, Abraham's brother, with her pitcher upon her shoulder. And the damsel was very fair to look upon, a virgin, neither had any man known her: and she went down to the well, and filled her pitcher, and came up. And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher. And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink.",
+        "riddle": "Drink, my lord",
+        "speaker": "Rebekah",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Tamar",
+            "Isaac",
+            "Laban"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Isaac"
+          ]
+        },
+        "bonus": "master",
+        "bonus_hint": {
+          "quote": "And the LORD was with Joseph, and he was a prosperous man; and he was in the house of his master the Egyptian.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה־נָא לְפָנַי הַיּוֹם וַעֲשֵׂה־חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָֽיִם וְהָיָה הַֽנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִֽי וַֽיְהִי־הוּא טֶרֶם כִּלָּה לְדַבֵּר וְהִנֵּה רִבְקָה יֹצֵאת אֲשֶׁר יֻלְּדָה לִבְתוּאֵל בֶּן־מִלְכָּה אֵשֶׁת נָחוֹר אֲחִי אַבְרָהָם וְכַדָּהּ עַל־שִׁכְמָֽהּ וְהַֽנַּעֲרָ טֹבַת מַרְאֶה מְאֹד בְּתוּלָה וְאִישׁ לֹא יְדָעָהּ וַתֵּרֶד הָעַיְנָה וַתְּמַלֵּא כַדָּהּ וַתָּֽעַל וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ",
+        "riddle": "שְׁתֵה אֲדֹנִי",
+        "speaker": "רִבְקָה",
+        "listener": "הָעֶבֶד",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "תָּמָר",
+            "יִצְחָק",
+            "לָבָן"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיְהִי יְהוָה אֶת־יוֹסֵף וַיְהִי אִישׁ מַצְלִיחַ וַיְהִי בְּבֵית אֲדֹנָיו הַמִּצְרִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 2,
+            "end": 2
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And he said, O LORD God of my master Abraham, I pray thee, send me good speed this day, and shew kindness unto my master Abraham.",
+          "13": "Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water:",
+          "14": "And let it come to pass, that the damsel to whom I shall say, Let down thy pitcher, I pray thee, that I may drink; and she shall say, Drink, and I will give thy camels drink also: let the same be she that thou hast appointed for thy servant Isaac; and thereby shall I know that thou hast shewed kindness unto my master.",
+          "15": "And it came to pass, before he had done speaking, that, behold, Rebekah came out, who was born to Bethuel, son of Milcah, the wife of Nahor, Abraham's brother, with her pitcher upon her shoulder.",
+          "16": "And the damsel was very fair to look upon, a virgin, neither had any man known her: and she went down to the well, and filled her pitcher, and came up.",
+          "17": "And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher.",
+          "18": "And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink."
+        },
+        "he": {
+          "12": "וַיֹּאמַר ׀ יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם הַקְרֵה־נָא לְפָנַי הַיּוֹם וַעֲשֵׂה־חֶסֶד עִם אֲדֹנִי אַבְרָהָֽם׃",
+          "13": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָֽיִם׃",
+          "14": "וְהָיָה הַֽנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִֽי׃",
+          "15": "וַֽיְהִי־הוּא טֶרֶם כִּלָּה לְדַבֵּר וְהִנֵּה רִבְקָה יֹצֵאת אֲשֶׁר יֻלְּדָה לִבְתוּאֵל בֶּן־מִלְכָּה אֵשֶׁת נָחוֹר אֲחִי אַבְרָהָם וְכַדָּהּ עַל־שִׁכְמָֽהּ׃",
+          "16": "וְהַֽנַּעֲרָ טֹבַת מַרְאֶה מְאֹד בְּתוּלָה וְאִישׁ לֹא יְדָעָהּ וַתֵּרֶד הָעַיְנָה וַתְּמַלֵּא כַדָּהּ וַתָּֽעַל׃",
+          "17": "וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃",
+          "18": "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 12,
+        "end": 18
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "genesis-24-17-17",
       "source": {
         "method": "llm",
@@ -18,59 +406,59 @@
       },
       "en": {
         "quote": "Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water: And let it come to pass, that the damsel to whom I shall say, Let down thy pitcher, I pray thee, that I may drink; and she shall say, Drink, and I will give thy camels drink also: let the same be she that thou hast appointed for thy servant Isaac; and thereby shall I know that thou hast shewed kindness unto my master. And it came to pass, before he had done speaking, that, behold, Rebekah came out, who was born to Bethuel, son of Milcah, the wife of Nahor, Abraham's brother, with her pitcher upon her shoulder. And the damsel was very fair to look upon, a virgin, neither had any man known her: and she went down to the well, and filled her pitcher, and came up. And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher. And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink. And when she had done giving him drink, she said, I will draw water for thy camels also, until they have done drinking.",
-        "riddle": "drink a little water of thy pitcher.",
+        "riddle": "Let me, I pray thee, drink a little water of thy pitcher.",
         "speaker": "servant",
         "listener": "Rebekah",
         "book": "Genesis",
         "options": {
           "speaker": [
             "Joseph",
-            "Jacob",
-            "Laban"
+            "Pharaoh",
+            "Jacob"
           ],
           "listener": [
+            "Tamar",
             "Jacob",
-            "Achsah",
-            "Joseph"
+            "Isaac"
           ]
         },
-        "bonus": "draw",
+        "bonus": "well",
         "bonus_hint": {
-          "quote": "And as they went up the hill to the city, they found young maidens going out to draw water, and said unto them, Is the seer here?",
+          "quote": "Thou shalt keep therefore his statutes, and his commandments, which I command thee this day, that it may go well with thee, and with thy children after thee, and that thou mayest prolong thy days upon the earth, which the LORD thy God giveth thee, for ever.",
           "source": {
-            "book": "1 Samuel",
-            "chapter": 9,
-            "start": 11,
-            "end": 11
+            "book": "Deuteronomy",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
           }
         }
       },
       "he": {
         "quote": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָֽיִם וְהָיָה הַֽנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִֽי וַֽיְהִי־הוּא טֶרֶם כִּלָּה לְדַבֵּר וְהִנֵּה רִבְקָה יֹצֵאת אֲשֶׁר יֻלְּדָה לִבְתוּאֵל בֶּן־מִלְכָּה אֵשֶׁת נָחוֹר אֲחִי אַבְרָהָם וְכַדָּהּ עַל־שִׁכְמָֽהּ וְהַֽנַּעֲרָ טֹבַת מַרְאֶה מְאֹד בְּתוּלָה וְאִישׁ לֹא יְדָעָהּ וַתֵּרֶד הָעַיְנָה וַתְּמַלֵּא כַדָּהּ וַתָּֽעַל וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת",
-        "riddle": "מַיִם מִכַּדֵּֽךְ",
-        "speaker": "עֶֽבֶד",
+        "riddle": "הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ",
+        "speaker": "הָעֶבֶד",
         "listener": "רִבְקָה",
         "book": "בראשית",
         "options": {
           "speaker": [
             "יוֹסֵף",
-            "יַעֲקֹב",
-            "לָבָן"
+            "פַרְעֹה",
+            "יַעֲקֹב"
           ],
           "listener": [
+            "תָּמָר",
             "יַעֲקֹב",
-            "עַכְסָה",
-            "יוֹסֵף"
+            "יִצְחָק"
           ]
         },
-        "bonus": "לִשְׁאֹב",
+        "bonus": "אָנֹכִי",
         "bonus_hint": {
-          "quote": "הֵמָּה עֹלִים בְּמַעֲלֵה הָעִיר וְהֵמָּה מָצְאוּ נְעָרוֹת יֹצְאוֹת לִשְׁאֹב מָיִם וַיֹּאמְרוּ לָהֶן הֲיֵשׁ בָּזֶה הָרֹאֶֽה",
+          "quote": "וְשָׁמַרְתָּ אֶת־חֻקָּיו וְאֶת־מִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם אֲשֶׁר יִיטַב לְךָ וּלְבָנֶיךָ אַחֲרֶיךָ וּלְמַעַן תַּאֲרִיךְ יָמִים עַל־הַאֲדָמָה אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ כָּל־הַיָּמִֽים",
           "source": {
-            "book": "שמואל א",
-            "chapter": 9,
-            "start": 11,
-            "end": 11
+            "book": "דברים",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
           }
         }
       },
@@ -98,6 +486,1710 @@
         "chapter": 24,
         "start": 13,
         "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-19-19",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water: And let it come to pass, that the damsel to whom I shall say, Let down thy pitcher, I pray thee, that I may drink; and she shall say, Drink, and I will give thy camels drink also: let the same be she that thou hast appointed for thy servant Isaac; and thereby shall I know that thou hast shewed kindness unto my master. And it came to pass, before he had done speaking, that, behold, Rebekah came out, who was born to Bethuel, son of Milcah, the wife of Nahor, Abraham's brother, with her pitcher upon her shoulder. And the damsel was very fair to look upon, a virgin, neither had any man known her: and she went down to the well, and filled her pitcher, and came up. And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher. And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink. And when she had done giving him drink, she said, I will draw water for thy camels also, until they have done drinking.",
+        "riddle": "I will draw water for thy camels also, until they have done drinking.",
+        "speaker": "Rebekah",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Tamar",
+            "Jacob",
+            "Isaac"
+          ],
+          "listener": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "Thou shalt keep therefore his statutes, and his commandments, which I command thee this day, that it may go well with thee, and with thy children after thee, and that thou mayest prolong thy days upon the earth, which the LORD thy God giveth thee, for ever.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "he": {
+        "quote": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָֽיִם וְהָיָה הַֽנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִֽי וַֽיְהִי־הוּא טֶרֶם כִּלָּה לְדַבֵּר וְהִנֵּה רִבְקָה יֹצֵאת אֲשֶׁר יֻלְּדָה לִבְתוּאֵל בֶּן־מִלְכָּה אֵשֶׁת נָחוֹר אֲחִי אַבְרָהָם וְכַדָּהּ עַל־שִׁכְמָֽהּ וְהַֽנַּעֲרָ טֹבַת מַרְאֶה מְאֹד בְּתוּלָה וְאִישׁ לֹא יְדָעָהּ וַתֵּרֶד הָעַיְנָה וַתְּמַלֵּא כַדָּהּ וַתָּֽעַל וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת",
+        "riddle": "גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת",
+        "speaker": "רִבְקָה",
+        "listener": "הָעֶבֶד",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "אָנֹכִי",
+        "bonus_hint": {
+          "quote": "וְשָׁמַרְתָּ אֶת־חֻקָּיו וְאֶת־מִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם אֲשֶׁר יִיטַב לְךָ וּלְבָנֶיךָ אַחֲרֶיךָ וּלְמַעַן תַּאֲרִיךְ יָמִים עַל־הַאֲדָמָה אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ כָּל־הַיָּמִֽים",
+          "source": {
+            "book": "דברים",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Behold, I stand here by the well of water; and the daughters of the men of the city come out to draw water:",
+          "14": "And let it come to pass, that the damsel to whom I shall say, Let down thy pitcher, I pray thee, that I may drink; and she shall say, Drink, and I will give thy camels drink also: let the same be she that thou hast appointed for thy servant Isaac; and thereby shall I know that thou hast shewed kindness unto my master.",
+          "15": "And it came to pass, before he had done speaking, that, behold, Rebekah came out, who was born to Bethuel, son of Milcah, the wife of Nahor, Abraham's brother, with her pitcher upon her shoulder.",
+          "16": "And the damsel was very fair to look upon, a virgin, neither had any man known her: and she went down to the well, and filled her pitcher, and came up.",
+          "17": "And the servant ran to meet her, and said, Let me, I pray thee, drink a little water of thy pitcher.",
+          "18": "And she said, Drink, my lord: and she hasted, and let down her pitcher upon her hand, and gave him drink.",
+          "19": "And when she had done giving him drink, she said, I will draw water for thy camels also, until they have done drinking."
+        },
+        "he": {
+          "13": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וּבְנוֹת אַנְשֵׁי הָעִיר יֹצְאֹת לִשְׁאֹב מָֽיִם׃",
+          "14": "וְהָיָה הַֽנַּעֲרָ אֲשֶׁר אֹמַר אֵלֶיהָ הַטִּי־נָא כַדֵּךְ וְאֶשְׁתֶּה וְאָמְרָה שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה אֹתָהּ הֹכַחְתָּ לְעַבְדְּךָ לְיִצְחָק וּבָהּ אֵדַע כִּי־עָשִׂיתָ חֶסֶד עִם־אֲדֹנִֽי׃",
+          "15": "וַֽיְהִי־הוּא טֶרֶם כִּלָּה לְדַבֵּר וְהִנֵּה רִבְקָה יֹצֵאת אֲשֶׁר יֻלְּדָה לִבְתוּאֵל בֶּן־מִלְכָּה אֵשֶׁת נָחוֹר אֲחִי אַבְרָהָם וְכַדָּהּ עַל־שִׁכְמָֽהּ׃",
+          "16": "וְהַֽנַּעֲרָ טֹבַת מַרְאֶה מְאֹד בְּתוּלָה וְאִישׁ לֹא יְדָעָהּ וַתֵּרֶד הָעַיְנָה וַתְּמַלֵּא כַדָּהּ וַתָּֽעַל׃",
+          "17": "וַיָּרָץ הָעֶבֶד לִקְרָאתָהּ וַיֹּאמֶר הַגְמִיאִינִי נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃",
+          "18": "וַתֹּאמֶר שְׁתֵה אֲדֹנִי וַתְּמַהֵר וַתֹּרֶד כַּדָּהּ עַל־יָדָהּ וַתַּשְׁקֵֽהוּ׃",
+          "19": "וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 19,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And when she had done giving him drink, she said, I will draw water for thy camels also, until they have done drinking. And she hasted, and emptied her pitcher into the trough, and ran again unto the well to draw water, and drew for all his camels. And the man wondering at her held his peace, to wit whether the LORD had made his journey prosperous or not. And it came to pass, as the camels had done drinking, that the man took a golden earring of half a shekel weight, and two bracelets for her hands of ten shekels weight of gold; And said, Whose daughter art thou? tell me, I pray thee: is there room in thy father's house for us to lodge in? And she said unto him, I am the daughter of Bethuel the son of Milcah, which she bare unto Nahor. She said moreover unto him, We have both straw and provender enough, and room to lodge in.",
+        "riddle": "We have both straw and provender enough, and room to lodge in.",
+        "speaker": "Rebekah",
+        "listener": "Eliezer",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Tamar",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Joseph",
+            "Jacob",
+            "Isaac"
+          ]
+        },
+        "bonus": "camels",
+        "bonus_hint": {
+          "quote": "And David smote them from the twilight even unto the evening of the next day: and there escaped not a man of them, save four hundred young men, which rode upon camels, and fled.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 30,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת וַתְּמַהֵר וַתְּעַר כַּדָּהּ אֶל־הַשֹּׁקֶת וַתָּרָץ עוֹד אֶֽל־הַבְּאֵר לִשְׁאֹב וַתִּשְׁאַב לְכָל־גְּמַלָּֽיו וְהָאִישׁ מִשְׁתָּאֵה לָהּ מַחֲרִישׁ לָדַעַת הַֽהִצְלִיחַ יְהוָה דַּרְכּוֹ אִם־לֹֽא וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל־יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָֽם וַיֹּאמֶר בַּת־מִי אַתְּ הַגִּידִי נָא לִי הֲיֵשׁ בֵּית־אָבִיךְ מָקוֹם לָנוּ לָלִֽין וַתֹּאמֶר אֵלָיו בַּת־בְּתוּאֵל אָנֹכִי בֶּן־מִלְכָּה אֲשֶׁר יָלְדָה לְנָחֽוֹר וַתֹּאמֶר אֵלָיו גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן",
+        "riddle": "גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן",
+        "speaker": "רִבְקָה",
+        "listener": "אליעזר",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "וַיַּכֵּם דָּוִד מֵהַנֶּשֶׁף וְעַד־הָעֶרֶב לְמָֽחֳרָתָם וְלֹֽא־נִמְלַט מֵהֶם אִישׁ כִּי אִם־אַרְבַּע מֵאוֹת אִֽישׁ־נַעַר אֲשֶׁר־רָכְבוּ עַל־הַגְּמַלִּים וַיָּנֻֽסוּ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 30,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And when she had done giving him drink, she said, I will draw water for thy camels also, until they have done drinking.",
+          "20": "And she hasted, and emptied her pitcher into the trough, and ran again unto the well to draw water, and drew for all his camels.",
+          "21": "And the man wondering at her held his peace, to wit whether the LORD had made his journey prosperous or not.",
+          "22": "And it came to pass, as the camels had done drinking, that the man took a golden earring of half a shekel weight, and two bracelets for her hands of ten shekels weight of gold;",
+          "23": "And said, Whose daughter art thou? tell me, I pray thee: is there room in thy father's house for us to lodge in?",
+          "24": "And she said unto him, I am the daughter of Bethuel the son of Milcah, which she bare unto Nahor.",
+          "25": "She said moreover unto him, We have both straw and provender enough, and room to lodge in."
+        },
+        "he": {
+          "19": "וַתְּכַל לְהַשְׁקֹתוֹ וַתֹּאמֶר גַּם לִגְמַלֶּיךָ אֶשְׁאָב עַד אִם־כִּלּוּ לִשְׁתֹּֽת׃",
+          "20": "וַתְּמַהֵר וַתְּעַר כַּדָּהּ אֶל־הַשֹּׁקֶת וַתָּרָץ עוֹד אֶֽל־הַבְּאֵר לִשְׁאֹב וַתִּשְׁאַב לְכָל־גְּמַלָּֽיו׃",
+          "21": "וְהָאִישׁ מִשְׁתָּאֵה לָהּ מַחֲרִישׁ לָדַעַת הַֽהִצְלִיחַ יְהוָה דַּרְכּוֹ אִם־לֹֽא׃",
+          "22": "וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל־יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָֽם׃",
+          "23": "וַיֹּאמֶר בַּת־מִי אַתְּ הַגִּידִי נָא לִי הֲיֵשׁ בֵּית־אָבִיךְ מָקוֹם לָנוּ לָלִֽין׃",
+          "24": "וַתֹּאמֶר אֵלָיו בַּת־בְּתוּאֵל אָנֹכִי בֶּן־מִלְכָּה אֲשֶׁר יָלְדָה לְנָחֽוֹר׃",
+          "25": "וַתֹּאמֶר אֵלָיו גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 19,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-23-23",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 22,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And it came to pass, as the camels had done drinking, that the man took a golden earring of half a shekel weight, and two bracelets for her hands of ten shekels weight of gold; And said, Whose daughter art thou? tell me, I pray thee: is there room in thy father's house for us to lodge in? And she said unto him, I am the daughter of Bethuel the son of Milcah, which she bare unto Nahor. She said moreover unto him, We have both straw and provender enough, and room to lodge in.",
+        "riddle": "Whose daughter art thou? tell me, I pray thee: is there room in thy father's house for us to lodge in?",
+        "speaker": "man",
+        "listener": "Rebekah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Tamar",
+            "Jacob",
+            "Joseph"
+          ]
+        },
+        "bonus": "camels",
+        "bonus_hint": {
+          "quote": "And the weight of the golden earrings that he requested was a thousand and seven hundred shekels of gold; beside ornaments, and collars, and purple raiment that was on the kings of Midian, and beside the chains that were about their camels' necks.",
+          "source": {
+            "book": "Judges",
+            "chapter": 8,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל־יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָֽם וַיֹּאמֶר בַּת־מִי אַתְּ הַגִּידִי נָא לִי הֲיֵשׁ בֵּית־אָבִיךְ מָקוֹם לָנוּ לָלִֽין וַתֹּאמֶר אֵלָיו בַּת־בְּתוּאֵל אָנֹכִי בֶּן־מִלְכָּה אֲשֶׁר יָלְדָה לְנָחֽוֹר וַתֹּאמֶר אֵלָיו גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן",
+        "riddle": "בַּת־מִי אַתְּ הַגִּידִי נָא לִי הֲיֵשׁ בֵּית־אָבִיךְ מָקוֹם לָנוּ לָלִֽין",
+        "speaker": "הָאִישׁ",
+        "listener": "רִבְקָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי מִשְׁקַל נִזְמֵי הַזָּהָב אֲשֶׁר שָׁאָל אֶלֶף וּשְׁבַע־מֵאוֹת זָהָב לְבַד מִן־הַשַּׂהֲרֹנִים וְהַנְּטִפוֹת וּבִגְדֵי הָאַרְגָּמָן שֶׁעַל מַלְכֵי מִדְיָן וּלְבַד מִן־הָעֲנָקוֹת אֲשֶׁר בְּצַוְּארֵי גְמַלֵּיהֶֽם",
+          "source": {
+            "book": "שופטים",
+            "chapter": 8,
+            "start": 26,
+            "end": 26
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And it came to pass, as the camels had done drinking, that the man took a golden earring of half a shekel weight, and two bracelets for her hands of ten shekels weight of gold;",
+          "23": "And said, Whose daughter art thou? tell me, I pray thee: is there room in thy father's house for us to lodge in?",
+          "24": "And she said unto him, I am the daughter of Bethuel the son of Milcah, which she bare unto Nahor.",
+          "25": "She said moreover unto him, We have both straw and provender enough, and room to lodge in."
+        },
+        "he": {
+          "22": "וַיְהִי כַּאֲשֶׁר כִּלּוּ הַגְּמַלִּים לִשְׁתּוֹת וַיִּקַּח הָאִישׁ נֶזֶם זָהָב בֶּקַע מִשְׁקָלוֹ וּשְׁנֵי צְמִידִים עַל־יָדֶיהָ עֲשָׂרָה זָהָב מִשְׁקָלָֽם׃",
+          "23": "וַיֹּאמֶר בַּת־מִי אַתְּ הַגִּידִי נָא לִי הֲיֵשׁ בֵּית־אָבִיךְ מָקוֹם לָנוּ לָלִֽין׃",
+          "24": "וַתֹּאמֶר אֵלָיו בַּת־בְּתוּאֵל אָנֹכִי בֶּן־מִלְכָּה אֲשֶׁר יָלְדָה לְנָחֽוֹר׃",
+          "25": "וַתֹּאמֶר אֵלָיו גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 22,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-30-30",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 29,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well. And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well. And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels.",
+        "riddle": "Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well.",
+        "speaker": "Rebekah",
+        "listener": "Laban",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Tamar",
+            "Jacob",
+            "Isaac"
+          ],
+          "listener": [
+            "Jacob",
+            "Isaac",
+            "Eliezer"
+          ]
+        },
+        "bonus": "hands",
+        "bonus_hint": {
+          "quote": "But Moses' hands were heavy; and they took a stone, and put it under him, and he sat thereon; and Aaron and Hur stayed up his hands, the one on the one side, and the other on the other side; and his hands were steady until the going down of the sun.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן וַיְהִי כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים",
+        "riddle": "כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן",
+        "speaker": "רִבְקָה",
+        "listener": "לָבָן",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "יִצְחָק"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "אליעזר"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וִידֵי מֹשֶׁה כְּבֵדִים וַיִּקְחוּ־אֶבֶן וַיָּשִׂימוּ תַחְתָּיו וַיֵּשֶׁב עָלֶיהָ וְאַהֲרֹן וְחוּר תָּֽמְכוּ בְיָדָיו מִזֶּה אֶחָד וּמִזֶּה אֶחָד וַיְהִי יָדָיו אֱמוּנָה עַד־בֹּא הַשָּֽׁמֶשׁ",
+          "source": {
+            "book": "שמות",
+            "chapter": 17,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well.",
+          "30": "And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well.",
+          "31": "And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels."
+        },
+        "he": {
+          "29": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן׃",
+          "30": "וַיְהִי ׀ כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן׃",
+          "31": "וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 29,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-31-31",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 29,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well. And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well. And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels.",
+        "riddle": "Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels.",
+        "speaker": "Laban",
+        "listener": "man",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Isaac",
+            "Rebekah"
+          ],
+          "listener": [
+            "Joseph",
+            "Abraham",
+            "Jacob"
+          ]
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן וַיְהִי כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים",
+        "riddle": "בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים",
+        "speaker": "לָבָן",
+        "listener": "הָאִישׁ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "רִבְקָה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת־יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם־בְּאֵר לַחַי רֹאִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well.",
+          "30": "And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well.",
+          "31": "And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels."
+        },
+        "he": {
+          "29": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן׃",
+          "30": "וַיְהִי ׀ כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן׃",
+          "31": "וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 29,
+        "end": 31
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-33-33",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 29,
+        "quote_verse_end": 33
+      },
+      "en": {
+        "quote": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well. And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well. And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels. And the man came into the house: and he ungirded his camels, and gave straw and provender for the camels, and water to wash his feet, and the men's feet that were with him. And there was set meat before him to eat: but he said, I will not eat, until I have told mine errand. And he said, Speak on.",
+        "riddle": "Speak on.",
+        "speaker": "Laban",
+        "listener": "Man",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Jacob"
+          ]
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "And it came to pass after the death of Abraham, that God blessed his son Isaac; and Isaac dwelt by the well Lahai-roi.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "he": {
+        "quote": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן וַיְהִי כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים וַיָּבֹא הָאִישׁ הַבַּיְתָה וַיְפַתַּח הַגְּמַלִּים וַיִּתֵּן תֶּבֶן וּמִסְפּוֹא לַגְּמַלִּים וּמַיִם לִרְחֹץ רַגְלָיו וְרַגְלֵי הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ וַיּוֻשַׂם לְפָנָיו לֶאֱכֹל וַיֹּאמֶר לֹא אֹכַל עַד אִם־דִּבַּרְתִּי דְּבָרָי וַיֹּאמֶר דַּבֵּֽר",
+        "riddle": "דִּבַּר",
+        "speaker": "לָבָן",
+        "listener": "הָאִישׁ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי אַחֲרֵי מוֹת אַבְרָהָם וַיְבָרֶךְ אֱלֹהִים אֶת־יִצְחָק בְּנוֹ וַיֵּשֶׁב יִצְחָק עִם־בְּאֵר לַחַי רֹאִֽי",
+          "source": {
+            "book": "בראשית",
+            "chapter": 25,
+            "start": 11,
+            "end": 11
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And Rebekah had a brother, and his name was Laban: and Laban ran out unto the man, unto the well.",
+          "30": "And it came to pass, when he saw the earring and bracelets upon his sister's hands, and when he heard the words of Rebekah his sister, saying, Thus spake the man unto me; that he came unto the man; and, behold, he stood by the camels at the well.",
+          "31": "And he said, Come in, thou blessed of the LORD; wherefore standest thou without? for I have prepared the house, and room for the camels.",
+          "32": "And the man came into the house: and he ungirded his camels, and gave straw and provender for the camels, and water to wash his feet, and the men's feet that were with him.",
+          "33": "And there was set meat before him to eat: but he said, I will not eat, until I have told mine errand. And he said, Speak on."
+        },
+        "he": {
+          "29": "וּלְרִבְקָה אָח וּשְׁמוֹ לָבָן וַיָּרָץ לָבָן אֶל־הָאִישׁ הַחוּצָה אֶל־הָעָֽיִן׃",
+          "30": "וַיְהִי ׀ כִּרְאֹת אֶת־הַנֶּזֶם וְֽאֶת־הַצְּמִדִים עַל־יְדֵי אֲחֹתוֹ וּכְשָׁמְעוֹ אֶת־דִּבְרֵי רִבְקָה אֲחֹתוֹ לֵאמֹר כֹּֽה־דִבֶּר אֵלַי הָאִישׁ וַיָּבֹא אֶל־הָאִישׁ וְהִנֵּה עֹמֵד עַל־הַגְּמַלִּים עַל־הָעָֽיִן׃",
+          "31": "וַיֹּאמֶר בּוֹא בְּרוּךְ יְהוָה לָמָּה תַעֲמֹד בַּחוּץ וְאָנֹכִי פִּנִּיתִי הַבַּיִת וּמָקוֹם לַגְּמַלִּֽים׃",
+          "32": "וַיָּבֹא הָאִישׁ הַבַּיְתָה וַיְפַתַּח הַגְּמַלִּים וַיִּתֵּן תֶּבֶן וּמִסְפּוֹא לַגְּמַלִּים וּמַיִם לִרְחֹץ רַגְלָיו וְרַגְלֵי הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ׃",
+          "33": "וַיּוֻשַׂם לְפָנָיו לֶאֱכֹל וַיֹּאמֶר לֹא אֹכַל עַד אִם־דִּבַּרְתִּי דְּבָרָי וַיֹּאמֶר דַּבֵּֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 29,
+        "end": 33
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-38-38",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 32,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 37,
+        "listener_mention_verse": 37
+      },
+      "en": {
+        "quote": "And the man came into the house: and he ungirded his camels, and gave straw and provender for the camels, and water to wash his feet, and the men's feet that were with him. And there was set meat before him to eat: but he said, I will not eat, until I have told mine errand. And he said, Speak on. And he said, I am Abraham's servant. And the LORD hath blessed my master greatly; and he is become great: and he hath given him flocks, and herds, and silver, and gold, and menservants, and maidservants, and camels, and asses. And Sarah my master's wife bare a son to my master when she was old: and unto him hath he given all that he hath. And my master made me swear, saying, Thou shalt not take a wife to my son of the daughters of the Canaanites, in whose land I dwell: But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son.",
+        "riddle": "But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son.",
+        "speaker": "Abraham",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Isaac",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Jacob"
+          ]
+        },
+        "bonus": "camels",
+        "bonus_hint": {
+          "quote": "And David smote the land, and left neither man nor woman alive, and took away the sheep, and the oxen, and the asses, and the camels, and the apparel, and returned, and came to Achish.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 27,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא הָאִישׁ הַבַּיְתָה וַיְפַתַּח הַגְּמַלִּים וַיִּתֵּן תֶּבֶן וּמִסְפּוֹא לַגְּמַלִּים וּמַיִם לִרְחֹץ רַגְלָיו וְרַגְלֵי הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ וַיּוֻשַׂם לְפָנָיו לֶאֱכֹל וַיֹּאמֶר לֹא אֹכַל עַד אִם־דִּבַּרְתִּי דְּבָרָי וַיֹּאמֶר דַּבֵּֽר וַיֹּאמַר עֶבֶד אַבְרָהָם אָנֹֽכִי וַיהוָה בֵּרַךְ אֶת־אֲדֹנִי מְאֹד וַיִּגְדָּל וַיִּתֶּן־לוֹ צֹאן וּבָקָר וְכֶסֶף וְזָהָב וַעֲבָדִם וּשְׁפָחֹת וּגְמַלִּים וַחֲמֹרִֽים וַתֵּלֶד שָׂרָה אֵשֶׁת אֲדֹנִי בֵן לַֽאדֹנִי אַחֲרֵי זִקְנָתָהּ וַיִּתֶּן־לּוֹ אֶת־כָּל־אֲשֶׁר־לֽוֹ וַיַּשְׁבִּעֵנִי אֲדֹנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצֽוֹ אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי",
+        "riddle": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי",
+        "speaker": "אֲדֹנִי",
+        "listener": "עֶבֶד אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "יַעֲקֹב"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וְהִכָּה דָוִד אֶת־הָאָרֶץ וְלֹא יְחַיֶּה אִישׁ וְאִשָּׁה וְלָקַח צֹאן וּבָקָר וַחֲמֹרִים וּגְמַלִּים וּבְגָדִים וַיָּשָׁב וַיָּבֹא אֶל־אָכִֽישׁ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 27,
+            "start": 9,
+            "end": 9
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And the man came into the house: and he ungirded his camels, and gave straw and provender for the camels, and water to wash his feet, and the men's feet that were with him.",
+          "33": "And there was set meat before him to eat: but he said, I will not eat, until I have told mine errand. And he said, Speak on.",
+          "34": "And he said, I am Abraham's servant.",
+          "35": "And the LORD hath blessed my master greatly; and he is become great: and he hath given him flocks, and herds, and silver, and gold, and menservants, and maidservants, and camels, and asses.",
+          "36": "And Sarah my master's wife bare a son to my master when she was old: and unto him hath he given all that he hath.",
+          "37": "And my master made me swear, saying, Thou shalt not take a wife to my son of the daughters of the Canaanites, in whose land I dwell:",
+          "38": "But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son."
+        },
+        "he": {
+          "32": "וַיָּבֹא הָאִישׁ הַבַּיְתָה וַיְפַתַּח הַגְּמַלִּים וַיִּתֵּן תֶּבֶן וּמִסְפּוֹא לַגְּמַלִּים וּמַיִם לִרְחֹץ רַגְלָיו וְרַגְלֵי הָאֲנָשִׁים אֲשֶׁר אִתּֽוֹ׃",
+          "33": "וַיּוֻשַׂם לְפָנָיו לֶאֱכֹל וַיֹּאמֶר לֹא אֹכַל עַד אִם־דִּבַּרְתִּי דְּבָרָי וַיֹּאמֶר דַּבֵּֽר׃",
+          "34": "וַיֹּאמַר עֶבֶד אַבְרָהָם אָנֹֽכִי׃",
+          "35": "וַיהוָה בֵּרַךְ אֶת־אֲדֹנִי מְאֹד וַיִּגְדָּל וַיִּתֶּן־לוֹ צֹאן וּבָקָר וְכֶסֶף וְזָהָב וַעֲבָדִם וּשְׁפָחֹת וּגְמַלִּים וַחֲמֹרִֽים׃",
+          "36": "וַתֵּלֶד שָׂרָה אֵשֶׁת אֲדֹנִי בֵן לַֽאדֹנִי אַחֲרֵי זִקְנָתָהּ וַיִּתֶּן־לּוֹ אֶת־כָּל־אֲשֶׁר־לֽוֹ׃",
+          "37": "וַיַּשְׁבִּעֵנִי אֲדֹנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצֽוֹ׃",
+          "38": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 32,
+        "end": 38
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-39-39",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 37,
+        "quote_verse_end": 43
+      },
+      "en": {
+        "quote": "And my master made me swear, saying, Thou shalt not take a wife to my son of the daughters of the Canaanites, in whose land I dwell: But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son. And I said unto my master, Peradventure the woman will not follow me. And he said unto me, The LORD, before whom I walk, will send his angel with thee, and prosper thy way; and thou shalt take a wife for my son of my kindred, and of my father's house: Then shalt thou be clear from this my oath, when thou comest to my kindred; and if they give not thee one, thou shalt be clear from my oath. And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go; Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;",
+        "riddle": "Peradventure the woman will not follow me.",
+        "speaker": "servant",
+        "listener": "master",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Jacob"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "wife",
+        "bonus_hint": {
+          "quote": "And Isaac called Jacob, and blessed him, and charged him, and said unto him, Thou shalt not take a wife of the daughters of Canaan.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 28,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּשְׁבִּעֵנִי אֲדֹנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצֽוֹ אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי וָאֹמַר אֶל־אֲדֹנִי אֻלַי לֹא־תֵלֵךְ הָאִשָּׁה אַחֲרָֽי וַיֹּאמֶר אֵלָי יְהוָה אֲשֶׁר־הִתְהַלַּכְתִּי לְפָנָיו יִשְׁלַח מַלְאָכוֹ אִתָּךְ וְהִצְלִיחַ דַּרְכֶּךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִמִּשְׁפַּחְתִּי וּמִבֵּית אָבִֽי אָז תִּנָּקֶה מֵאָלָתִי כִּי תָבוֹא אֶל־מִשְׁפַּחְתִּי וְאִם־לֹא יִתְּנוּ לָךְ וְהָיִיתָ נָקִי מֵאָלָתִֽי וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ",
+        "riddle": "אֻלַי לֹא־תֵלֵךְ הָאִשָּׁה אַחֲרָֽי",
+        "speaker": "עֶבֶד",
+        "listener": "אֲדֹנִי",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "יַעֲקֹב"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "תִקַּח",
+        "bonus_hint": {
+          "quote": "וַיִּקְרָא יִצְחָק אֶֽל־יַעֲקֹב וַיְבָרֶךְ אֹתוֹ וַיְצַוֵּהוּ וַיֹּאמֶר לוֹ לֹֽא־תִקַּח אִשָּׁה מִבְּנוֹת כְּנָֽעַן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 28,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "37": "And my master made me swear, saying, Thou shalt not take a wife to my son of the daughters of the Canaanites, in whose land I dwell:",
+          "38": "But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son.",
+          "39": "And I said unto my master, Peradventure the woman will not follow me.",
+          "40": "And he said unto me, The LORD, before whom I walk, will send his angel with thee, and prosper thy way; and thou shalt take a wife for my son of my kindred, and of my father's house:",
+          "41": "Then shalt thou be clear from this my oath, when thou comest to my kindred; and if they give not thee one, thou shalt be clear from my oath.",
+          "42": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go;",
+          "43": "Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;"
+        },
+        "he": {
+          "37": "וַיַּשְׁבִּעֵנִי אֲדֹנִי לֵאמֹר לֹא־תִקַּח אִשָּׁה לִבְנִי מִבְּנוֹת הַֽכְּנַעֲנִי אֲשֶׁר אָנֹכִי יֹשֵׁב בְּאַרְצֽוֹ׃",
+          "38": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי׃",
+          "39": "וָאֹמַר אֶל־אֲדֹנִי אֻלַי לֹא־תֵלֵךְ הָאִשָּׁה אַחֲרָֽי׃",
+          "40": "וַיֹּאמֶר אֵלָי יְהוָה אֲשֶׁר־הִתְהַלַּכְתִּי לְפָנָיו יִשְׁלַח מַלְאָכוֹ אִתָּךְ וְהִצְלִיחַ דַּרְכֶּךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִמִּשְׁפַּחְתִּי וּמִבֵּית אָבִֽי׃",
+          "41": "אָז תִּנָּקֶה מֵאָלָתִי כִּי תָבוֹא אֶל־מִשְׁפַּחְתִּי וְאִם־לֹא יִתְּנוּ לָךְ וְהָיִיתָ נָקִי מֵאָלָתִֽי׃",
+          "42": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ׃",
+          "43": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 37,
+        "end": 43
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-44-44",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 38,
+        "quote_verse_end": 44
+      },
+      "en": {
+        "quote": "But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son. And I said unto my master, Peradventure the woman will not follow me. And he said unto me, The LORD, before whom I walk, will send his angel with thee, and prosper thy way; and thou shalt take a wife for my son of my kindred, and of my father's house: Then shalt thou be clear from this my oath, when thou comest to my kindred; and if they give not thee one, thou shalt be clear from my oath. And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go; Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink; And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son.",
+        "riddle": "Both drink thou, and I will also draw for thy camels",
+        "speaker": "Rebekah",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Tamar",
+            "Laban"
+          ],
+          "listener": [
+            "Joseph",
+            "Jacob",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "wife",
+        "bonus_hint": {
+          "quote": "And Rebekah said to Isaac, I am weary of my life because of the daughters of Heth: if Jacob take a wife of the daughters of Heth, such as these which are of the daughters of the land, what good shall my life do me?",
+          "source": {
+            "book": "Genesis",
+            "chapter": 27,
+            "start": 46,
+            "end": 46
+          }
+        }
+      },
+      "he": {
+        "quote": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי וָאֹמַר אֶל־אֲדֹנִי אֻלַי לֹא־תֵלֵךְ הָאִשָּׁה אַחֲרָֽי וַיֹּאמֶר אֵלָי יְהוָה אֲשֶׁר־הִתְהַלַּכְתִּי לְפָנָיו יִשְׁלַח מַלְאָכוֹ אִתָּךְ וְהִצְלִיחַ דַּרְכֶּךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִמִּשְׁפַּחְתִּי וּמִבֵּית אָבִֽי אָז תִּנָּקֶה מֵאָלָתִי כִּי תָבוֹא אֶל־מִשְׁפַּחְתִּי וְאִם־לֹא יִתְּנוּ לָךְ וְהָיִיתָ נָקִי מֵאָלָתִֽי וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי",
+        "riddle": "גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי",
+        "speaker": "רִבְקָה",
+        "listener": "עֶבֶד",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "תָּמָר",
+            "לָבָן"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "אִם",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר רִבְקָה אֶל־יִצְחָק קַצְתִּי בְחַיַּי מִפְּנֵי בְּנוֹת חֵת אִם־לֹקֵחַ יַעֲקֹב אִשָּׁה מִבְּנֽוֹת־חֵת כָּאֵלֶּה מִבְּנוֹת הָאָרֶץ לָמָּה לִּי חַיִּֽים",
+          "source": {
+            "book": "בראשית",
+            "chapter": 27,
+            "start": 46,
+            "end": 46
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "But thou shalt go unto my father's house, and to my kindred, and take a wife unto my son.",
+          "39": "And I said unto my master, Peradventure the woman will not follow me.",
+          "40": "And he said unto me, The LORD, before whom I walk, will send his angel with thee, and prosper thy way; and thou shalt take a wife for my son of my kindred, and of my father's house:",
+          "41": "Then shalt thou be clear from this my oath, when thou comest to my kindred; and if they give not thee one, thou shalt be clear from my oath.",
+          "42": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go;",
+          "43": "Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;",
+          "44": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son."
+        },
+        "he": {
+          "38": "אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִֽי׃",
+          "39": "וָאֹמַר אֶל־אֲדֹנִי אֻלַי לֹא־תֵלֵךְ הָאִשָּׁה אַחֲרָֽי׃",
+          "40": "וַיֹּאמֶר אֵלָי יְהוָה אֲשֶׁר־הִתְהַלַּכְתִּי לְפָנָיו יִשְׁלַח מַלְאָכוֹ אִתָּךְ וְהִצְלִיחַ דַּרְכֶּךָ וְלָקַחְתָּ אִשָּׁה לִבְנִי מִמִּשְׁפַּחְתִּי וּמִבֵּית אָבִֽי׃",
+          "41": "אָז תִּנָּקֶה מֵאָלָתִי כִּי תָבוֹא אֶל־מִשְׁפַּחְתִּי וְאִם־לֹא יִתְּנוּ לָךְ וְהָיִיתָ נָקִי מֵאָלָתִֽי׃",
+          "42": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ׃",
+          "43": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃",
+          "44": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 38,
+        "end": 44
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-43-43",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 42,
+        "quote_verse_end": 43
+      },
+      "en": {
+        "quote": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go; Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;",
+        "riddle": "Give me, I pray thee, a little water of thy pitcher to drink;",
+        "speaker": "servant",
+        "listener": "virgin",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Jacob",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Jacob",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "well",
+        "bonus_hint": {
+          "quote": "Thou shalt keep therefore his statutes, and his commandments, which I command thee this day, that it may go well with thee, and with thy children after thee, and that thou mayest prolong thy days upon the earth, which the LORD thy God giveth thee, for ever.",
+          "source": {
+            "book": "Deuteronomy",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "he": {
+        "quote": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ",
+        "riddle": "וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽך",
+        "speaker": "עֶבֶד",
+        "listener": "עַל־מָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "הַיּוֹם",
+        "bonus_hint": {
+          "quote": "וְשָׁמַרְתָּ אֶת־חֻקָּיו וְאֶת־מִצְוֺתָיו אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם אֲשֶׁר יִיטַב לְךָ וּלְבָנֶיךָ אַחֲרֶיךָ וּלְמַעַן תַּאֲרִיךְ יָמִים עַל־הַאֲדָמָה אֲשֶׁר יְהוָה אֱלֹהֶיךָ נֹתֵן לְךָ כָּל־הַיָּמִֽים",
+          "source": {
+            "book": "דברים",
+            "chapter": 4,
+            "start": 40,
+            "end": 40
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "42": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go;",
+          "43": "Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;"
+        },
+        "he": {
+          "42": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ׃",
+          "43": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 42,
+        "end": 43
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-47-47-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 42,
+        "quote_verse_end": 47
+      },
+      "en": {
+        "quote": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go; Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink; And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son. And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee. And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also. And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands.",
+        "riddle": "Whose daughter art thou?",
+        "speaker": "servant",
+        "listener": "Rebekah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Tamar",
+            "Joseph",
+            "Isaac"
+          ]
+        },
+        "bonus": "water",
+        "bonus_hint": {
+          "quote": "And he said, Lo, it is yet high day, neither is it time that the cattle should be gathered together: water ye the sheep, and go and feed them.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 29,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ",
+        "riddle": "וָאֹמַר בַּת־מִי אַתְּ",
+        "speaker": "עֶבֶד",
+        "listener": "רִבְקָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "תָּמָר",
+            "יוֹסֵף",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "הַיּוֹם",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר הֵן עוֹד הַיּוֹם גָּדוֹל לֹא־עֵת הֵאָסֵף הַמִּקְנֶה הַשְׁקוּ הַצֹּאן וּלְכוּ רְעֽוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 29,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "42": "And I came this day unto the well, and said, O LORD God of my master Abraham, if now thou do prosper my way which I go;",
+          "43": "Behold, I stand by the well of water; and it shall come to pass, that when the virgin cometh forth to draw water, and I say to her, Give me, I pray thee, a little water of thy pitcher to drink;",
+          "44": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son.",
+          "45": "And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee.",
+          "46": "And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also.",
+          "47": "And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands."
+        },
+        "he": {
+          "42": "וָאָבֹא הַיּוֹם אֶל־הָעָיִן וָאֹמַר יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אִם־יֶשְׁךָ־נָּא מַצְלִיחַ דַּרְכִּי אֲשֶׁר אָנֹכִי הֹלֵךְ עָלֶֽיהָ׃",
+          "43": "הִנֵּה אָנֹכִי נִצָּב עַל־עֵין הַמָּיִם וְהָיָה הָֽעַלְמָה הַיֹּצֵאת לִשְׁאֹב וְאָמַרְתִּי אֵלֶיהָ הַשְׁקִֽינִי־נָא מְעַט־מַיִם מִכַּדֵּֽךְ׃",
+          "44": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי׃",
+          "45": "אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא׃",
+          "46": "וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה׃",
+          "47": "וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 42,
+        "end": 47
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-49-49",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 44,
+        "quote_verse_end": 50
+      },
+      "en": {
+        "quote": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son. And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee. And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also. And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands. And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son. And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left. Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good.",
+        "riddle": "if ye will deal kindly and truly with my master, tell me: and if not, tell me",
+        "speaker": "servant",
+        "listener": "Laban and Bethuel",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Jacob",
+            "Isaac",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "drink",
+        "bonus_hint": {
+          "quote": "For it was said to me by the word of the LORD, Thou shalt eat no bread nor drink water there, nor turn again to go by the way that thou camest.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב",
+        "riddle": "אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי",
+        "speaker": "עֶבֶד",
+        "listener": "לָבָן וּבְתוּאֵל",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "אֵלַי",
+        "bonus_hint": {
+          "quote": "כִּֽי־דָבָר אֵלַי בִּדְבַר יְהוָה לֹֽא־תֹאכַל לֶחֶם וְלֹֽא־תִשְׁתֶּה שָׁם מָיִם לֹא־תָשׁוּב לָלֶכֶת בַּדֶּרֶךְ אֲשֶׁר־הָלַכְתָּ בָּֽהּ",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 13,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "44": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son.",
+          "45": "And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee.",
+          "46": "And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also.",
+          "47": "And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands.",
+          "48": "And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son.",
+          "49": "And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left.",
+          "50": "Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good."
+        },
+        "he": {
+          "44": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי׃",
+          "45": "אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא׃",
+          "46": "וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה׃",
+          "47": "וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ׃",
+          "48": "וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ׃",
+          "49": "וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל׃",
+          "50": "וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 44,
+        "end": 50
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-50-50",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 44,
+        "quote_verse_end": 50,
+        "speaker_mention_verse": 50,
+        "listener_mention_verse": 49
+      },
+      "en": {
+        "quote": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son. And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee. And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also. And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands. And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son. And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left. Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good.",
+        "riddle": "The thing proceedeth from the LORD: we cannot speak unto thee bad or good.",
+        "speaker": "Laban and Bethuel",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Isaac",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "camels",
+        "bonus_hint": {
+          "quote": "Then Jacob was greatly afraid and distressed: and he divided the people that was with him, and the flocks, and herds, and the camels, into two bands;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 32,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב",
+        "riddle": "מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב",
+        "speaker": "לָבָן וּבְתוּאֵל",
+        "listener": "עֶבֶד",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "וְגַם",
+        "bonus_hint": {
+          "quote": "וַיָּשֻׁבוּ הַמַּלְאָכִים אֶֽל־יַעֲקֹב לֵאמֹר בָּאנוּ אֶל־אָחִיךָ אֶל־עֵשָׂו וְגַם הֹלֵךְ לִקְרָֽאתְךָ וְאַרְבַּע־מֵאוֹת אִישׁ עִמּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 32,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "44": "And she say to me, Both drink thou, and I will also draw for thy camels: let the same be the woman whom the LORD hath appointed out for my master's son.",
+          "45": "And before I had done speaking in mine heart, behold, Rebekah came forth with her pitcher on her shoulder; and she went down unto the well, and drew water: and I said unto her, Let me drink, I pray thee.",
+          "46": "And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also.",
+          "47": "And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands.",
+          "48": "And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son.",
+          "49": "And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left.",
+          "50": "Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good."
+        },
+        "he": {
+          "44": "וְאָמְרָה אֵלַי גַּם־אַתָּה שְׁתֵה וְגַם לִגְמַלֶּיךָ אֶשְׁאָב הִוא הָֽאִשָּׁה אֲשֶׁר־הֹכִיחַ יְהוָה לְבֶן־אֲדֹנִֽי׃",
+          "45": "אֲנִי טֶרֶם אֲכַלֶּה לְדַבֵּר אֶל־לִבִּי וְהִנֵּה רִבְקָה יֹצֵאת וְכַדָּהּ עַל־שִׁכְמָהּ וַתֵּרֶד הָעַיְנָה וַתִּשְׁאָב וָאֹמַר אֵלֶיהָ הַשְׁקִינִי נָֽא׃",
+          "46": "וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה׃",
+          "47": "וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ׃",
+          "48": "וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ׃",
+          "49": "וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל׃",
+          "50": "וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 44,
+        "end": 50
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-51-51",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 46,
+        "quote_verse_end": 52,
+        "speaker_mention_verse": 50,
+        "listener_mention_verse": 49
+      },
+      "en": {
+        "quote": "And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also. And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands. And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son. And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left. Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good. Behold, Rebekah is before thee, take her, and go, and let her be thy master's son's wife, as the LORD hath spoken. And it came to pass, that, when Abraham's servant heard their words, he worshipped the LORD, bowing himself to the earth.",
+        "riddle": "Behold, Rebekah is before thee, take her, and go",
+        "speaker": "Laban and Bethuel",
+        "listener": "servant",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Jacob",
+            "Isaac",
+            "Joseph"
+          ],
+          "listener": [
+            "Joseph",
+            "Jacob",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "camels",
+        "bonus_hint": {
+          "quote": "Then Jacob was greatly afraid and distressed: and he divided the people that was with him, and the flocks, and herds, and the camels, into two bands;",
+          "source": {
+            "book": "Genesis",
+            "chapter": 32,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב הִנֵּֽה־רִבְקָה לְפָנֶיךָ קַח וָלֵךְ וּתְהִי אִשָּׁה לְבֶן־אֲדֹנֶיךָ כַּאֲשֶׁר דִּבֶּר יְהוָֽה וַיְהִי כַּאֲשֶׁר שָׁמַע עֶבֶד אַבְרָהָם אֶת־דִּבְרֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה לַֽיהוָֽה",
+        "riddle": "הִנֵּֽה־רִבְקָה לְפָנֶיךָ קַח וָלֵךְ",
+        "speaker": "לָבָן וּבְתוּאֵל",
+        "listener": "עֶבֶד אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יַעֲקֹב",
+            "יִצְחָק",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יַעֲקֹב",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "וְגַם",
+        "bonus_hint": {
+          "quote": "וַיָּשֻׁבוּ הַמַּלְאָכִים אֶֽל־יַעֲקֹב לֵאמֹר בָּאנוּ אֶל־אָחִיךָ אֶל־עֵשָׂו וְגַם הֹלֵךְ לִקְרָֽאתְךָ וְאַרְבַּע־מֵאוֹת אִישׁ עִמּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 32,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "46": "And she made haste, and let down her pitcher from her shoulder, and said, Drink, and I will give thy camels drink also: so I drank, and she made the camels drink also.",
+          "47": "And I asked her, and said, Whose daughter art thou? And she said, The daughter of Bethuel, Nahor's son, whom Milcah bare unto him: and I put the earring upon her face, and the bracelets upon her hands.",
+          "48": "And I bowed down my head, and worshipped the LORD, and blessed the LORD God of my master Abraham, which had led me in the right way to take my master's brother's daughter unto his son.",
+          "49": "And now if ye will deal kindly and truly with my master, tell me: and if not, tell me; that I may turn to the right hand, or to the left.",
+          "50": "Then Laban and Bethuel answered and said, The thing proceedeth from the LORD: we cannot speak unto thee bad or good.",
+          "51": "Behold, Rebekah is before thee, take her, and go, and let her be thy master's son's wife, as the LORD hath spoken.",
+          "52": "And it came to pass, that, when Abraham's servant heard their words, he worshipped the LORD, bowing himself to the earth."
+        },
+        "he": {
+          "46": "וַתְּמַהֵר וַתּוֹרֶד כַּדָּהּ מֵֽעָלֶיהָ וַתֹּאמֶר שְׁתֵה וְגַם־גְּמַלֶּיךָ אַשְׁקֶה וָאֵשְׁתְּ וְגַם הַגְּמַלִּים הִשְׁקָֽתָה׃",
+          "47": "וָאֶשְׁאַל אֹתָהּ וָאֹמַר בַּת־מִי אַתְּ וַתֹּאמֶר בַּת־בְּתוּאֵל בֶּן־נָחוֹר אֲשֶׁר יָֽלְדָה־לּוֹ מִלְכָּה וָאָשִׂם הַנֶּזֶם עַל־אַפָּהּ וְהַצְּמִידִים עַל־יָדֶֽיהָ׃",
+          "48": "וָאֶקֹּד וָֽאֶשְׁתַּחֲוֶה לַיהוָה וָאֲבָרֵךְ אֶת־יְהוָה אֱלֹהֵי אֲדֹנִי אַבְרָהָם אֲשֶׁר הִנְחַנִי בְּדֶרֶךְ אֱמֶת לָקַחַת אֶת־בַּת־אֲחִי אֲדֹנִי לִבְנֽוֹ׃",
+          "49": "וְעַתָּה אִם־יֶשְׁכֶם עֹשִׂים חֶסֶד וֶֽאֱמֶת אֶת־אֲדֹנִי הַגִּידוּ לִי וְאִם־לֹא הַגִּידוּ לִי וְאֶפְנֶה עַל־יָמִין אוֹ עַל־שְׂמֹֽאל׃",
+          "50": "וַיַּעַן לָבָן וּבְתוּאֵל וַיֹּאמְרוּ מֵיְהוָה יָצָא הַדָּבָר לֹא נוּכַל דַּבֵּר אֵלֶיךָ רַע אוֹ־טֽוֹב׃",
+          "51": "הִנֵּֽה־רִבְקָה לְפָנֶיךָ קַח וָלֵךְ וּתְהִי אִשָּׁה לְבֶן־אֲדֹנֶיךָ כַּאֲשֶׁר דִּבֶּר יְהוָֽה׃",
+          "52": "וַיְהִי כַּאֲשֶׁר שָׁמַע עֶבֶד אַבְרָהָם אֶת־דִּבְרֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה לַֽיהוָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 46,
+        "end": 52
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-58-58-1",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 52,
+        "quote_verse_end": 58,
+        "listener_mention_verse": 58
+      },
+      "en": {
+        "quote": "And it came to pass, that, when Abraham's servant heard their words, he worshipped the LORD, bowing himself to the earth. And the servant brought forth jewels of silver, and jewels of gold, and raiment, and gave them to Rebekah: he gave also to her brother and to her mother precious things. And they did eat and drink, he and the men that were with him, and tarried all night; and they rose up in the morning, and he said, Send me away unto my master. And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go. And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master. And they said, We will call the damsel, and inquire at her mouth. And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go.",
+        "riddle": "Wilt thou go with this man?",
+        "speaker": "Rebekah's family",
+        "listener": "Rebekah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Joseph",
+            "Abraham",
+            "Pharaoh"
+          ],
+          "listener": [
+            "Tamar",
+            "Abraham's servant",
+            "Isaac"
+          ]
+        },
+        "bonus": "servant",
+        "bonus_hint": {
+          "quote": "And it came to pass, when his master heard the words of his wife, which she spake unto him, saying, After this manner did thy servant to me; that his wrath was kindled.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְהִי כַּאֲשֶׁר שָׁמַע עֶבֶד אַבְרָהָם אֶת־דִּבְרֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה לַֽיהוָֽה וַיּוֹצֵא הָעֶבֶד כְּלֵי־כֶסֶף וּכְלֵי זָהָב וּבְגָדִים וַיִתֵּן לְרִבְקָה וּמִגְדָּנֹת נָתַן לְאָחִיהָ וּלְאִמָּֽהּ וַיֹּאכְלוּ וַיִּשְׁתּוּ הוּא וְהָאֲנָשִׁים אֲשֶׁר־עִמּוֹ וַיָּלִינוּ וַיָּקוּמוּ בַבֹּקֶר וַיֹּאמֶר שַׁלְּחֻנִי לַֽאדֹנִֽי וַיֹּאמֶר אָחִיהָ וְאִמָּהּ תֵּשֵׁב הַנַּעֲרָ אִתָּנוּ יָמִים אוֹ עָשׂוֹר אַחַר תֵּלֵֽךְ וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ",
+        "riddle": "הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה",
+        "speaker": "אָחִיהָ וְאִמָּהּ",
+        "listener": "רִבְקָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "יוֹסֵף",
+            "אַבְרָהָם",
+            "פַרְעֹה"
+          ],
+          "listener": [
+            "תָּמָר",
+            "עֶבֶד אַבְרָהָם",
+            "יִצְחָק"
+          ]
+        },
+        "bonus": "וַיְהִי",
+        "bonus_hint": {
+          "quote": "וַיְהִי כִשְׁמֹעַ אֲדֹנָיו אֶת־דִּבְרֵי אִשְׁתּוֹ אֲשֶׁר דִּבְּרָה אֵלָיו לֵאמֹר כַּדְּבָרִים הָאֵלֶּה עָשָׂה לִי עַבְדֶּךָ וַיִּחַר אַפּֽוֹ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 39,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "52": "And it came to pass, that, when Abraham's servant heard their words, he worshipped the LORD, bowing himself to the earth.",
+          "53": "And the servant brought forth jewels of silver, and jewels of gold, and raiment, and gave them to Rebekah: he gave also to her brother and to her mother precious things.",
+          "54": "And they did eat and drink, he and the men that were with him, and tarried all night; and they rose up in the morning, and he said, Send me away unto my master.",
+          "55": "And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go.",
+          "56": "And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master.",
+          "57": "And they said, We will call the damsel, and inquire at her mouth.",
+          "58": "And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go."
+        },
+        "he": {
+          "52": "וַיְהִי כַּאֲשֶׁר שָׁמַע עֶבֶד אַבְרָהָם אֶת־דִּבְרֵיהֶם וַיִּשְׁתַּחוּ אַרְצָה לַֽיהוָֽה׃",
+          "53": "וַיּוֹצֵא הָעֶבֶד כְּלֵי־כֶסֶף וּכְלֵי זָהָב וּבְגָדִים וַיִתֵּן לְרִבְקָה וּמִגְדָּנֹת נָתַן לְאָחִיהָ וּלְאִמָּֽהּ׃",
+          "54": "וַיֹּאכְלוּ וַיִּשְׁתּוּ הוּא וְהָאֲנָשִׁים אֲשֶׁר־עִמּוֹ וַיָּלִינוּ וַיָּקוּמוּ בַבֹּקֶר וַיֹּאמֶר שַׁלְּחֻנִי לַֽאדֹנִֽי׃",
+          "55": "וַיֹּאמֶר אָחִיהָ וְאִמָּהּ תֵּשֵׁב הַנַּעֲרָ אִתָּנוּ יָמִים אוֹ עָשׂוֹר אַחַר תֵּלֵֽךְ׃",
+          "56": "וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי׃",
+          "57": "וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ׃",
+          "58": "וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 52,
+        "end": 58
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-58-58-2",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 53,
+        "quote_verse_end": 59,
+        "listener_mention_verse": 58
+      },
+      "en": {
+        "quote": "And the servant brought forth jewels of silver, and jewels of gold, and raiment, and gave them to Rebekah: he gave also to her brother and to her mother precious things. And they did eat and drink, he and the men that were with him, and tarried all night; and they rose up in the morning, and he said, Send me away unto my master. And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go. And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master. And they said, We will call the damsel, and inquire at her mouth. And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go. And they sent away Rebekah their sister, and her nurse, and Abraham's servant, and his men.",
+        "riddle": "I will go",
+        "speaker": "Rebekah",
+        "listener": "Rebekah's brother and mother",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Tamar",
+            "Jacob",
+            "Joseph"
+          ],
+          "listener": [
+            "Joseph",
+            "Isaac",
+            "Pharaoh"
+          ]
+        },
+        "bonus": "jewels",
+        "bonus_hint": {
+          "quote": "But every woman shall borrow of her neighbour, and of her that sojourneth in her house, jewels of silver, and jewels of gold, and raiment: and ye shall put them upon your sons, and upon your daughters; and ye shall spoil the Egyptians.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיּוֹצֵא הָעֶבֶד כְּלֵי־כֶסֶף וּכְלֵי זָהָב וּבְגָדִים וַיִתֵּן לְרִבְקָה וּמִגְדָּנֹת נָתַן לְאָחִיהָ וּלְאִמָּֽהּ וַיֹּאכְלוּ וַיִּשְׁתּוּ הוּא וְהָאֲנָשִׁים אֲשֶׁר־עִמּוֹ וַיָּלִינוּ וַיָּקוּמוּ בַבֹּקֶר וַיֹּאמֶר שַׁלְּחֻנִי לַֽאדֹנִֽי וַיֹּאמֶר אָחִיהָ וְאִמָּהּ תֵּשֵׁב הַנַּעֲרָ אִתָּנוּ יָמִים אוֹ עָשׂוֹר אַחַר תֵּלֵֽךְ וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ וַֽיְשַׁלְּחוּ אֶת־רִבְקָה אֲחֹתָם וְאֶת־מֵנִקְתָּהּ וְאֶת־עֶבֶד אַבְרָהָם וְאֶת־אֲנָשָֽׁיו",
+        "riddle": "אֵלֵֽך",
+        "speaker": "רִבְקָה",
+        "listener": "אָחִיהָ וְאִמָּהּ",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "יִצְחָק",
+            "פַרְעֹה"
+          ]
+        },
+        "bonus": "כְּלֵי",
+        "bonus_hint": {
+          "quote": "וְשָׁאֲלָה אִשָּׁה מִשְּׁכֶנְתָּהּ וּמִגָּרַת בֵּיתָהּ כְּלֵי־כֶסֶף וּכְלֵי זָהָב וּשְׂמָלֹת וְשַׂמְתֶּם עַל־בְּנֵיכֶם וְעַל־בְּנֹתֵיכֶם וְנִצַּלְתֶּם אֶת־מִצְרָֽיִם",
+          "source": {
+            "book": "שמות",
+            "chapter": 3,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "53": "And the servant brought forth jewels of silver, and jewels of gold, and raiment, and gave them to Rebekah: he gave also to her brother and to her mother precious things.",
+          "54": "And they did eat and drink, he and the men that were with him, and tarried all night; and they rose up in the morning, and he said, Send me away unto my master.",
+          "55": "And her brother and her mother said, Let the damsel abide with us a few days, at the least ten; after that she shall go.",
+          "56": "And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master.",
+          "57": "And they said, We will call the damsel, and inquire at her mouth.",
+          "58": "And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go.",
+          "59": "And they sent away Rebekah their sister, and her nurse, and Abraham's servant, and his men."
+        },
+        "he": {
+          "53": "וַיּוֹצֵא הָעֶבֶד כְּלֵי־כֶסֶף וּכְלֵי זָהָב וּבְגָדִים וַיִתֵּן לְרִבְקָה וּמִגְדָּנֹת נָתַן לְאָחִיהָ וּלְאִמָּֽהּ׃",
+          "54": "וַיֹּאכְלוּ וַיִּשְׁתּוּ הוּא וְהָאֲנָשִׁים אֲשֶׁר־עִמּוֹ וַיָּלִינוּ וַיָּקוּמוּ בַבֹּקֶר וַיֹּאמֶר שַׁלְּחֻנִי לַֽאדֹנִֽי׃",
+          "55": "וַיֹּאמֶר אָחִיהָ וְאִמָּהּ תֵּשֵׁב הַנַּעֲרָ אִתָּנוּ יָמִים אוֹ עָשׂוֹר אַחַר תֵּלֵֽךְ׃",
+          "56": "וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי׃",
+          "57": "וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ׃",
+          "58": "וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ׃",
+          "59": "וַֽיְשַׁלְּחוּ אֶת־רִבְקָה אֲחֹתָם וְאֶת־מֵנִקְתָּהּ וְאֶת־עֶבֶד אַבְרָהָם וְאֶת־אֲנָשָֽׁיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 53,
+        "end": 59
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-24-60-60",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 24,
+        "quote_verse_start": 56,
+        "quote_verse_end": 60,
+        "speaker_mention_verse": 60,
+        "listener_mention_verse": 60
+      },
+      "en": {
+        "quote": "And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master. And they said, We will call the damsel, and inquire at her mouth. And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go. And they sent away Rebekah their sister, and her nurse, and Abraham's servant, and his men. And they blessed Rebekah, and said unto her, Thou art our sister, be thou the mother of thousands of millions, and let thy seed possess the gate of those which hate them.",
+        "riddle": "Thou art our sister, be thou the mother of thousands of millions, and let thy seed possess the gate of those which hate them",
+        "speaker": "men",
+        "listener": "Rebekah",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "sons of Jacob",
+            "Israel",
+            "Philistines"
+          ],
+          "listener": [
+            "Tamar",
+            "Jacob",
+            "Balaam"
+          ]
+        },
+        "bonus": "master",
+        "bonus_hint": {
+          "quote": "And the man, the master of the house, went out unto them, Nay, my brethren, nay, I pray you, do not so wickedly; seeing that this man is come into mine house, do not this folly.",
+          "source": {
+            "book": "Judges",
+            "chapter": 19,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ וַֽיְשַׁלְּחוּ אֶת־רִבְקָה אֲחֹתָם וְאֶת־מֵנִקְתָּהּ וְאֶת־עֶבֶד אַבְרָהָם וְאֶת־אֲנָשָֽׁיו וַיְבָרֲכוּ אֶת־רִבְקָה וַיֹּאמְרוּ לָהּ אֲחֹתֵנוּ אַתְּ הֲיִי לְאַלְפֵי רְבָבָה וְיִירַשׁ זַרְעֵךְ אֵת שַׁעַר שֹׂנְאָֽיו",
+        "riddle": "אֲחֹתֵנוּ אַתְּ הֲיִי לְאַלְפֵי רְבָבָה וְיִירַשׁ זַרְעֵךְ אֵת שַׁעַר שֹׂנְאָֽיו",
+        "speaker": "אֲנָשָֽׁיו",
+        "listener": "רִבְקָה",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "בְנֵֽי־יַעֲקֹב",
+            "יִשְׂרָאֵל",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "תָּמָר",
+            "יַעֲקֹב",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "אֲלֵהֶם",
+        "bonus_hint": {
+          "quote": "וַיֵּצֵא אֲלֵיהֶם הָאִישׁ בַּעַל הַבַּיִת וַיֹּאמֶר אֲלֵהֶם אַל־אַחַי אַל־תָּרֵעוּ נָא אַחֲרֵי אֲשֶׁר־בָּא הָאִישׁ הַזֶּה אַל־בֵּיתִי אַֽל־תַּעֲשׂוּ אֶת־הַנְּבָלָה הַזֹּֽאת",
+          "source": {
+            "book": "שופטים",
+            "chapter": 19,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "56": "And he said unto them, Hinder me not, seeing the LORD hath prospered my way; send me away that I may go to my master.",
+          "57": "And they said, We will call the damsel, and inquire at her mouth.",
+          "58": "And they called Rebekah, and said unto her, Wilt thou go with this man? And she said, I will go.",
+          "59": "And they sent away Rebekah their sister, and her nurse, and Abraham's servant, and his men.",
+          "60": "And they blessed Rebekah, and said unto her, Thou art our sister, be thou the mother of thousands of millions, and let thy seed possess the gate of those which hate them."
+        },
+        "he": {
+          "56": "וַיֹּאמֶר אֲלֵהֶם אַל־תְּאַחֲרוּ אֹתִי וַֽיהוָה הִצְלִיחַ דַּרְכִּי שַׁלְּחוּנִי וְאֵלְכָה לַֽאדֹנִֽי׃",
+          "57": "וַיֹּאמְרוּ נִקְרָא לַֽנַּעֲרָ וְנִשְׁאֲלָה אֶת־פִּֽיהָ׃",
+          "58": "וַיִּקְרְאוּ לְרִבְקָה וַיֹּאמְרוּ אֵלֶיהָ הֲתֵלְכִי עִם־הָאִישׁ הַזֶּה וַתֹּאמֶר אֵלֵֽךְ׃",
+          "59": "וַֽיְשַׁלְּחוּ אֶת־רִבְקָה אֲחֹתָם וְאֶת־מֵנִקְתָּהּ וְאֶת־עֶבֶד אַבְרָהָם וְאֶת־אֲנָשָֽׁיו׃",
+          "60": "וַיְבָרֲכוּ אֶת־רִבְקָה וַיֹּאמְרוּ לָהּ אֲחֹתֵנוּ אַתְּ הֲיִי לְאַלְפֵי רְבָבָה וְיִירַשׁ זַרְעֵךְ אֵת שַׁעַר שֹׂנְאָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 56,
+        "end": 60
       },
       "meta": {
         "mode": "llm",

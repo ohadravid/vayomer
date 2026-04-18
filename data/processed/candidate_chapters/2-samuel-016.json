@@ -6,25 +6,27 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-16-02-02",
+      "id": "2-samuel-16-02-02-1",
       "source": {
         "book_code": "2SA",
         "book": "2 Samuel",
         "book_he": "שמואל ב",
         "chapter": 16,
         "quote_verse_start": 2,
-        "quote_verse_end": 2
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "And the king said unto Ziba, What meanest thou by these? And Ziba said, The asses be for the king's household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink.",
         "riddle": "What meanest thou by these?",
-        "speaker": "King",
+        "speaker": "king",
         "listener": "Ziba",
         "book": "2 Samuel"
       },
       "he": {
         "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־צִיבָא מָה־אֵלֶּה לָּךְ וַיֹּאמֶר צִיבָא הַחֲמוֹרִים לְבֵית־הַמֶּלֶךְ לִרְכֹּב וְהַלֶּחֶם וְהַקַּיִץ לֶאֱכוֹל הַנְּעָרִים וְהַיַּיִן לִשְׁתּוֹת הַיָּעֵף בַּמִּדְבָּֽר",
-        "riddle": "מָה־אֵלֶּה לָּךְ",
+        "riddle": "מָה־אֵלֶּה לָּך",
         "speaker": "הַמֶּלֶךְ",
         "listener": "צִיבָא",
         "book": "שמואל ב"
@@ -38,21 +40,596 @@
         }
       },
       "meta": {
-        "reason": "Direct question from king",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 16,
         "start": 2,
         "end": 2
       }
+    },
+    {
+      "id": "2-samuel-16-02-02-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the king said unto Ziba, What meanest thou by these? And Ziba said, The asses be for the king's household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink.",
+        "riddle": "The asses be for the king's household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink.",
+        "speaker": "Ziba",
+        "listener": "king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־צִיבָא מָה־אֵלֶּה לָּךְ וַיֹּאמֶר צִיבָא הַחֲמוֹרִים לְבֵית־הַמֶּלֶךְ לִרְכֹּב וְהַלֶּחֶם וְהַקַּיִץ לֶאֱכוֹל הַנְּעָרִים וְהַיַּיִן לִשְׁתּוֹת הַיָּעֵף בַּמִּדְבָּֽר",
+        "riddle": "הַחֲמוֹרִים לְבֵית־הַמֶּלֶךְ לִרְכֹּב וְהַלֶּחֶם וְהַקַּיִץ לֶאֱכוֹל הַנְּעָרִים וְהַיַּיִן לִשְׁתּוֹת הַיָּעֵף בַּמִּדְבָּֽר",
+        "speaker": "צִיבָא",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the king said unto Ziba, What meanest thou by these? And Ziba said, The asses be for the king's household to ride on; and the bread and summer fruit for the young men to eat; and the wine, that such as be faint in the wilderness may drink."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־צִיבָא מָה־אֵלֶּה לָּךְ וַיֹּאמֶר צִיבָא הַחֲמוֹרִים לְבֵית־הַמֶּלֶךְ לִרְכֹּב וְהַלֶּחֶם וְהַקַּיִץ לֶאֱכוֹל הַנְּעָרִים וְהַיַּיִן לִשְׁתּוֹת הַיָּעֵף בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct explanation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "2-samuel-16-03-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the king said, And where is thy master's son? And Ziba said unto the king, Behold, he abideth at Jerusalem: for he said, To day shall the house of Israel restore me the kingdom of my father.",
+        "riddle": "And where is thy master's son?",
+        "speaker": "king",
+        "listener": "Ziba",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ וְאַיֵּה בֶּן־אֲדֹנֶיךָ וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ הִנֵּה יוֹשֵׁב בִּירוּשָׁלִַם כִּי אָמַר הַיּוֹם יָשִׁיבוּ לִי בֵּית יִשְׂרָאֵל אֵת מַמְלְכוּת אָבִֽי",
+        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ וְאַיֵּה בֶּן־אֲדֹנֶיךָ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "צִיבָא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the king said, And where is thy master's son? And Ziba said unto the king, Behold, he abideth at Jerusalem: for he said, To day shall the house of Israel restore me the kingdom of my father."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר הַמֶּלֶךְ וְאַיֵּה בֶּן־אֲדֹנֶיךָ וַיֹּאמֶר צִיבָא אֶל־הַמֶּלֶךְ הִנֵּה יוֹשֵׁב בִּירוּשָׁלִַם כִּי אָמַר הַיּוֹם יָשִׁיבוּ לִי בֵּית יִשְׂרָאֵל אֵת מַמְלְכוּת אָבִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-16-04-04",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "Then said the king to Ziba, Behold, thine are all that pertained unto Mephibosheth. And Ziba said, I humbly beseech thee that I may find grace in thy sight, my lord, O king.",
+        "riddle": "Behold, thine are all that pertained unto Mephibosheth.",
+        "speaker": "king",
+        "listener": "Ziba",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ לְצִבָא הִנֵּה לְךָ כֹּל אֲשֶׁר לִמְפִי־בֹשֶׁת וַיֹּאמֶר צִיבָא הִֽשְׁתַּחֲוֵיתִי אֶמְצָא־חֵן בְּעֵינֶיךָ אֲדֹנִי הַמֶּֽלֶךְ",
+        "riddle": "הִנֵּה לְךָ כֹּל אֲשֶׁר לִמְפִי־בֹשֶׁת",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "צִבָא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then said the king to Ziba, Behold, thine are all that pertained unto Mephibosheth. And Ziba said, I humbly beseech thee that I may find grace in thy sight, my lord, O king."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר הַמֶּלֶךְ לְצִבָא הִנֵּה לְךָ כֹּל אֲשֶׁר לִמְפִי־בֹשֶׁת וַיֹּאמֶר צִיבָא הִֽשְׁתַּחֲוֵיתִי אֶמְצָא־חֵן בְּעֵינֶיךָ אֲדֹנִי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-samuel-16-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And thus said Shimei when he cursed, Come out, come out, thou bloody man, and thou man of Belial:",
+        "riddle": "Come out, come out, thou bloody man, and thou man of Belial:",
+        "speaker": "Shimei",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְכֹֽה־אָמַר שִׁמְעִי בְּקַֽלְלוֹ צֵא צֵא אִישׁ הַדָּמִים וְאִישׁ הַבְּלִיָּֽעַל",
+        "riddle": "צֵא צֵא אִישׁ הַדָּמִים וְאִישׁ הַבְּלִיָּֽעַל",
+        "speaker": "שִׁמְעִי",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And thus said Shimei when he cursed, Come out, come out, thou bloody man, and thou man of Belial:"
+        },
+        "he": {
+          "7": "וְכֹֽה־אָמַר שִׁמְעִי בְּקַֽלְלוֹ צֵא צֵא אִישׁ הַדָּמִים וְאִישׁ הַבְּלִיָּֽעַל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct curse",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-16-08-08",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "The LORD hath returned upon thee all the blood of the house of Saul, in whose stead thou hast reigned; and the LORD hath delivered the kingdom into the hand of Absalom thy son: and, behold, thou art taken in thy mischief, because thou art a bloody man.",
+        "riddle": "The LORD hath returned upon thee all the blood of the house of Saul, in whose stead thou hast reigned; and the LORD hath delivered the kingdom into the hand of Absalom thy son: and, behold, thou art taken in thy mischief, because thou art a bloody man.",
+        "speaker": "Shimei",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "הֵשִׁיב עָלֶיךָ יְהוָה כֹּל דְּמֵי בֵית־שָׁאוּל אֲשֶׁר מָלַכְתָּ תַּחְתָּיו וַיִּתֵּן יְהוָה אֶת־הַמְּלוּכָה בְּיַד אַבְשָׁלוֹם בְּנֶךָ וְהִנְּךָ בְּרָעָתֶךָ כִּי אִישׁ דָּמִים אָֽתָּה",
+        "riddle": "הֵשִׁיב עָלֶיךָ יְהוָה כֹּל דְּמֵי בֵית־שָׁאוּל אֲשֶׁר מָלַכְתָּ תַּחְתָּיו וַיִּתֵּן יְהוָה אֶת־הַמְּלוּכָה בְּיַד אַבְשָׁלוֹם בְּנֶךָ וְהִנְּךָ בְּרָעָתֶךָ כִּי אִישׁ דָּמִים אָֽתָּה",
+        "speaker": "שמעי",
+        "listener": "דוד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "The LORD hath returned upon thee all the blood of the house of Saul, in whose stead thou hast reigned; and the LORD hath delivered the kingdom into the hand of Absalom thy son: and, behold, thou art taken in thy mischief, because thou art a bloody man."
+        },
+        "he": {
+          "8": "הֵשִׁיב עָלֶיךָ יְהוָה כֹּל ׀ דְּמֵי בֵית־שָׁאוּל אֲשֶׁר מָלַכְתָּ תַּחְתָּיו וַיִּתֵּן יְהוָה אֶת־הַמְּלוּכָה בְּיַד אַבְשָׁלוֹם בְּנֶךָ וְהִנְּךָ בְּרָעָתֶךָ כִּי אִישׁ דָּמִים אָֽתָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-16-10-10",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the king said, What have I to do with you, ye sons of Zeruiah? so let him curse, because the LORD hath said unto him, Curse David. Who shall then say, Wherefore hast thou done so?",
+        "riddle": "What have I to do with you, ye sons of Zeruiah? so let him curse, because the LORD hath said unto him, Curse David. Who shall then say, Wherefore hast thou done so?",
+        "speaker": "David",
+        "listener": "sons of Zeruiah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ מַה־לִּי וְלָכֶם בְּנֵי צְרֻיָה כֹּה יְקַלֵּל כִּי יְהוָה אָמַר לוֹ קַלֵּל אֶת־דָּוִד וּמִי יֹאמַר מַדּוּעַ עָשִׂיתָה כֵּֽן",
+        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ מַה־לִּי וְלָכֶם בְּנֵי צְרֻיָה כֹּה יְקַלֵּל כִּי יְהוָה אָמַר לוֹ קַלֵּל אֶת־דָּוִד וּמִי יֹאמַר מַדּוּעַ עָשִׂיתָה כֵּֽן",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "בְּנֵי צְרֻיָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the king said, What have I to do with you, ye sons of Zeruiah? so let him curse, because the LORD hath said unto him, Curse David. Who shall then say, Wherefore hast thou done so?"
+        },
+        "he": {
+          "10": "וַיֹּאמֶר הַמֶּלֶךְ מַה־לִּי וְלָכֶם בְּנֵי צְרֻיָה כֹּה יְקַלֵּל כִּי יְהוָה אָמַר לוֹ קַלֵּל אֶת־דָּוִד וּמִי יֹאמַר מַדּוּעַ עָשִׂיתָה כֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "2-samuel-16-11-11",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And David said to Abishai, and to all his servants, Behold, my son, which came forth of my bowels, seeketh my life: how much more now may this Benjamite do it? let him alone, and let him curse; for the LORD hath bidden him.",
+        "riddle": "Behold, my son, which came forth of my bowels, seeketh my life: how much more now may this Benjamite do it? let him alone, and let him curse; for the LORD hath bidden him.",
+        "speaker": "David",
+        "listener": "Abishai and servants",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי וְאֶל־כָּל־עֲבָדָיו הִנֵּה בְנִי אֲשֶׁר־יָצָא מִמֵּעַי מְבַקֵּשׁ אֶת־נַפְשִׁי וְאַף כִּֽי־עַתָּה בֶּן־הַיְמִינִי הַנִּחוּ לוֹ וִֽיקַלֵּל כִּי אָֽמַר־לוֹ יְהוָֽה",
+        "riddle": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי וְאֶל־כָּל־עֲבָדָיו הִנֵּה בְנִי אֲשֶׁר־יָצָא מִמֵּעַי מְבַקֵּשׁ אֶת־נַפְשִׁי וְאַף כִּֽי־עַתָּה בֶּן־הַיְמִינִי הַנִּחוּ לוֹ וִֽיקַלֵּל כִּי אָֽמַר־לוֹ יְהוָֽה",
+        "speaker": "דָּוִד",
+        "listener": "אֲבִישַׁי וְעֶל כָּל עֲבָדָיו",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And David said to Abishai, and to all his servants, Behold, my son, which came forth of my bowels, seeketh my life: how much more now may this Benjamite do it? let him alone, and let him curse; for the LORD hath bidden him."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר דָּוִד אֶל־אֲבִישַׁי וְאֶל־כָּל־עֲבָדָיו הִנֵּה בְנִי אֲשֶׁר־יָצָא מִמֵּעַי מְבַקֵּשׁ אֶת־נַפְשִׁי וְאַף כִּֽי־עַתָּה בֶּן־הַיְמִינִי הַנִּחוּ לוֹ וִֽיקַלֵּל כִּי אָֽמַר־לוֹ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "2-samuel-16-17-17",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Absalom said to Hushai, Is this thy kindness to thy friend? why wentest thou not with thy friend?",
+        "riddle": "Is this thy kindness to thy friend? why wentest thou not with thy friend?",
+        "speaker": "Absalom",
+        "listener": "Hushai",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־חוּשַׁי זֶה חַסְדְּךָ אֶת־רֵעֶךָ לָמָּה לֹֽא־הָלַכְתָּ אֶת־רֵעֶֽךָ",
+        "riddle": "זֶה חַסְדְּךָ אֶת־רֵעֶךָ לָמָּה לֹֽא־הָלַכְתָּ אֶת־רֵעֶֽך",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "חוּשַׁי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Absalom said to Hushai, Is this thy kindness to thy friend? why wentest thou not with thy friend?"
+        },
+        "he": {
+          "17": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־חוּשַׁי זֶה חַסְדְּךָ אֶת־רֵעֶךָ לָמָּה לֹֽא־הָלַכְתָּ אֶת־רֵעֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-samuel-16-18-18",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Hushai said unto Absalom, Nay; but whom the LORD, and this people, and all the men of Israel, choose, his will I be, and with him will I abide.",
+        "riddle": "Nay; but whom the LORD, and this people, and all the men of Israel, choose, his will I be, and with him will I abide.",
+        "speaker": "Hushai",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלֹם לֹא כִּי אֲשֶׁר בָּחַר יְהוָה וְהָעָם הַזֶּה וְכָל־אִישׁ יִשְׂרָאֵל לוֹ אֶהְיֶה וְאִתּוֹ אֵשֵֽׁב",
+        "riddle": "לֹא כִּי אֲשֶׁר בָּחַר יְהוָה וְהָעָם הַזֶּה וְכָל־אִישׁ יִשְׂרָאֵל לוֹ אֶהְיֶה וְאִתּוֹ אֵשֵֽׁב",
+        "speaker": "חוּשַׁי",
+        "listener": "אַבְשָׁלֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Hushai said unto Absalom, Nay; but whom the LORD, and this people, and all the men of Israel, choose, his will I be, and with him will I abide."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר חוּשַׁי אֶל־אַבְשָׁלֹם לֹא כִּי אֲשֶׁר בָּחַר יְהוָה וְהָעָם הַזֶּה וְכָל־אִישׁ יִשְׂרָאֵל לוֹ אֶהְיֶה וְאִתּוֹ אֵשֵֽׁב׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "2-samuel-16-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And again, whom should I serve? should I not serve in the presence of his son? as I have served in thy father's presence, so will I be in thy presence.",
+        "riddle": "whom should I serve? should I not serve in the presence of his son?",
+        "speaker": "Hushai",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְהַשֵּׁנִית לְמִי אֲנִי אֶֽעֱבֹד הֲלוֹא לִפְנֵי בְנוֹ כַּאֲשֶׁר עָבַדְתִּי לִפְנֵי אָבִיךָ כֵּן אֶהְיֶה לְפָנֶֽיךָ",
+        "riddle": "לְמִי אֲנִי אֶֽעֱבֹד הֲלוֹא לִפְנֵי בְנוֹ כַּאֲשֶׁר עָבַדְתִּי לִפְנֵי אָבִיךָ",
+        "speaker": "חוש",
+        "listener": "אבשלום",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And again, whom should I serve? should I not serve in the presence of his son? as I have served in thy father's presence, so will I be in thy presence."
+        },
+        "he": {
+          "19": "וְהַשֵּׁנִית לְמִי אֲנִי אֶֽעֱבֹד הֲלוֹא לִפְנֵי בְנוֹ כַּאֲשֶׁר עָבַדְתִּי לִפְנֵי אָבִיךָ כֵּן אֶהְיֶה לְפָנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical questions",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-samuel-16-20-20",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "Then said Absalom to Ahithophel, Give counsel among you what we shall do.",
+        "riddle": "Give counsel among you what we shall do.",
+        "speaker": "Absalom",
+        "listener": "Ahithophel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־אֲחִיתֹפֶל הָבוּ לָכֶם עֵצָה מַֽה־נַּעֲשֶֽׂה",
+        "riddle": "הָבוּ לָכֶם עֵצָה מַֽה־נַּעֲשֶֽׂה",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "אֲחִיתֹפֶל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "Then said Absalom to Ahithophel, Give counsel among you what we shall do."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־אֲחִיתֹפֶל הָבוּ לָכֶם עֵצָה מַֽה־נַּעֲשֶֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-samuel-16-21-21-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Ahithophel said unto Absalom, Go in unto thy father's concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong.",
+        "riddle": "Go in unto thy father's concubines, which he hath left to keep the house;",
+        "speaker": "Ahithophel",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ יְדֵי כָּל־אֲשֶׁר אִתָּֽךְ",
+        "riddle": "בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ",
+        "speaker": "אֲחִיתֹפֶל",
+        "listener": "אַבְשָׁלֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Ahithophel said unto Absalom, Go in unto thy father's concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ יְדֵי כָּל־אֲשֶׁר אִתָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-16-21-21-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 16,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Ahithophel said unto Absalom, Go in unto thy father's concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong.",
+        "riddle": "Go in unto thy father's concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong.",
+        "speaker": "Ahithophel",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ יְדֵי כָּל־אֲשֶׁר אִתָּֽךְ",
+        "riddle": "בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ יְדֵי כָּל־אֲשֶׁר אִתָּֽך",
+        "speaker": "אֲחִיתֹפֶל",
+        "listener": "אַבְשָׁלֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Ahithophel said unto Absalom, Go in unto thy father's concubines, which he hath left to keep the house; and all Israel shall hear that thou art abhorred of thy father: then shall the hands of all that are with thee be strong."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֲחִיתֹפֶל אֶל־אַבְשָׁלֹם בּוֹא אֶל־פִּלַגְשֵׁי אָבִיךָ אֲשֶׁר הִנִּיחַ לִשְׁמוֹר הַבָּיִת וְשָׁמַע כָּל־יִשְׂרָאֵל כִּֽי־נִבְאַשְׁתָּ אֶת־אָבִיךָ וְחָזְקוּ יְדֵי כָּל־אֲשֶׁר אִתָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and prediction",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 21,
+        "end": 21
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 1,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 17,
+    "llm_call_count": 21,
+    "spec_count": 17,
+    "kept_count": 14,
+    "issue_count": 4
   }
 }

@@ -1,0 +1,87 @@
+{
+  "book_code": "JOS",
+  "book": "Joshua",
+  "book_he": "יהושע",
+  "chapter": 13,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "joshua-13-01-01",
+      "source": {
+        "method": "llm",
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 13,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "Now Joshua was old and stricken in years; and the LORD said unto him, Thou art old and stricken in years, and there remaineth yet very much land to be possessed. This is the land that yet remaineth: all the borders of the Philistines, and all Geshuri,",
+        "riddle": "Thou art old and stricken in years, and there remaineth yet very much land to be possessed.",
+        "speaker": "LORD",
+        "listener": "Joshua",
+        "book": "Joshua",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Philistines",
+        "bonus_hint": {
+          "quote": "And when the Philistines heard the noise of the shout, they said, What meaneth the noise of this great shout in the camp of the Hebrews? And they understood that the ark of the LORD was come into the camp.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 4,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וִיהוֹשֻׁעַ זָקֵן בָּא בַּיָּמִים וַיֹּאמֶר יְהוָה אֵלָיו אַתָּה זָקַנְתָּה בָּאתָ בַיָּמִים וְהָאָרֶץ נִשְׁאֲרָה הַרְבֵּֽה־מְאֹד לְרִשְׁתָּֽהּ זֹאת הָאָרֶץ הַנִּשְׁאָרֶת כָּל־גְּלִילוֹת הַפְּלִשְׁתִּים וְכָל־הַגְּשׁוּרִֽי",
+        "riddle": "אַתָּה זָקַנְתָּה בָּאתָ בַיָּמִים וְהָאָרֶץ נִשְׁאֲרָה הַרְבֵּֽה־מְאֹד לְרִשְׁתָּֽה",
+        "speaker": "יְהוָה",
+        "listener": "יהוֹשֻׁעַ",
+        "book": "יהושע",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בָּא",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁמְעוּ פְלִשְׁתִּים אֶת־קוֹל הַתְּרוּעָה וַיֹּאמְרוּ מֶה קוֹל הַתְּרוּעָה הַגְּדוֹלָה הַזֹּאת בְּמַחֲנֵה הָעִבְרִים וַיֵּדְעוּ כִּי אֲרוֹן יְהוָה בָּא אֶל־הַֽמַּחֲנֶֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 4,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Now Joshua was old and stricken in years; and the LORD said unto him, Thou art old and stricken in years, and there remaineth yet very much land to be possessed.",
+          "2": "This is the land that yet remaineth: all the borders of the Philistines, and all Geshuri,"
+        },
+        "he": {
+          "1": "וִיהוֹשֻׁעַ זָקֵן בָּא בַּיָּמִים וַיֹּאמֶר יְהוָה אֵלָיו אַתָּה זָקַנְתָּה בָּאתָ בַיָּמִים וְהָאָרֶץ נִשְׁאֲרָה הַרְבֵּֽה־מְאֹד לְרִשְׁתָּֽהּ׃",
+          "2": "זֹאת הָאָרֶץ הַנִּשְׁאָרֶת כָּל־גְּלִילוֹת הַפְּלִשְׁתִּים וְכָל־הַגְּשׁוּרִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

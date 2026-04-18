@@ -4,12 +4,58 @@
   "book_he": "דברים",
   "chapter": 24,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-24-08-08",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 24,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you: as I commanded them, so ye shall observe to do.",
+        "riddle": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you",
+        "speaker": "God",
+        "listener": "Israelites",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "הִשָּׁמֶר בְּנֶֽגַע־הַצָּרַעַת לִשְׁמֹר מְאֹד וְלַעֲשׂוֹת כְּכֹל אֲשֶׁר־יוֹרוּ אֶתְכֶם הַכֹּהֲנִים הַלְוִיִּם כַּאֲשֶׁר צִוִּיתִם תִּשְׁמְרוּ לַעֲשֽׂוֹת",
+        "riddle": "הִשָּׁמֶר בְּנֶֽגַע־הַצָּרַעַת לִשְׁמֹר מְאֹד וְלַעֲשׂוֹת כְּכֹל אֲשֶׁר־יוֹרוּ אֶתְכֶם הַכֹּהֲנִים הַלְוִיִּם כַּאֲשֶׁר צִוִּיתִם תִּשְׁמְרוּ לַעֲשֽׂוֹת",
+        "speaker": "אלוקים",
+        "listener": "בני ישראל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Take heed in the plague of leprosy, that thou observe diligently, and do according to all that the priests the Levites shall teach you: as I commanded them, so ye shall observe to do."
+        },
+        "he": {
+          "8": "הִשָּׁמֶר בְּנֶֽגַע־הַצָּרַעַת לִשְׁמֹר מְאֹד וְלַעֲשׂוֹת כְּכֹל אֲשֶׁר־יוֹרוּ אֶתְכֶם הַכֹּהֲנִים הַלְוִיִּם כַּאֲשֶׁר צִוִּיתִם תִּשְׁמְרוּ לַעֲשֽׂוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 24,
+        "start": 8,
+        "end": 8
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

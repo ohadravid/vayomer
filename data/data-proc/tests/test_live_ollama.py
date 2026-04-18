@@ -13,7 +13,7 @@ from data_proc.pipeline import (
     run_pipeline,
 )
 from data_proc.utils.text_cleanup import strip_hebrew_marks
-from data_proc.utils.text_cleanup import whole_word_occurs
+from data_proc.utils.text_cleanup import whole_bonus_word_occurs, whole_word_occurs
 
 TEST_SEED = 32988
 
@@ -43,10 +43,11 @@ def test_live_ollama_can_pick_bonus_word_for_selected_example(candidate_map, liv
     assert item.en.bonus.lower() not in item.en.riddle.lower()
     assert item.he.bonus not in item.he.riddle
     assert not whole_word_occurs(f"{item.en.speaker} {item.en.listener}", item.en.bonus, "en")
-    assert not whole_word_occurs(f"{item.he.speaker} {item.he.listener}", item.he.bonus, "he")
-    assert item.en.bonus_hint.source.chapter == item.he.bonus_hint.source.chapter
-    assert item.en.bonus_hint.source.start == item.he.bonus_hint.source.start
+    assert not whole_bonus_word_occurs(f"{item.he.speaker} {item.he.listener}", item.he.bonus, "he")
     assert (item.en.bonus_hint.source.book, item.en.bonus_hint.source.chapter) != (item.source.book, item.source.chapter)
+    assert (item.he.bonus_hint.source.book, item.he.bonus_hint.source.chapter) != (item.source.book_he, item.source.chapter)
+    assert whole_word_occurs(item.en.bonus_hint.quote, item.en.bonus, "en")
+    assert whole_bonus_word_occurs(item.he.bonus_hint.quote, item.he.bonus, "he")
 
 
 def test_live_ollama_expands_quote_when_original_has_no_bonus_words(candidate_map, live_pipeline) -> None:
@@ -62,7 +63,7 @@ def test_live_ollama_expands_quote_when_original_has_no_bonus_words(candidate_ma
     assert item.ref.start == 9
     assert item.ref.end == 10
     assert not whole_word_occurs(original.en.quote, item.en.bonus, "en")
-    assert not whole_word_occurs(original.he.quote, item.he.bonus, "he")
+    assert not whole_bonus_word_occurs(original.he.quote, item.he.bonus, "he")
 
 
 def test_live_ollama_keeps_multiple_clear_genesis_candidates(candidate_map, live_pipeline) -> None:

@@ -4,12 +4,106 @@
   "book_he": "במדבר",
   "chapter": 36,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-36-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 36,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And they said, The LORD commanded my lord to give the land for an inheritance by lot to the children of Israel: and my lord was commanded by the LORD to give the inheritance of Zelophehad our brother unto his daughters.",
+        "riddle": "The LORD commanded my lord to give the land for an inheritance by lot to the children of Israel: and my lord was commanded by the LORD to give the inheritance of Zelophehad our brother unto his daughters.",
+        "speaker": "chief fathers of Gilead",
+        "listener": "Moses and princes",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֶת־אֲדֹנִי צִוָּה יְהוָה לָתֵת אֶת־הָאָרֶץ בְּנַחֲלָה בְּגוֹרָל לִבְנֵי יִשְׂרָאֵל וַֽאדֹנִי צֻוָּה בַֽיהוָה לָתֵת אֶֽת־נַחֲלַת צְלָפְחָד אָחִינוּ לִבְנֹתָֽיו",
+        "riddle": "וַיֹּאמְרוּ אֶת־אֲדֹנִי צִוָּה יְהוָה לָתֵת אֶת־הָאָרֶץ בְּנַחֲלָה בְּגוֹרָל לִבְנֵי יִשְׂרָאֵל וַֽאדֹנִי צֻוָּה בַֽיהוָה לָתֵת אֶֽת־נַחֲלַת צְלָפְחָד אָחִינוּ לִבְנֹתָֽיו",
+        "speaker": "רָאשֵׁי הָֽאָבוֹת לִבְנֵי יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה וְהַנְּשִׂאִים",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the chief fathers of the families of the children of Gilead, the son of Machir, the son of Manasseh, of the families of the sons of Joseph, came near, and spake before Moses, and before the princes, the chief fathers of the children of Israel:",
+          "2": "And they said, The LORD commanded my lord to give the land for an inheritance by lot to the children of Israel: and my lord was commanded by the LORD to give the inheritance of Zelophehad our brother unto his daughters."
+        },
+        "he": {
+          "1": "וַֽיִקְרְבוּ רָאשֵׁי הָֽאָבוֹת לְמִשְׁפַּחַת בְּנֵֽי־גִלְעָד בֶּן־מָכִיר בֶּן־מְנַשֶּׁה מִֽמִּשְׁפְּחֹת בְּנֵי יוֹסֵף וַֽיְדַבְּרוּ לִפְנֵי מֹשֶׁה וְלִפְנֵי הַנְּשִׂאִים רָאשֵׁי אָבוֹת לִבְנֵי יִשְׂרָאֵֽל׃",
+          "2": "וַיֹּאמְרוּ אֶת־אֲדֹנִי צִוָּה יְהוָה לָתֵת אֶת־הָאָרֶץ בְּנַחֲלָה בְּגוֹרָל לִבְנֵי יִשְׂרָאֵל וַֽאדֹנִי צֻוָּה בַֽיהוָה לָתֵת אֶֽת־נַחֲלַת צְלָפְחָד אָחִינוּ לִבְנֹתָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement of command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 36,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-36-05-05",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 36,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And Moses commanded the children of Israel according to the word of the LORD, saying, The tribe of the sons of Joseph hath said well.",
+        "riddle": "The tribe of the sons of Joseph hath said well.",
+        "speaker": "Moses",
+        "listener": "children of Israel",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיְצַו מֹשֶׁה אֶת־בְּנֵי יִשְׂרָאֵל עַל־פִּי יְהוָה לֵאמֹר כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים",
+        "riddle": "כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Moses commanded the children of Israel according to the word of the LORD, saying, The tribe of the sons of Joseph hath said well."
+        },
+        "he": {
+          "5": "וַיְצַו מֹשֶׁה אֶת־בְּנֵי יִשְׂרָאֵל עַל־פִּי יְהוָה לֵאמֹר כֵּן מַטֵּה בְנֵֽי־יוֹסֵף דֹּבְרִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 36,
+        "start": 5,
+        "end": 5
+      }
+    }
+  ],
   "stats": {
-    "window_count": 9,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 9,
-    "kept_count": 0,
-    "issue_count": 9
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

@@ -6,6 +6,92 @@
   "mode": "llm",
   "items": [
     {
+      "id": "exodus-33-01-01",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it:",
+        "riddle": "Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה",
+        "riddle": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD said unto Moses, Depart, and go up hence, thou and the people which thou hast brought up out of the land of Egypt, unto the land which I sware unto Abraham, to Isaac, and to Jacob, saying, Unto thy seed will I give it:"
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵךְ עֲלֵה מִזֶּה אַתָּה וְהָעָם אֲשֶׁר הֶֽעֱלִיתָ מֵאֶרֶץ מִצְרָיִם אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּעְתִּי לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹב לֵאמֹר לְזַרְעֲךָ אֶתְּנֶֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "exodus-33-03-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.",
+        "riddle": "for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "אֶל־אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶךְ",
+        "riddle": "כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶך",
+        "speaker": "ה אלוהים",
+        "listener": "משה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way."
+        },
+        "he": {
+          "3": "אֶל־אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
       "id": "exodus-33-05-05",
       "source": {
         "book_code": "EXO",
@@ -13,38 +99,313 @@
         "book_he": "שמות",
         "chapter": 33,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 3
       },
       "en": {
         "quote": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
-        "riddle": "therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
-        "speaker": "LORD",
-        "listener": "Israel",
+        "riddle": "Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ",
-        "riddle": "מָה אֶֽעֱשֶׂה־לָּֽךְ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ",
         "speaker": "יְהוָה",
         "listener": "בְּנֵֽי־יִשְׂרָאֵל",
         "book": "שמות"
       },
       "raw_quote_source": {
         "en": {
+          "3": "Unto a land flowing with milk and honey: for I will not go up in the midst of thee; for thou art a stiffnecked people: lest I consume thee in the way.",
           "5": "For the LORD had said unto Moses, Say unto the children of Israel, Ye are a stiffnecked people: I will come up into the midst of thee in a moment, and consume thee: therefore now put off thy ornaments from thee, that I may know what to do unto thee."
         },
         "he": {
+          "3": "אֶל־אֶרֶץ זָבַת חָלָב וּדְבָשׁ כִּי לֹא אֶֽעֱלֶה בְּקִרְבְּךָ כִּי עַם־קְשֵׁה־עֹרֶף אַתָּה פֶּן־אֲכֶלְךָ בַּדָּֽרֶךְ׃",
           "5": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה אֱמֹר אֶל־בְּנֵֽי־יִשְׂרָאֵל אַתֶּם עַם־קְשֵׁה־עֹרֶף רֶגַע אֶחָד אֶֽעֱלֶה בְקִרְבְּךָ וְכִלִּיתִיךָ וְעַתָּה הוֹרֵד עֶדְיְךָ מֵֽעָלֶיךָ וְאֵדְעָה מָה אֶֽעֱשֶׂה־לָּֽךְ׃"
         }
       },
       "meta": {
-        "reason": "Contains a direct command/warning.",
-        "confidence": 0.9
+        "reason": "divine command",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 33,
         "start": 5,
         "end": 5
+      }
+    },
+    {
+      "id": "exodus-33-12-12",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight.",
+        "riddle": "See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי",
+        "riddle": "רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address/complaint",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "exodus-33-13-13",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Now therefore, I pray thee, if I have found grace in thy sight, shew me now thy way, that I may know thee, that I may find grace in thy sight: and consider that this nation is thy people.",
+        "riddle": "I pray thee, if I have found grace in thy sight, shew me now thy way, that I may know thee, that I may find grace in thy sight",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְעַתָּה אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ הוֹדִעֵנִי נָא אֶת־דְּרָכֶךָ וְאֵדָעֲךָ לְמַעַן אֶמְצָא־חֵן בְּעֵינֶיךָ וּרְאֵה כִּי עַמְּךָ הַגּוֹי הַזֶּֽה",
+        "riddle": "וְעַתָּה אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ הוֹדִעֵנִי נָא אֶת־דְּרָכֶךָ וְאֵדָעֲךָ לְמַעַן אֶמְצָא־חֵן בְּעֵינֶיךָ וּרְאֵה כִּי עַמְּךָ הַגּוֹי הַזֶּֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight.",
+          "13": "Now therefore, I pray thee, if I have found grace in thy sight, shew me now thy way, that I may know thee, that I may find grace in thy sight: and consider that this nation is thy people."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי׃",
+          "13": "וְעַתָּה אִם־נָא מָצָאתִי חֵן בְּעֵינֶיךָ הוֹדִעֵנִי נָא אֶת־דְּרָכֶךָ וְאֵדָעֲךָ לְמַעַן אֶמְצָא־חֵן בְּעֵינֶיךָ וּרְאֵה כִּי עַמְּךָ הַגּוֹי הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "prayer/request",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "exodus-33-14-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And he said, My presence shall go with thee, and I will give thee rest.",
+        "riddle": "My presence shall go with thee, and I will give thee rest.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמַר פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָֽךְ",
+        "riddle": "פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָֽךְ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight.",
+          "14": "And he said, My presence shall go with thee, and I will give thee rest."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי׃",
+          "14": "וַיֹּאמַר פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "exodus-33-15-15",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he said unto him, If thy presence go not with me, carry us not up hence.",
+        "riddle": "If thy presence go not with me, carry us not up hence.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו אִם־אֵין פָּנֶיךָ הֹלְכִים אַֽל־תַּעֲלֵנוּ מִזֶּֽה",
+        "riddle": "וַיֹּאמֶר אֵלָיו אִם־אֵין פָּנֶיךָ הֹלְכִים אַֽל־תַּעֲלֵנוּ מִזֶּֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, My presence shall go with thee, and I will give thee rest.",
+          "15": "And he said unto him, If thy presence go not with me, carry us not up hence."
+        },
+        "he": {
+          "14": "וַיֹּאמַר פָּנַי יֵלֵכוּ וַהֲנִחֹתִי לָֽךְ׃",
+          "15": "וַיֹּאמֶר אֵלָיו אִם־אֵין פָּנֶיךָ הֹלְכִים אַֽל־תַּעֲלֵנוּ מִזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "exodus-33-16-16",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "For wherein shall it be known here that I and thy people have found grace in thy sight? is it not in that thou goest with us? so shall we be separated, I and thy people, from all the people that are upon the face of the earth.",
+        "riddle": "For wherein shall it be known here that I and thy people have found grace in thy sight? is it not in that thou goest with us?",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וּבַמֶּה יִוָּדַע אֵפוֹא כִּֽי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲנִי וְעַמֶּךָ הֲלוֹא בְּלֶכְתְּךָ עִמָּנוּ וְנִפְלֵינוּ אֲנִי וְעַמְּךָ מִכָּל־הָעָם אֲשֶׁר עַל־פְּנֵי הָאֲדָמָֽה",
+        "riddle": "וּבַמֶּה יִוָּדַע אֵפוֹא כִּֽי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲנִי וְעַמֶּךָ הֲלוֹא בְּלֶכְתְּךָ עִמָּנוּ וְנִפְלֵינוּ אֲנִי וְעַמְּךָ מִכָּל־הָעָם אֲשֶׁר עַל־פְּנֵי הָאֲדָמָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Moses said unto the LORD, See, thou sayest unto me, Bring up this people: and thou hast not let me know whom thou wilt send with me. Yet thou hast said, I know thee by name, and thou hast also found grace in my sight.",
+          "16": "For wherein shall it be known here that I and thy people have found grace in thy sight? is it not in that thou goest with us? so shall we be separated, I and thy people, from all the people that are upon the face of the earth."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה רְאֵה אַתָּה אֹמֵר אֵלַי הַעַל אֶת־הָעָם הַזֶּה וְאַתָּה לֹא הֽוֹדַעְתַּנִי אֵת אֲשֶׁר־תִּשְׁלַח עִמִּי וְאַתָּה אָמַרְתָּ יְדַעְתִּיךָֽ בְשֵׁם וְגַם־מָצָאתָ חֵן בְּעֵינָֽי׃",
+          "16": "וּבַמֶּה ׀ יִוָּדַע אֵפוֹא כִּֽי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲנִי וְעַמֶּךָ הֲלוֹא בְּלֶכְתְּךָ עִמָּנוּ וְנִפְלֵינוּ אֲנִי וְעַמְּךָ מִכָּל־הָעָם אֲשֶׁר עַל־פְּנֵי הָאֲדָמָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "exodus-33-17-17",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, I will do this thing also that thou hast spoken: for thou hast found grace in my sight, and I know thee by name.",
+        "riddle": "I will do this thing also that thou hast spoken: for thou hast found grace in my sight, and I know thee by name.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה גַּם אֶת־הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶֽעֱשֶׂה כִּֽי־מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵֽׁם",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה גַּם אֶת־הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶֽעֱשֶׂה כִּֽי־מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And the LORD said unto Moses, I will do this thing also that thou hast spoken: for thou hast found grace in my sight, and I know thee by name."
+        },
+        "he": {
+          "17": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה גַּם אֶת־הַדָּבָר הַזֶּה אֲשֶׁר דִּבַּרְתָּ אֶֽעֱשֶׂה כִּֽי־מָצָאתָ חֵן בְּעֵינַי וָאֵדָעֲךָ בְּשֵֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 17,
+        "end": 17
       }
     },
     {
@@ -59,16 +420,16 @@
       },
       "en": {
         "quote": "And he said, I beseech thee, shew me thy glory.",
-        "riddle": "shew me thy glory.",
+        "riddle": "I beseech thee, shew me thy glory.",
         "speaker": "Moses",
-        "listener": "God",
+        "listener": "the LORD",
         "book": "Exodus"
       },
       "he": {
         "quote": "וַיֹּאמַר הַרְאֵנִי נָא אֶת־כְּבֹדֶֽךָ",
         "riddle": "הַרְאֵנִי נָא אֶת־כְּבֹדֶֽךָ",
-        "speaker": "משה",
-        "listener": "אלוהים",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -80,7 +441,7 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct request.",
+        "reason": "direct request",
         "confidence": 0.95
       },
       "ref": {
@@ -88,13 +449,186 @@
         "start": 18,
         "end": 18
       }
+    },
+    {
+      "id": "exodus-33-19-19",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And he said, I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee; and will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy.",
+        "riddle": "I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee; and will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל־טוּבִי עַל־פָּנֶיךָ וְקָרָאתִֽי בְשֵׁם יְהוָה לְפָנֶיךָ וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵֽם",
+        "riddle": "וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל־טוּבִי עַל־פָּנֶיךָ וְקָרָאתִֽי בְשֵׁם יְהוָה לְפָנֶיךָ וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵֽם",
+        "speaker": "יְהוָה",
+        "listener": "משה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And he said, I will make all my goodness pass before thee, and I will proclaim the name of the LORD before thee; and will be gracious to whom I will be gracious, and will shew mercy on whom I will shew mercy."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר אֲנִי אַעֲבִיר כָּל־טוּבִי עַל־פָּנֶיךָ וְקָרָאתִֽי בְשֵׁם יְהוָה לְפָנֶיךָ וְחַנֹּתִי אֶת־אֲשֶׁר אָחֹן וְרִחַמְתִּי אֶת־אֲשֶׁר אֲרַחֵֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "exodus-33-20-20",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20
+      },
+      "en": {
+        "quote": "And he said, Thou canst not see my face: for there shall no man see me, and live.",
+        "riddle": "Thou canst not see my face: for there shall no man see me, and live.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לֹא תוּכַל לִרְאֹת אֶת־פָּנָי כִּי לֹֽא־יִרְאַנִי הָאָדָם וָחָֽי",
+        "riddle": "וַיֹּאמֶר לֹא תוּכַל לִרְאֹת אֶת־פָּנָי כִּי לֹֽא־יִרְאַנִי הָאָדָם וָחָֽי",
+        "speaker": "ה אלוהים",
+        "listener": "משה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And he said, Thou canst not see my face: for there shall no man see me, and live."
+        },
+        "he": {
+          "20": "וַיֹּאמֶר לֹא תוּכַל לִרְאֹת אֶת־פָּנָי כִּי לֹֽא־יִרְאַנִי הָאָדָם וָחָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "exodus-33-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the LORD said, Behold, there is a place by me, and thou shalt stand upon a rock:",
+        "riddle": "Behold, there is a place by me, and thou shalt stand upon a rock:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה הִנֵּה מָקוֹם אִתִּי וְנִצַּבְתָּ עַל־הַצּֽוּר",
+        "riddle": "הִנֵּה מָקוֹם אִתִּי וְנִצַּבְתָּ עַל־הַצּֽוּר",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the LORD said, Behold, there is a place by me, and thou shalt stand upon a rock:"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יְהוָה הִנֵּה מָקוֹם אִתִּי וְנִצַּבְתָּ עַל־הַצּֽוּר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "exodus-33-22-22",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 33,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And it shall come to pass, while my glory passeth by, that I will put thee in a clift of the rock, and will cover thee with my hand while I pass by:",
+        "riddle": "I will put thee in a clift of the rock, and will cover thee with my hand while I pass by:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְהָיָה בַּעֲבֹר כְּבֹדִי וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר וְשַׂכֹּתִי כַפִּי עָלֶיךָ עַד־עָבְרִֽי",
+        "riddle": "וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר וְשַׂכֹּתִי כַפִּי עָלֶיךָ עַד־עָבְרִֽי",
+        "speaker": "הַשֵּׁם",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And it shall come to pass, while my glory passeth by, that I will put thee in a clift of the rock, and will cover thee with my hand while I pass by:"
+        },
+        "he": {
+          "22": "וְהָיָה בַּעֲבֹר כְּבֹדִי וְשַׂמְתִּיךָ בְּנִקְרַת הַצּוּר וְשַׂכֹּתִי כַפִּי עָלֶיךָ עַד־עָבְרִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 33,
+        "start": 22,
+        "end": 22
+      }
     }
   ],
   "stats": {
-    "window_count": 18,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 18,
-    "kept_count": 2,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 14,
+    "issue_count": 0
   }
 }

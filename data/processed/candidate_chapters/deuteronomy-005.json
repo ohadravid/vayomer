@@ -6,6 +6,642 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-05-01-01",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses called all Israel, and said unto them, Hear, O Israel, the statutes and judgments which I speak in your ears this day, that ye may learn them, and keep, and do them.",
+        "riddle": "Hear, O Israel, the statutes and judgments which I speak in your ears this day",
+        "speaker": "Moses",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא מֹשֶׁה אֶל־כָּל־יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם שְׁמַע יִשְׂרָאֵל אֶת־הַחֻקִּים וְאֶת־הַמִּשְׁפָּטִים אֲשֶׁר אָנֹכִי דֹּבֵר בְּאָזְנֵיכֶם הַיּוֹם וּלְמַדְתֶּם אֹתָם וּשְׁמַרְתֶּם לַעֲשֹׂתָֽם",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם שְׁמַע יִשְׂרָאֵל אֶת־הַחֻקִּים וְאֶת־הַמִּשְׁפָּטִים אֲשֶׁר אָנֹכִי דֹּבֵר בְּאָזְנֵיכֶם הַיּוֹם וּלְמַדְתֶּם אֹתָם",
+        "speaker": "מֹשֶׁה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses called all Israel, and said unto them, Hear, O Israel, the statutes and judgments which I speak in your ears this day, that ye may learn them, and keep, and do them."
+        },
+        "he": {
+          "1": "וַיִּקְרָא מֹשֶׁה אֶל־כָּל־יִשְׂרָאֵל וַיֹּאמֶר אֲלֵהֶם שְׁמַע יִשְׂרָאֵל אֶת־הַחֻקִּים וְאֶת־הַמִּשְׁפָּטִים אֲשֶׁר אָנֹכִי דֹּבֵר בְּאָזְנֵיכֶם הַיּוֹם וּלְמַדְתֶּם אֹתָם וּשְׁמַרְתֶּם לַעֲשֹׂתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "deuteronomy-05-06-06",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "I am the LORD thy God, which brought thee out of the land of Egypt, from the house of bondage.",
+        "riddle": "I am the LORD thy God, which brought thee out of the land of Egypt, from the house of bondage.",
+        "speaker": "the LORD",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "אָֽנֹכִי יְהוָה אֱלֹהֶיךָ אֲשֶׁר הוֹצֵאתִיךָ מֵאֶרֶץ מִצְרַיִם מִבֵּית עֲבָדִֽים",
+        "riddle": "אָֽנֹכִי יְהוָה אֱלֹהֶיךָ אֲשֶׁר הוֹצֵאתִיךָ מֵאֶרֶץ מִצְרַיִם מִבֵּית עֲבָדִֽים",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "(I stood between the LORD and you at that time, to shew you the work of the LORD: for ye were afraid by reason of the fire, and went not up into the mount;) saying,",
+          "6": "I am the LORD thy God, which brought thee out of the land of Egypt, from the house of bondage."
+        },
+        "he": {
+          "5": "אָנֹכִי עֹמֵד בֵּין־יְהוָה וּבֵֽינֵיכֶם בָּעֵת הַהִוא לְהַגִּיד לָכֶם אֶת־דְּבַר יְהוָה כִּי יְרֵאתֶם מִפְּנֵי הָאֵשׁ וְלֹֽא־עֲלִיתֶם בָּהָר לֵאמֹֽר׃",
+          "6": "אָֽנֹכִי יְהוָה אֱלֹהֶיךָ אֲשֶׁר הוֹצֵאתִיךָ מֵאֶרֶץ מִצְרַיִם מִבֵּית עֲבָדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "deuteronomy-05-11-11",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain.",
+        "riddle": "Thou shalt not take the name of the LORD thy God in vain",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא",
+        "riddle": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Thou shalt not take the name of the LORD thy God in vain: for the LORD will not hold him guiltless that taketh his name in vain."
+        },
+        "he": {
+          "11": "לֹא תִשָּׂא אֶת־שֵֽׁם־יְהוָה אֱלֹהֶיךָ לַשָּׁוְא כִּי לֹא יְנַקֶּה יְהוָה אֵת אֲשֶׁר־יִשָּׂא אֶת־שְׁמוֹ לַשָּֽׁוְא׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "deuteronomy-05-12-12",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee.",
+        "riddle": "Keep the sabbath day to sanctify it",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶֽיךָ",
+        "riddle": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Keep the sabbath day to sanctify it, as the LORD thy God hath commanded thee."
+        },
+        "he": {
+          "12": "שָׁמוֹר אֶת־יוֹם הַשַׁבָּת לְקַדְּשׁוֹ כַּאֲשֶׁר צִוְּךָ ׀ יְהוָה אֱלֹהֶֽיךָ"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "deuteronomy-05-13-13",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "Six days thou shalt labour, and do all thy work:",
+        "riddle": "Six days thou shalt labour, and do all thy work",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ",
+        "riddle": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ",
+        "speaker": "אלוהים",
+        "listener": "ישראל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "Six days thou shalt labour, and do all thy work:"
+        },
+        "he": {
+          "13": "שֵׁשֶׁת יָמִים תַּֽעֲבֹד וְעָשִׂיתָ כָּֿל־מְלַאכְתֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "deuteronomy-05-14-14",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14
+      },
+      "en": {
+        "quote": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou.",
+        "riddle": "in it thou shalt not do any work",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ",
+        "riddle": "לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ",
+        "speaker": "יהוָה",
+        "listener": "ישראל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "But the seventh day is the sabbath of the LORD thy God: in it thou shalt not do any work, thou, nor thy son, nor thy daughter, nor thy manservant, nor thy maidservant, nor thine ox, nor thine ass, nor any of thy cattle, nor thy stranger that is within thy gates; that thy manservant and thy maidservant may rest as well as thou."
+        },
+        "he": {
+          "14": "וְיוֹם הַשְּׁבִיעִי שַׁבָּת ׀ לַיהוָה אֱלֹהֶיךָ לֹא תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָֽ־וּבִתֶּךָ וְעַבְדְּךָֽ־וַאֲמָתֶךָ וְשׁוֹרְךָ וַחֲמֹֽרְךָ וְכָל־בְּהֶמְתֶּךָ וְגֵֽרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ לְמַעַן יָנוּחַ עַבְדְּךָ וַאֲמָתְךָ כָּמֽוֹךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "deuteronomy-05-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee.",
+        "riddle": "Honour thy father and thy mother",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ",
+        "riddle": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ",
+        "speaker": "יְהוָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Honour thy father and thy mother, as the LORD thy God hath commanded thee; that thy days may be prolonged, and that it may go well with thee, in the land which the LORD thy God giveth thee."
+        },
+        "he": {
+          "16": "כַּבֵּד אֶת־אָבִיךָ וְאֶת־אִמֶּךָ כַּאֲשֶׁר צִוְּךָ יְהוָה אֱלֹהֶיךָ לְמַעַן ׀ יַאֲרִיכֻן יָמֶיךָ וּלְמַעַן יִיטַב לָךְ עַל הָֽאֲדָמָה אֲשֶׁר־יְהוָה אֱלֹהֶיךָ נֹתֵן לָֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "deuteronomy-05-17-17",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "Thou shalt not kill.",
+        "riddle": "Thou shalt not kill",
+        "speaker": "God",
+        "listener": "Israel",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "לֹא תִּֿרְצָח",
+        "riddle": "לֹא תִּֿרְצָח",
+        "speaker": "אלוהים",
+        "listener": "ישראל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "Thou shalt not kill."
+        },
+        "he": {
+          "17": "לֹא תִּֿרְצָח׃"
+        }
+      },
+      "meta": {
+        "reason": "commandment",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "deuteronomy-05-24-24",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+        "riddle": "Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth.",
+        "speaker": "the heads of tribes",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי",
+        "riddle": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי",
+        "speaker": "בני ישראל",
+        "listener": "משה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And ye said, Behold, the LORD our God hath shewed us his glory and his greatness, and we have heard his voice out of the midst of the fire: we have seen this day that God doth talk with man, and he liveth."
+        },
+        "he": {
+          "24": "וַתֹּאמְרוּ הֵן הֶרְאָנוּ יְהוָה אֱלֹהֵינוּ אֶת־כְּבֹדוֹ וְאֶת־גָּדְלוֹ וְאֶת־קֹלוֹ שָׁמַעְנוּ מִתּוֹךְ הָאֵשׁ הַיּוֹם הַזֶּה רָאִינוּ כִּֽי־יְדַבֵּר אֱלֹהִים אֶת־הָֽאָדָם וָחָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "deuteronomy-05-25-25",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die.",
+        "riddle": "why should we die? for this great fire will consume us",
+        "speaker": "the heads of tribes",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ",
+        "riddle": "לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים",
+        "speaker": "אֲנַחְנוּ",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Now therefore why should we die? for this great fire will consume us: if we hear the voice of the LORD our God any more, then we shall die."
+        },
+        "he": {
+          "25": "וְעַתָּה לָמָּה נָמוּת כִּי תֹֽאכְלֵנוּ הָאֵשׁ הַגְּדֹלָה הַזֹּאת אִם־יֹסְפִים ׀ אֲנַחְנוּ לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהֵינוּ עוֹד וָמָֽתְנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "deuteronomy-05-26-26",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+        "riddle": "who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?",
+        "speaker": "the heads of tribes",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי",
+        "riddle": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי",
+        "speaker": "בני ישראל",
+        "listener": "משה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "For who is there of all flesh, that hath heard the voice of the living God speaking out of the midst of the fire, as we have, and lived?"
+        },
+        "he": {
+          "26": "כִּי מִי כָל־בָּשָׂר אֲשֶׁר שָׁמַע קוֹל אֱלֹהִים חַיִּים מְדַבֵּר מִתּוֹךְ־הָאֵשׁ כָּמֹנוּ וַיֶּֽחִי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "deuteronomy-05-27-27-1",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "riddle": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee",
+        "speaker": "the heads of tribes",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "riddle": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "speaker": "בני ישראל",
+        "listener": "משה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it."
+        },
+        "he": {
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "deuteronomy-05-27-27-2",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "riddle": "speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it.",
+        "speaker": "the people",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ",
+        "riddle": "וְאַתְּ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינו",
+        "speaker": "הָעָם",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "Go thou near, and hear all that the LORD our God shall say: and speak thou unto us all that the LORD our God shall speak unto thee; and we will hear it, and do it."
+        },
+        "he": {
+          "27": "קְרַב אַתָּה וּֽשֲׁמָע אֵת כָּל־אֲשֶׁר יֹאמַר יְהוָה אֱלֹהֵינוּ וְאַתְּ ׀ תְּדַבֵּר אֵלֵינוּ אֵת כָּל־אֲשֶׁר יְדַבֵּר יְהוָה אֱלֹהֵינוּ אֵלֶיךָ וְשָׁמַעְנוּ וְעָשִֽׂינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request/command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "deuteronomy-05-28-28",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+        "riddle": "I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ",
+        "riddle": "שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרו",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And the LORD heard the voice of your words, when ye spake unto me; and the LORD said unto me, I have heard the voice of the words of this people, which they have spoken unto thee: they have well said all that they have spoken."
+        },
+        "he": {
+          "28": "וַיִּשְׁמַע יְהוָה אֶת־קוֹל דִּבְרֵיכֶם בְּדַבֶּרְכֶם אֵלָי וַיֹּאמֶר יְהוָה אֵלַי שָׁמַעְתִּי אֶת־קוֹל דִּבְרֵי הָעָם הַזֶּה אֲשֶׁר דִּבְּרוּ אֵלֶיךָ הֵיטִיבוּ כָּל־אֲשֶׁר דִּבֵּֽרוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "deuteronomy-05-29-29",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever!",
+        "riddle": "O that there were such an heart in them, that they would fear me, and keep all my commandments always",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "מִֽי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֺתַי כָּל־הַיָּמִים לְמַעַן יִיטַב לָהֶם וְלִבְנֵיהֶם לְעֹלָֽם",
+        "riddle": "מִֽי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֺתַי כָּל־הַיָּמִים",
+        "speaker": "הַשֵּׁם",
+        "listener": "עַם יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "O that there were such an heart in them, that they would fear me, and keep all my commandments always, that it might be well with them, and with their children for ever!"
+        },
+        "he": {
+          "29": "מִֽי־יִתֵּן וְהָיָה לְבָבָם זֶה לָהֶם לְיִרְאָה אֹתִי וְלִשְׁמֹר אֶת־כָּל־מִצְוֺתַי כָּל־הַיָּמִים לְמַעַן יִיטַב לָהֶם וְלִבְנֵיהֶם לְעֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration/wish",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
       "id": "deuteronomy-05-30-30",
       "source": {
         "book_code": "DEU",
@@ -18,15 +654,15 @@
       "en": {
         "quote": "Go say to them, Get you into your tents again.",
         "riddle": "Get you into your tents again.",
-        "speaker": "God",
-        "listener": "Moses",
+        "speaker": "the LORD",
+        "listener": "the people",
         "book": "Deuteronomy"
       },
       "he": {
         "quote": "לֵךְ אֱמֹר לָהֶם שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם",
         "riddle": "שׁוּבוּ לָכֶם לְאָהֳלֵיכֶֽם",
-        "speaker": "אלוהים",
-        "listener": "משה",
+        "speaker": "ה",
+        "listener": "העם",
         "book": "דברים"
       },
       "raw_quote_source": {
@@ -38,21 +674,108 @@
         }
       },
       "meta": {
-        "reason": "Direct command with clear speaker/listener",
-        "confidence": 0.9
+        "reason": "direct command",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 5,
         "start": 30,
         "end": 30
       }
+    },
+    {
+      "id": "deuteronomy-05-31-31",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it.",
+        "riddle": "stand thou here by me, and I will speak unto thee all the commandments",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ בָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לְרִשְׁתָּֽהּ",
+        "riddle": "וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ",
+        "speaker": "ה",
+        "listener": "מֹשֶׁה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "But as for thee, stand thou here by me, and I will speak unto thee all the commandments, and the statutes, and the judgments, which thou shalt teach them, that they may do them in the land which I give them to possess it."
+        },
+        "he": {
+          "31": "וְאַתָּה פֹּה עֲמֹד עִמָּדִי וַאֲדַבְּרָה אֵלֶיךָ אֵת כָּל־הַמִּצְוָה וְהַחֻקִּים וְהַמִּשְׁפָּטִים אֲשֶׁר תְּלַמְּדֵם וְעָשׂוּ בָאָרֶץ אֲשֶׁר אָנֹכִי נֹתֵן לָהֶם לְרִשְׁתָּֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "deuteronomy-05-32-32",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 5,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "Ye shall observe to do therefore as the LORD your God hath commanded you: ye shall not turn aside to the right hand or to the left.",
+        "riddle": "Ye shall observe to do therefore as the LORD your God hath commanded you: ye shall not turn aside to the right hand or to the left.",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וּשְׁמַרְתֶּם לַעֲשׂוֹת כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם אֶתְכֶם לֹא תָסֻרוּ יָמִין וּשְׂמֹֽאל",
+        "riddle": "וּשְׁמַרְתֶּם לַעֲשׂוֹת כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם אֶתְכֶם לֹא תָסֻרוּ יָמִין וּשְׂמֹֽאל",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "Ye shall observe to do therefore as the LORD your God hath commanded you: ye shall not turn aside to the right hand or to the left."
+        },
+        "he": {
+          "32": "וּשְׁמַרְתֶּם לַעֲשׂוֹת כַּאֲשֶׁר צִוָּה יְהוָה אֱלֹהֵיכֶם אֶתְכֶם לֹא תָסֻרוּ יָמִין וּשְׂמֹֽאל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 32,
+        "end": 32
+      }
     }
   ],
   "stats": {
-    "window_count": 21,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 21,
-    "kept_count": 1,
-    "issue_count": 20
+    "llm_window_count": 5,
+    "projection_llm_count": 19,
+    "llm_call_count": 24,
+    "spec_count": 19,
+    "kept_count": 18,
+    "issue_count": 1
   }
 }

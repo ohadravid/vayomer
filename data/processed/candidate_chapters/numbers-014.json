@@ -6,6 +6,316 @@
   "mode": "llm",
   "items": [
     {
+      "id": "numbers-14-04-04",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And they said one to another, Let us make a captain, and let us return into Egypt.",
+        "riddle": "Let us make a captain, and let us return into Egypt.",
+        "speaker": "Israelites",
+        "listener": "Israelites",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו נִתְּנָה רֹאשׁ וְנָשׁוּבָה מִצְרָֽיְמָה",
+        "riddle": "נִתְּנָה רֹאשׁ וְנָשׁוּבָה מִצְרָֽיְמָה",
+        "speaker": "אִישׁ אֶל־אָחִיו",
+        "listener": "אִישׁ אֶל־אָחִיו",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And they said one to another, Let us make a captain, and let us return into Egypt."
+        },
+        "he": {
+          "4": "וַיֹּאמְרוּ אִישׁ אֶל־אָחִיו נִתְּנָה רֹאשׁ וְנָשׁוּבָה מִצְרָֽיְמָה׃"
+        }
+      },
+      "meta": {
+        "reason": "group declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "numbers-14-09-09",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Only rebel not ye against the LORD, neither fear ye the people of the land; for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not.",
+        "riddle": "Only rebel not ye against the LORD, neither fear ye the people of the land; for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not.",
+        "speaker": "Joshua and Caleb",
+        "listener": "Israelites",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אַךְ בַּֽיהוָה אַל־תִּמְרֹדוּ וְאַתֶּם אַל־תִּֽירְאוּ אֶת־עַם הָאָרֶץ כִּי לַחְמֵנוּ הֵם סָר צִלָּם מֵעֲלֵיהֶם וַֽיהוָה אִתָּנוּ אַל־תִּירָאֻֽם",
+        "riddle": "אַךְ בַּֽיהוָה אַל־תִּמְרֹדוּ וְאַתֶּם אַל־תִּֽירְאוּ אֶת־עַם הָאָרֶץ כִּי לַחְמֵנוּ הֵם סָר צִלָּם מֵעֲלֵיהֶם וַֽיהוָה אִתָּנוּ אַל־תִּירָאֻֽם",
+        "speaker": "יהושע וכלב",
+        "listener": "בני ישראל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Only rebel not ye against the LORD, neither fear ye the people of the land; for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not."
+        },
+        "he": {
+          "9": "אַךְ בַּֽיהוָה אַל־תִּמְרֹדוּ וְאַתֶּם אַל־תִּֽירְאוּ אֶת־עַם הָאָרֶץ כִּי לַחְמֵנוּ הֵם סָר צִלָּם מֵעֲלֵיהֶם וַֽיהוָה אִתָּנוּ אַל־תִּירָאֻֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "numbers-14-11-11",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, How long will this people provoke me? and how long will it be ere they believe me, for all the signs which I have shewed among them?",
+        "riddle": "How long will this people provoke me? and how long will it be ere they believe me, for all the signs which I have shewed among them?",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה וְעַד־אָנָה לֹא־יַאֲמִינוּ בִי בְּכֹל הָֽאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּֽוֹ",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה וְעַד־אָנָה לֹא־יַאֲמִינוּ בִי בְּכֹל הָֽאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD said unto Moses, How long will this people provoke me? and how long will it be ere they believe me, for all the signs which I have shewed among them?"
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה וְעַד־אָנָה לֹא־יַאֲמִינוּ בִי בְּכֹל הָֽאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "numbers-14-12-12",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "I will smite them with the pestilence, and disinherit them, and will make of thee a greater nation and mightier than they.",
+        "riddle": "I will smite them with the pestilence, and disinherit them, and will make of thee a greater nation and mightier than they.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ וְאֶֽעֱשֶׂה אֹֽתְךָ לְגוֹי־גָּדוֹל וְעָצוּם מִמֶּֽנּוּ",
+        "riddle": "אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ וְאֶֽעֱשֶׂה אֹֽתְךָ לְגוֹי־גָּדוֹל וְעָצוּם מִמֶּֽנּוּ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And the LORD said unto Moses, How long will this people provoke me? and how long will it be ere they believe me, for all the signs which I have shewed among them?",
+          "12": "I will smite them with the pestilence, and disinherit them, and will make of thee a greater nation and mightier than they."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה עַד־אָנָה יְנַאֲצֻנִי הָעָם הַזֶּה וְעַד־אָנָה לֹא־יַאֲמִינוּ בִי בְּכֹל הָֽאֹתוֹת אֲשֶׁר עָשִׂיתִי בְּקִרְבּֽוֹ׃",
+          "12": "אַכֶּנּוּ בַדֶּבֶר וְאוֹרִשֶׁנּוּ וְאֶֽעֱשֶׂה אֹֽתְךָ לְגוֹי־גָּדוֹל וְעָצוּם מִמֶּֽנּוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "numbers-14-13-13",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And Moses said unto the LORD, Then the Egyptians shall hear it, (for thou broughtest up this people in thy might from among them;)",
+        "riddle": "Then the Egyptians shall hear it",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה וְשָׁמְעוּ מִצְרַיִם כִּֽי־הֶעֱלִיתָ בְכֹחֲךָ אֶת־הָעָם הַזֶּה מִקִּרְבּֽוֹ",
+        "riddle": "וְשָׁמְעוּ מִצְרַיִם כִּֽי־הֶעֱלִיתָ בְכֹחֲךָ אֶת־הָעָם הַזֶּה מִקִּרְבּֽו",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Moses said unto the LORD, Then the Egyptians shall hear it, (for thou broughtest up this people in thy might from among them;)"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה וְשָׁמְעוּ מִצְרַיִם כִּֽי־הֶעֱלִיתָ בְכֹחֲךָ אֶת־הָעָם הַזֶּה מִקִּרְבּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "numbers-14-16-16",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Because the LORD was not able to bring this people into the land which he sware unto them, therefore he hath slain them in the wilderness.",
+        "riddle": "Because the LORD was not able to bring this people into the land which he sware unto them, therefore he hath slain them in the wilderness.",
+        "speaker": "the nations",
+        "listener": "the LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "מִבִּלְתִּי יְכֹלֶת יְהוָה לְהָבִיא אֶת־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נִשְׁבַּע לָהֶם וַיִּשְׁחָטֵם בַּמִּדְבָּֽר",
+        "riddle": "מִבִּלְתִּי יְכֹלֶת יְהוָה לְהָבִיא אֶת־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נִשְׁבַּע לָהֶם וַיִּשְׁחָטֵם בַּמִּדְבָּֽר",
+        "speaker": "הַגּוֹיִם",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Now if thou shalt kill all this people as one man, then the nations which have heard the fame of thee will speak, saying,",
+          "16": "Because the LORD was not able to bring this people into the land which he sware unto them, therefore he hath slain them in the wilderness."
+        },
+        "he": {
+          "15": "וְהֵמַתָּה אֶת־הָעָם הַזֶּה כְּאִישׁ אֶחָד וְאָֽמְרוּ הַגּוֹיִם אֲשֶׁר־שָׁמְעוּ אֶֽת־שִׁמְעֲךָ לֵאמֹֽר׃",
+          "16": "מִבִּלְתִּי יְכֹלֶת יְהוָה לְהָבִיא אֶת־הָעָם הַזֶּה אֶל־הָאָרֶץ אֲשֶׁר־נִשְׁבַּע לָהֶם וַיִּשְׁחָטֵם בַּמִּדְבָּֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "reported speech from nations",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "numbers-14-18-18",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "The LORD is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation.",
+        "riddle": "The LORD is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד נֹשֵׂא עָוֺן וָפָשַׁע וְנַקֵּה לֹא יְנַקֶּה פֹּקֵד עֲוֺן אָבוֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִֽים",
+        "riddle": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד נֹשֵׂא עָוֺן וָפָשַׁע וְנַקֵּה לֹא יְנַקֶּה פֹּקֵד עֲוֺן אָבוֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִֽים",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And now, I beseech thee, let the power of my Lord be great, according as thou hast spoken, saying,",
+          "18": "The LORD is longsuffering, and of great mercy, forgiving iniquity and transgression, and by no means clearing the guilty, visiting the iniquity of the fathers upon the children unto the third and fourth generation."
+        },
+        "he": {
+          "17": "וְעַתָּה יִגְדַּל־נָא כֹּחַ אֲדֹנָי כַּאֲשֶׁר דִּבַּרְתָּ לֵאמֹֽר׃",
+          "18": "יְהוָה אֶרֶךְ אַפַּיִם וְרַב־חֶסֶד נֹשֵׂא עָוֺן וָפָשַׁע וְנַקֵּה לֹא יְנַקֶּה פֹּקֵד עֲוֺן אָבוֹת עַל־בָּנִים עַל־שִׁלֵּשִׁים וְעַל־רִבֵּעִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "quoted attribute of God",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
       "id": "numbers-14-20-20",
       "source": {
         "book_code": "NUM",
@@ -13,12 +323,13 @@
         "book_he": "במדבר",
         "chapter": 14,
         "quote_verse_start": 20,
-        "quote_verse_end": 20
+        "quote_verse_end": 20,
+        "listener_mention_verse": 17
       },
       "en": {
         "quote": "And the LORD said, I have pardoned according to thy word:",
         "riddle": "I have pardoned according to thy word:",
-        "speaker": "LORD",
+        "speaker": "the LORD",
         "listener": "Moses",
         "book": "Numbers"
       },
@@ -26,33 +337,172 @@
         "quote": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶֽךָ",
         "riddle": "סָלַחְתִּי כִּדְבָרֶֽךָ",
         "speaker": "יְהוָה",
-        "listener": "משה",
+        "listener": "מֹשֶׁה",
         "book": "במדבר"
       },
       "raw_quote_source": {
         "en": {
+          "17": "And now, I beseech thee, let the power of my Lord be great, according as thou hast spoken, saying,",
           "20": "And the LORD said, I have pardoned according to thy word:"
         },
         "he": {
+          "17": "וְעַתָּה יִגְדַּל־נָא כֹּחַ אֲדֹנָי כַּאֲשֶׁר דִּבַּרְתָּ לֵאמֹֽר׃",
           "20": "וַיֹּאמֶר יְהוָה סָלַחְתִּי כִּדְבָרֶֽךָ׃"
         }
       },
       "meta": {
-        "reason": "Direct speech declaration",
-        "confidence": 0.95
+        "reason": "direct declaration",
+        "confidence": 0.98
       },
       "ref": {
         "chapter": 14,
         "start": 20,
         "end": 20
       }
+    },
+    {
+      "id": "numbers-14-28-28",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 26
+      },
+      "en": {
+        "quote": "Say unto them, As truly as I live, saith the LORD, as ye have spoken in mine ears, so will I do to you:",
+        "riddle": "As truly as I live, saith the LORD, as ye have spoken in mine ears, so will I do to you:",
+        "speaker": "the LORD",
+        "listener": "Israelites",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אֱמֹר אֲלֵהֶם חַי־אָנִי נְאֻם־יְהוָה אִם־לֹא כַּאֲשֶׁר דִּבַּרְתֶּם בְּאָזְנָי כֵּן אֶֽעֱשֶׂה לָכֶֽם",
+        "riddle": "אֱמֹר אֲלֵהֶם חַי־אָנִי נְאֻם־יְהוָה אִם־לֹא כַּאֲשֶׁר דִּבַּרְתֶּם בְּאָזְנָי כֵּן אֶֽעֱשֶׂה לָכֶֽם",
+        "speaker": "יְהוָה",
+        "listener": "בְּני יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And the LORD spake unto Moses and unto Aaron, saying,",
+          "28": "Say unto them, As truly as I live, saith the LORD, as ye have spoken in mine ears, so will I do to you:"
+        },
+        "he": {
+          "26": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "28": "אֱמֹר אֲלֵהֶם חַי־אָנִי נְאֻם־יְהוָה אִם־לֹא כַּאֲשֶׁר דִּבַּרְתֶּם בְּאָזְנָי כֵּן אֶֽעֱשֶׂה לָכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "numbers-14-35-35",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 35,
+        "quote_verse_end": 35,
+        "speaker_mention_verse": 35,
+        "listener_mention_verse": 35
+      },
+      "en": {
+        "quote": "I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die.",
+        "riddle": "I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die.",
+        "speaker": "the LORD",
+        "listener": "evil congregation",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא זֹאת אֶֽעֱשֶׂה לְכָל־הָעֵדָה הָֽרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻֽתוּ",
+        "riddle": "אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא זֹאת אֶֽעֱשֶׂה לְכָל־הָעֵדָה הָֽרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻֽתוּ",
+        "speaker": "יְהוָה",
+        "listener": "הָעֵדָה הָֽרָעָה הַזֹּאת",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "35": "I the LORD have said, I will surely do it unto all this evil congregation, that are gathered together against me: in this wilderness they shall be consumed, and there they shall die."
+        },
+        "he": {
+          "35": "אֲנִי יְהוָה דִּבַּרְתִּי אִם־לֹא ׀ זֹאת אֶֽעֱשֶׂה לְכָל־הָעֵדָה הָֽרָעָה הַזֹּאת הַנּוֹעָדִים עָלָי בַּמִּדְבָּר הַזֶּה יִתַּמּוּ וְשָׁם יָמֻֽתוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 35,
+        "end": 35
+      }
+    },
+    {
+      "id": "numbers-14-42-42",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 14,
+        "quote_verse_start": 42,
+        "quote_verse_end": 42,
+        "speaker_mention_verse": 41
+      },
+      "en": {
+        "quote": "Go not up, for the LORD is not among you; that ye be not smitten before your enemies.",
+        "riddle": "Go not up, for the LORD is not among you; that ye be not smitten before your enemies.",
+        "speaker": "Moses",
+        "listener": "the people",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "אַֽל־תַּעֲלוּ כִּי אֵין יְהוָה בְּקִרְבְּכֶם וְלֹא תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶֽם",
+        "riddle": "אַֽל־תַּעֲלוּ כִּי אֵין יְהוָה בְּקִרְבְּכֶם וְלֹא תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "עַם יִשְׂרָאֵל",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "41": "And Moses said, Wherefore now do ye transgress the commandment of the LORD? but it shall not prosper.",
+          "42": "Go not up, for the LORD is not among you; that ye be not smitten before your enemies."
+        },
+        "he": {
+          "41": "וַיֹּאמֶר מֹשֶׁה לָמָּה זֶּה אַתֶּם עֹבְרִים אֶת־פִּי יְהוָה וְהִוא לֹא תִצְלָֽח׃",
+          "42": "אַֽל־תַּעֲלוּ כִּי אֵין יְהוָה בְּקִרְבְּכֶם וְלֹא תִּנָּגְפוּ לִפְנֵי אֹיְבֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and warning",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 42,
+        "end": 42
+      }
     }
   ],
   "stats": {
-    "window_count": 29,
+    "window_count": 7,
     "prefiltered_count": 0,
-    "llm_window_count": 29,
-    "kept_count": 1,
-    "issue_count": 28
+    "llm_window_count": 7,
+    "projection_llm_count": 17,
+    "llm_call_count": 24,
+    "spec_count": 17,
+    "kept_count": 11,
+    "issue_count": 7
   }
 }

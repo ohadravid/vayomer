@@ -4,12 +4,62 @@
   "book_he": "דברים",
   "chapter": 30,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-30-12-12",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 30,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "It is not in heaven, that thou shouldest say, Who shall go up for us to heaven, and bring it unto us, that we may hear it, and do it?",
+        "riddle": "Who shall go up for us to heaven, and bring it unto us, that we may hear it, and do it?",
+        "speaker": "the people",
+        "listener": "the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "לֹא בַשָּׁמַיִם הִוא לֵאמֹר מִי יַעֲלֶה־לָּנוּ הַשָּׁמַיְמָה וְיִקָּחֶהָ לָּנוּ וְיַשְׁמִעֵנוּ אֹתָהּ וְנַעֲשֶֽׂנָּה",
+        "riddle": "מִי יַעֲלֶה־לָּנוּ הַשָּׁמַיְמָה וְיִקָּחֶהָ לָּנוּ וְיַשְׁמִעֵנוּ אֹתָהּ וְנַעֲשֶֽׂנָּה",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "For this commandment which I command thee this day, it is not hidden from thee, neither is it far off.",
+          "12": "It is not in heaven, that thou shouldest say, Who shall go up for us to heaven, and bring it unto us, that we may hear it, and do it?"
+        },
+        "he": {
+          "11": "כִּי הַמִּצְוָה הַזֹּאת אֲשֶׁר אָנֹכִי מְצַוְּךָ הַיּוֹם לֹֽא־נִפְלֵאת הִוא מִמְּךָ וְלֹא רְחֹקָה הִֽוא׃",
+          "12": "לֹא בַשָּׁמַיִם הִוא לֵאמֹר מִי יַעֲלֶה־לָּנוּ הַשָּׁמַיְמָה וְיִקָּחֶהָ לָּנוּ וְיַשְׁמִעֵנוּ אֹתָהּ וְנַעֲשֶֽׂנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 30,
+        "start": 12,
+        "end": 12
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 1,
+    "projection_llm_count": 2,
+    "llm_call_count": 3,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

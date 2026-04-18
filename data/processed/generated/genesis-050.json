@@ -6,7 +6,93 @@
   "mode": "llm",
   "items": [
     {
-      "id": "genesis-50-19-20",
+      "id": "genesis-50-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 10,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And they came to the threshingfloor of Atad, which is beyond Jordan, and there they mourned with a great and very sore lamentation: and he made a mourning for his father seven days. And when the inhabitants of the land, the Canaanites, saw the mourning in the floor of Atad, they said, This is a grievous mourning to the Egyptians: wherefore the name of it was called Abel-mizraim, which is beyond Jordan. And his sons did unto him according as he commanded them: For his sons carried him into the land of Canaan, and buried him in the cave of the field of Machpelah, which Abraham bought with the field for a possession of a buryingplace of Ephron the Hittite, before Mamre. And Joseph returned into Egypt, he, and his brethren, and all that went up with him to bury his father, after he had buried his father. And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him. And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,",
+        "riddle": "Thy father did command before he died, saying,",
+        "speaker": "messenger",
+        "listener": "Joseph",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "threshingfloor",
+        "bonus_hint": {
+          "quote": "And when they came to Nachon's threshingfloor, Uzzah put forth his hand to the ark of God, and took hold of it; for the oxen shook it.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 6,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ עַד־גֹּרֶן הָאָטָד אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן וַיִּסְפְּדוּ־שָׁם מִסְפֵּד גָּדוֹל וְכָבֵד מְאֹד וַיַּעַשׂ לְאָבִיו אֵבֶל שִׁבְעַת יָמִֽים וַיַּרְא יוֹשֵׁב הָאָרֶץ הַֽכְּנַעֲנִי אֶת־הָאֵבֶל בְּגֹרֶן הָֽאָטָד וַיֹּאמְרוּ אֵֽבֶל־כָּבֵד זֶה לְמִצְרָיִם עַל־כֵּן קָרָא שְׁמָהּ אָבֵל מִצְרַיִם אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּֽן וַיַּעֲשׂוּ בָנָיו לוֹ כֵּן כַּאֲשֶׁר צִוָּֽם וַיִּשְׂאוּ אֹתוֹ בָנָיו אַרְצָה כְּנַעַן וַיִּקְבְּרוּ אֹתוֹ בִּמְעָרַת שְׂדֵה הַמַּכְפֵּלָה אֲשֶׁר קָנָה אַבְרָהָם אֶת־הַשָּׂדֶה לַאֲחֻזַּת־קֶבֶר מֵאֵת עֶפְרֹן הַחִתִּי עַל־פְּנֵי מַמְרֵֽא וַיָּשָׁב יוֹסֵף מִצְרַיְמָה הוּא וְאֶחָיו וְכָל־הָעֹלִים אִתּוֹ לִקְבֹּר אֶת־אָבִיו אַחֲרֵי קָבְרוֹ אֶת־אָבִֽיו וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר",
+        "riddle": "אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר",
+        "speaker": "אֶחָיו",
+        "listener": "יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיָּבֹאוּ",
+        "bonus_hint": {
+          "quote": "וַיָּבֹאוּ עַד־גֹּרֶן נָכוֹן וַיִּשְׁלַח עֻזָּא אֶל־אֲרוֹן הָֽאֱלֹהִים וַיֹּאחֶז בּוֹ כִּי שָׁמְטוּ הַבָּקָֽר",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 6,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And they came to the threshingfloor of Atad, which is beyond Jordan, and there they mourned with a great and very sore lamentation: and he made a mourning for his father seven days.",
+          "11": "And when the inhabitants of the land, the Canaanites, saw the mourning in the floor of Atad, they said, This is a grievous mourning to the Egyptians: wherefore the name of it was called Abel-mizraim, which is beyond Jordan.",
+          "12": "And his sons did unto him according as he commanded them:",
+          "13": "For his sons carried him into the land of Canaan, and buried him in the cave of the field of Machpelah, which Abraham bought with the field for a possession of a buryingplace of Ephron the Hittite, before Mamre.",
+          "14": "And Joseph returned into Egypt, he, and his brethren, and all that went up with him to bury his father, after he had buried his father.",
+          "15": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him.",
+          "16": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,"
+        },
+        "he": {
+          "10": "וַיָּבֹאוּ עַד־גֹּרֶן הָאָטָד אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּן וַיִּסְפְּדוּ־שָׁם מִסְפֵּד גָּדוֹל וְכָבֵד מְאֹד וַיַּעַשׂ לְאָבִיו אֵבֶל שִׁבְעַת יָמִֽים׃",
+          "11": "וַיַּרְא יוֹשֵׁב הָאָרֶץ הַֽכְּנַעֲנִי אֶת־הָאֵבֶל בְּגֹרֶן הָֽאָטָד וַיֹּאמְרוּ אֵֽבֶל־כָּבֵד זֶה לְמִצְרָיִם עַל־כֵּן קָרָא שְׁמָהּ אָבֵל מִצְרַיִם אֲשֶׁר בְּעֵבֶר הַיַּרְדֵּֽן׃",
+          "12": "וַיַּעֲשׂוּ בָנָיו לוֹ כֵּן כַּאֲשֶׁר צִוָּֽם׃",
+          "13": "וַיִּשְׂאוּ אֹתוֹ בָנָיו אַרְצָה כְּנַעַן וַיִּקְבְּרוּ אֹתוֹ בִּמְעָרַת שְׂדֵה הַמַּכְפֵּלָה אֲשֶׁר קָנָה אַבְרָהָם אֶת־הַשָּׂדֶה לַאֲחֻזַּת־קֶבֶר מֵאֵת עֶפְרֹן הַחִתִּי עַל־פְּנֵי מַמְרֵֽא׃",
+          "14": "וַיָּשָׁב יוֹסֵף מִצְרַיְמָה הוּא וְאֶחָיו וְכָל־הָעֹלִים אִתּוֹ לִקְבֹּר אֶת־אָבִיו אַחֲרֵי קָבְרוֹ אֶת־אָבִֽיו׃",
+          "15": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ׃",
+          "16": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר׃"
+        }
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 10,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-50-19-19",
       "source": {
         "method": "llm",
         "book_code": "GEN",
@@ -14,32 +100,34 @@
         "book_he": "בראשית",
         "chapter": 50,
         "quote_verse_start": 14,
-        "quote_verse_end": 20
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
       },
       "en": {
         "quote": "And Joseph returned into Egypt, he, and his brethren, and all that went up with him to bury his father, after he had buried his father. And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him. And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying, So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him. And his brethren also went and fell down before his face; and they said, Behold, we be thy servants. And Joseph said unto them, Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
-        "riddle": "for am I in the place of God?",
+        "riddle": "Fear not: for am I in the place of God?",
         "speaker": "Joseph",
-        "listener": "brothers",
+        "listener": "brethren",
         "book": "Genesis",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "father",
+        "bonus": "Egypt",
         "bonus_hint": {
-          "quote": "Therefore shall a man leave his father and his mother, and shall cleave unto his wife: and they shall be one flesh.",
+          "quote": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray thee, and return unto my brethren which are in Egypt, and see whether they be yet alive. And Jethro said to Moses, Go in peace.",
           "source": {
-            "book": "Genesis",
-            "chapter": 2,
-            "start": 24,
-            "end": 24
+            "book": "Exodus",
+            "chapter": 4,
+            "start": 18,
+            "end": 18
           }
         }
       },
       "he": {
         "quote": "וַיָּשָׁב יוֹסֵף מִצְרַיְמָה הוּא וְאֶחָיו וְכָל־הָעֹלִים אִתּוֹ לִקְבֹּר אֶת־אָבִיו אַחֲרֵי קָבְרוֹ אֶת־אָבִֽיו וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב",
-        "riddle": "הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ",
+        "riddle": "אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי",
         "speaker": "יוֹסֵף",
         "listener": "אֶחָיו",
         "book": "בראשית",
@@ -47,14 +135,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "אָבִיו",
+        "bonus": "וַיָּשָׁב",
         "bonus_hint": {
-          "quote": "עַל־כֵּן יַֽעֲזָב־אִישׁ אֶת־אָבִיו וְאֶת־אִמּוֹ וְדָבַק בְּאִשְׁתּוֹ וְהָיוּ לְבָשָׂר אֶחָֽד",
+          "quote": "וַיֵּלֶךְ מֹשֶׁה וַיָּשָׁב אֶל־יֶתֶר חֹֽתְנוֹ וַיֹּאמֶר לוֹ אֵלֲכָה נָּא וְאָשׁוּבָה אֶל־אַחַי אֲשֶׁר־בְּמִצְרַיִם וְאֶרְאֶה הַעוֹדָם חַיִּים וַיֹּאמֶר יִתְרוֹ לְמֹשֶׁה לֵךְ לְשָׁלֽוֹם",
           "source": {
-            "book": "בראשית",
-            "chapter": 2,
-            "start": 24,
-            "end": 24
+            "book": "שמות",
+            "chapter": 4,
+            "start": 18,
+            "end": 18
           }
         }
       },
@@ -82,6 +170,248 @@
         "chapter": 50,
         "start": 14,
         "end": 20
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-50-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 15,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him. And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying, So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him. And his brethren also went and fell down before his face; and they said, Behold, we be thy servants. And Joseph said unto them, Fear not: for am I in the place of God? But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive. Now therefore fear ye not: I will nourish you, and your little ones. And he comforted them, and spake kindly unto them.",
+        "riddle": "Now therefore fear ye not: I will nourish you, and your little ones.",
+        "speaker": "Joseph",
+        "listener": "Joseph's brothers",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "brethren",
+        "bonus_hint": {
+          "quote": "And when his brethren saw that their father loved him more than all his brethren, they hated him, and could not speak peaceably unto him.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 37,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם וַיְנַחֵם אוֹתָם וַיְדַבֵּר עַל־לִבָּֽם",
+        "riddle": "וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם",
+        "speaker": "יוֹסֵף",
+        "listener": "אֲחֵֽי־יוֹסֵף",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּרְאוּ",
+        "bonus_hint": {
+          "quote": "וַיִּרְאוּ אֶחָיו כִּֽי־אֹתוֹ אָהַב אֲבִיהֶם מִכָּל־אֶחָיו וַֽיִּשְׂנְאוּ אֹתוֹ וְלֹא יָכְלוּ דַּבְּרוֹ לְשָׁלֹֽם",
+          "source": {
+            "book": "בראשית",
+            "chapter": 37,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And when Joseph's brethren saw that their father was dead, they said, Joseph will peradventure hate us, and will certainly requite us all the evil which we did unto him.",
+          "16": "And they sent a messenger unto Joseph, saying, Thy father did command before he died, saying,",
+          "17": "So shall ye say unto Joseph, Forgive, I pray thee now, the trespass of thy brethren, and their sin; for they did unto thee evil: and now, we pray thee, forgive the trespass of the servants of the God of thy father. And Joseph wept when they spake unto him.",
+          "18": "And his brethren also went and fell down before his face; and they said, Behold, we be thy servants.",
+          "19": "And Joseph said unto them, Fear not: for am I in the place of God?",
+          "20": "But as for you, ye thought evil against me; but God meant it unto good, to bring to pass, as it is this day, to save much people alive.",
+          "21": "Now therefore fear ye not: I will nourish you, and your little ones. And he comforted them, and spake kindly unto them."
+        },
+        "he": {
+          "15": "וַיִּרְאוּ אֲחֵֽי־יוֹסֵף כִּי־מֵת אֲבִיהֶם וַיֹּאמְרוּ לוּ יִשְׂטְמֵנוּ יוֹסֵף וְהָשֵׁב יָשִׁיב לָנוּ אֵת כָּל־הָרָעָה אֲשֶׁר גָּמַלְנוּ אֹתֽוֹ׃",
+          "16": "וַיְצַוּוּ אֶל־יוֹסֵף לֵאמֹר אָבִיךָ צִוָּה לִפְנֵי מוֹתוֹ לֵאמֹֽר׃",
+          "17": "כֹּֽה־תֹאמְרוּ לְיוֹסֵף אָנָּא שָׂא נָא פֶּשַׁע אַחֶיךָ וְחַטָּאתָם כִּי־רָעָה גְמָלוּךָ וְעַתָּה שָׂא נָא לְפֶשַׁע עַבְדֵי אֱלֹהֵי אָבִיךָ וַיֵּבְךְּ יוֹסֵף בְּדַבְּרָם אֵלָֽיו׃",
+          "18": "וַיֵּלְכוּ גַּם־אֶחָיו וַֽיִּפְּלוּ לְפָנָיו וַיֹּאמְרוּ הִנֶּנּֽוּ לְךָ לַעֲבָדִֽים׃",
+          "19": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף אַל־תִּירָאוּ כִּי הֲתַחַת אֱלֹהִים אָֽנִי׃",
+          "20": "וְאַתֶּם חֲשַׁבְתֶּם עָלַי רָעָה אֱלֹהִים חֲשָׁבָהּ לְטֹבָה לְמַעַן עֲשֹׂה כַּיּוֹם הַזֶּה לְהַחֲיֹת עַם־רָֽב׃",
+          "21": "וְעַתָּה אַל־תִּירָאוּ אָנֹכִי אֲכַלְכֵּל אֶתְכֶם וְאֶֽת־טַפְּכֶם וַיְנַחֵם אוֹתָם וַיְדַבֵּר עַל־לִבָּֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 15,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-50-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 24,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob. And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence.",
+        "riddle": "I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.",
+        "speaker": "Joseph",
+        "listener": "his brethren",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "bones",
+        "bonus_hint": {
+          "quote": "And Moses took the bones of Joseph with him: for he had straitly sworn the children of Israel, saying, God will surely visit you; and ye shall carry up my bones away hence with you.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 13,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה",
+        "riddle": "אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב",
+        "speaker": "יוֹסֵף",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּנֵי",
+        "bonus_hint": {
+          "quote": "וַיִּקַּח מֹשֶׁה אֶת־עַצְמוֹת יוֹסֵף עִמּוֹ כִּי הַשְׁבֵּעַ הִשְׁבִּיעַ אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִיתֶם אֶת־עַצְמֹתַי מִזֶּה אִתְּכֶֽם",
+          "source": {
+            "book": "שמות",
+            "chapter": 13,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And Joseph said unto his brethren, I die: and God will surely visit you, and bring you out of this land unto the land which he sware to Abraham, to Isaac, and to Jacob.",
+          "25": "And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר יוֹסֵף אֶל־אֶחָיו אָנֹכִי מֵת וֵֽאלֹהִים פָּקֹד יִפְקֹד אֶתְכֶם וְהֶעֱלָה אֶתְכֶם מִן־הָאָרֶץ הַזֹּאת אֶל־הָאָרֶץ אֲשֶׁר נִשְׁבַּע לְאַבְרָהָם לְיִצְחָק וּֽלְיַעֲקֹֽב׃",
+          "25": "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 24,
+        "end": 25
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-50-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 50,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence.",
+        "riddle": "God will surely visit you, and ye shall carry up my bones from hence.",
+        "speaker": "Joseph",
+        "listener": "children of Israel",
+        "book": "Genesis",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "oath",
+        "bonus_hint": {
+          "quote": "And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains and the guard, and brought them to him into the house of the LORD, and made a covenant with them, and took an oath of them in the house of the LORD, and shewed them the king's son.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 11,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה",
+        "riddle": "פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה",
+        "speaker": "יוֹסֵף",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "בראשית",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיַּשְׁבַּע",
+        "bonus_hint": {
+          "quote": "וּבַשָּׁנָה הַשְּׁבִיעִית שָׁלַח יְהוֹיָדָע וַיִּקַּח אֶת־שָׂרֵי הַמֵּאוֹת לַכָּרִי וְלָרָצִים וַיָּבֵא אֹתָם אֵלָיו בֵּית יְהוָה וַיִּכְרֹת לָהֶם בְּרִית וַיַּשְׁבַּע אֹתָם בְּבֵית יְהוָה וַיַּרְא אֹתָם אֶת־בֶּן־הַמֶּֽלֶךְ",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 11,
+            "start": 4,
+            "end": 4
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And Joseph took an oath of the children of Israel, saying, God will surely visit you, and ye shall carry up my bones from hence."
+        },
+        "he": {
+          "25": "וַיַּשְׁבַּע יוֹסֵף אֶת־בְּנֵי יִשְׂרָאֵל לֵאמֹר פָּקֹד יִפְקֹד אֱלֹהִים אֶתְכֶם וְהַעֲלִתֶם אֶת־עַצְמֹתַי מִזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 50,
+        "start": 25,
+        "end": 25
       },
       "meta": {
         "mode": "llm",

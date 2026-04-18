@@ -13,32 +13,36 @@
         "book_he": "מלכים ב",
         "chapter": 23,
         "quote_verse_start": 17,
-        "quote_verse_end": 17
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 17
       },
       "en": {
         "quote": "Then he said, What title is that that I see? And the men of the city told him, It is the sepulchre of the man of God, which came from Judah, and proclaimed these things that thou hast done against the altar of Bethel.",
         "riddle": "What title is that that I see?",
-        "speaker": "King Josiah",
+        "speaker": "Josiah",
         "listener": "men of the city",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיֹּאמֶר מָה הַצִיּוּן הַלָּז אֲשֶׁר אֲנִי רֹאֶה וַיֹּאמְרוּ אֵלָיו אַנְשֵׁי הָעִיר הַקֶּבֶר אִישׁ־הָֽאֱלֹהִים אֲשֶׁר־בָּא מִֽיהוּדָה וַיִּקְרָא אֶת־הַדְּבָרִים הָאֵלֶּה אֲשֶׁר עָשִׂיתָ עַל הַמִּזְבַּח בֵּֽית־אֵֽל",
         "riddle": "מָה הַצִיּוּן הַלָּז אֲשֶׁר אֲנִי רֹאֶה",
-        "speaker": "יהויקים",
+        "speaker": "יֹאשִׁיָּהוּ",
         "listener": "אַנְשֵׁי הָעִיר",
         "book": "מלכים ב"
       },
       "raw_quote_source": {
         "en": {
+          "16": "And as Josiah turned himself, he spied the sepulchres that were there in the mount, and sent, and took the bones out of the sepulchres, and burned them upon the altar, and polluted it, according to the word of the LORD which the man of God proclaimed, who proclaimed these words.",
           "17": "Then he said, What title is that that I see? And the men of the city told him, It is the sepulchre of the man of God, which came from Judah, and proclaimed these things that thou hast done against the altar of Bethel."
         },
         "he": {
+          "16": "וַיִּפֶן יֹאשִׁיָּהוּ וַיַּרְא אֶת־הַקְּבָרִים אֲשֶׁר־שָׁם בָּהָר וַיִּשְׁלַח וַיִּקַּח אֶת־הָֽעֲצָמוֹת מִן־הַקְּבָרִים וַיִּשְׂרֹף עַל־הַמִּזְבֵּחַ וַֽיְטַמְּאֵהוּ כִּדְבַר יְהוָה אֲשֶׁר קָרָא אִישׁ הָאֱלֹהִים אֲשֶׁר קָרָא אֶת־הַדְּבָרִים הָאֵֽלֶּה׃",
           "17": "וַיֹּאמֶר מָה הַצִיּוּן הַלָּז אֲשֶׁר אֲנִי רֹאֶה וַיֹּאמְרוּ אֵלָיו אַנְשֵׁי הָעִיר הַקֶּבֶר אִישׁ־הָֽאֱלֹהִים אֲשֶׁר־בָּא מִֽיהוּדָה וַיִּקְרָא אֶת־הַדְּבָרִים הָאֵלֶּה אֲשֶׁר עָשִׂיתָ עַל הַמִּזְבַּח בֵּֽית־אֵֽל׃"
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
+        "reason": "direct question",
         "confidence": 0.95
       },
       "ref": {
@@ -46,13 +50,149 @@
         "start": 17,
         "end": 17
       }
+    },
+    {
+      "id": "2-kings-23-18-18",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 23,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And he said, Let him alone; let no man move his bones. So they let his bones alone, with the bones of the prophet that came out of Samaria.",
+        "riddle": "Let him alone; let no man move his bones.",
+        "speaker": "Josiah",
+        "listener": "people",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַנִּיחוּ לוֹ אִישׁ אַל־יָנַע עַצְמֹתָיו וַֽיְמַלְּטוּ עַצְמֹתָיו אֵת עַצְמוֹת הַנָּבִיא אֲשֶׁר־בָּא מִשֹּׁמְרֽוֹן",
+        "riddle": "הַנִּיחוּ לוֹ אִישׁ אַל־יָנַע עַצְמֹתָיו",
+        "speaker": "יֹאשִׁיָּהוּ",
+        "listener": "אִישׁ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And as Josiah turned himself, he spied the sepulchres that were there in the mount, and sent, and took the bones out of the sepulchres, and burned them upon the altar, and polluted it, according to the word of the LORD which the man of God proclaimed, who proclaimed these words.",
+          "18": "And he said, Let him alone; let no man move his bones. So they let his bones alone, with the bones of the prophet that came out of Samaria."
+        },
+        "he": {
+          "16": "וַיִּפֶן יֹאשִׁיָּהוּ וַיַּרְא אֶת־הַקְּבָרִים אֲשֶׁר־שָׁם בָּהָר וַיִּשְׁלַח וַיִּקַּח אֶת־הָֽעֲצָמוֹת מִן־הַקְּבָרִים וַיִּשְׂרֹף עַל־הַמִּזְבֵּחַ וַֽיְטַמְּאֵהוּ כִּדְבַר יְהוָה אֲשֶׁר קָרָא אִישׁ הָאֱלֹהִים אֲשֶׁר קָרָא אֶת־הַדְּבָרִים הָאֵֽלֶּה׃",
+          "18": "וַיֹּאמֶר הַנִּיחוּ לוֹ אִישׁ אַל־יָנַע עַצְמֹתָיו וַֽיְמַלְּטוּ עַצְמֹתָיו אֵת עַצְמוֹת הַנָּבִיא אֲשֶׁר־בָּא מִשֹּׁמְרֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "2-kings-23-21-21",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 23,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the king commanded all the people, saying, Keep the passover unto the LORD your God, as it is written in the book of this covenant.",
+        "riddle": "Keep the passover unto the LORD your God, as it is written in the book of this covenant.",
+        "speaker": "Josiah",
+        "listener": "people",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיְצַו הַמֶּלֶךְ אֶת־כָּל־הָעָם לֵאמֹר עֲשׂוּ פֶסַח לַֽיהוָה אֱלֹֽהֵיכֶם כַּכָּתוּב עַל סֵפֶר הַבְּרִית הַזֶּֽה",
+        "riddle": "וַיְצַו הַמֶּלֶךְ אֶת־כָּל־הָעָם לֵאמֹר עֲשׂוּ פֶסַח לַֽיהוָה אֱלֹֽהֵיכֶם כַּכָּתוּב עַל סֵפֶר הַבְּרִית הַזֶּֽה",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָעָם",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the king commanded all the people, saying, Keep the passover unto the LORD your God, as it is written in the book of this covenant."
+        },
+        "he": {
+          "21": "וַיְצַו הַמֶּלֶךְ אֶת־כָּל־הָעָם לֵאמֹר עֲשׂוּ פֶסַח לַֽיהוָה אֱלֹֽהֵיכֶם כַּכָּתוּב עַל סֵפֶר הַבְּרִית הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-kings-23-27-27",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 23,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27
+      },
+      "en": {
+        "quote": "And the LORD said, I will remove Judah also out of my sight, as I have removed Israel, and will cast off this city Jerusalem which I have chosen, and the house of which I said, My name shall be there.",
+        "riddle": "I will remove Judah also out of my sight, as I have removed Israel, and will cast off this city Jerusalem which I have chosen, and the house of which I said, My name shall be there.",
+        "speaker": "the LORD",
+        "listener": "Judah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה גַּם אֶת־יְהוּדָה אָסִיר מֵעַל פָּנַי כַּאֲשֶׁר הֲסִרֹתִי אֶת־יִשְׂרָאֵל וּמָאַסְתִּי אֶת־הָעִיר הַזֹּאת אֲשֶׁר־בָּחַרְתִּי אֶת־יְרוּשָׁלִַם וְאֶת־הַבַּיִת אֲשֶׁר אָמַרְתִּי יִהְיֶה שְׁמִי שָֽׁם",
+        "riddle": "וַיֹּאמֶר יְהוָה גַּם אֶת־יְהוּדָה אָסִיר מֵעַל פָּנַי כַּאֲשֶׁר הֲסִרֹתִי אֶת־יִשְׂרָאֵל וּמָאַסְתִּי אֶת־הָעִיר הַזֹּאת אֲשֶׁר־בָּחַרְתִּי אֶת־יְרוּשָׁלִַם וְאֶת־הַבַּיִת אֲשֶׁר אָמַרְתִּי יִהְיֶה שְׁמִי שָֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "יְהוּדָה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And the LORD said, I will remove Judah also out of my sight, as I have removed Israel, and will cast off this city Jerusalem which I have chosen, and the house of which I said, My name shall be there."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר יְהוָה גַּם אֶת־יְהוּדָה אָסִיר מֵעַל פָּנַי כַּאֲשֶׁר הֲסִרֹתִי אֶת־יִשְׂרָאֵל וּמָאַסְתִּי אֶת־הָעִיר הַזֹּאת אֲשֶׁר־בָּחַרְתִּי אֶת־יְרוּשָׁלִַם וְאֶת־הַבַּיִת אֲשֶׁר אָמַרְתִּי יִהְיֶה שְׁמִי שָֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 23,
+        "start": 27,
+        "end": 27
+      }
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 1,
-    "issue_count": 11
+    "llm_window_count": 3,
+    "projection_llm_count": 6,
+    "llm_call_count": 9,
+    "spec_count": 6,
+    "kept_count": 4,
+    "issue_count": 2
   }
 }

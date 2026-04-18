@@ -4,12 +4,586 @@
   "book_he": "שמואל ב",
   "chapter": 1,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-01-03-03-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+        "riddle": "From whence comest thou?",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי",
+        "riddle": "אֵי מִזֶּה תָּבוֹא",
+        "speaker": "דָּוִד",
+        "listener": "מַלְאָךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-01-03-03-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped.",
+        "riddle": "Out of the camp of Israel am I escaped.",
+        "speaker": "messenger",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי",
+        "riddle": "וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי",
+        "speaker": "מַלְאָךְ",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And David said unto him, From whence comest thou? And he said unto him, Out of the camp of Israel am I escaped."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר לוֹ דָּוִד אֵי מִזֶּה תָּבוֹא וַיֹּאמֶר אֵלָיו מִמַּחֲנֵה יִשְׂרָאֵל נִמְלָֽטְתִּי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-01-04-04",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also.",
+        "riddle": "How went the matter? I pray thee, tell me.",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ",
+        "riddle": "מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי",
+        "speaker": "דָּוִד",
+        "listener": "אֵלָיו",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And David said unto him, How went the matter? I pray thee, tell me. And he answered, That the people are fled from the battle, and many of the people also are fallen and dead; and Saul and Jonathan his son are dead also."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר אֵלָיו דָּוִד מֶה־הָיָה הַדָּבָר הַגֶּד־נָא לִי וַיֹּאמֶר אֲשֶׁר־נָס הָעָם מִן־הַמִּלְחָמָה וְגַם־הַרְבֵּה נָפַל מִן־הָעָם וַיָּמֻתוּ וְגַם שָׁאוּל וִיהוֹנָתָן בְּנוֹ מֵֽתוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "2-samuel-01-05-05",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And David said unto the young man that told him, How knowest thou that Saul and Jonathan his son be dead?",
+        "riddle": "How knowest thou that Saul and Jonathan his son be dead?",
+        "speaker": "David",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ",
+        "riddle": "אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ",
+        "speaker": "דָּוִד",
+        "listener": "הַנַּעַר הַמַּגִּיד לוֹ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And David said unto the young man that told him, How knowest thou that Saul and Jonathan his son be dead?"
+        },
+        "he": {
+          "5": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵיךְ יָדַעְתָּ כִּי־מֵת שָׁאוּל וִיהֽוֹנָתָן בְּנֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-samuel-01-07-07",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I.",
+        "riddle": "Here am I.",
+        "speaker": "messenger",
+        "listener": "Saul",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי",
+        "riddle": "וָאֹמַר הִנֵּֽנִי",
+        "speaker": "אֲנִי",
+        "listener": "שָׁאוּל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And when he looked behind him, he saw me, and called unto me. And I answered, Here am I."
+        },
+        "he": {
+          "7": "וַיִּפֶן אַחֲרָיו וַיִּרְאֵנִי וַיִּקְרָא אֵלָי וָאֹמַר הִנֵּֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-samuel-01-08-08-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+        "riddle": "Who art thou?",
+        "speaker": "Saul",
+        "listener": "messenger",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "מִי־אָתָּה",
+        "speaker": "שאול",
+        "listener": "עֲמָלֵקִי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-01-08-08-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And he said unto me, Who art thou? And I answered him, I am an Amalekite.",
+        "riddle": "I am an Amalekite.",
+        "speaker": "messenger",
+        "listener": "Saul",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי",
+        "speaker": "עֲמָלֵקִי",
+        "listener": "שָׁאוּל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And he said unto me, Who art thou? And I answered him, I am an Amalekite."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר לִי מִי־אָתָּה וָאֹמַר אֵלָיו עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-01-09-09",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me.",
+        "riddle": "Stand, I pray thee, upon me, and slay me",
+        "speaker": "dying man",
+        "listener": "Amalekite",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי",
+        "riddle": "עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ",
+        "speaker": "הַמְשַׁלֵּחַ",
+        "listener": "הָעֲמָלֵקִי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And he said unto me again, Stand, I pray thee, upon me, and slay me: for anguish is come upon me, because my life is yet whole in me."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר אֵלַי עֲמָד־נָא עָלַי וּמֹתְתֵנִי כִּי אֲחָזַנִי הַשָּׁבָץ כִּֽי־כָל־עוֹד נַפְשִׁי בִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "2-samuel-01-13-13-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+        "riddle": "Whence art thou?",
+        "speaker": "David",
+        "listener": "Amalekite young man",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "אֵי מִזֶּה אָתָּה",
+        "speaker": "דָּוִד",
+        "listener": "הַנַּעַר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-01-13-13-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite.",
+        "riddle": "I am the son of a stranger, an Amalekite.",
+        "speaker": "Amalekite young man",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי",
+        "riddle": "בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי",
+        "speaker": "הַנַּעַר",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And David said unto the young man that told him, Whence art thou? And he answered, I am the son of a stranger, an Amalekite."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר דָּוִד אֶל־הַנַּעַר הַמַּגִּיד לוֹ אֵי מִזֶּה אָתָּה וַיֹּאמֶר בֶּן־אִישׁ גֵּר עֲמָלֵקִי אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-01-14-14",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?",
+        "riddle": "How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?",
+        "speaker": "David",
+        "listener": "Amalekite young man",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה",
+        "riddle": "אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה",
+        "speaker": "דָּוִד",
+        "listener": "הָאֲמָלֵקִי",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And David said unto him, How wast thou not afraid to stretch forth thine hand to destroy the LORD's anointed?"
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אֵלָיו דָּוִד אֵיךְ לֹא יָרֵאתָ לִשְׁלֹחַ יָֽדְךָ לְשַׁחֵת אֶת־מְשִׁיחַ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-01-16-16",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And David said unto him, Thy blood be upon thy head; for thy mouth hath testified against thee, saying, I have slain the LORD's anointed.",
+        "riddle": "Thy blood be upon thy head; for thy mouth hath testified against thee, saying, I have slain the LORD's anointed.",
+        "speaker": "David",
+        "listener": "young man",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו דָּוִד דָּמְךָ עַל־רֹאשֶׁךָ כִּי פִיךָ עָנָה בְךָ לֵאמֹר אָנֹכִי מֹתַתִּי אֶת־מְשִׁיחַ יְהוָֽה",
+        "riddle": "וַיֹּאמֶר אֵלָיו דָּוִד דָּמְךָ עַל־רֹאשֶׁךָ כִּי פִיךָ עָנָה בְךָ לֵאמֹר אָנֹכִי מֹתַתִּי אֶת־מְשִׁיחַ יְהוָֽה",
+        "speaker": "דָּוִד",
+        "listener": "אֵלָיו",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And David said unto him, Thy blood be upon thy head; for thy mouth hath testified against thee, saying, I have slain the LORD's anointed."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר אֵלָיו דָּוִד דָּמְךָ עַל־רֹאשֶׁךָ כִּי פִיךָ עָנָה בְךָ לֵאמֹר אָנֹכִי מֹתַתִּי אֶת־מְשִׁיחַ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "2-samuel-01-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 1,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+        "riddle": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!",
+        "speaker": "David",
+        "listener": "Judah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים",
+        "riddle": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים",
+        "speaker": "דוד",
+        "listener": "יהודה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "The beauty of Israel is slain upon thy high places: how are the mighty fallen!"
+        },
+        "he": {
+          "19": "הַצְּבִי יִשְׂרָאֵל עַל־בָּמוֹתֶיךָ חָלָל אֵיךְ נָפְלוּ גִבּוֹרִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid lamentation",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 1,
+        "start": 19,
+        "end": 19
+      }
+    }
+  ],
   "stats": {
-    "window_count": 15,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 15,
-    "kept_count": 0,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 13,
+    "issue_count": 2
   }
 }

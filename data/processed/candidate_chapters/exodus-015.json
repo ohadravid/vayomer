@@ -6,53 +6,190 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-15-24-24",
+      "id": "exodus-15-01-01",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 15,
-        "quote_verse_start": 24,
-        "quote_verse_end": 24
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
       },
       "en": {
-        "quote": "And the people murmured against Moses, saying, What shall we drink?",
-        "riddle": "What shall we drink?",
-        "speaker": "the people",
-        "listener": "Moses",
+        "quote": "Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.",
+        "riddle": "I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.",
+        "speaker": "Moses and Israel",
+        "listener": "the LORD",
         "book": "Exodus"
       },
       "he": {
-        "quote": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה",
-        "riddle": "מַה־נִּשְׁתֶּֽה",
-        "speaker": "הָעָם",
-        "listener": "מֹשֶׁה",
+        "quote": "אָז יָשִֽׁיר־מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת לַֽיהוָה וַיֹּאמְרוּ לֵאמֹר אָשִׁירָה לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "riddle": "אָשִׁירָה לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "speaker": "מֹשֶׁה וּבְנֵי יִשְׂרָאֵל",
+        "listener": "יהוָה",
         "book": "שמות"
       },
       "raw_quote_source": {
         "en": {
-          "24": "And the people murmured against Moses, saying, What shall we drink?"
+          "1": "Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea."
         },
         "he": {
-          "24": "וַיִּלֹּנוּ הָעָם עַל־מֹשֶׁה לֵּאמֹר מַה־נִּשְׁתֶּֽה׃"
+          "1": "אָז יָשִֽׁיר־מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת לַֽיהוָה וַיֹּאמְרוּ לֵאמֹר אָשִׁירָה לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם׃"
         }
       },
       "meta": {
-        "reason": "Direct question from people",
-        "confidence": 1.0
+        "reason": "vivid declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
-        "start": 24,
-        "end": 24
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "exodus-15-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 15,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.",
+        "riddle": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him.",
+        "speaker": "Moses and Israel",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "עָזִּי וְזִמְרָת יָהּ וַֽיְהִי־לִי לִֽישׁוּעָה זֶה אֵלִי וְאַנְוֵהוּ אֱלֹהֵי אָבִי וַאֲרֹמְמֶֽנְהוּ",
+        "riddle": "עָזִּי וְזִמְרָת יָהּ וַֽיְהִי־לִי לִֽישׁוּעָה זֶה אֵלִי וְאַנְוֵהוּ אֱלֹהֵי אָבִי וַאֲרֹמְמֶֽנְהוּ",
+        "speaker": "מֹשֶׁה וּבְנֵי יִשְׂרָאֵל",
+        "listener": "יהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "Then sang Moses and the children of Israel this song unto the LORD, and spake, saying, I will sing unto the LORD, for he hath triumphed gloriously: the horse and his rider hath he thrown into the sea.",
+          "2": "The LORD is my strength and song, and he is become my salvation: he is my God, and I will prepare him an habitation; my father's God, and I will exalt him."
+        },
+        "he": {
+          "1": "אָז יָשִֽׁיר־מֹשֶׁה וּבְנֵי יִשְׂרָאֵל אֶת־הַשִּׁירָה הַזֹּאת לַֽיהוָה וַיֹּאמְרוּ לֵאמֹר אָשִׁירָה לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם׃",
+          "2": "עָזִּי וְזִמְרָת יָהּ וַֽיְהִי־לִי לִֽישׁוּעָה זֶה אֵלִי וְאַנְוֵהוּ אֱלֹהֵי אָבִי וַאֲרֹמְמֶֽנְהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-15-11-11",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 15,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?",
+        "riddle": "Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "מִֽי־כָמֹכָה בָּֽאֵלִם יְהוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶֽלֶא",
+        "riddle": "מִֽי־כָמֹכָה בָּֽאֵלִם יְהוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶֽלֶא",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Who is like unto thee, O LORD, among the gods? who is like thee, glorious in holiness, fearful in praises, doing wonders?"
+        },
+        "he": {
+          "11": "מִֽי־כָמֹכָה בָּֽאֵלִם יְהוָה מִי כָּמֹכָה נֶאְדָּר בַּקֹּדֶשׁ נוֹרָא תְהִלֹּת עֹשֵׂה פֶֽלֶא׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question/praise",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "exodus-15-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 15,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And Miriam answered them, Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.",
+        "riddle": "Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea.",
+        "speaker": "Miriam",
+        "listener": "the women",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַתַּעַן לָהֶם מִרְיָם שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "riddle": "שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם",
+        "speaker": "מִרְיָם",
+        "listener": "הַנָּשִׁים",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And Miriam the prophetess, the sister of Aaron, took a timbrel in her hand; and all the women went out after her with timbrels and with dances.",
+          "21": "And Miriam answered them, Sing ye to the LORD, for he hath triumphed gloriously; the horse and his rider hath he thrown into the sea."
+        },
+        "he": {
+          "20": "וַתִּקַּח מִרְיָם הַנְּבִיאָה אֲחוֹת אַהֲרֹן אֶת־הַתֹּף בְּיָדָהּ וַתֵּצֶאןָ כָֽל־הַנָּשִׁים אַחֲרֶיהָ בְּתֻפִּים וּבִמְחֹלֹֽת׃",
+          "21": "וַתַּעַן לָהֶם מִרְיָם שִׁירוּ לַֽיהוָה כִּֽי־גָאֹה גָּאָה סוּס וְרֹכְבוֹ רָמָה בַיָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/song",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 21,
+        "end": 21
       }
     }
   ],
   "stats": {
-    "window_count": 13,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 13,
-    "kept_count": 1,
-    "issue_count": 12
+    "llm_window_count": 4,
+    "projection_llm_count": 6,
+    "llm_call_count": 10,
+    "spec_count": 6,
+    "kept_count": 4,
+    "issue_count": 3
   }
 }

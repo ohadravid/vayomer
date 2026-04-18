@@ -4,12 +4,408 @@
   "book_he": "שמואל ב",
   "chapter": 7,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-07-02-02",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains.",
+        "riddle": "See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains.",
+        "speaker": "king",
+        "listener": "Nathan",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־נָתָן הַנָּבִיא רְאֵה נָא אָנֹכִי יוֹשֵׁב בְּבֵית אֲרָזִים וַֽאֲרוֹן הָֽאֱלֹהִים יֹשֵׁב בְּתוֹךְ הַיְרִיעָֽה",
+        "riddle": "רְאֵה נָא אָנֹכִי יוֹשֵׁב בְּבֵית אֲרָזִים וַֽאֲרוֹן הָֽאֱלֹהִים יֹשֵׁב בְּתוֹךְ הַיְרִיעָֽה",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "נָתָן הַנָּבִיא",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "That the king said unto Nathan the prophet, See now, I dwell in an house of cedar, but the ark of God dwelleth within curtains."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־נָתָן הַנָּבִיא רְאֵה נָא אָנֹכִי יוֹשֵׁב בְּבֵית אֲרָזִים וַֽאֲרוֹן הָֽאֱלֹהִים יֹשֵׁב בְּתוֹךְ הַיְרִיעָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "2-samuel-07-03-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee.",
+        "riddle": "Go, do all that is in thine heart; for the LORD is with thee.",
+        "speaker": "Nathan",
+        "listener": "king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר נָתָן אֶל־הַמֶּלֶךְ כֹּל אֲשֶׁר בִּֽלְבָבְךָ לֵךְ עֲשֵׂה כִּי יְהוָה עִמָּֽךְ",
+        "riddle": "כֹּל אֲשֶׁר בִּֽלְבָבְךָ לֵךְ עֲשֵׂה כִּי יְהוָה עִמָּֽך",
+        "speaker": "נָתָן",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Nathan said to the king, Go, do all that is in thine heart; for the LORD is with thee."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר נָתָן אֶל־הַמֶּלֶךְ כֹּל אֲשֶׁר בִּֽלְבָבְךָ לֵךְ עֲשֵׂה כִּי יְהוָה עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-07-05-05",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "Go and tell my servant David, Thus saith the LORD, Shalt thou build me an house for me to dwell in?",
+        "riddle": "Shalt thou build me an house for me to dwell in?",
+        "speaker": "LORD",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "לֵךְ וְאָֽמַרְתָּ אֶל־עַבְדִּי אֶל־דָּוִד כֹּה אָמַר יְהוָה הַאַתָּה תִּבְנֶה־לִּי בַיִת לְשִׁבְתִּֽי",
+        "riddle": "הַאַתָּה תִּבְנֶה־לִּי בַיִת לְשִׁבְתִּֽי",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "Go and tell my servant David, Thus saith the LORD, Shalt thou build me an house for me to dwell in?"
+        },
+        "he": {
+          "5": "לֵךְ וְאָֽמַרְתָּ אֶל־עַבְדִּי אֶל־דָּוִד כֹּה אָמַר יְהוָה הַאַתָּה תִּבְנֶה־לִּי בַיִת לְשִׁבְתִּֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-samuel-07-20-20",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And what can David say more unto thee? for thou, Lord GOD, knowest thy servant.",
+        "riddle": "And what can David say more unto thee?",
+        "speaker": "David",
+        "listener": "Lord God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וּמַה־יּוֹסִיף דָּוִד עוֹד לְדַבֵּר אֵלֶיךָ וְאַתָּה יָדַעְתָּ אֶֽת־עַבְדְּךָ אֲדֹנָי יְהוִֽה",
+        "riddle": "וּמַה־יּוֹסִיף דָּוִד עוֹד לְדַבֵּר אֵלֶיךָ",
+        "speaker": "דָּוִד",
+        "listener": "אֲדֹנָי יְהוִֽה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Then went king David in, and sat before the LORD, and he said, Who am I, O Lord GOD? and what is my house, that thou hast brought me hitherto?",
+          "20": "And what can David say more unto thee? for thou, Lord GOD, knowest thy servant."
+        },
+        "he": {
+          "18": "וַיָּבֹא הַמֶּלֶךְ דָּוִד וַיֵּשֶׁב לִפְנֵי יְהוָה וַיֹּאמֶר מִי אָנֹכִי אֲדֹנָי יְהוִה וּמִי בֵיתִי כִּי הֲבִיאֹתַנִי עַד־הֲלֹֽם׃",
+          "20": "וּמַה־יּוֹסִיף דָּוִד עוֹד לְדַבֵּר אֵלֶיךָ וְאַתָּה יָדַעְתָּ אֶֽת־עַבְדְּךָ אֲדֹנָי יְהוִֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "2-samuel-07-22-22",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears.",
+        "riddle": "Wherefore thou art great, O LORD God: for there is none like thee",
+        "speaker": "David",
+        "listener": "Lord God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "עַל־כֵּן גָּדַלְתָּ אֲדֹנָי יְהוִה כִּֽי־אֵֽין כָּמוֹךָ וְאֵין אֱלֹהִים זֽוּלָתֶךָ בְּכֹל אֲשֶׁר־שָׁמַעְנוּ בְּאָזְנֵֽינוּ",
+        "riddle": "עַל־כֵּן גָּדַלְתָּ אֲדֹנָי יְהוִה כִּֽי־אֵֽין כָּמוֹךָ וְאֵין אֱלֹהִים זֽוּלָתֶךָ",
+        "speaker": "דָּוִד",
+        "listener": "אֲדֹנָי יְהוִה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Then went king David in, and sat before the LORD, and he said, Who am I, O Lord GOD? and what is my house, that thou hast brought me hitherto?",
+          "22": "Wherefore thou art great, O LORD God: for there is none like thee, neither is there any God beside thee, according to all that we have heard with our ears."
+        },
+        "he": {
+          "18": "וַיָּבֹא הַמֶּלֶךְ דָּוִד וַיֵּשֶׁב לִפְנֵי יְהוָה וַיֹּאמֶר מִי אָנֹכִי אֲדֹנָי יְהוִה וּמִי בֵיתִי כִּי הֲבִיאֹתַנִי עַד־הֲלֹֽם׃",
+          "22": "עַל־כֵּן גָּדַלְתָּ אֲדֹנָי יְהוִה כִּֽי־אֵֽין כָּמוֹךָ וְאֵין אֱלֹהִים זֽוּלָתֶךָ בְּכֹל אֲשֶׁר־שָׁמַעְנוּ בְּאָזְנֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-samuel-07-25-25",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And now, O LORD God, the word that thou hast spoken concerning thy servant, and concerning his house, establish it for ever, and do as thou hast said.",
+        "riddle": "And now, O LORD God, the word that thou hast spoken concerning thy servant, and concerning his house, establish it for ever, and do as thou hast said.",
+        "speaker": "David",
+        "listener": "God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה יְהוָה אֱלֹהִים הַדָּבָר אֲשֶׁר דִּבַּרְתָּ עַֽל־עַבְדְּךָ וְעַל־בֵּיתוֹ הָקֵם עַד־עוֹלָם וַעֲשֵׂה כַּאֲשֶׁר דִּבַּֽרְתָּ",
+        "riddle": "וְעַתָּה יְהוָה אֱלֹהִים הַדָּבָר אֲשֶׁר דִּבַּרְתָּ עַֽל־עַבְדְּךָ וְעַל־בֵּיתוֹ הָקֵם עַד־עוֹלָם וַעֲשֵׂה כַּאֲשֶׁר דִּבַּֽרְתָּ",
+        "speaker": "דוד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And now, O LORD God, the word that thou hast spoken concerning thy servant, and concerning his house, establish it for ever, and do as thou hast said."
+        },
+        "he": {
+          "25": "וְעַתָּה יְהוָה אֱלֹהִים הַדָּבָר אֲשֶׁר דִּבַּרְתָּ עַֽל־עַבְדְּךָ וְעַל־בֵּיתוֹ הָקֵם עַד־עוֹלָם וַעֲשֵׂה כַּאֲשֶׁר דִּבַּֽרְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-samuel-07-26-26",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "And let thy name be magnified for ever, saying, The LORD of hosts is the God over Israel: and let the house of thy servant David be established before thee.",
+        "riddle": "And let thy name be magnified for ever, saying, The LORD of hosts is the God over Israel: and let the house of thy servant David be established before thee.",
+        "speaker": "David",
+        "listener": "God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְיִגְדַּל שִׁמְךָ עַד־עוֹלָם לֵאמֹר יְהוָה צְבָאוֹת אֱלֹהִים עַל־יִשְׂרָאֵל וּבֵית עַבְדְּךָ דָוִד יִהְיֶה נָכוֹן לְפָנֶֽיךָ",
+        "riddle": "וְיִגְדַּל שִׁמְךָ עַד־עוֹלָם לֵאמֹר יְהוָה צְבָאוֹת אֱלֹהִים עַל־יִשְׂרָאֵל וּבֵית עַבְדְּךָ דָוִד יִהְיֶה נָכוֹן לְפָנֶֽיךָ",
+        "speaker": "דָוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And let thy name be magnified for ever, saying, The LORD of hosts is the God over Israel: and let the house of thy servant David be established before thee."
+        },
+        "he": {
+          "26": "וְיִגְדַּל שִׁמְךָ עַד־עוֹלָם לֵאמֹר יְהוָה צְבָאוֹת אֱלֹהִים עַל־יִשְׂרָאֵל וּבֵית עַבְדְּךָ דָוִד יִהְיֶה נָכוֹן לְפָנֶֽיךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "2-samuel-07-27-27",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "For thou, O LORD of hosts, God of Israel, hast revealed to thy servant, saying, I will build thee an house: therefore hath thy servant found in his heart to pray this prayer unto thee.",
+        "riddle": "I will build thee an house",
+        "speaker": "God",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "כִּֽי־אַתָּה יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ עַל־כֵּן מָצָא עַבְדְּךָ אֶת־לִבּוֹ לְהִתְפַּלֵּל אֵלֶיךָ אֶת־הַתְּפִלָּה הַזֹּֽאת",
+        "riddle": "בַּיִת אֶבְנֶה־לָּך",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "For thou, O LORD of hosts, God of Israel, hast revealed to thy servant, saying, I will build thee an house: therefore hath thy servant found in his heart to pray this prayer unto thee."
+        },
+        "he": {
+          "27": "כִּֽי־אַתָּה יְהוָה צְבָאוֹת אֱלֹהֵי יִשְׂרָאֵל גָּלִיתָה אֶת־אֹזֶן עַבְדְּךָ לֵאמֹר בַּיִת אֶבְנֶה־לָּךְ עַל־כֵּן מָצָא עַבְדְּךָ אֶת־לִבּוֹ לְהִתְפַּלֵּל אֵלֶיךָ אֶת־הַתְּפִלָּה הַזֹּֽאת׃"
+        }
+      },
+      "meta": {
+        "reason": "divine promise",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "2-samuel-07-28-28",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 7,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And now, O Lord GOD, thou art that God, and thy words be true, and thou hast promised this goodness unto thy servant:",
+        "riddle": "And now, O Lord GOD, thou art that God, and thy words be true, and thou hast promised this goodness unto thy servant:",
+        "speaker": "David",
+        "listener": "God",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְעַתָּה אֲדֹנָי יְהוִה אַתָּה־הוּא הָֽאֱלֹהִים וּדְבָרֶיךָ יִהְיוּ אֱמֶת וַתְּדַבֵּר אֶֽל־עַבְדְּךָ אֶת־הַטּוֹבָה הַזֹּֽאת",
+        "riddle": "וְעַתָּה אֲדֹנָי יְהוִה אַתָּה־הוּא הָֽאֱלֹהִים וּדְבָרֶיךָ יִהְיוּ אֱמֶת וַתְּדַבֵּר אֶֽל־עַבְדְּךָ אֶת־הַטּוֹבָה הַזֹּֽאת",
+        "speaker": "דוד",
+        "listener": "יְהוִה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And now, O Lord GOD, thou art that God, and thy words be true, and thou hast promised this goodness unto thy servant:"
+        },
+        "he": {
+          "28": "וְעַתָּה ׀ אֲדֹנָי יְהוִה אַתָּה־הוּא הָֽאֱלֹהִים וּדְבָרֶיךָ יִהְיוּ אֱמֶת וַתְּדַבֵּר אֶֽל־עַבְדְּךָ אֶת־הַטּוֹבָה הַזֹּֽאת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 7,
+        "start": 28,
+        "end": 28
+      }
+    }
+  ],
   "stats": {
-    "window_count": 20,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 20,
-    "kept_count": 0,
-    "issue_count": 20
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 9,
+    "issue_count": 4
   }
 }

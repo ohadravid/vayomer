@@ -4,12 +4,62 @@
   "book_he": "שמות",
   "chapter": 25,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-25-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 25,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+        "riddle": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, that they bring me an offering: of every man that giveth it willingly with his heart ye shall take my offering."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיִקְחוּ־לִי תְּרוּמָה מֵאֵת כָּל־אִישׁ אֲשֶׁר יִדְּבֶנּוּ לִבּוֹ תִּקְחוּ אֶת־תְּרוּמָתִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 25,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

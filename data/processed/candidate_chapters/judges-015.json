@@ -6,6 +6,132 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-15-01-01",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1
+      },
+      "en": {
+        "quote": "But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in.",
+        "riddle": "I will go in to my wife into the chamber",
+        "speaker": "Samson",
+        "listener": "wife",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיְהִי מִיָּמִים בִּימֵי קְצִיר־חִטִּים וַיִּפְקֹד שִׁמְשׁוֹן אֶת־אִשְׁתּוֹ בִּגְדִי עִזִּים וַיֹּאמֶר אָבֹאָה אֶל־אִשְׁתִּי הֶחָדְרָה וְלֹֽא־נְתָנוֹ אָבִיהָ לָבֽוֹא",
+        "riddle": "וַיִּפְקֹד שִׁמְשׁוֹן אֶת־אִשְׁתּוֹ בִּגְדִי עִזִּים וַיֹּאמֶר אָבֹאָה אֶל־אִשְׁתִּי",
+        "speaker": "שִׁמְשׁוֹן",
+        "listener": "אִשְׁתּוֹ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "But it came to pass within a while after, in the time of wheat harvest, that Samson visited his wife with a kid; and he said, I will go in to my wife into the chamber. But her father would not suffer him to go in."
+        },
+        "he": {
+          "1": "וַיְהִי מִיָּמִים בִּימֵי קְצִיר־חִטִּים וַיִּפְקֹד שִׁמְשׁוֹן אֶת־אִשְׁתּוֹ בִּגְדִי עִזִּים וַיֹּאמֶר אָבֹאָה אֶל־אִשְׁתִּי הֶחָדְרָה וְלֹֽא־נְתָנוֹ אָבִיהָ לָבֽוֹא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "judges-15-02-02",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her.",
+        "riddle": "is not her younger sister fairer than she? take her, I pray thee, instead of her",
+        "speaker": "wife's father",
+        "listener": "Samson",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אָבִיהָ אָמֹר אָמַרְתִּי כִּי־שָׂנֹא שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ",
+        "riddle": "שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ",
+        "speaker": "אָבִיהָ",
+        "listener": "שִׂמְשׁוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And her father said, I verily thought that thou hadst utterly hated her; therefore I gave her to thy companion: is not her younger sister fairer than she? take her, I pray thee, instead of her."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אָבִיהָ אָמֹר אָמַרְתִּי כִּי־שָׂנֹא שְׂנֵאתָהּ וָאֶתְּנֶנָּה לְמֵרֵעֶךָ הֲלֹא אֲחֹתָהּ הַקְּטַנָּה טוֹבָה מִמֶּנָּה תְּהִי־נָא לְךָ תַּחְתֶּֽיהָ׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "judges-15-03-03",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Samson said concerning them, Now shall I be more blameless than the Philistines, though I do them a displeasure.",
+        "riddle": "Now shall I be more blameless than the Philistines",
+        "speaker": "Samson",
+        "listener": "himself",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן נִקֵּיתִי הַפַּעַם מִפְּלִשְׁתִּים כִּֽי־עֹשֶׂה אֲנִי עִמָּם רָעָֽה",
+        "riddle": "נִקֵּיתִי הַפַּעַם מִפְּלִשְׁתִּים כִּֽי־עֹשֶׂה אֲנִי",
+        "speaker": "שִׁמְשׁוֹן",
+        "listener": "פְּלִשְׁתִּים",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Samson said concerning them, Now shall I be more blameless than the Philistines, though I do them a displeasure."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן נִקֵּיתִי הַפַּעַם מִפְּלִשְׁתִּים כִּֽי־עֹשֶׂה אֲנִי עִמָּם רָעָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
       "id": "judges-15-06-06",
       "source": {
         "book_code": "JDG",
@@ -19,14 +145,14 @@
         "quote": "Then the Philistines said, Who hath done this? And they answered, Samson, the son in law of the Timnite, because he had taken his wife, and given her to his companion. And the Philistines came up, and burnt her and her father with fire.",
         "riddle": "Who hath done this?",
         "speaker": "Philistines",
-        "listener": "People",
+        "listener": "unknown",
         "book": "Judges"
       },
       "he": {
         "quote": "וַיֹּאמְרוּ פְלִשְׁתִּים מִי עָשָׂה זֹאת וַיֹּאמְרוּ שִׁמְשׁוֹן חֲתַן הַתִּמְנִי כִּי לָקַח אֶת־אִשְׁתּוֹ וַֽיִּתְּנָהּ לְמֵרֵעֵהוּ וַיַּעֲלוּ פְלִשְׁתִּים וַיִּשְׂרְפוּ אוֹתָהּ וְאֶת־אָבִיהָ בָּאֵֽשׁ",
         "riddle": "מִי עָשָׂה זֹאת",
         "speaker": "פְלִשְׁתִּים",
-        "listener": "אנשים",
+        "listener": "פְלִשְׁתִּים",
         "book": "שופטים"
       },
       "raw_quote_source": {
@@ -38,8 +164,8 @@
         }
       },
       "meta": {
-        "reason": "Direct question from Philistines",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
@@ -48,14 +174,58 @@
       }
     },
     {
-      "id": "judges-15-10-10",
+      "id": "judges-15-07-07",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease.",
+        "riddle": "Though ye have done this, yet will I be avenged of you",
+        "speaker": "Samson",
+        "listener": "Philistines",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל",
+        "riddle": "אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר",
+        "speaker": "שִׁמְשׁוֹן",
+        "listener": "לָהֶם",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And Samson said unto them, Though ye have done this, yet will I be avenged of you, and after that I will cease."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן אִֽם־תַּעֲשׂוּן כָּזֹאת כִּי אִם־נִקַּמְתִּי בָכֶם וְאַחַר אֶחְדָּֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "judges-15-10-10-1",
       "source": {
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 15,
         "quote_verse_start": 10,
-        "quote_verse_end": 10
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
       },
       "en": {
         "quote": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
@@ -68,7 +238,7 @@
         "quote": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ",
         "riddle": "לָמָה עֲלִיתֶם עָלֵינוּ",
         "speaker": "אִישׁ יְהוּדָה",
-        "listener": "פלשתים",
+        "listener": "אִישׁ יְהוּדָה",
         "book": "שופטים"
       },
       "raw_quote_source": {
@@ -80,13 +250,145 @@
         }
       },
       "meta": {
-        "reason": "Direct question from Judah",
+        "reason": "direct question",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
         "start": 10,
         "end": 10
+      }
+    },
+    {
+      "id": "judges-15-10-10-2",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us.",
+        "riddle": "To bind Samson are we come up, to do to him as he hath done to us.",
+        "speaker": "Philistines",
+        "listener": "men of Judah",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ",
+        "riddle": "לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנו",
+        "speaker": "אִישׁ יְהוּדָה",
+        "listener": "אִישׁ יְהוּדָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the men of Judah said, Why are ye come up against us? And they answered, To bind Samson are we come up, to do to him as he hath done to us."
+        },
+        "he": {
+          "10": "וַיֹּֽאמְרוּ אִישׁ יְהוּדָה לָמָה עֲלִיתֶם עָלֵינוּ וַיֹּאמְרוּ לֶאֱסוֹר אֶת־שִׁמְשׁוֹן עָלִינוּ לַעֲשׂוֹת לוֹ כַּאֲשֶׁר עָשָׂה לָֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "judges-15-12-12",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves.",
+        "riddle": "We are come down to bind thee, that we may deliver thee into the hand of the Philistines.",
+        "speaker": "men of Judah",
+        "listener": "Samson",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם",
+        "riddle": "לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים",
+        "speaker": "אנשי יהודה",
+        "listener": "שִׁמְשׁוֹן",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And they said unto him, We are come down to bind thee, that we may deliver thee into the hand of the Philistines. And Samson said unto them, Swear unto me, that ye will not fall upon me yourselves."
+        },
+        "he": {
+          "12": "וַיֹּאמְרוּ לוֹ לֶאֱסָרְךָ יָרַדְנוּ לְתִתְּךָ בְּיַד־פְּלִשְׁתִּים וַיֹּאמֶר לָהֶם שִׁמְשׁוֹן הִשָּׁבְעוּ לִי פֶּֽן־תִּפְגְּעוּן בִּי אַתֶּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "judges-15-13-13",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock.",
+        "riddle": "No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee.",
+        "speaker": "men of Judah",
+        "listener": "Samson",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לוֹ לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן־הַסָּֽלַע",
+        "riddle": "לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן",
+        "speaker": "אנשי יהודה",
+        "listener": "שמשון",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock."
+        },
+        "he": {
+          "13": "וַיֹּאמְרוּ לוֹ לֵאמֹר לֹא כִּֽי־אָסֹר נֶֽאֱסָרְךָ וּנְתַנּוּךָ בְיָדָם וְהָמֵת לֹא נְמִיתֶךָ וַיַּאַסְרֻהוּ בִּשְׁנַיִם עֲבֹתִים חֲדָשִׁים וַֽיַּעֲלוּהוּ מִן־הַסָּֽלַע׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 13,
+        "end": 13
       }
     },
     {
@@ -97,20 +399,21 @@
         "book_he": "שופטים",
         "chapter": 15,
         "quote_verse_start": 16,
-        "quote_verse_end": 16
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16
       },
       "en": {
         "quote": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
-        "riddle": "with the jaw of an ass have I slain a thousand men.",
+        "riddle": "With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
         "speaker": "Samson",
-        "listener": "people",
+        "listener": "none",
         "book": "Judges"
       },
       "he": {
         "quote": "וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ",
-        "riddle": "בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ",
+        "riddle": "וַיֹּאמֶר שִׁמְשׁוֹן בִּלְחִי הַחֲמוֹר חֲמוֹר חֲמֹרָתָיִם בִּלְחִי הַחֲמוֹר הִכֵּיתִי אֶלֶף אִֽישׁ",
         "speaker": "שִׁמְשׁוֹן",
-        "listener": "אנשים",
+        "listener": "none",
         "book": "שופטים"
       },
       "raw_quote_source": {
@@ -122,21 +425,68 @@
         }
       },
       "meta": {
-        "reason": "Vivid declaration of victory.",
-        "confidence": 1.0
+        "reason": "vivid declaration",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 15,
         "start": 16,
         "end": 16
       }
+    },
+    {
+      "id": "judges-15-18-18",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 15,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+        "riddle": "Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?",
+        "speaker": "Samson",
+        "listener": "LORD",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיִּצְמָא מְאֹד וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים",
+        "riddle": "אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים",
+        "speaker": "שמשון",
+        "listener": "יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he was sore athirst, and called on the LORD, and said, Thou hast given this great deliverance into the hand of thy servant: and now shall I die for thirst, and fall into the hand of the uncircumcised?"
+        },
+        "he": {
+          "18": "וַיִּצְמָא מְאֹד וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר אַתָּה נָתַתָּ בְיַֽד־עַבְדְּךָ אֶת־הַתְּשׁוּעָה הַגְּדֹלָה הַזֹּאת וְעַתָּה אָמוּת בַּצָּמָא וְנָפַלְתִּי בְּיַד הָעֲרֵלִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer/question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 18,
+        "end": 18
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 3,
-    "issue_count": 14
+    "llm_window_count": 3,
+    "projection_llm_count": 13,
+    "llm_call_count": 16,
+    "spec_count": 13,
+    "kept_count": 11,
+    "issue_count": 3
   }
 }

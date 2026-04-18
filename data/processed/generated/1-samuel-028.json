@@ -6,6 +6,318 @@
   "mode": "llm",
   "items": [
     {
+      "id": "1-samuel-28-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And David said to Achish, Surely thou shalt know what thy servant can do. And Achish said to David, Therefore will I make thee keeper of mine head for ever.",
+        "riddle": "Surely thou shalt know what thy servant can do.",
+        "speaker": "David",
+        "listener": "Achish",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "keeper",
+        "bonus_hint": {
+          "quote": "And David rose up early in the morning, and left the sheep with a keeper, and took, and went, as Jesse had commanded him; and he came to the trench, as the host was going forth to the fight, and shouted for the battle.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ לָכֵן אַתָּה תֵדַע אֵת אֲשֶׁר־יַעֲשֶׂה עַבְדֶּךָ וַיֹּאמֶר אָכִישׁ אֶל־דָּוִד לָכֵן שֹׁמֵר לְרֹאשִׁי אֲשִֽׂימְךָ כָּל־הַיָּמִֽים",
+        "riddle": "לָכֵן אַתָּה תֵדַע אֵת אֲשֶׁר־יַעֲשֶׂה עַבְדֶּך",
+        "speaker": "דָּוִד",
+        "listener": "אָכִישׁ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שֹׁמֵר",
+        "bonus_hint": {
+          "quote": "וַיַּשְׁכֵּם דָּוִד בַּבֹּקֶר וַיִּטֹּשׁ אֶת־הַצֹּאן עַל־שֹׁמֵר וַיִּשָּׂא וַיֵּלֶךְ כַּאֲשֶׁר צִוָּהוּ יִשָׁי וַיָּבֹא הַמַּעְגָּלָה וְהַחַיִל הַיֹּצֵא אֶל־הַמַּעֲרָכָה וְהֵרֵעוּ בַּמִּלְחָמָֽה",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And David said to Achish, Surely thou shalt know what thy servant can do. And Achish said to David, Therefore will I make thee keeper of mine head for ever."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר דָּוִד אֶל־אָכִישׁ לָכֵן אַתָּה תֵדַע אֵת אֲשֶׁר־יַעֲשֶׂה עַבְדֶּךָ וַיֹּאמֶר אָכִישׁ אֶל־דָּוִד לָכֵן שֹׁמֵר לְרֹאשִׁי אֲשִֽׂימְךָ כָּל־הַיָּמִֽים׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 2,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 8,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Saul disguised himself, and put on other raiment, and he went, and two men with him, and they came to the woman by night: and he said, I pray thee, divine unto me by the familiar spirit, and bring me him up, whom I shall name unto thee. And the woman said unto him, Behold, thou knowest what Saul hath done, how he hath cut off those that have familiar spirits, and the wizards, out of the land: wherefore then layest thou a snare for my life, to cause me to die? And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing.",
+        "riddle": "As the LORD liveth, there shall no punishment happen to thee for this thing.",
+        "speaker": "Saul",
+        "listener": "woman",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "night",
+        "bonus_hint": {
+          "quote": "Therefore will I cast you out of this land into a land that ye know not, neither ye nor your fathers; and there shall ye serve other gods day and night; where I will not shew you favour.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 16,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּתְחַפֵּשׂ שָׁאוּל וַיִּלְבַּשׁ בְּגָדִים אֲחֵרִים וַיֵּלֶךְ הוּא וּשְׁנֵי אֲנָשִׁים עִמּוֹ וַיָּבֹאוּ אֶל־הָאִשָּׁה לָיְלָה וַיֹּאמֶר קָֽסֳמִי־נָא לִי בָּאוֹב וְהַעֲלִי לִי אֵת אֲשֶׁר־אֹמַר אֵלָֽיִךְ וַתֹּאמֶר הָֽאִשָּׁה אֵלָיו הִנֵּה אַתָּה יָדַעְתָּ אֵת אֲשֶׁר־עָשָׂה שָׁאוּל אֲשֶׁר הִכְרִית אֶת־הָאֹבוֹת וְאֶת־הַיִּדְּעֹנִי מִן־הָאָרֶץ וְלָמָה אַתָּה מִתְנַקֵּשׁ בְּנַפְשִׁי לַהֲמִיתֵֽנִי וַיִּשָּׁבַֽע לָהּ שָׁאוּל בַּֽיהוָה לֵאמֹר חַי־יְהוָה אִֽם־יִקְּרֵךְ עָוֺן בַּדָּבָר הַזֶּֽה",
+        "riddle": "חַי־יְהוָה אִֽם־יִקְּרֵךְ עָוֺן בַּדָּבָר הַזֶּֽה",
+        "speaker": "שָׁאוּל",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אֲחֵרִים",
+        "bonus_hint": {
+          "quote": "וְהֵטַלְתִּי אֶתְכֶם מֵעַל הָאָרֶץ הַזֹּאת עַל־הָאָרֶץ אֲשֶׁר לֹא יְדַעְתֶּם אַתֶּם וַאֲבֽוֹתֵיכֶם וַעֲבַדְתֶּם־שָׁם אֶת־אֱלֹהִים אֲחֵרִים יוֹמָם וָלַיְלָה אֲשֶׁר לֹֽא־אֶתֵּן לָכֶם חֲנִינָֽה",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 16,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Saul disguised himself, and put on other raiment, and he went, and two men with him, and they came to the woman by night: and he said, I pray thee, divine unto me by the familiar spirit, and bring me him up, whom I shall name unto thee.",
+          "9": "And the woman said unto him, Behold, thou knowest what Saul hath done, how he hath cut off those that have familiar spirits, and the wizards, out of the land: wherefore then layest thou a snare for my life, to cause me to die?",
+          "10": "And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing."
+        },
+        "he": {
+          "8": "וַיִּתְחַפֵּשׂ שָׁאוּל וַיִּלְבַּשׁ בְּגָדִים אֲחֵרִים וַיֵּלֶךְ הוּא וּשְׁנֵי אֲנָשִׁים עִמּוֹ וַיָּבֹאוּ אֶל־הָאִשָּׁה לָיְלָה וַיֹּאמֶר קָֽסֳמִי־נָא לִי בָּאוֹב וְהַעֲלִי לִי אֵת אֲשֶׁר־אֹמַר אֵלָֽיִךְ׃",
+          "9": "וַתֹּאמֶר הָֽאִשָּׁה אֵלָיו הִנֵּה אַתָּה יָדַעְתָּ אֵת אֲשֶׁר־עָשָׂה שָׁאוּל אֲשֶׁר הִכְרִית אֶת־הָאֹבוֹת וְאֶת־הַיִּדְּעֹנִי מִן־הָאָרֶץ וְלָמָה אַתָּה מִתְנַקֵּשׁ בְּנַפְשִׁי לַהֲמִיתֵֽנִי׃",
+          "10": "וַיִּשָּׁבַֽע לָהּ שָׁאוּל בַּֽיהוָה לֵאמֹר חַי־יְהוָה אִֽם־יִקְּרֵךְ עָוֺן בַּדָּבָר הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 8,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-11-11-2",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing. Then said the woman, Whom shall I bring up unto thee? And he said, Bring me up Samuel.",
+        "riddle": "Bring me up Samuel.",
+        "speaker": "Saul",
+        "listener": "woman",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "punishment",
+        "bonus_hint": {
+          "quote": "And Cain said unto the LORD, My punishment is greater than I can bear.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשָּׁבַֽע לָהּ שָׁאוּל בַּֽיהוָה לֵאמֹר חַי־יְהוָה אִֽם־יִקְּרֵךְ עָוֺן בַּדָּבָר הַזֶּֽה וַתֹּאמֶר הָֽאִשָּׁה אֶת־מִי אַֽעֲלֶה־לָּךְ וַיֹּאמֶר אֶת־שְׁמוּאֵל הַֽעֲלִי־לִֽי",
+        "riddle": "הַֽעֲלִי־לִֽי",
+        "speaker": "שָׁאוּל",
+        "listener": "הָֽאִשָּׁה",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יְהוָה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר קַיִן אֶל־יְהוָה גָּדוֹל עֲוֺנִי מִנְּשֹֽׂא",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Saul sware to her by the LORD, saying, As the LORD liveth, there shall no punishment happen to thee for this thing.",
+          "11": "Then said the woman, Whom shall I bring up unto thee? And he said, Bring me up Samuel."
+        },
+        "he": {
+          "10": "וַיִּשָּׁבַֽע לָהּ שָׁאוּל בַּֽיהוָה לֵאמֹר חַי־יְהוָה אִֽם־יִקְּרֵךְ עָוֺן בַּדָּבָר הַזֶּֽה׃",
+          "11": "וַתֹּאמֶר הָֽאִשָּׁה אֶת־מִי אַֽעֲלֶה־לָּךְ וַיֹּאמֶר אֶת־שְׁמוּאֵל הַֽעֲלִי־לִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-11-11-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Then said the woman, Whom shall I bring up unto thee? And he said, Bring me up Samuel. And when the woman saw Samuel, she cried with a loud voice: and the woman spake to Saul, saying, Why hast thou deceived me? for thou art Saul.",
+        "riddle": "Whom shall I bring up unto thee?",
+        "speaker": "woman",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Samuel",
+        "bonus_hint": {
+          "quote": "Wherefore it came to pass, when the time was come about after Hannah had conceived, that she bare a son, and called his name Samuel, saying, Because I have asked him of the LORD.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 1,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה אֶת־מִי אַֽעֲלֶה־לָּךְ וַיֹּאמֶר אֶת־שְׁמוּאֵל הַֽעֲלִי־לִֽי וַתֵּרֶא הָֽאִשָּׁה אֶת־שְׁמוּאֵל וַתִּזְעַק בְּקוֹל גָּדוֹל וַתֹּאמֶר הָאִשָּׁה אֶל־שָׁאוּל לֵאמֹר לָמָּה רִמִּיתָנִי וְאַתָּה שָׁאֽוּל",
+        "riddle": "אֶת־מִי אַֽעֲלֶה־לָּך",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שְׁמוּאֵל",
+        "bonus_hint": {
+          "quote": "וַיְהִי לִתְקֻפוֹת הַיָּמִים וַתַּהַר חַנָּה וַתֵּלֶד בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שְׁמוּאֵל כִּי מֵיְהוָה שְׁאִלְתִּֽיו",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 1,
+            "start": 20,
+            "end": 20
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Then said the woman, Whom shall I bring up unto thee? And he said, Bring me up Samuel.",
+          "12": "And when the woman saw Samuel, she cried with a loud voice: and the woman spake to Saul, saying, Why hast thou deceived me? for thou art Saul."
+        },
+        "he": {
+          "11": "וַתֹּאמֶר הָֽאִשָּׁה אֶת־מִי אַֽעֲלֶה־לָּךְ וַיֹּאמֶר אֶת־שְׁמוּאֵל הַֽעֲלִי־לִֽי׃",
+          "12": "וַתֵּרֶא הָֽאִשָּׁה אֶת־שְׁמוּאֵל וַתִּזְעַק בְּקוֹל גָּדוֹל וַתֹּאמֶר הָאִשָּׁה אֶל־שָׁאוּל לֵאמֹר לָמָּה רִמִּיתָנִי וְאַתָּה שָׁאֽוּל׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 11,
+        "end": 12
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "1-samuel-28-13-13",
       "source": {
         "method": "llm",
@@ -14,12 +326,14 @@
         "book_he": "שמואל א",
         "chapter": 28,
         "quote_verse_start": 13,
-        "quote_verse_end": 13
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
       },
       "en": {
         "quote": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth.",
-        "riddle": "for what sawest thou?",
-        "speaker": "king",
+        "riddle": "Be not afraid: for what sawest thou?",
+        "speaker": "Saul",
         "listener": "woman",
         "book": "1 Samuel",
         "options": {
@@ -39,7 +353,7 @@
       },
       "he": {
         "quote": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ",
-        "riddle": "מָה רָאִית",
+        "riddle": "אַל־תִּֽירְאִי כִּי מָה רָאִית",
         "speaker": "הַמֶּלֶךְ",
         "listener": "הָֽאִשָּׁה",
         "book": "שמואל א",
@@ -88,47 +402,49 @@
         "book_he": "שמואל א",
         "chapter": 28,
         "quote_verse_start": 13,
-        "quote_verse_end": 14
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
       },
       "en": {
         "quote": "And the king said unto her, Be not afraid: for what sawest thou? And the woman said unto Saul, I saw gods ascending out of the earth. And he said unto her, What form is he of? And she said, An old man cometh up; and he is covered with a mantle. And Saul perceived that it was Samuel, and he stooped with his face to the ground, and bowed himself.",
         "riddle": "What form is he of?",
         "speaker": "Saul",
-        "listener": "Witch",
+        "listener": "woman",
         "book": "1 Samuel",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "gods",
+        "bonus": "man",
         "bonus_hint": {
-          "quote": "For God doth know that in the day ye eat thereof, then your eyes shall be opened, and ye shall be as gods, knowing good and evil.",
+          "quote": "And the men of Israel said, Have ye seen this man that is come up? surely to defy Israel is he come up: and it shall be, that the man who killeth him, the king will enrich him with great riches, and will give him his daughter, and make his father's house free in Israel.",
           "source": {
-            "book": "Genesis",
-            "chapter": 3,
-            "start": 5,
-            "end": 5
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 25,
+            "end": 25
           }
         }
       },
       "he": {
         "quote": "וַיֹּאמֶר לָהּ הַמֶּלֶךְ אַל־תִּֽירְאִי כִּי מָה רָאִית וַתֹּאמֶר הָֽאִשָּׁה אֶל־שָׁאוּל אֱלֹהִים רָאִיתִי עֹלִים מִן־הָאָֽרֶץ וַיֹּאמֶר לָהּ מַֽה־תָּאֳרוֹ וַתֹּאמֶר אִישׁ זָקֵן עֹלֶה וְהוּא עֹטֶה מְעִיל וַיֵּדַע שָׁאוּל כִּֽי־שְׁמוּאֵל הוּא וַיִּקֹּד אַפַּיִם אַרְצָה וַיִּשְׁתָּֽחוּ",
-        "riddle": "מַֽה־תָּאֳרוֹ",
+        "riddle": "מַֽה־תָּאֳרו",
         "speaker": "שָׁאוּל",
-        "listener": "הָֽאִשָּׁה",
+        "listener": "אשה",
         "book": "שמואל א",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "אֱלֹהִים",
+        "bonus": "הַמֶּלֶךְ",
         "bonus_hint": {
-          "quote": "כִּי יֹדֵעַ אֱלֹהִים כִּי בְּיוֹם אֲכָלְכֶם מִמֶּנּוּ וְנִפְקְחוּ עֵֽינֵיכֶם וִהְיִיתֶם כֵּֽאלֹהִים יֹדְעֵי טוֹב וָרָֽע",
+          "quote": "וַיֹּאמֶר אִישׁ יִשְׂרָאֵל הַרְּאִיתֶם הָאִישׁ הָֽעֹלֶה הַזֶּה כִּי לְחָרֵף אֶת־יִשְׂרָאֵל עֹלֶה וְֽהָיָה הָאִישׁ אֲשֶׁר־יַכֶּנּוּ יַעְשְׁרֶנּוּ הַמֶּלֶךְ עֹשֶׁר גָּדוֹל וְאֶת־בִּתּוֹ יִתֶּן־לוֹ וְאֵת בֵּית אָבִיו יַעֲשֶׂה חָפְשִׁי בְּיִשְׂרָאֵֽל",
           "source": {
-            "book": "בראשית",
-            "chapter": 3,
-            "start": 5,
-            "end": 5
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 25,
+            "end": 25
           }
         }
       },
@@ -146,6 +462,234 @@
         "chapter": 28,
         "start": 13,
         "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-15-15-1",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Samuel said to Saul, Why hast thou disquieted me, to bring me up? And Saul answered, I am sore distressed; for the Philistines make war against me, and God is departed from me, and answereth me no more, neither by prophets, nor by dreams: therefore I have called thee, that thou mayest make known unto me what I shall do.",
+        "riddle": "Why hast thou disquieted me, to bring me up?",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "distressed",
+        "bonus_hint": {
+          "quote": "When the men of Israel saw that they were in a strait, (for the people were distressed,) then the people did hide themselves in caves, and in thickets, and in rocks, and in high places, and in pits.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 13,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל לָמָּה הִרְגַּזְתַּנִי לְהַעֲלוֹת אֹתִי וַיֹּאמֶר שָׁאוּל צַר־לִי מְאֹד וּפְלִשְׁתִּים נִלְחָמִים בִּי וֵֽאלֹהִים סָר מֵֽעָלַי וְלֹֽא־עָנָנִי עוֹד גַּם בְּיַֽד־הַנְּבִיאִם גַּם־בַּחֲלֹמוֹת וָאֶקְרָאֶה לְךָ לְהוֹדִיעֵנִי מָה אֶעֱשֶֽׂה",
+        "riddle": "לָמָּה הִרְגַּזְתַּנִי לְהַעֲלוֹת אֹתִי",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "צַר",
+        "bonus_hint": {
+          "quote": "וְאִישׁ יִשְׂרָאֵל רָאוּ כִּי צַר־לוֹ כִּי נִגַּשׂ הָעָם וַיִּֽתְחַבְּאוּ הָעָם בַּמְּעָרוֹת וּבַֽחֲוָחִים וּבַסְּלָעִים וּבַצְּרִחִים וּבַבֹּרֽוֹת",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 13,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Samuel said to Saul, Why hast thou disquieted me, to bring me up? And Saul answered, I am sore distressed; for the Philistines make war against me, and God is departed from me, and answereth me no more, neither by prophets, nor by dreams: therefore I have called thee, that thou mayest make known unto me what I shall do."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל לָמָּה הִרְגַּזְתַּנִי לְהַעֲלוֹת אֹתִי וַיֹּאמֶר שָׁאוּל צַר־לִי מְאֹד וּפְלִשְׁתִּים ׀ נִלְחָמִים בִּי וֵֽאלֹהִים סָר מֵֽעָלַי וְלֹֽא־עָנָנִי עוֹד גַּם בְּיַֽד־הַנְּבִיאִם גַּם־בַּחֲלֹמוֹת וָאֶקְרָאֶה לְךָ לְהוֹדִיעֵנִי מָה אֶעֱשֶֽׂה׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 15,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 15,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Samuel said to Saul, Why hast thou disquieted me, to bring me up? And Saul answered, I am sore distressed; for the Philistines make war against me, and God is departed from me, and answereth me no more, neither by prophets, nor by dreams: therefore I have called thee, that thou mayest make known unto me what I shall do. Then said Samuel, Wherefore then dost thou ask of me, seeing the LORD is departed from thee, and is become thine enemy?",
+        "riddle": "Wherefore then dost thou ask of me, seeing the LORD is departed from thee, and is become thine enemy?",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Philistines",
+        "bonus_hint": {
+          "quote": "And when the people were come into the camp, the elders of Israel said, Wherefore hath the LORD smitten us to day before the Philistines? Let us fetch the ark of the covenant of the LORD out of Shiloh unto us, that, when it cometh among us, it may save us out of the hand of our enemies.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 4,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל לָמָּה הִרְגַּזְתַּנִי לְהַעֲלוֹת אֹתִי וַיֹּאמֶר שָׁאוּל צַר־לִי מְאֹד וּפְלִשְׁתִּים נִלְחָמִים בִּי וֵֽאלֹהִים סָר מֵֽעָלַי וְלֹֽא־עָנָנִי עוֹד גַּם בְּיַֽד־הַנְּבִיאִם גַּם־בַּחֲלֹמוֹת וָאֶקְרָאֶה לְךָ לְהוֹדִיעֵנִי מָה אֶעֱשֶֽׂה וַיֹּאמֶר שְׁמוּאֵל וְלָמָּה תִּשְׁאָלֵנִי וַיהוָה סָר מֵעָלֶיךָ וַיְהִי עָרֶֽךָ",
+        "riddle": "וְלָמָּה תִּשְׁאָלֵנִי וַיהוָה סָר מֵעָלֶיךָ וַיְהִי עָרֶֽך",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "לָמָּה",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא הָעָם אֶל־הַֽמַּחֲנֶה וַיֹּֽאמְרוּ זִקְנֵי יִשְׂרָאֵל לָמָּה נְגָפָנוּ יְהוָה הַיּוֹם לִפְנֵי פְלִשְׁתִּים נִקְחָה אֵלֵינוּ מִשִּׁלֹה אֶת־אֲרוֹן בְּרִית יְהוָה וְיָבֹא בְקִרְבֵּנוּ וְיֹשִׁעֵנוּ מִכַּף אֹיְבֵֽינוּ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 4,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Samuel said to Saul, Why hast thou disquieted me, to bring me up? And Saul answered, I am sore distressed; for the Philistines make war against me, and God is departed from me, and answereth me no more, neither by prophets, nor by dreams: therefore I have called thee, that thou mayest make known unto me what I shall do.",
+          "16": "Then said Samuel, Wherefore then dost thou ask of me, seeing the LORD is departed from thee, and is become thine enemy?"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל לָמָּה הִרְגַּזְתַּנִי לְהַעֲלוֹת אֹתִי וַיֹּאמֶר שָׁאוּל צַר־לִי מְאֹד וּפְלִשְׁתִּים ׀ נִלְחָמִים בִּי וֵֽאלֹהִים סָר מֵֽעָלַי וְלֹֽא־עָנָנִי עוֹד גַּם בְּיַֽד־הַנְּבִיאִם גַּם־בַּחֲלֹמוֹת וָאֶקְרָאֶה לְךָ לְהוֹדִיעֵנִי מָה אֶעֱשֶֽׂה׃",
+          "16": "וַיֹּאמֶר שְׁמוּאֵל וְלָמָּה תִּשְׁאָלֵנִי וַיהוָה סָר מֵעָלֶיךָ וַיְהִי עָרֶֽךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 15,
+        "end": 16
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-28-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 28,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And the woman came unto Saul, and saw that he was sore troubled, and said unto him, Behold, thine handmaid hath obeyed thy voice, and I have put my life in my hand, and have hearkened unto thy words which thou spakest unto me.",
+        "riddle": "Behold, thine handmaid hath obeyed thy voice, and I have put my life in my hand, and have hearkened unto thy words which thou spakest unto me",
+        "speaker": "woman",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "saw",
+        "bonus_hint": {
+          "quote": "And she took it up, and went into the city: and her mother in law saw what she had gleaned: and she brought forth, and gave to her that she had reserved after she was sufficed.",
+          "source": {
+            "book": "Ruth",
+            "chapter": 2,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתָּבוֹא הָֽאִשָּׁה אֶל־שָׁאוּל וַתֵּרֶא כִּי־נִבְהַל מְאֹד וַתֹּאמֶר אֵלָיו הִנֵּה שָׁמְעָה שִׁפְחָֽתְךָ בְּקוֹלֶךָ וָאָשִׂים נַפְשִׁי בְּכַפִּי וָֽאֶשְׁמַע אֶת־דְּבָרֶיךָ אֲשֶׁר דִּבַּרְתָּ אֵלָֽי",
+        "riddle": "הִנֵּה שָׁמְעָה שִׁפְחָֽתְךָ בְּקוֹלֶךָ וָאָשִׂים נַפְשִׁי בְּכַפִּי וָֽאֶשְׁמַע אֶת־דְּבָרֶיךָ אֲשֶׁר דִּבַּרְתָּ אֵלָֽי",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַתָּבוֹא",
+        "bonus_hint": {
+          "quote": "וַתִּשָּׂא וַתָּבוֹא הָעִיר וַתֵּרֶא חֲמוֹתָהּ אֵת אֲשֶׁר־לִקֵּטָה וַתּוֹצֵא וַתִּתֶּן־לָהּ אֵת אֲשֶׁר־הוֹתִרָה מִשָּׂבְעָֽהּ",
+          "source": {
+            "book": "רות",
+            "chapter": 2,
+            "start": 18,
+            "end": 18
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the woman came unto Saul, and saw that he was sore troubled, and said unto him, Behold, thine handmaid hath obeyed thy voice, and I have put my life in my hand, and have hearkened unto thy words which thou spakest unto me."
+        },
+        "he": {
+          "21": "וַתָּבוֹא הָֽאִשָּׁה אֶל־שָׁאוּל וַתֵּרֶא כִּי־נִבְהַל מְאֹד וַתֹּאמֶר אֵלָיו הִנֵּה שָׁמְעָה שִׁפְחָֽתְךָ בְּקוֹלֶךָ וָאָשִׂים נַפְשִׁי בְּכַפִּי וָֽאֶשְׁמַע אֶת־דְּבָרֶיךָ אֲשֶׁר דִּבַּרְתָּ אֵלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 28,
+        "start": 21,
+        "end": 21
       },
       "meta": {
         "mode": "llm",

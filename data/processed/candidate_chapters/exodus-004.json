@@ -6,19 +6,64 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-04-02-02",
+      "id": "exodus-04-01-01",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.",
+        "riddle": "But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיַּעַן מֹשֶׁה וַיֹּאמֶר וְהֵן לֹֽא־יַאֲמִינוּ לִי וְלֹא יִשְׁמְעוּ בְּקֹלִי כִּי יֹֽאמְרוּ לֹֽא־נִרְאָה אֵלֶיךָ יְהוָֽה",
+        "riddle": "וַיַּעַן מֹשֶׁה וַיֹּאמֶר וְהֵן לֹֽא־יַאֲמִינוּ לִי וְלֹא יִשְׁמְעוּ בְּקֹלִי כִּי יֹֽאמְרוּ לֹֽא־נִרְאָה אֵלֶיךָ יְהוָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָֽה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Moses answered and said, But, behold, they will not believe me, nor hearken unto my voice: for they will say, The LORD hath not appeared unto thee."
+        },
+        "he": {
+          "1": "וַיַּעַן מֹשֶׁה וַיֹּאמֶר וְהֵן לֹֽא־יַאֲמִינוּ לִי וְלֹא יִשְׁמְעוּ בְּקֹלִי כִּי יֹֽאמְרוּ לֹֽא־נִרְאָה אֵלֶיךָ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/objection",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "exodus-04-02-02-1",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 4,
         "quote_verse_start": 2,
-        "quote_verse_end": 2
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
         "quote": "And the LORD said unto him, What is that in thine hand? And he said, A rod.",
         "riddle": "What is that in thine hand?",
-        "speaker": "LORD",
+        "speaker": "the LORD",
         "listener": "Moses",
         "book": "Exodus"
       },
@@ -26,7 +71,7 @@
         "quote": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה",
         "riddle": "מַה זֶּה בְיָדֶךָ",
         "speaker": "יְהוָה",
-        "listener": "משה",
+        "listener": "מֹשֶׁה",
         "book": "שמות"
       },
       "raw_quote_source": {
@@ -38,7 +83,7 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
+        "reason": "direct question",
         "confidence": 1.0
       },
       "ref": {
@@ -46,13 +91,673 @@
         "start": 2,
         "end": 2
       }
+    },
+    {
+      "id": "exodus-04-02-02-2",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD said unto him, What is that in thine hand? And he said, A rod.",
+        "riddle": "A rod.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה",
+        "riddle": "מַטֶּֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the LORD said unto him, What is that in thine hand? And he said, A rod."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֵלָיו יְהוָה מַה זֶּה בְיָדֶךָ וַיֹּאמֶר מַטֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-04-03-03",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it.",
+        "riddle": "Cast it on the ground.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַשְׁלִיכֵהוּ אַרְצָה וַיַּשְׁלִיכֵהוּ אַרְצָה וַיְהִי לְנָחָשׁ וַיָּנָס מֹשֶׁה מִפָּנָֽיו",
+        "riddle": "הַשְׁלִיכֵהוּ אַרְצָה",
+        "speaker": "הַשְׁמוֹ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And he said, Cast it on the ground. And he cast it on the ground, and it became a serpent; and Moses fled from before it."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר הַשְׁלִיכֵהוּ אַרְצָה וַיַּשְׁלִיכֵהוּ אַרְצָה וַיְהִי לְנָחָשׁ וַיָּנָס מֹשֶׁה מִפָּנָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "exodus-04-04-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Put forth thine hand, and take it by the tail. And he put forth his hand, and caught it, and it became a rod in his hand:",
+        "riddle": "Put forth thine hand, and take it by the tail.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה שְׁלַח יָֽדְךָ וֶאֱחֹז בִּזְנָבוֹ וַיִּשְׁלַח יָדוֹ וַיַּחֲזֶק בּוֹ וַיְהִי לְמַטֶּה בְּכַפּֽוֹ",
+        "riddle": "שְׁלַח יָֽדְךָ וֶאֱחֹז בִּזְנָבוֹ וַיִּשְׁלַח יָדוֹ וַיַּחֲזֶק בּוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the LORD said unto Moses, Put forth thine hand, and take it by the tail. And he put forth his hand, and caught it, and it became a rod in his hand:"
+        },
+        "he": {
+          "4": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה שְׁלַח יָֽדְךָ וֶאֱחֹז בִּזְנָבוֹ וַיִּשְׁלַח יָדוֹ וַיַּחֲזֶק בּוֹ וַיְהִי לְמַטֶּה בְּכַפּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-04-06-06",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And the LORD said furthermore unto him, Put now thine hand into thy bosom. And he put his hand into his bosom: and when he took it out, behold, his hand was leprous as snow.",
+        "riddle": "Put now thine hand into thy bosom.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה לוֹ עוֹד הָֽבֵא־נָא יָֽדְךָ בְּחֵיקֶךָ וַיָּבֵא יָדוֹ בְּחֵיקוֹ וַיּוֹצִאָהּ וְהִנֵּה יָדוֹ מְצֹרַעַת כַּשָּֽׁלֶג",
+        "riddle": "הָֽבֵא־נָא יָֽדְךָ בְּחֵיקֶך",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said furthermore unto him, Put now thine hand into thy bosom. And he put his hand into his bosom: and when he took it out, behold, his hand was leprous as snow."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה לוֹ עוֹד הָֽבֵא־נָא יָֽדְךָ בְּחֵיקֶךָ וַיָּבֵא יָדוֹ בְּחֵיקוֹ וַיּוֹצִאָהּ וְהִנֵּה יָדוֹ מְצֹרַעַת כַּשָּֽׁלֶג׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "exodus-04-07-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And he said, Put thine hand into thy bosom again. And he put his hand into his bosom again; and plucked it out of his bosom, and, behold, it was turned again as his other flesh.",
+        "riddle": "Put thine hand into thy bosom again.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָשֵׁב יָֽדְךָ אֶל־חֵיקֶךָ וַיָּשֶׁב יָדוֹ אֶל־חֵיקוֹ וַיּֽוֹצִאָהּ מֵֽחֵיקוֹ וְהִנֵּה־שָׁבָה כִּבְשָׂרֽוֹ",
+        "riddle": "הָשֵׁב יָֽדְךָ אֶל־חֵיקֶך",
+        "speaker": "הָשֵׁב",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And he said, Put thine hand into thy bosom again. And he put his hand into his bosom again; and plucked it out of his bosom, and, behold, it was turned again as his other flesh."
+        },
+        "he": {
+          "7": "וַיֹּאמֶר הָשֵׁב יָֽדְךָ אֶל־חֵיקֶךָ וַיָּשֶׁב יָדוֹ אֶל־חֵיקוֹ וַיּֽוֹצִאָהּ מֵֽחֵיקוֹ וְהִנֵּה־שָׁבָה כִּבְשָׂרֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "exodus-04-10-10",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Moses said unto the LORD, O my Lord, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of speech, and of a slow tongue.",
+        "riddle": "O my Lord, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of speech, and of a slow tongue.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה בִּי אֲדֹנָי לֹא אִישׁ דְּבָרִים אָנֹכִי גַּם מִתְּמוֹל גַּם מִשִּׁלְשֹׁם גַּם מֵאָז דַּבֶּרְךָ אֶל־עַבְדֶּךָ כִּי כְבַד־פֶּה וּכְבַד לָשׁוֹן אָנֹֽכִי",
+        "riddle": "בִּי אֲדֹנָי לֹא אִישׁ דְּבָרִים אָנֹכִי גַּם מִתְּמוֹל גַּם מִשִּׁלְשֹׁם גַּם מֵאָז דַּבֶּרְךָ אֶל־עַבְדֶּךָ כִּי כְבַד־פֶּה וּכְבַד לָשׁוֹן אָנֹֽכִי",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Moses said unto the LORD, O my Lord, I am not eloquent, neither heretofore, nor since thou hast spoken unto thy servant: but I am slow of speech, and of a slow tongue."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר מֹשֶׁה אֶל־יְהוָה בִּי אֲדֹנָי לֹא אִישׁ דְּבָרִים אָנֹכִי גַּם מִתְּמוֹל גַּם מִשִּׁלְשֹׁם גַּם מֵאָז דַּבֶּרְךָ אֶל־עַבְדֶּךָ כִּי כְבַד־פֶּה וּכְבַד לָשׁוֹן אָנֹֽכִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address/complaint",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "exodus-04-13-13",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send.",
+        "riddle": "O my Lord, send, I pray thee, by the hand of him whom thou wilt send.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר בִּי אֲדֹנָי שְֽׁלַֽח־נָא בְּיַד־תִּשְׁלָֽח",
+        "riddle": "וַיֹּאמֶר בִּי אֲדֹנָי שְֽׁלַֽח־נָא בְּיַד־תִּשְׁלָֽח",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And he said, O my Lord, send, I pray thee, by the hand of him whom thou wilt send."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר בִּי אֲדֹנָי שְֽׁלַֽח־נָא בְּיַד־תִּשְׁלָֽח׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "exodus-04-14-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the anger of the LORD was kindled against Moses, and he said, Is not Aaron the Levite thy brother? I know that he can speak well. And also, behold, he cometh forth to meet thee: and when he seeth thee, he will be glad in his heart.",
+        "riddle": "Is not Aaron the Levite thy brother? I know that he can speak well.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּֽחַר־אַף יְהוָה בְּמֹשֶׁה וַיֹּאמֶר הֲלֹא אַהֲרֹן אָחִיךָ הַלֵּוִי יָדַעְתִּי כִּֽי־דַבֵּר יְדַבֵּר הוּא וְגַם הִנֵּה־הוּא יֹצֵא לִקְרָאתֶךָ וְרָאֲךָ וְשָׂמַח בְּלִבּֽוֹ",
+        "riddle": "וַיֹּאמֶר הֲלֹא אַהֲרֹן אָחִיךָ הַלֵּוִי יָדַעְתִּי כִּֽי־דַבֵּר יְדַבֵּר הוּא וְגַם הִנֵּה־הוּא יֹצֵא לִקְרָאתֶךָ וְרָאֲךָ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the anger of the LORD was kindled against Moses, and he said, Is not Aaron the Levite thy brother? I know that he can speak well. And also, behold, he cometh forth to meet thee: and when he seeth thee, he will be glad in his heart."
+        },
+        "he": {
+          "14": "וַיִּֽחַר־אַף יְהוָה בְּמֹשֶׁה וַיֹּאמֶר הֲלֹא אַהֲרֹן אָחִיךָ הַלֵּוִי יָדַעְתִּי כִּֽי־דַבֵּר יְדַבֵּר הוּא וְגַם הִנֵּה־הוּא יֹצֵא לִקְרָאתֶךָ וְרָאֲךָ וְשָׂמַח בְּלִבּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "exodus-04-18-18",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray thee, and return unto my brethren which are in Egypt, and see whether they be yet alive. And Jethro said to Moses, Go in peace.",
+        "riddle": "Let me go, I pray thee, and return unto my brethren which are in Egypt, and see whether they be yet alive",
+        "speaker": "Moses",
+        "listener": "Jethro",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֵּלֶךְ מֹשֶׁה וַיָּשָׁב אֶל־יֶתֶר חֹֽתְנוֹ וַיֹּאמֶר לוֹ אֵלֲכָה נָּא וְאָשׁוּבָה אֶל־אַחַי אֲשֶׁר־בְּמִצְרַיִם וְאֶרְאֶה הַעוֹדָם חַיִּים וַיֹּאמֶר יִתְרוֹ לְמֹשֶׁה לֵךְ לְשָׁלֽוֹם",
+        "riddle": "אֵלֲכָה נָּא וְאָשׁוּבָה אֶל־אַחַי אֲשֶׁר־בְּמִצְרַיִם וְאֶרְאֶה הַעוֹדָם חַיִּים",
+        "speaker": "מֹשֶׁה",
+        "listener": "יִתְרוֹ",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And Moses went and returned to Jethro his father in law, and said unto him, Let me go, I pray thee, and return unto my brethren which are in Egypt, and see whether they be yet alive. And Jethro said to Moses, Go in peace."
+        },
+        "he": {
+          "18": "וַיֵּלֶךְ מֹשֶׁה וַיָּשָׁב ׀ אֶל־יֶתֶר חֹֽתְנוֹ וַיֹּאמֶר לוֹ אֵלֲכָה נָּא וְאָשׁוּבָה אֶל־אַחַי אֲשֶׁר־בְּמִצְרַיִם וְאֶרְאֶה הַעוֹדָם חַיִּים וַיֹּאמֶר יִתְרוֹ לְמֹשֶׁה לֵךְ לְשָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "exodus-04-19-19",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses in Midian, Go, return into Egypt: for all the men are dead which sought thy life.",
+        "riddle": "Go, return into Egypt: for all the men are dead which sought thy life",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה בְּמִדְיָן לֵךְ שֻׁב מִצְרָיִם כִּי־מֵתוּ כָּל־הָאֲנָשִׁים הַֽמְבַקְשִׁים אֶת־נַפְשֶֽׁךָ",
+        "riddle": "לֵךְ שֻׁב מִצְרָיִם כִּי־מֵתוּ כָּל־הָאֲנָשִׁים הַֽמְבַקְשִׁים אֶת־נַפְשֶֽׁךָ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And the LORD said unto Moses in Midian, Go, return into Egypt: for all the men are dead which sought thy life."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה בְּמִדְיָן לֵךְ שֻׁב מִצְרָיִם כִּי־מֵתוּ כָּל־הָאֲנָשִׁים הַֽמְבַקְשִׁים אֶת־נַפְשֶֽׁךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "exodus-04-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, When thou goest to return into Egypt, see that thou do all those wonders before Pharaoh, which I have put in thine hand: but I will harden his heart, that he shall not let the people go.",
+        "riddle": "When thou goest to return into Egypt, see that thou do all those wonders before Pharaoh, which I have put in thine hand",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה בְּלֶכְתְּךָ לָשׁוּב מִצְרַיְמָה רְאֵה כָּל־הַמֹּֽפְתִים אֲשֶׁר־שַׂמְתִּי בְיָדֶךָ וַעֲשִׂיתָם לִפְנֵי פַרְעֹה וַאֲנִי אֲחַזֵּק אֶת־לִבּוֹ וְלֹא יְשַׁלַּח אֶת־הָעָֽם",
+        "riddle": "בְּלֶכְתְּךָ לָשׁוּב מִצְרַיְמָה רְאֵה כָּל־הַמֹּֽפְתִים אֲשֶׁר־שַׂמְתִּי בְיָדֶךָ וַעֲשִׂיתָם לִפְנֵי פַרְעֹה וַאֲנִי אֲחַזֵּק אֶת־לִבּוֹ וְלֹא יְשַׁלַּח אֶת־הָעָֽם",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the LORD said unto Moses, When thou goest to return into Egypt, see that thou do all those wonders before Pharaoh, which I have put in thine hand: but I will harden his heart, that he shall not let the people go."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה בְּלֶכְתְּךָ לָשׁוּב מִצְרַיְמָה רְאֵה כָּל־הַמֹּֽפְתִים אֲשֶׁר־שַׂמְתִּי בְיָדֶךָ וַעֲשִׂיתָם לִפְנֵי פַרְעֹה וַאֲנִי אֲחַזֵּק אֶת־לִבּוֹ וְלֹא יְשַׁלַּח אֶת־הָעָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "exodus-04-22-22",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And thou shalt say unto Pharaoh, Thus saith the LORD, Israel is my son, even my firstborn:",
+        "riddle": "Israel is my son, even my firstborn",
+        "speaker": "Moses",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְאָמַרְתָּ אֶל־פַּרְעֹה כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵֽל",
+        "riddle": "כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵֽל",
+        "speaker": "מֹשֶׁה",
+        "listener": "פַּרְעֹה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And thou shalt say unto Pharaoh, Thus saith the LORD, Israel is my son, even my firstborn:"
+        },
+        "he": {
+          "22": "וְאָמַרְתָּ אֶל־פַּרְעֹה כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "exodus-04-23-23",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And I say unto thee, Let my son go, that he may serve me: and if thou refuse to let him go, behold, I will slay thy son, even thy firstborn.",
+        "riddle": "Let my son go, that he may serve me: and if thou refuse to let him go, behold, I will slay thy son, even thy firstborn",
+        "speaker": "LORD",
+        "listener": "Pharaoh",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וָאֹמַר אֵלֶיךָ שַׁלַּח אֶת־בְּנִי וְיַֽעַבְדֵנִי וַתְּמָאֵן לְשַׁלְּחוֹ הִנֵּה אָנֹכִי הֹרֵג אֶת־בִּנְךָ בְּכֹרֶֽךָ",
+        "riddle": "וָאֹמַר אֵלֶיךָ שַׁלַּח אֶת־בְּנִי וְיַֽעַבְדֵנִי וַתְּמָאֵן לְשַׁלְּחוֹ הִנֵּה אָנֹכִי הֹרֵג אֶת־בִּנְךָ בְּכֹרֶֽךָ",
+        "speaker": "ה",
+        "listener": "פרעה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And I say unto thee, Let my son go, that he may serve me: and if thou refuse to let him go, behold, I will slay thy son, even thy firstborn."
+        },
+        "he": {
+          "23": "וָאֹמַר אֵלֶיךָ שַׁלַּח אֶת־בְּנִי וְיַֽעַבְדֵנִי וַתְּמָאֵן לְשַׁלְּחוֹ הִנֵּה אָנֹכִי הֹרֵג אֶת־בִּנְךָ בְּכֹרֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "exodus-04-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26
+      },
+      "en": {
+        "quote": "So he let him go: then she said, A bloody husband thou art, because of the circumcision.",
+        "riddle": "A bloody husband thou art, because of the circumcision.",
+        "speaker": "Zipporah",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּרֶף מִמֶּנּוּ אָז אָֽמְרָה חֲתַן דָּמִים לַמּוּלֹֽת",
+        "riddle": "חֲתַן דָּמִים לַמּוּלֹֽת",
+        "speaker": "צִפֹּרָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "So he let him go: then she said, A bloody husband thou art, because of the circumcision."
+        },
+        "he": {
+          "26": "וַיִּרֶף מִמֶּנּוּ אָז אָֽמְרָה חֲתַן דָּמִים לַמּוּלֹֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "exodus-04-27-27",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 4,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And the LORD said to Aaron, Go into the wilderness to meet Moses. And he went, and met him in the mount of God, and kissed him.",
+        "riddle": "Go into the wilderness to meet Moses.",
+        "speaker": "the LORD",
+        "listener": "Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן לֵךְ לִקְרַאת מֹשֶׁה הַמִּדְבָּרָה וַיֵּלֶךְ וַֽיִּפְגְּשֵׁהוּ בְּהַר הָאֱלֹהִים וַיִּשַּׁק־לֽוֹ",
+        "riddle": "לֵךְ לִקְרַאת מֹשֶׁה הַמִּדְבָּרָה וַיֵּלֶךְ וַֽיִּפְגְּשֵׁהוּ בְּהַר הָאֱלֹהִים וַיִּשַּׁק",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And the LORD said to Aaron, Go into the wilderness to meet Moses. And he went, and met him in the mount of God, and kissed him."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר יְהוָה אֶֽל־אַהֲרֹן לֵךְ לִקְרַאת מֹשֶׁה הַמִּדְבָּרָה וַיֵּלֶךְ וַֽיִּפְגְּשֵׁהוּ בְּהַר הָאֱלֹהִים וַיִּשַּׁק־לֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 4,
+        "start": 27,
+        "end": 27
+      }
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 1,
-    "issue_count": 27
+    "llm_window_count": 5,
+    "projection_llm_count": 20,
+    "llm_call_count": 25,
+    "spec_count": 20,
+    "kept_count": 17,
+    "issue_count": 3
   }
 }

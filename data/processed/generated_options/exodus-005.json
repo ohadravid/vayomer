@@ -6,6 +6,387 @@
   "mode": "llm",
   "items": [
     {
+      "id": "exodus-05-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness. And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.",
+        "riddle": "Who is the LORD, that I should obey his voice to let Israel go?",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Joseph"
+          ]
+        },
+        "bonus": "wilderness",
+        "bonus_hint": {
+          "quote": "And afterward the people removed from Hazeroth, and pitched in the wilderness of Paran.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 12,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ",
+        "riddle": "מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "וְאַחַר",
+        "bonus_hint": {
+          "quote": "וְאַחַר נָסְעוּ הָעָם מֵחֲצֵרוֹת וַֽיַּחֲנוּ בְּמִדְבַּר פָּארָֽן",
+          "source": {
+            "book": "במדבר",
+            "chapter": 12,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.",
+          "2": "And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go."
+        },
+        "he": {
+          "1": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר׃",
+          "2": "וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness. And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go. And they said, The God of the Hebrews hath met with us: let us go, we pray thee, three days' journey into the desert, and sacrifice unto the LORD our God; lest he fall upon us with pestilence, or with the sword.",
+        "riddle": "let us go, we pray thee, three days' journey into the desert, and sacrifice unto the LORD our God",
+        "speaker": "Moses and Aaron",
+        "listener": "Pharaoh",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Abimelech"
+          ],
+          "listener": [
+            "Abimelech and Phichol",
+            "Balak",
+            "Joshua"
+          ]
+        },
+        "bonus": "wilderness",
+        "bonus_hint": {
+          "quote": "And afterward the people removed from Hazeroth, and pitched in the wilderness of Paran.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 12,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "he": {
+        "quote": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ וַיֹּאמְרוּ אֱלֹהֵי הָעִבְרִים נִקְרָא עָלֵינוּ נֵלֲכָה נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים בַּמִּדְבָּר וְנִזְבְּחָה לַֽיהוָה אֱלֹהֵינוּ פֶּן־יִפְגָּעֵנוּ בַּדֶּבֶר אוֹ בֶחָֽרֶב",
+        "riddle": "נֵלֲכָה נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים בַּמִּדְבָּר וְנִזְבְּחָה לַֽיהוָה אֱלֹהֵינו",
+        "speaker": "מֹשֶׁה וְאַהֲרֹן",
+        "listener": "פַּרְעֹה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אֲבִימֶלֶךְ"
+          ],
+          "listener": [
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "בָּלָק",
+            "יְהוֹשֻׁעַ"
+          ]
+        },
+        "bonus": "וְאַחַר",
+        "bonus_hint": {
+          "quote": "וְאַחַר נָסְעוּ הָעָם מֵחֲצֵרוֹת וַֽיַּחֲנוּ בְּמִדְבַּר פָּארָֽן",
+          "source": {
+            "book": "במדבר",
+            "chapter": 12,
+            "start": 16,
+            "end": 16
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And afterward Moses and Aaron went in, and told Pharaoh, Thus saith the LORD God of Israel, Let my people go, that they may hold a feast unto me in the wilderness.",
+          "2": "And Pharaoh said, Who is the LORD, that I should obey his voice to let Israel go? I know not the LORD, neither will I let Israel go.",
+          "3": "And they said, The God of the Hebrews hath met with us: let us go, we pray thee, three days' journey into the desert, and sacrifice unto the LORD our God; lest he fall upon us with pestilence, or with the sword."
+        },
+        "he": {
+          "1": "וְאַחַר בָּאוּ מֹשֶׁה וְאַהֲרֹן וַיֹּאמְרוּ אֶל־פַּרְעֹה כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שַׁלַּח אֶת־עַמִּי וְיָחֹגּוּ לִי בַּמִּדְבָּֽר׃",
+          "2": "וַיֹּאמֶר פַּרְעֹה מִי יְהוָה אֲשֶׁר אֶשְׁמַע בְּקֹלוֹ לְשַׁלַּח אֶת־יִשְׂרָאֵל לֹא יָדַעְתִּי אֶת־יְהוָה וְגַם אֶת־יִשְׂרָאֵל לֹא אֲשַׁלֵּֽחַ׃",
+          "3": "וַיֹּאמְרוּ אֱלֹהֵי הָעִבְרִים נִקְרָא עָלֵינוּ נֵלֲכָה נָּא דֶּרֶךְ שְׁלֹשֶׁת יָמִים בַּמִּדְבָּר וְנִזְבְּחָה לַֽיהוָה אֱלֹהֵינוּ פֶּן־יִפְגָּעֵנוּ בַּדֶּבֶר אוֹ בֶחָֽרֶב׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens. And Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their burdens.",
+        "riddle": "Behold, the people of the land now are many, and ye make them rest from their burdens.",
+        "speaker": "Pharaoh",
+        "listener": "Moses and Aaron",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Joshua",
+            "Joseph"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Abimelech and Phichol"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "Whereupon the king took counsel, and made two calves of gold, and said unto them, It is too much for you to go up to Jerusalem: behold thy gods, O Israel, which brought thee up out of the land of Egypt.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 12,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם מֶלֶךְ מִצְרַיִם לָמָּה מֹשֶׁה וְאַהֲרֹן תַּפְרִיעוּ אֶת־הָעָם מִמַּֽעֲשָׂיו לְכוּ לְסִבְלֹתֵיכֶֽם וַיֹּאמֶר פַּרְעֹה הֵן־רַבִּים עַתָּה עַם הָאָרֶץ וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָֽם",
+        "riddle": "הֵן־רַבִּים עַתָּה עַם הָאָרֶץ וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָֽם",
+        "speaker": "פַּרְעֹה",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "יְהוֹשֻׁעַ",
+            "יוֹסֵף"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אֲבִימֶלֶךְ וּפִיכֹל"
+          ]
+        },
+        "bonus": "אֲלֵהֶם",
+        "bonus_hint": {
+          "quote": "וַיִּוָּעַץ הַמֶּלֶךְ וַיַּעַשׂ שְׁנֵי עֶגְלֵי זָהָב וַיֹּאמֶר אֲלֵהֶם רַב־לָכֶם מֵעֲלוֹת יְרוּשָׁלִַם הִנֵּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 12,
+            "start": 28,
+            "end": 28
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And the king of Egypt said unto them, Wherefore do ye, Moses and Aaron, let the people from their works? get you unto your burdens.",
+          "5": "And Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their burdens."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר אֲלֵהֶם מֶלֶךְ מִצְרַיִם לָמָּה מֹשֶׁה וְאַהֲרֹן תַּפְרִיעוּ אֶת־הָעָם מִמַּֽעֲשָׂיו לְכוּ לְסִבְלֹתֵיכֶֽם׃",
+          "5": "וַיֹּאמֶר פַּרְעֹה הֵן־רַבִּים עַתָּה עַם הָאָרֶץ וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 5,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their burdens. And Pharaoh commanded the same day the taskmasters of the people, and their officers, saying, Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves. And the tale of the bricks, which they did make heretofore, ye shall lay upon them; ye shall not diminish ought thereof: for they be idle; therefore they cry, saying, Let us go and sacrifice to our God.",
+        "riddle": "Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves.",
+        "speaker": "Pharaoh",
+        "listener": "Taskmasters",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Balaam",
+            "Philistines"
+          ],
+          "listener": [
+            "Israelites",
+            "servants",
+            "Philistines"
+          ]
+        },
+        "bonus": "bricks",
+        "bonus_hint": {
+          "quote": "The bricks are fallen down, but we will build with hewn stones: the sycomores are cut down, but we will change them into cedars.",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר פַּרְעֹה הֵן־רַבִּים עַתָּה עַם הָאָרֶץ וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָֽם וַיְצַו פַּרְעֹה בַּיּוֹם הַהוּא אֶת־הַנֹּגְשִׂים בָּעָם וְאֶת־שֹׁטְרָיו לֵאמֹֽר לֹא תֹאסִפוּן לָתֵת תֶּבֶן לָעָם לִלְבֹּן הַלְּבֵנִים כִּתְמוֹל שִׁלְשֹׁם הֵם יֵֽלְכוּ וְקֹשְׁשׁוּ לָהֶם תֶּֽבֶן וְאֶת־מַתְכֹּנֶת הַלְּבֵנִים אֲשֶׁר הֵם עֹשִׂים תְּמוֹל שִׁלְשֹׁם תָּשִׂימוּ עֲלֵיהֶם לֹא תִגְרְעוּ מִמֶּנּוּ כִּֽי־נִרְפִּים הֵם עַל־כֵּן הֵם צֹֽעֲקִים לֵאמֹר נֵלְכָה נִזְבְּחָה לֵאלֹהֵֽינוּ",
+        "riddle": "לֹא תֹאסִפוּן לָתֵת תֶּבֶן לָעָם לִלְבֹּן הַלְּבֵנִים כִּתְמוֹל שִׁלְשֹׁם הֵם יֵֽלְכוּ וְקֹשְׁשׁוּ לָהֶם תֶּֽבֶן",
+        "speaker": "פַּרְעֹה",
+        "listener": "הַנֹּגְשִׂים",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "עֲבָדָיו",
+            "פְּלִשְׁתִּים"
+          ]
+        },
+        "bonus": "וְאֶת",
+        "bonus_hint": {
+          "quote": "וַיְשַׂגֵּב יְהוָה אֶת־צָרֵי רְצִין עָלָיו וְאֶת־אֹיְבָיו יְסַכְסֵֽךְ",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 9,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And Pharaoh said, Behold, the people of the land now are many, and ye make them rest from their burdens.",
+          "6": "And Pharaoh commanded the same day the taskmasters of the people, and their officers, saying,",
+          "7": "Ye shall no more give the people straw to make brick, as heretofore: let them go and gather straw for themselves.",
+          "8": "And the tale of the bricks, which they did make heretofore, ye shall lay upon them; ye shall not diminish ought thereof: for they be idle; therefore they cry, saying, Let us go and sacrifice to our God."
+        },
+        "he": {
+          "5": "וַיֹּאמֶר פַּרְעֹה הֵן־רַבִּים עַתָּה עַם הָאָרֶץ וְהִשְׁבַּתֶּם אֹתָם מִסִּבְלֹתָֽם׃",
+          "6": "וַיְצַו פַּרְעֹה בַּיּוֹם הַהוּא אֶת־הַנֹּגְשִׂים בָּעָם וְאֶת־שֹׁטְרָיו לֵאמֹֽר׃",
+          "7": "לֹא תֹאסִפוּן לָתֵת תֶּבֶן לָעָם לִלְבֹּן הַלְּבֵנִים כִּתְמוֹל שִׁלְשֹׁם הֵם יֵֽלְכוּ וְקֹשְׁשׁוּ לָהֶם תֶּֽבֶן׃",
+          "8": "וְאֶת־מַתְכֹּנֶת הַלְּבֵנִים אֲשֶׁר הֵם עֹשִׂים תְּמוֹל שִׁלְשֹׁם תָּשִׂימוּ עֲלֵיהֶם לֹא תִגְרְעוּ מִמֶּנּוּ כִּֽי־נִרְפִּים הֵם עַל־כֵּן הֵם צֹֽעֲקִים לֵאמֹר נֵלְכָה נִזְבְּחָה לֵאלֹהֵֽינוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 5,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "exodus-05-15-15",
       "source": {
         "method": "llm",
@@ -14,24 +395,25 @@
         "book_he": "שמות",
         "chapter": 5,
         "quote_verse_start": 9,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "listener_mention_verse": 15
       },
       "en": {
         "quote": "Let there more work be laid upon the men, that they may labour therein; and let them not regard vain words. And the taskmasters of the people went out, and their officers, and they spake to the people, saying, Thus saith Pharaoh, I will not give you straw. Go ye, get you straw where ye can find it: yet not ought of your work shall be diminished. So the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw. And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw. And the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore? Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
         "riddle": "Wherefore dealest thou thus with thy servants?",
-        "speaker": "Israelite officers",
+        "speaker": "officers of Israel",
         "listener": "Pharaoh",
         "book": "Exodus",
         "options": {
           "speaker": [
-            "Israel",
-            "Children of Israel",
+            "elders of Israel",
+            "Israelites",
             "Philistines"
           ],
           "listener": [
+            "Abimelech and Phichol",
             "Balak",
-            "Abimelech",
-            "Balaam"
+            "Joseph"
           ]
         },
         "bonus": "labour",
@@ -53,14 +435,14 @@
         "book": "שמות",
         "options": {
           "speaker": [
-            "יִשְׂרָאֵל",
+            "זִקְנֵי יִשְׂרָאֵל",
             "בְּנֵי יִשְׂרָאֵל",
-            "פְּלִשְׁתִּֽים"
+            "פְּלִשְׁתִּים"
           ],
           "listener": [
-            "בָלָק",
-            "אֲבִימֶלֶךְ",
-            "בִּלְעָם"
+            "אֲבִימֶלֶךְ וּפִיכֹל",
+            "בָּלָק",
+            "יוֹסֵף"
           ]
         },
         "bonus": "הָעָם",
@@ -98,6 +480,504 @@
         "chapter": 5,
         "start": 9,
         "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 10,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And the taskmasters of the people went out, and their officers, and they spake to the people, saying, Thus saith Pharaoh, I will not give you straw. Go ye, get you straw where ye can find it: yet not ought of your work shall be diminished. So the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw. And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw.",
+        "riddle": "Fulfil your works, your daily tasks, as when there was straw.",
+        "speaker": "taskmasters",
+        "listener": "people",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "servants",
+            "shepherds",
+            "Philistines"
+          ],
+          "listener": [
+            "children",
+            "Philistines",
+            "congregation"
+          ]
+        },
+        "bonus": "Pharaoh",
+        "bonus_hint": {
+          "quote": "And thou shalt say unto Pharaoh, Thus saith the LORD, Israel is my son, even my firstborn:",
+          "source": {
+            "book": "Exodus",
+            "chapter": 4,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֵּצְאוּ נֹגְשֵׂי הָעָם וְשֹׁטְרָיו וַיֹּאמְרוּ אֶל־הָעָם לֵאמֹר כֹּה אָמַר פַּרְעֹה אֵינֶנִּי נֹתֵן לָכֶם תֶּֽבֶן אַתֶּם לְכוּ קְחוּ לָכֶם תֶּבֶן מֵאֲשֶׁר תִּמְצָאוּ כִּי אֵין נִגְרָע מֵעֲבֹדַתְכֶם דָּבָֽר וַיָּפֶץ הָעָם בְּכָל־אֶרֶץ מִצְרָיִם לְקֹשֵׁשׁ קַשׁ לַתֶּֽבֶן וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן",
+        "riddle": "כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן",
+        "speaker": "הַנֹּגְשִׂים",
+        "listener": "הָעָם",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "עֲבָדָיו",
+            "הרועים",
+            "פְּלִשְׁתִּים"
+          ],
+          "listener": [
+            "בְּנֵיכֶם",
+            "פְּלִשְׁתִּים",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "כֹּה",
+        "bonus_hint": {
+          "quote": "וְאָמַרְתָּ אֶל־פַּרְעֹה כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵֽל",
+          "source": {
+            "book": "שמות",
+            "chapter": 4,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the taskmasters of the people went out, and their officers, and they spake to the people, saying, Thus saith Pharaoh, I will not give you straw.",
+          "11": "Go ye, get you straw where ye can find it: yet not ought of your work shall be diminished.",
+          "12": "So the people were scattered abroad throughout all the land of Egypt to gather stubble instead of straw.",
+          "13": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw."
+        },
+        "he": {
+          "10": "וַיֵּצְאוּ נֹגְשֵׂי הָעָם וְשֹׁטְרָיו וַיֹּאמְרוּ אֶל־הָעָם לֵאמֹר כֹּה אָמַר פַּרְעֹה אֵינֶנִּי נֹתֵן לָכֶם תֶּֽבֶן׃",
+          "11": "אַתֶּם לְכוּ קְחוּ לָכֶם תֶּבֶן מֵאֲשֶׁר תִּמְצָאוּ כִּי אֵין נִגְרָע מֵעֲבֹדַתְכֶם דָּבָֽר׃",
+          "12": "וַיָּפֶץ הָעָם בְּכָל־אֶרֶץ מִצְרָיִם לְקֹשֵׁשׁ קַשׁ לַתֶּֽבֶן׃",
+          "13": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 10,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-17-17",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 17
+      },
+      "en": {
+        "quote": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw. And the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore? Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants? There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people. But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD. Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks. And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task.",
+        "riddle": "Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD.",
+        "speaker": "Pharaoh",
+        "listener": "Israelites",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Balaam",
+            "Joash"
+          ],
+          "listener": [
+            "people",
+            "congregation",
+            "Korah and his company"
+          ]
+        },
+        "bonus": "daily",
+        "bonus_hint": {
+          "quote": "And his allowance was a continual allowance given him of the king, a daily rate for every day, all the days of his life.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 25,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן וַיֻּכּוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל אֲשֶׁר־שָׂמוּ עֲלֵהֶם נֹגְשֵׂי פַרְעֹה לֵאמֹר מַדּוּעַ לֹא כִלִּיתֶם חָקְכֶם לִלְבֹּן כִּתְמוֹל שִׁלְשֹׁם גַּם־תְּמוֹל גַּם־הַיּֽוֹם וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ",
+        "riddle": "נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהו",
+        "speaker": "פַרְעֹה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
+            "יוֹאָשׁ"
+          ],
+          "listener": [
+            "הָעָם",
+            "הָעֵדָה",
+            "קֹרַח ועדתו"
+          ]
+        },
+        "bonus": "דְּבַר",
+        "bonus_hint": {
+          "quote": "וַאֲרֻחָתוֹ אֲרֻחַת תָּמִיד נִתְּנָה־לּוֹ מֵאֵת הַמֶּלֶךְ דְּבַר־יוֹם בְּיוֹמוֹ כֹּל יְמֵי חַיָּֽו",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 25,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw.",
+          "14": "And the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore?",
+          "15": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
+          "16": "There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people.",
+          "17": "But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD.",
+          "18": "Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks.",
+          "19": "And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task."
+        },
+        "he": {
+          "13": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן׃",
+          "14": "וַיֻּכּוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל אֲשֶׁר־שָׂמוּ עֲלֵהֶם נֹגְשֵׂי פַרְעֹה לֵאמֹר מַדּוּעַ לֹא כִלִּיתֶם חָקְכֶם לִלְבֹּן כִּתְמוֹל שִׁלְשֹׁם גַּם־תְּמוֹל גַּם־הַיּֽוֹם׃",
+          "15": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ׃",
+          "16": "תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ׃",
+          "17": "וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה׃",
+          "18": "וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ׃",
+          "19": "וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-18-18",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 13,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 18
+      },
+      "en": {
+        "quote": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw. And the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore? Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants? There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people. But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD. Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks. And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task.",
+        "riddle": "Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks.",
+        "speaker": "Pharaoh",
+        "listener": "Israelite officers",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Abimelech",
+            "Balaam",
+            "Joash"
+          ],
+          "listener": [
+            "Israelites",
+            "elders of Israel",
+            "Taskmasters"
+          ]
+        },
+        "bonus": "daily",
+        "bonus_hint": {
+          "quote": "And his allowance was a continual allowance given him of the king, a daily rate for every day, all the days of his life.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 25,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "he": {
+        "quote": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן וַיֻּכּוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל אֲשֶׁר־שָׂמוּ עֲלֵהֶם נֹגְשֵׂי פַרְעֹה לֵאמֹר מַדּוּעַ לֹא כִלִּיתֶם חָקְכֶם לִלְבֹּן כִּתְמוֹל שִׁלְשֹׁם גַּם־תְּמוֹל גַּם־הַיּֽוֹם וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ",
+        "riddle": "וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ",
+        "speaker": "פַרְעֹה",
+        "listener": "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "אֲבִימֶלֶךְ",
+            "בִּלְעָם",
+            "יוֹאָשׁ"
+          ],
+          "listener": [
+            "בְּנֵי יִשְׂרָאֵל",
+            "זִקְנֵי יִשְׂרָאֵל",
+            "הַנֹּגְשִׂים"
+          ]
+        },
+        "bonus": "דְּבַר",
+        "bonus_hint": {
+          "quote": "וַאֲרֻחָתוֹ אֲרֻחַת תָּמִיד נִתְּנָה־לּוֹ מֵאֵת הַמֶּלֶךְ דְּבַר־יוֹם בְּיוֹמוֹ כֹּל יְמֵי חַיָּֽו",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 25,
+            "start": 30,
+            "end": 30
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the taskmasters hasted them, saying, Fulfil your works, your daily tasks, as when there was straw.",
+          "14": "And the officers of the children of Israel, which Pharaoh's taskmasters had set over them, were beaten, and demanded, Wherefore have ye not fulfilled your task in making brick both yesterday and to day, as heretofore?",
+          "15": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
+          "16": "There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people.",
+          "17": "But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD.",
+          "18": "Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks.",
+          "19": "And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task."
+        },
+        "he": {
+          "13": "וְהַנֹּגְשִׂים אָצִים לֵאמֹר כַּלּוּ מַעֲשֵׂיכֶם דְּבַר־יוֹם בְּיוֹמוֹ כַּאֲשֶׁר בִּהְיוֹת הַתֶּֽבֶן׃",
+          "14": "וַיֻּכּוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל אֲשֶׁר־שָׂמוּ עֲלֵהֶם נֹגְשֵׂי פַרְעֹה לֵאמֹר מַדּוּעַ לֹא כִלִּיתֶם חָקְכֶם לִלְבֹּן כִּתְמוֹל שִׁלְשֹׁם גַּם־תְּמוֹל גַּם־הַיּֽוֹם׃",
+          "15": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ׃",
+          "16": "תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ׃",
+          "17": "וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה׃",
+          "18": "וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ׃",
+          "19": "וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 13,
+        "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants? There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people. But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD. Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks. And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task. And they met Moses and Aaron, who stood in the way, as they came forth from Pharaoh: And they said unto them, The LORD look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us.",
+        "riddle": "The LORD look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh",
+        "speaker": "Israelite officers",
+        "listener": "Moses and Aaron",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "people",
+            "Taskmasters",
+            "elders of Israel"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Joseph"
+          ]
+        },
+        "bonus": "straw",
+        "bonus_hint": {
+          "quote": "She said moreover unto him, We have both straw and provender enough, and room to lodge in.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 24,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ וַֽיִּפְגְּעוּ אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן נִצָּבִים לִקְרָאתָם בְּצֵאתָם מֵאֵת פַּרְעֹֽה וַיֹּאמְרוּ אֲלֵהֶם יֵרֶא יְהוָה עֲלֵיכֶם וְיִשְׁפֹּט אֲשֶׁר הִבְאַשְׁתֶּם אֶת־רֵיחֵנוּ בְּעֵינֵי פַרְעֹה וּבְעֵינֵי עֲבָדָיו לָֽתֶת־חֶרֶב בְּיָדָם לְהָרְגֵֽנוּ",
+        "riddle": "יֵרֶא יְהוָה עֲלֵיכֶם וְיִשְׁפֹּט אֲשֶׁר הִבְאַשְׁתֶּם אֶת־רֵיחֵנוּ בְּעֵינֵי פַרְעֹה וּבְעֵינֵי עֲבָדָיו לָֽתֶת־חֶרֶב בְּיָדָם לְהָרְגֵֽנו",
+        "speaker": "שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל",
+        "listener": "מֹשֶׁה וְאַהֲרֹן",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "הָעָם",
+            "הַנֹּגְשִׂים",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "תֶּבֶן",
+        "bonus_hint": {
+          "quote": "וַתֹּאמֶר אֵלָיו גַּם־תֶּבֶן גַּם־מִסְפּוֹא רַב עִמָּנוּ גַּם־מָקוֹם לָלֽוּן",
+          "source": {
+            "book": "בראשית",
+            "chapter": 24,
+            "start": 25,
+            "end": 25
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Then the officers of the children of Israel came and cried unto Pharaoh, saying, Wherefore dealest thou thus with thy servants?",
+          "16": "There is no straw given unto thy servants, and they say to us, Make brick: and, behold, thy servants are beaten; but the fault is in thine own people.",
+          "17": "But he said, Ye are idle, ye are idle: therefore ye say, Let us go and do sacrifice to the LORD.",
+          "18": "Go therefore now, and work; for there shall no straw be given you, yet shall ye deliver the tale of bricks.",
+          "19": "And the officers of the children of Israel did see that they were in evil case, after it was said, Ye shall not minish ought from your bricks of your daily task.",
+          "20": "And they met Moses and Aaron, who stood in the way, as they came forth from Pharaoh:",
+          "21": "And they said unto them, The LORD look upon you, and judge; because ye have made our savour to be abhorred in the eyes of Pharaoh, and in the eyes of his servants, to put a sword in their hand to slay us."
+        },
+        "he": {
+          "15": "וַיָּבֹאוּ שֹֽׁטְרֵי בְּנֵי יִשְׂרָאֵל וַיִּצְעֲקוּ אֶל־פַּרְעֹה לֵאמֹר לָמָּה תַעֲשֶׂה כֹה לַעֲבָדֶֽיךָ׃",
+          "16": "תֶּבֶן אֵין נִתָּן לַעֲבָדֶיךָ וּלְבֵנִים אֹמְרִים לָנוּ עֲשׂוּ וְהִנֵּה עֲבָדֶיךָ מֻכִּים וְחָטָאת עַמֶּֽךָ׃",
+          "17": "וַיֹּאמֶר נִרְפִּים אַתֶּם נִרְפִּים עַל־כֵּן אַתֶּם אֹֽמְרִים נֵלְכָה נִזְבְּחָה לַֽיהוָֽה׃",
+          "18": "וְעַתָּה לְכוּ עִבְדוּ וְתֶבֶן לֹא־יִנָּתֵן לָכֶם וְתֹכֶן לְבֵנִים תִּתֵּֽנּוּ׃",
+          "19": "וַיִּרְאוּ שֹֽׁטְרֵי בְנֵֽי־יִשְׂרָאֵל אֹתָם בְּרָע לֵאמֹר לֹא־תִגְרְעוּ מִלִּבְנֵיכֶם דְּבַר־יוֹם בְּיוֹמֽוֹ׃",
+          "20": "וַֽיִּפְגְּעוּ אֶת־מֹשֶׁה וְאֶֽת־אַהֲרֹן נִצָּבִים לִקְרָאתָם בְּצֵאתָם מֵאֵת פַּרְעֹֽה׃",
+          "21": "וַיֹּאמְרוּ אֲלֵהֶם יֵרֶא יְהוָה עֲלֵיכֶם וְיִשְׁפֹּט אֲשֶׁר הִבְאַשְׁתֶּם אֶת־רֵיחֵנוּ בְּעֵינֵי פַרְעֹה וּבְעֵינֵי עֲבָדָיו לָֽתֶת־חֶרֶב בְּיָדָם לְהָרְגֵֽנוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "exodus-05-22-22",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 5,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Moses returned unto the LORD, and said, Lord, wherefore hast thou so evil entreated this people? why is it that thou hast sent me?",
+        "riddle": "wherefore hast thou so evil entreated this people? why is it that thou hast sent me?",
+        "speaker": "Moses",
+        "listener": "LORD",
+        "book": "Exodus",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Pharaoh",
+            "Aaron"
+          ],
+          "listener": [
+            "Balaam",
+            "Pharaoh",
+            "Israel"
+          ]
+        },
+        "bonus": "returned",
+        "bonus_hint": {
+          "quote": "So Abraham returned unto his young men, and they rose up and went together to Beer-sheba; and Abraham dwelt at Beer-sheba.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 22,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּשָׁב מֹשֶׁה אֶל־יְהוָה וַיֹּאמַר אֲדֹנָי לָמָה הֲרֵעֹתָה לָעָם הַזֶּה לָמָּה זֶּה שְׁלַחְתָּֽנִי",
+        "riddle": "לָמָה הֲרֵעֹתָה לָעָם הַזֶּה לָמָּה זֶּה שְׁלַחְתָּֽנִי",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "פַרְעֹה",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "בִּלְעָם",
+            "פַרְעֹה",
+            "יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "וַיָּשָׁב",
+        "bonus_hint": {
+          "quote": "וַיָּשָׁב אַבְרָהָם אֶל־נְעָרָיו וַיָּקֻמוּ וַיֵּלְכוּ יַחְדָּו אֶל־בְּאֵר שָׁבַע וַיֵּשֶׁב אַבְרָהָם בִּבְאֵר שָֽׁבַע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 22,
+            "start": 19,
+            "end": 19
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Moses returned unto the LORD, and said, Lord, wherefore hast thou so evil entreated this people? why is it that thou hast sent me?"
+        },
+        "he": {
+          "22": "וַיָּשָׁב מֹשֶׁה אֶל־יְהוָה וַיֹּאמַר אֲדֹנָי לָמָה הֲרֵעֹתָה לָעָם הַזֶּה לָמָּה זֶּה שְׁלַחְתָּֽנִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 22,
+        "end": 22
       },
       "meta": {
         "mode": "llm",

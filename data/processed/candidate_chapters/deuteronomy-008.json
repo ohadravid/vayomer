@@ -4,12 +4,58 @@
   "book_he": "דברים",
   "chapter": 8,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-08-17-17",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 8,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17
+      },
+      "en": {
+        "quote": "And thou say in thine heart, My power and the might of mine hand hath gotten me this wealth.",
+        "riddle": "My power and the might of mine hand hath gotten me this wealth",
+        "speaker": "you",
+        "listener": "you",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְאָמַרְתָּ בִּלְבָבֶךָ כֹּחִי וְעֹצֶם יָדִי עָשָׂה לִי אֶת־הַחַיִל הַזֶּֽה",
+        "riddle": "כֹּחִי וְעֹצֶם יָדִי עָשָׂה לִי אֶת־הַחַיִל הַזֶּֽה",
+        "speaker": "אתה",
+        "listener": "אתה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And thou say in thine heart, My power and the might of mine hand hath gotten me this wealth."
+        },
+        "he": {
+          "17": "וְאָמַרְתָּ בִּלְבָבֶךָ כֹּחִי וְעֹצֶם יָדִי עָשָׂה לִי אֶת־הַחַיִל הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "internal declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 17,
+        "end": 17
+      }
+    }
+  ],
   "stats": {
-    "window_count": 2,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 2,
-    "kept_count": 0,
-    "issue_count": 2
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

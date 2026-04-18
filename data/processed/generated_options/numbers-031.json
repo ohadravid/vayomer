@@ -6,6 +6,193 @@
   "mode": "llm",
   "items": [
     {
+      "id": "numbers-31-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Avenge the children of Israel of the Midianites: afterward shalt thou be gathered unto thy people. And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian.",
+        "riddle": "Avenge the children of Israel of the Midianites: afterward shalt thou be gathered unto thy people.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Balak"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Balak"
+          ]
+        },
+        "bonus": "war",
+        "bonus_hint": {
+          "quote": "And he set captains of war over the people, and gathered them together to him in the street of the gate of the city, and spake comfortably to them, saying,",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 32,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר נְקֹם נִקְמַת בְּנֵי יִשְׂרָאֵל מֵאֵת הַמִּדְיָנִים אַחַר תֵּאָסֵף אֶל־עַמֶּֽיךָ וַיְדַבֵּר מֹשֶׁה אֶל־הָעָם לֵאמֹר הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא וְיִהְיוּ עַל־מִדְיָן לָתֵת נִקְמַת־יְהוָה בְּמִדְיָֽן",
+        "riddle": "נְקֹם נִקְמַת בְּנֵי יִשְׂרָאֵל מֵאֵת הַמִּדְיָנִים אַחַר תֵּאָסֵף אֶל־עַמֶּֽיךָ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "בָּלָק"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיִּתֵּן שָׂרֵי מִלְחָמוֹת עַל־הָעָם וַיִּקְבְּצֵם אֵלָיו אֶל־רְחוֹב שַׁעַר הָעִיר וַיְדַבֵּר עַל־לְבָבָם לֵאמֹֽר",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 32,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Avenge the children of Israel of the Midianites: afterward shalt thou be gathered unto thy people.",
+          "3": "And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "נְקֹם נִקְמַת בְּנֵי יִשְׂרָאֵל מֵאֵת הַמִּדְיָנִים אַחַר תֵּאָסֵף אֶל־עַמֶּֽיךָ׃",
+          "3": "וַיְדַבֵּר מֹשֶׁה אֶל־הָעָם לֵאמֹר הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא וְיִהְיוּ עַל־מִדְיָן לָתֵת נִקְמַת־יְהוָה בְּמִדְיָֽן׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-31-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian. Of every tribe a thousand, throughout all the tribes of Israel, shall ye send to the war.",
+        "riddle": "Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian.",
+        "speaker": "Moses",
+        "listener": "people",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Aaron"
+          ],
+          "listener": [
+            "Reuben and Gad",
+            "congregation",
+            "Kenites"
+          ]
+        },
+        "bonus": "tribe",
+        "bonus_hint": {
+          "quote": "Those that were numbered of them, even of the tribe of Reuben, were forty and six thousand and five hundred.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 1,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר מֹשֶׁה אֶל־הָעָם לֵאמֹר הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא וְיִהְיוּ עַל־מִדְיָן לָתֵת נִקְמַת־יְהוָה בְּמִדְיָֽן אֶלֶף לַמַּטֶּה אֶלֶף לַמַּטֶּה לְכֹל מַטּוֹת יִשְׂרָאֵל תִּשְׁלְחוּ לַצָּבָֽא",
+        "riddle": "הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא וְיִהְיוּ עַל־מִדְיָן לָתֵת נִקְמַת־יְהוָה בְּמִדְיָֽן",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "בְּנֵי רְאוּבֵן וגד",
+            "הָעֵדָה",
+            "הַקֵּינִי"
+          ]
+        },
+        "bonus": "אֶלֶף",
+        "bonus_hint": {
+          "quote": "פְּקֻדֵיהֶם לְמַטֵּה רְאוּבֵן שִׁשָּׁה וְאַרְבָּעִים אֶלֶף וַחֲמֵשׁ מֵאֽוֹת",
+          "source": {
+            "book": "במדבר",
+            "chapter": 1,
+            "start": 21,
+            "end": 21
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Moses spake unto the people, saying, Arm some of yourselves unto the war, and let them go against the Midianites, and avenge the LORD of Midian.",
+          "4": "Of every tribe a thousand, throughout all the tribes of Israel, shall ye send to the war."
+        },
+        "he": {
+          "3": "וַיְדַבֵּר מֹשֶׁה אֶל־הָעָם לֵאמֹר הֵחָלְצוּ מֵאִתְּכֶם אֲנָשִׁים לַצָּבָא וְיִהְיוּ עַל־מִדְיָן לָתֵת נִקְמַת־יְהוָה בְּמִדְיָֽן׃",
+          "4": "אֶלֶף לַמַּטֶּה אֶלֶף לַמַּטֶּה לְכֹל מַטּוֹת יִשְׂרָאֵל תִּשְׁלְחוּ לַצָּבָֽא׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "numbers-31-15-15",
       "source": {
         "method": "llm",
@@ -14,34 +201,36 @@
         "book_he": "במדבר",
         "chapter": 31,
         "quote_verse_start": 14,
-        "quote_verse_end": 15
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
       },
       "en": {
         "quote": "And Moses was wroth with the officers of the host, with the captains over thousands, and captains over hundreds, which came from the battle. And Moses said unto them, Have ye saved all the women alive?",
         "riddle": "Have ye saved all the women alive?",
         "speaker": "Moses",
-        "listener": "Captains",
+        "listener": "officers of the host",
         "book": "Numbers",
         "options": {
           "speaker": [
             "Balaam",
-            "Joshua",
-            "Samuel"
+            "Aaron",
+            "Joshua"
           ],
           "listener": [
             "Joshua",
-            "Balaam",
-            "David"
+            "people",
+            "Balak"
           ]
         },
-        "bonus": "wroth",
+        "bonus": "captains",
         "bonus_hint": {
-          "quote": "And Pharaoh was wroth against two of his officers, against the chief of the butlers, and against the chief of the bakers.",
+          "quote": "Then Jehoiada the priest brought out the captains of hundreds that were set over the host, and said unto them, Have her forth of the ranges: and whoso followeth her, let him be slain with the sword. For the priest said, Slay her not in the house of the LORD.",
           "source": {
-            "book": "Genesis",
-            "chapter": 40,
-            "start": 2,
-            "end": 2
+            "book": "2 Chronicles",
+            "chapter": 23,
+            "start": 14,
+            "end": 14
           }
         }
       },
@@ -54,23 +243,23 @@
         "options": {
           "speaker": [
             "בִּלְעָם",
-            "יִהוֹשֻֽׁעַ",
-            "שְׁמוּאֵל"
+            "אַהֲרֹן",
+            "יְהוֹשֻׁעַ"
           ],
           "listener": [
-            "יִהוֹשֻֽׁעַ",
-            "בִּלְעָם",
-            "דָּוִד"
+            "יְהוֹשֻׁעַ",
+            "הָעָם",
+            "בָּלָק"
           ]
         },
-        "bonus": "וַיִּקְצֹף",
+        "bonus": "פְּקוּדֵי",
         "bonus_hint": {
-          "quote": "וַיִּקְצֹף פַּרְעֹה עַל שְׁנֵי סָרִיסָיו עַל שַׂר הַמַּשְׁקִים וְעַל שַׂר הָאוֹפִֽים",
+          "quote": "וַיּוֹצֵא יְהוֹיָדָע הַכֹּהֵן אֶת־שָׂרֵי הַמֵּאוֹת פְּקוּדֵי הַחַיִל וַיֹּאמֶר אֲלֵהֶם הֽוֹצִיאוּהָ אֶל־מִבֵּית הַשְּׂדֵרוֹת וְהַבָּא אַחֲרֶיהָ יוּמַת בֶּחָרֶב כִּי אָמַר הַכֹּהֵן לֹא תְמִיתוּהָ בֵּית יְהוָֽה",
           "source": {
-            "book": "בראשית",
-            "chapter": 40,
-            "start": 2,
-            "end": 2
+            "book": "דברי הימים ב",
+            "chapter": 23,
+            "start": 14,
+            "end": 14
           }
         }
       },
@@ -88,6 +277,296 @@
         "chapter": 31,
         "start": 14,
         "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-31-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Eleazar the priest said unto the men of war which went to the battle, This is the ordinance of the law which the LORD commanded Moses;",
+        "riddle": "This is the ordinance of the law which the LORD commanded Moses",
+        "speaker": "Eleazar the priest",
+        "listener": "men of war",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Aaron",
+            "Balaam",
+            "Joshua"
+          ],
+          "listener": [
+            "Israel",
+            "Korah and his company",
+            "Reuben and Gad"
+          ]
+        },
+        "bonus": "battle",
+        "bonus_hint": {
+          "quote": "And they turned and went up by the way of Bashan: and Og the king of Bashan went out against them, he, and all his people, to the battle at Edrei.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 21,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶלְעָזָר הַכֹּהֵן אֶל־אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה זֹאת חֻקַּת הַתּוֹרָה אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "riddle": "חֻקַּת הַתּוֹרָה אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+        "speaker": "אֶלְעָזָר הַכֹּהֵן",
+        "listener": "אַנְשֵׁי הַצָּבָא",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן",
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "קֹרַח ועדתו",
+            "בְּנֵי רְאוּבֵן וגד"
+          ]
+        },
+        "bonus": "לַמִּלְחָמָה",
+        "bonus_hint": {
+          "quote": "וַיִּפְנוּ וַֽיַּעֲלוּ דֶּרֶךְ הַבָּשָׁן וַיֵּצֵא עוֹג מֶֽלֶךְ־הַבָּשָׁן לִקְרָאתָם הוּא וְכָל־עַמּוֹ לַמִּלְחָמָה אֶדְרֶֽעִי",
+          "source": {
+            "book": "במדבר",
+            "chapter": 21,
+            "start": 33,
+            "end": 33
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Eleazar the priest said unto the men of war which went to the battle, This is the ordinance of the law which the LORD commanded Moses;"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֶלְעָזָר הַכֹּהֵן אֶל־אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה זֹאת חֻקַּת הַתּוֹרָה אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 21,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-31-24-24",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 21,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And Eleazar the priest said unto the men of war which went to the battle, This is the ordinance of the law which the LORD commanded Moses; Only the gold, and the silver, the brass, the iron, the tin, and the lead, Every thing that may abide the fire, ye shall make it go through the fire, and it shall be clean: nevertheless it shall be purified with the water of separation: and all that abideth not the fire ye shall make go through the water. And ye shall wash your clothes on the seventh day, and ye shall be clean, and afterward ye shall come into the camp.",
+        "riddle": "And ye shall wash your clothes on the seventh day, and ye shall be clean, and afterward ye shall come into the camp.",
+        "speaker": "Eleazar",
+        "listener": "men of war",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Aaron",
+            "Moses",
+            "Balaam"
+          ],
+          "listener": [
+            "Israel",
+            "congregation",
+            "Korah and his company"
+          ]
+        },
+        "bonus": "gold",
+        "bonus_hint": {
+          "quote": "And the curious girdle of his ephod, that was upon it, was of the same, according to the work thereof; of gold, blue, and purple, and scarlet, and fine twined linen; as the LORD commanded Moses.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 39,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶלְעָזָר הַכֹּהֵן אֶל־אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה זֹאת חֻקַּת הַתּוֹרָה אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה אַךְ אֶת־הַזָּהָב וְאֶת־הַכָּסֶף אֶֽת־הַנְּחֹשֶׁת אֶת־הַבַּרְזֶל אֶֽת־הַבְּדִיל וְאֶת־הָעֹפָֽרֶת כָּל־דָּבָר אֲשֶׁר־יָבֹא בָאֵשׁ תַּעֲבִירוּ בָאֵשׁ וְטָהֵר אַךְ בְּמֵי נִדָּה יִתְחַטָּא וְכֹל אֲשֶׁר לֹֽא־יָבֹא בָּאֵשׁ תַּעֲבִירוּ בַמָּֽיִם וְכִבַּסְתֶּם בִּגְדֵיכֶם בַּיּוֹם הַשְּׁבִיעִי וּטְהַרְתֶּם וְאַחַר תָּבֹאוּ אֶל־הַֽמַּחֲנֶֽה",
+        "riddle": "וְכִבַּסְתֶּם בִּגְדֵיכֶם בַּיּוֹם הַשְּׁבִיעִי וּטְהַרְתֶּם וְאַחַר תָּבֹאוּ אֶל־הַֽמַּחֲנֶֽה",
+        "speaker": "אֶלְעָזָר הַכֹּהֵן",
+        "listener": "אַנְשֵׁי הַצָּבָא",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן",
+            "מֹשֶׁה",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "הָעֵדָה",
+            "קֹרַח ועדתו"
+          ]
+        },
+        "bonus": "צִוָּה",
+        "bonus_hint": {
+          "quote": "וְחֵשֶׁב אֲפֻדָּתוֹ אֲשֶׁר עָלָיו מִמֶּנּוּ הוּא כְּמַעֲשֵׂהוּ זָהָב תְּכֵלֶת וְאַרְגָּמָן וְתוֹלַעַת שָׁנִי וְשֵׁשׁ מָשְׁזָר כַּאֲשֶׁר צִוָּה יְהוָה אֶת־מֹשֶֽׁה",
+          "source": {
+            "book": "שמות",
+            "chapter": 39,
+            "start": 5,
+            "end": 5
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Eleazar the priest said unto the men of war which went to the battle, This is the ordinance of the law which the LORD commanded Moses;",
+          "22": "Only the gold, and the silver, the brass, the iron, the tin, and the lead,",
+          "23": "Every thing that may abide the fire, ye shall make it go through the fire, and it shall be clean: nevertheless it shall be purified with the water of separation: and all that abideth not the fire ye shall make go through the water.",
+          "24": "And ye shall wash your clothes on the seventh day, and ye shall be clean, and afterward ye shall come into the camp.",
+          "25": "And the LORD spake unto Moses, saying,",
+          "26": "Take the sum of the prey that was taken, both of man and of beast, thou, and Eleazar the priest, and the chief fathers of the congregation:"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אֶלְעָזָר הַכֹּהֵן אֶל־אַנְשֵׁי הַצָּבָא הַבָּאִים לַמִּלְחָמָה זֹאת חֻקַּת הַתּוֹרָה אֲשֶׁר־צִוָּה יְהוָה אֶת־מֹשֶֽׁה׃",
+          "22": "אַךְ אֶת־הַזָּהָב וְאֶת־הַכָּסֶף אֶֽת־הַנְּחֹשֶׁת אֶת־הַבַּרְזֶל אֶֽת־הַבְּדִיל וְאֶת־הָעֹפָֽרֶת׃",
+          "23": "כָּל־דָּבָר אֲשֶׁר־יָבֹא בָאֵשׁ תַּעֲבִירוּ בָאֵשׁ וְטָהֵר אַךְ בְּמֵי נִדָּה יִתְחַטָּא וְכֹל אֲשֶׁר לֹֽא־יָבֹא בָּאֵשׁ תַּעֲבִירוּ בַמָּֽיִם׃",
+          "24": "וְכִבַּסְתֶּם בִּגְדֵיכֶם בַּיּוֹם הַשְּׁבִיעִי וּטְהַרְתֶּם וְאַחַר תָּבֹאוּ אֶל־הַֽמַּחֲנֶֽה׃",
+          "25": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "26": "שָׂא אֵת רֹאשׁ מַלְקוֹחַ הַשְּׁבִי בָּאָדָם וּבַבְּהֵמָה אַתָּה וְאֶלְעָזָר הַכֹּהֵן וְרָאשֵׁי אֲבוֹת הָעֵדָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 21,
+        "end": 24
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-31-26-26",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 31,
+        "quote_verse_start": 25,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 25,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, Take the sum of the prey that was taken, both of man and of beast, thou, and Eleazar the priest, and the chief fathers of the congregation: And divide the prey into two parts; between them that took the war upon them, who went out to battle, and between all the congregation:",
+        "riddle": "Take the sum of the prey that was taken, both of man and of beast, thou, and Eleazar the priest, and the chief fathers of the congregation:",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Aaron",
+            "Joshua",
+            "Balaam"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "people"
+          ]
+        },
+        "bonus": "battle",
+        "bonus_hint": {
+          "quote": "Now the Philistines gathered together their armies to battle, and were gathered together at Shochoh, which belongeth to Judah, and pitched between Shochoh and Azekah, in Ephes-dammim.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 17,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר שָׂא אֵת רֹאשׁ מַלְקוֹחַ הַשְּׁבִי בָּאָדָם וּבַבְּהֵמָה אַתָּה וְאֶלְעָזָר הַכֹּהֵן וְרָאשֵׁי אֲבוֹת הָעֵדָֽה וְחָצִיתָ אֶת־הַמַּלְקוֹחַ בֵּין תֹּפְשֵׂי הַמִּלְחָמָה הַיֹּצְאִים לַצָּבָא וּבֵין כָּל־הָעֵדָֽה",
+        "riddle": "שָׂא אֵת רֹאשׁ מַלְקוֹחַ הַשְּׁבִי בָּאָדָם וּבַבְּהֵמָה אַתָּה וְאֶלְעָזָר הַכֹּהֵן וְרָאשֵׁי אֲבוֹת הָעֵדָֽה",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן",
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "הָעָם"
+          ]
+        },
+        "bonus": "בֵּין",
+        "bonus_hint": {
+          "quote": "וַיַּאַסְפוּ פְלִשְׁתִּים אֶת־מַֽחֲנֵיהֶם לַמִּלְחָמָה וַיֵּאָסְפוּ שֹׂכֹה אֲשֶׁר לִיהוּדָה וַֽיַּחֲנוּ בֵּין־שׂוֹכֹה וּבֵין־עֲזֵקָה בְּאֶפֶס דַּמִּֽים",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 17,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And the LORD spake unto Moses, saying,",
+          "26": "Take the sum of the prey that was taken, both of man and of beast, thou, and Eleazar the priest, and the chief fathers of the congregation:",
+          "27": "And divide the prey into two parts; between them that took the war upon them, who went out to battle, and between all the congregation:"
+        },
+        "he": {
+          "25": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "26": "שָׂא אֵת רֹאשׁ מַלְקוֹחַ הַשְּׁבִי בָּאָדָם וּבַבְּהֵמָה אַתָּה וְאֶלְעָזָר הַכֹּהֵן וְרָאשֵׁי אֲבוֹת הָעֵדָֽה׃",
+          "27": "וְחָצִיתָ אֶת־הַמַּלְקוֹחַ בֵּין תֹּפְשֵׂי הַמִּלְחָמָה הַיֹּצְאִים לַצָּבָא וּבֵין כָּל־הָעֵדָֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 31,
+        "start": 25,
+        "end": 27
       },
       "meta": {
         "mode": "llm",

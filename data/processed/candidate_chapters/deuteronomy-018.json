@@ -6,6 +6,48 @@
   "mode": "llm",
   "items": [
     {
+      "id": "deuteronomy-18-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 18,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "According to all that thou desiredst of the LORD thy God in Horeb in the day of the assembly, saying, Let me not hear again the voice of the LORD my God, neither let me see this great fire any more, that I die not.",
+        "riddle": "Let me not hear again the voice of the LORD my God, neither let me see this great fire any more, that I die not.",
+        "speaker": "the people",
+        "listener": "the LORD",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "כְּכֹל אֲשֶׁר־שָׁאַלְתָּ מֵעִם יְהוָה אֱלֹהֶיךָ בְּחֹרֵב בְּיוֹם הַקָּהָל לֵאמֹר לֹא אֹסֵף לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהָי וְאֶת־הָאֵשׁ הַגְּדֹלָה הַזֹּאת לֹֽא־אֶרְאֶה עוֹד וְלֹא אָמֽוּת",
+        "riddle": "כְּכֹל אֲשֶׁר־שָׁאַלְתָּ מֵעִם יְהוָה אֱלֹהֶיךָ בְּחֹרֵב בְּיוֹם הַקָּהָל לֵאמֹר לֹא אֹסֵף לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהָי וְאֶת־הָאֵשׁ הַגְּדֹלָה הַזֹּאת לֹֽא־אֶרְאֶה עוֹד וְלֹא אָמֽוּת",
+        "speaker": "הַקָּהָל",
+        "listener": "יְהוָה",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "According to all that thou desiredst of the LORD thy God in Horeb in the day of the assembly, saying, Let me not hear again the voice of the LORD my God, neither let me see this great fire any more, that I die not."
+        },
+        "he": {
+          "16": "כְּכֹל אֲשֶׁר־שָׁאַלְתָּ מֵעִם יְהוָה אֱלֹהֶיךָ בְּחֹרֵב בְּיוֹם הַקָּהָל לֵאמֹר לֹא אֹסֵף לִשְׁמֹעַ אֶת־קוֹל יְהוָה אֱלֹהָי וְאֶת־הָאֵשׁ הַגְּדֹלָה הַזֹּאת לֹֽא־אֶרְאֶה עוֹד וְלֹא אָמֽוּת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
       "id": "deuteronomy-18-17-17",
       "source": {
         "book_code": "DEU",
@@ -13,12 +55,13 @@
         "book_he": "דברים",
         "chapter": 18,
         "quote_verse_start": 17,
-        "quote_verse_end": 17
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17
       },
       "en": {
         "quote": "And the LORD said unto me, They have well spoken that which they have spoken.",
         "riddle": "They have well spoken that which they have spoken.",
-        "speaker": "LORD",
+        "speaker": "the LORD",
         "listener": "Moses",
         "book": "Deuteronomy"
       },
@@ -26,7 +69,7 @@
         "quote": "וַיֹּאמֶר יְהוָה אֵלָי הֵיטִיבוּ אֲשֶׁר דִּבֵּֽרוּ",
         "riddle": "הֵיטִיבוּ אֲשֶׁר דִּבֵּֽרוּ",
         "speaker": "יְהוָה",
-        "listener": "משה",
+        "listener": "מֹשֶׁה",
         "book": "דברים"
       },
       "raw_quote_source": {
@@ -38,7 +81,7 @@
         }
       },
       "meta": {
-        "reason": "Direct speech declaration",
+        "reason": "direct declaration",
         "confidence": 0.9
       },
       "ref": {
@@ -46,13 +89,58 @@
         "start": 17,
         "end": 17
       }
+    },
+    {
+      "id": "deuteronomy-18-21-21",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 18,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And if thou say in thine heart, How shall we know the word which the LORD hath not spoken?",
+        "riddle": "How shall we know the word which the LORD hath not spoken?",
+        "speaker": "the people",
+        "listener": "the people",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְכִי תֹאמַר בִּלְבָבֶךָ אֵיכָה נֵדַע אֶת־הַדָּבָר אֲשֶׁר לֹא־דִבְּרוֹ יְהוָֽה",
+        "riddle": "אֵיכָה נֵדַע אֶת־הַדָּבָר אֲשֶׁר לֹא־דִבְּרוֹ יְהוָֽה",
+        "speaker": "העם",
+        "listener": "העם",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And if thou say in thine heart, How shall we know the word which the LORD hath not spoken?"
+        },
+        "he": {
+          "21": "וְכִי תֹאמַר בִּלְבָבֶךָ אֵיכָה נֵדַע אֶת־הַדָּבָר אֲשֶׁר לֹא־דִבְּרוֹ יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "internal question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 18,
+        "start": 21,
+        "end": 21
+      }
     }
   ],
   "stats": {
-    "window_count": 8,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 1,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 3,
+    "llm_call_count": 6,
+    "spec_count": 3,
+    "kept_count": 3,
+    "issue_count": 0
   }
 }

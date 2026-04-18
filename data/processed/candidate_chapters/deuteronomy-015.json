@@ -4,12 +4,100 @@
   "book_he": "דברים",
   "chapter": 15,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "deuteronomy-15-09-09",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 15,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou givest him nought; and he cry unto the LORD against thee, and it be sin unto thee.",
+        "riddle": "The seventh year, the year of release, is at hand",
+        "speaker": "wicked heart",
+        "listener": "poor brother",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "הִשָּׁמֶר לְךָ פֶּן־יִהְיֶה דָבָר עִם־לְבָבְךָ בְלִיַּעַל לֵאמֹר קָֽרְבָה שְׁנַֽת־הַשֶּׁבַע שְׁנַת הַשְּׁמִטָּה וְרָעָה עֵֽינְךָ בְּאָחִיךָ הָֽאֶבְיוֹן וְלֹא תִתֵּן לוֹ וְקָרָא עָלֶיךָ אֶל־יְהוָה וְהָיָה בְךָ חֵֽטְא",
+        "riddle": "קָֽרְבָה שְׁנַֽת־הַשֶּׁבַע שְׁנַת הַשְּׁמִטָּה",
+        "speaker": "לְבָבְךָ",
+        "listener": "אָחִיךָ הָֽאֶבְיוֹן",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "Beware that there be not a thought in thy wicked heart, saying, The seventh year, the year of release, is at hand; and thine eye be evil against thy poor brother, and thou givest him nought; and he cry unto the LORD against thee, and it be sin unto thee."
+        },
+        "he": {
+          "9": "הִשָּׁמֶר לְךָ פֶּן־יִהְיֶה דָבָר עִם־לְבָבְךָ בְלִיַּעַל לֵאמֹר קָֽרְבָה שְׁנַֽת־הַשֶּׁבַע שְׁנַת הַשְּׁמִטָּה וְרָעָה עֵֽינְךָ בְּאָחִיךָ הָֽאֶבְיוֹן וְלֹא תִתֵּן לוֹ וְקָרָא עָלֶיךָ אֶל־יְהוָה וְהָיָה בְךָ חֵֽטְא׃"
+        }
+      },
+      "meta": {
+        "reason": "internal thought/declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "deuteronomy-15-16-16",
+      "source": {
+        "book_code": "DEU",
+        "book": "Deuteronomy",
+        "book_he": "דברים",
+        "chapter": 15,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16
+      },
+      "en": {
+        "quote": "And it shall be, if he say unto thee, I will not go away from thee; because he loveth thee and thine house, because he is well with thee;",
+        "riddle": "I will not go away from thee",
+        "speaker": "servant",
+        "listener": "master",
+        "book": "Deuteronomy"
+      },
+      "he": {
+        "quote": "וְהָיָה כִּֽי־יֹאמַר אֵלֶיךָ לֹא אֵצֵא מֵעִמָּךְ כִּי אֲהֵֽבְךָ וְאֶת־בֵּיתֶךָ כִּי־טוֹב לוֹ עִמָּֽךְ",
+        "riddle": "לֹא אֵצֵא מֵעִמָּךְ כִּי אֲהֵֽבְךָ וְאֶת־בֵּיתֶךָ כִּי־טוֹב",
+        "speaker": "עֶבֶד",
+        "listener": "אָדֹון",
+        "book": "דברים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And it shall be, if he say unto thee, I will not go away from thee; because he loveth thee and thine house, because he is well with thee;"
+        },
+        "he": {
+          "16": "וְהָיָה כִּֽי־יֹאמַר אֵלֶיךָ לֹא אֵצֵא מֵעִמָּךְ כִּי אֲהֵֽבְךָ וְאֶת־בֵּיתֶךָ כִּי־טוֹב לוֹ עִמָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 16,
+        "end": 16
+      }
+    }
+  ],
   "stats": {
-    "window_count": 8,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 8,
-    "kept_count": 0,
-    "issue_count": 8
+    "llm_window_count": 3,
+    "projection_llm_count": 3,
+    "llm_call_count": 6,
+    "spec_count": 3,
+    "kept_count": 2,
+    "issue_count": 1
   }
 }

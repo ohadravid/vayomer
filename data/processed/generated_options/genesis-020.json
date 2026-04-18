@@ -1,0 +1,383 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 20,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "genesis-20-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 20,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife. But Abimelech had not come near her: and he said, Lord, wilt thou slay also a righteous nation?",
+        "riddle": "Lord, wilt thou slay also a righteous nation?",
+        "speaker": "Abimelech",
+        "listener": "God",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "Joseph",
+            "Abraham"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "dream",
+        "bonus_hint": {
+          "quote": "And God came to Laban the Syrian in a dream by night, and said unto him, Take heed that thou speak not to Jacob either good or bad.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 31,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִנְּךָ מֵת עַל־הָאִשָּׁה אֲשֶׁר־לָקַחְתָּ וְהִוא בְּעֻלַת בָּֽעַל וַאֲבִימֶלֶךְ לֹא קָרַב אֵלֶיהָ וַיֹּאמַר אֲדֹנָי הֲגוֹי גַּם־צַדִּיק תַּהֲרֹֽג",
+        "riddle": "אֲדֹנָי הֲגוֹי גַּם־צַדִּיק תַּהֲרֹֽג",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אֱלֹהִים",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַרְעֹה",
+            "יוֹסֵף",
+            "אַבְרָהָם"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "וַיָּבֹא",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אֱלֹהִים אֶל־לָבָן הָאֲרַמִּי בַּחֲלֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִשָּׁמֶר לְךָ פֶּן־תְּדַבֵּר עִֽם־יַעֲקֹב מִטּוֹב עַד־רָֽע",
+          "source": {
+            "book": "בראשית",
+            "chapter": 31,
+            "start": 24,
+            "end": 24
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife.",
+          "4": "But Abimelech had not come near her: and he said, Lord, wilt thou slay also a righteous nation?"
+        },
+        "he": {
+          "3": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִנְּךָ מֵת עַל־הָאִשָּׁה אֲשֶׁר־לָקַחְתָּ וְהִוא בְּעֻלַת בָּֽעַל׃",
+          "4": "וַאֲבִימֶלֶךְ לֹא קָרַב אֵלֶיהָ וַיֹּאמַר אֲדֹנָי הֲגוֹי גַּם־צַדִּיק תַּהֲרֹֽג׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 3,
+        "end": 4
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-20-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 20,
+        "quote_verse_start": 8,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Therefore Abimelech rose early in the morning, and called all his servants, and told all these things in their ears: and the men were sore afraid. Then Abimelech called Abraham, and said unto him, What hast thou done unto us? and what have I offended thee, that thou hast brought on me and on my kingdom a great sin? thou hast done deeds unto me that ought not to be done.",
+        "riddle": "What hast thou done unto us? and what have I offended thee, that thou hast brought on me and on my kingdom a great sin?",
+        "speaker": "Abimelech",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "king of Sodom",
+            "Balak"
+          ],
+          "listener": [
+            "Pharaoh",
+            "Balak",
+            "Joseph"
+          ]
+        },
+        "bonus": "servants",
+        "bonus_hint": {
+          "quote": "Wherefore now rise up early in the morning with thy master's servants that are come with thee: and as soon as ye be up early in the morning, and have light, depart.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 29,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיַּשְׁכֵּם אֲבִימֶלֶךְ בַּבֹּקֶר וַיִּקְרָא לְכָל־עֲבָדָיו וַיְדַבֵּר אֶת־כָּל־הַדְּבָרִים הָאֵלֶּה בְּאָזְנֵיהֶם וַיִּֽירְאוּ הָאֲנָשִׁים מְאֹֽד וַיִּקְרָא אֲבִימֶלֶךְ לְאַבְרָהָם וַיֹּאמֶר לוֹ מֶֽה־עָשִׂיתָ לָּנוּ וּמֶֽה־חָטָאתִי לָךְ כִּֽי־הֵבֵאתָ עָלַי וְעַל־מַמְלַכְתִּי חֲטָאָה גְדֹלָה מַעֲשִׂים אֲשֶׁר לֹא־יֵֽעָשׂוּ עָשִׂיתָ עִמָּדִֽי",
+        "riddle": "מֶֽה־עָשִׂיתָ לָּנוּ וּמֶֽה־חָטָאתִי לָךְ כִּֽי־הֵבֵאתָ עָלַי וְעַל־מַמְלַכְתִּי חֲטָאָה גְדֹלָה מַעֲשִׂים אֲשֶׁר לֹא־יֵֽעָשׂוּ עָשִׂיתָ עִמָּדִֽי",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַרְעֹה",
+            "מֶֽלֶךְ־סְדֹם",
+            "בָּלָק"
+          ],
+          "listener": [
+            "פַרְעֹה",
+            "בָּלָק",
+            "יוֹסֵף"
+          ]
+        },
+        "bonus": "בַּבֹּקֶר",
+        "bonus_hint": {
+          "quote": "וְעַתָּה הַשְׁכֵּם בַּבֹּקֶר וְעַבְדֵי אֲדֹנֶיךָ אֲשֶׁר־בָּאוּ אִתָּךְ וְהִשְׁכַּמְתֶּם בַּבֹּקֶר וְאוֹר לָכֶם וָלֵֽכוּ",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 29,
+            "start": 10,
+            "end": 10
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "Therefore Abimelech rose early in the morning, and called all his servants, and told all these things in their ears: and the men were sore afraid.",
+          "9": "Then Abimelech called Abraham, and said unto him, What hast thou done unto us? and what have I offended thee, that thou hast brought on me and on my kingdom a great sin? thou hast done deeds unto me that ought not to be done."
+        },
+        "he": {
+          "8": "וַיַּשְׁכֵּם אֲבִימֶלֶךְ בַּבֹּקֶר וַיִּקְרָא לְכָל־עֲבָדָיו וַיְדַבֵּר אֶת־כָּל־הַדְּבָרִים הָאֵלֶּה בְּאָזְנֵיהֶם וַיִּֽירְאוּ הָאֲנָשִׁים מְאֹֽד׃",
+          "9": "וַיִּקְרָא אֲבִימֶלֶךְ לְאַבְרָהָם וַיֹּאמֶר לוֹ מֶֽה־עָשִׂיתָ לָּנוּ וּמֶֽה־חָטָאתִי לָךְ כִּֽי־הֵבֵאתָ עָלַי וְעַל־מַמְלַכְתִּי חֲטָאָה גְדֹלָה מַעֲשִׂים אֲשֶׁר לֹא־יֵֽעָשׂוּ עָשִׂיתָ עִמָּדִֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 8,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-20-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 20,
+        "quote_verse_start": 10,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Abimelech said unto Abraham, What sawest thou, that thou hast done this thing? And Abraham said, Because I thought, Surely the fear of God is not in this place; and they will slay me for my wife's sake.",
+        "riddle": "What sawest thou, that thou hast done this thing?",
+        "speaker": "Abimelech",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "king of Sodom",
+            "Balak"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balaam"
+          ]
+        },
+        "bonus": "fear",
+        "bonus_hint": {
+          "quote": "I said, Surely thou wilt fear me, thou wilt receive instruction; so their dwelling should not be cut off, howsoever I punished them: but they rose early, and corrupted all their doings.",
+          "source": {
+            "book": "Zephaniah",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲבִימֶלֶךְ אֶל־אַבְרָהָם מָה רָאִיתָ כִּי עָשִׂיתָ אֶת־הַדָּבָר הַזֶּֽה וַיֹּאמֶר אַבְרָהָם כִּי אָמַרְתִּי רַק אֵין־יִרְאַת אֱלֹהִים בַּמָּקוֹם הַזֶּה וַהֲרָגוּנִי עַל־דְּבַר אִשְׁתִּֽי",
+        "riddle": "מָה רָאִיתָ כִּי עָשִׂיתָ אֶת־הַדָּבָר הַזֶּֽה",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַרְעֹה",
+            "מֶֽלֶךְ־סְדֹם",
+            "בָּלָק"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בִּלְעָם"
+          ]
+        },
+        "bonus": "אָמַרְתִּי",
+        "bonus_hint": {
+          "quote": "אָמַרְתִּי אַךְ־תִּירְאִי אוֹתִי תִּקְחִי מוּסָר וְלֹֽא־יִכָּרֵת מְעוֹנָהּ כֹּל אֲשֶׁר־פָּקַדְתִּי עָלֶיהָ אָכֵן הִשְׁכִּימוּ הִשְׁחִיתוּ כֹּל עֲלִילוֹתָֽם",
+          "source": {
+            "book": "צפניה",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And Abimelech said unto Abraham, What sawest thou, that thou hast done this thing?",
+          "11": "And Abraham said, Because I thought, Surely the fear of God is not in this place; and they will slay me for my wife's sake."
+        },
+        "he": {
+          "10": "וַיֹּאמֶר אֲבִימֶלֶךְ אֶל־אַבְרָהָם מָה רָאִיתָ כִּי עָשִׂיתָ אֶת־הַדָּבָר הַזֶּֽה׃",
+          "11": "וַיֹּאמֶר אַבְרָהָם כִּי אָמַרְתִּי רַק אֵין־יִרְאַת אֱלֹהִים בַּמָּקוֹם הַזֶּה וַהֲרָגוּנִי עַל־דְּבַר אִשְׁתִּֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 10,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "genesis-20-15-15",
+      "source": {
+        "method": "llm",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 20,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Abimelech took sheep, and oxen, and menservants, and womenservants, and gave them unto Abraham, and restored him Sarah his wife. And Abimelech said, Behold, my land is before thee: dwell where it pleaseth thee.",
+        "riddle": "Behold, my land is before thee: dwell where it pleaseth thee.",
+        "speaker": "Abimelech",
+        "listener": "Abraham",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "king of Sodom",
+            "Balak"
+          ],
+          "listener": [
+            "Joseph",
+            "Pharaoh",
+            "Balak"
+          ]
+        },
+        "bonus": "sheep",
+        "bonus_hint": {
+          "quote": "And Abraham took sheep and oxen, and gave them unto Abimelech; and both of them made a covenant.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 21,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקַּח אֲבִימֶלֶךְ צֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֹת וַיִּתֵּן לְאַבְרָהָם וַיָּשֶׁב לוֹ אֵת שָׂרָה אִשְׁתּֽוֹ וַיֹּאמֶר אֲבִימֶלֶךְ הִנֵּה אַרְצִי לְפָנֶיךָ בַּטּוֹב בְּעֵינֶיךָ שֵֽׁב",
+        "riddle": "הִנֵּה אַרְצִי לְפָנֶיךָ בַּטּוֹב בְּעֵינֶיךָ שֵֽׁב",
+        "speaker": "אֲבִימֶלֶךְ",
+        "listener": "אַבְרָהָם",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַרְעֹה",
+            "מֶֽלֶךְ־סְדֹם",
+            "בָּלָק"
+          ],
+          "listener": [
+            "יוֹסֵף",
+            "פַרְעֹה",
+            "בָּלָק"
+          ]
+        },
+        "bonus": "וַיִּקַּח",
+        "bonus_hint": {
+          "quote": "וַיִּקַּח אַבְרָהָם צֹאן וּבָקָר וַיִּתֵּן לַאֲבִימֶלֶךְ וַיִּכְרְתוּ שְׁנֵיהֶם בְּרִֽית",
+          "source": {
+            "book": "בראשית",
+            "chapter": 21,
+            "start": 27,
+            "end": 27
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Abimelech took sheep, and oxen, and menservants, and womenservants, and gave them unto Abraham, and restored him Sarah his wife.",
+          "15": "And Abimelech said, Behold, my land is before thee: dwell where it pleaseth thee."
+        },
+        "he": {
+          "14": "וַיִּקַּח אֲבִימֶלֶךְ צֹאן וּבָקָר וַעֲבָדִים וּשְׁפָחֹת וַיִּתֵּן לְאַבְרָהָם וַיָּשֶׁב לוֹ אֵת שָׂרָה אִשְׁתּֽוֹ׃",
+          "15": "וַיֹּאמֶר אֲבִימֶלֶךְ הִנֵּה אַרְצִי לְפָנֶיךָ בַּטּוֹב בְּעֵינֶיךָ שֵֽׁב׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

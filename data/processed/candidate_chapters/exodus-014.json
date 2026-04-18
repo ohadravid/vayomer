@@ -4,12 +4,328 @@
   "book_he": "שמות",
   "chapter": 14,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "exodus-14-02-02",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, that they turn and encamp before Pi-hahiroth, between Migdol and the sea, over against Baal-zephon: before it shall ye encamp by the sea.",
+        "riddle": "Speak unto the children of Israel, that they turn and encamp before Pi-hahiroth, between Migdol and the sea, over against Baal-zephon: before it shall ye encamp by the sea.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת בֵּין מִגְדֹּל וּבֵין הַיָּם לִפְנֵי בַּעַל צְפֹן נִכְחוֹ תַחֲנוּ עַל־הַיָּֽם",
+        "riddle": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת בֵּין מִגְדֹּל וּבֵין הַיָּם לִפְנֵי בַּעַל צְפֹן נִכְחוֹ תַחֲנוּ עַל־הַיָּֽם",
+        "speaker": "יְהֹוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "Speak unto the children of Israel, that they turn and encamp before Pi-hahiroth, between Migdol and the sea, over against Baal-zephon: before it shall ye encamp by the sea."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהֹוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "דַּבֵּר אֶל־בְּנֵי יִשְׂרָאֵל וְיָשֻׁבוּ וְיַחֲנוּ לִפְנֵי פִּי הַחִירֹת בֵּין מִגְדֹּל וּבֵין הַיָּם לִפְנֵי בַּעַל צְפֹן נִכְחוֹ תַחֲנוּ עַל־הַיָּֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-14-13-14",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 13,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever. The LORD shall fight for you, and ye shall hold your peace.",
+        "riddle": "Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever. The LORD shall fight for you, and ye shall hold your peace.",
+        "speaker": "Moses",
+        "listener": "Israelites",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַל־תִּירָאוּ הִֽתְיַצְבוּ וּרְאוּ אֶת־יְשׁוּעַת יְהוָה אֲשֶׁר־יַעֲשֶׂה לָכֶם הַיּוֹם כִּי אֲשֶׁר רְאִיתֶם אֶת־מִצְרַיִם הַיּוֹם לֹא תֹסִיפוּ לִרְאֹתָם עוֹד עַד־עוֹלָֽם יְהוָה יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִישֽׁוּן",
+        "riddle": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַל־תִּירָאוּ הִֽתְיַצְבוּ וּרְאוּ אֶת־יְשׁוּעַת יְהוָה אֲשֶׁר־יַעֲשֶׂה לָכֶם הַיּוֹם כִּי אֲשֶׁר רְאִיתֶם אֶת־מִצְרַיִם הַיּוֹם לֹא תֹסִיפוּ לִרְאֹתָם עוֹד עַד־עוֹלָֽם יְהוָה יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִישֽׁוּן",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever.",
+          "14": "The LORD shall fight for you, and ye shall hold your peace."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַל־תִּירָאוּ הִֽתְיַצְבוּ וּרְאוּ אֶת־יְשׁוּעַת יְהוָה אֲשֶׁר־יַעֲשֶׂה לָכֶם הַיּוֹם כִּי אֲשֶׁר רְאִיתֶם אֶת־מִצְרַיִם הַיּוֹם לֹא תֹסִיפוּ לִרְאֹתָם עוֹד עַד־עוֹלָֽם׃",
+          "14": "יְהוָה יִלָּחֵם לָכֶם וְאַתֶּם תַּחֲרִישֽׁוּן׃"
+        }
+      },
+      "meta": {
+        "reason": "command and promise",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 13,
+        "end": 14
+      }
+    },
+    {
+      "id": "exodus-14-15-15-1",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+        "riddle": "Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ",
+        "riddle": "מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעו",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Moses said unto the people, Fear ye not, stand still, and see the salvation of the LORD, which he will shew to you to day: for the Egyptians whom ye have seen to day, ye shall see them again no more for ever.",
+          "15": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:"
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַל־תִּירָאוּ הִֽתְיַצְבוּ וּרְאוּ אֶת־יְשׁוּעַת יְהוָה אֲשֶׁר־יַעֲשֶׂה לָכֶם הַיּוֹם כִּי אֲשֶׁר רְאִיתֶם אֶת־מִצְרַיִם הַיּוֹם לֹא תֹסִיפוּ לִרְאֹתָם עוֹד עַד־עוֹלָֽם׃",
+          "15": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "exodus-14-15-15-2",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+        "riddle": "Wherefore criest thou unto me?",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ",
+        "riddle": "מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "exodus-14-15-15-3",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:",
+        "riddle": "speak unto the children of Israel, that they go forward:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ",
+        "riddle": "מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the LORD said unto Moses, Wherefore criest thou unto me? speak unto the children of Israel, that they go forward:"
+        },
+        "he": {
+          "15": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מַה־תִּצְעַק אֵלָי דַּבֵּר אֶל־בְּנֵי־יִשְׂרָאֵל וְיִסָּֽעוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "exodus-14-25-25",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "And took off their chariot wheels, that they drave them heavily: so that the Egyptians said, Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians.",
+        "riddle": "Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians.",
+        "speaker": "Egyptians",
+        "listener": "Egyptians",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיָּסַר אֵת אֹפַן מַרְכְּבֹתָיו וַֽיְנַהֲגֵהוּ בִּכְבֵדֻת וַיֹּאמֶר מִצְרַיִם אָנוּסָה מִפְּנֵי יִשְׂרָאֵל כִּי יְהוָה נִלְחָם לָהֶם בְּמִצְרָֽיִם",
+        "riddle": "מִצְרַיִם אָנוּסָה מִפְּנֵי יִשְׂרָאֵל כִּי יְהוָה נִלְחָם לָהֶם בְּמִצְרָֽיִם",
+        "speaker": "מִצְרַיִם",
+        "listener": "מִצְרַיִם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "And took off their chariot wheels, that they drave them heavily: so that the Egyptians said, Let us flee from the face of Israel; for the LORD fighteth for them against the Egyptians."
+        },
+        "he": {
+          "25": "וַיָּסַר אֵת אֹפַן מַרְכְּבֹתָיו וַֽיְנַהֲגֵהוּ בִּכְבֵדֻת וַיֹּאמֶר מִצְרַיִם אָנוּסָה מִפְּנֵי יִשְׂרָאֵל כִּי יְהוָה נִלְחָם לָהֶם בְּמִצְרָֽיִם"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "exodus-14-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 14,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Stretch out thine hand over the sea, that the waters may come again upon the Egyptians, upon their chariots, and upon their horsemen.",
+        "riddle": "Stretch out thine hand over the sea, that the waters may come again upon the Egyptians, upon their chariots, and upon their horsemen.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָדְךָ עַל־הַיָּם וְיָשֻׁבוּ הַמַּיִם עַל־מִצְרַיִם עַל־רִכְבּוֹ וְעַל־פָּרָשָֽׁיו",
+        "riddle": "נְטֵה אֶת־יָדְךָ עַל־הַיָּם וְיָשֻׁבוּ הַמַּיִם עַל־מִצְרַיִם עַל־רִכְבּוֹ וְעַל־פָּרָשָֽׁיו",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "And the LORD said unto Moses, Stretch out thine hand over the sea, that the waters may come again upon the Egyptians, upon their chariots, and upon their horsemen."
+        },
+        "he": {
+          "26": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה נְטֵה אֶת־יָדְךָ עַל־הַיָּם וְיָשֻׁבוּ הַמַּיִם עַל־מִצְרַיִם עַל־רִכְבּוֹ וְעַל־פָּרָשָֽׁיו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 26,
+        "end": 26
+      }
+    }
+  ],
   "stats": {
-    "window_count": 16,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 16,
-    "kept_count": 0,
-    "issue_count": 16
+    "llm_window_count": 4,
+    "projection_llm_count": 9,
+    "llm_call_count": 13,
+    "spec_count": 9,
+    "kept_count": 7,
+    "issue_count": 2
   }
 }

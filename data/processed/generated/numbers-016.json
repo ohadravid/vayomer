@@ -1,0 +1,251 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 16,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-16-11-11",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 16,
+        "quote_verse_start": 8,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And Moses said unto Korah, Hear, I pray you, ye sons of Levi: Seemeth it but a small thing unto you, that the God of Israel hath separated you from the congregation of Israel, to bring you near to himself to do the service of the tabernacle of the LORD, and to stand before the congregation to minister unto them? And he hath brought thee near to him, and all thy brethren the sons of Levi with thee: and seek ye the priesthood also? For which cause both thou and all thy company are gathered together against the LORD: and what is Aaron, that ye murmur against him?",
+        "riddle": "For which cause both thou and all thy company are gathered together against the LORD: and what is Aaron, that ye murmur against him?",
+        "speaker": "Moses",
+        "listener": "Korah and his company",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "small",
+        "bonus_hint": {
+          "quote": "And he said, Hear ye now, O house of David; Is it a small thing for you to weary men, but will ye weary my God also?",
+          "source": {
+            "book": "Isaiah",
+            "chapter": 7,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח שִׁמְעוּ־נָא בְּנֵי לֵוִֽי הַמְעַט מִכֶּם כִּֽי־הִבְדִּיל אֱלֹהֵי יִשְׂרָאֵל אֶתְכֶם מֵעֲדַת יִשְׂרָאֵל לְהַקְרִיב אֶתְכֶם אֵלָיו לַעֲבֹד אֶת־עֲבֹדַת מִשְׁכַּן יְהוָה וְלַעֲמֹד לִפְנֵי הָעֵדָה לְשָׁרְתָֽם וַיַּקְרֵב אֹֽתְךָ וְאֶת־כָּל־אַחֶיךָ בְנֵי־לֵוִי אִתָּךְ וּבִקַּשְׁתֶּם גַּם־כְּהֻנָּֽה לָכֵן אַתָּה וְכָל־עֲדָתְךָ הַנֹּעָדִים עַל־יְהוָה וְאַהֲרֹן מַה־הוּא כִּי תַלִּינוּ עָלָֽיו",
+        "riddle": "לָכֵן אַתָּה וְכָל־עֲדָתְךָ הַנֹּעָדִים עַל־יְהוָה וְאַהֲרֹן מַה־הוּא כִּי תַלִּינוּ עָלָֽיו",
+        "speaker": "מֹשֶׁה",
+        "listener": "קֹרַח ועדתו",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "שִׁמְעוּ",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר שִׁמְעוּ־נָא בֵּית דָּוִד הַמְעַט מִכֶּם הַלְאוֹת אֲנָשִׁים כִּי תַלְאוּ גַּם אֶת־אֱלֹהָֽי",
+          "source": {
+            "book": "ישעיהו",
+            "chapter": 7,
+            "start": 13,
+            "end": 13
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Moses said unto Korah, Hear, I pray you, ye sons of Levi:",
+          "9": "Seemeth it but a small thing unto you, that the God of Israel hath separated you from the congregation of Israel, to bring you near to himself to do the service of the tabernacle of the LORD, and to stand before the congregation to minister unto them?",
+          "10": "And he hath brought thee near to him, and all thy brethren the sons of Levi with thee: and seek ye the priesthood also?",
+          "11": "For which cause both thou and all thy company are gathered together against the LORD: and what is Aaron, that ye murmur against him?"
+        },
+        "he": {
+          "8": "וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח שִׁמְעוּ־נָא בְּנֵי לֵוִֽי׃",
+          "9": "הַמְעַט מִכֶּם כִּֽי־הִבְדִּיל אֱלֹהֵי יִשְׂרָאֵל אֶתְכֶם מֵעֲדַת יִשְׂרָאֵל לְהַקְרִיב אֶתְכֶם אֵלָיו לַעֲבֹד אֶת־עֲבֹדַת מִשְׁכַּן יְהוָה וְלַעֲמֹד לִפְנֵי הָעֵדָה לְשָׁרְתָֽם׃",
+          "10": "וַיַּקְרֵב אֹֽתְךָ וְאֶת־כָּל־אַחֶיךָ בְנֵי־לֵוִי אִתָּךְ וּבִקַּשְׁתֶּם גַּם־כְּהֻנָּֽה׃",
+          "11": "לָכֵן אַתָּה וְכָל־עֲדָתְךָ הַנֹּעָדִים עַל־יְהוָה וְאַהֲרֹן מַה־הוּא כִּי תַלִּינוּ עָלָֽיו׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 8,
+        "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-16-16-16",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 16,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And Moses said unto Korah, Be thou and all thy company before the LORD, thou, and they, and Aaron, to morrow: And take every man his censer, and put incense in them, and bring ye before the LORD every man his censer, two hundred and fifty censers; thou also, and Aaron, each of you his censer.",
+        "riddle": "Be thou and all thy company before the LORD, thou, and they, and Aaron, to morrow:",
+        "speaker": "Moses",
+        "listener": "Korah",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "censer",
+        "bonus_hint": {
+          "quote": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח אַתָּה וְכָל־עֲדָתְךָ הֱיוּ לִפְנֵי יְהוָה אַתָּה וָהֵם וְאַהֲרֹן מָחָֽר וּקְחוּ אִישׁ מַחְתָּתוֹ וּנְתַתֶּם עֲלֵיהֶם קְטֹרֶת וְהִקְרַבְתֶּם לִפְנֵי יְהוָה אִישׁ מַחְתָּתוֹ חֲמִשִּׁים וּמָאתַיִם מַחְתֹּת וְאַתָּה וְאַהֲרֹן אִישׁ מַחְתָּתֽוֹ",
+        "riddle": "אַתָּה וְכָל־עֲדָתְךָ הֱיוּ לִפְנֵי יְהוָה אַתָּה וָהֵם וְאַהֲרֹן מָחָֽר",
+        "speaker": "מֹשֶׁה",
+        "listener": "קֹרַח",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "אִישׁ",
+        "bonus_hint": {
+          "quote": "וַיִּקְחוּ בְנֵֽי־אַהֲרֹן נָדָב וַאֲבִיהוּא אִישׁ מַחְתָּתוֹ וַיִתְּנוּ בָהֵן אֵשׁ וַיָּשִׂימוּ עָלֶיהָ קְטֹרֶת וַיַּקְרִבוּ לִפְנֵי יְהוָה אֵשׁ זָרָה אֲשֶׁר לֹא צִוָּה אֹתָֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And Moses said unto Korah, Be thou and all thy company before the LORD, thou, and they, and Aaron, to morrow:",
+          "17": "And take every man his censer, and put incense in them, and bring ye before the LORD every man his censer, two hundred and fifty censers; thou also, and Aaron, each of you his censer."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר מֹשֶׁה אֶל־קֹרַח אַתָּה וְכָל־עֲדָתְךָ הֱיוּ לִפְנֵי יְהוָה אַתָּה וָהֵם וְאַהֲרֹן מָחָֽר׃",
+          "17": "וּקְחוּ ׀ אִישׁ מַחְתָּתוֹ וּנְתַתֶּם עֲלֵיהֶם קְטֹרֶת וְהִקְרַבְתֶּם לִפְנֵי יְהוָה אִישׁ מַחְתָּתוֹ חֲמִשִּׁים וּמָאתַיִם מַחְתֹּת וְאַתָּה וְאַהֲרֹן אִישׁ מַחְתָּתֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-16-21-21",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 16,
+        "quote_verse_start": 18,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And they took every man his censer, and put fire in them, and laid incense thereon, and stood in the door of the tabernacle of the congregation with Moses and Aaron. And Korah gathered all the congregation against them unto the door of the tabernacle of the congregation: and the glory of the LORD appeared unto all the congregation. And the LORD spake unto Moses and unto Aaron, saying, Separate yourselves from among this congregation, that I may consume them in a moment.",
+        "riddle": "Separate yourselves from among this congregation, that I may consume them in a moment.",
+        "speaker": "LORD",
+        "listener": "Moses and Aaron",
+        "book": "Numbers",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "censer",
+        "bonus_hint": {
+          "quote": "And Nadab and Abihu, the sons of Aaron, took either of them his censer, and put fire therein, and put incense thereon, and offered strange fire before the LORD, which he commanded them not.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּקְחוּ אִישׁ מַחְתָּתוֹ וַיִּתְּנוּ עֲלֵיהֶם אֵשׁ וַיָּשִׂימוּ עֲלֵיהֶם קְטֹרֶת וַֽיַּעַמְדוּ פֶּתַח אֹהֶל מוֹעֵד וּמֹשֶׁה וְאַהֲרֹֽן וַיַּקְהֵל עֲלֵיהֶם קֹרַח אֶת־כָּל־הָעֵדָה אֶל־פֶּתַח אֹהֶל מוֹעֵד וַיֵּרָא כְבוֹד־יְהוָה אֶל־כָּל־הָעֵדָֽה וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר הִבָּדְלוּ מִתּוֹךְ הָעֵדָה הַזֹּאת וַאַכַלֶּה אֹתָם כְּרָֽגַע",
+        "riddle": "הִבָּדְלוּ מִתּוֹךְ הָעֵדָה הַזֹּאת וַאַכַלֶּה אֹתָם כְּרָֽגַע",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה וְאַהֲרֹֽן",
+        "book": "במדבר",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיִּקְחוּ",
+        "bonus_hint": {
+          "quote": "וַיִּקְחוּ בְנֵֽי־אַהֲרֹן נָדָב וַאֲבִיהוּא אִישׁ מַחְתָּתוֹ וַיִתְּנוּ בָהֵן אֵשׁ וַיָּשִׂימוּ עָלֶיהָ קְטֹרֶת וַיַּקְרִבוּ לִפְנֵי יְהוָה אֵשׁ זָרָה אֲשֶׁר לֹא צִוָּה אֹתָֽם",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 10,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And they took every man his censer, and put fire in them, and laid incense thereon, and stood in the door of the tabernacle of the congregation with Moses and Aaron.",
+          "19": "And Korah gathered all the congregation against them unto the door of the tabernacle of the congregation: and the glory of the LORD appeared unto all the congregation.",
+          "20": "And the LORD spake unto Moses and unto Aaron, saying,",
+          "21": "Separate yourselves from among this congregation, that I may consume them in a moment."
+        },
+        "he": {
+          "18": "וַיִּקְחוּ אִישׁ מַחְתָּתוֹ וַיִּתְּנוּ עֲלֵיהֶם אֵשׁ וַיָּשִׂימוּ עֲלֵיהֶם קְטֹרֶת וַֽיַּעַמְדוּ פֶּתַח אֹהֶל מוֹעֵד וּמֹשֶׁה וְאַהֲרֹֽן׃",
+          "19": "וַיַּקְהֵל עֲלֵיהֶם קֹרַח אֶת־כָּל־הָעֵדָה אֶל־פֶּתַח אֹהֶל מוֹעֵד וַיֵּרָא כְבוֹד־יְהוָה אֶל־כָּל־הָעֵדָֽה׃",
+          "20": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "21": "הִבָּדְלוּ מִתּוֹךְ הָעֵדָה הַזֹּאת וַאַכַלֶּה אֹתָם כְּרָֽגַע׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 18,
+        "end": 21
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

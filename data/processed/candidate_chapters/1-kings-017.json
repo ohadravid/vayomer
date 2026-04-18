@@ -4,12 +4,450 @@
   "book_he": "מלכים א",
   "chapter": 17,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-kings-17-01-01",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.",
+        "riddle": "As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word.",
+        "speaker": "Elijah",
+        "listener": "Ahab",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי",
+        "riddle": "חַי־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אַחְאָב",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Elijah the Tishbite, who was of the inhabitants of Gilead, said unto Ahab, As the LORD God of Israel liveth, before whom I stand, there shall not be dew nor rain these years, but according to my word."
+        },
+        "he": {
+          "1": "וַיֹּאמֶר אֵלִיָּהוּ הַתִּשְׁבִּי מִתֹּשָׁבֵי גִלְעָד אֶל־אַחְאָב חַי־יְהוָה אֱלֹהֵי יִשְׂרָאֵל אֲשֶׁר עָמַדְתִּי לְפָנָיו אִם־יִהְיֶה הַשָּׁנִים הָאֵלֶּה טַל וּמָטָר כִּי אִם־לְפִי דְבָרִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "1-kings-17-03-04",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 3,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 2
+      },
+      "en": {
+        "quote": "Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan. And it shall be, that thou shalt drink of the brook; and I have commanded the ravens to feed thee there.",
+        "riddle": "Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan. And it shall be, that thou shalt drink of the brook; and I have commanded the ravens to feed thee there.",
+        "speaker": "LORD",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן וְהָיָה מֵהַנַּחַל תִּשְׁתֶּה וְאֶת־הָעֹרְבִים צִוִּיתִי לְכַלְכֶּלְךָ שָֽׁם",
+        "riddle": "לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן וְהָיָה מֵהַנַּחַל תִּשְׁתֶּה וְאֶת־הָעֹרְבִים צִוִּיתִי לְכַלְכֶּלְךָ שָֽׁם",
+        "speaker": "יְהוָה",
+        "listener": "אֵלָיו",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And the word of the LORD came unto him, saying,",
+          "3": "Get thee hence, and turn thee eastward, and hide thyself by the brook Cherith, that is before Jordan.",
+          "4": "And it shall be, that thou shalt drink of the brook; and I have commanded the ravens to feed thee there."
+        },
+        "he": {
+          "2": "וַיְהִי דְבַר־יְהוָה אֵלָיו לֵאמֹֽר׃",
+          "3": "לֵךְ מִזֶּה וּפָנִיתָ לְּךָ קֵדְמָה וְנִסְתַּרְתָּ בְּנַחַל כְּרִית אֲשֶׁר עַל־פְּנֵי הַיַּרְדֵּֽן׃",
+          "4": "וְהָיָה מֵהַנַּחַל תִּשְׁתֶּה וְאֶת־הָעֹרְבִים צִוִּיתִי לְכַלְכֶּלְךָ שָֽׁם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 3,
+        "end": 4
+      }
+    },
+    {
+      "id": "1-kings-17-09-09",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 8
+      },
+      "en": {
+        "quote": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee.",
+        "riddle": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee.",
+        "speaker": "LORD",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "קוּם לֵךְ צָרְפַתָה אֲשֶׁר לְצִידוֹן וְיָשַׁבְתָּ שָׁם הִנֵּה צִוִּיתִי שָׁם אִשָּׁה אַלְמָנָה לְכַלְכְּלֶֽךָ",
+        "riddle": "קוּם לֵךְ צָרְפַתָה אֲשֶׁר לְצִידוֹן וְיָשַׁבְתָּ שָׁם הִנֵּה צִוִּיתִי שָׁם אִשָּׁה אַלְמָנָה לְכַלְכְּלֶֽךָ",
+        "speaker": "יְהוָה",
+        "listener": "אֵלִיָּה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the word of the LORD came unto him, saying,",
+          "9": "Arise, get thee to Zarephath, which belongeth to Zidon, and dwell there: behold, I have commanded a widow woman there to sustain thee."
+        },
+        "he": {
+          "8": "וַיְהִי דְבַר־יְהוָה אֵלָיו לֵאמֹֽר׃",
+          "9": "קוּם לֵךְ צָרְפַתָה אֲשֶׁר לְצִידוֹן וְיָשַׁבְתָּ שָׁם הִנֵּה צִוִּיתִי שָׁם אִשָּׁה אַלְמָנָה לְכַלְכְּלֶֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "1-kings-17-11-11",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11
+      },
+      "en": {
+        "quote": "And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand.",
+        "riddle": "Bring me, I pray thee, a morsel of bread in thine hand.",
+        "speaker": "Elijah",
+        "listener": "widow",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתֵּלֶךְ לָקַחַת וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר לִֽקְחִי־נָא לִי פַּת־לֶחֶם בְּיָדֵֽךְ",
+        "riddle": "לִֽקְחִי־נָא לִי פַּת־לֶחֶם בְּיָדֵֽך",
+        "speaker": "אֵלֶיהָ",
+        "listener": "אלמנה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And as she was going to fetch it, he called to her, and said, Bring me, I pray thee, a morsel of bread in thine hand."
+        },
+        "he": {
+          "11": "וַתֵּלֶךְ לָקַחַת וַיִּקְרָא אֵלֶיהָ וַיֹּאמַר לִֽקְחִי־נָא לִי פַּת־לֶחֶם בְּיָדֵֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "1-kings-17-12-12",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "And she said, As the LORD thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse: and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die.",
+        "riddle": "As the LORD thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse: and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die.",
+        "speaker": "widow",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר חַי־יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־לִי מָעוֹג כִּי אִם־מְלֹא כַף־קֶמַח בַּכַּד וּמְעַט־שֶׁמֶן בַּצַּפָּחַת וְהִנְנִי מְקֹשֶׁשֶׁת שְׁנַיִם עֵצִים וּבָאתִי וַעֲשִׂיתִיהוּ לִי וְלִבְנִי וַאֲכַלְנֻהוּ וָמָֽתְנוּ",
+        "riddle": "וַתֹּאמֶר חַי־יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־לִי מָעוֹג כִּי אִם־מְלֹא כַף־קֶמַח בַּכַּד וּמְעַט־שֶׁמֶן בַּצַּפָּחַת וְהִנְנִי מְקֹשֶׁשֶׁת שְׁנַיִם עֵצִים וּבָאתִי וַעֲשִׂיתִיהוּ לִי וְלִבְנִי וַאֲכַלְנֻהוּ וָמָֽתְנוּ",
+        "speaker": "אלמנה",
+        "listener": "אליה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And she said, As the LORD thy God liveth, I have not a cake, but an handful of meal in a barrel, and a little oil in a cruse: and, behold, I am gathering two sticks, that I may go in and dress it for me and my son, that we may eat it, and die."
+        },
+        "he": {
+          "12": "וַתֹּאמֶר חַי־יְהוָה אֱלֹהֶיךָ אִם־יֶשׁ־לִי מָעוֹג כִּי אִם־מְלֹא כַף־קֶמַח בַּכַּד וּמְעַט־שֶׁמֶן בַּצַּפָּחַת וְהִנְנִי מְקֹשֶׁשֶׁת שְׁנַיִם עֵצִים וּבָאתִי וַעֲשִׂיתִיהוּ לִי וְלִבְנִי וַאֲכַלְנֻהוּ וָמָֽתְנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "1-kings-17-13-13",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son.",
+        "riddle": "Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son.",
+        "speaker": "Elijah",
+        "listener": "widow",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלֶיהָ אֵלִיָּהוּ אַל־תִּירְאִי בֹּאִי עֲשִׂי כִדְבָרֵךְ אַךְ עֲשִׂי־לִֽי־מִשָּׁם עֻגָה קְטַנָּה בָרִאשֹׁנָה וְהוֹצֵאתְ לִי וְלָךְ וְלִבְנֵךְ תַּעֲשִׂי בָּאַחֲרֹנָֽה",
+        "riddle": "וַיֹּאמֶר אֵלֶיהָ אֵלִיָּהוּ אַל־תִּירְאִי בֹּאִי עֲשִׂי כִדְבָרֵךְ אַךְ עֲשִׂי־לִֽי־מִשָּׁם עֻגָה קְטַנָּה בָרִאשֹׁנָה וְהוֹצֵאתְ לִי וְלָךְ וְלִבְנֵךְ תַּעֲשִׂי בָּאַחֲרֹנָֽה",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אֵלֶיהָ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Elijah said unto her, Fear not; go and do as thou hast said: but make me thereof a little cake first, and bring it unto me, and after make for thee and for thy son."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר אֵלֶיהָ אֵלִיָּהוּ אַל־תִּירְאִי בֹּאִי עֲשִׂי כִדְבָרֵךְ אַךְ עֲשִׂי־לִֽי־מִשָּׁם עֻגָה קְטַנָּה בָרִאשֹׁנָה וְהוֹצֵאתְ לִי וְלָךְ וְלִבְנֵךְ תַּעֲשִׂי בָּאַחֲרֹנָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "command and reassurance",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "1-kings-17-19-19",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And he said unto her, Give me thy son. And he took him out of her bosom, and carried him up into a loft, where he abode, and laid him upon his own bed.",
+        "riddle": "Give me thy son.",
+        "speaker": "Elijah",
+        "listener": "widow",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלֶיהָ תְּנִֽי־לִי אֶת־בְּנֵךְ וַיִּקָּחֵהוּ מֵחֵיקָהּ וַֽיַּעֲלֵהוּ אֶל־הָעֲלִיָּה אֲשֶׁר־הוּא יֹשֵׁב שָׁם וַיַּשְׁכִּבֵהוּ עַל־מִטָּתֽוֹ",
+        "riddle": "תְּנִֽי־לִי אֶת־בְּנֵךְ",
+        "speaker": "אֵלִיָּהוּ",
+        "listener": "אַלְמָנָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And he said unto her, Give me thy son. And he took him out of her bosom, and carried him up into a loft, where he abode, and laid him upon his own bed."
+        },
+        "he": {
+          "19": "וַיֹּאמֶר אֵלֶיהָ תְּנִֽי־לִי אֶת־בְּנֵךְ וַיִּקָּחֵהוּ מֵחֵיקָהּ וַֽיַּעֲלֵהוּ אֶל־הָעֲלִיָּה אֲשֶׁר־הוּא יֹשֵׁב שָׁם וַיַּשְׁכִּבֵהוּ עַל־מִטָּתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "1-kings-17-20-20",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "And he cried unto the LORD, and said, O LORD my God, hast thou also brought evil upon the widow with whom I sojourn, by slaying her son?",
+        "riddle": "O LORD my God, hast thou also brought evil upon the widow with whom I sojourn, by slaying her son?",
+        "speaker": "Elijah",
+        "listener": "LORD",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר יְהוָה אֱלֹהָי הֲגַם עַל־הָאַלְמָנָה אֲשֶׁר־אֲנִי מִתְגּוֹרֵר עִמָּהּ הֲרֵעוֹתָ לְהָמִית אֶת־בְּנָֽהּ",
+        "riddle": "יְהוָה אֱלֹהָי הֲגַם עַל־הָאַלְמָנָה אֲשֶׁר־אֲנִי מִתְגּוֹרֵר עִמָּהּ הֲרֵעוֹתָ לְהָמִית אֶת־בְּנָֽה",
+        "speaker": "אליה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "20": "And he cried unto the LORD, and said, O LORD my God, hast thou also brought evil upon the widow with whom I sojourn, by slaying her son?"
+        },
+        "he": {
+          "20": "וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר יְהוָה אֱלֹהָי הֲגַם עַל־הָאַלְמָנָה אֲשֶׁר־אֲנִי מִתְגּוֹרֵר עִמָּהּ הֲרֵעוֹתָ לְהָמִית אֶת־בְּנָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "prayerful question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "1-kings-17-21-21",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And he stretched himself upon the child three times, and cried unto the LORD, and said, O LORD my God, I pray thee, let this child's soul come into him again.",
+        "riddle": "O LORD my God, I pray thee, let this child's soul come into him again.",
+        "speaker": "Elijah",
+        "listener": "God",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיִּתְמֹדֵד עַל־הַיֶּלֶד שָׁלֹשׁ פְּעָמִים וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר יְהוָה אֱלֹהָי תָּשָׁב נָא נֶֽפֶשׁ־הַיֶּלֶד הַזֶּה עַל־קִרְבּֽוֹ",
+        "riddle": "וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר יְהוָה אֱלֹהָי תָּשָׁב נָא נֶֽפֶשׁ־הַיֶּלֶד הַזֶּה עַל־קִרְבּֽוֹ",
+        "speaker": "אליה",
+        "listener": "יְהוָה",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And he stretched himself upon the child three times, and cried unto the LORD, and said, O LORD my God, I pray thee, let this child's soul come into him again."
+        },
+        "he": {
+          "21": "וַיִּתְמֹדֵד עַל־הַיֶּלֶד שָׁלֹשׁ פְּעָמִים וַיִּקְרָא אֶל־יְהוָה וַיֹּאמַר יְהוָה אֱלֹהָי תָּשָׁב נָא נֶֽפֶשׁ־הַיֶּלֶד הַזֶּה עַל־קִרְבּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct prayer",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "1-kings-17-24-24",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 17,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24
+      },
+      "en": {
+        "quote": "And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth.",
+        "riddle": "Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth.",
+        "speaker": "the woman",
+        "listener": "Elijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה אֶל־אֵלִיָּהוּ עַתָּה זֶה יָדַעְתִּי כִּי אִישׁ אֱלֹהִים אָתָּה וּדְבַר־יְהוָה בְּפִיךָ אֱמֶֽת",
+        "riddle": "עַתָּה זֶה יָדַעְתִּי כִּי אִישׁ אֱלֹהִים אָתָּה וּדְבַר־יְהוָה בְּפִיךָ אֱמֶֽת",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "אֵלִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the woman said to Elijah, Now by this I know that thou art a man of God, and that the word of the LORD in thy mouth is truth."
+        },
+        "he": {
+          "24": "וַתֹּאמֶר הָֽאִשָּׁה אֶל־אֵלִיָּהוּ עַתָּה זֶה יָדַעְתִּי כִּי אִישׁ אֱלֹהִים אָתָּה וּדְבַר־יְהוָה בְּפִיךָ אֱמֶֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 24,
+        "end": 24
+      }
+    }
+  ],
   "stats": {
-    "window_count": 22,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 22,
-    "kept_count": 0,
-    "issue_count": 22
+    "llm_window_count": 4,
+    "projection_llm_count": 13,
+    "llm_call_count": 17,
+    "spec_count": 13,
+    "kept_count": 10,
+    "issue_count": 4
   }
 }

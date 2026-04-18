@@ -1,0 +1,101 @@
+{
+  "book_code": "2KI",
+  "book": "2 Kings",
+  "book_he": "מלכים ב",
+  "chapter": 16,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "2-kings-16-07-07",
+      "source": {
+        "method": "llm",
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 16,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me.",
+        "riddle": "I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me.",
+        "speaker": "Ahaz",
+        "listener": "Tiglath-pileser",
+        "book": "2 Kings",
+        "options": {
+          "speaker": [
+            "Elijah",
+            "Jehu",
+            "David"
+          ],
+          "listener": [
+            "Sennacherib",
+            "Ben-hadad",
+            "Rab-shakeh"
+          ]
+        },
+        "bonus": "messengers",
+        "bonus_hint": {
+          "quote": "And Moses sent messengers from Kadesh unto the king of Edom, Thus saith thy brother Israel, Thou knowest all the travail that hath befallen us:",
+          "source": {
+            "book": "Numbers",
+            "chapter": 20,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אָחָז מַלְאָכִים אֶל־תִּגְלַת פְּלֶסֶר מֶֽלֶךְ־אַשּׁוּר לֵאמֹר עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי",
+        "riddle": "עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי",
+        "speaker": "אָחָז",
+        "listener": "תִּגְלַת פְּלֶסֶר",
+        "book": "מלכים ב",
+        "options": {
+          "speaker": [
+            "אֵלִיָּהוּ",
+            "יֵהוּא",
+            "דּוֹד"
+          ],
+          "listener": [
+            "סַנְחֵרִיב",
+            "בֶּן־הֲדַד",
+            "רַב־שָׁקֵה"
+          ]
+        },
+        "bonus": "וַיִּשְׁלַח",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח מֹשֶׁה מַלְאָכִים מִקָּדֵשׁ אֶל־מֶלֶךְ אֱדוֹם כֹּה אָמַר אָחִיךָ יִשְׂרָאֵל אַתָּה יָדַעְתָּ אֵת כָּל־הַתְּלָאָה אֲשֶׁר מְצָאָֽתְנוּ",
+          "source": {
+            "book": "במדבר",
+            "chapter": 20,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "So Ahaz sent messengers to Tiglath-pileser king of Assyria, saying, I am thy servant and thy son: come up, and save me out of the hand of the king of Syria, and out of the hand of the king of Israel, which rise up against me."
+        },
+        "he": {
+          "7": "וַיִּשְׁלַח אָחָז מַלְאָכִים אֶל־תִּגְלַת פְּלֶסֶר מֶֽלֶךְ־אַשּׁוּר לֵאמֹר עַבְדְּךָ וּבִנְךָ אָנִי עֲלֵה וְהוֹשִׁעֵנִי מִכַּף מֶֽלֶךְ־אֲרָם וּמִכַּף מֶלֶךְ יִשְׂרָאֵל הַקּוֹמִים עָלָֽי׃"
+        }
+      },
+      "ref": {
+        "chapter": 16,
+        "start": 7,
+        "end": 7
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

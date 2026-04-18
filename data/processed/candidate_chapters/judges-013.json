@@ -6,6 +6,142 @@
   "mode": "llm",
   "items": [
     {
+      "id": "judges-13-03-03",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "And the angel of the LORD appeared unto the woman, and said unto her, Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son.",
+        "riddle": "Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son.",
+        "speaker": "angel of the LORD",
+        "listener": "Manoah's wife",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֵּרָא מַלְאַךְ־יְהוָה אֶל־הָאִשָּׁה וַיֹּאמֶר אֵלֶיהָ הִנֵּה־נָא אַתְּ־עֲקָרָה וְלֹא יָלַדְתְּ וְהָרִית וְיָלַדְתְּ בֵּֽן",
+        "riddle": "הִנֵּה־נָא אַתְּ־עֲקָרָה וְלֹא יָלַדְתְּ וְהָרִית וְיָלַדְתְּ בֵּֽן",
+        "speaker": "מַלְאַךְ־יְהוָה",
+        "listener": "הָאִשָּׁה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the angel of the LORD appeared unto the woman, and said unto her, Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son."
+        },
+        "he": {
+          "3": "וַיֵּרָא מַלְאַךְ־יְהוָה אֶל־הָאִשָּׁה וַיֹּאמֶר אֵלֶיהָ הִנֵּה־נָא אַתְּ־עֲקָרָה וְלֹא יָלַדְתְּ וְהָרִית וְיָלַדְתְּ בֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "judges-13-04-04",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 3,
+        "listener_mention_verse": 3
+      },
+      "en": {
+        "quote": "Now therefore beware, I pray thee, and drink not wine nor strong drink, and eat not any unclean thing:",
+        "riddle": "Now therefore beware, I pray thee, and drink not wine nor strong drink, and eat not any unclean thing:",
+        "speaker": "angel of the LORD",
+        "listener": "Manoah's wife",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וְעַתָּה הִשָּׁמְרִי נָא וְאַל־תִּשְׁתִּי יַיִן וְשֵׁכָר וְאַל־תֹּאכְלִי כָּל־טָמֵֽא",
+        "riddle": "וְעַתָּה הִשָּׁמְרִי נָא וְאַל־תִּשְׁתִּי יַיִן וְשֵׁכָר וְאַל־תֹּאכְלִי כָּל־טָמֵֽא",
+        "speaker": "מַלְאַךְ־יְהוָה",
+        "listener": "הָאִשָּׁה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the angel of the LORD appeared unto the woman, and said unto her, Behold now, thou art barren, and bearest not: but thou shalt conceive, and bear a son.",
+          "4": "Now therefore beware, I pray thee, and drink not wine nor strong drink, and eat not any unclean thing:"
+        },
+        "he": {
+          "3": "וַיֵּרָא מַלְאַךְ־יְהוָה אֶל־הָאִשָּׁה וַיֹּאמֶר אֵלֶיהָ הִנֵּה־נָא אַתְּ־עֲקָרָה וְלֹא יָלַדְתְּ וְהָרִית וְיָלַדְתְּ בֵּֽן׃",
+          "4": "וְעַתָּה הִשָּׁמְרִי נָא וְאַל־תִּשְׁתִּי יַיִן וְשֵׁכָר וְאַל־תֹּאכְלִי כָּל־טָמֵֽא׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "judges-13-07-07",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "But he said unto me, Behold, thou shalt conceive, and bear a son; and now drink no wine nor strong drink, neither eat any unclean thing: for the child shall be a Nazarite to God from the womb to the day of his death.",
+        "riddle": "Behold, thou shalt conceive, and bear a son; and now drink no wine nor strong drink, neither eat any unclean thing: for the child shall be a Nazarite to God from the womb to the day of his death.",
+        "speaker": "man of God",
+        "listener": "Manoah's wife",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לִי הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְעַתָּה אַל־תִּשְׁתִּי יַיִן וְשֵׁכָר וְאַל־תֹּֽאכְלִי כָּל־טֻמְאָה כִּֽי־נְזִיר אֱלֹהִים יִהְיֶה הַנַּעַר מִן־הַבֶּטֶן עַד־יוֹם מוֹתֽוֹ",
+        "riddle": "וַיֹּאמֶר לִי הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְעַתָּה אַל־תִּשְׁתִּי יַיִן וְשֵׁכָר וְאַל־תֹּֽאכְלִי כָּל־טֻמְאָה כִּֽי־נְזִיר אֱלֹהִים יִהְיֶה הַנַּעַר מִן־הַבֶּטֶן עַד־יוֹם מוֹתֽוֹ",
+        "speaker": "אִישׁ הָאֱלֹהִים",
+        "listener": "אִשָּׁה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "Then the woman came and told her husband, saying, A man of God came unto me, and his countenance was like the countenance of an angel of God, very terrible: but I asked him not whence he was, neither told he me his name:",
+          "7": "But he said unto me, Behold, thou shalt conceive, and bear a son; and now drink no wine nor strong drink, neither eat any unclean thing: for the child shall be a Nazarite to God from the womb to the day of his death."
+        },
+        "he": {
+          "6": "וַתָּבֹא הָאִשָּׁה וַתֹּאמֶר לְאִישָׁהּ לֵאמֹר אִישׁ הָאֱלֹהִים בָּא אֵלַי וּמַרְאֵהוּ כְּמַרְאֵה מַלְאַךְ הָאֱלֹהִים נוֹרָא מְאֹד וְלֹא שְׁאִלְתִּיהוּ אֵֽי־מִזֶּה הוּא וְאֶת־שְׁמוֹ לֹֽא־הִגִּיד לִֽי׃",
+          "7": "וַיֹּאמֶר לִי הִנָּךְ הָרָה וְיֹלַדְתְּ בֵּן וְעַתָּה אַל־תִּשְׁתִּי ׀ יַיִן וְשֵׁכָר וְאַל־תֹּֽאכְלִי כָּל־טֻמְאָה כִּֽי־נְזִיר אֱלֹהִים יִהְיֶה הַנַּעַר מִן־הַבֶּטֶן עַד־יוֹם מוֹתֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "recalled command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
       "id": "judges-13-08-08",
       "source": {
         "book_code": "JDG",
@@ -13,20 +149,21 @@
         "book_he": "שופטים",
         "chapter": 13,
         "quote_verse_start": 8,
-        "quote_verse_end": 8
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8
       },
       "en": {
         "quote": "Then Manoah intreated the LORD, and said, O my Lord, let the man of God which thou didst send come again unto us, and teach us what we shall do unto the child that shall be born.",
-        "riddle": "and teach us what we shall do unto the child that shall be born.",
+        "riddle": "O my Lord, let the man of God which thou didst send come again unto us, and teach us what we shall do unto the child that shall be born.",
         "speaker": "Manoah",
-        "listener": "LORD",
+        "listener": "the LORD",
         "book": "Judges"
       },
       "he": {
         "quote": "וַיֶּעְתַּר מָנוֹחַ אֶל־יְהוָה וַיֹּאמַר בִּי אֲדוֹנָי אִישׁ הָאֱלֹהִים אֲשֶׁר שָׁלַחְתָּ יָבוֹא־נָא עוֹד אֵלֵינוּ וְיוֹרֵנוּ מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד",
-        "riddle": "מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד",
+        "riddle": "בִּי אֲדוֹנָי אִישׁ הָאֱלֹהִים אֲשֶׁר שָׁלַחְתָּ יָבוֹא־נָא עוֹד אֵלֵינוּ וְיוֹרֵנוּ מַֽה־נַּעֲשֶׂה לַנַּעַר הַיּוּלָּֽד",
         "speaker": "מָנוֹחַ",
-        "listener": "אֶל־יְהוָה",
+        "listener": "יְהוָה",
         "book": "שופטים"
       },
       "raw_quote_source": {
@@ -38,21 +175,422 @@
         }
       },
       "meta": {
-        "reason": "Contains a direct plea/question.",
-        "confidence": 0.9
+        "reason": "direct prayer",
+        "confidence": 0.92
       },
       "ref": {
         "chapter": 13,
         "start": 8,
         "end": 8
       }
+    },
+    {
+      "id": "judges-13-10-10",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And the woman made haste, and ran, and shewed her husband, and said unto him, Behold, the man hath appeared unto me, that came unto me the other day.",
+        "riddle": "Behold, the man hath appeared unto me, that came unto me the other day.",
+        "speaker": "Manoah's wife",
+        "listener": "Manoah",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַתְּמַהֵר הָֽאִשָּׁה וַתָּרָץ וַתַּגֵּד לְאִישָׁהּ וַתֹּאמֶר אֵלָיו הִנֵּה נִרְאָה אֵלַי הָאִישׁ אֲשֶׁר־בָּא בַיּוֹם אֵלָֽי",
+        "riddle": "וַתֹּאמֶר אֵלָיו הִנֵּה נִרְאָה אֵלַי הָאִישׁ אֲשֶׁר־בָּא בַיּוֹם אֵלָֽי",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "אִישָׁהּ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the woman made haste, and ran, and shewed her husband, and said unto him, Behold, the man hath appeared unto me, that came unto me the other day."
+        },
+        "he": {
+          "10": "וַתְּמַהֵר הָֽאִשָּׁה וַתָּרָץ וַתַּגֵּד לְאִישָׁהּ וַתֹּאמֶר אֵלָיו הִנֵּה נִרְאָה אֵלַי הָאִישׁ אֲשֶׁר־בָּא בַיּוֹם אֵלָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "judges-13-12-12",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Manoah said, Now let thy words come to pass. How shall we order the child, and how shall we do unto him?",
+        "riddle": "How shall we order the child, and how shall we do unto him?",
+        "speaker": "Manoah",
+        "listener": "the man of God",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָנוֹחַ עַתָּה יָבֹא דְבָרֶיךָ מַה־יִּֽהְיֶה מִשְׁפַּט־הַנַּעַר וּמַעֲשֵֽׂהוּ",
+        "riddle": "מַה־יִּֽהְיֶה מִשְׁפַּט־הַנַּעַר וּמַעֲשֵֽׂהוּ",
+        "speaker": "מָנוֹחַ",
+        "listener": "מַלְאַךְ יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Manoah said, Now let thy words come to pass. How shall we order the child, and how shall we do unto him?"
+        },
+        "he": {
+          "12": "וַיֹּאמֶר מָנוֹחַ עַתָּה יָבֹא דְבָרֶיךָ מַה־יִּֽהְיֶה מִשְׁפַּט־הַנַּעַר וּמַעֲשֵֽׂהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "judges-13-13-13",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And the angel of the LORD said unto Manoah, Of all that I said unto the woman let her beware.",
+        "riddle": "Of all that I said unto the woman let her beware.",
+        "speaker": "the angel of the LORD",
+        "listener": "Manoah",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל־מָנוֹחַ מִכֹּל אֲשֶׁר־אָמַרְתִּי אֶל־הָאִשָּׁה תִּשָּׁמֵֽר",
+        "riddle": "מִכֹּל אֲשֶׁר־אָמַרְתִּי אֶל־הָאִשָּׁה תִּשָּׁמֵֽר",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "מָנוֹחַ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the angel of the LORD said unto Manoah, Of all that I said unto the woman let her beware."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל־מָנוֹחַ מִכֹּל אֲשֶׁר־אָמַרְתִּי אֶל־הָאִשָּׁה תִּשָּׁמֵֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "judges-13-14-14",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "She may not eat of any thing that cometh of the vine, neither let her drink wine or strong drink, nor eat any unclean thing: all that I commanded her let her observe.",
+        "riddle": "She may not eat of any thing that cometh of the vine, neither let her drink wine or strong drink, nor eat any unclean thing: all that I commanded her let her observe.",
+        "speaker": "the angel of the LORD",
+        "listener": "the woman",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "מִכֹּל אֲשֶׁר־יֵצֵא מִגֶּפֶן הַיַּיִן לֹא תֹאכַל וְיַיִן וְשֵׁכָר אַל־תֵּשְׁתְּ וְכָל־טֻמְאָה אַל־תֹּאכַל כֹּל אֲשֶׁר־צִוִּיתִיהָ תִּשְׁמֹֽר",
+        "riddle": "מִכֹּל אֲשֶׁר־יֵצֵא מִגֶּפֶן הַיַּיִן לֹא תֹאכַל וְיַיִן וְשֵׁכָר אַל־תֵּשְׁתְּ וְכָל־טֻמְאָה אַל־תֹּאכַל כֹּל אֲשֶׁר־צִוִּיתִיהָ תִּשְׁמֹֽר",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "הָאִשָּׁה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And the angel of the LORD said unto Manoah, Of all that I said unto the woman let her beware.",
+          "14": "She may not eat of any thing that cometh of the vine, neither let her drink wine or strong drink, nor eat any unclean thing: all that I commanded her let her observe."
+        },
+        "he": {
+          "13": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל־מָנוֹחַ מִכֹּל אֲשֶׁר־אָמַרְתִּי אֶל־הָאִשָּׁה תִּשָּׁמֵֽר׃",
+          "14": "מִכֹּל אֲשֶׁר־יֵצֵא מִגֶּפֶן הַיַּיִן לֹא תֹאכַל וְיַיִן וְשֵׁכָר אַל־תֵּשְׁתְּ וְכָל־טֻמְאָה אַל־תֹּאכַל כֹּל אֲשֶׁר־צִוִּיתִיהָ תִּשְׁמֹֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "judges-13-15-15",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And Manoah said unto the angel of the LORD, I pray thee, let us detain thee, until we shall have made ready a kid for thee.",
+        "riddle": "I pray thee, let us detain thee, until we shall have made ready a kid for thee.",
+        "speaker": "Manoah",
+        "listener": "the angel of the LORD",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָנוֹחַ אֶל־מַלְאַךְ יְהוָה נַעְצְרָה־נָּא אוֹתָךְ וְנַעֲשֶׂה לְפָנֶיךָ גְּדִי עִזִּֽים",
+        "riddle": "נַעְצְרָה־נָּא אוֹתָךְ וְנַעֲשֶׂה לְפָנֶיךָ גְּדִי עִזִּֽים",
+        "speaker": "מָנוֹחַ",
+        "listener": "מַלְאַךְ יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And Manoah said unto the angel of the LORD, I pray thee, let us detain thee, until we shall have made ready a kid for thee."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר מָנוֹחַ אֶל־מַלְאַךְ יְהוָה נַעְצְרָה־נָּא אוֹתָךְ וְנַעֲשֶׂה לְפָנֶיךָ גְּדִי עִזִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "judges-13-16-16",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And the angel of the LORD said unto Manoah, Though thou detain me, I will not eat of thy bread: and if thou wilt offer a burnt offering, thou must offer it unto the LORD. For Manoah knew not that he was an angel of the LORD.",
+        "riddle": "Though thou detain me, I will not eat of thy bread: and if thou wilt offer a burnt offering, thou must offer it unto the LORD.",
+        "speaker": "angel of the LORD",
+        "listener": "Manoah",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל־מָנוֹחַ אִם־תַּעְצְרֵנִי לֹא־אֹכַל בְּלַחְמֶךָ וְאִם־תַּעֲשֶׂה עֹלָה לַיהוָה תַּעֲלֶנָּה כִּי לֹא־יָדַע מָנוֹחַ כִּֽי־מַלְאַךְ יְהוָה הֽוּא",
+        "riddle": "אִם־תַּעְצְרֵנִי לֹא־אֹכַל בְּלַחְמֶךָ וְאִם־תַּעֲשֶׂה עֹלָה לַיהוָה תַּעֲלֶנָּה",
+        "speaker": "מַלְאַךְ יְהוָה",
+        "listener": "מָנוֹחַ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And the angel of the LORD said unto Manoah, Though thou detain me, I will not eat of thy bread: and if thou wilt offer a burnt offering, thou must offer it unto the LORD. For Manoah knew not that he was an angel of the LORD."
+        },
+        "he": {
+          "16": "וַיֹּאמֶר מַלְאַךְ יְהוָה אֶל־מָנוֹחַ אִם־תַּעְצְרֵנִי לֹא־אֹכַל בְּלַחְמֶךָ וְאִם־תַּעֲשֶׂה עֹלָה לַיהוָה תַּעֲלֶנָּה כִּי לֹא־יָדַע מָנוֹחַ כִּֽי־מַלְאַךְ יְהוָה הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "judges-13-17-17",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Manoah said unto the angel of the LORD, What is thy name, that when thy sayings come to pass we may do thee honour?",
+        "riddle": "What is thy name, that when thy sayings come to pass we may do thee honour?",
+        "speaker": "Manoah",
+        "listener": "angel of the LORD",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָנוֹחַ אֶל־מַלְאַךְ יְהוָה מִי שְׁמֶךָ כִּֽי־יָבֹא דְבָרְךָ וְכִבַּדְנֽוּךָ",
+        "riddle": "מִי שְׁמֶךָ כִּֽי־יָבֹא דְבָרְךָ וְכִבַּדְנֽוּך",
+        "speaker": "מָנוֹחַ",
+        "listener": "מַלְאַךְ יְהוָה",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Manoah said unto the angel of the LORD, What is thy name, that when thy sayings come to pass we may do thee honour?"
+        },
+        "he": {
+          "17": "וַיֹּאמֶר מָנוֹחַ אֶל־מַלְאַךְ יְהוָה מִי שְׁמֶךָ כִּֽי־יָבֹא דְבָרְךָ וְכִבַּדְנֽוּךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "judges-13-22-22",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22,
+        "listener_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Manoah said unto his wife, We shall surely die, because we have seen God.",
+        "riddle": "We shall surely die, because we have seen God.",
+        "speaker": "Manoah",
+        "listener": "Manoah's wife",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מָנוֹחַ אֶל־אִשְׁתּוֹ מוֹת נָמוּת כִּי אֱלֹהִים רָאִֽינוּ",
+        "riddle": "מוֹת נָמוּת כִּי אֱלֹהִים רָאִֽינוּ",
+        "speaker": "מָנוֹחַ",
+        "listener": "אִשְׁתּוֹ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Manoah said unto his wife, We shall surely die, because we have seen God."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר מָנוֹחַ אֶל־אִשְׁתּוֹ מוֹת נָמוּת כִּי אֱלֹהִים רָאִֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "judges-13-23-23",
+      "source": {
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 13,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "But his wife said unto him, If the LORD were pleased to kill us, he would not have received a burnt offering and a meat offering at our hands, neither would he have shewed us all these things, nor would as at this time have told us such things as these.",
+        "riddle": "If the LORD were pleased to kill us, he would not have received a burnt offering and a meat offering at our hands, neither would he have shewed us all these things, nor would as at this time have told us such things as these.",
+        "speaker": "Manoah's wife",
+        "listener": "Manoah",
+        "book": "Judges"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לוֹ אִשְׁתּוֹ לוּ חָפֵץ יְהוָה לַהֲמִיתֵנוּ לֹֽא־לָקַח מִיָּדֵנוּ עֹלָה וּמִנְחָה וְלֹא הֶרְאָנוּ אֶת־כָּל־אֵלֶּה וְכָעֵת לֹא הִשְׁמִיעָנוּ כָּזֹֽאת",
+        "riddle": "וַתֹּאמֶר לוֹ אִשְׁתּוֹ לוּ חָפֵץ יְהוָה לַהֲמִיתֵנוּ לֹֽא־לָקַח מִיָּדֵנוּ עֹלָה וּמִנְחָה וְלֹא הֶרְאָנוּ אֶת־כָּל־אֵלֶּה וְכָעֵת לֹא הִשְׁמִיעָנוּ כָּזֹֽאת",
+        "speaker": "אִשְׁתּוֹ",
+        "listener": "מָנוֹחַ",
+        "book": "שופטים"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "But his wife said unto him, If the LORD were pleased to kill us, he would not have received a burnt offering and a meat offering at our hands, neither would he have shewed us all these things, nor would as at this time have told us such things as these."
+        },
+        "he": {
+          "23": "וַתֹּאמֶר לוֹ אִשְׁתּוֹ לוּ חָפֵץ יְהוָה לַהֲמִיתֵנוּ לֹֽא־לָקַח מִיָּדֵנוּ עֹלָה וּמִנְחָה וְלֹא הֶרְאָנוּ אֶת־כָּל־אֵלֶּה וְכָעֵת לֹא הִשְׁמִיעָנוּ כָּזֹֽאת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 23,
+        "end": 23
+      }
     }
   ],
   "stats": {
-    "window_count": 21,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 21,
-    "kept_count": 1,
-    "issue_count": 20
+    "llm_window_count": 4,
+    "projection_llm_count": 15,
+    "llm_call_count": 19,
+    "spec_count": 15,
+    "kept_count": 13,
+    "issue_count": 3
   }
 }

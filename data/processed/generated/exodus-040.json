@@ -1,0 +1,89 @@
+{
+  "book_code": "EXO",
+  "book": "Exodus",
+  "book_he": "שמות",
+  "chapter": 40,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "exodus-40-01-02",
+      "source": {
+        "method": "llm",
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 40,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses, saying, On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation. And thou shalt put therein the ark of the testimony, and cover the ark with the vail.",
+        "riddle": "On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Exodus",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "ark",
+        "bonus_hint": {
+          "quote": "And when Moses was gone into the tabernacle of the congregation to speak with him, then he heard the voice of one speaking unto him from off the mercy seat that was upon the ark of testimony, from between the two cherubims: and he spake unto him.",
+          "source": {
+            "book": "Numbers",
+            "chapter": 7,
+            "start": 89,
+            "end": 89
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד וְשַׂמְתָּ שָׁם אֵת אֲרוֹן הָעֵדוּת וְסַכֹּתָ עַל־הָאָרֹן אֶת־הַפָּרֹֽכֶת",
+        "riddle": "בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וּבְבֹא מֹשֶׁה אֶל־אֹהֶל מוֹעֵד לְדַבֵּר אִתּוֹ וַיִּשְׁמַע אֶת־הַקּוֹל מִדַּבֵּר אֵלָיו מֵעַל הַכַּפֹּרֶת אֲשֶׁר עַל־אֲרֹן הָעֵדֻת מִבֵּין שְׁנֵי הַכְּרֻבִים וַיְדַבֵּר אֵלָֽיו",
+          "source": {
+            "book": "במדבר",
+            "chapter": 7,
+            "start": 89,
+            "end": 89
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses, saying,",
+          "2": "On the first day of the first month shalt thou set up the tabernacle of the tent of the congregation.",
+          "3": "And thou shalt put therein the ark of the testimony, and cover the ark with the vail."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֵּאמֹֽר׃",
+          "2": "בְּיוֹם־הַחֹדֶשׁ הָרִאשׁוֹן בְּאֶחָד לַחֹדֶשׁ תָּקִים אֶת־מִשְׁכַּן אֹהֶל מוֹעֵֽד׃",
+          "3": "וְשַׂמְתָּ שָׁם אֵת אֲרוֹן הָעֵדוּת וְסַכֹּתָ עַל־הָאָרֹן אֶת־הַפָּרֹֽכֶת׃"
+        }
+      },
+      "ref": {
+        "chapter": 40,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

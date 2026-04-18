@@ -6,74 +6,84 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-22-18-18",
+      "id": "joshua-22-24-24",
       "source": {
         "method": "llm",
         "book_code": "JOS",
         "book": "Joshua",
         "book_he": "יהושע",
         "chapter": 22,
-        "quote_verse_start": 16,
-        "quote_verse_end": 18
+        "quote_verse_start": 18,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
       },
       "en": {
-        "quote": "Thus saith the whole congregation of the LORD, What trespass is this that ye have committed against the God of Israel, to turn away this day from following the LORD, in that ye have builded you an altar, that ye might rebel this day against the LORD? Is the iniquity of Peor too little for us, from which we are not cleansed until this day, although there was a plague in the congregation of the LORD, But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel.",
-        "riddle": "But that ye must turn away this day from following the LORD?",
-        "speaker": "congregation of the LORD",
-        "listener": "Israel",
+        "quote": "But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel. Notwithstanding, if the land of your possession be unclean, then pass ye over unto the land of the possession of the LORD, wherein the LORD's tabernacle dwelleth, and take possession among us: but rebel not against the LORD, nor rebel against us, in building you an altar beside the altar of the LORD our God. Did not Achan the son of Zerah commit a trespass in the accursed thing, and wrath fell on all the congregation of Israel? and that man perished not alone in his iniquity. Then the children of Reuben and the children of Gad and the half tribe of Manasseh answered, and said unto the heads of the thousands of Israel, The LORD God of gods, the LORD God of gods, he knoweth, and Israel he shall know; if it be in rebellion, or if in transgression against the LORD, (save us not this day,) That we have built us an altar to turn from following the LORD, or if to offer thereon burnt offering or meat offering, or if to offer peace offerings thereon, let the LORD himself require it; And if we have not rather done it for fear of this thing, saying, In time to come your children might speak unto our children, saying, What have ye to do with the LORD God of Israel?",
+        "riddle": "In time to come your children might speak unto our children, saying, What have ye to do with the LORD God of Israel?",
+        "speaker": "children of Reuben, Gad, and Manasseh",
+        "listener": "heads of the thousands of Israel",
         "book": "Joshua",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "altar",
+        "bonus": "rebel",
         "bonus_hint": {
-          "quote": "And Noah builded an altar unto the LORD; and took of every clean beast, and of every clean fowl, and offered burnt offerings on the altar.",
+          "quote": "Only rebel not ye against the LORD, neither fear ye the people of the land; for they are bread for us: their defence is departed from them, and the LORD is with us: fear them not.",
           "source": {
-            "book": "Genesis",
-            "chapter": 8,
-            "start": 20,
-            "end": 20
+            "book": "Numbers",
+            "chapter": 14,
+            "start": 9,
+            "end": 9
           }
         }
       },
       "he": {
-        "quote": "כֹּה אָמְרוּ כֹּל עֲדַת יְהוָה מָֽה־הַמַּעַל הַזֶּה אֲשֶׁר מְעַלְתֶּם בֵּאלֹהֵי יִשְׂרָאֵל לָשׁוּב הַיּוֹם מֵאַחֲרֵי יְהוָה בִּבְנֽוֹתְכֶם לָכֶם מִזְבֵּחַ לִמְרָדְכֶם הַיּוֹם בַּיהוָֽה הַמְעַט־לָנוּ אֶת־עֲוֺן פְּעוֹר אֲשֶׁר לֹֽא־הִטַּהַרְנוּ מִמֶּנּוּ עַד הַיּוֹם הַזֶּה וַיְהִי הַנֶּגֶף בַּעֲדַת יְהוָֽה וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף",
-        "riddle": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם",
-        "speaker": "עֲדַת יְהוָה",
-        "listener": "עם יִשְׂרָאֵל",
+        "quote": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף וְאַךְ אִם־טְמֵאָה אֶרֶץ אֲחֻזַּתְכֶם עִבְרוּ לָכֶם אֶל־אֶרֶץ אֲחֻזַּת יְהוָה אֲשֶׁר שָֽׁכַן־שָׁם מִשְׁכַּן יְהוָה וְהֵאָחֲזוּ בְּתוֹכֵנוּ וּבַֽיהוָה אַל־תִּמְרֹדוּ וְאֹתָנוּ אֶל־תִּמְרֹדוּ בִּבְנֹֽתְכֶם לָכֶם מִזְבֵּחַ מִֽבַּלְעֲדֵי מִזְבַּח יְהוָה אֱלֹהֵֽינוּ הֲלוֹא עָכָן בֶּן־זֶרַח מָעַל מַעַל בַּחֵרֶם וְעַֽל־כָּל־עֲדַת יִשְׂרָאֵל הָיָה קָצֶף וְהוּא אִישׁ אֶחָד לֹא גָוַע בַּעֲוֺנֽוֹ וַֽיַּעֲנוּ בְּנֵי־רְאוּבֵן וּבְנֵי־גָד וַחֲצִי שֵׁבֶט הַֽמְנַשֶּׁה וַֽיְדַבְּרוּ אֶת־רָאשֵׁי אַלְפֵי יִשְׂרָאֵֽל אֵל אֱלֹהִים יְהוָה אֵל אֱלֹהִים יְהוָה הוּא יֹדֵעַ וְיִשְׂרָאֵל הוּא יֵדָע אִם־בְּמֶרֶד וְאִם־בְּמַעַל בַּֽיהוָה אַל־תּוֹשִׁיעֵנוּ הַיּוֹם הַזֶּֽה לִבְנוֹת לָנוּ מִזְבֵּחַ לָשׁוּב מֵאַחֲרֵי יְהוָה וְאִם־לְהַעֲלוֹת עָלָיו עוֹלָה וּמִנְחָה וְאִם־לַעֲשׂוֹת עָלָיו זִבְחֵי שְׁלָמִים יְהוָה הוּא יְבַקֵּֽשׁ וְאִם־לֹא מִדְּאָגָה מִדָּבָר עָשִׂינוּ אֶת־זֹאת לֵאמֹר מָחָר יֹאמְרוּ בְנֵיכֶם לְבָנֵינוּ לֵאמֹר מַה־לָּכֶם וְלַֽיהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+        "riddle": "מָחָר יֹאמְרוּ בְנֵיכֶם לְבָנֵינוּ לֵאמֹר מַה־לָּכֶם וְלַֽיהוָה אֱלֹהֵי יִשְׂרָאֵֽל",
+        "speaker": "בְּנֵי רְאוּבֵן וגדי וַחֲצִי שֵׁבֶט מְנַשֶּׁה",
+        "listener": "רָאשֵׁי אַלְפֵי יִשְׂרָאֵֽל",
         "book": "יהושע",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "מִזְבֵּחַ",
+        "bonus": "וְאַתֶּם",
         "bonus_hint": {
-          "quote": "וַיִּבֶן נֹחַ מִזְבֵּחַ לַֽיהוָה וַיִּקַּח מִכֹּל הַבְּהֵמָה הַטְּהוֹרָה וּמִכֹּל הָעוֹף הַטָּהֹר וַיַּעַל עֹלֹת בַּמִּזְבֵּֽחַ",
+          "quote": "אַךְ בַּֽיהוָה אַל־תִּמְרֹדוּ וְאַתֶּם אַל־תִּֽירְאוּ אֶת־עַם הָאָרֶץ כִּי לַחְמֵנוּ הֵם סָר צִלָּם מֵעֲלֵיהֶם וַֽיהוָה אִתָּנוּ אַל־תִּירָאֻֽם",
           "source": {
-            "book": "בראשית",
-            "chapter": 8,
-            "start": 20,
-            "end": 20
+            "book": "במדבר",
+            "chapter": 14,
+            "start": 9,
+            "end": 9
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "16": "Thus saith the whole congregation of the LORD, What trespass is this that ye have committed against the God of Israel, to turn away this day from following the LORD, in that ye have builded you an altar, that ye might rebel this day against the LORD?",
-          "17": "Is the iniquity of Peor too little for us, from which we are not cleansed until this day, although there was a plague in the congregation of the LORD,",
-          "18": "But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel."
+          "18": "But that ye must turn away this day from following the LORD? and it will be, seeing ye rebel to day against the LORD, that to morrow he will be wroth with the whole congregation of Israel.",
+          "19": "Notwithstanding, if the land of your possession be unclean, then pass ye over unto the land of the possession of the LORD, wherein the LORD's tabernacle dwelleth, and take possession among us: but rebel not against the LORD, nor rebel against us, in building you an altar beside the altar of the LORD our God.",
+          "20": "Did not Achan the son of Zerah commit a trespass in the accursed thing, and wrath fell on all the congregation of Israel? and that man perished not alone in his iniquity.",
+          "21": "Then the children of Reuben and the children of Gad and the half tribe of Manasseh answered, and said unto the heads of the thousands of Israel,",
+          "22": "The LORD God of gods, the LORD God of gods, he knoweth, and Israel he shall know; if it be in rebellion, or if in transgression against the LORD, (save us not this day,)",
+          "23": "That we have built us an altar to turn from following the LORD, or if to offer thereon burnt offering or meat offering, or if to offer peace offerings thereon, let the LORD himself require it;",
+          "24": "And if we have not rather done it for fear of this thing, saying, In time to come your children might speak unto our children, saying, What have ye to do with the LORD God of Israel?"
         },
         "he": {
-          "16": "כֹּה אָמְרוּ כֹּל ׀ עֲדַת יְהוָה מָֽה־הַמַּעַל הַזֶּה אֲשֶׁר מְעַלְתֶּם בֵּאלֹהֵי יִשְׂרָאֵל לָשׁוּב הַיּוֹם מֵאַחֲרֵי יְהוָה בִּבְנֽוֹתְכֶם לָכֶם מִזְבֵּחַ לִמְרָדְכֶם הַיּוֹם בַּיהוָֽה׃",
-          "17": "הַמְעַט־לָנוּ אֶת־עֲוֺן פְּעוֹר אֲשֶׁר לֹֽא־הִטַּהַרְנוּ מִמֶּנּוּ עַד הַיּוֹם הַזֶּה וַיְהִי הַנֶּגֶף בַּעֲדַת יְהוָֽה׃",
-          "18": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף׃"
+          "18": "וְאַתֶּם תָּשֻׁבוּ הַיּוֹם מֵאַחֲרֵי יְהוָה וְהָיָה אַתֶּם תִּמְרְדוּ הַיּוֹם בַּֽיהוָה וּמָחָר אֶֽל־כָּל־עֲדַת יִשְׂרָאֵל יִקְצֹֽף׃",
+          "19": "וְאַךְ אִם־טְמֵאָה אֶרֶץ אֲחֻזַּתְכֶם עִבְרוּ לָכֶם אֶל־אֶרֶץ אֲחֻזַּת יְהוָה אֲשֶׁר שָֽׁכַן־שָׁם מִשְׁכַּן יְהוָה וְהֵאָחֲזוּ בְּתוֹכֵנוּ וּבַֽיהוָה אַל־תִּמְרֹדוּ וְאֹתָנוּ אֶל־תִּמְרֹדוּ בִּבְנֹֽתְכֶם לָכֶם מִזְבֵּחַ מִֽבַּלְעֲדֵי מִזְבַּח יְהוָה אֱלֹהֵֽינוּ׃",
+          "20": "הֲלוֹא ׀ עָכָן בֶּן־זֶרַח מָעַל מַעַל בַּחֵרֶם וְעַֽל־כָּל־עֲדַת יִשְׂרָאֵל הָיָה קָצֶף וְהוּא אִישׁ אֶחָד לֹא גָוַע בַּעֲוֺנֽוֹ׃",
+          "21": "וַֽיַּעֲנוּ בְּנֵי־רְאוּבֵן וּבְנֵי־גָד וַחֲצִי שֵׁבֶט הַֽמְנַשֶּׁה וַֽיְדַבְּרוּ אֶת־רָאשֵׁי אַלְפֵי יִשְׂרָאֵֽל׃",
+          "22": "אֵל ׀ אֱלֹהִים ׀ יְהוָה אֵל ׀ אֱלֹהִים ׀ יְהוָה הוּא יֹדֵעַ וְיִשְׂרָאֵל הוּא יֵדָע אִם־בְּמֶרֶד וְאִם־בְּמַעַל בַּֽיהוָה אַל־תּוֹשִׁיעֵנוּ הַיּוֹם הַזֶּֽה׃",
+          "23": "לִבְנוֹת לָנוּ מִזְבֵּחַ לָשׁוּב מֵאַחֲרֵי יְהוָה וְאִם־לְהַעֲלוֹת עָלָיו עוֹלָה וּמִנְחָה וְאִם־לַעֲשׂוֹת עָלָיו זִבְחֵי שְׁלָמִים יְהוָה הוּא יְבַקֵּֽשׁ׃",
+          "24": "וְאִם־לֹא מִדְּאָגָה מִדָּבָר עָשִׂינוּ אֶת־זֹאת לֵאמֹר מָחָר יֹאמְרוּ בְנֵיכֶם לְבָנֵינוּ לֵאמֹר מַה־לָּכֶם וְלַֽיהוָה אֱלֹהֵי יִשְׂרָאֵֽל׃"
         }
       },
       "ref": {
         "chapter": 22,
-        "start": 16,
-        "end": 18
+        "start": 18,
+        "end": 24
       },
       "meta": {
         "mode": "llm",

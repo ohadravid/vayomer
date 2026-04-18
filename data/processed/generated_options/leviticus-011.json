@@ -1,0 +1,105 @@
+{
+  "book_code": "LEV",
+  "book": "Leviticus",
+  "book_he": "ויקרא",
+  "chapter": 11,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "leviticus-11-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 11,
+        "quote_verse_start": 1,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses and to Aaron, saying unto them, Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth. Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.",
+        "riddle": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat.",
+        "speaker": "LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus",
+        "options": {
+          "speaker": [
+            "Aaron and his sons",
+            "Moses",
+            "Balaam"
+          ],
+          "listener": [
+            "congregation",
+            "elders of Israel",
+            "Korah and his company"
+          ]
+        },
+        "bonus": "earth",
+        "bonus_hint": {
+          "quote": "And I will sever in that day the land of Goshen, in which my people dwell, that no swarms of flies shall be there; to the end thou mayest know that I am the LORD in the midst of the earth.",
+          "source": {
+            "book": "Exodus",
+            "chapter": 8,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹר אֲלֵהֶֽם דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ כֹּל מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ",
+        "riddle": "כֹּל מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא",
+        "options": {
+          "speaker": [
+            "אַהֲרֹן וּבָנָיו",
+            "מֹשֶׁה",
+            "בִּלְעָם"
+          ],
+          "listener": [
+            "הָעֵדָה",
+            "זִקְנֵי יִשְׂרָאֵל",
+            "קֹרַח ועדתו"
+          ]
+        },
+        "bonus": "מֹשֶׁה",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר מֹשֶׁה לֹא נָכוֹן לַעֲשׂוֹת כֵּן כִּי תּוֹעֲבַת מִצְרַיִם נִזְבַּח לַיהוָה אֱלֹהֵינוּ הֵן נִזְבַּח אֶת־תּוֹעֲבַת מִצְרַיִם לְעֵינֵיהֶם וְלֹא יִסְקְלֻֽנוּ",
+          "source": {
+            "book": "שמות",
+            "chapter": 8,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and to Aaron, saying unto them,",
+          "2": "Speak unto the children of Israel, saying, These are the beasts which ye shall eat among all the beasts that are on the earth.",
+          "3": "Whatsoever parteth the hoof, and is clovenfooted, and cheweth the cud, among the beasts, that shall ye eat."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹר אֲלֵהֶֽם׃",
+          "2": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל לֵאמֹר זֹאת הַֽחַיָּה אֲשֶׁר תֹּאכְלוּ מִכָּל־הַבְּהֵמָה אֲשֶׁר עַל־הָאָֽרֶץ׃",
+          "3": "כֹּל ׀ מַפְרֶסֶת פַּרְסָה וְשֹׁסַעַת שֶׁסַע פְּרָסֹת מַעֲלַת גֵּרָה בַּבְּהֵמָה אֹתָהּ תֹּאכֵֽלוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 1,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

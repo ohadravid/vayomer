@@ -4,12 +4,184 @@
   "book_he": "בראשית",
   "chapter": 11,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-11-03-03",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 11,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And they said one to another, Go to, let us make brick, and burn them throughly. And they had brick for stone, and slime had they for morter.",
+        "riddle": "Go to, let us make brick, and burn them throughly.",
+        "speaker": "the people",
+        "listener": "the people",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אִישׁ אֶל־רֵעֵהוּ הָבָה נִלְבְּנָה לְבֵנִים וְנִשְׂרְפָה לִשְׂרֵפָה וַתְּהִי לָהֶם הַלְּבֵנָה לְאָבֶן וְהַחֵמָר הָיָה לָהֶם לַחֹֽמֶר",
+        "riddle": "הָבָה נִלְבְּנָה לְבֵנִים וְנִשְׂרְפָה לִשְׂרֵפָה וַתְּהִי לָהֶם הַלְּבֵנָה לְאָבֶן וְהַחֵמָר הָיָה לָהֶם",
+        "speaker": "אִישׁ",
+        "listener": "רֵעֵהוּ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And they said one to another, Go to, let us make brick, and burn them throughly. And they had brick for stone, and slime had they for morter."
+        },
+        "he": {
+          "3": "וַיֹּאמְרוּ אִישׁ אֶל־רֵעֵהוּ הָבָה נִלְבְּנָה לְבֵנִים וְנִשְׂרְפָה לִשְׂרֵפָה וַתְּהִי לָהֶם הַלְּבֵנָה לְאָבֶן וְהַחֵמָר הָיָה לָהֶם לַחֹֽמֶר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-11-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 11,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+        "riddle": "Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+        "speaker": "the people",
+        "listener": "the people",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הָבָה נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַֽעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כָל־הָאָֽרֶץ",
+        "riddle": "וַיֹּאמְרוּ הָבָה נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַֽעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כָל־הָאָֽרֶץ",
+        "speaker": "הָעָם",
+        "listener": "הָעָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And they said, Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth."
+        },
+        "he": {
+          "4": "וַיֹּאמְרוּ הָבָה ׀ נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַֽעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כָל־הָאָֽרֶץ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command/proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-11-06-06",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 11,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.",
+        "riddle": "Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do.",
+        "speaker": "the LORD",
+        "listener": "the people",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה הֵן עַם אֶחָד וְשָׂפָה אַחַת לְכֻלָּם וְזֶה הַחִלָּם לַעֲשׂוֹת וְעַתָּה לֹֽא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַֽעֲשֽׂוֹת",
+        "riddle": "וַיֹּאמֶר יְהוָה הֵן עַם אֶחָד וְשָׂפָה אַחַת לְכֻלָּם וְזֶה הַחִלָּם לַעֲשׂוֹת וְעַתָּה לֹֽא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַֽעֲשֽׂוֹת",
+        "speaker": "יְהוָה",
+        "listener": "עַם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And the LORD said, Behold, the people is one, and they have all one language; and this they begin to do: and now nothing will be restrained from them, which they have imagined to do."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יְהוָה הֵן עַם אֶחָד וְשָׂפָה אַחַת לְכֻלָּם וְזֶה הַחִלָּם לַעֲשׂוֹת וְעַתָּה לֹֽא־יִבָּצֵר מֵהֶם כֹּל אֲשֶׁר יָזְמוּ לַֽעֲשֽׂוֹת׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-11-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 11,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "Go to, let us go down, and there confound their language, that they may not understand one another's speech.",
+        "riddle": "Go to, let us go down, and there confound their language, that they may not understand one another's speech.",
+        "speaker": "the LORD",
+        "listener": "the LORD",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "הָבָה נֵֽרְדָה וְנָבְלָה שָׁם שְׂפָתָם אֲשֶׁר לֹא יִשְׁמְעוּ אִישׁ שְׂפַת רֵעֵֽהוּ",
+        "riddle": "הָבָה נֵֽרְדָה וְנָבְלָה שָׁם שְׂפָתָם אֲשֶׁר לֹא יִשְׁמְעוּ אִישׁ שְׂפַת רֵעֵֽהוּ",
+        "speaker": "יְהוָה",
+        "listener": "יְהוָה",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "Go to, let us go down, and there confound their language, that they may not understand one another's speech."
+        },
+        "he": {
+          "7": "הָבָה נֵֽרְדָה וְנָבְלָה שָׁם שְׂפָתָם אֲשֶׁר לֹא יִשְׁמְעוּ אִישׁ שְׂפַת רֵעֵֽהוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 7,
+        "end": 7
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 2,
+    "projection_llm_count": 4,
+    "llm_call_count": 6,
+    "spec_count": 4,
+    "kept_count": 4,
+    "issue_count": 0
   }
 }

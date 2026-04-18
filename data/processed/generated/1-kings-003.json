@@ -1,0 +1,333 @@
+{
+  "book_code": "1KI",
+  "book": "1 Kings",
+  "book_he": "מלכים א",
+  "chapter": 3,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-kings-03-05-05",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+        "riddle": "Ask what I shall give thee",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "dream",
+        "bonus_hint": {
+          "quote": "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ",
+        "riddle": "שְׁאַל מָה אֶתֶּן־לָֽך",
+        "speaker": "אֱלֹהִים",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּחֲלוֹם",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִנְּךָ מֵת עַל־הָאִשָּׁה אֲשֶׁר־לָקַחְתָּ וְהִוא בְּעֻלַת בָּֽעַל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee."
+        },
+        "he": {
+          "5": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-03-06-06",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 5,
+        "quote_verse_end": 6,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee. And Solomon said, Thou hast shewed unto thy servant David my father great mercy, according as he walked before thee in truth, and in righteousness, and in uprightness of heart with thee; and thou hast kept for him this great kindness, that thou hast given him a son to sit on his throne, as it is this day.",
+        "riddle": "Thou hast shewed unto thy servant David my father great mercy",
+        "speaker": "Solomon",
+        "listener": "God",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "dream",
+        "bonus_hint": {
+          "quote": "But God came to Abimelech in a dream by night, and said to him, Behold, thou art but a dead man, for the woman which thou hast taken; for she is a man's wife.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ וַיֹּאמֶר שְׁלֹמֹה אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה וּבְיִשְׁרַת לֵבָב עִמָּךְ וַתִּשְׁמָר־לוֹ אֶת־הַחֶסֶד הַגָּדוֹל הַזֶּה וַתִּתֶּן־לוֹ בֵן יֹשֵׁב עַל־כִּסְאוֹ כַּיּוֹם הַזֶּֽה",
+        "riddle": "אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה",
+        "speaker": "שְׁלֹמֹה",
+        "listener": "אֱלֹהִים",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בַּחֲלוֹם",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא אֱלֹהִים אֶל־אֲבִימֶלֶךְ בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר לוֹ הִנְּךָ מֵת עַל־הָאִשָּׁה אֲשֶׁר־לָקַחְתָּ וְהִוא בְּעֻלַת בָּֽעַל",
+          "source": {
+            "book": "בראשית",
+            "chapter": 20,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "In Gibeon the LORD appeared to Solomon in a dream by night: and God said, Ask what I shall give thee.",
+          "6": "And Solomon said, Thou hast shewed unto thy servant David my father great mercy, according as he walked before thee in truth, and in righteousness, and in uprightness of heart with thee; and thou hast kept for him this great kindness, that thou hast given him a son to sit on his throne, as it is this day."
+        },
+        "he": {
+          "5": "בְּגִּבְעוֹן נִרְאָה יְהֹוָה אֶל־שְׁלֹמֹה בַּחֲלוֹם הַלָּיְלָה וַיֹּאמֶר אֱלֹהִים שְׁאַל מָה אֶתֶּן־לָֽךְ׃",
+          "6": "וַיֹּאמֶר שְׁלֹמֹה אַתָּה עָשִׂיתָ עִם־עַבְדְּךָ דָוִד אָבִי חֶסֶד גָּדוֹל כַּאֲשֶׁר הָלַךְ לְפָנֶיךָ בֶּאֱמֶת וּבִצְדָקָה וּבְיִשְׁרַת לֵבָב עִמָּךְ וַתִּשְׁמָר־לוֹ אֶת־הַחֶסֶד הַגָּדוֹל הַזֶּה וַתִּתֶּן־לוֹ בֵן יֹשֵׁב עַל־כִּסְאוֹ כַּיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 5,
+        "end": 6
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-03-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 10,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And the speech pleased the Lord, that Solomon had asked this thing. And God said unto him, Because thou hast asked this thing, and hast not asked for thyself long life; neither hast asked riches for thyself, nor hast asked the life of thine enemies; but hast asked for thyself understanding to discern judgment; Behold, I have done according to thy words: lo, I have given thee a wise and an understanding heart; so that there was none like thee before thee, neither after thee shall any arise like unto thee. And I have also given thee that which thou hast not asked, both riches, and honour: so that there shall not be any among the kings like unto thee all thy days. And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+        "riddle": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days.",
+        "speaker": "God",
+        "listener": "Solomon",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "life",
+        "bonus_hint": {
+          "quote": "Then king Solomon sware by the LORD, saying, God do so to me, and more also, if Adonijah have not spoken this word against his own life.",
+          "source": {
+            "book": "1 Kings",
+            "chapter": 2,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיִּיטַב הַדָּבָר בְּעֵינֵי אֲדֹנָי כִּי שָׁאַל שְׁלֹמֹה אֶת־הַדָּבָר הַזֶּֽה וַיֹּאמֶר אֱלֹהִים אֵלָיו יַעַן אֲשֶׁר שָׁאַלְתָּ אֶת־הַדָּבָר הַזֶּה וְלֹֽא־שָׁאַלְתָּ לְּךָ יָמִים רַבִּים וְלֹֽא־שָׁאַלְתָּ לְּךָ עֹשֶׁר וְלֹא שָׁאַלְתָּ נֶפֶשׁ אֹיְבֶיךָ וְשָׁאַלְתָּ לְּךָ הָבִין לִשְׁמֹעַ מִשְׁפָּֽט הִנֵּה עָשִׂיתִי כִּדְבָרֶיךָ הִנֵּה נָתַתִּי לְךָ לֵב חָכָם וְנָבוֹן אֲשֶׁר כָּמוֹךָ לֹא־הָיָה לְפָנֶיךָ וְאַחֲרֶיךָ לֹא־יָקוּם כָּמֽוֹךָ וְגַם אֲשֶׁר לֹֽא־שָׁאַלְתָּ נָתַתִּי לָךְ גַּם־עֹשֶׁר גַּם־כָּבוֹד אֲשֶׁר לֹא־הָיָה כָמוֹךָ אִישׁ בַּמְּלָכִים כָּל־יָמֶֽיךָ וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ",
+        "riddle": "וְאִם תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ",
+        "speaker": "אֱלֹהִים",
+        "listener": "שְׁלֹמֹה",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הַדָּבָר",
+        "bonus_hint": {
+          "quote": "וַיִּשָּׁבַע הַמֶּלֶךְ שְׁלֹמֹה בַּֽיהוָה לֵאמֹר כֹּה יַֽעֲשֶׂה־לִּי אֱלֹהִים וְכֹה יוֹסִיף כִּי בְנַפְשׁוֹ דִּבֶּר אֲדֹנִיָּהוּ אֶת־הַדָּבָר הַזֶּֽה",
+          "source": {
+            "book": "מלכים א",
+            "chapter": 2,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "10": "And the speech pleased the Lord, that Solomon had asked this thing.",
+          "11": "And God said unto him, Because thou hast asked this thing, and hast not asked for thyself long life; neither hast asked riches for thyself, nor hast asked the life of thine enemies; but hast asked for thyself understanding to discern judgment;",
+          "12": "Behold, I have done according to thy words: lo, I have given thee a wise and an understanding heart; so that there was none like thee before thee, neither after thee shall any arise like unto thee.",
+          "13": "And I have also given thee that which thou hast not asked, both riches, and honour: so that there shall not be any among the kings like unto thee all thy days.",
+          "14": "And if thou wilt walk in my ways, to keep my statutes and my commandments, as thy father David did walk, then I will lengthen thy days."
+        },
+        "he": {
+          "10": "וַיִּיטַב הַדָּבָר בְּעֵינֵי אֲדֹנָי כִּי שָׁאַל שְׁלֹמֹה אֶת־הַדָּבָר הַזֶּֽה׃",
+          "11": "וַיֹּאמֶר אֱלֹהִים אֵלָיו יַעַן אֲשֶׁר שָׁאַלְתָּ אֶת־הַדָּבָר הַזֶּה וְלֹֽא־שָׁאַלְתָּ לְּךָ יָמִים רַבִּים וְלֹֽא־שָׁאַלְתָּ לְּךָ עֹשֶׁר וְלֹא שָׁאַלְתָּ נֶפֶשׁ אֹיְבֶיךָ וְשָׁאַלְתָּ לְּךָ הָבִין לִשְׁמֹעַ מִשְׁפָּֽט׃",
+          "12": "הִנֵּה עָשִׂיתִי כִּדְבָרֶיךָ הִנֵּה ׀ נָתַתִּי לְךָ לֵב חָכָם וְנָבוֹן אֲשֶׁר כָּמוֹךָ לֹא־הָיָה לְפָנֶיךָ וְאַחֲרֶיךָ לֹא־יָקוּם כָּמֽוֹךָ׃",
+          "13": "וְגַם אֲשֶׁר לֹֽא־שָׁאַלְתָּ נָתַתִּי לָךְ גַּם־עֹשֶׁר גַּם־כָּבוֹד אֲשֶׁר לֹא־הָיָה כָמוֹךָ אִישׁ בַּמְּלָכִים כָּל־יָמֶֽיךָ׃",
+          "14": "וְאִם ׀ תֵּלֵךְ בִּדְרָכַי לִשְׁמֹר חֻקַּי וּמִצְוֺתַי כַּאֲשֶׁר הָלַךְ דָּוִיד אָבִיךָ וְהַאַרַכְתִּי אֶת־יָמֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 10,
+        "end": 14
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-kings-03-25-25",
+      "source": {
+        "method": "llm",
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 3,
+        "quote_verse_start": 22,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the other woman said, Nay; but the living is my son, and the dead is thy son. And this said, No; but the dead is thy son, and the living is my son. Thus they spake before the king. Then said the king, The one saith, This is my son that liveth, and thy son is the dead: and the other saith, Nay; but thy son is the dead, and my son is the living. And the king said, Bring me a sword. And they brought a sword before the king. And the king said, Divide the living child in two, and give half to the one, and half to the other. Then spake the woman whose the living child was unto the king, for her bowels yearned upon her son, and she said, O my lord, give her the living child, and in no wise slay it. But the other said, Let it be neither mine nor thine, but divide it. Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof.",
+        "riddle": "Divide the living child in two, and give half to the one, and half to the other.",
+        "speaker": "king",
+        "listener": "two women",
+        "book": "1 Kings",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sword",
+        "bonus_hint": {
+          "quote": "I have set the point of the sword against all their gates, that their heart may faint, and their ruins be multiplied: ah! it is made bright, it is wrapped up for the slaughter.",
+          "source": {
+            "book": "Ezekiel",
+            "chapter": 21,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָאִשָּׁה הָאַחֶרֶת לֹא כִי בְּנִי הַחַי וּבְנֵךְ הַמֵּת וְזֹאת אֹמֶרֶת לֹא כִי בְּנֵךְ הַמֵּת וּבְנִי הֶחָי וַתְּדַבֵּרְנָה לִפְנֵי הַמֶּֽלֶךְ וַיֹּאמֶר הַמֶּלֶךְ זֹאת אֹמֶרֶת זֶה־בְּנִי הַחַי וּבְנֵךְ הַמֵּת וְזֹאת אֹמֶרֶת לֹא כִי בְּנֵךְ הַמֵּת וּבְנִי הֶחָֽי וַיֹּאמֶר הַמֶּלֶךְ קְחוּ לִי־חָרֶב וַיָּבִאוּ הַחֶרֶב לִפְנֵי הַמֶּֽלֶךְ וַיֹּאמֶר הַמֶּלֶךְ גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת וַתֹּאמֶר הָאִשָּׁה אֲשֶׁר־בְּנָהּ הַחַי אֶל־הַמֶּלֶךְ כִּֽי־נִכְמְרוּ רַחֲמֶיהָ עַל־בְּנָהּ וַתֹּאמֶר בִּי אֲדֹנִי תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת אַל־תְּמִיתֻהוּ וְזֹאת אֹמֶרֶת גַּם־לִי גַם־לָךְ לֹא יִהְיֶה גְּזֹֽרוּ וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת לֹא תְמִיתֻהוּ הִיא אִמּֽוֹ",
+        "riddle": "גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת",
+        "speaker": "הַמֶּֽלֶךְ",
+        "listener": "שתי הנשים",
+        "book": "מלכים א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "בְּנִי",
+        "bonus_hint": {
+          "quote": "לְמַעַן טְבֹחַ טֶבַח הוּחַדָּה לְמַעַן־הֱיֵה־לָהּ בָּרָק מֹרָטָּה אוֹ נָשִׂישׂ שֵׁבֶט בְּנִי מֹאֶסֶת כָּל־עֵֽץ",
+          "source": {
+            "book": "יחזקאל",
+            "chapter": 21,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And the other woman said, Nay; but the living is my son, and the dead is thy son. And this said, No; but the dead is thy son, and the living is my son. Thus they spake before the king.",
+          "23": "Then said the king, The one saith, This is my son that liveth, and thy son is the dead: and the other saith, Nay; but thy son is the dead, and my son is the living.",
+          "24": "And the king said, Bring me a sword. And they brought a sword before the king.",
+          "25": "And the king said, Divide the living child in two, and give half to the one, and half to the other.",
+          "26": "Then spake the woman whose the living child was unto the king, for her bowels yearned upon her son, and she said, O my lord, give her the living child, and in no wise slay it. But the other said, Let it be neither mine nor thine, but divide it.",
+          "27": "Then the king answered and said, Give her the living child, and in no wise slay it: she is the mother thereof."
+        },
+        "he": {
+          "22": "וַתֹּאמֶר הָאִשָּׁה הָאַחֶרֶת לֹא כִי בְּנִי הַחַי וּבְנֵךְ הַמֵּת וְזֹאת אֹמֶרֶת לֹא כִי בְּנֵךְ הַמֵּת וּבְנִי הֶחָי וַתְּדַבֵּרְנָה לִפְנֵי הַמֶּֽלֶךְ׃",
+          "23": "וַיֹּאמֶר הַמֶּלֶךְ זֹאת אֹמֶרֶת זֶה־בְּנִי הַחַי וּבְנֵךְ הַמֵּת וְזֹאת אֹמֶרֶת לֹא כִי בְּנֵךְ הַמֵּת וּבְנִי הֶחָֽי׃",
+          "24": "וַיֹּאמֶר הַמֶּלֶךְ קְחוּ לִי־חָרֶב וַיָּבִאוּ הַחֶרֶב לִפְנֵי הַמֶּֽלֶךְ׃",
+          "25": "וַיֹּאמֶר הַמֶּלֶךְ גִּזְרוּ אֶת־הַיֶּלֶד הַחַי לִשְׁנָיִם וּתְנוּ אֶֽת־הַחֲצִי לְאַחַת וְאֶֽת־הַחֲצִי לְאֶחָֽת׃",
+          "26": "וַתֹּאמֶר הָאִשָּׁה אֲשֶׁר־בְּנָהּ הַחַי אֶל־הַמֶּלֶךְ כִּֽי־נִכְמְרוּ רַחֲמֶיהָ עַל־בְּנָהּ וַתֹּאמֶר ׀ בִּי אֲדֹנִי תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת אַל־תְּמִיתֻהוּ וְזֹאת אֹמֶרֶת גַּם־לִי גַם־לָךְ לֹא יִהְיֶה גְּזֹֽרוּ׃",
+          "27": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר תְּנוּ־לָהּ אֶת־הַיָּלוּד הַחַי וְהָמֵת לֹא תְמִיתֻהוּ הִיא אִמּֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 22,
+        "end": 27
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

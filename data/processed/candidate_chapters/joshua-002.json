@@ -6,47 +6,219 @@
   "mode": "llm",
   "items": [
     {
-      "id": "joshua-02-04-05",
+      "id": "joshua-02-02-02",
       "source": {
         "book_code": "JOS",
         "book": "Joshua",
         "book_he": "יהושע",
         "chapter": 2,
-        "quote_verse_start": 4,
-        "quote_verse_end": 5
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
       },
       "en": {
-        "quote": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were: And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them.",
-        "riddle": "pursue after them quickly; for ye shall overtake them.",
-        "speaker": "the woman",
-        "listener": "the pursuers",
+        "quote": "And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country.",
+        "riddle": "Behold, there came men in hither to night of the children of Israel to search out the country.",
+        "speaker": "informant",
+        "listener": "king of Jericho",
         "book": "Joshua"
       },
       "he": {
-        "quote": "וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
-        "riddle": "מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם",
-        "speaker": "הָֽאִשָּׁה",
-        "listener": "הרודפים",
+        "quote": "וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ",
+        "riddle": "הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ",
+        "speaker": "מְבַשֵּׂר",
+        "listener": "מֶלֶךְ יְרִיחוֹ",
         "book": "יהושע"
       },
       "raw_quote_source": {
         "en": {
-          "4": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
-          "5": "And it came to pass about the time of shutting of the gate, when it was dark, that the men went out: whither the men went I wot not: pursue after them quickly; for ye shall overtake them."
+          "2": "And it was told the king of Jericho, saying, Behold, there came men in hither to night of the children of Israel to search out the country."
         },
         "he": {
-          "4": "וַתִּקַּח הָֽאִשָּׁה אֶת־שְׁנֵי הָאֲנָשִׁים וַֽתִּצְפְּנוֹ וַתֹּאמֶר ׀ כֵּן בָּאוּ אֵלַי הָֽאֲנָשִׁים וְלֹא יָדַעְתִּי מֵאַיִן הֵֽמָּה׃",
-          "5": "וַיְהִי הַשַּׁעַר לִסְגּוֹר בַּחֹשֶׁךְ וְהָאֲנָשִׁים יָצָאוּ לֹא יָדַעְתִּי אָנָה הָלְכוּ הָֽאֲנָשִׁים רִדְפוּ מַהֵר אַחֲרֵיהֶם כִּי תַשִּׂיגֽוּם׃"
+          "2": "וַיֵּאָמַר לְמֶלֶךְ יְרִיחוֹ לֵאמֹר הִנֵּה אֲנָשִׁים בָּאוּ הֵנָּה הַלַּיְלָה מִבְּנֵי יִשְׂרָאֵל לַחְפֹּר אֶת־הָאָֽרֶץ׃"
         }
       },
       "meta": {
-        "reason": "Direct command and prediction.",
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "joshua-02-03-03",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
+        "riddle": "Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country.",
+        "speaker": "king of Jericho",
+        "listener": "Rahab",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ",
+        "riddle": "הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאו",
+        "speaker": "מֶלֶךְ יְרִיחוֹ",
+        "listener": "רָחָב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the king of Jericho sent unto Rahab, saying, Bring forth the men that are come to thee, which are entered into thine house: for they be come to search out all the country."
+        },
+        "he": {
+          "3": "וַיִּשְׁלַח מֶלֶךְ יְרִיחוֹ אֶל־רָחָב לֵאמֹר הוֹצִיאִי הָאֲנָשִׁים הַבָּאִים אֵלַיִךְ אֲשֶׁר־בָּאוּ לְבֵיתֵךְ כִּי לַחְפֹּר אֶת־כָּל־הָאָרֶץ בָּֽאוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 2,
-        "start": 4,
-        "end": 5
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "joshua-02-14-14-1",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+        "riddle": "Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+        "speaker": "spies",
+        "listener": "Rahab",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת",
+        "riddle": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רָחָב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee."
+        },
+        "he": {
+          "14": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply and promise",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "joshua-02-14-14-2",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee.",
+        "riddle": "Our life for yours, if ye utter not this our business.",
+        "speaker": "the men",
+        "listener": "Rahab",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת",
+        "riddle": "נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רָחָב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the men answered her, Our life for yours, if ye utter not this our business. And it shall be, when the LORD hath given us the land, that we will deal kindly and truly with thee."
+        },
+        "he": {
+          "14": "וַיֹּאמְרוּ לָהּ הָאֲנָשִׁים נַפְשֵׁנוּ תַחְתֵּיכֶם לָמוּת אִם לֹא תַגִּידוּ אֶת־דְּבָרֵנוּ זֶה וְהָיָה בְּתֵת־יְהוָה לָנוּ אֶת־הָאָרֶץ וְעָשִׂינוּ עִמָּךְ חֶסֶד וֶאֱמֶֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "joshua-02-16-16",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+        "riddle": "Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+        "speaker": "Rahab",
+        "listener": "the spies",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם",
+        "riddle": "לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם",
+        "speaker": "רָחָב",
+        "listener": "הַמַּרְגְּלִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way."
+        },
+        "he": {
+          "16": "וַתֹּאמֶר לָהֶם הָהָרָה לֵּכוּ פֶּֽן־יִפְגְּעוּ בָכֶם הָרֹדְפִים וְנַחְבֵּתֶם שָׁמָּה שְׁלֹשֶׁת יָמִים עַד שׁוֹב הָרֹֽדְפִים וְאַחַר תֵּלְכוּ לְדַרְכְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 16,
+        "end": 16
       }
     },
     {
@@ -57,7 +229,9 @@
         "book_he": "יהושע",
         "chapter": 2,
         "quote_verse_start": 17,
-        "quote_verse_end": 17
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
       },
       "en": {
         "quote": "And the men said unto her, We will be blameless of this thine oath which thou hast made us swear.",
@@ -68,9 +242,9 @@
       },
       "he": {
         "quote": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ",
-        "riddle": "וַיֹּאמְרוּ אֵלֶיהָ הָאֲנָשִׁים נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנוּ",
+        "riddle": "נְקִיִּם אֲנַחְנוּ מִשְּׁבֻעָתֵךְ הַזֶּה אֲשֶׁר הִשְׁבַּעְתָּֽנו",
         "speaker": "הָאֲנָשִׁים",
-        "listener": "רעב",
+        "listener": "רָחָב",
         "book": "יהושע"
       },
       "raw_quote_source": {
@@ -82,7 +256,7 @@
         }
       },
       "meta": {
-        "reason": "Direct speech containing a promise.",
+        "reason": "direct reply",
         "confidence": 0.95
       },
       "ref": {
@@ -90,13 +264,190 @@
         "start": 17,
         "end": 17
       }
+    },
+    {
+      "id": "joshua-02-18-18",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 18,
+        "listener_mention_verse": 18
+      },
+      "en": {
+        "quote": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.",
+        "riddle": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee.",
+        "speaker": "the men",
+        "listener": "Rahab",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה",
+        "riddle": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "רָחָב",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "Behold, when we come into the land, thou shalt bind this line of scarlet thread in the window which thou didst let us down by: and thou shalt bring thy father, and thy mother, and thy brethren, and all thy father's household, home unto thee."
+        },
+        "he": {
+          "18": "הִנֵּה אֲנַחְנוּ בָאִים בָּאָרֶץ אֶת־תִּקְוַת חוּט הַשָּׁנִי הַזֶּה תִּקְשְׁרִי בַּֽחַלּוֹן אֲשֶׁר הוֹרַדְתֵּנוּ בוֹ וְאֶת־אָבִיךְ וְאֶת־אִמֵּךְ וְאֶת־אַחַיִךְ וְאֵת כָּל־בֵּית אָבִיךְ תַּאַסְפִי אֵלַיִךְ הַבָּֽיְתָה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "joshua-02-19-19",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19
+      },
+      "en": {
+        "quote": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him.",
+        "riddle": "whosoever shall be with thee in the house, his blood shall be on our head",
+        "speaker": "Rahab",
+        "listener": "spies",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ",
+        "riddle": "כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ",
+        "speaker": "רָחָב",
+        "listener": "הַמּוֹלְכִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And it shall be, that whosoever shall go out of the doors of thy house into the street, his blood shall be upon his head, and we will be guiltless: and whosoever shall be with thee in the house, his blood shall be on our head, if any hand be upon him."
+        },
+        "he": {
+          "19": "וְהָיָה כֹּל אֲשֶׁר־יֵצֵא מִדַּלְתֵי בֵיתֵךְ ׀ הַחוּצָה דָּמוֹ בְרֹאשׁוֹ וַאֲנַחְנוּ נְקִיִּם וְכֹל אֲשֶׁר יִֽהְיֶה אִתָּךְ בַּבַּיִת דָּמוֹ בְרֹאשֵׁנוּ אִם־יָד תִּֽהְיֶה־בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "warning/declaration",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "joshua-02-21-21",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window.",
+        "riddle": "According unto your words, so be it.",
+        "speaker": "Rahab",
+        "listener": "spies",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן",
+        "riddle": "כְּדִבְרֵיכֶם כֶּן־הוּא",
+        "speaker": "רָחָב",
+        "listener": "הַמַּרְגְּלִים",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And she said, According unto your words, so be it. And she sent them away, and they departed: and she bound the scarlet line in the window."
+        },
+        "he": {
+          "21": "וַתֹּאמֶר כְּדִבְרֵיכֶם כֶּן־הוּא וַֽתְּשַׁלְּחֵם וַיֵּלֵכוּ וַתִּקְשֹׁר אֶת־תִּקְוַת הַשָּׁנִי בַּחַלּֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "joshua-02-24-24",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 2,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And they said unto Joshua, Truly the LORD hath delivered into our hands all the land; for even all the inhabitants of the country do faint because of us.",
+        "riddle": "Truly the LORD hath delivered into our hands all the land",
+        "speaker": "spies",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפָּנֵֽינוּ",
+        "riddle": "כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ",
+        "speaker": "הַמַּרְגְּלִים",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And they said unto Joshua, Truly the LORD hath delivered into our hands all the land; for even all the inhabitants of the country do faint because of us."
+        },
+        "he": {
+          "24": "וַיֹּאמְרוּ אֶל־יְהוֹשֻׁעַ כִּֽי־נָתַן יְהוָה בְּיָדֵנוּ אֶת־כָּל־הָאָרֶץ וְגַם־נָמֹגוּ כָּל־יֹשְׁבֵי הָאָרֶץ מִפָּנֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 2,
+        "start": 24,
+        "end": 24
+      }
     }
   ],
   "stats": {
-    "window_count": 17,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 17,
-    "kept_count": 2,
-    "issue_count": 15
+    "llm_window_count": 4,
+    "projection_llm_count": 14,
+    "llm_call_count": 18,
+    "spec_count": 14,
+    "kept_count": 10,
+    "issue_count": 5
   }
 }

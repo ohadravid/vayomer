@@ -4,12 +4,58 @@
   "book_he": "מלכים א",
   "chapter": 15,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "1-kings-15-23-23",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 15,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23
+      },
+      "en": {
+        "quote": "The rest of all the acts of Asa, and all his might, and all that he did, and the cities which he built, are they not written in the book of the chronicles of the kings of Judah? Nevertheless in the time of his old age he was diseased in his feet.",
+        "riddle": "are they not written in the book of the chronicles of the kings of Judah?",
+        "speaker": "narrator",
+        "listener": "reader",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וְיֶתֶר כָּל־דִּבְרֵֽי־אָסָא וְכָל־גְּבוּרָתוֹ וְכָל־אֲשֶׁר עָשָׂה וְהֶֽעָרִים אֲשֶׁר בָּנָה הֲלֹֽא־הֵמָּה כְתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָה רַק לְעֵת זִקְנָתוֹ חָלָה אֶת־רַגְלָֽיו",
+        "riddle": "וְכָל־אֲשֶׁר עָשָׂה וְהֶֽעָרִים אֲשֶׁר בָּנָה הֲלֹֽא־הֵמָּה כְתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָה",
+        "speaker": "נָבִיא",
+        "listener": "קֹורֵא",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "The rest of all the acts of Asa, and all his might, and all that he did, and the cities which he built, are they not written in the book of the chronicles of the kings of Judah? Nevertheless in the time of his old age he was diseased in his feet."
+        },
+        "he": {
+          "23": "וְיֶתֶר כָּל־דִּבְרֵֽי־אָסָא וְכָל־גְּבוּרָתוֹ וְכָל־אֲשֶׁר עָשָׂה וְהֶֽעָרִים אֲשֶׁר בָּנָה הֲלֹֽא־הֵמָּה כְתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָה רַק לְעֵת זִקְנָתוֹ חָלָה אֶת־רַגְלָֽיו׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 23,
+        "end": 23
+      }
+    }
+  ],
   "stats": {
-    "window_count": 12,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 0,
-    "issue_count": 12
+    "llm_window_count": 4,
+    "projection_llm_count": 2,
+    "llm_call_count": 6,
+    "spec_count": 2,
+    "kept_count": 1,
+    "issue_count": 1
   }
 }

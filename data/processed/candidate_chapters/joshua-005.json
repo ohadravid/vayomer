@@ -4,12 +4,236 @@
   "book_he": "יהושע",
   "chapter": 5,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "joshua-05-02-02",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 5,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "At that time the LORD said unto Joshua, Make thee sharp knives, and circumcise again the children of Israel the second time.",
+        "riddle": "Make thee sharp knives, and circumcise again the children of Israel the second time.",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "בָּעֵת הַהִיא אָמַר יְהוָה אֶל־יְהוֹשֻׁעַ עֲשֵׂה לְךָ חַֽרְבוֹת צֻרִים וְשׁוּב מֹל אֶת־בְּנֵֽי־יִשְׂרָאֵל שֵׁנִֽית",
+        "riddle": "עֲשֵׂה לְךָ חַֽרְבוֹת צֻרִים וְשׁוּב מֹל אֶת־בְּנֵֽי־יִשְׂרָאֵל שֵׁנִֽית",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "At that time the LORD said unto Joshua, Make thee sharp knives, and circumcise again the children of Israel the second time."
+        },
+        "he": {
+          "2": "בָּעֵת הַהִיא אָמַר יְהוָה אֶל־יְהוֹשֻׁעַ עֲשֵׂה לְךָ חַֽרְבוֹת צֻרִים וְשׁוּב מֹל אֶת־בְּנֵֽי־יִשְׂרָאֵל שֵׁנִֽית׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "joshua-05-09-09",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 5,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the LORD said unto Joshua, This day have I rolled away the reproach of Egypt from off you. Wherefore the name of the place is called Gilgal unto this day.",
+        "riddle": "This day have I rolled away the reproach of Egypt from off you.",
+        "speaker": "the LORD",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם גַּלּוֹתִי אֶת־חֶרְפַּת מִצְרַיִם מֵעֲלֵיכֶם וַיִּקְרָא שֵׁם הַמָּקוֹם הַהוּא גִּלְגָּל עַד הַיּוֹם הַזֶּֽה",
+        "riddle": "הַיּוֹם גַּלּוֹתִי אֶת־חֶרְפַּת מִצְרַיִם מֵעֲלֵיכֶם וַיִּקְרָא שֵׁם הַמָּקוֹם הַהוּא גִּלְגָּל",
+        "speaker": "יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Joshua, This day have I rolled away the reproach of Egypt from off you. Wherefore the name of the place is called Gilgal unto this day."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־יְהוֹשֻׁעַ הַיּוֹם גַּלּוֹתִי אֶת־חֶרְפַּת מִצְרַיִם מֵעֲלֵיכֶם וַיִּקְרָא שֵׁם הַמָּקוֹם הַהוּא גִּלְגָּל עַד הַיּוֹם הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "joshua-05-14-14-1",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 5,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?",
+        "riddle": "Nay; but as captain of the host of the LORD am I now come.",
+        "speaker": "captain of the host",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לֹא כִּי אֲנִי שַׂר־צְבָֽא־יְהוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל־פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ מָה אֲדֹנִי מְדַבֵּר אֶל־עַבְדּֽוֹ",
+        "riddle": "לֹא כִּי אֲנִי שַׂר־צְבָֽא־יְהוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל־פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ",
+        "speaker": "שַׂר־צְבָֽא־יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?"
+        },
+        "he": {
+          "14": "וַיֹּאמֶר ׀ לֹא כִּי אֲנִי שַׂר־צְבָֽא־יְהוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל־פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ מָה אֲדֹנִי מְדַבֵּר אֶל־עַבְדּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "joshua-05-14-14-2",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 5,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?",
+        "riddle": "What saith my lord unto his servant?",
+        "speaker": "Joshua",
+        "listener": "captain of the host",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לֹא כִּי אֲנִי שַׂר־צְבָֽא־יְהוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל־פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ מָה אֲדֹנִי מְדַבֵּר אֶל־עַבְדּֽוֹ",
+        "riddle": "מָה אֲדֹנִי מְדַבֵּר אֶל־עַבְדּֽו",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "שַׂר־צְבָֽא־יְהוָה",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And he said, Nay; but as captain of the host of the LORD am I now come. And Joshua fell on his face to the earth, and did worship, and said unto him, What saith my lord unto his servant?"
+        },
+        "he": {
+          "14": "וַיֹּאמֶר ׀ לֹא כִּי אֲנִי שַׂר־צְבָֽא־יְהוָה עַתָּה בָאתִי וַיִּפֹּל יְהוֹשֻׁעַ אֶל־פָּנָיו אַרְצָה וַיִּשְׁתָּחוּ וַיֹּאמֶר לוֹ מָה אֲדֹנִי מְדַבֵּר אֶל־עַבְדּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "joshua-05-15-15",
+      "source": {
+        "book_code": "JOS",
+        "book": "Joshua",
+        "book_he": "יהושע",
+        "chapter": 5,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And the captain of the LORD's host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest is holy. And Joshua did so.",
+        "riddle": "Loose thy shoe from off thy foot; for the place whereon thou standest is holy.",
+        "speaker": "captain of the LORD's host",
+        "listener": "Joshua",
+        "book": "Joshua"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שַׂר־צְבָא יְהוָה אֶל־יְהוֹשֻׁעַ שַׁל־נַֽעֲלְךָ מֵעַל רַגְלֶךָ כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עֹמֵד עָלָיו קֹדֶשׁ הוּא וַיַּעַשׂ יְהוֹשֻׁעַ כֵּֽן",
+        "riddle": "שַׂר־צְבָא יְהוָה אֶל־יְהוֹשֻׁעַ שַׁל־נַֽעֲלְךָ מֵעַל רַגְלֶךָ כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עֹמֵד עָלָיו קֹדֶשׁ הוּא",
+        "speaker": "שַׂר־צְבָא יְהוָה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "יהושע"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And the captain of the LORD's host said unto Joshua, Loose thy shoe from off thy foot; for the place whereon thou standest is holy. And Joshua did so."
+        },
+        "he": {
+          "15": "וַיֹּאמֶר שַׂר־צְבָא יְהוָה אֶל־יְהוֹשֻׁעַ שַׁל־נַֽעֲלְךָ מֵעַל רַגְלֶךָ כִּי הַמָּקוֹם אֲשֶׁר אַתָּה עֹמֵד עָלָיו קֹדֶשׁ הוּא וַיַּעַשׂ יְהוֹשֻׁעַ כֵּֽן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 5,
+        "start": 15,
+        "end": 15
+      }
+    }
+  ],
   "stats": {
-    "window_count": 7,
+    "window_count": 3,
     "prefiltered_count": 0,
-    "llm_window_count": 7,
-    "kept_count": 0,
-    "issue_count": 7
+    "llm_window_count": 3,
+    "projection_llm_count": 6,
+    "llm_call_count": 9,
+    "spec_count": 6,
+    "kept_count": 5,
+    "issue_count": 1
   }
 }

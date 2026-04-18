@@ -4,12 +4,503 @@
   "book_he": "שמואל ב",
   "chapter": 3,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-samuel-03-12-12",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And Abner sent messengers to David on his behalf, saying, Whose is the land? saying also, Make thy league with me, and, behold, my hand shall be with thee, to bring about all Israel unto thee.",
+        "riddle": "Whose is the land? saying also, Make thy league with me, and, behold, my hand shall be with thee, to bring about all Israel unto thee.",
+        "speaker": "Abner",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח אַבְנֵר מַלְאָכִים אֶל־דָּוִד תַּחְתָּיו לֵאמֹר לְמִי־אָרֶץ לֵאמֹר כָּרְתָה בְרִֽיתְךָ אִתִּי וְהִנֵּה יָדִי עִמָּךְ לְהָסֵב אֵלֶיךָ אֶת־כָּל־יִשְׂרָאֵֽל",
+        "riddle": "לֵאמֹר לְמִי־אָרֶץ לֵאמֹר כָּרְתָה בְרִֽיתְךָ אִתִּי וְהִנֵּה יָדִי עִמָּךְ לְהָסֵב אֵלֶיךָ אֶת־כָּל־יִשְׂרָאֵֽל",
+        "speaker": "אַבְנֵר",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Abner sent messengers to David on his behalf, saying, Whose is the land? saying also, Make thy league with me, and, behold, my hand shall be with thee, to bring about all Israel unto thee."
+        },
+        "he": {
+          "12": "וַיִּשְׁלַח אַבְנֵר מַלְאָכִים ׀ אֶל־דָּוִד תַּחְתָּיו לֵאמֹר לְמִי־אָרֶץ לֵאמֹר כָּרְתָה בְרִֽיתְךָ אִתִּי וְהִנֵּה יָדִי עִמָּךְ לְהָסֵב אֵלֶיךָ אֶת־כָּל־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/proposal",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-samuel-03-13-13",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And he said, Well; I will make a league with thee: but one thing I require of thee, that is, Thou shalt not see my face, except thou first bring Michal Saul's daughter, when thou comest to see my face.",
+        "riddle": "Well; I will make a league with thee: but one thing I require of thee, that is, Thou shalt not see my face, except thou first bring Michal Saul's daughter, when thou comest to see my face.",
+        "speaker": "David",
+        "listener": "Abner",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר טוֹב אֲנִי אֶכְרֹת אִתְּךָ בְּרִית אַךְ דָּבָר אֶחָד אָנֹכִי שֹׁאֵל מֵאִתְּךָ לֵאמֹר לֹא־תִרְאֶה אֶת־פָּנַי כִּי אִם־לִפְנֵי הֱבִיאֲךָ אֵת מִיכַל בַּת־שָׁאוּל בְּבֹאֲךָ לִרְאוֹת אֶת־פָּנָֽי",
+        "riddle": "וַיֹּאמֶר טוֹב אֲנִי אֶכְרֹת אִתְּךָ בְּרִית אַךְ דָּבָר אֶחָד אָנֹכִי שֹׁאֵל מֵאִתְּךָ לֵאמֹר לֹא־תִרְאֶה אֶת־פָּנַי כִּי אִם־לִפְנֵי הֱבִיאֲךָ אֵת מִיכַל בַּת־שָׁאוּל בְּבֹאֲךָ לִרְאוֹת אֶת־פָּנָֽי",
+        "speaker": "דָּוִד",
+        "listener": "אַבְנֵר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And Abner sent messengers to David on his behalf, saying, Whose is the land? saying also, Make thy league with me, and, behold, my hand shall be with thee, to bring about all Israel unto thee.",
+          "13": "And he said, Well; I will make a league with thee: but one thing I require of thee, that is, Thou shalt not see my face, except thou first bring Michal Saul's daughter, when thou comest to see my face."
+        },
+        "he": {
+          "12": "וַיִּשְׁלַח אַבְנֵר מַלְאָכִים ׀ אֶל־דָּוִד תַּחְתָּיו לֵאמֹר לְמִי־אָרֶץ לֵאמֹר כָּרְתָה בְרִֽיתְךָ אִתִּי וְהִנֵּה יָדִי עִמָּךְ לְהָסֵב אֵלֶיךָ אֶת־כָּל־יִשְׂרָאֵֽל׃",
+          "13": "וַיֹּאמֶר טוֹב אֲנִי אֶכְרֹת אִתְּךָ בְּרִית אַךְ דָּבָר אֶחָד אָנֹכִי שֹׁאֵל מֵאִתְּךָ לֵאמֹר לֹא־תִרְאֶה אֶת־פָּנַי כִּי ׀ אִם־לִפְנֵי הֱבִיאֲךָ אֵת מִיכַל בַּת־שָׁאוּל בְּבֹאֲךָ לִרְאוֹת אֶת־פָּנָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech/condition",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-03-14-14",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And David sent messengers to Ish-bosheth Saul's son, saying, Deliver me my wife Michal, which I espoused to me for an hundred foreskins of the Philistines.",
+        "riddle": "Deliver me my wife Michal, which I espoused to me for an hundred foreskins of the Philistines.",
+        "speaker": "David",
+        "listener": "Ish-bosheth",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח דָּוִד מַלְאָכִים אֶל־אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל לֵאמֹר תְּנָה אֶת־אִשְׁתִּי אֶת־מִיכַל אֲשֶׁר אֵרַשְׂתִּי לִי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּֽים",
+        "riddle": "תְּנָה אֶת־אִשְׁתִּי אֶת־מִיכַל אֲשֶׁר אֵרַשְׂתִּי לִי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּֽים",
+        "speaker": "דָּוִד",
+        "listener": "אִֽישׁ־בֹּשֶׁת",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And David sent messengers to Ish-bosheth Saul's son, saying, Deliver me my wife Michal, which I espoused to me for an hundred foreskins of the Philistines."
+        },
+        "he": {
+          "14": "וַיִּשְׁלַח דָּוִד מַלְאָכִים אֶל־אִֽישׁ־בֹּשֶׁת בֶּן־שָׁאוּל לֵאמֹר תְּנָה אֶת־אִשְׁתִּי אֶת־מִיכַל אֲשֶׁר אֵרַשְׂתִּי לִי בְּמֵאָה עָרְלוֹת פְּלִשְׁתִּֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 14,
+        "end": 14
+      }
+    },
+    {
+      "id": "2-samuel-03-17-17",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And Abner had communication with the elders of Israel, saying, Ye sought for David in times past to be king over you:",
+        "riddle": "Ye sought for David in times past to be king over you:",
+        "speaker": "Abner",
+        "listener": "elders of Israel",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וּדְבַר־אַבְנֵר הָיָה עִם־זִקְנֵי יִשְׂרָאֵל לֵאמֹר גַּם־תְּמוֹל גַּם־שִׁלְשֹׁם הֱיִיתֶם מְבַקְשִׁים אֶת־דָּוִד לְמֶלֶךְ עֲלֵיכֶֽם",
+        "riddle": "גַּם־תְּמוֹל גַּם־שִׁלְשֹׁם הֱיִיתֶם מְבַקְשִׁים אֶת־דָּוִד לְמֶלֶךְ עֲלֵיכֶֽם",
+        "speaker": "אַבְנֵר",
+        "listener": "זִקְנֵי יִשְׂרָאֵל",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And Abner had communication with the elders of Israel, saying, Ye sought for David in times past to be king over you:"
+        },
+        "he": {
+          "17": "וּדְבַר־אַבְנֵר הָיָה עִם־זִקְנֵי יִשְׂרָאֵל לֵאמֹר גַּם־תְּמוֹל גַּם־שִׁלְשֹׁם הֱיִיתֶם מְבַקְשִׁים אֶת־דָּוִד לְמֶלֶךְ עֲלֵיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "2-samuel-03-21-21",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Abner said unto David, I will arise and go, and will gather all Israel unto my lord the king, that they may make a league with thee, and that thou mayest reign over all that thine heart desireth. And David sent Abner away; and he went in peace.",
+        "riddle": "I will arise and go, and will gather all Israel unto my lord the king, that they may make a league with thee, and that thou mayest reign over all that thine heart desireth.",
+        "speaker": "Abner",
+        "listener": "David",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְנֵר אֶל־דָּוִד אָקוּמָה וְֽאֵלֵכָה וְאֶקְבְּצָה אֶל־אֲדֹנִי הַמֶּלֶךְ אֶת־כָּל־יִשְׂרָאֵל וְיִכְרְתוּ אִתְּךָ בְּרִית וּמָלַכְתָּ בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשֶׁךָ וַיְּשַׁלַּח דָּוִד אֶת־אַבְנֵר וַיֵּלֶךְ בְּשָׁלֽוֹם",
+        "riddle": "אָקוּמָה וְֽאֵלֵכָה וְאֶקְבְּצָה אֶל־אֲדֹנִי הַמֶּלֶךְ אֶת־כָּל־יִשְׂרָאֵל וְיִכְרְתוּ אִתְּךָ בְּרִית וּמָלַכְתָּ בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשֶׁך",
+        "speaker": "אַבְנֵר",
+        "listener": "דָּוִד",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Abner said unto David, I will arise and go, and will gather all Israel unto my lord the king, that they may make a league with thee, and that thou mayest reign over all that thine heart desireth. And David sent Abner away; and he went in peace."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר אַבְנֵר אֶל־דָּוִד אָקוּמָה ׀ וְֽאֵלֵכָה וְאֶקְבְּצָה אֶל־אֲדֹנִי הַמֶּלֶךְ אֶת־כָּל־יִשְׂרָאֵל וְיִכְרְתוּ אִתְּךָ בְּרִית וּמָלַכְתָּ בְּכֹל אֲשֶׁר־תְּאַוֶּה נַפְשֶׁךָ וַיְּשַׁלַּח דָּוִד אֶת־אַבְנֵר וַיֵּלֶךְ בְּשָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct promise/declaration",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-03-23-23",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "When Joab and all the host that was with him were come, they told Joab, saying, Abner the son of Ner came to the king, and he hath sent him away, and he is gone in peace.",
+        "riddle": "Abner the son of Ner came to the king, and he hath sent him away, and he is gone in peace.",
+        "speaker": "David's servants",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וְיוֹאָב וְכָל־הַצָּבָא אֲשֶׁר־אִתּוֹ בָּאוּ וַיַּגִּדוּ לְיוֹאָב לֵאמֹר בָּֽא־אַבְנֵר בֶּן־נֵר אֶל־הַמֶּלֶךְ וַֽיְשַׁלְּחֵהוּ וַיֵּלֶךְ בְּשָׁלֽוֹם",
+        "riddle": "בָּֽא־אַבְנֵר בֶּן־נֵר אֶל־הַמֶּלֶךְ וַֽיְשַׁלְּחֵהוּ וַיֵּלֶךְ בְּשָׁלֽוֹם",
+        "speaker": "הַצָּבָא",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "When Joab and all the host that was with him were come, they told Joab, saying, Abner the son of Ner came to the king, and he hath sent him away, and he is gone in peace."
+        },
+        "he": {
+          "23": "וְיוֹאָב וְכָל־הַצָּבָא אֲשֶׁר־אִתּוֹ בָּאוּ וַיַּגִּדוּ לְיוֹאָב לֵאמֹר בָּֽא־אַבְנֵר בֶּן־נֵר אֶל־הַמֶּלֶךְ וַֽיְשַׁלְּחֵהוּ וַיֵּלֶךְ בְּשָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "report of events",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-samuel-03-25-25",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "Thou knowest Abner the son of Ner, that he came to deceive thee, and to know thy going out and thy coming in, and to know all that thou doest.",
+        "riddle": "Thou knowest Abner the son of Ner, that he came to deceive thee, and to know thy going out and thy coming in, and to know all that thou doest.",
+        "speaker": "Joab",
+        "listener": "the king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "יָדַעְתָּ אֶת־אַבְנֵר בֶּן־נֵר כִּי לְפַתֹּתְךָ בָּא וְלָדַעַת אֶת־מוֹצָֽאֲךָ וְאֶת־מוֹבָאֶךָ וְלָדַעַת אֵת כָּל־אֲשֶׁר אַתָּה עֹשֶֽׂה",
+        "riddle": "יָדַעְתָּ אֶת־אַבְנֵר בֶּן־נֵר כִּי לְפַתֹּתְךָ בָּא וְלָדַעַת אֶת־מוֹצָֽאֲךָ וְאֶת־מוֹבָאֶךָ וְלָדַעַת אֵת כָּל־אֲשֶׁר אַתָּה עֹשֶֽׂה",
+        "speaker": "יוֹאָב",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "Then Joab came to the king, and said, What hast thou done? behold, Abner came unto thee; why is it that thou hast sent him away, and he is quite gone?",
+          "25": "Thou knowest Abner the son of Ner, that he came to deceive thee, and to know thy going out and thy coming in, and to know all that thou doest."
+        },
+        "he": {
+          "24": "וַיָּבֹא יוֹאָב אֶל־הַמֶּלֶךְ וַיֹּאמֶר מֶה עָשִׂיתָה הִנֵּה־בָא אַבְנֵר אֵלֶיךָ לָמָּה־זֶּה שִׁלַּחְתּוֹ וַיֵּלֶךְ הָלֽוֹךְ׃",
+          "25": "יָדַעְתָּ אֶת־אַבְנֵר בֶּן־נֵר כִּי לְפַתֹּתְךָ בָּא וְלָדַעַת אֶת־מוֹצָֽאֲךָ וְאֶת־מוֹבָאֶךָ וְלָדַעַת אֵת כָּל־אֲשֶׁר אַתָּה עֹשֶֽׂה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration of intent",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-samuel-03-28-28",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28,
+        "speaker_mention_verse": 28
+      },
+      "en": {
+        "quote": "And afterward when David heard it, he said, I and my kingdom are guiltless before the LORD for ever from the blood of Abner the son of Ner:",
+        "riddle": "I and my kingdom are guiltless before the LORD for ever from the blood of Abner the son of Ner:",
+        "speaker": "David",
+        "listener": "the LORD",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע דָּוִד מֵאַחֲרֵי כֵן וַיֹּאמֶר נָקִי אָנֹכִי וּמַמְלַכְתִּי מֵעִם יְהוָה עַד־עוֹלָם מִדְּמֵי אַבְנֵר בֶּן־נֵֽר",
+        "riddle": "וַיִּשְׁמַע דָּוִד מֵאַחֲרֵי כֵן וַיֹּאמֶר נָקִי אָנֹכִי וּמַמְלַכְתִּי מֵעִם יְהוָה עַד־עוֹלָם מִדְּמֵי אַבְנֵר בֶּן־נֵֽר",
+        "speaker": "דָּוִד",
+        "listener": "יְהוָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And afterward when David heard it, he said, I and my kingdom are guiltless before the LORD for ever from the blood of Abner the son of Ner:"
+        },
+        "he": {
+          "28": "וַיִּשְׁמַע דָּוִד מֵאַחֲרֵי כֵן וַיֹּאמֶר נָקִי אָנֹכִי וּמַמְלַכְתִּי מֵעִם יְהוָה עַד־עוֹלָם מִדְּמֵי אַבְנֵר בֶּן־נֵֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "2-samuel-03-29-29",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 28
+      },
+      "en": {
+        "quote": "Let it rest on the head of Joab, and on all his father's house; and let there not fail from the house of Joab one that hath an issue, or that is a leper, or that leaneth on a staff, or that falleth on the sword, or that lacketh bread.",
+        "riddle": "Let it rest on the head of Joab, and on all his father's house; and let there not fail from the house of Joab one that hath an issue, or that is a leper, or that leaneth on a staff, or that falleth on the sword, or that lacketh bread.",
+        "speaker": "David",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "יָחֻלוּ עַל־רֹאשׁ יוֹאָב וְאֶל כָּל־בֵּית אָבִיו וְֽאַל־יִכָּרֵת מִבֵּית יוֹאָב זָב וּמְצֹרָע וּמַחֲזִיק בַּפֶּלֶךְ וְנֹפֵל בַּחֶרֶב וַחֲסַר־לָֽחֶם",
+        "riddle": "יָחֻלוּ עַל־רֹאשׁ יוֹאָב וְאֶל כָּל־בֵּית אָבִיו וְֽאַל־יִכָּרֵת מִבֵּית יוֹאָב זָב וּמְצֹרָע וּמַחֲזִיק בַּפֶּלֶךְ וְנֹפֵל בַּחֶרֶב וַחֲסַר־לָֽחֶם",
+        "speaker": "דָּוִד",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And afterward when David heard it, he said, I and my kingdom are guiltless before the LORD for ever from the blood of Abner the son of Ner:",
+          "29": "Let it rest on the head of Joab, and on all his father's house; and let there not fail from the house of Joab one that hath an issue, or that is a leper, or that leaneth on a staff, or that falleth on the sword, or that lacketh bread."
+        },
+        "he": {
+          "28": "וַיִּשְׁמַע דָּוִד מֵאַחֲרֵי כֵן וַיֹּאמֶר נָקִי אָנֹכִי וּמַמְלַכְתִּי מֵעִם יְהוָה עַד־עוֹלָם מִדְּמֵי אַבְנֵר בֶּן־נֵֽר׃",
+          "29": "יָחֻלוּ עַל־רֹאשׁ יוֹאָב וְאֶל כָּל־בֵּית אָבִיו וְֽאַל־יִכָּרֵת מִבֵּית יוֹאָב זָב וּמְצֹרָע וּמַחֲזִיק בַּפֶּלֶךְ וְנֹפֵל בַּחֶרֶב וַחֲסַר־לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "curse/command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "2-samuel-03-33-33",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 33
+      },
+      "en": {
+        "quote": "And the king lamented over Abner, and said, Died Abner as a fool dieth?",
+        "riddle": "Died Abner as a fool dieth?",
+        "speaker": "David",
+        "listener": "the people",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיְקֹנֵן הַמֶּלֶךְ אֶל־אַבְנֵר וַיֹּאמַר הַכְּמוֹת נָבָל יָמוּת אַבְנֵֽר",
+        "riddle": "וַיֹּאמַר הַכְּמוֹת נָבָל יָמוּת אַבְנֵֽר",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַבְנֵר",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "33": "And the king lamented over Abner, and said, Died Abner as a fool dieth?"
+        },
+        "he": {
+          "33": "וַיְקֹנֵן הַמֶּלֶךְ אֶל־אַבְנֵר וַיֹּאמַר הַכְּמוֹת נָבָל יָמוּת אַבְנֵֽר׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "2-samuel-03-38-38",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 3,
+        "quote_verse_start": 38,
+        "quote_verse_end": 38,
+        "speaker_mention_verse": 38,
+        "listener_mention_verse": 38
+      },
+      "en": {
+        "quote": "And the king said unto his servants, Know ye not that there is a prince and a great man fallen this day in Israel?",
+        "riddle": "Know ye not that there is a prince and a great man fallen this day in Israel?",
+        "speaker": "the king",
+        "listener": "his servants",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲבָדָיו הֲלוֹא תֵדְעוּ כִּי־שַׂר וְגָדוֹל נָפַל הַיּוֹם הַזֶּה בְּיִשְׂרָאֵֽל",
+        "riddle": "הֲלוֹא תֵדְעוּ כִּי־שַׂר וְגָדוֹל נָפַל הַיּוֹם הַזֶּה בְּיִשְׂרָאֵֽל",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "עֲבָדָיו",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "38": "And the king said unto his servants, Know ye not that there is a prince and a great man fallen this day in Israel?"
+        },
+        "he": {
+          "38": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲבָדָיו הֲלוֹא תֵדְעוּ כִּי־שַׂר וְגָדוֹל נָפַל הַיּוֹם הַזֶּה בְּיִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 3,
+        "start": 38,
+        "end": 38
+      }
+    }
+  ],
   "stats": {
-    "window_count": 27,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 27,
-    "kept_count": 0,
-    "issue_count": 27
+    "llm_window_count": 6,
+    "projection_llm_count": 17,
+    "llm_call_count": 23,
+    "spec_count": 17,
+    "kept_count": 11,
+    "issue_count": 7
   }
 }

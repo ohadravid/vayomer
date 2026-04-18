@@ -4,12 +4,234 @@
   "book_he": "במדבר",
   "chapter": 12,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "numbers-12-02-02",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2
+      },
+      "en": {
+        "quote": "And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard it.",
+        "riddle": "Hath the LORD indeed spoken only by Moses? hath he not spoken also by us?",
+        "speaker": "Miriam and Aaron",
+        "listener": "the LORD",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הֲרַק אַךְ־בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם־בָּנוּ דִבֵּר וַיִּשְׁמַע יְהוָֽה",
+        "riddle": "הֲרַק אַךְ־בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם־בָּנוּ דִבֵּר",
+        "speaker": "מרים ואהרן",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And they said, Hath the LORD indeed spoken only by Moses? hath he not spoken also by us? And the LORD heard it."
+        },
+        "he": {
+          "2": "וַיֹּאמְרוּ הֲרַק אַךְ־בְּמֹשֶׁה דִּבֶּר יְהוָה הֲלֹא גַּם־בָּנוּ דִבֵּר וַיִּשְׁמַע יְהוָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "numbers-12-06-06",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And he said, Hear now my words: If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream.",
+        "riddle": "Hear now my words: If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream.",
+        "speaker": "the LORD",
+        "listener": "Aaron and Miriam",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שִׁמְעוּ־נָא דְבָרָי אִם־יִֽהְיֶה נְבִיאֲכֶם יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ",
+        "riddle": "וַיֹּאמֶר שִׁמְעוּ־נָא דְבָרָי אִם־יִֽהְיֶה נְבִיאֲכֶם יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "אַהֲרֹן וּמִרְיָם",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And he said, Hear now my words: If there be a prophet among you, I the LORD will make myself known unto him in a vision, and will speak unto him in a dream."
+        },
+        "he": {
+          "6": "וַיֹּאמֶר שִׁמְעוּ־נָא דְבָרָי אִם־יִֽהְיֶה נְבִיאֲכֶם יְהוָה בַּמַּרְאָה אֵלָיו אֶתְוַדָּע בַּחֲלוֹם אֲדַבֶּר־בּֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "numbers-12-11-12",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 11,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned. Let her not be as one dead, of whom the flesh is half consumed when he cometh out of his mother's womb.",
+        "riddle": "Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned. Let her not be as one dead",
+        "speaker": "Aaron",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַהֲרֹן אֶל־מֹשֶׁה בִּי אֲדֹנִי אַל־נָא תָשֵׁת עָלֵינוּ חַטָּאת אֲשֶׁר נוֹאַלְנוּ וַאֲשֶׁר חָטָֽאנוּ אַל־נָא תְהִי כַּמֵּת אֲשֶׁר בְּצֵאתוֹ מֵרֶחֶם אִמּוֹ וַיֵּאָכֵל חֲצִי בְשָׂרֽוֹ",
+        "riddle": "בִּי אֲדֹנִי אַל־נָא תָשֵׁת עָלֵינוּ חַטָּאת אֲשֶׁר נוֹאַלְנוּ וַאֲשֶׁר חָטָֽאנוּ אַל־נָא תְהִי כַּמֵּת אֲשֶׁר בְּצֵאתוֹ מֵרֶחֶם אִמּוֹ וַיֵּאָכֵל חֲצִי בְשָׂרֽו",
+        "speaker": "אַהֲרֹן",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Aaron said unto Moses, Alas, my lord, I beseech thee, lay not the sin upon us, wherein we have done foolishly, and wherein we have sinned.",
+          "12": "Let her not be as one dead, of whom the flesh is half consumed when he cometh out of his mother's womb."
+        },
+        "he": {
+          "11": "וַיֹּאמֶר אַהֲרֹן אֶל־מֹשֶׁה בִּי אֲדֹנִי אַל־נָא תָשֵׁת עָלֵינוּ חַטָּאת אֲשֶׁר נוֹאַלְנוּ וַאֲשֶׁר חָטָֽאנוּ׃",
+          "12": "אַל־נָא תְהִי כַּמֵּת אֲשֶׁר בְּצֵאתוֹ מֵרֶחֶם אִמּוֹ וַיֵּאָכֵל חֲצִי בְשָׂרֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "plea/direct speech",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 11,
+        "end": 12
+      }
+    },
+    {
+      "id": "numbers-12-13-13",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "And Moses cried unto the LORD, saying, Heal her now, O God, I beseech thee.",
+        "riddle": "Heal her now, O God, I beseech thee.",
+        "speaker": "Moses",
+        "listener": "God",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר אֵל נָא רְפָא נָא לָֽהּ",
+        "riddle": "אֵל נָא רְפָא נָא לָֽהּ",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "13": "And Moses cried unto the LORD, saying, Heal her now, O God, I beseech thee."
+        },
+        "he": {
+          "13": "וַיִּצְעַק מֹשֶׁה אֶל־יְהוָה לֵאמֹר אֵל נָא רְפָא נָא לָֽהּ׃"
+        }
+      },
+      "meta": {
+        "reason": "prayer/command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "numbers-12-14-14",
+      "source": {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 12,
+        "quote_verse_start": 14,
+        "quote_verse_end": 14,
+        "speaker_mention_verse": 14,
+        "listener_mention_verse": 14
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, If her father had but spit in her face, should she not be ashamed seven days? let her be shut out from the camp seven days, and after that let her be received in again.",
+        "riddle": "If her father had but spit in her face, should she not be ashamed seven days? let her be shut out from the camp seven days, and after that let her be received in again.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Numbers"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאָבִיהָ יָרֹק יָרַק בְּפָנֶיהָ הֲלֹא תִכָּלֵם שִׁבְעַת יָמִים תִּסָּגֵר שִׁבְעַת יָמִים מִחוּץ לַֽמַּחֲנֶה וְאַחַר תֵּאָסֵֽף",
+        "riddle": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאָבִיהָ יָרֹק יָרַק בְּפָנֶיהָ הֲלֹא תִכָּלֵם שִׁבְעַת יָמִים תִּסָּגֵר שִׁבְעַת יָמִים מִחוּץ לַֽמַּחֲנֶה וְאַחַר תֵּאָסֵֽף",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר"
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And the LORD said unto Moses, If her father had but spit in her face, should she not be ashamed seven days? let her be shut out from the camp seven days, and after that let her be received in again."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה וְאָבִיהָ יָרֹק יָרַק בְּפָנֶיהָ הֲלֹא תִכָּלֵם שִׁבְעַת יָמִים תִּסָּגֵר שִׁבְעַת יָמִים מִחוּץ לַֽמַּחֲנֶה וְאַחַר תֵּאָסֵֽף׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question and command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 12,
+        "start": 14,
+        "end": 14
+      }
+    }
+  ],
   "stats": {
-    "window_count": 14,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 14,
-    "kept_count": 0,
-    "issue_count": 14
+    "llm_window_count": 2,
+    "projection_llm_count": 7,
+    "llm_call_count": 9,
+    "spec_count": 7,
+    "kept_count": 5,
+    "issue_count": 2
   }
 }

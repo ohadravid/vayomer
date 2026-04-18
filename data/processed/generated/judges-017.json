@@ -6,21 +6,99 @@
   "mode": "llm",
   "items": [
     {
-      "id": "judges-17-03-03",
+      "id": "judges-17-09-09-1",
       "source": {
         "method": "llm",
         "book_code": "JDG",
         "book": "Judges",
         "book_he": "שופטים",
         "chapter": 17,
-        "quote_verse_start": 1,
-        "quote_verse_end": 3
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
       },
       "en": {
-        "quote": "And there was a man of mount Ephraim, whose name was Micah. And he said unto his mother, The eleven hundred shekels of silver that were taken from thee, about which thou cursedst, and spakest of also in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be thou of the LORD, my son. And when he had restored the eleven hundred shekels of silver to his mother, his mother said, I had wholly dedicated the silver unto the LORD from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee.",
-        "riddle": "to make a graven image and a molten image: now therefore I will restore it unto thee.",
-        "speaker": "mother",
-        "listener": "son",
+        "quote": "And Micah said unto him, Whence comest thou? And he said unto him, I am a Levite of Bethlehemjudah, and I go to sojourn where I may find a place.",
+        "riddle": "Whence comest thou?",
+        "speaker": "Micah",
+        "listener": "Levite",
+        "book": "Judges",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "sojourn",
+        "bonus_hint": {
+          "quote": "And thou shalt say unto them, Whatsoever man there be of the house of Israel, or of the strangers which sojourn among you, that offereth a burnt offering of sacrifice,",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 17,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר־לוֹ מִיכָה מֵאַיִן תָּבוֹא וַיֹּאמֶר אֵלָיו לֵוִי אָנֹכִי מִבֵּית לֶחֶם יְהוּדָה וְאָנֹכִי הֹלֵךְ לָגוּר בַּאֲשֶׁר אֶמְצָֽא",
+        "riddle": "מֵאַיִן תָּבוֹא",
+        "speaker": "מִיכָה",
+        "listener": "לֵוִי",
+        "book": "שופטים",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "מִבֵּית",
+        "bonus_hint": {
+          "quote": "וַאֲלֵהֶם תֹּאמַר אִישׁ אִישׁ מִבֵּית יִשְׂרָאֵל וּמִן־הַגֵּר אֲשֶׁר־יָגוּר בְּתוֹכָם אֲשֶׁר־יַעֲלֶה עֹלָה אוֹ־זָֽבַח",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 17,
+            "start": 8,
+            "end": 8
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Micah said unto him, Whence comest thou? And he said unto him, I am a Levite of Bethlehemjudah, and I go to sojourn where I may find a place."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר־לוֹ מִיכָה מֵאַיִן תָּבוֹא וַיֹּאמֶר אֵלָיו לֵוִי אָנֹכִי מִבֵּית לֶחֶם יְהוּדָה וְאָנֹכִי הֹלֵךְ לָגוּר בַּאֲשֶׁר אֶמְצָֽא׃"
+        }
+      },
+      "ref": {
+        "chapter": 17,
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "judges-17-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "JDG",
+        "book": "Judges",
+        "book_he": "שופטים",
+        "chapter": 17,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 10
+      },
+      "en": {
+        "quote": "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten shekels of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in.",
+        "riddle": "Dwell with me, and be unto me a father and a priest",
+        "speaker": "Micah",
+        "listener": "Levite",
         "book": "Judges",
         "options": {
           "speaker": [],
@@ -28,52 +106,48 @@
         },
         "bonus": "silver",
         "bonus_hint": {
-          "quote": "And Abraham hearkened unto Ephron; and Abraham weighed to Ephron the silver, which he had named in the audience of the sons of Heth, four hundred shekels of silver, current money with the merchant.",
+          "quote": "And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him.",
           "source": {
-            "book": "Genesis",
-            "chapter": 23,
-            "start": 16,
-            "end": 16
+            "book": "2 Kings",
+            "chapter": 5,
+            "start": 23,
+            "end": 23
           }
         }
       },
       "he": {
-        "quote": "וַֽיְהִי־אִישׁ מֵֽהַר־אֶפְרָיִם וּשְׁמוֹ מִיכָֽיְהוּ וַיֹּאמֶר לְאִמּוֹ אֶלֶף וּמֵאָה הַכֶּסֶף אֲשֶׁר לֻֽקַּֽח־לָךְ וְאַתְּ אָלִית וְגַם אָמַרְתְּ בְּאָזְנַי הִנֵּֽה־הַכֶּסֶף אִתִּי אֲנִי לְקַחְתִּיו וַתֹּאמֶר אִמּוֹ בָּרוּךְ בְּנִי לַיהוָֽה וַיָּשֶׁב אֶת־אֶֽלֶף־וּמֵאָה הַכֶּסֶף לְאִמּוֹ וַתֹּאמֶר אִמּוֹ הַקְדֵּשׁ הִקְדַּשְׁתִּי אֶת־הַכֶּסֶף לַיהוָה מִיָּדִי לִבְנִי לַֽעֲשׂוֹת פֶּסֶל וּמַסֵּכָה וְעַתָּה אֲשִׁיבֶנּוּ לָֽךְ",
-        "riddle": "מִיָּדִי לִבְנִי לַֽעֲשׂוֹת פֶּסֶל וּמַסֵּכָה וְעַתָּה אֲשִׁיבֶנּוּ לָֽךְ",
-        "speaker": "אִמּוֹ",
-        "listener": "מִיכָֽיְהוּ",
+        "quote": "וַיֹּאמֶר לוֹ מִיכָה שְׁבָה עִמָּדִי וֶֽהְיֵה־לִי לְאָב וּלְכֹהֵן וְאָנֹכִי אֶֽתֶּן־לְךָ עֲשֶׂרֶת כֶּסֶף לַיָּמִים וְעֵרֶךְ בְּגָדִים וּמִחְיָתֶךָ וַיֵּלֶךְ הַלֵּוִֽי",
+        "riddle": "שְׁבָה עִמָּדִי וֶֽהְיֵה־לִי לְאָב וּלְכֹהֵן וְאָנֹכִי אֶֽתֶּן־לְךָ עֲשֶׂרֶת כֶּסֶף לַיָּמִים",
+        "speaker": "מִיכָה",
+        "listener": "הַלֵּוִֽי",
         "book": "שופטים",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַכֶּסֶף",
+        "bonus": "בְּגָדִים",
         "bonus_hint": {
-          "quote": "וַיִּשְׁמַע אַבְרָהָם אֶל־עֶפְרוֹן וַיִּשְׁקֹל אַבְרָהָם לְעֶפְרֹן אֶת־הַכֶּסֶף אֲשֶׁר דִּבֶּר בְּאָזְנֵי בְנֵי־חֵת אַרְבַּע מֵאוֹת שֶׁקֶל כֶּסֶף עֹבֵר לַסֹּחֵֽר",
+          "quote": "וַיֹּאמֶר נַעֲמָן הוֹאֵל קַח כִּכָּרָיִם וַיִּפְרָץ־בּוֹ וַיָּצַר כִּכְּרַיִם כֶּסֶף בִּשְׁנֵי חֲרִטִים וּשְׁתֵּי חֲלִפוֹת בְּגָדִים וַיִּתֵּן אֶל־שְׁנֵי נְעָרָיו וַיִּשְׂאוּ לְפָנָֽיו",
           "source": {
-            "book": "בראשית",
-            "chapter": 23,
-            "start": 16,
-            "end": 16
+            "book": "מלכים ב",
+            "chapter": 5,
+            "start": 23,
+            "end": 23
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "1": "And there was a man of mount Ephraim, whose name was Micah.",
-          "2": "And he said unto his mother, The eleven hundred shekels of silver that were taken from thee, about which thou cursedst, and spakest of also in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be thou of the LORD, my son.",
-          "3": "And when he had restored the eleven hundred shekels of silver to his mother, his mother said, I had wholly dedicated the silver unto the LORD from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee."
+          "10": "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten shekels of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in."
         },
         "he": {
-          "1": "וַֽיְהִי־אִישׁ מֵֽהַר־אֶפְרָיִם וּשְׁמוֹ מִיכָֽיְהוּ׃",
-          "2": "וַיֹּאמֶר לְאִמּוֹ אֶלֶף וּמֵאָה הַכֶּסֶף אֲשֶׁר לֻֽקַּֽח־לָךְ וְאַתְּ אָלִית וְגַם אָמַרְתְּ בְּאָזְנַי הִנֵּֽה־הַכֶּסֶף אִתִּי אֲנִי לְקַחְתִּיו וַתֹּאמֶר אִמּוֹ בָּרוּךְ בְּנִי לַיהוָֽה׃",
-          "3": "וַיָּשֶׁב אֶת־אֶֽלֶף־וּמֵאָה הַכֶּסֶף לְאִמּוֹ וַתֹּאמֶר אִמּוֹ הַקְדֵּשׁ הִקְדַּשְׁתִּי אֶת־הַכֶּסֶף לַיהוָה מִיָּדִי לִבְנִי לַֽעֲשׂוֹת פֶּסֶל וּמַסֵּכָה וְעַתָּה אֲשִׁיבֶנּוּ לָֽךְ׃"
+          "10": "וַיֹּאמֶר לוֹ מִיכָה שְׁבָה עִמָּדִי וֶֽהְיֵה־לִי לְאָב וּלְכֹהֵן וְאָנֹכִי אֶֽתֶּן־לְךָ עֲשֶׂרֶת כֶּסֶף לַיָּמִים וְעֵרֶךְ בְּגָדִים וּמִחְיָתֶךָ וַיֵּלֶךְ הַלֵּוִֽי׃"
         }
       },
       "ref": {
         "chapter": 17,
-        "start": 1,
-        "end": 3
+        "start": 10,
+        "end": 10
       },
       "meta": {
         "mode": "llm",

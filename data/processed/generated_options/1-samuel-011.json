@@ -1,0 +1,479 @@
+{
+  "book_code": "1SA",
+  "book": "1 Samuel",
+  "book_he": "שמואל א",
+  "chapter": 11,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "1-samuel-11-03-03",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 11,
+        "quote_verse_start": 2,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Nahash the Ammonite answered them, On this condition will I make a covenant with you, that I may thrust out all your right eyes, and lay it for a reproach upon all Israel. And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messengers unto all the coasts of Israel: and then, if there be no man to save us, we will come out to thee.",
+        "riddle": "Give us seven days' respite, that we may send messengers unto all the coasts of Israel",
+        "speaker": "elders of Jabesh",
+        "listener": "Nahash",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Saul",
+            "Philistines",
+            "Abner"
+          ],
+          "listener": [
+            "Saul",
+            "Philistines",
+            "Abner"
+          ]
+        },
+        "bonus": "covenant",
+        "bonus_hint": {
+          "quote": "And the LORD was gracious unto them, and had compassion on them, and had respect unto them, because of his covenant with Abraham, Isaac, and Jacob, and would not destroy them, neither cast he them from his presence as yet.",
+          "source": {
+            "book": "2 Kings",
+            "chapter": 13,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵיהֶם נָחָשׁ הָעַמּוֹנִי בְּזֹאת אֶכְרֹת לָכֶם בִּנְקוֹר לָכֶם כָּל־עֵין יָמִין וְשַׂמְתִּיהָ חֶרְפָּה עַל־כָּל־יִשְׂרָאֵֽל וַיֹּאמְרוּ אֵלָיו זִקְנֵי יָבֵישׁ הֶרֶף לָנוּ שִׁבְעַת יָמִים וְנִשְׁלְחָה מַלְאָכִים בְּכֹל גְּבוּל יִשְׂרָאֵל וְאִם־אֵין מוֹשִׁיע אֹתָנוּ וְיָצָאנוּ אֵלֶֽיךָ",
+        "riddle": "הֶרֶף לָנוּ שִׁבְעַת יָמִים וְנִשְׁלְחָה מַלְאָכִים בְּכֹל גְּבוּל יִשְׂרָאֵל וְאִם־אֵין מוֹשִׁיע אֹתָנוּ וְיָצָאנוּ",
+        "speaker": "זִקְנֵי יָבֵישׁ",
+        "listener": "נָחָשׁ",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "שָׁאוֹל",
+            "פְּלִשְׁתִּים",
+            "אַבְנֵר"
+          ],
+          "listener": [
+            "שָׁאוֹל",
+            "פְּלִשְׁתִּים",
+            "אַבְנֵר"
+          ]
+        },
+        "bonus": "אֲלֵיהֶם",
+        "bonus_hint": {
+          "quote": "וַיָּחָן יְהוָה אֹתָם וַֽיְרַחֲמֵם וַיִּפֶן אֲלֵיהֶם לְמַעַן בְּרִיתוֹ אֶת־אַבְרָהָם יִצְחָק וְיַֽעֲקֹב וְלֹא אָבָה הַשְׁחִיתָם וְלֹֽא־הִשְׁלִיכָם מֵֽעַל־פָּנָיו עַד־עָֽתָּה",
+          "source": {
+            "book": "מלכים ב",
+            "chapter": 13,
+            "start": 23,
+            "end": 23
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Nahash the Ammonite answered them, On this condition will I make a covenant with you, that I may thrust out all your right eyes, and lay it for a reproach upon all Israel.",
+          "3": "And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messengers unto all the coasts of Israel: and then, if there be no man to save us, we will come out to thee."
+        },
+        "he": {
+          "2": "וַיֹּאמֶר אֲלֵיהֶם נָחָשׁ הָעַמּוֹנִי בְּזֹאת אֶכְרֹת לָכֶם בִּנְקוֹר לָכֶם כָּל־עֵין יָמִין וְשַׂמְתִּיהָ חֶרְפָּה עַל־כָּל־יִשְׂרָאֵֽל׃",
+          "3": "וַיֹּאמְרוּ אֵלָיו זִקְנֵי יָבֵישׁ הֶרֶף לָנוּ שִׁבְעַת יָמִים וְנִשְׁלְחָה מַלְאָכִים בְּכֹל גְּבוּל יִשְׂרָאֵל וְאִם־אֵין מוֹשִׁיע אֹתָנוּ וְיָצָאנוּ אֵלֶֽיךָ׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 2,
+        "end": 3
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-11-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 11,
+        "quote_verse_start": 3,
+        "quote_verse_end": 9
+      },
+      "en": {
+        "quote": "And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messengers unto all the coasts of Israel: and then, if there be no man to save us, we will come out to thee. Then came the messengers to Gibeah of Saul, and told the tidings in the ears of the people: and all the people lifted up their voices, and wept. And, behold, Saul came after the herd out of the field; and Saul said, What aileth the people that they weep? And they told him the tidings of the men of Jabesh. And the Spirit of God came upon Saul when he heard those tidings, and his anger was kindled greatly. And he took a yoke of oxen, and hewed them in pieces, and sent them throughout all the coasts of Israel by the hands of messengers, saying, Whosoever cometh not forth after Saul and after Samuel, so shall it be done unto his oxen. And the fear of the LORD fell on the people, and they came out with one consent. And when he numbered them in Bezek, the children of Israel were three hundred thousand, and the men of Judah thirty thousand. And they said unto the messengers that came, Thus shall ye say unto the men of Jabesh-gilead, To morrow, by that time the sun be hot, ye shall have help. And the messengers came and shewed it to the men of Jabesh; and they were glad.",
+        "riddle": "Thus shall ye say unto the men of Jabesh-gilead, To morrow, by that time the sun be hot, ye shall have help.",
+        "speaker": "Israelites",
+        "listener": "messengers",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "servants",
+            "elders of Israel"
+          ],
+          "listener": [
+            "Abner",
+            "Samuel",
+            "people"
+          ]
+        },
+        "bonus": "seven",
+        "bonus_hint": {
+          "quote": "And he stayed yet other seven days; and sent forth the dove; which returned not again unto him any more.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 8,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ אֵלָיו זִקְנֵי יָבֵישׁ הֶרֶף לָנוּ שִׁבְעַת יָמִים וְנִשְׁלְחָה מַלְאָכִים בְּכֹל גְּבוּל יִשְׂרָאֵל וְאִם־אֵין מוֹשִׁיע אֹתָנוּ וְיָצָאנוּ אֵלֶֽיךָ וַיָּבֹאוּ הַמַּלְאָכִים גִּבְעַת שָׁאוּל וַיְדַבְּרוּ הַדְּבָרִים בְּאָזְנֵי הָעָם וַיִּשְׂאוּ כָל־הָעָם אֶת־קוֹלָם וַיִּבְכּֽוּ וְהִנֵּה שָׁאוּל בָּא אַחֲרֵי הַבָּקָר מִן־הַשָּׂדֶה וַיֹּאמֶר שָׁאוּל מַה־לָּעָם כִּי יִבְכּוּ וַיְסַפְּרוּ־לוֹ אֶת־דִּבְרֵי אַנְשֵׁי יָבֵֽישׁ וַתִּצְלַח רֽוּחַ־אֱלֹהִים עַל־שָׁאוּל כְּשָׁמְעוֹ אֶת־הַדְּבָרִים הָאֵלֶּה וַיִּחַר אַפּוֹ מְאֹֽד וַיִּקַּח צֶמֶד בָּקָר וַֽיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכָל־גְּבוּל יִשְׂרָאֵל בְּיַד הַמַּלְאָכִים לֵאמֹר אֲשֶׁר אֵינֶנּוּ יֹצֵא אַחֲרֵי שָׁאוּל וְאַחַר שְׁמוּאֵל כֹּה יֵעָשֶׂה לִבְקָרוֹ וַיִּפֹּל פַּֽחַד־יְהוָה עַל־הָעָם וַיֵּצְאוּ כְּאִישׁ אֶחָֽד וַֽיִּפְקְדֵם בְּבָזֶק וַיִּהְיוּ בְנֵֽי־יִשְׂרָאֵל שְׁלֹשׁ מֵאוֹת אֶלֶף וְאִישׁ יְהוּדָה שְׁלֹשִׁים אָֽלֶף וַיֹּאמְרוּ לַמַּלְאָכִים הַבָּאִים כֹּה תֹֽאמְרוּן לְאִישׁ יָבֵישׁ גִּלְעָד מָחָר תִּהְיֶֽה־לָכֶם תְּשׁוּעָה כְּחֹם הַשָּׁמֶשׁ וַיָּבֹאוּ הַמַּלְאָכִים וַיַּגִּידוּ לְאַנְשֵׁי יָבֵישׁ וַיִּשְׂמָֽחוּ",
+        "riddle": "כֹּה תֹֽאמְרוּן לְאִישׁ יָבֵישׁ גִּלְעָד מָחָר תִּהְיֶֽה־לָכֶם תְּשׁוּעָה כְּחֹם הַשָּׁמֶש",
+        "speaker": "בְנֵֽי־יִשְׂרָאֵל",
+        "listener": "הַמַּלְאָכִים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "עֲבָדָיו",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "אַבְנֵר",
+            "שְׁמוּאֵל",
+            "הָעָם"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וַיִּיָּחֶל עוֹד שִׁבְעַת יָמִים אֲחֵרִים וַיְשַׁלַּח אֶת־הַיּוֹנָה וְלֹֽא־יָסְפָה שׁוּב־אֵלָיו עֽוֹד",
+          "source": {
+            "book": "בראשית",
+            "chapter": 8,
+            "start": 12,
+            "end": 12
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And the elders of Jabesh said unto him, Give us seven days' respite, that we may send messengers unto all the coasts of Israel: and then, if there be no man to save us, we will come out to thee.",
+          "4": "Then came the messengers to Gibeah of Saul, and told the tidings in the ears of the people: and all the people lifted up their voices, and wept.",
+          "5": "And, behold, Saul came after the herd out of the field; and Saul said, What aileth the people that they weep? And they told him the tidings of the men of Jabesh.",
+          "6": "And the Spirit of God came upon Saul when he heard those tidings, and his anger was kindled greatly.",
+          "7": "And he took a yoke of oxen, and hewed them in pieces, and sent them throughout all the coasts of Israel by the hands of messengers, saying, Whosoever cometh not forth after Saul and after Samuel, so shall it be done unto his oxen. And the fear of the LORD fell on the people, and they came out with one consent.",
+          "8": "And when he numbered them in Bezek, the children of Israel were three hundred thousand, and the men of Judah thirty thousand.",
+          "9": "And they said unto the messengers that came, Thus shall ye say unto the men of Jabesh-gilead, To morrow, by that time the sun be hot, ye shall have help. And the messengers came and shewed it to the men of Jabesh; and they were glad."
+        },
+        "he": {
+          "3": "וַיֹּאמְרוּ אֵלָיו זִקְנֵי יָבֵישׁ הֶרֶף לָנוּ שִׁבְעַת יָמִים וְנִשְׁלְחָה מַלְאָכִים בְּכֹל גְּבוּל יִשְׂרָאֵל וְאִם־אֵין מוֹשִׁיע אֹתָנוּ וְיָצָאנוּ אֵלֶֽיךָ׃",
+          "4": "וַיָּבֹאוּ הַמַּלְאָכִים גִּבְעַת שָׁאוּל וַיְדַבְּרוּ הַדְּבָרִים בְּאָזְנֵי הָעָם וַיִּשְׂאוּ כָל־הָעָם אֶת־קוֹלָם וַיִּבְכּֽוּ׃",
+          "5": "וְהִנֵּה שָׁאוּל בָּא אַחֲרֵי הַבָּקָר מִן־הַשָּׂדֶה וַיֹּאמֶר שָׁאוּל מַה־לָּעָם כִּי יִבְכּוּ וַיְסַפְּרוּ־לוֹ אֶת־דִּבְרֵי אַנְשֵׁי יָבֵֽישׁ׃",
+          "6": "וַתִּצְלַח רֽוּחַ־אֱלֹהִים עַל־שָׁאוּל כְּשָׁמְעוֹ אֶת־הַדְּבָרִים הָאֵלֶּה וַיִּחַר אַפּוֹ מְאֹֽד׃",
+          "7": "וַיִּקַּח צֶמֶד בָּקָר וַֽיְנַתְּחֵהוּ וַיְשַׁלַּח בְּכָל־גְּבוּל יִשְׂרָאֵל בְּיַד הַמַּלְאָכִים ׀ לֵאמֹר אֲשֶׁר אֵינֶנּוּ יֹצֵא אַחֲרֵי שָׁאוּל וְאַחַר שְׁמוּאֵל כֹּה יֵעָשֶׂה לִבְקָרוֹ וַיִּפֹּל פַּֽחַד־יְהוָה עַל־הָעָם וַיֵּצְאוּ כְּאִישׁ אֶחָֽד׃",
+          "8": "וַֽיִּפְקְדֵם בְּבָזֶק וַיִּהְיוּ בְנֵֽי־יִשְׂרָאֵל שְׁלֹשׁ מֵאוֹת אֶלֶף וְאִישׁ יְהוּדָה שְׁלֹשִׁים אָֽלֶף׃",
+          "9": "וַיֹּאמְרוּ לַמַּלְאָכִים הַבָּאִים כֹּה תֹֽאמְרוּן לְאִישׁ יָבֵישׁ גִּלְעָד מָחָר תִּהְיֶֽה־לָכֶם תְּשׁוּעָה כְּחֹם הַשָּׁמֶשׁ וַיָּבֹאוּ הַמַּלְאָכִים וַיַּגִּידוּ לְאַנְשֵׁי יָבֵישׁ וַיִּשְׂמָֽחוּ׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 3,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-11-10-10",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 11,
+        "quote_verse_start": 9,
+        "quote_verse_end": 10
+      },
+      "en": {
+        "quote": "And they said unto the messengers that came, Thus shall ye say unto the men of Jabesh-gilead, To morrow, by that time the sun be hot, ye shall have help. And the messengers came and shewed it to the men of Jabesh; and they were glad. Therefore the men of Jabesh said, To morrow we will come out unto you, and ye shall do with us all that seemeth good unto you.",
+        "riddle": "To morrow we will come out unto you, and ye shall do with us all that seemeth good unto you.",
+        "speaker": "men of Jabesh",
+        "listener": "messengers",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "Philistines",
+            "Israelites",
+            "men of Israel"
+          ],
+          "listener": [
+            "Abner",
+            "Philistines",
+            "Israelites"
+          ]
+        },
+        "bonus": "sun",
+        "bonus_hint": {
+          "quote": "And when all the people came to cause David to eat meat while it was yet day, David sware, saying, So do God to me, and more also, if I taste bread, or ought else, till the sun be down.",
+          "source": {
+            "book": "2 Samuel",
+            "chapter": 3,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לַמַּלְאָכִים הַבָּאִים כֹּה תֹֽאמְרוּן לְאִישׁ יָבֵישׁ גִּלְעָד מָחָר תִּהְיֶֽה־לָכֶם תְּשׁוּעָה כְּחֹם הַשָּׁמֶשׁ וַיָּבֹאוּ הַמַּלְאָכִים וַיַּגִּידוּ לְאַנְשֵׁי יָבֵישׁ וַיִּשְׂמָֽחוּ וַֽיֹּאמְרוּ אַנְשֵׁי יָבֵישׁ מָחָר נֵצֵא אֲלֵיכֶם וַעֲשִׂיתֶם לָּנוּ כְּכָל־הַטּוֹב בְּעֵינֵיכֶֽם",
+        "riddle": "מָחָר נֵצֵא אֲלֵיכֶם וַעֲשִׂיתֶם לָּנוּ כְּכָל־הַטּוֹב בְּעֵינֵיכֶֽם",
+        "speaker": "אַנְשֵׁי יָבֵישׁ",
+        "listener": "הַמַּלְאָכִים",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "פְּלִשְׁתִּים",
+            "בְּנֵי יִשְׂרָאֵל",
+            "אִישׁ יִשְׂרָאֵל"
+          ],
+          "listener": [
+            "אַבְנֵר",
+            "פְּלִשְׁתִּים",
+            "בְּנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "כֹּה",
+        "bonus_hint": {
+          "quote": "וַיָּבֹא כָל־הָעָם לְהַבְרוֹת אֶת־דָּוִד לֶחֶם בְּעוֹד הַיּוֹם וַיִּשָּׁבַע דָּוִד לֵאמֹר כֹּה יַעֲשֶׂה־לִּי אֱלֹהִים וְכֹה יֹסִיף כִּי אִם־לִפְנֵי בֽוֹא־הַשֶּׁמֶשׁ אֶטְעַם־לֶחֶם אוֹ כָל־מְאֽוּמָה",
+          "source": {
+            "book": "שמואל ב",
+            "chapter": 3,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And they said unto the messengers that came, Thus shall ye say unto the men of Jabesh-gilead, To morrow, by that time the sun be hot, ye shall have help. And the messengers came and shewed it to the men of Jabesh; and they were glad.",
+          "10": "Therefore the men of Jabesh said, To morrow we will come out unto you, and ye shall do with us all that seemeth good unto you."
+        },
+        "he": {
+          "9": "וַיֹּאמְרוּ לַמַּלְאָכִים הַבָּאִים כֹּה תֹֽאמְרוּן לְאִישׁ יָבֵישׁ גִּלְעָד מָחָר תִּהְיֶֽה־לָכֶם תְּשׁוּעָה כְּחֹם הַשָּׁמֶשׁ וַיָּבֹאוּ הַמַּלְאָכִים וַיַּגִּידוּ לְאַנְשֵׁי יָבֵישׁ וַיִּשְׂמָֽחוּ׃",
+          "10": "וַֽיֹּאמְרוּ אַנְשֵׁי יָבֵישׁ מָחָר נֵצֵא אֲלֵיכֶם וַעֲשִׂיתֶם לָּנוּ כְּכָל־הַטּוֹב בְּעֵינֵיכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 9,
+        "end": 10
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-11-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 11,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13
+      },
+      "en": {
+        "quote": "And the people said unto Samuel, Who is he that said, Shall Saul reign over us? bring the men, that we may put them to death. And Saul said, There shall not a man be put to death this day: for to day the LORD hath wrought salvation in Israel.",
+        "riddle": "There shall not a man be put to death this day: for to day the LORD hath wrought salvation in Israel.",
+        "speaker": "Saul",
+        "listener": "people",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "David",
+            "Samuel",
+            "Eli"
+          ],
+          "listener": [
+            "Philistines",
+            "Eli's sons",
+            "elders of Israel"
+          ]
+        },
+        "bonus": "reign",
+        "bonus_hint": {
+          "quote": "And the LORD said unto Samuel, Hearken unto the voice of the people in all that they say unto thee: for they have not rejected thee, but they have rejected me, that I should not reign over them.",
+          "source": {
+            "book": "1 Samuel",
+            "chapter": 8,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הָעָם אֶל־שְׁמוּאֵל מִי הָאֹמֵר שָׁאוּל יִמְלֹךְ עָלֵינוּ תְּנוּ הָאֲנָשִׁים וּנְמִיתֵֽם וַיֹּאמֶר שָׁאוּל לֹֽא־יוּמַת אִישׁ בַּיּוֹם הַזֶּה כִּי הַיּוֹם עָשָֽׂה־יְהוָה תְּשׁוּעָה בְּיִשְׂרָאֵֽל",
+        "riddle": "לֹֽא־יוּמַת אִישׁ בַּיּוֹם הַזֶּה כִּי הַיּוֹם עָשָֽׂה־יְהוָה תְּשׁוּעָה בְּיִשְׂרָאֵֽל",
+        "speaker": "שָׁאוּל",
+        "listener": "הָעָם",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "דּוֹד",
+            "שְׁמוּאֵל",
+            "עָלַי"
+          ],
+          "listener": [
+            "פְּלִשְׁתִּים",
+            "בְּנֵי עָלַי",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "שְׁמוּאֵל",
+        "bonus_hint": {
+          "quote": "וַיֹּאמֶר יְהוָה אֶל־שְׁמוּאֵל שְׁמַע בְּקוֹל הָעָם לְכֹל אֲשֶׁר־יֹאמְרוּ אֵלֶיךָ כִּי לֹא אֹֽתְךָ מָאָסוּ כִּֽי־אֹתִי מָאֲסוּ מִמְּלֹךְ עֲלֵיהֶֽם",
+          "source": {
+            "book": "שמואל א",
+            "chapter": 8,
+            "start": 7,
+            "end": 7
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And the people said unto Samuel, Who is he that said, Shall Saul reign over us? bring the men, that we may put them to death.",
+          "13": "And Saul said, There shall not a man be put to death this day: for to day the LORD hath wrought salvation in Israel."
+        },
+        "he": {
+          "12": "וַיֹּאמֶר הָעָם אֶל־שְׁמוּאֵל מִי הָאֹמֵר שָׁאוּל יִמְלֹךְ עָלֵינוּ תְּנוּ הָאֲנָשִׁים וּנְמִיתֵֽם׃",
+          "13": "וַיֹּאמֶר שָׁאוּל לֹֽא־יוּמַת אִישׁ בַּיּוֹם הַזֶּה כִּי הַיּוֹם עָשָֽׂה־יְהוָה תְּשׁוּעָה בְּיִשְׂרָאֵֽל׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 12,
+        "end": 13
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-11-14-14",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 11,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15
+      },
+      "en": {
+        "quote": "Then said Samuel to the people, Come, and let us go to Gilgal, and renew the kingdom there. And all the people went to Gilgal; and there they made Saul king before the LORD in Gilgal; and there they sacrificed sacrifices of peace offerings before the LORD; and there Saul and all the men of Israel rejoiced greatly.",
+        "riddle": "Come, and let us go to Gilgal, and renew the kingdom there.",
+        "speaker": "Samuel",
+        "listener": "people",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [
+            "David",
+            "Saul",
+            "Eli"
+          ],
+          "listener": [
+            "Eli's sons",
+            "Philistines",
+            "elders of Israel"
+          ]
+        },
+        "bonus": "king",
+        "bonus_hint": {
+          "quote": "And all the men of Shechem gathered together, and all the house of Millo, and went, and made Abimelech king, by the plain of the pillar that was in Shechem.",
+          "source": {
+            "book": "Judges",
+            "chapter": 9,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם לְכוּ וְנֵלְכָה הַגִּלְגָּל וּנְחַדֵּשׁ שָׁם הַמְּלוּכָֽה וַיֵּלְכוּ כָל־הָעָם הַגִּלְגָּל וַיַּמְלִכוּ שָׁם אֶת־שָׁאוּל לִפְנֵי יְהוָה בַּגִּלְגָּל וַיִּזְבְּחוּ־שָׁם זְבָחִים שְׁלָמִים לִפְנֵי יְהוָה וַיִּשְׂמַח שָׁם שָׁאוּל וְכָל־אַנְשֵׁי יִשְׂרָאֵל עַד־מְאֹֽד",
+        "riddle": "לְכוּ וְנֵלְכָה הַגִּלְגָּל וּנְחַדֵּשׁ שָׁם הַמְּלוּכָֽה",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "הָעָם",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [
+            "דּוֹד",
+            "שָׁאוֹל",
+            "עָלַי"
+          ],
+          "listener": [
+            "בְּנֵי עָלַי",
+            "פְּלִשְׁתִּים",
+            "זִקְנֵי יִשְׂרָאֵל"
+          ]
+        },
+        "bonus": "וַיֵּלְכוּ",
+        "bonus_hint": {
+          "quote": "וַיֵּאָסְפוּ כָּל־בַּעֲלֵי שְׁכֶם וְכָל־בֵּית מִלּוֹא וַיֵּלְכוּ וַיַּמְלִיכוּ אֶת־אֲבִימֶלֶךְ לְמֶלֶךְ עִם־אֵלוֹן מֻצָּב אֲשֶׁר בִּשְׁכֶֽם",
+          "source": {
+            "book": "שופטים",
+            "chapter": 9,
+            "start": 6,
+            "end": 6
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "Then said Samuel to the people, Come, and let us go to Gilgal, and renew the kingdom there.",
+          "15": "And all the people went to Gilgal; and there they made Saul king before the LORD in Gilgal; and there they sacrificed sacrifices of peace offerings before the LORD; and there Saul and all the men of Israel rejoiced greatly."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר שְׁמוּאֵל אֶל־הָעָם לְכוּ וְנֵלְכָה הַגִּלְגָּל וּנְחַדֵּשׁ שָׁם הַמְּלוּכָֽה׃",
+          "15": "וַיֵּלְכוּ כָל־הָעָם הַגִּלְגָּל וַיַּמְלִכוּ שָׁם אֶת־שָׁאוּל לִפְנֵי יְהוָה בַּגִּלְגָּל וַיִּזְבְּחוּ־שָׁם זְבָחִים שְׁלָמִים לִפְנֵי יְהוָה וַיִּשְׂמַח שָׁם שָׁאוּל וְכָל־אַנְשֵׁי יִשְׂרָאֵל עַד־מְאֹֽד׃"
+        }
+      },
+      "ref": {
+        "chapter": 11,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

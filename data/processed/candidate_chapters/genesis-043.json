@@ -4,12 +4,659 @@
   "book_he": "בראשית",
   "chapter": 43,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-43-03-03",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "And Judah spake unto him, saying, The man did solemnly protest unto us, saying, Ye shall not see my face, except your brother be with you.",
+        "riddle": "Ye shall not see my face, except your brother be with you.",
+        "speaker": "the man",
+        "listener": "Judah and brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵלָיו יְהוּדָה לֵאמֹר הָעֵד הֵעִד בָּנוּ הָאִישׁ לֵאמֹר לֹֽא־תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם",
+        "riddle": "לֹֽא־תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם",
+        "speaker": "הָאִישׁ",
+        "listener": "יְהוּדָה וְאֶחָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "And Judah spake unto him, saying, The man did solemnly protest unto us, saying, Ye shall not see my face, except your brother be with you."
+        },
+        "he": {
+          "3": "וַיֹּאמֶר אֵלָיו יְהוּדָה לֵאמֹר הָעֵד הֵעִד בָּנוּ הָאִישׁ לֵאמֹר לֹֽא־תִרְאוּ פָנַי בִּלְתִּי אֲחִיכֶם אִתְּכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct quote of warning",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "genesis-43-04-04",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4
+      },
+      "en": {
+        "quote": "If thou wilt send our brother with us, we will go down and buy thee food:",
+        "riddle": "If thou wilt send our brother with us, we will go down and buy thee food:",
+        "speaker": "Judah",
+        "listener": "Israel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "אִם־יֶשְׁךָ מְשַׁלֵּחַ אֶת־אָחִינוּ אִתָּנוּ נֵרְדָה וְנִשְׁבְּרָה לְךָ אֹֽכֶל",
+        "riddle": "אִם־יֶשְׁךָ מְשַׁלֵּחַ אֶת־אָחִינוּ אִתָּנוּ נֵרְדָה וְנִשְׁבְּרָה לְךָ אֹֽכֶל",
+        "speaker": "יהודה",
+        "listener": "ישראל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "If thou wilt send our brother with us, we will go down and buy thee food:"
+        },
+        "he": {
+          "4": "אִם־יֶשְׁךָ מְשַׁלֵּחַ אֶת־אָחִינוּ אִתָּנוּ נֵרְדָה וְנִשְׁבְּרָה לְךָ אֹֽכֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "conditional offer",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "genesis-43-06-06",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 6,
+        "quote_verse_end": 6
+      },
+      "en": {
+        "quote": "And Israel said, Wherefore dealt ye so ill with me, as to tell the man whether ye had yet a brother?",
+        "riddle": "Wherefore dealt ye so ill with me, as to tell the man whether ye had yet a brother?",
+        "speaker": "Israel",
+        "listener": "his sons",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יִשְׂרָאֵל לָמָה הֲרֵעֹתֶם לִי לְהַגִּיד לָאִישׁ הַעוֹד לָכֶם אָֽח",
+        "riddle": "לָמָה הֲרֵעֹתֶם לִי לְהַגִּיד לָאִישׁ הַעוֹד לָכֶם אָֽח",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "בְּנָיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And Israel said, Wherefore dealt ye so ill with me, as to tell the man whether ye had yet a brother?"
+        },
+        "he": {
+          "6": "וַיֹּאמֶר יִשְׂרָאֵל לָמָה הֲרֵעֹתֶם לִי לְהַגִּיד לָאִישׁ הַעוֹד לָכֶם אָֽח׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 6,
+        "end": 6
+      }
+    },
+    {
+      "id": "genesis-43-07-07",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And they said, The man asked us straitly of our state, and of our kindred, saying, Is your father yet alive? have ye another brother? and we told him according to the tenor of these words: could we certainly know that he would say, Bring your brother down?",
+        "riddle": "Is your father yet alive? have ye another brother?",
+        "speaker": "the man",
+        "listener": "the brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ שָׁאוֹל שָֽׁאַל־הָאִישׁ לָנוּ וּלְמֽוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶֽם",
+        "riddle": "הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח",
+        "speaker": "הָאִישׁ",
+        "listener": "הָאַחִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And they said, The man asked us straitly of our state, and of our kindred, saying, Is your father yet alive? have ye another brother? and we told him according to the tenor of these words: could we certainly know that he would say, Bring your brother down?"
+        },
+        "he": {
+          "7": "וַיֹּאמְרוּ שָׁאוֹל שָֽׁאַל־הָאִישׁ לָנוּ וּלְמֽוֹלַדְתֵּנוּ לֵאמֹר הַעוֹד אֲבִיכֶם חַי הֲיֵשׁ לָכֶם אָח וַנַגֶּד־לוֹ עַל־פִּי הַדְּבָרִים הָאֵלֶּה הֲיָדוֹעַ נֵדַע כִּי יֹאמַר הוֹרִידוּ אֶת־אֲחִיכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "genesis-43-08-08",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8
+      },
+      "en": {
+        "quote": "And Judah said unto Israel his father, Send the lad with me, and we will arise and go; that we may live, and not die, both we, and thou, and also our little ones.",
+        "riddle": "Send the lad with me, and we will arise and go; that we may live, and not die, both we, and thou, and also our little ones.",
+        "speaker": "Judah",
+        "listener": "Israel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוּדָה אֶל־יִשְׂרָאֵל אָבִיו שִׁלְחָה הַנַּעַר אִתִּי וְנָקוּמָה וְנֵלֵכָה וְנִֽחְיֶה וְלֹא נָמוּת גַּם־אֲנַחְנוּ גַם־אַתָּה גַּם־טַפֵּֽנוּ",
+        "riddle": "שִׁלְחָה הַנַּעַר אִתִּי וְנָקוּמָה וְנֵלֵכָה וְנִֽחְיֶה וְלֹא נָמוּת גַּם־אֲנַחְנוּ גַם־אַתָּה גַּם־טַפֵּֽנו",
+        "speaker": "יְהוּדָה",
+        "listener": "יִשְׂרָאֵל",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And Judah said unto Israel his father, Send the lad with me, and we will arise and go; that we may live, and not die, both we, and thou, and also our little ones."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר יְהוּדָה אֶל־יִשְׂרָאֵל אָבִיו שִׁלְחָה הַנַּעַר אִתִּי וְנָקוּמָה וְנֵלֵכָה וְנִֽחְיֶה וְלֹא נָמוּת גַּם־אֲנַחְנוּ גַם־אַתָּה גַּם־טַפֵּֽנוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "genesis-43-11-11",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And their father Israel said unto them, If it must be so now, do this; take of the best fruits in the land in your vessels, and carry down the man a present, a little balm, and a little honey, spices, and myrrh, nuts, and almonds:",
+        "riddle": "If it must be so now, do this; take of the best fruits in the land in your vessels, and carry down the man a present, a little balm, and a little honey, spices, and myrrh, nuts, and almonds:",
+        "speaker": "Israel",
+        "listener": "sons of Israel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם יִשְׂרָאֵל אֲבִיהֶם אִם־כֵּן אֵפוֹא זֹאת עֲשׂוּ קְחוּ מִזִּמְרַת הָאָרֶץ בִּכְלֵיכֶם וְהוֹרִידוּ לָאִישׁ מִנְחָה מְעַט צֳרִי וּמְעַט דְּבַשׁ נְכֹאת וָלֹט בָּטְנִים וּשְׁקֵדִֽים",
+        "riddle": "וַיֹּאמֶר אֲלֵהֶם יִשְׂרָאֵל אֲבִיהֶם אִם־כֵּן אֵפוֹא זֹאת עֲשׂוּ קְחוּ מִזִּמְרַת הָאָרֶץ בִּכְלֵיכֶם וְהוֹרִידוּ לָאִישׁ מִנְחָה מְעַט צֳרִי וּמְעַט דְּבַשׁ נְכֹאת וָלֹט בָּטְנִים וּשְׁקֵדִֽים",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "אֲלֵהֶם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And their father Israel said unto them, If it must be so now, do this; take of the best fruits in the land in your vessels, and carry down the man a present, a little balm, and a little honey, spices, and myrrh, nuts, and almonds:"
+        },
+        "he": {
+          "11": "וַיֹּאמֶר אֲלֵהֶם יִשְׂרָאֵל אֲבִיהֶם אִם־כֵּן ׀ אֵפוֹא זֹאת עֲשׂוּ קְחוּ מִזִּמְרַת הָאָרֶץ בִּכְלֵיכֶם וְהוֹרִידוּ לָאִישׁ מִנְחָה מְעַט צֳרִי וּמְעַט דְּבַשׁ נְכֹאת וָלֹט בָּטְנִים וּשְׁקֵדִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "genesis-43-12-12",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And take double money in your hand; and the money that was brought again in the mouth of your sacks, carry it again in your hand; peradventure it was an oversight:",
+        "riddle": "And take double money in your hand; and the money that was brought again in the mouth of your sacks, carry it again in your hand; peradventure it was an oversight:",
+        "speaker": "Israel",
+        "listener": "sons of Israel",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וְכֶסֶף מִשְׁנֶה קְחוּ בְיֶדְכֶם וְאֶת־הַכֶּסֶף הַמּוּשָׁב בְּפִי אַמְתְּחֹֽתֵיכֶם תָּשִׁיבוּ בְיֶדְכֶם אוּלַי מִשְׁגֶּה הֽוּא",
+        "riddle": "וְכֶסֶף מִשְׁנֶה קְחוּ בְיֶדְכֶם וְאֶת־הַכֶּסֶף הַמּוּשָׁב בְּפִי אַמְתְּחֹֽתֵיכֶם תָּשִׁיבוּ בְיֶדְכֶם אוּלַי מִשְׁגֶּה הֽוּא",
+        "speaker": "יִשְׂרָאֵל",
+        "listener": "אֲבִיהֶם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And their father Israel said unto them, If it must be so now, do this; take of the best fruits in the land in your vessels, and carry down the man a present, a little balm, and a little honey, spices, and myrrh, nuts, and almonds:",
+          "12": "And take double money in your hand; and the money that was brought again in the mouth of your sacks, carry it again in your hand; peradventure it was an oversight:"
+        },
+        "he": {
+          "11": "וַיֹּאמֶר אֲלֵהֶם יִשְׂרָאֵל אֲבִיהֶם אִם־כֵּן ׀ אֵפוֹא זֹאת עֲשׂוּ קְחוּ מִזִּמְרַת הָאָרֶץ בִּכְלֵיכֶם וְהוֹרִידוּ לָאִישׁ מִנְחָה מְעַט צֳרִי וּמְעַט דְּבַשׁ נְכֹאת וָלֹט בָּטְנִים וּשְׁקֵדִֽים׃",
+          "12": "וְכֶסֶף מִשְׁנֶה קְחוּ בְיֶדְכֶם וְאֶת־הַכֶּסֶף הַמּוּשָׁב בְּפִי אַמְתְּחֹֽתֵיכֶם תָּשִׁיבוּ בְיֶדְכֶם אוּלַי מִשְׁגֶּה הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "genesis-43-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 16,
+        "listener_mention_verse": 16
+      },
+      "en": {
+        "quote": "And when Joseph saw Benjamin with them, he said to the ruler of his house, Bring these men home, and slay, and make ready; for these men shall dine with me at noon.",
+        "riddle": "Bring these men home, and slay, and make ready; for these men shall dine with me at noon.",
+        "speaker": "Joseph",
+        "listener": "ruler of his house",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיַּרְא יוֹסֵף אִתָּם אֶת־בִּנְיָמִין וַיֹּאמֶר לַֽאֲשֶׁר עַל־בֵּיתוֹ הָבֵא אֶת־הָאֲנָשִׁים הַבָּיְתָה וּטְבֹחַ טֶבַח וְהָכֵן כִּי אִתִּי יֹאכְלוּ הָאֲנָשִׁים בַּֽצָּהֳרָֽיִם",
+        "riddle": "וַיֹּאמֶר לַֽאֲשֶׁר עַל־בֵּיתוֹ הָבֵא אֶת־הָאֲנָשִׁים הַבָּיְתָה וּטְבֹחַ טֶבַח וְהָכֵן כִּי אִתִּי יֹאכְלוּ הָאֲנָשִׁים בַּֽצָּהֳרָֽיִם",
+        "speaker": "יוֹסֵף",
+        "listener": "לַֽאֲשֶׁר עַל־בֵּיתוֹ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "And when Joseph saw Benjamin with them, he said to the ruler of his house, Bring these men home, and slay, and make ready; for these men shall dine with me at noon."
+        },
+        "he": {
+          "16": "וַיַּרְא יוֹסֵף אִתָּם אֶת־בִּנְיָמִין וַיֹּאמֶר לַֽאֲשֶׁר עַל־בֵּיתוֹ הָבֵא אֶת־הָאֲנָשִׁים הַבָּיְתָה וּטְבֹחַ טֶבַח וְהָכֵן כִּי אִתִּי יֹאכְלוּ הָאֲנָשִׁים בַּֽצָּהֳרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-43-18-18",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And the men were afraid, because they were brought into Joseph's house; and they said, Because of the money that was returned in our sacks at the first time are we brought in; that he may seek occasion against us, and fall upon us, and take us for bondmen, and our asses.",
+        "riddle": "Because of the money that was returned in our sacks at the first time are we brought in; that he may seek occasion against us, and fall upon us, and take us for bondmen, and our asses.",
+        "speaker": "the men",
+        "listener": "themselves",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּֽירְאוּ הָֽאֲנָשִׁים כִּי הֽוּבְאוּ בֵּית יוֹסֵף וַיֹּאמְרוּ עַל־דְּבַר הַכֶּסֶף הַשָּׁב בְּאַמְתְּחֹתֵינוּ בַּתְּחִלָּה אֲנַחְנוּ מֽוּבָאִים לְהִתְגֹּלֵל עָלֵינוּ וּלְהִתְנַפֵּל עָלֵינוּ וְלָקַחַת אֹתָנוּ לַעֲבָדִים וְאֶת־חֲמֹרֵֽינוּ",
+        "riddle": "וַיֹּאמְרוּ עַל־דְּבַר הַכֶּסֶף הַשָּׁב בְּאַמְתְּחֹתֵינוּ בַּתְּחִלָּה אֲנַחְנוּ מֽוּבָאִים לְהִתְגֹּלֵל עָלֵינוּ וּלְהִתְנַפֵּל עָלֵינוּ וְלָקַחַת אֹתָנוּ לַעֲבָדִים וְאֶת־חֲמֹרֵֽינו",
+        "speaker": "הָֽאֲנָשִׁים",
+        "listener": "עַצְמָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And the men were afraid, because they were brought into Joseph's house; and they said, Because of the money that was returned in our sacks at the first time are we brought in; that he may seek occasion against us, and fall upon us, and take us for bondmen, and our asses."
+        },
+        "he": {
+          "18": "וַיִּֽירְאוּ הָֽאֲנָשִׁים כִּי הֽוּבְאוּ בֵּית יוֹסֵף וַיֹּאמְרוּ עַל־דְּבַר הַכֶּסֶף הַשָּׁב בְּאַמְתְּחֹתֵינוּ בַּתְּחִלָּה אֲנַחְנוּ מֽוּבָאִים לְהִתְגֹּלֵל עָלֵינוּ וּלְהִתְנַפֵּל עָלֵינוּ וְלָקַחַת אֹתָנוּ לַעֲבָדִים וְאֶת־חֲמֹרֵֽינוּ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid fear/speech",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "genesis-43-20-20",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 20,
+        "quote_verse_end": 20,
+        "listener_mention_verse": 19
+      },
+      "en": {
+        "quote": "And said, O sir, we came indeed down at the first time to buy food:",
+        "riddle": "O sir, we came indeed down at the first time to buy food:",
+        "speaker": "the men",
+        "listener": "steward",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ בִּי אֲדֹנִי יָרֹד יָרַדְנוּ בַּתְּחִלָּה לִשְׁבָּר־אֹֽכֶל",
+        "riddle": "וַיֹּאמְרוּ בִּי אֲדֹנִי יָרֹד יָרַדְנוּ בַּתְּחִלָּה לִשְׁבָּר־אֹֽכֶל",
+        "speaker": "הָאֲנָשִׁים",
+        "listener": "הָאִישׁ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "19": "And they came near to the steward of Joseph's house, and they communed with him at the door of the house,",
+          "20": "And said, O sir, we came indeed down at the first time to buy food:"
+        },
+        "he": {
+          "19": "וַֽיִּגְּשׁוּ אֶל־הָאִישׁ אֲשֶׁר עַל־בֵּית יוֹסֵף וַיְדַבְּרוּ אֵלָיו פֶּתַח הַבָּֽיִת׃",
+          "20": "וַיֹּאמְרוּ בִּי אֲדֹנִי יָרֹד יָרַדְנוּ בַּתְּחִלָּה לִשְׁבָּר־אֹֽכֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.96
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 20,
+        "end": 20
+      }
+    },
+    {
+      "id": "genesis-43-23-23",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And he said, Peace be to you, fear not: your God, and the God of your father, hath given you treasure in your sacks: I had your money. And he brought Simeon out unto them.",
+        "riddle": "Peace be to you, fear not: your God, and the God of your father, hath given you treasure in your sacks: I had your money.",
+        "speaker": "Joseph",
+        "listener": "brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שָׁלוֹם לָכֶם אַל־תִּירָאוּ אֱלֹהֵיכֶם וֵֽאלֹהֵי אֲבִיכֶם נָתַן לָכֶם מַטְמוֹן בְּאַמְתְּחֹתֵיכֶם כַּסְפְּכֶם בָּא אֵלָי וַיּוֹצֵא אֲלֵהֶם אֶת־שִׁמְעֽוֹן",
+        "riddle": "וַיֹּאמֶר שָׁלוֹם לָכֶם אַל־תִּירָאוּ אֱלֹהֵיכֶם וֵֽאלֹהֵי אֲבִיכֶם נָתַן לָכֶם מַטְמוֹן בְּאַמְתְּחֹתֵיכֶם כַּסְפְּכֶם בָּא אֵלָי וַיּוֹצֵא אֲלֵהֶם אֶת־שִׁמְעֽוֹן",
+        "speaker": "יוֹסֵף",
+        "listener": "אַחִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And he said, Peace be to you, fear not: your God, and the God of your father, hath given you treasure in your sacks: I had your money. And he brought Simeon out unto them."
+        },
+        "he": {
+          "23": "וַיֹּאמֶר שָׁלוֹם לָכֶם אַל־תִּירָאוּ אֱלֹהֵיכֶם וֵֽאלֹהֵי אֲבִיכֶם נָתַן לָכֶם מַטְמוֹן בְּאַמְתְּחֹתֵיכֶם כַּסְפְּכֶם בָּא אֵלָי וַיּוֹצֵא אֲלֵהֶם אֶת־שִׁמְעֽוֹן׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech and blessing",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "genesis-43-27-27",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27
+      },
+      "en": {
+        "quote": "And he asked them of their welfare, and said, Is your father well, the old man of whom ye spake? Is he yet alive?",
+        "riddle": "Is your father well, the old man of whom ye spake? Is he yet alive?",
+        "speaker": "Joseph",
+        "listener": "brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּשְׁאַל לָהֶם לְשָׁלוֹם וַיֹּאמֶר הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן אֲשֶׁר אֲמַרְתֶּם הַעוֹדֶנּוּ חָֽי",
+        "riddle": "הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן אֲשֶׁר אֲמַרְתֶּם הַעוֹדֶנּוּ חָֽי",
+        "speaker": "יוֹסֵף",
+        "listener": "אַחִיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And he asked them of their welfare, and said, Is your father well, the old man of whom ye spake? Is he yet alive?"
+        },
+        "he": {
+          "27": "וַיִּשְׁאַל לָהֶם לְשָׁלוֹם וַיֹּאמֶר הֲשָׁלוֹם אֲבִיכֶם הַזָּקֵן אֲשֶׁר אֲמַרְתֶּם הַעוֹדֶנּוּ חָֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct questions",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "genesis-43-28-28",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 28,
+        "quote_verse_end": 28
+      },
+      "en": {
+        "quote": "And they answered, Thy servant our father is in good health, he is yet alive. And they bowed down their heads, and made obeisance.",
+        "riddle": "Thy servant our father is in good health, he is yet alive.",
+        "speaker": "brothers",
+        "listener": "Joseph",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ שָׁלוֹם לְעַבְדְּךָ לְאָבִינוּ עוֹדֶנּוּ חָי וַֽיִּקְּדוּ וַיִּֽשְׁתַּחֲוֻּֽו",
+        "riddle": "שָׁלוֹם לְעַבְדְּךָ לְאָבִינוּ עוֹדֶנּוּ חָי",
+        "speaker": "אֲחִים",
+        "listener": "יוֹסֵף",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "28": "And they answered, Thy servant our father is in good health, he is yet alive. And they bowed down their heads, and made obeisance."
+        },
+        "he": {
+          "28": "וַיֹּאמְרוּ שָׁלוֹם לְעַבְדְּךָ לְאָבִינוּ עוֹדֶנּוּ חָי וַֽיִּקְּדוּ וַיִּֽשְׁתַּחֲוֻּֽו׃"
+        }
+      },
+      "meta": {
+        "reason": "direct reply",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 28,
+        "end": 28
+      }
+    },
+    {
+      "id": "genesis-43-29-29",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29
+      },
+      "en": {
+        "quote": "And he lifted up his eyes, and saw his brother Benjamin, his mother's son, and said, Is this your younger brother, of whom ye spake unto me? And he said, God be gracious unto thee, my son.",
+        "riddle": "Is this your younger brother, of whom ye spake unto me?",
+        "speaker": "Joseph",
+        "listener": "brothers",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא עֵינָיו וַיַּרְא אֶת־בִּנְיָמִין אָחִיו בֶּן־אִמּוֹ וַיֹּאמֶר הֲזֶה אֲחִיכֶם הַקָּטֹן אֲשֶׁר אֲמַרְתֶּם אֵלָי וַיֹּאמַר אֱלֹהִים יָחְנְךָ בְּנִֽי",
+        "riddle": "וַיַּרְא אֶת־בִּנְיָמִין אָחִיו בֶּן־אִמּוֹ וַיֹּאמֶר הֲזֶה אֲחִיכֶם הַקָּטֹן אֲשֶׁר אֲמַרְתֶּם אֵלָי",
+        "speaker": "יוֹסֵף",
+        "listener": "אָחִיו",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "And he lifted up his eyes, and saw his brother Benjamin, his mother's son, and said, Is this your younger brother, of whom ye spake unto me? And he said, God be gracious unto thee, my son."
+        },
+        "he": {
+          "29": "וַיִּשָּׂא עֵינָיו וַיַּרְא אֶת־בִּנְיָמִין אָחִיו בֶּן־אִמּוֹ וַיֹּאמֶר הֲזֶה אֲחִיכֶם הַקָּטֹן אֲשֶׁר אֲמַרְתֶּם אֵלָי וַיֹּאמַר אֱלֹהִים יָחְנְךָ בְּנִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "genesis-43-31-31",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 43,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And he washed his face, and went out, and refrained himself, and said, Set on bread.",
+        "riddle": "Set on bread",
+        "speaker": "Joseph",
+        "listener": "servants",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיִּרְחַץ פָּנָיו וַיֵּצֵא וַיִּתְאַפַּק וַיֹּאמֶר שִׂימוּ לָֽחֶם",
+        "riddle": "שִׂימוּ לָֽחֶם",
+        "speaker": "יוֹסֵף",
+        "listener": "עֲבָדִים",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And he washed his face, and went out, and refrained himself, and said, Set on bread."
+        },
+        "he": {
+          "31": "וַיִּרְחַץ פָּנָיו וַיֵּצֵא וַיִּתְאַפַּק וַיֹּאמֶר שִׂימוּ לָֽחֶם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 43,
+        "start": 31,
+        "end": 31
+      }
+    }
+  ],
   "stats": {
-    "window_count": 24,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 24,
-    "kept_count": 0,
-    "issue_count": 24
+    "llm_window_count": 5,
+    "projection_llm_count": 19,
+    "llm_call_count": 24,
+    "spec_count": 19,
+    "kept_count": 15,
+    "issue_count": 4
   }
 }

@@ -6,25 +6,157 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-kings-09-05-05",
+      "id": "2-kings-09-01-01",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 1,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 1
+      },
+      "en": {
+        "quote": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:",
+        "riddle": "Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:",
+        "speaker": "Elisha",
+        "listener": "prophet's disciple",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וֶאֱלִישָׁע הַנָּבִיא קָרָא לְאַחַד מִבְּנֵי הַנְּבִיאִים וַיֹּאמֶר לוֹ חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד",
+        "riddle": "חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד",
+        "speaker": "אֱלִישָׁע הַנָּבִיא",
+        "listener": "אַחַד מִבְּנֵי הַנְּבִיאִים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And Elisha the prophet called one of the children of the prophets, and said unto him, Gird up thy loins, and take this box of oil in thine hand, and go to Ramoth-gilead:"
+        },
+        "he": {
+          "1": "וֶאֱלִישָׁע הַנָּבִיא קָרָא לְאַחַד מִבְּנֵי הַנְּבִיאִים וַיֹּאמֶר לוֹ חֲגֹר מָתְנֶיךָ וְקַח פַּךְ הַשֶּׁמֶן הַזֶּה בְּיָדֶךָ וְלֵךְ רָמֹת גִּלְעָֽד׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 1
+      }
+    },
+    {
+      "id": "2-kings-09-03-03",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3
+      },
+      "en": {
+        "quote": "Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anointed thee king over Israel. Then open the door, and flee, and tarry not.",
+        "riddle": "Thus saith the LORD, I have anointed thee king over Israel.",
+        "speaker": "prophet",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְלָקַחְתָּ פַךְ־הַשֶּׁמֶן וְיָצַקְתָּ עַל־רֹאשׁוֹ וְאָֽמַרְתָּ כֹּֽה־אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵל וּפָתַחְתָּ הַדֶּלֶת וְנַסְתָּה וְלֹא תְחַכֶּֽה",
+        "riddle": "וְאָֽמַרְתָּ כֹּֽה־אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵל",
+        "speaker": "נביא",
+        "listener": "יהוא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "3": "Then take the box of oil, and pour it on his head, and say, Thus saith the LORD, I have anointed thee king over Israel. Then open the door, and flee, and tarry not."
+        },
+        "he": {
+          "3": "וְלָקַחְתָּ פַךְ־הַשֶּׁמֶן וְיָצַקְתָּ עַל־רֹאשׁוֹ וְאָֽמַרְתָּ כֹּֽה־אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵל וּפָתַחְתָּ הַדֶּלֶת וְנַסְתָּה וְלֹא תְחַכֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-kings-09-05-05-1",
       "source": {
         "book_code": "2KI",
         "book": "2 Kings",
         "book_he": "מלכים ב",
         "chapter": 9,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
+        "riddle": "I have an errand to thee, O captain.",
+        "speaker": "young prophet",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר",
+        "riddle": "דָּבָר לִי אֵלֶיךָ הַשָּׂר",
+        "speaker": "דָּבָר לִי אֵלֶיךָ הַשָּׂר",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain."
+        },
+        "he": {
+          "5": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-kings-09-05-05-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
         "quote": "And when he came, behold, the captains of the host were sitting; and he said, I have an errand to thee, O captain. And Jehu said, Unto which of all us? And he said, To thee, O captain.",
         "riddle": "Unto which of all us?",
         "speaker": "Jehu",
-        "listener": "Captain",
+        "listener": "young prophet",
         "book": "2 Kings"
       },
       "he": {
         "quote": "וַיָּבֹא וְהִנֵּה שָׂרֵי הַחַיִל יֹֽשְׁבִים וַיֹּאמֶר דָּבָר לִי אֵלֶיךָ הַשָּׂר וַיֹּאמֶר יֵהוּא אֶל־מִי מִכֻּלָּנוּ וַיֹּאמֶר אֵלֶיךָ הַשָּֽׂר",
-        "riddle": "מִי מִכֻּלָּנוּ",
+        "riddle": "אֶל־מִי מִכֻּלָּנו",
         "speaker": "יֵהוּא",
         "listener": "הַשָּׂר",
         "book": "מלכים ב"
@@ -38,21 +170,554 @@
         }
       },
       "meta": {
-        "reason": "Memorable direct question",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 9,
         "start": 5,
         "end": 5
       }
+    },
+    {
+      "id": "2-kings-09-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7
+      },
+      "en": {
+        "quote": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel.",
+        "riddle": "And thou shalt smite the house of Ahab thy master",
+        "speaker": "prophet",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל",
+        "riddle": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיך",
+        "speaker": "נביא",
+        "listener": "יהוא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And thou shalt smite the house of Ahab thy master, that I may avenge the blood of my servants the prophets, and the blood of all the servants of the LORD, at the hand of Jezebel."
+        },
+        "he": {
+          "7": "וְהִכִּיתָה אֶת־בֵּית אַחְאָב אֲדֹנֶיךָ וְנִקַּמְתִּי דְּמֵי ׀ עֲבָדַי הַנְּבִיאִים וּדְמֵי כָּל־עַבְדֵי יְהוָה מִיַּד אִיזָֽבֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "prophetic command",
+        "confidence": 0.88
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-kings-09-11-11",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication.",
+        "riddle": "Is all well? wherefore came this mad fellow to thee?",
+        "speaker": "servant",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְיֵהוּא יָצָא אֶל־עַבְדֵי אֲדֹנָיו וַיֹּאמֶר לוֹ הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיךָ וַיֹּאמֶר אֲלֵיהֶם אַתֶּם יְדַעְתֶּם אֶת־הָאִישׁ וְאֶת־שִׂיחֽוֹ",
+        "riddle": "הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיך",
+        "speaker": "עַבְדֵי אֲדֹנָיו",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "Then Jehu came forth to the servants of his lord: and one said unto him, Is all well? wherefore came this mad fellow to thee? And he said unto them, Ye know the man, and his communication."
+        },
+        "he": {
+          "11": "וְיֵהוּא יָצָא אֶל־עַבְדֵי אֲדֹנָיו וַיֹּאמֶר לוֹ הֲשָׁלוֹם מַדּוּעַ בָּֽא־הַמְשֻׁגָּע הַזֶּה אֵלֶיךָ וַיֹּאמֶר אֲלֵיהֶם אַתֶּם יְדַעְתֶּם אֶת־הָאִישׁ וְאֶת־שִׂיחֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "2-kings-09-12-12-1",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel.",
+        "riddle": "It is false; tell us now.",
+        "speaker": "servants",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל",
+        "riddle": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ",
+        "speaker": "הַמְּשַׁלְּחִים",
+        "listener": "יֵהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel."
+        },
+        "he": {
+          "12": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-kings-09-12-12-2",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel.",
+        "riddle": "Thus saith the LORD, I have anointed thee king over Israel.",
+        "speaker": "prophet",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל",
+        "riddle": "וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל",
+        "speaker": "נביא",
+        "listener": "יהוא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "And they said, It is false; tell us now. And he said, Thus and thus spake he to me, saying, Thus saith the LORD, I have anointed thee king over Israel."
+        },
+        "he": {
+          "12": "וַיֹּאמְרוּ שֶׁקֶר הַגֶּד־נָא לָנוּ וַיֹּאמֶר כָּזֹאת וְכָזֹאת אָמַר אֵלַי לֵאמֹר כֹּה אָמַר יְהוָה מְשַׁחְתִּיךָֽ לְמֶלֶךְ אֶל־יִשְׂרָאֵֽל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-kings-09-15-15",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 15,
+        "quote_verse_end": 15,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "But king Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If it be your minds, then let none go forth nor escape out of the city to go to tell it in Jezreel.",
+        "riddle": "If it be your minds, then let none go forth nor escape out of the city to go to tell it in Jezreel.",
+        "speaker": "Jehu",
+        "listener": "soldiers",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב יְהוֹרָם הַמֶּלֶךְ לְהִתְרַפֵּא בִיְזְרְעֶאל מִן־הַמַּכִּים אֲשֶׁר יַכֻּהוּ אֲרַמִּים בְּהִלָּחֲמוֹ אֶת־חֲזָאֵל מֶלֶךְ אֲרָם וַיֹּאמֶר יֵהוּא אִם־יֵשׁ נַפְשְׁכֶם אַל־יֵצֵא פָלִיט מִן־הָעִיר לָלֶכֶת לְהַגִּיד בְּיִזְרְעֶֽאל",
+        "riddle": "מִן־הַמַּכִּים אֲשֶׁר יַכֻּהוּ אֲרַמִּים בְּהִלָּחֲמוֹ אֶת־חֲזָאֵל מֶלֶךְ אֲרָם וַיֹּאמֶר יֵהוּא אִם־יֵשׁ נַפְשְׁכֶם אַל־יֵצֵא פָלִיט מִן־הָעִיר לָלֶכֶת לְהַגִּיד בְּיִזְרְעֶֽאל",
+        "speaker": "יֵהוּא",
+        "listener": "פָלִיט",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "But king Joram was returned to be healed in Jezreel of the wounds which the Syrians had given him, when he fought with Hazael king of Syria.) And Jehu said, If it be your minds, then let none go forth nor escape out of the city to go to tell it in Jezreel."
+        },
+        "he": {
+          "15": "וַיָּשָׁב יְהוֹרָם הַמֶּלֶךְ לְהִתְרַפֵּא בִיְזְרְעֶאל מִן־הַמַּכִּים אֲשֶׁר יַכֻּהוּ אֲרַמִּים בְּהִלָּחֲמוֹ אֶת־חֲזָאֵל מֶלֶךְ אֲרָם וַיֹּאמֶר יֵהוּא אִם־יֵשׁ נַפְשְׁכֶם אַל־יֵצֵא פָלִיט מִן־הָעִיר לָלֶכֶת לְהַגִּיד בְּיִזְרְעֶֽאל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 15,
+        "end": 15
+      }
+    },
+    {
+      "id": "2-kings-09-23-23",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "And Joram turned his hands, and fled, and said to Ahaziah, There is treachery, O Ahaziah.",
+        "riddle": "There is treachery, O Ahaziah.",
+        "speaker": "Joram",
+        "listener": "Ahaziah",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיַּהֲפֹךְ יְהוֹרָם יָדָיו וַיָּנֹס וַיֹּאמֶר אֶל־אֲחַזְיָהוּ מִרְמָה אֲחַזְיָֽה",
+        "riddle": "וַיֹּאמֶר אֶל־אֲחַזְיָהוּ מִרְמָה אֲחַזְיָֽה",
+        "speaker": "יְהוֹרָם",
+        "listener": "אֲחַזְיָהוּ",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "And Joram turned his hands, and fled, and said to Ahaziah, There is treachery, O Ahaziah."
+        },
+        "he": {
+          "23": "וַיַּהֲפֹךְ יְהוֹרָם יָדָיו וַיָּנֹס וַיֹּאמֶר אֶל־אֲחַזְיָהוּ מִרְמָה אֲחַזְיָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct warning",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "2-kings-09-25-25",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25,
+        "listener_mention_verse": 25
+      },
+      "en": {
+        "quote": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;",
+        "riddle": "Take up, and cast him in the portion of the field of Naboth the",
+        "speaker": "Jehu",
+        "listener": "Bidkar",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־בִּדְקַר שָֽׁלִשׁוֹ שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו וַֽיהוָה נָשָׂא עָלָיו אֶת־הַמַּשָּׂא הַזֶּֽה",
+        "riddle": "שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו",
+        "speaker": "יהוא",
+        "listener": "בִּדְקַר",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Then said Jehu to Bidkar his captain, Take up, and cast him in the portion of the field of Naboth the Jezreelite: for remember how that, when I and thou rode together after Ahab his father, the LORD laid this burden upon him;"
+        },
+        "he": {
+          "25": "וַיֹּאמֶר אֶל־בִּדְקַר שָֽׁלִשׁוֹ שָׂא הַשְׁלִכֵהוּ בְּחֶלְקַת שְׂדֵה נָבוֹת הַיִּזְרְעֵאלִי כִּֽי־זְכֹר אֲנִי וָאַתָּה אֵת רֹכְבִים צְמָדִים אַֽחֲרֵי אַחְאָב אָבִיו וַֽיהוָה נָשָׂא עָלָיו אֶת־הַמַּשָּׂא הַזֶּֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 25,
+        "end": 25
+      }
+    },
+    {
+      "id": "2-kings-09-31-31",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31,
+        "speaker_mention_verse": 30,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+        "riddle": "Had Zimri peace, who slew his master?",
+        "speaker": "Jezebel",
+        "listener": "Jehu",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו",
+        "riddle": "הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו",
+        "speaker": "אִיזֶבֶל",
+        "listener": "יֵהוּא",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And when Jehu was come to Jezreel, Jezebel heard of it; and she painted her face, and tired her head, and looked out at a window.",
+          "31": "And as Jehu entered in at the gate, she said, Had Zimri peace, who slew his master?",
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs."
+        },
+        "he": {
+          "30": "וַיָּבוֹא יֵהוּא יִזְרְעֶאלָה וְאִיזֶבֶל שָׁמְעָה וַתָּשֶׂם בַּפּוּךְ עֵינֶיהָ וַתֵּיטֶב אֶת־רֹאשָׁהּ וַתַּשְׁקֵף בְּעַד הַחַלּֽוֹן׃",
+          "31": "וְיֵהוּא בָּא בַשָּׁעַר וַתֹּאמֶר הֲשָׁלוֹם זִמְרִי הֹרֵג אֲדֹנָֽיו׃",
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "2-kings-09-32-32",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+        "riddle": "Who is on my side? who?",
+        "speaker": "Jehu",
+        "listener": "eunuchs",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים",
+        "riddle": "מִי אִתִּי מִי",
+        "speaker": "יהוא",
+        "listener": "סָרִיסִֽים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs."
+        },
+        "he": {
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "2-kings-09-33-33",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 32,
+        "listener_mention_verse": 32
+      },
+      "en": {
+        "quote": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot.",
+        "riddle": "Throw her down.",
+        "speaker": "Jehu",
+        "listener": "eunuchs",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה",
+        "riddle": "שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ",
+        "speaker": "יֵהוּ",
+        "listener": "סָרִיסִֽים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+          "33": "And he said, Throw her down. So they threw her down: and some of her blood was sprinkled on the wall, and on the horses: and he trode her under foot."
+        },
+        "he": {
+          "32": "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן וַיֹּאמֶר מִי אִתִּי מִי וַיַּשְׁקִיפוּ אֵלָיו שְׁנַיִם שְׁלֹשָׁה סָרִיסִֽים׃",
+          "33": "וַיֹּאמֶר שִׁמְטוּהָ וַֽיִּשְׁמְטוּהָ וַיִּז מִדָּמָהּ אֶל־הַקִּיר וְאֶל־הַסּוּסִים וַֽיִּרְמְסֶֽנָּה׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "2-kings-09-34-34",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king's daughter.",
+        "riddle": "Go, see now this cursed woman, and bury her: for she is a king's daughter.",
+        "speaker": "Jehu",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּבֹא וַיֹּאכַל וַיֵּשְׁתְּ וַיֹּאמֶר פִּקְדוּ־נָא אֶת־הָאֲרוּרָה הַזֹּאת וְקִבְרוּהָ כִּי בַת־מֶלֶךְ הִֽיא",
+        "riddle": "וַיֹּאמֶר פִּקְדוּ־נָא אֶת־הָאֲרוּרָה הַזֹּאת וְקִבְרוּהָ כִּי בַת־מֶלֶךְ הִֽיא",
+        "speaker": "יהוא",
+        "listener": "עבדים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "And when he was come in, he did eat and drink, and said, Go, see now this cursed woman, and bury her: for she is a king's daughter."
+        },
+        "he": {
+          "34": "וַיָּבֹא וַיֹּאכַל וַיֵּשְׁתְּ וַיֹּאמֶר פִּקְדוּ־נָא אֶת־הָאֲרוּרָה הַזֹּאת וְקִבְרוּהָ כִּי בַת־מֶלֶךְ הִֽיא׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 34,
+        "end": 34
+      }
+    },
+    {
+      "id": "2-kings-09-36-36",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 9,
+        "quote_verse_start": 36,
+        "quote_verse_end": 36,
+        "speaker_mention_verse": 36,
+        "listener_mention_verse": 36
+      },
+      "en": {
+        "quote": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
+        "riddle": "This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:",
+        "speaker": "Jehu",
+        "listener": "servants",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשֻׁבוּ וַיַּגִּידוּ לוֹ וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל",
+        "riddle": "וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל",
+        "speaker": "יֵהוּ",
+        "listener": "עֲבָדָיו",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "36": "Wherefore they came again, and told him. And he said, This is the word of the LORD, which he spake by his servant Elijah the Tishbite, saying, In the portion of Jezreel shall dogs eat the flesh of Jezebel:"
+        },
+        "he": {
+          "36": "וַיָּשֻׁבוּ וַיַּגִּידוּ לוֹ וַיֹּאמֶר דְּבַר־יְהוָה הוּא אֲשֶׁר דִּבֶּר בְּיַד־עַבְדּוֹ אֵלִיָּהוּ הַתִּשְׁבִּי לֵאמֹר בְּחֵלֶק יִזְרְעֶאל יֹאכְלוּ הַכְּלָבִים אֶת־בְּשַׂר אִיזָֽבֶל׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 36,
+        "end": 36
+      }
     }
   ],
   "stats": {
-    "window_count": 32,
+    "window_count": 6,
     "prefiltered_count": 0,
-    "llm_window_count": 32,
-    "kept_count": 1,
-    "issue_count": 31
+    "llm_window_count": 6,
+    "projection_llm_count": 21,
+    "llm_call_count": 27,
+    "spec_count": 21,
+    "kept_count": 16,
+    "issue_count": 6
   }
 }

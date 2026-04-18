@@ -4,12 +4,62 @@
   "book_he": "ויקרא",
   "chapter": 15,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "leviticus-15-02-02",
+      "source": {
+        "book_code": "LEV",
+        "book": "Leviticus",
+        "book_he": "ויקרא",
+        "chapter": 15,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean.",
+        "riddle": "When any man hath a running issue out of his flesh, because of his issue he is unclean.",
+        "speaker": "the LORD",
+        "listener": "children of Israel",
+        "book": "Leviticus"
+      },
+      "he": {
+        "quote": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל וַאֲמַרְתֶּם אֲלֵהֶם אִישׁ אִישׁ כִּי יִהְיֶה זָב מִבְּשָׂרוֹ זוֹבוֹ טָמֵא הֽוּא",
+        "riddle": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל וַאֲמַרְתֶּם אֲלֵהֶם אִישׁ אִישׁ כִּי יִהְיֶה זָב מִבְּשָׂרוֹ זוֹבוֹ טָמֵא הֽוּא",
+        "speaker": "יְהוָה",
+        "listener": "בְּנֵי יִשְׂרָאֵל",
+        "book": "ויקרא"
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses and to Aaron, saying,",
+          "2": "Speak unto the children of Israel, and say unto them, When any man hath a running issue out of his flesh, because of his issue he is unclean."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה וְאֶֽל־אַהֲרֹן לֵאמֹֽר׃",
+          "2": "דַּבְּרוּ אֶל־בְּנֵי יִשְׂרָאֵל וַאֲמַרְתֶּם אֲלֵהֶם אִישׁ אִישׁ כִּי יִהְיֶה זָב מִבְּשָׂרוֹ זוֹבוֹ טָמֵא הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command and declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 15,
+        "start": 2,
+        "end": 2
+      }
+    }
+  ],
   "stats": {
-    "window_count": 3,
+    "window_count": 1,
     "prefiltered_count": 0,
-    "llm_window_count": 3,
-    "kept_count": 0,
-    "issue_count": 3
+    "llm_window_count": 1,
+    "projection_llm_count": 1,
+    "llm_call_count": 2,
+    "spec_count": 1,
+    "kept_count": 1,
+    "issue_count": 0
   }
 }

@@ -13,12 +13,14 @@
         "book": "1 Samuel",
         "book_he": "שמואל א",
         "chapter": 13,
-        "quote_verse_start": 7,
-        "quote_verse_end": 12
+        "quote_verse_start": 9,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
       },
       "en": {
-        "quote": "And some of the Hebrews went over Jordan to the land of Gad and Gilead. As for Saul, he was yet in Gilgal, and all the people followed him trembling. And he tarried seven days, according to the set time that Samuel had appointed: but Samuel came not to Gilgal; and the people were scattered from him. And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering. And it came to pass, that as soon as he had made an end of offering the burnt offering, behold, Samuel came; and Saul went out to meet him, that he might salute him. And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash; Therefore said I, The Philistines will come down now upon me to Gilgal, and I have not made supplication unto the LORD: I forced myself therefore, and offered a burnt offering.",
-        "riddle": "Bring hither a burnt offering to me, and peace",
+        "quote": "And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering. And it came to pass, that as soon as he had made an end of offering the burnt offering, behold, Samuel came; and Saul went out to meet him, that he might salute him. And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash;",
+        "riddle": "Bring hither a burnt offering to me, and peace offerings.",
         "speaker": "Saul",
         "listener": "people",
         "book": "1 Samuel",
@@ -26,19 +28,19 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "Jordan",
+        "bonus": "Samuel",
         "bonus_hint": {
-          "quote": "And Lot lifted up his eyes, and beheld all the plain of Jordan, that it was well watered every where, before the LORD destroyed Sodom and Gomorrah, even as the garden of the LORD, like the land of Egypt, as thou comest unto Zoar.",
+          "quote": "Wherefore it came to pass, when the time was come about after Hannah had conceived, that she bare a son, and called his name Samuel, saying, Because I have asked him of the LORD.",
           "source": {
-            "book": "Genesis",
-            "chapter": 13,
-            "start": 10,
-            "end": 10
+            "book": "1 Samuel",
+            "chapter": 1,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "he": {
-        "quote": "וְעִבְרִים עָֽבְרוּ אֶת־הַיַּרְדֵּן אֶרֶץ גָּד וְגִלְעָד וְשָׁאוּל עוֹדֶנּוּ בַגִּלְגָּל וְכָל־הָעָם חָרְדוּ אַחֲרָֽיו וַיּוֹחֶל שִׁבְעַת יָמִים לַמּוֹעֵד אֲשֶׁר שְׁמוּאֵל וְלֹא־בָא שְׁמוּאֵל הַגִּלְגָּל וַיָּפֶץ הָעָם מֵעָלָֽיו וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה וַיְהִי כְּכַלֹּתוֹ לְהַעֲלוֹת הָעֹלָה וְהִנֵּה שְׁמוּאֵל בָּא וַיֵּצֵא שָׁאוּל לִקְרָאתוֹ לְבָרֲכֽוֹ וַיֹּאמֶר שְׁמוּאֵל מֶה עָשִׂיתָ וַיֹּאמֶר שָׁאוּל כִּֽי־רָאִיתִי כִֽי־נָפַץ הָעָם מֵעָלַי וְאַתָּה לֹא־בָאתָ לְמוֹעֵד הַיָּמִים וּפְלִשְׁתִּים נֶאֱסָפִים מִכְמָֽשׂ וָאֹמַר עַתָּה יֵרְדוּ פְלִשְׁתִּים אֵלַי הַגִּלְגָּל וּפְנֵי יְהוָה לֹא חִלִּיתִי וָֽאֶתְאַפַּק וָאַעֲלֶה הָעֹלָֽה",
+        "quote": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה וַיְהִי כְּכַלֹּתוֹ לְהַעֲלוֹת הָעֹלָה וְהִנֵּה שְׁמוּאֵל בָּא וַיֵּצֵא שָׁאוּל לִקְרָאתוֹ לְבָרֲכֽוֹ וַיֹּאמֶר שְׁמוּאֵל מֶה עָשִׂיתָ וַיֹּאמֶר שָׁאוּל כִּֽי־רָאִיתִי כִֽי־נָפַץ הָעָם מֵעָלַי וְאַתָּה לֹא־בָאתָ לְמוֹעֵד הַיָּמִים וּפְלִשְׁתִּים נֶאֱסָפִים מִכְמָֽשׂ",
         "riddle": "הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים",
         "speaker": "שָׁאוּל",
         "listener": "הָעָם",
@@ -47,39 +49,33 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "הַיַּרְדֵּן",
+        "bonus": "וַיְהִי",
         "bonus_hint": {
-          "quote": "וַיִּשָּׂא־לוֹט אֶת־עֵינָיו וַיַּרְא אֶת־כָּל־כִּכַּר הַיַּרְדֵּן כִּי כֻלָּהּ מַשְׁקֶה לִפְנֵי שַׁחֵת יְהוָה אֶת־סְדֹם וְאֶת־עֲמֹרָה כְּגַן־יְהוָה כְּאֶרֶץ מִצְרַיִם בֹּאֲכָה צֹֽעַר",
+          "quote": "וַיְהִי לִתְקֻפוֹת הַיָּמִים וַתַּהַר חַנָּה וַתֵּלֶד בֵּן וַתִּקְרָא אֶת־שְׁמוֹ שְׁמוּאֵל כִּי מֵיְהוָה שְׁאִלְתִּֽיו",
           "source": {
-            "book": "בראשית",
-            "chapter": 13,
-            "start": 10,
-            "end": 10
+            "book": "שמואל א",
+            "chapter": 1,
+            "start": 20,
+            "end": 20
           }
         }
       },
       "raw_quote_source": {
         "en": {
-          "7": "And some of the Hebrews went over Jordan to the land of Gad and Gilead. As for Saul, he was yet in Gilgal, and all the people followed him trembling.",
-          "8": "And he tarried seven days, according to the set time that Samuel had appointed: but Samuel came not to Gilgal; and the people were scattered from him.",
           "9": "And Saul said, Bring hither a burnt offering to me, and peace offerings. And he offered the burnt offering.",
           "10": "And it came to pass, that as soon as he had made an end of offering the burnt offering, behold, Samuel came; and Saul went out to meet him, that he might salute him.",
-          "11": "And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash;",
-          "12": "Therefore said I, The Philistines will come down now upon me to Gilgal, and I have not made supplication unto the LORD: I forced myself therefore, and offered a burnt offering."
+          "11": "And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash;"
         },
         "he": {
-          "7": "וְעִבְרִים עָֽבְרוּ אֶת־הַיַּרְדֵּן אֶרֶץ גָּד וְגִלְעָד וְשָׁאוּל עוֹדֶנּוּ בַגִּלְגָּל וְכָל־הָעָם חָרְדוּ אַחֲרָֽיו׃",
-          "8": "וַיּוֹחֶל ׀ שִׁבְעַת יָמִים לַמּוֹעֵד אֲשֶׁר שְׁמוּאֵל וְלֹא־בָא שְׁמוּאֵל הַגִּלְגָּל וַיָּפֶץ הָעָם מֵעָלָֽיו׃",
           "9": "וַיֹּאמֶר שָׁאוּל הַגִּשׁוּ אֵלַי הָעֹלָה וְהַשְּׁלָמִים וַיַּעַל הָעֹלָֽה׃",
           "10": "וַיְהִי כְּכַלֹּתוֹ לְהַעֲלוֹת הָעֹלָה וְהִנֵּה שְׁמוּאֵל בָּא וַיֵּצֵא שָׁאוּל לִקְרָאתוֹ לְבָרֲכֽוֹ׃",
-          "11": "וַיֹּאמֶר שְׁמוּאֵל מֶה עָשִׂיתָ וַיֹּאמֶר שָׁאוּל כִּֽי־רָאִיתִי כִֽי־נָפַץ הָעָם מֵעָלַי וְאַתָּה לֹא־בָאתָ לְמוֹעֵד הַיָּמִים וּפְלִשְׁתִּים נֶאֱסָפִים מִכְמָֽשׂ׃",
-          "12": "וָאֹמַר עַתָּה יֵרְדוּ פְלִשְׁתִּים אֵלַי הַגִּלְגָּל וּפְנֵי יְהוָה לֹא חִלִּיתִי וָֽאֶתְאַפַּק וָאַעֲלֶה הָעֹלָֽה׃"
+          "11": "וַיֹּאמֶר שְׁמוּאֵל מֶה עָשִׂיתָ וַיֹּאמֶר שָׁאוּל כִּֽי־רָאִיתִי כִֽי־נָפַץ הָעָם מֵעָלַי וְאַתָּה לֹא־בָאתָ לְמוֹעֵד הַיָּמִים וּפְלִשְׁתִּים נֶאֱסָפִים מִכְמָֽשׂ׃"
         }
       },
       "ref": {
         "chapter": 13,
-        "start": 7,
-        "end": 12
+        "start": 9,
+        "end": 11
       },
       "meta": {
         "mode": "llm",
@@ -98,7 +94,9 @@
         "book_he": "שמואל א",
         "chapter": 13,
         "quote_verse_start": 11,
-        "quote_verse_end": 11
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
       },
       "en": {
         "quote": "And Samuel said, What hast thou done? And Saul said, Because I saw that the people were scattered from me, and that thou camest not within the days appointed, and that the Philistines gathered themselves together at Michmash;",
@@ -112,12 +110,12 @@
         },
         "bonus": "people",
         "bonus_hint": {
-          "quote": "And he brought back all the goods, and also brought again his brother Lot, and his goods, and the women also, and the people.",
+          "quote": "And the LORD said, I have surely seen the affliction of my people which are in Egypt, and have heard their cry by reason of their taskmasters; for I know their sorrows;",
           "source": {
-            "book": "Genesis",
-            "chapter": 14,
-            "start": 16,
-            "end": 16
+            "book": "Exodus",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
           }
         }
       },
@@ -131,14 +129,14 @@
           "speaker": [],
           "listener": []
         },
-        "bonus": "הָעָם",
+        "bonus": "רָאִיתִי",
         "bonus_hint": {
-          "quote": "וַיָּשֶׁב אֵת כָּל־הָרְכֻשׁ וְגַם אֶת־לוֹט אָחִיו וּרְכֻשׁוֹ הֵשִׁיב וְגַם אֶת־הַנָּשִׁים וְאֶת־הָעָֽם",
+          "quote": "וַיֹּאמֶר יְהוָה רָאֹה רָאִיתִי אֶת־עֳנִי עַמִּי אֲשֶׁר בְּמִצְרָיִם וְאֶת־צַעֲקָתָם שָׁמַעְתִּי מִפְּנֵי נֹֽגְשָׂיו כִּי יָדַעְתִּי אֶת־מַכְאֹבָֽיו",
           "source": {
-            "book": "בראשית",
-            "chapter": 14,
-            "start": 16,
-            "end": 16
+            "book": "שמות",
+            "chapter": 3,
+            "start": 7,
+            "end": 7
           }
         }
       },
@@ -154,6 +152,84 @@
         "chapter": 13,
         "start": 11,
         "end": 11
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "1-samuel-13-13-13",
+      "source": {
+        "method": "llm",
+        "book_code": "1SA",
+        "book": "1 Samuel",
+        "book_he": "שמואל א",
+        "chapter": 13,
+        "quote_verse_start": 12,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 13
+      },
+      "en": {
+        "quote": "Therefore said I, The Philistines will come down now upon me to Gilgal, and I have not made supplication unto the LORD: I forced myself therefore, and offered a burnt offering. And Samuel said to Saul, Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee: for now would the LORD have established thy kingdom upon Israel for ever.",
+        "riddle": "Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee",
+        "speaker": "Samuel",
+        "listener": "Saul",
+        "book": "1 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "Philistines",
+        "bonus_hint": {
+          "quote": "From Sihor, which is before Egypt, even unto the borders of Ekron northward, which is counted to the Canaanite: five lords of the Philistines; the Gazathites, and the Ashdothites, the Eshkalonites, the Gittites, and the Ekronites; also the Avites:",
+          "source": {
+            "book": "Joshua",
+            "chapter": 13,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וָאֹמַר עַתָּה יֵרְדוּ פְלִשְׁתִּים אֵלַי הַגִּלְגָּל וּפְנֵי יְהוָה לֹא חִלִּיתִי וָֽאֶתְאַפַּק וָאַעֲלֶה הָעֹלָֽה וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "riddle": "נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם",
+        "speaker": "שְׁמוּאֵל",
+        "listener": "שָׁאוּל",
+        "book": "שמואל א",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "פְלִשְׁתִּים",
+        "bonus_hint": {
+          "quote": "מִֽן־הַשִּׁיחוֹר אֲשֶׁר עַל־פְּנֵי מִצְרַיִם וְעַד גְּבוּל עֶקְרוֹן צָפוֹנָה לַֽכְּנַעֲנִי תֵּחָשֵׁב חֲמֵשֶׁת סַרְנֵי פְלִשְׁתִּים הָעַזָּתִי וְהָאַשְׁדּוֹדִי הָאֶשְׁקְלוֹנִי הַגִּתִּי וְהָעֶקְרוֹנִי וְהָעַוִּֽים",
+          "source": {
+            "book": "יהושע",
+            "chapter": 13,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Therefore said I, The Philistines will come down now upon me to Gilgal, and I have not made supplication unto the LORD: I forced myself therefore, and offered a burnt offering.",
+          "13": "And Samuel said to Saul, Thou hast done foolishly: thou hast not kept the commandment of the LORD thy God, which he commanded thee: for now would the LORD have established thy kingdom upon Israel for ever."
+        },
+        "he": {
+          "12": "וָאֹמַר עַתָּה יֵרְדוּ פְלִשְׁתִּים אֵלַי הַגִּלְגָּל וּפְנֵי יְהוָה לֹא חִלִּיתִי וָֽאֶתְאַפַּק וָאַעֲלֶה הָעֹלָֽה׃",
+          "13": "וַיֹּאמֶר שְׁמוּאֵל אֶל־שָׁאוּל נִסְכָּלְתָּ לֹא שָׁמַרְתָּ אֶת־מִצְוַת יְהוָה אֱלֹהֶיךָ אֲשֶׁר צִוָּךְ כִּי עַתָּה הֵכִין יְהוָה אֶת־מַֽמְלַכְתְּךָ אֶל־יִשְׂרָאֵל עַד־עוֹלָֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 13,
+        "start": 12,
+        "end": 13
       },
       "meta": {
         "mode": "llm",

@@ -1,0 +1,198 @@
+{
+  "book_code": "NUM",
+  "book": "Numbers",
+  "book_he": "במדבר",
+  "chapter": 9,
+  "mode": "llm",
+  "items": [
+    {
+      "id": "numbers-09-02-02",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 9,
+        "quote_verse_start": 1,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 1
+      },
+      "en": {
+        "quote": "And the LORD spake unto Moses in the wilderness of Sinai, in the first month of the second year after they were come out of the land of Egypt, saying, Let the children of Israel also keep the passover at his appointed season.",
+        "riddle": "Let the children of Israel also keep the passover at his appointed season.",
+        "speaker": "LORD",
+        "listener": "Moses",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Balaam",
+            "Joshua",
+            "Aaron"
+          ],
+          "listener": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ]
+        },
+        "bonus": "wilderness",
+        "bonus_hint": {
+          "quote": "And the LORD spake unto Moses in the wilderness of Sinai, in the tabernacle of the congregation, on the first day of the second month, in the second year after they were come out of the land of Egypt, saying,",
+          "source": {
+            "book": "Numbers",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְמִדְבַּר־סִינַי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הָרִאשׁוֹן לֵאמֹֽר וְיַעֲשׂוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפָּסַח בְּמוֹעֲדֽוֹ",
+        "riddle": "וְיַעֲשׂוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפָּסַח בְּמוֹעֲדֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "בִּלְעָם",
+            "יְהוֹשֻׁעַ",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ]
+        },
+        "bonus": "וַיְדַבֵּר",
+        "bonus_hint": {
+          "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְּמִדְבַּר סִינַי בְּאֹהֶל מוֹעֵד בְּאֶחָד לַחֹדֶשׁ הַשֵּׁנִי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם לֵאמֹֽר",
+          "source": {
+            "book": "במדבר",
+            "chapter": 1,
+            "start": 1,
+            "end": 1
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "1": "And the LORD spake unto Moses in the wilderness of Sinai, in the first month of the second year after they were come out of the land of Egypt, saying,",
+          "2": "Let the children of Israel also keep the passover at his appointed season."
+        },
+        "he": {
+          "1": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה בְמִדְבַּר־סִינַי בַּשָּׁנָה הַשֵּׁנִית לְצֵאתָם מֵאֶרֶץ מִצְרַיִם בַּחֹדֶשׁ הָרִאשׁוֹן לֵאמֹֽר׃",
+          "2": "וְיַעֲשׂוּ בְנֵי־יִשְׂרָאֵל אֶת־הַפָּסַח בְּמוֹעֲדֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 1,
+        "end": 2
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "numbers-09-08-08",
+      "source": {
+        "method": "llm",
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 9,
+        "quote_verse_start": 7,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 6,
+        "listener_mention_verse": 6
+      },
+      "en": {
+        "quote": "And those men said unto him, We are defiled by the dead body of a man: wherefore are we kept back, that we may not offer an offering of the LORD in his appointed season among the children of Israel? And Moses said unto them, Stand still, and I will hear what the LORD will command concerning you.",
+        "riddle": "Stand still, and I will hear what the LORD will command concerning you.",
+        "speaker": "Moses",
+        "listener": "men",
+        "book": "Numbers",
+        "options": {
+          "speaker": [
+            "Joshua",
+            "Balaam",
+            "Aaron"
+          ],
+          "listener": [
+            "Israel",
+            "Korah and his company",
+            "congregation"
+          ]
+        },
+        "bonus": "defiled",
+        "bonus_hint": {
+          "quote": "And for his sister a virgin, that is nigh unto him, which hath had no husband; for her may he be defiled.",
+          "source": {
+            "book": "Leviticus",
+            "chapter": 21,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ הָאֲנָשִׁים הָהֵמָּה אֵלָיו אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם לָמָּה נִגָּרַע לְבִלְתִּי הַקְרִב אֶת־קָרְבַּן יְהוָה בְּמֹעֲדוֹ בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל וַיֹּאמֶר אֲלֵהֶם מֹשֶׁה עִמְדוּ וְאֶשְׁמְעָה מַה־יְצַוֶּה יְהוָה לָכֶֽם",
+        "riddle": "עִמְדוּ וְאֶשְׁמְעָה מַה־יְצַוֶּה יְהוָה לָכֶֽם",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָאֲנָשִׁים",
+        "book": "במדבר",
+        "options": {
+          "speaker": [
+            "יְהוֹשֻׁעַ",
+            "בִּלְעָם",
+            "אַהֲרֹן"
+          ],
+          "listener": [
+            "יִשְׂרָאֵל",
+            "קֹרַח ועדתו",
+            "הָעֵדָה"
+          ]
+        },
+        "bonus": "אֵלָיו",
+        "bonus_hint": {
+          "quote": "וְלַאֲחֹתוֹ הַבְּתוּלָה הַקְּרוֹבָה אֵלָיו אֲשֶׁר לֹֽא־הָיְתָה לְאִישׁ לָהּ יִטַּמָּֽא",
+          "source": {
+            "book": "ויקרא",
+            "chapter": 21,
+            "start": 3,
+            "end": 3
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "6": "And there were certain men, who were defiled by the dead body of a man, that they could not keep the passover on that day: and they came before Moses and before Aaron on that day:",
+          "7": "And those men said unto him, We are defiled by the dead body of a man: wherefore are we kept back, that we may not offer an offering of the LORD in his appointed season among the children of Israel?",
+          "8": "And Moses said unto them, Stand still, and I will hear what the LORD will command concerning you."
+        },
+        "he": {
+          "6": "וַיְהִי אֲנָשִׁים אֲשֶׁר הָיוּ טְמֵאִים לְנֶפֶשׁ אָדָם וְלֹא־יָכְלוּ לַעֲשֹׂת־הַפֶּסַח בַּיּוֹם הַהוּא וַֽיִּקְרְבוּ לִפְנֵי מֹשֶׁה וְלִפְנֵי אַהֲרֹן בַּיּוֹם הַהֽוּא׃",
+          "7": "וַיֹּאמְרוּ הָאֲנָשִׁים הָהֵמָּה אֵלָיו אֲנַחְנוּ טְמֵאִים לְנֶפֶשׁ אָדָם לָמָּה נִגָּרַע לְבִלְתִּי הַקְרִב אֶת־קָרְבַּן יְהוָה בְּמֹעֲדוֹ בְּתוֹךְ בְּנֵי יִשְׂרָאֵֽל׃",
+          "8": "וַיֹּאמֶר אֲלֵהֶם מֹשֶׁה עִמְדוּ וְאֶשְׁמְעָה מַה־יְצַוֶּה יְהוָה לָכֶֽם׃"
+        }
+      },
+      "ref": {
+        "chapter": 9,
+        "start": 7,
+        "end": 8
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    }
+  ]
+}

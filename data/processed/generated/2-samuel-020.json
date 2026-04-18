@@ -6,6 +6,314 @@
   "mode": "llm",
   "items": [
     {
+      "id": "2-samuel-20-04-04",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 4,
+        "quote_verse_end": 5
+      },
+      "en": {
+        "quote": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present. So Amasa went to assemble the men of Judah: but he tarried longer than the set time which he had appointed him.",
+        "riddle": "Assemble me the men of Judah within three days, and be thou here present.",
+        "speaker": "king",
+        "listener": "Amasa",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "appointed",
+        "bonus_hint": {
+          "quote": "And Hilkiah, and they that the king had appointed, went to Huldah the prophetess, the wife of Shallum the son of Tikvath, the son of Hasrah, keeper of the wardrobe; (now she dwelt in Jerusalem in the college:) and they spake to her to that effect.",
+          "source": {
+            "book": "2 Chronicles",
+            "chapter": 34,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲמָשָׂא הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד וַיֵּלֶךְ עֲמָשָׂא לְהַזְעִיק אֶת־יְהוּדָה וַיּוֹחֶר מִן־הַמּוֹעֵד אֲשֶׁר יְעָדֽוֹ",
+        "riddle": "הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "עֲמָשָׂא",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "וַיֵּלֶךְ",
+        "bonus_hint": {
+          "quote": "וַיֵּלֶךְ חִלְקִיָּהוּ וַאֲשֶׁר הַמֶּלֶךְ אֶל־חֻלְדָּה הַנְּבִיאָה אֵשֶׁת שַׁלֻּם בֶּן־תָּקְהַת בֶּן־חַסְרָה שׁוֹמֵר הַבְּגָדִים וְהִיא יוֹשֶׁבֶת בִּירוּשָׁלִַם בַּמִּשְׁנֶה וַיְדַבְּרוּ אֵלֶיהָ כָּזֹֽאת",
+          "source": {
+            "book": "דברי הימים ב",
+            "chapter": 34,
+            "start": 22,
+            "end": 22
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present.",
+          "5": "So Amasa went to assemble the men of Judah: but he tarried longer than the set time which he had appointed him."
+        },
+        "he": {
+          "4": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־עֲמָשָׂא הַזְעֶק־לִי אֶת־אִישׁ־יְהוּדָה שְׁלֹשֶׁת יָמִים וְאַתָּה פֹּה עֲמֹֽד׃",
+          "5": "וַיֵּלֶךְ עֲמָשָׂא לְהַזְעִיק אֶת־יְהוּדָה וַיּוֹחֶר מִן־הַמּוֹעֵד אֲשֶׁר יְעָדֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 4,
+        "end": 5
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-20-09-09",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And Joab said to Amasa, Art thou in health, my brother? And Joab took Amasa by the beard with the right hand to kiss him.",
+        "riddle": "Art thou in health, my brother?",
+        "speaker": "Joab",
+        "listener": "Amasa",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "hand",
+        "bonus_hint": {
+          "quote": "And let them gather all the food of those good years that come, and lay up corn under the hand of Pharaoh, and let them keep food in the cities.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יוֹאָב לַעֲמָשָׂא הֲשָׁלוֹם אַתָּה אָחִי וַתֹּחֶז יַד־יְמִין יוֹאָב בִּזְקַן עֲמָשָׂא לִנְשָׁק־לֽוֹ",
+        "riddle": "הֲשָׁלוֹם אַתָּה אָחִי",
+        "speaker": "יוֹאָב",
+        "listener": "עֲמָשָׂא",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "יַד",
+        "bonus_hint": {
+          "quote": "וְיִקְבְּצוּ אֶת־כָּל־אֹכֶל הַשָּׁנִים הַטֹּבֹת הַבָּאֹת הָאֵלֶּה וְיִצְבְּרוּ־בָר תַּחַת יַד־פַּרְעֹה אֹכֶל בֶּעָרִים וְשָׁמָֽרוּ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 41,
+            "start": 35,
+            "end": 35
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And Joab said to Amasa, Art thou in health, my brother? And Joab took Amasa by the beard with the right hand to kiss him."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יוֹאָב לַעֲמָשָׂא הֲשָׁלוֹם אַתָּה אָחִי וַתֹּחֶז יַד־יְמִין יוֹאָב בִּזְקַן עֲמָשָׂא לִנְשָׁק־לֽוֹ׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 9,
+        "end": 9
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-2",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee. And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "I am he.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "city",
+        "bonus_hint": {
+          "quote": "And Cain knew his wife; and she conceived, and bare Enoch: and he builded a city, and called the name of the city, after the name of his son, Enoch.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "אָנִי",
+        "speaker": "יוֹאָב",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָעִיר",
+        "bonus_hint": {
+          "quote": "וַיֵּדַע קַיִן אֶת־אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־חֲנוֹךְ וַֽיְהִי בֹּנֶה עִיר וַיִּקְרָא שֵׁם הָעִיר כְּשֵׁם בְּנוֹ חֲנֽוֹךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "16": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ׃",
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-20-17-17-4",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee. And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+        "riddle": "I do hear.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "speak",
+        "bonus_hint": {
+          "quote": "But know ye for certain, that if ye put me to death, ye shall surely bring innocent blood upon yourselves, and upon this city, and upon the inhabitants thereof: for of a truth the LORD hath sent me unto you to speak all these words in your ears.",
+          "source": {
+            "book": "Jeremiah",
+            "chapter": 26,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי",
+        "riddle": "שֹׁמֵעַ אָנֹֽכִי",
+        "speaker": "יוֹאָב",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָעִיר",
+        "bonus_hint": {
+          "quote": "אַךְ יָדֹעַ תֵּדְעוּ כִּי אִם־מְמִתִים אַתֶּם אֹתִי כִּי־דָם נָקִי אַתֶּם נֹתְנִים עֲלֵיכֶם וְאֶל־הָעִיר הַזֹּאת וְאֶל־יֹשְׁבֶיהָ כִּי בֶאֱמֶת שְׁלָחַנִי יְהוָה עֲלֵיכֶם לְדַבֵּר בְּאָזְנֵיכֶם אֵת כָּל־הַדְּבָרִים הָאֵֽלֶּה",
+          "source": {
+            "book": "ירמיהו",
+            "chapter": 26,
+            "start": 15,
+            "end": 15
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear."
+        },
+        "he": {
+          "16": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ׃",
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 17
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
       "id": "2-samuel-20-19-19",
       "source": {
         "method": "llm",
@@ -14,7 +322,9 @@
         "book_he": "שמואל ב",
         "chapter": 20,
         "quote_verse_start": 16,
-        "quote_verse_end": 19
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 19,
+        "listener_mention_verse": 19
       },
       "en": {
         "quote": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee. And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear. Then she spake, saying, They were wont to speak in old time, saying, They shall surely ask counsel at Abel: and so they ended the matter. I am one of them that are peaceable and faithful in Israel: thou seekest to destroy a city and a mother in Israel: why wilt thou swallow up the inheritance of the LORD?",
@@ -28,33 +338,33 @@
         },
         "bonus": "city",
         "bonus_hint": {
-          "quote": "The LORD's voice crieth unto the city, and the man of wisdom shall see thy name: hear ye the rod, and who hath appointed it.",
+          "quote": "And Cain knew his wife; and she conceived, and bare Enoch: and he builded a city, and called the name of the city, after the name of his son, Enoch.",
           "source": {
-            "book": "Micah",
-            "chapter": 6,
-            "start": 9,
-            "end": 9
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
           }
         }
       },
       "he": {
         "quote": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי וַתֹּאמֶר לֵאמֹר דַּבֵּר יְדַבְּרוּ בָרִֽאשֹׁנָה לֵאמֹר שָׁאֹל יְשָׁאֲלוּ בְּאָבֵל וְכֵן הֵתַֽמּוּ אָנֹכִי שְׁלֻמֵי אֱמוּנֵי יִשְׂרָאֵל אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
-        "riddle": "מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
-        "speaker": "אִשָּׁה חֲכָמָה",
+        "riddle": "אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה",
+        "speaker": "אִשָּׁה",
         "listener": "יוֹאָב",
         "book": "שמואל ב",
         "options": {
           "speaker": [],
           "listener": []
         },
-        "bonus": "שִׁמְעוּ",
+        "bonus": "הָעִיר",
         "bonus_hint": {
-          "quote": "קוֹל יְהוָה לָעִיר יִקְרָא וְתוּשִׁיָּה יִרְאֶה שְׁמֶךָ שִׁמְעוּ מַטֶּה וּמִי יְעָדָֽהּ",
+          "quote": "וַיֵּדַע קַיִן אֶת־אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־חֲנוֹךְ וַֽיְהִי בֹּנֶה עִיר וַיִּקְרָא שֵׁם הָעִיר כְּשֵׁם בְּנוֹ חֲנֽוֹךְ",
           "source": {
-            "book": "מיכה",
-            "chapter": 6,
-            "start": 9,
-            "end": 9
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
           }
         }
       },
@@ -76,6 +386,90 @@
         "chapter": 20,
         "start": 16,
         "end": 19
+      },
+      "meta": {
+        "mode": "llm",
+        "source": "data-proc",
+        "template_item_id": "",
+        "bonus_source": "llm",
+        "bonus_hint_source": "aligned-bible-search"
+      }
+    },
+    {
+      "id": "2-samuel-20-20-20",
+      "source": {
+        "method": "llm",
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 20,
+        "quote_verse_start": 16,
+        "quote_verse_end": 20,
+        "speaker_mention_verse": 20,
+        "listener_mention_verse": 20
+      },
+      "en": {
+        "quote": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee. And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear. Then she spake, saying, They were wont to speak in old time, saying, They shall surely ask counsel at Abel: and so they ended the matter. I am one of them that are peaceable and faithful in Israel: thou seekest to destroy a city and a mother in Israel: why wilt thou swallow up the inheritance of the LORD? And Joab answered and said, Far be it, far be it from me, that I should swallow up or destroy.",
+        "riddle": "Far be it, far be it from me, that I should swallow up or destroy.",
+        "speaker": "Joab",
+        "listener": "wise woman",
+        "book": "2 Samuel",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "city",
+        "bonus_hint": {
+          "quote": "And Cain knew his wife; and she conceived, and bare Enoch: and he builded a city, and called the name of the city, after the name of his son, Enoch.",
+          "source": {
+            "book": "Genesis",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "he": {
+        "quote": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי וַתֹּאמֶר לֵאמֹר דַּבֵּר יְדַבְּרוּ בָרִֽאשֹׁנָה לֵאמֹר שָׁאֹל יְשָׁאֲלוּ בְּאָבֵל וְכֵן הֵתַֽמּוּ אָנֹכִי שְׁלֻמֵי אֱמוּנֵי יִשְׂרָאֵל אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה וַיַּעַן יוֹאָב וַיֹּאמַר חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית",
+        "riddle": "חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית",
+        "speaker": "יוֹאָב",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב",
+        "options": {
+          "speaker": [],
+          "listener": []
+        },
+        "bonus": "הָעִיר",
+        "bonus_hint": {
+          "quote": "וַיֵּדַע קַיִן אֶת־אִשְׁתּוֹ וַתַּהַר וַתֵּלֶד אֶת־חֲנוֹךְ וַֽיְהִי בֹּנֶה עִיר וַיִּקְרָא שֵׁם הָעִיר כְּשֵׁם בְּנוֹ חֲנֽוֹךְ",
+          "source": {
+            "book": "בראשית",
+            "chapter": 4,
+            "start": 17,
+            "end": 17
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "16": "Then cried a wise woman out of the city, Hear, hear; say, I pray you, unto Joab, Come near hither, that I may speak with thee.",
+          "17": "And when he was come near unto her, the woman said, Art thou Joab? And he answered, I am he. Then she said unto him, Hear the words of thine handmaid. And he answered, I do hear.",
+          "18": "Then she spake, saying, They were wont to speak in old time, saying, They shall surely ask counsel at Abel: and so they ended the matter.",
+          "19": "I am one of them that are peaceable and faithful in Israel: thou seekest to destroy a city and a mother in Israel: why wilt thou swallow up the inheritance of the LORD?",
+          "20": "And Joab answered and said, Far be it, far be it from me, that I should swallow up or destroy."
+        },
+        "he": {
+          "16": "וַתִּקְרָא אִשָּׁה חֲכָמָה מִן־הָעִיר שִׁמְעוּ שִׁמְעוּ אִמְרוּ־נָא אֶל־יוֹאָב קְרַב עַד־הֵנָּה וַאֲדַבְּרָה אֵלֶֽיךָ׃",
+          "17": "וַיִּקְרַב אֵלֶיהָ וַתֹּאמֶר הָאִשָּׁה הַאַתָּה יוֹאָב וַיֹּאמֶר אָנִי וַתֹּאמֶר לוֹ שְׁמַע דִּבְרֵי אֲמָתֶךָ וַיֹּאמֶר שֹׁמֵעַ אָנֹֽכִי׃",
+          "18": "וַתֹּאמֶר לֵאמֹר דַּבֵּר יְדַבְּרוּ בָרִֽאשֹׁנָה לֵאמֹר שָׁאֹל יְשָׁאֲלוּ בְּאָבֵל וְכֵן הֵתַֽמּוּ׃",
+          "19": "אָנֹכִי שְׁלֻמֵי אֱמוּנֵי יִשְׂרָאֵל אַתָּה מְבַקֵּשׁ לְהָמִית עִיר וְאֵם בְּיִשְׂרָאֵל לָמָּה תְבַלַּע נַחֲלַת יְהוָֽה׃",
+          "20": "וַיַּעַן יוֹאָב וַיֹּאמַר חָלִילָה חָלִילָה לִי אִם־אֲבַלַּע וְאִם־אַשְׁחִֽית׃"
+        }
+      },
+      "ref": {
+        "chapter": 20,
+        "start": 16,
+        "end": 20
       },
       "meta": {
         "mode": "llm",

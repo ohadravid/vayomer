@@ -6,55 +6,100 @@
   "mode": "llm",
   "items": [
     {
-      "id": "1-kings-14-02-03",
+      "id": "1-kings-14-05-05",
       "source": {
         "book_code": "1KI",
         "book": "1 Kings",
         "book_he": "מלכים א",
         "chapter": 14,
-        "quote_verse_start": 2,
-        "quote_verse_end": 3
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
-        "quote": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people. And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child.",
-        "riddle": "he shall tell thee what shall become of the child.",
-        "speaker": "Jeroboam",
+        "quote": "And the LORD said unto Ahijah, Behold, the wife of Jeroboam cometh to ask a thing of thee for her son; for he is sick: thus and thus shalt thou say unto her: for it shall be, when she cometh in, that she shall feign herself to be another woman.",
+        "riddle": "Behold, the wife of Jeroboam cometh to ask a thing of thee for her son; for he is sick: thus and thus shalt thou say unto her: for it shall be, when she cometh in, that she shall feign herself to be another woman.",
+        "speaker": "the LORD",
+        "listener": "Ahijah",
+        "book": "1 Kings"
+      },
+      "he": {
+        "quote": "וַיהוָה אָמַר אֶל־אֲחִיָּהוּ הִנֵּה אֵשֶׁת יָרָבְעָם בָּאָה לִדְרֹשׁ דָּבָר מֵעִמְּךָ אֶל־בְּנָהּ כִּֽי־חֹלֶה הוּא כָּזֹה וְכָזֶה תְּדַבֵּר אֵלֶיהָ וִיהִי כְבֹאָהּ וְהִיא מִתְנַכֵּרָֽה",
+        "riddle": "וַיהוָה אָמַר אֶל־אֲחִיָּהוּ הִנֵּה אֵשֶׁת יָרָבְעָם בָּאָה לִדְרֹשׁ דָּבָר מֵעִמְּךָ אֶל־בְּנָהּ כִּֽי־חֹלֶה הוּא כָּזֹה וְכָזֶה תְּדַבֵּר אֵלֶיהָ וִיהִי כְבֹאָהּ וְהִיא מִתְנַכֵּרָֽה",
+        "speaker": "וַיהוָה",
+        "listener": "אֲחִיָּהוּ",
+        "book": "מלכים א"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the LORD said unto Ahijah, Behold, the wife of Jeroboam cometh to ask a thing of thee for her son; for he is sick: thus and thus shalt thou say unto her: for it shall be, when she cometh in, that she shall feign herself to be another woman."
+        },
+        "he": {
+          "5": "וַיהוָה אָמַר אֶל־אֲחִיָּהוּ הִנֵּה אֵשֶׁת יָרָבְעָם בָּאָה לִדְרֹשׁ דָּבָר מֵעִמְּךָ אֶל־בְּנָהּ כִּֽי־חֹלֶה הוּא כָּזֹה וְכָזֶה תְּדַבֵּר אֵלֶיהָ וִיהִי כְבֹאָהּ וְהִיא מִתְנַכֵּרָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "divine instruction",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "1-kings-14-12-12",
+      "source": {
+        "book_code": "1KI",
+        "book": "1 Kings",
+        "book_he": "מלכים א",
+        "chapter": 14,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12
+      },
+      "en": {
+        "quote": "Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die.",
+        "riddle": "Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die.",
+        "speaker": "A prophet",
         "listener": "Jeroboam's wife",
         "book": "1 Kings"
       },
       "he": {
-        "quote": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר",
-        "riddle": "מַה־יִּֽהְיֶה לַנָּֽעַר",
-        "speaker": "יָרָבְעָם",
+        "quote": "וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד",
+        "riddle": "וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד",
+        "speaker": "הַנָּבִיא",
         "listener": "אֵשֶׁת יָרָבְעָם",
         "book": "מלכים א"
       },
       "raw_quote_source": {
         "en": {
-          "2": "And Jeroboam said to his wife, Arise, I pray thee, and disguise thyself, that thou be not known to be the wife of Jeroboam; and get thee to Shiloh: behold, there is Ahijah the prophet, which told me that I should be king over this people.",
-          "3": "And take with thee ten loaves, and cracknels, and a cruse of honey, and go to him: he shall tell thee what shall become of the child."
+          "12": "Arise thou therefore, get thee to thine own house: and when thy feet enter into the city, the child shall die."
         },
         "he": {
-          "2": "וַיֹּאמֶר יָרָבְעָם לְאִשְׁתּוֹ קוּמִי נָא וְהִשְׁתַּנִּית וְלֹא יֵֽדְעוּ כִּי־אַתְּ אֵשֶׁת יָרָבְעָם וְהָלַכְתְּ שִׁלֹה הִנֵּה־שָׁם אֲחִיָּה הַנָּבִיא הֽוּא־דִבֶּר עָלַי לְמֶלֶךְ עַל־הָעָם הַזֶּֽה׃",
-          "3": "וְלָקַחַתְּ בְּיָדֵךְ עֲשָׂרָה לֶחֶם וְנִקֻּדִים וּבַקְבֻּק דְּבַשׁ וּבָאת אֵלָיו הוּא יַגִּיד לָךְ מַה־יִּֽהְיֶה לַנָּֽעַר׃"
+          "12": "וְאַתְּ קוּמִי לְכִי לְבֵיתֵךְ בְּבֹאָה רַגְלַיִךְ הָעִירָה וּמֵת הַיָּֽלֶד׃"
         }
       },
       "meta": {
-        "reason": "Contains a prophetic, mysterious prediction.",
-        "confidence": 0.9
+        "reason": "direct command and prophecy",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 14,
-        "start": 2,
-        "end": 3
+        "start": 12,
+        "end": 12
       }
     }
   ],
   "stats": {
-    "window_count": 12,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 12,
-    "kept_count": 1,
-    "issue_count": 11
+    "llm_window_count": 4,
+    "projection_llm_count": 5,
+    "llm_call_count": 9,
+    "spec_count": 5,
+    "kept_count": 2,
+    "issue_count": 3
   }
 }

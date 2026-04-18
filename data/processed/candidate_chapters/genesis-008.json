@@ -4,12 +4,105 @@
   "book_he": "בראשית",
   "chapter": 8,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "genesis-08-16-16",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 8,
+        "quote_verse_start": 16,
+        "quote_verse_end": 16,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.",
+        "riddle": "Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee.",
+        "speaker": "God",
+        "listener": "Noah",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
+        "riddle": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ",
+        "speaker": "אֱלֹהִים",
+        "listener": "נֹחַ",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "And God spake unto Noah, saying,",
+          "16": "Go forth of the ark, thou, and thy wife, and thy sons, and thy sons' wives with thee."
+        },
+        "he": {
+          "15": "וַיְדַבֵּר אֱלֹהִים אֶל־נֹחַ לֵאמֹֽר׃",
+          "16": "צֵא מִן־הַתֵּבָה אַתָּה וְאִשְׁתְּךָ וּבָנֶיךָ וּנְשֵֽׁי־בָנֶיךָ אִתָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 1.0
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 16,
+        "end": 16
+      }
+    },
+    {
+      "id": "genesis-08-21-21",
+      "source": {
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 8,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21
+      },
+      "en": {
+        "quote": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+        "riddle": "I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done.",
+        "speaker": "the LORD",
+        "listener": "man",
+        "book": "Genesis"
+      },
+      "he": {
+        "quote": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי",
+        "riddle": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי",
+        "speaker": "יְהוָה",
+        "listener": "הָֽאָדָם",
+        "book": "בראשית"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the LORD smelled a sweet savour; and the LORD said in his heart, I will not again curse the ground any more for man's sake; for the imagination of man's heart is evil from his youth; neither will I again smite any more every thing living, as I have done."
+        },
+        "he": {
+          "21": "וַיָּרַח יְהוָה אֶת־רֵיחַ הַנִּיחֹחַ וַיֹּאמֶר יְהוָה אֶל־לִבּוֹ לֹֽא־אֹסִף לְקַלֵּל עוֹד אֶת־הָֽאֲדָמָה בַּעֲבוּר הָֽאָדָם כִּי יֵצֶר לֵב הָאָדָם רַע מִנְּעֻרָיו וְלֹֽא־אֹסִף עוֹד לְהַכּוֹת אֶת־כָּל־חַי כַּֽאֲשֶׁר עָשִֽׂיתִי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 8,
+        "start": 21,
+        "end": 21
+      }
+    }
+  ],
   "stats": {
-    "window_count": 4,
+    "window_count": 2,
     "prefiltered_count": 0,
-    "llm_window_count": 4,
-    "kept_count": 0,
-    "issue_count": 4
+    "llm_window_count": 2,
+    "projection_llm_count": 2,
+    "llm_call_count": 4,
+    "spec_count": 2,
+    "kept_count": 2,
+    "issue_count": 0
   }
 }

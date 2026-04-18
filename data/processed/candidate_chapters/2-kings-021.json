@@ -4,12 +4,101 @@
   "book_he": "מלכים ב",
   "chapter": 21,
   "mode": "llm",
-  "items": [],
+  "items": [
+    {
+      "id": "2-kings-21-07-07",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 21,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And he set a graven image of the grove that he had made in the house, of which the LORD said to David, and to Solomon his son, In this house, and in Jerusalem, which I have chosen out of all tribes of Israel, will I put my name for ever:",
+        "riddle": "In this house, and in Jerusalem, which I have chosen out of all tribes of Israel, will I put my name for ever:",
+        "speaker": "the LORD",
+        "listener": "David and Solomon",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וַיָּשֶׂם אֶת־פֶּסֶל הָאֲשֵׁרָה אֲשֶׁר עָשָׂה בַּבַּיִת אֲשֶׁר אָמַר יְהוָה אֶל־דָּוִד וְאֶל־שְׁלֹמֹה בְנוֹ בַּבַּיִת הַזֶּה וּבִירוּשָׁלִַם אֲשֶׁר בָּחַרְתִּי מִכֹּל שִׁבְטֵי יִשְׂרָאֵל אָשִׂים אֶת־שְׁמִי לְעוֹלָֽם",
+        "riddle": "בַּבַּיִת אֲשֶׁר אָמַר יְהוָה אֶל־דָּוִד וְאֶל־שְׁלֹמֹה בְנוֹ בַּבַּיִת הַזֶּה וּבִירוּשָׁלִַם אֲשֶׁר בָּחַרְתִּי מִכֹּל שִׁבְטֵי יִשְׂרָאֵל אָשִׂים אֶת־שְׁמִי לְעוֹלָֽם",
+        "speaker": "יְהוָה",
+        "listener": "דָּוִד וְשְׁלֹמֹה",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And he set a graven image of the grove that he had made in the house, of which the LORD said to David, and to Solomon his son, In this house, and in Jerusalem, which I have chosen out of all tribes of Israel, will I put my name for ever:"
+        },
+        "he": {
+          "7": "וַיָּשֶׂם אֶת־פֶּסֶל הָאֲשֵׁרָה אֲשֶׁר עָשָׂה בַּבַּיִת אֲשֶׁר אָמַר יְהוָה אֶל־דָּוִד וְאֶל־שְׁלֹמֹה בְנוֹ בַּבַּיִת הַזֶּה וּבִירוּשָׁלִַם אֲשֶׁר בָּחַרְתִּי מִכֹּל שִׁבְטֵי יִשְׂרָאֵל אָשִׂים אֶת־שְׁמִי לְעוֹלָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "divine promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "2-kings-21-25-25",
+      "source": {
+        "book_code": "2KI",
+        "book": "2 Kings",
+        "book_he": "מלכים ב",
+        "chapter": 21,
+        "quote_verse_start": 25,
+        "quote_verse_end": 25
+      },
+      "en": {
+        "quote": "Now the rest of the acts of Amon which he did, are they not written in the book of the chronicles of the kings of Judah?",
+        "riddle": "are they not written in the book of the chronicles of the kings of Judah?",
+        "speaker": "narrator",
+        "listener": "reader",
+        "book": "2 Kings"
+      },
+      "he": {
+        "quote": "וְיֶתֶר דִּבְרֵי אָמוֹן אֲשֶׁר עָשָׂה הֲלֹא־הֵם כְּתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָֽה",
+        "riddle": "וְיֶתֶר דִּבְרֵי אָמוֹן אֲשֶׁר עָשָׂה הֲלֹא־הֵם כְּתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָֽה",
+        "speaker": "ספרנים",
+        "listener": "קוראים",
+        "book": "מלכים ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "25": "Now the rest of the acts of Amon which he did, are they not written in the book of the chronicles of the kings of Judah?"
+        },
+        "he": {
+          "25": "וְיֶתֶר דִּבְרֵי אָמוֹן אֲשֶׁר עָשָׂה הֲלֹא־הֵם כְּתוּבִים עַל־סֵפֶר דִּבְרֵי הַיָּמִים לְמַלְכֵי יְהוּדָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.85
+      },
+      "ref": {
+        "chapter": 21,
+        "start": 25,
+        "end": 25
+      }
+    }
+  ],
   "stats": {
-    "window_count": 13,
+    "window_count": 4,
     "prefiltered_count": 0,
-    "llm_window_count": 13,
-    "kept_count": 0,
-    "issue_count": 13
+    "llm_window_count": 4,
+    "projection_llm_count": 3,
+    "llm_call_count": 7,
+    "spec_count": 3,
+    "kept_count": 2,
+    "issue_count": 2
   }
 }

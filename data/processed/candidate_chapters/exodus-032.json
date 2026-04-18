@@ -6,55 +6,974 @@
   "mode": "llm",
   "items": [
     {
-      "id": "exodus-32-02-03",
+      "id": "exodus-32-02-02",
       "source": {
         "book_code": "EXO",
         "book": "Exodus",
         "book_he": "שמות",
         "chapter": 32,
         "quote_verse_start": 2,
-        "quote_verse_end": 3
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
       },
       "en": {
-        "quote": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me. And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron.",
-        "riddle": "Aaron said unto them, Break off the golden earrings",
+        "quote": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.",
+        "riddle": "Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me",
         "speaker": "Aaron",
         "listener": "the people",
         "book": "Exodus"
       },
       "he": {
-        "quote": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי וַיִּתְפָּֽרְקוּ כָּל־הָעָם אֶת־נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵיהֶם וַיָּבִיאוּ אֶֽל־אַהֲרֹֽן",
-        "riddle": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם",
+        "quote": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי",
+        "riddle": "פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי",
         "speaker": "אַהֲרֹן",
         "listener": "הָעָם",
         "book": "שמות"
       },
       "raw_quote_source": {
         "en": {
-          "2": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me.",
-          "3": "And all the people brake off the golden earrings which were in their ears, and brought them unto Aaron."
+          "2": "And Aaron said unto them, Break off the golden earrings, which are in the ears of your wives, of your sons, and of your daughters, and bring them unto me."
         },
         "he": {
-          "2": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי׃",
-          "3": "וַיִּתְפָּֽרְקוּ כָּל־הָעָם אֶת־נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵיהֶם וַיָּבִיאוּ אֶֽל־אַהֲרֹֽן׃"
+          "2": "וַיֹּאמֶר אֲלֵהֶם אַהֲרֹן פָּֽרְקוּ נִזְמֵי הַזָּהָב אֲשֶׁר בְּאָזְנֵי נְשֵׁיכֶם בְּנֵיכֶם וּבְנֹתֵיכֶם וְהָבִיאוּ אֵלָֽי׃"
         }
       },
       "meta": {
-        "reason": "Contains a clear command",
+        "reason": "direct command",
         "confidence": 0.95
       },
       "ref": {
         "chapter": 32,
         "start": 2,
-        "end": 3
+        "end": 2
+      }
+    },
+    {
+      "id": "exodus-32-04-04",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 4,
+        "quote_verse_end": 4,
+        "speaker_mention_verse": 4,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And he received them at their hand, and fashioned it with a graving tool, after he had made it a molten calf: and they said, These be thy gods, O Israel, which brought thee up out of the land of Egypt.",
+        "riddle": "These be thy gods, O Israel, which brought thee up out of the land of Egypt",
+        "speaker": "the people",
+        "listener": "Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּקַּח מִיָּדָם וַיָּצַר אֹתוֹ בַּחֶרֶט וַֽיַּעֲשֵׂהוּ עֵגֶל מַסֵּכָה וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם",
+        "riddle": "וַיִּקַּח מִיָּדָם וַיָּצַר אֹתוֹ בַּחֶרֶט וַֽיַּעֲשֵׂהוּ עֵגֶל מַסֵּכָה וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם",
+        "speaker": "עַמִּים",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "4": "And he received them at their hand, and fashioned it with a graving tool, after he had made it a molten calf: and they said, These be thy gods, O Israel, which brought thee up out of the land of Egypt."
+        },
+        "he": {
+          "4": "וַיִּקַּח מִיָּדָם וַיָּצַר אֹתוֹ בַּחֶרֶט וַֽיַּעֲשֵׂהוּ עֵגֶל מַסֵּכָה וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 4,
+        "end": 4
+      }
+    },
+    {
+      "id": "exodus-32-07-07",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 7,
+        "quote_verse_end": 7,
+        "speaker_mention_verse": 7,
+        "listener_mention_verse": 7
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Go, get thee down; for thy people, which thou broughtest out of the land of Egypt, have corrupted themselves:",
+        "riddle": "Go, get thee down",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֶךְ־רֵד כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הֶעֱלֵיתָ מֵאֶרֶץ מִצְרָֽיִם",
+        "riddle": "לֶךְ־רֵד",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "7": "And the LORD said unto Moses, Go, get thee down; for thy people, which thou broughtest out of the land of Egypt, have corrupted themselves:"
+        },
+        "he": {
+          "7": "וַיְדַבֵּר יְהוָה אֶל־מֹשֶׁה לֶךְ־רֵד כִּי שִׁחֵת עַמְּךָ אֲשֶׁר הֶעֱלֵיתָ מֵאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 7,
+        "end": 7
+      }
+    },
+    {
+      "id": "exodus-32-08-08",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "They have turned aside quickly out of the way which I commanded them: they have made them a molten calf, and have worshipped it, and have sacrificed thereunto, and said, These be thy gods, O Israel, which have brought thee up out of the land of Egypt.",
+        "riddle": "These be thy gods, O Israel, which have brought thee up out of the land of Egypt",
+        "speaker": "the people",
+        "listener": "Israel",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם עֵגֶל מַסֵּכָה וַיִּשְׁתַּֽחֲווּ־לוֹ וַיִּזְבְּחוּ־לוֹ וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶֽעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם",
+        "riddle": "אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶֽעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם",
+        "speaker": "עַמִּים",
+        "listener": "יִשְׂרָאֵל",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "They have turned aside quickly out of the way which I commanded them: they have made them a molten calf, and have worshipped it, and have sacrificed thereunto, and said, These be thy gods, O Israel, which have brought thee up out of the land of Egypt."
+        },
+        "he": {
+          "8": "סָרוּ מַהֵר מִן־הַדֶּרֶךְ אֲשֶׁר צִוִּיתִם עָשׂוּ לָהֶם עֵגֶל מַסֵּכָה וַיִּשְׁתַּֽחֲווּ־לוֹ וַיִּזְבְּחוּ־לוֹ וַיֹּאמְרוּ אֵלֶּה אֱלֹהֶיךָ יִשְׂרָאֵל אֲשֶׁר הֶֽעֱלוּךָ מֵאֶרֶץ מִצְרָֽיִם׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "exodus-32-09-09",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, I have seen this people, and, behold, it is a stiffnecked people:",
+        "riddle": "I have seen this people, and, behold, it is a stiffnecked people:",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף הֽוּא",
+        "riddle": "רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Moses, I have seen this people, and, behold, it is a stiffnecked people:"
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "exodus-32-10-10",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "Now therefore let me alone, that my wrath may wax hot against them, and that I may consume them: and I will make of thee a great nation.",
+        "riddle": "Now therefore let me alone, that my wrath may wax hot against them, and that I may consume them: and I will make of thee a great nation.",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְעַתָּה הַנִּיחָה לִּי וְיִֽחַר־אַפִּי בָהֶם וַאֲכַלֵּם וְאֶֽעֱשֶׂה אוֹתְךָ לְגוֹי גָּדֽוֹל",
+        "riddle": "וְעַתָּה הַנִּיחָה לִּי וְיִֽחַר־אַפִּי בָהֶם וַאֲכַלֵּם וְאֶֽעֱשֶׂה אוֹתְךָ לְגוֹי גָּדֽוֹל",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the LORD said unto Moses, I have seen this people, and, behold, it is a stiffnecked people:",
+          "10": "Now therefore let me alone, that my wrath may wax hot against them, and that I may consume them: and I will make of thee a great nation."
+        },
+        "he": {
+          "9": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה רָאִיתִי אֶת־הָעָם הַזֶּה וְהִנֵּה עַם־קְשֵׁה־עֹרֶף הֽוּא׃",
+          "10": "וְעַתָּה הַנִּיחָה לִּי וְיִֽחַר־אַפִּי בָהֶם וַאֲכַלֵּם וְאֶֽעֱשֶׂה אוֹתְךָ לְגוֹי גָּדֽוֹל׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "exodus-32-11-11",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 11,
+        "quote_verse_end": 11,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "And Moses besought the LORD his God, and said, LORD, why doth thy wrath wax hot against thy people, which thou hast brought forth out of the land of Egypt with great power, and with a mighty hand?",
+        "riddle": "LORD, why doth thy wrath wax hot against thy people, which thou hast brought forth out of the land of Egypt with great power, and with a mighty hand?",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְחַל מֹשֶׁה אֶת־פְּנֵי יְהוָה אֱלֹהָיו וַיֹּאמֶר לָמָה יְהוָה יֶחֱרֶה אַפְּךָ בְּעַמֶּךָ אֲשֶׁר הוֹצֵאתָ מֵאֶרֶץ מִצְרַיִם בְּכֹחַ גָּדוֹל וּבְיָד חֲזָקָֽה",
+        "riddle": "לָמָה יְהוָה יֶחֱרֶה אַפְּךָ בְּעַמֶּךָ אֲשֶׁר הוֹצֵאתָ מֵאֶרֶץ מִצְרַיִם בְּכֹחַ גָּדוֹל וּבְיָד חֲזָקָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Moses besought the LORD his God, and said, LORD, why doth thy wrath wax hot against thy people, which thou hast brought forth out of the land of Egypt with great power, and with a mighty hand?"
+        },
+        "he": {
+          "11": "וַיְחַל מֹשֶׁה אֶת־פְּנֵי יְהוָה אֱלֹהָיו וַיֹּאמֶר לָמָה יְהוָה יֶחֱרֶה אַפְּךָ בְּעַמֶּךָ אֲשֶׁר הוֹצֵאתָ מֵאֶרֶץ מִצְרַיִם בְּכֹחַ גָּדוֹל וּבְיָד חֲזָקָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 11,
+        "end": 11
+      }
+    },
+    {
+      "id": "exodus-32-12-12",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 11,
+        "listener_mention_verse": 11
+      },
+      "en": {
+        "quote": "Wherefore should the Egyptians speak, and say, For mischief did he bring them out, to slay them in the mountains, and to consume them from the face of the earth? Turn from thy fierce wrath, and repent of this evil against thy people.",
+        "riddle": "Wherefore should the Egyptians speak, and say, For mischief did he bring them out, to slay them in the mountains, and to consume them from the face of the earth? Turn from thy fierce wrath, and repent of this evil against thy people.",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "לָמָּה יֹאמְרוּ מִצְרַיִם לֵאמֹר בְּרָעָה הֽוֹצִיאָם לַהֲרֹג אֹתָם בֶּֽהָרִים וּלְכַלֹּתָם מֵעַל פְּנֵי הָֽאֲדָמָה שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל־הָרָעָה לְעַמֶּֽךָ",
+        "riddle": "לָמָּה יֹאמְרוּ מִצְרַיִם לֵאמֹר בְּרָעָה הֽוֹצִיאָם לַהֲרֹג אֹתָם בֶּֽהָרִים וּלְכַלֹּתָם מֵעַל פְּנֵי הָֽאֲדָמָה שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל־הָרָעָה לְעַמֶּֽךָ",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "11": "And Moses besought the LORD his God, and said, LORD, why doth thy wrath wax hot against thy people, which thou hast brought forth out of the land of Egypt with great power, and with a mighty hand?",
+          "12": "Wherefore should the Egyptians speak, and say, For mischief did he bring them out, to slay them in the mountains, and to consume them from the face of the earth? Turn from thy fierce wrath, and repent of this evil against thy people."
+        },
+        "he": {
+          "11": "וַיְחַל מֹשֶׁה אֶת־פְּנֵי יְהוָה אֱלֹהָיו וַיֹּאמֶר לָמָה יְהוָה יֶחֱרֶה אַפְּךָ בְּעַמֶּךָ אֲשֶׁר הוֹצֵאתָ מֵאֶרֶץ מִצְרַיִם בְּכֹחַ גָּדוֹל וּבְיָד חֲזָקָֽה׃",
+          "12": "לָמָּה יֹאמְרוּ מִצְרַיִם לֵאמֹר בְּרָעָה הֽוֹצִיאָם לַהֲרֹג אֹתָם בֶּֽהָרִים וּלְכַלֹּתָם מֵעַל פְּנֵי הָֽאֲדָמָה שׁוּב מֵחֲרוֹן אַפֶּךָ וְהִנָּחֵם עַל־הָרָעָה לְעַמֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "exodus-32-17-17",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 17,
+        "quote_verse_end": 17,
+        "speaker_mention_verse": 17,
+        "listener_mention_verse": 17
+      },
+      "en": {
+        "quote": "And when Joshua heard the noise of the people as they shouted, he said unto Moses, There is a noise of war in the camp.",
+        "riddle": "There is a noise of war in the camp.",
+        "speaker": "Joshua",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיִּשְׁמַע יְהוֹשֻׁעַ אֶת־קוֹל הָעָם בְּרֵעֹה וַיֹּאמֶר אֶל־מֹשֶׁה קוֹל מִלְחָמָה בַּֽמַּחֲנֶה",
+        "riddle": "קוֹל מִלְחָמָה בַּֽמַּחֲנֶה",
+        "speaker": "יְהוֹשֻׁעַ",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "17": "And when Joshua heard the noise of the people as they shouted, he said unto Moses, There is a noise of war in the camp."
+        },
+        "he": {
+          "17": "וַיִּשְׁמַע יְהוֹשֻׁעַ אֶת־קוֹל הָעָם בְּרֵעֹה וַיֹּאמֶר אֶל־מֹשֶׁה קוֹל מִלְחָמָה בַּֽמַּחֲנֶה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 17,
+        "end": 17
+      }
+    },
+    {
+      "id": "exodus-32-18-18",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18
+      },
+      "en": {
+        "quote": "And he said, It is not the voice of them that shout for mastery, neither is it the voice of them that cry for being overcome: but the noise of them that sing do I hear.",
+        "riddle": "It is not the voice of them that shout for mastery, neither is it the voice of them that cry for being overcome: but the noise of them that sing do I hear.",
+        "speaker": "Moses",
+        "listener": "Joshua",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֵין קוֹל עֲנוֹת גְּבוּרָה וְאֵין קוֹל עֲנוֹת חֲלוּשָׁה קוֹל עַנּוֹת אָנֹכִי שֹׁמֵֽעַ",
+        "riddle": "וַיֹּאמֶר אֵין קוֹל עֲנוֹת גְּבוּרָה וְאֵין קוֹל עֲנוֹת חֲלוּשָׁה קוֹל עַנּוֹת אָנֹכִי שֹׁמֵֽעַ",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוֹשֻׁעַ",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "18": "And he said, It is not the voice of them that shout for mastery, neither is it the voice of them that cry for being overcome: but the noise of them that sing do I hear."
+        },
+        "he": {
+          "18": "וַיֹּאמֶר אֵין קוֹל עֲנוֹת גְּבוּרָה וְאֵין קוֹל עֲנוֹת חֲלוּשָׁה קוֹל עַנּוֹת אָנֹכִי שֹׁמֵֽעַ׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "exodus-32-21-21",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21,
+        "speaker_mention_verse": 21,
+        "listener_mention_verse": 21
+      },
+      "en": {
+        "quote": "And Moses said unto Aaron, What did this people unto thee, that thou hast brought so great a sin upon them?",
+        "riddle": "What did this people unto thee, that thou hast brought so great a sin upon them?",
+        "speaker": "Moses",
+        "listener": "Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן מֶֽה־עָשָׂה לְךָ הָעָם הַזֶּה כִּֽי־הֵבֵאתָ עָלָיו חֲטָאָה גְדֹלָֽה",
+        "riddle": "מֶֽה־עָשָׂה לְךָ הָעָם הַזֶּה כִּֽי־הֵבֵאתָ עָלָיו חֲטָאָה גְדֹלָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "אַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And Moses said unto Aaron, What did this people unto thee, that thou hast brought so great a sin upon them?"
+        },
+        "he": {
+          "21": "וַיֹּאמֶר מֹשֶׁה אֶֽל־אַהֲרֹן מֶֽה־עָשָׂה לְךָ הָעָם הַזֶּה כִּֽי־הֵבֵאתָ עָלָיו חֲטָאָה גְדֹלָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "exodus-32-22-22-1",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief.",
+        "riddle": "Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief.",
+        "speaker": "Aaron",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַהֲרֹן אַל־יִחַר אַף אֲדֹנִי אַתָּה יָדַעְתָּ אֶת־הָעָם כִּי בְרָע הֽוּא",
+        "riddle": "וַיֹּאמֶר אַהֲרֹן אַל־יִחַר אַף אֲדֹנִי אַתָּה יָדַעְתָּ אֶת־הָעָם כִּי בְרָע הֽוּא",
+        "speaker": "אַהֲרֹן",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר אַהֲרֹן אַל־יִחַר אַף אֲדֹנִי אַתָּה יָדַעְתָּ אֶת־הָעָם כִּי בְרָע הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "exodus-32-22-22-2",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22,
+        "speaker_mention_verse": 22
+      },
+      "en": {
+        "quote": "And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief.",
+        "riddle": "Let not the anger of my lord wax hot",
+        "speaker": "Aaron",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַהֲרֹן אַל־יִחַר אַף אֲדֹנִי אַתָּה יָדַעְתָּ אֶת־הָעָם כִּי בְרָע הֽוּא",
+        "riddle": "אַל־יִחַר אַף אֲדֹנִי",
+        "speaker": "אַהֲרֹן",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Aaron said, Let not the anger of my lord wax hot: thou knowest the people, that they are set on mischief."
+        },
+        "he": {
+          "22": "וַיֹּאמֶר אַהֲרֹן אַל־יִחַר אַף אֲדֹנִי אַתָּה יָדַעְתָּ אֶת־הָעָם כִּי בְרָע הֽוּא׃"
+        }
+      },
+      "meta": {
+        "reason": "direct plea",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "exodus-32-23-23",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 23,
+        "quote_verse_end": 23,
+        "speaker_mention_verse": 23,
+        "listener_mention_verse": 23
+      },
+      "en": {
+        "quote": "For they said unto me, Make us gods, which shall go before us: for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him.",
+        "riddle": "Make us gods, which shall go before us",
+        "speaker": "the people",
+        "listener": "Aaron",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמְרוּ לִי עֲשֵׂה־לָנוּ אֱלֹהִים אֲשֶׁר יֵלְכוּ לְפָנֵינוּ כִּי־זֶה מֹשֶׁה הָאִישׁ אֲשֶׁר הֶֽעֱלָנוּ מֵאֶרֶץ מִצְרַיִם לֹא יָדַעְנוּ מֶה־הָיָה לֽוֹ",
+        "riddle": "עֲשֵׂה־לָנוּ אֱלֹהִים אֲשֶׁר יֵלְכוּ לְפָנֵינוּ",
+        "speaker": "הָעָם",
+        "listener": "אַהֲרֹן",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "23": "For they said unto me, Make us gods, which shall go before us: for as for this Moses, the man that brought us up out of the land of Egypt, we wot not what is become of him."
+        },
+        "he": {
+          "23": "וַיֹּאמְרוּ לִי עֲשֵׂה־לָנוּ אֱלֹהִים אֲשֶׁר יֵלְכוּ לְפָנֵינוּ כִּי־זֶה ׀ מֹשֶׁה הָאִישׁ אֲשֶׁר הֶֽעֱלָנוּ מֵאֶרֶץ מִצְרַיִם לֹא יָדַעְנוּ מֶה־הָיָה לֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 23,
+        "end": 23
+      }
+    },
+    {
+      "id": "exodus-32-26-26",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 26,
+        "quote_verse_end": 26,
+        "speaker_mention_verse": 26,
+        "listener_mention_verse": 26
+      },
+      "en": {
+        "quote": "Then Moses stood in the gate of the camp, and said, Who is on the LORD's side? let him come unto me. And all the sons of Levi gathered themselves together unto him.",
+        "riddle": "Who is on the LORD's side? let him come unto me",
+        "speaker": "Moses",
+        "listener": "the people",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיַּעֲמֹד מֹשֶׁה בְּשַׁעַר הַֽמַּחֲנֶה וַיֹּאמֶר מִי לַיהוָה אֵלָי וַיֵּאָסְפוּ אֵלָיו כָּל־בְּנֵי לֵוִֽי",
+        "riddle": "מִי לַיהוָה אֵלָי וַיֵּאָסְפוּ אֵלָיו כָּל־בְּנֵי לֵוִֽי",
+        "speaker": "מֹשֶׁה",
+        "listener": "בְּנֵי לֵוִֽי",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "26": "Then Moses stood in the gate of the camp, and said, Who is on the LORD's side? let him come unto me. And all the sons of Levi gathered themselves together unto him."
+        },
+        "he": {
+          "26": "וַיַּעֲמֹד מֹשֶׁה בְּשַׁעַר הַֽמַּחֲנֶה וַיֹּאמֶר מִי לַיהוָה אֵלָי וַיֵּאָסְפוּ אֵלָיו כָּל־בְּנֵי לֵוִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "rhetorical question",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 26,
+        "end": 26
+      }
+    },
+    {
+      "id": "exodus-32-27-27",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 27,
+        "quote_verse_end": 27,
+        "speaker_mention_verse": 27,
+        "listener_mention_verse": 27
+      },
+      "en": {
+        "quote": "And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, and go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour.",
+        "riddle": "Put every man his sword by his side, and go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour",
+        "speaker": "the LORD",
+        "listener": "the Levites",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר לָהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שִׂימוּ אִישׁ־חַרְבּוֹ עַל־יְרֵכוֹ עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּֽמַּחֲנֶה וְהִרְגוּ אִֽישׁ־אֶת־אָחִיו וְאִישׁ אֶת־רֵעֵהוּ וְאִישׁ אֶת־קְרֹבֽוֹ",
+        "riddle": "וַיֹּאמֶר לָהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שִׂימוּ אִישׁ־חַרְבּוֹ עַל־יְרֵכוֹ עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּֽמַּחֲנֶה וְהִרְגוּ אִֽישׁ־אֶת־אָחִיו וְאִישׁ אֶת־רֵעֵהוּ וְאִישׁ אֶת־קְרֹבֽוֹ",
+        "speaker": "יְהוָה",
+        "listener": "לָהֶם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "27": "And he said unto them, Thus saith the LORD God of Israel, Put every man his sword by his side, and go in and out from gate to gate throughout the camp, and slay every man his brother, and every man his companion, and every man his neighbour."
+        },
+        "he": {
+          "27": "וַיֹּאמֶר לָהֶם כֹּֽה־אָמַר יְהוָה אֱלֹהֵי יִשְׂרָאֵל שִׂימוּ אִישׁ־חַרְבּוֹ עַל־יְרֵכוֹ עִבְרוּ וָשׁוּבוּ מִשַּׁעַר לָשַׁעַר בַּֽמַּחֲנֶה וְהִרְגוּ אִֽישׁ־אֶת־אָחִיו וְאִישׁ אֶת־רֵעֵהוּ וְאִישׁ אֶת־קְרֹבֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "divine command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 27,
+        "end": 27
+      }
+    },
+    {
+      "id": "exodus-32-29-29",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 29,
+        "quote_verse_end": 29,
+        "speaker_mention_verse": 29,
+        "listener_mention_verse": 29
+      },
+      "en": {
+        "quote": "For Moses had said, Consecrate yourselves to day to the LORD, even every man upon his son, and upon his brother; that he may bestow upon you a blessing this day.",
+        "riddle": "Consecrate yourselves to day to the LORD, even every man upon his son, and upon his brother",
+        "speaker": "Moses",
+        "listener": "the Levites",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר מֹשֶׁה מִלְאוּ יֶדְכֶם הַיּוֹם לַֽיהוָה כִּי אִישׁ בִּבְנוֹ וּבְאָחִיו וְלָתֵת עֲלֵיכֶם הַיּוֹם בְּרָכָֽה",
+        "riddle": "מִלְאוּ יֶדְכֶם הַיּוֹם לַֽיהוָה כִּי אִישׁ בִּבְנוֹ וּבְאָחִיו וְלָתֵת עֲלֵיכֶם הַיּוֹם בְּרָכָֽה",
+        "speaker": "מֹשֶׁה",
+        "listener": "לֵוִים",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "29": "For Moses had said, Consecrate yourselves to day to the LORD, even every man upon his son, and upon his brother; that he may bestow upon you a blessing this day."
+        },
+        "he": {
+          "29": "וַיֹּאמֶר מֹשֶׁה מִלְאוּ יֶדְכֶם הַיּוֹם לַֽיהוָה כִּי אִישׁ בִּבְנוֹ וּבְאָחִיו וְלָתֵת עֲלֵיכֶם הַיּוֹם בְּרָכָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 29,
+        "end": 29
+      }
+    },
+    {
+      "id": "exodus-32-30-30",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "And it came to pass on the morrow, that Moses said unto the people, Ye have sinned a great sin: and now I will go up unto the LORD; peradventure I shall make an atonement for your sin.",
+        "riddle": "Ye have sinned a great sin",
+        "speaker": "Moses",
+        "listener": "the people",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיְהִי מִֽמָּחֳרָת וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה וְעַתָּה אֶֽעֱלֶה אֶל־יְהוָה אוּלַי אֲכַפְּרָה בְּעַד חַטַּאתְכֶֽם",
+        "riddle": "אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה וְעַתָּה",
+        "speaker": "מֹשֶׁה",
+        "listener": "הָעָם",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "And it came to pass on the morrow, that Moses said unto the people, Ye have sinned a great sin: and now I will go up unto the LORD; peradventure I shall make an atonement for your sin."
+        },
+        "he": {
+          "30": "וַיְהִי מִֽמָּחֳרָת וַיֹּאמֶר מֹשֶׁה אֶל־הָעָם אַתֶּם חֲטָאתֶם חֲטָאָה גְדֹלָה וְעַתָּה אֶֽעֱלֶה אֶל־יְהוָה אוּלַי אֲכַפְּרָה בְּעַד חַטַּאתְכֶֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "direct accusation",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "exodus-32-31-31",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 31,
+        "quote_verse_end": 31
+      },
+      "en": {
+        "quote": "And Moses returned unto the LORD, and said, Oh, this people have sinned a great sin, and have made them gods of gold.",
+        "riddle": "Oh, this people have sinned a great sin, and have made them gods of gold",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיָּשָׁב מֹשֶׁה אֶל־יְהוָה וַיֹּאמַר אָנָּא חָטָא הָעָם הַזֶּה חֲטָאָה גְדֹלָה וַיַּֽעֲשׂוּ לָהֶם אֱלֹהֵי זָהָֽב",
+        "riddle": "וַיֹּאמַר אָנָּא חָטָא הָעָם הַזֶּה חֲטָאָה גְדֹלָה וַיַּֽעֲשׂוּ לָהֶם אֱלֹהֵי זָהָֽב",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "31": "And Moses returned unto the LORD, and said, Oh, this people have sinned a great sin, and have made them gods of gold."
+        },
+        "he": {
+          "31": "וַיָּשָׁב מֹשֶׁה אֶל־יְהוָה וַיֹּאמַר אָנָּא חָטָא הָעָם הַזֶּה חֲטָאָה גְדֹלָה וַיַּֽעֲשׂוּ לָהֶם אֱלֹהֵי זָהָֽב׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 31,
+        "end": 31
+      }
+    },
+    {
+      "id": "exodus-32-32-32",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "Yet now, if thou wilt forgive their sin--; and if not, blot me, I pray thee, out of thy book which thou hast written.",
+        "riddle": "if thou wilt forgive their sin--; and if not, blot me, I pray thee, out of thy book",
+        "speaker": "Moses",
+        "listener": "the LORD",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְעַתָּה אִם־תִּשָּׂא חַטָּאתָם וְאִם־אַיִן מְחֵנִי נָא מִֽסִּפְרְךָ אֲשֶׁר כָּתָֽבְתָּ",
+        "riddle": "וְעַתָּה אִם־תִּשָּׂא חַטָּאתָם וְאִם־אַיִן מְחֵנִי נָא מִֽסִּפְרְךָ אֲשֶׁר כָּתָֽבְתָּ",
+        "speaker": "מֹשֶׁה",
+        "listener": "יְהוָה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "Yet now, if thou wilt forgive their sin--; and if not, blot me, I pray thee, out of thy book which thou hast written."
+        },
+        "he": {
+          "32": "וְעַתָּה אִם־תִּשָּׂא חַטָּאתָם וְאִם־אַיִן מְחֵנִי נָא מִֽסִּפְרְךָ אֲשֶׁר כָּתָֽבְתָּ׃"
+        }
+      },
+      "meta": {
+        "reason": "plea/conditional statement",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 32,
+        "end": 32
+      }
+    },
+    {
+      "id": "exodus-32-33-33",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 33,
+        "quote_verse_end": 33,
+        "speaker_mention_verse": 33
+      },
+      "en": {
+        "quote": "And the LORD said unto Moses, Whosoever hath sinned against me, him will I blot out of my book.",
+        "riddle": "Whosoever hath sinned against me, him will I blot out of my book",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מִי אֲשֶׁר חָֽטָא־לִי אֶמְחֶנּוּ מִסִּפְרִֽי",
+        "riddle": "מִי אֲשֶׁר חָֽטָא־לִי אֶמְחֶנּוּ מִסִּפְרִֽי",
+        "speaker": "יְהוָה",
+        "listener": "מֹשֶׁה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "33": "And the LORD said unto Moses, Whosoever hath sinned against me, him will I blot out of my book."
+        },
+        "he": {
+          "33": "וַיֹּאמֶר יְהוָה אֶל־מֹשֶׁה מִי אֲשֶׁר חָֽטָא־לִי אֶמְחֶנּוּ מִסִּפְרִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "divine declaration",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 33,
+        "end": 33
+      }
+    },
+    {
+      "id": "exodus-32-34-34",
+      "source": {
+        "book_code": "EXO",
+        "book": "Exodus",
+        "book_he": "שמות",
+        "chapter": 32,
+        "quote_verse_start": 34,
+        "quote_verse_end": 34,
+        "speaker_mention_verse": 34,
+        "listener_mention_verse": 34
+      },
+      "en": {
+        "quote": "Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the day when I visit I will visit their sin upon them.",
+        "riddle": "Therefore now go, lead the people unto the place of which I have spoken unto thee",
+        "speaker": "the LORD",
+        "listener": "Moses",
+        "book": "Exodus"
+      },
+      "he": {
+        "quote": "וְעַתָּה לֵךְ נְחֵה אֶת־הָעָם אֶל אֲשֶׁר־דִּבַּרְתִּי לָךְ הִנֵּה מַלְאָכִי יֵלֵךְ לְפָנֶיךָ וּבְיוֹם פָּקְדִי וּפָקַדְתִּי עֲלֵיהֶם חַטָּאתָֽם",
+        "riddle": "וְעַתָּה לֵךְ נְחֵה אֶת־הָעָם אֶל אֲשֶׁר־דִּבַּרְתִּי לָךְ הִנֵּה מַלְאָכִי יֵלֵךְ לְפָנֶיךָ וּבְיוֹם פָּקְדִי וּפָקַדְתִּי עֲלֵיהֶם חַטָּאתָֽם",
+        "speaker": "ה אלוהים",
+        "listener": "משה",
+        "book": "שמות"
+      },
+      "raw_quote_source": {
+        "en": {
+          "34": "Therefore now go, lead the people unto the place of which I have spoken unto thee: behold, mine Angel shall go before thee: nevertheless in the day when I visit I will visit their sin upon them."
+        },
+        "he": {
+          "34": "וְעַתָּה לֵךְ ׀ נְחֵה אֶת־הָעָם אֶל אֲשֶׁר־דִּבַּרְתִּי לָךְ הִנֵּה מַלְאָכִי יֵלֵךְ לְפָנֶיךָ וּבְיוֹם פָּקְדִי וּפָקַדְתִּי עֲלֵיהֶם חַטָּאתָֽם׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 32,
+        "start": 34,
+        "end": 34
       }
     }
   ],
   "stats": {
-    "window_count": 30,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 30,
-    "kept_count": 1,
-    "issue_count": 29
+    "llm_window_count": 5,
+    "projection_llm_count": 23,
+    "llm_call_count": 28,
+    "spec_count": 23,
+    "kept_count": 22,
+    "issue_count": 2
   }
 }

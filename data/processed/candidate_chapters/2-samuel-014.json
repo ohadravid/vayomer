@@ -6,27 +6,121 @@
   "mode": "llm",
   "items": [
     {
-      "id": "2-samuel-14-05-05",
+      "id": "2-samuel-14-02-02",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 2,
+        "quote_verse_end": 2,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 2
+      },
+      "en": {
+        "quote": "And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:",
+        "riddle": "I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:",
+        "speaker": "Joab",
+        "listener": "woman of Tekoah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּשְׁלַח יוֹאָב תְּקוֹעָה וַיִּקַּח מִשָּׁם אִשָּׁה חֲכָמָה וַיֹּאמֶר אֵלֶיהָ הִֽתְאַבְּלִי־נָא וְלִבְשִׁי־נָא בִגְדֵי־אֵבֶל וְאַל־תָּסוּכִי שֶׁמֶן וְהָיִית כְּאִשָּׁה זֶה יָמִים רַבִּים מִתְאַבֶּלֶת עַל־מֵֽת",
+        "riddle": "וַיִּשְׁלַח יוֹאָב תְּקוֹעָה וַיִּקַּח מִשָּׁם אִשָּׁה חֲכָמָה וַיֹּאמֶר אֵלֶיהָ הִֽתְאַבְּלִי־נָא וְלִבְשִׁי־נָא בִגְדֵי־אֵבֶל וְאַל־תָּסוּכִי שֶׁמֶן וְהָיִית כְּאִשָּׁה זֶה יָמִים רַבִּים מִתְאַבֶּלֶת עַל־מֵֽת",
+        "speaker": "יוֹאָב",
+        "listener": "אִשָּׁה חֲכָמָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:"
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח יוֹאָב תְּקוֹעָה וַיִּקַּח מִשָּׁם אִשָּׁה חֲכָמָה וַיֹּאמֶר אֵלֶיהָ הִֽתְאַבְּלִי־נָא וְלִבְשִׁי־נָא בִגְדֵי־אֵבֶל וְאַל־תָּסוּכִי שֶׁמֶן וְהָיִית כְּאִשָּׁה זֶה יָמִים רַבִּים מִתְאַבֶּלֶת עַל־מֵֽת׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 2,
+        "end": 2
+      }
+    },
+    {
+      "id": "2-samuel-14-03-03",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 3,
+        "quote_verse_end": 3,
+        "speaker_mention_verse": 2,
+        "listener_mention_verse": 4
+      },
+      "en": {
+        "quote": "And come to the king, and speak on this manner unto him. So Joab put the words in her mouth.",
+        "riddle": "And come to the king, and speak on this manner unto him.",
+        "speaker": "Joab",
+        "listener": "woman of Tekoah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וּבָאת אֶל־הַמֶּלֶךְ וְדִבַּרְתְּ אֵלָיו כַּדָּבָר הַזֶּה וַיָּשֶׂם יוֹאָב אֶת־הַדְּבָרִים בְּפִֽיהָ",
+        "riddle": "וּבָאת אֶל־הַמֶּלֶךְ וְדִבַּרְתְּ אֵלָיו כַּדָּבָר הַזֶּה וַיָּשֶׂם יוֹאָב אֶת־הַדְּבָרִים בְּפִֽיהָ",
+        "speaker": "יוֹאָב",
+        "listener": "אִשָּׁה חֲכָמָה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "2": "And Joab sent to Tekoah, and fetched thence a wise woman, and said unto her, I pray thee, feign thyself to be a mourner, and put on now mourning apparel, and anoint not thyself with oil, but be as a woman that had a long time mourned for the dead:",
+          "3": "And come to the king, and speak on this manner unto him. So Joab put the words in her mouth.",
+          "4": "And when the woman of Tekoah spake to the king, she fell on her face to the ground, and did obeisance, and said, Help, O king."
+        },
+        "he": {
+          "2": "וַיִּשְׁלַח יוֹאָב תְּקוֹעָה וַיִּקַּח מִשָּׁם אִשָּׁה חֲכָמָה וַיֹּאמֶר אֵלֶיהָ הִֽתְאַבְּלִי־נָא וְלִבְשִׁי־נָא בִגְדֵי־אֵבֶל וְאַל־תָּסוּכִי שֶׁמֶן וְהָיִית כְּאִשָּׁה זֶה יָמִים רַבִּים מִתְאַבֶּלֶת עַל־מֵֽת׃",
+          "3": "וּבָאת אֶל־הַמֶּלֶךְ וְדִבַּרְתְּ אֵלָיו כַּדָּבָר הַזֶּה וַיָּשֶׂם יוֹאָב אֶת־הַדְּבָרִים בְּפִֽיהָ׃",
+          "4": "וַתֹּאמֶר הָאִשָּׁה הַתְּקֹעִית אֶל־הַמֶּלֶךְ וַתִּפֹּל עַל־אַפֶּיהָ אַרְצָה וַתִּשְׁתָּחוּ וַתֹּאמֶר הוֹשִׁעָה הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 3,
+        "end": 3
+      }
+    },
+    {
+      "id": "2-samuel-14-05-05-1",
       "source": {
         "book_code": "2SA",
         "book": "2 Samuel",
         "book_he": "שמואל ב",
         "chapter": 14,
         "quote_verse_start": 5,
-        "quote_verse_end": 5
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
       },
       "en": {
         "quote": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead.",
         "riddle": "What aileth thee?",
         "speaker": "king",
-        "listener": "widow",
+        "listener": "woman of Tekoah",
         "book": "2 Samuel"
       },
       "he": {
         "quote": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי",
         "riddle": "מַה־לָּךְ",
         "speaker": "הַמֶּלֶךְ",
-        "listener": "אַלְמָנָה",
+        "listener": "אִשָּֽׁה־אַלְמָנָה",
         "book": "שמואל ב"
       },
       "raw_quote_source": {
@@ -38,21 +132,642 @@
         }
       },
       "meta": {
-        "reason": "Direct question and answer.",
-        "confidence": 1.0
+        "reason": "direct question",
+        "confidence": 0.95
       },
       "ref": {
         "chapter": 14,
         "start": 5,
         "end": 5
       }
+    },
+    {
+      "id": "2-samuel-14-05-05-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 5,
+        "quote_verse_end": 5,
+        "speaker_mention_verse": 5,
+        "listener_mention_verse": 5
+      },
+      "en": {
+        "quote": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead.",
+        "riddle": "I am indeed a widow woman, and mine husband is dead.",
+        "speaker": "woman of Tekoah",
+        "listener": "king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי",
+        "riddle": "וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי",
+        "speaker": "אִשָּֽׁה תְּכוּאָה",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "5": "And the king said unto her, What aileth thee? And she answered, I am indeed a widow woman, and mine husband is dead."
+        },
+        "he": {
+          "5": "וַיֹּֽאמֶר־לָהּ הַמֶּלֶךְ מַה־לָּךְ וַתֹּאמֶר אֲבָל אִשָּֽׁה־אַלְמָנָה אָנִי וַיָּמָת אִישִֽׁי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct statement",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 5,
+        "end": 5
+      }
+    },
+    {
+      "id": "2-samuel-14-08-08",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 8,
+        "quote_verse_end": 8,
+        "speaker_mention_verse": 8,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the king said unto the woman, Go to thine house, and I will give charge concerning thee.",
+        "riddle": "Go to thine house, and I will give charge concerning thee.",
+        "speaker": "king",
+        "listener": "woman of Tekoah",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־הָאִשָּׁה לְכִי לְבֵיתֵךְ וַאֲנִי אֲצַוֶּה עָלָֽיִךְ",
+        "riddle": "לְכִי לְבֵיתֵךְ וַאֲנִי אֲצַוֶּה עָלָֽיִךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the king said unto the woman, Go to thine house, and I will give charge concerning thee."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־הָאִשָּׁה לְכִי לְבֵיתֵךְ וַאֲנִי אֲצַוֶּה עָלָֽיִךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 8,
+        "end": 8
+      }
+    },
+    {
+      "id": "2-samuel-14-09-09",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 9,
+        "quote_verse_end": 9,
+        "speaker_mention_verse": 9,
+        "listener_mention_verse": 8
+      },
+      "en": {
+        "quote": "And the woman of Tekoah said unto the king, My lord, O king, the iniquity be on me, and on my father's house: and the king and his throne be guiltless.",
+        "riddle": "My lord, O king, the iniquity be on me, and on my father's house: and the king and his throne be guiltless.",
+        "speaker": "woman of Tekoah",
+        "listener": "the king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָאִשָּׁה הַתְּקוֹעִית אֶל־הַמֶּלֶךְ עָלַי אֲדֹנִי הַמֶּלֶךְ הֶעָוֺן וְעַל־בֵּית אָבִי וְהַמֶּלֶךְ וְכִסְאוֹ נָקִֽי",
+        "riddle": "עָלַי אֲדֹנִי הַמֶּלֶךְ הֶעָוֺן וְעַל־בֵּית אָבִי וְהַמֶּלֶךְ וְכִסְאוֹ נָקִֽי",
+        "speaker": "הָאִשָּׁה הַתְּקוֹעִית",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "8": "And the king said unto the woman, Go to thine house, and I will give charge concerning thee.",
+          "9": "And the woman of Tekoah said unto the king, My lord, O king, the iniquity be on me, and on my father's house: and the king and his throne be guiltless."
+        },
+        "he": {
+          "8": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־הָאִשָּׁה לְכִי לְבֵיתֵךְ וַאֲנִי אֲצַוֶּה עָלָֽיִךְ׃",
+          "9": "וַתֹּאמֶר הָאִשָּׁה הַתְּקוֹעִית אֶל־הַמֶּלֶךְ עָלַי אֲדֹנִי הַמֶּלֶךְ הֶעָוֺן וְעַל־בֵּית אָבִי וְהַמֶּלֶךְ וְכִסְאוֹ נָקִֽי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct address",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 9,
+        "end": 9
+      }
+    },
+    {
+      "id": "2-samuel-14-10-10",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 10,
+        "quote_verse_end": 10,
+        "speaker_mention_verse": 10,
+        "listener_mention_verse": 9
+      },
+      "en": {
+        "quote": "And the king said, Whosoever saith ought unto thee, bring him to me, and he shall not touch thee any more.",
+        "riddle": "Whosoever saith ought unto thee, bring him to me, and he shall not touch thee any more.",
+        "speaker": "the king",
+        "listener": "the woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ הַֽמְדַבֵּר אֵלַיִךְ וַֽהֲבֵאתוֹ אֵלַי וְלֹֽא־יֹסִיף עוֹד לָגַעַת בָּֽךְ",
+        "riddle": "וַיֹּאמֶר הַמֶּלֶךְ הַֽמְדַבֵּר אֵלַיִךְ וַֽהֲבֵאתוֹ אֵלַי וְלֹֽא־יֹסִיף עוֹד לָגַעַת בָּֽךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָאִשָּׁה הַתְּקוֹעִית",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "9": "And the woman of Tekoah said unto the king, My lord, O king, the iniquity be on me, and on my father's house: and the king and his throne be guiltless.",
+          "10": "And the king said, Whosoever saith ought unto thee, bring him to me, and he shall not touch thee any more."
+        },
+        "he": {
+          "9": "וַתֹּאמֶר הָאִשָּׁה הַתְּקוֹעִית אֶל־הַמֶּלֶךְ עָלַי אֲדֹנִי הַמֶּלֶךְ הֶעָוֺן וְעַל־בֵּית אָבִי וְהַמֶּלֶךְ וְכִסְאוֹ נָקִֽי׃",
+          "10": "וַיֹּאמֶר הַמֶּלֶךְ הַֽמְדַבֵּר אֵלַיִךְ וַֽהֲבֵאתוֹ אֵלַי וְלֹֽא־יֹסִיף עוֹד לָגַעַת בָּֽךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct promise",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 10,
+        "end": 10
+      }
+    },
+    {
+      "id": "2-samuel-14-12-12-1",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on.",
+        "riddle": "Let thine handmaid, I pray thee, speak one word unto my lord the king.",
+        "speaker": "the woman",
+        "listener": "the king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר וַיֹּאמֶר דַּבֵּֽרִי",
+        "riddle": "תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on."
+        },
+        "he": {
+          "12": "וַתֹּאמֶר הָֽאִשָּׁה תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר וַיֹּאמֶר דַּבֵּֽרִי׃"
+        }
+      },
+      "meta": {
+        "reason": "direct request",
+        "confidence": 0.9
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-samuel-14-12-12-2",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 12,
+        "quote_verse_end": 12,
+        "speaker_mention_verse": 12,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on.",
+        "riddle": "Say on.",
+        "speaker": "the king",
+        "listener": "the woman",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר וַיֹּאמֶר דַּבֵּֽרִי",
+        "riddle": "דַּבֵּֽרִי",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָֽאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on."
+        },
+        "he": {
+          "12": "וַתֹּאמֶר הָֽאִשָּׁה תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר וַיֹּאמֶר דַּבֵּֽרִי׃"
+        }
+      },
+      "meta": {
+        "reason": "short command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 12,
+        "end": 12
+      }
+    },
+    {
+      "id": "2-samuel-14-13-13",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 13,
+        "quote_verse_end": 13,
+        "speaker_mention_verse": 13,
+        "listener_mention_verse": 12
+      },
+      "en": {
+        "quote": "And the woman said, Wherefore then hast thou thought such a thing against the people of God? for the king doth speak this thing as one which is faulty, in that the king doth not fetch home again his banished.",
+        "riddle": "Wherefore then hast thou thought such a thing against the people of God?",
+        "speaker": "the woman",
+        "listener": "the king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַתֹּאמֶר הָֽאִשָּׁה וְלָמָּה חָשַׁבְתָּה כָּזֹאת עַל־עַם אֱלֹהִים וּמִדַּבֵּר הַמֶּלֶךְ הַדָּבָר הַזֶּה כְּאָשֵׁם לְבִלְתִּי הָשִׁיב הַמֶּלֶךְ אֶֽת־נִדְּחֽוֹ",
+        "riddle": "וְלָמָּה חָשַׁבְתָּה כָּזֹאת עַל־עַם אֱלֹהִים וּמִדַּבֵּר הַמֶּלֶךְ הַדָּבָר הַזֶּה כְּאָשֵׁם",
+        "speaker": "הָֽאִשָּׁה",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "12": "Then the woman said, Let thine handmaid, I pray thee, speak one word unto my lord the king. And he said, Say on.",
+          "13": "And the woman said, Wherefore then hast thou thought such a thing against the people of God? for the king doth speak this thing as one which is faulty, in that the king doth not fetch home again his banished."
+        },
+        "he": {
+          "12": "וַתֹּאמֶר הָֽאִשָּׁה תְּדַבֶּר־נָא שִׁפְחָתְךָ אֶל־אֲדֹנִי הַמֶּלֶךְ דָּבָר וַיֹּאמֶר דַּבֵּֽרִי׃",
+          "13": "וַתֹּאמֶר הָֽאִשָּׁה וְלָמָּה חָשַׁבְתָּה כָּזֹאת עַל־עַם אֱלֹהִים וּמִדַּבֵּר הַמֶּלֶךְ הַדָּבָר הַזֶּה כְּאָשֵׁם לְבִלְתִּי הָשִׁיב הַמֶּלֶךְ אֶֽת־נִדְּחֽוֹ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct question",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 13,
+        "end": 13
+      }
+    },
+    {
+      "id": "2-samuel-14-18-18",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 18,
+        "quote_verse_end": 18,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "Then the king answered and said unto the woman, Hide not from me, I pray thee, the thing that I shall ask thee. And the woman said, Let my lord the king now speak.",
+        "riddle": "Hide not from me, I pray thee, the thing that I shall ask thee.",
+        "speaker": "king",
+        "listener": "handmaid",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר אֶל־הָאִשָּׁה אַל־נָא תְכַחֲדִי מִמֶּנִּי דָּבָר אֲשֶׁר אָנֹכִי שֹׁאֵל אֹתָךְ וַתֹּאמֶר הָֽאִשָּׁה יְדַבֶּר־נָא אֲדֹנִי הַמֶּֽלֶךְ",
+        "riddle": "וַיֹּאמֶר אֶל־הָאִשָּׁה אַל־נָא תְכַחֲדִי מִמֶּנִּי דָּבָר אֲשֶׁר אָנֹכִי שֹׁאֵל אֹתָךְ",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "הָאִשָּׁה",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Now therefore that I am come to speak of this thing unto my lord the king, it is because the people have made me afraid: and thy handmaid said, I will now speak unto the king; it may be that the king will perform the request of his handmaid.",
+          "18": "Then the king answered and said unto the woman, Hide not from me, I pray thee, the thing that I shall ask thee. And the woman said, Let my lord the king now speak."
+        },
+        "he": {
+          "15": "וְעַתָּה אֲשֶׁר־בָּאתִי לְדַבֵּר אֶל־הַמֶּלֶךְ אֲדֹנִי אֶת־הַדָּבָר הַזֶּה כִּי יֵֽרְאֻנִי הָעָם וַתֹּאמֶר שִׁפְחָֽתְךָ אֲדַבְּרָה־נָּא אֶל־הַמֶּלֶךְ אוּלַי יַעֲשֶׂה הַמֶּלֶךְ אֶת־דְּבַר אֲמָתֽוֹ׃",
+          "18": "וַיַּעַן הַמֶּלֶךְ וַיֹּאמֶר אֶל־הָאִשָּׁה אַל־נָא תְכַחֲדִי מִמֶּנִּי דָּבָר אֲשֶׁר אָנֹכִי שֹׁאֵל אֹתָךְ וַתֹּאמֶר הָֽאִשָּׁה יְדַבֶּר־נָא אֲדֹנִי הַמֶּֽלֶךְ׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 18,
+        "end": 18
+      }
+    },
+    {
+      "id": "2-samuel-14-19-19",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 19,
+        "quote_verse_end": 19,
+        "speaker_mention_verse": 15,
+        "listener_mention_verse": 15
+      },
+      "en": {
+        "quote": "And the king said, Is not the hand of Joab with thee in all this? And the woman answered and said, As thy soul liveth, my lord the king, none can turn to the right hand or to the left from ought that my lord the king hath spoken: for thy servant Joab, he bade me, and he put all these words in the mouth of thine handmaid:",
+        "riddle": "As thy soul liveth, my lord the king, none can turn to the right hand or to the left from ought that my lord the king hath spoken",
+        "speaker": "handmaid",
+        "listener": "king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ הֲיַד יוֹאָב אִתָּךְ בְּכָל־זֹאת וַתַּעַן הָאִשָּׁה וַתֹּאמֶר חֵֽי־נַפְשְׁךָ אֲדֹנִי הַמֶּלֶךְ אִם־אִשׁ לְהֵמִין וּלְהַשְׂמִיל מִכֹּל אֲשֶׁר־דִּבֶּר אֲדֹנִי הַמֶּלֶךְ כִּֽי־עַבְדְּךָ יוֹאָב הוּא צִוָּנִי וְהוּא שָׂם בְּפִי שִׁפְחָֽתְךָ אֵת כָּל־הַדְּבָרִים הָאֵֽלֶּה",
+        "riddle": "הַמֶּלֶךְ הֲיַד יוֹאָב אִתָּךְ בְּכָל־זֹאת וַתַּעַן הָאִשָּׁה וַתֹּאמֶר חֵֽי־נַפְשְׁךָ אֲדֹנִי הַמֶּלֶךְ אִם־אִשׁ לְהֵמִין וּלְהַשְׂמִיל מִכֹּל אֲשֶׁר־דִּבֶּר אֲדֹנִי הַמֶּלֶךְ כִּֽי־עַבְדְּךָ",
+        "speaker": "הָאִשָּׁה",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "15": "Now therefore that I am come to speak of this thing unto my lord the king, it is because the people have made me afraid: and thy handmaid said, I will now speak unto the king; it may be that the king will perform the request of his handmaid.",
+          "19": "And the king said, Is not the hand of Joab with thee in all this? And the woman answered and said, As thy soul liveth, my lord the king, none can turn to the right hand or to the left from ought that my lord the king hath spoken: for thy servant Joab, he bade me, and he put all these words in the mouth of thine handmaid:"
+        },
+        "he": {
+          "15": "וְעַתָּה אֲשֶׁר־בָּאתִי לְדַבֵּר אֶל־הַמֶּלֶךְ אֲדֹנִי אֶת־הַדָּבָר הַזֶּה כִּי יֵֽרְאֻנִי הָעָם וַתֹּאמֶר שִׁפְחָֽתְךָ אֲדַבְּרָה־נָּא אֶל־הַמֶּלֶךְ אוּלַי יַעֲשֶׂה הַמֶּלֶךְ אֶת־דְּבַר אֲמָתֽוֹ׃",
+          "19": "וַיֹּאמֶר הַמֶּלֶךְ הֲיַד יוֹאָב אִתָּךְ בְּכָל־זֹאת וַתַּעַן הָאִשָּׁה וַתֹּאמֶר חֵֽי־נַפְשְׁךָ אֲדֹנִי הַמֶּלֶךְ אִם־אִשׁ ׀ לְהֵמִין וּלְהַשְׂמִיל מִכֹּל אֲשֶׁר־דִּבֶּר אֲדֹנִי הַמֶּלֶךְ כִּֽי־עַבְדְּךָ יוֹאָב הוּא צִוָּנִי וְהוּא שָׂם בְּפִי שִׁפְחָֽתְךָ אֵת כָּל־הַדְּבָרִים הָאֵֽלֶּה׃"
+        }
+      },
+      "meta": {
+        "reason": "vivid declaration",
+        "confidence": 0.93
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 19,
+        "end": 19
+      }
+    },
+    {
+      "id": "2-samuel-14-21-21",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 21,
+        "quote_verse_end": 21
+      },
+      "en": {
+        "quote": "And the king said unto Joab, Behold now, I have done this thing: go therefore, bring the young man Absalom again.",
+        "riddle": "Behold now, I have done this thing: go therefore, bring the young man Absalom again.",
+        "speaker": "king",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב הִנֵּה־נָא עָשִׂיתִי אֶת־הַדָּבָר הַזֶּה וְלֵךְ הָשֵׁב אֶת־הַנַּעַר אֶת־אַבְשָׁלֽוֹם",
+        "riddle": "הִנֵּה־נָא עָשִׂיתִי אֶת־הַדָּבָר הַזֶּה וְלֵךְ הָשֵׁב אֶת־הַנַּעַר אֶת־אַבְשָׁלֽוֹם",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "21": "And the king said unto Joab, Behold now, I have done this thing: go therefore, bring the young man Absalom again."
+        },
+        "he": {
+          "21": "וַיֹּאמֶר הַמֶּלֶךְ אֶל־יוֹאָב הִנֵּה־נָא עָשִׂיתִי אֶת־הַדָּבָר הַזֶּה וְלֵךְ הָשֵׁב אֶת־הַנַּעַר אֶת־אַבְשָׁלֽוֹם׃"
+        }
+      },
+      "meta": {
+        "reason": "command",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 21,
+        "end": 21
+      }
+    },
+    {
+      "id": "2-samuel-14-22-22",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 22,
+        "quote_verse_end": 22
+      },
+      "en": {
+        "quote": "And Joab fell to the ground on his face, and bowed himself, and thanked the king: and Joab said, To day thy servant knoweth that I have found grace in thy sight, my lord, O king, in that the king hath fulfilled the request of his servant.",
+        "riddle": "To day thy servant knoweth that I have found grace in thy sight, my lord, O king, in that the king hath fulfilled the request of his servant.",
+        "speaker": "Joab",
+        "listener": "king",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיִּפֹּל יוֹאָב אֶל־פָּנָיו אַרְצָה וַיִּשְׁתַּחוּ וַיְבָרֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמֶר יוֹאָב הַיּוֹם יָדַע עַבְדְּךָ כִּי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲדֹנִי הַמֶּלֶךְ אֲשֶׁר־עָשָׂה הַמֶּלֶךְ אֶת־דְּבַר עַבְדֶּֽךָ",
+        "riddle": "וַיִּפֹּל יוֹאָב אֶל־פָּנָיו אַרְצָה וַיִּשְׁתַּחוּ וַיְבָרֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמֶר יוֹאָב הַיּוֹם יָדַע עַבְדְּךָ כִּי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲדֹנִי הַמֶּלֶךְ אֲשֶׁר־עָשָׂה הַמֶּלֶךְ אֶת־דְּבַר עַבְדֶּֽךָ",
+        "speaker": "יוֹאָב",
+        "listener": "הַמֶּלֶךְ",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "22": "And Joab fell to the ground on his face, and bowed himself, and thanked the king: and Joab said, To day thy servant knoweth that I have found grace in thy sight, my lord, O king, in that the king hath fulfilled the request of his servant."
+        },
+        "he": {
+          "22": "וַיִּפֹּל יוֹאָב אֶל־פָּנָיו אַרְצָה וַיִּשְׁתַּחוּ וַיְבָרֶךְ אֶת־הַמֶּלֶךְ וַיֹּאמֶר יוֹאָב הַיּוֹם יָדַע עַבְדְּךָ כִּי־מָצָאתִי חֵן בְּעֵינֶיךָ אֲדֹנִי הַמֶּלֶךְ אֲשֶׁר־עָשָׂה הַמֶּלֶךְ אֶת־דְּבַר עַבְדֶּֽךָ׃"
+        }
+      },
+      "meta": {
+        "reason": "direct speech",
+        "confidence": 0.94
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 22,
+        "end": 22
+      }
+    },
+    {
+      "id": "2-samuel-14-24-24",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 24,
+        "quote_verse_end": 24,
+        "speaker_mention_verse": 24,
+        "listener_mention_verse": 24
+      },
+      "en": {
+        "quote": "And the king said, Let him turn to his own house, and let him not see my face. So Absalom returned to his own house, and saw not the king's face.",
+        "riddle": "Let him turn to his own house, and let him not see my face.",
+        "speaker": "the king",
+        "listener": "Absalom",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר הַמֶּלֶךְ יִסֹּב אֶל־בֵּיתוֹ וּפָנַי לֹא יִרְאֶה וַיִּסֹּב אַבְשָׁלוֹם אֶל־בֵּיתוֹ וּפְנֵי הַמֶּלֶךְ לֹא רָאָֽה",
+        "riddle": "יִסֹּב אֶל־בֵּיתוֹ וּפָנַי לֹא יִרְאֶה וַיִּסֹּב אַבְשָׁלוֹם אֶל־בֵּיתוֹ וּפְנֵי הַמֶּלֶךְ לֹא רָאָֽה",
+        "speaker": "הַמֶּלֶךְ",
+        "listener": "אַבְשָׁלוֹם",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "24": "And the king said, Let him turn to his own house, and let him not see my face. So Absalom returned to his own house, and saw not the king's face."
+        },
+        "he": {
+          "24": "וַיֹּאמֶר הַמֶּלֶךְ יִסֹּב אֶל־בֵּיתוֹ וּפָנַי לֹא יִרְאֶה וַיִּסֹּב אַבְשָׁלוֹם אֶל־בֵּיתוֹ וּפְנֵי הַמֶּלֶךְ לֹא רָאָֽה׃"
+        }
+      },
+      "meta": {
+        "reason": "direct command",
+        "confidence": 0.98
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 24,
+        "end": 24
+      }
+    },
+    {
+      "id": "2-samuel-14-30-30",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 30,
+        "quote_verse_end": 30
+      },
+      "en": {
+        "quote": "Therefore he said unto his servants, See, Joab's field is near mine, and he hath barley there; go and set it on fire. And Absalom's servants set the field on fire.",
+        "riddle": "See, Joab's field is near mine, and he hath barley there; go and set it on fire.",
+        "speaker": "Absalom",
+        "listener": "servants",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֶל־עֲבָדָיו רְאוּ חֶלְקַת יוֹאָב אֶל־יָדִי וְלוֹ־שָׁם שְׂעֹרִים לְכוּ וְהַצִּיתוּהָ בָאֵשׁ וַיַּצִּתוּ עַבְדֵי אַבְשָׁלוֹם אֶת־הַחֶלְקָה בָּאֵֽשׁ",
+        "riddle": "רְאוּ חֶלְקַת יוֹאָב אֶל־יָדִי וְלוֹ־שָׁם שְׂעֹרִים לְכוּ וְהַצִּיתוּהָ בָאֵשׁ וַיַּצִּתוּ עַבְדֵי אַבְשָׁלוֹם אֶת־הַחֶלְקָה בָּאֵֽשׁ",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "עֲבָדָיו",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "30": "Therefore he said unto his servants, See, Joab's field is near mine, and he hath barley there; go and set it on fire. And Absalom's servants set the field on fire."
+        },
+        "he": {
+          "30": "וַיֹּאמֶר אֶל־עֲבָדָיו רְאוּ חֶלְקַת יוֹאָב אֶל־יָדִי וְלוֹ־שָׁם שְׂעֹרִים לְכוּ וְהַצִּיתוּהָ בָאֵשׁ וַיַּצִּתוּ עַבְדֵי אַבְשָׁלוֹם אֶת־הַחֶלְקָה בָּאֵֽשׁ׃"
+        }
+      },
+      "meta": {
+        "reason": "command to servants",
+        "confidence": 0.95
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 30,
+        "end": 30
+      }
+    },
+    {
+      "id": "2-samuel-14-32-32",
+      "source": {
+        "book_code": "2SA",
+        "book": "2 Samuel",
+        "book_he": "שמואל ב",
+        "chapter": 14,
+        "quote_verse_start": 32,
+        "quote_verse_end": 32
+      },
+      "en": {
+        "quote": "And Absalom answered Joab, Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king's face; and if there be any iniquity in me, let him kill me.",
+        "riddle": "Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king's face; and if there be any iniquity in me, let him kill me.",
+        "speaker": "Absalom",
+        "listener": "Joab",
+        "book": "2 Samuel"
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־יוֹאָב הִנֵּה שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר בֹּא הֵנָּה וְאֶשְׁלְחָה אֹתְךָ אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה בָּאתִי מִגְּשׁוּר טוֹב לִי עֹד אֲנִי־שָׁם וְעַתָּה אֶרְאֶה פְּנֵי הַמֶּלֶךְ וְאִם־יֶשׁ־בִּי עָוֺן וֶהֱמִתָֽנִי",
+        "riddle": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־יוֹאָב הִנֵּה שָׁלַחְתִּי אֵלֶיךָ לֵאמֹר בֹּא הֵנָּה וְאֶשְׁלְחָה אֹתְךָ אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה בָּאתִי מִגְּשׁוּר טוֹב לִי עֹד אֲנִי־שָׁם וְעַתָּה אֶרְאֶה פְּנֵי הַמֶּלֶךְ וְאִם־יֶשׁ־בִּי עָוֺן וֶהֱמִתָֽנִי",
+        "speaker": "אַבְשָׁלוֹם",
+        "listener": "יוֹאָב",
+        "book": "שמואל ב"
+      },
+      "raw_quote_source": {
+        "en": {
+          "32": "And Absalom answered Joab, Behold, I sent unto thee, saying, Come hither, that I may send thee to the king, to say, Wherefore am I come from Geshur? it had been good for me to have been there still: now therefore let me see the king's face; and if there be any iniquity in me, let him kill me."
+        },
+        "he": {
+          "32": "וַיֹּאמֶר אַבְשָׁלוֹם אֶל־יוֹאָב הִנֵּה שָׁלַחְתִּי אֵלֶיךָ ׀ לֵאמֹר בֹּא הֵנָּה וְאֶשְׁלְחָה אֹתְךָ אֶל־הַמֶּלֶךְ לֵאמֹר לָמָּה בָּאתִי מִגְּשׁוּר טוֹב לִי עֹד אֲנִי־שָׁם וְעַתָּה אֶרְאֶה פְּנֵי הַמֶּלֶךְ וְאִם־יֶשׁ־בִּי עָוֺן וֶהֱמִתָֽנִי׃"
+        }
+      },
+      "meta": {
+        "reason": "long direct reply",
+        "confidence": 0.92
+      },
+      "ref": {
+        "chapter": 14,
+        "start": 32,
+        "end": 32
+      }
     }
   ],
   "stats": {
-    "window_count": 28,
+    "window_count": 5,
     "prefiltered_count": 0,
-    "llm_window_count": 28,
-    "kept_count": 1,
-    "issue_count": 27
+    "llm_window_count": 5,
+    "projection_llm_count": 24,
+    "llm_call_count": 29,
+    "spec_count": 24,
+    "kept_count": 17,
+    "issue_count": 7
   }
 }
