@@ -200,6 +200,17 @@ if (!dailyExampleEnAnswer.speaker || !dailyExampleEnAnswer.listener || !dailyExa
 }
 
 const todayPuzzleId = todayPuzzle.id;
+const manualNumbersPuzzleId = "manual-numbers-10-29-29-d5882096";
+const manualNumbersPuzzle = dailyItems.find((item) => item.id === manualNumbersPuzzleId);
+const archiveUiPuzzle = dailyItems.find((item) => item.id !== todayPuzzleId);
+
+if (!manualNumbersPuzzle) {
+  throw new Error(`Expected ${manualNumbersPuzzleId} in generated puzzle data.`);
+}
+
+if (!archiveUiPuzzle) {
+  throw new Error("Expected at least one non-today puzzle for archive permalink coverage.");
+}
 
 function hasEasyModeDistractors(item: PuzzleItem): boolean {
   const sameBook = dailyItems.filter((candidate) => candidate.en.book === item.en.book && candidate.he.book === item.he.book);
@@ -797,6 +808,33 @@ test("share copies result text", async ({ page }) => {
   const origin = new URL(page.url()).origin;
   expect(copiedText).toContain("Vayomer");
   expect(copiedText).toContain(`${origin}/`);
+});
+
+test("manual Numbers permalink loads by regular id and copies specific riddle link", async ({ page }) => {
+  await openGame(page, { puzzleId: manualNumbersPuzzleId, lang: "en", captureClipboard: true });
+
+  await expect(page.locator("#fullQuote")).toContainText("come thou with us, and we will do thee good");
+  await expect(page.locator("#inputSpeaker")).toContainText("Moses");
+  await expect(page.locator("#inputListener")).toContainText("Jethro, Moses' father-in-law");
+
+  await page.getByRole("button", { name: "Share this specific riddle" }).click();
+
+  const copiedText = await page.evaluate(() => (globalThis as { __copiedText?: string }).__copiedText ?? "");
+  expect(copiedText).toContain(`puzzle=${manualNumbersPuzzleId}`);
+  expect(copiedText).not.toContain("bWFudWFs");
+});
+
+test("archive permalink shows archive label and links back to today's riddle", async ({ page }) => {
+  await openGame(page, { puzzleId: archiveUiPuzzle.id, lang: "en" });
+
+  await expect(page.locator("#puzzleDate")).toContainText("Archive riddle!");
+  const todayLink = page.getByRole("link", { name: "Today's riddle" });
+  await expect(todayLink).toHaveAttribute("href", "/?lng=en");
+
+  await todayLink.click();
+
+  await expect(page.locator("#guessForm")).toBeVisible();
+  expect(new URL(page.url()).searchParams.get("puzzle")).toBeNull();
 });
 
 test("about page opens and returns to puzzle", async ({ page }) => {

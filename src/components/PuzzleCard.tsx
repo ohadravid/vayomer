@@ -11,6 +11,8 @@ type Props = {
   sourceRevealed: boolean;
   bonusRevealed?: boolean;
   dateLabel: string;
+  archiveTodayHref?: string;
+  archiveTodayLabel?: string;
   onClear: () => void;
 };
 
@@ -88,6 +90,8 @@ export function PuzzleCard({
   sourceRevealed,
   bonusRevealed = false,
   dateLabel,
+  archiveTodayHref,
+  archiveTodayLabel,
   onClear,
 }: Props) {
   const { t, i18n } = useTranslation();
@@ -119,7 +123,16 @@ export function PuzzleCard({
       <div className="meta">
         <div className="meta-left">
           <span id="puzzleDate" className="meta-item">
-            {dateLabel}
+            {archiveTodayHref ? (
+              <>
+                <em>{dateLabel}</em>
+                <a className="today-link" href={archiveTodayHref}>
+                  {archiveTodayLabel}
+                </a>
+              </>
+            ) : (
+              dateLabel
+            )}
           </span>
         </div>
         {import.meta.hot ? (

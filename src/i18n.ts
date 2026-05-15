@@ -63,7 +63,10 @@ export const resources = {
         retry: "Not quite. Try again.",
         outOfTries: "No tries left.",
         shareCopied: "Result copied.",
+        specificRiddleCopied: "Riddle link copied.",
         shareFailed: "Could not share result.",
+        archiveRiddle: "Archive riddle!",
+        todayRiddle: "Today's riddle",
       },
       puzzleCard: {
         clear: "",
@@ -80,6 +83,7 @@ export const resources = {
         tries: "Tries: {{used}}/{{total}}",
         status: "Status: {{marks}}",
         share: "Share result",
+        shareSpecificRiddle: "Share this specific riddle",
       },
       footer: {
         version: "Version {{version}} (beta)",
@@ -139,7 +143,10 @@ export const resources = {
         retry: "לא בדיוק. נסו שוב.",
         outOfTries: "נגמרו הניסיונות.",
         shareCopied: "התוצאה הועתקה.",
+        specificRiddleCopied: "קישור לחידה הועתק.",
         shareFailed: "לא הצלחנו לשתף את התוצאה.",
+        archiveRiddle: "חידת ארכיון!",
+        todayRiddle: "לחידה של היום",
       },
       puzzleCard: {
         clear: "",
@@ -156,6 +163,7 @@ export const resources = {
         tries: "ניסיונות: {{used}}/{{total}}",
         status: "מצב: {{marks}}",
         share: "שיתוף תוצאה",
+        shareSpecificRiddle: "שיתוף החידה הספציפית",
       },
       footer: {
         version: "גרסת הרצה ({{version}})",

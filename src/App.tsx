@@ -211,18 +211,52 @@ export function parsePuzzleIdFromSearch(search: string): string | null {
   return trimmed.length > 0 ? trimmed : null;
 }
 
+export function getSearchWithoutPuzzleId(search: string): string {
+  const params = new URLSearchParams(search);
+  params.delete(PUZZLE_QUERY_KEY);
+  const serialized = params.toString();
+  return serialized ? `?${serialized}` : "";
+}
+
+export function getSearchWithPuzzleId(search: string, puzzleId: string): string {
+  const params = new URLSearchParams(search);
+  params.set(PUZZLE_QUERY_KEY, puzzleId);
+  const serialized = params.toString();
+  return serialized ? `?${serialized}` : "";
+}
+
+export function resolvePuzzleSelectionForSearch(
+  items: readonly { id: string }[],
+  search: string,
+  date: Temporal.PlainDate = Temporal.Now.plainDateISO()
+): { index: number; dailyIndex: number; requestedPuzzleId: string | null; isArchive: boolean } {
+  if (items.length === 0) {
+    return { index: 0, dailyIndex: 0, requestedPuzzleId: null, isArchive: false };
+  }
+
+  const dailyIndex = pickDailyItemIndexWithOverrides(items, date);
+  const requestedPuzzleId = parsePuzzleIdFromSearch(search);
+  if (requestedPuzzleId) {
+    const explicitIndex = items.findIndex((item) => item.id === requestedPuzzleId);
+    if (explicitIndex >= 0) {
+      return {
+        index: explicitIndex,
+        dailyIndex,
+        requestedPuzzleId,
+        isArchive: explicitIndex !== dailyIndex,
+      };
+    }
+  }
+
+  return { index: dailyIndex, dailyIndex, requestedPuzzleId: null, isArchive: false };
+}
+
 export function pickPuzzleIndexForSearch(
   items: readonly { id: string }[],
   search: string,
   date: Temporal.PlainDate = Temporal.Now.plainDateISO()
 ): number {
-  if (items.length === 0) return 0;
-  const requestedPuzzleId = parsePuzzleIdFromSearch(search);
-  if (requestedPuzzleId) {
-    const explicitIndex = items.findIndex((item) => item.id === requestedPuzzleId);
-    if (explicitIndex >= 0) return explicitIndex;
-  }
-  return pickDailyItemIndexWithOverrides(items, date);
+  return resolvePuzzleSelectionForSearch(items, search, date).index;
 }
 
 function getSearchWithoutLegacyDifficultyParams(search: string): string {
@@ -251,6 +285,12 @@ function buildAppHref(pathname: string, lang: Lang, search: string): string {
   return `${pathname}${getSearchWithLanguage(search, lang)}`;
 }
 
+function buildAbsoluteAppHref(pathname: string, search: string): string {
+  const href = `${pathname}${search}`;
+  if (typeof window === "undefined" || !window.location.origin) return href;
+  return `${window.location.origin}${href}`;
+}
+
 function usePageLanguage(): Lang {
   const { i18n } = useTranslation();
   return getLanguageFromI18n(i18n);
@@ -260,7 +300,11 @@ function GamePage() {
   const lang = usePageLanguage();
   const location = useLocation();
   const manifestEntries = PUZZLE_MANIFEST;
-  const index = useMemo(() => pickPuzzleIndexForSearch(manifestEntries, location.search), [location.search, manifestEntries]);
+  const selection = useMemo(
+    () => resolvePuzzleSelectionForSearch(manifestEntries, location.search),
+    [location.search, manifestEntries]
+  );
+  const index = selection.index;
   const [puzzle, setPuzzle] = useState<PuzzleItem | null>(null);
   const [revealed, setRevealed] = useState(false);
   const [initial, setInitial] = useState<PersistedGameFields | null>(null);
@@ -305,6 +349,13 @@ function GamePage() {
   }, [lang, puzzle, storageKey]);
 
   if (!puzzle) return null;
+
+  const todaySearch = getSearchWithoutPuzzleId(location.search);
+  const archiveTodayHref = selection.isArchive ? `${location.pathname}${todaySearch}` : undefined;
+  const puzzlePermalinkUrl = buildAbsoluteAppHref(
+    location.pathname,
+    getSearchWithPuzzleId(getSearchWithoutPuzzleId(location.search), puzzle.id)
+  );
 
   const persist = (state: PersistedGameFields) => {
     const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
@@ -353,6 +404,8 @@ function GamePage() {
       onClear={clearResult}
       onPersist={persist}
       initial={initial ?? undefined}
+      archiveTodayHref={archiveTodayHref}
+      specificRiddleUrl={puzzlePermalinkUrl}
     />
   );
 }

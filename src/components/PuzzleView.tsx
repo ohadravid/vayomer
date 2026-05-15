@@ -41,7 +41,9 @@ type Props = {
   initial?: Omit<PersistedGameFields, "hintRevealed"> & { hintRevealed?: boolean };
   syncDocumentDirection?: boolean;
   shareEnabled?: boolean;
-  upperCornerLabel?: string,
+  upperCornerLabel?: string;
+  archiveTodayHref?: string;
+  specificRiddleUrl?: string;
 };
 
 type PersistableState = PersistedGameFields;
@@ -158,7 +160,9 @@ export function PuzzleView({
   initial,
   syncDocumentDirection = true,
   shareEnabled = true,
-  upperCornerLabel = ""
+  upperCornerLabel = "",
+  archiveTodayHref,
+  specificRiddleUrl,
 }: Props) {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -171,11 +175,15 @@ export function PuzzleView({
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
+  const [specificRiddleShareNotice, setSpecificRiddleShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
   const isHydratingRef = useRef(false);
 
-  const dateLabel = useMemo(() => upperCornerLabel ? upperCornerLabel : formatDate(new Date(), lang), [lang, upperCornerLabel]);
+  const dateLabel = useMemo(
+    () => (archiveTodayHref ? t("puzzleView.archiveRiddle") : upperCornerLabel ? upperCornerLabel : formatDate(new Date(), lang)),
+    [archiveTodayHref, lang, t, upperCornerLabel]
+  );
   const bonusAnswer = puzzle[lang].bonus ?? "";
   const hintQuote = puzzle[lang].bonus_hint?.quote?.trim() ?? "";
   const hasBonusHint = hintQuote.length > 0;
@@ -267,6 +275,7 @@ export function PuzzleView({
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
+    setSpecificRiddleShareNotice("");
   }, [
     initial?.speaker,
     initial?.listener,
@@ -341,6 +350,7 @@ export function PuzzleView({
     if (submitDisabled) return;
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
+    setSpecificRiddleShareNotice("");
     const speakerAnswer = puzzle[lang].speaker;
     const listenerAnswer = puzzle[lang].listener;
 
@@ -374,6 +384,7 @@ export function PuzzleView({
     setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
+    setSpecificRiddleShareNotice("");
     onClear();
   };
 
@@ -385,6 +396,7 @@ export function PuzzleView({
 
   const shareResult = async () => {
     if (!canShare) return;
+    setSpecificRiddleShareNotice("");
 
     const copied = await copyToClipboard(shareText);
     if (copied) {
@@ -422,6 +434,15 @@ export function PuzzleView({
     setShareNotice(t("puzzleView.shareFailed"));
   };
 
+  const shareSpecificRiddle = async () => {
+    if (!specificRiddleUrl) return;
+    setShareNotice("");
+    const copied = await copyToClipboard(specificRiddleUrl);
+    setSpecificRiddleShareNotice(
+      copied ? t("puzzleView.specificRiddleCopied") : t("puzzleView.shareFailed")
+    );
+  };
+
   const handleChange = (field: GuessField, value: string) => {
     if (field === "speaker") setSpeaker(value);
     if (field === "listener") setListener(value);
@@ -439,6 +460,8 @@ export function PuzzleView({
         sourceRevealed={sourceRevealed}
         bonusRevealed={bonusRevealed}
         dateLabel={dateLabel}
+        archiveTodayHref={archiveTodayHref}
+        archiveTodayLabel={t("puzzleView.todayRiddle")}
         onClear={clearLocal}
       />
       <GuessForm
@@ -465,9 +488,11 @@ export function PuzzleView({
         disabled={submitDisabled}
         feedback={feedback}
         shareNotice={shareNotice}
+        specificRiddleShareNotice={specificRiddleShareNotice}
         triesUsed={triesUsed}
         maxTries={MAX_TOTAL_TRIES}
         statusMarks={statusMarks}
+        onShareSpecificRiddle={shareEnabled && specificRiddleUrl ? shareSpecificRiddle : undefined}
       />
     </>
   );

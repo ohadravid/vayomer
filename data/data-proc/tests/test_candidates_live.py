@@ -45,7 +45,17 @@ def test_live_run_build_candidates_writes_real_genesis_chapter(tmp_path, seeded_
     assert len(shard.items) >= 2
     kept_ids = {item.id for item in shard.items}
     assert "genesis-03-09-09" in kept_ids
-    assert "genesis-03-13-13" in kept_ids
+    verse_13_items = [
+        item
+        for item in shard.items
+        if item.id.startswith("genesis-03-13-13") and item.ref.start == 13 and item.ref.end == 13
+    ]
+    assert verse_13_items
+    assert any(
+        "what is this that thou hast done" in item.en.riddle.lower()
+        or "serpent beguiled me" in item.en.riddle.lower()
+        for item in verse_13_items
+    )
     assert (shard_dir / "genesis-003.json").exists()
     aggregate = [json.loads(line) for line in candidates_path.read_text(encoding="utf-8").splitlines() if line.strip()]
     assert len(aggregate) == len(shard.items)

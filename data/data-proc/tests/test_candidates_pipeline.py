@@ -28,7 +28,7 @@ class _FakeTandem:
         return [
             ("GEN", 3),
             ("EXO", 2),
-            ("1CH", 16),
+            ("1KI", 1),
         ]
 
 
@@ -48,7 +48,7 @@ def _candidate_shard(candidate_map: dict[str, CandidateItem], candidate_id: str)
 def test_rebuild_candidates_jsonl_orders_items_canonically(candidate_map, tmp_path) -> None:
     candidates_path = tmp_path / "candidates.jsonl"
     shards = [
-        _candidate_shard(candidate_map, "1-chronicles-16-15-15"),
+        _candidate_shard(candidate_map, "1-kings-01-02-02"),
         _candidate_shard(candidate_map, "exodus-02-13-13"),
         _candidate_shard(candidate_map, "genesis-03-13-13"),
     ]
@@ -59,7 +59,7 @@ def test_rebuild_candidates_jsonl_orders_items_canonically(candidate_map, tmp_pa
     assert lines == [
         "genesis-03-13-13",
         "exodus-02-13-13",
-        "1-chronicles-16-15-15",
+        "1-kings-01-02-02",
     ]
 
 
@@ -169,7 +169,7 @@ def test_run_build_candidates_clean_state_starts_from_genesis(candidate_map, tmp
         candidate_id_map = {
             ("GEN", 3): "genesis-03-13-13",
             ("EXO", 2): "exodus-02-13-13",
-            ("1CH", 16): "1-chronicles-16-15-15",
+            ("1KI", 1): "1-kings-01-02-02",
         }
         return _candidate_shard(candidate_map, candidate_id_map[(book_code, chapter)]), []
 
@@ -186,7 +186,7 @@ def test_run_build_candidates_clean_state_starts_from_genesis(candidate_map, tmp
         resume=True,
     )
 
-    assert processed == [("GEN", 3), ("EXO", 2), ("1CH", 16)]
+    assert processed == [("GEN", 3), ("EXO", 2), ("1KI", 1)]
     assert [(shard.book_code, shard.chapter) for shard in shards] == processed
     assert not issues
 
@@ -198,8 +198,8 @@ def test_run_build_candidates_resumes_from_earliest_missing_chapter(candidate_ma
     processed: list[tuple[str, int]] = []
 
     shard_dir.mkdir(parents=True, exist_ok=True)
-    later_shard = _candidate_shard(candidate_map, "1-chronicles-16-15-15")
-    (shard_dir / "1-chronicles-016.json").write_text(json.dumps(later_shard.to_dict(), ensure_ascii=False, indent=2), encoding="utf-8")
+    later_shard = _candidate_shard(candidate_map, "1-kings-01-02-02")
+    (shard_dir / "1-kings-001.json").write_text(json.dumps(later_shard.to_dict(), ensure_ascii=False, indent=2), encoding="utf-8")
     monkeypatch.setattr("data_proc.candidates_pipeline.TandemBible.load", lambda **_: _FakeTandem())
 
     def fake_build_chapter_candidates(tandem, *, llm, book_code: str, chapter: int):
@@ -207,7 +207,7 @@ def test_run_build_candidates_resumes_from_earliest_missing_chapter(candidate_ma
         candidate_id_map = {
             ("GEN", 3): "genesis-03-13-13",
             ("EXO", 2): "exodus-02-13-13",
-            ("1CH", 16): "1-chronicles-16-15-15",
+            ("1KI", 1): "1-kings-01-02-02",
         }
         return _candidate_shard(candidate_map, candidate_id_map[(book_code, chapter)]), []
 
@@ -231,7 +231,7 @@ def test_run_build_candidates_resumes_from_earliest_missing_chapter(candidate_ma
     assert aggregate_ids == [
         "genesis-03-13-13",
         "exodus-02-13-13",
-        "1-chronicles-16-15-15",
+        "1-kings-01-02-02",
     ]
 
 
@@ -241,7 +241,7 @@ def test_run_build_candidates_noops_when_all_target_chapters_exist(candidate_map
     issues_log = tmp_path / "candidates_issues.jsonl"
 
     shard_dir.mkdir(parents=True, exist_ok=True)
-    for candidate_id in ("genesis-03-13-13", "exodus-02-13-13", "1-chronicles-16-15-15"):
+    for candidate_id in ("genesis-03-13-13", "exodus-02-13-13", "1-kings-01-02-02"):
         shard = _candidate_shard(candidate_map, candidate_id)
         path = _chapter_shard_path(shard_dir, book=shard.book, chapter=shard.chapter)
         path.write_text(json.dumps(shard.to_dict(), ensure_ascii=False, indent=2), encoding="utf-8")
@@ -269,7 +269,7 @@ def test_run_build_candidates_noops_when_all_target_chapters_exist(candidate_map
     assert aggregate_ids == [
         "genesis-03-13-13",
         "exodus-02-13-13",
-        "1-chronicles-16-15-15",
+        "1-kings-01-02-02",
     ]
 
 

@@ -21,9 +21,9 @@ def test_candidate_schema_deserializes_representative_line(candidate_map) -> Non
 
     assert item.source.book_code == "GEN"
     assert item.en.quote == "And the LORD God called unto Adam, and said unto him, Where art thou?"
-    assert item.he.listener == "אדם"
-    assert item.source.speaker_mention_verse is None
-    assert item.source.listener_mention_verse is None
+    assert item.he.listener == "הָֽאָדָם"
+    assert item.source.speaker_mention_verse == 9
+    assert item.source.listener_mention_verse == 9
 
     serialized = item.to_dict()
     assert "options" not in serialized["en"]

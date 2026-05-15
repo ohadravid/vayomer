@@ -99,15 +99,15 @@ def test_live_ollama_restores_hebrew_role_niqqud_in_output(candidate_map, live_p
 
 
 def test_live_ollama_expands_quote_for_poor_single_verse_context(candidate_map, live_pipeline) -> None:
-    candidate = live_pipeline.restore_hebrew_roles(live_pipeline.resolve_roles(candidate_map["genesis-48-02-02"]))
+    candidate = live_pipeline.restore_hebrew_roles(live_pipeline.resolve_roles(candidate_map["genesis-24-17-17"]))
     prepared = live_pipeline.prepare_context_candidate(candidate)
 
     assert prepared.expansion == "before"
-    assert prepared.candidate.source.quote_verse_start == 1
-    assert prepared.candidate.source.quote_verse_end == 2
-    assert "thy father is sick" in prepared.candidate.en.quote
-    assert candidate_map["genesis-48-02-02"].en.riddle in prepared.candidate.en.quote
-    assert candidate_map["genesis-48-02-02"].he.riddle in prepared.candidate.he.quote
+    assert prepared.candidate.source.quote_verse_start == 16
+    assert prepared.candidate.source.quote_verse_end == 17
+    assert "went down to the well" in prepared.candidate.en.quote
+    assert candidate_map["genesis-24-17-17"].en.riddle in prepared.candidate.en.quote
+    assert candidate_map["genesis-24-17-17"].he.riddle in prepared.candidate.he.quote
 
 
 def test_live_ollama_keeps_minimal_quote_when_context_is_clear(candidate_map, live_pipeline) -> None:
@@ -129,17 +129,17 @@ def test_live_ollama_repairs_hebrew_role_from_english_support(candidate_map, liv
 
 
 def test_live_ollama_expands_context_until_named_speaker_is_present(candidate_map, live_pipeline) -> None:
-    original = candidate_map["job-32-09-11"]
-    item = live_pipeline.process_candidate(original)
+    original = candidate_map["genesis-14-19-20"]
+    item = live_pipeline.prepare_context_candidate(live_pipeline.restore_hebrew_roles(original)).candidate
 
     assert item.source.quote_verse_start < original.source.quote_verse_start
     assert item.source.quote_verse_end == original.source.quote_verse_end
     assert item.source.quote_verse_end - item.source.quote_verse_start + 1 <= 7
-    assert item.en.speaker == "Elihu"
-    assert item.en.speaker != "Job"
+    assert item.en.speaker == "Melchizedek"
+    assert item.en.speaker != "Abram"
     assert whole_word_occurs(item.en.quote, item.en.speaker, "en")
-    assert strip_hebrew_marks(item.he.speaker) == "אליהוא"
-    assert strip_hebrew_marks(item.he.speaker) != "איוב"
+    assert strip_hebrew_marks(item.he.speaker) == "מלכי צדק"
+    assert strip_hebrew_marks(item.he.speaker) != "אברם"
     assert whole_word_occurs(item.he.quote, item.he.speaker, "he")
     assert item.en.riddle in item.en.quote
     assert item.he.riddle in item.he.quote

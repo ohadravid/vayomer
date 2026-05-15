@@ -26,9 +26,11 @@ type Props = {
   disabled: boolean;
   feedback?: string;
   shareNotice?: string;
+  specificRiddleShareNotice?: string;
   triesUsed: number;
   maxTries: number;
   statusMarks: string;
+  onShareSpecificRiddle?: () => void;
 };
 
 export function GuessForm({
@@ -55,9 +57,11 @@ export function GuessForm({
   disabled,
   feedback,
   shareNotice,
+  specificRiddleShareNotice,
   triesUsed,
   maxTries,
   statusMarks,
+  onShareSpecificRiddle,
 }: Props) {
   const { t } = useTranslation();
   const collator = new Intl.Collator(undefined, { sensitivity: "base" });
@@ -194,6 +198,14 @@ export function GuessForm({
         ) : null}
       </div>
       {showShare ? <div className="share-note">{shareNotice}</div> : null}
+      {onShareSpecificRiddle ? (
+        <div className="specific-riddle-share">
+          <button className="text-link" type="button" onClick={onShareSpecificRiddle}>
+            {t("guessForm.shareSpecificRiddle")}
+          </button>
+          <span className="specific-riddle-share-note">{specificRiddleShareNotice}</span>
+        </div>
+      ) : null}
     </section>
   );
 }

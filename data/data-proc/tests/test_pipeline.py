@@ -111,7 +111,7 @@ def test_validate_required_text_allows_quote_and_mention_raw_source_union(candid
 
 def test_run_pipeline_writes_files_and_issue_log_with_real_artifacts(candidate_map, tmp_path, monkeypatch) -> None:
     first = candidate_map["genesis-03-13-13"]
-    second = candidate_map["genesis-01-06-07"]
+    second = candidate_map["genesis-01-11-11"]
     third = candidate_map["genesis-03-09-09"]
     candidates_path = tmp_path / "candidates.jsonl"
     out_dir = tmp_path / "quotes"
@@ -168,12 +168,12 @@ def test_run_pipeline_writes_files_and_issue_log_with_real_artifacts(candidate_m
 
 
 def test_run_pipeline_dedupes_overlapping_chapter_riddle_turns(candidate_map, tmp_path, monkeypatch) -> None:
-    first = candidate_map["exodus-32-02-03"]
+    first = candidate_map["exodus-32-02-02"]
     second = replace(
         first,
         id="synthetic-exodus-32-duplicate",
-        source=replace(first.source, quote_verse_start=3, quote_verse_end=3),
-        ref=RefRange(chapter=32, start=3, end=3),
+        source=replace(first.source, quote_verse_start=2, quote_verse_end=2),
+        ref=RefRange(chapter=32, start=2, end=2),
     )
     candidates_path = tmp_path / "candidates.jsonl"
     out_dir = tmp_path / "quotes"
@@ -256,7 +256,7 @@ def test_run_pipeline_flushes_kept_chapter_file_before_later_interrupt(candidate
 
 
 def test_run_pipeline_resumes_from_earliest_incomplete_chapter(candidate_map, tmp_path, monkeypatch) -> None:
-    first = candidate_map["genesis-01-06-07"]
+    first = candidate_map["genesis-01-11-11"]
     second = candidate_map["genesis-03-13-13"]
     third = candidate_map["genesis-04-06-06"]
     candidates_path = tmp_path / "candidates.jsonl"
@@ -335,7 +335,7 @@ def test_run_pipeline_resumes_from_earliest_incomplete_chapter(candidate_map, tm
 
 
 def test_run_pipeline_resumes_from_missing_earlier_chapter_hole(candidate_map, tmp_path, monkeypatch) -> None:
-    first = candidate_map["genesis-01-06-07"]
+    first = candidate_map["genesis-01-11-11"]
     second = candidate_map["genesis-03-13-13"]
     third = candidate_map["genesis-04-06-06"]
     candidates_path = tmp_path / "candidates.jsonl"

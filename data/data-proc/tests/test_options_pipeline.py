@@ -7,6 +7,7 @@ import pytest
 from data_proc.options_pipeline import CHARACTER_TAXONOMY, FieldCandidatePools, OptionsBuilder, run_build_options
 from data_proc.pipeline import chapter_output_path
 from data_proc.schema import ChapterPayload, CharacterBank, CharacterBankEntry, iter_chapter_payloads, write_json
+from data_proc.utils import bible_sources
 
 
 def _payload_by_key(payloads: list[ChapterPayload], book_code: str, chapter: int) -> ChapterPayload:
@@ -41,18 +42,15 @@ def _bank_entry(entry_id: str, en: str, he: str, category: str, *, books: list[s
 
 
 def test_iter_chapter_payloads_returns_canonical_order_for_real_generated_dir(generated_payloads) -> None:
-    assert [(payload.book_code, payload.chapter) for payload in generated_payloads[:3]] == [
-        ("GEN", 3),
-        ("GEN", 4),
-        ("GEN", 6),
-    ]
+    payload_keys = [(payload.book_code, payload.chapter) for payload in generated_payloads]
+    assert payload_keys == sorted(payload_keys, key=lambda key: (bible_sources.BOOK_ORDER[key[0]], key[1]))
 
 
 def test_run_build_options_clean_state_starts_from_genesis(generated_payloads, tmp_path, monkeypatch) -> None:
     selected_payloads = [
         _payload_by_key(generated_payloads, "GEN", 3),
         _payload_by_key(generated_payloads, "EXO", 24),
-        _payload_by_key(generated_payloads, "1CH", 10),
+        _payload_by_key(generated_payloads, "1KI", 1),
     ]
     in_dir = tmp_path / "generated"
     out_dir = tmp_path / "generated_options"
@@ -74,7 +72,7 @@ def test_run_build_options_clean_state_starts_from_genesis(generated_payloads, t
     assert [(payload.book_code, payload.chapter) for payload in payloads] == [
         ("GEN", 3),
         ("EXO", 24),
-        ("1CH", 10),
+        ("1KI", 1),
     ]
     assert not dropped
 
@@ -82,14 +80,14 @@ def test_run_build_options_clean_state_starts_from_genesis(generated_payloads, t
 def test_run_build_options_resumes_from_earliest_missing_chapter(generated_payloads, tmp_path, monkeypatch) -> None:
     genesis_payload = _payload_by_key(generated_payloads, "GEN", 3)
     exodus_payload = _payload_by_key(generated_payloads, "EXO", 24)
-    chronicles_payload = _payload_by_key(generated_payloads, "1CH", 10)
+    kings_payload = _payload_by_key(generated_payloads, "1KI", 1)
     in_dir = tmp_path / "generated"
     out_dir = tmp_path / "generated_options"
     issues_log = tmp_path / "generated_options_issues.jsonl"
 
-    _write_payloads(in_dir, [genesis_payload, exodus_payload, chronicles_payload])
+    _write_payloads(in_dir, [genesis_payload, exodus_payload, kings_payload])
     out_dir.mkdir(parents=True, exist_ok=True)
-    write_json(chapter_output_path(out_dir, chronicles_payload), chronicles_payload.to_dict())
+    write_json(chapter_output_path(out_dir, kings_payload), kings_payload.to_dict())
     monkeypatch.setattr("data_proc.options_pipeline.OptionsBuilder.apply_options", lambda self, item: (item, [], {}))
 
     payloads, dropped = run_build_options(
@@ -109,14 +107,14 @@ def test_run_build_options_resumes_from_earliest_missing_chapter(generated_paylo
     assert not dropped
     assert chapter_output_path(out_dir, genesis_payload).exists()
     assert chapter_output_path(out_dir, exodus_payload).exists()
-    assert not chapter_output_path(out_dir, chronicles_payload).exists()
+    assert not chapter_output_path(out_dir, kings_payload).exists()
 
 
 def test_run_build_options_on_complete_dir_rebuilds_last_canonical_chapter(generated_payloads, tmp_path, monkeypatch) -> None:
     selected_payloads = [
         _payload_by_key(generated_payloads, "GEN", 3),
         _payload_by_key(generated_payloads, "EXO", 24),
-        _payload_by_key(generated_payloads, "1CH", 10),
+        _payload_by_key(generated_payloads, "1KI", 1),
     ]
     in_dir = tmp_path / "generated"
     out_dir = tmp_path / "generated_options"
@@ -136,13 +134,13 @@ def test_run_build_options_on_complete_dir_rebuilds_last_canonical_chapter(gener
         resume=True,
     )
 
-    assert [(payload.book_code, payload.chapter) for payload in payloads] == [("1CH", 10)]
+    assert [(payload.book_code, payload.chapter) for payload in payloads] == [("1KI", 1)]
     assert not dropped
 
 
 def test_iter_chapter_payloads_sorts_canonical_order_even_when_filenames_are_alphabetical(tmp_path, generated_payloads) -> None:
     payloads = [
-        _payload_by_key(generated_payloads, "1CH", 10),
+        _payload_by_key(generated_payloads, "1KI", 1),
         _payload_by_key(generated_payloads, "EXO", 24),
         _payload_by_key(generated_payloads, "GEN", 3),
     ]
@@ -156,7 +154,7 @@ def test_iter_chapter_payloads_sorts_canonical_order_even_when_filenames_are_alp
     assert [(payload.book_code, payload.chapter) for payload in ordered] == [
         ("GEN", 3),
         ("EXO", 24),
-        ("1CH", 10),
+        ("1KI", 1),
     ]
 
 

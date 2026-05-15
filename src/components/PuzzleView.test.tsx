@@ -1,4 +1,4 @@
-import { afterEach, describe, expect, it } from "vitest";
+import { afterEach, describe, expect, it, vi } from "vitest";
 import React, { StrictMode, act } from "react";
 import { cleanup, fireEvent, render, type RenderResult } from "@testing-library/react";
 import "@testing-library/jest-dom/vitest";
@@ -13,6 +13,7 @@ import type { GuessResult, Lang, PuzzleItem } from "../types";
 
 const dom = new JSDOM("<!doctype html><html><body></body></html>", { url: "https://example.test/" });
 const { window } = dom;
+const originalNavigator = window.navigator;
 
 Object.assign(globalThis, {
   window,
@@ -183,6 +184,8 @@ function buildPuzzleView(props: {
     hintRevealed?: boolean;
     attempts: GuessResult[];
   };
+  archiveTodayHref?: string;
+  specificRiddleUrl?: string;
 }) {
   const i18n = createI18n(props.lang ?? "en");
   return (
@@ -196,6 +199,8 @@ function buildPuzzleView(props: {
           onPersist={props.onPersist}
           initial={props.initial}
           syncDocumentDirection={false}
+          archiveTodayHref={props.archiveTodayHref}
+          specificRiddleUrl={props.specificRiddleUrl}
         />
       </StrictMode>
     </I18nextProvider>
@@ -232,6 +237,10 @@ async function setInputValue(id: string, value: string): Promise<void> {
 let view: RenderResult | null = null;
 
 afterEach(() => {
+  Object.defineProperty(globalThis, "navigator", {
+    value: originalNavigator,
+    configurable: true,
+  });
   if (view) {
     act(() => {
       view?.unmount();
@@ -632,6 +641,48 @@ describe("PuzzleView persistence hydration", () => {
     const refLink = byId("refLine").querySelector("a");
     expect(refLink).not.toBeNull();
     expect(refLink?.getAttribute("href")).toBe("/read/genesis/12?lng=en#v1");
+  });
+
+  it("shows archive label with a link back to today's riddle", () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(buildPuzzleView({ onPersist, archiveTodayHref: "/?lng=en" }));
+    });
+
+    expect(byId("puzzleDate").textContent ?? "").toContain("Archive riddle!");
+    const todayLink = byId("puzzleDate").querySelector("a");
+    expect(todayLink?.getAttribute("href")).toBe("/?lng=en");
+    expect(todayLink?.textContent ?? "").toBe("Today's riddle");
+  });
+
+  it("copies the specific riddle permalink independently from result share", async () => {
+    const onPersist = () => {};
+    const writeText = vi.fn().mockResolvedValue(undefined);
+    Object.defineProperty(globalThis, "navigator", {
+      configurable: true,
+      value: {
+        ...window.navigator,
+        clipboard: { writeText },
+      },
+    });
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          specificRiddleUrl: "https://example.test/?puzzle=manual-numbers-10-29-29-d5882096",
+        })
+      );
+    });
+
+    await act(async () => {
+      fireEvent.click(view!.getByRole("button", { name: "Share this specific riddle" }));
+      await Promise.resolve();
+    });
+
+    expect(writeText).toHaveBeenCalledWith("https://example.test/?puzzle=manual-numbers-10-29-29-d5882096");
+    expect(document.querySelector(".specific-riddle-share-note")?.textContent ?? "").toBe("Riddle link copied.");
   });
 
   it("reveals a masked bonus hint quote in stage two and unmasks it after solve", async () => {

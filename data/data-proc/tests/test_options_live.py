@@ -127,10 +127,10 @@ def test_live_options_builder_picks_three_distractors_per_field(curated_options_
     sample_ids = [
         "genesis-03-09-09",
         "genesis-03-13-13",
-        "genesis-16-08-10",
+        "genesis-16-09-09",
         "genesis-09-09-09",
-        "genesis-09-12-12",
-        "genesis-29-11-12",
+        "genesis-09-17-17",
+        "genesis-29-14-14",
     ]
 
     for item_id in sample_ids:
@@ -167,14 +167,14 @@ def test_live_options_builder_picks_three_distractors_per_field(curated_options_
     assert "God" not in updated_lord_god.en.options.speaker
     assert not any(option["category"] == "divine" and option["en"] in {"LORD", "God", "LORD God"} for option in debug_lord_god["speaker_options"])
 
-    woman_item = _find_item(curated_options_payloads, "genesis-03-01-02")
+    woman_item = _find_item(curated_options_payloads, "genesis-03-02-02")
     updated_woman, issues_woman, debug_woman = builder.apply_options(woman_item)
     assert not issues_woman
     assert "LORD" not in updated_woman.en.options.listener
     assert "God" not in updated_woman.en.options.listener
     assert not any(option["category"] == "divine" for option in debug_woman["listener_options"])
 
-    living_creatures_item = _find_item(curated_options_payloads, "genesis-09-12-12")
+    living_creatures_item = _find_item(curated_options_payloads, "genesis-09-17-17")
     updated_living_creatures, issues_living_creatures, debug_living_creatures = builder.apply_options(living_creatures_item)
     assert not issues_living_creatures
     assert len(updated_living_creatures.en.options.listener) == 3
@@ -207,12 +207,12 @@ def test_live_options_builder_prefers_diverse_speaker_categories_for_genesis_4(c
 
 
 def test_live_options_builder_fills_listener_options_when_true_listener_is_not_in_bank(generated_payloads, seeded_options_llm) -> None:
-    item = _find_item(generated_payloads, "job-13-01-03")
+    item = _find_item(generated_payloads, "genesis-24-17-17")
     bank = CharacterBank(
         taxonomy=list(CHARACTER_TAXONOMY),
         items=[
-            _bank_entry("char-job", "Job", "אִיּוֹב", "family", books=["JOB"], count=20, observed_fields=["speaker"]),
-            _bank_entry("char-people", "people", "הָעָם", "people_group", books=["EXO", "JOB"], count=40, observed_fields=["listener"]),
+            _bank_entry("char-servant", "servant", "עֶבֶד", "companion_sidekick", books=["GEN"], count=20, observed_fields=["speaker"]),
+            _bank_entry("char-people", "people", "הָעָם", "people_group", books=["EXO"], count=40, observed_fields=["listener"]),
             _bank_entry("char-israel", "children of Israel", "בְּנֵי יִשְׂרָאֵל", "people_group", books=["EXO"], count=25, observed_fields=["listener"]),
             _bank_entry("char-chaldeans", "Chaldeans", "כַּשְׂדִּים", "enemy_foreigner", books=["JOB"], count=12, observed_fields=["listener"]),
             _bank_entry("char-brethren", "brethren", "אַחִים", "family", books=["GEN"], count=12, observed_fields=["listener"]),
@@ -244,7 +244,7 @@ def test_live_run_build_options_writes_real_chapter_file(tmp_path, curated_optio
         book_he=source_payload.book_he,
         chapter=source_payload.chapter,
         mode=source_payload.mode,
-        items=[item for item in source_payload.items if item.id in {"genesis-03-01-02", "genesis-03-09-09", "genesis-03-13-13"}],
+        items=[item for item in source_payload.items if item.id in {"genesis-03-02-02", "genesis-03-09-09", "genesis-03-13-13"}],
     )
     write_json(in_dir / "genesis-003.json", filtered_payload.to_dict())
 
@@ -260,7 +260,7 @@ def test_live_run_build_options_writes_real_chapter_file(tmp_path, curated_optio
     assert len(payloads) == 1
     assert (out_dir / "genesis-003.json").exists()
     written = json.loads((out_dir / "genesis-003.json").read_text(encoding="utf-8"))
-    assert [item["id"] for item in written["items"]] == ["genesis-03-01-02", "genesis-03-09-09", "genesis-03-13-13"]
+    assert [item["id"] for item in written["items"]] == ["genesis-03-02-02", "genesis-03-09-09", "genesis-03-13-13"]
     for item in written["items"]:
         assert len(item["en"]["options"]["speaker"]) == 3
         assert len(item["en"]["options"]["listener"]) == 3
@@ -304,8 +304,8 @@ def test_live_run_build_options_restores_pointed_hebrew_roles_and_options(genera
 
     wanted = {
         ("GEN", 16): {"genesis-16-02-02"},
-        ("GEN", 24): {"genesis-24-05-05"},
-        ("GEN", 39): {"genesis-39-06-07"},
+        ("GEN", 24): {"genesis-24-17-17"},
+        ("GEN", 39): {"genesis-39-07-07"},
     }
     for payload in generated_payloads:
         key = (payload.book_code, payload.chapter)
@@ -361,8 +361,8 @@ def test_live_options_builder_restores_pointed_hebrew_options_from_full_context(
     assert all(strip_hebrew_marks(option) != option for option in updated.he.options.listener)
 
 
-def test_live_options_builder_prefers_group_listener_distractors_for_house_of_pharaoh(generated_payloads, seeded_options_llm) -> None:
-    item = _find_item(generated_payloads, "genesis-50-04-04")
+def test_live_options_builder_prefers_group_listener_distractors_for_household_listener(generated_payloads, seeded_options_llm) -> None:
+    item = _find_item(generated_payloads, "genesis-39-14-14")
     hebrew_mapping = hebrew_surface_map(_hebrew_context_texts(generated_payloads))
     bank = _restore_bank_hebrew_surfaces_from_map(read_character_bank(CHARACTER_BANK_PATH), hebrew_mapping)
     restored_item = _restore_item_hebrew_roles_from_map(item, hebrew_mapping)

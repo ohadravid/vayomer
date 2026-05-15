@@ -319,7 +319,7 @@ def test_prepare_context_candidate_keeps_clear_single_verse_quote_minimal(candid
 
 
 def test_prepare_context_candidate_can_expand_short_multi_verse_quote(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["1-chronicles-16-15-16"]
+    candidate = candidate_map["exodus-18-15-16"]
 
     class StubLLM:
         def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
@@ -339,7 +339,7 @@ def test_prepare_context_candidate_can_expand_short_multi_verse_quote(candidate_
 
 
 def test_validate_candidate_targets_riddle_not_other_turns(candidate_map, seeded_live_pipeline: CandidatePipeline) -> None:
-    candidate = candidate_map["exodus-04-02-02"]
+    candidate = candidate_map["exodus-04-02-02-1"]
     resolved = seeded_live_pipeline.resolve_roles(candidate)
     english_result = seeded_live_pipeline.validate_candidate(resolved, "en")
     hebrew_result = seeded_live_pipeline.validate_candidate(resolved, "he")
@@ -356,7 +356,7 @@ def test_validate_candidate_targets_riddle_not_other_turns(candidate_map, seeded
 
 
 def test_validate_candidate_reconciles_hebrew_false_negative_from_english(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["exodus-04-02-02"]
+    candidate = candidate_map["exodus-04-02-02-1"]
     candidate = replace(
         candidate,
         en=replace(candidate.en, speaker="LORD", listener="Moses"),
@@ -415,7 +415,8 @@ def test_resolve_roles_corrects_reversed_speaker_and_listener(candidate_map, see
 
 
 def test_refine_riddles_edits_down_long_hebrew_riddle(candidate_map, bible_corpus: BibleCorpus) -> None:
-    candidate = candidate_map["genesis-24-18-18"]
+    base = candidate_map["genesis-24-18-18"]
+    candidate = replace(base, en=replace(base.en, riddle=base.en.quote), he=replace(base.he, riddle=base.he.quote))
 
     class StubLLM:
         def chat_json(self, prompt_name: str, system_prompt: str, user_prompt: str, *, required_keys=()):
@@ -1530,8 +1531,8 @@ def test_read_character_bank_normalizes_stale_divine_aliases(tmp_path) -> None:
 
 
 def test_options_builder_skips_unresolved_individual_roles_without_llm(generated_payloads) -> None:
-    payload = next(payload for payload in generated_payloads if payload.book_code == "JOB" and payload.chapter == 13)
-    item = next(item for item in payload.items if item.id == "job-13-11-11")
+    payload = next(payload for payload in generated_payloads if payload.book_code == "GEN" and payload.chapter == 3)
+    item = next(item for item in payload.items if item.id == "genesis-03-13-13")
     item = replace(
         item,
         en=replace(item.en, speaker="he", listener="him"),

@@ -1,8 +1,12 @@
 import { describe, expect, it } from "vitest";
+import { Temporal } from "@js-temporal/polyfill";
 import {
+  getSearchWithPuzzleId,
+  getSearchWithoutPuzzleId,
   parsePersistedState,
   parsePuzzleIdFromSearch,
   pickPuzzleIndexForSearch,
+  resolvePuzzleSelectionForSearch,
   resolvePersistedGameFields,
 } from "./App";
 import type { PuzzleItem } from "./types";
@@ -42,6 +46,18 @@ describe("parsePuzzleIdFromSearch", () => {
   });
 });
 
+describe("puzzle search helpers", () => {
+  it("removes puzzle ids while preserving other params", () => {
+    expect(getSearchWithoutPuzzleId("?lng=en&puzzle=puzzle-b&foo=bar")).toBe("?lng=en&foo=bar");
+    expect(getSearchWithoutPuzzleId("?puzzle=puzzle-b")).toBe("");
+  });
+
+  it("sets puzzle ids while preserving other params", () => {
+    expect(getSearchWithPuzzleId("?lng=en", "puzzle-b")).toBe("?lng=en&puzzle=puzzle-b");
+    expect(getSearchWithPuzzleId("?lng=en&puzzle=puzzle-a", "puzzle-b")).toBe("?lng=en&puzzle=puzzle-b");
+  });
+});
+
 describe("pickPuzzleIndexForSearch", () => {
   const puzzles: PuzzleItem[] = [
     {
@@ -65,6 +81,28 @@ describe("pickPuzzleIndexForSearch", () => {
     expect(pickPuzzleIndexForSearch(puzzles, "")).toBeLessThan(puzzles.length);
     expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeGreaterThanOrEqual(0);
     expect(pickPuzzleIndexForSearch(puzzles, "?puzzle=unknown")).toBeLessThan(puzzles.length);
+  });
+
+  it("marks valid non-daily explicit puzzle ids as archive selections", () => {
+    const date = Temporal.PlainDate.from("2026-03-16");
+    expect(resolvePuzzleSelectionForSearch(puzzles, "?puzzle=puzzle-a", date)).toMatchObject({
+      index: 0,
+      dailyIndex: 0,
+      requestedPuzzleId: "puzzle-a",
+      isArchive: false,
+    });
+    expect(resolvePuzzleSelectionForSearch(puzzles, "?puzzle=puzzle-b", date)).toMatchObject({
+      index: 1,
+      dailyIndex: 0,
+      requestedPuzzleId: "puzzle-b",
+      isArchive: true,
+    });
+    expect(resolvePuzzleSelectionForSearch(puzzles, "?puzzle=missing", date)).toMatchObject({
+      index: 0,
+      dailyIndex: 0,
+      requestedPuzzleId: null,
+      isArchive: false,
+    });
   });
 });
 
