@@ -12,6 +12,7 @@ export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "02-24": "manual-genesis-24-16-18-10363c00",
   "02-26": "manual-genesis-47-08-09-17ff6fd8",
   "03-19": "manual-jeremiah-33-10-11-4f49ab70",
+  "1972-05-13[u-ca=hebrew]": "manual-numbers-10-29-29-d5882096",
   "04-11": "exodus-33-05-05",
   "04-13": "1-samuel-12-03-03",
   "04-14": "2-samuel-17-20-20",

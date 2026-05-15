@@ -116,4 +116,23 @@ describe("date override selection", () => {
     expect(pickDailyItemIndexWithOverrides(items, isoA, overrides)).toBe(1);
     expect(pickDailyItemIndexWithOverrides(items, isoB, overrides)).toBe(pickDailyItemIndex(items, isoB));
   });
+
+  it("uses the recurring כט באייר override for the Numbers manual quote", () => {
+    const items = [{ id: "a" }, { id: "manual-numbers-10-29-29-d5882096" }, { id: "c" }];
+    const iyar29A = Temporal.PlainDate.from({
+      calendar: "hebrew",
+      year: 5786,
+      monthCode: "M08",
+      day: 29,
+    }).withCalendar("iso8601");
+    const iyar29B = Temporal.PlainDate.from({
+      calendar: "hebrew",
+      year: 5787,
+      monthCode: "M08",
+      day: 29,
+    }).withCalendar("iso8601");
+
+    expect(pickDailyItemIndexWithOverrides(items, iyar29A)).toBe(1);
+    expect(pickDailyItemIndexWithOverrides(items, iyar29B)).toBe(1);
+  });
 });

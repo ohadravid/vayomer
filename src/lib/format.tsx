@@ -53,7 +53,7 @@ export function pickHardWordPlaceholderForId(quoteId: string): string {
 
 function escapeRegex(text: string): string {
   return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
+}``
 
 function maskTokenCharacters(value: string, placeholder: string): string {
   return Array.from(value)
@@ -75,6 +75,29 @@ function normalizeHebrewForMaskMatch(text: string): string {
 
 const HEBREW_MASK_WORD_REGEX = /[\u0590-\u05BD\u05BF-\u05FF]+/gu;
 
+function maskTokenSubstring(token: string, normalizedLengthToMask: number, placeholder: string): string {
+  let consumed = 0;
+
+  return Array.from(token)
+    .map((char) => {
+      // Drop niqqud from output, like maskTokenCharacters currently does.
+      if (/[\u0591-\u05C7]/u.test(char)) return "";
+
+      // Keep spaces untouched, probably irrelevant inside token.
+      if (/\s/u.test(char)) return char;
+
+      const normalizedChar = normalizeHebrewForMaskMatch(char);
+
+      if (consumed < normalizedLengthToMask) {
+        consumed += normalizedChar.length;
+        return placeholder;
+      }
+
+      return char;
+    })
+    .join("");
+}
+
 export function maskHardWord(quote: string, hardWord: string, placeholder: string, lang?: Lang): string {
   if (!quote || !hardWord) return quote;
   const trimmedHardWord = hardWord.trim();
@@ -95,9 +118,14 @@ export function maskHardWord(quote: string, hardWord: string, placeholder: strin
 
   let replaced = false;
   const fuzzyMasked = quote.replace(HEBREW_MASK_WORD_REGEX, (token) => {
-    if (normalizeHebrewForMaskMatch(token) !== normalizedTarget) return token;
+    const normalizedTarget = normalizeHebrewForMaskMatch(trimmedHardWord);
+    const normalizedToken = normalizeHebrewForMaskMatch(token);
+
+    const matchIndex = normalizedToken.indexOf(normalizedTarget);
+    if (matchIndex === -1) return token;
+
     replaced = true;
-    return maskTokenCharacters(token, placeholder);
+    return maskTokenSubstring(token, normalizedTarget.length, placeholder);
   });
 
   return replaced ? fuzzyMasked : exactMasked;
