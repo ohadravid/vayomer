@@ -810,18 +810,26 @@ test("share copies result text", async ({ page }) => {
   expect(copiedText).toContain(`${origin}/`);
 });
 
-test("manual Numbers permalink loads by regular id and copies specific riddle link", async ({ page }) => {
-  await openGame(page, { puzzleId: manualNumbersPuzzleId, lang: "en", captureClipboard: true });
+test("manual Numbers permalink loads by regular id and shows specific riddle link", async ({ page }) => {
+  await openGame(page, { puzzleId: manualNumbersPuzzleId, lang: "en" });
 
   await expect(page.locator("#fullQuote")).toContainText("come thou with us, and we will do thee good");
   await expect(page.locator("#inputSpeaker")).toContainText("Moses");
   await expect(page.locator("#inputListener")).toContainText("Jethro, Moses' father-in-law");
 
-  await page.getByRole("button", { name: "Share this specific riddle" }).click();
+  const specificRiddleLink = page.getByRole("link", { name: "Share this specific riddle" });
+  const href = await specificRiddleLink.getAttribute("href");
+  expect(href).toContain(`puzzle=${manualNumbersPuzzleId}`);
+  expect(href).not.toContain("bWFudWFs");
+  await expect(page.locator(".card").getByRole("link", { name: "Share this specific riddle" })).toHaveCount(0);
 
-  const copiedText = await page.evaluate(() => (globalThis as { __copiedText?: string }).__copiedText ?? "");
-  expect(copiedText).toContain(`puzzle=${manualNumbersPuzzleId}`);
-  expect(copiedText).not.toContain("bWFudWFs");
+  const appearsAboveAbout = await specificRiddleLink.evaluate((specificLink) => {
+    const aboutLink = Array.from(document.querySelectorAll("a")).find(
+      (link) => link.textContent?.trim() === "About & sources"
+    );
+    return !!aboutLink && !!(specificLink.compareDocumentPosition(aboutLink) & Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+  expect(appearsAboveAbout).toBe(true);
 });
 
 test("archive permalink shows archive label and links back to today's riddle", async ({ page }) => {

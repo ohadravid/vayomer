@@ -774,35 +774,6 @@ label {
   color: var(--muted);
 }
 
-.specific-riddle-share-note {
-  min-height: 1.2em;
-  color: var(--muted);
-}
-
-.specific-riddle-share {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: var(--s0);
-  font-size: var(--fs-sm);
-}
-
-button.text-link {
-  min-height: auto;
-  padding: 0;
-  border: 0;
-  background: transparent;
-  color: var(--muted);
-  font: inherit;
-  text-decoration: underline;
-  text-underline-offset: 0.16em;
-}
-
-button.text-link:hover:not(:disabled),
-button.text-link:focus:not(:disabled) {
-  color: var(--fg);
-}
-
 @media (max-width: 34rem) {
   .bonus-cell {
     transform: translateY(-0.2rem);

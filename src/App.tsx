@@ -352,10 +352,6 @@ function GamePage() {
 
   const todaySearch = getSearchWithoutPuzzleId(location.search);
   const archiveTodayHref = selection.isArchive ? `${location.pathname}${todaySearch}` : undefined;
-  const puzzlePermalinkUrl = buildAbsoluteAppHref(
-    location.pathname,
-    getSearchWithPuzzleId(getSearchWithoutPuzzleId(location.search), puzzle.id)
-  );
 
   const persist = (state: PersistedGameFields) => {
     const existing = parsePersistedState(localStorage.getItem(storageKey), APP_VERSION);
@@ -405,7 +401,6 @@ function GamePage() {
       onPersist={persist}
       initial={initial ?? undefined}
       archiveTodayHref={archiveTodayHref}
-      specificRiddleUrl={puzzlePermalinkUrl}
     />
   );
 }
@@ -509,6 +504,13 @@ function AppLayout() {
   const homeHref = useMemo(() => buildAppHref("/", lang, cleanedSearch), [cleanedSearch, lang]);
   const aboutHref = useMemo(() => buildAppHref("/about", lang, cleanedSearch), [cleanedSearch, lang]);
   const exampleHref = useMemo(() => buildAppHref("/example", lang, cleanedSearch), [cleanedSearch, lang]);
+  const specificRiddleHref = useMemo(() => {
+    if (section !== "game") return undefined;
+    const selection = resolvePuzzleSelectionForSearch(PUZZLE_MANIFEST, cleanedSearch);
+    const puzzleId = PUZZLE_MANIFEST[selection.index]?.id;
+    if (!puzzleId) return undefined;
+    return buildAbsoluteAppHref(location.pathname, getSearchWithPuzzleId(getSearchWithoutPuzzleId(cleanedSearch), puzzleId));
+  }, [cleanedSearch, location.pathname, section]);
 
   useEffect(() => {
     if (cleanedSearch === location.search) return;
@@ -581,11 +583,20 @@ function AppLayout() {
 
       <footer className="footer-note">
         {section === "game" ? (
-          <div>
-            <Link className="footer-link" to={aboutHref}>
-              {t("about.link")}
-            </Link>
-          </div>
+          <>
+            {specificRiddleHref ? (
+              <div>
+                <a className="footer-link" href={specificRiddleHref}>
+                  {t("guessForm.shareSpecificRiddle")}
+                </a>
+              </div>
+            ) : null}
+            <div>
+              <Link className="footer-link" to={aboutHref}>
+                {t("about.link")}
+              </Link>
+            </div>
+          </>
         ) : null}
         <div>
           <a className="footer-link footer-version-link" href={REPO_URL} target="_blank" rel="noreferrer">

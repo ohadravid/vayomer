@@ -43,7 +43,6 @@ type Props = {
   shareEnabled?: boolean;
   upperCornerLabel?: string;
   archiveTodayHref?: string;
-  specificRiddleUrl?: string;
 };
 
 type PersistableState = PersistedGameFields;
@@ -162,7 +161,6 @@ export function PuzzleView({
   shareEnabled = true,
   upperCornerLabel = "",
   archiveTodayHref,
-  specificRiddleUrl,
 }: Props) {
   const { t, i18n } = useTranslation();
   const lang = getLanguageFromI18n(i18n);
@@ -175,7 +173,6 @@ export function PuzzleView({
   const [attempts, setAttempts] = useState<GuessResult[]>(initial?.attempts ?? []);
   const [editedSinceCheck, setEditedSinceCheck] = useState<GuessEditState>(() => emptyEditedState());
   const [shareNotice, setShareNotice] = useState("");
-  const [specificRiddleShareNotice, setSpecificRiddleShareNotice] = useState("");
   const persistRef = useRef<Props["onPersist"]>(onPersist);
   const hydratedStateSignatureRef = useRef(signatureFromState(buildPersistableState(initial)));
   const isHydratingRef = useRef(false);
@@ -275,7 +272,6 @@ export function PuzzleView({
     setAttempts(nextAttempts);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
-    setSpecificRiddleShareNotice("");
   }, [
     initial?.speaker,
     initial?.listener,
@@ -350,7 +346,6 @@ export function PuzzleView({
     if (submitDisabled) return;
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
-    setSpecificRiddleShareNotice("");
     const speakerAnswer = puzzle[lang].speaker;
     const listenerAnswer = puzzle[lang].listener;
 
@@ -384,7 +379,6 @@ export function PuzzleView({
     setAttempts([]);
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
-    setSpecificRiddleShareNotice("");
     onClear();
   };
 
@@ -396,7 +390,6 @@ export function PuzzleView({
 
   const shareResult = async () => {
     if (!canShare) return;
-    setSpecificRiddleShareNotice("");
 
     const copied = await copyToClipboard(shareText);
     if (copied) {
@@ -432,15 +425,6 @@ export function PuzzleView({
     }
 
     setShareNotice(t("puzzleView.shareFailed"));
-  };
-
-  const shareSpecificRiddle = async () => {
-    if (!specificRiddleUrl) return;
-    setShareNotice("");
-    const copied = await copyToClipboard(specificRiddleUrl);
-    setSpecificRiddleShareNotice(
-      copied ? t("puzzleView.specificRiddleCopied") : t("puzzleView.shareFailed")
-    );
   };
 
   const handleChange = (field: GuessField, value: string) => {
@@ -488,11 +472,9 @@ export function PuzzleView({
         disabled={submitDisabled}
         feedback={feedback}
         shareNotice={shareNotice}
-        specificRiddleShareNotice={specificRiddleShareNotice}
         triesUsed={triesUsed}
         maxTries={MAX_TOTAL_TRIES}
         statusMarks={statusMarks}
-        onShareSpecificRiddle={shareEnabled && specificRiddleUrl ? shareSpecificRiddle : undefined}
       />
     </>
   );
