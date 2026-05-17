@@ -817,11 +817,11 @@ test("manual Numbers permalink loads by regular id and shows specific riddle lin
   await expect(page.locator("#inputSpeaker")).toContainText("Moses");
   await expect(page.locator("#inputListener")).toContainText("Jethro, Moses' father-in-law");
 
-  const specificRiddleLink = page.getByRole("link", { name: "Share this specific riddle" });
+  const specificRiddleLink = page.getByRole("link", { name: "Riddle permalink" });
   const href = await specificRiddleLink.getAttribute("href");
   expect(href).toContain(`puzzle=${manualNumbersPuzzleId}`);
   expect(href).not.toContain("bWFudWFs");
-  await expect(page.locator(".card").getByRole("link", { name: "Share this specific riddle" })).toHaveCount(0);
+  await expect(page.locator(".card").getByRole("link", { name: "Riddle permalink" })).toHaveCount(0);
 
   const appearsAboveAbout = await specificRiddleLink.evaluate((specificLink) => {
     const aboutLink = Array.from(document.querySelectorAll("a")).find(
@@ -848,6 +848,7 @@ test("archive permalink shows archive label and links back to today's riddle", a
 test("about page opens and returns to puzzle", async ({ page }) => {
   await openGame(page);
 
+  await expect(page.getByRole("link", { name: "Feedback" })).toHaveAttribute("href", "mailto:mashov@vayomer.io");
   await page.getByRole("link", { name: "About & sources" }).click();
   await expect.poll(() => new URL(page.url()).pathname).toBe("/about");
   await expect.poll(() => new URL(page.url()).searchParams.get("lng")).toBe("en");

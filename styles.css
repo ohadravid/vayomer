@@ -343,6 +343,11 @@ input[type="radio"] {
   text-decoration: underline;
 }
 
+.footer-separator {
+  color: var(--muted);
+  font-size: var(--fs-sm);
+}
+
 .footer-version-link {
   opacity: 0.86;
 }

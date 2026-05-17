@@ -86,6 +86,7 @@ export const resources = {
       },
       footer: {
         version: "Version {{version}} (beta)",
+        feedback: "Feedback",
       },
     },
   },
@@ -165,6 +166,7 @@ export const resources = {
       },
       footer: {
         version: "גרסת הרצה ({{version}})",
+        feedback: "משוב",
       },
     },
   },

@@ -602,6 +602,12 @@ function AppLayout() {
           <a className="footer-link footer-version-link" href={REPO_URL} target="_blank" rel="noreferrer">
             {t("footer.version", { version: APP_VERSION })}
           </a>
+          <span className="footer-separator" aria-hidden="true">
+            {" - "}
+          </span>
+          <a className="footer-link" href="mailto:mashov@vayomer.io">
+            {t("footer.feedback")}
+          </a>
         </div>
       </footer>
     </div>
