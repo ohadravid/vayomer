@@ -47,4 +47,11 @@ describe("maskHardWord", () => {
     expect(masked).not.toContain("רָֽגַע");
     expect(masked).toContain("עֲדֵי־🪧🪧🪧");
   });
+  it("partially masks Hebrew substring matches while preserving the suffix", () => {
+    const quote = "נִסְעָה";
+    const masked = maskHardWord(quote, "נֹסְעִ", "🪧", "he");
+
+    expect(masked).not.toContain("נִסְעָ");
+    expect(masked).toBe("🪧🪧🪧ה");
+  });
 });
