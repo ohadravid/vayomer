@@ -47,6 +47,16 @@ describe("maskHardWord", () => {
     expect(masked).not.toContain("רָֽגַע");
     expect(masked).toContain("עֲדֵי־🪧🪧🪧");
   });
+
+  it("masks the full Hebrew hint token when yod/vav-insensitive matching finds the word", () => {
+    const quote = "וַיִּשָּׂא פָנָיו אֶל־הַחַלּוֹן";
+    const masked = maskHardWord(quote, "פָּנָֽיו", "🪧", "he");
+
+    expect(masked).not.toContain("פָנָיו");
+    expect(masked).not.toContain("🪧🪧יו");
+    expect(masked).toContain("🪧🪧🪧🪧");
+  });
+
   it("partially masks Hebrew substring matches while preserving the suffix", () => {
     const quote = "נִסְעָה";
     const masked = maskHardWord(quote, "נֹסְעִ", "🪧", "he");

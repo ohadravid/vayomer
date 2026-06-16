@@ -118,13 +118,14 @@ export function maskHardWord(quote: string, hardWord: string, placeholder: strin
 
   let replaced = false;
   const fuzzyMasked = quote.replace(HEBREW_MASK_WORD_REGEX, (token) => {
-    const normalizedTarget = normalizeHebrewForMaskMatch(trimmedHardWord);
     const normalizedToken = normalizeHebrewForMaskMatch(token);
 
     const matchIndex = normalizedToken.indexOf(normalizedTarget);
     if (matchIndex === -1) return token;
 
     replaced = true;
+    if (normalizedToken === normalizedTarget) return maskTokenCharacters(token, placeholder);
+
     return maskTokenSubstring(token, normalizedTarget.length, placeholder);
   });
 
