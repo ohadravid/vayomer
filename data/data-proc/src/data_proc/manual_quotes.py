@@ -291,6 +291,18 @@ def write_manual_chapter_payloads(payloads: Iterable[dict[str, Any]], out_dir: P
     written: list[Path] = []
     for payload in payloads:
         output_path = manual_chapter_output_path(out_dir, payload)
+        if output_path.exists():
+            existing_payload = _read_json(output_path)
+            existing_items = list(existing_payload.get("items", []))
+            existing_ids = {str(item.get("id", "")) for item in existing_items}
+            incoming_items = [item for item in payload["items"] if str(item.get("id", "")) not in existing_ids]
+            payload = {
+                **payload,
+                "items": sorted(
+                    [*existing_items, *incoming_items],
+                    key=lambda item: (item["ref"]["start"], item["ref"]["end"], item["id"]),
+                ),
+            }
         write_json(output_path, payload)
         written.append(output_path)
     return written

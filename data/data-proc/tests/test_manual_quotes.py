@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 from dataclasses import dataclass
 
 from data_proc.manual_quotes import (
@@ -7,6 +8,7 @@ from data_proc.manual_quotes import (
     build_manual_chapter_payloads,
     load_manual_specs,
     manual_chapter_output_path,
+    write_manual_chapter_payloads,
 )
 
 
@@ -82,3 +84,79 @@ def test_numbers_manual_spec_builds_expected_payload(tmp_path) -> None:
     assert item["he"]["bonus_hint"]["source"] == {"book": "בראשית", "chapter": 33, "start": 12, "end": 12}
     assert item["raw_quote_source"]["he"]["29"].startswith("וַיֹּאמֶר מֹשֶׁה")
     assert item["meta"]["source"] == "manual-spec"
+
+
+def test_write_manual_chapter_payloads_preserves_existing_items(tmp_path) -> None:
+    existing_payload = {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "mode": "manual",
+        "items": [
+            {
+                "id": "manual-existing",
+                "ref": {"chapter": 10, "start": 1, "end": 1},
+            }
+        ],
+    }
+    output_path = tmp_path / "numbers-010.json"
+    output_path.write_text(json.dumps(existing_payload), encoding="utf-8")
+
+    incoming_payload = {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "mode": "manual",
+        "items": [
+            {
+                "id": "manual-new",
+                "ref": {"chapter": 10, "start": 2, "end": 2},
+            }
+        ],
+    }
+
+    write_manual_chapter_payloads([incoming_payload], tmp_path)
+
+    written = json.loads(output_path.read_text(encoding="utf-8"))
+    assert [item["id"] for item in written["items"]] == ["manual-existing", "manual-new"]
+
+
+def test_write_manual_chapter_payloads_does_not_override_existing_item_id(tmp_path) -> None:
+    existing_payload = {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "mode": "manual",
+        "items": [
+            {
+                "id": "manual-existing",
+                "ref": {"chapter": 10, "start": 1, "end": 1},
+                "marker": "keep",
+            }
+        ],
+    }
+    output_path = tmp_path / "numbers-010.json"
+    output_path.write_text(json.dumps(existing_payload), encoding="utf-8")
+
+    incoming_payload = {
+        "book_code": "NUM",
+        "book": "Numbers",
+        "book_he": "במדבר",
+        "chapter": 10,
+        "mode": "manual",
+        "items": [
+            {
+                "id": "manual-existing",
+                "ref": {"chapter": 10, "start": 1, "end": 1},
+                "marker": "replace",
+            }
+        ],
+    }
+
+    write_manual_chapter_payloads([incoming_payload], tmp_path)
+
+    written = json.loads(output_path.read_text(encoding="utf-8"))
+    assert written["items"] == existing_payload["items"]
