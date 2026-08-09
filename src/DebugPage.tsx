@@ -574,6 +574,8 @@ function LanguageSuite({ lang, title, anchorId }: { lang: Lang; title: string; a
                 showBonusRow
                 extraChecked
                 bonusDisabled={false}
+                bonusAnswer={samplePuzzle[lang].bonus ?? ""}
+                lang={lang}
                 bonusHintUsed={false}
                 showBonusHint
                 showHintQuote

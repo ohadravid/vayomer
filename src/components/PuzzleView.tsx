@@ -2,6 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import { buildMultipleChoiceOptions, resolveChoicePoolsForDifficulty } from "../lib/easyMode";
 import { answersMatch } from "../lib/answerMatcher";
+import { bonusGuessMatches, isBonusGuessComplete } from "../lib/bonusWord";
 import {
   countTryAttempts,
   deriveGameState,
@@ -188,6 +189,7 @@ export function PuzzleView({
   const maskedHintQuote = hasBonusHint ? maskHardWord(hintQuote, bonusAnswer, placeholder, lang) : "";
   const hintSourceLine = formatHintSourceLine(puzzle[lang].bonus_hint?.source);
   const bonusRequired = !!bonusAnswer;
+  const bonusGuessComplete = isBonusGuessComplete(bonus, bonusAnswer);
   const result = attempts.length > 0 ? attempts[attempts.length - 1] : null;
   const triesUsed = countTryAttempts(attempts);
   const coreSolved = isCoreSolved(result);
@@ -229,7 +231,9 @@ export function PuzzleView({
   const showHintQuote = stageTwoOpen && hasBonusHint && (hintRevealed || bonusHintUsed);
   const canShare = shareEnabled && attempts.length > 0;
   const sourceEmoji = sourceEmojiFromPuzzle(puzzle);
-  const submitDisabled = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
+  const gameFinished = gameState === GameState.Solved || gameState === GameState.Revealed || gameState === GameState.Failed;
+  const bonusSubmissionBlocked = stageTwoOpen && bonusRequired && !bonusGuessComplete;
+  const submitDisabled = gameFinished || bonusSubmissionBlocked;
   const feedback = useMemo(() => {
     if (!result) return "";
     if (isFullySolved(result, bonusRequired)) return t("puzzleView.solved");
@@ -343,7 +347,7 @@ export function PuzzleView({
   }, [attempts, fullySolved, bonusRequired, sourceEmoji, bonusHintUsed, successMark, shareUrl, t, lang]);
 
   const checkGuess = () => {
-    if (submitDisabled) return;
+    if (gameFinished || (stageTwoOpen && bonusRequired && !bonusGuessComplete)) return;
     setEditedSinceCheck(emptyEditedState());
     setShareNotice("");
     const speakerAnswer = puzzle[lang].speaker;
@@ -351,7 +355,7 @@ export function PuzzleView({
 
     const speakerOk = answersMatch(speaker, speakerAnswer, lang);
     const listenerOk = answersMatch(listener, listenerAnswer, lang);
-    const bonusOk = bonusRequired ? answersMatch(bonus, bonusAnswer, lang) : true;
+    const bonusOk = bonusRequired ? bonusGuessMatches(bonus, bonusAnswer, lang) : true;
     const transitioningToMissingWord = bonusRequired && !stageTwoOpen && speakerOk && listenerOk && !bonusOk;
 
     const next = {
@@ -457,6 +461,8 @@ export function PuzzleView({
         showBonusRow={bonusRowVisible}
         extraChecked={extraChecked}
         bonusDisabled={revealed || answersRevealed || !bonusRequired}
+        bonusAnswer={bonusAnswer}
+        lang={lang}
         bonusStateOverride={gameState === GameState.Failed && bonusRequired ? "wrong" : undefined}
         bonusHintUsed={bonusHintUsed}
         showBonusHint={stageTwoOpen && hasBonusHint}

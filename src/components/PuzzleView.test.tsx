@@ -306,10 +306,10 @@ describe("PuzzleView persistence hydration", () => {
       view = render(buildPuzzleView({ onPersist, initial: initialA }));
     });
 
-    await setInputValue("inputBonus", "earth");
+    await setInputValue("inputBonus", "sand");
 
     expect(calls.length).toBeGreaterThan(0);
-    expect(calls[calls.length - 1]?.bonus).toBe("earth");
+    expect(calls[calls.length - 1]?.bonus).toBe("sand");
     const callsAfterFirstEdit = calls.length;
 
     act(() => {
@@ -360,14 +360,14 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(calls).toHaveLength(0);
 
-    await setInputValue("inputBonus", "earth");
+    await setInputValue("inputBonus", "sand");
 
     expect(calls.length).toBeGreaterThan(0);
     expect(calls.every((call) => call.speaker === "the LORD" && call.listener === "Abram")).toBe(true);
     expect(calls[calls.length - 1]).toMatchObject({
       speaker: "the LORD",
       listener: "Abram",
-      bonus: "earth",
+      bonus: "sand",
       attempts: initialEn.attempts,
     });
   });
@@ -437,7 +437,7 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
+    expect(byId<HTMLInputElement>("inputBonus")).toHaveClass("wrong");
     expect(byId("labelBonus").textContent ?? "").toContain("❌");
   });
 
@@ -467,8 +467,127 @@ describe("PuzzleView persistence hydration", () => {
       );
     });
 
-    expect(byId<HTMLInputElement>("inputBonus").className).toBe("");
-    expect(byId("labelBonus").querySelector('[aria-hidden="true"]')).toBeNull();
+    expect(byId<HTMLInputElement>("inputBonus")).not.toHaveClass("wrong");
+    expect(byId("labelBonus").textContent ?? "").not.toContain("❌");
+  });
+
+  it("accepts only the required number of characters and renders them as tiles", async () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            hintRevealed: false,
+            attempts: [stageTwoTransitionAttempt],
+          },
+        })
+      );
+    });
+
+    const input = byId<HTMLInputElement>("inputBonus");
+    const submit = byId<HTMLButtonElement>("submitGuess");
+    expect(document.querySelectorAll(".bonus-character-tile")).toHaveLength(4);
+    expect(submit.disabled).toBe(true);
+
+    await setInputValue("inputBonus", "s-a");
+    expect(input.value).toBe("sa");
+    expect(submit.disabled).toBe(true);
+
+    await setInputValue("inputBonus", "s-a,n!d-extra");
+    expect(input.value).toBe("sand");
+    expect(submit.disabled).toBe(false);
+    expect(Array.from(document.querySelectorAll(".bonus-character-tile")).map((tile) => tile.textContent)).toEqual([
+      "s",
+      "a",
+      "n",
+      "d",
+    ]);
+  });
+
+  it("renders and accepts an apostrophe in the bonus answer", async () => {
+    const calls: PersistPayload[] = [];
+    const possessivePuzzle: PuzzleItem = {
+      ...puzzle,
+      en: { ...puzzle.en, bonus: "father's" },
+    };
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist: (state) => calls.push(state),
+          puzzle: possessivePuzzle,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "",
+            hintRevealed: false,
+            attempts: [stageTwoTransitionAttempt],
+          },
+        })
+      );
+    });
+
+    await setInputValue("inputBonus", "father’s");
+
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("father's");
+    expect(Array.from(document.querySelectorAll(".bonus-character-tile")).map((tile) => tile.textContent)).toEqual([
+      "f",
+      "a",
+      "t",
+      "h",
+      "e",
+      "r",
+      "'",
+      "s",
+    ]);
+    expect(byId<HTMLButtonElement>("submitGuess").disabled).toBe(false);
+
+    await clickById("submitGuess");
+
+    const latestAttempts = calls[calls.length - 1]?.attempts ?? [];
+    expect(latestAttempts[latestAttempts.length - 1]?.bonusOk).toBe(true);
+    expect(byId<HTMLInputElement>("inputBonus")).toHaveClass("correct");
+  });
+
+  it("shows duplicate-safe per-character feedback and clears it on edit", async () => {
+    const onPersist = () => {};
+
+    act(() => {
+      view = render(
+        buildPuzzleView({
+          onPersist,
+          initial: {
+            speaker: "the LORD",
+            listener: "Abram",
+            portion: "",
+            bonus: "deal",
+            hintRevealed: false,
+            attempts: [failedBonusAttempt],
+          },
+        })
+      );
+    });
+
+    const tileStates = Array.from(document.querySelectorAll(".bonus-character-tile")).map((tile) => tile.className);
+    expect(tileStates).toEqual([
+      "bonus-character-tile present",
+      "bonus-character-tile absent",
+      "bonus-character-tile present",
+      "bonus-character-tile present",
+    ]);
+
+    await setInputValue("inputBonus", "dea");
+    const editedTileStates = Array.from(document.querySelectorAll(".bonus-character-tile")).map(
+      (tile) => tile.className
+    );
+    expect(editedTileStates).toEqual(Array(4).fill("bonus-character-tile"));
   });
 
   it("wraps masked placeholder emojis in a dedicated span when bonus is before the riddle", () => {
@@ -580,13 +699,13 @@ describe("PuzzleView persistence hydration", () => {
     expect(maybeById("bonusHint")).toBeNull();
     expect(byId("refLine").textContent ?? "").toContain("Genesis 12:1");
 
-    await setInputValue("inputBonus", "earth");
+    await setInputValue("inputBonus", "sand");
 
     expect(calls.length).toBeGreaterThan(0);
     expect(calls[calls.length - 1]).toMatchObject({
       speaker: "the LORD",
       listener: "Abram",
-      bonus: "earth",
+      bonus: "sand",
       attempts: [coreSolvedAttempt],
     });
   });
@@ -813,7 +932,7 @@ describe("PuzzleView persistence hydration", () => {
 
     expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✡️⬜");
 
-    await setInputValue("inputBonus", "earth");
+    await setInputValue("inputBonus", "sand");
     await clickById("submitGuess");
 
     expect(document.querySelector(".status-line")?.textContent ?? "").toContain("✅✅✴️⬜");
@@ -839,7 +958,7 @@ describe("PuzzleView persistence hydration", () => {
             speaker: "the LORD",
             listener: "Abram",
             portion: "",
-            bonus: "earth",
+            bonus: "sand",
             hintRevealed: true,
             attempts: [
               stageTwoTransitionAttempt,
@@ -863,9 +982,9 @@ describe("PuzzleView persistence hydration", () => {
     expect(fullQuoteText.includes(placeholder)).toBe(false);
     expect(hintQuoteText.includes("land")).toBe(true);
     expect(hintQuoteText.includes(placeholder)).toBe(false);
-    expect(byId<HTMLInputElement>("inputBonus").value).toBe("earth");
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("sand");
     expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);
-    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
+    expect(byId<HTMLInputElement>("inputBonus")).toHaveClass("wrong");
     expect(byId("labelBonus").textContent ?? "").toContain("❌");
   });
 
@@ -881,7 +1000,7 @@ describe("PuzzleView persistence hydration", () => {
             speaker: "Sarah",
             listener: "Isaac",
             portion: "",
-            bonus: "earth",
+            bonus: "sand",
             hintRevealed: false,
             attempts: [failedAttempt, failedAttempt, failedAttempt, failedAttempt, failedAttempt],
           },
@@ -892,11 +1011,11 @@ describe("PuzzleView persistence hydration", () => {
     expect(byId("feedback").textContent ?? "").toBe("No tries left.");
     expect(byId<HTMLSelectElement>("inputSpeaker").value).toBe("the LORD");
     expect(byId<HTMLSelectElement>("inputListener").value).toBe("Abram");
-    expect(byId<HTMLInputElement>("inputBonus").value).toBe("earth");
+    expect(byId<HTMLInputElement>("inputBonus").value).toBe("sand");
     expect(byId<HTMLSelectElement>("inputSpeaker").disabled).toBe(true);
     expect(byId<HTMLSelectElement>("inputListener").disabled).toBe(true);
     expect(byId<HTMLInputElement>("inputBonus").disabled).toBe(true);
-    expect(byId<HTMLInputElement>("inputBonus").className).toBe("wrong");
+    expect(byId<HTMLInputElement>("inputBonus")).toHaveClass("wrong");
     expect(byId("labelSpeaker").textContent ?? "").toContain("✅");
     expect(byId("labelListener").textContent ?? "").toContain("✅");
     expect(byId("labelBonus").textContent ?? "").toContain("❌");

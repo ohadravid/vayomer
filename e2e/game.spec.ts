@@ -3,6 +3,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { pickDailyItemIndex, pickDailyItemIndexWithOverrides } from "../src/lib/daily";
+import { bonusWordLength } from "../src/lib/bonusWord";
 import { normalize } from "../src/lib/format";
 import type { Lang } from "../src/types";
 
@@ -70,9 +71,6 @@ type GameOpenOptions = {
   puzzleId?: string;
 };
 
-const WRONG_TEXT = "not-the-answer";
-const EN_BONUS_DRAFT = "draft-word";
-const HE_BONUS_DRAFT = "טיוטה";
 const EXAMPLE_SEEN_STORAGE_KEY = "qs:example-seen";
 const generatedOptionsDirPath = fileURLToPath(new URL("../data/processed/generated_options", import.meta.url));
 const manualQuotesDirPath = fileURLToPath(new URL("../data/manual_quotes", import.meta.url));
@@ -254,6 +252,35 @@ const heAnswer = {
   bonus: testPuzzle.he.bonus!.trim(),
 };
 
+const longestEnglishBonusPuzzle = dailyItems.reduce<PuzzleItem | null>((longest, candidate) => {
+  const candidateBonus = candidate.en.bonus?.trim() ?? "";
+  if (!candidateBonus) return longest;
+  if (!longest) return candidate;
+  const longestBonus = longest.en.bonus?.trim() ?? "";
+  return bonusWordLength(candidateBonus) > bonusWordLength(longestBonus) ? candidate : longest;
+}, null);
+
+if (!longestEnglishBonusPuzzle || bonusWordLength(longestEnglishBonusPuzzle.en.bonus?.trim() ?? "") < 10) {
+  throw new Error("Expected a long English bonus answer for responsive tile coverage.");
+}
+
+const longestEnglishBonusAnswer = {
+  speaker: longestEnglishBonusPuzzle.en.speaker,
+  listener: longestEnglishBonusPuzzle.en.listener,
+  bonus: longestEnglishBonusPuzzle.en.bonus!.trim(),
+};
+
+function buildWrongBonus(answer: string, lang: Lang): string {
+  const length = bonusWordLength(answer);
+  const candidates = lang === "he" ? ["א", "ב"] : ["x", "z"];
+  const candidate = candidates.find((letter) => normalize(letter.repeat(length), lang) !== normalize(answer, lang));
+  return (candidate ?? candidates[0]).repeat(length);
+}
+
+const enBonusDraft = buildWrongBonus(enAnswer.bonus, "en");
+const heBonusDraft = buildWrongBonus(heAnswer.bonus, "he");
+const longestEnglishWrongBonus = buildWrongBonus(longestEnglishBonusAnswer.bonus, "en");
+
 const hintPuzzle = dailyItems.find(
   (item) =>
     !!item.en.bonus?.trim() &&
@@ -272,6 +299,7 @@ const hintEnAnswer = {
   listener: hintPuzzle.en.listener,
   bonus: hintPuzzle.en.bonus!.trim(),
 };
+const hintWrongBonus = buildWrongBonus(hintEnAnswer.bonus, "en");
 
 const divineAliasPuzzle = dailyItems.find(
   (item) =>
@@ -546,8 +574,8 @@ test("language switch keeps shared progress and separate drafts", async ({ page 
   await expect(page.locator("#feedback")).toHaveText("יפה! עכשיו מצאו את המילה החסרה.");
   await expect(page.getByText("ניסיונות: 0/5")).toBeVisible();
   await expect(page.locator("#inputBonus")).toBeEnabled();
-  await page.fill("#inputBonus", HE_BONUS_DRAFT);
-  await expect(page.locator("#inputBonus")).toHaveValue(HE_BONUS_DRAFT);
+  await page.fill("#inputBonus", heBonusDraft);
+  await expect(page.locator("#inputBonus")).toHaveValue(heBonusDraft);
 
   await page.getByRole("button", { name: "החלפת שפה ל-EN" }).click();
 
@@ -560,8 +588,8 @@ test("language switch keeps shared progress and separate drafts", async ({ page 
   await expect(page.locator("#inputBonus")).toHaveValue("");
   expect(new URL(page.url()).searchParams.get("puzzle")).toBe(puzzleId);
 
-  await page.fill("#inputBonus", EN_BONUS_DRAFT);
-  await expect(page.locator("#inputBonus")).toHaveValue(EN_BONUS_DRAFT);
+  await page.fill("#inputBonus", enBonusDraft);
+  await expect(page.locator("#inputBonus")).toHaveValue(enBonusDraft);
 
   await page.getByRole("button", { name: "Switch language to HE" }).click();
 
@@ -571,7 +599,7 @@ test("language switch keeps shared progress and separate drafts", async ({ page 
   const heSpeakerAfterReturn = await page.locator("#inputSpeaker").inputValue();
   expect(normalize(heSpeakerAfterReturn, "he")).toBe(normalize(heAnswer.speaker, "he"));
   await expect(page.locator("#inputListener")).toHaveValue(heAnswer.listener);
-  await expect(page.locator("#inputBonus")).toHaveValue(HE_BONUS_DRAFT);
+  await expect(page.locator("#inputBonus")).toHaveValue(heBonusDraft);
 });
 
 test("bonus hint in stage two reveals hint, stays visible after solve, and is reflected in share", async ({ page }) => {
@@ -629,7 +657,7 @@ test("stage-two failure reveals the bonus in quote and hint but preserves the ty
   await page.click("#bonusHint");
   await expect(page.locator("#hintQuote")).toBeVisible();
 
-  await page.fill("#inputBonus", WRONG_TEXT);
+  await page.fill("#inputBonus", hintWrongBonus);
   for (let idx = 0; idx < 5; idx += 1) {
     await page.click("#submitGuess");
   }
@@ -640,7 +668,7 @@ test("stage-two failure reveals the bonus in quote and hint but preserves the ty
   const hintQuoteAfterLose = await page.locator("#hintQuote").innerText();
   expect(normalize(quoteAfterLose, "en")).toContain(normalize(hintEnAnswer.bonus, "en"));
   expect(normalize(hintQuoteAfterLose, "en")).toContain(normalize(hintEnAnswer.bonus, "en"));
-  await expect(page.locator("#inputBonus")).toHaveValue(WRONG_TEXT);
+  await expect(page.locator("#inputBonus")).toHaveValue(hintWrongBonus);
   await expect(page.locator("#inputBonus")).toBeDisabled();
   await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
   await expect(page.locator("#labelBonus")).toContainText("❌");
@@ -662,18 +690,85 @@ test("full game: mistakes and win", async ({ page }) => {
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
 
-  await page.fill("#inputBonus", WRONG_TEXT);
+  const bonusTiles = page.locator(".bonus-character-tile");
+  await expect(bonusTiles).toHaveCount(bonusWordLength(enAnswer.bonus));
+  await expect(page.locator("#submitGuess")).toBeDisabled();
+  await page.fill("#inputBonus", `!${enBonusDraft}extra`);
+  await expect(page.locator("#inputBonus")).toHaveValue(enBonusDraft);
+  await page.locator("#inputBonus").press("Backspace");
+  await expect(page.locator("#inputBonus")).toHaveValue(enBonusDraft.slice(0, -1));
+  await expect(page.locator("#submitGuess")).toBeDisabled();
+  await page.fill("#inputBonus", enBonusDraft);
+  await expect(page.locator("#submitGuess")).toBeEnabled();
   await page.click("#submitGuess");
   await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
   await expect(page.getByText("Status: ✅✅✴️⬜")).toBeVisible();
   await expect(page.locator("#inputBonus")).toHaveClass(/wrong/);
   await expect(page.locator("#labelBonus")).toContainText("❌");
+  await expect(
+    page.locator(".bonus-character-tile.correct, .bonus-character-tile.present, .bonus-character-tile.absent")
+  ).toHaveCount(
+    bonusWordLength(enAnswer.bonus)
+  );
 
   await page.fill("#inputBonus", enAnswer.bonus);
   await page.click("#submitGuess");
 
   await expect(page.locator("#feedback")).toHaveText("Solved.");
   await expect(page.getByText("Tries: 3/5")).toBeVisible();
+});
+
+test("long bonus row stays within a mobile Chrome viewport and accepts touch input", async ({ page }, testInfo) => {
+  test.skip(testInfo.project.name !== "mobile-chromium", "Mobile-specific responsive coverage.");
+
+  await openGame(page, { puzzleId: longestEnglishBonusPuzzle.id, lang: "en" });
+  await selectAnswerOption(page.locator("#inputSpeaker"), longestEnglishBonusAnswer.speaker, "en");
+  await selectAnswerOption(page.locator("#inputListener"), longestEnglishBonusAnswer.listener, "en");
+  await page.click("#submitGuess");
+
+  await expect(page.locator("#feedback")).toHaveText("Nice! Now find the missing word.");
+  const bonusInput = page.locator("#inputBonus");
+  const bonusTiles = page.locator(".bonus-character-tile");
+  await expect(bonusTiles).toHaveCount(bonusWordLength(longestEnglishBonusAnswer.bonus));
+
+  for (const viewport of [
+    { width: 393, height: 851 },
+    { width: 320, height: 700 },
+  ]) {
+    await page.setViewportSize(viewport);
+    const layout = await page.locator(".bonus-word-control").evaluate((control) => {
+      const controlRect = control.getBoundingClientRect();
+      const tileRects = Array.from(control.querySelectorAll<HTMLElement>(".bonus-character-tile")).map((tile) => {
+        const rect = tile.getBoundingClientRect();
+        return { left: rect.left, right: rect.right, width: rect.width, height: rect.height };
+      });
+      return {
+        viewportWidth: window.innerWidth,
+        pageWidth: Math.max(document.documentElement.scrollWidth, document.body.scrollWidth),
+        control: { left: controlRect.left, right: controlRect.right },
+        tiles: tileRects,
+      };
+    });
+
+    expect(layout.pageWidth).toBeLessThanOrEqual(layout.viewportWidth + 1);
+    expect(layout.control.left).toBeGreaterThanOrEqual(0);
+    expect(layout.control.right).toBeLessThanOrEqual(layout.viewportWidth + 1);
+    for (const tile of layout.tiles) {
+      expect(tile.left).toBeGreaterThanOrEqual(0);
+      expect(tile.right).toBeLessThanOrEqual(layout.viewportWidth + 1);
+      expect(tile.width).toBeGreaterThan(0);
+      expect(Math.abs(tile.width - tile.height)).toBeLessThanOrEqual(1);
+    }
+  }
+
+  await bonusInput.tap();
+  await expect(bonusInput).toBeFocused();
+  await page.keyboard.type(longestEnglishWrongBonus);
+  await expect(bonusInput).toHaveValue(longestEnglishWrongBonus);
+  await expect(page.locator("#submitGuess")).toBeEnabled();
+  await page.keyboard.press("Backspace");
+  await expect(bonusInput).toHaveValue(longestEnglishWrongBonus.slice(0, -1));
+  await expect(page.locator("#submitGuess")).toBeDisabled();
 });
 
 test("solved state survives two reloads", async ({ page }) => {

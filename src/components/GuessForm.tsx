@@ -1,6 +1,8 @@
 import { useTranslation } from "react-i18next";
 import type { ReactNode } from "react";
-import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues } from "../types";
+import { bonusWordLength, splitBonusCharacters } from "../lib/bonusWord";
+import type { EasyChoicePools, GuessEditState, GuessField, GuessResult, GuessValues, Lang } from "../types";
+import { BonusWordInput } from "./BonusWordInput";
 
 type Props = {
   choiceOptions?: EasyChoicePools;
@@ -19,6 +21,8 @@ type Props = {
   showBonusRow: boolean;
   extraChecked: boolean;
   bonusDisabled: boolean;
+  bonusAnswer: string;
+  lang: Lang;
   bonusStateOverride?: "correct" | "wrong" | "";
   bonusHintUsed: boolean;
   canShare: boolean;
@@ -48,6 +52,8 @@ export function GuessForm({
   showBonusRow,
   extraChecked,
   bonusDisabled,
+  bonusAnswer,
+  lang,
   bonusStateOverride,
   bonusHintUsed,
   canShare,
@@ -76,6 +82,8 @@ export function GuessForm({
   const bonusState: "correct" | "wrong" | "" =
     bonusStateOverride ?? (bonusFeedbackVisible ? (result!.bonusOk ? "correct" : "wrong") : "");
   const bonusMark = bonusState === "correct" ? "✅" : bonusState === "wrong" ? "❌" : "";
+  const bonusCharactersEntered = splitBonusCharacters(values.bonus).length;
+  const expectedBonusCharacters = bonusWordLength(bonusAnswer);
 
   const renderEasyChoiceControl = (
     field: "speaker" | "listener",
@@ -140,18 +148,22 @@ export function GuessForm({
           <div className="bonus-cell" aria-hidden={!showBonusRow}>
             <label>
               <span id="labelBonus" className="field-label">
-                {t("guessForm.bonus")}
-                {bonusMark ? <span aria-hidden="true">{bonusMark}</span> : null}
+                <span>
+                  {t("guessForm.bonus")}
+                  {bonusMark ? <span aria-hidden="true"> {bonusMark}</span> : null}
+                </span>
+                <span className="bonus-character-count" aria-hidden="true">
+                  {bonusCharactersEntered}/{expectedBonusCharacters}
+                </span>
               </span>
-              <input
+              <BonusWordInput
                 id="inputBonus"
-                type="text"
-                autoComplete="off"
                 value={values.bonus}
-                onChange={(e) => onChange("bonus", e.target.value)}
+                answer={bonusAnswer}
+                lang={lang}
+                onChange={(value) => onChange("bonus", value)}
                 disabled={bonusDisabled || !showBonusRow}
-                tabIndex={showBonusRow ? 0 : -1}
-                className={bonusState}
+                feedbackState={bonusState}
               />
             </label>
           </div>
