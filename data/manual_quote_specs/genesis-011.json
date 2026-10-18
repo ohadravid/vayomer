@@ -1,0 +1,38 @@
+{
+  "id": "manual-genesis-11-01-04-grandma",
+  "book_code": "GEN",
+  "chapter": 11,
+  "quote_verse_start": 1,
+  "quote_verse_end": 4,
+  "source_emoji": "👵",
+  "en": {
+    "riddle": "Go to, let us build us a city and a tower, whose top may reach unto heaven; and let us make us a name, lest we be scattered abroad upon the face of the whole earth.",
+    "speaker": "the people of Shinar",
+    "listener": "one another",
+    "options": {
+      "speaker": ["the children of Israel", "the people of Nineveh", "the people of Sodom"],
+      "listener": ["God", "Noah", "Abraham"]
+    },
+    "bonus": "heaven",
+    "bonus_hint": {
+      "quote": "It is not in heaven",
+      "source": {"book": "Deuteronomy", "chapter": 30, "start": 12, "end": 12},
+      "source_book_code": "DEU"
+    }
+  },
+  "he": {
+    "riddle": "הָבָה נִבְנֶה־לָּנוּ עִיר וּמִגְדָּל וְרֹאשׁוֹ בַשָּׁמַיִם וְנַֽעֲשֶׂה־לָּנוּ שֵׁם פֶּן־נָפוּץ עַל־פְּנֵי כָל־הָאָֽרֶץ",
+    "speaker": "אַנְשֵׁי שִׁנְעָר",
+    "listener": "אִישׁ אֶל־רֵעֵהוּ",
+    "options": {
+      "speaker": ["בְּנֵי יִשְׂרָאֵל", "אַנְשֵׁי נִינְוֵה", "אַנְשֵׁי סְדֹם"],
+      "listener": ["אֱלֹהִים", "נֹחַ", "אַבְרָהָם"]
+    },
+    "bonus": "בַשָּׁמַיִם",
+    "bonus_hint": {
+      "quote": "לֹא בַשָּׁמַיִם הִוא",
+      "source": {"book": "דברים", "chapter": 30, "start": 12, "end": 12},
+      "source_book_code": "DEU"
+    }
+  }
+}

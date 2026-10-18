@@ -1,0 +1,38 @@
+{
+  "id": "manual-genesis-06-13-14-grandma",
+  "book_code": "GEN",
+  "chapter": 6,
+  "quote_verse_start": 13,
+  "quote_verse_end": 14,
+  "source_emoji": "👵",
+  "en": {
+    "riddle": "Make thee an ark of gopher wood; rooms shalt thou make in the ark, and shalt pitch it within and without with pitch.",
+    "speaker": "God",
+    "listener": "Noah",
+    "options": {
+      "speaker": ["Moses", "Solomon", "David"],
+      "listener": ["Moses", "Abraham", "Solomon"]
+    },
+    "bonus": "ark",
+    "bonus_hint": {
+      "quote": "Come thou and all thy house into the ark",
+      "source": {"book": "Genesis", "chapter": 7, "start": 1, "end": 1},
+      "source_book_code": "GEN"
+    }
+  },
+  "he": {
+    "riddle": "עֲשֵׂה לְךָ תֵּבַת עֲצֵי־גֹפֶר קִנִּים תַּֽעֲשֶׂה אֶת־הַתֵּבָה וְכָֽפַרְתָּ אֹתָהּ מִבַּיִת וּמִחוּץ בַּכֹּֽפֶר",
+    "speaker": "אֱלֹהִים",
+    "listener": "נֹחַ",
+    "options": {
+      "speaker": ["מֹשֶׁה", "שְׁלֹמֹה", "דָּוִד"],
+      "listener": ["מֹשֶׁה", "אַבְרָהָם", "שְׁלֹמֹה"]
+    },
+    "bonus": "הַתֵּבָה",
+    "bonus_hint": {
+      "quote": "אַתָּה וְכָל־בֵּיתְךָ אֶל־הַתֵּבָה",
+      "source": {"book": "בראשית", "chapter": 7, "start": 1, "end": 1},
+      "source_book_code": "GEN"
+    }
+  }
+}
