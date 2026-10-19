@@ -104,7 +104,8 @@ export function PuzzleCard({
   const shouldMaskBonusInVisibleQuote = unmaskedQuote && sourceRevealed && !revealed && !bonusRevealed;
   const shouldMaskBonus = !unmaskedQuote || shouldMaskBonusInVisibleQuote;
   const renderedQuote = shouldMaskBonus ? maskHardWord(quote, bonus, placeholder, lang) : quote;
-  const quoteContent = highlightQuote(renderedQuote, riddleText, shouldMaskBonus ? placeholder : "");
+  const renderedRiddle = shouldMaskBonus ? maskHardWord(riddleText, bonus, placeholder, lang) : riddleText;
+  const quoteContent = highlightQuote(renderedQuote, renderedRiddle, shouldMaskBonus ? placeholder : "");
 
   const book = getBookLabel(puzzle, lang);
   const mainSourceRange = getMainSourceRange(puzzle);

@@ -205,7 +205,7 @@ export function renderQuoteText(text: string, placeholder = "", keyPrefix = "quo
 export function highlightQuote(quote: string, riddle: string, placeholder = ""): ReactNode {
   if (!quote || !riddle) return quote;
   const idx = quote.indexOf(riddle);
-  if (idx === -1) return renderQuoteText(quote, placeholder, "full");
+  if (idx === -1) return <span className="quote-hidden veil">{renderQuoteText(quote, placeholder, "full")}</span>;
 
   const before = quote.slice(0, idx);
   const after = quote.slice(idx + riddle.length);
