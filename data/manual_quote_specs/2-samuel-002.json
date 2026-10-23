@@ -1,0 +1,38 @@
+{
+  "id": "manual-2-samuel-02-26-27-grandma",
+  "book_code": "2SA",
+  "chapter": 2,
+  "quote_verse_start": 26,
+  "quote_verse_end": 27,
+  "source_emoji": "👵",
+  "en": {
+    "riddle": "Shall the sword devour for ever? knowest thou not that it will be bitterness in the latter end? how long shall it be then, ere thou bid the people return from following their brethren?",
+    "speaker": "Abner",
+    "listener": "Joab",
+    "options": {
+      "speaker": ["David", "Saul", "Jonathan"],
+      "listener": ["Abishai", "Asahel", "David"]
+    },
+    "bonus": "sword",
+    "bonus_hint": {
+      "quote": "But if ye refuse and rebel, ye shall be devoured with the sword",
+      "source": {"book": "Isaiah", "chapter": 1, "start": 20, "end": 20},
+      "source_book_code": "ISA"
+    }
+  },
+  "he": {
+    "riddle": "הֲלָנֶצַח תֹּאכַל חֶרֶב הֲלוֹא יָדַעְתָּה כִּֽי־מָרָה תִהְיֶה בָּאַחֲרוֹנָה וְעַד־מָתַי לֹֽא־תֹאמַר לָעָם לָשׁוּב מֵאַחֲרֵי אֲחֵיהֶֽם",
+    "speaker": "אַבְנֵר",
+    "listener": "יוֹאָב",
+    "options": {
+      "speaker": ["דָּוִד", "שָׁאוּל", "יְהוֹנָתָן"],
+      "listener": ["אֲבִישַׁי", "עֲשָׂהאֵל", "דָּוִד"]
+    },
+    "bonus": "חֶרֶב",
+    "bonus_hint": {
+      "quote": "וְאִם־תְּמָאֲנוּ וּמְרִיתֶם חֶרֶב תְּאֻכְּלוּ",
+      "source": {"book": "ישעיהו", "chapter": 1, "start": 20, "end": 20},
+      "source_book_code": "ISA"
+    }
+  }
+}

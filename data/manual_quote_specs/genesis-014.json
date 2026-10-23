@@ -1,0 +1,39 @@
+{
+  "id": "manual-genesis-14-22-23-grandma",
+  "book_code": "GEN",
+  "chapter": 14,
+  "quote_verse_start": 22,
+  "quote_verse_end": 23,
+  "source_emoji": "👵",
+  "en": {
+    "riddle": "That I will not take from a thread even to a shoelatchet, and that I will not take any thing that is thine, lest thou shouldest say",
+    "speaker": "Abram",
+    "listener": "the king of Sodom",
+    "options": {
+      "speaker": ["Lot", "Jacob", "Abraham"],
+      "listener": ["the king of Salem", "Pharaoh", "Abimelech"]
+    },
+    "bonus": "rich",
+    "bonus_hint": {
+      "quote": "The blessing of the LORD, it maketh rich",
+      "source": {"book": "Proverbs", "chapter": 10, "start": 22, "end": 22},
+      "source_book_code": "PRO"
+    }
+  },
+  "he": {
+    "riddle": "אִם־מִחוּט וְעַד שְׂרֽוֹךְ־נַעַל וְאִם־אֶקַּח מִכָּל־אֲשֶׁר־לָךְ וְלֹא תֹאמַר",
+    "speaker": "אַבְרָם",
+    "listener": "מֶלֶךְ סְדֹם",
+    "options": {
+      "speaker": ["לוֹט", "יַעֲקֹב", "אַבְרָהָם"],
+      "listener": ["מֶלֶךְ שָׁלֵם", "פַּרְעֹה", "אֲבִימֶלֶךְ"]
+    },
+    "bonus": "הֶעֱשַׁרְתִּי",
+    "bonus_hint": {
+      "quote": "בִּרְכַּת יְהוָה הִיא תַעֲשִׁיר",
+      "match_terms": ["תַעֲשִׁיר"],
+      "source": {"book": "משלי", "chapter": 10, "start": 22, "end": 22},
+      "source_book_code": "PRO"
+    }
+  }
+}
