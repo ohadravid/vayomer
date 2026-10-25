@@ -33,6 +33,16 @@ function renderCard(puzzle: PuzzleItem, props: { revealed?: boolean; quoteReveal
 }
 
 describe.each(["en", "he"] as const)("PuzzleCard masking in %s", (lang) => {
+  it("keeps today's riddle visible when the exact bonus is only in its context", () => {
+    language = lang;
+    const puzzle = JSON.parse(readFileSync("data/manual_quotes/genesis-014.json", "utf8")).items[0] as PuzzleItem;
+    const document = renderCard(puzzle);
+
+    expect(document.querySelector("#fullQuote .highlight")?.textContent).toBe(puzzle[lang].riddle);
+    expect(document.querySelector("#fullQuote")?.textContent).not.toContain(puzzle[lang].bonus);
+    expect(document.querySelector("#fullQuote .quote-hidden .quote-emoji")).not.toBeNull();
+  });
+
   it.each(puzzles)("keeps surrounding text hidden when the bonus is in $id's riddle", (puzzle) => {
     language = lang;
     const document = renderCard(puzzle);

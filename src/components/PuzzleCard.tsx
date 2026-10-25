@@ -104,7 +104,10 @@ export function PuzzleCard({
   const shouldMaskBonusInVisibleQuote = unmaskedQuote && sourceRevealed && !revealed && !bonusRevealed;
   const shouldMaskBonus = !unmaskedQuote || shouldMaskBonusInVisibleQuote;
   const renderedQuote = shouldMaskBonus ? maskHardWord(quote, bonus, placeholder, lang) : quote;
-  const renderedRiddle = shouldMaskBonus ? maskHardWord(riddleText, bonus, placeholder, lang) : riddleText;
+  // Exact matching in the quote must not become fuzzy matching in its riddle.
+  const shouldMaskRiddle = shouldMaskBonus &&
+    (!quote.includes(bonus.trim()) || riddleText.includes(bonus.trim()));
+  const renderedRiddle = shouldMaskRiddle ? maskHardWord(riddleText, bonus, placeholder, lang) : riddleText;
   const quoteContent = highlightQuote(renderedQuote, renderedRiddle, shouldMaskBonus ? placeholder : "");
 
   const book = getBookLabel(puzzle, lang);
