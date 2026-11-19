@@ -29,6 +29,11 @@ export const DAILY_QUOTE_ID_OVERRIDES: Readonly<Record<string, string>> = {
   "2026-10-25": "manual-genesis-14-22-23-grandma",
   "2026-10-26": "manual-2-samuel-02-26-27-grandma",
   "2026-10-27": "manual-2-samuel-14-23-24-grandma",
+  "2026-11-20": "manual-genesis-27-37-38-grandma",
+  "2026-11-21": "manual-genesis-31-38-40-grandma",
+  "2026-11-22": "manual-genesis-32-10-12-grandma",
+  "2026-11-23": "manual-genesis-42-14-15-grandma",
+  "2026-11-24": "manual-judges-14-14-15-grandma",
 };
 
 function toLocalPlainDate(date: DailyDateInput): Temporal.PlainDate {

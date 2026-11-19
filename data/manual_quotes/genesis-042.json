@@ -1,0 +1,102 @@
+{
+  "book_code": "GEN",
+  "book": "Genesis",
+  "book_he": "בראשית",
+  "chapter": 42,
+  "mode": "manual",
+  "items": [
+    {
+      "id": "manual-genesis-42-14-15-grandma",
+      "source": {
+        "method": "manual",
+        "book_code": "GEN",
+        "book": "Genesis",
+        "book_he": "בראשית",
+        "chapter": 42,
+        "quote_verse_start": 14,
+        "quote_verse_end": 15,
+        "emoji": "👵"
+      },
+      "en": {
+        "quote": "And Joseph said unto them, That is it that I spake unto you, saying, Ye are spies: Hereby ye shall be proved: By the life of Pharaoh ye shall not go forth hence, except your youngest brother come hither.",
+        "riddle": "That is it that I spake unto you, saying, Ye are spies:",
+        "speaker": "Joseph",
+        "listener": "his brothers",
+        "book": "Genesis",
+        "options": {
+          "speaker": [
+            "Pharaoh",
+            "Jacob",
+            "Potiphar"
+          ],
+          "listener": [
+            "Pharaoh's servants",
+            "Benjamin",
+            "his father"
+          ]
+        },
+        "bonus": "Pharaoh",
+        "bonus_hint": {
+          "quote": "Then Pharaoh sent and called Joseph",
+          "source": {
+            "book": "Genesis",
+            "chapter": 41,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "he": {
+        "quote": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הוּא אֲשֶׁר דִּבַּרְתִּי אֲלֵכֶם לֵאמֹר מְרַגְּלִים אַתֶּֽם בְּזֹאת תִּבָּחֵנוּ חֵי פַרְעֹה אִם־תֵּצְאוּ מִזֶּה כִּי אִם־בְּבוֹא אֲחִיכֶם הַקָּטֹן הֵֽנָּה",
+        "riddle": "הוּא אֲשֶׁר דִּבַּרְתִּי אֲלֵכֶם לֵאמֹר מְרַגְּלִים אַתֶּֽם",
+        "speaker": "יוֹסֵף",
+        "listener": "אֶחָיו",
+        "book": "בראשית",
+        "options": {
+          "speaker": [
+            "פַּרְעֹה",
+            "יַעֲקֹב",
+            "פּוֹטִיפַר"
+          ],
+          "listener": [
+            "עַבְדֵי פַרְעֹה",
+            "בִּנְיָמִין",
+            "אָבִיו"
+          ]
+        },
+        "bonus": "פַרְעֹה",
+        "bonus_hint": {
+          "quote": "וַיִּשְׁלַח פַּרְעֹה וַיִּקְרָא אֶת־יוֹסֵף",
+          "source": {
+            "book": "בראשית",
+            "chapter": 41,
+            "start": 14,
+            "end": 14
+          }
+        }
+      },
+      "raw_quote_source": {
+        "en": {
+          "14": "And Joseph said unto them, That is it that I spake unto you, saying, Ye are spies:",
+          "15": "Hereby ye shall be proved: By the life of Pharaoh ye shall not go forth hence, except your youngest brother come hither."
+        },
+        "he": {
+          "14": "וַיֹּאמֶר אֲלֵהֶם יוֹסֵף הוּא אֲשֶׁר דִּבַּרְתִּי אֲלֵכֶם לֵאמֹר מְרַגְּלִים אַתֶּֽם׃",
+          "15": "בְּזֹאת תִּבָּחֵנוּ חֵי פַרְעֹה אִם־תֵּצְאוּ מִזֶּה כִּי אִם־בְּבוֹא אֲחִיכֶם הַקָּטֹן הֵֽנָּה׃"
+        }
+      },
+      "ref": {
+        "chapter": 42,
+        "start": 14,
+        "end": 15
+      },
+      "meta": {
+        "mode": "manual",
+        "source": "manual-spec",
+        "template_item_id": "",
+        "bonus_source": "manual",
+        "bonus_hint_source": "manual"
+      }
+    }
+  ]
+}
